@@ -110,7 +110,6 @@
                 "end": 779,
                 "name": "__func"
               },
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -132,7 +131,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             },
             "consequent": {
               "type": "ExpressionStatement",
@@ -151,7 +151,6 @@
                     "start": 813,
                     "end": 843,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -173,7 +172,8 @@
                           }
                         }
                       ]
-                    }
+                    },
+                    "expression": false
                   }
                 },
                 "arguments": [],
@@ -197,7 +197,6 @@
                     "start": 854,
                     "end": 878,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -220,7 +219,8 @@
                           "directive": "MissBranch"
                         }
                       ]
-                    }
+                    },
+                    "expression": false
                   }
                 },
                 "arguments": [],

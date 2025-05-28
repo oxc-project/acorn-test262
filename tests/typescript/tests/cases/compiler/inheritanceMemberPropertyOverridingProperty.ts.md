@@ -9,61 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 32,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 8,
-        "end": 32,
-        "body": [
-          {
-            "type": "PropertyDefinition",
-            "start": 14,
-            "end": 30,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
-            "key": {
-              "type": "Identifier",
-              "start": 14,
-              "end": 15,
-              "decorators": [],
-              "name": "x",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 15,
-              "end": 29,
-              "typeAnnotation": {
-                "type": "TSFunctionType",
-                "start": 17,
-                "end": 29,
-                "params": [],
-                "returnType": {
-                  "type": "TSTypeAnnotation",
-                  "start": 20,
-                  "end": 29,
-                  "typeAnnotation": {
-                    "type": "TSStringKeyword",
-                    "start": 23,
-                    "end": 29
-                  }
-                },
-                "typeParameters": null
-              }
-            },
-            "value": null
-          }
-        ]
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -74,70 +19,70 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
-    },
-    {
-      "type": "ClassDeclaration",
-      "start": 34,
-      "end": 76,
-      "abstract": false,
+      "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 52,
-        "end": 76,
+        "start": 8,
+        "end": 32,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 58,
-            "end": 74,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
+            "start": 14,
+            "end": 30,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 58,
-              "end": 59,
+              "start": 14,
+              "end": 15,
               "decorators": [],
               "name": "x",
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 59,
-              "end": 73,
+              "start": 15,
+              "end": 29,
               "typeAnnotation": {
                 "type": "TSFunctionType",
-                "start": 61,
-                "end": 73,
+                "start": 17,
+                "end": 29,
+                "typeParameters": null,
                 "params": [],
                 "returnType": {
                   "type": "TSTypeAnnotation",
-                  "start": 64,
-                  "end": 73,
+                  "start": 20,
+                  "end": 29,
                   "typeAnnotation": {
                     "type": "TSStringKeyword",
-                    "start": 67,
-                    "end": 73
+                    "start": 23,
+                    "end": 29
                   }
-                },
-                "typeParameters": null
+                }
               }
             },
-            "value": null
+            "value": null,
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
+      "abstract": false,
+      "declare": false
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 34,
+      "end": 76,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -148,7 +93,7 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": {
         "type": "Identifier",
         "start": 50,
@@ -159,7 +104,62 @@ __ESTREE_TEST__:PASS:
         "typeAnnotation": null
       },
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 52,
+        "end": 76,
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "start": 58,
+            "end": 74,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 58,
+              "end": 59,
+              "decorators": [],
+              "name": "x",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 59,
+              "end": 73,
+              "typeAnnotation": {
+                "type": "TSFunctionType",
+                "start": 61,
+                "end": 73,
+                "typeParameters": null,
+                "params": [],
+                "returnType": {
+                  "type": "TSTypeAnnotation",
+                  "start": 64,
+                  "end": 73,
+                  "typeAnnotation": {
+                    "type": "TSStringKeyword",
+                    "start": 67,
+                    "end": 73
+                  }
+                }
+              }
+            },
+            "value": null,
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
+          }
+        ]
+      },
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

@@ -13,16 +13,6 @@ __ESTREE_TEST__:PASS:
         "type": "FunctionDeclaration",
         "start": 15,
         "end": 34,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 30,
-          "end": 34,
-          "body": []
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 24,
@@ -32,9 +22,19 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [],
         "returnType": null,
-        "typeParameters": null
+        "body": {
+          "type": "BlockStatement",
+          "start": 30,
+          "end": 34,
+          "body": []
+        },
+        "expression": false
       },
       "exportKind": "value"
     },
@@ -46,16 +46,6 @@ __ESTREE_TEST__:PASS:
         "type": "FunctionDeclaration",
         "start": 51,
         "end": 70,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 66,
-          "end": 70,
-          "body": []
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 60,
@@ -65,9 +55,19 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [],
         "returnType": null,
-        "typeParameters": null
+        "body": {
+          "type": "BlockStatement",
+          "start": 66,
+          "end": 70,
+          "body": []
+        },
+        "expression": false
       },
       "exportKind": "value"
     }
@@ -87,14 +87,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 25,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 19,
-        "end": 25,
-        "raw": "\"./m1\"",
-        "value": "./m1"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -111,19 +103,25 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 19,
+        "end": 25,
+        "value": "./m1",
+        "raw": "\"./m1\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 27,
       "end": 36,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 27,
         "end": 35,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 27,
@@ -133,9 +131,11 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

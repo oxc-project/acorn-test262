@@ -9,17 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 19,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 19,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 11,
             "end": 18,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 11,
@@ -33,47 +32,23 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 17,
               "end": 18,
-              "raw": "3",
-              "value": 3
-            }
+              "value": 3,
+              "raw": "3"
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "FunctionDeclaration",
       "start": 21,
       "end": 56,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 44,
-        "end": 56,
-        "body": [
-          {
-            "type": "ReturnStatement",
-            "start": 46,
-            "end": 55,
-            "argument": {
-              "type": "Identifier",
-              "start": 53,
-              "end": 54,
-              "decorators": [],
-              "name": "n",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 30,
@@ -83,6 +58,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -104,31 +83,60 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 44,
+        "end": 56,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 46,
+            "end": 55,
+            "argument": {
+              "type": "Identifier",
+              "start": 53,
+              "end": 54,
+              "decorators": [],
+              "name": "n",
+              "optional": false,
+              "typeAnnotation": null
+            }
+          }
+        ]
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
       "start": 58,
       "end": 83,
-      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 58,
         "end": 82,
+        "operator": "void",
         "argument": {
           "type": "CallExpression",
           "start": 63,
           "end": 82,
-          "arguments": [],
           "callee": {
             "type": "MemberExpression",
             "start": 63,
             "end": 80,
-            "computed": false,
             "object": {
               "type": "CallExpression",
               "start": 63,
               "end": 71,
+              "callee": {
+                "type": "Identifier",
+                "start": 63,
+                "end": 66,
+                "decorators": [],
+                "name": "log",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeArguments": null,
               "arguments": [
                 {
                   "type": "Identifier",
@@ -140,19 +148,8 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 63,
-                "end": 66,
-                "decorators": [],
-                "name": "log",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "typeArguments": null
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 72,
@@ -161,14 +158,17 @@ __ESTREE_TEST__:PASS:
               "name": "toString",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "optional": false,
+            "computed": false
           },
-          "optional": false,
-          "typeArguments": null
+          "typeArguments": null,
+          "arguments": [],
+          "optional": false
         },
-        "operator": "void",
         "prefix": true
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

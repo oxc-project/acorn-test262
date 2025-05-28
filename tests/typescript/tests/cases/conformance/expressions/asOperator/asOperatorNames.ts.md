@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 11,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 10,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,24 +28,24 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 8,
             "end": 10,
-            "raw": "20",
-            "value": 20
-          }
+            "value": 20,
+            "raw": "20"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 12,
       "end": 32,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 16,
           "end": 31,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 16,
@@ -73,22 +73,22 @@ __ESTREE_TEST__:PASS:
               "start": 25,
               "end": 31
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 33,
       "end": 50,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 37,
           "end": 49,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 37,
@@ -102,24 +102,24 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 42,
             "end": 49,
-            "raw": "\"hello\"",
-            "value": "hello"
-          }
+            "value": "hello",
+            "raw": "\"hello\""
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 51,
       "end": 74,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 55,
           "end": 73,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 55,
@@ -147,11 +147,11 @@ __ESTREE_TEST__:PASS:
               "start": 67,
               "end": 73
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

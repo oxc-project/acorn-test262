@@ -13,7 +13,6 @@
         "end": 271,
         "name": "f"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -39,7 +38,6 @@
               "end": 297,
               "name": "innerf"
             },
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -91,7 +89,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "ReturnStatement",
@@ -126,7 +125,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -152,8 +152,8 @@
             "end": 403,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

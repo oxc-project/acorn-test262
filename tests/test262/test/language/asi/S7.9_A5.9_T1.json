@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 429,
       "end": 442,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -44,13 +45,13 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 443,
       "end": 459,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -78,25 +79,24 @@
               "start": 454,
               "end": 459,
               "operator": "+",
-              "prefix": true,
               "argument": {
                 "type": "UnaryExpression",
                 "start": 456,
                 "end": 459,
                 "operator": "+",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 458,
                   "end": 459,
                   "name": "y"
-                }
-              }
+                },
+                "prefix": true
+              },
+              "prefix": true
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -251,20 +251,20 @@
             "start": 708,
             "end": 713,
             "operator": "+",
-            "prefix": true,
             "argument": {
               "type": "UnaryExpression",
               "start": 710,
               "end": 713,
               "operator": "+",
-              "prefix": true,
               "argument": {
                 "type": "Identifier",
                 "start": 712,
                 "end": 713,
                 "name": "y"
-              }
-            }
+              },
+              "prefix": true
+            },
+            "prefix": true
           }
         }
       }
@@ -422,27 +422,27 @@
             "start": 961,
             "end": 971,
             "operator": "+",
-            "prefix": true,
             "argument": {
               "type": "UnaryExpression",
               "start": 963,
               "end": 971,
               "operator": "+",
-              "prefix": true,
               "argument": {
                 "type": "UnaryExpression",
                 "start": 968,
                 "end": 971,
                 "operator": "+",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 970,
                   "end": 971,
                   "name": "y"
-                }
-              }
-            }
+                },
+                "prefix": true
+              },
+              "prefix": true
+            },
+            "prefix": true
           }
         }
       }

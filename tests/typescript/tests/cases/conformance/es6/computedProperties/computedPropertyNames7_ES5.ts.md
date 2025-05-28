@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSEnumDeclaration",
       "start": 0,
       "end": 21,
+      "id": {
+        "type": "Identifier",
+        "start": 5,
+        "end": 6,
+        "decorators": [],
+        "name": "E",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSEnumBody",
         "start": 7,
@@ -18,7 +27,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 13,
             "end": 19,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 13,
@@ -28,32 +36,24 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           }
         ]
       },
       "const": false,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 5,
-        "end": 6,
-        "decorators": [],
-        "name": "E",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 22,
       "end": 51,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 26,
           "end": 51,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 26,
@@ -72,12 +72,11 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 36,
                 "end": 49,
-                "computed": true,
+                "kind": "init",
                 "key": {
                   "type": "MemberExpression",
                   "start": 37,
                   "end": 45,
-                  "computed": false,
                   "object": {
                     "type": "Identifier",
                     "start": 37,
@@ -87,7 +86,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 39,
@@ -96,26 +94,28 @@ __ESTREE_TEST__:PASS:
                     "name": "member",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "optional": false,
+                  "computed": false
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Literal",
                   "start": 48,
                   "end": 49,
-                  "raw": "0",
-                  "value": 0
-                }
+                  "value": 0,
+                  "raw": "0"
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": true,
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

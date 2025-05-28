@@ -9,7 +9,20 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 38,
-      "abstract": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 6,
+        "end": 7,
+        "decorators": [],
+        "name": "X",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
       "body": {
         "type": "ClassBody",
         "start": 8,
@@ -19,8 +32,6 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 14,
             "end": 36,
-            "accessibility": "public",
-            "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
@@ -31,25 +42,15 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "FunctionExpression",
               "start": 22,
               "end": 36,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 33,
-                "end": 36,
-                "body": []
-              },
-              "declare": false,
-              "expression": false,
-              "generator": false,
               "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -66,7 +67,6 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 26,
                       "end": 31,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 26,
@@ -75,32 +75,32 @@ __ESTREE_TEST__:PASS:
                         "name": "Array",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     }
                   }
                 }
               ],
               "returnType": null,
-              "typeParameters": null
-            }
+              "body": {
+                "type": "BlockStatement",
+                "start": 33,
+                "end": 36,
+                "body": []
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": "public"
           }
         ]
       },
-      "declare": false,
-      "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 6,
-        "end": 7,
-        "decorators": [],
-        "name": "X",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

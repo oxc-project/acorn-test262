@@ -23,7 +23,6 @@
             "start": 1047,
             "end": 1309,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -43,6 +42,7 @@
                   "type": "VariableDeclaration",
                   "start": 1064,
                   "end": 1106,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -107,8 +107,7 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -134,8 +133,8 @@
                         "end": 1126,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -158,8 +157,8 @@
                             "end": 1147,
                             "name": "includes"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -221,8 +220,8 @@
                         "end": 1227,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -245,8 +244,8 @@
                             "end": 1248,
                             "name": "includes"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -262,13 +261,13 @@
                             "start": 1254,
                             "end": 1263,
                             "operator": "-",
-                            "prefix": true,
                             "argument": {
                               "type": "Identifier",
                               "start": 1255,
                               "end": 1263,
                               "name": "Infinity"
-                            }
+                            },
+                            "prefix": true
                           }
                         ],
                         "optional": false
@@ -292,7 +291,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

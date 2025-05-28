@@ -13,14 +13,6 @@ __ESTREE_TEST__:PASS:
         "type": "ClassDeclaration",
         "start": 15,
         "end": 26,
-        "abstract": false,
-        "body": {
-          "type": "ClassBody",
-          "start": 23,
-          "end": 26,
-          "body": []
-        },
-        "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
@@ -31,10 +23,18 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "implements": [],
+        "typeParameters": null,
         "superClass": null,
         "superTypeArguments": null,
-        "typeParameters": null
+        "implements": [],
+        "body": {
+          "type": "ClassBody",
+          "start": 23,
+          "end": 26,
+          "body": []
+        },
+        "abstract": false,
+        "declare": false
       },
       "exportKind": "value"
     },
@@ -51,7 +51,7 @@ __ESTREE_TEST__:PASS:
             "type": "Property",
             "start": 49,
             "end": 72,
-            "computed": false,
+            "kind": "init",
             "key": {
               "type": "Identifier",
               "start": 49,
@@ -61,17 +61,17 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "init",
-            "method": false,
-            "optional": false,
-            "shorthand": false,
             "value": {
               "type": "Literal",
               "start": 55,
               "end": 72,
-              "raw": "\"another default\"",
-              "value": "another default"
-            }
+              "value": "another default",
+              "raw": "\"another default\""
+            },
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "optional": false
           }
         ]
       },

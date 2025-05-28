@@ -15,6 +15,12 @@
           "type": "JSXOpeningElement",
           "start": 0,
           "end": 40,
+          "name": {
+            "type": "JSXIdentifier",
+            "start": 1,
+            "end": 2,
+            "name": "a"
+          },
           "attributes": [
             {
               "type": "JSXAttribute",
@@ -94,16 +100,10 @@
               }
             }
           ],
-          "name": {
-            "type": "JSXIdentifier",
-            "start": 1,
-            "end": 2,
-            "name": "a"
-          },
           "selfClosing": true
         },
-        "closingElement": null,
-        "children": []
+        "children": [],
+        "closingElement": null
       }
     }
   ],

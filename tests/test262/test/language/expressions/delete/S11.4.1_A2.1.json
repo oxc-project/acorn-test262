@@ -16,14 +16,14 @@
           "start": 323,
           "end": 331,
           "operator": "delete",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 330,
             "end": 331,
             "value": 1,
             "raw": "1"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -81,7 +81,6 @@
           "start": 412,
           "end": 431,
           "operator": "delete",
-          "prefix": true,
           "argument": {
             "type": "NewExpression",
             "start": 419,
@@ -93,7 +92,8 @@
               "name": "Object"
             },
             "arguments": []
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {

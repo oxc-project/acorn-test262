@@ -13,7 +13,6 @@
         "end": 534,
         "name": "f1"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -26,6 +25,7 @@
             "type": "VariableDeclaration",
             "start": 540,
             "end": 546,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -39,8 +39,7 @@
                 },
                 "init": null
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ReturnStatement",
@@ -51,17 +50,18 @@
               "start": 559,
               "end": 567,
               "operator": "typeof",
-              "prefix": true,
               "argument": {
                 "type": "Identifier",
                 "start": 566,
                 "end": 567,
                 "name": "x"
-              }
+              },
+              "prefix": true
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -87,8 +87,8 @@
             "end": 588,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -125,7 +125,6 @@
         "end": 631,
         "name": "f2"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -138,6 +137,7 @@
             "type": "VariableDeclaration",
             "start": 637,
             "end": 643,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -151,8 +151,7 @@
                 },
                 "init": null
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ReturnStatement",
@@ -166,7 +165,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -192,8 +192,8 @@
             "end": 678,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

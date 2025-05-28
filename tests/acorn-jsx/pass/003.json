@@ -15,7 +15,6 @@
           "type": "JSXOpeningElement",
           "start": 0,
           "end": 10,
-          "attributes": [],
           "name": {
             "type": "JSXNamespacedName",
             "start": 1,
@@ -33,10 +32,11 @@
               "name": "div"
             }
           },
+          "attributes": [],
           "selfClosing": true
         },
-        "closingElement": null,
-        "children": []
+        "children": [],
+        "closingElement": null
       }
     }
   ],

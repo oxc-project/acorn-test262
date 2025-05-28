@@ -132,14 +132,14 @@
                   "start": 461,
                   "end": 463,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 462,
                     "end": 463,
                     "value": 1,
                     "raw": "1"
-                  }
+                  },
+                  "prefix": true
                 }
               ]
             }

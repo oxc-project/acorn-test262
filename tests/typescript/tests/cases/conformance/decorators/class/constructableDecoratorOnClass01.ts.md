@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 17,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 15,
-        "end": 17,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -27,23 +19,23 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 15,
+        "end": 17,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 19,
       "end": 41,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 37,
-        "end": 41,
-        "body": []
-      },
-      "declare": false,
       "decorators": [
         {
           "type": "Decorator",
@@ -69,10 +61,18 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 37,
+        "end": 41,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

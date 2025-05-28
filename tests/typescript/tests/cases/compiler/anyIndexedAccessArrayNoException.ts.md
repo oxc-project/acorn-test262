@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 15,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 14,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -30,25 +30,25 @@ __ESTREE_TEST__:PASS:
                 "type": "TSIndexedAccessType",
                 "start": 7,
                 "end": 14,
+                "objectType": {
+                  "type": "TSAnyKeyword",
+                  "start": 7,
+                  "end": 10
+                },
                 "indexType": {
                   "type": "TSTupleType",
                   "start": 11,
                   "end": 13,
                   "elementTypes": []
-                },
-                "objectType": {
-                  "type": "TSAnyKeyword",
-                  "start": 7,
-                  "end": 10
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

@@ -9,7 +9,20 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 30,
       "end": 107,
-      "abstract": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 36,
+        "end": 37,
+        "decorators": [],
+        "name": "C",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
       "body": {
         "type": "ClassBody",
         "start": 38,
@@ -19,8 +32,6 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 44,
             "end": 105,
-            "accessibility": null,
-            "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
@@ -31,15 +42,17 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": true,
             "value": {
               "type": "FunctionExpression",
               "start": 52,
               "end": 105,
+              "id": null,
+              "generator": false,
               "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
               "body": {
                 "type": "BlockStatement",
                 "start": 55,
@@ -49,12 +62,12 @@ __ESTREE_TEST__:PASS:
                     "type": "VariableDeclaration",
                     "start": 65,
                     "end": 78,
+                    "kind": "var",
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
                         "start": 69,
                         "end": 77,
-                        "definite": false,
                         "id": {
                           "type": "Identifier",
                           "start": 69,
@@ -68,11 +81,11 @@ __ESTREE_TEST__:PASS:
                           "type": "ThisExpression",
                           "start": 73,
                           "end": 77
-                        }
+                        },
+                        "definite": false
                       }
                     ],
-                    "declare": false,
-                    "kind": "var"
+                    "declare": false
                   },
                   {
                     "type": "ReturnStatement",
@@ -86,32 +99,19 @@ __ESTREE_TEST__:PASS:
                   }
                 ]
               },
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true,
+            "override": false,
+            "optional": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
-      "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 36,
-        "end": 37,
-        "decorators": [],
-        "name": "C",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

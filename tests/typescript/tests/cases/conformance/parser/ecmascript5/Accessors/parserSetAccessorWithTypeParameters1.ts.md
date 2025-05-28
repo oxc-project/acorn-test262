@@ -9,7 +9,20 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 32,
-      "abstract": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 6,
+        "end": 7,
+        "decorators": [],
+        "name": "C",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
       "body": {
         "type": "ClassBody",
         "start": 8,
@@ -19,8 +32,6 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 13,
             "end": 30,
-            "accessibility": null,
-            "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
@@ -31,25 +42,40 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "set",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "FunctionExpression",
               "start": 20,
               "end": 30,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 27,
-                "end": 30,
-                "body": []
-              },
-              "declare": false,
-              "expression": false,
-              "generator": false,
               "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": {
+                "type": "TSTypeParameterDeclaration",
+                "start": 20,
+                "end": 23,
+                "params": [
+                  {
+                    "type": "TSTypeParameter",
+                    "start": 21,
+                    "end": 22,
+                    "name": {
+                      "type": "Identifier",
+                      "start": 21,
+                      "end": 22,
+                      "decorators": [],
+                      "name": "T",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "constraint": null,
+                    "default": null,
+                    "in": false,
+                    "out": false,
+                    "const": false
+                  }
+                ]
+              },
               "params": [
                 {
                   "type": "Identifier",
@@ -62,51 +88,25 @@ __ESTREE_TEST__:PASS:
                 }
               ],
               "returnType": null,
-              "typeParameters": {
-                "type": "TSTypeParameterDeclaration",
-                "start": 20,
-                "end": 23,
-                "params": [
-                  {
-                    "type": "TSTypeParameter",
-                    "start": 21,
-                    "end": 22,
-                    "const": false,
-                    "constraint": null,
-                    "default": null,
-                    "in": false,
-                    "name": {
-                      "type": "Identifier",
-                      "start": 21,
-                      "end": 22,
-                      "decorators": [],
-                      "name": "T",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "out": false
-                  }
-                ]
-              }
-            }
+              "body": {
+                "type": "BlockStatement",
+                "start": 27,
+                "end": 30,
+                "body": []
+              },
+              "expression": false
+            },
+            "kind": "set",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
-      "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 6,
-        "end": 7,
-        "decorators": [],
-        "name": "C",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

@@ -18,7 +18,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 31,
@@ -27,21 +26,20 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 39,
           "end": 43,
-          "raw": "\"fs\"",
-          "value": "fs"
+          "value": "fs",
+          "raw": "\"fs\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 46,
       "end": 58,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 46,
         "end": 57,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 46,
@@ -51,7 +49,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 49,
@@ -60,14 +57,16 @@ __ESTREE_TEST__:PASS:
           "name": "readFile",
           "optional": false,
           "typeAnnotation": null
-        }
-      }
+        },
+        "optional": false,
+        "computed": false
+      },
+      "directive": null
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 59,
       "end": 93,
-      "attributes": [],
       "declaration": {
         "type": "TSImportEqualsDeclaration",
         "start": 66,
@@ -81,7 +80,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "importKind": "value",
         "moduleReference": {
           "type": "TSExternalModuleReference",
           "start": 79,
@@ -90,14 +88,16 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 87,
             "end": 91,
-            "raw": "\"fs\"",
-            "value": "fs"
+            "value": "fs",
+            "raw": "\"fs\""
           }
-        }
+        },
+        "importKind": "value"
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -124,7 +124,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 31,
@@ -133,21 +132,20 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 39,
           "end": 43,
-          "raw": "\"fs\"",
-          "value": "fs"
+          "value": "fs",
+          "raw": "\"fs\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 46,
       "end": 58,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 46,
         "end": 57,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 46,
@@ -157,7 +155,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 49,
@@ -166,14 +163,16 @@ __ESTREE_TEST__:PASS:
           "name": "readFile",
           "optional": false,
           "typeAnnotation": null
-        }
-      }
+        },
+        "optional": false,
+        "computed": false
+      },
+      "directive": null
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 59,
       "end": 93,
-      "attributes": [],
       "declaration": {
         "type": "TSImportEqualsDeclaration",
         "start": 66,
@@ -187,7 +186,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "importKind": "value",
         "moduleReference": {
           "type": "TSExternalModuleReference",
           "start": 79,
@@ -196,14 +194,16 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 87,
             "end": 91,
-            "raw": "\"fs\"",
-            "value": "fs"
+            "value": "fs",
+            "raw": "\"fs\""
           }
-        }
+        },
+        "importKind": "value"
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -221,12 +221,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 19,
       "end": 42,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 25,
           "end": 41,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 25,
@@ -240,24 +240,24 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 37,
             "end": 41,
-            "raw": "null",
-            "value": null
-          }
+            "value": null,
+            "raw": "null"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 43,
       "end": 71,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 49,
           "end": 70,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 49,
@@ -271,13 +271,13 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 66,
             "end": 70,
-            "raw": "null",
-            "value": null
-          }
+            "value": null,
+            "raw": "null"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -292,7 +292,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 84,
@@ -301,21 +300,20 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 92,
           "end": 96,
-          "raw": "\"fs\"",
-          "value": "fs"
+          "value": "fs",
+          "raw": "\"fs\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 99,
       "end": 111,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 99,
         "end": 110,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 99,
@@ -325,7 +323,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 102,
@@ -334,14 +331,16 @@ __ESTREE_TEST__:PASS:
           "name": "readFile",
           "optional": false,
           "typeAnnotation": null
-        }
-      }
+        },
+        "optional": false,
+        "computed": false
+      },
+      "directive": null
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 112,
       "end": 146,
-      "attributes": [],
       "declaration": {
         "type": "TSImportEqualsDeclaration",
         "start": 119,
@@ -355,7 +354,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "importKind": "value",
         "moduleReference": {
           "type": "TSExternalModuleReference",
           "start": 132,
@@ -364,14 +362,16 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 140,
             "end": 144,
-            "raw": "\"fs\"",
-            "value": "fs"
+            "value": "fs",
+            "raw": "\"fs\""
           }
-        }
+        },
+        "importKind": "value"
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -389,16 +389,16 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 20,
-      "kind": "module",
-      "declare": true,
-      "global": false,
       "id": {
         "type": "Literal",
         "start": 15,
         "end": 19,
-        "raw": "\"fs\"",
-        "value": "fs"
-      }
+        "value": "fs",
+        "raw": "\"fs\""
+      },
+      "kind": "module",
+      "declare": true,
+      "global": false
     }
   ],
   "sourceType": "module",

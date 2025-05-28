@@ -92,8 +92,8 @@
             "end": 1224,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -101,13 +101,13 @@
             "start": 1225,
             "end": 1233,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 1232,
               "end": 1233,
               "name": "f"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -144,8 +144,8 @@
             "end": 1264,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -176,6 +176,7 @@
       "type": "VariableDeclaration",
       "start": 1296,
       "end": 1308,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -195,8 +196,7 @@
             "raw": "123"
           }
         }
-      ],
-      "kind": "var"
+      ]
     }
   ],
   "sourceType": "script",

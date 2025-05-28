@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 620,
       "end": 649,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -23,7 +24,6 @@
             "start": 636,
             "end": 648,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -32,11 +32,11 @@
               "start": 646,
               "end": 648,
               "body": []
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -63,8 +63,8 @@
             "end": 669,
             "name": "prototype"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -88,7 +88,6 @@
           "start": 767,
           "end": 793,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 774,
@@ -105,9 +104,10 @@
               "end": 793,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -159,7 +159,6 @@
                       "start": 923,
                       "end": 949,
                       "operator": "typeof",
-                      "prefix": true,
                       "argument": {
                         "type": "MemberExpression",
                         "start": 930,
@@ -176,9 +175,10 @@
                           "end": 949,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
-                      }
+                        "optional": false,
+                        "computed": false
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -193,6 +193,7 @@
       "type": "VariableDeclaration",
       "start": 1038,
       "end": 1069,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -217,8 +218,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -229,7 +229,6 @@
         "start": 1164,
         "end": 1207,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 1165,
@@ -258,8 +257,8 @@
                   "end": 1182,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -267,8 +266,8 @@
                 "end": 1196,
                 "name": "isPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -280,7 +279,8 @@
             ],
             "optional": false
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",

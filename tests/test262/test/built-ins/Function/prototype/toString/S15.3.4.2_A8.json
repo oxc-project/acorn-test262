@@ -46,8 +46,8 @@
                     "end": 374,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -55,8 +55,8 @@
                   "end": 383,
                   "name": "toString"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -64,8 +64,8 @@
                 "end": 398,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -109,7 +109,6 @@
             "start": 500,
             "end": 559,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "CallExpression",
               "start": 501,
@@ -138,8 +137,8 @@
                       "end": 519,
                       "name": "prototype"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "property": {
                     "type": "Identifier",
@@ -147,8 +146,8 @@
                     "end": 528,
                     "name": "toString"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -156,8 +155,8 @@
                   "end": 549,
                   "name": "propertyIsEnumerable"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -169,7 +168,8 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -190,6 +190,7 @@
         "type": "VariableDeclaration",
         "start": 683,
         "end": 688,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -203,8 +204,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "right": {
         "type": "MemberExpression",
@@ -226,8 +226,8 @@
             "end": 710,
             "name": "prototype"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "property": {
           "type": "Identifier",
@@ -235,8 +235,8 @@
           "end": 719,
           "name": "toString"
         },
-        "computed": false,
-        "optional": false
+        "optional": false,
+        "computed": false
       },
       "body": {
         "type": "BlockStatement",
@@ -267,8 +267,8 @@
                   "end": 743,
                   "name": "notSameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {

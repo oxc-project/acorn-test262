@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 397,
       "end": 416,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 417,
       "end": 431,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -52,13 +53,13 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 432,
       "end": 443,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -72,13 +73,13 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 444,
       "end": 459,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -98,8 +99,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForStatement",
@@ -109,6 +109,7 @@
         "type": "VariableDeclaration",
         "start": 466,
         "end": 483,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -128,8 +129,7 @@
               "raw": "0xC0"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -190,6 +190,7 @@
             "type": "VariableDeclaration",
             "start": 526,
             "end": 571,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -222,13 +223,13 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 574,
             "end": 592,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -248,8 +249,7 @@
                   "raw": "true"
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ForStatement",
@@ -259,6 +259,7 @@
               "type": "VariableDeclaration",
               "start": 600,
               "end": 617,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -278,8 +279,7 @@
                     "raw": "0x00"
                   }
                 }
-              ],
-              "kind": "var"
+              ]
             },
             "test": {
               "type": "BinaryExpression",
@@ -322,6 +322,7 @@
                   "type": "VariableDeclaration",
                   "start": 651,
                   "end": 696,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -354,8 +355,7 @@
                         "optional": false
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "TryStatement",
@@ -680,6 +680,7 @@
                                     "type": "VariableDeclaration",
                                     "start": 1019,
                                     "end": 1057,
+                                    "kind": "var",
                                     "declarations": [
                                       {
                                         "type": "VariableDeclarator",
@@ -712,13 +713,13 @@
                                           "optional": false
                                         }
                                       }
-                                    ],
-                                    "kind": "var"
+                                    ]
                                   },
                                   {
                                     "type": "VariableDeclaration",
                                     "start": 1068,
                                     "end": 1106,
+                                    "kind": "var",
                                     "declarations": [
                                       {
                                         "type": "VariableDeclarator",
@@ -751,8 +752,7 @@
                                           "optional": false
                                         }
                                       }
-                                    ],
-                                    "kind": "var"
+                                    ]
                                   },
                                   {
                                     "type": "ThrowStatement",
@@ -840,6 +840,7 @@
                                     "type": "VariableDeclaration",
                                     "start": 1207,
                                     "end": 1245,
+                                    "kind": "var",
                                     "declarations": [
                                       {
                                         "type": "VariableDeclarator",
@@ -872,8 +873,7 @@
                                           "optional": false
                                         }
                                       }
-                                    ],
-                                    "kind": "var"
+                                    ]
                                   },
                                   {
                                     "type": "ThrowStatement",
@@ -1083,6 +1083,7 @@
                   "type": "VariableDeclaration",
                   "start": 1452,
                   "end": 1490,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -1115,13 +1116,13 @@
                         "optional": false
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "VariableDeclaration",
                   "start": 1495,
                   "end": 1533,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -1154,8 +1155,7 @@
                         "optional": false
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ThrowStatement",
@@ -1243,6 +1243,7 @@
                   "type": "VariableDeclaration",
                   "start": 1608,
                   "end": 1646,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -1275,8 +1276,7 @@
                         "optional": false
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ThrowStatement",

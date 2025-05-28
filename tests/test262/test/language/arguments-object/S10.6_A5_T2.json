@@ -13,7 +13,6 @@
         "end": 365,
         "name": "f1"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -30,6 +29,7 @@
               "type": "VariableDeclaration",
               "start": 375,
               "end": 380,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -43,8 +43,7 @@
                   },
                   "init": null
                 }
-              ],
-              "kind": "var"
+              ]
             },
             "right": {
               "type": "Identifier",
@@ -117,7 +116,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "TryStatement",
@@ -137,7 +137,6 @@
               "start": 479,
               "end": 484,
               "operator": "!",
-              "prefix": true,
               "argument": {
                 "type": "CallExpression",
                 "start": 480,
@@ -150,7 +149,8 @@
                 },
                 "arguments": [],
                 "optional": false
-              }
+              },
+              "prefix": true
             },
             "consequent": {
               "type": "BlockStatement",
@@ -237,6 +237,7 @@
       "type": "VariableDeclaration",
       "start": 666,
       "end": 785,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -253,7 +254,6 @@
             "start": 675,
             "end": 785,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -270,6 +270,7 @@
                     "type": "VariableDeclaration",
                     "start": 693,
                     "end": 698,
+                    "kind": "var",
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
@@ -283,8 +284,7 @@
                         },
                         "init": null
                       }
-                    ],
-                    "kind": "var"
+                    ]
                   },
                   "right": {
                     "type": "Identifier",
@@ -357,11 +357,11 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "TryStatement",
@@ -381,7 +381,6 @@
               "start": 797,
               "end": 802,
               "operator": "!",
-              "prefix": true,
               "argument": {
                 "type": "CallExpression",
                 "start": 798,
@@ -394,7 +393,8 @@
                 },
                 "arguments": [],
                 "optional": false
-              }
+              },
+              "prefix": true
             },
             "consequent": {
               "type": "BlockStatement",

@@ -12,7 +12,6 @@
         "start": 291,
         "end": 327,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 292,
@@ -26,7 +25,6 @@
               "start": 293,
               "end": 310,
               "operator": "typeof",
-              "prefix": true,
               "argument": {
                 "type": "ParenthesizedExpression",
                 "start": 299,
@@ -37,7 +35,8 @@
                   "end": 309,
                   "name": "undefined"
                 }
-              }
+              },
+              "prefix": true
             },
             "operator": "===",
             "right": {
@@ -48,7 +47,8 @@
               "raw": "\"undefined\""
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -91,7 +91,6 @@
                       "start": 392,
                       "end": 409,
                       "operator": "typeof",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 398,
@@ -102,7 +101,8 @@
                           "end": 408,
                           "name": "undefined"
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -123,7 +123,6 @@
         "start": 434,
         "end": 467,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 435,
@@ -137,7 +136,6 @@
               "start": 436,
               "end": 450,
               "operator": "typeof",
-              "prefix": true,
               "argument": {
                 "type": "ParenthesizedExpression",
                 "start": 442,
@@ -147,16 +145,17 @@
                   "start": 443,
                   "end": 449,
                   "operator": "void",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 448,
                     "end": 449,
                     "value": 0,
                     "raw": "0"
-                  }
+                  },
+                  "prefix": true
                 }
-              }
+              },
+              "prefix": true
             },
             "operator": "===",
             "right": {
@@ -167,7 +166,8 @@
               "raw": "\"undefined\""
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -210,7 +210,6 @@
                       "start": 530,
                       "end": 544,
                       "operator": "typeof",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 536,
@@ -220,16 +219,17 @@
                           "start": 537,
                           "end": 543,
                           "operator": "void",
-                          "prefix": true,
                           "argument": {
                             "type": "Literal",
                             "start": 542,
                             "end": 543,
                             "value": 0,
                             "raw": "0"
-                          }
+                          },
+                          "prefix": true
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -250,7 +250,6 @@
         "start": 568,
         "end": 591,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 569,
@@ -271,17 +270,18 @@
               "start": 584,
               "end": 590,
               "operator": "void",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 589,
                 "end": 590,
                 "value": 0,
                 "raw": "0"
-              }
+              },
+              "prefix": true
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",

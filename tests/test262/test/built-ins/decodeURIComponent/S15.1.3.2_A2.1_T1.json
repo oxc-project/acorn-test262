@@ -11,6 +11,7 @@
         "type": "VariableDeclaration",
         "start": 319,
         "end": 333,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -30,8 +31,7 @@
               "raw": "0"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -111,6 +111,7 @@
                         "type": "VariableDeclaration",
                         "start": 405,
                         "end": 443,
+                        "kind": "var",
                         "declarations": [
                           {
                             "type": "VariableDeclarator",
@@ -142,8 +143,8 @@
                                   "end": 434,
                                   "name": "fromCharCode"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "arguments": [
                                 {
@@ -156,13 +157,13 @@
                               "optional": false
                             }
                           }
-                        ],
-                        "kind": "var"
+                        ]
                       },
                       {
                         "type": "VariableDeclaration",
                         "start": 450,
                         "end": 496,
+                        "kind": "var",
                         "declarations": [
                           {
                             "type": "VariableDeclarator",
@@ -207,8 +208,7 @@
                               }
                             }
                           }
-                        ],
-                        "kind": "var"
+                        ]
                       }
                     ]
                   },

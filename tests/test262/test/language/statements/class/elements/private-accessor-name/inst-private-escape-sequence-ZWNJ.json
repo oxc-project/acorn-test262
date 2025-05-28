@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1342,
       "end": 1356,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ClassDeclaration",
@@ -43,21 +43,17 @@
             "type": "MethodDefinition",
             "start": 1370,
             "end": 1414,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 1374,
               "end": 1387,
               "name": "ZW_‌_NJ"
             },
-            "kind": "get",
             "value": {
               "type": "FunctionExpression",
               "start": 1387,
               "end": 1414,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -79,28 +75,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "get",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 1417,
             "end": 1464,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 1421,
               "end": 1434,
               "name": "ZW_‌_NJ"
             },
-            "kind": "set",
             "value": {
               "type": "FunctionExpression",
               "start": 1434,
               "end": 1464,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -140,28 +136,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "set",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 1468,
             "end": 1521,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1468,
               "end": 1487,
               "name": "getPrivateReference"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 1487,
               "end": 1521,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -189,33 +185,33 @@
                         "end": 1516,
                         "name": "ZW_‌_NJ"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 1525,
             "end": 1584,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1525,
               "end": 1544,
               "name": "setPrivateReference"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 1544,
               "end": 1584,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -255,8 +251,8 @@
                           "end": 1571,
                           "name": "ZW_‌_NJ"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "right": {
                         "type": "Identifier",
@@ -267,8 +263,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -282,6 +282,7 @@
       "type": "VariableDeclaration",
       "start": 1589,
       "end": 1608,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -306,8 +307,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -333,8 +333,8 @@
             "end": 1626,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -357,8 +357,8 @@
                 "end": 1651,
                 "name": "getPrivateReference"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -398,8 +398,8 @@
             "end": 1695,
             "name": "setPrivateReference"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -437,8 +437,8 @@
             "end": 1727,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

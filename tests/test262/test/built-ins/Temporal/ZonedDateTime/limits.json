@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 501,
       "end": 538,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -55,13 +56,13 @@
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 539,
       "end": 572,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -78,22 +79,22 @@
             "start": 558,
             "end": 571,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 559,
               "end": 571,
               "name": "nsMaxInstant"
-            }
+            },
+            "prefix": true
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 574,
       "end": 681,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -177,7 +178,6 @@
                 "start": 664,
                 "end": 677,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "ParenthesizedExpression",
                   "start": 665,
@@ -204,18 +204,19 @@
                       "bigint": "128"
                     }
                   }
-                }
+                },
+                "prefix": true
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 683,
       "end": 739,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -263,8 +264,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -275,6 +275,7 @@
         "type": "VariableDeclaration",
         "start": 746,
         "end": 758,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -288,8 +289,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -311,6 +311,7 @@
               "type": "VariableDeclaration",
               "start": 782,
               "end": 793,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -324,8 +325,7 @@
                   },
                   "init": null
                 }
-              ],
-              "kind": "var"
+              ]
             },
             "right": {
               "type": "Identifier",
@@ -362,8 +362,8 @@
                         "end": 841,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -376,9 +376,7 @@
                         "type": "ArrowFunctionExpression",
                         "start": 867,
                         "end": 918,
-                        "id": null,
                         "expression": true,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -401,8 +399,8 @@
                               "end": 899,
                               "name": "ZonedDateTime"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -418,26 +416,14 @@
                               "name": "timeZone"
                             }
                           ]
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 926,
                         "end": 972,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 939,
-                            "end": 946,
-                            "name": "epochNs"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 962,
-                            "end": 970,
-                            "name": "timeZone"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -468,6 +454,20 @@
                               "cooked": ""
                             },
                             "tail": true
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 939,
+                            "end": 946,
+                            "name": "epochNs"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 962,
+                            "end": 970,
+                            "name": "timeZone"
                           }
                         ]
                       }

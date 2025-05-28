@@ -16,13 +16,13 @@
           "start": 449,
           "end": 462,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 456,
             "end": 462,
             "name": "__func"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -71,6 +71,7 @@
       "type": "VariableDeclaration",
       "start": 629,
       "end": 706,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -96,7 +97,6 @@
                 "end": 660,
                 "name": "__func"
               },
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -136,8 +136,8 @@
                           "end": 675,
                           "name": "prop"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "right": {
                         "type": "Identifier",
@@ -160,9 +160,7 @@
                           "type": "Property",
                           "start": 689,
                           "end": 700,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 689,
@@ -182,13 +180,16 @@
                               "name": "arg"
                             }
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false
                         }
                       ]
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             },
             "arguments": [
               {
@@ -201,8 +202,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -228,8 +228,8 @@
             "end": 811,
             "name": "prop"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -287,8 +287,8 @@
                       "end": 918,
                       "name": "prop"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
@@ -322,8 +322,8 @@
             "end": 1109,
             "name": "feat"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -382,8 +382,8 @@
                       "end": 1200,
                       "name": "feat"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
@@ -406,13 +406,13 @@
           "start": 1381,
           "end": 1394,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 1388,
             "end": 1394,
             "name": "__func"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -460,13 +460,13 @@
                     "start": 1501,
                     "end": 1514,
                     "operator": "typeof",
-                    "prefix": true,
                     "argument": {
                       "type": "Identifier",
                       "start": 1508,
                       "end": 1514,
                       "name": "__func"
-                    }
+                    },
+                    "prefix": true
                   }
                 }
               ]

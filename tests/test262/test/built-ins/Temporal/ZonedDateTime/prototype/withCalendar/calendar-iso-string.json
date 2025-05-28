@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 296,
       "end": 386,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 339,
                 "name": "ZonedDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -67,8 +68,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -79,6 +79,7 @@
         "type": "VariableDeclaration",
         "start": 393,
         "end": 402,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -92,8 +93,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "ArrayExpression",
@@ -167,6 +167,7 @@
             "type": "VariableDeclaration",
             "start": 621,
             "end": 663,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -198,8 +199,8 @@
                       "end": 657,
                       "name": "withCalendar"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -212,8 +213,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -239,8 +239,8 @@
                   "end": 682,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -259,8 +259,8 @@
                     "end": 700,
                     "name": "calendarId"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -273,14 +273,6 @@
                   "type": "TemplateLiteral",
                   "start": 713,
                   "end": 752,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 746,
-                      "end": 749,
-                      "name": "arg"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -301,6 +293,14 @@
                         "cooked": "\""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 746,
+                      "end": 749,
+                      "name": "arg"
                     }
                   ]
                 }

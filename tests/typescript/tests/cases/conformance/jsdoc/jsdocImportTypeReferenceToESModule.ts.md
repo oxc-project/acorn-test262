@@ -9,17 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 21,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 21,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 11,
             "end": 21,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 11,
@@ -39,15 +38,16 @@ __ESTREE_TEST__:PASS:
                 }
               }
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -65,48 +65,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 33,
       "end": 66,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 50,
-        "end": 66,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 56,
-            "end": 64,
-            "directive": null,
-            "expression": {
-              "type": "MemberExpression",
-              "start": 56,
-              "end": 64,
-              "computed": false,
-              "object": {
-                "type": "Identifier",
-                "start": 56,
-                "end": 57,
-                "decorators": [],
-                "name": "a",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "property": {
-                "type": "Identifier",
-                "start": 58,
-                "end": 64,
-                "decorators": [],
-                "name": "config",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 42,
@@ -116,6 +74,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -128,7 +90,45 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 50,
+        "end": 66,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 56,
+            "end": 64,
+            "expression": {
+              "type": "MemberExpression",
+              "start": 56,
+              "end": 64,
+              "object": {
+                "type": "Identifier",
+                "start": 56,
+                "end": 57,
+                "decorators": [],
+                "name": "a",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 58,
+                "end": 64,
+                "decorators": [],
+                "name": "config",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "optional": false,
+              "computed": false
+            },
+            "directive": null
+          }
+        ]
+      },
+      "expression": false
     }
   ],
   "sourceType": "module",

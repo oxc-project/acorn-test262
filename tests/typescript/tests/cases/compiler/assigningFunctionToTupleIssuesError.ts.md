@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 26,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 12,
           "end": 25,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
@@ -30,6 +30,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSFunctionType",
                 "start": 15,
                 "end": 25,
+                "typeParameters": null,
                 "params": [],
                 "returnType": {
                   "type": "TSTypeAnnotation",
@@ -40,27 +41,26 @@ __ESTREE_TEST__:PASS:
                     "start": 21,
                     "end": 25
                   }
-                },
-                "typeParameters": null
+                }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "let"
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
       "start": 27,
       "end": 47,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 31,
           "end": 46,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 31,
@@ -94,11 +94,11 @@ __ESTREE_TEST__:PASS:
             "name": "a",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     }
   ],
   "sourceType": "script",

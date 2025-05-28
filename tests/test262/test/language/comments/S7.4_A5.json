@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 349,
       "end": 440,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -138,8 +139,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForStatement",
@@ -149,6 +149,7 @@
         "type": "VariableDeclaration",
         "start": 446,
         "end": 456,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -168,8 +169,7 @@
               "raw": "0"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -216,6 +216,7 @@
               "type": "VariableDeclaration",
               "start": 482,
               "end": 492,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -235,8 +236,7 @@
                     "raw": "0"
                   }
                 }
-              ],
-              "kind": "var"
+              ]
             },
             "test": {
               "type": "BinaryExpression",
@@ -283,6 +283,7 @@
                     "type": "VariableDeclaration",
                     "start": 520,
                     "end": 530,
+                    "kind": "var",
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
@@ -302,8 +303,7 @@
                           "raw": "0"
                         }
                       }
-                    ],
-                    "kind": "var"
+                    ]
                   },
                   "test": {
                     "type": "BinaryExpression",
@@ -350,6 +350,7 @@
                           "type": "VariableDeclaration",
                           "start": 560,
                           "end": 570,
+                          "kind": "var",
                           "declarations": [
                             {
                               "type": "VariableDeclarator",
@@ -369,8 +370,7 @@
                                 "raw": "0"
                               }
                             }
-                          ],
-                          "kind": "var"
+                          ]
                         },
                         "test": {
                           "type": "BinaryExpression",
@@ -422,6 +422,7 @@
                                     "type": "VariableDeclaration",
                                     "start": 613,
                                     "end": 660,
+                                    "kind": "var",
                                     "declarations": [
                                       {
                                         "type": "VariableDeclarator",
@@ -461,8 +462,8 @@
                                                   "end": 628,
                                                   "name": "i1"
                                                 },
-                                                "computed": true,
-                                                "optional": false
+                                                "optional": false,
+                                                "computed": true
                                               },
                                               "operator": "+",
                                               "right": {
@@ -481,8 +482,8 @@
                                                   "end": 638,
                                                   "name": "i2"
                                                 },
-                                                "computed": true,
-                                                "optional": false
+                                                "optional": false,
+                                                "computed": true
                                               }
                                             },
                                             "operator": "+",
@@ -502,8 +503,8 @@
                                                 "end": 648,
                                                 "name": "i3"
                                               },
-                                              "computed": true,
-                                              "optional": false
+                                              "optional": false,
+                                              "computed": true
                                             }
                                           },
                                           "operator": "+",
@@ -523,18 +524,18 @@
                                               "end": 658,
                                               "name": "i4"
                                             },
-                                            "computed": true,
-                                            "optional": false
+                                            "optional": false,
+                                            "computed": true
                                           }
                                         }
                                       }
-                                    ],
-                                    "kind": "var"
+                                    ]
                                   },
                                   {
                                     "type": "VariableDeclaration",
                                     "start": 671,
                                     "end": 711,
+                                    "kind": "var",
                                     "declarations": [
                                       {
                                         "type": "VariableDeclarator",
@@ -566,8 +567,8 @@
                                               "end": 699,
                                               "name": "fromCharCode"
                                             },
-                                            "computed": false,
-                                            "optional": false
+                                            "optional": false,
+                                            "computed": false
                                           },
                                           "arguments": [
                                             {
@@ -593,13 +594,13 @@
                                           "optional": false
                                         }
                                       }
-                                    ],
-                                    "kind": "var"
+                                    ]
                                   },
                                   {
                                     "type": "VariableDeclaration",
                                     "start": 722,
                                     "end": 819,
+                                    "kind": "var",
                                     "declarations": [
                                       {
                                         "type": "VariableDeclarator",
@@ -731,13 +732,13 @@
                                           }
                                         }
                                       }
-                                    ],
-                                    "kind": "var"
+                                    ]
                                   },
                                   {
                                     "type": "VariableDeclaration",
                                     "start": 830,
                                     "end": 841,
+                                    "kind": "var",
                                     "declarations": [
                                       {
                                         "type": "VariableDeclarator",
@@ -757,8 +758,7 @@
                                           "raw": "0"
                                         }
                                       }
-                                    ],
-                                    "kind": "var"
+                                    ]
                                   },
                                   {
                                     "type": "ExpressionStatement",
@@ -948,14 +948,14 @@
                                               "start": 1065,
                                               "end": 1067,
                                               "operator": "-",
-                                              "prefix": true,
                                               "argument": {
                                                 "type": "Literal",
                                                 "start": 1066,
                                                 "end": 1067,
                                                 "value": 1,
                                                 "raw": "1"
-                                              }
+                                              },
+                                              "prefix": true
                                             }
                                           },
                                           "consequent": {

@@ -10,38 +10,6 @@ __ESTREE_TEST__:PASS:
       "start": 0,
       "end": 29,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 15,
-        "end": 29,
-        "body": [
-          {
-            "type": "VariableDeclaration",
-            "start": 21,
-            "end": 27,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 25,
-                "end": 26,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 25,
-                  "end": 26,
-                  "decorators": [],
-                  "name": "v",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "init": null
-              }
-            ],
-            "declare": false,
-            "kind": "let"
-          }
-        ]
-      },
       "left": {
         "type": "Identifier",
         "start": 5,
@@ -60,8 +28,40 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 11,
             "end": 12,
-            "raw": "0",
-            "value": 0
+            "value": 0,
+            "raw": "0"
+          }
+        ]
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 15,
+        "end": 29,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 21,
+            "end": 27,
+            "kind": "let",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 25,
+                "end": 26,
+                "id": {
+                  "type": "Identifier",
+                  "start": 25,
+                  "end": 26,
+                  "decorators": [],
+                  "name": "v",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "init": null,
+                "definite": false
+              }
+            ],
+            "declare": false
           }
         ]
       }

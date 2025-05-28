@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1146,
       "end": 1162,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -53,8 +53,8 @@
             "end": 1177,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -68,7 +68,6 @@
             "start": 1194,
             "end": 1281,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -91,9 +90,7 @@
                         "type": "Property",
                         "start": 1216,
                         "end": 1228,
-                        "method": false,
-                        "shorthand": true,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 1216,
@@ -106,7 +103,9 @@
                           "end": 1228,
                           "name": "unresolvable"
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": true,
+                        "computed": false
                       }
                     ]
                   },
@@ -180,7 +179,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -210,8 +210,8 @@
             "end": 1301,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

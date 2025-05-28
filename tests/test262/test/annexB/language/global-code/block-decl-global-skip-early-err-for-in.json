@@ -27,8 +27,8 @@
             "end": 716,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 733,
             "end": 752,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -63,7 +62,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -100,8 +100,8 @@
             "end": 832,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -109,13 +109,13 @@
             "start": 836,
             "end": 844,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 843,
               "end": 844,
               "name": "f"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -143,6 +143,7 @@
         "type": "VariableDeclaration",
         "start": 934,
         "end": 939,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -156,8 +157,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "ObjectExpression",
@@ -168,9 +168,7 @@
             "type": "Property",
             "start": 945,
             "end": 951,
-            "method": false,
-            "shorthand": false,
-            "computed": false,
+            "kind": "init",
             "key": {
               "type": "Identifier",
               "start": 945,
@@ -184,7 +182,9 @@
               "value": 0,
               "raw": "0"
             },
-            "kind": "init"
+            "method": false,
+            "shorthand": false,
+            "computed": false
           }
         ]
       },
@@ -208,7 +208,6 @@
                   "end": 972,
                   "name": "f"
                 },
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -217,7 +216,8 @@
                   "start": 975,
                   "end": 979,
                   "body": []
-                }
+                },
+                "expression": false
               }
             ]
           }
@@ -248,8 +248,8 @@
             "end": 999,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -263,7 +263,6 @@
             "start": 1016,
             "end": 1035,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -284,7 +283,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -321,8 +321,8 @@
             "end": 1116,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -330,13 +330,13 @@
             "start": 1120,
             "end": 1128,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 1127,
               "end": 1128,
               "name": "f"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

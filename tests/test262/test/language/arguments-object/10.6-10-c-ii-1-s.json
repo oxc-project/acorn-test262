@@ -13,7 +13,6 @@
         "end": 302,
         "name": "foo"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -150,8 +149,8 @@
                         "value": 0,
                         "raw": "0"
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "operator": "===",
                     "right": {
@@ -184,8 +183,8 @@
                         "value": 1,
                         "raw": "1"
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "operator": "===",
                     "right": {
@@ -219,8 +218,8 @@
                       "value": 2,
                       "raw": "2"
                     },
-                    "computed": true,
-                    "optional": false
+                    "optional": false,
+                    "computed": true
                   },
                   "operator": "===",
                   "right": {
@@ -235,7 +234,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

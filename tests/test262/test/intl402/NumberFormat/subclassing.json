@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 434,
       "end": 468,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -47,13 +48,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 469,
       "end": 517,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -89,41 +90,41 @@
                 "start": 484,
                 "end": 486,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 485,
                   "end": 486,
                   "value": 1,
                   "raw": "1"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 488,
                 "end": 499,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 489,
                   "end": 499,
                   "value": 123456.789,
                   "raw": "123456.789"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 501,
                 "end": 510,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 502,
                   "end": 510,
                   "name": "Infinity"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Identifier",
@@ -134,13 +135,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 518,
       "end": 577,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -172,8 +173,8 @@
                 "end": 567,
                 "name": "NumberFormat"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -185,13 +186,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 578,
       "end": 639,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -223,8 +224,8 @@
                 "end": 608,
                 "name": "map"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -243,15 +244,14 @@
                   "end": 637,
                   "name": "format"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             ],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ClassDeclaration",
@@ -279,8 +279,8 @@
           "end": 687,
           "name": "NumberFormat"
         },
-        "computed": false,
-        "optional": false
+        "optional": false,
+        "computed": false
       },
       "body": {
         "type": "ClassBody",
@@ -291,21 +291,17 @@
             "type": "MethodDefinition",
             "start": 692,
             "end": 806,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 692,
               "end": 703,
               "name": "constructor"
             },
-            "kind": "constructor",
             "value": {
               "type": "FunctionExpression",
               "start": 703,
               "end": 806,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -358,8 +354,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "constructor",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -368,6 +368,7 @@
       "type": "VariableDeclaration",
       "start": 861,
       "end": 902,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -399,13 +400,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 903,
       "end": 937,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -437,8 +438,8 @@
                 "end": 921,
                 "name": "map"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -457,15 +458,14 @@
                   "end": 935,
                   "name": "format"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             ],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -491,8 +491,8 @@
             "end": 957,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

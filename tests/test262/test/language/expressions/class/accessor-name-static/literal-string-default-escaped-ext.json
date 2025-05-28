@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 976,
       "end": 990,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,13 +21,13 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 992,
       "end": 1123,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -53,8 +54,6 @@
                   "type": "MethodDefinition",
                   "start": 1010,
                   "end": 1062,
-                  "static": true,
-                  "computed": false,
                   "key": {
                     "type": "Literal",
                     "start": 1021,
@@ -62,13 +61,11 @@
                     "value": "default",
                     "raw": "'def\\u{61}ult'"
                   },
-                  "kind": "get",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 1035,
                     "end": 1062,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -90,15 +87,17 @@
                           }
                         }
                       ]
-                    }
-                  }
+                    },
+                    "expression": false
+                  },
+                  "kind": "get",
+                  "computed": false,
+                  "static": true
                 },
                 {
                   "type": "MethodDefinition",
                   "start": 1065,
                   "end": 1120,
-                  "static": true,
-                  "computed": false,
                   "key": {
                     "type": "Literal",
                     "start": 1076,
@@ -106,13 +105,11 @@
                     "value": "default",
                     "raw": "'def\\u{61}ult'"
                   },
-                  "kind": "set",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 1090,
                     "end": 1120,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [
@@ -152,15 +149,18 @@
                           }
                         }
                       ]
-                    }
-                  }
+                    },
+                    "expression": false
+                  },
+                  "kind": "set",
+                  "computed": false,
+                  "static": true
                 }
               ]
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -186,8 +186,8 @@
             "end": 1141,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -207,8 +207,8 @@
               "value": "default",
               "raw": "'default'"
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           {
             "type": "Literal",
@@ -247,8 +247,8 @@
             "value": "default",
             "raw": "'default'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -283,8 +283,8 @@
             "end": 1217,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

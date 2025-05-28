@@ -23,21 +23,17 @@
             "type": "MethodDefinition",
             "start": 1736,
             "end": 1764,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1743,
               "end": 1749,
               "name": "method"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 1749,
               "end": 1764,
               "id": null,
-              "expression": false,
               "generator": true,
               "async": true,
               "params": [
@@ -53,8 +49,12 @@
                 "start": 1754,
                 "end": 1764,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -68,6 +68,7 @@
       "type": "VariableDeclaration",
       "start": 1769,
       "end": 1801,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -99,8 +100,8 @@
                 "end": 1793,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -108,12 +109,11 @@
               "end": 1800,
               "name": "method"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -139,8 +139,8 @@
             "end": 1816,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -154,7 +154,6 @@
             "start": 1828,
             "end": 1863,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -189,7 +188,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

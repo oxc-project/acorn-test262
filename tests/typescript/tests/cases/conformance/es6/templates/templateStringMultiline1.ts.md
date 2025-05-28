@@ -9,25 +9,25 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 25,
       "end": 30,
-      "directive": null,
       "expression": {
         "type": "TemplateLiteral",
         "start": 25,
         "end": 30,
-        "expressions": [],
         "quasis": [
           {
             "type": "TemplateElement",
             "start": 25,
             "end": 30,
-            "tail": true,
             "value": {
               "cooked": "\n",
               "raw": "\n\\\n"
-            }
+            },
+            "tail": true
           }
-        ]
-      }
+        ],
+        "expressions": []
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

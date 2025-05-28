@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 173,
+      "id": {
+        "type": "Identifier",
+        "start": 7,
+        "end": 15,
+        "decorators": [],
+        "name": "MyModule",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 16,
@@ -18,21 +27,10 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 23,
             "end": 81,
-            "attributes": [],
             "declaration": {
               "type": "FunctionDeclaration",
               "start": 30,
               "end": 81,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 78,
-                "end": 81,
-                "body": []
-              },
-              "declare": false,
-              "expression": false,
-              "generator": false,
               "id": {
                 "type": "Identifier",
                 "start": 39,
@@ -42,6 +40,10 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -90,29 +92,27 @@ __ESTREE_TEST__:PASS:
                   "end": 77
                 }
               },
-              "typeParameters": null
+              "body": {
+                "type": "BlockStatement",
+                "start": 78,
+                "end": 81,
+                "body": []
+              },
+              "expression": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
             "start": 87,
             "end": 107,
-            "attributes": [],
             "declaration": {
               "type": "ClassDeclaration",
               "start": 94,
               "end": 107,
-              "abstract": false,
-              "body": {
-                "type": "ClassBody",
-                "start": 104,
-                "end": 107,
-                "body": []
-              },
-              "declare": false,
               "decorators": [],
               "id": {
                 "type": "Identifier",
@@ -123,25 +123,46 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "implements": [],
+              "typeParameters": null,
               "superClass": null,
               "superTypeArguments": null,
-              "typeParameters": null
+              "implements": [],
+              "body": {
+                "type": "ClassBody",
+                "start": 104,
+                "end": 107,
+                "body": []
+              },
+              "abstract": false,
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
             "start": 113,
             "end": 170,
-            "attributes": [],
             "declaration": {
               "type": "ClassDeclaration",
               "start": 120,
               "end": 170,
-              "abstract": false,
+              "decorators": [],
+              "id": {
+                "type": "Identifier",
+                "start": 126,
+                "end": 132,
+                "decorators": [],
+                "name": "Person",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null,
+              "superClass": null,
+              "superTypeArguments": null,
+              "implements": [],
               "body": {
                 "type": "ClassBody",
                 "start": 133,
@@ -151,9 +172,6 @@ __ESTREE_TEST__:PASS:
                     "type": "PropertyDefinition",
                     "start": 143,
                     "end": 164,
-                    "accessibility": null,
-                    "computed": false,
-                    "declare": false,
                     "decorators": [
                       {
                         "type": "Decorator",
@@ -170,7 +188,6 @@ __ESTREE_TEST__:PASS:
                         }
                       }
                     ],
-                    "definite": false,
                     "key": {
                       "type": "Identifier",
                       "start": 151,
@@ -180,10 +197,6 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "optional": false,
-                    "override": false,
-                    "readonly": false,
-                    "static": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "start": 158,
@@ -192,7 +205,6 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 160,
                         "end": 163,
-                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 160,
@@ -201,47 +213,35 @@ __ESTREE_TEST__:PASS:
                           "name": "Leg",
                           "optional": false,
                           "typeAnnotation": null
-                        }
+                        },
+                        "typeArguments": null
                       }
                     },
-                    "value": null
+                    "value": null,
+                    "computed": false,
+                    "static": false,
+                    "declare": false,
+                    "override": false,
+                    "optional": false,
+                    "definite": false,
+                    "readonly": false,
+                    "accessibility": null
                   }
                 ]
               },
-              "declare": false,
-              "decorators": [],
-              "id": {
-                "type": "Identifier",
-                "start": 126,
-                "end": 132,
-                "decorators": [],
-                "name": "Person",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "implements": [],
-              "superClass": null,
-              "superTypeArguments": null,
-              "typeParameters": null
+              "abstract": false,
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 7,
-        "end": 15,
-        "decorators": [],
-        "name": "MyModule",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "script",

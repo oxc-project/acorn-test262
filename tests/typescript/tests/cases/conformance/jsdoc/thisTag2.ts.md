@@ -9,21 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 22,
       "end": 45,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 29,
         "end": 45,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 43,
-          "end": 45,
-          "body": []
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 38,
@@ -33,33 +22,33 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [],
         "returnType": null,
-        "typeParameters": null
+        "body": {
+          "type": "BlockStatement",
+          "start": 43,
+          "end": 45,
+          "body": []
+        },
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 60,
       "end": 83,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 67,
         "end": 83,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 81,
-          "end": 83,
-          "body": []
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 76,
@@ -69,13 +58,24 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [],
         "returnType": null,
-        "typeParameters": null
+        "body": {
+          "type": "BlockStatement",
+          "start": 81,
+          "end": 83,
+          "body": []
+        },
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

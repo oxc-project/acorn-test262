@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 101,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 6,
           "end": 100,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
@@ -33,7 +33,7 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 18,
                 "end": 97,
-                "computed": false,
+                "kind": "set",
                 "key": {
                   "type": "Identifier",
                   "start": 22,
@@ -43,70 +43,15 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "set",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "FunctionExpression",
                   "start": 25,
                   "end": 97,
-                  "async": false,
-                  "body": {
-                    "type": "BlockStatement",
-                    "start": 52,
-                    "end": 97,
-                    "body": [
-                      {
-                        "type": "ExpressionStatement",
-                        "start": 62,
-                        "end": 73,
-                        "directive": null,
-                        "expression": {
-                          "type": "UnaryExpression",
-                          "start": 62,
-                          "end": 72,
-                          "argument": {
-                            "type": "Identifier",
-                            "start": 67,
-                            "end": 72,
-                            "decorators": [],
-                            "name": "start",
-                            "optional": false,
-                            "typeAnnotation": null
-                          },
-                          "operator": "void",
-                          "prefix": true
-                        }
-                      },
-                      {
-                        "type": "ExpressionStatement",
-                        "start": 82,
-                        "end": 91,
-                        "directive": null,
-                        "expression": {
-                          "type": "UnaryExpression",
-                          "start": 82,
-                          "end": 90,
-                          "argument": {
-                            "type": "Identifier",
-                            "start": 87,
-                            "end": 90,
-                            "decorators": [],
-                            "name": "end",
-                            "optional": false,
-                            "typeAnnotation": null
-                          },
-                          "operator": "void",
-                          "prefix": true
-                        }
-                      }
-                    ]
-                  },
-                  "declare": false,
-                  "expression": false,
-                  "generator": false,
                   "id": null,
+                  "generator": false,
+                  "async": false,
+                  "declare": false,
+                  "typeParameters": null,
                   "params": [
                     {
                       "type": "ArrayPattern",
@@ -159,15 +104,70 @@ __ESTREE_TEST__:PASS:
                     }
                   ],
                   "returnType": null,
-                  "typeParameters": null
-                }
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 52,
+                    "end": 97,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 62,
+                        "end": 73,
+                        "expression": {
+                          "type": "UnaryExpression",
+                          "start": 62,
+                          "end": 72,
+                          "operator": "void",
+                          "argument": {
+                            "type": "Identifier",
+                            "start": 67,
+                            "end": 72,
+                            "decorators": [],
+                            "name": "start",
+                            "optional": false,
+                            "typeAnnotation": null
+                          },
+                          "prefix": true
+                        },
+                        "directive": null
+                      },
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 82,
+                        "end": 91,
+                        "expression": {
+                          "type": "UnaryExpression",
+                          "start": 82,
+                          "end": 90,
+                          "operator": "void",
+                          "argument": {
+                            "type": "Identifier",
+                            "start": 87,
+                            "end": 90,
+                            "decorators": [],
+                            "name": "end",
+                            "optional": false,
+                            "typeAnnotation": null
+                          },
+                          "prefix": true
+                        },
+                        "directive": null
+                      }
+                    ]
+                  },
+                  "expression": false
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "script",

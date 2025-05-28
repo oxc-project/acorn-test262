@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 15,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 14,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,34 +28,34 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeAssertion",
             "start": 8,
             "end": 14,
-            "expression": {
-              "type": "ArrayExpression",
-              "start": 12,
-              "end": 14,
-              "elements": []
-            },
             "typeAnnotation": {
               "type": "TSTupleType",
               "start": 9,
               "end": 11,
               "elementTypes": []
+            },
+            "expression": {
+              "type": "ArrayExpression",
+              "start": 12,
+              "end": 14,
+              "elements": []
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 16,
       "end": 29,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 20,
           "end": 28,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 20,
@@ -69,7 +69,6 @@ __ESTREE_TEST__:PASS:
             "type": "MemberExpression",
             "start": 24,
             "end": 28,
-            "computed": true,
             "object": {
               "type": "Identifier",
               "start": 24,
@@ -79,19 +78,20 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "Literal",
               "start": 26,
               "end": 27,
-              "raw": "0",
-              "value": 0
-            }
-          }
+              "value": 0,
+              "raw": "0"
+            },
+            "optional": false,
+            "computed": true
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     }
   ],
   "sourceType": "script",

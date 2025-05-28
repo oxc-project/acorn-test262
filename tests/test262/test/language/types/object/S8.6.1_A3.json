@@ -16,7 +16,6 @@
           "start": 404,
           "end": 421,
           "operator": "delete",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 411,
@@ -33,9 +32,10 @@
               "end": 421,
               "name": "NaN"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -87,7 +87,6 @@
                       "start": 506,
                       "end": 523,
                       "operator": "delete",
-                      "prefix": true,
                       "argument": {
                         "type": "MemberExpression",
                         "start": 513,
@@ -104,9 +103,10 @@
                           "end": 523,
                           "name": "NaN"
                         },
-                        "computed": false,
-                        "optional": false
-                      }
+                        "optional": false,
+                        "computed": false
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -135,7 +135,6 @@
           "start": 706,
           "end": 724,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 712,
@@ -156,10 +155,11 @@
                 "end": 723,
                 "name": "NaN"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "===",
         "right": {

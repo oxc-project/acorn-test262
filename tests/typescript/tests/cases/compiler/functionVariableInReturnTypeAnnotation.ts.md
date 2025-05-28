@@ -9,62 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 65,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 25,
-        "end": 65,
-        "body": [
-          {
-            "type": "VariableDeclaration",
-            "start": 31,
-            "end": 41,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 35,
-                "end": 40,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 35,
-                  "end": 36,
-                  "decorators": [],
-                  "name": "b",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "init": {
-                  "type": "Literal",
-                  "start": 39,
-                  "end": 40,
-                  "raw": "1",
-                  "value": 1
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "var"
-          },
-          {
-            "type": "ReturnStatement",
-            "start": 46,
-            "end": 63,
-            "argument": {
-              "type": "Identifier",
-              "start": 53,
-              "end": 62,
-              "decorators": [],
-              "name": "undefined",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -74,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
@@ -95,7 +43,59 @@ __ESTREE_TEST__:PASS:
           "typeArguments": null
         }
       },
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 25,
+        "end": 65,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 31,
+            "end": 41,
+            "kind": "var",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 35,
+                "end": 40,
+                "id": {
+                  "type": "Identifier",
+                  "start": 35,
+                  "end": 36,
+                  "decorators": [],
+                  "name": "b",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "init": {
+                  "type": "Literal",
+                  "start": 39,
+                  "end": 40,
+                  "value": 1,
+                  "raw": "1"
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "ReturnStatement",
+            "start": 46,
+            "end": 63,
+            "argument": {
+              "type": "Identifier",
+              "start": 53,
+              "end": 62,
+              "decorators": [],
+              "name": "undefined",
+              "optional": false,
+              "typeAnnotation": null
+            }
+          }
+        ]
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

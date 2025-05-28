@@ -9,31 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 67,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 50,
-        "end": 67,
-        "body": [
-          {
-            "type": "ReturnStatement",
-            "start": 56,
-            "end": 65,
-            "argument": {
-              "type": "Identifier",
-              "start": 63,
-              "end": 64,
-              "decorators": [],
-              "name": "z",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -43,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -76,12 +55,10 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "right": {
             "type": "BinaryExpression",
             "start": 32,
             "end": 37,
-            "operator": "*",
             "left": {
               "type": "Identifier",
               "start": 32,
@@ -91,14 +68,16 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
+            "operator": "*",
             "right": {
               "type": "Literal",
               "start": 36,
               "end": 37,
-              "raw": "1",
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           },
+          "optional": false,
           "typeAnnotation": null
         },
         {
@@ -115,12 +94,10 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "right": {
             "type": "BinaryExpression",
             "start": 43,
             "end": 48,
-            "operator": "+",
             "left": {
               "type": "Identifier",
               "start": 43,
@@ -130,6 +107,7 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
+            "operator": "+",
             "right": {
               "type": "Identifier",
               "start": 47,
@@ -140,11 +118,33 @@ __ESTREE_TEST__:PASS:
               "typeAnnotation": null
             }
           },
+          "optional": false,
           "typeAnnotation": null
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 50,
+        "end": 67,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 56,
+            "end": 65,
+            "argument": {
+              "type": "Identifier",
+              "start": 63,
+              "end": 64,
+              "decorators": [],
+              "name": "z",
+              "optional": false,
+              "typeAnnotation": null
+            }
+          }
+        ]
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

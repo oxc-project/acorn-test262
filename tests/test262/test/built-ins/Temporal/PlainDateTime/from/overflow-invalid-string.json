@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1369,
       "end": 1610,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -43,8 +44,8 @@
                     "end": 1419,
                     "name": "PlainDateTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -97,8 +98,8 @@
                     "end": 1461,
                     "name": "PlainDate"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -144,8 +145,8 @@
                     "end": 1503,
                     "name": "ZonedDateTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -174,9 +175,7 @@
                     "type": "Property",
                     "start": 1544,
                     "end": 1554,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1544,
@@ -190,15 +189,15 @@
                       "value": 2000,
                       "raw": "2000"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 1556,
                     "end": 1564,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1556,
@@ -212,15 +211,15 @@
                       "value": 5,
                       "raw": "5"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 1566,
                     "end": 1572,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1566,
@@ -234,15 +233,15 @@
                       "value": 2,
                       "raw": "2"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 1574,
                     "end": 1582,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1574,
@@ -256,7 +255,9 @@
                       "value": 12,
                       "raw": "12"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               },
@@ -270,13 +271,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1612,
       "end": 1708,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -338,8 +339,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -350,6 +350,7 @@
         "type": "VariableDeclaration",
         "start": 1714,
         "end": 1725,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -363,8 +364,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -386,6 +386,7 @@
               "type": "VariableDeclaration",
               "start": 1751,
               "end": 1765,
+              "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -399,8 +400,7 @@
                   },
                   "init": null
                 }
-              ],
-              "kind": "const"
+              ]
             },
             "right": {
               "type": "Identifier",
@@ -437,8 +437,8 @@
                         "end": 1802,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -451,9 +451,7 @@
                         "type": "ArrowFunctionExpression",
                         "start": 1828,
                         "end": 1882,
-                        "id": null,
                         "expression": true,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -480,8 +478,8 @@
                                 "end": 1856,
                                 "name": "PlainDateTime"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "property": {
                               "type": "Identifier",
@@ -489,8 +487,8 @@
                               "end": 1861,
                               "name": "from"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -508,9 +506,7 @@
                                   "type": "Property",
                                   "start": 1871,
                                   "end": 1879,
-                                  "method": false,
-                                  "shorthand": true,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 1871,
@@ -523,26 +519,22 @@
                                     "end": 1879,
                                     "name": "overflow"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": true,
+                                  "computed": false
                                 }
                               ]
                             }
                           ],
                           "optional": false
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 1890,
                         "end": 1924,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 1912,
-                            "end": 1920,
-                            "name": "overflow"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -563,6 +555,14 @@
                               "cooked": "\")"
                             },
                             "tail": true
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 1912,
+                            "end": 1920,
+                            "name": "overflow"
                           }
                         ]
                       }

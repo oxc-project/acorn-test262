@@ -9,16 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 25,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 22,
-        "end": 25,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -28,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -48,21 +42,41 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 16,
                 "end": 20,
-                "raw": "true",
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             }
           }
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 22,
+        "end": 25,
+        "body": []
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 27,
       "end": 111,
+      "id": {
+        "type": "Identifier",
+        "start": 36,
+        "end": 37,
+        "decorators": [],
+        "name": "f",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 40,
@@ -72,87 +86,14 @@ __ESTREE_TEST__:PASS:
             "type": "IfStatement",
             "start": 44,
             "end": 109,
-            "alternate": null,
-            "consequent": {
-              "type": "BlockStatement",
-              "start": 76,
-              "end": 109,
-              "body": [
-                {
-                  "type": "ExpressionStatement",
-                  "start": 82,
-                  "end": 105,
-                  "directive": null,
-                  "expression": {
-                    "type": "CallExpression",
-                    "start": 82,
-                    "end": 104,
-                    "arguments": [
-                      {
-                        "type": "MemberExpression",
-                        "start": 86,
-                        "end": 103,
-                        "computed": false,
-                        "object": {
-                          "type": "MetaProperty",
-                          "start": 86,
-                          "end": 96,
-                          "meta": {
-                            "type": "Identifier",
-                            "start": 86,
-                            "end": 89,
-                            "decorators": [],
-                            "name": "new",
-                            "optional": false,
-                            "typeAnnotation": null
-                          },
-                          "property": {
-                            "type": "Identifier",
-                            "start": 90,
-                            "end": 96,
-                            "decorators": [],
-                            "name": "target",
-                            "optional": false,
-                            "typeAnnotation": null
-                          }
-                        },
-                        "optional": false,
-                        "property": {
-                          "type": "Identifier",
-                          "start": 97,
-                          "end": 103,
-                          "decorators": [],
-                          "name": "marked",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
-                      }
-                    ],
-                    "callee": {
-                      "type": "Identifier",
-                      "start": 82,
-                      "end": 85,
-                      "decorators": [],
-                      "name": "foo",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "optional": false,
-                    "typeArguments": null
-                  }
-                }
-              ]
-            },
             "test": {
               "type": "BinaryExpression",
               "start": 48,
               "end": 74,
-              "operator": "===",
               "left": {
                 "type": "MemberExpression",
                 "start": 48,
                 "end": 65,
-                "computed": false,
                 "object": {
                   "type": "MetaProperty",
                   "start": 48,
@@ -176,7 +117,6 @@ __ESTREE_TEST__:PASS:
                     "typeAnnotation": null
                   }
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 59,
@@ -185,40 +125,99 @@ __ESTREE_TEST__:PASS:
                   "name": "marked",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
+              "operator": "===",
               "right": {
                 "type": "Literal",
                 "start": 70,
                 "end": 74,
-                "raw": "true",
-                "value": true
+                "value": true,
+                "raw": "true"
               }
-            }
+            },
+            "consequent": {
+              "type": "BlockStatement",
+              "start": 76,
+              "end": 109,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 82,
+                  "end": 105,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 82,
+                    "end": 104,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 82,
+                      "end": 85,
+                      "decorators": [],
+                      "name": "foo",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeArguments": null,
+                    "arguments": [
+                      {
+                        "type": "MemberExpression",
+                        "start": 86,
+                        "end": 103,
+                        "object": {
+                          "type": "MetaProperty",
+                          "start": 86,
+                          "end": 96,
+                          "meta": {
+                            "type": "Identifier",
+                            "start": 86,
+                            "end": 89,
+                            "decorators": [],
+                            "name": "new",
+                            "optional": false,
+                            "typeAnnotation": null
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 90,
+                            "end": 96,
+                            "decorators": [],
+                            "name": "target",
+                            "optional": false,
+                            "typeAnnotation": null
+                          }
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 97,
+                          "end": 103,
+                          "decorators": [],
+                          "name": "marked",
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
+                        "optional": false,
+                        "computed": false
+                      }
+                    ],
+                    "optional": false
+                  },
+                  "directive": null
+                }
+              ]
+            },
+            "alternate": null
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 36,
-        "end": 37,
-        "decorators": [],
-        "name": "f",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
       "start": 113,
       "end": 129,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 113,
@@ -228,7 +227,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 113,
           "end": 121,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 113,
@@ -238,7 +236,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 115,
@@ -247,16 +244,19 @@ __ESTREE_TEST__:PASS:
             "name": "marked",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
           "start": 124,
           "end": 128,
-          "raw": "true",
-          "value": true
+          "value": true,
+          "raw": "true"
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

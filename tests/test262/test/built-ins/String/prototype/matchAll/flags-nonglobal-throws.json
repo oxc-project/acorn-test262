@@ -27,8 +27,8 @@
             "end": 687,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 699,
             "end": 734,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -76,8 +75,8 @@
                         "end": 726,
                         "name": "matchAll"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -96,7 +95,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -126,8 +126,8 @@
             "end": 750,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -141,7 +141,6 @@
             "start": 762,
             "end": 798,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -175,8 +174,8 @@
                         "end": 789,
                         "name": "matchAll"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -195,7 +194,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -225,8 +225,8 @@
             "end": 814,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -240,7 +240,6 @@
             "start": 826,
             "end": 862,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -274,8 +273,8 @@
                         "end": 853,
                         "name": "matchAll"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -294,7 +293,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -324,8 +324,8 @@
             "end": 878,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -339,7 +339,6 @@
             "start": 890,
             "end": 926,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -373,8 +372,8 @@
                         "end": 917,
                         "name": "matchAll"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -393,7 +392,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -423,8 +423,8 @@
             "end": 942,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -438,7 +438,6 @@
             "start": 954,
             "end": 990,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -472,8 +471,8 @@
                         "end": 981,
                         "name": "matchAll"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -492,7 +491,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -502,6 +502,7 @@
       "type": "VariableDeclaration",
       "start": 994,
       "end": 1010,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -525,8 +526,7 @@
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -552,8 +552,8 @@
             "end": 1032,
             "name": "defineProperty"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -578,9 +578,7 @@
                 "type": "Property",
                 "start": 1053,
                 "end": 1066,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1053,
@@ -594,7 +592,9 @@
                   "value": "muyi",
                   "raw": "'muyi'"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -626,8 +626,8 @@
             "end": 1085,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -641,7 +641,6 @@
             "start": 1097,
             "end": 1134,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -675,8 +674,8 @@
                         "end": 1124,
                         "name": "matchAll"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -690,7 +689,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

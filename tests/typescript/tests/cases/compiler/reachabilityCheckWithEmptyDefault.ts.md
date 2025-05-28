@@ -9,11 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 0,
       "end": 40,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 17,
@@ -23,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -53,97 +52,13 @@ __ESTREE_TEST__:PASS:
           "end": 39
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 41,
       "end": 123,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 62,
-        "end": 123,
-        "body": [
-          {
-            "type": "SwitchStatement",
-            "start": 65,
-            "end": 108,
-            "cases": [
-              {
-                "type": "SwitchCase",
-                "start": 79,
-                "end": 94,
-                "consequent": [
-                  {
-                    "type": "ReturnStatement",
-                    "start": 87,
-                    "end": 94,
-                    "argument": null
-                  }
-                ],
-                "test": {
-                  "type": "Literal",
-                  "start": 84,
-                  "end": 85,
-                  "raw": "1",
-                  "value": 1
-                }
-              },
-              {
-                "type": "SwitchCase",
-                "start": 97,
-                "end": 105,
-                "consequent": [],
-                "test": null
-              }
-            ],
-            "discriminant": {
-              "type": "Identifier",
-              "start": 72,
-              "end": 73,
-              "decorators": [],
-              "name": "x",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 110,
-            "end": 121,
-            "directive": null,
-            "expression": {
-              "type": "CallExpression",
-              "start": 110,
-              "end": 120,
-              "arguments": [
-                {
-                  "type": "Literal",
-                  "start": 116,
-                  "end": 119,
-                  "raw": "'1'",
-                  "value": "1"
-                }
-              ],
-              "callee": {
-                "type": "Identifier",
-                "start": 110,
-                "end": 115,
-                "decorators": [],
-                "name": "print",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "typeArguments": null
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 50,
@@ -153,6 +68,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -174,7 +93,88 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 62,
+        "end": 123,
+        "body": [
+          {
+            "type": "SwitchStatement",
+            "start": 65,
+            "end": 108,
+            "discriminant": {
+              "type": "Identifier",
+              "start": 72,
+              "end": 73,
+              "decorators": [],
+              "name": "x",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "cases": [
+              {
+                "type": "SwitchCase",
+                "start": 79,
+                "end": 94,
+                "test": {
+                  "type": "Literal",
+                  "start": 84,
+                  "end": 85,
+                  "value": 1,
+                  "raw": "1"
+                },
+                "consequent": [
+                  {
+                    "type": "ReturnStatement",
+                    "start": 87,
+                    "end": 94,
+                    "argument": null
+                  }
+                ]
+              },
+              {
+                "type": "SwitchCase",
+                "start": 97,
+                "end": 105,
+                "test": null,
+                "consequent": []
+              }
+            ]
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 110,
+            "end": 121,
+            "expression": {
+              "type": "CallExpression",
+              "start": 110,
+              "end": 120,
+              "callee": {
+                "type": "Identifier",
+                "start": 110,
+                "end": 115,
+                "decorators": [],
+                "name": "print",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeArguments": null,
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 116,
+                  "end": 119,
+                  "value": "1",
+                  "raw": "'1'"
+                }
+              ],
+              "optional": false
+            },
+            "directive": null
+          }
+        ]
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

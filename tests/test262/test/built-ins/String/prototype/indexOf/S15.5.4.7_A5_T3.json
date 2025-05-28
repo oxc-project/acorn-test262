@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 279,
       "end": 409,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -39,8 +40,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForStatement",
@@ -50,6 +50,7 @@
         "type": "VariableDeclaration",
         "start": 505,
         "end": 526,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -87,8 +88,7 @@
               "raw": "0x0020"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -175,8 +175,8 @@
                     "end": 577,
                     "name": "indexOf"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -199,8 +199,8 @@
                         "end": 597,
                         "name": "fromCharCode"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -240,14 +240,14 @@
                 "start": 613,
                 "end": 615,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 614,
                   "end": 615,
                   "value": 1,
                   "raw": "1"
-                }
+                },
+                "prefix": true
               }
             },
             "consequent": {
@@ -413,8 +413,8 @@
                               "end": 778,
                               "name": "indexOf"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -437,8 +437,8 @@
                                   "end": 798,
                                   "name": "fromCharCode"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "arguments": [
                                 {

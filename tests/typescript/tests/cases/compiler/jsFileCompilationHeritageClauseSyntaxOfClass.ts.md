@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 24,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 21,
-        "end": 24,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -27,6 +19,9 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
       "implements": [
         {
           "type": "TSClassImplements",
@@ -44,9 +39,14 @@ __ESTREE_TEST__:PASS:
           "typeArguments": null
         }
       ],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "body": {
+        "type": "ClassBody",
+        "start": 21,
+        "end": 24,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1817,
       "end": 1868,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -22,9 +23,7 @@
             "type": "ArrowFunctionExpression",
             "start": 1825,
             "end": 1867,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -40,9 +39,7 @@
                       "type": "Property",
                       "start": 1828,
                       "end": 1853,
-                      "method": false,
-                      "shorthand": true,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1828,
@@ -66,7 +63,9 @@
                           "name": "unresolvableReference"
                         }
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": true,
+                      "computed": false
                     }
                   ]
                 },
@@ -83,11 +82,12 @@
               "start": 1865,
               "end": 1867,
               "body": []
-            }
+            },
+            "id": null,
+            "generator": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -113,8 +113,8 @@
             "end": 1883,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -128,7 +128,6 @@
             "start": 1900,
             "end": 1921,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -156,7 +155,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

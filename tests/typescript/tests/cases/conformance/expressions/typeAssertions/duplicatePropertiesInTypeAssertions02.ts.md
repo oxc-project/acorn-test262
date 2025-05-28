@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 37,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 36,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -43,8 +43,9 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 15,
                   "end": 25,
-                  "accessibility": null,
                   "computed": false,
+                  "optional": false,
+                  "readonly": false,
                   "key": {
                     "type": "Identifier",
                     "start": 15,
@@ -54,9 +55,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
-                  "readonly": false,
-                  "static": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 16,
@@ -66,14 +64,17 @@ __ESTREE_TEST__:PASS:
                       "start": 18,
                       "end": 24
                     }
-                  }
+                  },
+                  "accessibility": null,
+                  "static": false
                 },
                 {
                   "type": "TSPropertySignature",
                   "start": 26,
                   "end": 35,
-                  "accessibility": null,
                   "computed": false,
+                  "optional": false,
+                  "readonly": false,
                   "key": {
                     "type": "Identifier",
                     "start": 26,
@@ -83,9 +84,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
-                  "readonly": false,
-                  "static": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 27,
@@ -95,15 +93,17 @@ __ESTREE_TEST__:PASS:
                       "start": 29,
                       "end": 35
                     }
-                  }
+                  },
+                  "accessibility": null,
+                  "static": false
                 }
               ]
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     }
   ],
   "sourceType": "script",

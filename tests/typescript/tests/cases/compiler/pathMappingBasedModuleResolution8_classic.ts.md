@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 41,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 16,
-        "end": 41,
-        "raw": "\"@speedy/folder1/testing\"",
-        "value": "@speedy/folder1/testing"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -31,7 +23,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 8,
@@ -40,11 +31,20 @@ __ESTREE_TEST__:PASS:
             "name": "x",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 16,
+        "end": 41,
+        "value": "@speedy/folder1/testing",
+        "raw": "\"@speedy/folder1/testing\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",
@@ -62,17 +62,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 23,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 23,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 13,
             "end": 22,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 13,
@@ -86,30 +85,31 @@ __ESTREE_TEST__:PASS:
               "type": "BinaryExpression",
               "start": 17,
               "end": 22,
-              "operator": "+",
               "left": {
                 "type": "Literal",
                 "start": 17,
                 "end": 18,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
+              "operator": "+",
               "right": {
                 "type": "Literal",
                 "start": 21,
                 "end": 22,
-                "raw": "2",
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

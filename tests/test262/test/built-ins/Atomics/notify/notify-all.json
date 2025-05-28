@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 347,
       "end": 368,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 414,
       "end": 432,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -52,13 +53,13 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 477,
       "end": 496,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -78,13 +79,13 @@
             "raw": "3"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 497,
       "end": 519,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -104,8 +105,7 @@
             "raw": "4"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForStatement",
@@ -115,6 +115,7 @@
         "type": "VariableDeclaration",
         "start": 526,
         "end": 535,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -134,8 +135,7 @@
               "raw": "0"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -201,8 +201,8 @@
                     "end": 570,
                     "name": "agent"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -210,28 +210,14 @@
                   "end": 576,
                   "name": "start"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
                   "type": "TemplateLiteral",
                   "start": 577,
                   "end": 817,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 693,
-                      "end": 700,
-                      "name": "RUNNING"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 760,
-                      "end": 770,
-                      "name": "WAIT_INDEX"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -263,6 +249,20 @@
                       },
                       "tail": true
                     }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 693,
+                      "end": 700,
+                      "name": "RUNNING"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 760,
+                      "end": 770,
+                      "name": "WAIT_INDEX"
+                    }
                   ]
                 }
               ],
@@ -276,6 +276,7 @@
       "type": "VariableDeclaration",
       "start": 823,
       "end": 922,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -329,8 +330,8 @@
                         "end": 904,
                         "name": "BYTES_PER_ELEMENT"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "operator": "*",
                     "right": {
@@ -345,8 +346,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -376,8 +376,8 @@
               "end": 934,
               "name": "agent"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -385,8 +385,8 @@
             "end": 948,
             "name": "safeBroadcast"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -427,8 +427,8 @@
               "end": 1001,
               "name": "agent"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -436,8 +436,8 @@
             "end": 1011,
             "name": "waitUntil"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -490,8 +490,8 @@
               "end": 1209,
               "name": "agent"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -499,8 +499,8 @@
             "end": 1218,
             "name": "tryYield"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [],
         "optional": false
@@ -530,8 +530,8 @@
             "end": 1317,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -554,8 +554,8 @@
                 "end": 1335,
                 "name": "notify"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -598,6 +598,7 @@
         "type": "VariableDeclaration",
         "start": 1445,
         "end": 1454,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -617,8 +618,7 @@
               "raw": "0"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -680,8 +680,8 @@
                   "end": 1495,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -708,8 +708,8 @@
                         "end": 1506,
                         "name": "agent"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -717,8 +717,8 @@
                       "end": 1516,
                       "name": "getReport"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false

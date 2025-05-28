@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSEnumDeclaration",
       "start": 0,
       "end": 38,
+      "id": {
+        "type": "Identifier",
+        "start": 5,
+        "end": 8,
+        "decorators": [],
+        "name": "foo",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSEnumBody",
         "start": 9,
@@ -18,7 +27,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 13,
             "end": 18,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 13,
@@ -32,15 +40,15 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 17,
               "end": 18,
-              "raw": "1",
-              "value": 1
-            }
+              "value": 1,
+              "raw": "1"
+            },
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 22,
             "end": 27,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 22,
@@ -54,15 +62,15 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 26,
               "end": 27,
-              "raw": "2",
-              "value": 2
-            }
+              "value": 2,
+              "raw": "2"
+            },
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 31,
             "end": 36,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 31,
@@ -76,23 +84,15 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 35,
               "end": 36,
-              "raw": "3",
-              "value": 3
-            }
+              "value": 3,
+              "raw": "3"
+            },
+            "computed": false
           }
         ]
       },
       "const": false,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 5,
-        "end": 8,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      "declare": false
     }
   ],
   "sourceType": "script",

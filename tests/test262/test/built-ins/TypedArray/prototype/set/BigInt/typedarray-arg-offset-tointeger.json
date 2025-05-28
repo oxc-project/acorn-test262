@@ -23,7 +23,6 @@
             "start": 622,
             "end": 2655,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -43,6 +42,7 @@
                   "type": "VariableDeclaration",
                   "start": 639,
                   "end": 650,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -56,13 +56,13 @@
                       },
                       "init": null
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "VariableDeclaration",
                   "start": 653,
                   "end": 677,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -103,8 +103,7 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -183,8 +182,8 @@
                         "end": 720,
                         "name": "set"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -350,8 +349,8 @@
                         "end": 836,
                         "name": "set"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -517,8 +516,8 @@
                         "end": 940,
                         "name": "set"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -684,8 +683,8 @@
                         "end": 1048,
                         "name": "set"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -851,8 +850,8 @@
                         "end": 1152,
                         "name": "set"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1018,8 +1017,8 @@
                         "end": 1256,
                         "name": "set"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1033,14 +1032,14 @@
                         "start": 1262,
                         "end": 1266,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 1263,
                           "end": 1266,
                           "value": 0.5,
                           "raw": "0.5"
-                        }
+                        },
+                        "prefix": true
                       }
                     ],
                     "optional": false
@@ -1192,8 +1191,8 @@
                         "end": 1362,
                         "name": "set"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1359,8 +1358,8 @@
                         "end": 1466,
                         "name": "set"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1525,8 +1524,8 @@
                         "end": 1570,
                         "name": "set"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1692,8 +1691,8 @@
                         "end": 1676,
                         "name": "set"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1858,8 +1857,8 @@
                         "end": 1792,
                         "name": "set"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2024,8 +2023,8 @@
                         "end": 1894,
                         "name": "set"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2190,8 +2189,8 @@
                         "end": 1996,
                         "name": "set"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2364,8 +2363,8 @@
                         "end": 2100,
                         "name": "set"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2531,8 +2530,8 @@
                         "end": 2206,
                         "name": "set"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2698,8 +2697,8 @@
                         "end": 2310,
                         "name": "set"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2872,8 +2871,8 @@
                         "end": 2414,
                         "name": "set"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2891,9 +2890,7 @@
                             "type": "Property",
                             "start": 2422,
                             "end": 2453,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 2422,
@@ -2905,7 +2902,6 @@
                               "start": 2431,
                               "end": 2453,
                               "id": null,
-                              "expression": false,
                               "generator": false,
                               "async": false,
                               "params": [],
@@ -2927,9 +2923,12 @@
                                     }
                                   }
                                 ]
-                              }
+                              },
+                              "expression": false
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -3083,8 +3082,8 @@
                         "end": 2554,
                         "name": "set"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -3102,9 +3101,7 @@
                             "type": "Property",
                             "start": 2562,
                             "end": 2594,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 2562,
@@ -3116,7 +3113,6 @@
                               "start": 2572,
                               "end": 2594,
                               "id": null,
-                              "expression": false,
                               "generator": false,
                               "async": false,
                               "params": [],
@@ -3138,9 +3134,12 @@
                                     }
                                   }
                                 ]
-                              }
+                              },
+                              "expression": false
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -3218,7 +3217,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

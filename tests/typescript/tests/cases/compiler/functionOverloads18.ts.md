@@ -9,11 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 0,
       "end": 30,
-      "async": false,
-      "body": null,
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -23,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -44,8 +43,9 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 18,
                   "end": 27,
-                  "accessibility": null,
                   "computed": false,
+                  "optional": false,
+                  "readonly": false,
                   "key": {
                     "type": "Identifier",
                     "start": 18,
@@ -55,9 +55,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
-                  "readonly": false,
-                  "static": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 19,
@@ -67,7 +64,9 @@ __ESTREE_TEST__:PASS:
                       "start": 20,
                       "end": 26
                     }
-                  }
+                  },
+                  "accessibility": null,
+                  "static": false
                 }
               ]
             }
@@ -75,61 +74,13 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 31,
       "end": 78,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 61,
-        "end": 78,
-        "body": [
-          {
-            "type": "ReturnStatement",
-            "start": 63,
-            "end": 76,
-            "argument": {
-              "type": "ObjectExpression",
-              "start": 70,
-              "end": 76,
-              "properties": [
-                {
-                  "type": "Property",
-                  "start": 71,
-                  "end": 75,
-                  "computed": false,
-                  "key": {
-                    "type": "Identifier",
-                    "start": 71,
-                    "end": 72,
-                    "decorators": [],
-                    "name": "a",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "kind": "init",
-                  "method": false,
-                  "optional": false,
-                  "shorthand": false,
-                  "value": {
-                    "type": "Literal",
-                    "start": 73,
-                    "end": 75,
-                    "raw": "\"\"",
-                    "value": ""
-                  }
-                }
-              ]
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 40,
@@ -139,6 +90,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -160,8 +115,9 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 49,
                   "end": 58,
-                  "accessibility": null,
                   "computed": false,
+                  "optional": false,
+                  "readonly": false,
                   "key": {
                     "type": "Identifier",
                     "start": 49,
@@ -171,9 +127,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
-                  "readonly": false,
-                  "static": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 50,
@@ -183,7 +136,9 @@ __ESTREE_TEST__:PASS:
                       "start": 51,
                       "end": 57
                     }
-                  }
+                  },
+                  "accessibility": null,
+                  "static": false
                 }
               ]
             }
@@ -191,7 +146,52 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 61,
+        "end": 78,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 63,
+            "end": 76,
+            "argument": {
+              "type": "ObjectExpression",
+              "start": 70,
+              "end": 76,
+              "properties": [
+                {
+                  "type": "Property",
+                  "start": 71,
+                  "end": 75,
+                  "kind": "init",
+                  "key": {
+                    "type": "Identifier",
+                    "start": 71,
+                    "end": 72,
+                    "decorators": [],
+                    "name": "a",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "value": {
+                    "type": "Literal",
+                    "start": 73,
+                    "end": 75,
+                    "value": "",
+                    "raw": "\"\""
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "optional": false
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

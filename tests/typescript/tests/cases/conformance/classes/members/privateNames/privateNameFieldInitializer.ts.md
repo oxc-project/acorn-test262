@@ -9,65 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 48,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 8,
-        "end": 48,
-        "body": [
-          {
-            "type": "PropertyDefinition",
-            "start": 14,
-            "end": 26,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
-            "key": {
-              "type": "PrivateIdentifier",
-              "start": 14,
-              "end": 20,
-              "name": "field"
-            },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": null,
-            "value": {
-              "type": "Literal",
-              "start": 23,
-              "end": 25,
-              "raw": "10",
-              "value": 10
-            }
-          },
-          {
-            "type": "PropertyDefinition",
-            "start": 31,
-            "end": 46,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
-            "key": {
-              "type": "PrivateIdentifier",
-              "start": 31,
-              "end": 45,
-              "name": "uninitialized"
-            },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": null,
-            "value": null
-          }
-        ]
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -78,10 +19,69 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 8,
+        "end": 48,
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "start": 14,
+            "end": 26,
+            "decorators": [],
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 14,
+              "end": 20,
+              "name": "field"
+            },
+            "typeAnnotation": null,
+            "value": {
+              "type": "Literal",
+              "start": 23,
+              "end": 25,
+              "value": 10,
+              "raw": "10"
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 31,
+            "end": 46,
+            "decorators": [],
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 31,
+              "end": 45,
+              "name": "uninitialized"
+            },
+            "typeAnnotation": null,
+            "value": null,
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
+          }
+        ]
+      },
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

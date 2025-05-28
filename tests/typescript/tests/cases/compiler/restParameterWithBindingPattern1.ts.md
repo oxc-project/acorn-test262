@@ -9,16 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 25,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 22,
-        "end": 25,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -28,23 +18,27 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "RestElement",
           "start": 11,
           "end": 20,
+          "decorators": [],
           "argument": {
             "type": "ObjectPattern",
             "start": 14,
             "end": 20,
             "decorators": [],
-            "optional": false,
             "properties": [
               {
                 "type": "Property",
                 "start": 15,
                 "end": 16,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 15,
@@ -54,10 +48,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": true,
                 "value": {
                   "type": "Identifier",
                   "start": 15,
@@ -66,13 +56,17 @@ __ESTREE_TEST__:PASS:
                   "name": "a",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "method": false,
+                "shorthand": true,
+                "computed": false,
+                "optional": false
               },
               {
                 "type": "Property",
                 "start": 18,
                 "end": 19,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 18,
@@ -82,10 +76,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": true,
                 "value": {
                   "type": "Identifier",
                   "start": 18,
@@ -94,19 +84,29 @@ __ESTREE_TEST__:PASS:
                   "name": "b",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "method": false,
+                "shorthand": true,
+                "computed": false,
+                "optional": false
               }
             ],
+            "optional": false,
             "typeAnnotation": null
           },
-          "decorators": [],
           "optional": false,
           "typeAnnotation": null,
           "value": null
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 22,
+        "end": 25,
+        "body": []
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

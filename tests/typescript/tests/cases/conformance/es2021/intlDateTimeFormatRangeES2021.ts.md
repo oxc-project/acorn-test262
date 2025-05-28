@@ -9,68 +9,22 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 63,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
         "end": 62,
-        "arguments": [
-          {
-            "type": "NewExpression",
-            "start": 38,
-            "end": 49,
-            "arguments": [
-              {
-                "type": "Literal",
-                "start": 47,
-                "end": 48,
-                "raw": "0",
-                "value": 0
-              }
-            ],
-            "callee": {
-              "type": "Identifier",
-              "start": 42,
-              "end": 46,
-              "decorators": [],
-              "name": "Date",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeArguments": null
-          },
-          {
-            "type": "NewExpression",
-            "start": 51,
-            "end": 61,
-            "arguments": [],
-            "callee": {
-              "type": "Identifier",
-              "start": 55,
-              "end": 59,
-              "decorators": [],
-              "name": "Date",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeArguments": null
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 0,
           "end": 37,
-          "computed": false,
           "object": {
             "type": "NewExpression",
             "start": 0,
             "end": 25,
-            "arguments": [],
             "callee": {
               "type": "MemberExpression",
               "start": 4,
               "end": 23,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 4,
@@ -80,7 +34,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 9,
@@ -89,11 +42,13 @@ __ESTREE_TEST__:PASS:
                 "name": "DateTimeFormat",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             },
-            "typeArguments": null
+            "typeArguments": null,
+            "arguments": []
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 26,
@@ -102,22 +57,67 @@ __ESTREE_TEST__:PASS:
             "name": "formatRange",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "NewExpression",
+            "start": 38,
+            "end": 49,
+            "callee": {
+              "type": "Identifier",
+              "start": 42,
+              "end": 46,
+              "decorators": [],
+              "name": "Date",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null,
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 47,
+                "end": 48,
+                "value": 0,
+                "raw": "0"
+              }
+            ]
+          },
+          {
+            "type": "NewExpression",
+            "start": 51,
+            "end": 61,
+            "callee": {
+              "type": "Identifier",
+              "start": 55,
+              "end": 59,
+              "decorators": [],
+              "name": "Date",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null,
+            "arguments": []
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "VariableDeclaration",
       "start": 64,
       "end": 144,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 70,
           "end": 143,
-          "definite": false,
           "id": {
             "type": "ArrayPattern",
             "start": 70,
@@ -141,37 +141,18 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 81,
             "end": 143,
-            "arguments": [
-              {
-                "type": "Literal",
-                "start": 126,
-                "end": 130,
-                "raw": "1000",
-                "value": 1000
-              },
-              {
-                "type": "Literal",
-                "start": 132,
-                "end": 142,
-                "raw": "1000000000",
-                "value": 1000000000
-              }
-            ],
             "callee": {
               "type": "MemberExpression",
               "start": 81,
               "end": 125,
-              "computed": false,
               "object": {
                 "type": "NewExpression",
                 "start": 81,
                 "end": 106,
-                "arguments": [],
                 "callee": {
                   "type": "MemberExpression",
                   "start": 85,
                   "end": 104,
-                  "computed": false,
                   "object": {
                     "type": "Identifier",
                     "start": 85,
@@ -181,7 +162,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 90,
@@ -190,11 +170,13 @@ __ESTREE_TEST__:PASS:
                     "name": "DateTimeFormat",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "optional": false,
+                  "computed": false
                 },
-                "typeArguments": null
+                "typeArguments": null,
+                "arguments": []
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 107,
@@ -203,15 +185,33 @@ __ESTREE_TEST__:PASS:
                 "name": "formatRangeToParts",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 126,
+                "end": 130,
+                "value": 1000,
+                "raw": "1000"
+              },
+              {
+                "type": "Literal",
+                "start": 132,
+                "end": 142,
+                "value": 1000000000,
+                "raw": "1000000000"
+              }
+            ],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "script",

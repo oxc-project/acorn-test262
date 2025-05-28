@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 308,
       "end": 448,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -28,7 +29,6 @@
               "end": 346,
               "name": "F"
             },
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -61,16 +61,17 @@
                   "end": 426
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 449,
       "end": 579,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -87,7 +88,6 @@
             "start": 469,
             "end": 567,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -120,11 +120,11 @@
                   "end": 557
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",

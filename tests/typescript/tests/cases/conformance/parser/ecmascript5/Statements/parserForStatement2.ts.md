@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 6,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 5,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -24,22 +24,22 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 7,
       "end": 18,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 11,
           "end": 17,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 11,
@@ -54,22 +54,22 @@ __ESTREE_TEST__:PASS:
             "start": 15,
             "end": 17,
             "elements": []
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 19,
       "end": 25,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 23,
           "end": 24,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 23,
@@ -79,22 +79,16 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ForInStatement",
       "start": 26,
       "end": 62,
-      "body": {
-        "type": "BlockStatement",
-        "start": 58,
-        "end": 62,
-        "body": []
-      },
       "left": {
         "type": "Identifier",
         "start": 31,
@@ -118,7 +112,6 @@ __ESTREE_TEST__:PASS:
               "type": "MemberExpression",
               "start": 36,
               "end": 40,
-              "computed": true,
               "object": {
                 "type": "Identifier",
                 "start": 36,
@@ -128,7 +121,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 38,
@@ -137,18 +129,18 @@ __ESTREE_TEST__:PASS:
                 "name": "c",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": true
             },
             "right": {
               "type": "LogicalExpression",
               "start": 43,
               "end": 53,
-              "operator": "||",
               "left": {
                 "type": "MemberExpression",
                 "start": 43,
                 "end": 47,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 43,
@@ -158,7 +150,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 45,
@@ -167,8 +158,11 @@ __ESTREE_TEST__:PASS:
                   "name": "c",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": true
               },
+              "operator": "||",
               "right": {
                 "type": "ArrayExpression",
                 "start": 51,
@@ -187,6 +181,12 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         ]
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 58,
+        "end": 62,
+        "body": []
       }
     }
   ],

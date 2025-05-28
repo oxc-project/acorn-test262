@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 361,
       "end": 416,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -74,8 +75,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -101,8 +101,8 @@
             "end": 430,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -116,7 +116,6 @@
             "start": 444,
             "end": 495,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -149,8 +148,8 @@
                         "end": 479,
                         "name": "setFromBase64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -165,7 +164,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -202,8 +202,8 @@
             "end": 554,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -361,8 +361,8 @@
             "end": 716,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -376,7 +376,6 @@
             "start": 730,
             "end": 811,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -409,8 +408,8 @@
                         "end": 765,
                         "name": "setFromBase64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -429,9 +428,7 @@
                             "type": "Property",
                             "start": 778,
                             "end": 805,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 778,
@@ -445,7 +442,9 @@
                               "value": "strict",
                               "raw": "\"strict\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -454,7 +453,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -491,8 +491,8 @@
             "end": 883,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -650,8 +650,8 @@
             "end": 1042,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -665,7 +665,6 @@
             "start": 1056,
             "end": 1107,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -698,8 +697,8 @@
                         "end": 1091,
                         "name": "setFromBase64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -714,7 +713,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -751,8 +751,8 @@
             "end": 1163,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

@@ -17,7 +17,6 @@
           "end": 439,
           "name": "__func"
         },
-        "expression": false,
         "generator": false,
         "async": false,
         "params": [],
@@ -39,7 +38,8 @@
               }
             }
           ]
-        }
+        },
+        "expression": false
       },
       "consequent": {
         "type": "BlockStatement",

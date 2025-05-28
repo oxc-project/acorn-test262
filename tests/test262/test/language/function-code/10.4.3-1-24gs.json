@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 331,
       "end": 389,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -23,7 +24,6 @@
             "start": 339,
             "end": 389,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -56,11 +56,11 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -117,7 +117,6 @@
               "start": 419,
               "end": 435,
               "operator": "typeof",
-              "prefix": true,
               "argument": {
                 "type": "ParenthesizedExpression",
                 "start": 426,
@@ -134,7 +133,8 @@
                   },
                   "arguments": []
                 }
-              }
+              },
+              "prefix": true
             },
             "operator": "===",
             "right": {

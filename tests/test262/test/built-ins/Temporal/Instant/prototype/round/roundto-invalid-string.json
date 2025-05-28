@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 298,
       "end": 363,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 334,
                 "name": "Instant"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -53,13 +54,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 364,
       "end": 643,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -212,8 +213,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -224,6 +224,7 @@
         "type": "VariableDeclaration",
         "start": 649,
         "end": 667,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -237,8 +238,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -275,8 +275,8 @@
                   "end": 699,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -289,9 +289,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 712,
                   "end": 745,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -314,8 +312,8 @@
                         "end": 731,
                         "name": "round"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -326,20 +324,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 751,
                   "end": 809,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 755,
-                      "end": 767,
-                      "name": "smallestUnit"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -360,6 +352,14 @@
                         "cooked": "\" is not a valid value for smallest unit"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 755,
+                      "end": 767,
+                      "name": "smallestUnit"
                     }
                   ]
                 }

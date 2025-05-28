@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 38,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 6,
           "end": 37,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
@@ -28,20 +28,10 @@ __ESTREE_TEST__:PASS:
             "type": "NewExpression",
             "start": 13,
             "end": 37,
-            "arguments": [
-              {
-                "type": "Literal",
-                "start": 29,
-                "end": 36,
-                "raw": "\"en-US\"",
-                "value": "en-US"
-              }
-            ],
             "callee": {
               "type": "MemberExpression",
               "start": 17,
               "end": 28,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 17,
@@ -51,7 +41,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 22,
@@ -60,25 +49,36 @@ __ESTREE_TEST__:PASS:
                 "name": "Locale",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             },
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 29,
+                "end": 36,
+                "value": "en-US",
+                "raw": "\"en-US\""
+              }
+            ]
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 39,
       "end": 77,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 45,
           "end": 76,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 45,
@@ -92,20 +92,10 @@ __ESTREE_TEST__:PASS:
             "type": "NewExpression",
             "start": 52,
             "end": 76,
-            "arguments": [
-              {
-                "type": "Literal",
-                "start": 68,
-                "end": 75,
-                "raw": "\"de-DE\"",
-                "value": "de-DE"
-              }
-            ],
             "callee": {
               "type": "MemberExpression",
               "start": 56,
               "end": 67,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 56,
@@ -115,7 +105,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 61,
@@ -124,25 +113,36 @@ __ESTREE_TEST__:PASS:
                 "name": "Locale",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             },
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 68,
+                "end": 75,
+                "value": "de-DE",
+                "raw": "\"de-DE\""
+              }
+            ]
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 78,
       "end": 116,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 84,
           "end": 115,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 84,
@@ -156,20 +156,10 @@ __ESTREE_TEST__:PASS:
             "type": "NewExpression",
             "start": 91,
             "end": 115,
-            "arguments": [
-              {
-                "type": "Literal",
-                "start": 107,
-                "end": 114,
-                "raw": "\"ja-JP\"",
-                "value": "ja-JP"
-              }
-            ],
             "callee": {
               "type": "MemberExpression",
               "start": 95,
               "end": 106,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 95,
@@ -179,7 +169,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 100,
@@ -188,24 +177,60 @@ __ESTREE_TEST__:PASS:
                 "name": "Locale",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             },
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 107,
+                "end": 114,
+                "value": "ja-JP",
+                "raw": "\"ja-JP\""
+              }
+            ]
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 118,
       "end": 143,
-      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 118,
         "end": 142,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 122,
+          "end": 136,
+          "object": {
+            "type": "Identifier",
+            "start": 122,
+            "end": 126,
+            "decorators": [],
+            "name": "Intl",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 127,
+            "end": 136,
+            "decorators": [],
+            "name": "Segmenter",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "computed": false
+        },
+        "typeArguments": null,
         "arguments": [
           {
             "type": "Identifier",
@@ -216,44 +241,44 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           }
-        ],
-        "callee": {
-          "type": "MemberExpression",
-          "start": 122,
-          "end": 136,
-          "computed": false,
-          "object": {
-            "type": "Identifier",
-            "start": 122,
-            "end": 126,
-            "decorators": [],
-            "name": "Intl",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "optional": false,
-          "property": {
-            "type": "Identifier",
-            "start": 127,
-            "end": 136,
-            "decorators": [],
-            "name": "Segmenter",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
-        "typeArguments": null
-      }
+        ]
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 144,
       "end": 177,
-      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 144,
         "end": 176,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 148,
+          "end": 162,
+          "object": {
+            "type": "Identifier",
+            "start": 148,
+            "end": 152,
+            "decorators": [],
+            "name": "Intl",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 153,
+            "end": 162,
+            "decorators": [],
+            "name": "Segmenter",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "computed": false
+        },
+        "typeArguments": null,
         "arguments": [
           {
             "type": "ArrayExpression",
@@ -280,44 +305,60 @@ __ESTREE_TEST__:PASS:
               }
             ]
           }
-        ],
-        "callee": {
-          "type": "MemberExpression",
-          "start": 148,
-          "end": 162,
-          "computed": false,
-          "object": {
-            "type": "Identifier",
-            "start": 148,
-            "end": 152,
-            "decorators": [],
-            "name": "Intl",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "optional": false,
-          "property": {
-            "type": "Identifier",
-            "start": 153,
-            "end": 162,
-            "decorators": [],
-            "name": "Segmenter",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
-        "typeArguments": null
-      }
+        ]
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 178,
       "end": 218,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 178,
         "end": 217,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 178,
+          "end": 211,
+          "object": {
+            "type": "MemberExpression",
+            "start": 178,
+            "end": 192,
+            "object": {
+              "type": "Identifier",
+              "start": 178,
+              "end": 182,
+              "decorators": [],
+              "name": "Intl",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 183,
+              "end": 192,
+              "decorators": [],
+              "name": "Segmenter",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "computed": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 193,
+            "end": 211,
+            "decorators": [],
+            "name": "supportedLocalesOf",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "computed": false
+        },
+        "typeArguments": null,
         "arguments": [
           {
             "type": "Identifier",
@@ -329,60 +370,60 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         ],
-        "callee": {
-          "type": "MemberExpression",
-          "start": 178,
-          "end": 211,
-          "computed": false,
-          "object": {
-            "type": "MemberExpression",
-            "start": 178,
-            "end": 192,
-            "computed": false,
-            "object": {
-              "type": "Identifier",
-              "start": 178,
-              "end": 182,
-              "decorators": [],
-              "name": "Intl",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "property": {
-              "type": "Identifier",
-              "start": 183,
-              "end": 192,
-              "decorators": [],
-              "name": "Segmenter",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          },
-          "optional": false,
-          "property": {
-            "type": "Identifier",
-            "start": 193,
-            "end": 211,
-            "decorators": [],
-            "name": "supportedLocalesOf",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
-        "optional": false,
-        "typeArguments": null
-      }
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 219,
       "end": 267,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 219,
         "end": 266,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 219,
+          "end": 252,
+          "object": {
+            "type": "MemberExpression",
+            "start": 219,
+            "end": 233,
+            "object": {
+              "type": "Identifier",
+              "start": 219,
+              "end": 223,
+              "decorators": [],
+              "name": "Intl",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 224,
+              "end": 233,
+              "decorators": [],
+              "name": "Segmenter",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "computed": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 234,
+            "end": 252,
+            "decorators": [],
+            "name": "supportedLocalesOf",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "computed": false
+        },
+        "typeArguments": null,
         "arguments": [
           {
             "type": "ArrayExpression",
@@ -410,50 +451,9 @@ __ESTREE_TEST__:PASS:
             ]
           }
         ],
-        "callee": {
-          "type": "MemberExpression",
-          "start": 219,
-          "end": 252,
-          "computed": false,
-          "object": {
-            "type": "MemberExpression",
-            "start": 219,
-            "end": 233,
-            "computed": false,
-            "object": {
-              "type": "Identifier",
-              "start": 219,
-              "end": 223,
-              "decorators": [],
-              "name": "Intl",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "property": {
-              "type": "Identifier",
-              "start": 224,
-              "end": 233,
-              "decorators": [],
-              "name": "Segmenter",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          },
-          "optional": false,
-          "property": {
-            "type": "Identifier",
-            "start": 234,
-            "end": 252,
-            "decorators": [],
-            "name": "supportedLocalesOf",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
-        "optional": false,
-        "typeArguments": null
-      }
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

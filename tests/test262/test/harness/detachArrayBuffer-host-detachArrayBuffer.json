@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 362,
       "end": 483,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,9 +28,7 @@
                 "type": "Property",
                 "start": 377,
                 "end": 464,
-                "method": true,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 377,
@@ -41,7 +40,6 @@
                   "start": 394,
                   "end": 464,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -76,17 +74,18 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": true,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 468,
                 "end": 480,
-                "method": true,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 468,
@@ -98,7 +97,6 @@
                   "start": 475,
                   "end": 480,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -107,20 +105,23 @@
                     "start": 478,
                     "end": 480,
                     "body": []
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": true,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 485,
       "end": 513,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -153,13 +154,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 514,
       "end": 532,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -179,8 +180,7 @@
             "raw": "false"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "TryStatement",
@@ -281,8 +281,8 @@
                     "end": 613,
                     "name": "constructor"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "operator": "!==",
                 "right": {
@@ -348,8 +348,8 @@
                                   "end": 713,
                                   "name": "constructor"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "property": {
                                 "type": "Identifier",
@@ -357,8 +357,8 @@
                                 "end": 718,
                                 "name": "name"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             }
                           },
                           "operator": "+",
@@ -401,8 +401,8 @@
                     "end": 771,
                     "name": "message"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "operator": "!==",
                 "right": {
@@ -437,27 +437,6 @@
                           "type": "TemplateLiteral",
                           "start": 832,
                           "end": 872,
-                          "expressions": [
-                            {
-                              "type": "MemberExpression",
-                              "start": 859,
-                              "end": 870,
-                              "object": {
-                                "type": "Identifier",
-                                "start": 859,
-                                "end": 862,
-                                "name": "err"
-                              },
-                              "property": {
-                                "type": "Identifier",
-                                "start": 863,
-                                "end": 870,
-                                "name": "message"
-                              },
-                              "computed": false,
-                              "optional": false
-                            }
-                          ],
                           "quasis": [
                             {
                               "type": "TemplateElement",
@@ -478,6 +457,27 @@
                                 "cooked": ""
                               },
                               "tail": true
+                            }
+                          ],
+                          "expressions": [
+                            {
+                              "type": "MemberExpression",
+                              "start": 859,
+                              "end": 870,
+                              "object": {
+                                "type": "Identifier",
+                                "start": 859,
+                                "end": 862,
+                                "name": "err"
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 863,
+                                "end": 870,
+                                "name": "message"
+                              },
+                              "optional": false,
+                              "computed": false
                             }
                           ]
                         }

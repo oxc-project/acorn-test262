@@ -9,7 +9,20 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 138,
-      "abstract": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 6,
+        "end": 7,
+        "decorators": [],
+        "name": "C",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
       "body": {
         "type": "ClassBody",
         "start": 8,
@@ -19,85 +32,85 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12,
             "end": 27,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 19,
               "end": 22,
               "name": "_1"
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": true,
             "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 25,
               "end": 26,
-              "raw": "1",
-              "value": 1
-            }
+              "value": 1,
+              "raw": "1"
+            },
+            "computed": false,
+            "static": true,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
           },
           {
             "type": "PropertyDefinition",
             "start": 30,
             "end": 45,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 37,
               "end": 40,
               "name": "_3"
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": true,
             "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 43,
               "end": 44,
-              "raw": "1",
-              "value": 1
-            }
+              "value": 1,
+              "raw": "1"
+            },
+            "computed": false,
+            "static": true,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
           },
           {
             "type": "PropertyDefinition",
             "start": 48,
             "end": 63,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 55,
               "end": 58,
               "name": "_5"
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": true,
             "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 61,
               "end": 62,
-              "raw": "1",
-              "value": 1
-            }
+              "value": 1,
+              "raw": "1"
+            },
+            "computed": false,
+            "static": true,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
           },
           {
             "type": "StaticBlock",
@@ -137,21 +150,8 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "declare": false,
-      "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 6,
-        "end": 7,
-        "decorators": [],
-        "name": "C",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

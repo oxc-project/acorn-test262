@@ -9,44 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 42,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 9,
-        "end": 42,
-        "body": [
-          {
-            "type": "PropertyDefinition",
-            "start": 13,
-            "end": 31,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
-            "key": {
-              "type": "Literal",
-              "start": 13,
-              "end": 26,
-              "raw": "\"constructor\"",
-              "value": "constructor"
-            },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": null,
-            "value": {
-              "type": "Literal",
-              "start": 29,
-              "end": 30,
-              "raw": "3",
-              "value": 3
-            }
-          }
-        ]
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -57,53 +19,53 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 9,
+        "end": 42,
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "start": 13,
+            "end": 31,
+            "decorators": [],
+            "key": {
+              "type": "Literal",
+              "start": 13,
+              "end": 26,
+              "value": "constructor",
+              "raw": "\"constructor\""
+            },
+            "typeAnnotation": null,
+            "value": {
+              "type": "Literal",
+              "start": 29,
+              "end": 30,
+              "value": 3,
+              "raw": "3"
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
+          }
+        ]
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 44,
       "end": 79,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 53,
-        "end": 79,
-        "body": [
-          {
-            "type": "PropertyDefinition",
-            "start": 57,
-            "end": 77,
-            "accessibility": null,
-            "computed": true,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
-            "key": {
-              "type": "Literal",
-              "start": 58,
-              "end": 71,
-              "raw": "\"constructor\"",
-              "value": "constructor"
-            },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": null,
-            "value": {
-              "type": "Literal",
-              "start": 75,
-              "end": 76,
-              "raw": "3",
-              "value": 3
-            }
-          }
-        ]
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -114,10 +76,48 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 53,
+        "end": 79,
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "start": 57,
+            "end": 77,
+            "decorators": [],
+            "key": {
+              "type": "Literal",
+              "start": 58,
+              "end": 71,
+              "value": "constructor",
+              "raw": "\"constructor\""
+            },
+            "typeAnnotation": null,
+            "value": {
+              "type": "Literal",
+              "start": 75,
+              "end": 76,
+              "value": 3,
+              "raw": "3"
+            },
+            "computed": true,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
+          }
+        ]
+      },
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

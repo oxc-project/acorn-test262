@@ -15,8 +15,8 @@
         "value": "./async-module-tla_FIXTURE.js",
         "raw": "\"./async-module-tla_FIXTURE.js\""
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -48,8 +48,8 @@
         "value": "./async-module-sync_FIXTURE.js",
         "raw": "\"./async-module-sync_FIXTURE.js\""
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",
@@ -75,8 +75,8 @@
             "end": 477,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

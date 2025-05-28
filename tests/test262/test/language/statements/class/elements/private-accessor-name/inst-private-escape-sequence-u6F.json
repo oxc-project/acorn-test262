@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1344,
       "end": 1358,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ClassDeclaration",
@@ -43,21 +43,17 @@
             "type": "MethodDefinition",
             "start": 1372,
             "end": 1410,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 1376,
               "end": 1383,
               "name": "o"
             },
-            "kind": "get",
             "value": {
               "type": "FunctionExpression",
               "start": 1383,
               "end": 1410,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -79,28 +75,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "get",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 1413,
             "end": 1454,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 1417,
               "end": 1424,
               "name": "o"
             },
-            "kind": "set",
             "value": {
               "type": "FunctionExpression",
               "start": 1424,
               "end": 1454,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -140,28 +136,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "set",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 1458,
             "end": 1505,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1458,
               "end": 1477,
               "name": "getPrivateReference"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 1477,
               "end": 1505,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -189,33 +185,33 @@
                         "end": 1500,
                         "name": "o"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 1509,
             "end": 1562,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1509,
               "end": 1528,
               "name": "setPrivateReference"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 1528,
               "end": 1562,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -255,8 +251,8 @@
                           "end": 1549,
                           "name": "o"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "right": {
                         "type": "Identifier",
@@ -267,8 +263,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -282,6 +282,7 @@
       "type": "VariableDeclaration",
       "start": 1567,
       "end": 1586,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -306,8 +307,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -333,8 +333,8 @@
             "end": 1604,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -357,8 +357,8 @@
                 "end": 1629,
                 "name": "getPrivateReference"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -398,8 +398,8 @@
             "end": 1673,
             "name": "setPrivateReference"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -437,8 +437,8 @@
             "end": 1705,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

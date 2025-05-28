@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 14,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 13,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -33,23 +33,17 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ForOfStatement",
       "start": 15,
       "end": 46,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 43,
-        "end": 46,
-        "body": []
-      },
       "left": {
         "type": "Identifier",
         "start": 20,
@@ -63,12 +57,10 @@ __ESTREE_TEST__:PASS:
         "type": "CallExpression",
         "start": 25,
         "end": 41,
-        "arguments": [],
         "callee": {
           "type": "MemberExpression",
           "start": 25,
           "end": 39,
-          "computed": false,
           "object": {
             "type": "ArrayExpression",
             "start": 25,
@@ -78,19 +70,18 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 26,
                 "end": 27,
-                "raw": "0",
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 29,
                 "end": 31,
-                "raw": "\"\"",
-                "value": ""
+                "value": "",
+                "raw": "\"\""
               }
             ]
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 33,
@@ -99,10 +90,19 @@ __ESTREE_TEST__:PASS:
             "name": "values",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 43,
+        "end": 46,
+        "body": []
       }
     }
   ],

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 292,
       "end": 315,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "\"UTC\""
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 317,
       "end": 377,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -80,13 +81,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 379,
       "end": 689,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -175,8 +176,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -202,17 +202,15 @@
             "end": 711,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 712,
             "end": 1148,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -251,17 +249,15 @@
                         "end": 752,
                         "name": "forEach"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
                         "type": "ArrowFunctionExpression",
                         "start": 753,
                         "end": 1144,
-                        "id": null,
                         "expression": false,
-                        "generator": false,
                         "async": false,
                         "params": [
                           {
@@ -280,6 +276,7 @@
                               "type": "VariableDeclaration",
                               "start": 771,
                               "end": 836,
+                              "kind": "const",
                               "declarations": [
                                 {
                                   "type": "VariableDeclarator",
@@ -300,9 +297,7 @@
                                         "type": "Property",
                                         "start": 785,
                                         "end": 795,
-                                        "method": false,
-                                        "shorthand": false,
-                                        "computed": false,
+                                        "kind": "init",
                                         "key": {
                                           "type": "Identifier",
                                           "start": 785,
@@ -316,15 +311,15 @@
                                           "value": 2021,
                                           "raw": "2021"
                                         },
-                                        "kind": "init"
+                                        "method": false,
+                                        "shorthand": false,
+                                        "computed": false
                                       },
                                       {
                                         "type": "Property",
                                         "start": 797,
                                         "end": 806,
-                                        "method": false,
-                                        "shorthand": false,
-                                        "computed": false,
+                                        "kind": "init",
                                         "key": {
                                           "type": "Identifier",
                                           "start": 797,
@@ -338,15 +333,15 @@
                                           "value": 10,
                                           "raw": "10"
                                         },
-                                        "kind": "init"
+                                        "method": false,
+                                        "shorthand": false,
+                                        "computed": false
                                       },
                                       {
                                         "type": "Property",
                                         "start": 808,
                                         "end": 815,
-                                        "method": false,
-                                        "shorthand": false,
-                                        "computed": false,
+                                        "kind": "init",
                                         "key": {
                                           "type": "Identifier",
                                           "start": 808,
@@ -360,15 +355,15 @@
                                           "value": 28,
                                           "raw": "28"
                                         },
-                                        "kind": "init"
+                                        "method": false,
+                                        "shorthand": false,
+                                        "computed": false
                                       },
                                       {
                                         "type": "Property",
                                         "start": 817,
                                         "end": 823,
-                                        "method": false,
-                                        "shorthand": true,
-                                        "computed": false,
+                                        "kind": "init",
                                         "key": {
                                           "type": "Identifier",
                                           "start": 817,
@@ -381,15 +376,15 @@
                                           "end": 823,
                                           "name": "offset"
                                         },
-                                        "kind": "init"
+                                        "method": false,
+                                        "shorthand": true,
+                                        "computed": false
                                       },
                                       {
                                         "type": "Property",
                                         "start": 825,
                                         "end": 833,
-                                        "method": false,
-                                        "shorthand": true,
-                                        "computed": false,
+                                        "kind": "init",
                                         "key": {
                                           "type": "Identifier",
                                           "start": 825,
@@ -402,13 +397,14 @@
                                           "end": 833,
                                           "name": "timeZone"
                                         },
-                                        "kind": "init"
+                                        "method": false,
+                                        "shorthand": true,
+                                        "computed": false
                                       }
                                     ]
                                   }
                                 }
-                              ],
-                              "kind": "const"
+                              ]
                             },
                             {
                               "type": "ExpressionStatement",
@@ -434,8 +430,8 @@
                                     "end": 854,
                                     "name": "throws"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -455,7 +451,6 @@
                                           "start": 862,
                                           "end": 876,
                                           "operator": "typeof",
-                                          "prefix": true,
                                           "argument": {
                                             "type": "ParenthesizedExpression",
                                             "start": 868,
@@ -466,7 +461,8 @@
                                               "end": 875,
                                               "name": "offset"
                                             }
-                                          }
+                                          },
+                                          "prefix": true
                                         },
                                         "operator": "===",
                                         "right": {
@@ -495,13 +491,13 @@
                                               "start": 894,
                                               "end": 907,
                                               "operator": "typeof",
-                                              "prefix": true,
                                               "argument": {
                                                 "type": "Identifier",
                                                 "start": 901,
                                                 "end": 907,
                                                 "name": "offset"
-                                              }
+                                              },
+                                              "prefix": true
                                             },
                                             "operator": "===",
                                             "right": {
@@ -552,9 +548,7 @@
                                     "type": "ArrowFunctionExpression",
                                     "start": 973,
                                     "end": 1037,
-                                    "id": null,
                                     "expression": true,
-                                    "generator": false,
                                     "async": false,
                                     "params": [],
                                     "body": {
@@ -581,8 +575,8 @@
                                             "end": 1001,
                                             "name": "ZonedDateTime"
                                           },
-                                          "computed": false,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": false
                                         },
                                         "property": {
                                           "type": "Identifier",
@@ -590,8 +584,8 @@
                                           "end": 1006,
                                           "name": "from"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [
                                         {
@@ -609,9 +603,7 @@
                                               "type": "Property",
                                               "start": 1014,
                                               "end": 1034,
-                                              "method": false,
-                                              "shorthand": false,
-                                              "computed": false,
+                                              "kind": "init",
                                               "key": {
                                                 "type": "Identifier",
                                                 "start": 1014,
@@ -624,46 +616,22 @@
                                                 "end": 1034,
                                                 "name": "offsetOption"
                                               },
-                                              "kind": "init"
+                                              "method": false,
+                                              "shorthand": false,
+                                              "computed": false
                                             }
                                           ]
                                         }
                                       ],
                                       "optional": false
-                                    }
+                                    },
+                                    "id": null,
+                                    "generator": false
                                   },
                                   {
                                     "type": "TemplateLiteral",
                                     "start": 1047,
                                     "end": 1133,
-                                    "expressions": [
-                                      {
-                                        "type": "CallExpression",
-                                        "start": 1051,
-                                        "end": 1065,
-                                        "callee": {
-                                          "type": "Identifier",
-                                          "start": 1051,
-                                          "end": 1057,
-                                          "name": "String"
-                                        },
-                                        "arguments": [
-                                          {
-                                            "type": "Identifier",
-                                            "start": 1058,
-                                            "end": 1064,
-                                            "name": "offset"
-                                          }
-                                        ],
-                                        "optional": false
-                                      },
-                                      {
-                                        "type": "Identifier",
-                                        "start": 1118,
-                                        "end": 1130,
-                                        "name": "offsetOption"
-                                      }
-                                    ],
                                     "quasis": [
                                       {
                                         "type": "TemplateElement",
@@ -695,6 +663,34 @@
                                         },
                                         "tail": true
                                       }
+                                    ],
+                                    "expressions": [
+                                      {
+                                        "type": "CallExpression",
+                                        "start": 1051,
+                                        "end": 1065,
+                                        "callee": {
+                                          "type": "Identifier",
+                                          "start": 1051,
+                                          "end": 1057,
+                                          "name": "String"
+                                        },
+                                        "arguments": [
+                                          {
+                                            "type": "Identifier",
+                                            "start": 1058,
+                                            "end": 1064,
+                                            "name": "offset"
+                                          }
+                                        ],
+                                        "optional": false
+                                      },
+                                      {
+                                        "type": "Identifier",
+                                        "start": 1118,
+                                        "end": 1130,
+                                        "name": "offsetOption"
+                                      }
                                     ]
                                   }
                                 ],
@@ -702,14 +698,18 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

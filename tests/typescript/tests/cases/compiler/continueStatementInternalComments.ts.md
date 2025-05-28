@@ -9,10 +9,22 @@ __ESTREE_TEST__:PASS:
       "type": "LabeledStatement",
       "start": 0,
       "end": 53,
+      "label": {
+        "type": "Identifier",
+        "start": 0,
+        "end": 3,
+        "decorators": [],
+        "name": "foo",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "ForStatement",
         "start": 5,
         "end": 53,
+        "init": null,
+        "test": null,
+        "update": null,
         "body": {
           "type": "BlockStatement",
           "start": 14,
@@ -33,19 +45,7 @@ __ESTREE_TEST__:PASS:
               }
             }
           ]
-        },
-        "init": null,
-        "test": null,
-        "update": null
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 0,
-        "end": 3,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
+        }
       }
     }
   ],

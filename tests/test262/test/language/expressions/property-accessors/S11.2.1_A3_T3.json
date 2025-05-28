@@ -32,8 +32,8 @@
               "end": 397,
               "name": "charAt"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -112,8 +112,8 @@
                           "end": 498,
                           "name": "charAt"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -165,8 +165,8 @@
               "value": "charAt",
               "raw": "\"charAt\""
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           "arguments": [
             {
@@ -246,8 +246,8 @@
                           "value": "charAt",
                           "raw": "\"charAt\""
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       "arguments": [
                         {
@@ -294,8 +294,8 @@
             "end": 686,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -359,8 +359,8 @@
                         "end": 777,
                         "name": "length"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 }
@@ -397,8 +397,8 @@
             "value": "length",
             "raw": "\"length\""
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "operator": "!==",
         "right": {
@@ -463,8 +463,8 @@
                         "value": "length",
                         "raw": "\"length\""
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     }
                   }
                 }
@@ -513,8 +513,8 @@
             "end": 961,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -591,8 +591,8 @@
                         "end": 1076,
                         "name": "length"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 }
@@ -646,8 +646,8 @@
               "value": "charAt",
               "raw": "\"charAt\""
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           "arguments": [
             {
@@ -740,8 +740,8 @@
                           "value": "charAt",
                           "raw": "\"charAt\""
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       "arguments": [
                         {

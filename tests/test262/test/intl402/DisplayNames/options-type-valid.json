@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 979,
       "end": 1048,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -54,8 +55,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -81,17 +81,15 @@
             "end": 1063,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 1064,
             "end": 1305,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -110,6 +108,7 @@
                   "type": "VariableDeclaration",
                   "start": 1076,
                   "end": 1126,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -141,8 +140,8 @@
                             "end": 1109,
                             "name": "DisplayNames"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -161,9 +160,7 @@
                                 "type": "Property",
                                 "start": 1118,
                                 "end": 1122,
-                                "method": false,
-                                "shorthand": true,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 1118,
@@ -176,15 +173,16 @@
                                   "end": 1122,
                                   "name": "type"
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": true,
+                                "computed": false
                               }
                             ]
                           }
                         ]
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -228,22 +226,14 @@
                             "end": 1169,
                             "name": "DisplayNames"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         }
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 1171,
                         "end": 1199,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 1193,
-                            "end": 1197,
-                            "name": "type"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -264,6 +254,14 @@
                               "cooked": ""
                             },
                             "tail": true
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 1193,
+                            "end": 1197,
+                            "name": "type"
                           }
                         ]
                       }
@@ -295,8 +293,8 @@
                         "end": 1220,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -319,8 +317,8 @@
                             "end": 1242,
                             "name": "getPrototypeOf"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -352,8 +350,8 @@
                             "end": 1266,
                             "name": "DisplayNames"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -361,21 +359,13 @@
                           "end": 1276,
                           "name": "prototype"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 1278,
                         "end": 1301,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 1295,
-                            "end": 1299,
-                            "name": "type"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -397,6 +387,14 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 1295,
+                            "end": 1299,
+                            "name": "type"
+                          }
                         ]
                       }
                     ],
@@ -404,7 +402,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

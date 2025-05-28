@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 413,
       "end": 455,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -67,8 +68,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -95,8 +95,8 @@
             "end": 476,
             "name": "substring"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "MemberExpression",
@@ -118,8 +118,8 @@
               "end": 495,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -127,8 +127,8 @@
             "end": 505,
             "name": "substring"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       }
     },
@@ -160,8 +160,8 @@
               "end": 621,
               "name": "substring"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -176,13 +176,13 @@
               "start": 625,
               "end": 634,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Identifier",
                 "start": 626,
                 "end": 634,
                 "name": "Infinity"
-              }
+              },
+              "prefix": true
             }
           ],
           "optional": false
@@ -248,8 +248,8 @@
                         "end": 854,
                         "name": "substring"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -264,13 +264,13 @@
                         "start": 858,
                         "end": 867,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Identifier",
                           "start": 859,
                           "end": 867,
                           "name": "Infinity"
-                        }
+                        },
+                        "prefix": true
                       }
                     ],
                     "optional": false

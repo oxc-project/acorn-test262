@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 10,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 8,
-        "end": 10,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -27,10 +19,18 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 8,
+        "end": 10,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -40,7 +40,6 @@ __ESTREE_TEST__:PASS:
         "type": "NewExpression",
         "start": 26,
         "end": 33,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 30,
@@ -50,7 +49,8 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "typeArguments": null
+        "typeArguments": null,
+        "arguments": []
       },
       "exportKind": "value"
     }

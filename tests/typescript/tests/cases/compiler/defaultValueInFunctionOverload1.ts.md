@@ -9,11 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 0,
       "end": 29,
-      "async": false,
-      "body": null,
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -23,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "AssignmentPattern",
@@ -47,34 +46,25 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "optional": false,
           "right": {
             "type": "Literal",
             "start": 25,
             "end": 27,
-            "raw": "''",
-            "value": ""
+            "value": "",
+            "raw": "''"
           },
+          "optional": false,
           "typeAnnotation": null
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 30,
       "end": 54,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 51,
-        "end": 54,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 39,
@@ -84,6 +74,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "AssignmentPattern",
@@ -99,19 +93,25 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "right": {
             "type": "Literal",
             "start": 47,
             "end": 49,
-            "raw": "''",
-            "value": ""
+            "value": "",
+            "raw": "''"
           },
+          "optional": false,
           "typeAnnotation": null
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 51,
+        "end": 54,
+        "body": []
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

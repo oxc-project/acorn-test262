@@ -27,8 +27,8 @@
             "end": 438,
             "name": "p1"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -43,6 +43,7 @@
       "type": "VariableDeclaration",
       "start": 445,
       "end": 467,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -62,13 +63,13 @@
             "raw": "\"result\""
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 469,
       "end": 572,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -89,9 +90,7 @@
                 "type": "Property",
                 "start": 487,
                 "end": 494,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 487,
@@ -105,15 +104,15 @@
                   "value": "a",
                   "raw": "'a'"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 501,
                 "end": 521,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 501,
@@ -127,15 +126,15 @@
                   "value": "myObj_value",
                   "raw": "'myObj_value'"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 527,
                 "end": 570,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 527,
@@ -147,7 +146,6 @@
                   "start": 537,
                   "end": 570,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -169,15 +167,17 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "WithStatement",
@@ -198,6 +198,7 @@
             "type": "VariableDeclaration",
             "start": 591,
             "end": 665,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -214,7 +215,6 @@
                   "start": 607,
                   "end": 665,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -259,16 +259,17 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 670,
             "end": 694,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -293,8 +294,7 @@
                   "arguments": []
                 }
               }
-            ],
-            "kind": "var"
+            ]
           }
         ]
       }
@@ -392,8 +392,8 @@
             "end": 1051,
             "name": "p1"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -452,8 +452,8 @@
                       "end": 1144,
                       "name": "p1"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]

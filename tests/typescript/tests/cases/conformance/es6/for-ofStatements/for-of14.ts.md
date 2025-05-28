@@ -9,7 +9,20 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 64,
-      "abstract": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 6,
+        "end": 22,
+        "decorators": [],
+        "name": "MyStringIterator",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
       "body": {
         "type": "ClassBody",
         "start": 23,
@@ -19,8 +32,6 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 29,
             "end": 62,
-            "accessibility": null,
-            "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
@@ -31,15 +42,17 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "FunctionExpression",
               "start": 33,
               "end": 62,
+              "id": null,
+              "generator": false,
               "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
               "body": {
                 "type": "BlockStatement",
                 "start": 36,
@@ -53,49 +66,36 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 53,
                       "end": 55,
-                      "raw": "\"\"",
-                      "value": ""
+                      "value": "",
+                      "raw": "\"\""
                     }
                   }
                 ]
               },
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
-      "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 6,
-        "end": 22,
-        "decorators": [],
-        "name": "MyStringIterator",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 66,
       "end": 80,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 70,
           "end": 79,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 70,
@@ -114,23 +114,17 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ForOfStatement",
       "start": 81,
       "end": 116,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 113,
-        "end": 116,
-        "body": []
-      },
       "left": {
         "type": "Identifier",
         "start": 86,
@@ -144,7 +138,6 @@ __ESTREE_TEST__:PASS:
         "type": "NewExpression",
         "start": 91,
         "end": 111,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 95,
@@ -154,7 +147,14 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "typeArguments": null
+        "typeArguments": null,
+        "arguments": []
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 113,
+        "end": 116,
+        "body": []
       }
     }
   ],

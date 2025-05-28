@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 363,
       "end": 381,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -51,7 +51,6 @@
               "end": 393,
               "name": "f"
             },
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -145,6 +144,13 @@
                       "type": "SwitchCase",
                       "start": 465,
                       "end": 489,
+                      "test": {
+                        "type": "Literal",
+                        "start": 470,
+                        "end": 471,
+                        "value": 0,
+                        "raw": "0"
+                      },
                       "consequent": [
                         {
                           "type": "ReturnStatement",
@@ -184,26 +190,20 @@
                             "optional": false
                           }
                         }
-                      ],
-                      "test": {
-                        "type": "Literal",
-                        "start": 470,
-                        "end": 471,
-                        "value": 0,
-                        "raw": "0"
-                      }
+                      ]
                     },
                     {
                       "type": "SwitchCase",
                       "start": 490,
                       "end": 498,
-                      "consequent": [],
-                      "test": null
+                      "test": null,
+                      "consequent": []
                     }
                   ]
                 }
               ]
-            }
+            },
+            "expression": false
           },
           "arguments": [
             {
@@ -241,8 +241,8 @@
             "end": 538,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

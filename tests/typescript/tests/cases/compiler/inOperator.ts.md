@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 9,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 8,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -29,32 +29,26 @@ __ESTREE_TEST__:PASS:
             "start": 6,
             "end": 8,
             "elements": []
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ForInStatement",
       "start": 11,
       "end": 30,
-      "body": {
-        "type": "BlockStatement",
-        "start": 28,
-        "end": 30,
-        "body": []
-      },
       "left": {
         "type": "VariableDeclaration",
         "start": 16,
         "end": 21,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 20,
             "end": 21,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 20,
@@ -64,11 +58,11 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
       "right": {
         "type": "Identifier",
@@ -78,31 +72,30 @@ __ESTREE_TEST__:PASS:
         "name": "a",
         "optional": false,
         "typeAnnotation": null
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 28,
+        "end": 30,
+        "body": []
       }
     },
     {
       "type": "IfStatement",
       "start": 32,
       "end": 46,
-      "alternate": null,
-      "consequent": {
-        "type": "BlockStatement",
-        "start": 44,
-        "end": 46,
-        "body": []
-      },
       "test": {
         "type": "BinaryExpression",
         "start": 36,
         "end": 42,
-        "operator": "in",
         "left": {
           "type": "Literal",
           "start": 36,
           "end": 37,
-          "raw": "3",
-          "value": 3
+          "value": 3,
+          "raw": "3"
         },
+        "operator": "in",
         "right": {
           "type": "Identifier",
           "start": 41,
@@ -112,18 +105,25 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 44,
+        "end": 46,
+        "body": []
+      },
+      "alternate": null
     },
     {
       "type": "VariableDeclaration",
       "start": 48,
       "end": 64,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 52,
           "end": 63,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 52,
@@ -137,37 +137,37 @@ __ESTREE_TEST__:PASS:
             "type": "BinaryExpression",
             "start": 56,
             "end": 63,
-            "operator": "in",
             "left": {
               "type": "Literal",
               "start": 56,
               "end": 58,
-              "raw": "''",
-              "value": ""
+              "value": "",
+              "raw": "''"
             },
+            "operator": "in",
             "right": {
               "type": "Literal",
               "start": 62,
               "end": 63,
-              "raw": "0",
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 66,
       "end": 77,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 70,
           "end": 76,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 70,
@@ -186,22 +186,22 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 78,
       "end": 92,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 82,
           "end": 91,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 82,
@@ -220,28 +220,20 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 93,
       "end": 108,
-      "alternate": null,
-      "consequent": {
-        "type": "BlockStatement",
-        "start": 105,
-        "end": 108,
-        "body": []
-      },
       "test": {
         "type": "BinaryExpression",
         "start": 97,
         "end": 103,
-        "operator": "in",
         "left": {
           "type": "Identifier",
           "start": 97,
@@ -251,6 +243,7 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "operator": "in",
         "right": {
           "type": "Identifier",
           "start": 102,
@@ -260,7 +253,14 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 105,
+        "end": 108,
+        "body": []
+      },
+      "alternate": null
     }
   ],
   "sourceType": "script",

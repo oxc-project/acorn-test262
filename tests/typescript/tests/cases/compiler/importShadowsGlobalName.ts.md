@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 12,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 10,
-        "end": 12,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -27,10 +19,18 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 10,
+        "end": 12,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "TSExportAssignment",
@@ -71,7 +71,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 15,
@@ -80,23 +79,16 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 23,
           "end": 28,
-          "raw": "'Foo'",
-          "value": "Foo"
+          "value": "Foo",
+          "raw": "'Foo'"
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "ClassDeclaration",
       "start": 31,
       "end": 57,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 55,
-        "end": 57,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -107,7 +99,7 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": {
         "type": "Identifier",
         "start": 49,
@@ -118,7 +110,15 @@ __ESTREE_TEST__:PASS:
         "typeAnnotation": null
       },
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 55,
+        "end": 57,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "TSExportAssignment",

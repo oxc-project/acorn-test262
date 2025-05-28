@@ -9,11 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 0,
       "end": 43,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 17,
@@ -23,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -53,26 +52,17 @@ __ESTREE_TEST__:PASS:
           "end": 42
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
       "start": 45,
       "end": 59,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 45,
         "end": 58,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 54,
-            "end": 57,
-            "raw": "\"2\"",
-            "value": "2"
-          }
-        ],
         "callee": {
           "type": "Identifier",
           "start": 45,
@@ -82,9 +72,19 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 54,
+            "end": 57,
+            "value": "2",
+            "raw": "\"2\""
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

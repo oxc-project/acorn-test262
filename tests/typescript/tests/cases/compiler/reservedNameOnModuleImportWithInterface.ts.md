@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 212,
+      "id": {
+        "type": "Identifier",
+        "start": 15,
+        "end": 19,
+        "decorators": [],
+        "name": "test",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 20,
@@ -18,14 +27,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSInterfaceDeclaration",
             "start": 26,
             "end": 49,
-            "body": {
-              "type": "TSInterfaceBody",
-              "start": 46,
-              "end": 49,
-              "body": []
-            },
-            "declare": false,
-            "extends": [],
             "id": {
               "type": "Identifier",
               "start": 36,
@@ -35,20 +36,20 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "typeParameters": null
+            "typeParameters": null,
+            "extends": [],
+            "body": {
+              "type": "TSInterfaceBody",
+              "start": 46,
+              "end": 49,
+              "body": []
+            },
+            "declare": false
           },
           {
             "type": "TSModuleDeclaration",
             "start": 54,
             "end": 74,
-            "body": {
-              "type": "TSModuleBlock",
-              "start": 71,
-              "end": 74,
-              "body": []
-            },
-            "declare": false,
-            "global": false,
             "id": {
               "type": "Identifier",
               "start": 61,
@@ -58,7 +59,15 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "module"
+            "body": {
+              "type": "TSModuleBlock",
+              "start": 71,
+              "end": 74,
+              "body": []
+            },
+            "kind": "module",
+            "declare": false,
+            "global": false
           },
           {
             "type": "TSImportEqualsDeclaration",
@@ -73,7 +82,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "importKind": "value",
             "moduleReference": {
               "type": "Identifier",
               "start": 200,
@@ -82,22 +90,14 @@ __ESTREE_TEST__:PASS:
               "name": "mi_string",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "importKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 15,
-        "end": 19,
-        "decorators": [],
-        "name": "test",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "script",

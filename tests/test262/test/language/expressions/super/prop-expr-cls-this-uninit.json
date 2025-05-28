@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1016,
       "end": 1027,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ClassDeclaration",
@@ -48,21 +48,17 @@
             "type": "MethodDefinition",
             "start": 1055,
             "end": 1148,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1055,
               "end": 1066,
               "name": "constructor"
             },
-            "kind": "constructor",
             "value": {
               "type": "FunctionExpression",
               "start": 1066,
               "end": 1148,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -100,8 +96,8 @@
                               "value": "x",
                               "raw": "'x'"
                             },
-                            "computed": true,
-                            "optional": false
+                            "optional": false,
+                            "computed": true
                           }
                         }
                       ]
@@ -150,8 +146,12 @@
                     "finalizer": null
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "constructor",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -227,8 +227,8 @@
             "end": 1446,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -236,13 +236,13 @@
             "start": 1447,
             "end": 1460,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 1454,
               "end": 1460,
               "name": "caught"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -279,8 +279,8 @@
             "end": 1489,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -299,8 +299,8 @@
               "end": 1508,
               "name": "constructor"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Identifier",

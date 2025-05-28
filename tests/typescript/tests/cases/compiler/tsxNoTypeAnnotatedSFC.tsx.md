@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 80,
       "end": 111,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 103,
-        "end": 110,
-        "raw": "'react'",
-        "value": "react"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -33,19 +25,27 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 103,
+        "end": 110,
+        "value": "react",
+        "raw": "'react'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 113,
       "end": 142,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 119,
           "end": 141,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 119,
@@ -59,45 +59,69 @@ __ESTREE_TEST__:PASS:
             "type": "ArrowFunctionExpression",
             "start": 129,
             "end": 141,
+            "expression": true,
             "async": false,
+            "typeParameters": null,
+            "params": [],
+            "returnType": null,
             "body": {
               "type": "JSXElement",
               "start": 135,
               "end": 141,
-              "children": [],
-              "closingElement": null,
               "openingElement": {
                 "type": "JSXOpeningElement",
                 "start": 135,
                 "end": 141,
-                "attributes": [],
                 "name": {
                   "type": "JSXIdentifier",
                   "start": 136,
                   "end": 139,
                   "name": "div"
                 },
-                "selfClosing": true,
-                "typeArguments": null
-              }
+                "typeArguments": null,
+                "attributes": [],
+                "selfClosing": true
+              },
+              "children": [],
+              "closingElement": null
             },
-            "expression": true,
-            "generator": false,
             "id": null,
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
+            "generator": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 144,
       "end": 211,
+      "id": {
+        "type": "Identifier",
+        "start": 153,
+        "end": 166,
+        "decorators": [],
+        "name": "testComponent",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 167,
+          "end": 172,
+          "decorators": [],
+          "name": "props",
+          "optional": false,
+          "typeAnnotation": null
+        }
+      ],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 174,
@@ -111,12 +135,17 @@ __ESTREE_TEST__:PASS:
               "type": "JSXElement",
               "start": 187,
               "end": 208,
-              "children": [],
-              "closingElement": null,
               "openingElement": {
                 "type": "JSXOpeningElement",
                 "start": 187,
                 "end": 208,
+                "name": {
+                  "type": "JSXIdentifier",
+                  "start": 188,
+                  "end": 195,
+                  "name": "Test123"
+                },
+                "typeArguments": null,
                 "attributes": [
                   {
                     "type": "JSXSpreadAttribute",
@@ -133,44 +162,15 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 ],
-                "name": {
-                  "type": "JSXIdentifier",
-                  "start": 188,
-                  "end": 195,
-                  "name": "Test123"
-                },
-                "selfClosing": true,
-                "typeArguments": null
-              }
+                "selfClosing": true
+              },
+              "children": [],
+              "closingElement": null
             }
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 153,
-        "end": 166,
-        "decorators": [],
-        "name": "testComponent",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [
-        {
-          "type": "Identifier",
-          "start": 167,
-          "end": 172,
-          "decorators": [],
-          "name": "props",
-          "optional": false,
-          "typeAnnotation": null
-        }
-      ],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "module",

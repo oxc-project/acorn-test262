@@ -9,51 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 43,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 7,
         "end": 43,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 26,
-          "end": 43,
-          "body": [
-            {
-              "type": "ReturnStatement",
-              "start": 28,
-              "end": 41,
-              "argument": {
-                "type": "BinaryExpression",
-                "start": 35,
-                "end": 40,
-                "operator": "+",
-                "left": {
-                  "type": "Identifier",
-                  "start": 35,
-                  "end": 36,
-                  "decorators": [],
-                  "name": "a",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "right": {
-                  "type": "Identifier",
-                  "start": 39,
-                  "end": 40,
-                  "decorators": [],
-                  "name": "b",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            }
-          ]
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 16,
@@ -63,6 +22,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [
           {
             "type": "Identifier",
@@ -84,11 +47,48 @@ __ESTREE_TEST__:PASS:
           }
         ],
         "returnType": null,
-        "typeParameters": null
+        "body": {
+          "type": "BlockStatement",
+          "start": 26,
+          "end": 43,
+          "body": [
+            {
+              "type": "ReturnStatement",
+              "start": 28,
+              "end": 41,
+              "argument": {
+                "type": "BinaryExpression",
+                "start": 35,
+                "end": 40,
+                "left": {
+                  "type": "Identifier",
+                  "start": 35,
+                  "end": 36,
+                  "decorators": [],
+                  "name": "a",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "operator": "+",
+                "right": {
+                  "type": "Identifier",
+                  "start": 39,
+                  "end": 40,
+                  "decorators": [],
+                  "name": "b",
+                  "optional": false,
+                  "typeAnnotation": null
+                }
+              }
+            }
+          ]
+        },
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -106,7 +106,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 63,
-      "attributes": [],
       "declaration": {
         "type": "TSImportEqualsDeclaration",
         "start": 7,
@@ -120,7 +119,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "importKind": "value",
         "moduleReference": {
           "type": "TSExternalModuleReference",
           "start": 21,
@@ -129,45 +127,29 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 29,
             "end": 61,
-            "raw": "\"exportImportMultipleFiles_math\"",
-            "value": "exportImportMultipleFiles_math"
+            "value": "exportImportMultipleFiles_math",
+            "raw": "\"exportImportMultipleFiles_math\""
           }
-        }
+        },
+        "importKind": "value"
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",
       "start": 64,
       "end": 79,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 64,
         "end": 78,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 73,
-            "end": 74,
-            "raw": "3",
-            "value": 3
-          },
-          {
-            "type": "Literal",
-            "start": 76,
-            "end": 77,
-            "raw": "4",
-            "value": 4
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 64,
           "end": 72,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 64,
@@ -177,7 +159,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 69,
@@ -186,11 +167,30 @@ __ESTREE_TEST__:PASS:
             "name": "add",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 73,
+            "end": 74,
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "type": "Literal",
+            "start": 76,
+            "end": 77,
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",
@@ -217,7 +217,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 13,
@@ -226,46 +225,28 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 21,
           "end": 58,
-          "raw": "'./exportImportMultipleFiles_library'",
-          "value": "./exportImportMultipleFiles_library"
+          "value": "./exportImportMultipleFiles_library",
+          "raw": "'./exportImportMultipleFiles_library'"
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 61,
       "end": 80,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 61,
         "end": 79,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 74,
-            "end": 75,
-            "raw": "3",
-            "value": 3
-          },
-          {
-            "type": "Literal",
-            "start": 77,
-            "end": 78,
-            "raw": "4",
-            "value": 4
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 61,
           "end": 73,
-          "computed": false,
           "object": {
             "type": "MemberExpression",
             "start": 61,
             "end": 69,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 61,
@@ -275,7 +256,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 65,
@@ -284,9 +264,10 @@ __ESTREE_TEST__:PASS:
               "name": "math",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "optional": false,
+            "computed": false
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 70,
@@ -295,11 +276,30 @@ __ESTREE_TEST__:PASS:
             "name": "add",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 74,
+            "end": 75,
+            "value": 3,
+            "raw": "3"
+          },
+          {
+            "type": "Literal",
+            "start": 77,
+            "end": 78,
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

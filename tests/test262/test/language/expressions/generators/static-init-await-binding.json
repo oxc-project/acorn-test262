@@ -42,7 +42,6 @@
                       "end": 541,
                       "name": "await"
                     },
-                    "expression": false,
                     "generator": true,
                     "async": false,
                     "params": [
@@ -58,7 +57,8 @@
                       "start": 550,
                       "end": 552,
                       "body": []
-                    }
+                    },
+                    "expression": false
                   }
                 }
               }

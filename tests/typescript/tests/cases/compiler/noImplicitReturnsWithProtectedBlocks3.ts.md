@@ -9,11 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 0,
       "end": 38,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 17,
@@ -23,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -53,17 +52,13 @@ __ESTREE_TEST__:PASS:
           "end": 37
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "TSDeclareFunction",
       "start": 39,
       "end": 70,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 56,
@@ -73,6 +68,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": null,
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
@@ -84,13 +83,37 @@ __ESTREE_TEST__:PASS:
           "end": 69
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 72,
       "end": 185,
+      "id": {
+        "type": "Identifier",
+        "start": 81,
+        "end": 86,
+        "decorators": [],
+        "name": "main1",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": {
+        "type": "TSTypeAnnotation",
+        "start": 89,
+        "end": 97,
+        "typeAnnotation": {
+          "type": "TSNumberKeyword",
+          "start": 91,
+          "end": 97
+        }
+      },
       "body": {
         "type": "BlockStatement",
         "start": 98,
@@ -113,7 +136,6 @@ __ESTREE_TEST__:PASS:
                     "type": "CallExpression",
                     "start": 125,
                     "end": 130,
-                    "arguments": [],
                     "callee": {
                       "type": "Identifier",
                       "start": 125,
@@ -123,17 +145,26 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "optional": false,
-                    "typeArguments": null
+                    "typeArguments": null,
+                    "arguments": [],
+                    "optional": false
                   }
                 }
               ]
             },
-            "finalizer": null,
             "handler": {
               "type": "CatchClause",
               "start": 142,
               "end": 183,
+              "param": {
+                "type": "Identifier",
+                "start": 148,
+                "end": 149,
+                "decorators": [],
+                "name": "e",
+                "optional": false,
+                "typeAnnotation": null
+              },
               "body": {
                 "type": "BlockStatement",
                 "start": 151,
@@ -143,20 +174,10 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 161,
                     "end": 177,
-                    "directive": null,
                     "expression": {
                       "type": "CallExpression",
                       "start": 161,
                       "end": 176,
-                      "arguments": [
-                        {
-                          "type": "Literal",
-                          "start": 165,
-                          "end": 175,
-                          "raw": "\"in catch\"",
-                          "value": "in catch"
-                        }
-                      ],
                       "callee": {
                         "type": "Identifier",
                         "start": 161,
@@ -166,49 +187,28 @@ __ESTREE_TEST__:PASS:
                         "optional": false,
                         "typeAnnotation": null
                       },
-                      "optional": false,
-                      "typeArguments": null
-                    }
+                      "typeArguments": null,
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 165,
+                          "end": 175,
+                          "value": "in catch",
+                          "raw": "\"in catch\""
+                        }
+                      ],
+                      "optional": false
+                    },
+                    "directive": null
                   }
                 ]
-              },
-              "param": {
-                "type": "Identifier",
-                "start": 148,
-                "end": 149,
-                "decorators": [],
-                "name": "e",
-                "optional": false,
-                "typeAnnotation": null
               }
-            }
+            },
+            "finalizer": null
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 81,
-        "end": 86,
-        "decorators": [],
-        "name": "main1",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": {
-        "type": "TSTypeAnnotation",
-        "start": 89,
-        "end": 97,
-        "typeAnnotation": {
-          "type": "TSNumberKeyword",
-          "start": 91,
-          "end": 97
-        }
-      },
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

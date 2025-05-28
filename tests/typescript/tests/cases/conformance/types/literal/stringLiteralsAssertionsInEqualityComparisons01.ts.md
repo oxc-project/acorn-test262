@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 34,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 33,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,14 +28,14 @@ __ESTREE_TEST__:PASS:
             "type": "BinaryExpression",
             "start": 8,
             "end": 33,
-            "operator": "===",
             "left": {
               "type": "Literal",
               "start": 8,
               "end": 13,
-              "raw": "\"foo\"",
-              "value": "foo"
+              "value": "foo",
+              "raw": "\"foo\""
             },
+            "operator": "===",
             "right": {
               "type": "TSAsExpression",
               "start": 18,
@@ -44,8 +44,8 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 18,
                 "end": 23,
-                "raw": "\"bar\"",
-                "value": "bar"
+                "value": "bar",
+                "raw": "\"bar\""
               },
               "typeAnnotation": {
                 "type": "TSStringKeyword",
@@ -53,22 +53,22 @@ __ESTREE_TEST__:PASS:
                 "end": 33
               }
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 35,
       "end": 71,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 39,
           "end": 70,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 39,
@@ -82,14 +82,14 @@ __ESTREE_TEST__:PASS:
             "type": "BinaryExpression",
             "start": 43,
             "end": 70,
-            "operator": "!==",
             "left": {
               "type": "Literal",
               "start": 43,
               "end": 48,
-              "raw": "\"foo\"",
-              "value": "foo"
+              "value": "foo",
+              "raw": "\"foo\""
             },
+            "operator": "!==",
             "right": {
               "type": "TSAsExpression",
               "start": 54,
@@ -98,8 +98,8 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 54,
                 "end": 59,
-                "raw": "\"bar\"",
-                "value": "bar"
+                "value": "bar",
+                "raw": "\"bar\""
               },
               "typeAnnotation": {
                 "type": "TSStringKeyword",
@@ -107,22 +107,22 @@ __ESTREE_TEST__:PASS:
                 "end": 69
               }
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 72,
       "end": 102,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 76,
           "end": 101,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 76,
@@ -136,36 +136,36 @@ __ESTREE_TEST__:PASS:
             "type": "BinaryExpression",
             "start": 80,
             "end": 101,
-            "operator": "==",
             "left": {
               "type": "Literal",
               "start": 80,
               "end": 85,
-              "raw": "\"foo\"",
-              "value": "foo"
+              "value": "foo",
+              "raw": "\"foo\""
             },
+            "operator": "==",
             "right": {
               "type": "TSTypeAssertion",
               "start": 90,
               "end": 100,
-              "expression": {
-                "type": "Literal",
-                "start": 95,
-                "end": 100,
-                "raw": "\"bar\"",
-                "value": "bar"
-              },
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 91,
                 "end": 94
+              },
+              "expression": {
+                "type": "Literal",
+                "start": 95,
+                "end": 100,
+                "value": "bar",
+                "raw": "\"bar\""
               }
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

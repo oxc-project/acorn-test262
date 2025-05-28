@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 778,
       "end": 828,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 821,
                 "name": "PlainMonthDay"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -59,13 +60,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 829,
       "end": 898,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -97,8 +98,8 @@
                 "end": 859,
                 "name": "with"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -110,9 +111,7 @@
                     "type": "Property",
                     "start": 862,
                     "end": 869,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 862,
@@ -126,7 +125,9 @@
                       "value": 33,
                       "raw": "33"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               },
@@ -139,9 +140,7 @@
                     "type": "Property",
                     "start": 875,
                     "end": 894,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 875,
@@ -154,7 +153,9 @@
                       "end": 894,
                       "name": "undefined"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -162,8 +163,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -189,8 +189,8 @@
             "end": 934,
             "name": "assertPlainMonthDay"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -228,6 +228,7 @@
       "type": "VariableDeclaration",
       "start": 990,
       "end": 1038,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -259,8 +260,8 @@
                 "end": 1020,
                 "name": "with"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -272,9 +273,7 @@
                     "type": "Property",
                     "start": 1023,
                     "end": 1030,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1023,
@@ -288,7 +287,9 @@
                       "value": 33,
                       "raw": "33"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               },
@@ -302,8 +303,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -329,8 +329,8 @@
             "end": 1074,
             "name": "assertPlainMonthDay"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -368,6 +368,7 @@
       "type": "VariableDeclaration",
       "start": 1130,
       "end": 1182,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -399,8 +400,8 @@
                 "end": 1158,
                 "name": "with"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -412,9 +413,7 @@
                     "type": "Property",
                     "start": 1161,
                     "end": 1168,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1161,
@@ -428,7 +427,9 @@
                       "value": 33,
                       "raw": "33"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               },
@@ -436,9 +437,7 @@
                 "type": "ArrowFunctionExpression",
                 "start": 1172,
                 "end": 1180,
-                "id": null,
                 "expression": false,
-                "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
@@ -446,14 +445,15 @@
                   "start": 1178,
                   "end": 1180,
                   "body": []
-                }
+                },
+                "id": null,
+                "generator": false
               }
             ],
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -479,8 +479,8 @@
             "end": 1218,
             "name": "assertPlainMonthDay"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

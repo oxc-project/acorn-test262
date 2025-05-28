@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 255,
       "end": 942,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -215,13 +216,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 943,
       "end": 1010,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -253,8 +254,8 @@
                 "end": 982,
                 "name": "PlainTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -302,8 +303,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -329,17 +329,15 @@
             "end": 1033,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 1034,
             "end": 1183,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -391,8 +389,8 @@
                         "end": 1069,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -405,9 +403,7 @@
                         "type": "ArrowFunctionExpression",
                         "start": 1091,
                         "end": 1116,
-                        "id": null,
                         "expression": true,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -430,8 +426,8 @@
                               "end": 1111,
                               "name": "until"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -442,26 +438,14 @@
                             }
                           ],
                           "optional": false
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 1122,
                         "end": 1176,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 1160,
-                            "end": 1163,
-                            "name": "arg"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 1169,
-                            "end": 1174,
-                            "name": "descr"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -493,6 +477,20 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 1160,
+                            "end": 1163,
+                            "name": "arg"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 1169,
+                            "end": 1174,
+                            "name": "descr"
+                          }
                         ]
                       }
                     ],
@@ -500,7 +498,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 390,
       "end": 460,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 428,
                 "name": "ZonedDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -60,13 +61,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 510,
       "end": 582,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -98,8 +99,8 @@
                 "end": 549,
                 "name": "ZonedDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -120,8 +121,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -147,8 +147,8 @@
             "end": 614,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -171,8 +171,8 @@
                 "end": 624,
                 "name": "since"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -184,9 +184,7 @@
                     "type": "Property",
                     "start": 629,
                     "end": 639,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 629,
@@ -200,15 +198,15 @@
                       "value": 2019,
                       "raw": "2019"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 643,
                     "end": 652,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 643,
@@ -222,15 +220,15 @@
                       "value": 10,
                       "raw": "10"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 656,
                     "end": 663,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 656,
@@ -244,15 +242,15 @@
                       "value": 29,
                       "raw": "29"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 667,
                     "end": 675,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 667,
@@ -266,15 +264,15 @@
                       "value": 10,
                       "raw": "10"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 679,
                     "end": 697,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 679,
@@ -288,7 +286,9 @@
                       "value": "+01:00",
                       "raw": "\"+01:00\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -328,84 +328,84 @@
             "start": 714,
             "end": 721,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 715,
               "end": 721,
               "value": 376434,
               "raw": "376434"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 723,
             "end": 726,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 724,
               "end": 726,
               "value": 36,
               "raw": "36"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 728,
             "end": 731,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 729,
               "end": 731,
               "value": 29,
               "raw": "29"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 733,
             "end": 737,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 734,
               "end": 737,
               "value": 876,
               "raw": "876"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 739,
             "end": 743,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 740,
               "end": 743,
               "value": 543,
               "raw": "543"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 745,
             "end": 749,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 746,
               "end": 749,
               "value": 211,
               "raw": "211"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -435,8 +435,8 @@
             "end": 782,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -459,8 +459,8 @@
                 "end": 792,
                 "name": "since"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -505,84 +505,84 @@
             "start": 814,
             "end": 821,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 815,
               "end": 821,
               "value": 376435,
               "raw": "376435"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 823,
             "end": 826,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 824,
               "end": 826,
               "value": 23,
               "raw": "23"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 828,
             "end": 830,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 829,
               "end": 830,
               "value": 8,
               "raw": "8"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 832,
             "end": 836,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 833,
               "end": 836,
               "value": 148,
               "raw": "148"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 838,
             "end": 842,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 839,
               "end": 842,
               "value": 529,
               "raw": "529"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 844,
             "end": 848,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 845,
               "end": 848,
               "value": 313,
               "raw": "313"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false

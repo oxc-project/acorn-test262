@@ -9,12 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 6,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
         "end": 5,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 0,
@@ -24,9 +22,11 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

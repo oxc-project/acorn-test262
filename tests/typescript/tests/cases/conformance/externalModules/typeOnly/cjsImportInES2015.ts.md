@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 43,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 41,
-        "end": 43,
-        "body": []
-      },
-      "declare": true,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -27,7 +19,7 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": {
         "type": "Identifier",
         "start": 35,
@@ -38,7 +30,15 @@ __ESTREE_TEST__:PASS:
         "typeAnnotation": null
       },
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 41,
+        "end": 43,
+        "body": []
+      },
+      "abstract": false,
+      "declare": true
     },
     {
       "type": "TSExportAssignment",
@@ -79,7 +79,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "type",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 27,
@@ -88,25 +87,16 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 35,
           "end": 44,
-          "raw": "\"cjs-dep\"",
-          "value": "cjs-dep"
+          "value": "cjs-dep",
+          "raw": "\"cjs-dep\""
         }
-      }
+      },
+      "importKind": "type"
     },
     {
       "type": "FunctionDeclaration",
       "start": 47,
       "end": 89,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 87,
-        "end": 89,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 56,
@@ -116,6 +106,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -132,7 +126,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 73,
               "end": 85,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 73,
@@ -141,13 +134,20 @@ __ESTREE_TEST__:PASS:
                 "name": "SpecialError",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "typeArguments": null
             }
           }
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 87,
+        "end": 89,
+        "body": []
+      },
+      "expression": false
     }
   ],
   "sourceType": "module",

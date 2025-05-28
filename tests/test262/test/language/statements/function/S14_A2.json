@@ -16,13 +16,13 @@
           "start": 377,
           "end": 385,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 384,
             "end": 385,
             "name": "f"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -70,13 +70,13 @@
                     "start": 486,
                     "end": 494,
                     "operator": "typeof",
-                    "prefix": true,
                     "argument": {
                       "type": "Identifier",
                       "start": 493,
                       "end": 494,
                       "name": "f"
-                    }
+                    },
+                    "prefix": true
                   }
                 }
               ]
@@ -108,7 +108,6 @@
               "end": 687,
               "name": "f"
             },
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -211,7 +210,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           "arguments": [
             {

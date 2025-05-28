@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1823,
       "end": 1841,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1842,
       "end": 1848,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -46,8 +47,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -68,9 +68,7 @@
           "type": "ArrowFunctionExpression",
           "start": 1853,
           "end": 1955,
-          "id": null,
           "expression": false,
-          "generator": false,
           "async": false,
           "params": [
             {
@@ -96,9 +94,7 @@
                       "type": "ArrowFunctionExpression",
                       "start": 1863,
                       "end": 1871,
-                      "id": null,
                       "expression": false,
-                      "generator": false,
                       "async": false,
                       "params": [],
                       "body": {
@@ -106,7 +102,9 @@
                         "start": 1869,
                         "end": 1871,
                         "body": []
-                      }
+                      },
+                      "id": null,
+                      "generator": false
                     }
                   }
                 ]
@@ -148,8 +146,8 @@
                       "end": 1902,
                       "name": "sameValue"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -168,8 +166,8 @@
                         "end": 1913,
                         "name": "name"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     {
                       "type": "Literal",
@@ -219,7 +217,9 @@
                 }
               }
             ]
-          }
+          },
+          "id": null,
+          "generator": false
         }
       }
     },
@@ -265,8 +265,8 @@
             "end": 1979,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

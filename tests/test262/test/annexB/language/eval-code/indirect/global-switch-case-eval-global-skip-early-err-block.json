@@ -27,8 +27,8 @@
             "end": 745,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 762,
             "end": 781,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -63,7 +62,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -100,8 +100,8 @@
             "end": 861,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -109,13 +109,13 @@
             "start": 865,
             "end": 873,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 872,
               "end": 873,
               "name": "f"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -243,8 +243,8 @@
             "end": 1076,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -258,7 +258,6 @@
             "start": 1093,
             "end": 1112,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -279,7 +278,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -316,8 +316,8 @@
             "end": 1193,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -325,13 +325,13 @@
             "start": 1197,
             "end": 1205,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 1204,
               "end": 1205,
               "name": "f"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

@@ -27,8 +27,8 @@
             "end": 350,
             "name": "position"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -43,6 +43,7 @@
       "type": "VariableDeclaration",
       "start": 354,
       "end": 368,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -61,8 +62,7 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -90,15 +90,14 @@
             "value": "move",
             "raw": "'move'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "FunctionExpression",
           "start": 382,
           "end": 404,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -126,7 +125,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -154,8 +154,8 @@
             "end": 504,
             "name": "move"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [],
         "optional": false
@@ -260,8 +260,8 @@
             "value": "move",
             "raw": "'move'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "arguments": [],
         "optional": false

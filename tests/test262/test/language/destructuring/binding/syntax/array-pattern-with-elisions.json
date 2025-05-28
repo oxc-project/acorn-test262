@@ -13,7 +13,6 @@
         "end": 516,
         "name": "fn1"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -31,7 +30,8 @@
         "start": 522,
         "end": 524,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -43,7 +43,6 @@
         "end": 537,
         "name": "fn2"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -62,7 +61,8 @@
         "start": 544,
         "end": 546,
         "body": []
-      }
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

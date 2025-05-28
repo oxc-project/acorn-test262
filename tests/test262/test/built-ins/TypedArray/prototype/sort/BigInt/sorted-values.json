@@ -23,7 +23,6 @@
             "start": 556,
             "end": 954,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -43,6 +42,7 @@
                   "type": "VariableDeclaration",
                   "start": 573,
                   "end": 584,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -56,8 +56,7 @@
                       },
                       "init": null
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -140,8 +139,8 @@
                           "end": 626,
                           "name": "sort"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [],
                       "optional": false
@@ -314,8 +313,8 @@
                           "end": 742,
                           "name": "sort"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [],
                       "optional": false
@@ -512,8 +511,8 @@
                           "end": 866,
                           "name": "sort"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [],
                       "optional": false
@@ -630,7 +629,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -640,6 +640,7 @@
       "type": "VariableDeclaration",
       "start": 958,
       "end": 1033,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -680,7 +681,6 @@
                         "start": 990,
                         "end": 993,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 991,
@@ -688,7 +688,8 @@
                           "value": null,
                           "raw": "4n",
                           "bigint": "4"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "Literal",
@@ -711,7 +712,6 @@
                         "start": 1003,
                         "end": 1006,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 1004,
@@ -719,7 +719,8 @@
                           "value": null,
                           "raw": "3n",
                           "bigint": "3"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "Literal",
@@ -734,7 +735,6 @@
                         "start": 1012,
                         "end": 1015,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 1013,
@@ -742,7 +742,8 @@
                           "value": null,
                           "raw": "2n",
                           "bigint": "2"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "Literal",
@@ -770,15 +771,14 @@
                 "end": 1030,
                 "name": "sort"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -822,7 +822,6 @@
                     "start": 1063,
                     "end": 1066,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 1064,
@@ -830,14 +829,14 @@
                       "value": null,
                       "raw": "4n",
                       "bigint": "4"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "UnaryExpression",
                     "start": 1068,
                     "end": 1071,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 1069,
@@ -845,14 +844,14 @@
                       "value": null,
                       "raw": "3n",
                       "bigint": "3"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "UnaryExpression",
                     "start": 1073,
                     "end": 1076,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 1074,
@@ -860,7 +859,8 @@
                       "value": null,
                       "raw": "2n",
                       "bigint": "2"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "Literal",

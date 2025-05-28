@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 315,
       "end": 357,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 352,
                 "name": "Instant"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -53,13 +54,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 359,
       "end": 388,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -79,8 +80,7 @@
             "raw": "\"1970-01-01T00:00\""
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -106,8 +106,8 @@
             "end": 402,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -120,9 +120,7 @@
             "type": "ArrowFunctionExpression",
             "start": 415,
             "end": 440,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -145,8 +143,8 @@
                   "end": 435,
                   "name": "until"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -157,7 +155,9 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -218,8 +218,8 @@
             "end": 530,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -232,9 +232,7 @@
             "type": "ArrowFunctionExpression",
             "start": 543,
             "end": 568,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -257,8 +255,8 @@
                   "end": 563,
                   "name": "until"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -269,7 +267,9 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -310,6 +310,7 @@
       "type": "VariableDeclaration",
       "start": 648,
       "end": 684,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -341,8 +342,8 @@
                 "end": 678,
                 "name": "until"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -355,8 +356,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -382,8 +382,8 @@
             "end": 715,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -501,6 +501,7 @@
       "type": "VariableDeclaration",
       "start": 827,
       "end": 863,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -532,8 +533,8 @@
                 "end": 857,
                 "name": "until"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -546,8 +547,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -573,8 +573,8 @@
             "end": 894,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -630,14 +630,14 @@
             "start": 922,
             "end": 927,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 923,
               "end": 927,
               "value": 3600,
               "raw": "3600"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -699,6 +699,7 @@
       "type": "VariableDeclaration",
       "start": 1035,
       "end": 1071,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -730,8 +731,8 @@
                 "end": 1065,
                 "name": "until"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -744,8 +745,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -771,8 +771,8 @@
             "end": 1102,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -890,6 +890,7 @@
       "type": "VariableDeclaration",
       "start": 1252,
       "end": 1288,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -921,8 +922,8 @@
                 "end": 1282,
                 "name": "until"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -935,8 +936,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -962,8 +962,8 @@
             "end": 1319,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1019,14 +1019,14 @@
             "start": 1347,
             "end": 1352,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1348,
               "end": 1352,
               "value": 3600,
               "raw": "3600"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -1088,6 +1088,7 @@
       "type": "VariableDeclaration",
       "start": 1473,
       "end": 1509,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1119,8 +1120,8 @@
                 "end": 1503,
                 "name": "until"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1133,8 +1134,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1160,8 +1160,8 @@
             "end": 1540,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1279,6 +1279,7 @@
       "type": "VariableDeclaration",
       "start": 1676,
       "end": 1712,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1310,8 +1311,8 @@
                 "end": 1706,
                 "name": "until"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1324,8 +1325,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1351,8 +1351,8 @@
             "end": 1743,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1408,14 +1408,14 @@
             "start": 1771,
             "end": 1776,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1772,
               "end": 1776,
               "value": 3600,
               "raw": "3600"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -1477,6 +1477,7 @@
       "type": "VariableDeclaration",
       "start": 1901,
       "end": 1937,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1508,8 +1509,8 @@
                 "end": 1931,
                 "name": "until"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1522,8 +1523,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1549,8 +1549,8 @@
             "end": 1968,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1606,14 +1606,14 @@
             "start": 1996,
             "end": 2001,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1997,
               "end": 2001,
               "value": 3600,
               "raw": "3600"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

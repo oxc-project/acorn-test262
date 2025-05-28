@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 44,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 6,
           "end": 43,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
@@ -33,12 +33,11 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 18,
                 "end": 41,
-                "computed": true,
+                "kind": "init",
                 "key": {
                   "type": "MemberExpression",
                   "start": 19,
                   "end": 33,
-                  "computed": false,
                   "object": {
                     "type": "Identifier",
                     "start": 19,
@@ -48,7 +47,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 26,
@@ -57,12 +55,10 @@ __ESTREE_TEST__:PASS:
                     "name": "species",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "optional": false,
+                  "computed": false
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Identifier",
                   "start": 36,
@@ -71,20 +67,23 @@ __ESTREE_TEST__:PASS:
                   "name": "Array",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": true,
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 46,
       "end": 72,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 51,
@@ -94,6 +93,7 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTypeOperator",
         "start": 55,
@@ -115,7 +115,7 @@ __ESTREE_TEST__:PASS:
           "typeArguments": null
         }
       },
-      "typeParameters": null
+      "declare": false
     }
   ],
   "sourceType": "script",

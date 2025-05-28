@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 701,
       "end": 733,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -39,8 +40,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -62,7 +62,6 @@
             "start": 766,
             "end": 931,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -102,8 +101,8 @@
                         "end": 796,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -117,7 +116,6 @@
                         "start": 809,
                         "end": 849,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -152,20 +150,21 @@
                                     "start": 841,
                                     "end": 843,
                                     "operator": "-",
-                                    "prefix": true,
                                     "argument": {
                                       "type": "Literal",
                                       "start": 842,
                                       "end": 843,
                                       "value": 1,
                                       "raw": "1"
-                                    }
+                                    },
+                                    "prefix": true
                                   }
                                 ]
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       }
                     ],
                     "optional": false
@@ -195,8 +194,8 @@
                         "end": 867,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -210,7 +209,6 @@
                         "start": 880,
                         "end": 927,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -245,26 +243,28 @@
                                     "start": 912,
                                     "end": 921,
                                     "operator": "-",
-                                    "prefix": true,
                                     "argument": {
                                       "type": "Identifier",
                                       "start": 913,
                                       "end": 921,
                                       "name": "Infinity"
-                                    }
+                                    },
+                                    "prefix": true
                                   }
                                 ]
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

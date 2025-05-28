@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 11,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 10,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -33,17 +33,16 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 13,
       "end": 22,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 14,
@@ -54,8 +53,8 @@ __ESTREE_TEST__:PASS:
           "start": 14,
           "end": 16,
           "decorators": [],
-          "optional": false,
           "properties": [],
+          "optional": false,
           "typeAnnotation": null
         },
         "right": {
@@ -67,13 +66,13 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 23,
       "end": 32,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 24,
@@ -97,18 +96,19 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "VariableDeclaration",
       "start": 34,
       "end": 50,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 38,
           "end": 49,
-          "definite": false,
           "id": {
             "type": "ArrayPattern",
             "start": 38,
@@ -129,22 +129,22 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 45,
                 "end": 46,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 47,
                 "end": 48,
-                "raw": "2",
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

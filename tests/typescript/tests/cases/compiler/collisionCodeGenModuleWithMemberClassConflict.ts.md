@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 41,
+      "id": {
+        "type": "Identifier",
+        "start": 7,
+        "end": 9,
+        "decorators": [],
+        "name": "m1",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 10,
@@ -18,19 +27,10 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 16,
             "end": 39,
-            "attributes": [],
             "declaration": {
               "type": "ClassDeclaration",
               "start": 23,
               "end": 39,
-              "abstract": false,
-              "body": {
-                "type": "ClassBody",
-                "start": 32,
-                "end": 39,
-                "body": []
-              },
-              "declare": false,
               "decorators": [],
               "id": {
                 "type": "Identifier",
@@ -41,40 +41,40 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "implements": [],
+              "typeParameters": null,
               "superClass": null,
               "superTypeArguments": null,
-              "typeParameters": null
+              "implements": [],
+              "body": {
+                "type": "ClassBody",
+                "start": 32,
+                "end": 39,
+                "body": []
+              },
+              "abstract": false,
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 7,
-        "end": 9,
-        "decorators": [],
-        "name": "m1",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     },
     {
       "type": "VariableDeclaration",
       "start": 42,
       "end": 64,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 46,
           "end": 63,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 46,
@@ -88,12 +88,10 @@ __ESTREE_TEST__:PASS:
             "type": "NewExpression",
             "start": 52,
             "end": 63,
-            "arguments": [],
             "callee": {
               "type": "MemberExpression",
               "start": 56,
               "end": 61,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 56,
@@ -103,7 +101,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 59,
@@ -112,19 +109,31 @@ __ESTREE_TEST__:PASS:
                 "name": "m1",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             },
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": []
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 66,
       "end": 137,
+      "id": {
+        "type": "Identifier",
+        "start": 73,
+        "end": 75,
+        "decorators": [],
+        "name": "m2",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 76,
@@ -134,19 +143,10 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 82,
             "end": 105,
-            "attributes": [],
             "declaration": {
               "type": "ClassDeclaration",
               "start": 89,
               "end": 105,
-              "abstract": false,
-              "body": {
-                "type": "ClassBody",
-                "start": 98,
-                "end": 105,
-                "body": []
-              },
-              "declare": false,
               "decorators": [],
               "id": {
                 "type": "Identifier",
@@ -157,32 +157,32 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "implements": [],
+              "typeParameters": null,
               "superClass": null,
               "superTypeArguments": null,
-              "typeParameters": null
+              "implements": [],
+              "body": {
+                "type": "ClassBody",
+                "start": 98,
+                "end": 105,
+                "body": []
+              },
+              "abstract": false,
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
             "start": 111,
             "end": 135,
-            "attributes": [],
             "declaration": {
               "type": "ClassDeclaration",
               "start": 118,
               "end": 135,
-              "abstract": false,
-              "body": {
-                "type": "ClassBody",
-                "start": 128,
-                "end": 135,
-                "body": []
-              },
-              "declare": false,
               "decorators": [],
               "id": {
                 "type": "Identifier",
@@ -193,40 +193,40 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "implements": [],
+              "typeParameters": null,
               "superClass": null,
               "superTypeArguments": null,
-              "typeParameters": null
+              "implements": [],
+              "body": {
+                "type": "ClassBody",
+                "start": 128,
+                "end": 135,
+                "body": []
+              },
+              "abstract": false,
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 73,
-        "end": 75,
-        "decorators": [],
-        "name": "m2",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     },
     {
       "type": "VariableDeclaration",
       "start": 138,
       "end": 160,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 142,
           "end": 159,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 142,
@@ -240,12 +240,10 @@ __ESTREE_TEST__:PASS:
             "type": "NewExpression",
             "start": 148,
             "end": 159,
-            "arguments": [],
             "callee": {
               "type": "MemberExpression",
               "start": 152,
               "end": 157,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 152,
@@ -255,7 +253,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 155,
@@ -264,25 +261,28 @@ __ESTREE_TEST__:PASS:
                 "name": "m2",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             },
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": []
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 161,
       "end": 184,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 165,
           "end": 183,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 165,
@@ -296,12 +296,10 @@ __ESTREE_TEST__:PASS:
             "type": "NewExpression",
             "start": 171,
             "end": 183,
-            "arguments": [],
             "callee": {
               "type": "MemberExpression",
               "start": 175,
               "end": 181,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 175,
@@ -311,7 +309,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 178,
@@ -320,14 +317,17 @@ __ESTREE_TEST__:PASS:
                 "name": "_m2",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             },
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": []
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

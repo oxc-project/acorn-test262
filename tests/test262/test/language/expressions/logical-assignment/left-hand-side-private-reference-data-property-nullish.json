@@ -23,8 +23,6 @@
             "type": "PropertyDefinition",
             "start": 1541,
             "end": 1555,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 1541,
@@ -37,27 +35,25 @@
               "end": 1554,
               "value": null,
               "raw": "null"
-            }
+            },
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 1558,
             "end": 1614,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1558,
               "end": 1576,
               "name": "compoundAssignment"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 1576,
               "end": 1614,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -90,8 +86,8 @@
                           "end": 1603,
                           "name": "field"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "right": {
                         "type": "Literal",
@@ -103,28 +99,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 1617,
             "end": 1659,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1617,
               "end": 1627,
               "name": "fieldValue"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 1627,
               "end": 1659,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -152,13 +148,17 @@
                         "end": 1654,
                         "name": "field"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -167,6 +167,7 @@
       "type": "VariableDeclaration",
       "start": 1663,
       "end": 1681,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -191,8 +192,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -218,8 +218,8 @@
             "end": 1698,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -242,8 +242,8 @@
                 "end": 1719,
                 "name": "compoundAssignment"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -290,8 +290,8 @@
             "end": 1791,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -314,8 +314,8 @@
                 "end": 1804,
                 "name": "fieldValue"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false

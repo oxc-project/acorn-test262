@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 338,
       "end": 428,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 381,
                 "name": "ZonedDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -67,13 +68,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 430,
       "end": 777,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -185,14 +186,14 @@
                     "start": 575,
                     "end": 584,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 576,
                       "end": 584,
                       "value": 19761118,
                       "raw": "19761118"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "Literal",
@@ -317,8 +318,8 @@
                         "end": 749,
                         "name": "Duration"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": []
                   },
@@ -334,8 +335,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -346,6 +346,7 @@
         "type": "VariableDeclaration",
         "start": 784,
         "end": 808,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -372,8 +373,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -410,8 +410,8 @@
                   "end": 845,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -424,9 +424,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 866,
                   "end": 898,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -449,8 +447,8 @@
                         "end": 893,
                         "name": "withCalendar"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -461,20 +459,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 904,
                   "end": 959,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 907,
-                      "end": 918,
-                      "name": "description"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -495,6 +487,14 @@
                         "cooked": " does not convert to a valid ISO string"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 907,
+                      "end": 918,
+                      "name": "description"
                     }
                   ]
                 }

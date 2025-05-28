@@ -9,37 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 39,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 17,
-        "end": 39,
-        "body": [
-          {
-            "type": "TSDeclareFunction",
-            "start": 22,
-            "end": 37,
-            "async": false,
-            "body": null,
-            "declare": false,
-            "expression": false,
-            "generator": false,
-            "id": {
-              "type": "Identifier",
-              "start": 31,
-              "end": 34,
-              "decorators": [],
-              "name": "foo",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
-        ]
-      },
-      "declare": true,
-      "global": false,
       "id": {
         "type": "Identifier",
         "start": 15,
@@ -49,7 +18,38 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "module"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 17,
+        "end": 39,
+        "body": [
+          {
+            "type": "TSDeclareFunction",
+            "start": 22,
+            "end": 37,
+            "id": {
+              "type": "Identifier",
+              "start": 31,
+              "end": 34,
+              "decorators": [],
+              "name": "foo",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "generator": false,
+            "async": false,
+            "declare": false,
+            "typeParameters": null,
+            "params": [],
+            "returnType": null,
+            "body": null,
+            "expression": false
+          }
+        ]
+      },
+      "kind": "module",
+      "declare": true,
+      "global": false
     }
   ],
   "sourceType": "script",

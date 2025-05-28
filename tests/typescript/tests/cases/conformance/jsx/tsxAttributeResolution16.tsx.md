@@ -18,7 +18,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 15,
@@ -27,82 +26,16 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 23,
           "end": 30,
-          "raw": "'react'",
-          "value": "react"
+          "value": "react",
+          "raw": "'react'"
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 34,
       "end": 92,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 52,
-        "end": 92,
-        "body": [
-          {
-            "type": "TSPropertySignature",
-            "start": 56,
-            "end": 71,
-            "accessibility": null,
-            "computed": false,
-            "key": {
-              "type": "Identifier",
-              "start": 56,
-              "end": 62,
-              "decorators": [],
-              "name": "street",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 62,
-              "end": 70,
-              "typeAnnotation": {
-                "type": "TSStringKeyword",
-                "start": 64,
-                "end": 70
-              }
-            }
-          },
-          {
-            "type": "TSPropertySignature",
-            "start": 74,
-            "end": 90,
-            "accessibility": null,
-            "computed": false,
-            "key": {
-              "type": "Identifier",
-              "start": 74,
-              "end": 81,
-              "decorators": [],
-              "name": "country",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 81,
-              "end": 89,
-              "typeAnnotation": {
-                "type": "TSStringKeyword",
-                "start": 83,
-                "end": 89
-              }
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "extends": [],
       "id": {
         "type": "Identifier",
         "start": 44,
@@ -112,49 +45,89 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "typeParameters": null
+      "typeParameters": null,
+      "extends": [],
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 52,
+        "end": 92,
+        "body": [
+          {
+            "type": "TSPropertySignature",
+            "start": 56,
+            "end": 71,
+            "computed": false,
+            "optional": false,
+            "readonly": false,
+            "key": {
+              "type": "Identifier",
+              "start": 56,
+              "end": 62,
+              "decorators": [],
+              "name": "street",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 62,
+              "end": 70,
+              "typeAnnotation": {
+                "type": "TSStringKeyword",
+                "start": 64,
+                "end": 70
+              }
+            },
+            "accessibility": null,
+            "static": false
+          },
+          {
+            "type": "TSPropertySignature",
+            "start": 74,
+            "end": 90,
+            "computed": false,
+            "optional": false,
+            "readonly": false,
+            "key": {
+              "type": "Identifier",
+              "start": 74,
+              "end": 81,
+              "decorators": [],
+              "name": "country",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 81,
+              "end": 89,
+              "typeAnnotation": {
+                "type": "TSStringKeyword",
+                "start": 83,
+                "end": 89
+              }
+            },
+            "accessibility": null,
+            "static": false
+          }
+        ]
+      },
+      "declare": false
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 94,
       "end": 163,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 136,
-        "end": 163,
-        "body": [
-          {
-            "type": "TSPropertySignature",
-            "start": 142,
-            "end": 161,
-            "accessibility": null,
-            "computed": false,
-            "key": {
-              "type": "Identifier",
-              "start": 142,
-              "end": 152,
-              "decorators": [],
-              "name": "postalCode",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 152,
-              "end": 160,
-              "typeAnnotation": {
-                "type": "TSStringKeyword",
-                "start": 154,
-                "end": 160
-              }
-            }
-          }
-        ]
+      "id": {
+        "type": "Identifier",
+        "start": 104,
+        "end": 119,
+        "decorators": [],
+        "name": "CanadianAddress",
+        "optional": false,
+        "typeAnnotation": null
       },
-      "declare": false,
+      "typeParameters": null,
       "extends": [
         {
           "type": "TSInterfaceHeritage",
@@ -172,58 +145,58 @@ __ESTREE_TEST__:PASS:
           "typeArguments": null
         }
       ],
-      "id": {
-        "type": "Identifier",
-        "start": 104,
-        "end": 119,
-        "decorators": [],
-        "name": "CanadianAddress",
-        "optional": false,
-        "typeAnnotation": null
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 136,
+        "end": 163,
+        "body": [
+          {
+            "type": "TSPropertySignature",
+            "start": 142,
+            "end": 161,
+            "computed": false,
+            "optional": false,
+            "readonly": false,
+            "key": {
+              "type": "Identifier",
+              "start": 142,
+              "end": 152,
+              "decorators": [],
+              "name": "postalCode",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 152,
+              "end": 160,
+              "typeAnnotation": {
+                "type": "TSStringKeyword",
+                "start": 154,
+                "end": 160
+              }
+            },
+            "accessibility": null,
+            "static": false
+          }
+        ]
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 165,
       "end": 231,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 207,
-        "end": 231,
-        "body": [
-          {
-            "type": "TSPropertySignature",
-            "start": 213,
-            "end": 229,
-            "accessibility": null,
-            "computed": false,
-            "key": {
-              "type": "Identifier",
-              "start": 213,
-              "end": 220,
-              "decorators": [],
-              "name": "zipCode",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 220,
-              "end": 228,
-              "typeAnnotation": {
-                "type": "TSStringKeyword",
-                "start": 222,
-                "end": 228
-              }
-            }
-          }
-        ]
+      "id": {
+        "type": "Identifier",
+        "start": 175,
+        "end": 190,
+        "decorators": [],
+        "name": "AmericanAddress",
+        "optional": false,
+        "typeAnnotation": null
       },
-      "declare": false,
+      "typeParameters": null,
       "extends": [
         {
           "type": "TSInterfaceHeritage",
@@ -241,22 +214,48 @@ __ESTREE_TEST__:PASS:
           "typeArguments": null
         }
       ],
-      "id": {
-        "type": "Identifier",
-        "start": 175,
-        "end": 190,
-        "decorators": [],
-        "name": "AmericanAddress",
-        "optional": false,
-        "typeAnnotation": null
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 207,
+        "end": 231,
+        "body": [
+          {
+            "type": "TSPropertySignature",
+            "start": 213,
+            "end": 229,
+            "computed": false,
+            "optional": false,
+            "readonly": false,
+            "key": {
+              "type": "Identifier",
+              "start": 213,
+              "end": 220,
+              "decorators": [],
+              "name": "zipCode",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 220,
+              "end": 228,
+              "typeAnnotation": {
+                "type": "TSStringKeyword",
+                "start": 222,
+                "end": 228
+              }
+            },
+            "accessibility": null,
+            "static": false
+          }
+        ]
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 233,
       "end": 285,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 238,
@@ -266,6 +265,7 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSUnionType",
         "start": 251,
@@ -275,7 +275,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 251,
             "end": 266,
-            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 251,
@@ -284,13 +283,13 @@ __ESTREE_TEST__:PASS:
               "name": "CanadianAddress",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "typeArguments": null
           },
           {
             "type": "TSTypeReference",
             "start": 269,
             "end": 284,
-            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 269,
@@ -299,22 +298,85 @@ __ESTREE_TEST__:PASS:
               "name": "AmericanAddress",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "typeArguments": null
           }
         ]
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 287,
       "end": 398,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 294,
         "end": 398,
-        "abstract": false,
+        "decorators": [],
+        "id": {
+          "type": "Identifier",
+          "start": 300,
+          "end": 311,
+          "decorators": [],
+          "name": "AddressComp",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null,
+        "superClass": {
+          "type": "MemberExpression",
+          "start": 320,
+          "end": 335,
+          "object": {
+            "type": "Identifier",
+            "start": 320,
+            "end": 325,
+            "decorators": [],
+            "name": "React",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 326,
+            "end": 335,
+            "decorators": [],
+            "name": "Component",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "computed": false
+        },
+        "superTypeArguments": {
+          "type": "TSTypeParameterInstantiation",
+          "start": 335,
+          "end": 353,
+          "params": [
+            {
+              "type": "TSTypeReference",
+              "start": 336,
+              "end": 346,
+              "typeName": {
+                "type": "Identifier",
+                "start": 336,
+                "end": 346,
+                "decorators": [],
+                "name": "Properties",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeArguments": null
+            },
+            {
+              "type": "TSVoidKeyword",
+              "start": 348,
+              "end": 352
+            }
+          ]
+        },
+        "implements": [],
         "body": {
           "type": "ClassBody",
           "start": 354,
@@ -324,8 +386,6 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 358,
               "end": 396,
-              "accessibility": "public",
-              "computed": false,
               "decorators": [],
               "key": {
                 "type": "Identifier",
@@ -336,15 +396,17 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "kind": "method",
-              "optional": false,
-              "override": false,
-              "static": false,
               "value": {
                 "type": "FunctionExpression",
                 "start": 371,
                 "end": 396,
+                "id": null,
+                "generator": false,
                 "async": false,
+                "declare": false,
+                "typeParameters": null,
+                "params": [],
+                "returnType": null,
                 "body": {
                   "type": "BlockStatement",
                   "start": 374,
@@ -358,103 +420,41 @@ __ESTREE_TEST__:PASS:
                         "type": "Literal",
                         "start": 387,
                         "end": 391,
-                        "raw": "null",
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     }
                   ]
                 },
-                "declare": false,
-                "expression": false,
-                "generator": false,
-                "id": null,
-                "params": [],
-                "returnType": null,
-                "typeParameters": null
-              }
+                "expression": false
+              },
+              "kind": "method",
+              "computed": false,
+              "static": false,
+              "override": false,
+              "optional": false,
+              "accessibility": "public"
             }
           ]
         },
-        "declare": false,
-        "decorators": [],
-        "id": {
-          "type": "Identifier",
-          "start": 300,
-          "end": 311,
-          "decorators": [],
-          "name": "AddressComp",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "implements": [],
-        "superClass": {
-          "type": "MemberExpression",
-          "start": 320,
-          "end": 335,
-          "computed": false,
-          "object": {
-            "type": "Identifier",
-            "start": 320,
-            "end": 325,
-            "decorators": [],
-            "name": "React",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "optional": false,
-          "property": {
-            "type": "Identifier",
-            "start": 326,
-            "end": 335,
-            "decorators": [],
-            "name": "Component",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
-        "superTypeArguments": {
-          "type": "TSTypeParameterInstantiation",
-          "start": 335,
-          "end": 353,
-          "params": [
-            {
-              "type": "TSTypeReference",
-              "start": 336,
-              "end": 346,
-              "typeArguments": null,
-              "typeName": {
-                "type": "Identifier",
-                "start": 336,
-                "end": 346,
-                "decorators": [],
-                "name": "Properties",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            },
-            {
-              "type": "TSVoidKeyword",
-              "start": 348,
-              "end": 352
-            }
-          ]
-        },
-        "typeParameters": null
+        "abstract": false,
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "VariableDeclaration",
       "start": 400,
       "end": 476,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 404,
           "end": 476,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 404,
@@ -468,12 +468,17 @@ __ESTREE_TEST__:PASS:
             "type": "JSXElement",
             "start": 408,
             "end": 476,
-            "children": [],
-            "closingElement": null,
             "openingElement": {
               "type": "JSXOpeningElement",
               "start": 408,
               "end": 476,
+              "name": {
+                "type": "JSXIdentifier",
+                "start": 409,
+                "end": 420,
+                "name": "AddressComp"
+              },
+              "typeArguments": null,
               "attributes": [
                 {
                   "type": "JSXAttribute",
@@ -489,8 +494,8 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 432,
                     "end": 441,
-                    "raw": "'T1B 0L3'",
-                    "value": "T1B 0L3"
+                    "value": "T1B 0L3",
+                    "raw": "'T1B 0L3'"
                   }
                 },
                 {
@@ -507,8 +512,8 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 449,
                     "end": 460,
-                    "raw": "\"vancouver\"",
-                    "value": "vancouver"
+                    "value": "vancouver",
+                    "raw": "\"vancouver\""
                   }
                 },
                 {
@@ -525,25 +530,20 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 469,
                     "end": 473,
-                    "raw": "\"CA\"",
-                    "value": "CA"
+                    "value": "CA",
+                    "raw": "\"CA\""
                   }
                 }
               ],
-              "name": {
-                "type": "JSXIdentifier",
-                "start": 409,
-                "end": 420,
-                "name": "AddressComp"
-              },
-              "selfClosing": true,
-              "typeArguments": null
-            }
-          }
+              "selfClosing": true
+            },
+            "children": [],
+            "closingElement": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     }
   ],
   "sourceType": "module",

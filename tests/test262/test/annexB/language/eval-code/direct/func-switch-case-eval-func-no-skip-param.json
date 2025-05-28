@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 686,
       "end": 702,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -32,8 +33,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -52,7 +52,6 @@
             "start": 705,
             "end": 835,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -134,7 +133,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           "arguments": [
             {
@@ -173,8 +173,8 @@
             "end": 860,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -225,8 +225,8 @@
             "end": 934,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -234,13 +234,13 @@
             "start": 938,
             "end": 950,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 945,
               "end": 950,
               "name": "after"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

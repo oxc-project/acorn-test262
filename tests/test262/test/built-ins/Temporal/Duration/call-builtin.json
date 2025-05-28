@@ -28,16 +28,14 @@
             "end": 297,
             "name": "isFinite"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "ArrowFunctionExpression",
           "start": 300,
           "end": 367,
-          "id": null,
           "expression": false,
-          "generator": false,
           "async": false,
           "params": [],
           "body": {
@@ -71,7 +69,9 @@
                 }
               }
             ]
-          }
+          },
+          "id": null,
+          "generator": false
         }
       }
     },
@@ -100,16 +100,14 @@
             "end": 378,
             "name": "sign"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "ArrowFunctionExpression",
           "start": 381,
           "end": 442,
-          "id": null,
           "expression": false,
-          "generator": false,
           "async": false,
           "params": [],
           "body": {
@@ -143,7 +141,9 @@
                 }
               }
             ]
-          }
+          },
+          "id": null,
+          "generator": false
         }
       }
     },
@@ -151,6 +151,7 @@
       "type": "VariableDeclaration",
       "start": 445,
       "end": 490,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -182,8 +183,8 @@
                 "end": 483,
                 "name": "Duration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -203,8 +204,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -230,8 +230,8 @@
             "end": 521,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

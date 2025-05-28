@@ -9,47 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 49,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 12,
-        "end": 49,
-        "body": [
-          {
-            "type": "ExportNamedDeclaration",
-            "start": 18,
-            "end": 47,
-            "attributes": [],
-            "declaration": {
-              "type": "TSInterfaceDeclaration",
-              "start": 25,
-              "end": 47,
-              "body": {
-                "type": "TSInterfaceBody",
-                "start": 40,
-                "end": 47,
-                "body": []
-              },
-              "declare": false,
-              "extends": [],
-              "id": {
-                "type": "Identifier",
-                "start": 35,
-                "end": 39,
-                "decorators": [],
-                "name": "type",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "typeParameters": null
-            },
-            "exportKind": "type",
-            "source": null,
-            "specifiers": []
-          }
-        ]
-      },
-      "declare": false,
-      "global": false,
       "id": {
         "type": "Identifier",
         "start": 10,
@@ -59,18 +18,59 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "namespace"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 12,
+        "end": 49,
+        "body": [
+          {
+            "type": "ExportNamedDeclaration",
+            "start": 18,
+            "end": 47,
+            "declaration": {
+              "type": "TSInterfaceDeclaration",
+              "start": 25,
+              "end": 47,
+              "id": {
+                "type": "Identifier",
+                "start": 35,
+                "end": 39,
+                "decorators": [],
+                "name": "type",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null,
+              "extends": [],
+              "body": {
+                "type": "TSInterfaceBody",
+                "start": 40,
+                "end": 47,
+                "body": []
+              },
+              "declare": false
+            },
+            "specifiers": [],
+            "source": null,
+            "exportKind": "type",
+            "attributes": []
+          }
+        ]
+      },
+      "kind": "namespace",
+      "declare": false,
+      "global": false
     },
     {
       "type": "VariableDeclaration",
       "start": 51,
       "end": 88,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 55,
           "end": 88,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 55,
@@ -84,7 +84,20 @@ __ESTREE_TEST__:PASS:
             "type": "ClassExpression",
             "start": 59,
             "end": 88,
-            "abstract": false,
+            "decorators": [],
+            "id": {
+              "type": "Identifier",
+              "start": 65,
+              "end": 66,
+              "decorators": [],
+              "name": "C",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null,
+            "superClass": null,
+            "superTypeArguments": null,
+            "implements": [],
             "body": {
               "type": "ClassBody",
               "start": 67,
@@ -94,11 +107,7 @@ __ESTREE_TEST__:PASS:
                   "type": "PropertyDefinition",
                   "start": 73,
                   "end": 86,
-                  "accessibility": null,
-                  "computed": false,
-                  "declare": false,
                   "decorators": [],
-                  "definite": false,
                   "key": {
                     "type": "Identifier",
                     "start": 73,
@@ -108,10 +117,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
-                  "override": false,
-                  "readonly": false,
-                  "static": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 77,
@@ -120,7 +125,6 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 79,
                       "end": 85,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "TSQualifiedName",
                         "start": 79,
@@ -143,33 +147,29 @@ __ESTREE_TEST__:PASS:
                           "optional": false,
                           "typeAnnotation": null
                         }
-                      }
+                      },
+                      "typeArguments": null
                     }
                   },
-                  "value": null
+                  "value": null,
+                  "computed": false,
+                  "static": false,
+                  "declare": false,
+                  "override": false,
+                  "optional": false,
+                  "definite": false,
+                  "readonly": false,
+                  "accessibility": null
                 }
               ]
             },
-            "declare": false,
-            "decorators": [],
-            "id": {
-              "type": "Identifier",
-              "start": 65,
-              "end": 66,
-              "decorators": [],
-              "name": "C",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "implements": [],
-            "superClass": null,
-            "superTypeArguments": null,
-            "typeParameters": null
-          }
+            "abstract": false,
+            "declare": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

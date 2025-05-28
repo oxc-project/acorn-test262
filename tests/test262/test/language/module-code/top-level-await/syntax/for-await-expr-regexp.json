@@ -98,6 +98,7 @@
         "type": "VariableDeclaration",
         "start": 2866,
         "end": 2877,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -111,8 +112,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "AwaitExpression",
@@ -189,6 +189,7 @@
         "type": "VariableDeclaration",
         "start": 3093,
         "end": 3104,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -202,8 +203,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "test": {
         "type": "AwaitExpression",

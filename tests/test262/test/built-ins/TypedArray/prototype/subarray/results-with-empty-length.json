@@ -23,7 +23,6 @@
             "start": 463,
             "end": 2213,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -43,6 +42,7 @@
                   "type": "VariableDeclaration",
                   "start": 480,
                   "end": 518,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -103,8 +103,7 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "FunctionDeclaration",
@@ -116,7 +115,6 @@
                     "end": 538,
                     "name": "testRes"
                   },
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [
@@ -162,8 +160,8 @@
                               "end": 574,
                               "name": "sameValue"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -182,8 +180,8 @@
                                 "end": 588,
                                 "name": "length"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             {
                               "type": "Literal",
@@ -226,8 +224,8 @@
                               "end": 619,
                               "name": "sameValue"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -250,8 +248,8 @@
                                   "end": 648,
                                   "name": "hasOwnProperty"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "arguments": [
                                 {
@@ -295,7 +293,8 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
                 {
                   "type": "ExpressionStatement",
@@ -332,8 +331,8 @@
                             "end": 755,
                             "name": "subarray"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -392,8 +391,8 @@
                             "end": 805,
                             "name": "subarray"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -452,8 +451,8 @@
                             "end": 855,
                             "name": "subarray"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -519,8 +518,8 @@
                             "end": 923,
                             "name": "subarray"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -586,8 +585,8 @@
                             "end": 991,
                             "name": "subarray"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -653,8 +652,8 @@
                             "end": 1058,
                             "name": "subarray"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -720,8 +719,8 @@
                             "end": 1125,
                             "name": "subarray"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -787,8 +786,8 @@
                             "end": 1183,
                             "name": "subarray"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -796,28 +795,28 @@
                             "start": 1184,
                             "end": 1186,
                             "operator": "-",
-                            "prefix": true,
                             "argument": {
                               "type": "Literal",
                               "start": 1185,
                               "end": 1186,
                               "value": 0,
                               "raw": "0"
-                            }
+                            },
+                            "prefix": true
                           },
                           {
                             "type": "UnaryExpression",
                             "start": 1188,
                             "end": 1190,
                             "operator": "-",
-                            "prefix": true,
                             "argument": {
                               "type": "Literal",
                               "start": 1189,
                               "end": 1190,
                               "value": 0,
                               "raw": "0"
-                            }
+                            },
+                            "prefix": true
                           }
                         ],
                         "optional": false
@@ -868,8 +867,8 @@
                             "end": 1245,
                             "name": "subarray"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -935,8 +934,8 @@
                             "end": 1302,
                             "name": "subarray"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -944,14 +943,14 @@
                             "start": 1303,
                             "end": 1305,
                             "operator": "-",
-                            "prefix": true,
                             "argument": {
                               "type": "Literal",
                               "start": 1304,
                               "end": 1305,
                               "value": 1,
                               "raw": "1"
-                            }
+                            },
+                            "prefix": true
                           },
                           {
                             "type": "Literal",
@@ -1009,8 +1008,8 @@
                             "end": 1361,
                             "name": "subarray"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -1076,8 +1075,8 @@
                             "end": 1446,
                             "name": "subarray"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -1143,8 +1142,8 @@
                             "end": 1524,
                             "name": "subarray"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -1159,14 +1158,14 @@
                             "start": 1528,
                             "end": 1530,
                             "operator": "-",
-                            "prefix": true,
                             "argument": {
                               "type": "Literal",
                               "start": 1529,
                               "end": 1530,
                               "value": 2,
                               "raw": "2"
-                            }
+                            },
+                            "prefix": true
                           }
                         ],
                         "optional": false
@@ -1217,8 +1216,8 @@
                             "end": 1600,
                             "name": "subarray"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -1226,28 +1225,28 @@
                             "start": 1601,
                             "end": 1603,
                             "operator": "-",
-                            "prefix": true,
                             "argument": {
                               "type": "Literal",
                               "start": 1602,
                               "end": 1603,
                               "value": 1,
                               "raw": "1"
-                            }
+                            },
+                            "prefix": true
                           },
                           {
                             "type": "UnaryExpression",
                             "start": 1605,
                             "end": 1607,
                             "operator": "-",
-                            "prefix": true,
                             "argument": {
                               "type": "Literal",
                               "start": 1606,
                               "end": 1607,
                               "value": 1,
                               "raw": "1"
-                            }
+                            },
+                            "prefix": true
                           }
                         ],
                         "optional": false
@@ -1298,8 +1297,8 @@
                             "end": 1674,
                             "name": "subarray"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -1307,28 +1306,28 @@
                             "start": 1675,
                             "end": 1677,
                             "operator": "-",
-                            "prefix": true,
                             "argument": {
                               "type": "Literal",
                               "start": 1676,
                               "end": 1677,
                               "value": 1,
                               "raw": "1"
-                            }
+                            },
+                            "prefix": true
                           },
                           {
                             "type": "UnaryExpression",
                             "start": 1679,
                             "end": 1681,
                             "operator": "-",
-                            "prefix": true,
                             "argument": {
                               "type": "Literal",
                               "start": 1680,
                               "end": 1681,
                               "value": 2,
                               "raw": "2"
-                            }
+                            },
+                            "prefix": true
                           }
                         ],
                         "optional": false
@@ -1379,8 +1378,8 @@
                             "end": 1748,
                             "name": "subarray"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -1388,28 +1387,28 @@
                             "start": 1749,
                             "end": 1751,
                             "operator": "-",
-                            "prefix": true,
                             "argument": {
                               "type": "Literal",
                               "start": 1750,
                               "end": 1751,
                               "value": 2,
                               "raw": "2"
-                            }
+                            },
+                            "prefix": true
                           },
                           {
                             "type": "UnaryExpression",
                             "start": 1753,
                             "end": 1755,
                             "operator": "-",
-                            "prefix": true,
                             "argument": {
                               "type": "Literal",
                               "start": 1754,
                               "end": 1755,
                               "value": 2,
                               "raw": "2"
-                            }
+                            },
+                            "prefix": true
                           }
                         ],
                         "optional": false
@@ -1460,8 +1459,8 @@
                             "end": 1823,
                             "name": "subarray"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -1476,14 +1475,14 @@
                             "start": 1827,
                             "end": 1829,
                             "operator": "-",
-                            "prefix": true,
                             "argument": {
                               "type": "Literal",
                               "start": 1828,
                               "end": 1829,
                               "value": 4,
                               "raw": "4"
-                            }
+                            },
+                            "prefix": true
                           }
                         ],
                         "optional": false
@@ -1534,8 +1533,8 @@
                             "end": 1888,
                             "name": "subarray"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -1543,28 +1542,28 @@
                             "start": 1889,
                             "end": 1891,
                             "operator": "-",
-                            "prefix": true,
                             "argument": {
                               "type": "Literal",
                               "start": 1890,
                               "end": 1891,
                               "value": 4,
                               "raw": "4"
-                            }
+                            },
+                            "prefix": true
                           },
                           {
                             "type": "UnaryExpression",
                             "start": 1893,
                             "end": 1895,
                             "operator": "-",
-                            "prefix": true,
                             "argument": {
                               "type": "Literal",
                               "start": 1894,
                               "end": 1895,
                               "value": 4,
                               "raw": "4"
-                            }
+                            },
+                            "prefix": true
                           }
                         ],
                         "optional": false
@@ -1615,8 +1614,8 @@
                             "end": 1960,
                             "name": "subarray"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -1624,28 +1623,28 @@
                             "start": 1961,
                             "end": 1963,
                             "operator": "-",
-                            "prefix": true,
                             "argument": {
                               "type": "Literal",
                               "start": 1962,
                               "end": 1963,
                               "value": 5,
                               "raw": "5"
-                            }
+                            },
+                            "prefix": true
                           },
                           {
                             "type": "UnaryExpression",
                             "start": 1965,
                             "end": 1967,
                             "operator": "-",
-                            "prefix": true,
                             "argument": {
                               "type": "Literal",
                               "start": 1966,
                               "end": 1967,
                               "value": 4,
                               "raw": "4"
-                            }
+                            },
+                            "prefix": true
                           }
                         ],
                         "optional": false
@@ -1696,8 +1695,8 @@
                             "end": 2032,
                             "name": "subarray"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -1712,14 +1711,14 @@
                             "start": 2036,
                             "end": 2038,
                             "operator": "-",
-                            "prefix": true,
                             "argument": {
                               "type": "Literal",
                               "start": 2037,
                               "end": 2038,
                               "value": 5,
                               "raw": "5"
-                            }
+                            },
+                            "prefix": true
                           }
                         ],
                         "optional": false
@@ -1770,8 +1769,8 @@
                             "end": 2096,
                             "name": "subarray"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -1779,28 +1778,28 @@
                             "start": 2097,
                             "end": 2099,
                             "operator": "-",
-                            "prefix": true,
                             "argument": {
                               "type": "Literal",
                               "start": 2098,
                               "end": 2099,
                               "value": 4,
                               "raw": "4"
-                            }
+                            },
+                            "prefix": true
                           },
                           {
                             "type": "UnaryExpression",
                             "start": 2101,
                             "end": 2103,
                             "operator": "-",
-                            "prefix": true,
                             "argument": {
                               "type": "Literal",
                               "start": 2102,
                               "end": 2103,
                               "value": 5,
                               "raw": "5"
-                            }
+                            },
+                            "prefix": true
                           }
                         ],
                         "optional": false
@@ -1851,8 +1850,8 @@
                             "end": 2167,
                             "name": "subarray"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -1860,28 +1859,28 @@
                             "start": 2168,
                             "end": 2170,
                             "operator": "-",
-                            "prefix": true,
                             "argument": {
                               "type": "Literal",
                               "start": 2169,
                               "end": 2170,
                               "value": 5,
                               "raw": "5"
-                            }
+                            },
+                            "prefix": true
                           },
                           {
                             "type": "UnaryExpression",
                             "start": 2172,
                             "end": 2174,
                             "operator": "-",
-                            "prefix": true,
                             "argument": {
                               "type": "Literal",
                               "start": 2173,
                               "end": 2174,
                               "value": 5,
                               "raw": "5"
-                            }
+                            },
+                            "prefix": true
                           }
                         ],
                         "optional": false
@@ -1898,7 +1897,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

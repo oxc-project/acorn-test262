@@ -18,7 +18,6 @@
             "end": 817,
             "name": "a"
           },
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -27,7 +26,8 @@
             "start": 820,
             "end": 822,
             "body": []
-          }
+          },
+          "expression": false
         },
         {
           "type": "FunctionDeclaration",
@@ -39,7 +39,6 @@
             "end": 833,
             "name": "a"
           },
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -48,7 +47,8 @@
             "start": 836,
             "end": 838,
             "body": []
-          }
+          },
+          "expression": false
         }
       ]
     }

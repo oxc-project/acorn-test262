@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 286,
       "end": 294,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -39,7 +39,6 @@
         "end": 311,
         "name": "Integer"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -94,8 +93,8 @@
                         "end": 355,
                         "name": "value"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "right": {
                       "type": "CallExpression",
@@ -222,8 +221,8 @@
                           "end": 482,
                           "name": "value"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "right": {
                         "type": "CallExpression",
@@ -245,8 +244,8 @@
                             "end": 495,
                             "name": "toString"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [],
                         "optional": false
@@ -262,13 +261,13 @@
                       "start": 506,
                       "end": 516,
                       "operator": "!",
-                      "prefix": true,
                       "argument": {
                         "type": "Identifier",
                         "start": 507,
                         "end": 516,
                         "name": "exception"
-                      }
+                      },
+                      "prefix": true
                     },
                     "consequent": {
                       "type": "ThrowStatement",
@@ -346,7 +345,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -358,7 +358,6 @@
         "end": 612,
         "name": "checkValue"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -406,8 +405,8 @@
                       "end": 636,
                       "name": "floor"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -517,7 +516,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -665,14 +665,14 @@
             "start": 921,
             "end": 926,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 922,
               "end": 926,
               "value": 1.23,
               "raw": "1.23"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -715,8 +715,8 @@
               "end": 966,
               "name": "LN2"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

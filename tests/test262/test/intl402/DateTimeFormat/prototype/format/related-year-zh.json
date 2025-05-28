@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 416,
       "end": 489,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 450,
                 "name": "DateTimeFormat"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -58,9 +59,7 @@
                     "type": "Property",
                     "start": 471,
                     "end": 486,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 471,
@@ -74,20 +73,22 @@
                       "value": "numeric",
                       "raw": "\"numeric\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 490,
       "end": 524,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -134,13 +135,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 525,
       "end": 559,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -172,8 +173,8 @@
                 "end": 552,
                 "name": "format"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -186,13 +187,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 560,
       "end": 596,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -226,8 +227,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -264,8 +264,8 @@
                 "end": 621,
                 "name": "includes"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

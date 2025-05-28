@@ -29,8 +29,8 @@
           "end": 549,
           "name": "RelativeTimeFormat"
         },
-        "computed": false,
-        "optional": false
+        "optional": false,
+        "computed": false
       },
       "body": {
         "type": "ClassBody",
@@ -41,21 +41,17 @@
             "type": "MethodDefinition",
             "start": 554,
             "end": 644,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 554,
               "end": 565,
               "name": "constructor"
             },
-            "kind": "constructor",
             "value": {
               "type": "FunctionExpression",
               "start": 565,
               "end": 644,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -131,8 +127,8 @@
                           "end": 632,
                           "name": "isCustom"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "right": {
                         "type": "Literal",
@@ -144,8 +140,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "constructor",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -154,6 +154,7 @@
       "type": "VariableDeclaration",
       "start": 648,
       "end": 668,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -173,13 +174,13 @@
             "raw": "\"de\""
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 669,
       "end": 685,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -199,13 +200,13 @@
             "raw": "7"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 686,
       "end": 705,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -225,13 +226,13 @@
             "raw": "\"day\""
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 707,
       "end": 760,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -263,8 +264,8 @@
                 "end": 751,
                 "name": "RelativeTimeFormat"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -276,8 +277,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -303,8 +303,8 @@
             "end": 777,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -323,8 +323,8 @@
               "end": 795,
               "name": "isCustom"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Identifier",
@@ -347,6 +347,7 @@
       "type": "VariableDeclaration",
       "start": 829,
       "end": 885,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -378,8 +379,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -405,8 +405,8 @@
             "end": 902,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -425,8 +425,8 @@
               "end": 922,
               "name": "isCustom"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -470,8 +470,8 @@
             "end": 967,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -494,8 +494,8 @@
                 "end": 985,
                 "name": "format"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -533,8 +533,8 @@
                 "end": 1032,
                 "name": "format"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -587,8 +587,8 @@
             "end": 1097,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -623,8 +623,8 @@
                       "end": 1121,
                       "name": "RelativeTimeFormat"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "property": {
                     "type": "Identifier",
@@ -632,8 +632,8 @@
                     "end": 1131,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -641,8 +641,8 @@
                   "end": 1138,
                   "name": "format"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -650,8 +650,8 @@
                 "end": 1143,
                 "name": "call"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -707,8 +707,8 @@
                       "end": 1210,
                       "name": "RelativeTimeFormat"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "property": {
                     "type": "Identifier",
@@ -716,8 +716,8 @@
                     "end": 1220,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -725,8 +725,8 @@
                   "end": 1227,
                   "name": "format"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -734,8 +734,8 @@
                 "end": 1232,
                 "name": "call"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -794,8 +794,8 @@
             "end": 1309,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -818,8 +818,8 @@
                 "end": 1331,
                 "name": "getPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -847,8 +847,8 @@
               "end": 1379,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

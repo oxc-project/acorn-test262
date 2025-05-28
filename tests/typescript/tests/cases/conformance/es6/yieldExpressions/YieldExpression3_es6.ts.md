@@ -9,43 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 35,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 16,
-        "end": 35,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 20,
-            "end": 25,
-            "directive": null,
-            "expression": {
-              "type": "YieldExpression",
-              "start": 20,
-              "end": 25,
-              "argument": null,
-              "delegate": false
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 28,
-            "end": 33,
-            "directive": null,
-            "expression": {
-              "type": "YieldExpression",
-              "start": 28,
-              "end": 33,
-              "argument": null,
-              "delegate": false
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": true,
       "id": {
         "type": "Identifier",
         "start": 10,
@@ -55,9 +18,46 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": true,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 16,
+        "end": 35,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 20,
+            "end": 25,
+            "expression": {
+              "type": "YieldExpression",
+              "start": 20,
+              "end": 25,
+              "delegate": false,
+              "argument": null
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 28,
+            "end": 33,
+            "expression": {
+              "type": "YieldExpression",
+              "start": 28,
+              "end": 33,
+              "delegate": false,
+              "argument": null
+            },
+            "directive": null
+          }
+        ]
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

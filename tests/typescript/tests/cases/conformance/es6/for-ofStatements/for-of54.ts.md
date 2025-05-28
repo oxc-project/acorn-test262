@@ -10,6 +10,37 @@ __ESTREE_TEST__:PASS:
       "start": 0,
       "end": 36,
       "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 5,
+        "end": 10,
+        "kind": "let",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 9,
+            "end": 10,
+            "id": {
+              "type": "Identifier",
+              "start": 9,
+              "end": 10,
+              "decorators": [],
+              "name": "v",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "init": null,
+            "definite": false
+          }
+        ],
+        "declare": false
+      },
+      "right": {
+        "type": "ArrayExpression",
+        "start": 14,
+        "end": 16,
+        "elements": []
+      },
       "body": {
         "type": "BlockStatement",
         "start": 18,
@@ -19,12 +50,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 24,
             "end": 34,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 28,
                 "end": 33,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 28,
@@ -38,46 +69,15 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 32,
                   "end": 33,
-                  "raw": "0",
-                  "value": 0
-                }
+                  "value": 0,
+                  "raw": "0"
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           }
         ]
-      },
-      "left": {
-        "type": "VariableDeclaration",
-        "start": 5,
-        "end": 10,
-        "declarations": [
-          {
-            "type": "VariableDeclarator",
-            "start": 9,
-            "end": 10,
-            "definite": false,
-            "id": {
-              "type": "Identifier",
-              "start": 9,
-              "end": 10,
-              "decorators": [],
-              "name": "v",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "init": null
-          }
-        ],
-        "declare": false,
-        "kind": "let"
-      },
-      "right": {
-        "type": "ArrayExpression",
-        "start": 14,
-        "end": 16,
-        "elements": []
       }
     }
   ],

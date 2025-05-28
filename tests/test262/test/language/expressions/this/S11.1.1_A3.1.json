@@ -13,7 +13,6 @@
         "end": 393,
         "name": "ReturnThis"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -33,7 +32,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "IfStatement",
@@ -131,7 +131,6 @@
         "end": 593,
         "name": "ReturnEvalThis"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -167,7 +166,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "IfStatement",

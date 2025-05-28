@@ -36,8 +36,8 @@
                   "end": 378,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -60,8 +60,8 @@
                       "end": 397,
                       "name": "prototype"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -76,14 +76,14 @@
                       "start": 404,
                       "end": 410,
                       "operator": "void",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 409,
                         "end": 410,
                         "value": 0,
                         "raw": "0"
-                      }
+                      },
+                      "prefix": true
                     }
                   ],
                   "optional": false

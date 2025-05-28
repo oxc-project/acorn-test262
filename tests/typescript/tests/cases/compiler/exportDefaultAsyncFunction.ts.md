@@ -13,16 +13,6 @@ __ESTREE_TEST__:PASS:
         "type": "FunctionDeclaration",
         "start": 15,
         "end": 53,
-        "async": true,
-        "body": {
-          "type": "BlockStatement",
-          "start": 51,
-          "end": 53,
-          "body": []
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 30,
@@ -32,6 +22,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": true,
+        "declare": false,
+        "typeParameters": null,
         "params": [],
         "returnType": {
           "type": "TSTypeAnnotation",
@@ -41,6 +35,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 37,
             "end": 50,
+            "typeName": {
+              "type": "Identifier",
+              "start": 37,
+              "end": 44,
+              "decorators": [],
+              "name": "Promise",
+              "optional": false,
+              "typeAnnotation": null
+            },
             "typeArguments": {
               "type": "TSTypeParameterInstantiation",
               "start": 44,
@@ -52,19 +55,16 @@ __ESTREE_TEST__:PASS:
                   "end": 49
                 }
               ]
-            },
-            "typeName": {
-              "type": "Identifier",
-              "start": 37,
-              "end": 44,
-              "decorators": [],
-              "name": "Promise",
-              "optional": false,
-              "typeAnnotation": null
             }
           }
         },
-        "typeParameters": null
+        "body": {
+          "type": "BlockStatement",
+          "start": 51,
+          "end": 53,
+          "body": []
+        },
+        "expression": false
       },
       "exportKind": "value"
     },
@@ -72,12 +72,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 54,
       "end": 60,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 54,
         "end": 59,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 54,
@@ -87,9 +85,11 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

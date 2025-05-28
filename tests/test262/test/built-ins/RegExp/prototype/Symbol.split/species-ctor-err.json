@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 905,
       "end": 918,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -30,8 +31,7 @@
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -58,15 +58,14 @@
             "end": 933,
             "name": "constructor"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "FunctionExpression",
           "start": 936,
           "end": 949,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -75,7 +74,8 @@
             "start": 947,
             "end": 949,
             "body": []
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -108,8 +108,8 @@
               "end": 965,
               "name": "constructor"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "MemberExpression",
@@ -127,18 +127,17 @@
               "end": 980,
               "name": "species"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "FunctionExpression",
           "start": 984,
           "end": 1026,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -165,7 +164,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -193,8 +193,8 @@
             "end": 1042,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -208,7 +208,6 @@
             "start": 1057,
             "end": 1093,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -251,18 +250,19 @@
                           "end": 1087,
                           "name": "split"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "arguments": [],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

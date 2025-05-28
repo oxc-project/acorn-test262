@@ -23,21 +23,17 @@
             "type": "MethodDefinition",
             "start": 746,
             "end": 791,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 746,
               "end": 757,
               "name": "constructor"
             },
-            "kind": "constructor",
             "value": {
               "type": "FunctionExpression",
               "start": 757,
               "end": 791,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -83,8 +79,8 @@
                           "end": 778,
                           "name": "sum"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "right": {
                         "type": "BinaryExpression",
@@ -107,8 +103,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "constructor",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -117,6 +117,7 @@
       "type": "VariableDeclaration",
       "start": 795,
       "end": 828,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -148,8 +149,8 @@
                 "end": 818,
                 "name": "bind"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -170,13 +171,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 829,
       "end": 869,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -214,13 +215,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 870,
       "end": 935,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -258,9 +259,7 @@
                     "type": "Property",
                     "start": 910,
                     "end": 930,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 910,
@@ -273,20 +272,22 @@
                       "end": 930,
                       "name": "undefined"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 937,
       "end": 963,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -319,8 +320,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -383,8 +383,8 @@
             "end": 1008,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -403,8 +403,8 @@
               "end": 1016,
               "name": "sum"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -442,21 +442,17 @@
             "type": "MethodDefinition",
             "start": 1049,
             "end": 1083,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1053,
               "end": 1058,
               "name": "isBar"
             },
-            "kind": "get",
             "value": {
               "type": "FunctionExpression",
               "start": 1058,
               "end": 1083,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -478,8 +474,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "get",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -488,6 +488,7 @@
       "type": "VariableDeclaration",
       "start": 1087,
       "end": 1135,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -519,8 +520,8 @@
                 "end": 1114,
                 "name": "construct"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -553,8 +554,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -617,8 +617,8 @@
             "end": 1180,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -637,8 +637,8 @@
               "end": 1188,
               "name": "sum"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -682,8 +682,8 @@
               "end": 1210,
               "name": "isBar"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         ],
         "optional": false

@@ -9,47 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 65,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 38,
-        "end": 65,
-        "body": [
-          {
-            "type": "ReturnStatement",
-            "start": 44,
-            "end": 63,
-            "argument": {
-              "type": "MemberExpression",
-              "start": 51,
-              "end": 62,
-              "computed": false,
-              "object": {
-                "type": "Identifier",
-                "start": 51,
-                "end": 55,
-                "decorators": [],
-                "name": "args",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "property": {
-                "type": "Identifier",
-                "start": 56,
-                "end": 62,
-                "decorators": [],
-                "name": "length",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -59,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -84,6 +47,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSCallSignatureDeclaration",
                     "start": 21,
                     "end": 32,
+                    "typeParameters": null,
                     "params": [
                       {
                         "type": "Identifier",
@@ -104,8 +68,7 @@ __ESTREE_TEST__:PASS:
                         "start": 26,
                         "end": 32
                       }
-                    },
-                    "typeParameters": null
+                    }
                   }
                 ]
               }
@@ -114,7 +77,44 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 38,
+        "end": 65,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 44,
+            "end": 63,
+            "argument": {
+              "type": "MemberExpression",
+              "start": 51,
+              "end": 62,
+              "object": {
+                "type": "Identifier",
+                "start": 51,
+                "end": 55,
+                "decorators": [],
+                "name": "args",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 56,
+                "end": 62,
+                "decorators": [],
+                "name": "length",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "optional": false,
+              "computed": false
+            }
+          }
+        ]
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

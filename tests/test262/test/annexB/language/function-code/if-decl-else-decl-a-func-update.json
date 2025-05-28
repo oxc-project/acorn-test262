@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1535,
       "end": 1545,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -40,7 +40,6 @@
             "start": 1548,
             "end": 1653,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -70,7 +69,6 @@
                       "end": 1587,
                       "name": "f"
                     },
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -92,7 +90,8 @@
                           }
                         }
                       ]
-                    }
+                    },
+                    "expression": false
                   },
                   "alternate": {
                     "type": "FunctionDeclaration",
@@ -104,7 +103,6 @@
                       "end": 1632,
                       "name": "_f"
                     },
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -113,7 +111,8 @@
                       "start": 1635,
                       "end": 1637,
                       "body": []
-                    }
+                    },
+                    "expression": false
                   }
                 },
                 {
@@ -140,7 +139,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           "arguments": [],
           "optional": false
@@ -171,8 +171,8 @@
             "end": 1675,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -180,13 +180,13 @@
             "start": 1676,
             "end": 1688,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 1683,
               "end": 1688,
               "name": "after"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -223,8 +223,8 @@
             "end": 1719,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

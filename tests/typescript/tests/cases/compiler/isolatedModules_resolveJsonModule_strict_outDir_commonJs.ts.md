@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 30,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 19,
-        "end": 29,
-        "raw": "\"./j.json\"",
-        "value": "./j.json"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -33,8 +25,16 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 19,
+        "end": 29,
+        "value": "./j.json",
+        "raw": "\"./j.json\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

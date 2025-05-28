@@ -27,8 +27,8 @@
             "end": 299,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -51,8 +51,8 @@
                 "end": 309,
                 "name": "asin"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -60,14 +60,14 @@
                 "start": 310,
                 "end": 328,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 311,
                   "end": 328,
                   "value": 1.000000000000001,
                   "raw": "1.000000000000001"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -113,8 +113,8 @@
             "end": 375,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -137,8 +137,8 @@
                 "end": 385,
                 "name": "asin"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -146,14 +146,14 @@
                 "start": 386,
                 "end": 388,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 387,
                   "end": 388,
                   "value": 2,
                   "raw": "2"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -199,8 +199,8 @@
             "end": 419,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -223,8 +223,8 @@
                 "end": 429,
                 "name": "asin"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -232,13 +232,13 @@
                 "start": 430,
                 "end": 439,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 431,
                   "end": 439,
                   "name": "Infinity"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false

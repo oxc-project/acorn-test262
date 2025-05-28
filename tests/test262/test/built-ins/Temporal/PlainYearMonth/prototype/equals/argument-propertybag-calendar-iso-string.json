@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 291,
       "end": 345,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 335,
                 "name": "PlainYearMonth"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -59,8 +60,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -71,6 +71,7 @@
         "type": "VariableDeclaration",
         "start": 352,
         "end": 366,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -84,8 +85,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "ArrayExpression",
@@ -159,6 +159,7 @@
             "type": "VariableDeclaration",
             "start": 585,
             "end": 640,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -179,9 +180,7 @@
                       "type": "Property",
                       "start": 599,
                       "end": 609,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 599,
@@ -195,15 +194,15 @@
                         "value": 2019,
                         "raw": "2019"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     },
                     {
                       "type": "Property",
                       "start": 611,
                       "end": 627,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 611,
@@ -217,15 +216,15 @@
                         "value": "M06",
                         "raw": "\"M06\""
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     },
                     {
                       "type": "Property",
                       "start": 629,
                       "end": 637,
-                      "method": false,
-                      "shorthand": true,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 629,
@@ -238,18 +237,20 @@
                         "end": 637,
                         "name": "calendar"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": true,
+                      "computed": false
                     }
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 643,
             "end": 679,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -281,8 +282,8 @@
                       "end": 673,
                       "name": "equals"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -295,8 +296,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -322,8 +322,8 @@
                   "end": 698,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -343,14 +343,6 @@
                   "type": "TemplateLiteral",
                   "start": 713,
                   "end": 757,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 746,
-                      "end": 754,
-                      "name": "calendar"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -371,6 +363,14 @@
                         "cooked": "\""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 746,
+                      "end": 754,
+                      "name": "calendar"
                     }
                   ]
                 }

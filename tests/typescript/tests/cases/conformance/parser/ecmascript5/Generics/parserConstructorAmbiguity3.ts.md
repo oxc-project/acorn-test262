@@ -9,12 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 11,
-      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 0,
         "end": 11,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 4,
@@ -33,7 +31,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 9,
               "end": 10,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 9,
@@ -42,11 +39,14 @@ __ESTREE_TEST__:PASS:
                 "name": "A",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "typeArguments": null
             }
           ]
-        }
-      }
+        },
+        "arguments": []
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

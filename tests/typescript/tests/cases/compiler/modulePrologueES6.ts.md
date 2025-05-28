@@ -9,32 +9,23 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 13,
-      "directive": "use strict",
       "expression": {
         "type": "Literal",
         "start": 0,
         "end": 12,
-        "raw": "\"use strict\"",
-        "value": "use strict"
-      }
+        "value": "use strict",
+        "raw": "\"use strict\""
+      },
+      "directive": "use strict"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 15,
       "end": 34,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 22,
         "end": 34,
-        "abstract": false,
-        "body": {
-          "type": "ClassBody",
-          "start": 32,
-          "end": 34,
-          "body": []
-        },
-        "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
@@ -45,14 +36,23 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "implements": [],
+        "typeParameters": null,
         "superClass": null,
         "superTypeArguments": null,
-        "typeParameters": null
+        "implements": [],
+        "body": {
+          "type": "ClassBody",
+          "start": 32,
+          "end": 34,
+          "body": []
+        },
+        "abstract": false,
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

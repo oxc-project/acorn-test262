@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1589,
       "end": 1995,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,9 +39,7 @@
                     "type": "Property",
                     "start": 1618,
                     "end": 1636,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1618,
@@ -53,15 +52,15 @@
                       "end": 1636,
                       "elements": []
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 1640,
                     "end": 1990,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1640,
@@ -348,7 +347,9 @@
                         }
                       ]
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -356,13 +357,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1997,
       "end": 2019,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -386,13 +387,13 @@
             }
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 2020,
       "end": 2042,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -416,13 +417,13 @@
             }
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 2043,
       "end": 2063,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -446,13 +447,13 @@
             }
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 2064,
       "end": 2105,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -490,13 +491,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 2107,
       "end": 2125,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -515,8 +516,7 @@
             "elements": []
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -527,6 +527,7 @@
         "type": "VariableDeclaration",
         "start": 2132,
         "end": 2143,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -540,8 +541,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -578,8 +578,8 @@
                   "end": 2174,
                   "name": "test"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -605,6 +605,7 @@
                     "type": "VariableDeclaration",
                     "start": 2227,
                     "end": 2237,
+                    "kind": "const",
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
@@ -618,8 +619,7 @@
                         },
                         "init": null
                       }
-                    ],
-                    "kind": "const"
+                    ]
                   },
                   "right": {
                     "type": "Identifier",
@@ -656,8 +656,8 @@
                               "end": 2268,
                               "name": "test"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -698,8 +698,8 @@
                                     "end": 2297,
                                     "name": "push"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -742,8 +742,8 @@
                                               "end": 2321,
                                               "name": "codePointAt"
                                             },
-                                            "computed": false,
-                                            "optional": false
+                                            "optional": false,
+                                            "computed": false
                                           },
                                           "arguments": [
                                             {
@@ -762,8 +762,8 @@
                                           "end": 2333,
                                           "name": "toString"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [
                                         {
@@ -819,8 +819,8 @@
             "end": 2377,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -839,8 +839,8 @@
               "end": 2394,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -881,8 +881,8 @@
                   "end": 2451,
                   "name": "join"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {

@@ -9,48 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 10,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "TSModuleDeclaration",
       "start": 11,
       "end": 62,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 26,
-        "end": 62,
-        "body": [
-          {
-            "type": "TSInterfaceDeclaration",
-            "start": 32,
-            "end": 60,
-            "body": {
-              "type": "TSInterfaceBody",
-              "start": 58,
-              "end": 60,
-              "body": []
-            },
-            "declare": false,
-            "extends": [],
-            "id": {
-              "type": "Identifier",
-              "start": 42,
-              "end": 57,
-              "decorators": [],
-              "name": "ImportInterface",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeParameters": null
-          }
-        ]
-      },
-      "declare": true,
-      "global": true,
       "id": {
         "type": "Identifier",
         "start": 19,
@@ -60,7 +28,39 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "global"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 26,
+        "end": 62,
+        "body": [
+          {
+            "type": "TSInterfaceDeclaration",
+            "start": 32,
+            "end": 60,
+            "id": {
+              "type": "Identifier",
+              "start": 42,
+              "end": 57,
+              "decorators": [],
+              "name": "ImportInterface",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null,
+            "extends": [],
+            "body": {
+              "type": "TSInterfaceBody",
+              "start": 58,
+              "end": 60,
+              "body": []
+            },
+            "declare": false
+          }
+        ]
+      },
+      "kind": "global",
+      "declare": true,
+      "global": true
     }
   ],
   "sourceType": "module",
@@ -78,48 +78,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 10,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "TSModuleDeclaration",
       "start": 11,
       "end": 63,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 26,
-        "end": 63,
-        "body": [
-          {
-            "type": "TSInterfaceDeclaration",
-            "start": 32,
-            "end": 61,
-            "body": {
-              "type": "TSInterfaceBody",
-              "start": 59,
-              "end": 61,
-              "body": []
-            },
-            "declare": false,
-            "extends": [],
-            "id": {
-              "type": "Identifier",
-              "start": 42,
-              "end": 58,
-              "decorators": [],
-              "name": "RequireInterface",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeParameters": null
-          }
-        ]
-      },
-      "declare": true,
-      "global": true,
       "id": {
         "type": "Identifier",
         "start": 19,
@@ -129,7 +97,39 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "global"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 26,
+        "end": 63,
+        "body": [
+          {
+            "type": "TSInterfaceDeclaration",
+            "start": 32,
+            "end": 61,
+            "id": {
+              "type": "Identifier",
+              "start": 42,
+              "end": 58,
+              "decorators": [],
+              "name": "RequireInterface",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null,
+            "extends": [],
+            "body": {
+              "type": "TSInterfaceBody",
+              "start": 59,
+              "end": 61,
+              "body": []
+            },
+            "declare": false
+          }
+        ]
+      },
+      "kind": "global",
+      "declare": true,
+      "global": true
     }
   ],
   "sourceType": "module",
@@ -147,18 +147,20 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 46,
       "end": 105,
-      "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
         "start": 53,
         "end": 105,
-        "body": {
-          "type": "TSInterfaceBody",
-          "start": 103,
-          "end": 105,
-          "body": []
+        "id": {
+          "type": "Identifier",
+          "start": 63,
+          "end": 77,
+          "decorators": [],
+          "name": "LocalInterface",
+          "optional": false,
+          "typeAnnotation": null
         },
-        "declare": false,
+        "typeParameters": null,
         "extends": [
           {
             "type": "TSInterfaceHeritage",
@@ -176,20 +178,18 @@ __ESTREE_TEST__:PASS:
             "typeArguments": null
           }
         ],
-        "id": {
-          "type": "Identifier",
-          "start": 63,
-          "end": 77,
-          "decorators": [],
-          "name": "LocalInterface",
-          "optional": false,
-          "typeAnnotation": null
+        "body": {
+          "type": "TSInterfaceBody",
+          "start": 103,
+          "end": 105,
+          "body": []
         },
-        "typeParameters": null
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     }
   ],
   "sourceType": "module",

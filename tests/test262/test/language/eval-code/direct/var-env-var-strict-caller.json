@@ -13,7 +13,6 @@
         "end": 345,
         "name": "testcase"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -26,6 +25,7 @@
             "type": "VariableDeclaration",
             "start": 352,
             "end": 376,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -45,8 +45,7 @@
                   "raw": "0"
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "FunctionDeclaration",
@@ -58,7 +57,6 @@
               "end": 407,
               "name": "_10_4_2_3_c_2_sFunc"
             },
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -117,8 +115,8 @@
                         "end": 471,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -139,7 +137,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "ExpressionStatement",
@@ -160,7 +159,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

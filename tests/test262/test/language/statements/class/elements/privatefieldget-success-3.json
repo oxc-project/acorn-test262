@@ -23,8 +23,6 @@
             "type": "PropertyDefinition",
             "start": 900,
             "end": 914,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 900,
@@ -37,27 +35,25 @@
               "end": 913,
               "value": "Avalue",
               "raw": "'Avalue'"
-            }
+            },
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 917,
             "end": 946,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 917,
               "end": 918,
               "name": "x"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 918,
               "end": 946,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -85,13 +81,17 @@
                         "end": 941,
                         "name": "x"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -121,8 +121,6 @@
             "type": "PropertyDefinition",
             "start": 971,
             "end": 985,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 971,
@@ -135,7 +133,9 @@
               "end": 984,
               "value": "Bvalue",
               "raw": "'Bvalue'"
-            }
+            },
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -144,6 +144,7 @@
       "type": "VariableDeclaration",
       "start": 989,
       "end": 1005,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -168,8 +169,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -195,8 +195,8 @@
             "end": 1023,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -219,8 +219,8 @@
                 "end": 1027,
                 "name": "x"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false

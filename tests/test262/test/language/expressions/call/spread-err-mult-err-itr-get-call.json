@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1185,
       "end": 1199,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -63,18 +63,17 @@
               "end": 1220,
               "name": "iterator"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "FunctionExpression",
           "start": 1224,
           "end": 1266,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -101,7 +100,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -129,8 +129,8 @@
             "end": 1282,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -144,7 +144,6 @@
             "start": 1297,
             "end": 1342,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -170,7 +169,6 @@
                         "start": 1313,
                         "end": 1326,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -179,7 +177,8 @@
                           "start": 1324,
                           "end": 1326,
                           "body": []
-                        }
+                        },
+                        "expression": false
                       },
                       "arguments": [
                         {
@@ -206,7 +205,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

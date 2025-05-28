@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1225,
       "end": 1241,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -32,8 +33,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -52,7 +52,6 @@
             "start": 1244,
             "end": 1337,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -65,6 +64,7 @@
                   "type": "VariableDeclaration",
                   "start": 1259,
                   "end": 1271,
+                  "kind": "let",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -84,8 +84,7 @@
                         "raw": "123"
                       }
                     }
-                  ],
-                  "kind": "let"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -131,7 +130,6 @@
                       "end": 1307,
                       "name": "f"
                     },
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -140,7 +138,8 @@
                       "start": 1310,
                       "end": 1314,
                       "body": []
-                    }
+                    },
+                    "expression": false
                   },
                   "alternate": {
                     "type": "EmptyStatement",
@@ -172,7 +171,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           "arguments": [],
           "optional": false
@@ -203,8 +203,8 @@
             "end": 1359,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -255,8 +255,8 @@
             "end": 1433,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

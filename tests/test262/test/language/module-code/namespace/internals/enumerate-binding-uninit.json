@@ -27,8 +27,8 @@
         "value": "./enumerate-binding-uninit.js",
         "raw": "\"./enumerate-binding-uninit.js\""
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",
@@ -54,8 +54,8 @@
             "end": 1070,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -69,7 +69,6 @@
             "start": 1087,
             "end": 1161,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -86,6 +85,7 @@
                     "type": "VariableDeclaration",
                     "start": 1107,
                     "end": 1114,
+                    "kind": "var",
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
@@ -99,8 +99,7 @@
                         },
                         "init": null
                       }
-                    ],
-                    "kind": "var"
+                    ]
                   },
                   "right": {
                     "type": "Identifier",
@@ -134,7 +133,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

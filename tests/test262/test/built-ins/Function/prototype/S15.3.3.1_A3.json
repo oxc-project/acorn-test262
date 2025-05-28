@@ -68,8 +68,8 @@
                   "end": 405,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -77,7 +77,6 @@
                   "start": 406,
                   "end": 431,
                   "operator": "delete",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 413,
@@ -94,9 +93,10 @@
                       "end": 431,
                       "name": "prototype"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 },
                 {
                   "type": "Literal",
@@ -219,7 +219,6 @@
         "start": 548,
         "end": 587,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 549,
@@ -244,8 +243,8 @@
                 "end": 573,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -258,7 +257,8 @@
             ],
             "optional": false
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",

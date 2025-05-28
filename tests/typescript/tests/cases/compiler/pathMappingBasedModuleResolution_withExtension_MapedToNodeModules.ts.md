@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 27,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 0,
@@ -19,7 +18,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 0,
           "end": 14,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 0,
@@ -29,7 +27,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 7,
@@ -38,7 +35,9 @@ __ESTREE_TEST__:PASS:
             "name": "exports",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "ObjectExpression",
@@ -49,7 +48,7 @@ __ESTREE_TEST__:PASS:
               "type": "Property",
               "start": 19,
               "end": 24,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 19,
@@ -59,21 +58,22 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "kind": "init",
-              "method": false,
-              "optional": false,
-              "shorthand": false,
               "value": {
                 "type": "Literal",
                 "start": 22,
                 "end": 24,
-                "raw": "10",
-                "value": 10
-              }
+                "value": 10,
+                "raw": "10"
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "optional": false
             }
           ]
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",
@@ -91,14 +91,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 39,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 19,
-        "end": 38,
-        "raw": "\"foo/bar/foobar.js\"",
-        "value": "foo/bar/foobar.js"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -115,8 +107,16 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 19,
+        "end": 38,
+        "value": "foo/bar/foobar.js",
+        "raw": "\"foo/bar/foobar.js\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

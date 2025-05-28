@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 8,
-      "directive": null,
       "expression": {
         "type": "AwaitExpression",
         "start": 0,
@@ -23,18 +22,19 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "VariableDeclaration",
       "start": 10,
       "end": 42,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 16,
           "end": 41,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 16,
@@ -53,12 +53,10 @@ __ESTREE_TEST__:PASS:
                 "type": "CallExpression",
                 "start": 23,
                 "end": 40,
-                "arguments": [],
                 "callee": {
                   "type": "MemberExpression",
                   "start": 23,
                   "end": 38,
-                  "computed": false,
                   "object": {
                     "type": "Identifier",
                     "start": 23,
@@ -68,7 +66,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 31,
@@ -77,55 +74,36 @@ __ESTREE_TEST__:PASS:
                     "name": "resolve",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "optional": false,
+                  "computed": false
                 },
-                "optional": false,
-                "typeArguments": null
+                "typeArguments": null,
+                "arguments": [],
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ForOfStatement",
       "start": 44,
       "end": 85,
       "await": true,
-      "body": {
-        "type": "BlockStatement",
-        "start": 74,
-        "end": 85,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 78,
-            "end": 83,
-            "directive": null,
-            "expression": {
-              "type": "Identifier",
-              "start": 78,
-              "end": 82,
-              "decorators": [],
-              "name": "item",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
-        ]
-      },
       "left": {
         "type": "VariableDeclaration",
         "start": 55,
         "end": 65,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 61,
             "end": 65,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 61,
@@ -135,11 +113,11 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
       "right": {
         "type": "Identifier",
@@ -149,6 +127,28 @@ __ESTREE_TEST__:PASS:
         "name": "arr",
         "optional": false,
         "typeAnnotation": null
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 74,
+        "end": 85,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 78,
+            "end": 83,
+            "expression": {
+              "type": "Identifier",
+              "start": 78,
+              "end": 82,
+              "decorators": [],
+              "name": "item",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "directive": null
+          }
+        ]
       }
     }
   ],

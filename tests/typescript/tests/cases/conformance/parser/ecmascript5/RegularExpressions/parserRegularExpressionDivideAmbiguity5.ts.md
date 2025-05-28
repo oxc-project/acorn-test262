@@ -9,131 +9,14 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 66,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
         "end": 65,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 13,
-            "end": 14,
-            "raw": "0",
-            "value": 0
-          },
-          {
-            "type": "BinaryExpression",
-            "start": 16,
-            "end": 39,
-            "operator": "/",
-            "left": {
-              "type": "BinaryExpression",
-              "start": 16,
-              "end": 33,
-              "operator": "*",
-              "left": {
-                "type": "Identifier",
-                "start": 16,
-                "end": 23,
-                "decorators": [],
-                "name": "rotateY",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "right": {
-                "type": "MemberExpression",
-                "start": 26,
-                "end": 33,
-                "computed": false,
-                "object": {
-                  "type": "Identifier",
-                  "start": 26,
-                  "end": 30,
-                  "decorators": [],
-                  "name": "Math",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Identifier",
-                  "start": 31,
-                  "end": 33,
-                  "decorators": [],
-                  "name": "PI",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            },
-            "right": {
-              "type": "Literal",
-              "start": 36,
-              "end": 39,
-              "raw": "180",
-              "value": 180
-            }
-          },
-          {
-            "type": "BinaryExpression",
-            "start": 41,
-            "end": 64,
-            "operator": "/",
-            "left": {
-              "type": "BinaryExpression",
-              "start": 41,
-              "end": 58,
-              "operator": "*",
-              "left": {
-                "type": "Identifier",
-                "start": 41,
-                "end": 48,
-                "decorators": [],
-                "name": "rotateZ",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "right": {
-                "type": "MemberExpression",
-                "start": 51,
-                "end": 58,
-                "computed": false,
-                "object": {
-                  "type": "Identifier",
-                  "start": 51,
-                  "end": 55,
-                  "decorators": [],
-                  "name": "Math",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Identifier",
-                  "start": 56,
-                  "end": 58,
-                  "decorators": [],
-                  "name": "PI",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            },
-            "right": {
-              "type": "Literal",
-              "start": 61,
-              "end": 64,
-              "raw": "180",
-              "value": 180
-            }
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 0,
           "end": 12,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 0,
@@ -143,7 +26,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 6,
@@ -152,11 +34,129 @@ __ESTREE_TEST__:PASS:
             "name": "rotate",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 13,
+            "end": 14,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 16,
+            "end": 39,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 16,
+              "end": 33,
+              "left": {
+                "type": "Identifier",
+                "start": 16,
+                "end": 23,
+                "decorators": [],
+                "name": "rotateY",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "operator": "*",
+              "right": {
+                "type": "MemberExpression",
+                "start": 26,
+                "end": 33,
+                "object": {
+                  "type": "Identifier",
+                  "start": 26,
+                  "end": 30,
+                  "decorators": [],
+                  "name": "Math",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 31,
+                  "end": 33,
+                  "decorators": [],
+                  "name": "PI",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "optional": false,
+                "computed": false
+              }
+            },
+            "operator": "/",
+            "right": {
+              "type": "Literal",
+              "start": 36,
+              "end": 39,
+              "value": 180,
+              "raw": "180"
+            }
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 41,
+            "end": 64,
+            "left": {
+              "type": "BinaryExpression",
+              "start": 41,
+              "end": 58,
+              "left": {
+                "type": "Identifier",
+                "start": 41,
+                "end": 48,
+                "decorators": [],
+                "name": "rotateZ",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "operator": "*",
+              "right": {
+                "type": "MemberExpression",
+                "start": 51,
+                "end": 58,
+                "object": {
+                  "type": "Identifier",
+                  "start": 51,
+                  "end": 55,
+                  "decorators": [],
+                  "name": "Math",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 56,
+                  "end": 58,
+                  "decorators": [],
+                  "name": "PI",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "optional": false,
+                "computed": false
+              }
+            },
+            "operator": "/",
+            "right": {
+              "type": "Literal",
+              "start": 61,
+              "end": 64,
+              "value": 180,
+              "raw": "180"
+            }
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 23,
       "end": 83,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 29,
           "end": 83,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 29,
@@ -41,22 +41,22 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 37,
                     "end": 38,
-                    "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 40,
                     "end": 41,
-                    "raw": "2",
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   },
                   {
                     "type": "Literal",
                     "start": 43,
                     "end": 44,
-                    "raw": "3",
-                    "value": 3
+                    "value": 3,
+                    "raw": "3"
                   }
                 ]
               },
@@ -64,7 +64,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 49,
                 "end": 54,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 49,
@@ -73,7 +72,8 @@ __ESTREE_TEST__:PASS:
                   "name": "const",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             },
             "typeAnnotation": {
@@ -92,22 +92,22 @@ __ESTREE_TEST__:PASS:
                 }
               }
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 107,
       "end": 158,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 113,
           "end": 158,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 113,
@@ -134,22 +134,22 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 121,
                     "end": 122,
-                    "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 124,
                     "end": 125,
-                    "raw": "2",
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   },
                   {
                     "type": "Literal",
                     "start": 127,
                     "end": 128,
-                    "raw": "3",
-                    "value": 3
+                    "value": 3,
+                    "raw": "3"
                   }
                 ]
               },
@@ -157,7 +157,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 133,
                 "end": 138,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 133,
@@ -166,7 +165,8 @@ __ESTREE_TEST__:PASS:
                   "name": "const",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             },
             "typeAnnotation": {
@@ -179,11 +179,11 @@ __ESTREE_TEST__:PASS:
                 "end": 156
               }
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "script",

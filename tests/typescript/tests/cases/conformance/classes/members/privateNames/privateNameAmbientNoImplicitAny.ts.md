@@ -9,37 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 30,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 16,
-        "end": 30,
-        "body": [
-          {
-            "type": "PropertyDefinition",
-            "start": 22,
-            "end": 28,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
-            "key": {
-              "type": "PrivateIdentifier",
-              "start": 22,
-              "end": 27,
-              "name": "prop"
-            },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": null,
-            "value": null
-          }
-        ]
-      },
-      "declare": true,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -50,46 +19,46 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 16,
+        "end": 30,
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "start": 22,
+            "end": 28,
+            "decorators": [],
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 22,
+              "end": 27,
+              "name": "prop"
+            },
+            "typeAnnotation": null,
+            "value": null,
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
+          }
+        ]
+      },
+      "abstract": false,
+      "declare": true
     },
     {
       "type": "ClassDeclaration",
       "start": 31,
       "end": 53,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 39,
-        "end": 53,
-        "body": [
-          {
-            "type": "PropertyDefinition",
-            "start": 45,
-            "end": 51,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
-            "key": {
-              "type": "PrivateIdentifier",
-              "start": 45,
-              "end": 50,
-              "name": "prop"
-            },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": null,
-            "value": null
-          }
-        ]
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -100,10 +69,41 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 39,
+        "end": 53,
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "start": 45,
+            "end": 51,
+            "decorators": [],
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 45,
+              "end": 50,
+              "name": "prop"
+            },
+            "typeAnnotation": null,
+            "value": null,
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
+          }
+        ]
+      },
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

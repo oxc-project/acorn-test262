@@ -22,9 +22,7 @@
             "type": "ArrowFunctionExpression",
             "start": 374,
             "end": 590,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -43,6 +41,7 @@
                   "type": "VariableDeclaration",
                   "start": 384,
                   "end": 419,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -75,13 +74,13 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "VariableDeclaration",
                   "start": 422,
                   "end": 450,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -113,8 +112,7 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -140,8 +138,8 @@
                         "end": 467,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -155,7 +153,6 @@
                         "start": 479,
                         "end": 524,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -188,8 +185,8 @@
                                     "end": 507,
                                     "name": "sub"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -217,33 +214,13 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 526,
                         "end": 586,
-                        "expressions": [
-                          {
-                            "type": "MemberExpression",
-                            "start": 545,
-                            "end": 552,
-                            "object": {
-                              "type": "Identifier",
-                              "start": 545,
-                              "end": 547,
-                              "name": "TA"
-                            },
-                            "property": {
-                              "type": "Identifier",
-                              "start": 548,
-                              "end": 552,
-                              "name": "name"
-                            },
-                            "computed": false,
-                            "optional": false
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -265,6 +242,27 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "MemberExpression",
+                            "start": 545,
+                            "end": 552,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 545,
+                              "end": 547,
+                              "name": "TA"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 548,
+                              "end": 552,
+                              "name": "name"
+                            },
+                            "optional": false,
+                            "computed": false
+                          }
                         ]
                       }
                     ],
@@ -272,7 +270,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

@@ -11,6 +11,7 @@
         "type": "VariableDeclaration",
         "start": 567,
         "end": 581,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -30,8 +31,7 @@
               "raw": "11"
             }
           }
-        ],
-        "kind": "let"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -78,6 +78,7 @@
               "type": "VariableDeclaration",
               "start": 614,
               "end": 624,
+              "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -97,8 +98,7 @@
                     "raw": "10"
                   }
                 }
-              ],
-              "kind": "let"
+              ]
             },
             "test": {
               "type": "BinaryExpression",
@@ -160,8 +160,8 @@
                         "end": 664,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -184,8 +184,8 @@
                             "end": 675,
                             "name": "toString"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -217,8 +217,8 @@
                             "end": 703,
                             "name": "fromCharCode"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {

@@ -9,50 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 61,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 32,
-        "end": 61,
-        "body": [
-          {
-            "type": "ReturnStatement",
-            "start": 38,
-            "end": 59,
-            "argument": {
-              "type": "ConditionalExpression",
-              "start": 46,
-              "end": 57,
-              "alternate": {
-                "type": "Literal",
-                "start": 56,
-                "end": 57,
-                "raw": "2",
-                "value": 2
-              },
-              "consequent": {
-                "type": "Literal",
-                "start": 51,
-                "end": 52,
-                "raw": "1",
-                "value": 1
-              },
-              "test": {
-                "type": "Identifier",
-                "start": 46,
-                "end": 47,
-                "decorators": [],
-                "name": "x",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -62,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -94,22 +54,57 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 30,
             "end": 31,
-            "raw": "3",
-            "value": 3
+            "value": 3,
+            "raw": "3"
           }
         }
       },
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 32,
+        "end": 61,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 38,
+            "end": 59,
+            "argument": {
+              "type": "ConditionalExpression",
+              "start": 46,
+              "end": 57,
+              "test": {
+                "type": "Identifier",
+                "start": 46,
+                "end": 47,
+                "decorators": [],
+                "name": "x",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "consequent": {
+                "type": "Literal",
+                "start": 51,
+                "end": 52,
+                "value": 1,
+                "raw": "1"
+              },
+              "alternate": {
+                "type": "Literal",
+                "start": 56,
+                "end": 57,
+                "value": 2,
+                "raw": "2"
+              }
+            }
+          }
+        ]
+      },
+      "expression": false
     },
     {
       "type": "TSDeclareFunction",
       "start": 63,
       "end": 94,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 80,
@@ -119,6 +114,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": null,
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
@@ -130,98 +129,13 @@ __ESTREE_TEST__:PASS:
           "end": 93
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 96,
       "end": 180,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 132,
-        "end": 180,
-        "body": [
-          {
-            "type": "ReturnStatement",
-            "start": 138,
-            "end": 178,
-            "argument": {
-              "type": "ConditionalExpression",
-              "start": 145,
-              "end": 177,
-              "alternate": {
-                "type": "Literal",
-                "start": 176,
-                "end": 177,
-                "raw": "1",
-                "value": 1
-              },
-              "consequent": {
-                "type": "CallExpression",
-                "start": 165,
-                "end": 173,
-                "arguments": [],
-                "callee": {
-                  "type": "Identifier",
-                  "start": 165,
-                  "end": 171,
-                  "decorators": [],
-                  "name": "getAny",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "typeArguments": null
-              },
-              "test": {
-                "type": "CallExpression",
-                "start": 145,
-                "end": 162,
-                "arguments": [
-                  {
-                    "type": "Literal",
-                    "start": 158,
-                    "end": 161,
-                    "raw": "\"a\"",
-                    "value": "a"
-                  }
-                ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 145,
-                  "end": 157,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 145,
-                    "end": 146,
-                    "decorators": [],
-                    "name": "x",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 147,
-                    "end": 157,
-                    "decorators": [],
-                    "name": "startsWith",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 105,
@@ -231,6 +145,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -261,90 +179,94 @@ __ESTREE_TEST__:PASS:
           "end": 131
         }
       },
-      "typeParameters": null
-    },
-    {
-      "type": "FunctionDeclaration",
-      "start": 182,
-      "end": 261,
-      "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 218,
-        "end": 261,
+        "start": 132,
+        "end": 180,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 224,
-            "end": 259,
+            "start": 138,
+            "end": 178,
             "argument": {
               "type": "ConditionalExpression",
-              "start": 231,
-              "end": 258,
-              "alternate": {
-                "type": "Identifier",
-                "start": 257,
-                "end": 258,
-                "decorators": [],
-                "name": "x",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "consequent": {
-                "type": "Literal",
-                "start": 251,
-                "end": 254,
-                "raw": "\"a\"",
-                "value": "a"
-              },
+              "start": 145,
+              "end": 177,
               "test": {
                 "type": "CallExpression",
-                "start": 231,
-                "end": 248,
-                "arguments": [
-                  {
-                    "type": "Literal",
-                    "start": 244,
-                    "end": 247,
-                    "raw": "\"a\"",
-                    "value": "a"
-                  }
-                ],
+                "start": 145,
+                "end": 162,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 231,
-                  "end": 243,
-                  "computed": false,
+                  "start": 145,
+                  "end": 157,
                   "object": {
                     "type": "Identifier",
-                    "start": 231,
-                    "end": 232,
+                    "start": 145,
+                    "end": 146,
                     "decorators": [],
                     "name": "x",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 233,
-                    "end": 243,
+                    "start": 147,
+                    "end": 157,
                     "decorators": [],
                     "name": "startsWith",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "optional": false,
+                  "computed": false
                 },
-                "optional": false,
-                "typeArguments": null
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 158,
+                    "end": 161,
+                    "value": "a",
+                    "raw": "\"a\""
+                  }
+                ],
+                "optional": false
+              },
+              "consequent": {
+                "type": "CallExpression",
+                "start": 165,
+                "end": 173,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 165,
+                  "end": 171,
+                  "decorators": [],
+                  "name": "getAny",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null,
+                "arguments": [],
+                "optional": false
+              },
+              "alternate": {
+                "type": "Literal",
+                "start": 176,
+                "end": 177,
+                "value": 1,
+                "raw": "1"
               }
             }
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
+      "expression": false
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 182,
+      "end": 261,
       "id": {
         "type": "Identifier",
         "start": 191,
@@ -354,6 +276,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -384,108 +310,86 @@ __ESTREE_TEST__:PASS:
           "end": 217
         }
       },
-      "typeParameters": null
-    },
-    {
-      "type": "FunctionDeclaration",
-      "start": 263,
-      "end": 359,
-      "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 299,
-        "end": 359,
+        "start": 218,
+        "end": 261,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 305,
-            "end": 357,
+            "start": 224,
+            "end": 259,
             "argument": {
-              "type": "TSAsExpression",
-              "start": 312,
-              "end": 356,
-              "expression": {
-                "type": "ConditionalExpression",
-                "start": 313,
-                "end": 345,
-                "alternate": {
-                  "type": "Literal",
-                  "start": 344,
-                  "end": 345,
-                  "raw": "1",
-                  "value": 1
-                },
-                "consequent": {
-                  "type": "CallExpression",
-                  "start": 333,
-                  "end": 341,
-                  "arguments": [],
-                  "callee": {
+              "type": "ConditionalExpression",
+              "start": 231,
+              "end": 258,
+              "test": {
+                "type": "CallExpression",
+                "start": 231,
+                "end": 248,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 231,
+                  "end": 243,
+                  "object": {
                     "type": "Identifier",
-                    "start": 333,
-                    "end": 339,
+                    "start": 231,
+                    "end": 232,
                     "decorators": [],
-                    "name": "getAny",
+                    "name": "x",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 233,
+                    "end": 243,
+                    "decorators": [],
+                    "name": "startsWith",
                     "optional": false,
                     "typeAnnotation": null
                   },
                   "optional": false,
-                  "typeArguments": null
+                  "computed": false
                 },
-                "test": {
-                  "type": "CallExpression",
-                  "start": 313,
-                  "end": 330,
-                  "arguments": [
-                    {
-                      "type": "Literal",
-                      "start": 326,
-                      "end": 329,
-                      "raw": "\"a\"",
-                      "value": "a"
-                    }
-                  ],
-                  "callee": {
-                    "type": "MemberExpression",
-                    "start": 313,
-                    "end": 325,
-                    "computed": false,
-                    "object": {
-                      "type": "Identifier",
-                      "start": 313,
-                      "end": 314,
-                      "decorators": [],
-                      "name": "x",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "optional": false,
-                    "property": {
-                      "type": "Identifier",
-                      "start": 315,
-                      "end": 325,
-                      "decorators": [],
-                      "name": "startsWith",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  },
-                  "optional": false,
-                  "typeArguments": null
-                }
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 244,
+                    "end": 247,
+                    "value": "a",
+                    "raw": "\"a\""
+                  }
+                ],
+                "optional": false
               },
-              "typeAnnotation": {
-                "type": "TSStringKeyword",
-                "start": 350,
-                "end": 356
+              "consequent": {
+                "type": "Literal",
+                "start": 251,
+                "end": 254,
+                "value": "a",
+                "raw": "\"a\""
+              },
+              "alternate": {
+                "type": "Identifier",
+                "start": 257,
+                "end": 258,
+                "decorators": [],
+                "name": "x",
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
+      "expression": false
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 263,
+      "end": 359,
       "id": {
         "type": "Identifier",
         "start": 272,
@@ -495,6 +399,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -525,18 +433,110 @@ __ESTREE_TEST__:PASS:
           "end": 298
         }
       },
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 299,
+        "end": 359,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 305,
+            "end": 357,
+            "argument": {
+              "type": "TSAsExpression",
+              "start": 312,
+              "end": 356,
+              "expression": {
+                "type": "ConditionalExpression",
+                "start": 313,
+                "end": 345,
+                "test": {
+                  "type": "CallExpression",
+                  "start": 313,
+                  "end": 330,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 313,
+                    "end": 325,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 313,
+                      "end": 314,
+                      "decorators": [],
+                      "name": "x",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 315,
+                      "end": 325,
+                      "decorators": [],
+                      "name": "startsWith",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "optional": false,
+                    "computed": false
+                  },
+                  "typeArguments": null,
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 326,
+                      "end": 329,
+                      "value": "a",
+                      "raw": "\"a\""
+                    }
+                  ],
+                  "optional": false
+                },
+                "consequent": {
+                  "type": "CallExpression",
+                  "start": 333,
+                  "end": 341,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 333,
+                    "end": 339,
+                    "decorators": [],
+                    "name": "getAny",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeArguments": null,
+                  "arguments": [],
+                  "optional": false
+                },
+                "alternate": {
+                  "type": "Literal",
+                  "start": 344,
+                  "end": 345,
+                  "value": 1,
+                  "raw": "1"
+                }
+              },
+              "typeAnnotation": {
+                "type": "TSStringKeyword",
+                "start": 350,
+                "end": 356
+              }
+            }
+          }
+        ]
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 361,
       "end": 433,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 367,
           "end": 432,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 367,
@@ -550,80 +550,9 @@ __ESTREE_TEST__:PASS:
             "type": "ArrowFunctionExpression",
             "start": 377,
             "end": 432,
-            "async": false,
-            "body": {
-              "type": "ConditionalExpression",
-              "start": 400,
-              "end": 432,
-              "alternate": {
-                "type": "Literal",
-                "start": 431,
-                "end": 432,
-                "raw": "1",
-                "value": 1
-              },
-              "consequent": {
-                "type": "CallExpression",
-                "start": 420,
-                "end": 428,
-                "arguments": [],
-                "callee": {
-                  "type": "Identifier",
-                  "start": 420,
-                  "end": 426,
-                  "decorators": [],
-                  "name": "getAny",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "typeArguments": null
-              },
-              "test": {
-                "type": "CallExpression",
-                "start": 400,
-                "end": 417,
-                "arguments": [
-                  {
-                    "type": "Literal",
-                    "start": 413,
-                    "end": 416,
-                    "raw": "\"a\"",
-                    "value": "a"
-                  }
-                ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 400,
-                  "end": 412,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 400,
-                    "end": 401,
-                    "decorators": [],
-                    "name": "x",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 402,
-                    "end": 412,
-                    "decorators": [],
-                    "name": "startsWith",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -654,23 +583,94 @@ __ESTREE_TEST__:PASS:
                 "end": 396
               }
             },
-            "typeParameters": null
-          }
+            "body": {
+              "type": "ConditionalExpression",
+              "start": 400,
+              "end": 432,
+              "test": {
+                "type": "CallExpression",
+                "start": 400,
+                "end": 417,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 400,
+                  "end": 412,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 400,
+                    "end": 401,
+                    "decorators": [],
+                    "name": "x",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 402,
+                    "end": 412,
+                    "decorators": [],
+                    "name": "startsWith",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 413,
+                    "end": 416,
+                    "value": "a",
+                    "raw": "\"a\""
+                  }
+                ],
+                "optional": false
+              },
+              "consequent": {
+                "type": "CallExpression",
+                "start": 420,
+                "end": 428,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 420,
+                  "end": 426,
+                  "decorators": [],
+                  "name": "getAny",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null,
+                "arguments": [],
+                "optional": false
+              },
+              "alternate": {
+                "type": "Literal",
+                "start": 431,
+                "end": 432,
+                "value": 1,
+                "raw": "1"
+              }
+            },
+            "id": null,
+            "generator": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 435,
       "end": 519,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 441,
           "end": 518,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 441,
@@ -684,90 +684,9 @@ __ESTREE_TEST__:PASS:
             "type": "ArrowFunctionExpression",
             "start": 451,
             "end": 518,
-            "async": false,
-            "body": {
-              "type": "TSAsExpression",
-              "start": 474,
-              "end": 518,
-              "expression": {
-                "type": "ConditionalExpression",
-                "start": 475,
-                "end": 507,
-                "alternate": {
-                  "type": "Literal",
-                  "start": 506,
-                  "end": 507,
-                  "raw": "1",
-                  "value": 1
-                },
-                "consequent": {
-                  "type": "CallExpression",
-                  "start": 495,
-                  "end": 503,
-                  "arguments": [],
-                  "callee": {
-                    "type": "Identifier",
-                    "start": 495,
-                    "end": 501,
-                    "decorators": [],
-                    "name": "getAny",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "typeArguments": null
-                },
-                "test": {
-                  "type": "CallExpression",
-                  "start": 475,
-                  "end": 492,
-                  "arguments": [
-                    {
-                      "type": "Literal",
-                      "start": 488,
-                      "end": 491,
-                      "raw": "\"a\"",
-                      "value": "a"
-                    }
-                  ],
-                  "callee": {
-                    "type": "MemberExpression",
-                    "start": 475,
-                    "end": 487,
-                    "computed": false,
-                    "object": {
-                      "type": "Identifier",
-                      "start": 475,
-                      "end": 476,
-                      "decorators": [],
-                      "name": "x",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "optional": false,
-                    "property": {
-                      "type": "Identifier",
-                      "start": 477,
-                      "end": 487,
-                      "decorators": [],
-                      "name": "startsWith",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  },
-                  "optional": false,
-                  "typeArguments": null
-                }
-              },
-              "typeAnnotation": {
-                "type": "TSStringKeyword",
-                "start": 512,
-                "end": 518
-              }
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -798,12 +717,93 @@ __ESTREE_TEST__:PASS:
                 "end": 470
               }
             },
-            "typeParameters": null
-          }
+            "body": {
+              "type": "TSAsExpression",
+              "start": 474,
+              "end": 518,
+              "expression": {
+                "type": "ConditionalExpression",
+                "start": 475,
+                "end": 507,
+                "test": {
+                  "type": "CallExpression",
+                  "start": 475,
+                  "end": 492,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 475,
+                    "end": 487,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 475,
+                      "end": 476,
+                      "decorators": [],
+                      "name": "x",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 477,
+                      "end": 487,
+                      "decorators": [],
+                      "name": "startsWith",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "optional": false,
+                    "computed": false
+                  },
+                  "typeArguments": null,
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 488,
+                      "end": 491,
+                      "value": "a",
+                      "raw": "\"a\""
+                    }
+                  ],
+                  "optional": false
+                },
+                "consequent": {
+                  "type": "CallExpression",
+                  "start": 495,
+                  "end": 503,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 495,
+                    "end": 501,
+                    "decorators": [],
+                    "name": "getAny",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeArguments": null,
+                  "arguments": [],
+                  "optional": false
+                },
+                "alternate": {
+                  "type": "Literal",
+                  "start": 506,
+                  "end": 507,
+                  "value": 1,
+                  "raw": "1"
+                }
+              },
+              "typeAnnotation": {
+                "type": "TSStringKeyword",
+                "start": 512,
+                "end": 518
+              }
+            },
+            "id": null,
+            "generator": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "script",

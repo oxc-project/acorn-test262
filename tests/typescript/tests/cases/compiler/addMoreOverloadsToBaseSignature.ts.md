@@ -9,6 +9,17 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 34,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 13,
+        "decorators": [],
+        "name": "Foo",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "extends": [],
       "body": {
         "type": "TSInterfaceBody",
         "start": 14,
@@ -18,8 +29,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 20,
             "end": 32,
-            "accessibility": null,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 20,
@@ -29,10 +38,11 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
+            "computed": false,
             "optional": false,
+            "kind": "method",
+            "typeParameters": null,
             "params": [],
-            "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 23,
@@ -43,28 +53,45 @@ __ESTREE_TEST__:PASS:
                 "end": 31
               }
             },
-            "static": false,
-            "typeParameters": null
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 13,
-        "decorators": [],
-        "name": "Foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 36,
       "end": 93,
+      "id": {
+        "type": "Identifier",
+        "start": 46,
+        "end": 49,
+        "decorators": [],
+        "name": "Bar",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "extends": [
+        {
+          "type": "TSInterfaceHeritage",
+          "start": 58,
+          "end": 61,
+          "expression": {
+            "type": "Identifier",
+            "start": 58,
+            "end": 61,
+            "decorators": [],
+            "name": "Foo",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
+        }
+      ],
       "body": {
         "type": "TSInterfaceBody",
         "start": 62,
@@ -74,8 +101,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 68,
             "end": 91,
-            "accessibility": null,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 68,
@@ -85,8 +110,10 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
+            "computed": false,
             "optional": false,
+            "kind": "method",
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -107,7 +134,6 @@ __ESTREE_TEST__:PASS:
                 }
               }
             ],
-            "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 82,
@@ -118,39 +144,13 @@ __ESTREE_TEST__:PASS:
                 "end": 90
               }
             },
-            "static": false,
-            "typeParameters": null
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           }
         ]
       },
-      "declare": false,
-      "extends": [
-        {
-          "type": "TSInterfaceHeritage",
-          "start": 58,
-          "end": 61,
-          "expression": {
-            "type": "Identifier",
-            "start": 58,
-            "end": 61,
-            "decorators": [],
-            "name": "Foo",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "typeArguments": null
-        }
-      ],
-      "id": {
-        "type": "Identifier",
-        "start": 46,
-        "end": 49,
-        "decorators": [],
-        "name": "Bar",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     }
   ],
   "sourceType": "script",

@@ -13,7 +13,6 @@
         "end": 308,
         "name": "epochNsInYear"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -33,6 +32,7 @@
             "type": "VariableDeclaration",
             "start": 392,
             "end": 437,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -53,8 +53,7 @@
                   "bigint": "31556952000000000"
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ReturnStatement",
@@ -130,12 +129,14 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 503,
       "end": 564,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -167,8 +168,8 @@
                 "end": 538,
                 "name": "Instant"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -187,7 +188,6 @@
                     "start": 553,
                     "end": 561,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 554,
@@ -195,7 +195,8 @@
                       "value": null,
                       "raw": "100000n",
                       "bigint": "100000"
-                    }
+                    },
+                    "prefix": true
                   }
                 ],
                 "optional": false
@@ -203,8 +204,7 @@
             ]
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -230,8 +230,8 @@
             "end": 581,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -254,8 +254,8 @@
                 "end": 599,
                 "name": "toString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -313,8 +313,8 @@
               "end": 707,
               "name": "Instant"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -333,7 +333,6 @@
                   "start": 722,
                   "end": 729,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 723,
@@ -341,7 +340,8 @@
                     "value": null,
                     "raw": "10000n",
                     "bigint": "10000"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -374,8 +374,8 @@
             "end": 749,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -398,8 +398,8 @@
                 "end": 767,
                 "name": "toString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -457,8 +457,8 @@
               "end": 886,
               "name": "Instant"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -477,7 +477,6 @@
                   "start": 901,
                   "end": 907,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 902,
@@ -485,7 +484,8 @@
                     "value": null,
                     "raw": "9999n",
                     "bigint": "9999"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -518,8 +518,8 @@
             "end": 927,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -542,8 +542,8 @@
                 "end": 945,
                 "name": "toString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -601,8 +601,8 @@
               "end": 1063,
               "name": "Instant"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -621,7 +621,6 @@
                   "start": 1078,
                   "end": 1084,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1079,
@@ -629,7 +628,8 @@
                     "value": null,
                     "raw": "1000n",
                     "bigint": "1000"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -662,8 +662,8 @@
             "end": 1104,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -686,8 +686,8 @@
                 "end": 1122,
                 "name": "toString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -745,8 +745,8 @@
               "end": 1241,
               "name": "Instant"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -765,7 +765,6 @@
                   "start": 1256,
                   "end": 1261,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1257,
@@ -773,7 +772,8 @@
                     "value": null,
                     "raw": "999n",
                     "bigint": "999"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -806,8 +806,8 @@
             "end": 1281,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -830,8 +830,8 @@
                 "end": 1299,
                 "name": "toString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -889,8 +889,8 @@
               "end": 1417,
               "name": "Instant"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -909,7 +909,6 @@
                   "start": 1432,
                   "end": 1435,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1433,
@@ -917,7 +916,8 @@
                     "value": null,
                     "raw": "1n",
                     "bigint": "1"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -950,8 +950,8 @@
             "end": 1455,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -974,8 +974,8 @@
                 "end": 1473,
                 "name": "toString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1033,8 +1033,8 @@
               "end": 1569,
               "name": "Instant"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1087,8 +1087,8 @@
             "end": 1606,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1111,8 +1111,8 @@
                 "end": 1624,
                 "name": "toString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1170,8 +1170,8 @@
               "end": 1716,
               "name": "Instant"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1224,8 +1224,8 @@
             "end": 1753,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1248,8 +1248,8 @@
                 "end": 1771,
                 "name": "toString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1307,8 +1307,8 @@
               "end": 1863,
               "name": "Instant"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1361,8 +1361,8 @@
             "end": 1902,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1385,8 +1385,8 @@
                 "end": 1920,
                 "name": "toString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1444,8 +1444,8 @@
               "end": 2035,
               "name": "Instant"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1498,8 +1498,8 @@
             "end": 2075,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1522,8 +1522,8 @@
                 "end": 2093,
                 "name": "toString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1581,8 +1581,8 @@
               "end": 2209,
               "name": "Instant"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1635,8 +1635,8 @@
             "end": 2249,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1659,8 +1659,8 @@
                 "end": 2267,
                 "name": "toString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1718,8 +1718,8 @@
               "end": 2382,
               "name": "Instant"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1772,8 +1772,8 @@
             "end": 2423,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1796,8 +1796,8 @@
                 "end": 2441,
                 "name": "toString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -1855,8 +1855,8 @@
               "end": 2560,
               "name": "Instant"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1909,8 +1909,8 @@
             "end": 2602,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1933,8 +1933,8 @@
                 "end": 2620,
                 "name": "toString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false

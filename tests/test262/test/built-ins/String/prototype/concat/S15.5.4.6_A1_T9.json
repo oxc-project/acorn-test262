@@ -45,8 +45,8 @@
               "end": 526,
               "name": "concat"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -58,7 +58,6 @@
                 "start": 527,
                 "end": 540,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -67,7 +66,8 @@
                   "start": 538,
                   "end": 540,
                   "body": []
-                }
+                },
+                "expression": false
               },
               "arguments": [],
               "optional": false
@@ -150,8 +150,8 @@
                         "end": 685,
                         "name": "concat"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -163,7 +163,6 @@
                           "start": 686,
                           "end": 699,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [],
@@ -172,7 +171,8 @@
                             "start": 697,
                             "end": 699,
                             "body": []
-                          }
+                          },
+                          "expression": false
                         },
                         "arguments": [],
                         "optional": false

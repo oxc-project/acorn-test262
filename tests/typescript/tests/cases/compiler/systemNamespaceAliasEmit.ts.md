@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 37,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 12,
+        "decorators": [],
+        "name": "ns",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 13,
@@ -18,12 +27,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 19,
             "end": 35,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 25,
                 "end": 34,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 25,
@@ -37,33 +46,33 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 33,
                   "end": 34,
-                  "raw": "1",
-                  "value": 1
-                }
+                  "value": 1,
+                  "raw": "1"
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "const"
+            "declare": false
           }
         ]
       },
+      "kind": "namespace",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 12,
-        "decorators": [],
-        "name": "ns",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "namespace"
+      "global": false
     },
     {
       "type": "TSEnumDeclaration",
       "start": 39,
       "end": 71,
+      "id": {
+        "type": "Identifier",
+        "start": 44,
+        "end": 50,
+        "decorators": [],
+        "name": "AnEnum",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSEnumBody",
         "start": 51,
@@ -73,7 +82,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 57,
             "end": 60,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 57,
@@ -83,13 +91,13 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 66,
             "end": 69,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 66,
@@ -99,35 +107,33 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           }
         ]
       },
       "const": false,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 44,
-        "end": 50,
-        "decorators": [],
-        "name": "AnEnum",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      "declare": false
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 73,
       "end": 126,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 81,
           "end": 83,
+          "local": {
+            "type": "Identifier",
+            "start": 81,
+            "end": 83,
+            "decorators": [],
+            "name": "ns",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 81,
@@ -137,21 +143,21 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 81,
-            "end": 83,
-            "decorators": [],
-            "name": "ns",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         },
         {
           "type": "ExportSpecifier",
           "start": 85,
           "end": 91,
+          "local": {
+            "type": "Identifier",
+            "start": 85,
+            "end": 91,
+            "decorators": [],
+            "name": "AnEnum",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 85,
@@ -161,21 +167,21 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 85,
-            "end": 91,
-            "decorators": [],
-            "name": "AnEnum",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         },
         {
           "type": "ExportSpecifier",
           "start": 93,
           "end": 105,
+          "local": {
+            "type": "Identifier",
+            "start": 93,
+            "end": 95,
+            "decorators": [],
+            "name": "ns",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 99,
@@ -185,21 +191,21 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 93,
-            "end": 95,
-            "decorators": [],
-            "name": "ns",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         },
         {
           "type": "ExportSpecifier",
           "start": 107,
           "end": 124,
+          "local": {
+            "type": "Identifier",
+            "start": 107,
+            "end": 113,
+            "decorators": [],
+            "name": "AnEnum",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 117,
@@ -209,18 +215,12 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 107,
-            "end": 113,
-            "decorators": [],
-            "name": "AnEnum",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": null,
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

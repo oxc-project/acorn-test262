@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1730,
       "end": 1748,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForStatement",
@@ -37,6 +37,7 @@
         "type": "VariableDeclaration",
         "start": 1755,
         "end": 1781,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -81,8 +82,7 @@
               ]
             }
           }
-        ],
-        "kind": "let"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -133,8 +133,8 @@
                   "end": 1820,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -205,8 +205,8 @@
             "end": 1867,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1014,
       "end": 1053,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,19 +39,19 @@
                 "end": 1050,
                 "name": "Segmenter"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": []
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1054,
       "end": 1076,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -70,13 +71,13 @@
             "raw": "\"ABCD\""
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1077,
       "end": 1098,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -96,13 +97,13 @@
             "raw": "\"123\""
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1099,
       "end": 1143,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -134,8 +135,8 @@
                 "end": 1134,
                 "name": "segment"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -148,13 +149,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1144,
       "end": 1188,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -186,8 +187,8 @@
                 "end": 1179,
                 "name": "segment"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -200,13 +201,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1189,
       "end": 1205,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -226,8 +227,7 @@
             "raw": "\"\""
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -238,6 +238,7 @@
         "type": "VariableDeclaration",
         "start": 1211,
         "end": 1217,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -251,8 +252,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -274,6 +274,7 @@
               "type": "VariableDeclaration",
               "start": 1241,
               "end": 1247,
+              "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -287,8 +288,7 @@
                   },
                   "init": null
                 }
-              ],
-              "kind": "let"
+              ]
             },
             "right": {
               "type": "Identifier",
@@ -332,8 +332,8 @@
                         "end": 1288,
                         "name": "segment"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 },
@@ -368,8 +368,8 @@
                         "end": 1314,
                         "name": "segment"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 }
@@ -412,6 +412,7 @@
         "type": "VariableDeclaration",
         "start": 1368,
         "end": 1374,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -425,8 +426,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -448,6 +448,7 @@
               "type": "VariableDeclaration",
               "start": 1398,
               "end": 1404,
+              "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -461,8 +462,7 @@
                   },
                   "init": null
                 }
-              ],
-              "kind": "let"
+              ]
             },
             "right": {
               "type": "Identifier",
@@ -506,8 +506,8 @@
                         "end": 1445,
                         "name": "segment"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 },
@@ -542,8 +542,8 @@
                         "end": 1471,
                         "name": "segment"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 }
@@ -601,8 +601,8 @@
             "end": 1512,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

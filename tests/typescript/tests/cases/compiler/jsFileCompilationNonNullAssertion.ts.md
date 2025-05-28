@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 2,
-      "directive": null,
       "expression": {
         "type": "TSNonNullExpression",
         "start": 0,
@@ -18,10 +17,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 0,
           "end": 1,
-          "raw": "0",
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

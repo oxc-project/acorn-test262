@@ -23,7 +23,6 @@
             "start": 386,
             "end": 811,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": true,
             "params": [],
@@ -60,8 +59,8 @@
                           "end": 432,
                           "name": "throwsAsync"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -74,9 +73,7 @@
                           "type": "ArrowFunctionExpression",
                           "start": 447,
                           "end": 565,
-                          "id": null,
                           "expression": true,
-                          "generator": false,
                           "async": false,
                           "params": [],
                           "body": {
@@ -99,8 +96,8 @@
                                 "end": 468,
                                 "name": "fromAsync"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -112,9 +109,7 @@
                                     "type": "Property",
                                     "start": 475,
                                     "end": 560,
-                                    "method": false,
-                                    "shorthand": false,
-                                    "computed": false,
+                                    "kind": "get",
                                     "key": {
                                       "type": "Identifier",
                                       "start": 479,
@@ -126,7 +121,6 @@
                                       "start": 485,
                                       "end": 560,
                                       "id": null,
-                                      "expression": false,
                                       "generator": false,
                                       "async": false,
                                       "params": [],
@@ -161,15 +155,20 @@
                                             }
                                           }
                                         ]
-                                      }
+                                      },
+                                      "expression": false
                                     },
-                                    "kind": "get"
+                                    "method": false,
+                                    "shorthand": false,
+                                    "computed": false
                                   }
                                 ]
                               }
                             ],
                             "optional": false
-                          }
+                          },
+                          "id": null,
+                          "generator": false
                         },
                         {
                           "type": "Literal",
@@ -211,8 +210,8 @@
                           "end": 660,
                           "name": "throwsAsync"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -225,9 +224,7 @@
                           "type": "ArrowFunctionExpression",
                           "start": 672,
                           "end": 725,
-                          "id": null,
                           "expression": true,
-                          "generator": false,
                           "async": false,
                           "params": [],
                           "body": {
@@ -250,8 +247,8 @@
                                 "end": 693,
                                 "name": "fromAsync"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -263,9 +260,7 @@
                                     "type": "Property",
                                     "start": 700,
                                     "end": 710,
-                                    "method": false,
-                                    "shorthand": false,
-                                    "computed": false,
+                                    "kind": "init",
                                     "key": {
                                       "type": "Identifier",
                                       "start": 700,
@@ -280,15 +275,15 @@
                                       "raw": "1n",
                                       "bigint": "1"
                                     },
-                                    "kind": "init"
+                                    "method": false,
+                                    "shorthand": false,
+                                    "computed": false
                                   },
                                   {
                                     "type": "Property",
                                     "start": 716,
                                     "end": 720,
-                                    "method": false,
-                                    "shorthand": false,
-                                    "computed": false,
+                                    "kind": "init",
                                     "key": {
                                       "type": "Literal",
                                       "start": 716,
@@ -303,13 +298,17 @@
                                       "value": 0,
                                       "raw": "0"
                                     },
-                                    "kind": "init"
+                                    "method": false,
+                                    "shorthand": false,
+                                    "computed": false
                                   }
                                 ]
                               }
                             ],
                             "optional": false
-                          }
+                          },
+                          "id": null,
+                          "generator": false
                         },
                         {
                           "type": "Literal",
@@ -324,7 +323,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

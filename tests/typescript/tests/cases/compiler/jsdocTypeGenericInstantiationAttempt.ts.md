@@ -9,7 +9,31 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 34,
       "end": 75,
+      "id": {
+        "type": "Identifier",
+        "start": 43,
+        "end": 48,
+        "decorators": [],
+        "name": "thing",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 49,
+          "end": 53,
+          "decorators": [],
+          "name": "list",
+          "optional": false,
+          "typeAnnotation": null
+        }
+      ],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 55,
@@ -31,31 +55,7 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 43,
-        "end": 48,
-        "decorators": [],
-        "name": "thing",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [
-        {
-          "type": "Identifier",
-          "start": 49,
-          "end": 53,
-          "decorators": [],
-          "name": "list",
-          "optional": false,
-          "typeAnnotation": null
-        }
-      ],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

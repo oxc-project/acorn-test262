@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 2149,
       "end": 2361,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -60,7 +61,6 @@
                 "start": 2261,
                 "end": 2264,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 2262,
@@ -68,14 +68,14 @@
                   "value": null,
                   "raw": "2n",
                   "bigint": "2"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 2268,
                 "end": 2289,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 2269,
@@ -83,14 +83,14 @@
                   "value": null,
                   "raw": "9223372036854775810n",
                   "bigint": "9223372036854775810"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 2314,
                 "end": 2336,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 2315,
@@ -98,18 +98,19 @@
                   "value": null,
                   "raw": "18446744073709551618n",
                   "bigint": "18446744073709551618"
-                }
+                },
+                "prefix": true
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 2363,
       "end": 2411,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -148,14 +149,13 @@
                   "end": 2409,
                   "name": "length"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -181,8 +181,8 @@
             "end": 2426,
             "name": "set"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -219,8 +219,8 @@
             "end": 2451,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -240,8 +240,8 @@
               "value": 0,
               "raw": "0"
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           {
             "type": "Literal",
@@ -286,8 +286,8 @@
             "end": 2542,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -307,15 +307,14 @@
               "value": 1,
               "raw": "1"
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           {
             "type": "UnaryExpression",
             "start": 2558,
             "end": 2579,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 2559,
@@ -323,7 +322,8 @@
               "value": null,
               "raw": "9223372036854775806n",
               "bigint": "9223372036854775806"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -360,8 +360,8 @@
             "end": 2689,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -381,8 +381,8 @@
               "value": 2,
               "raw": "2"
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           {
             "type": "Literal",
@@ -427,8 +427,8 @@
             "end": 2768,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -448,8 +448,8 @@
               "value": 3,
               "raw": "3"
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           {
             "type": "Literal",
@@ -494,8 +494,8 @@
             "end": 2847,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -515,15 +515,14 @@
               "value": 4,
               "raw": "4"
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           {
             "type": "UnaryExpression",
             "start": 2863,
             "end": 2866,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 2864,
@@ -531,7 +530,8 @@
               "value": null,
               "raw": "2n",
               "bigint": "2"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -568,8 +568,8 @@
             "end": 2930,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -589,8 +589,8 @@
               "value": 5,
               "raw": "5"
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           {
             "type": "Literal",
@@ -635,8 +635,8 @@
             "end": 3078,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -656,15 +656,14 @@
               "value": 6,
               "raw": "6"
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           {
             "type": "UnaryExpression",
             "start": 3094,
             "end": 3097,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 3095,
@@ -672,7 +671,8 @@
               "value": null,
               "raw": "2n",
               "bigint": "2"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

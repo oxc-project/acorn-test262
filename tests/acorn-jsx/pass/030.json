@@ -15,25 +15,14 @@
           "type": "JSXOpeningElement",
           "start": 0,
           "end": 5,
-          "attributes": [],
           "name": {
             "type": "JSXIdentifier",
             "start": 1,
             "end": 4,
             "name": "div"
           },
+          "attributes": [],
           "selfClosing": false
-        },
-        "closingElement": {
-          "type": "JSXClosingElement",
-          "start": 24,
-          "end": 30,
-          "name": {
-            "type": "JSXIdentifier",
-            "start": 26,
-            "end": 29,
-            "name": "div"
-          }
         },
         "children": [
           {
@@ -48,6 +37,12 @@
                 "type": "JSXOpeningElement",
                 "start": 6,
                 "end": 23,
+                "name": {
+                  "type": "JSXIdentifier",
+                  "start": 7,
+                  "end": 10,
+                  "name": "div"
+                },
                 "attributes": [
                   {
                     "type": "JSXSpreadAttribute",
@@ -61,19 +56,24 @@
                     }
                   }
                 ],
-                "name": {
-                  "type": "JSXIdentifier",
-                  "start": 7,
-                  "end": 10,
-                  "name": "div"
-                },
                 "selfClosing": true
               },
-              "closingElement": null,
-              "children": []
+              "children": [],
+              "closingElement": null
             }
           }
-        ]
+        ],
+        "closingElement": {
+          "type": "JSXClosingElement",
+          "start": 24,
+          "end": 30,
+          "name": {
+            "type": "JSXIdentifier",
+            "start": 26,
+            "end": 29,
+            "name": "div"
+          }
+        }
       }
     }
   ],

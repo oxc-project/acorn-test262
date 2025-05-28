@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 921,
       "end": 1022,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,9 +28,7 @@
                 "type": "Property",
                 "start": 948,
                 "end": 1019,
-                "method": true,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 948,
@@ -41,7 +40,6 @@
                   "start": 955,
                   "end": 1019,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -76,15 +74,17 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": true,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -95,6 +95,7 @@
         "type": "VariableDeclaration",
         "start": 1029,
         "end": 1045,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -108,8 +109,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -126,6 +126,7 @@
             "type": "VariableDeclaration",
             "start": 1095,
             "end": 1155,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -171,8 +172,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -198,8 +198,8 @@
                   "end": 1171,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -213,7 +213,6 @@
                   "start": 1183,
                   "end": 1264,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -246,8 +245,8 @@
                               "end": 1223,
                               "name": "compareExchange"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -281,7 +280,8 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 }
               ],
               "optional": false

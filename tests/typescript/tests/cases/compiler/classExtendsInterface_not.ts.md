@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 27,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 25,
-        "end": 27,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -27,20 +19,18 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": {
         "type": "MemberExpression",
         "start": 16,
         "end": 24,
-        "computed": false,
         "object": {
           "type": "Literal",
           "start": 16,
           "end": 18,
-          "raw": "\"\"",
-          "value": ""
+          "value": "",
+          "raw": "\"\""
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 19,
@@ -49,10 +39,20 @@ __ESTREE_TEST__:PASS:
           "name": "bogus",
           "optional": false,
           "typeAnnotation": null
-        }
+        },
+        "optional": false,
+        "computed": false
       },
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 25,
+        "end": 27,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

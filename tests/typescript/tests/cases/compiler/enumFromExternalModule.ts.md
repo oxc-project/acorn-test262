@@ -9,11 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 25,
-      "attributes": [],
       "declaration": {
         "type": "TSEnumDeclaration",
         "start": 7,
         "end": 25,
+        "id": {
+          "type": "Identifier",
+          "start": 12,
+          "end": 16,
+          "decorators": [],
+          "name": "Mode",
+          "optional": false,
+          "typeAnnotation": null
+        },
         "body": {
           "type": "TSEnumBody",
           "start": 17,
@@ -23,7 +31,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSEnumMember",
               "start": 19,
               "end": 23,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 19,
@@ -33,25 +40,18 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "initializer": null
+              "initializer": null,
+              "computed": false
             }
           ]
         },
         "const": false,
-        "declare": false,
-        "id": {
-          "type": "Identifier",
-          "start": 12,
-          "end": 16,
-          "decorators": [],
-          "name": "Mode",
-          "optional": false,
-          "typeAnnotation": null
-        }
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -78,7 +78,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 62,
@@ -87,21 +86,22 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 70,
           "end": 98,
-          "raw": "'./enumFromExternalModule_0'",
-          "value": "./enumFromExternalModule_0"
+          "value": "./enumFromExternalModule_0",
+          "raw": "'./enumFromExternalModule_0'"
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 102,
       "end": 122,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 106,
           "end": 121,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 106,
@@ -115,12 +115,10 @@ __ESTREE_TEST__:PASS:
             "type": "MemberExpression",
             "start": 110,
             "end": 121,
-            "computed": false,
             "object": {
               "type": "MemberExpression",
               "start": 110,
               "end": 116,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 110,
@@ -130,7 +128,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 112,
@@ -139,9 +136,10 @@ __ESTREE_TEST__:PASS:
                 "name": "Mode",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 117,
@@ -150,12 +148,14 @@ __ESTREE_TEST__:PASS:
               "name": "Open",
               "optional": false,
               "typeAnnotation": null
-            }
-          }
+            },
+            "optional": false,
+            "computed": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "module",

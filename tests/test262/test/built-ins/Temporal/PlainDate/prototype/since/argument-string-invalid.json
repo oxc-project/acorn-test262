@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 365,
       "end": 1345,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -271,13 +272,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1346,
       "end": 1398,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -309,8 +310,8 @@
                 "end": 1385,
                 "name": "PlainDate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -337,8 +338,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -349,6 +349,7 @@
         "type": "VariableDeclaration",
         "start": 1404,
         "end": 1413,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -362,8 +363,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -400,8 +400,8 @@
                   "end": 1450,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -414,9 +414,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 1472,
                   "end": 1497,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -439,8 +437,8 @@
                         "end": 1492,
                         "name": "since"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -451,20 +449,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 1503,
                   "end": 1562,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1507,
-                      "end": 1510,
-                      "name": "arg"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -485,6 +477,14 @@
                         "cooked": "\" should not be a valid ISO string for a PlainDate"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1507,
+                      "end": 1510,
+                      "name": "arg"
                     }
                   ]
                 }

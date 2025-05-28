@@ -9,42 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 27,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 12,
-        "end": 27,
-        "body": [
-          {
-            "type": "TSPropertySignature",
-            "start": 16,
-            "end": 25,
-            "accessibility": null,
-            "computed": false,
-            "key": {
-              "type": "Literal",
-              "start": 16,
-              "end": 19,
-              "raw": "\"H\"",
-              "value": "H"
-            },
-            "optional": true,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 20,
-              "end": 24,
-              "typeAnnotation": {
-                "type": "TSAnyKeyword",
-                "start": 21,
-                "end": 24
-              }
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "extends": [],
       "id": {
         "type": "Identifier",
         "start": 10,
@@ -54,7 +18,43 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "typeParameters": null
+      "typeParameters": null,
+      "extends": [],
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 12,
+        "end": 27,
+        "body": [
+          {
+            "type": "TSPropertySignature",
+            "start": 16,
+            "end": 25,
+            "computed": false,
+            "optional": true,
+            "readonly": false,
+            "key": {
+              "type": "Literal",
+              "start": 16,
+              "end": 19,
+              "value": "H",
+              "raw": "\"H\""
+            },
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 20,
+              "end": 24,
+              "typeAnnotation": {
+                "type": "TSAnyKeyword",
+                "start": 21,
+                "end": 24
+              }
+            },
+            "accessibility": null,
+            "static": false
+          }
+        ]
+      },
+      "declare": false
     }
   ],
   "sourceType": "script",

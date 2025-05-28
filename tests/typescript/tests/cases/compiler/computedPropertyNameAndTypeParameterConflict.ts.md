@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 31,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 14,
           "end": 30,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
@@ -39,59 +39,16 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     },
     {
       "type": "ClassDeclaration",
       "start": 32,
       "end": 73,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 53,
-        "end": 73,
-        "body": [
-          {
-            "type": "PropertyDefinition",
-            "start": 59,
-            "end": 71,
-            "accessibility": null,
-            "computed": true,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
-            "key": {
-              "type": "Identifier",
-              "start": 60,
-              "end": 61,
-              "decorators": [],
-              "name": "O",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 62,
-              "end": 70,
-              "typeAnnotation": {
-                "type": "TSNumberKeyword",
-                "start": 64,
-                "end": 70
-              }
-            },
-            "value": null
-          }
-        ]
-      },
-      "declare": true,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -102,9 +59,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 49,
@@ -114,10 +68,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeParameter",
             "start": 50,
             "end": 51,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
             "name": {
               "type": "Identifier",
               "start": 50,
@@ -127,10 +77,60 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "out": false
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
           }
         ]
-      }
+      },
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 53,
+        "end": 73,
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "start": 59,
+            "end": 71,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 60,
+              "end": 61,
+              "decorators": [],
+              "name": "O",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 62,
+              "end": 70,
+              "typeAnnotation": {
+                "type": "TSNumberKeyword",
+                "start": 64,
+                "end": 70
+              }
+            },
+            "value": null,
+            "computed": true,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
+          }
+        ]
+      },
+      "abstract": false,
+      "declare": true
     }
   ],
   "sourceType": "script",

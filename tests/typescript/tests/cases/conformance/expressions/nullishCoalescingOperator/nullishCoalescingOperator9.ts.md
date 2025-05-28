@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 44,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 12,
           "end": 43,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
@@ -40,6 +40,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSFunctionType",
                     "start": 23,
                     "end": 42,
+                    "typeParameters": null,
                     "params": [
                       {
                         "type": "Identifier",
@@ -69,29 +70,28 @@ __ESTREE_TEST__:PASS:
                         "start": 38,
                         "end": 42
                       }
-                    },
-                    "typeParameters": null
+                    }
                   }
                 ]
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "let"
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
       "start": 46,
       "end": 94,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 50,
           "end": 94,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 50,
@@ -105,7 +105,6 @@ __ESTREE_TEST__:PASS:
             "type": "LogicalExpression",
             "start": 54,
             "end": 94,
-            "operator": "||",
             "left": {
               "type": "Identifier",
               "start": 54,
@@ -115,67 +114,14 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
+            "operator": "||",
             "right": {
               "type": "ArrowFunctionExpression",
               "start": 60,
               "end": 93,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 67,
-                "end": 93,
-                "body": [
-                  {
-                    "type": "ExpressionStatement",
-                    "start": 69,
-                    "end": 91,
-                    "directive": null,
-                    "expression": {
-                      "type": "UnaryExpression",
-                      "start": 69,
-                      "end": 91,
-                      "argument": {
-                        "type": "CallExpression",
-                        "start": 74,
-                        "end": 91,
-                        "arguments": [],
-                        "callee": {
-                          "type": "MemberExpression",
-                          "start": 74,
-                          "end": 89,
-                          "computed": false,
-                          "object": {
-                            "type": "Identifier",
-                            "start": 74,
-                            "end": 77,
-                            "decorators": [],
-                            "name": "abc",
-                            "optional": false,
-                            "typeAnnotation": null
-                          },
-                          "optional": false,
-                          "property": {
-                            "type": "Identifier",
-                            "start": 78,
-                            "end": 89,
-                            "decorators": [],
-                            "name": "toLowerCase",
-                            "optional": false,
-                            "typeAnnotation": null
-                          }
-                        },
-                        "optional": false,
-                        "typeArguments": null
-                      },
-                      "operator": "void",
-                      "prefix": true
-                    }
-                  }
-                ]
-              },
               "expression": false,
-              "generator": false,
-              "id": null,
+              "async": false,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -188,24 +134,78 @@ __ESTREE_TEST__:PASS:
                 }
               ],
               "returnType": null,
-              "typeParameters": null
+              "body": {
+                "type": "BlockStatement",
+                "start": 67,
+                "end": 93,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 69,
+                    "end": 91,
+                    "expression": {
+                      "type": "UnaryExpression",
+                      "start": 69,
+                      "end": 91,
+                      "operator": "void",
+                      "argument": {
+                        "type": "CallExpression",
+                        "start": 74,
+                        "end": 91,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 74,
+                          "end": 89,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 74,
+                            "end": 77,
+                            "decorators": [],
+                            "name": "abc",
+                            "optional": false,
+                            "typeAnnotation": null
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 78,
+                            "end": 89,
+                            "decorators": [],
+                            "name": "toLowerCase",
+                            "optional": false,
+                            "typeAnnotation": null
+                          },
+                          "optional": false,
+                          "computed": false
+                        },
+                        "typeArguments": null,
+                        "arguments": [],
+                        "optional": false
+                      },
+                      "prefix": true
+                    },
+                    "directive": null
+                  }
+                ]
+              },
+              "id": null,
+              "generator": false
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 95,
       "end": 144,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 99,
           "end": 144,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 99,
@@ -219,7 +219,6 @@ __ESTREE_TEST__:PASS:
             "type": "LogicalExpression",
             "start": 104,
             "end": 144,
-            "operator": "??",
             "left": {
               "type": "Identifier",
               "start": 104,
@@ -229,67 +228,14 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
+            "operator": "??",
             "right": {
               "type": "ArrowFunctionExpression",
               "start": 110,
               "end": 143,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 117,
-                "end": 143,
-                "body": [
-                  {
-                    "type": "ExpressionStatement",
-                    "start": 119,
-                    "end": 141,
-                    "directive": null,
-                    "expression": {
-                      "type": "UnaryExpression",
-                      "start": 119,
-                      "end": 141,
-                      "argument": {
-                        "type": "CallExpression",
-                        "start": 124,
-                        "end": 141,
-                        "arguments": [],
-                        "callee": {
-                          "type": "MemberExpression",
-                          "start": 124,
-                          "end": 139,
-                          "computed": false,
-                          "object": {
-                            "type": "Identifier",
-                            "start": 124,
-                            "end": 127,
-                            "decorators": [],
-                            "name": "abc",
-                            "optional": false,
-                            "typeAnnotation": null
-                          },
-                          "optional": false,
-                          "property": {
-                            "type": "Identifier",
-                            "start": 128,
-                            "end": 139,
-                            "decorators": [],
-                            "name": "toLowerCase",
-                            "optional": false,
-                            "typeAnnotation": null
-                          }
-                        },
-                        "optional": false,
-                        "typeArguments": null
-                      },
-                      "operator": "void",
-                      "prefix": true
-                    }
-                  }
-                ]
-              },
               "expression": false,
-              "generator": false,
-              "id": null,
+              "async": false,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -302,13 +248,67 @@ __ESTREE_TEST__:PASS:
                 }
               ],
               "returnType": null,
-              "typeParameters": null
+              "body": {
+                "type": "BlockStatement",
+                "start": 117,
+                "end": 143,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 119,
+                    "end": 141,
+                    "expression": {
+                      "type": "UnaryExpression",
+                      "start": 119,
+                      "end": 141,
+                      "operator": "void",
+                      "argument": {
+                        "type": "CallExpression",
+                        "start": 124,
+                        "end": 141,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 124,
+                          "end": 139,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 124,
+                            "end": 127,
+                            "decorators": [],
+                            "name": "abc",
+                            "optional": false,
+                            "typeAnnotation": null
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 128,
+                            "end": 139,
+                            "decorators": [],
+                            "name": "toLowerCase",
+                            "optional": false,
+                            "typeAnnotation": null
+                          },
+                          "optional": false,
+                          "computed": false
+                        },
+                        "typeArguments": null,
+                        "arguments": [],
+                        "optional": false
+                      },
+                      "prefix": true
+                    },
+                    "directive": null
+                  }
+                ]
+              },
+              "id": null,
+              "generator": false
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     }
   ],
   "sourceType": "script",

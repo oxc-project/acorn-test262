@@ -9,73 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 45,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 14,
-        "end": 45,
-        "body": [
-          {
-            "type": "TSPropertySignature",
-            "start": 19,
-            "end": 29,
-            "accessibility": null,
-            "computed": false,
-            "key": {
-              "type": "Identifier",
-              "start": 19,
-              "end": 20,
-              "decorators": [],
-              "name": "x",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 20,
-              "end": 28,
-              "typeAnnotation": {
-                "type": "TSNumberKeyword",
-                "start": 22,
-                "end": 28
-              }
-            }
-          },
-          {
-            "type": "TSPropertySignature",
-            "start": 33,
-            "end": 43,
-            "accessibility": null,
-            "computed": false,
-            "key": {
-              "type": "Identifier",
-              "start": 33,
-              "end": 34,
-              "decorators": [],
-              "name": "x",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 34,
-              "end": 42,
-              "typeAnnotation": {
-                "type": "TSNumberKeyword",
-                "start": 36,
-                "end": 42
-              }
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "extends": [],
       "id": {
         "type": "Identifier",
         "start": 10,
@@ -85,7 +18,74 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "typeParameters": null
+      "typeParameters": null,
+      "extends": [],
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 14,
+        "end": 45,
+        "body": [
+          {
+            "type": "TSPropertySignature",
+            "start": 19,
+            "end": 29,
+            "computed": false,
+            "optional": false,
+            "readonly": false,
+            "key": {
+              "type": "Identifier",
+              "start": 19,
+              "end": 20,
+              "decorators": [],
+              "name": "x",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 20,
+              "end": 28,
+              "typeAnnotation": {
+                "type": "TSNumberKeyword",
+                "start": 22,
+                "end": 28
+              }
+            },
+            "accessibility": null,
+            "static": false
+          },
+          {
+            "type": "TSPropertySignature",
+            "start": 33,
+            "end": 43,
+            "computed": false,
+            "optional": false,
+            "readonly": false,
+            "key": {
+              "type": "Identifier",
+              "start": 33,
+              "end": 34,
+              "decorators": [],
+              "name": "x",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 34,
+              "end": 42,
+              "typeAnnotation": {
+                "type": "TSNumberKeyword",
+                "start": 36,
+                "end": 42
+              }
+            },
+            "accessibility": null,
+            "static": false
+          }
+        ]
+      },
+      "declare": false
     }
   ],
   "sourceType": "script",

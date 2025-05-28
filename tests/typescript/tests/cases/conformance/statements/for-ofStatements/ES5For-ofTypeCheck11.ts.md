@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 29,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 28,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -50,22 +50,22 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 30,
       "end": 44,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 34,
           "end": 43,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 34,
@@ -84,23 +84,17 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ForOfStatement",
       "start": 45,
       "end": 65,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 62,
-        "end": 65,
-        "body": []
-      },
       "left": {
         "type": "Identifier",
         "start": 50,
@@ -118,6 +112,12 @@ __ESTREE_TEST__:PASS:
         "name": "union",
         "optional": false,
         "typeAnnotation": null
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 62,
+        "end": 65,
+        "body": []
       }
     }
   ],

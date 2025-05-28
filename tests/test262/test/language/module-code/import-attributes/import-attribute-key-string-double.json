@@ -33,8 +33,8 @@
         "value": "./ensure-linking-error_FIXTURE.js",
         "raw": "\"./ensure-linking-error_FIXTURE.js\""
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -60,6 +60,7 @@
         "value": "./import-attribute-1_FIXTURE.js",
         "raw": "'./import-attribute-1_FIXTURE.js'"
       },
+      "phase": null,
       "attributes": [
         {
           "type": "ImportAttribute",
@@ -80,8 +81,7 @@
             "raw": "''"
           }
         }
-      ],
-      "phase": null
+      ]
     },
     {
       "type": "ImportDeclaration",
@@ -95,6 +95,7 @@
         "value": "./import-attribute-2_FIXTURE.js",
         "raw": "'./import-attribute-2_FIXTURE.js'"
       },
+      "phase": null,
       "attributes": [
         {
           "type": "ImportAttribute",
@@ -115,8 +116,7 @@
             "raw": "''"
           }
         }
-      ],
-      "phase": null
+      ]
     },
     {
       "type": "ExportAllDeclaration",
@@ -176,8 +176,8 @@
             "end": 1006,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

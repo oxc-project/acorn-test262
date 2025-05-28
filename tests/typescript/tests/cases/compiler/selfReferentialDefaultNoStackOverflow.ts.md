@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 39,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 27,
-        "end": 39,
-        "raw": "'./QSpinner'",
-        "value": "./QSpinner"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -33,8 +25,16 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 27,
+        "end": 39,
+        "value": "./QSpinner",
+        "raw": "'./QSpinner'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -49,7 +49,7 @@ __ESTREE_TEST__:PASS:
             "type": "Property",
             "start": 60,
             "end": 84,
-            "computed": false,
+            "kind": "init",
             "key": {
               "type": "Identifier",
               "start": 60,
@@ -59,10 +59,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "init",
-            "method": false,
-            "optional": false,
-            "shorthand": false,
             "value": {
               "type": "ArrayExpression",
               "start": 68,
@@ -78,13 +74,17 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               ]
-            }
+            },
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "optional": false
           },
           {
             "type": "Property",
             "start": 88,
             "end": 104,
-            "computed": false,
+            "kind": "init",
             "key": {
               "type": "Identifier",
               "start": 88,
@@ -94,17 +94,17 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "init",
-            "method": false,
-            "optional": false,
-            "shorthand": false,
             "value": {
               "type": "Literal",
               "start": 94,
               "end": 104,
-              "raw": "'QSpinner'",
-              "value": "QSpinner"
-            }
+              "value": "QSpinner",
+              "raw": "'QSpinner'"
+            },
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "optional": false
           }
         ]
       },

@@ -9,11 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 43,
-      "attributes": [],
       "declaration": {
         "type": "TSEnumDeclaration",
         "start": 7,
         "end": 43,
+        "id": {
+          "type": "Identifier",
+          "start": 18,
+          "end": 26,
+          "decorators": [],
+          "name": "CharCode",
+          "optional": false,
+          "typeAnnotation": null
+        },
         "body": {
           "type": "TSEnumBody",
           "start": 27,
@@ -23,7 +31,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSEnumMember",
               "start": 33,
               "end": 34,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 33,
@@ -33,13 +40,13 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "initializer": null
+              "initializer": null,
+              "computed": false
             },
             {
               "type": "TSEnumMember",
               "start": 40,
               "end": 41,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 40,
@@ -49,25 +56,18 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "initializer": null
+              "initializer": null,
+              "computed": false
             }
           ]
         },
         "const": true,
-        "declare": false,
-        "id": {
-          "type": "Identifier",
-          "start": 18,
-          "end": 26,
-          "decorators": [],
-          "name": "CharCode",
-          "optional": false,
-          "typeAnnotation": null
-        }
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -85,14 +85,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 35,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 25,
-        "end": 34,
-        "raw": "'defs/cc'",
-        "value": "defs/cc"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -107,7 +99,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
@@ -116,22 +107,43 @@ __ESTREE_TEST__:PASS:
             "name": "CharCode",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 25,
+        "end": 34,
+        "value": "defs/cc",
+        "raw": "'defs/cc'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 36,
       "end": 128,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 43,
         "end": 128,
-        "abstract": false,
+        "decorators": [],
+        "id": {
+          "type": "Identifier",
+          "start": 49,
+          "end": 53,
+          "decorators": [],
+          "name": "User",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null,
+        "superClass": null,
+        "superTypeArguments": null,
+        "implements": [],
         "body": {
           "type": "ClassBody",
           "start": 54,
@@ -141,8 +153,6 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 60,
               "end": 126,
-              "accessibility": null,
-              "computed": false,
               "decorators": [],
               "key": {
                 "type": "Identifier",
@@ -153,78 +163,15 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "kind": "method",
-              "optional": false,
-              "override": false,
-              "static": false,
               "value": {
                 "type": "FunctionExpression",
                 "start": 66,
                 "end": 126,
-                "async": false,
-                "body": {
-                  "type": "BlockStatement",
-                  "start": 82,
-                  "end": 126,
-                  "body": [
-                    {
-                      "type": "IfStatement",
-                      "start": 92,
-                      "end": 120,
-                      "alternate": null,
-                      "consequent": {
-                        "type": "BlockStatement",
-                        "start": 118,
-                        "end": 120,
-                        "body": []
-                      },
-                      "test": {
-                        "type": "BinaryExpression",
-                        "start": 96,
-                        "end": 116,
-                        "operator": "===",
-                        "left": {
-                          "type": "MemberExpression",
-                          "start": 96,
-                          "end": 106,
-                          "computed": false,
-                          "object": {
-                            "type": "Identifier",
-                            "start": 96,
-                            "end": 104,
-                            "decorators": [],
-                            "name": "CharCode",
-                            "optional": false,
-                            "typeAnnotation": null
-                          },
-                          "optional": false,
-                          "property": {
-                            "type": "Identifier",
-                            "start": 105,
-                            "end": 106,
-                            "decorators": [],
-                            "name": "A",
-                            "optional": false,
-                            "typeAnnotation": null
-                          }
-                        },
-                        "right": {
-                          "type": "Identifier",
-                          "start": 111,
-                          "end": 116,
-                          "decorators": [],
-                          "name": "input",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
-                      }
-                    }
-                  ]
-                },
-                "declare": false,
-                "expression": false,
-                "generator": false,
                 "id": null,
+                "generator": false,
+                "async": false,
+                "declare": false,
+                "typeParameters": null,
                 "params": [
                   {
                     "type": "Identifier",
@@ -246,30 +193,83 @@ __ESTREE_TEST__:PASS:
                   }
                 ],
                 "returnType": null,
-                "typeParameters": null
-              }
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 82,
+                  "end": 126,
+                  "body": [
+                    {
+                      "type": "IfStatement",
+                      "start": 92,
+                      "end": 120,
+                      "test": {
+                        "type": "BinaryExpression",
+                        "start": 96,
+                        "end": 116,
+                        "left": {
+                          "type": "MemberExpression",
+                          "start": 96,
+                          "end": 106,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 96,
+                            "end": 104,
+                            "decorators": [],
+                            "name": "CharCode",
+                            "optional": false,
+                            "typeAnnotation": null
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 105,
+                            "end": 106,
+                            "decorators": [],
+                            "name": "A",
+                            "optional": false,
+                            "typeAnnotation": null
+                          },
+                          "optional": false,
+                          "computed": false
+                        },
+                        "operator": "===",
+                        "right": {
+                          "type": "Identifier",
+                          "start": 111,
+                          "end": 116,
+                          "decorators": [],
+                          "name": "input",
+                          "optional": false,
+                          "typeAnnotation": null
+                        }
+                      },
+                      "consequent": {
+                        "type": "BlockStatement",
+                        "start": 118,
+                        "end": 120,
+                        "body": []
+                      },
+                      "alternate": null
+                    }
+                  ]
+                },
+                "expression": false
+              },
+              "kind": "method",
+              "computed": false,
+              "static": false,
+              "override": false,
+              "optional": false,
+              "accessibility": null
             }
           ]
         },
-        "declare": false,
-        "decorators": [],
-        "id": {
-          "type": "Identifier",
-          "start": 49,
-          "end": 53,
-          "decorators": [],
-          "name": "User",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

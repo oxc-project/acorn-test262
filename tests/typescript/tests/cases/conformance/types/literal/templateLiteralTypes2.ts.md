@@ -9,713 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 370,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 85,
-        "end": 370,
-        "body": [
-          {
-            "type": "VariableDeclaration",
-            "start": 91,
-            "end": 112,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 97,
-                "end": 111,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 97,
-                  "end": 99,
-                  "decorators": [],
-                  "name": "c1",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "init": {
-                  "type": "TemplateLiteral",
-                  "start": 102,
-                  "end": 111,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 108,
-                      "end": 109,
-                      "decorators": [],
-                      "name": "s",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  ],
-                  "quasis": [
-                    {
-                      "type": "TemplateElement",
-                      "start": 102,
-                      "end": 108,
-                      "tail": false,
-                      "value": {
-                        "cooked": "abc",
-                        "raw": "abc"
-                      }
-                    },
-                    {
-                      "type": "TemplateElement",
-                      "start": 109,
-                      "end": 111,
-                      "tail": true,
-                      "value": {
-                        "cooked": "",
-                        "raw": ""
-                      }
-                    }
-                  ]
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "const"
-          },
-          {
-            "type": "VariableDeclaration",
-            "start": 117,
-            "end": 138,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 123,
-                "end": 137,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 123,
-                  "end": 125,
-                  "decorators": [],
-                  "name": "c2",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "init": {
-                  "type": "TemplateLiteral",
-                  "start": 128,
-                  "end": 137,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 134,
-                      "end": 135,
-                      "decorators": [],
-                      "name": "n",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  ],
-                  "quasis": [
-                    {
-                      "type": "TemplateElement",
-                      "start": 128,
-                      "end": 134,
-                      "tail": false,
-                      "value": {
-                        "cooked": "abc",
-                        "raw": "abc"
-                      }
-                    },
-                    {
-                      "type": "TemplateElement",
-                      "start": 135,
-                      "end": 137,
-                      "tail": true,
-                      "value": {
-                        "cooked": "",
-                        "raw": ""
-                      }
-                    }
-                  ]
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "const"
-          },
-          {
-            "type": "VariableDeclaration",
-            "start": 143,
-            "end": 164,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 149,
-                "end": 163,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 149,
-                  "end": 151,
-                  "decorators": [],
-                  "name": "c3",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "init": {
-                  "type": "TemplateLiteral",
-                  "start": 154,
-                  "end": 163,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 160,
-                      "end": 161,
-                      "decorators": [],
-                      "name": "u",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  ],
-                  "quasis": [
-                    {
-                      "type": "TemplateElement",
-                      "start": 154,
-                      "end": 160,
-                      "tail": false,
-                      "value": {
-                        "cooked": "abc",
-                        "raw": "abc"
-                      }
-                    },
-                    {
-                      "type": "TemplateElement",
-                      "start": 161,
-                      "end": 163,
-                      "tail": true,
-                      "value": {
-                        "cooked": "",
-                        "raw": ""
-                      }
-                    }
-                  ]
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "const"
-          },
-          {
-            "type": "VariableDeclaration",
-            "start": 169,
-            "end": 190,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 175,
-                "end": 189,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 175,
-                  "end": 177,
-                  "decorators": [],
-                  "name": "c4",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "init": {
-                  "type": "TemplateLiteral",
-                  "start": 180,
-                  "end": 189,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 186,
-                      "end": 187,
-                      "decorators": [],
-                      "name": "t",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  ],
-                  "quasis": [
-                    {
-                      "type": "TemplateElement",
-                      "start": 180,
-                      "end": 186,
-                      "tail": false,
-                      "value": {
-                        "cooked": "abc",
-                        "raw": "abc"
-                      }
-                    },
-                    {
-                      "type": "TemplateElement",
-                      "start": 187,
-                      "end": 189,
-                      "tail": true,
-                      "value": {
-                        "cooked": "",
-                        "raw": ""
-                      }
-                    }
-                  ]
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "const"
-          },
-          {
-            "type": "VariableDeclaration",
-            "start": 195,
-            "end": 232,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 201,
-                "end": 231,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 201,
-                  "end": 219,
-                  "decorators": [],
-                  "name": "d1",
-                  "optional": false,
-                  "typeAnnotation": {
-                    "type": "TSTypeAnnotation",
-                    "start": 203,
-                    "end": 219,
-                    "typeAnnotation": {
-                      "type": "TSTemplateLiteralType",
-                      "start": 205,
-                      "end": 219,
-                      "quasis": [
-                        {
-                          "type": "TemplateElement",
-                          "start": 205,
-                          "end": 211,
-                          "tail": false,
-                          "value": {
-                            "cooked": "abc",
-                            "raw": "abc"
-                          }
-                        },
-                        {
-                          "type": "TemplateElement",
-                          "start": 217,
-                          "end": 219,
-                          "tail": true,
-                          "value": {
-                            "cooked": "",
-                            "raw": ""
-                          }
-                        }
-                      ],
-                      "types": [
-                        {
-                          "type": "TSStringKeyword",
-                          "start": 211,
-                          "end": 217
-                        }
-                      ]
-                    }
-                  }
-                },
-                "init": {
-                  "type": "TemplateLiteral",
-                  "start": 222,
-                  "end": 231,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 228,
-                      "end": 229,
-                      "decorators": [],
-                      "name": "s",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  ],
-                  "quasis": [
-                    {
-                      "type": "TemplateElement",
-                      "start": 222,
-                      "end": 228,
-                      "tail": false,
-                      "value": {
-                        "cooked": "abc",
-                        "raw": "abc"
-                      }
-                    },
-                    {
-                      "type": "TemplateElement",
-                      "start": 229,
-                      "end": 231,
-                      "tail": true,
-                      "value": {
-                        "cooked": "",
-                        "raw": ""
-                      }
-                    }
-                  ]
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "const"
-          },
-          {
-            "type": "VariableDeclaration",
-            "start": 237,
-            "end": 274,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 243,
-                "end": 273,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 243,
-                  "end": 261,
-                  "decorators": [],
-                  "name": "d2",
-                  "optional": false,
-                  "typeAnnotation": {
-                    "type": "TSTypeAnnotation",
-                    "start": 245,
-                    "end": 261,
-                    "typeAnnotation": {
-                      "type": "TSTemplateLiteralType",
-                      "start": 247,
-                      "end": 261,
-                      "quasis": [
-                        {
-                          "type": "TemplateElement",
-                          "start": 247,
-                          "end": 253,
-                          "tail": false,
-                          "value": {
-                            "cooked": "abc",
-                            "raw": "abc"
-                          }
-                        },
-                        {
-                          "type": "TemplateElement",
-                          "start": 259,
-                          "end": 261,
-                          "tail": true,
-                          "value": {
-                            "cooked": "",
-                            "raw": ""
-                          }
-                        }
-                      ],
-                      "types": [
-                        {
-                          "type": "TSNumberKeyword",
-                          "start": 253,
-                          "end": 259
-                        }
-                      ]
-                    }
-                  }
-                },
-                "init": {
-                  "type": "TemplateLiteral",
-                  "start": 264,
-                  "end": 273,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 270,
-                      "end": 271,
-                      "decorators": [],
-                      "name": "n",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  ],
-                  "quasis": [
-                    {
-                      "type": "TemplateElement",
-                      "start": 264,
-                      "end": 270,
-                      "tail": false,
-                      "value": {
-                        "cooked": "abc",
-                        "raw": "abc"
-                      }
-                    },
-                    {
-                      "type": "TemplateElement",
-                      "start": 271,
-                      "end": 273,
-                      "tail": true,
-                      "value": {
-                        "cooked": "",
-                        "raw": ""
-                      }
-                    }
-                  ]
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "const"
-          },
-          {
-            "type": "VariableDeclaration",
-            "start": 279,
-            "end": 331,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 285,
-                "end": 330,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 285,
-                  "end": 318,
-                  "decorators": [],
-                  "name": "d3",
-                  "optional": false,
-                  "typeAnnotation": {
-                    "type": "TSTypeAnnotation",
-                    "start": 287,
-                    "end": 318,
-                    "typeAnnotation": {
-                      "type": "TSTemplateLiteralType",
-                      "start": 289,
-                      "end": 318,
-                      "quasis": [
-                        {
-                          "type": "TemplateElement",
-                          "start": 289,
-                          "end": 295,
-                          "tail": false,
-                          "value": {
-                            "cooked": "abc",
-                            "raw": "abc"
-                          }
-                        },
-                        {
-                          "type": "TemplateElement",
-                          "start": 316,
-                          "end": 318,
-                          "tail": true,
-                          "value": {
-                            "cooked": "",
-                            "raw": ""
-                          }
-                        }
-                      ],
-                      "types": [
-                        {
-                          "type": "TSUnionType",
-                          "start": 295,
-                          "end": 316,
-                          "types": [
-                            {
-                              "type": "TSLiteralType",
-                              "start": 295,
-                              "end": 300,
-                              "literal": {
-                                "type": "Literal",
-                                "start": 295,
-                                "end": 300,
-                                "raw": "'foo'",
-                                "value": "foo"
-                              }
-                            },
-                            {
-                              "type": "TSLiteralType",
-                              "start": 303,
-                              "end": 308,
-                              "literal": {
-                                "type": "Literal",
-                                "start": 303,
-                                "end": 308,
-                                "raw": "'bar'",
-                                "value": "bar"
-                              }
-                            },
-                            {
-                              "type": "TSLiteralType",
-                              "start": 311,
-                              "end": 316,
-                              "literal": {
-                                "type": "Literal",
-                                "start": 311,
-                                "end": 316,
-                                "raw": "'baz'",
-                                "value": "baz"
-                              }
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                "init": {
-                  "type": "TemplateLiteral",
-                  "start": 321,
-                  "end": 330,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 327,
-                      "end": 328,
-                      "decorators": [],
-                      "name": "u",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  ],
-                  "quasis": [
-                    {
-                      "type": "TemplateElement",
-                      "start": 321,
-                      "end": 327,
-                      "tail": false,
-                      "value": {
-                        "cooked": "abc",
-                        "raw": "abc"
-                      }
-                    },
-                    {
-                      "type": "TemplateElement",
-                      "start": 328,
-                      "end": 330,
-                      "tail": true,
-                      "value": {
-                        "cooked": "",
-                        "raw": ""
-                      }
-                    }
-                  ]
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "const"
-          },
-          {
-            "type": "VariableDeclaration",
-            "start": 336,
-            "end": 368,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 342,
-                "end": 367,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 342,
-                  "end": 355,
-                  "decorators": [],
-                  "name": "d4",
-                  "optional": false,
-                  "typeAnnotation": {
-                    "type": "TSTypeAnnotation",
-                    "start": 344,
-                    "end": 355,
-                    "typeAnnotation": {
-                      "type": "TSTemplateLiteralType",
-                      "start": 346,
-                      "end": 355,
-                      "quasis": [
-                        {
-                          "type": "TemplateElement",
-                          "start": 346,
-                          "end": 352,
-                          "tail": false,
-                          "value": {
-                            "cooked": "abc",
-                            "raw": "abc"
-                          }
-                        },
-                        {
-                          "type": "TemplateElement",
-                          "start": 353,
-                          "end": 355,
-                          "tail": true,
-                          "value": {
-                            "cooked": "",
-                            "raw": ""
-                          }
-                        }
-                      ],
-                      "types": [
-                        {
-                          "type": "TSTypeReference",
-                          "start": 352,
-                          "end": 353,
-                          "typeArguments": null,
-                          "typeName": {
-                            "type": "Identifier",
-                            "start": 352,
-                            "end": 353,
-                            "decorators": [],
-                            "name": "T",
-                            "optional": false,
-                            "typeAnnotation": null
-                          }
-                        }
-                      ]
-                    }
-                  }
-                },
-                "init": {
-                  "type": "TemplateLiteral",
-                  "start": 358,
-                  "end": 367,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 364,
-                      "end": 365,
-                      "decorators": [],
-                      "name": "t",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  ],
-                  "quasis": [
-                    {
-                      "type": "TemplateElement",
-                      "start": 358,
-                      "end": 364,
-                      "tail": false,
-                      "value": {
-                        "cooked": "abc",
-                        "raw": "abc"
-                      }
-                    },
-                    {
-                      "type": "TemplateElement",
-                      "start": 365,
-                      "end": 367,
-                      "tail": true,
-                      "value": {
-                        "cooked": "",
-                        "raw": ""
-                      }
-                    }
-                  ]
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "const"
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -724,6 +17,39 @@ __ESTREE_TEST__:PASS:
         "name": "ft1",
         "optional": false,
         "typeAnnotation": null
+      },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": {
+        "type": "TSTypeParameterDeclaration",
+        "start": 12,
+        "end": 30,
+        "params": [
+          {
+            "type": "TSTypeParameter",
+            "start": 13,
+            "end": 29,
+            "name": {
+              "type": "Identifier",
+              "start": 13,
+              "end": 14,
+              "decorators": [],
+              "name": "T",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": {
+              "type": "TSStringKeyword",
+              "start": 23,
+              "end": 29
+            },
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          }
+        ]
       },
       "params": [
         {
@@ -786,8 +112,8 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 56,
                     "end": 61,
-                    "raw": "'foo'",
-                    "value": "foo"
+                    "value": "foo",
+                    "raw": "'foo'"
                   }
                 },
                 {
@@ -798,8 +124,8 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 64,
                     "end": 69,
-                    "raw": "'bar'",
-                    "value": "bar"
+                    "value": "bar",
+                    "raw": "'bar'"
                   }
                 },
                 {
@@ -810,8 +136,8 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 72,
                     "end": 77,
-                    "raw": "'baz'",
-                    "value": "baz"
+                    "value": "baz",
+                    "raw": "'baz'"
                   }
                 }
               ]
@@ -833,7 +159,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 82,
               "end": 83,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 82,
@@ -842,101 +167,722 @@ __ESTREE_TEST__:PASS:
                 "name": "T",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "typeArguments": null
             }
           }
         }
       ],
       "returnType": null,
-      "typeParameters": {
-        "type": "TSTypeParameterDeclaration",
-        "start": 12,
-        "end": 30,
-        "params": [
+      "body": {
+        "type": "BlockStatement",
+        "start": 85,
+        "end": 370,
+        "body": [
           {
-            "type": "TSTypeParameter",
-            "start": 13,
-            "end": 29,
-            "const": false,
-            "constraint": {
-              "type": "TSStringKeyword",
-              "start": 23,
-              "end": 29
-            },
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 13,
-              "end": 14,
-              "decorators": [],
-              "name": "T",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
+            "type": "VariableDeclaration",
+            "start": 91,
+            "end": 112,
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 97,
+                "end": 111,
+                "id": {
+                  "type": "Identifier",
+                  "start": 97,
+                  "end": 99,
+                  "decorators": [],
+                  "name": "c1",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "init": {
+                  "type": "TemplateLiteral",
+                  "start": 102,
+                  "end": 111,
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 102,
+                      "end": 108,
+                      "value": {
+                        "cooked": "abc",
+                        "raw": "abc"
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 109,
+                      "end": 111,
+                      "value": {
+                        "cooked": "",
+                        "raw": ""
+                      },
+                      "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 108,
+                      "end": 109,
+                      "decorators": [],
+                      "name": "s",
+                      "optional": false,
+                      "typeAnnotation": null
+                    }
+                  ]
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 117,
+            "end": 138,
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 123,
+                "end": 137,
+                "id": {
+                  "type": "Identifier",
+                  "start": 123,
+                  "end": 125,
+                  "decorators": [],
+                  "name": "c2",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "init": {
+                  "type": "TemplateLiteral",
+                  "start": 128,
+                  "end": 137,
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 128,
+                      "end": 134,
+                      "value": {
+                        "cooked": "abc",
+                        "raw": "abc"
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 135,
+                      "end": 137,
+                      "value": {
+                        "cooked": "",
+                        "raw": ""
+                      },
+                      "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 134,
+                      "end": 135,
+                      "decorators": [],
+                      "name": "n",
+                      "optional": false,
+                      "typeAnnotation": null
+                    }
+                  ]
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 143,
+            "end": 164,
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 149,
+                "end": 163,
+                "id": {
+                  "type": "Identifier",
+                  "start": 149,
+                  "end": 151,
+                  "decorators": [],
+                  "name": "c3",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "init": {
+                  "type": "TemplateLiteral",
+                  "start": 154,
+                  "end": 163,
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 154,
+                      "end": 160,
+                      "value": {
+                        "cooked": "abc",
+                        "raw": "abc"
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 161,
+                      "end": 163,
+                      "value": {
+                        "cooked": "",
+                        "raw": ""
+                      },
+                      "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 160,
+                      "end": 161,
+                      "decorators": [],
+                      "name": "u",
+                      "optional": false,
+                      "typeAnnotation": null
+                    }
+                  ]
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 169,
+            "end": 190,
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 175,
+                "end": 189,
+                "id": {
+                  "type": "Identifier",
+                  "start": 175,
+                  "end": 177,
+                  "decorators": [],
+                  "name": "c4",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "init": {
+                  "type": "TemplateLiteral",
+                  "start": 180,
+                  "end": 189,
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 180,
+                      "end": 186,
+                      "value": {
+                        "cooked": "abc",
+                        "raw": "abc"
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 187,
+                      "end": 189,
+                      "value": {
+                        "cooked": "",
+                        "raw": ""
+                      },
+                      "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 186,
+                      "end": 187,
+                      "decorators": [],
+                      "name": "t",
+                      "optional": false,
+                      "typeAnnotation": null
+                    }
+                  ]
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 195,
+            "end": 232,
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 201,
+                "end": 231,
+                "id": {
+                  "type": "Identifier",
+                  "start": 201,
+                  "end": 219,
+                  "decorators": [],
+                  "name": "d1",
+                  "optional": false,
+                  "typeAnnotation": {
+                    "type": "TSTypeAnnotation",
+                    "start": 203,
+                    "end": 219,
+                    "typeAnnotation": {
+                      "type": "TSTemplateLiteralType",
+                      "start": 205,
+                      "end": 219,
+                      "quasis": [
+                        {
+                          "type": "TemplateElement",
+                          "start": 205,
+                          "end": 211,
+                          "value": {
+                            "cooked": "abc",
+                            "raw": "abc"
+                          },
+                          "tail": false
+                        },
+                        {
+                          "type": "TemplateElement",
+                          "start": 217,
+                          "end": 219,
+                          "value": {
+                            "cooked": "",
+                            "raw": ""
+                          },
+                          "tail": true
+                        }
+                      ],
+                      "types": [
+                        {
+                          "type": "TSStringKeyword",
+                          "start": 211,
+                          "end": 217
+                        }
+                      ]
+                    }
+                  }
+                },
+                "init": {
+                  "type": "TemplateLiteral",
+                  "start": 222,
+                  "end": 231,
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 222,
+                      "end": 228,
+                      "value": {
+                        "cooked": "abc",
+                        "raw": "abc"
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 229,
+                      "end": 231,
+                      "value": {
+                        "cooked": "",
+                        "raw": ""
+                      },
+                      "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 228,
+                      "end": 229,
+                      "decorators": [],
+                      "name": "s",
+                      "optional": false,
+                      "typeAnnotation": null
+                    }
+                  ]
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 237,
+            "end": 274,
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 243,
+                "end": 273,
+                "id": {
+                  "type": "Identifier",
+                  "start": 243,
+                  "end": 261,
+                  "decorators": [],
+                  "name": "d2",
+                  "optional": false,
+                  "typeAnnotation": {
+                    "type": "TSTypeAnnotation",
+                    "start": 245,
+                    "end": 261,
+                    "typeAnnotation": {
+                      "type": "TSTemplateLiteralType",
+                      "start": 247,
+                      "end": 261,
+                      "quasis": [
+                        {
+                          "type": "TemplateElement",
+                          "start": 247,
+                          "end": 253,
+                          "value": {
+                            "cooked": "abc",
+                            "raw": "abc"
+                          },
+                          "tail": false
+                        },
+                        {
+                          "type": "TemplateElement",
+                          "start": 259,
+                          "end": 261,
+                          "value": {
+                            "cooked": "",
+                            "raw": ""
+                          },
+                          "tail": true
+                        }
+                      ],
+                      "types": [
+                        {
+                          "type": "TSNumberKeyword",
+                          "start": 253,
+                          "end": 259
+                        }
+                      ]
+                    }
+                  }
+                },
+                "init": {
+                  "type": "TemplateLiteral",
+                  "start": 264,
+                  "end": 273,
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 264,
+                      "end": 270,
+                      "value": {
+                        "cooked": "abc",
+                        "raw": "abc"
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 271,
+                      "end": 273,
+                      "value": {
+                        "cooked": "",
+                        "raw": ""
+                      },
+                      "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 270,
+                      "end": 271,
+                      "decorators": [],
+                      "name": "n",
+                      "optional": false,
+                      "typeAnnotation": null
+                    }
+                  ]
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 279,
+            "end": 331,
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 285,
+                "end": 330,
+                "id": {
+                  "type": "Identifier",
+                  "start": 285,
+                  "end": 318,
+                  "decorators": [],
+                  "name": "d3",
+                  "optional": false,
+                  "typeAnnotation": {
+                    "type": "TSTypeAnnotation",
+                    "start": 287,
+                    "end": 318,
+                    "typeAnnotation": {
+                      "type": "TSTemplateLiteralType",
+                      "start": 289,
+                      "end": 318,
+                      "quasis": [
+                        {
+                          "type": "TemplateElement",
+                          "start": 289,
+                          "end": 295,
+                          "value": {
+                            "cooked": "abc",
+                            "raw": "abc"
+                          },
+                          "tail": false
+                        },
+                        {
+                          "type": "TemplateElement",
+                          "start": 316,
+                          "end": 318,
+                          "value": {
+                            "cooked": "",
+                            "raw": ""
+                          },
+                          "tail": true
+                        }
+                      ],
+                      "types": [
+                        {
+                          "type": "TSUnionType",
+                          "start": 295,
+                          "end": 316,
+                          "types": [
+                            {
+                              "type": "TSLiteralType",
+                              "start": 295,
+                              "end": 300,
+                              "literal": {
+                                "type": "Literal",
+                                "start": 295,
+                                "end": 300,
+                                "value": "foo",
+                                "raw": "'foo'"
+                              }
+                            },
+                            {
+                              "type": "TSLiteralType",
+                              "start": 303,
+                              "end": 308,
+                              "literal": {
+                                "type": "Literal",
+                                "start": 303,
+                                "end": 308,
+                                "value": "bar",
+                                "raw": "'bar'"
+                              }
+                            },
+                            {
+                              "type": "TSLiteralType",
+                              "start": 311,
+                              "end": 316,
+                              "literal": {
+                                "type": "Literal",
+                                "start": 311,
+                                "end": 316,
+                                "value": "baz",
+                                "raw": "'baz'"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                "init": {
+                  "type": "TemplateLiteral",
+                  "start": 321,
+                  "end": 330,
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 321,
+                      "end": 327,
+                      "value": {
+                        "cooked": "abc",
+                        "raw": "abc"
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 328,
+                      "end": 330,
+                      "value": {
+                        "cooked": "",
+                        "raw": ""
+                      },
+                      "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 327,
+                      "end": 328,
+                      "decorators": [],
+                      "name": "u",
+                      "optional": false,
+                      "typeAnnotation": null
+                    }
+                  ]
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 336,
+            "end": 368,
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 342,
+                "end": 367,
+                "id": {
+                  "type": "Identifier",
+                  "start": 342,
+                  "end": 355,
+                  "decorators": [],
+                  "name": "d4",
+                  "optional": false,
+                  "typeAnnotation": {
+                    "type": "TSTypeAnnotation",
+                    "start": 344,
+                    "end": 355,
+                    "typeAnnotation": {
+                      "type": "TSTemplateLiteralType",
+                      "start": 346,
+                      "end": 355,
+                      "quasis": [
+                        {
+                          "type": "TemplateElement",
+                          "start": 346,
+                          "end": 352,
+                          "value": {
+                            "cooked": "abc",
+                            "raw": "abc"
+                          },
+                          "tail": false
+                        },
+                        {
+                          "type": "TemplateElement",
+                          "start": 353,
+                          "end": 355,
+                          "value": {
+                            "cooked": "",
+                            "raw": ""
+                          },
+                          "tail": true
+                        }
+                      ],
+                      "types": [
+                        {
+                          "type": "TSTypeReference",
+                          "start": 352,
+                          "end": 353,
+                          "typeName": {
+                            "type": "Identifier",
+                            "start": 352,
+                            "end": 353,
+                            "decorators": [],
+                            "name": "T",
+                            "optional": false,
+                            "typeAnnotation": null
+                          },
+                          "typeArguments": null
+                        }
+                      ]
+                    }
+                  }
+                },
+                "init": {
+                  "type": "TemplateLiteral",
+                  "start": 358,
+                  "end": 367,
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 358,
+                      "end": 364,
+                      "value": {
+                        "cooked": "abc",
+                        "raw": "abc"
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 365,
+                      "end": 367,
+                      "value": {
+                        "cooked": "",
+                        "raw": ""
+                      },
+                      "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 364,
+                      "end": 365,
+                      "decorators": [],
+                      "name": "t",
+                      "optional": false,
+                      "typeAnnotation": null
+                    }
+                  ]
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 372,
       "end": 421,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 396,
-        "end": 421,
-        "body": [
-          {
-            "type": "ReturnStatement",
-            "start": 402,
-            "end": 419,
-            "argument": {
-              "type": "TemplateLiteral",
-              "start": 409,
-              "end": 418,
-              "expressions": [
-                {
-                  "type": "Identifier",
-                  "start": 415,
-                  "end": 416,
-                  "decorators": [],
-                  "name": "s",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              ],
-              "quasis": [
-                {
-                  "type": "TemplateElement",
-                  "start": 409,
-                  "end": 415,
-                  "tail": false,
-                  "value": {
-                    "cooked": "abc",
-                    "raw": "abc"
-                  }
-                },
-                {
-                  "type": "TemplateElement",
-                  "start": 416,
-                  "end": 418,
-                  "tail": true,
-                  "value": {
-                    "cooked": "",
-                    "raw": ""
-                  }
-                }
-              ]
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 381,
@@ -946,6 +892,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -967,421 +917,62 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 396,
+        "end": 421,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 402,
+            "end": 419,
+            "argument": {
+              "type": "TemplateLiteral",
+              "start": 409,
+              "end": 418,
+              "quasis": [
+                {
+                  "type": "TemplateElement",
+                  "start": 409,
+                  "end": 415,
+                  "value": {
+                    "cooked": "abc",
+                    "raw": "abc"
+                  },
+                  "tail": false
+                },
+                {
+                  "type": "TemplateElement",
+                  "start": 416,
+                  "end": 418,
+                  "value": {
+                    "cooked": "",
+                    "raw": ""
+                  },
+                  "tail": true
+                }
+              ],
+              "expressions": [
+                {
+                  "type": "Identifier",
+                  "start": 415,
+                  "end": 416,
+                  "decorators": [],
+                  "name": "s",
+                  "optional": false,
+                  "typeAnnotation": null
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 423,
       "end": 777,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 448,
-        "end": 777,
-        "body": [
-          {
-            "type": "VariableDeclaration",
-            "start": 454,
-            "end": 475,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 460,
-                "end": 474,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 460,
-                  "end": 462,
-                  "decorators": [],
-                  "name": "c1",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "init": {
-                  "type": "TemplateLiteral",
-                  "start": 465,
-                  "end": 474,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 471,
-                      "end": 472,
-                      "decorators": [],
-                      "name": "s",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  ],
-                  "quasis": [
-                    {
-                      "type": "TemplateElement",
-                      "start": 465,
-                      "end": 471,
-                      "tail": false,
-                      "value": {
-                        "cooked": "abc",
-                        "raw": "abc"
-                      }
-                    },
-                    {
-                      "type": "TemplateElement",
-                      "start": 472,
-                      "end": 474,
-                      "tail": true,
-                      "value": {
-                        "cooked": "",
-                        "raw": ""
-                      }
-                    }
-                  ]
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "const"
-          },
-          {
-            "type": "VariableDeclaration",
-            "start": 496,
-            "end": 508,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 500,
-                "end": 507,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 500,
-                  "end": 502,
-                  "decorators": [],
-                  "name": "v1",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "init": {
-                  "type": "Identifier",
-                  "start": 505,
-                  "end": 507,
-                  "decorators": [],
-                  "name": "c1",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "let"
-          },
-          {
-            "type": "VariableDeclaration",
-            "start": 529,
-            "end": 543,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 535,
-                "end": 542,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 535,
-                  "end": 537,
-                  "decorators": [],
-                  "name": "c2",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "init": {
-                  "type": "Identifier",
-                  "start": 540,
-                  "end": 542,
-                  "decorators": [],
-                  "name": "c1",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "const"
-          },
-          {
-            "type": "VariableDeclaration",
-            "start": 564,
-            "end": 576,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 568,
-                "end": 575,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 568,
-                  "end": 570,
-                  "decorators": [],
-                  "name": "v2",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "init": {
-                  "type": "Identifier",
-                  "start": 573,
-                  "end": 575,
-                  "decorators": [],
-                  "name": "c2",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "let"
-          },
-          {
-            "type": "VariableDeclaration",
-            "start": 597,
-            "end": 634,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 603,
-                "end": 633,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 603,
-                  "end": 621,
-                  "decorators": [],
-                  "name": "c3",
-                  "optional": false,
-                  "typeAnnotation": {
-                    "type": "TSTypeAnnotation",
-                    "start": 605,
-                    "end": 621,
-                    "typeAnnotation": {
-                      "type": "TSTemplateLiteralType",
-                      "start": 607,
-                      "end": 621,
-                      "quasis": [
-                        {
-                          "type": "TemplateElement",
-                          "start": 607,
-                          "end": 613,
-                          "tail": false,
-                          "value": {
-                            "cooked": "abc",
-                            "raw": "abc"
-                          }
-                        },
-                        {
-                          "type": "TemplateElement",
-                          "start": 619,
-                          "end": 621,
-                          "tail": true,
-                          "value": {
-                            "cooked": "",
-                            "raw": ""
-                          }
-                        }
-                      ],
-                      "types": [
-                        {
-                          "type": "TSStringKeyword",
-                          "start": 613,
-                          "end": 619
-                        }
-                      ]
-                    }
-                  }
-                },
-                "init": {
-                  "type": "TemplateLiteral",
-                  "start": 624,
-                  "end": 633,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 630,
-                      "end": 631,
-                      "decorators": [],
-                      "name": "s",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  ],
-                  "quasis": [
-                    {
-                      "type": "TemplateElement",
-                      "start": 624,
-                      "end": 630,
-                      "tail": false,
-                      "value": {
-                        "cooked": "abc",
-                        "raw": "abc"
-                      }
-                    },
-                    {
-                      "type": "TemplateElement",
-                      "start": 631,
-                      "end": 633,
-                      "tail": true,
-                      "value": {
-                        "cooked": "",
-                        "raw": ""
-                      }
-                    }
-                  ]
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "const"
-          },
-          {
-            "type": "VariableDeclaration",
-            "start": 639,
-            "end": 651,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 643,
-                "end": 650,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 643,
-                  "end": 645,
-                  "decorators": [],
-                  "name": "v3",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "init": {
-                  "type": "Identifier",
-                  "start": 648,
-                  "end": 650,
-                  "decorators": [],
-                  "name": "c3",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "let"
-          },
-          {
-            "type": "VariableDeclaration",
-            "start": 680,
-            "end": 710,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 686,
-                "end": 709,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 686,
-                  "end": 704,
-                  "decorators": [],
-                  "name": "c4",
-                  "optional": false,
-                  "typeAnnotation": {
-                    "type": "TSTypeAnnotation",
-                    "start": 688,
-                    "end": 704,
-                    "typeAnnotation": {
-                      "type": "TSTemplateLiteralType",
-                      "start": 690,
-                      "end": 704,
-                      "quasis": [
-                        {
-                          "type": "TemplateElement",
-                          "start": 690,
-                          "end": 696,
-                          "tail": false,
-                          "value": {
-                            "cooked": "abc",
-                            "raw": "abc"
-                          }
-                        },
-                        {
-                          "type": "TemplateElement",
-                          "start": 702,
-                          "end": 704,
-                          "tail": true,
-                          "value": {
-                            "cooked": "",
-                            "raw": ""
-                          }
-                        }
-                      ],
-                      "types": [
-                        {
-                          "type": "TSStringKeyword",
-                          "start": 696,
-                          "end": 702
-                        }
-                      ]
-                    }
-                  }
-                },
-                "init": {
-                  "type": "Identifier",
-                  "start": 707,
-                  "end": 709,
-                  "decorators": [],
-                  "name": "c1",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "const"
-          },
-          {
-            "type": "VariableDeclaration",
-            "start": 739,
-            "end": 751,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 743,
-                "end": 750,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 743,
-                  "end": 745,
-                  "decorators": [],
-                  "name": "v4",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "init": {
-                  "type": "Identifier",
-                  "start": 748,
-                  "end": 750,
-                  "decorators": [],
-                  "name": "c4",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "let"
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 432,
@@ -1391,6 +982,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -1412,545 +1007,87 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
-    },
-    {
-      "type": "FunctionDeclaration",
-      "start": 779,
-      "end": 1385,
-      "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 819,
-        "end": 1385,
+        "start": 448,
+        "end": 777,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 825,
-            "end": 865,
+            "start": 454,
+            "end": 475,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 831,
-                "end": 864,
-                "definite": false,
+                "start": 460,
+                "end": 474,
                 "id": {
                   "type": "Identifier",
-                  "start": 831,
-                  "end": 833,
+                  "start": 460,
+                  "end": 462,
                   "decorators": [],
                   "name": "c1",
                   "optional": false,
                   "typeAnnotation": null
                 },
                 "init": {
-                  "type": "ConditionalExpression",
-                  "start": 836,
-                  "end": 864,
-                  "alternate": {
-                    "type": "TemplateLiteral",
-                    "start": 855,
-                    "end": 864,
-                    "expressions": [
-                      {
-                        "type": "Identifier",
-                        "start": 861,
-                        "end": 862,
-                        "decorators": [],
-                        "name": "s",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    ],
-                    "quasis": [
-                      {
-                        "type": "TemplateElement",
-                        "start": 855,
-                        "end": 861,
-                        "tail": false,
-                        "value": {
-                          "cooked": "bar",
-                          "raw": "bar"
-                        }
+                  "type": "TemplateLiteral",
+                  "start": 465,
+                  "end": 474,
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 465,
+                      "end": 471,
+                      "value": {
+                        "cooked": "abc",
+                        "raw": "abc"
                       },
-                      {
-                        "type": "TemplateElement",
-                        "start": 862,
-                        "end": 864,
-                        "tail": true,
-                        "value": {
-                          "cooked": "",
-                          "raw": ""
-                        }
-                      }
-                    ]
-                  },
-                  "consequent": {
-                    "type": "TemplateLiteral",
-                    "start": 843,
-                    "end": 852,
-                    "expressions": [
-                      {
-                        "type": "Identifier",
-                        "start": 849,
-                        "end": 850,
-                        "decorators": [],
-                        "name": "s",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    ],
-                    "quasis": [
-                      {
-                        "type": "TemplateElement",
-                        "start": 843,
-                        "end": 849,
-                        "tail": false,
-                        "value": {
-                          "cooked": "foo",
-                          "raw": "foo"
-                        }
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 472,
+                      "end": 474,
+                      "value": {
+                        "cooked": "",
+                        "raw": ""
                       },
-                      {
-                        "type": "TemplateElement",
-                        "start": 850,
-                        "end": 852,
-                        "tail": true,
-                        "value": {
-                          "cooked": "",
-                          "raw": ""
-                        }
-                      }
-                    ]
-                  },
-                  "test": {
-                    "type": "Identifier",
-                    "start": 836,
-                    "end": 840,
-                    "decorators": [],
-                    "name": "cond",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "const"
-          },
-          {
-            "type": "VariableDeclaration",
-            "start": 881,
-            "end": 928,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 887,
-                "end": 927,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 887,
-                  "end": 922,
-                  "decorators": [],
-                  "name": "c2",
-                  "optional": false,
-                  "typeAnnotation": {
-                    "type": "TSTypeAnnotation",
-                    "start": 889,
-                    "end": 922,
-                    "typeAnnotation": {
-                      "type": "TSUnionType",
-                      "start": 891,
-                      "end": 922,
-                      "types": [
-                        {
-                          "type": "TSTemplateLiteralType",
-                          "start": 891,
-                          "end": 905,
-                          "quasis": [
-                            {
-                              "type": "TemplateElement",
-                              "start": 891,
-                              "end": 897,
-                              "tail": false,
-                              "value": {
-                                "cooked": "foo",
-                                "raw": "foo"
-                              }
-                            },
-                            {
-                              "type": "TemplateElement",
-                              "start": 903,
-                              "end": 905,
-                              "tail": true,
-                              "value": {
-                                "cooked": "",
-                                "raw": ""
-                              }
-                            }
-                          ],
-                          "types": [
-                            {
-                              "type": "TSStringKeyword",
-                              "start": 897,
-                              "end": 903
-                            }
-                          ]
-                        },
-                        {
-                          "type": "TSTemplateLiteralType",
-                          "start": 908,
-                          "end": 922,
-                          "quasis": [
-                            {
-                              "type": "TemplateElement",
-                              "start": 908,
-                              "end": 914,
-                              "tail": false,
-                              "value": {
-                                "cooked": "bar",
-                                "raw": "bar"
-                              }
-                            },
-                            {
-                              "type": "TemplateElement",
-                              "start": 920,
-                              "end": 922,
-                              "tail": true,
-                              "value": {
-                                "cooked": "",
-                                "raw": ""
-                              }
-                            }
-                          ],
-                          "types": [
-                            {
-                              "type": "TSStringKeyword",
-                              "start": 914,
-                              "end": 920
-                            }
-                          ]
-                        }
-                      ]
+                      "tail": true
                     }
-                  }
-                },
-                "init": {
-                  "type": "Identifier",
-                  "start": 925,
-                  "end": 927,
-                  "decorators": [],
-                  "name": "c1",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "const"
-          },
-          {
-            "type": "VariableDeclaration",
-            "start": 969,
-            "end": 995,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 975,
-                "end": 994,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 975,
-                  "end": 977,
-                  "decorators": [],
-                  "name": "c3",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "init": {
-                  "type": "ConditionalExpression",
-                  "start": 980,
-                  "end": 994,
-                  "alternate": {
-                    "type": "Identifier",
-                    "start": 992,
-                    "end": 994,
-                    "decorators": [],
-                    "name": "c2",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "consequent": {
-                    "type": "Identifier",
-                    "start": 987,
-                    "end": 989,
-                    "decorators": [],
-                    "name": "c1",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "test": {
-                    "type": "Identifier",
-                    "start": 980,
-                    "end": 984,
-                    "decorators": [],
-                    "name": "cond",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "const"
-          },
-          {
-            "type": "VariableDeclaration",
-            "start": 1011,
-            "end": 1044,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 1017,
-                "end": 1043,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 1017,
-                  "end": 1019,
-                  "decorators": [],
-                  "name": "c4",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "init": {
-                  "type": "ConditionalExpression",
-                  "start": 1022,
-                  "end": 1043,
-                  "alternate": {
-                    "type": "TemplateLiteral",
-                    "start": 1034,
-                    "end": 1043,
-                    "expressions": [
-                      {
-                        "type": "Identifier",
-                        "start": 1040,
-                        "end": 1041,
-                        "decorators": [],
-                        "name": "s",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    ],
-                    "quasis": [
-                      {
-                        "type": "TemplateElement",
-                        "start": 1034,
-                        "end": 1040,
-                        "tail": false,
-                        "value": {
-                          "cooked": "baz",
-                          "raw": "baz"
-                        }
-                      },
-                      {
-                        "type": "TemplateElement",
-                        "start": 1041,
-                        "end": 1043,
-                        "tail": true,
-                        "value": {
-                          "cooked": "",
-                          "raw": ""
-                        }
-                      }
-                    ]
-                  },
-                  "consequent": {
-                    "type": "Identifier",
-                    "start": 1029,
-                    "end": 1031,
-                    "decorators": [],
-                    "name": "c3",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "test": {
-                    "type": "Identifier",
-                    "start": 1022,
-                    "end": 1026,
-                    "decorators": [],
-                    "name": "cond",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "const"
-          },
-          {
-            "type": "VariableDeclaration",
-            "start": 1060,
-            "end": 1124,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 1066,
-                "end": 1123,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 1066,
-                  "end": 1118,
-                  "decorators": [],
-                  "name": "c5",
-                  "optional": false,
-                  "typeAnnotation": {
-                    "type": "TSTypeAnnotation",
-                    "start": 1068,
-                    "end": 1118,
-                    "typeAnnotation": {
-                      "type": "TSUnionType",
-                      "start": 1070,
-                      "end": 1118,
-                      "types": [
-                        {
-                          "type": "TSTemplateLiteralType",
-                          "start": 1070,
-                          "end": 1084,
-                          "quasis": [
-                            {
-                              "type": "TemplateElement",
-                              "start": 1070,
-                              "end": 1076,
-                              "tail": false,
-                              "value": {
-                                "cooked": "foo",
-                                "raw": "foo"
-                              }
-                            },
-                            {
-                              "type": "TemplateElement",
-                              "start": 1082,
-                              "end": 1084,
-                              "tail": true,
-                              "value": {
-                                "cooked": "",
-                                "raw": ""
-                              }
-                            }
-                          ],
-                          "types": [
-                            {
-                              "type": "TSStringKeyword",
-                              "start": 1076,
-                              "end": 1082
-                            }
-                          ]
-                        },
-                        {
-                          "type": "TSTemplateLiteralType",
-                          "start": 1087,
-                          "end": 1101,
-                          "quasis": [
-                            {
-                              "type": "TemplateElement",
-                              "start": 1087,
-                              "end": 1093,
-                              "tail": false,
-                              "value": {
-                                "cooked": "bar",
-                                "raw": "bar"
-                              }
-                            },
-                            {
-                              "type": "TemplateElement",
-                              "start": 1099,
-                              "end": 1101,
-                              "tail": true,
-                              "value": {
-                                "cooked": "",
-                                "raw": ""
-                              }
-                            }
-                          ],
-                          "types": [
-                            {
-                              "type": "TSStringKeyword",
-                              "start": 1093,
-                              "end": 1099
-                            }
-                          ]
-                        },
-                        {
-                          "type": "TSTemplateLiteralType",
-                          "start": 1104,
-                          "end": 1118,
-                          "quasis": [
-                            {
-                              "type": "TemplateElement",
-                              "start": 1104,
-                              "end": 1110,
-                              "tail": false,
-                              "value": {
-                                "cooked": "baz",
-                                "raw": "baz"
-                              }
-                            },
-                            {
-                              "type": "TemplateElement",
-                              "start": 1116,
-                              "end": 1118,
-                              "tail": true,
-                              "value": {
-                                "cooked": "",
-                                "raw": ""
-                              }
-                            }
-                          ],
-                          "types": [
-                            {
-                              "type": "TSStringKeyword",
-                              "start": 1110,
-                              "end": 1116
-                            }
-                          ]
-                        }
-                      ]
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 471,
+                      "end": 472,
+                      "decorators": [],
+                      "name": "s",
+                      "optional": false,
+                      "typeAnnotation": null
                     }
-                  }
+                  ]
                 },
-                "init": {
-                  "type": "Identifier",
-                  "start": 1121,
-                  "end": 1123,
-                  "decorators": [],
-                  "name": "c4",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "const"
+            "declare": false
           },
           {
             "type": "VariableDeclaration",
-            "start": 1181,
-            "end": 1193,
+            "start": 496,
+            "end": 508,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 1185,
-                "end": 1192,
-                "definite": false,
+                "start": 500,
+                "end": 507,
                 "id": {
                   "type": "Identifier",
-                  "start": 1185,
-                  "end": 1187,
+                  "start": 500,
+                  "end": 502,
                   "decorators": [],
                   "name": "v1",
                   "optional": false,
@@ -1958,32 +1095,65 @@ __ESTREE_TEST__:PASS:
                 },
                 "init": {
                   "type": "Identifier",
-                  "start": 1190,
-                  "end": 1192,
+                  "start": 505,
+                  "end": 507,
                   "decorators": [],
                   "name": "c1",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "declare": false
           },
           {
             "type": "VariableDeclaration",
-            "start": 1209,
-            "end": 1221,
+            "start": 529,
+            "end": 543,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 1213,
-                "end": 1220,
-                "definite": false,
+                "start": 535,
+                "end": 542,
                 "id": {
                   "type": "Identifier",
-                  "start": 1213,
-                  "end": 1215,
+                  "start": 535,
+                  "end": 537,
+                  "decorators": [],
+                  "name": "c2",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "init": {
+                  "type": "Identifier",
+                  "start": 540,
+                  "end": 542,
+                  "decorators": [],
+                  "name": "c1",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 564,
+            "end": 576,
+            "kind": "let",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 568,
+                "end": 575,
+                "id": {
+                  "type": "Identifier",
+                  "start": 568,
+                  "end": 570,
                   "decorators": [],
                   "name": "v2",
                   "optional": false,
@@ -1991,32 +1161,132 @@ __ESTREE_TEST__:PASS:
                 },
                 "init": {
                   "type": "Identifier",
-                  "start": 1218,
-                  "end": 1220,
+                  "start": 573,
+                  "end": 575,
                   "decorators": [],
                   "name": "c2",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "declare": false
           },
           {
             "type": "VariableDeclaration",
-            "start": 1262,
-            "end": 1274,
+            "start": 597,
+            "end": 634,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 1266,
-                "end": 1273,
-                "definite": false,
+                "start": 603,
+                "end": 633,
                 "id": {
                   "type": "Identifier",
-                  "start": 1266,
-                  "end": 1268,
+                  "start": 603,
+                  "end": 621,
+                  "decorators": [],
+                  "name": "c3",
+                  "optional": false,
+                  "typeAnnotation": {
+                    "type": "TSTypeAnnotation",
+                    "start": 605,
+                    "end": 621,
+                    "typeAnnotation": {
+                      "type": "TSTemplateLiteralType",
+                      "start": 607,
+                      "end": 621,
+                      "quasis": [
+                        {
+                          "type": "TemplateElement",
+                          "start": 607,
+                          "end": 613,
+                          "value": {
+                            "cooked": "abc",
+                            "raw": "abc"
+                          },
+                          "tail": false
+                        },
+                        {
+                          "type": "TemplateElement",
+                          "start": 619,
+                          "end": 621,
+                          "value": {
+                            "cooked": "",
+                            "raw": ""
+                          },
+                          "tail": true
+                        }
+                      ],
+                      "types": [
+                        {
+                          "type": "TSStringKeyword",
+                          "start": 613,
+                          "end": 619
+                        }
+                      ]
+                    }
+                  }
+                },
+                "init": {
+                  "type": "TemplateLiteral",
+                  "start": 624,
+                  "end": 633,
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 624,
+                      "end": 630,
+                      "value": {
+                        "cooked": "abc",
+                        "raw": "abc"
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 631,
+                      "end": 633,
+                      "value": {
+                        "cooked": "",
+                        "raw": ""
+                      },
+                      "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 630,
+                      "end": 631,
+                      "decorators": [],
+                      "name": "s",
+                      "optional": false,
+                      "typeAnnotation": null
+                    }
+                  ]
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 639,
+            "end": 651,
+            "kind": "let",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 643,
+                "end": 650,
+                "id": {
+                  "type": "Identifier",
+                  "start": 643,
+                  "end": 645,
                   "decorators": [],
                   "name": "v3",
                   "optional": false,
@@ -2024,32 +1294,103 @@ __ESTREE_TEST__:PASS:
                 },
                 "init": {
                   "type": "Identifier",
-                  "start": 1271,
-                  "end": 1273,
+                  "start": 648,
+                  "end": 650,
                   "decorators": [],
                   "name": "c3",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "declare": false
           },
           {
             "type": "VariableDeclaration",
-            "start": 1290,
-            "end": 1302,
+            "start": 680,
+            "end": 710,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 1294,
-                "end": 1301,
-                "definite": false,
+                "start": 686,
+                "end": 709,
                 "id": {
                   "type": "Identifier",
-                  "start": 1294,
-                  "end": 1296,
+                  "start": 686,
+                  "end": 704,
+                  "decorators": [],
+                  "name": "c4",
+                  "optional": false,
+                  "typeAnnotation": {
+                    "type": "TSTypeAnnotation",
+                    "start": 688,
+                    "end": 704,
+                    "typeAnnotation": {
+                      "type": "TSTemplateLiteralType",
+                      "start": 690,
+                      "end": 704,
+                      "quasis": [
+                        {
+                          "type": "TemplateElement",
+                          "start": 690,
+                          "end": 696,
+                          "value": {
+                            "cooked": "abc",
+                            "raw": "abc"
+                          },
+                          "tail": false
+                        },
+                        {
+                          "type": "TemplateElement",
+                          "start": 702,
+                          "end": 704,
+                          "value": {
+                            "cooked": "",
+                            "raw": ""
+                          },
+                          "tail": true
+                        }
+                      ],
+                      "types": [
+                        {
+                          "type": "TSStringKeyword",
+                          "start": 696,
+                          "end": 702
+                        }
+                      ]
+                    }
+                  }
+                },
+                "init": {
+                  "type": "Identifier",
+                  "start": 707,
+                  "end": 709,
+                  "decorators": [],
+                  "name": "c1",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 739,
+            "end": 751,
+            "kind": "let",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 743,
+                "end": 750,
+                "id": {
+                  "type": "Identifier",
+                  "start": 743,
+                  "end": 745,
                   "decorators": [],
                   "name": "v4",
                   "optional": false,
@@ -2057,56 +1398,26 @@ __ESTREE_TEST__:PASS:
                 },
                 "init": {
                   "type": "Identifier",
-                  "start": 1299,
-                  "end": 1301,
+                  "start": 748,
+                  "end": 750,
                   "decorators": [],
                   "name": "c4",
                   "optional": false,
                   "typeAnnotation": null
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "let"
-          },
-          {
-            "type": "VariableDeclaration",
-            "start": 1318,
-            "end": 1330,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 1322,
-                "end": 1329,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 1322,
-                  "end": 1324,
-                  "decorators": [],
-                  "name": "v5",
-                  "optional": false,
-                  "typeAnnotation": null
                 },
-                "init": {
-                  "type": "Identifier",
-                  "start": 1327,
-                  "end": 1329,
-                  "decorators": [],
-                  "name": "c5",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "declare": false
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
+      "expression": false
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 779,
+      "end": 1385,
       "id": {
         "type": "Identifier",
         "start": 788,
@@ -2116,6 +1427,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -2155,94 +1470,538 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
-    },
-    {
-      "type": "FunctionDeclaration",
-      "start": 1387,
-      "end": 1689,
-      "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 1412,
-        "end": 1689,
+        "start": 819,
+        "end": 1385,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 1418,
-            "end": 1439,
+            "start": 825,
+            "end": 865,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 1424,
-                "end": 1438,
-                "definite": false,
+                "start": 831,
+                "end": 864,
                 "id": {
                   "type": "Identifier",
-                  "start": 1424,
-                  "end": 1426,
+                  "start": 831,
+                  "end": 833,
                   "decorators": [],
                   "name": "c1",
                   "optional": false,
                   "typeAnnotation": null
                 },
                 "init": {
-                  "type": "TemplateLiteral",
-                  "start": 1429,
-                  "end": 1438,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1435,
-                      "end": 1436,
-                      "decorators": [],
-                      "name": "s",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  ],
-                  "quasis": [
-                    {
-                      "type": "TemplateElement",
-                      "start": 1429,
-                      "end": 1435,
-                      "tail": false,
-                      "value": {
-                        "cooked": "foo",
-                        "raw": "foo"
+                  "type": "ConditionalExpression",
+                  "start": 836,
+                  "end": 864,
+                  "test": {
+                    "type": "Identifier",
+                    "start": 836,
+                    "end": 840,
+                    "decorators": [],
+                    "name": "cond",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "consequent": {
+                    "type": "TemplateLiteral",
+                    "start": 843,
+                    "end": 852,
+                    "quasis": [
+                      {
+                        "type": "TemplateElement",
+                        "start": 843,
+                        "end": 849,
+                        "value": {
+                          "cooked": "foo",
+                          "raw": "foo"
+                        },
+                        "tail": false
+                      },
+                      {
+                        "type": "TemplateElement",
+                        "start": 850,
+                        "end": 852,
+                        "value": {
+                          "cooked": "",
+                          "raw": ""
+                        },
+                        "tail": true
                       }
-                    },
-                    {
-                      "type": "TemplateElement",
-                      "start": 1436,
-                      "end": 1438,
-                      "tail": true,
-                      "value": {
-                        "cooked": "",
-                        "raw": ""
+                    ],
+                    "expressions": [
+                      {
+                        "type": "Identifier",
+                        "start": 849,
+                        "end": 850,
+                        "decorators": [],
+                        "name": "s",
+                        "optional": false,
+                        "typeAnnotation": null
                       }
-                    }
-                  ]
-                }
+                    ]
+                  },
+                  "alternate": {
+                    "type": "TemplateLiteral",
+                    "start": 855,
+                    "end": 864,
+                    "quasis": [
+                      {
+                        "type": "TemplateElement",
+                        "start": 855,
+                        "end": 861,
+                        "value": {
+                          "cooked": "bar",
+                          "raw": "bar"
+                        },
+                        "tail": false
+                      },
+                      {
+                        "type": "TemplateElement",
+                        "start": 862,
+                        "end": 864,
+                        "value": {
+                          "cooked": "",
+                          "raw": ""
+                        },
+                        "tail": true
+                      }
+                    ],
+                    "expressions": [
+                      {
+                        "type": "Identifier",
+                        "start": 861,
+                        "end": 862,
+                        "decorators": [],
+                        "name": "s",
+                        "optional": false,
+                        "typeAnnotation": null
+                      }
+                    ]
+                  }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "const"
+            "declare": false
           },
           {
             "type": "VariableDeclaration",
-            "start": 1444,
-            "end": 1456,
+            "start": 881,
+            "end": 928,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 1448,
-                "end": 1455,
-                "definite": false,
+                "start": 887,
+                "end": 927,
                 "id": {
                   "type": "Identifier",
-                  "start": 1448,
-                  "end": 1450,
+                  "start": 887,
+                  "end": 922,
+                  "decorators": [],
+                  "name": "c2",
+                  "optional": false,
+                  "typeAnnotation": {
+                    "type": "TSTypeAnnotation",
+                    "start": 889,
+                    "end": 922,
+                    "typeAnnotation": {
+                      "type": "TSUnionType",
+                      "start": 891,
+                      "end": 922,
+                      "types": [
+                        {
+                          "type": "TSTemplateLiteralType",
+                          "start": 891,
+                          "end": 905,
+                          "quasis": [
+                            {
+                              "type": "TemplateElement",
+                              "start": 891,
+                              "end": 897,
+                              "value": {
+                                "cooked": "foo",
+                                "raw": "foo"
+                              },
+                              "tail": false
+                            },
+                            {
+                              "type": "TemplateElement",
+                              "start": 903,
+                              "end": 905,
+                              "value": {
+                                "cooked": "",
+                                "raw": ""
+                              },
+                              "tail": true
+                            }
+                          ],
+                          "types": [
+                            {
+                              "type": "TSStringKeyword",
+                              "start": 897,
+                              "end": 903
+                            }
+                          ]
+                        },
+                        {
+                          "type": "TSTemplateLiteralType",
+                          "start": 908,
+                          "end": 922,
+                          "quasis": [
+                            {
+                              "type": "TemplateElement",
+                              "start": 908,
+                              "end": 914,
+                              "value": {
+                                "cooked": "bar",
+                                "raw": "bar"
+                              },
+                              "tail": false
+                            },
+                            {
+                              "type": "TemplateElement",
+                              "start": 920,
+                              "end": 922,
+                              "value": {
+                                "cooked": "",
+                                "raw": ""
+                              },
+                              "tail": true
+                            }
+                          ],
+                          "types": [
+                            {
+                              "type": "TSStringKeyword",
+                              "start": 914,
+                              "end": 920
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                "init": {
+                  "type": "Identifier",
+                  "start": 925,
+                  "end": 927,
+                  "decorators": [],
+                  "name": "c1",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 969,
+            "end": 995,
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 975,
+                "end": 994,
+                "id": {
+                  "type": "Identifier",
+                  "start": 975,
+                  "end": 977,
+                  "decorators": [],
+                  "name": "c3",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "init": {
+                  "type": "ConditionalExpression",
+                  "start": 980,
+                  "end": 994,
+                  "test": {
+                    "type": "Identifier",
+                    "start": 980,
+                    "end": 984,
+                    "decorators": [],
+                    "name": "cond",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "consequent": {
+                    "type": "Identifier",
+                    "start": 987,
+                    "end": 989,
+                    "decorators": [],
+                    "name": "c1",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "alternate": {
+                    "type": "Identifier",
+                    "start": 992,
+                    "end": 994,
+                    "decorators": [],
+                    "name": "c2",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 1011,
+            "end": 1044,
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 1017,
+                "end": 1043,
+                "id": {
+                  "type": "Identifier",
+                  "start": 1017,
+                  "end": 1019,
+                  "decorators": [],
+                  "name": "c4",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "init": {
+                  "type": "ConditionalExpression",
+                  "start": 1022,
+                  "end": 1043,
+                  "test": {
+                    "type": "Identifier",
+                    "start": 1022,
+                    "end": 1026,
+                    "decorators": [],
+                    "name": "cond",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "consequent": {
+                    "type": "Identifier",
+                    "start": 1029,
+                    "end": 1031,
+                    "decorators": [],
+                    "name": "c3",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "alternate": {
+                    "type": "TemplateLiteral",
+                    "start": 1034,
+                    "end": 1043,
+                    "quasis": [
+                      {
+                        "type": "TemplateElement",
+                        "start": 1034,
+                        "end": 1040,
+                        "value": {
+                          "cooked": "baz",
+                          "raw": "baz"
+                        },
+                        "tail": false
+                      },
+                      {
+                        "type": "TemplateElement",
+                        "start": 1041,
+                        "end": 1043,
+                        "value": {
+                          "cooked": "",
+                          "raw": ""
+                        },
+                        "tail": true
+                      }
+                    ],
+                    "expressions": [
+                      {
+                        "type": "Identifier",
+                        "start": 1040,
+                        "end": 1041,
+                        "decorators": [],
+                        "name": "s",
+                        "optional": false,
+                        "typeAnnotation": null
+                      }
+                    ]
+                  }
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 1060,
+            "end": 1124,
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 1066,
+                "end": 1123,
+                "id": {
+                  "type": "Identifier",
+                  "start": 1066,
+                  "end": 1118,
+                  "decorators": [],
+                  "name": "c5",
+                  "optional": false,
+                  "typeAnnotation": {
+                    "type": "TSTypeAnnotation",
+                    "start": 1068,
+                    "end": 1118,
+                    "typeAnnotation": {
+                      "type": "TSUnionType",
+                      "start": 1070,
+                      "end": 1118,
+                      "types": [
+                        {
+                          "type": "TSTemplateLiteralType",
+                          "start": 1070,
+                          "end": 1084,
+                          "quasis": [
+                            {
+                              "type": "TemplateElement",
+                              "start": 1070,
+                              "end": 1076,
+                              "value": {
+                                "cooked": "foo",
+                                "raw": "foo"
+                              },
+                              "tail": false
+                            },
+                            {
+                              "type": "TemplateElement",
+                              "start": 1082,
+                              "end": 1084,
+                              "value": {
+                                "cooked": "",
+                                "raw": ""
+                              },
+                              "tail": true
+                            }
+                          ],
+                          "types": [
+                            {
+                              "type": "TSStringKeyword",
+                              "start": 1076,
+                              "end": 1082
+                            }
+                          ]
+                        },
+                        {
+                          "type": "TSTemplateLiteralType",
+                          "start": 1087,
+                          "end": 1101,
+                          "quasis": [
+                            {
+                              "type": "TemplateElement",
+                              "start": 1087,
+                              "end": 1093,
+                              "value": {
+                                "cooked": "bar",
+                                "raw": "bar"
+                              },
+                              "tail": false
+                            },
+                            {
+                              "type": "TemplateElement",
+                              "start": 1099,
+                              "end": 1101,
+                              "value": {
+                                "cooked": "",
+                                "raw": ""
+                              },
+                              "tail": true
+                            }
+                          ],
+                          "types": [
+                            {
+                              "type": "TSStringKeyword",
+                              "start": 1093,
+                              "end": 1099
+                            }
+                          ]
+                        },
+                        {
+                          "type": "TSTemplateLiteralType",
+                          "start": 1104,
+                          "end": 1118,
+                          "quasis": [
+                            {
+                              "type": "TemplateElement",
+                              "start": 1104,
+                              "end": 1110,
+                              "value": {
+                                "cooked": "baz",
+                                "raw": "baz"
+                              },
+                              "tail": false
+                            },
+                            {
+                              "type": "TemplateElement",
+                              "start": 1116,
+                              "end": 1118,
+                              "value": {
+                                "cooked": "",
+                                "raw": ""
+                              },
+                              "tail": true
+                            }
+                          ],
+                          "types": [
+                            {
+                              "type": "TSStringKeyword",
+                              "start": 1110,
+                              "end": 1116
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                "init": {
+                  "type": "Identifier",
+                  "start": 1121,
+                  "end": 1123,
+                  "decorators": [],
+                  "name": "c4",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 1181,
+            "end": 1193,
+            "kind": "let",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 1185,
+                "end": 1192,
+                "id": {
+                  "type": "Identifier",
+                  "start": 1185,
+                  "end": 1187,
                   "decorators": [],
                   "name": "v1",
                   "optional": false,
@@ -2250,132 +2009,32 @@ __ESTREE_TEST__:PASS:
                 },
                 "init": {
                   "type": "Identifier",
-                  "start": 1453,
-                  "end": 1455,
+                  "start": 1190,
+                  "end": 1192,
                   "decorators": [],
                   "name": "c1",
                   "optional": false,
                   "typeAnnotation": null
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "let"
-          },
-          {
-            "type": "VariableDeclaration",
-            "start": 1461,
-            "end": 1498,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 1467,
-                "end": 1497,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 1467,
-                  "end": 1485,
-                  "decorators": [],
-                  "name": "c2",
-                  "optional": false,
-                  "typeAnnotation": {
-                    "type": "TSTypeAnnotation",
-                    "start": 1469,
-                    "end": 1485,
-                    "typeAnnotation": {
-                      "type": "TSTemplateLiteralType",
-                      "start": 1471,
-                      "end": 1485,
-                      "quasis": [
-                        {
-                          "type": "TemplateElement",
-                          "start": 1471,
-                          "end": 1477,
-                          "tail": false,
-                          "value": {
-                            "cooked": "foo",
-                            "raw": "foo"
-                          }
-                        },
-                        {
-                          "type": "TemplateElement",
-                          "start": 1483,
-                          "end": 1485,
-                          "tail": true,
-                          "value": {
-                            "cooked": "",
-                            "raw": ""
-                          }
-                        }
-                      ],
-                      "types": [
-                        {
-                          "type": "TSStringKeyword",
-                          "start": 1477,
-                          "end": 1483
-                        }
-                      ]
-                    }
-                  }
                 },
-                "init": {
-                  "type": "TemplateLiteral",
-                  "start": 1488,
-                  "end": 1497,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1494,
-                      "end": 1495,
-                      "decorators": [],
-                      "name": "s",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  ],
-                  "quasis": [
-                    {
-                      "type": "TemplateElement",
-                      "start": 1488,
-                      "end": 1494,
-                      "tail": false,
-                      "value": {
-                        "cooked": "foo",
-                        "raw": "foo"
-                      }
-                    },
-                    {
-                      "type": "TemplateElement",
-                      "start": 1495,
-                      "end": 1497,
-                      "tail": true,
-                      "value": {
-                        "cooked": "",
-                        "raw": ""
-                      }
-                    }
-                  ]
-                }
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "const"
+            "declare": false
           },
           {
             "type": "VariableDeclaration",
-            "start": 1503,
-            "end": 1515,
+            "start": 1209,
+            "end": 1221,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 1507,
-                "end": 1514,
-                "definite": false,
+                "start": 1213,
+                "end": 1220,
                 "id": {
                   "type": "Identifier",
-                  "start": 1507,
-                  "end": 1509,
+                  "start": 1213,
+                  "end": 1215,
                   "decorators": [],
                   "name": "v2",
                   "optional": false,
@@ -2383,133 +2042,32 @@ __ESTREE_TEST__:PASS:
                 },
                 "init": {
                   "type": "Identifier",
-                  "start": 1512,
-                  "end": 1514,
+                  "start": 1218,
+                  "end": 1220,
                   "decorators": [],
                   "name": "c2",
                   "optional": false,
                   "typeAnnotation": null
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "let"
-          },
-          {
-            "type": "VariableDeclaration",
-            "start": 1520,
-            "end": 1559,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 1526,
-                "end": 1558,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 1526,
-                  "end": 1528,
-                  "decorators": [],
-                  "name": "c3",
-                  "optional": false,
-                  "typeAnnotation": null
                 },
-                "init": {
-                  "type": "TSAsExpression",
-                  "start": 1531,
-                  "end": 1558,
-                  "expression": {
-                    "type": "TemplateLiteral",
-                    "start": 1531,
-                    "end": 1540,
-                    "expressions": [
-                      {
-                        "type": "Identifier",
-                        "start": 1537,
-                        "end": 1538,
-                        "decorators": [],
-                        "name": "s",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    ],
-                    "quasis": [
-                      {
-                        "type": "TemplateElement",
-                        "start": 1531,
-                        "end": 1537,
-                        "tail": false,
-                        "value": {
-                          "cooked": "foo",
-                          "raw": "foo"
-                        }
-                      },
-                      {
-                        "type": "TemplateElement",
-                        "start": 1538,
-                        "end": 1540,
-                        "tail": true,
-                        "value": {
-                          "cooked": "",
-                          "raw": ""
-                        }
-                      }
-                    ]
-                  },
-                  "typeAnnotation": {
-                    "type": "TSTemplateLiteralType",
-                    "start": 1544,
-                    "end": 1558,
-                    "quasis": [
-                      {
-                        "type": "TemplateElement",
-                        "start": 1544,
-                        "end": 1550,
-                        "tail": false,
-                        "value": {
-                          "cooked": "foo",
-                          "raw": "foo"
-                        }
-                      },
-                      {
-                        "type": "TemplateElement",
-                        "start": 1556,
-                        "end": 1558,
-                        "tail": true,
-                        "value": {
-                          "cooked": "",
-                          "raw": ""
-                        }
-                      }
-                    ],
-                    "types": [
-                      {
-                        "type": "TSStringKeyword",
-                        "start": 1550,
-                        "end": 1556
-                      }
-                    ]
-                  }
-                }
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "const"
+            "declare": false
           },
           {
             "type": "VariableDeclaration",
-            "start": 1564,
-            "end": 1576,
+            "start": 1262,
+            "end": 1274,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 1568,
-                "end": 1575,
-                "definite": false,
+                "start": 1266,
+                "end": 1273,
                 "id": {
                   "type": "Identifier",
-                  "start": 1568,
-                  "end": 1570,
+                  "start": 1266,
+                  "end": 1268,
                   "decorators": [],
                   "name": "v3",
                   "optional": false,
@@ -2517,133 +2075,32 @@ __ESTREE_TEST__:PASS:
                 },
                 "init": {
                   "type": "Identifier",
-                  "start": 1573,
-                  "end": 1575,
+                  "start": 1271,
+                  "end": 1273,
                   "decorators": [],
                   "name": "c3",
                   "optional": false,
                   "typeAnnotation": null
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "let"
-          },
-          {
-            "type": "VariableDeclaration",
-            "start": 1581,
-            "end": 1618,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 1587,
-                "end": 1617,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 1587,
-                  "end": 1589,
-                  "decorators": [],
-                  "name": "c4",
-                  "optional": false,
-                  "typeAnnotation": null
                 },
-                "init": {
-                  "type": "TSTypeAssertion",
-                  "start": 1592,
-                  "end": 1617,
-                  "expression": {
-                    "type": "TemplateLiteral",
-                    "start": 1608,
-                    "end": 1617,
-                    "expressions": [
-                      {
-                        "type": "Identifier",
-                        "start": 1614,
-                        "end": 1615,
-                        "decorators": [],
-                        "name": "s",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    ],
-                    "quasis": [
-                      {
-                        "type": "TemplateElement",
-                        "start": 1608,
-                        "end": 1614,
-                        "tail": false,
-                        "value": {
-                          "cooked": "foo",
-                          "raw": "foo"
-                        }
-                      },
-                      {
-                        "type": "TemplateElement",
-                        "start": 1615,
-                        "end": 1617,
-                        "tail": true,
-                        "value": {
-                          "cooked": "",
-                          "raw": ""
-                        }
-                      }
-                    ]
-                  },
-                  "typeAnnotation": {
-                    "type": "TSTemplateLiteralType",
-                    "start": 1593,
-                    "end": 1607,
-                    "quasis": [
-                      {
-                        "type": "TemplateElement",
-                        "start": 1593,
-                        "end": 1599,
-                        "tail": false,
-                        "value": {
-                          "cooked": "foo",
-                          "raw": "foo"
-                        }
-                      },
-                      {
-                        "type": "TemplateElement",
-                        "start": 1605,
-                        "end": 1607,
-                        "tail": true,
-                        "value": {
-                          "cooked": "",
-                          "raw": ""
-                        }
-                      }
-                    ],
-                    "types": [
-                      {
-                        "type": "TSStringKeyword",
-                        "start": 1599,
-                        "end": 1605
-                      }
-                    ]
-                  }
-                }
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "const"
+            "declare": false
           },
           {
             "type": "VariableDeclaration",
-            "start": 1623,
-            "end": 1635,
+            "start": 1290,
+            "end": 1302,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 1627,
-                "end": 1634,
-                "definite": false,
+                "start": 1294,
+                "end": 1301,
                 "id": {
                   "type": "Identifier",
-                  "start": 1627,
-                  "end": 1629,
+                  "start": 1294,
+                  "end": 1296,
                   "decorators": [],
                   "name": "v4",
                   "optional": false,
@@ -2651,114 +2108,32 @@ __ESTREE_TEST__:PASS:
                 },
                 "init": {
                   "type": "Identifier",
-                  "start": 1632,
-                  "end": 1634,
+                  "start": 1299,
+                  "end": 1301,
                   "decorators": [],
                   "name": "c4",
                   "optional": false,
                   "typeAnnotation": null
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "let"
-          },
-          {
-            "type": "VariableDeclaration",
-            "start": 1640,
-            "end": 1670,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 1646,
-                "end": 1669,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 1646,
-                  "end": 1648,
-                  "decorators": [],
-                  "name": "c5",
-                  "optional": false,
-                  "typeAnnotation": null
                 },
-                "init": {
-                  "type": "TSAsExpression",
-                  "start": 1651,
-                  "end": 1669,
-                  "expression": {
-                    "type": "TemplateLiteral",
-                    "start": 1651,
-                    "end": 1660,
-                    "expressions": [
-                      {
-                        "type": "Identifier",
-                        "start": 1657,
-                        "end": 1658,
-                        "decorators": [],
-                        "name": "s",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    ],
-                    "quasis": [
-                      {
-                        "type": "TemplateElement",
-                        "start": 1651,
-                        "end": 1657,
-                        "tail": false,
-                        "value": {
-                          "cooked": "foo",
-                          "raw": "foo"
-                        }
-                      },
-                      {
-                        "type": "TemplateElement",
-                        "start": 1658,
-                        "end": 1660,
-                        "tail": true,
-                        "value": {
-                          "cooked": "",
-                          "raw": ""
-                        }
-                      }
-                    ]
-                  },
-                  "typeAnnotation": {
-                    "type": "TSTypeReference",
-                    "start": 1664,
-                    "end": 1669,
-                    "typeArguments": null,
-                    "typeName": {
-                      "type": "Identifier",
-                      "start": 1664,
-                      "end": 1669,
-                      "decorators": [],
-                      "name": "const",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  }
-                }
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "const"
+            "declare": false
           },
           {
             "type": "VariableDeclaration",
-            "start": 1675,
-            "end": 1687,
+            "start": 1318,
+            "end": 1330,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 1679,
-                "end": 1686,
-                "definite": false,
+                "start": 1322,
+                "end": 1329,
                 "id": {
                   "type": "Identifier",
-                  "start": 1679,
-                  "end": 1681,
+                  "start": 1322,
+                  "end": 1324,
                   "decorators": [],
                   "name": "v5",
                   "optional": false,
@@ -2766,23 +2141,26 @@ __ESTREE_TEST__:PASS:
                 },
                 "init": {
                   "type": "Identifier",
-                  "start": 1684,
-                  "end": 1686,
+                  "start": 1327,
+                  "end": 1329,
                   "decorators": [],
                   "name": "c5",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "declare": false
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
+      "expression": false
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 1387,
+      "end": 1689,
       "id": {
         "type": "Identifier",
         "start": 1396,
@@ -2792,6 +2170,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -2813,17 +2195,630 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 1412,
+        "end": 1689,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 1418,
+            "end": 1439,
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 1424,
+                "end": 1438,
+                "id": {
+                  "type": "Identifier",
+                  "start": 1424,
+                  "end": 1426,
+                  "decorators": [],
+                  "name": "c1",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "init": {
+                  "type": "TemplateLiteral",
+                  "start": 1429,
+                  "end": 1438,
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 1429,
+                      "end": 1435,
+                      "value": {
+                        "cooked": "foo",
+                        "raw": "foo"
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 1436,
+                      "end": 1438,
+                      "value": {
+                        "cooked": "",
+                        "raw": ""
+                      },
+                      "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1435,
+                      "end": 1436,
+                      "decorators": [],
+                      "name": "s",
+                      "optional": false,
+                      "typeAnnotation": null
+                    }
+                  ]
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 1444,
+            "end": 1456,
+            "kind": "let",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 1448,
+                "end": 1455,
+                "id": {
+                  "type": "Identifier",
+                  "start": 1448,
+                  "end": 1450,
+                  "decorators": [],
+                  "name": "v1",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "init": {
+                  "type": "Identifier",
+                  "start": 1453,
+                  "end": 1455,
+                  "decorators": [],
+                  "name": "c1",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 1461,
+            "end": 1498,
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 1467,
+                "end": 1497,
+                "id": {
+                  "type": "Identifier",
+                  "start": 1467,
+                  "end": 1485,
+                  "decorators": [],
+                  "name": "c2",
+                  "optional": false,
+                  "typeAnnotation": {
+                    "type": "TSTypeAnnotation",
+                    "start": 1469,
+                    "end": 1485,
+                    "typeAnnotation": {
+                      "type": "TSTemplateLiteralType",
+                      "start": 1471,
+                      "end": 1485,
+                      "quasis": [
+                        {
+                          "type": "TemplateElement",
+                          "start": 1471,
+                          "end": 1477,
+                          "value": {
+                            "cooked": "foo",
+                            "raw": "foo"
+                          },
+                          "tail": false
+                        },
+                        {
+                          "type": "TemplateElement",
+                          "start": 1483,
+                          "end": 1485,
+                          "value": {
+                            "cooked": "",
+                            "raw": ""
+                          },
+                          "tail": true
+                        }
+                      ],
+                      "types": [
+                        {
+                          "type": "TSStringKeyword",
+                          "start": 1477,
+                          "end": 1483
+                        }
+                      ]
+                    }
+                  }
+                },
+                "init": {
+                  "type": "TemplateLiteral",
+                  "start": 1488,
+                  "end": 1497,
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 1488,
+                      "end": 1494,
+                      "value": {
+                        "cooked": "foo",
+                        "raw": "foo"
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 1495,
+                      "end": 1497,
+                      "value": {
+                        "cooked": "",
+                        "raw": ""
+                      },
+                      "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1494,
+                      "end": 1495,
+                      "decorators": [],
+                      "name": "s",
+                      "optional": false,
+                      "typeAnnotation": null
+                    }
+                  ]
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 1503,
+            "end": 1515,
+            "kind": "let",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 1507,
+                "end": 1514,
+                "id": {
+                  "type": "Identifier",
+                  "start": 1507,
+                  "end": 1509,
+                  "decorators": [],
+                  "name": "v2",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "init": {
+                  "type": "Identifier",
+                  "start": 1512,
+                  "end": 1514,
+                  "decorators": [],
+                  "name": "c2",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 1520,
+            "end": 1559,
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 1526,
+                "end": 1558,
+                "id": {
+                  "type": "Identifier",
+                  "start": 1526,
+                  "end": 1528,
+                  "decorators": [],
+                  "name": "c3",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "init": {
+                  "type": "TSAsExpression",
+                  "start": 1531,
+                  "end": 1558,
+                  "expression": {
+                    "type": "TemplateLiteral",
+                    "start": 1531,
+                    "end": 1540,
+                    "quasis": [
+                      {
+                        "type": "TemplateElement",
+                        "start": 1531,
+                        "end": 1537,
+                        "value": {
+                          "cooked": "foo",
+                          "raw": "foo"
+                        },
+                        "tail": false
+                      },
+                      {
+                        "type": "TemplateElement",
+                        "start": 1538,
+                        "end": 1540,
+                        "value": {
+                          "cooked": "",
+                          "raw": ""
+                        },
+                        "tail": true
+                      }
+                    ],
+                    "expressions": [
+                      {
+                        "type": "Identifier",
+                        "start": 1537,
+                        "end": 1538,
+                        "decorators": [],
+                        "name": "s",
+                        "optional": false,
+                        "typeAnnotation": null
+                      }
+                    ]
+                  },
+                  "typeAnnotation": {
+                    "type": "TSTemplateLiteralType",
+                    "start": 1544,
+                    "end": 1558,
+                    "quasis": [
+                      {
+                        "type": "TemplateElement",
+                        "start": 1544,
+                        "end": 1550,
+                        "value": {
+                          "cooked": "foo",
+                          "raw": "foo"
+                        },
+                        "tail": false
+                      },
+                      {
+                        "type": "TemplateElement",
+                        "start": 1556,
+                        "end": 1558,
+                        "value": {
+                          "cooked": "",
+                          "raw": ""
+                        },
+                        "tail": true
+                      }
+                    ],
+                    "types": [
+                      {
+                        "type": "TSStringKeyword",
+                        "start": 1550,
+                        "end": 1556
+                      }
+                    ]
+                  }
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 1564,
+            "end": 1576,
+            "kind": "let",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 1568,
+                "end": 1575,
+                "id": {
+                  "type": "Identifier",
+                  "start": 1568,
+                  "end": 1570,
+                  "decorators": [],
+                  "name": "v3",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "init": {
+                  "type": "Identifier",
+                  "start": 1573,
+                  "end": 1575,
+                  "decorators": [],
+                  "name": "c3",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 1581,
+            "end": 1618,
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 1587,
+                "end": 1617,
+                "id": {
+                  "type": "Identifier",
+                  "start": 1587,
+                  "end": 1589,
+                  "decorators": [],
+                  "name": "c4",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "init": {
+                  "type": "TSTypeAssertion",
+                  "start": 1592,
+                  "end": 1617,
+                  "typeAnnotation": {
+                    "type": "TSTemplateLiteralType",
+                    "start": 1593,
+                    "end": 1607,
+                    "quasis": [
+                      {
+                        "type": "TemplateElement",
+                        "start": 1593,
+                        "end": 1599,
+                        "value": {
+                          "cooked": "foo",
+                          "raw": "foo"
+                        },
+                        "tail": false
+                      },
+                      {
+                        "type": "TemplateElement",
+                        "start": 1605,
+                        "end": 1607,
+                        "value": {
+                          "cooked": "",
+                          "raw": ""
+                        },
+                        "tail": true
+                      }
+                    ],
+                    "types": [
+                      {
+                        "type": "TSStringKeyword",
+                        "start": 1599,
+                        "end": 1605
+                      }
+                    ]
+                  },
+                  "expression": {
+                    "type": "TemplateLiteral",
+                    "start": 1608,
+                    "end": 1617,
+                    "quasis": [
+                      {
+                        "type": "TemplateElement",
+                        "start": 1608,
+                        "end": 1614,
+                        "value": {
+                          "cooked": "foo",
+                          "raw": "foo"
+                        },
+                        "tail": false
+                      },
+                      {
+                        "type": "TemplateElement",
+                        "start": 1615,
+                        "end": 1617,
+                        "value": {
+                          "cooked": "",
+                          "raw": ""
+                        },
+                        "tail": true
+                      }
+                    ],
+                    "expressions": [
+                      {
+                        "type": "Identifier",
+                        "start": 1614,
+                        "end": 1615,
+                        "decorators": [],
+                        "name": "s",
+                        "optional": false,
+                        "typeAnnotation": null
+                      }
+                    ]
+                  }
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 1623,
+            "end": 1635,
+            "kind": "let",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 1627,
+                "end": 1634,
+                "id": {
+                  "type": "Identifier",
+                  "start": 1627,
+                  "end": 1629,
+                  "decorators": [],
+                  "name": "v4",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "init": {
+                  "type": "Identifier",
+                  "start": 1632,
+                  "end": 1634,
+                  "decorators": [],
+                  "name": "c4",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 1640,
+            "end": 1670,
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 1646,
+                "end": 1669,
+                "id": {
+                  "type": "Identifier",
+                  "start": 1646,
+                  "end": 1648,
+                  "decorators": [],
+                  "name": "c5",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "init": {
+                  "type": "TSAsExpression",
+                  "start": 1651,
+                  "end": 1669,
+                  "expression": {
+                    "type": "TemplateLiteral",
+                    "start": 1651,
+                    "end": 1660,
+                    "quasis": [
+                      {
+                        "type": "TemplateElement",
+                        "start": 1651,
+                        "end": 1657,
+                        "value": {
+                          "cooked": "foo",
+                          "raw": "foo"
+                        },
+                        "tail": false
+                      },
+                      {
+                        "type": "TemplateElement",
+                        "start": 1658,
+                        "end": 1660,
+                        "value": {
+                          "cooked": "",
+                          "raw": ""
+                        },
+                        "tail": true
+                      }
+                    ],
+                    "expressions": [
+                      {
+                        "type": "Identifier",
+                        "start": 1657,
+                        "end": 1658,
+                        "decorators": [],
+                        "name": "s",
+                        "optional": false,
+                        "typeAnnotation": null
+                      }
+                    ]
+                  },
+                  "typeAnnotation": {
+                    "type": "TSTypeReference",
+                    "start": 1664,
+                    "end": 1669,
+                    "typeName": {
+                      "type": "Identifier",
+                      "start": 1664,
+                      "end": 1669,
+                      "decorators": [],
+                      "name": "const",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeArguments": null
+                  }
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 1675,
+            "end": 1687,
+            "kind": "let",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 1679,
+                "end": 1686,
+                "id": {
+                  "type": "Identifier",
+                  "start": 1679,
+                  "end": 1681,
+                  "decorators": [],
+                  "name": "v5",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "init": {
+                  "type": "Identifier",
+                  "start": 1684,
+                  "end": 1686,
+                  "decorators": [],
+                  "name": "c5",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          }
+        ]
+      },
+      "expression": false
     },
     {
       "type": "TSDeclareFunction",
       "start": 1691,
       "end": 1729,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 1708,
@@ -2832,6 +2827,35 @@ __ESTREE_TEST__:PASS:
         "name": "widening",
         "optional": false,
         "typeAnnotation": null
+      },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": {
+        "type": "TSTypeParameterDeclaration",
+        "start": 1716,
+        "end": 1719,
+        "params": [
+          {
+            "type": "TSTypeParameter",
+            "start": 1717,
+            "end": 1718,
+            "name": {
+              "type": "Identifier",
+              "start": 1717,
+              "end": 1718,
+              "decorators": [],
+              "name": "T",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          }
+        ]
       },
       "params": [
         {
@@ -2849,7 +2873,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 1723,
               "end": 1724,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 1723,
@@ -2858,7 +2881,8 @@ __ESTREE_TEST__:PASS:
                 "name": "T",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "typeArguments": null
             }
           }
         }
@@ -2871,7 +2895,6 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 1727,
           "end": 1728,
-          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 1727,
@@ -2880,45 +2903,17 @@ __ESTREE_TEST__:PASS:
             "name": "T",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "typeArguments": null
         }
       },
-      "typeParameters": {
-        "type": "TSTypeParameterDeclaration",
-        "start": 1716,
-        "end": 1719,
-        "params": [
-          {
-            "type": "TSTypeParameter",
-            "start": 1717,
-            "end": 1718,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 1717,
-              "end": 1718,
-              "decorators": [],
-              "name": "T",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          }
-        ]
-      }
+      "body": null,
+      "expression": false
     },
     {
       "type": "TSDeclareFunction",
       "start": 1730,
       "end": 1804,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 1747,
@@ -2928,56 +2923,9 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "params": [
-        {
-          "type": "Identifier",
-          "start": 1795,
-          "end": 1799,
-          "decorators": [],
-          "name": "x",
-          "optional": false,
-          "typeAnnotation": {
-            "type": "TSTypeAnnotation",
-            "start": 1796,
-            "end": 1799,
-            "typeAnnotation": {
-              "type": "TSTypeReference",
-              "start": 1798,
-              "end": 1799,
-              "typeArguments": null,
-              "typeName": {
-                "type": "Identifier",
-                "start": 1798,
-                "end": 1799,
-                "decorators": [],
-                "name": "T",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            }
-          }
-        }
-      ],
-      "returnType": {
-        "type": "TSTypeAnnotation",
-        "start": 1800,
-        "end": 1803,
-        "typeAnnotation": {
-          "type": "TSTypeReference",
-          "start": 1802,
-          "end": 1803,
-          "typeArguments": null,
-          "typeName": {
-            "type": "Identifier",
-            "start": 1802,
-            "end": 1803,
-            "decorators": [],
-            "name": "T",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        }
-      },
+      "generator": false,
+      "async": false,
+      "declare": true,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 1758,
@@ -2987,7 +2935,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeParameter",
             "start": 1759,
             "end": 1793,
-            "const": false,
+            "name": {
+              "type": "Identifier",
+              "start": 1759,
+              "end": 1760,
+              "decorators": [],
+              "name": "T",
+              "optional": false,
+              "typeAnnotation": null
+            },
             "constraint": {
               "type": "TSUnionType",
               "start": 1769,
@@ -3012,397 +2968,68 @@ __ESTREE_TEST__:PASS:
             },
             "default": null,
             "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 1759,
-              "end": 1760,
-              "decorators": [],
-              "name": "T",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
+            "out": false,
+            "const": false
           }
         ]
-      }
+      },
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 1795,
+          "end": 1799,
+          "decorators": [],
+          "name": "x",
+          "optional": false,
+          "typeAnnotation": {
+            "type": "TSTypeAnnotation",
+            "start": 1796,
+            "end": 1799,
+            "typeAnnotation": {
+              "type": "TSTypeReference",
+              "start": 1798,
+              "end": 1799,
+              "typeName": {
+                "type": "Identifier",
+                "start": 1798,
+                "end": 1799,
+                "decorators": [],
+                "name": "T",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeArguments": null
+            }
+          }
+        }
+      ],
+      "returnType": {
+        "type": "TSTypeAnnotation",
+        "start": 1800,
+        "end": 1803,
+        "typeAnnotation": {
+          "type": "TSTypeReference",
+          "start": 1802,
+          "end": 1803,
+          "typeName": {
+            "type": "Identifier",
+            "start": 1802,
+            "end": 1803,
+            "decorators": [],
+            "name": "T",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
+        }
+      },
+      "body": null,
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 1806,
       "end": 2017,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 1846,
-        "end": 2017,
-        "body": [
-          {
-            "type": "VariableDeclaration",
-            "start": 1852,
-            "end": 1881,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 1856,
-                "end": 1880,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 1856,
-                  "end": 1858,
-                  "decorators": [],
-                  "name": "x1",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "init": {
-                  "type": "CallExpression",
-                  "start": 1861,
-                  "end": 1880,
-                  "arguments": [
-                    {
-                      "type": "TemplateLiteral",
-                      "start": 1870,
-                      "end": 1879,
-                      "expressions": [
-                        {
-                          "type": "Identifier",
-                          "start": 1876,
-                          "end": 1877,
-                          "decorators": [],
-                          "name": "s",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
-                      ],
-                      "quasis": [
-                        {
-                          "type": "TemplateElement",
-                          "start": 1870,
-                          "end": 1876,
-                          "tail": false,
-                          "value": {
-                            "cooked": "foo",
-                            "raw": "foo"
-                          }
-                        },
-                        {
-                          "type": "TemplateElement",
-                          "start": 1877,
-                          "end": 1879,
-                          "tail": true,
-                          "value": {
-                            "cooked": "",
-                            "raw": ""
-                          }
-                        }
-                      ]
-                    }
-                  ],
-                  "callee": {
-                    "type": "Identifier",
-                    "start": 1861,
-                    "end": 1869,
-                    "decorators": [],
-                    "name": "widening",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "typeArguments": null
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "let"
-          },
-          {
-            "type": "VariableDeclaration",
-            "start": 1886,
-            "end": 1928,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 1890,
-                "end": 1927,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 1890,
-                  "end": 1892,
-                  "decorators": [],
-                  "name": "x2",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "init": {
-                  "type": "CallExpression",
-                  "start": 1895,
-                  "end": 1927,
-                  "arguments": [
-                    {
-                      "type": "ConditionalExpression",
-                      "start": 1904,
-                      "end": 1926,
-                      "alternate": {
-                        "type": "TemplateLiteral",
-                        "start": 1917,
-                        "end": 1926,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 1923,
-                            "end": 1924,
-                            "decorators": [],
-                            "name": "s",
-                            "optional": false,
-                            "typeAnnotation": null
-                          }
-                        ],
-                        "quasis": [
-                          {
-                            "type": "TemplateElement",
-                            "start": 1917,
-                            "end": 1923,
-                            "tail": false,
-                            "value": {
-                              "cooked": "foo",
-                              "raw": "foo"
-                            }
-                          },
-                          {
-                            "type": "TemplateElement",
-                            "start": 1924,
-                            "end": 1926,
-                            "tail": true,
-                            "value": {
-                              "cooked": "",
-                              "raw": ""
-                            }
-                          }
-                        ]
-                      },
-                      "consequent": {
-                        "type": "Literal",
-                        "start": 1911,
-                        "end": 1914,
-                        "raw": "'a'",
-                        "value": "a"
-                      },
-                      "test": {
-                        "type": "Identifier",
-                        "start": 1904,
-                        "end": 1908,
-                        "decorators": [],
-                        "name": "cond",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    }
-                  ],
-                  "callee": {
-                    "type": "Identifier",
-                    "start": 1895,
-                    "end": 1903,
-                    "decorators": [],
-                    "name": "widening",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "typeArguments": null
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "let"
-          },
-          {
-            "type": "VariableDeclaration",
-            "start": 1933,
-            "end": 1965,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 1937,
-                "end": 1964,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 1937,
-                  "end": 1939,
-                  "decorators": [],
-                  "name": "y1",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "init": {
-                  "type": "CallExpression",
-                  "start": 1942,
-                  "end": 1964,
-                  "arguments": [
-                    {
-                      "type": "TemplateLiteral",
-                      "start": 1954,
-                      "end": 1963,
-                      "expressions": [
-                        {
-                          "type": "Identifier",
-                          "start": 1960,
-                          "end": 1961,
-                          "decorators": [],
-                          "name": "s",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
-                      ],
-                      "quasis": [
-                        {
-                          "type": "TemplateElement",
-                          "start": 1954,
-                          "end": 1960,
-                          "tail": false,
-                          "value": {
-                            "cooked": "foo",
-                            "raw": "foo"
-                          }
-                        },
-                        {
-                          "type": "TemplateElement",
-                          "start": 1961,
-                          "end": 1963,
-                          "tail": true,
-                          "value": {
-                            "cooked": "",
-                            "raw": ""
-                          }
-                        }
-                      ]
-                    }
-                  ],
-                  "callee": {
-                    "type": "Identifier",
-                    "start": 1942,
-                    "end": 1953,
-                    "decorators": [],
-                    "name": "nonWidening",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "typeArguments": null
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "let"
-          },
-          {
-            "type": "VariableDeclaration",
-            "start": 1970,
-            "end": 2015,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 1974,
-                "end": 2014,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 1974,
-                  "end": 1976,
-                  "decorators": [],
-                  "name": "y2",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "init": {
-                  "type": "CallExpression",
-                  "start": 1979,
-                  "end": 2014,
-                  "arguments": [
-                    {
-                      "type": "ConditionalExpression",
-                      "start": 1991,
-                      "end": 2013,
-                      "alternate": {
-                        "type": "TemplateLiteral",
-                        "start": 2004,
-                        "end": 2013,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 2010,
-                            "end": 2011,
-                            "decorators": [],
-                            "name": "s",
-                            "optional": false,
-                            "typeAnnotation": null
-                          }
-                        ],
-                        "quasis": [
-                          {
-                            "type": "TemplateElement",
-                            "start": 2004,
-                            "end": 2010,
-                            "tail": false,
-                            "value": {
-                              "cooked": "foo",
-                              "raw": "foo"
-                            }
-                          },
-                          {
-                            "type": "TemplateElement",
-                            "start": 2011,
-                            "end": 2013,
-                            "tail": true,
-                            "value": {
-                              "cooked": "",
-                              "raw": ""
-                            }
-                          }
-                        ]
-                      },
-                      "consequent": {
-                        "type": "Literal",
-                        "start": 1998,
-                        "end": 2001,
-                        "raw": "'a'",
-                        "value": "a"
-                      },
-                      "test": {
-                        "type": "Identifier",
-                        "start": 1991,
-                        "end": 1995,
-                        "decorators": [],
-                        "name": "cond",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    }
-                  ],
-                  "callee": {
-                    "type": "Identifier",
-                    "start": 1979,
-                    "end": 1990,
-                    "decorators": [],
-                    "name": "nonWidening",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "typeArguments": null
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "let"
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 1815,
@@ -3412,6 +3039,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -3451,13 +3082,381 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 1846,
+        "end": 2017,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 1852,
+            "end": 1881,
+            "kind": "let",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 1856,
+                "end": 1880,
+                "id": {
+                  "type": "Identifier",
+                  "start": 1856,
+                  "end": 1858,
+                  "decorators": [],
+                  "name": "x1",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "start": 1861,
+                  "end": 1880,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 1861,
+                    "end": 1869,
+                    "decorators": [],
+                    "name": "widening",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeArguments": null,
+                  "arguments": [
+                    {
+                      "type": "TemplateLiteral",
+                      "start": 1870,
+                      "end": 1879,
+                      "quasis": [
+                        {
+                          "type": "TemplateElement",
+                          "start": 1870,
+                          "end": 1876,
+                          "value": {
+                            "cooked": "foo",
+                            "raw": "foo"
+                          },
+                          "tail": false
+                        },
+                        {
+                          "type": "TemplateElement",
+                          "start": 1877,
+                          "end": 1879,
+                          "value": {
+                            "cooked": "",
+                            "raw": ""
+                          },
+                          "tail": true
+                        }
+                      ],
+                      "expressions": [
+                        {
+                          "type": "Identifier",
+                          "start": 1876,
+                          "end": 1877,
+                          "decorators": [],
+                          "name": "s",
+                          "optional": false,
+                          "typeAnnotation": null
+                        }
+                      ]
+                    }
+                  ],
+                  "optional": false
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 1886,
+            "end": 1928,
+            "kind": "let",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 1890,
+                "end": 1927,
+                "id": {
+                  "type": "Identifier",
+                  "start": 1890,
+                  "end": 1892,
+                  "decorators": [],
+                  "name": "x2",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "start": 1895,
+                  "end": 1927,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 1895,
+                    "end": 1903,
+                    "decorators": [],
+                    "name": "widening",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeArguments": null,
+                  "arguments": [
+                    {
+                      "type": "ConditionalExpression",
+                      "start": 1904,
+                      "end": 1926,
+                      "test": {
+                        "type": "Identifier",
+                        "start": 1904,
+                        "end": 1908,
+                        "decorators": [],
+                        "name": "cond",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "consequent": {
+                        "type": "Literal",
+                        "start": 1911,
+                        "end": 1914,
+                        "value": "a",
+                        "raw": "'a'"
+                      },
+                      "alternate": {
+                        "type": "TemplateLiteral",
+                        "start": 1917,
+                        "end": 1926,
+                        "quasis": [
+                          {
+                            "type": "TemplateElement",
+                            "start": 1917,
+                            "end": 1923,
+                            "value": {
+                              "cooked": "foo",
+                              "raw": "foo"
+                            },
+                            "tail": false
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "start": 1924,
+                            "end": 1926,
+                            "value": {
+                              "cooked": "",
+                              "raw": ""
+                            },
+                            "tail": true
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 1923,
+                            "end": 1924,
+                            "decorators": [],
+                            "name": "s",
+                            "optional": false,
+                            "typeAnnotation": null
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "optional": false
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 1933,
+            "end": 1965,
+            "kind": "let",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 1937,
+                "end": 1964,
+                "id": {
+                  "type": "Identifier",
+                  "start": 1937,
+                  "end": 1939,
+                  "decorators": [],
+                  "name": "y1",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "start": 1942,
+                  "end": 1964,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 1942,
+                    "end": 1953,
+                    "decorators": [],
+                    "name": "nonWidening",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeArguments": null,
+                  "arguments": [
+                    {
+                      "type": "TemplateLiteral",
+                      "start": 1954,
+                      "end": 1963,
+                      "quasis": [
+                        {
+                          "type": "TemplateElement",
+                          "start": 1954,
+                          "end": 1960,
+                          "value": {
+                            "cooked": "foo",
+                            "raw": "foo"
+                          },
+                          "tail": false
+                        },
+                        {
+                          "type": "TemplateElement",
+                          "start": 1961,
+                          "end": 1963,
+                          "value": {
+                            "cooked": "",
+                            "raw": ""
+                          },
+                          "tail": true
+                        }
+                      ],
+                      "expressions": [
+                        {
+                          "type": "Identifier",
+                          "start": 1960,
+                          "end": 1961,
+                          "decorators": [],
+                          "name": "s",
+                          "optional": false,
+                          "typeAnnotation": null
+                        }
+                      ]
+                    }
+                  ],
+                  "optional": false
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 1970,
+            "end": 2015,
+            "kind": "let",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 1974,
+                "end": 2014,
+                "id": {
+                  "type": "Identifier",
+                  "start": 1974,
+                  "end": 1976,
+                  "decorators": [],
+                  "name": "y2",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "start": 1979,
+                  "end": 2014,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 1979,
+                    "end": 1990,
+                    "decorators": [],
+                    "name": "nonWidening",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeArguments": null,
+                  "arguments": [
+                    {
+                      "type": "ConditionalExpression",
+                      "start": 1991,
+                      "end": 2013,
+                      "test": {
+                        "type": "Identifier",
+                        "start": 1991,
+                        "end": 1995,
+                        "decorators": [],
+                        "name": "cond",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "consequent": {
+                        "type": "Literal",
+                        "start": 1998,
+                        "end": 2001,
+                        "value": "a",
+                        "raw": "'a'"
+                      },
+                      "alternate": {
+                        "type": "TemplateLiteral",
+                        "start": 2004,
+                        "end": 2013,
+                        "quasis": [
+                          {
+                            "type": "TemplateElement",
+                            "start": 2004,
+                            "end": 2010,
+                            "value": {
+                              "cooked": "foo",
+                              "raw": "foo"
+                            },
+                            "tail": false
+                          },
+                          {
+                            "type": "TemplateElement",
+                            "start": 2011,
+                            "end": 2013,
+                            "value": {
+                              "cooked": "",
+                              "raw": ""
+                            },
+                            "tail": true
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 2010,
+                            "end": 2011,
+                            "decorators": [],
+                            "name": "s",
+                            "optional": false,
+                            "typeAnnotation": null
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "optional": false
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          }
+        ]
+      },
+      "expression": false
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 2019,
       "end": 2052,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 2024,
@@ -3467,6 +3466,7 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSUnionType",
         "start": 2029,
@@ -3486,21 +3486,21 @@ __ESTREE_TEST__:PASS:
                 "type": "TemplateElement",
                 "start": 2038,
                 "end": 2041,
-                "tail": false,
                 "value": {
                   "cooked": "",
                   "raw": ""
-                }
+                },
+                "tail": false
               },
               {
                 "type": "TemplateElement",
                 "start": 2047,
                 "end": 2051,
-                "tail": true,
                 "value": {
                   "cooked": "px",
                   "raw": "px"
-                }
+                },
+                "tail": true
               }
             ],
             "types": [
@@ -3513,13 +3513,75 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 2054,
       "end": 2218,
+      "id": {
+        "type": "Identifier",
+        "start": 2063,
+        "end": 2067,
+        "decorators": [],
+        "name": "ft14",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 2068,
+          "end": 2085,
+          "decorators": [],
+          "name": "t",
+          "optional": false,
+          "typeAnnotation": {
+            "type": "TSTypeAnnotation",
+            "start": 2069,
+            "end": 2085,
+            "typeAnnotation": {
+              "type": "TSTemplateLiteralType",
+              "start": 2071,
+              "end": 2085,
+              "quasis": [
+                {
+                  "type": "TemplateElement",
+                  "start": 2071,
+                  "end": 2077,
+                  "value": {
+                    "cooked": "foo",
+                    "raw": "foo"
+                  },
+                  "tail": false
+                },
+                {
+                  "type": "TemplateElement",
+                  "start": 2083,
+                  "end": 2085,
+                  "value": {
+                    "cooked": "",
+                    "raw": ""
+                  },
+                  "tail": true
+                }
+              ],
+              "types": [
+                {
+                  "type": "TSNumberKeyword",
+                  "start": 2077,
+                  "end": 2083
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 2087,
@@ -3529,12 +3591,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 2093,
             "end": 2112,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 2097,
                 "end": 2111,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 2097,
@@ -3561,22 +3623,22 @@ __ESTREE_TEST__:PASS:
                   "name": "t",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "declare": false
           },
           {
             "type": "VariableDeclaration",
             "start": 2117,
             "end": 2136,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 2121,
                 "end": 2135,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 2121,
@@ -3592,7 +3654,6 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 2125,
                       "end": 2131,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 2125,
@@ -3601,7 +3662,8 @@ __ESTREE_TEST__:PASS:
                         "name": "String",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     }
                   }
                 },
@@ -3613,22 +3675,22 @@ __ESTREE_TEST__:PASS:
                   "name": "t",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "declare": false
           },
           {
             "type": "VariableDeclaration",
             "start": 2141,
             "end": 2160,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 2145,
                 "end": 2159,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 2145,
@@ -3644,7 +3706,6 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 2149,
                       "end": 2155,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 2149,
@@ -3653,7 +3714,8 @@ __ESTREE_TEST__:PASS:
                         "name": "Object",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     }
                   }
                 },
@@ -3665,22 +3727,22 @@ __ESTREE_TEST__:PASS:
                   "name": "t",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "declare": false
           },
           {
             "type": "VariableDeclaration",
             "start": 2165,
             "end": 2180,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 2169,
                 "end": 2179,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 2169,
@@ -3708,22 +3770,22 @@ __ESTREE_TEST__:PASS:
                   "name": "t",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "declare": false
           },
           {
             "type": "VariableDeclaration",
             "start": 2185,
             "end": 2216,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 2189,
                 "end": 2215,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 2189,
@@ -3744,8 +3806,9 @@ __ESTREE_TEST__:PASS:
                           "type": "TSPropertySignature",
                           "start": 2195,
                           "end": 2209,
-                          "accessibility": null,
                           "computed": false,
+                          "optional": false,
+                          "readonly": false,
                           "key": {
                             "type": "Identifier",
                             "start": 2195,
@@ -3755,9 +3818,6 @@ __ESTREE_TEST__:PASS:
                             "optional": false,
                             "typeAnnotation": null
                           },
-                          "optional": false,
-                          "readonly": false,
-                          "static": false,
                           "typeAnnotation": {
                             "type": "TSTypeAnnotation",
                             "start": 2201,
@@ -3767,7 +3827,9 @@ __ESTREE_TEST__:PASS:
                               "start": 2203,
                               "end": 2209
                             }
-                          }
+                          },
+                          "accessibility": null,
+                          "static": false
                         }
                       ]
                     }
@@ -3781,87 +3843,20 @@ __ESTREE_TEST__:PASS:
                   "name": "t",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "declare": false
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 2063,
-        "end": 2067,
-        "decorators": [],
-        "name": "ft14",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [
-        {
-          "type": "Identifier",
-          "start": 2068,
-          "end": 2085,
-          "decorators": [],
-          "name": "t",
-          "optional": false,
-          "typeAnnotation": {
-            "type": "TSTypeAnnotation",
-            "start": 2069,
-            "end": 2085,
-            "typeAnnotation": {
-              "type": "TSTemplateLiteralType",
-              "start": 2071,
-              "end": 2085,
-              "quasis": [
-                {
-                  "type": "TemplateElement",
-                  "start": 2071,
-                  "end": 2077,
-                  "tail": false,
-                  "value": {
-                    "cooked": "foo",
-                    "raw": "foo"
-                  }
-                },
-                {
-                  "type": "TemplateElement",
-                  "start": 2083,
-                  "end": 2085,
-                  "tail": true,
-                  "value": {
-                    "cooked": "",
-                    "raw": ""
-                  }
-                }
-              ],
-              "types": [
-                {
-                  "type": "TSNumberKeyword",
-                  "start": 2077,
-                  "end": 2083
-                }
-              ]
-            }
-          }
-        }
-      ],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     },
     {
       "type": "TSDeclareFunction",
       "start": 2220,
       "end": 2252,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 2237,
@@ -3870,6 +3865,35 @@ __ESTREE_TEST__:PASS:
         "name": "g1",
         "optional": false,
         "typeAnnotation": null
+      },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": {
+        "type": "TSTypeParameterDeclaration",
+        "start": 2239,
+        "end": 2242,
+        "params": [
+          {
+            "type": "TSTypeParameter",
+            "start": 2240,
+            "end": 2241,
+            "name": {
+              "type": "Identifier",
+              "start": 2240,
+              "end": 2241,
+              "decorators": [],
+              "name": "T",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          }
+        ]
       },
       "params": [
         {
@@ -3887,7 +3911,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 2246,
               "end": 2247,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 2246,
@@ -3896,7 +3919,8 @@ __ESTREE_TEST__:PASS:
                 "name": "T",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "typeArguments": null
             }
           }
         }
@@ -3909,7 +3933,6 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 2250,
           "end": 2251,
-          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 2250,
@@ -3918,45 +3941,17 @@ __ESTREE_TEST__:PASS:
             "name": "T",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "typeArguments": null
         }
       },
-      "typeParameters": {
-        "type": "TSTypeParameterDeclaration",
-        "start": 2239,
-        "end": 2242,
-        "params": [
-          {
-            "type": "TSTypeParameter",
-            "start": 2240,
-            "end": 2241,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 2240,
-              "end": 2241,
-              "decorators": [],
-              "name": "T",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          }
-        ]
-      }
+      "body": null,
+      "expression": false
     },
     {
       "type": "TSDeclareFunction",
       "start": 2253,
       "end": 2300,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 2270,
@@ -3965,6 +3960,39 @@ __ESTREE_TEST__:PASS:
         "name": "g2",
         "optional": false,
         "typeAnnotation": null
+      },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": {
+        "type": "TSTypeParameterDeclaration",
+        "start": 2272,
+        "end": 2290,
+        "params": [
+          {
+            "type": "TSTypeParameter",
+            "start": 2273,
+            "end": 2289,
+            "name": {
+              "type": "Identifier",
+              "start": 2273,
+              "end": 2274,
+              "decorators": [],
+              "name": "T",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": {
+              "type": "TSStringKeyword",
+              "start": 2283,
+              "end": 2289
+            },
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          }
+        ]
       },
       "params": [
         {
@@ -3982,7 +4010,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 2294,
               "end": 2295,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 2294,
@@ -3991,7 +4018,8 @@ __ESTREE_TEST__:PASS:
                 "name": "T",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "typeArguments": null
             }
           }
         }
@@ -4004,7 +4032,6 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 2298,
           "end": 2299,
-          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 2298,
@@ -4013,215 +4040,17 @@ __ESTREE_TEST__:PASS:
             "name": "T",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "typeArguments": null
         }
       },
-      "typeParameters": {
-        "type": "TSTypeParameterDeclaration",
-        "start": 2272,
-        "end": 2290,
-        "params": [
-          {
-            "type": "TSTypeParameter",
-            "start": 2273,
-            "end": 2289,
-            "const": false,
-            "constraint": {
-              "type": "TSStringKeyword",
-              "start": 2283,
-              "end": 2289
-            },
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 2273,
-              "end": 2274,
-              "decorators": [],
-              "name": "T",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          }
-        ]
-      }
+      "body": null,
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 2302,
       "end": 2419,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 2327,
-        "end": 2419,
-        "body": [
-          {
-            "type": "VariableDeclaration",
-            "start": 2333,
-            "end": 2357,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 2337,
-                "end": 2356,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 2337,
-                  "end": 2339,
-                  "decorators": [],
-                  "name": "x1",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "init": {
-                  "type": "CallExpression",
-                  "start": 2342,
-                  "end": 2356,
-                  "arguments": [
-                    {
-                      "type": "TemplateLiteral",
-                      "start": 2345,
-                      "end": 2355,
-                      "expressions": [
-                        {
-                          "type": "Identifier",
-                          "start": 2352,
-                          "end": 2353,
-                          "decorators": [],
-                          "name": "s",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
-                      ],
-                      "quasis": [
-                        {
-                          "type": "TemplateElement",
-                          "start": 2345,
-                          "end": 2352,
-                          "tail": false,
-                          "value": {
-                            "cooked": "xyz-",
-                            "raw": "xyz-"
-                          }
-                        },
-                        {
-                          "type": "TemplateElement",
-                          "start": 2353,
-                          "end": 2355,
-                          "tail": true,
-                          "value": {
-                            "cooked": "",
-                            "raw": ""
-                          }
-                        }
-                      ]
-                    }
-                  ],
-                  "callee": {
-                    "type": "Identifier",
-                    "start": 2342,
-                    "end": 2344,
-                    "decorators": [],
-                    "name": "g1",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "typeArguments": null
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "let"
-          },
-          {
-            "type": "VariableDeclaration",
-            "start": 2373,
-            "end": 2397,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 2377,
-                "end": 2396,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 2377,
-                  "end": 2379,
-                  "decorators": [],
-                  "name": "x2",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "init": {
-                  "type": "CallExpression",
-                  "start": 2382,
-                  "end": 2396,
-                  "arguments": [
-                    {
-                      "type": "TemplateLiteral",
-                      "start": 2385,
-                      "end": 2395,
-                      "expressions": [
-                        {
-                          "type": "Identifier",
-                          "start": 2392,
-                          "end": 2393,
-                          "decorators": [],
-                          "name": "s",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
-                      ],
-                      "quasis": [
-                        {
-                          "type": "TemplateElement",
-                          "start": 2385,
-                          "end": 2392,
-                          "tail": false,
-                          "value": {
-                            "cooked": "xyz-",
-                            "raw": "xyz-"
-                          }
-                        },
-                        {
-                          "type": "TemplateElement",
-                          "start": 2393,
-                          "end": 2395,
-                          "tail": true,
-                          "value": {
-                            "cooked": "",
-                            "raw": ""
-                          }
-                        }
-                      ]
-                    }
-                  ],
-                  "callee": {
-                    "type": "Identifier",
-                    "start": 2382,
-                    "end": 2384,
-                    "decorators": [],
-                    "name": "g2",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "typeArguments": null
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "let"
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 2311,
@@ -4231,6 +4060,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -4252,17 +4085,179 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 2327,
+        "end": 2419,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 2333,
+            "end": 2357,
+            "kind": "let",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 2337,
+                "end": 2356,
+                "id": {
+                  "type": "Identifier",
+                  "start": 2337,
+                  "end": 2339,
+                  "decorators": [],
+                  "name": "x1",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "start": 2342,
+                  "end": 2356,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 2342,
+                    "end": 2344,
+                    "decorators": [],
+                    "name": "g1",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeArguments": null,
+                  "arguments": [
+                    {
+                      "type": "TemplateLiteral",
+                      "start": 2345,
+                      "end": 2355,
+                      "quasis": [
+                        {
+                          "type": "TemplateElement",
+                          "start": 2345,
+                          "end": 2352,
+                          "value": {
+                            "cooked": "xyz-",
+                            "raw": "xyz-"
+                          },
+                          "tail": false
+                        },
+                        {
+                          "type": "TemplateElement",
+                          "start": 2353,
+                          "end": 2355,
+                          "value": {
+                            "cooked": "",
+                            "raw": ""
+                          },
+                          "tail": true
+                        }
+                      ],
+                      "expressions": [
+                        {
+                          "type": "Identifier",
+                          "start": 2352,
+                          "end": 2353,
+                          "decorators": [],
+                          "name": "s",
+                          "optional": false,
+                          "typeAnnotation": null
+                        }
+                      ]
+                    }
+                  ],
+                  "optional": false
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 2373,
+            "end": 2397,
+            "kind": "let",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 2377,
+                "end": 2396,
+                "id": {
+                  "type": "Identifier",
+                  "start": 2377,
+                  "end": 2379,
+                  "decorators": [],
+                  "name": "x2",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "init": {
+                  "type": "CallExpression",
+                  "start": 2382,
+                  "end": 2396,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 2382,
+                    "end": 2384,
+                    "decorators": [],
+                    "name": "g2",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeArguments": null,
+                  "arguments": [
+                    {
+                      "type": "TemplateLiteral",
+                      "start": 2385,
+                      "end": 2395,
+                      "quasis": [
+                        {
+                          "type": "TemplateElement",
+                          "start": 2385,
+                          "end": 2392,
+                          "value": {
+                            "cooked": "xyz-",
+                            "raw": "xyz-"
+                          },
+                          "tail": false
+                        },
+                        {
+                          "type": "TemplateElement",
+                          "start": 2393,
+                          "end": 2395,
+                          "value": {
+                            "cooked": "",
+                            "raw": ""
+                          },
+                          "tail": true
+                        }
+                      ],
+                      "expressions": [
+                        {
+                          "type": "Identifier",
+                          "start": 2392,
+                          "end": 2393,
+                          "decorators": [],
+                          "name": "s",
+                          "optional": false,
+                          "typeAnnotation": null
+                        }
+                      ]
+                    }
+                  ],
+                  "optional": false
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          }
+        ]
+      },
+      "expression": false
     },
     {
       "type": "TSDeclareFunction",
       "start": 2443,
       "end": 2549,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 2460,
@@ -4271,6 +4266,39 @@ __ESTREE_TEST__:PASS:
         "name": "takesLiteral",
         "optional": false,
         "typeAnnotation": null
+      },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": {
+        "type": "TSTypeParameterDeclaration",
+        "start": 2472,
+        "end": 2490,
+        "params": [
+          {
+            "type": "TSTypeParameter",
+            "start": 2473,
+            "end": 2489,
+            "name": {
+              "type": "Identifier",
+              "start": 2473,
+              "end": 2474,
+              "decorators": [],
+              "name": "T",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": {
+              "type": "TSStringKeyword",
+              "start": 2483,
+              "end": 2489
+            },
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          }
+        ]
       },
       "params": [
         {
@@ -4288,7 +4316,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 2500,
               "end": 2501,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 2500,
@@ -4297,7 +4324,8 @@ __ESTREE_TEST__:PASS:
                 "name": "T",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "typeArguments": null
             }
           }
         }
@@ -4314,7 +4342,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 2504,
             "end": 2505,
-            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 2504,
@@ -4323,7 +4350,8 @@ __ESTREE_TEST__:PASS:
               "name": "T",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "typeArguments": null
           },
           "extendsType": {
             "type": "TSTemplateLiteralType",
@@ -4334,21 +4362,21 @@ __ESTREE_TEST__:PASS:
                 "type": "TemplateElement",
                 "start": 2514,
                 "end": 2525,
-                "tail": false,
                 "value": {
                   "cooked": "foo.bar.",
                   "raw": "foo.bar."
-                }
+                },
+                "tail": false
               },
               {
                 "type": "TemplateElement",
                 "start": 2532,
                 "end": 2534,
-                "tail": true,
                 "value": {
                   "cooked": "",
                   "raw": ""
-                }
+                },
+                "tail": true
               }
             ],
             "types": [
@@ -4360,10 +4388,6 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeParameter",
                   "start": 2531,
                   "end": 2532,
-                  "const": false,
-                  "constraint": null,
-                  "default": null,
-                  "in": false,
                   "name": {
                     "type": "Identifier",
                     "start": 2531,
@@ -4373,21 +4397,19 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "out": false
+                  "constraint": null,
+                  "default": null,
+                  "in": false,
+                  "out": false,
+                  "const": false
                 }
               }
             ]
-          },
-          "falseType": {
-            "type": "TSUnknownKeyword",
-            "start": 2541,
-            "end": 2548
           },
           "trueType": {
             "type": "TSTypeReference",
             "start": 2537,
             "end": 2538,
-            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 2537,
@@ -4396,51 +4418,29 @@ __ESTREE_TEST__:PASS:
               "name": "R",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "typeArguments": null
+          },
+          "falseType": {
+            "type": "TSUnknownKeyword",
+            "start": 2541,
+            "end": 2548
           }
         }
       },
-      "typeParameters": {
-        "type": "TSTypeParameterDeclaration",
-        "start": 2472,
-        "end": 2490,
-        "params": [
-          {
-            "type": "TSTypeParameter",
-            "start": 2473,
-            "end": 2489,
-            "const": false,
-            "constraint": {
-              "type": "TSStringKeyword",
-              "start": 2483,
-              "end": 2489
-            },
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 2473,
-              "end": 2474,
-              "decorators": [],
-              "name": "T",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          }
-        ]
-      }
+      "body": null,
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 2551,
       "end": 2590,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 2557,
           "end": 2589,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 2557,
@@ -4454,15 +4454,6 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 2562,
             "end": 2589,
-            "arguments": [
-              {
-                "type": "Literal",
-                "start": 2575,
-                "end": 2588,
-                "raw": "\"foo.bar.baz\"",
-                "value": "foo.bar.baz"
-              }
-            ],
             "callee": {
               "type": "Identifier",
               "start": 2562,
@@ -4472,24 +4463,33 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 2575,
+                "end": 2588,
+                "value": "foo.bar.baz",
+                "raw": "\"foo.bar.baz\""
+              }
+            ],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 2600,
       "end": 2626,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 2606,
           "end": 2625,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 2606,
@@ -4503,24 +4503,24 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 2612,
             "end": 2625,
-            "raw": "\"foo.bar.baz\"",
-            "value": "foo.bar.baz"
-          }
+            "value": "foo.bar.baz",
+            "raw": "\"foo.bar.baz\""
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 2627,
       "end": 2656,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 2633,
           "end": 2655,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 2633,
@@ -4534,6 +4534,16 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 2638,
             "end": 2655,
+            "callee": {
+              "type": "Identifier",
+              "start": 2638,
+              "end": 2650,
+              "decorators": [],
+              "name": "takesLiteral",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null,
             "arguments": [
               {
                 "type": "Identifier",
@@ -4545,33 +4555,23 @@ __ESTREE_TEST__:PASS:
                 "typeAnnotation": null
               }
             ],
-            "callee": {
-              "type": "Identifier",
-              "start": 2638,
-              "end": 2650,
-              "decorators": [],
-              "name": "takesLiteral",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "typeArguments": null
-          }
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 2667,
       "end": 2700,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 2681,
           "end": 2699,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 2681,
@@ -4590,22 +4590,22 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
       "start": 2701,
       "end": 2750,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 2707,
           "end": 2749,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 2707,
@@ -4619,11 +4619,43 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 2712,
             "end": 2749,
+            "callee": {
+              "type": "Identifier",
+              "start": 2712,
+              "end": 2724,
+              "decorators": [],
+              "name": "takesLiteral",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null,
             "arguments": [
               {
                 "type": "TemplateLiteral",
                 "start": 2725,
                 "end": 2748,
+                "quasis": [
+                  {
+                    "type": "TemplateElement",
+                    "start": 2725,
+                    "end": 2736,
+                    "value": {
+                      "cooked": "foo.bar.",
+                      "raw": "foo.bar."
+                    },
+                    "tail": false
+                  },
+                  {
+                    "type": "TemplateElement",
+                    "start": 2746,
+                    "end": 2748,
+                    "value": {
+                      "cooked": "",
+                      "raw": ""
+                    },
+                    "tail": true
+                  }
+                ],
                 "expressions": [
                   {
                     "type": "Identifier",
@@ -4634,58 +4666,26 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   }
-                ],
-                "quasis": [
-                  {
-                    "type": "TemplateElement",
-                    "start": 2725,
-                    "end": 2736,
-                    "tail": false,
-                    "value": {
-                      "cooked": "foo.bar.",
-                      "raw": "foo.bar."
-                    }
-                  },
-                  {
-                    "type": "TemplateElement",
-                    "start": 2746,
-                    "end": 2748,
-                    "tail": true,
-                    "value": {
-                      "cooked": "",
-                      "raw": ""
-                    }
-                  }
                 ]
               }
             ],
-            "callee": {
-              "type": "Identifier",
-              "start": 2712,
-              "end": 2724,
-              "decorators": [],
-              "name": "takesLiteral",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "typeArguments": null
-          }
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 2763,
       "end": 2799,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 2769,
           "end": 2798,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 2769,
@@ -4699,6 +4699,28 @@ __ESTREE_TEST__:PASS:
             "type": "TemplateLiteral",
             "start": 2775,
             "end": 2798,
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "start": 2775,
+                "end": 2786,
+                "value": {
+                  "cooked": "foo.bar.",
+                  "raw": "foo.bar."
+                },
+                "tail": false
+              },
+              {
+                "type": "TemplateElement",
+                "start": 2796,
+                "end": 2798,
+                "value": {
+                  "cooked": "",
+                  "raw": ""
+                },
+                "tail": true
+              }
+            ],
             "expressions": [
               {
                 "type": "Identifier",
@@ -4709,45 +4731,23 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               }
-            ],
-            "quasis": [
-              {
-                "type": "TemplateElement",
-                "start": 2775,
-                "end": 2786,
-                "tail": false,
-                "value": {
-                  "cooked": "foo.bar.",
-                  "raw": "foo.bar."
-                }
-              },
-              {
-                "type": "TemplateElement",
-                "start": 2796,
-                "end": 2798,
-                "tail": true,
-                "value": {
-                  "cooked": "",
-                  "raw": ""
-                }
-              }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 2800,
       "end": 2829,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 2806,
           "end": 2828,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 2806,
@@ -4761,6 +4761,16 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 2811,
             "end": 2828,
+            "callee": {
+              "type": "Identifier",
+              "start": 2811,
+              "end": 2823,
+              "decorators": [],
+              "name": "takesLiteral",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null,
             "arguments": [
               {
                 "type": "Identifier",
@@ -4772,33 +4782,23 @@ __ESTREE_TEST__:PASS:
                 "typeAnnotation": null
               }
             ],
-            "callee": {
-              "type": "Identifier",
-              "start": 2811,
-              "end": 2823,
-              "decorators": [],
-              "name": "takesLiteral",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "typeArguments": null
-          }
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 2843,
       "end": 2890,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 2857,
           "end": 2889,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 2857,
@@ -4823,8 +4823,8 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 2868,
                       "end": 2873,
-                      "raw": "'abc'",
-                      "value": "abc"
+                      "value": "abc",
+                      "raw": "'abc'"
                     }
                   },
                   {
@@ -4835,8 +4835,8 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 2876,
                       "end": 2881,
-                      "raw": "'def'",
-                      "value": "def"
+                      "value": "def",
+                      "raw": "'def'"
                     }
                   },
                   {
@@ -4847,30 +4847,30 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 2884,
                       "end": 2889,
-                      "raw": "'ghi'",
-                      "value": "ghi"
+                      "value": "ghi",
+                      "raw": "'ghi'"
                     }
                   }
                 ]
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
       "start": 2891,
       "end": 2939,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 2897,
           "end": 2938,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 2897,
@@ -4884,11 +4884,43 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 2902,
             "end": 2938,
+            "callee": {
+              "type": "Identifier",
+              "start": 2902,
+              "end": 2914,
+              "decorators": [],
+              "name": "takesLiteral",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null,
             "arguments": [
               {
                 "type": "TemplateLiteral",
                 "start": 2915,
                 "end": 2937,
+                "quasis": [
+                  {
+                    "type": "TemplateElement",
+                    "start": 2915,
+                    "end": 2926,
+                    "value": {
+                      "cooked": "foo.bar.",
+                      "raw": "foo.bar."
+                    },
+                    "tail": false
+                  },
+                  {
+                    "type": "TemplateElement",
+                    "start": 2935,
+                    "end": 2937,
+                    "value": {
+                      "cooked": "",
+                      "raw": ""
+                    },
+                    "tail": true
+                  }
+                ],
                 "expressions": [
                   {
                     "type": "Identifier",
@@ -4899,58 +4931,26 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   }
-                ],
-                "quasis": [
-                  {
-                    "type": "TemplateElement",
-                    "start": 2915,
-                    "end": 2926,
-                    "tail": false,
-                    "value": {
-                      "cooked": "foo.bar.",
-                      "raw": "foo.bar."
-                    }
-                  },
-                  {
-                    "type": "TemplateElement",
-                    "start": 2935,
-                    "end": 2937,
-                    "tail": true,
-                    "value": {
-                      "cooked": "",
-                      "raw": ""
-                    }
-                  }
                 ]
               }
             ],
-            "callee": {
-              "type": "Identifier",
-              "start": 2902,
-              "end": 2914,
-              "decorators": [],
-              "name": "takesLiteral",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "typeArguments": null
-          }
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 2989,
       "end": 3019,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 2995,
           "end": 3018,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 2995,
@@ -4973,19 +4973,18 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 3016,
             "end": 3018,
-            "raw": "22",
-            "value": 22
-          }
+            "value": 22,
+            "raw": "22"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 3021,
       "end": 3057,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 3026,
@@ -4995,6 +4994,7 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTemplateLiteralType",
         "start": 3043,
@@ -5004,21 +5004,21 @@ __ESTREE_TEST__:PASS:
             "type": "TemplateElement",
             "start": 3043,
             "end": 3046,
-            "tail": false,
             "value": {
               "cooked": "",
               "raw": ""
-            }
+            },
+            "tail": false
           },
           {
             "type": "TemplateElement",
             "start": 3052,
             "end": 3056,
-            "tail": true,
             "value": {
               "cooked": "px",
               "raw": "px"
-            }
+            },
+            "tail": true
           }
         ],
         "types": [
@@ -5029,18 +5029,18 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 3059,
       "end": 3102,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 3065,
           "end": 3101,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 3065,
@@ -5056,7 +5056,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 3078,
                 "end": 3092,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 3078,
@@ -5065,7 +5064,8 @@ __ESTREE_TEST__:PASS:
                   "name": "PixelValueType",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             }
           },
@@ -5073,35 +5073,35 @@ __ESTREE_TEST__:PASS:
             "type": "TemplateLiteral",
             "start": 3095,
             "end": 3101,
-            "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
                 "start": 3095,
                 "end": 3101,
-                "tail": true,
                 "value": {
                   "cooked": "22px",
                   "raw": "22px"
-                }
+                },
+                "tail": true
               }
-            ]
-          }
+            ],
+            "expressions": []
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 3104,
       "end": 3170,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 3110,
           "end": 3169,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 3110,
@@ -5117,7 +5117,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 3135,
                 "end": 3149,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 3135,
@@ -5126,7 +5125,8 @@ __ESTREE_TEST__:PASS:
                   "name": "PixelValueType",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             }
           },
@@ -5134,6 +5134,28 @@ __ESTREE_TEST__:PASS:
             "type": "TemplateLiteral",
             "start": 3152,
             "end": 3169,
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "start": 3152,
+                "end": 3155,
+                "value": {
+                  "cooked": "",
+                  "raw": ""
+                },
+                "tail": false
+              },
+              {
+                "type": "TemplateElement",
+                "start": 3165,
+                "end": 3169,
+                "value": {
+                  "cooked": "px",
+                  "raw": "px"
+                },
+                "tail": true
+              }
+            ],
             "expressions": [
               {
                 "type": "Identifier",
@@ -5144,93 +5166,17 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               }
-            ],
-            "quasis": [
-              {
-                "type": "TemplateElement",
-                "start": 3152,
-                "end": 3155,
-                "tail": false,
-                "value": {
-                  "cooked": "",
-                  "raw": ""
-                }
-              },
-              {
-                "type": "TemplateElement",
-                "start": 3165,
-                "end": 3169,
-                "tail": true,
-                "value": {
-                  "cooked": "px",
-                  "raw": "px"
-                }
-              }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 3194,
       "end": 3280,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 3249,
-        "end": 3280,
-        "body": [
-          {
-            "type": "ReturnStatement",
-            "start": 3255,
-            "end": 3278,
-            "argument": {
-              "type": "TemplateLiteral",
-              "start": 3262,
-              "end": 3277,
-              "expressions": [
-                {
-                  "type": "Identifier",
-                  "start": 3270,
-                  "end": 3275,
-                  "decorators": [],
-                  "name": "title",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              ],
-              "quasis": [
-                {
-                  "type": "TemplateElement",
-                  "start": 3262,
-                  "end": 3270,
-                  "tail": false,
-                  "value": {
-                    "cooked": "test-",
-                    "raw": "test-"
-                  }
-                },
-                {
-                  "type": "TemplateElement",
-                  "start": 3275,
-                  "end": 3277,
-                  "tail": true,
-                  "value": {
-                    "cooked": "",
-                    "raw": ""
-                  }
-                }
-              ]
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 3203,
@@ -5240,6 +5186,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -5273,21 +5223,21 @@ __ESTREE_TEST__:PASS:
               "type": "TemplateElement",
               "start": 3232,
               "end": 3240,
-              "tail": false,
               "value": {
                 "cooked": "test-",
                 "raw": "test-"
-              }
+              },
+              "tail": false
             },
             {
               "type": "TemplateElement",
               "start": 3246,
               "end": 3248,
-              "tail": true,
               "value": {
                 "cooked": "",
                 "raw": ""
-              }
+              },
+              "tail": true
             }
           ],
           "types": [
@@ -5299,18 +5249,68 @@ __ESTREE_TEST__:PASS:
           ]
         }
       },
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 3249,
+        "end": 3280,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 3255,
+            "end": 3278,
+            "argument": {
+              "type": "TemplateLiteral",
+              "start": 3262,
+              "end": 3277,
+              "quasis": [
+                {
+                  "type": "TemplateElement",
+                  "start": 3262,
+                  "end": 3270,
+                  "value": {
+                    "cooked": "test-",
+                    "raw": "test-"
+                  },
+                  "tail": false
+                },
+                {
+                  "type": "TemplateElement",
+                  "start": 3275,
+                  "end": 3277,
+                  "value": {
+                    "cooked": "",
+                    "raw": ""
+                  },
+                  "tail": true
+                }
+              ],
+              "expressions": [
+                {
+                  "type": "Identifier",
+                  "start": 3270,
+                  "end": 3275,
+                  "decorators": [],
+                  "name": "title",
+                  "optional": false,
+                  "typeAnnotation": null
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 3304,
       "end": 3345,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 3310,
           "end": 3344,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 3310,
@@ -5329,7 +5329,7 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 3332,
                 "end": 3342,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 3332,
@@ -5339,52 +5339,29 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Literal",
                   "start": 3340,
                   "end": 3342,
-                  "raw": "12",
-                  "value": 12
-                }
+                  "value": 12,
+                  "raw": "12"
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 3346,
       "end": 3415,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 3401,
-        "end": 3415,
-        "body": [
-          {
-            "type": "ReturnStatement",
-            "start": 3403,
-            "end": 3413,
-            "argument": {
-              "type": "Literal",
-              "start": 3410,
-              "end": 3412,
-              "raw": "12",
-              "value": 12
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 3355,
@@ -5394,6 +5371,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -5419,8 +5400,8 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 3369,
                     "end": 3383,
-                    "raw": "\"-moz-initial\"",
-                    "value": "-moz-initial"
+                    "value": "-moz-initial",
+                    "raw": "\"-moz-initial\""
                   }
                 },
                 {
@@ -5447,73 +5428,35 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 3401,
+        "end": 3415,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 3403,
+            "end": 3413,
+            "argument": {
+              "type": "Literal",
+              "start": 3410,
+              "end": 3412,
+              "value": 12,
+              "raw": "12"
+            }
+          }
+        ]
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
       "start": 3416,
       "end": 3461,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 3416,
         "end": 3460,
-        "arguments": [
-          {
-            "type": "TemplateLiteral",
-            "start": 3419,
-            "end": 3459,
-            "expressions": [
-              {
-                "type": "MemberExpression",
-                "start": 3429,
-                "end": 3453,
-                "computed": false,
-                "object": {
-                  "type": "Identifier",
-                  "start": 3429,
-                  "end": 3446,
-                  "decorators": [],
-                  "name": "interpolatedStyle",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Identifier",
-                  "start": 3447,
-                  "end": 3453,
-                  "decorators": [],
-                  "name": "rotate",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            ],
-            "quasis": [
-              {
-                "type": "TemplateElement",
-                "start": 3419,
-                "end": 3429,
-                "tail": false,
-                "value": {
-                  "cooked": "rotate(",
-                  "raw": "rotate("
-                }
-              },
-              {
-                "type": "TemplateElement",
-                "start": 3453,
-                "end": 3459,
-                "tail": true,
-                "value": {
-                  "cooked": "dig)",
-                  "raw": "dig)"
-                }
-              }
-            ]
-          }
-        ],
         "callee": {
           "type": "Identifier",
           "start": 3416,
@@ -5523,9 +5466,66 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "TemplateLiteral",
+            "start": 3419,
+            "end": 3459,
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "start": 3419,
+                "end": 3429,
+                "value": {
+                  "cooked": "rotate(",
+                  "raw": "rotate("
+                },
+                "tail": false
+              },
+              {
+                "type": "TemplateElement",
+                "start": 3453,
+                "end": 3459,
+                "value": {
+                  "cooked": "dig)",
+                  "raw": "dig)"
+                },
+                "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "MemberExpression",
+                "start": 3429,
+                "end": 3453,
+                "object": {
+                  "type": "Identifier",
+                  "start": 3429,
+                  "end": 3446,
+                  "decorators": [],
+                  "name": "interpolatedStyle",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 3447,
+                  "end": 3453,
+                  "decorators": [],
+                  "name": "rotate",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "optional": false,
+                "computed": false
+              }
+            ]
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

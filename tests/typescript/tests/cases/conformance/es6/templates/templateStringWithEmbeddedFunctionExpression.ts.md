@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 48,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 47,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,12 +28,48 @@ __ESTREE_TEST__:PASS:
             "type": "TemplateLiteral",
             "start": 8,
             "end": 47,
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "start": 8,
+                "end": 14,
+                "value": {
+                  "cooked": "abc",
+                  "raw": "abc"
+                },
+                "tail": false
+              },
+              {
+                "type": "TemplateElement",
+                "start": 42,
+                "end": 47,
+                "value": {
+                  "cooked": "def",
+                  "raw": "def"
+                },
+                "tail": true
+              }
+            ],
             "expressions": [
               {
                 "type": "FunctionExpression",
                 "start": 15,
                 "end": 41,
+                "id": {
+                  "type": "Identifier",
+                  "start": 24,
+                  "end": 25,
+                  "decorators": [],
+                  "name": "y",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "generator": false,
                 "async": false,
+                "declare": false,
+                "typeParameters": null,
+                "params": [],
+                "returnType": null,
                 "body": {
                   "type": "BlockStatement",
                   "start": 28,
@@ -55,50 +91,14 @@ __ESTREE_TEST__:PASS:
                     }
                   ]
                 },
-                "declare": false,
-                "expression": false,
-                "generator": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 24,
-                  "end": 25,
-                  "decorators": [],
-                  "name": "y",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "params": [],
-                "returnType": null,
-                "typeParameters": null
-              }
-            ],
-            "quasis": [
-              {
-                "type": "TemplateElement",
-                "start": 8,
-                "end": 14,
-                "tail": false,
-                "value": {
-                  "cooked": "abc",
-                  "raw": "abc"
-                }
-              },
-              {
-                "type": "TemplateElement",
-                "start": 42,
-                "end": 47,
-                "tail": true,
-                "value": {
-                  "cooked": "def",
-                  "raw": "def"
-                }
+                "expression": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

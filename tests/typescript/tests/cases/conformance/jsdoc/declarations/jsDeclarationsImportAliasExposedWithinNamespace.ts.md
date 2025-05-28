@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 69,
       "end": 112,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 75,
           "end": 111,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 75,
@@ -29,25 +29,31 @@ __ESTREE_TEST__:PASS:
             "start": 85,
             "end": 111,
             "properties": []
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 369,
       "end": 386,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 377,
           "end": 384,
+          "local": {
+            "type": "Identifier",
+            "start": 377,
+            "end": 384,
+            "decorators": [],
+            "name": "myTypes",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 377,
@@ -57,18 +63,12 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 377,
-            "end": 384,
-            "decorators": [],
-            "name": "myTypes",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": null,
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -86,14 +86,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 34,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 22,
-        "end": 33,
-        "raw": "'./file.js'",
-        "value": "./file.js"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -108,7 +100,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 8,
@@ -117,22 +108,31 @@ __ESTREE_TEST__:PASS:
             "name": "myTypes",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 22,
+        "end": 33,
+        "value": "./file.js",
+        "raw": "'./file.js'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 109,
       "end": 156,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 115,
           "end": 155,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 115,
@@ -147,17 +147,41 @@ __ESTREE_TEST__:PASS:
             "start": 129,
             "end": 155,
             "properties": []
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 357,
       "end": 486,
+      "id": {
+        "type": "Identifier",
+        "start": 366,
+        "end": 372,
+        "decorators": [],
+        "name": "testFn",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 373,
+          "end": 378,
+          "decorators": [],
+          "name": "input",
+          "optional": false,
+          "typeAnnotation": null
+        }
+      ],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 380,
@@ -167,24 +191,34 @@ __ESTREE_TEST__:PASS:
             "type": "IfStatement",
             "start": 386,
             "end": 484,
-            "alternate": {
-              "type": "BlockStatement",
-              "start": 456,
-              "end": 484,
-              "body": [
-                {
-                  "type": "ReturnStatement",
-                  "start": 466,
-                  "end": 478,
-                  "argument": {
-                    "type": "Literal",
-                    "start": 473,
-                    "end": 477,
-                    "raw": "null",
-                    "value": null
-                  }
-                }
-              ]
+            "test": {
+              "type": "BinaryExpression",
+              "start": 390,
+              "end": 415,
+              "left": {
+                "type": "UnaryExpression",
+                "start": 390,
+                "end": 402,
+                "operator": "typeof",
+                "argument": {
+                  "type": "Identifier",
+                  "start": 397,
+                  "end": 402,
+                  "decorators": [],
+                  "name": "input",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "prefix": true
+              },
+              "operator": "===",
+              "right": {
+                "type": "Literal",
+                "start": 407,
+                "end": 415,
+                "value": "number",
+                "raw": "'number'"
+              }
             },
             "consequent": {
               "type": "BlockStatement",
@@ -199,14 +233,14 @@ __ESTREE_TEST__:PASS:
                     "type": "BinaryExpression",
                     "start": 434,
                     "end": 443,
-                    "operator": "*",
                     "left": {
                       "type": "Literal",
                       "start": 434,
                       "end": 435,
-                      "raw": "2",
-                      "value": 2
+                      "value": 2,
+                      "raw": "2"
                     },
+                    "operator": "*",
                     "right": {
                       "type": "Identifier",
                       "start": 438,
@@ -220,77 +254,49 @@ __ESTREE_TEST__:PASS:
                 }
               ]
             },
-            "test": {
-              "type": "BinaryExpression",
-              "start": 390,
-              "end": 415,
-              "operator": "===",
-              "left": {
-                "type": "UnaryExpression",
-                "start": 390,
-                "end": 402,
-                "argument": {
-                  "type": "Identifier",
-                  "start": 397,
-                  "end": 402,
-                  "decorators": [],
-                  "name": "input",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "operator": "typeof",
-                "prefix": true
-              },
-              "right": {
-                "type": "Literal",
-                "start": 407,
-                "end": 415,
-                "raw": "'number'",
-                "value": "number"
-              }
+            "alternate": {
+              "type": "BlockStatement",
+              "start": 456,
+              "end": 484,
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 466,
+                  "end": 478,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 473,
+                    "end": 477,
+                    "value": null,
+                    "raw": "null"
+                  }
+                }
+              ]
             }
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 366,
-        "end": 372,
-        "decorators": [],
-        "name": "testFn",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [
-        {
-          "type": "Identifier",
-          "start": 373,
-          "end": 378,
-          "decorators": [],
-          "name": "input",
-          "optional": false,
-          "typeAnnotation": null
-        }
-      ],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 488,
       "end": 517,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 496,
           "end": 502,
+          "local": {
+            "type": "Identifier",
+            "start": 496,
+            "end": 502,
+            "decorators": [],
+            "name": "testFn",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 496,
@@ -300,21 +306,21 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 496,
-            "end": 502,
-            "decorators": [],
-            "name": "testFn",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         },
         {
           "type": "ExportSpecifier",
           "start": 504,
           "end": 515,
+          "local": {
+            "type": "Identifier",
+            "start": 504,
+            "end": 515,
+            "decorators": [],
+            "name": "testFnTypes",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 504,
@@ -324,18 +330,12 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 504,
-            "end": 515,
-            "decorators": [],
-            "name": "testFnTypes",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": null,
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

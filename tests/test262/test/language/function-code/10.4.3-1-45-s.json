@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 333,
       "end": 351,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -24,8 +25,7 @@
             "end": 350
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -37,7 +37,6 @@
         "end": 364,
         "name": "f1"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -56,7 +55,6 @@
               "end": 383,
               "name": "f"
             },
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -87,16 +85,17 @@
                     "start": 425,
                     "end": 436,
                     "operator": "typeof",
-                    "prefix": true,
                     "argument": {
                       "type": "ThisExpression",
                       "start": 432,
                       "end": 436
-                    }
+                    },
+                    "prefix": true
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "ReturnStatement",
@@ -163,7 +162,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

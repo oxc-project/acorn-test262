@@ -23,7 +23,6 @@
             "start": 336,
             "end": 489,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": true,
             "params": [],
@@ -60,8 +59,8 @@
                           "end": 382,
                           "name": "throwsAsync"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -74,9 +73,7 @@
                           "type": "ArrowFunctionExpression",
                           "start": 401,
                           "end": 485,
-                          "id": null,
                           "expression": true,
-                          "generator": false,
                           "async": false,
                           "params": [],
                           "body": {
@@ -99,8 +96,8 @@
                                 "end": 422,
                                 "name": "fromAsync"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -112,9 +109,7 @@
                                     "type": "Property",
                                     "start": 425,
                                     "end": 482,
-                                    "method": false,
-                                    "shorthand": false,
-                                    "computed": true,
+                                    "kind": "get",
                                     "key": {
                                       "type": "MemberExpression",
                                       "start": 430,
@@ -131,15 +126,14 @@
                                         "end": 450,
                                         "name": "asyncIterator"
                                       },
-                                      "computed": false,
-                                      "optional": false
+                                      "optional": false,
+                                      "computed": false
                                     },
                                     "value": {
                                       "type": "FunctionExpression",
                                       "start": 451,
                                       "end": 482,
                                       "id": null,
-                                      "expression": false,
                                       "generator": false,
                                       "async": false,
                                       "params": [],
@@ -166,15 +160,20 @@
                                             }
                                           }
                                         ]
-                                      }
+                                      },
+                                      "expression": false
                                     },
-                                    "kind": "get"
+                                    "method": false,
+                                    "shorthand": false,
+                                    "computed": true
                                   }
                                 ]
                               }
                             ],
                             "optional": false
-                          }
+                          },
+                          "id": null,
+                          "generator": false
                         }
                       ],
                       "optional": false
@@ -182,7 +181,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

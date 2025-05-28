@@ -9,7 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 30,
       "end": 114,
+      "id": {
+        "type": "Identifier",
+        "start": 39,
+        "end": 42,
+        "decorators": [],
+        "name": "foo",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 45,
@@ -25,11 +39,19 @@ __ESTREE_TEST__:PASS:
               "end": 62,
               "body": []
             },
-            "finalizer": null,
             "handler": {
               "type": "CatchClause",
               "start": 67,
               "end": 112,
+              "param": {
+                "type": "Identifier",
+                "start": 74,
+                "end": 75,
+                "decorators": [],
+                "name": "e",
+                "optional": false,
+                "typeAnnotation": null
+              },
               "body": {
                 "type": "BlockStatement",
                 "start": 77,
@@ -39,12 +61,12 @@ __ESTREE_TEST__:PASS:
                     "type": "VariableDeclaration",
                     "start": 87,
                     "end": 105,
+                    "kind": "let",
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
                         "start": 91,
                         "end": 104,
-                        "definite": false,
                         "id": {
                           "type": "Identifier",
                           "start": 91,
@@ -58,7 +80,6 @@ __ESTREE_TEST__:PASS:
                           "type": "MemberExpression",
                           "start": 95,
                           "end": 104,
-                          "computed": false,
                           "object": {
                             "type": "Identifier",
                             "start": 95,
@@ -68,7 +89,6 @@ __ESTREE_TEST__:PASS:
                             "optional": false,
                             "typeAnnotation": null
                           },
-                          "optional": false,
                           "property": {
                             "type": "Identifier",
                             "start": 97,
@@ -77,43 +97,23 @@ __ESTREE_TEST__:PASS:
                             "name": "message",
                             "optional": false,
                             "typeAnnotation": null
-                          }
-                        }
+                          },
+                          "optional": false,
+                          "computed": false
+                        },
+                        "definite": false
                       }
                     ],
-                    "declare": false,
-                    "kind": "let"
+                    "declare": false
                   }
                 ]
-              },
-              "param": {
-                "type": "Identifier",
-                "start": 74,
-                "end": 75,
-                "decorators": [],
-                "name": "e",
-                "optional": false,
-                "typeAnnotation": null
               }
-            }
+            },
+            "finalizer": null
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 39,
-        "end": 42,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

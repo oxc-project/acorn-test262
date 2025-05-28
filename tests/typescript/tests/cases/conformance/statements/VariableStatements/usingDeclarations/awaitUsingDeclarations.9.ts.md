@@ -14,12 +14,12 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclaration",
           "start": 6,
           "end": 27,
+          "kind": "await using",
           "declarations": [
             {
               "type": "VariableDeclarator",
               "start": 18,
               "end": 26,
-              "definite": false,
               "id": {
                 "type": "Identifier",
                 "start": 18,
@@ -33,13 +33,13 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 22,
                 "end": 26,
-                "raw": "null",
-                "value": null
-              }
+                "value": null,
+                "raw": "null"
+              },
+              "definite": false
             }
           ],
-          "declare": false,
-          "kind": "await using"
+          "declare": false
         }
       ]
     },
@@ -47,11 +47,11 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 31,
       "end": 41,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

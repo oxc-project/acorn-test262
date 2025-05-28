@@ -9,25 +9,25 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 12,
-      "directive": "use strict",
       "expression": {
         "type": "Literal",
         "start": 0,
         "end": 12,
-        "raw": "\"use strict\"",
-        "value": "use strict"
-      }
+        "value": "use strict",
+        "raw": "\"use strict\""
+      },
+      "directive": "use strict"
     },
     {
       "type": "VariableDeclaration",
       "start": 13,
       "end": 27,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 19,
           "end": 27,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 19,
@@ -41,24 +41,24 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 26,
             "end": 27,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 28,
       "end": 47,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 34,
           "end": 47,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 34,
@@ -72,13 +72,13 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 46,
             "end": 47,
-            "raw": "2",
-            "value": 2
-          }
+            "value": 2,
+            "raw": "2"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "script",

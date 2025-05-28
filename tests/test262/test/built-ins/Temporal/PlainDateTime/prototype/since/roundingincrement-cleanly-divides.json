@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 285,
       "end": 366,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 327,
                 "name": "PlainDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -108,13 +109,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 367,
       "end": 447,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -146,8 +147,8 @@
                 "end": 407,
                 "name": "PlainDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -216,8 +217,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -293,17 +293,15 @@
             "end": 479,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 480,
             "end": 759,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -322,6 +320,7 @@
                   "type": "VariableDeclaration",
                   "start": 507,
                   "end": 568,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -342,9 +341,7 @@
                             "type": "Property",
                             "start": 525,
                             "end": 546,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 525,
@@ -358,15 +355,15 @@
                               "value": "hours",
                               "raw": "\"hours\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 548,
                             "end": 565,
-                            "method": false,
-                            "shorthand": true,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 548,
@@ -379,13 +376,14 @@
                               "end": 565,
                               "name": "roundingIncrement"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": true,
+                            "computed": false
                           }
                         ]
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -426,8 +424,8 @@
                               "end": 594,
                               "name": "since"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -462,22 +460,14 @@
                             "end": 641,
                             "name": "Duration"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         }
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 647,
                         "end": 752,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 709,
-                            "end": 726,
-                            "name": "roundingIncrement"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -499,6 +489,14 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 709,
+                            "end": 726,
+                            "name": "roundingIncrement"
+                          }
                         ]
                       }
                     ],
@@ -506,7 +504,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -551,17 +551,15 @@
             "end": 793,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 794,
             "end": 1137,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -678,17 +676,15 @@
                         "end": 862,
                         "name": "forEach"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
                         "type": "ArrowFunctionExpression",
                         "start": 863,
                         "end": 1133,
-                        "id": null,
                         "expression": false,
-                        "generator": false,
                         "async": false,
                         "params": [
                           {
@@ -707,6 +703,7 @@
                               "type": "VariableDeclaration",
                               "start": 892,
                               "end": 944,
+                              "kind": "const",
                               "declarations": [
                                 {
                                   "type": "VariableDeclarator",
@@ -727,9 +724,7 @@
                                         "type": "Property",
                                         "start": 910,
                                         "end": 922,
-                                        "method": false,
-                                        "shorthand": true,
-                                        "computed": false,
+                                        "kind": "init",
                                         "key": {
                                           "type": "Identifier",
                                           "start": 910,
@@ -742,15 +737,15 @@
                                           "end": 922,
                                           "name": "smallestUnit"
                                         },
-                                        "kind": "init"
+                                        "method": false,
+                                        "shorthand": true,
+                                        "computed": false
                                       },
                                       {
                                         "type": "Property",
                                         "start": 924,
                                         "end": 941,
-                                        "method": false,
-                                        "shorthand": true,
-                                        "computed": false,
+                                        "kind": "init",
                                         "key": {
                                           "type": "Identifier",
                                           "start": 924,
@@ -763,13 +758,14 @@
                                           "end": 941,
                                           "name": "roundingIncrement"
                                         },
-                                        "kind": "init"
+                                        "method": false,
+                                        "shorthand": true,
+                                        "computed": false
                                       }
                                     ]
                                   }
                                 }
-                              ],
-                              "kind": "const"
+                              ]
                             },
                             {
                               "type": "ExpressionStatement",
@@ -810,8 +806,8 @@
                                           "end": 974,
                                           "name": "since"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [
                                         {
@@ -846,28 +842,14 @@
                                         "end": 1021,
                                         "name": "Duration"
                                       },
-                                      "computed": false,
-                                      "optional": false
+                                      "optional": false,
+                                      "computed": false
                                     }
                                   },
                                   {
                                     "type": "TemplateLiteral",
                                     "start": 1029,
                                     "end": 1122,
-                                    "expressions": [
-                                      {
-                                        "type": "Identifier",
-                                        "start": 1038,
-                                        "end": 1050,
-                                        "name": "smallestUnit"
-                                      },
-                                      {
-                                        "type": "Identifier",
-                                        "start": 1102,
-                                        "end": 1119,
-                                        "name": "roundingIncrement"
-                                      }
-                                    ],
                                     "quasis": [
                                       {
                                         "type": "TemplateElement",
@@ -899,6 +881,20 @@
                                         },
                                         "tail": true
                                       }
+                                    ],
+                                    "expressions": [
+                                      {
+                                        "type": "Identifier",
+                                        "start": 1038,
+                                        "end": 1050,
+                                        "name": "smallestUnit"
+                                      },
+                                      {
+                                        "type": "Identifier",
+                                        "start": 1102,
+                                        "end": 1119,
+                                        "name": "roundingIncrement"
+                                      }
                                     ]
                                   }
                                 ],
@@ -906,14 +902,18 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -965,17 +965,15 @@
             "end": 1196,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 1197,
             "end": 1564,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -1120,17 +1118,15 @@
                         "end": 1287,
                         "name": "forEach"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
                         "type": "ArrowFunctionExpression",
                         "start": 1288,
                         "end": 1560,
-                        "id": null,
                         "expression": false,
-                        "generator": false,
                         "async": false,
                         "params": [
                           {
@@ -1149,6 +1145,7 @@
                               "type": "VariableDeclaration",
                               "start": 1317,
                               "end": 1369,
+                              "kind": "const",
                               "declarations": [
                                 {
                                   "type": "VariableDeclarator",
@@ -1169,9 +1166,7 @@
                                         "type": "Property",
                                         "start": 1335,
                                         "end": 1347,
-                                        "method": false,
-                                        "shorthand": true,
-                                        "computed": false,
+                                        "kind": "init",
                                         "key": {
                                           "type": "Identifier",
                                           "start": 1335,
@@ -1184,15 +1179,15 @@
                                           "end": 1347,
                                           "name": "smallestUnit"
                                         },
-                                        "kind": "init"
+                                        "method": false,
+                                        "shorthand": true,
+                                        "computed": false
                                       },
                                       {
                                         "type": "Property",
                                         "start": 1349,
                                         "end": 1366,
-                                        "method": false,
-                                        "shorthand": true,
-                                        "computed": false,
+                                        "kind": "init",
                                         "key": {
                                           "type": "Identifier",
                                           "start": 1349,
@@ -1205,13 +1200,14 @@
                                           "end": 1366,
                                           "name": "roundingIncrement"
                                         },
-                                        "kind": "init"
+                                        "method": false,
+                                        "shorthand": true,
+                                        "computed": false
                                       }
                                     ]
                                   }
                                 }
-                              ],
-                              "kind": "const"
+                              ]
                             },
                             {
                               "type": "ExpressionStatement",
@@ -1252,8 +1248,8 @@
                                           "end": 1399,
                                           "name": "since"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [
                                         {
@@ -1288,28 +1284,14 @@
                                         "end": 1446,
                                         "name": "Duration"
                                       },
-                                      "computed": false,
-                                      "optional": false
+                                      "optional": false,
+                                      "computed": false
                                     }
                                   },
                                   {
                                     "type": "TemplateLiteral",
                                     "start": 1454,
                                     "end": 1549,
-                                    "expressions": [
-                                      {
-                                        "type": "Identifier",
-                                        "start": 1463,
-                                        "end": 1475,
-                                        "name": "smallestUnit"
-                                      },
-                                      {
-                                        "type": "Identifier",
-                                        "start": 1529,
-                                        "end": 1546,
-                                        "name": "roundingIncrement"
-                                      }
-                                    ],
                                     "quasis": [
                                       {
                                         "type": "TemplateElement",
@@ -1341,6 +1323,20 @@
                                         },
                                         "tail": true
                                       }
+                                    ],
+                                    "expressions": [
+                                      {
+                                        "type": "Identifier",
+                                        "start": 1463,
+                                        "end": 1475,
+                                        "name": "smallestUnit"
+                                      },
+                                      {
+                                        "type": "Identifier",
+                                        "start": 1529,
+                                        "end": 1546,
+                                        "name": "roundingIncrement"
+                                      }
                                     ]
                                   }
                                 ],
@@ -1348,14 +1344,18 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

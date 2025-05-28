@@ -13,7 +13,6 @@
         "end": 692,
         "name": "__func"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -22,7 +21,8 @@
         "start": 694,
         "end": 696,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",
@@ -42,7 +42,6 @@
           "start": 792,
           "end": 815,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 799,
@@ -59,9 +58,10 @@
               "end": 815,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -109,7 +109,6 @@
                     "start": 938,
                     "end": 961,
                     "operator": "typeof",
-                    "prefix": true,
                     "argument": {
                       "type": "MemberExpression",
                       "start": 945,
@@ -126,9 +125,10 @@
                         "end": 961,
                         "name": "prototype"
                       },
-                      "computed": false,
-                      "optional": false
-                    }
+                      "optional": false,
+                      "computed": false
+                    },
+                    "prefix": true
                   }
                 }
               ]
@@ -166,8 +166,8 @@
               "end": 1158,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -175,8 +175,8 @@
             "end": 1170,
             "name": "constructor"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -238,8 +238,8 @@
                         "end": 1313,
                         "name": "prototype"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -247,8 +247,8 @@
                       "end": 1325,
                       "name": "constructor"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
@@ -262,6 +262,7 @@
       "type": "VariableDeclaration",
       "start": 1413,
       "end": 1443,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -275,8 +276,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForInStatement",
@@ -304,8 +304,8 @@
           "end": 1476,
           "name": "prototype"
         },
-        "computed": false,
-        "optional": false
+        "optional": false,
+        "computed": false
       },
       "body": {
         "type": "BlockStatement",

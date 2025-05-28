@@ -23,21 +23,17 @@
             "type": "MethodDefinition",
             "start": 228,
             "end": 269,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 228,
               "end": 239,
               "name": "constructor"
             },
-            "kind": "constructor",
             "value": {
               "type": "FunctionExpression",
               "start": 239,
               "end": 269,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -69,36 +65,36 @@
                           "end": 262,
                           "name": "toString"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [],
                       "optional": false
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "constructor",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 272,
             "end": 314,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 272,
               "end": 282,
               "name": "dontDoThis"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 282,
               "end": 314,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -131,8 +127,8 @@
                           "end": 305,
                           "name": "makeBugs"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "right": {
                         "type": "Literal",
@@ -144,8 +140,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -174,8 +174,8 @@
             "end": 335,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -183,13 +183,13 @@
             "start": 336,
             "end": 344,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 343,
               "end": 344,
               "name": "A"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -206,6 +206,7 @@
       "type": "VariableDeclaration",
       "start": 360,
       "end": 376,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -230,8 +231,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -257,8 +257,8 @@
             "end": 390,
             "name": "dontDoThis"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [],
         "optional": false
@@ -288,8 +288,8 @@
             "end": 410,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -308,8 +308,8 @@
               "end": 421,
               "name": "makeBugs"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

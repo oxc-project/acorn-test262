@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1206,
       "end": 1242,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,19 +39,19 @@
                 "end": 1239,
                 "name": "DateTimeFormat"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1244,
       "end": 1266,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -75,8 +76,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -102,8 +102,8 @@
             "end": 1281,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -117,7 +117,6 @@
             "start": 1294,
             "end": 1350,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -150,8 +149,8 @@
                         "end": 1331,
                         "name": "formatRangeToParts"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -171,7 +170,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -208,8 +208,8 @@
             "end": 1385,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -223,7 +223,6 @@
             "start": 1398,
             "end": 1455,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -256,8 +255,8 @@
                         "end": 1435,
                         "name": "formatRangeToParts"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -265,13 +264,13 @@
                         "start": 1436,
                         "end": 1445,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Identifier",
                           "start": 1437,
                           "end": 1445,
                           "name": "Infinity"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "Identifier",
@@ -284,7 +283,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -321,8 +321,8 @@
             "end": 1490,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -336,7 +336,6 @@
             "start": 1503,
             "end": 1559,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -369,8 +368,8 @@
                         "end": 1540,
                         "name": "formatRangeToParts"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -390,7 +389,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -427,8 +427,8 @@
             "end": 1594,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -442,7 +442,6 @@
             "start": 1607,
             "end": 1664,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -475,8 +474,8 @@
                         "end": 1644,
                         "name": "formatRangeToParts"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -490,20 +489,21 @@
                         "start": 1651,
                         "end": 1660,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Identifier",
                           "start": 1652,
                           "end": 1660,
                           "name": "Infinity"
-                        }
+                        },
+                        "prefix": true
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -540,8 +540,8 @@
             "end": 1699,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -555,7 +555,6 @@
             "start": 1712,
             "end": 1772,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -588,8 +587,8 @@
                         "end": 1749,
                         "name": "formatRangeToParts"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -609,7 +608,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -646,8 +646,8 @@
             "end": 1812,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -661,7 +661,6 @@
             "start": 1825,
             "end": 1887,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -694,8 +693,8 @@
                         "end": 1862,
                         "name": "formatRangeToParts"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -703,33 +702,34 @@
                         "start": 1863,
                         "end": 1872,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Identifier",
                           "start": 1864,
                           "end": 1872,
                           "name": "Infinity"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "UnaryExpression",
                         "start": 1874,
                         "end": 1883,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Identifier",
                           "start": 1875,
                           "end": 1883,
                           "name": "Infinity"
-                        }
+                        },
+                        "prefix": true
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -766,8 +766,8 @@
             "end": 1927,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -781,7 +781,6 @@
             "start": 1940,
             "end": 2001,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -814,8 +813,8 @@
                         "end": 1977,
                         "name": "formatRangeToParts"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -829,20 +828,21 @@
                         "start": 1988,
                         "end": 1997,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Identifier",
                           "start": 1989,
                           "end": 1997,
                           "name": "Infinity"
-                        }
+                        },
+                        "prefix": true
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -879,8 +879,8 @@
             "end": 2041,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -894,7 +894,6 @@
             "start": 2054,
             "end": 2115,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -927,8 +926,8 @@
                         "end": 2091,
                         "name": "formatRangeToParts"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -936,13 +935,13 @@
                         "start": 2092,
                         "end": 2101,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Identifier",
                           "start": 2093,
                           "end": 2101,
                           "name": "Infinity"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "Identifier",
@@ -955,7 +954,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

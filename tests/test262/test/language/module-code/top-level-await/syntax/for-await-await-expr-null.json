@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1598,
       "end": 1610,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -93,6 +93,7 @@
         "type": "VariableDeclaration",
         "start": 1985,
         "end": 1996,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -106,8 +107,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "right": {
         "type": "ArrayExpression",
@@ -168,6 +168,7 @@
         "type": "VariableDeclaration",
         "start": 2189,
         "end": 2200,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -181,8 +182,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "ArrayExpression",

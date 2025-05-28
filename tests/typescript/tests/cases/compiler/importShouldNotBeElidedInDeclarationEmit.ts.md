@@ -23,12 +23,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 26,
       "end": 64,
-      "attributes": [],
       "declaration": {
         "type": "TSTypeAliasDeclaration",
         "start": 33,
         "end": 64,
-        "declare": false,
         "id": {
           "type": "Identifier",
           "start": 38,
@@ -38,6 +36,7 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "typeParameters": null,
         "typeAnnotation": {
           "type": "TSTypeLiteral",
           "start": 46,
@@ -47,8 +46,9 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 52,
               "end": 62,
-              "accessibility": null,
               "computed": false,
+              "optional": false,
+              "readonly": false,
               "key": {
                 "type": "Identifier",
                 "start": 52,
@@ -58,9 +58,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
-              "readonly": false,
-              "static": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
                 "start": 53,
@@ -70,30 +67,27 @@ __ESTREE_TEST__:PASS:
                   "start": 55,
                   "end": 61
                 }
-              }
+              },
+              "accessibility": null,
+              "static": false
             }
           ]
         },
-        "typeParameters": null
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 66,
       "end": 109,
-      "attributes": [],
       "declaration": {
         "type": "TSDeclareFunction",
         "start": 73,
         "end": 109,
-        "async": false,
-        "body": null,
-        "declare": true,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 90,
@@ -103,6 +97,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": true,
+        "typeParameters": null,
         "params": [],
         "returnType": {
           "type": "TSTypeAnnotation",
@@ -112,7 +110,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 103,
             "end": 108,
-            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 103,
@@ -121,14 +118,17 @@ __ESTREE_TEST__:PASS:
               "name": "Thing",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "typeArguments": null
           }
         },
-        "typeParameters": null
+        "body": null,
+        "expression": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -146,14 +146,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 32,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 26,
-        "end": 31,
-        "raw": "\"umd\"",
-        "value": "umd"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -168,7 +160,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
@@ -177,27 +168,35 @@ __ESTREE_TEST__:PASS:
             "name": "makeThing",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 26,
+        "end": 31,
+        "value": "umd",
+        "raw": "\"umd\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 33,
       "end": 66,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 40,
         "end": 66,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 46,
             "end": 65,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 46,
@@ -211,7 +210,6 @@ __ESTREE_TEST__:PASS:
               "type": "CallExpression",
               "start": 54,
               "end": 65,
-              "arguments": [],
               "callee": {
                 "type": "Identifier",
                 "start": 54,
@@ -221,17 +219,19 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [],
+              "optional": false
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

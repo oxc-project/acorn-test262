@@ -27,8 +27,8 @@
             "end": 292,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 309,
             "end": 367,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -68,7 +67,6 @@
                         "start": 325,
                         "end": 361,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -92,6 +90,7 @@
                               "type": "VariableDeclaration",
                               "start": 345,
                               "end": 357,
+                              "kind": "const",
                               "declarations": [
                                 {
                                   "type": "VariableDeclarator",
@@ -111,11 +110,11 @@
                                     "raw": "1"
                                   }
                                 }
-                              ],
-                              "kind": "const"
+                              ]
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       },
                       "arguments": [],
                       "optional": false
@@ -123,7 +122,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

@@ -35,8 +35,8 @@
                 "end": 444,
                 "name": "MAX_VALUE"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "*",
             "right": {
@@ -85,8 +85,8 @@
                   "end": 478,
                   "name": "MAX_VALUE"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "operator": "*",
               "right": {
@@ -168,8 +168,8 @@
                             "end": 619,
                             "name": "MAX_VALUE"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "operator": "*",
                         "right": {
@@ -234,8 +234,8 @@
                   "end": 670,
                   "name": "MAX_VALUE"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "operator": "*",
               "right": {
@@ -277,8 +277,8 @@
               "end": 704,
               "name": "MAX_VALUE"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "operator": "*",
           "right": {

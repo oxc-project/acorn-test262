@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 16,
       "end": 58,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 30,
           "end": 58,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 30,
@@ -40,6 +40,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 43,
                     "end": 58,
+                    "typeName": {
+                      "type": "Identifier",
+                      "start": 43,
+                      "end": 50,
+                      "decorators": [],
+                      "name": "Promise",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
                     "typeArguments": {
                       "type": "TSTypeParameterInstantiation",
                       "start": 50,
@@ -51,37 +60,26 @@ __ESTREE_TEST__:PASS:
                           "end": 57
                         }
                       ]
-                    },
-                    "typeName": {
-                      "type": "Identifier",
-                      "start": 43,
-                      "end": 50,
-                      "decorators": [],
-                      "name": "Promise",
-                      "optional": false,
-                      "typeAnnotation": null
                     }
                   }
                 ]
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     },
     {
       "type": "ExpressionStatement",
       "start": 59,
       "end": 66,
-      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 59,
         "end": 66,
-        "operator": ">=",
         "left": {
           "type": "Identifier",
           "start": 59,
@@ -91,14 +89,16 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "operator": ">=",
         "right": {
           "type": "Literal",
           "start": 65,
           "end": 66,
-          "raw": "0",
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

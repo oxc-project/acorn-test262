@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 20,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 19,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -33,17 +33,16 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 21,
       "end": 49,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 21,
@@ -62,20 +61,17 @@ __ESTREE_TEST__:PASS:
           "type": "CallExpression",
           "start": 31,
           "end": 48,
-          "arguments": [],
           "callee": {
             "type": "MemberExpression",
             "start": 31,
             "end": 46,
-            "computed": false,
             "object": {
               "type": "Literal",
               "start": 31,
               "end": 38,
-              "raw": "\"abcde\"",
-              "value": "abcde"
+              "value": "abcde",
+              "raw": "\"abcde\""
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 39,
@@ -84,18 +80,21 @@ __ESTREE_TEST__:PASS:
               "name": "trimEnd",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "optional": false,
+            "computed": false
           },
-          "optional": false,
-          "typeArguments": null
+          "typeArguments": null,
+          "arguments": [],
+          "optional": false
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 50,
       "end": 80,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 50,
@@ -114,20 +113,17 @@ __ESTREE_TEST__:PASS:
           "type": "CallExpression",
           "start": 60,
           "end": 79,
-          "arguments": [],
           "callee": {
             "type": "MemberExpression",
             "start": 60,
             "end": 77,
-            "computed": false,
             "object": {
               "type": "Literal",
               "start": 60,
               "end": 67,
-              "raw": "\"abcde\"",
-              "value": "abcde"
+              "value": "abcde",
+              "raw": "\"abcde\""
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 68,
@@ -136,18 +132,21 @@ __ESTREE_TEST__:PASS:
               "name": "trimStart",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "optional": false,
+            "computed": false
           },
-          "optional": false,
-          "typeArguments": null
+          "typeArguments": null,
+          "arguments": [],
+          "optional": false
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 81,
       "end": 110,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 81,
@@ -166,20 +165,17 @@ __ESTREE_TEST__:PASS:
           "type": "CallExpression",
           "start": 91,
           "end": 109,
-          "arguments": [],
           "callee": {
             "type": "MemberExpression",
             "start": 91,
             "end": 107,
-            "computed": false,
             "object": {
               "type": "Literal",
               "start": 91,
               "end": 98,
-              "raw": "\"abcde\"",
-              "value": "abcde"
+              "value": "abcde",
+              "raw": "\"abcde\""
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 99,
@@ -188,18 +184,21 @@ __ESTREE_TEST__:PASS:
               "name": "trimLeft",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "optional": false,
+            "computed": false
           },
-          "optional": false,
-          "typeArguments": null
+          "typeArguments": null,
+          "arguments": [],
+          "optional": false
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 111,
       "end": 141,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 111,
@@ -218,20 +217,17 @@ __ESTREE_TEST__:PASS:
           "type": "CallExpression",
           "start": 121,
           "end": 140,
-          "arguments": [],
           "callee": {
             "type": "MemberExpression",
             "start": 121,
             "end": 138,
-            "computed": false,
             "object": {
               "type": "Literal",
               "start": 121,
               "end": 128,
-              "raw": "\"abcde\"",
-              "value": "abcde"
+              "value": "abcde",
+              "raw": "\"abcde\""
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 129,
@@ -240,12 +236,16 @@ __ESTREE_TEST__:PASS:
               "name": "trimRight",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "optional": false,
+            "computed": false
           },
-          "optional": false,
-          "typeArguments": null
+          "typeArguments": null,
+          "arguments": [],
+          "optional": false
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

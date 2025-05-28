@@ -9,6 +9,17 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 38,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 11,
+        "decorators": [],
+        "name": "I",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "extends": [],
       "body": {
         "type": "TSInterfaceBody",
         "start": 12,
@@ -18,6 +29,32 @@ __ESTREE_TEST__:PASS:
             "type": "TSCallSignatureDeclaration",
             "start": 18,
             "end": 36,
+            "typeParameters": {
+              "type": "TSTypeParameterDeclaration",
+              "start": 18,
+              "end": 21,
+              "params": [
+                {
+                  "type": "TSTypeParameter",
+                  "start": 19,
+                  "end": 20,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 19,
+                    "end": 20,
+                    "decorators": [],
+                    "name": "T",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": null,
+                  "in": false,
+                  "out": false,
+                  "const": false
+                }
+              ]
+            },
             "params": [
               {
                 "type": "Identifier",
@@ -34,7 +71,6 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 25,
                     "end": 26,
-                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 25,
@@ -43,7 +79,8 @@ __ESTREE_TEST__:PASS:
                       "name": "T",
                       "optional": false,
                       "typeAnnotation": null
-                    }
+                    },
+                    "typeArguments": null
                   }
                 }
               }
@@ -57,60 +94,26 @@ __ESTREE_TEST__:PASS:
                 "start": 29,
                 "end": 35
               }
-            },
-            "typeParameters": {
-              "type": "TSTypeParameterDeclaration",
-              "start": 18,
-              "end": 21,
-              "params": [
-                {
-                  "type": "TSTypeParameter",
-                  "start": 19,
-                  "end": 20,
-                  "const": false,
-                  "constraint": null,
-                  "default": null,
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 19,
-                    "end": 20,
-                    "decorators": [],
-                    "name": "T",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                }
-              ]
             }
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 11,
-        "decorators": [],
-        "name": "I",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 40,
       "end": 66,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 63,
-        "end": 66,
-        "body": []
+      "id": {
+        "type": "Identifier",
+        "start": 50,
+        "end": 52,
+        "decorators": [],
+        "name": "I2",
+        "optional": false,
+        "typeAnnotation": null
       },
-      "declare": false,
+      "typeParameters": null,
       "extends": [
         {
           "type": "TSInterfaceHeritage",
@@ -128,16 +131,13 @@ __ESTREE_TEST__:PASS:
           "typeArguments": null
         }
       ],
-      "id": {
-        "type": "Identifier",
-        "start": 50,
-        "end": 52,
-        "decorators": [],
-        "name": "I2",
-        "optional": false,
-        "typeAnnotation": null
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 63,
+        "end": 66,
+        "body": []
       },
-      "typeParameters": null
+      "declare": false
     }
   ],
   "sourceType": "script",

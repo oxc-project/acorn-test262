@@ -9,11 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 25,
-      "attributes": [],
       "declaration": {
         "type": "TSEnumDeclaration",
         "start": 7,
         "end": 25,
+        "id": {
+          "type": "Identifier",
+          "start": 12,
+          "end": 14,
+          "decorators": [],
+          "name": "E1",
+          "optional": false,
+          "typeAnnotation": null
+        },
         "body": {
           "type": "TSEnumBody",
           "start": 15,
@@ -23,7 +31,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSEnumMember",
               "start": 18,
               "end": 19,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 18,
@@ -33,13 +40,13 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "initializer": null
+              "initializer": null,
+              "computed": false
             },
             {
               "type": "TSEnumMember",
               "start": 20,
               "end": 21,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 20,
@@ -49,13 +56,13 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "initializer": null
+              "initializer": null,
+              "computed": false
             },
             {
               "type": "TSEnumMember",
               "start": 22,
               "end": 23,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 22,
@@ -65,38 +72,23 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "initializer": null
+              "initializer": null,
+              "computed": false
             }
           ]
         },
         "const": false,
-        "declare": false,
-        "id": {
-          "type": "Identifier",
-          "start": 12,
-          "end": 14,
-          "decorators": [],
-          "name": "E1",
-          "optional": false,
-          "typeAnnotation": null
-        }
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ClassDeclaration",
       "start": 27,
       "end": 40,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 36,
-        "end": 40,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -107,10 +99,18 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 36,
+        "end": 40,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "TSExportAssignment",

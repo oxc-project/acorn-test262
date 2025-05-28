@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1673,
       "end": 1683,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "WhileStatement",
@@ -38,13 +38,13 @@
         "start": 1691,
         "end": 1693,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "Identifier",
           "start": 1692,
           "end": 1693,
           "name": "x"
-        }
+        },
+        "prefix": true
       },
       "body": {
         "type": "BlockStatement",
@@ -109,17 +109,15 @@
                       "end": 1759,
                       "name": "catch"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
                       "type": "ArrowFunctionExpression",
                       "start": 1760,
                       "end": 1825,
-                      "id": null,
                       "expression": false,
-                      "generator": false,
                       "async": false,
                       "params": [
                         {
@@ -158,8 +156,8 @@
                                   "end": 1792,
                                   "name": "sameValue"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "arguments": [
                                 {
@@ -178,8 +176,8 @@
                                     "end": 1803,
                                     "name": "name"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 {
                                   "type": "Literal",
@@ -193,7 +191,9 @@
                             }
                           }
                         ]
-                      }
+                      },
+                      "id": null,
+                      "generator": false
                     }
                   ],
                   "optional": false
@@ -204,8 +204,8 @@
                   "end": 1831,
                   "name": "then"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {

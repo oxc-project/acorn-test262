@@ -38,14 +38,14 @@
           "start": 375,
           "end": 377,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 376,
             "end": 377,
             "value": 2,
             "raw": "2"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -117,14 +117,14 @@
           "start": 488,
           "end": 490,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 489,
             "end": 490,
             "value": 2,
             "raw": "2"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -196,14 +196,14 @@
           "start": 603,
           "end": 605,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 604,
             "end": 605,
             "value": 2,
             "raw": "2"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -275,14 +275,14 @@
           "start": 716,
           "end": 718,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 717,
             "end": 718,
             "value": 2,
             "raw": "2"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -354,14 +354,14 @@
           "start": 829,
           "end": 831,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 830,
             "end": 831,
             "value": 2,
             "raw": "2"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -433,14 +433,14 @@
           "start": 942,
           "end": 944,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 943,
             "end": 944,
             "value": 2,
             "raw": "2"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -512,14 +512,14 @@
           "start": 1057,
           "end": 1059,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 1058,
             "end": 1059,
             "value": 2,
             "raw": "2"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -591,14 +591,14 @@
           "start": 1170,
           "end": 1172,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 1171,
             "end": 1172,
             "value": 2,
             "raw": "2"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -670,14 +670,14 @@
           "start": 1283,
           "end": 1285,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 1284,
             "end": 1285,
             "value": 2,
             "raw": "2"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -749,14 +749,14 @@
           "start": 1493,
           "end": 1495,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 1494,
             "end": 1495,
             "value": 2,
             "raw": "2"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {

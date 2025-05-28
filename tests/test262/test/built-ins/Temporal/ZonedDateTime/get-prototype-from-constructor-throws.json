@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 919,
       "end": 1040,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 956,
                 "name": "defineProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -55,7 +56,6 @@
                     "start": 957,
                     "end": 969,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -64,7 +64,8 @@
                       "start": 967,
                       "end": 969,
                       "body": []
-                    }
+                    },
+                    "expression": false
                   },
                   "property": {
                     "type": "Identifier",
@@ -72,8 +73,8 @@
                     "end": 974,
                     "name": "bind"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [],
                 "optional": false
@@ -94,9 +95,7 @@
                     "type": "Property",
                     "start": 995,
                     "end": 1036,
-                    "method": true,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 995,
@@ -108,7 +107,6 @@
                       "start": 998,
                       "end": 1036,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -135,9 +133,12 @@
                             }
                           }
                         ]
-                      }
+                      },
+                      "expression": false
                     },
-                    "kind": "init"
+                    "method": true,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -145,8 +146,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -172,8 +172,8 @@
             "end": 1055,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -187,7 +187,6 @@
             "start": 1070,
             "end": 1152,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -220,8 +219,8 @@
                         "end": 1102,
                         "name": "construct"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -240,8 +239,8 @@
                           "end": 1125,
                           "name": "ZonedDateTime"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       {
                         "type": "ArrayExpression",
@@ -276,7 +275,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

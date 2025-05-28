@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 787,
       "end": 837,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 830,
                 "name": "PlainMonthDay"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -59,13 +60,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 838,
       "end": 910,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -113,8 +114,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -125,6 +125,7 @@
         "type": "VariableDeclaration",
         "start": 917,
         "end": 935,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -138,8 +139,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -176,8 +176,8 @@
                   "end": 971,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -190,9 +190,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 993,
                   "end": 1034,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -215,8 +213,8 @@
                         "end": 1016,
                         "name": "toString"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -228,9 +226,7 @@
                             "type": "Property",
                             "start": 1019,
                             "end": 1031,
-                            "method": false,
-                            "shorthand": true,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 1019,
@@ -243,26 +239,22 @@
                               "end": 1031,
                               "name": "calendarName"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": true,
+                            "computed": false
                           }
                         ]
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 1040,
                   "end": 1101,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1043,
-                      "end": 1055,
-                      "name": "calendarName"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -283,6 +275,14 @@
                         "cooked": " is an invalid value for calendarName option"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1043,
+                      "end": 1055,
+                      "name": "calendarName"
                     }
                   ]
                 }

@@ -27,8 +27,8 @@
             "end": 288,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -51,8 +51,8 @@
                 "end": 304,
                 "name": "sumPrecise"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -69,14 +69,14 @@
             "start": 310,
             "end": 312,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 311,
               "end": 312,
               "value": 0,
               "raw": "0"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -106,8 +106,8 @@
             "end": 331,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -130,8 +130,8 @@
                 "end": 347,
                 "name": "sumPrecise"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -144,14 +144,14 @@
                     "start": 349,
                     "end": 351,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 350,
                       "end": 351,
                       "value": 0,
                       "raw": "0"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               }
@@ -163,14 +163,14 @@
             "start": 355,
             "end": 357,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 356,
               "end": 357,
               "value": 0,
               "raw": "0"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -200,8 +200,8 @@
             "end": 376,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -224,8 +224,8 @@
                 "end": 392,
                 "name": "sumPrecise"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -238,28 +238,28 @@
                     "start": 394,
                     "end": 396,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 395,
                       "end": 396,
                       "value": 0,
                       "raw": "0"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "UnaryExpression",
                     "start": 398,
                     "end": 400,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 399,
                       "end": 400,
                       "value": 0,
                       "raw": "0"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               }
@@ -271,14 +271,14 @@
             "start": 404,
             "end": 406,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 405,
               "end": 406,
               "value": 0,
               "raw": "0"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -308,8 +308,8 @@
             "end": 425,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -332,8 +332,8 @@
                 "end": 441,
                 "name": "sumPrecise"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -346,14 +346,14 @@
                     "start": 443,
                     "end": 445,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 444,
                       "end": 445,
                       "value": 0,
                       "raw": "0"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "Literal",

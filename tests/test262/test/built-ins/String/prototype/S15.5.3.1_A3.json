@@ -12,7 +12,6 @@
         "start": 423,
         "end": 460,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 424,
@@ -37,8 +36,8 @@
                 "end": 446,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -51,7 +50,8 @@
             ],
             "optional": false
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -105,8 +105,8 @@
                         "end": 577,
                         "name": "hasOwnProperty"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -185,7 +185,6 @@
                   "start": 825,
                   "end": 848,
                   "operator": "delete",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 832,
@@ -202,9 +201,10 @@
                       "end": 848,
                       "name": "prototype"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               },
               "operator": "!==",
@@ -353,7 +353,6 @@
         "start": 1216,
         "end": 1253,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 1217,
@@ -378,8 +377,8 @@
                 "end": 1239,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -392,7 +391,8 @@
             ],
             "optional": false
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -446,8 +446,8 @@
                         "end": 1395,
                         "name": "hasOwnProperty"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {

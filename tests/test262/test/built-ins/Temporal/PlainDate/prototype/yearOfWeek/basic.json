@@ -11,6 +11,7 @@
         "type": "VariableDeclaration",
         "start": 264,
         "end": 274,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -30,8 +31,7 @@
               "raw": "29"
             }
           }
-        ],
-        "kind": "let"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -74,6 +74,7 @@
             "type": "VariableDeclaration",
             "start": 294,
             "end": 348,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -105,8 +106,8 @@
                       "end": 334,
                       "name": "PlainDate"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -132,8 +133,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -159,8 +159,8 @@
                   "end": 367,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -179,8 +179,8 @@
                     "end": 388,
                     "name": "yearOfWeek"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -193,14 +193,6 @@
                   "type": "TemplateLiteral",
                   "start": 396,
                   "end": 439,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 399,
-                      "end": 408,
-                      "name": "plainDate"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -222,6 +214,14 @@
                       },
                       "tail": true
                     }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 399,
+                      "end": 408,
+                      "name": "plainDate"
+                    }
                   ]
                 }
               ],
@@ -239,6 +239,7 @@
         "type": "VariableDeclaration",
         "start": 449,
         "end": 458,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -258,8 +259,7 @@
               "raw": "1"
             }
           }
-        ],
-        "kind": "let"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -302,6 +302,7 @@
             "type": "VariableDeclaration",
             "start": 478,
             "end": 531,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -333,8 +334,8 @@
                       "end": 518,
                       "name": "PlainDate"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -360,8 +361,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -387,8 +387,8 @@
                   "end": 550,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -407,8 +407,8 @@
                     "end": 571,
                     "name": "yearOfWeek"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -421,14 +421,6 @@
                   "type": "TemplateLiteral",
                   "start": 579,
                   "end": 622,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 582,
-                      "end": 591,
-                      "name": "plainDate"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -450,6 +442,14 @@
                       },
                       "tail": true
                     }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 582,
+                      "end": 591,
+                      "name": "plainDate"
+                    }
                   ]
                 }
               ],
@@ -467,6 +467,7 @@
         "type": "VariableDeclaration",
         "start": 632,
         "end": 642,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -486,8 +487,7 @@
               "raw": "20"
             }
           }
-        ],
-        "kind": "let"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -530,6 +530,7 @@
             "type": "VariableDeclaration",
             "start": 662,
             "end": 716,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -561,8 +562,8 @@
                       "end": 702,
                       "name": "PlainDate"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -588,8 +589,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -615,8 +615,8 @@
                   "end": 735,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -635,8 +635,8 @@
                     "end": 756,
                     "name": "yearOfWeek"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -649,14 +649,6 @@
                   "type": "TemplateLiteral",
                   "start": 764,
                   "end": 807,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 767,
-                      "end": 776,
-                      "name": "plainDate"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -678,6 +670,14 @@
                       },
                       "tail": true
                     }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 767,
+                      "end": 776,
+                      "name": "plainDate"
+                    }
                   ]
                 }
               ],
@@ -695,6 +695,7 @@
         "type": "VariableDeclaration",
         "start": 817,
         "end": 826,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -714,8 +715,7 @@
               "raw": "1"
             }
           }
-        ],
-        "kind": "let"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -758,6 +758,7 @@
             "type": "VariableDeclaration",
             "start": 845,
             "end": 898,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -789,8 +790,8 @@
                       "end": 885,
                       "name": "PlainDate"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -816,8 +817,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -843,8 +843,8 @@
                   "end": 917,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -863,8 +863,8 @@
                     "end": 938,
                     "name": "yearOfWeek"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -877,14 +877,6 @@
                   "type": "TemplateLiteral",
                   "start": 946,
                   "end": 989,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 949,
-                      "end": 958,
-                      "name": "plainDate"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -905,6 +897,14 @@
                         "cooked": " should be in yearOfWeek 1976"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 949,
+                      "end": 958,
+                      "name": "plainDate"
                     }
                   ]
                 }

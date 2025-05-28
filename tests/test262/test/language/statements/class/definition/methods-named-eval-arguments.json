@@ -23,21 +23,17 @@
             "type": "MethodDefinition",
             "start": 209,
             "end": 235,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 209,
               "end": 213,
               "name": "eval"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 213,
               "end": 235,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -59,28 +55,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 238,
             "end": 269,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 238,
               "end": 247,
               "name": "arguments"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 247,
               "end": 269,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -102,28 +98,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 272,
             "end": 305,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 279,
               "end": 283,
               "name": "eval"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 283,
               "end": 305,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -145,28 +141,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true
           },
           {
             "type": "MethodDefinition",
             "start": 308,
             "end": 346,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 315,
               "end": 324,
               "name": "arguments"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 324,
               "end": 346,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -188,8 +184,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true
           }
         ]
       }
@@ -223,8 +223,8 @@
             "end": 367,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -253,8 +253,8 @@
                 "end": 380,
                 "name": "eval"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -301,8 +301,8 @@
             "end": 436,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -331,8 +331,8 @@
                 "end": 454,
                 "name": "arguments"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -379,8 +379,8 @@
             "end": 515,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -403,8 +403,8 @@
                 "end": 522,
                 "name": "eval"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -451,8 +451,8 @@
             "end": 572,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -475,8 +475,8 @@
                 "end": 584,
                 "name": "arguments"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false

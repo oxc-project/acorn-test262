@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 40,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 32,
-        "end": 39,
-        "raw": "\"./jsx\"",
-        "value": "./jsx"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -31,7 +23,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 8,
@@ -40,7 +31,8 @@ __ESTREE_TEST__:PASS:
             "name": "element",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         },
         {
           "type": "ImportSpecifier",
@@ -55,7 +47,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 17,
@@ -64,27 +55,35 @@ __ESTREE_TEST__:PASS:
             "name": "fragment",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 32,
+        "end": 39,
+        "value": "./jsx",
+        "raw": "\"./jsx\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 42,
       "end": 77,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 49,
         "end": 77,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 55,
             "end": 77,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 55,
@@ -98,34 +97,35 @@ __ESTREE_TEST__:PASS:
               "type": "JSXFragment",
               "start": 59,
               "end": 77,
+              "openingFragment": {
+                "type": "JSXOpeningFragment",
+                "start": 59,
+                "end": 61
+              },
               "children": [
                 {
                   "type": "JSXText",
                   "start": 61,
                   "end": 74,
-                  "raw": "fragment text",
-                  "value": "fragment text"
+                  "value": "fragment text",
+                  "raw": "fragment text"
                 }
               ],
               "closingFragment": {
                 "type": "JSXClosingFragment",
                 "start": 74,
                 "end": 77
-              },
-              "openingFragment": {
-                "type": "JSXOpeningFragment",
-                "start": 59,
-                "end": 61
               }
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -143,21 +143,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 28,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 7,
         "end": 28,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 26,
-          "end": 28,
-          "body": []
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 16,
@@ -167,33 +156,33 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [],
         "returnType": null,
-        "typeParameters": null
+        "body": {
+          "type": "BlockStatement",
+          "start": 26,
+          "end": 28,
+          "body": []
+        },
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 30,
       "end": 59,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 37,
         "end": 59,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 57,
-          "end": 59,
-          "body": []
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 46,
@@ -203,13 +192,24 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [],
         "returnType": null,
-        "typeParameters": null
+        "body": {
+          "type": "BlockStatement",
+          "start": 57,
+          "end": 59,
+          "body": []
+        },
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

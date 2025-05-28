@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 321,
       "end": 362,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "false"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 363,
       "end": 404,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -52,8 +53,7 @@
             "raw": "false"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -65,7 +65,6 @@
         "end": 443,
         "name": "readMinimumSignificantDigits"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -98,8 +97,8 @@
                   "end": 468,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -150,8 +149,8 @@
                   "end": 598,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -215,7 +214,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -227,7 +227,6 @@
         "end": 827,
         "name": "readMaximumSignificantDigits"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -260,8 +259,8 @@
                   "end": 852,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -325,12 +324,14 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 1020,
       "end": 1037,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -349,8 +350,7 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -376,8 +376,8 @@
             "end": 1059,
             "name": "defineProperty"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -402,9 +402,7 @@
                 "type": "Property",
                 "start": 1103,
                 "end": 1136,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1103,
@@ -417,7 +415,9 @@
                   "end": 1136,
                   "name": "readMinimumSignificantDigits"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -449,8 +449,8 @@
             "end": 1162,
             "name": "defineProperty"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -475,9 +475,7 @@
                 "type": "Property",
                 "start": 1206,
                 "end": 1239,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1206,
@@ -490,7 +488,9 @@
                   "end": 1239,
                   "name": "readMaximumSignificantDigits"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -522,8 +522,8 @@
             "end": 1266,
             "name": "NumberFormat"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

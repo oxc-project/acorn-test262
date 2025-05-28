@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 82,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 82,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -33,12 +33,11 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 14,
                 "end": 44,
-                "computed": true,
+                "kind": "init",
                 "key": {
                   "type": "MemberExpression",
                   "start": 15,
                   "end": 40,
-                  "computed": false,
                   "object": {
                     "type": "Identifier",
                     "start": 15,
@@ -48,7 +47,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 22,
@@ -57,30 +55,31 @@ __ESTREE_TEST__:PASS:
                     "name": "isConcatSpreadable",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "optional": false,
+                  "computed": false
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Literal",
                   "start": 43,
                   "end": 44,
-                  "raw": "0",
-                  "value": 0
-                }
+                  "value": 0,
+                  "raw": "0"
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": true,
+                "optional": false
               },
               {
                 "type": "Property",
                 "start": 50,
                 "end": 80,
-                "computed": true,
+                "kind": "init",
                 "key": {
                   "type": "MemberExpression",
                   "start": 51,
                   "end": 76,
-                  "computed": false,
                   "object": {
                     "type": "Identifier",
                     "start": 51,
@@ -90,7 +89,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 58,
@@ -99,26 +97,28 @@ __ESTREE_TEST__:PASS:
                     "name": "isConcatSpreadable",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "optional": false,
+                  "computed": false
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Literal",
                   "start": 79,
                   "end": 80,
-                  "raw": "1",
-                  "value": 1
-                }
+                  "value": 1,
+                  "raw": "1"
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": true,
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

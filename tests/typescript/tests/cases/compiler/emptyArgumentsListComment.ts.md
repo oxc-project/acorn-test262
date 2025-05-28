@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 14,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 12,
           "end": 13,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
@@ -24,22 +24,20 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "ExpressionStatement",
       "start": 16,
       "end": 25,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 16,
         "end": 24,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 16,
@@ -49,20 +47,20 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 26,
       "end": 95,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 26,
         "end": 94,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 26,
@@ -72,9 +70,11 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

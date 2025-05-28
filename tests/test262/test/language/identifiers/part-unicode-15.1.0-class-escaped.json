@@ -23,15 +23,15 @@
             "type": "PropertyDefinition",
             "start": 545,
             "end": 572,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 545,
               "end": 571,
               "name": "_‌‍・･"
             },
-            "value": null
+            "value": null,
+            "computed": false,
+            "static": false
           }
         ]
       }

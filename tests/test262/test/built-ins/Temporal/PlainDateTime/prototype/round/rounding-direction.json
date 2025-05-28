@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 317,
       "end": 389,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 360,
                 "name": "PlainDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -47,14 +48,14 @@
                 "start": 361,
                 "end": 364,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 362,
                   "end": 364,
                   "value": 99,
                   "raw": "99"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -101,8 +102,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -128,8 +128,8 @@
             "end": 425,
             "name": "assertPlainDateTime"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -152,8 +152,8 @@
                 "end": 443,
                 "name": "round"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -165,9 +165,7 @@
                     "type": "Property",
                     "start": 446,
                     "end": 468,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 446,
@@ -181,15 +179,15 @@
                       "value": "second",
                       "raw": "\"second\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 470,
                     "end": 491,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 470,
@@ -203,7 +201,9 @@
                       "value": "floor",
                       "raw": "\"floor\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -215,14 +215,14 @@
             "start": 498,
             "end": 501,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 499,
               "end": 501,
               "value": 99,
               "raw": "99"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -322,8 +322,8 @@
             "end": 662,
             "name": "assertPlainDateTime"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -346,8 +346,8 @@
                 "end": 680,
                 "name": "round"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -359,9 +359,7 @@
                     "type": "Property",
                     "start": 683,
                     "end": 705,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 683,
@@ -375,15 +373,15 @@
                       "value": "second",
                       "raw": "\"second\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 707,
                     "end": 728,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 707,
@@ -397,7 +395,9 @@
                       "value": "trunc",
                       "raw": "\"trunc\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -409,14 +409,14 @@
             "start": 735,
             "end": 738,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 736,
               "end": 738,
               "value": 99,
               "raw": "99"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -516,8 +516,8 @@
             "end": 899,
             "name": "assertPlainDateTime"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -540,8 +540,8 @@
                 "end": 917,
                 "name": "round"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -553,9 +553,7 @@
                     "type": "Property",
                     "start": 920,
                     "end": 942,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 920,
@@ -569,15 +567,15 @@
                       "value": "second",
                       "raw": "\"second\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 944,
                     "end": 964,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 944,
@@ -591,7 +589,9 @@
                       "value": "ceil",
                       "raw": "\"ceil\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -603,14 +603,14 @@
             "start": 971,
             "end": 974,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 972,
               "end": 974,
               "value": 99,
               "raw": "99"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -710,8 +710,8 @@
             "end": 1134,
             "name": "assertPlainDateTime"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -734,8 +734,8 @@
                 "end": 1152,
                 "name": "round"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -747,9 +747,7 @@
                     "type": "Property",
                     "start": 1155,
                     "end": 1177,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1155,
@@ -763,15 +761,15 @@
                       "value": "second",
                       "raw": "\"second\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 1179,
                     "end": 1205,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1179,
@@ -785,7 +783,9 @@
                       "value": "halfExpand",
                       "raw": "\"halfExpand\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -797,14 +797,14 @@
             "start": 1212,
             "end": 1215,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1213,
               "end": 1215,
               "value": 99,
               "raw": "99"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

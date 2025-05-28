@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 10,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 9,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,24 +28,24 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 8,
             "end": 9,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 11,
       "end": 21,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 15,
           "end": 20,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 15,
@@ -59,24 +59,24 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 19,
             "end": 20,
-            "raw": "2",
-            "value": 2
-          }
+            "value": 2,
+            "raw": "2"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 22,
       "end": 32,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 26,
           "end": 31,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 26,
@@ -90,13 +90,13 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 30,
             "end": 31,
-            "raw": "3",
-            "value": 3
-          }
+            "value": 3,
+            "raw": "3"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

@@ -9,7 +9,31 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 84,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 12,
+        "decorators": [],
+        "name": "foo",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 13,
+          "end": 14,
+          "decorators": [],
+          "name": "a",
+          "optional": false,
+          "typeAnnotation": null
+        }
+      ],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 16,
@@ -19,22 +43,16 @@ __ESTREE_TEST__:PASS:
             "type": "ForStatement",
             "start": 22,
             "end": 82,
-            "body": {
-              "type": "BlockStatement",
-              "start": 51,
-              "end": 82,
-              "body": []
-            },
             "init": {
               "type": "VariableDeclaration",
               "start": 27,
               "end": 36,
+              "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 31,
                   "end": 36,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 31,
@@ -48,19 +66,18 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 35,
                     "end": 36,
-                    "raw": "0",
-                    "value": 0
-                  }
+                    "value": 0,
+                    "raw": "0"
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "let"
+              "declare": false
             },
             "test": {
               "type": "BinaryExpression",
               "start": 38,
               "end": 44,
-              "operator": "<",
               "left": {
                 "type": "Identifier",
                 "start": 38,
@@ -70,18 +87,21 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
+              "operator": "<",
               "right": {
                 "type": "Literal",
                 "start": 42,
                 "end": 44,
-                "raw": "10",
-                "value": 10
+                "value": 10,
+                "raw": "10"
               }
             },
             "update": {
               "type": "UpdateExpression",
               "start": 46,
               "end": 49,
+              "operator": "++",
+              "prefix": false,
               "argument": {
                 "type": "Identifier",
                 "start": 46,
@@ -90,38 +110,18 @@ __ESTREE_TEST__:PASS:
                 "name": "a",
                 "optional": false,
                 "typeAnnotation": null
-              },
-              "operator": "++",
-              "prefix": false
+              }
+            },
+            "body": {
+              "type": "BlockStatement",
+              "start": 51,
+              "end": 82,
+              "body": []
             }
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 12,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [
-        {
-          "type": "Identifier",
-          "start": 13,
-          "end": 14,
-          "decorators": [],
-          "name": "a",
-          "optional": false,
-          "typeAnnotation": null
-        }
-      ],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

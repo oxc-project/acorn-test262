@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 30,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 29,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,20 +28,10 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 8,
             "end": 29,
-            "arguments": [
-              {
-                "type": "Literal",
-                "start": 19,
-                "end": 28,
-                "raw": "\"postfix\"",
-                "value": "postfix"
-              }
-            ],
             "callee": {
               "type": "MemberExpression",
               "start": 8,
               "end": 18,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 8,
@@ -51,7 +41,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 15,
@@ -60,25 +49,37 @@ __ESTREE_TEST__:PASS:
                 "name": "for",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 19,
+                "end": 28,
+                "value": "postfix",
+                "raw": "\"postfix\""
+              }
+            ],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 31,
       "end": 35,
-      "directive": null,
       "expression": {
         "type": "UpdateExpression",
         "start": 31,
         "end": 34,
+        "operator": "++",
+        "prefix": false,
         "argument": {
           "type": "Identifier",
           "start": 31,
@@ -87,20 +88,20 @@ __ESTREE_TEST__:PASS:
           "name": "s",
           "optional": false,
           "typeAnnotation": null
-        },
-        "operator": "++",
-        "prefix": false
-      }
+        }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 36,
       "end": 40,
-      "directive": null,
       "expression": {
         "type": "UpdateExpression",
         "start": 36,
         "end": 39,
+        "operator": "--",
+        "prefix": false,
         "argument": {
           "type": "Identifier",
           "start": 36,
@@ -109,10 +110,9 @@ __ESTREE_TEST__:PASS:
           "name": "s",
           "optional": false,
           "typeAnnotation": null
-        },
-        "operator": "--",
-        "prefix": false
-      }
+        }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

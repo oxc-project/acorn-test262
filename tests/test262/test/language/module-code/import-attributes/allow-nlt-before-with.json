@@ -27,8 +27,8 @@
         "value": "./ensure-linking-error_FIXTURE.js",
         "raw": "\"./ensure-linking-error_FIXTURE.js\""
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -54,8 +54,8 @@
         "value": "./import-attribute-1_FIXTURE.js",
         "raw": "'./import-attribute-1_FIXTURE.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     }
   ],
   "sourceType": "module",

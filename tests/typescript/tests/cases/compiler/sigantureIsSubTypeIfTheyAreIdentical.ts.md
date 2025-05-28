@@ -9,6 +9,17 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 48,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 16,
+        "decorators": [],
+        "name": "ICache",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "extends": [],
       "body": {
         "type": "TSInterfaceBody",
         "start": 17,
@@ -18,8 +29,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 23,
             "end": 46,
-            "accessibility": null,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 23,
@@ -29,8 +38,35 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
+            "computed": false,
             "optional": false,
+            "kind": "method",
+            "typeParameters": {
+              "type": "TSTypeParameterDeclaration",
+              "start": 26,
+              "end": 29,
+              "params": [
+                {
+                  "type": "TSTypeParameter",
+                  "start": 27,
+                  "end": 28,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 27,
+                    "end": 28,
+                    "decorators": [],
+                    "name": "T",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": null,
+                  "in": false,
+                  "out": false,
+                  "const": false
+                }
+              ]
+            },
             "params": [
               {
                 "type": "Identifier",
@@ -51,7 +87,6 @@ __ESTREE_TEST__:PASS:
                 }
               }
             ],
-            "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 42,
@@ -60,7 +95,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 44,
                 "end": 45,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 44,
@@ -69,57 +103,52 @@ __ESTREE_TEST__:PASS:
                   "name": "T",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             },
-            "static": false,
-            "typeParameters": {
-              "type": "TSTypeParameterDeclaration",
-              "start": 26,
-              "end": 29,
-              "params": [
-                {
-                  "type": "TSTypeParameter",
-                  "start": 27,
-                  "end": 28,
-                  "const": false,
-                  "constraint": null,
-                  "default": null,
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 27,
-                    "end": 28,
-                    "decorators": [],
-                    "name": "T",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                }
-              ]
-            }
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 16,
-        "decorators": [],
-        "name": "ICache",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 49,
       "end": 213,
-      "abstract": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 55,
+        "end": 67,
+        "decorators": [],
+        "name": "CacheService",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [
+        {
+          "type": "TSClassImplements",
+          "start": 79,
+          "end": 85,
+          "expression": {
+            "type": "Identifier",
+            "start": 79,
+            "end": 85,
+            "decorators": [],
+            "name": "ICache",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
+        }
+      ],
       "body": {
         "type": "ClassBody",
         "start": 86,
@@ -129,8 +158,6 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 155,
             "end": 211,
-            "accessibility": null,
-            "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
@@ -141,40 +168,40 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "FunctionExpression",
               "start": 158,
               "end": 211,
+              "id": null,
+              "generator": false,
               "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 178,
-                "end": 211,
-                "body": [
+              "declare": false,
+              "typeParameters": {
+                "type": "TSTypeParameterDeclaration",
+                "start": 158,
+                "end": 161,
+                "params": [
                   {
-                    "type": "ReturnStatement",
-                    "start": 188,
-                    "end": 205,
-                    "argument": {
+                    "type": "TSTypeParameter",
+                    "start": 159,
+                    "end": 160,
+                    "name": {
                       "type": "Identifier",
-                      "start": 195,
-                      "end": 204,
+                      "start": 159,
+                      "end": 160,
                       "decorators": [],
-                      "name": "undefined",
+                      "name": "T",
                       "optional": false,
                       "typeAnnotation": null
-                    }
+                    },
+                    "constraint": null,
+                    "default": null,
+                    "in": false,
+                    "out": false,
+                    "const": false
                   }
                 ]
               },
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -203,7 +230,6 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 176,
                   "end": 177,
-                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 176,
@@ -212,70 +238,44 @@ __ESTREE_TEST__:PASS:
                     "name": "T",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "typeArguments": null
                 }
               },
-              "typeParameters": {
-                "type": "TSTypeParameterDeclaration",
-                "start": 158,
-                "end": 161,
-                "params": [
+              "body": {
+                "type": "BlockStatement",
+                "start": 178,
+                "end": 211,
+                "body": [
                   {
-                    "type": "TSTypeParameter",
-                    "start": 159,
-                    "end": 160,
-                    "const": false,
-                    "constraint": null,
-                    "default": null,
-                    "in": false,
-                    "name": {
+                    "type": "ReturnStatement",
+                    "start": 188,
+                    "end": 205,
+                    "argument": {
                       "type": "Identifier",
-                      "start": 159,
-                      "end": 160,
+                      "start": 195,
+                      "end": 204,
                       "decorators": [],
-                      "name": "T",
+                      "name": "undefined",
                       "optional": false,
                       "typeAnnotation": null
-                    },
-                    "out": false
+                    }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
-      "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 55,
-        "end": 67,
-        "decorators": [],
-        "name": "CacheService",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [
-        {
-          "type": "TSClassImplements",
-          "start": 79,
-          "end": 85,
-          "expression": {
-            "type": "Identifier",
-            "start": 79,
-            "end": 85,
-            "decorators": [],
-            "name": "ICache",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "typeArguments": null
-        }
-      ],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

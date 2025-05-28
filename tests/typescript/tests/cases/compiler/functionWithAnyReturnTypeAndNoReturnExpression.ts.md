@@ -9,16 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 25,
       "end": 46,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 43,
-        "end": 46,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 34,
@@ -28,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
@@ -39,18 +33,24 @@ __ESTREE_TEST__:PASS:
           "end": 42
         }
       },
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 43,
+        "end": 46,
+        "body": []
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 47,
       "end": 77,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 51,
           "end": 76,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 51,
@@ -66,6 +66,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSFunctionType",
                 "start": 55,
                 "end": 64,
+                "typeParameters": null,
                 "params": [],
                 "returnType": {
                   "type": "TSTypeAnnotation",
@@ -76,8 +77,7 @@ __ESTREE_TEST__:PASS:
                     "start": 61,
                     "end": 64
                   }
-                },
-                "typeParameters": null
+                }
               }
             }
           },
@@ -85,35 +85,35 @@ __ESTREE_TEST__:PASS:
             "type": "ArrowFunctionExpression",
             "start": 67,
             "end": 76,
+            "expression": false,
             "async": false,
+            "typeParameters": null,
+            "params": [],
+            "returnType": null,
             "body": {
               "type": "BlockStatement",
               "start": 73,
               "end": 76,
               "body": []
             },
-            "expression": false,
-            "generator": false,
             "id": null,
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
+            "generator": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 78,
       "end": 102,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 82,
           "end": 101,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 82,
@@ -127,16 +127,9 @@ __ESTREE_TEST__:PASS:
             "type": "ArrowFunctionExpression",
             "start": 87,
             "end": 101,
-            "async": false,
-            "body": {
-              "type": "BlockStatement",
-              "start": 98,
-              "end": 101,
-              "body": []
-            },
             "expression": false,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [],
             "returnType": {
               "type": "TSTypeAnnotation",
@@ -148,12 +141,19 @@ __ESTREE_TEST__:PASS:
                 "end": 94
               }
             },
-            "typeParameters": null
-          }
+            "body": {
+              "type": "BlockStatement",
+              "start": 98,
+              "end": 101,
+              "body": []
+            },
+            "id": null,
+            "generator": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

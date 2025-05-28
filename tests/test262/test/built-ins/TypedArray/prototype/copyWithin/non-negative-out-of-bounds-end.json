@@ -23,7 +23,6 @@
             "start": 853,
             "end": 1596,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -127,8 +126,8 @@
                                 "end": 933,
                                 "name": "copyWithin"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -299,8 +298,8 @@
                                 "end": 1099,
                                 "name": "copyWithin"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -484,8 +483,8 @@
                                 "end": 1291,
                                 "name": "copyWithin"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -670,8 +669,8 @@
                                 "end": 1475,
                                 "name": "copyWithin"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -754,7 +753,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

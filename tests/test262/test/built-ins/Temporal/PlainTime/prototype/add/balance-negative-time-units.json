@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1583,
       "end": 1637,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 1618,
                 "name": "PlainTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -87,13 +88,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1639,
       "end": 1718,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -125,8 +126,8 @@
                 "end": 1663,
                 "name": "add"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -149,8 +150,8 @@
                     "end": 1685,
                     "name": "Duration"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -221,14 +222,14 @@
                     "start": 1713,
                     "end": 1715,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 1714,
                       "end": 1715,
                       "value": 2,
                       "raw": "2"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               }
@@ -236,8 +237,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -263,8 +263,8 @@
             "end": 1750,
             "name": "assertPlainTime"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -330,6 +330,7 @@
       "type": "VariableDeclaration",
       "start": 1805,
       "end": 1881,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -361,8 +362,8 @@
                 "end": 1829,
                 "name": "add"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -385,8 +386,8 @@
                     "end": 1851,
                     "name": "Duration"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -450,14 +451,14 @@
                     "start": 1876,
                     "end": 1878,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 1877,
                       "end": 1878,
                       "value": 2,
                       "raw": "2"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               }
@@ -465,8 +466,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -492,8 +492,8 @@
             "end": 1913,
             "name": "assertPlainTime"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -559,6 +559,7 @@
       "type": "VariableDeclaration",
       "start": 1969,
       "end": 2042,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -590,8 +591,8 @@
                 "end": 1993,
                 "name": "add"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -614,8 +615,8 @@
                     "end": 2015,
                     "name": "Duration"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -672,14 +673,14 @@
                     "start": 2037,
                     "end": 2039,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 2038,
                       "end": 2039,
                       "value": 2,
                       "raw": "2"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               }
@@ -687,8 +688,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -714,8 +714,8 @@
             "end": 2074,
             "name": "assertPlainTime"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -781,6 +781,7 @@
       "type": "VariableDeclaration",
       "start": 2130,
       "end": 2200,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -812,8 +813,8 @@
                 "end": 2154,
                 "name": "add"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -836,8 +837,8 @@
                     "end": 2176,
                     "name": "Duration"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -887,14 +888,14 @@
                     "start": 2195,
                     "end": 2197,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 2196,
                       "end": 2197,
                       "value": 2,
                       "raw": "2"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               }
@@ -902,8 +903,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -929,8 +929,8 @@
             "end": 2232,
             "name": "assertPlainTime"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -996,6 +996,7 @@
       "type": "VariableDeclaration",
       "start": 2282,
       "end": 2349,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1027,8 +1028,8 @@
                 "end": 2306,
                 "name": "add"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1051,8 +1052,8 @@
                     "end": 2328,
                     "name": "Duration"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -1095,14 +1096,14 @@
                     "start": 2344,
                     "end": 2346,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 2345,
                       "end": 2346,
                       "value": 2,
                       "raw": "2"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               }
@@ -1110,8 +1111,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1137,8 +1137,8 @@
             "end": 2381,
             "name": "assertPlainTime"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1204,6 +1204,7 @@
       "type": "VariableDeclaration",
       "start": 2431,
       "end": 2495,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1235,8 +1236,8 @@
                 "end": 2455,
                 "name": "add"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1259,8 +1260,8 @@
                     "end": 2477,
                     "name": "Duration"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -1296,14 +1297,14 @@
                     "start": 2490,
                     "end": 2492,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 2491,
                       "end": 2492,
                       "value": 2,
                       "raw": "2"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               }
@@ -1311,8 +1312,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1338,8 +1338,8 @@
             "end": 2527,
             "name": "assertPlainTime"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

@@ -9,17 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 130,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 130,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 11,
             "end": 129,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 11,
@@ -38,7 +37,7 @@ __ESTREE_TEST__:PASS:
                   "type": "Property",
                   "start": 31,
                   "end": 124,
-                  "computed": false,
+                  "kind": "get",
                   "key": {
                     "type": "Identifier",
                     "start": 35,
@@ -48,15 +47,17 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "kind": "get",
-                  "method": false,
-                  "optional": false,
-                  "shorthand": false,
                   "value": {
                     "type": "FunctionExpression",
                     "start": 46,
                     "end": 124,
+                    "id": null,
+                    "generator": false,
                     "async": false,
+                    "declare": false,
+                    "typeParameters": null,
+                    "params": [],
+                    "returnType": null,
                     "body": {
                       "type": "BlockStatement",
                       "start": 49,
@@ -66,12 +67,12 @@ __ESTREE_TEST__:PASS:
                           "type": "VariableDeclaration",
                           "start": 55,
                           "end": 72,
+                          "kind": "var",
                           "declarations": [
                             {
                               "type": "VariableDeclarator",
                               "start": 59,
                               "end": 71,
-                              "definite": false,
                               "id": {
                                 "type": "Identifier",
                                 "start": 59,
@@ -85,11 +86,11 @@ __ESTREE_TEST__:PASS:
                                 "type": "ThisExpression",
                                 "start": 67,
                                 "end": 71
-                              }
+                              },
+                              "definite": false
                             }
                           ],
-                          "declare": false,
-                          "kind": "var"
+                          "declare": false
                         },
                         {
                           "type": "ReturnStatement",
@@ -99,17 +100,14 @@ __ESTREE_TEST__:PASS:
                             "type": "MemberExpression",
                             "start": 84,
                             "end": 119,
-                            "computed": false,
                             "object": {
                               "type": "MemberExpression",
                               "start": 84,
                               "end": 107,
-                              "computed": false,
                               "object": {
                                 "type": "MemberExpression",
                                 "start": 84,
                                 "end": 100,
-                                "computed": false,
                                 "object": {
                                   "type": "Identifier",
                                   "start": 84,
@@ -119,7 +117,6 @@ __ESTREE_TEST__:PASS:
                                   "optional": false,
                                   "typeAnnotation": null
                                 },
-                                "optional": false,
                                 "property": {
                                   "type": "Identifier",
                                   "start": 90,
@@ -128,9 +125,10 @@ __ESTREE_TEST__:PASS:
                                   "name": "collection",
                                   "optional": false,
                                   "typeAnnotation": null
-                                }
+                                },
+                                "optional": false,
+                                "computed": false
                               },
-                              "optional": false,
                               "property": {
                                 "type": "Identifier",
                                 "start": 101,
@@ -139,9 +137,10 @@ __ESTREE_TEST__:PASS:
                                 "name": "schema",
                                 "optional": false,
                                 "typeAnnotation": null
-                              }
+                              },
+                              "optional": false,
+                              "computed": false
                             },
-                            "optional": false,
                             "property": {
                               "type": "Identifier",
                               "start": 108,
@@ -150,30 +149,31 @@ __ESTREE_TEST__:PASS:
                               "name": "primaryPath",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "optional": false,
+                            "computed": false
                           }
                         }
                       ]
                     },
-                    "declare": false,
-                    "expression": false,
-                    "generator": false,
-                    "id": null,
-                    "params": [],
-                    "returnType": null,
-                    "typeParameters": null
-                  }
+                    "expression": false
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "optional": false
                 }
               ]
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

@@ -9,51 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 40,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 9,
-        "end": 40,
-        "body": [
-          {
-            "type": "ExportNamedDeclaration",
-            "start": 15,
-            "end": 38,
-            "attributes": [],
-            "declaration": {
-              "type": "FunctionDeclaration",
-              "start": 22,
-              "end": 38,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 35,
-                "end": 38,
-                "body": []
-              },
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": {
-                "type": "Identifier",
-                "start": 31,
-                "end": 32,
-                "decorators": [],
-                "name": "f",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            },
-            "exportKind": "value",
-            "source": null,
-            "specifiers": []
-          }
-        ]
-      },
-      "declare": false,
-      "global": false,
       "id": {
         "type": "Identifier",
         "start": 7,
@@ -63,7 +18,52 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "module"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 9,
+        "end": 40,
+        "body": [
+          {
+            "type": "ExportNamedDeclaration",
+            "start": 15,
+            "end": 38,
+            "declaration": {
+              "type": "FunctionDeclaration",
+              "start": 22,
+              "end": 38,
+              "id": {
+                "type": "Identifier",
+                "start": 31,
+                "end": 32,
+                "decorators": [],
+                "name": "f",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
+              "body": {
+                "type": "BlockStatement",
+                "start": 35,
+                "end": 38,
+                "body": []
+              },
+              "expression": false
+            },
+            "specifiers": [],
+            "source": null,
+            "exportKind": "value",
+            "attributes": []
+          }
+        ]
+      },
+      "kind": "module",
+      "declare": false,
+      "global": false
     }
   ],
   "sourceType": "script",

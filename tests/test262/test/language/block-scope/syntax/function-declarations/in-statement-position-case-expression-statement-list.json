@@ -19,6 +19,13 @@
           "type": "SwitchCase",
           "start": 293,
           "end": 319,
+          "test": {
+            "type": "Literal",
+            "start": 298,
+            "end": 302,
+            "value": true,
+            "raw": "true"
+          },
           "consequent": [
             {
               "type": "FunctionDeclaration",
@@ -30,7 +37,6 @@
                 "end": 314,
                 "name": "g"
               },
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -39,16 +45,10 @@
                 "start": 317,
                 "end": 319,
                 "body": []
-              }
+              },
+              "expression": false
             }
-          ],
-          "test": {
-            "type": "Literal",
-            "start": 298,
-            "end": 302,
-            "value": true,
-            "raw": "true"
-          }
+          ]
         }
       ]
     }

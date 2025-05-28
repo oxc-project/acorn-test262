@@ -9,11 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 0,
       "end": 32,
-      "async": false,
-      "body": null,
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -23,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -53,17 +52,13 @@ __ESTREE_TEST__:PASS:
           "end": 31
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "TSDeclareFunction",
       "start": 33,
       "end": 65,
-      "async": false,
-      "body": null,
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 42,
@@ -73,6 +68,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -103,35 +102,13 @@ __ESTREE_TEST__:PASS:
           "end": 64
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 66,
       "end": 109,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 96,
-        "end": 109,
-        "body": [
-          {
-            "type": "ReturnStatement",
-            "start": 98,
-            "end": 107,
-            "argument": {
-              "type": "Literal",
-              "start": 105,
-              "end": 107,
-              "raw": "\"\"",
-              "value": ""
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 75,
@@ -141,6 +118,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -171,7 +152,26 @@ __ESTREE_TEST__:PASS:
           "end": 95
         }
       },
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 96,
+        "end": 109,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 98,
+            "end": 107,
+            "argument": {
+              "type": "Literal",
+              "start": 105,
+              "end": 107,
+              "value": "",
+              "raw": "\"\""
+            }
+          }
+        ]
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

@@ -27,8 +27,8 @@
             "end": 304,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 316,
             "end": 377,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -71,8 +70,6 @@
                         "type": "MethodDefinition",
                         "start": 345,
                         "end": 371,
-                        "static": true,
-                        "computed": true,
                         "key": {
                           "type": "Literal",
                           "start": 354,
@@ -80,13 +77,11 @@
                           "value": "prototype",
                           "raw": "'prototype'"
                         },
-                        "kind": "method",
                         "value": {
                           "type": "FunctionExpression",
                           "start": 366,
                           "end": 371,
                           "id": null,
-                          "expression": false,
                           "generator": true,
                           "async": false,
                           "params": [],
@@ -95,14 +90,19 @@
                             "start": 369,
                             "end": 371,
                             "body": []
-                          }
-                        }
+                          },
+                          "expression": false
+                        },
+                        "kind": "method",
+                        "computed": true,
+                        "static": true
                       }
                     ]
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

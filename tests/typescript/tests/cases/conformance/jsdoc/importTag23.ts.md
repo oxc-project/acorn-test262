@@ -9,11 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 39,
-      "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
         "start": 7,
         "end": 39,
+        "id": {
+          "type": "Identifier",
+          "start": 17,
+          "end": 18,
+          "decorators": [],
+          "name": "I",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null,
+        "extends": [],
         "body": {
           "type": "TSInterfaceBody",
           "start": 19,
@@ -23,8 +33,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSMethodSignature",
               "start": 25,
               "end": 37,
-              "accessibility": null,
-              "computed": false,
               "key": {
                 "type": "Identifier",
                 "start": 25,
@@ -34,10 +42,11 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "kind": "method",
+              "computed": false,
               "optional": false,
+              "kind": "method",
+              "typeParameters": null,
               "params": [],
-              "readonly": false,
               "returnType": {
                 "type": "TSTypeAnnotation",
                 "start": 30,
@@ -48,27 +57,18 @@ __ESTREE_TEST__:PASS:
                   "end": 36
                 }
               },
-              "static": false,
-              "typeParameters": null
+              "accessibility": null,
+              "readonly": false,
+              "static": false
             }
           ]
         },
-        "declare": false,
-        "extends": [],
-        "id": {
-          "type": "Identifier",
-          "start": 17,
-          "end": 18,
-          "decorators": [],
-          "name": "I",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "typeParameters": null
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -86,19 +86,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 65,
       "end": 82,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 72,
         "end": 82,
-        "abstract": false,
-        "body": {
-          "type": "ClassBody",
-          "start": 80,
-          "end": 82,
-          "body": []
-        },
-        "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
@@ -109,14 +100,23 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "implements": [],
+        "typeParameters": null,
         "superClass": null,
         "superTypeArguments": null,
-        "typeParameters": null
+        "implements": [],
+        "body": {
+          "type": "ClassBody",
+          "start": 80,
+          "end": 82,
+          "body": []
+        },
+        "abstract": false,
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

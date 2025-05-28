@@ -13,7 +13,6 @@
         "end": 270,
         "name": "foo"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -44,7 +43,6 @@
               "start": 300,
               "end": 312,
               "operator": "typeof",
-              "prefix": true,
               "argument": {
                 "type": "ParenthesizedExpression",
                 "start": 306,
@@ -54,11 +52,13 @@
                   "start": 307,
                   "end": 311
                 }
-              }
+              },
+              "prefix": true
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -70,7 +70,6 @@
         "end": 329,
         "name": "bar"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -88,7 +87,6 @@
               "start": 343,
               "end": 355,
               "operator": "typeof",
-              "prefix": true,
               "argument": {
                 "type": "ParenthesizedExpression",
                 "start": 349,
@@ -98,11 +96,13 @@
                   "start": 350,
                   "end": 354
                 }
-              }
+              },
+              "prefix": true
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -128,8 +128,8 @@
             "end": 376,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -152,8 +152,8 @@
                 "end": 385,
                 "name": "call"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -208,8 +208,8 @@
             "end": 439,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -232,8 +232,8 @@
                 "end": 448,
                 "name": "call"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

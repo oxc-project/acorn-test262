@@ -9,24 +9,23 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 30,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 29,
-          "definite": false,
           "id": {
             "type": "ObjectPattern",
             "start": 4,
             "end": 9,
             "decorators": [],
-            "optional": false,
             "properties": [
               {
                 "type": "Property",
                 "start": 6,
                 "end": 7,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 6,
@@ -36,10 +35,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": true,
                 "value": {
                   "type": "Identifier",
                   "start": 6,
@@ -48,24 +43,38 @@ __ESTREE_TEST__:PASS:
                   "name": "x",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "method": false,
+                "shorthand": true,
+                "computed": false,
+                "optional": false
               }
             ],
+            "optional": false,
             "typeAnnotation": null
           },
           "init": {
             "type": "TSTypeAssertion",
             "start": 12,
             "end": 29,
+            "typeAnnotation": {
+              "type": "TSAnyKeyword",
+              "start": 13,
+              "end": 16
+            },
             "expression": {
               "type": "TSTypeAssertion",
               "start": 17,
               "end": 29,
+              "typeAnnotation": {
+                "type": "TSAnyKeyword",
+                "start": 18,
+                "end": 21
+              },
               "expression": {
                 "type": "NewExpression",
                 "start": 22,
                 "end": 29,
-                "arguments": [],
                 "callee": {
                   "type": "Identifier",
                   "start": 26,
@@ -75,24 +84,15 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "typeArguments": null
-              },
-              "typeAnnotation": {
-                "type": "TSAnyKeyword",
-                "start": 18,
-                "end": 21
+                "typeArguments": null,
+                "arguments": []
               }
-            },
-            "typeAnnotation": {
-              "type": "TSAnyKeyword",
-              "start": 13,
-              "end": 16
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

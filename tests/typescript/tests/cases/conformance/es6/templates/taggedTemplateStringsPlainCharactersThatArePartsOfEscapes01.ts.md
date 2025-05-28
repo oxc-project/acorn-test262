@@ -9,16 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 28,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 24,
-        "end": 28,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -28,11 +18,16 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "RestElement",
           "start": 11,
           "end": 22,
+          "decorators": [],
           "argument": {
             "type": "Identifier",
             "start": 14,
@@ -42,7 +37,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "decorators": [],
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
@@ -63,35 +57,22 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 24,
+        "end": 28,
+        "body": []
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
       "start": 30,
       "end": 113,
-      "directive": null,
       "expression": {
         "type": "TaggedTemplateExpression",
         "start": 30,
         "end": 113,
-        "quasi": {
-          "type": "TemplateLiteral",
-          "start": 32,
-          "end": 113,
-          "expressions": [],
-          "quasis": [
-            {
-              "type": "TemplateElement",
-              "start": 32,
-              "end": 113,
-              "tail": true,
-              "value": {
-                "cooked": "0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 2028 2029 0085 t v f b r n",
-                "raw": "0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 2028 2029 0085 t v f b r n"
-              }
-            }
-          ]
-        },
         "tag": {
           "type": "Identifier",
           "start": 30,
@@ -101,8 +82,27 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "quasi": {
+          "type": "TemplateLiteral",
+          "start": 32,
+          "end": 113,
+          "quasis": [
+            {
+              "type": "TemplateElement",
+              "start": 32,
+              "end": 113,
+              "value": {
+                "cooked": "0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 2028 2029 0085 t v f b r n",
+                "raw": "0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 2028 2029 0085 t v f b r n"
+              },
+              "tail": true
+            }
+          ],
+          "expressions": []
+        }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

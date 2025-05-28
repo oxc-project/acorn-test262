@@ -9,7 +9,20 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 82,
-      "abstract": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 6,
+        "end": 7,
+        "decorators": [],
+        "name": "A",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
       "body": {
         "type": "ClassBody",
         "start": 8,
@@ -19,8 +32,6 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 14,
             "end": 80,
-            "accessibility": null,
-            "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
@@ -31,59 +42,15 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "constructor",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "FunctionExpression",
               "start": 25,
               "end": 80,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 48,
-                "end": 80,
-                "body": [
-                  {
-                    "type": "VariableDeclaration",
-                    "start": 58,
-                    "end": 74,
-                    "declarations": [
-                      {
-                        "type": "VariableDeclarator",
-                        "start": 62,
-                        "end": 73,
-                        "definite": false,
-                        "id": {
-                          "type": "Identifier",
-                          "start": 62,
-                          "end": 66,
-                          "decorators": [],
-                          "name": "foge",
-                          "optional": false,
-                          "typeAnnotation": null
-                        },
-                        "init": {
-                          "type": "Identifier",
-                          "start": 69,
-                          "end": 73,
-                          "decorators": [],
-                          "name": "used",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
-                      }
-                    ],
-                    "declare": false,
-                    "kind": "let"
-                  }
-                ]
-              },
-              "declare": false,
-              "expression": false,
-              "generator": false,
               "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "TSParameterProperty",
@@ -115,26 +82,59 @@ __ESTREE_TEST__:PASS:
                 }
               ],
               "returnType": null,
-              "typeParameters": null
-            }
+              "body": {
+                "type": "BlockStatement",
+                "start": 48,
+                "end": 80,
+                "body": [
+                  {
+                    "type": "VariableDeclaration",
+                    "start": 58,
+                    "end": 74,
+                    "kind": "let",
+                    "declarations": [
+                      {
+                        "type": "VariableDeclarator",
+                        "start": 62,
+                        "end": 73,
+                        "id": {
+                          "type": "Identifier",
+                          "start": 62,
+                          "end": 66,
+                          "decorators": [],
+                          "name": "foge",
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
+                        "init": {
+                          "type": "Identifier",
+                          "start": 69,
+                          "end": 73,
+                          "decorators": [],
+                          "name": "used",
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
+                        "definite": false
+                      }
+                    ],
+                    "declare": false
+                  }
+                ]
+              },
+              "expression": false
+            },
+            "kind": "constructor",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
-      "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 6,
-        "end": 7,
-        "decorators": [],
-        "name": "A",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

@@ -9,7 +9,20 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 78,
-      "abstract": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 6,
+        "end": 11,
+        "decorators": [],
+        "name": "Shape",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
       "body": {
         "type": "ClassBody",
         "start": 12,
@@ -19,8 +32,6 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 18,
             "end": 76,
-            "accessibility": null,
-            "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
@@ -31,15 +42,36 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": true,
             "value": {
               "type": "FunctionExpression",
               "start": 31,
               "end": 76,
+              "id": null,
+              "generator": false,
               "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": {
+                "type": "TSTypeAnnotation",
+                "start": 33,
+                "end": 40,
+                "typeAnnotation": {
+                  "type": "TSTypeReference",
+                  "start": 35,
+                  "end": 40,
+                  "typeName": {
+                    "type": "Identifier",
+                    "start": 35,
+                    "end": 40,
+                    "decorators": [],
+                    "name": "Shape",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeArguments": null
+                }
+              },
               "body": {
                 "type": "BlockStatement",
                 "start": 41,
@@ -53,7 +85,6 @@ __ESTREE_TEST__:PASS:
                       "type": "NewExpression",
                       "start": 58,
                       "end": 69,
-                      "arguments": [],
                       "callee": {
                         "type": "Identifier",
                         "start": 62,
@@ -63,112 +94,30 @@ __ESTREE_TEST__:PASS:
                         "optional": false,
                         "typeAnnotation": null
                       },
-                      "typeArguments": null
+                      "typeArguments": null,
+                      "arguments": []
                     }
                   }
                 ]
               },
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": {
-                "type": "TSTypeAnnotation",
-                "start": 33,
-                "end": 40,
-                "typeAnnotation": {
-                  "type": "TSTypeReference",
-                  "start": 35,
-                  "end": 40,
-                  "typeArguments": null,
-                  "typeName": {
-                    "type": "Identifier",
-                    "start": 35,
-                    "end": 40,
-                    "decorators": [],
-                    "name": "Shape",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                }
-              },
-              "typeParameters": null
-            }
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true,
+            "override": false,
+            "optional": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
-      "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 6,
-        "end": 11,
-        "decorators": [],
-        "name": "Shape",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 80,
       "end": 127,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 103,
-        "end": 127,
-        "body": [
-          {
-            "type": "TSMethodSignature",
-            "start": 109,
-            "end": 125,
-            "accessibility": null,
-            "computed": false,
-            "key": {
-              "type": "Identifier",
-              "start": 109,
-              "end": 115,
-              "decorators": [],
-              "name": "create",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "kind": "method",
-            "optional": false,
-            "params": [],
-            "readonly": false,
-            "returnType": {
-              "type": "TSTypeAnnotation",
-              "start": 117,
-              "end": 124,
-              "typeAnnotation": {
-                "type": "TSTypeReference",
-                "start": 119,
-                "end": 124,
-                "typeArguments": null,
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 119,
-                  "end": 124,
-                  "decorators": [],
-                  "name": "Shape",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            },
-            "static": false,
-            "typeParameters": null
-          }
-        ]
-      },
-      "declare": false,
-      "extends": [],
       "id": {
         "type": "Identifier",
         "start": 90,
@@ -178,18 +127,69 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "typeParameters": null
+      "typeParameters": null,
+      "extends": [],
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 103,
+        "end": 127,
+        "body": [
+          {
+            "type": "TSMethodSignature",
+            "start": 109,
+            "end": 125,
+            "key": {
+              "type": "Identifier",
+              "start": 109,
+              "end": 115,
+              "decorators": [],
+              "name": "create",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "computed": false,
+            "optional": false,
+            "kind": "method",
+            "typeParameters": null,
+            "params": [],
+            "returnType": {
+              "type": "TSTypeAnnotation",
+              "start": 117,
+              "end": 124,
+              "typeAnnotation": {
+                "type": "TSTypeReference",
+                "start": 119,
+                "end": 124,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 119,
+                  "end": 124,
+                  "decorators": [],
+                  "name": "Shape",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null
+              }
+            },
+            "accessibility": null,
+            "readonly": false,
+            "static": false
+          }
+        ]
+      },
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 129,
       "end": 157,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 133,
           "end": 156,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 133,
@@ -205,7 +205,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 136,
                 "end": 148,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 136,
@@ -214,7 +213,8 @@ __ESTREE_TEST__:PASS:
                   "name": "ShapeFactory",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             }
           },
@@ -226,11 +226,11 @@ __ESTREE_TEST__:PASS:
             "name": "Shape",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

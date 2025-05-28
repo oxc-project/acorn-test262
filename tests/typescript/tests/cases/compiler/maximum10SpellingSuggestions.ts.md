@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 100,
       "end": 109,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 104,
           "end": 108,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 104,
@@ -24,17 +24,16 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 110,
       "end": 114,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 110,
@@ -43,13 +42,13 @@ __ESTREE_TEST__:PASS:
         "name": "bob",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 115,
       "end": 119,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 115,
@@ -58,13 +57,13 @@ __ESTREE_TEST__:PASS:
         "name": "bob",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 120,
       "end": 124,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 120,
@@ -73,13 +72,13 @@ __ESTREE_TEST__:PASS:
         "name": "bob",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 125,
       "end": 129,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 125,
@@ -88,13 +87,13 @@ __ESTREE_TEST__:PASS:
         "name": "bob",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 130,
       "end": 134,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 130,
@@ -103,13 +102,13 @@ __ESTREE_TEST__:PASS:
         "name": "bob",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 135,
       "end": 139,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 135,
@@ -118,13 +117,13 @@ __ESTREE_TEST__:PASS:
         "name": "bob",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 140,
       "end": 144,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 140,
@@ -133,13 +132,13 @@ __ESTREE_TEST__:PASS:
         "name": "bob",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 145,
       "end": 149,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 145,
@@ -148,13 +147,13 @@ __ESTREE_TEST__:PASS:
         "name": "bob",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 150,
       "end": 154,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 150,
@@ -163,13 +162,13 @@ __ESTREE_TEST__:PASS:
         "name": "bob",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 155,
       "end": 159,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 155,
@@ -178,13 +177,13 @@ __ESTREE_TEST__:PASS:
         "name": "bob",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 160,
       "end": 164,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 160,
@@ -193,13 +192,13 @@ __ESTREE_TEST__:PASS:
         "name": "bob",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 165,
       "end": 169,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 165,
@@ -208,7 +207,8 @@ __ESTREE_TEST__:PASS:
         "name": "bob",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

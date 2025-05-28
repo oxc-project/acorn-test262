@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 272,
       "end": 302,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -23,18 +24,17 @@
             "start": 290,
             "end": 301,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 291,
               "end": 301,
               "value": 2147483648,
               "raw": "2147483648"
-            }
+            },
+            "prefix": true
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -60,8 +60,8 @@
             "end": 320,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -84,8 +84,8 @@
                 "end": 329,
                 "name": "pow"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -109,14 +109,14 @@
             "start": 345,
             "end": 349,
             "operator": "+",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 346,
               "end": 349,
               "value": 0,
               "raw": "0.0"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "BinaryExpression",
@@ -166,8 +166,8 @@
             "end": 525,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -190,8 +190,8 @@
                 "end": 534,
                 "name": "pow"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

@@ -9,7 +9,20 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 61,
-      "abstract": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 14,
+        "end": 28,
+        "decorators": [],
+        "name": "StaticToString",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
       "body": {
         "type": "ClassBody",
         "start": 29,
@@ -19,8 +32,6 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 35,
             "end": 59,
-            "accessibility": null,
-            "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
@@ -31,20 +42,15 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": true,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
               "start": 50,
               "end": 59,
-              "async": false,
-              "body": null,
-              "declare": false,
-              "expression": false,
-              "generator": false,
               "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
               "params": [],
               "returnType": {
                 "type": "TSTypeAnnotation",
@@ -56,71 +62,25 @@ __ESTREE_TEST__:PASS:
                   "end": 58
                 }
               },
-              "typeParameters": null
-            }
+              "body": null,
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true,
+            "override": false,
+            "optional": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": true,
-      "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 14,
-        "end": 28,
-        "decorators": [],
-        "name": "StaticToString",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": true
     },
     {
       "type": "FunctionDeclaration",
       "start": 63,
       "end": 164,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 108,
-        "end": 164,
-        "body": [
-          {
-            "type": "ReturnStatement",
-            "start": 114,
-            "end": 162,
-            "argument": {
-              "type": "BinaryExpression",
-              "start": 121,
-              "end": 161,
-              "operator": "instanceof",
-              "left": {
-                "type": "Identifier",
-                "start": 121,
-                "end": 135,
-                "decorators": [],
-                "name": "staticToString",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "right": {
-                "type": "Identifier",
-                "start": 147,
-                "end": 161,
-                "decorators": [],
-                "name": "StaticToString",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 72,
@@ -130,6 +90,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -146,7 +110,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 92,
               "end": 106,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 92,
@@ -155,19 +118,69 @@ __ESTREE_TEST__:PASS:
                 "name": "StaticToString",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "typeArguments": null
             }
           }
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 108,
+        "end": 164,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 114,
+            "end": 162,
+            "argument": {
+              "type": "BinaryExpression",
+              "start": 121,
+              "end": 161,
+              "left": {
+                "type": "Identifier",
+                "start": 121,
+                "end": 135,
+                "decorators": [],
+                "name": "staticToString",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "operator": "instanceof",
+              "right": {
+                "type": "Identifier",
+                "start": 147,
+                "end": 161,
+                "decorators": [],
+                "name": "StaticToString",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            }
+          }
+        ]
+      },
+      "expression": false
     },
     {
       "type": "ClassDeclaration",
       "start": 166,
       "end": 227,
-      "abstract": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 180,
+        "end": 194,
+        "decorators": [],
+        "name": "StaticToNumber",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
       "body": {
         "type": "ClassBody",
         "start": 195,
@@ -177,8 +190,6 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 201,
             "end": 225,
-            "accessibility": null,
-            "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
@@ -189,20 +200,15 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": true,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
               "start": 216,
               "end": 225,
-              "async": false,
-              "body": null,
-              "declare": false,
-              "expression": false,
-              "generator": false,
               "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
               "params": [],
               "returnType": {
                 "type": "TSTypeAnnotation",
@@ -214,71 +220,25 @@ __ESTREE_TEST__:PASS:
                   "end": 224
                 }
               },
-              "typeParameters": null
-            }
+              "body": null,
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true,
+            "override": false,
+            "optional": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": true,
-      "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 180,
-        "end": 194,
-        "decorators": [],
-        "name": "StaticToNumber",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": true
     },
     {
       "type": "FunctionDeclaration",
       "start": 228,
       "end": 329,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 273,
-        "end": 329,
-        "body": [
-          {
-            "type": "ReturnStatement",
-            "start": 279,
-            "end": 327,
-            "argument": {
-              "type": "BinaryExpression",
-              "start": 286,
-              "end": 326,
-              "operator": "instanceof",
-              "left": {
-                "type": "Identifier",
-                "start": 286,
-                "end": 300,
-                "decorators": [],
-                "name": "staticToNumber",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "right": {
-                "type": "Identifier",
-                "start": 312,
-                "end": 326,
-                "decorators": [],
-                "name": "StaticToNumber",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 237,
@@ -288,6 +248,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -304,7 +268,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 257,
               "end": 271,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 257,
@@ -313,19 +276,69 @@ __ESTREE_TEST__:PASS:
                 "name": "StaticToNumber",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "typeArguments": null
             }
           }
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 273,
+        "end": 329,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 279,
+            "end": 327,
+            "argument": {
+              "type": "BinaryExpression",
+              "start": 286,
+              "end": 326,
+              "left": {
+                "type": "Identifier",
+                "start": 286,
+                "end": 300,
+                "decorators": [],
+                "name": "staticToNumber",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "operator": "instanceof",
+              "right": {
+                "type": "Identifier",
+                "start": 312,
+                "end": 326,
+                "decorators": [],
+                "name": "StaticToNumber",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            }
+          }
+        ]
+      },
+      "expression": false
     },
     {
       "type": "ClassDeclaration",
       "start": 331,
       "end": 385,
-      "abstract": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 345,
+        "end": 359,
+        "decorators": [],
+        "name": "NormalToString",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
       "body": {
         "type": "ClassBody",
         "start": 360,
@@ -335,8 +348,6 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 366,
             "end": 383,
-            "accessibility": null,
-            "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
@@ -347,20 +358,15 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
               "start": 374,
               "end": 383,
-              "async": false,
-              "body": null,
-              "declare": false,
-              "expression": false,
-              "generator": false,
               "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
               "params": [],
               "returnType": {
                 "type": "TSTypeAnnotation",
@@ -372,71 +378,25 @@ __ESTREE_TEST__:PASS:
                   "end": 382
                 }
               },
-              "typeParameters": null
-            }
+              "body": null,
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": true,
-      "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 345,
-        "end": 359,
-        "decorators": [],
-        "name": "NormalToString",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": true
     },
     {
       "type": "FunctionDeclaration",
       "start": 386,
       "end": 471,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 423,
-        "end": 471,
-        "body": [
-          {
-            "type": "ReturnStatement",
-            "start": 429,
-            "end": 469,
-            "argument": {
-              "type": "BinaryExpression",
-              "start": 436,
-              "end": 468,
-              "operator": "instanceof",
-              "left": {
-                "type": "Identifier",
-                "start": 436,
-                "end": 442,
-                "decorators": [],
-                "name": "normal",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "right": {
-                "type": "Identifier",
-                "start": 454,
-                "end": 468,
-                "decorators": [],
-                "name": "NormalToString",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 395,
@@ -446,6 +406,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -462,7 +426,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 407,
               "end": 421,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 407,
@@ -471,13 +434,50 @@ __ESTREE_TEST__:PASS:
                 "name": "NormalToString",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "typeArguments": null
             }
           }
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 423,
+        "end": 471,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 429,
+            "end": 469,
+            "argument": {
+              "type": "BinaryExpression",
+              "start": 436,
+              "end": 468,
+              "left": {
+                "type": "Identifier",
+                "start": 436,
+                "end": 442,
+                "decorators": [],
+                "name": "normal",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "operator": "instanceof",
+              "right": {
+                "type": "Identifier",
+                "start": 454,
+                "end": 468,
+                "decorators": [],
+                "name": "NormalToString",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            }
+          }
+        ]
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

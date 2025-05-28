@@ -23,21 +23,17 @@
             "type": "MethodDefinition",
             "start": 2169,
             "end": 2195,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 2176,
               "end": 2177,
               "name": "a"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 2177,
               "end": 2195,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -59,15 +55,17 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true
           },
           {
             "type": "MethodDefinition",
             "start": 2198,
             "end": 2226,
-            "static": true,
-            "computed": true,
             "key": {
               "type": "Literal",
               "start": 2206,
@@ -75,13 +73,11 @@
               "value": 1,
               "raw": "1"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 2208,
               "end": 2226,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -103,28 +99,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": true,
+            "static": true
           },
           {
             "type": "MethodDefinition",
             "start": 2229,
             "end": 2255,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 2236,
               "end": 2237,
               "name": "c"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 2237,
               "end": 2255,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -146,15 +142,17 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true
           },
           {
             "type": "MethodDefinition",
             "start": 2258,
             "end": 2286,
-            "static": true,
-            "computed": true,
             "key": {
               "type": "Literal",
               "start": 2266,
@@ -162,13 +160,11 @@
               "value": 2,
               "raw": "2"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 2268,
               "end": 2286,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -190,8 +186,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": true,
+            "static": true
           }
         ]
       }
@@ -220,8 +220,8 @@
             "end": 2308,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -244,8 +244,8 @@
                 "end": 2338,
                 "name": "getOwnPropertyNames"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

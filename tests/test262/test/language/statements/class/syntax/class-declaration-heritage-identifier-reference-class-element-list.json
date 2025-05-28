@@ -46,21 +46,17 @@
             "type": "MethodDefinition",
             "start": 892,
             "end": 903,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 892,
               "end": 898,
               "name": "method"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 898,
               "end": 903,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -69,28 +65,28 @@
                 "start": 901,
                 "end": 903,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 906,
             "end": 924,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 913,
               "end": 919,
               "name": "method"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 919,
               "end": 924,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -99,8 +95,12 @@
                 "start": 922,
                 "end": 924,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true
           }
         ]
       }
@@ -129,8 +129,8 @@
             "end": 948,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -138,13 +138,13 @@
             "start": 949,
             "end": 957,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 956,
               "end": 957,
               "name": "B"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -181,8 +181,8 @@
             "end": 988,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -190,7 +190,6 @@
             "start": 989,
             "end": 1014,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 996,
@@ -211,8 +210,8 @@
                   "end": 1007,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -220,9 +219,10 @@
                 "end": 1014,
                 "name": "method"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -259,8 +259,8 @@
             "end": 1045,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -268,7 +268,6 @@
             "start": 1046,
             "end": 1061,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 1053,
@@ -285,9 +284,10 @@
                 "end": 1061,
                 "name": "method"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

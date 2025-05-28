@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 2030,
       "end": 2042,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -39,7 +39,6 @@
         "end": 2056,
         "name": "fn"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -57,7 +56,6 @@
               "start": 2070,
               "end": 2083,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -66,11 +64,13 @@
                 "start": 2081,
                 "end": 2083,
                 "body": []
-              }
+              },
+              "expression": false
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExportNamedDeclaration",

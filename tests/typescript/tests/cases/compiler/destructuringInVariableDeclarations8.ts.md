@@ -9,24 +9,23 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 21,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 20,
-          "definite": false,
           "id": {
             "type": "ObjectPattern",
             "start": 4,
             "end": 16,
             "decorators": [],
-            "optional": false,
             "properties": [
               {
                 "type": "Property",
                 "start": 6,
                 "end": 14,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 6,
@@ -36,10 +35,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": true,
                 "value": {
                   "type": "Identifier",
                   "start": 6,
@@ -48,22 +43,27 @@ __ESTREE_TEST__:PASS:
                   "name": "toString",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "method": false,
+                "shorthand": true,
+                "computed": false,
+                "optional": false
               }
             ],
+            "optional": false,
             "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
             "start": 19,
             "end": 20,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "BlockStatement",
@@ -74,24 +74,23 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclaration",
           "start": 28,
           "end": 48,
+          "kind": "let",
           "declarations": [
             {
               "type": "VariableDeclarator",
               "start": 32,
               "end": 47,
-              "definite": false,
               "id": {
                 "type": "ObjectPattern",
                 "start": 32,
                 "end": 43,
                 "decorators": [],
-                "optional": false,
                 "properties": [
                   {
                     "type": "Property",
                     "start": 34,
                     "end": 41,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 34,
@@ -101,10 +100,6 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "kind": "init",
-                    "method": false,
-                    "optional": false,
-                    "shorthand": true,
                     "value": {
                       "type": "Identifier",
                       "start": 34,
@@ -113,22 +108,27 @@ __ESTREE_TEST__:PASS:
                       "name": "toFixed",
                       "optional": false,
                       "typeAnnotation": null
-                    }
+                    },
+                    "method": false,
+                    "shorthand": true,
+                    "computed": false,
+                    "optional": false
                   }
                 ],
+                "optional": false,
                 "typeAnnotation": null
               },
               "init": {
                 "type": "Literal",
                 "start": 46,
                 "end": 47,
-                "raw": "1",
-                "value": 1
-              }
+                "value": 1,
+                "raw": "1"
+              },
+              "definite": false
             }
           ],
-          "declare": false,
-          "kind": "let"
+          "declare": false
         }
       ]
     },
@@ -136,11 +136,11 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 51,
       "end": 61,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

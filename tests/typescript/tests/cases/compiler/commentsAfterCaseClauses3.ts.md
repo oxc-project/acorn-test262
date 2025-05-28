@@ -9,157 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 350,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 28,
-        "end": 350,
-        "body": [
-          {
-            "type": "SwitchStatement",
-            "start": 34,
-            "end": 343,
-            "cases": [
-              {
-                "type": "SwitchCase",
-                "start": 57,
-                "end": 64,
-                "consequent": [],
-                "test": {
-                  "type": "Literal",
-                  "start": 62,
-                  "end": 63,
-                  "raw": "0",
-                  "value": 0
-                }
-              },
-              {
-                "type": "SwitchCase",
-                "start": 82,
-                "end": 89,
-                "consequent": [],
-                "test": {
-                  "type": "Literal",
-                  "start": 87,
-                  "end": 88,
-                  "raw": "1",
-                  "value": 1
-                }
-              },
-              {
-                "type": "SwitchCase",
-                "start": 107,
-                "end": 179,
-                "consequent": [
-                  {
-                    "type": "ReturnStatement",
-                    "start": 167,
-                    "end": 179,
-                    "argument": {
-                      "type": "Literal",
-                      "start": 174,
-                      "end": 178,
-                      "raw": "\"Hi\"",
-                      "value": "Hi"
-                    }
-                  }
-                ],
-                "test": {
-                  "type": "Literal",
-                  "start": 112,
-                  "end": 113,
-                  "raw": "2",
-                  "value": 2
-                }
-              },
-              {
-                "type": "SwitchCase",
-                "start": 188,
-                "end": 195,
-                "consequent": [],
-                "test": {
-                  "type": "Literal",
-                  "start": 193,
-                  "end": 194,
-                  "raw": "3",
-                  "value": 3
-                }
-              },
-              {
-                "type": "SwitchCase",
-                "start": 214,
-                "end": 258,
-                "consequent": [
-                  {
-                    "type": "ReturnStatement",
-                    "start": 243,
-                    "end": 258,
-                    "argument": {
-                      "type": "Literal",
-                      "start": 250,
-                      "end": 257,
-                      "raw": "\"hello\"",
-                      "value": "hello"
-                    }
-                  }
-                ],
-                "test": {
-                  "type": "Literal",
-                  "start": 219,
-                  "end": 220,
-                  "raw": "4",
-                  "value": 4
-                }
-              },
-              {
-                "type": "SwitchCase",
-                "start": 267,
-                "end": 274,
-                "consequent": [],
-                "test": {
-                  "type": "Literal",
-                  "start": 272,
-                  "end": 273,
-                  "raw": "5",
-                  "value": 5
-                }
-              },
-              {
-                "type": "SwitchCase",
-                "start": 292,
-                "end": 337,
-                "consequent": [
-                  {
-                    "type": "ReturnStatement",
-                    "start": 322,
-                    "end": 337,
-                    "argument": {
-                      "type": "Literal",
-                      "start": 329,
-                      "end": 336,
-                      "raw": "\"world\"",
-                      "value": "world"
-                    }
-                  }
-                ],
-                "test": null
-              }
-            ],
-            "discriminant": {
-              "type": "Identifier",
-              "start": 41,
-              "end": 46,
-              "decorators": [],
-              "name": "level",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -169,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -181,7 +34,154 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 28,
+        "end": 350,
+        "body": [
+          {
+            "type": "SwitchStatement",
+            "start": 34,
+            "end": 343,
+            "discriminant": {
+              "type": "Identifier",
+              "start": 41,
+              "end": 46,
+              "decorators": [],
+              "name": "level",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "cases": [
+              {
+                "type": "SwitchCase",
+                "start": 57,
+                "end": 64,
+                "test": {
+                  "type": "Literal",
+                  "start": 62,
+                  "end": 63,
+                  "value": 0,
+                  "raw": "0"
+                },
+                "consequent": []
+              },
+              {
+                "type": "SwitchCase",
+                "start": 82,
+                "end": 89,
+                "test": {
+                  "type": "Literal",
+                  "start": 87,
+                  "end": 88,
+                  "value": 1,
+                  "raw": "1"
+                },
+                "consequent": []
+              },
+              {
+                "type": "SwitchCase",
+                "start": 107,
+                "end": 179,
+                "test": {
+                  "type": "Literal",
+                  "start": 112,
+                  "end": 113,
+                  "value": 2,
+                  "raw": "2"
+                },
+                "consequent": [
+                  {
+                    "type": "ReturnStatement",
+                    "start": 167,
+                    "end": 179,
+                    "argument": {
+                      "type": "Literal",
+                      "start": 174,
+                      "end": 178,
+                      "value": "Hi",
+                      "raw": "\"Hi\""
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "SwitchCase",
+                "start": 188,
+                "end": 195,
+                "test": {
+                  "type": "Literal",
+                  "start": 193,
+                  "end": 194,
+                  "value": 3,
+                  "raw": "3"
+                },
+                "consequent": []
+              },
+              {
+                "type": "SwitchCase",
+                "start": 214,
+                "end": 258,
+                "test": {
+                  "type": "Literal",
+                  "start": 219,
+                  "end": 220,
+                  "value": 4,
+                  "raw": "4"
+                },
+                "consequent": [
+                  {
+                    "type": "ReturnStatement",
+                    "start": 243,
+                    "end": 258,
+                    "argument": {
+                      "type": "Literal",
+                      "start": 250,
+                      "end": 257,
+                      "value": "hello",
+                      "raw": "\"hello\""
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "SwitchCase",
+                "start": 267,
+                "end": 274,
+                "test": {
+                  "type": "Literal",
+                  "start": 272,
+                  "end": 273,
+                  "value": 5,
+                  "raw": "5"
+                },
+                "consequent": []
+              },
+              {
+                "type": "SwitchCase",
+                "start": 292,
+                "end": 337,
+                "test": null,
+                "consequent": [
+                  {
+                    "type": "ReturnStatement",
+                    "start": 322,
+                    "end": 337,
+                    "argument": {
+                      "type": "Literal",
+                      "start": 329,
+                      "end": 336,
+                      "value": "world",
+                      "raw": "\"world\""
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

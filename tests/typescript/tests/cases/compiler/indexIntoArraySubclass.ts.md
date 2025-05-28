@@ -9,13 +9,41 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 38,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 35,
-        "end": 38,
-        "body": []
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 14,
+        "decorators": [],
+        "name": "Foo2",
+        "optional": false,
+        "typeAnnotation": null
       },
-      "declare": false,
+      "typeParameters": {
+        "type": "TSTypeParameterDeclaration",
+        "start": 14,
+        "end": 17,
+        "params": [
+          {
+            "type": "TSTypeParameter",
+            "start": 15,
+            "end": 16,
+            "name": {
+              "type": "Identifier",
+              "start": 15,
+              "end": 16,
+              "decorators": [],
+              "name": "T",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          }
+        ]
+      },
       "extends": [
         {
           "type": "TSInterfaceHeritage",
@@ -39,7 +67,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 32,
                 "end": 33,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 32,
@@ -48,58 +75,31 @@ __ESTREE_TEST__:PASS:
                   "name": "T",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             ]
           }
         }
       ],
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 14,
-        "decorators": [],
-        "name": "Foo2",
-        "optional": false,
-        "typeAnnotation": null
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 35,
+        "end": 38,
+        "body": []
       },
-      "typeParameters": {
-        "type": "TSTypeParameterDeclaration",
-        "start": 14,
-        "end": 17,
-        "params": [
-          {
-            "type": "TSTypeParameter",
-            "start": 15,
-            "end": 16,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 15,
-              "end": 16,
-              "decorators": [],
-              "name": "T",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          }
-        ]
-      }
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 39,
       "end": 60,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 43,
           "end": 59,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 43,
@@ -115,6 +115,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 47,
                 "end": 59,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 47,
+                  "end": 51,
+                  "decorators": [],
+                  "name": "Foo2",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 51,
@@ -126,35 +135,26 @@ __ESTREE_TEST__:PASS:
                       "end": 58
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 47,
-                  "end": 51,
-                  "decorators": [],
-                  "name": "Foo2",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 61,
       "end": 75,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 65,
           "end": 74,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 65,
@@ -168,7 +168,6 @@ __ESTREE_TEST__:PASS:
             "type": "MemberExpression",
             "start": 69,
             "end": 74,
-            "computed": true,
             "object": {
               "type": "Identifier",
               "start": 69,
@@ -178,25 +177,25 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "Literal",
               "start": 72,
               "end": 73,
-              "raw": "0",
-              "value": 0
-            }
-          }
+              "value": 0,
+              "raw": "0"
+            },
+            "optional": false,
+            "computed": true
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 86,
       "end": 92,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 86,
@@ -215,10 +214,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 90,
           "end": 91,
-          "raw": "0",
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

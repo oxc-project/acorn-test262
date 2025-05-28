@@ -23,21 +23,17 @@
             "type": "MethodDefinition",
             "start": 913,
             "end": 948,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 913,
               "end": 920,
               "name": "method"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 920,
               "end": 948,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -59,28 +55,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 954,
             "end": 994,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 954,
               "end": 965,
               "name": "superAccess"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 965,
               "end": 994,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -112,16 +108,20 @@
                           "end": 989,
                           "name": "method"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [],
                       "optional": false
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -151,21 +151,17 @@
             "type": "MethodDefinition",
             "start": 1020,
             "end": 1051,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 1020,
               "end": 1027,
               "name": "method"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 1027,
               "end": 1051,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -187,28 +183,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 1057,
             "end": 1098,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1057,
               "end": 1063,
               "name": "access"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 1063,
               "end": 1098,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -240,16 +236,20 @@
                           "end": 1091,
                           "name": "method"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [],
                       "optional": false
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -258,6 +258,7 @@
       "type": "VariableDeclaration",
       "start": 1104,
       "end": 1120,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -282,8 +283,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -309,8 +309,8 @@
             "end": 1138,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -333,8 +333,8 @@
                 "end": 1147,
                 "name": "access"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -374,8 +374,8 @@
             "end": 1179,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -398,8 +398,8 @@
                 "end": 1193,
                 "name": "superAccess"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -419,6 +419,7 @@
       "type": "VariableDeclaration",
       "start": 1214,
       "end": 1230,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -443,8 +444,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -470,8 +470,8 @@
             "end": 1247,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -494,8 +494,8 @@
                 "end": 1261,
                 "name": "superAccess"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -535,8 +535,8 @@
             "end": 1294,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -550,7 +550,6 @@
             "start": 1306,
             "end": 1340,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -587,8 +586,8 @@
                           "end": 1329,
                           "name": "access"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -596,8 +595,8 @@
                         "end": 1334,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -611,7 +610,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

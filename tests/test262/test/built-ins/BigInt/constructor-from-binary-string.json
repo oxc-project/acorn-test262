@@ -27,8 +27,8 @@
             "end": 564,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -88,8 +88,8 @@
             "end": 605,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -149,8 +149,8 @@
             "end": 643,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -210,8 +210,8 @@
             "end": 680,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -251,6 +251,7 @@
       "type": "VariableDeclaration",
       "start": 702,
       "end": 727,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -270,8 +271,7 @@
             "raw": "\"0b1\""
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ForStatement",
@@ -281,6 +281,7 @@
         "type": "VariableDeclaration",
         "start": 733,
         "end": 742,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -300,8 +301,7 @@
               "raw": "0"
             }
           }
-        ],
-        "kind": "let"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -384,8 +384,8 @@
             "end": 798,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -444,8 +444,8 @@
             "end": 881,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -505,8 +505,8 @@
             "end": 922,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -566,8 +566,8 @@
             "end": 960,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -627,8 +627,8 @@
             "end": 997,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -696,6 +696,7 @@
         "type": "VariableDeclaration",
         "start": 1046,
         "end": 1055,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -715,8 +716,7 @@
               "raw": "0"
             }
           }
-        ],
-        "kind": "let"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -799,8 +799,8 @@
             "end": 1111,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

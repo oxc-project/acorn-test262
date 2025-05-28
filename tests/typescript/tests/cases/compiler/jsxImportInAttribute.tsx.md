@@ -9,7 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 56,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 21,
+        "value": "Test",
+        "raw": "\"Test\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 22,
@@ -23,14 +29,6 @@ __ESTREE_TEST__:PASS:
               "type": "ClassDeclaration",
               "start": 40,
               "end": 54,
-              "abstract": false,
-              "body": {
-                "type": "ClassBody",
-                "start": 51,
-                "end": 54,
-                "body": []
-              },
-              "declare": false,
               "decorators": [],
               "id": {
                 "type": "Identifier",
@@ -41,24 +39,26 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "implements": [],
+              "typeParameters": null,
               "superClass": null,
               "superTypeArguments": null,
-              "typeParameters": null
+              "implements": [],
+              "body": {
+                "type": "ClassBody",
+                "start": 51,
+                "end": 54,
+                "body": []
+              },
+              "abstract": false,
+              "declare": false
             },
             "exportKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 21,
-        "raw": "\"Test\"",
-        "value": "Test"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -76,14 +76,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 40,
       "end": 64,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 57,
-        "end": 63,
-        "raw": "'Test'",
-        "value": "Test"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -100,19 +92,27 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 57,
+        "end": 63,
+        "value": "Test",
+        "raw": "'Test'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 66,
       "end": 79,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 70,
           "end": 78,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 70,
@@ -130,27 +130,31 @@ __ESTREE_TEST__:PASS:
             "name": "Test",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 103,
       "end": 128,
-      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 103,
         "end": 127,
-        "children": [],
-        "closingElement": null,
         "openingElement": {
           "type": "JSXOpeningElement",
           "start": 103,
           "end": 127,
+          "name": {
+            "type": "JSXIdentifier",
+            "start": 104,
+            "end": 112,
+            "name": "anything"
+          },
+          "typeArguments": null,
           "attributes": [
             {
               "type": "JSXAttribute",
@@ -178,16 +182,12 @@ __ESTREE_TEST__:PASS:
               }
             }
           ],
-          "name": {
-            "type": "JSXIdentifier",
-            "start": 104,
-            "end": 112,
-            "name": "anything"
-          },
-          "selfClosing": true,
-          "typeArguments": null
-        }
-      }
+          "selfClosing": true
+        },
+        "children": [],
+        "closingElement": null
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 37,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 37,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,7 +28,13 @@ __ESTREE_TEST__:PASS:
             "type": "FunctionExpression",
             "start": 8,
             "end": 37,
+            "id": null,
+            "generator": true,
             "async": false,
+            "declare": false,
+            "typeParameters": null,
+            "params": [],
+            "returnType": null,
             "body": {
               "type": "BlockStatement",
               "start": 20,
@@ -38,11 +44,11 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 24,
                   "end": 35,
-                  "directive": null,
                   "expression": {
                     "type": "YieldExpression",
                     "start": 24,
                     "end": 34,
+                    "delegate": false,
                     "argument": {
                       "type": "Identifier",
                       "start": 30,
@@ -51,24 +57,18 @@ __ESTREE_TEST__:PASS:
                       "name": "foo",
                       "optional": false,
                       "typeAnnotation": null
-                    },
-                    "delegate": false
-                  }
+                    }
+                  },
+                  "directive": null
                 }
               ]
             },
-            "declare": false,
-            "expression": false,
-            "generator": true,
-            "id": null,
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
+            "expression": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

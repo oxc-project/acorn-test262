@@ -9,17 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 31,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 31,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 19,
             "end": 30,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 19,
@@ -38,15 +37,16 @@ __ESTREE_TEST__:PASS:
                 }
               }
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": true,
-        "kind": "var"
+        "declare": true
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -64,11 +64,11 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 10,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -86,111 +86,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 85,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 24,
-        "end": 85,
-        "body": [
-          {
-            "type": "VariableDeclaration",
-            "start": 28,
-            "end": 63,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 34,
-                "end": 62,
-                "definite": false,
-                "id": {
-                  "type": "ObjectPattern",
-                  "start": 34,
-                  "end": 55,
-                  "decorators": [],
-                  "optional": false,
-                  "properties": [
-                    {
-                      "type": "Property",
-                      "start": 36,
-                      "end": 39,
-                      "computed": false,
-                      "key": {
-                        "type": "Identifier",
-                        "start": 36,
-                        "end": 39,
-                        "decorators": [],
-                        "name": "bar",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "kind": "init",
-                      "method": false,
-                      "optional": false,
-                      "shorthand": true,
-                      "value": {
-                        "type": "Identifier",
-                        "start": 36,
-                        "end": 39,
-                        "decorators": [],
-                        "name": "bar",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    },
-                    {
-                      "type": "RestElement",
-                      "start": 41,
-                      "end": 53,
-                      "argument": {
-                        "type": "Identifier",
-                        "start": 44,
-                        "end": 53,
-                        "decorators": [],
-                        "name": "extraArgs",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "decorators": [],
-                      "optional": false,
-                      "typeAnnotation": null,
-                      "value": null
-                    }
-                  ],
-                  "typeAnnotation": null
-                },
-                "init": {
-                  "type": "Identifier",
-                  "start": 58,
-                  "end": 62,
-                  "decorators": [],
-                  "name": "args",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "const"
-          },
-          {
-            "type": "ReturnStatement",
-            "start": 66,
-            "end": 83,
-            "argument": {
-              "type": "Identifier",
-              "start": 73,
-              "end": 82,
-              "decorators": [],
-              "name": "extraArgs",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -200,6 +95,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -221,7 +120,108 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 24,
+        "end": 85,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 28,
+            "end": 63,
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 34,
+                "end": 62,
+                "id": {
+                  "type": "ObjectPattern",
+                  "start": 34,
+                  "end": 55,
+                  "decorators": [],
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 36,
+                      "end": 39,
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "start": 36,
+                        "end": 39,
+                        "decorators": [],
+                        "name": "bar",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "value": {
+                        "type": "Identifier",
+                        "start": 36,
+                        "end": 39,
+                        "decorators": [],
+                        "name": "bar",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "method": false,
+                      "shorthand": true,
+                      "computed": false,
+                      "optional": false
+                    },
+                    {
+                      "type": "RestElement",
+                      "start": 41,
+                      "end": 53,
+                      "decorators": [],
+                      "argument": {
+                        "type": "Identifier",
+                        "start": 44,
+                        "end": 53,
+                        "decorators": [],
+                        "name": "extraArgs",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "optional": false,
+                      "typeAnnotation": null,
+                      "value": null
+                    }
+                  ],
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "init": {
+                  "type": "Identifier",
+                  "start": 58,
+                  "end": 62,
+                  "decorators": [],
+                  "name": "args",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "ReturnStatement",
+            "start": 66,
+            "end": 83,
+            "argument": {
+              "type": "Identifier",
+              "start": 73,
+              "end": 82,
+              "decorators": [],
+              "name": "extraArgs",
+              "optional": false,
+              "typeAnnotation": null
+            }
+          }
+        ]
+      },
+      "expression": false
     },
     {
       "type": "TSExportAssignment",

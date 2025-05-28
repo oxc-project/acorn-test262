@@ -14,21 +14,10 @@ __ESTREE_TEST__:PASS:
           "type": "ExportNamedDeclaration",
           "start": 5,
           "end": 33,
-          "attributes": [],
           "declaration": {
             "type": "FunctionDeclaration",
             "start": 12,
             "end": 33,
-            "async": false,
-            "body": {
-              "type": "BlockStatement",
-              "start": 27,
-              "end": 33,
-              "body": []
-            },
-            "declare": false,
-            "expression": false,
-            "generator": false,
             "id": {
               "type": "Identifier",
               "start": 21,
@@ -38,13 +27,24 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
+            "generator": false,
+            "async": false,
+            "declare": false,
+            "typeParameters": null,
             "params": [],
             "returnType": null,
-            "typeParameters": null
+            "body": {
+              "type": "BlockStatement",
+              "start": 27,
+              "end": 33,
+              "body": []
+            },
+            "expression": false
           },
-          "exportKind": "value",
+          "specifiers": [],
           "source": null,
-          "specifiers": []
+          "exportKind": "value",
+          "attributes": []
         }
       ]
     }

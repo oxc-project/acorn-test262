@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 973,
       "end": 1026,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 1013,
                 "name": "supportedValuesOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -53,13 +54,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1028,
       "end": 1106,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -91,8 +92,8 @@
                 "end": 1061,
                 "name": "DisplayNames"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -111,9 +112,7 @@
                     "type": "Property",
                     "start": 1069,
                     "end": 1085,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1069,
@@ -127,15 +126,15 @@
                       "value": "calendar",
                       "raw": "\"calendar\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 1087,
                     "end": 1103,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1087,
@@ -149,15 +148,16 @@
                       "value": "none",
                       "raw": "\"none\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -168,6 +168,7 @@
         "type": "VariableDeclaration",
         "start": 1113,
         "end": 1125,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -181,8 +182,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -219,8 +219,8 @@
                   "end": 1160,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -228,7 +228,6 @@
                   "start": 1161,
                   "end": 1184,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 1168,
@@ -249,8 +248,8 @@
                         "end": 1174,
                         "name": "of"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -261,7 +260,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 },
                 {
                   "type": "Literal",
@@ -274,14 +274,6 @@
                   "type": "TemplateLiteral",
                   "start": 1215,
                   "end": 1257,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1218,
-                      "end": 1226,
-                      "name": "calendar"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -303,6 +295,14 @@
                       },
                       "tail": true
                     }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1218,
+                      "end": 1226,
+                      "name": "calendar"
+                    }
                   ]
                 }
               ],
@@ -321,6 +321,7 @@
         "type": "VariableDeclaration",
         "start": 1268,
         "end": 1280,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -334,8 +335,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "CallExpression",
@@ -368,7 +368,6 @@
                 "start": 1308,
                 "end": 1331,
                 "operator": "typeof",
-                "prefix": true,
                 "argument": {
                   "type": "CallExpression",
                   "start": 1315,
@@ -389,8 +388,8 @@
                       "end": 1321,
                       "name": "of"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -401,7 +400,8 @@
                     }
                   ],
                   "optional": false
-                }
+                },
+                "prefix": true
               },
               "operator": "===",
               "right": {
@@ -452,8 +452,8 @@
                             "end": 1377,
                             "name": "includes"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -469,14 +469,6 @@
                         "type": "TemplateLiteral",
                         "start": 1400,
                         "end": 1461,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 1403,
-                            "end": 1411,
-                            "name": "calendar"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -497,6 +489,14 @@
                               "cooked": " supported but not returned by supportedValuesOf"
                             },
                             "tail": true
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 1403,
+                            "end": 1411,
+                            "name": "calendar"
                           }
                         ]
                       }
@@ -531,7 +531,6 @@
                         "start": 1486,
                         "end": 1515,
                         "operator": "!",
-                        "prefix": true,
                         "argument": {
                           "type": "CallExpression",
                           "start": 1487,
@@ -552,8 +551,8 @@
                               "end": 1505,
                               "name": "includes"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -564,20 +563,13 @@
                             }
                           ],
                           "optional": false
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 1528,
                         "end": 1589,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 1531,
-                            "end": 1539,
-                            "name": "calendar"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -598,6 +590,14 @@
                               "cooked": " not supported but returned by supportedValuesOf"
                             },
                             "tail": true
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 1531,
+                            "end": 1539,
+                            "name": "calendar"
                           }
                         ]
                       }

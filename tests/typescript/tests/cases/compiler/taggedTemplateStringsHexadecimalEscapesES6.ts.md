@@ -9,16 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 30,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 27,
-        "end": 30,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -28,11 +18,16 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "RestElement",
           "start": 11,
           "end": 25,
+          "decorators": [],
           "argument": {
             "type": "Identifier",
             "start": 14,
@@ -42,7 +37,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "decorators": [],
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
@@ -63,53 +57,22 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 27,
+        "end": 30,
+        "body": []
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
       "start": 32,
       "end": 68,
-      "directive": null,
       "expression": {
         "type": "TaggedTemplateExpression",
         "start": 32,
         "end": 67,
-        "quasi": {
-          "type": "TemplateLiteral",
-          "start": 34,
-          "end": 67,
-          "expressions": [
-            {
-              "type": "Literal",
-              "start": 42,
-              "end": 60,
-              "raw": "\"Interrupted CRLF\"",
-              "value": "Interrupted CRLF"
-            }
-          ],
-          "quasis": [
-            {
-              "type": "TemplateElement",
-              "start": 34,
-              "end": 41,
-              "tail": false,
-              "value": {
-                "cooked": "\r",
-                "raw": "\\x0D"
-              }
-            },
-            {
-              "type": "TemplateElement",
-              "start": 61,
-              "end": 67,
-              "tail": true,
-              "value": {
-                "cooked": "\n",
-                "raw": "\\x0A"
-              }
-            }
-          ]
-        },
         "tag": {
           "type": "Identifier",
           "start": 32,
@@ -119,8 +82,45 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "quasi": {
+          "type": "TemplateLiteral",
+          "start": 34,
+          "end": 67,
+          "quasis": [
+            {
+              "type": "TemplateElement",
+              "start": 34,
+              "end": 41,
+              "value": {
+                "cooked": "\r",
+                "raw": "\\x0D"
+              },
+              "tail": false
+            },
+            {
+              "type": "TemplateElement",
+              "start": 61,
+              "end": 67,
+              "value": {
+                "cooked": "\n",
+                "raw": "\\x0A"
+              },
+              "tail": true
+            }
+          ],
+          "expressions": [
+            {
+              "type": "Literal",
+              "start": 42,
+              "end": 60,
+              "value": "Interrupted CRLF",
+              "raw": "\"Interrupted CRLF\""
+            }
+          ]
+        }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

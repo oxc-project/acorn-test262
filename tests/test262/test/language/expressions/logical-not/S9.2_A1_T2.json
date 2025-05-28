@@ -16,7 +16,6 @@
           "start": 345,
           "end": 357,
           "operator": "!",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 346,
@@ -27,7 +26,8 @@
               "end": 356,
               "name": "undefined"
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -79,7 +79,6 @@
                       "start": 436,
                       "end": 448,
                       "operator": "!",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 437,
@@ -90,7 +89,8 @@
                           "end": 447,
                           "name": "undefined"
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -114,7 +114,6 @@
           "start": 470,
           "end": 479,
           "operator": "!",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 471,
@@ -124,16 +123,17 @@
               "start": 472,
               "end": 478,
               "operator": "void",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 477,
                 "end": 478,
                 "value": 0,
                 "raw": "0"
-              }
+              },
+              "prefix": true
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -185,7 +185,6 @@
                       "start": 558,
                       "end": 570,
                       "operator": "!",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 559,
@@ -196,7 +195,8 @@
                           "end": 569,
                           "name": "undefined"
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -220,7 +220,6 @@
           "start": 592,
           "end": 608,
           "operator": "!",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 593,
@@ -246,7 +245,8 @@
               ],
               "optional": false
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -298,7 +298,6 @@
                       "start": 691,
                       "end": 707,
                       "operator": "!",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 692,
@@ -324,7 +323,8 @@
                           ],
                           "optional": false
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }

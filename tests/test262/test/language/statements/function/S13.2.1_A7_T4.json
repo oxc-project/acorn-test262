@@ -13,7 +13,6 @@
         "end": 464,
         "name": "__func"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -26,6 +25,7 @@
             "type": "VariableDeclaration",
             "start": 472,
             "end": 485,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -45,8 +45,7 @@
                   "raw": "true"
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ReturnStatement",
@@ -60,7 +59,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "TryStatement",
@@ -189,6 +189,7 @@
             "type": "VariableDeclaration",
             "start": 909,
             "end": 925,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -214,8 +215,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           }
         ]
       },
@@ -285,7 +285,6 @@
         "start": 1229,
         "end": 1235,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 1230,
@@ -296,7 +295,8 @@
             "end": 1234,
             "name": "__x"
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",

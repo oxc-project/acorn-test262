@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 450,
       "end": 623,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -134,13 +135,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 624,
       "end": 715,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -235,8 +236,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -247,6 +247,7 @@
         "type": "VariableDeclaration",
         "start": 722,
         "end": 733,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -260,8 +261,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -278,6 +278,7 @@
             "type": "VariableDeclaration",
             "start": 754,
             "end": 813,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -309,8 +310,8 @@
                       "end": 785,
                       "name": "PluralRules"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -329,9 +330,7 @@
                           "type": "Property",
                           "start": 794,
                           "end": 809,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 794,
@@ -344,15 +343,16 @@
                             "end": 809,
                             "name": "value"
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false
                         }
                       ]
                     }
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -397,8 +397,8 @@
                           "end": 841,
                           "name": "resolvedOptions"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [],
                       "optional": false
@@ -409,8 +409,8 @@
                       "end": 852,
                       "name": "notation"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "operator": "===",
                   "right": {
@@ -424,14 +424,6 @@
                   "type": "TemplateLiteral",
                   "start": 864,
                   "end": 912,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 905,
-                      "end": 910,
-                      "name": "value"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -453,6 +445,14 @@
                       },
                       "tail": true
                     }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 905,
+                      "end": 910,
+                      "name": "value"
+                    }
                   ]
                 }
               ],
@@ -471,6 +471,7 @@
         "type": "VariableDeclaration",
         "start": 922,
         "end": 933,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -484,8 +485,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -522,8 +522,8 @@
                   "end": 969,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -536,9 +536,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 982,
                   "end": 1046,
-                  "id": null,
                   "expression": false,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -570,8 +568,8 @@
                               "end": 1014,
                               "name": "PluralRules"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -590,9 +588,7 @@
                                   "type": "Property",
                                   "start": 1023,
                                   "end": 1038,
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 1023,
@@ -605,7 +601,9 @@
                                     "end": 1038,
                                     "name": "value"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false
                                 }
                               ]
                             }
@@ -613,20 +611,14 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 1048,
                   "end": 1089,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1082,
-                      "end": 1087,
-                      "name": "value"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -647,6 +639,14 @@
                         "cooked": ""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1082,
+                      "end": 1087,
+                      "name": "value"
                     }
                   ]
                 }

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 281,
       "end": 358,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 326,
                 "name": "ZonedDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -60,8 +61,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -87,8 +87,8 @@
             "end": 375,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -107,8 +107,8 @@
               "end": 403,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -153,8 +153,8 @@
             "end": 477,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -162,7 +162,6 @@
             "start": 478,
             "end": 512,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 485,
@@ -179,9 +178,10 @@
                 "end": 512,
                 "name": "epochNanoseconds"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -205,6 +205,7 @@
       "type": "VariableDeclaration",
       "start": 564,
       "end": 643,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -236,8 +237,8 @@
                 "end": 610,
                 "name": "ZonedDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -245,7 +246,6 @@
                 "start": 611,
                 "end": 634,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 612,
@@ -253,7 +253,8 @@
                   "value": null,
                   "raw": "217175010_876_543_211n",
                   "bigint": "217175010876543211"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -265,8 +266,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -292,8 +292,8 @@
             "end": 660,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -312,15 +312,14 @@
               "end": 689,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "UnaryExpression",
             "start": 691,
             "end": 714,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 692,
@@ -328,7 +327,8 @@
               "value": null,
               "raw": "217175010_876_543_211n",
               "bigint": "217175010876543211"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -365,8 +365,8 @@
             "end": 763,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -374,7 +374,6 @@
             "start": 764,
             "end": 799,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 771,
@@ -391,9 +390,10 @@
                 "end": 799,
                 "name": "epochNanoseconds"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

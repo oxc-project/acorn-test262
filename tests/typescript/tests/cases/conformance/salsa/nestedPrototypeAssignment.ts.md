@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 30,
       "end": 46,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 30,
@@ -19,7 +18,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 30,
           "end": 41,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 30,
@@ -29,7 +27,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 32,
@@ -38,7 +35,9 @@ __ESTREE_TEST__:PASS:
             "name": "prototype",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "ObjectExpression",
@@ -46,13 +45,13 @@ __ESTREE_TEST__:PASS:
           "end": 46,
           "properties": []
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 47,
       "end": 72,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 47,
@@ -62,17 +61,14 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 47,
           "end": 66,
-          "computed": false,
           "object": {
             "type": "MemberExpression",
             "start": 47,
             "end": 62,
-            "computed": false,
             "object": {
               "type": "MemberExpression",
               "start": 47,
               "end": 58,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 47,
@@ -82,7 +78,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 49,
@@ -91,9 +86,10 @@ __ESTREE_TEST__:PASS:
                 "name": "prototype",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 59,
@@ -102,9 +98,10 @@ __ESTREE_TEST__:PASS:
               "name": "bar",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "optional": false,
+            "computed": false
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 63,
@@ -113,7 +110,9 @@ __ESTREE_TEST__:PASS:
             "name": "foo",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "ObjectExpression",
@@ -121,7 +120,8 @@ __ESTREE_TEST__:PASS:
           "end": 71,
           "properties": []
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

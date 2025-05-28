@@ -9,7 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 38,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 18,
+        "value": "M",
+        "raw": "\"M\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 19,
@@ -31,15 +37,9 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 18,
-        "raw": "\"M\"",
-        "value": "M"
-      }
+      "global": false
     }
   ],
   "sourceType": "script",

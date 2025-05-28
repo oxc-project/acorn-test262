@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 319,
       "end": 331,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -44,8 +45,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -64,7 +64,6 @@
             "start": 334,
             "end": 441,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -77,6 +76,12 @@
                   "type": "LabeledStatement",
                   "start": 346,
                   "end": 439,
+                  "label": {
+                    "type": "Identifier",
+                    "start": 346,
+                    "end": 349,
+                    "name": "FOR"
+                  },
                   "body": {
                     "type": "ForStatement",
                     "start": 352,
@@ -194,16 +199,11 @@
                         }
                       ]
                     }
-                  },
-                  "label": {
-                    "type": "Identifier",
-                    "start": 346,
-                    "end": 349,
-                    "name": "FOR"
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         },
         "arguments": [],

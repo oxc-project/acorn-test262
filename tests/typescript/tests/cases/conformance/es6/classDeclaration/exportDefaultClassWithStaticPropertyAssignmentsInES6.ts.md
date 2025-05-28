@@ -13,7 +13,12 @@ __ESTREE_TEST__:PASS:
         "type": "ClassDeclaration",
         "start": 15,
         "end": 54,
-        "abstract": false,
+        "decorators": [],
+        "id": null,
+        "typeParameters": null,
+        "superClass": null,
+        "superTypeArguments": null,
+        "implements": [],
         "body": {
           "type": "ClassBody",
           "start": 21,
@@ -23,11 +28,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 27,
               "end": 52,
-              "accessibility": null,
-              "computed": false,
-              "declare": false,
               "decorators": [],
-              "definite": false,
               "key": {
                 "type": "Identifier",
                 "start": 34,
@@ -37,10 +38,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
-              "override": false,
-              "readonly": false,
-              "static": true,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
                 "start": 35,
@@ -55,19 +52,22 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 46,
                 "end": 51,
-                "raw": "\"Foo\"",
-                "value": "Foo"
-              }
+                "value": "Foo",
+                "raw": "\"Foo\""
+              },
+              "computed": false,
+              "static": true,
+              "declare": false,
+              "override": false,
+              "optional": false,
+              "definite": false,
+              "readonly": false,
+              "accessibility": null
             }
           ]
         },
-        "declare": false,
-        "decorators": [],
-        "id": null,
-        "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": false
       },
       "exportKind": "value"
     }

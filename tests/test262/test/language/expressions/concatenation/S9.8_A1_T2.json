@@ -120,14 +120,14 @@
             "start": 503,
             "end": 509,
             "operator": "void",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 508,
               "end": 509,
               "value": 0,
               "raw": "0"
-            }
+            },
+            "prefix": true
           },
           "operator": "+",
           "right": {
@@ -192,14 +192,14 @@
                         "start": 606,
                         "end": 612,
                         "operator": "void",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 611,
                           "end": 612,
                           "value": 0,
                           "raw": "0"
-                        }
+                        },
+                        "prefix": true
                       },
                       "operator": "+",
                       "right": {

@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 21,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 20,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,30 +28,43 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 16,
             "end": 20,
-            "raw": "\"h1\"",
-            "value": "h1"
-          }
+            "value": "h1",
+            "raw": "\"h1\""
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 22,
       "end": 58,
-      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 22,
         "end": 58,
+        "openingElement": {
+          "type": "JSXOpeningElement",
+          "start": 22,
+          "end": 33,
+          "name": {
+            "type": "JSXIdentifier",
+            "start": 23,
+            "end": 32,
+            "name": "CustomTag"
+          },
+          "typeArguments": null,
+          "attributes": [],
+          "selfClosing": false
+        },
         "children": [
           {
             "type": "JSXText",
             "start": 33,
             "end": 46,
-            "raw": " Hello World ",
-            "value": " Hello World "
+            "value": " Hello World ",
+            "raw": " Hello World "
           }
         ],
         "closingElement": {
@@ -64,22 +77,9 @@ __ESTREE_TEST__:PASS:
             "end": 57,
             "name": "CustomTag"
           }
-        },
-        "openingElement": {
-          "type": "JSXOpeningElement",
-          "start": 22,
-          "end": 33,
-          "attributes": [],
-          "name": {
-            "type": "JSXIdentifier",
-            "start": 23,
-            "end": 32,
-            "name": "CustomTag"
-          },
-          "selfClosing": false,
-          "typeArguments": null
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

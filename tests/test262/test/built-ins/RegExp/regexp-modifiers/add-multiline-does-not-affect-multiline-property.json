@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1682,
       "end": 1700,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -30,8 +31,7 @@
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -53,7 +53,6 @@
             "start": 1708,
             "end": 1722,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 1709,
@@ -70,9 +69,10 @@
                 "end": 1722,
                 "name": "multiline"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -89,6 +89,7 @@
       "type": "VariableDeclaration",
       "start": 1778,
       "end": 1808,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -121,8 +122,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -144,7 +144,6 @@
             "start": 1816,
             "end": 1830,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 1817,
@@ -161,9 +160,10 @@
                 "end": 1830,
                 "name": "multiline"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -180,6 +180,7 @@
       "type": "VariableDeclaration",
       "start": 1886,
       "end": 1905,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -203,8 +204,7 @@
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -226,7 +226,6 @@
             "start": 1913,
             "end": 1927,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 1914,
@@ -243,9 +242,10 @@
                 "end": 1927,
                 "name": "multiline"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -262,6 +262,7 @@
       "type": "VariableDeclaration",
       "start": 1983,
       "end": 2014,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -294,8 +295,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -317,7 +317,6 @@
             "start": 2022,
             "end": 2036,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 2023,
@@ -334,9 +333,10 @@
                 "end": 2036,
                 "name": "multiline"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

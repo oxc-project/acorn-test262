@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 343,
       "end": 365,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -39,8 +40,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -52,7 +52,6 @@
         "end": 386,
         "name": "SwitchTest"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -72,6 +71,7 @@
             "type": "VariableDeclaration",
             "start": 397,
             "end": 412,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -91,8 +91,7 @@
                   "raw": "0"
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "SwitchStatement",
@@ -109,6 +108,13 @@
                 "type": "SwitchCase",
                 "start": 438,
                 "end": 464,
+                "test": {
+                  "type": "Literal",
+                  "start": 443,
+                  "end": 444,
+                  "value": 0,
+                  "raw": "0"
+                },
                 "consequent": [
                   {
                     "type": "ExpressionStatement",
@@ -134,19 +140,19 @@
                       }
                     }
                   }
-                ],
-                "test": {
-                  "type": "Literal",
-                  "start": 443,
-                  "end": 444,
-                  "value": 0,
-                  "raw": "0"
-                }
+                ]
               },
               {
                 "type": "SwitchCase",
                 "start": 469,
                 "end": 510,
+                "test": {
+                  "type": "Literal",
+                  "start": 474,
+                  "end": 477,
+                  "value": "1",
+                  "raw": "'1'"
+                },
                 "consequent": [
                   {
                     "type": "ExpressionStatement",
@@ -178,19 +184,32 @@
                     "end": 510,
                     "label": null
                   }
-                ],
-                "test": {
-                  "type": "Literal",
-                  "start": 474,
-                  "end": 477,
-                  "value": "1",
-                  "raw": "'1'"
-                }
+                ]
               },
               {
                 "type": "SwitchCase",
                 "start": 515,
                 "end": 553,
+                "test": {
+                  "type": "NewExpression",
+                  "start": 520,
+                  "end": 533,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 524,
+                    "end": 530,
+                    "name": "Number"
+                  },
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 531,
+                      "end": 532,
+                      "value": 2,
+                      "raw": "2"
+                    }
+                  ]
+                },
                 "consequent": [
                   {
                     "type": "ExpressionStatement",
@@ -216,32 +235,19 @@
                       }
                     }
                   }
-                ],
-                "test": {
-                  "type": "NewExpression",
-                  "start": 520,
-                  "end": 533,
-                  "callee": {
-                    "type": "Identifier",
-                    "start": 524,
-                    "end": 530,
-                    "name": "Number"
-                  },
-                  "arguments": [
-                    {
-                      "type": "Literal",
-                      "start": 531,
-                      "end": 532,
-                      "value": 2,
-                      "raw": "2"
-                    }
-                  ]
-                }
+                ]
               },
               {
                 "type": "SwitchCase",
                 "start": 558,
                 "end": 585,
+                "test": {
+                  "type": "Literal",
+                  "start": 563,
+                  "end": 564,
+                  "value": 3,
+                  "raw": "3"
+                },
                 "consequent": [
                   {
                     "type": "ExpressionStatement",
@@ -267,19 +273,13 @@
                       }
                     }
                   }
-                ],
-                "test": {
-                  "type": "Literal",
-                  "start": 563,
-                  "end": 564,
-                  "value": 3,
-                  "raw": "3"
-                }
+                ]
               },
               {
                 "type": "SwitchCase",
                 "start": 590,
                 "end": 631,
+                "test": null,
                 "consequent": [
                   {
                     "type": "ExpressionStatement",
@@ -311,13 +311,19 @@
                     "end": 631,
                     "label": null
                   }
-                ],
-                "test": null
+                ]
               },
               {
                 "type": "SwitchCase",
                 "start": 636,
                 "end": 676,
+                "test": {
+                  "type": "Literal",
+                  "start": 641,
+                  "end": 642,
+                  "value": 4,
+                  "raw": "4"
+                },
                 "consequent": [
                   {
                     "type": "ExpressionStatement",
@@ -349,19 +355,18 @@
                     "end": 676,
                     "label": null
                   }
-                ],
-                "test": {
-                  "type": "Literal",
-                  "start": 641,
-                  "end": 642,
-                  "value": 4,
-                  "raw": "4"
-                }
+                ]
               },
               {
                 "type": "SwitchCase",
                 "start": 681,
                 "end": 722,
+                "test": {
+                  "type": "Identifier",
+                  "start": 686,
+                  "end": 687,
+                  "name": "x"
+                },
                 "consequent": [
                   {
                     "type": "ExpressionStatement",
@@ -393,18 +398,19 @@
                     "end": 722,
                     "label": null
                   }
-                ],
-                "test": {
-                  "type": "Identifier",
-                  "start": 686,
-                  "end": 687,
-                  "name": "x"
-                }
+                ]
               },
               {
                 "type": "SwitchCase",
                 "start": 727,
                 "end": 755,
+                "test": {
+                  "type": "Literal",
+                  "start": 732,
+                  "end": 733,
+                  "value": 0,
+                  "raw": "0"
+                },
                 "consequent": [
                   {
                     "type": "ExpressionStatement",
@@ -430,19 +436,19 @@
                       }
                     }
                   }
-                ],
-                "test": {
-                  "type": "Literal",
-                  "start": 732,
-                  "end": 733,
-                  "value": 0,
-                  "raw": "0"
-                }
+                ]
               },
               {
                 "type": "SwitchCase",
                 "start": 760,
                 "end": 788,
+                "test": {
+                  "type": "Literal",
+                  "start": 765,
+                  "end": 766,
+                  "value": 1,
+                  "raw": "1"
+                },
                 "consequent": [
                   {
                     "type": "ExpressionStatement",
@@ -468,14 +474,7 @@
                       }
                     }
                   }
-                ],
-                "test": {
-                  "type": "Literal",
-                  "start": 765,
-                  "end": 766,
-                  "value": 1,
-                  "raw": "1"
-                }
+                ]
               }
             ]
           },
@@ -491,7 +490,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "IfStatement",
@@ -502,7 +502,6 @@
         "start": 827,
         "end": 849,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 828,
@@ -541,7 +540,8 @@
               "raw": "6"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -613,7 +613,6 @@
         "start": 956,
         "end": 980,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 957,
@@ -652,7 +651,8 @@
               "raw": "512"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -724,7 +724,6 @@
         "start": 1089,
         "end": 1112,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 1090,
@@ -763,7 +762,8 @@
               "raw": "32"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -835,7 +835,6 @@
         "start": 1220,
         "end": 1243,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 1221,
@@ -874,7 +873,8 @@
               "raw": "48"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -946,7 +946,6 @@
         "start": 1351,
         "end": 1374,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 1352,
@@ -985,7 +984,8 @@
               "raw": "64"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -1057,7 +1057,6 @@
         "start": 1482,
         "end": 1508,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 1483,
@@ -1096,7 +1095,8 @@
               "raw": "32"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -1168,7 +1168,6 @@
         "start": 1625,
         "end": 1652,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 1626,
@@ -1207,7 +1206,8 @@
               "raw": "32"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -1279,7 +1279,6 @@
         "start": 1772,
         "end": 1798,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 1773,
@@ -1318,7 +1317,8 @@
               "raw": "32"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -1390,7 +1390,6 @@
         "start": 1915,
         "end": 1943,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 1916,
@@ -1415,14 +1414,14 @@
                   "start": 1928,
                   "end": 1934,
                   "operator": "void",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1933,
                     "end": 1934,
                     "value": 0,
                     "raw": "0"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -1436,7 +1435,8 @@
               "raw": "32"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -1486,14 +1486,14 @@
                         "start": 2048,
                         "end": 2054,
                         "operator": "void",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 2053,
                           "end": 2054,
                           "value": 0,
                           "raw": "0"
-                        }
+                        },
+                        "prefix": true
                       }
                     ],
                     "optional": false
@@ -1515,7 +1515,6 @@
         "start": 2066,
         "end": 2091,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 2067,
@@ -1554,7 +1553,8 @@
               "raw": "32"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -1626,7 +1626,6 @@
         "start": 2206,
         "end": 2230,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 2207,
@@ -1664,7 +1663,8 @@
               "raw": "128"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",

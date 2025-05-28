@@ -13,7 +13,6 @@
         "end": 1638,
         "name": "doNotCall"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -48,7 +47,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ClassDeclaration",
@@ -70,21 +70,17 @@
             "type": "MethodDefinition",
             "start": 1731,
             "end": 1763,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 1735,
               "end": 1741,
               "name": "field"
             },
-            "kind": "get",
             "value": {
               "type": "FunctionExpression",
               "start": 1741,
               "end": 1763,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -106,28 +102,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "get",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 1766,
             "end": 1832,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1766,
               "end": 1784,
               "name": "compoundAssignment"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 1784,
               "end": 1832,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -160,8 +156,8 @@
                           "end": 1811,
                           "name": "field"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "right": {
                         "type": "CallExpression",
@@ -179,8 +175,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -189,6 +189,7 @@
       "type": "VariableDeclaration",
       "start": 1836,
       "end": 1854,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -213,8 +214,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -240,8 +240,8 @@
             "end": 1871,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -264,8 +264,8 @@
                 "end": 1892,
                 "name": "compoundAssignment"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false

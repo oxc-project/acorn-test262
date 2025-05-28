@@ -9,17 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 32,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 32,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 11,
             "end": 31,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 11,
@@ -38,7 +37,7 @@ __ESTREE_TEST__:PASS:
                   "type": "Property",
                   "start": 18,
                   "end": 30,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 18,
@@ -48,39 +47,40 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "kind": "init",
-                  "method": false,
-                  "optional": false,
-                  "shorthand": false,
                   "value": {
                     "type": "Literal",
                     "start": 24,
                     "end": 30,
-                    "raw": "\"Bill\"",
-                    "value": "Bill"
-                  }
+                    "value": "Bill",
+                    "raw": "\"Bill\""
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "optional": false
                 }
               ]
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "VariableDeclaration",
       "start": 33,
       "end": 68,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 37,
           "end": 67,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 37,
@@ -94,17 +94,14 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 45,
             "end": 67,
-            "arguments": [],
             "callee": {
               "type": "MemberExpression",
               "start": 45,
               "end": 65,
-              "computed": false,
               "object": {
                 "type": "MemberExpression",
                 "start": 45,
                 "end": 53,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 45,
@@ -114,7 +111,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 49,
@@ -123,9 +119,10 @@ __ESTREE_TEST__:PASS:
                   "name": "name",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 54,
@@ -134,15 +131,18 @@ __ESTREE_TEST__:PASS:
                 "name": "toUpperCase",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "module",

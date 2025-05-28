@@ -112,7 +112,6 @@
                                                                                   "start": 1300,
                                                                                   "end": 1330,
                                                                                   "id": null,
-                                                                                  "expression": false,
                                                                                   "generator": false,
                                                                                   "async": false,
                                                                                   "params": [
@@ -161,7 +160,8 @@
                                                                                         }
                                                                                       }
                                                                                     ]
-                                                                                  }
+                                                                                  },
+                                                                                  "expression": false
                                                                                 }
                                                                               ]
                                                                             }

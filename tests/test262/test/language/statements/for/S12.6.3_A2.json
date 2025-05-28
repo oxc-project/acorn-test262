@@ -29,7 +29,6 @@
                   "start": 467,
                   "end": 502,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -51,7 +50,8 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 }
               },
               "arguments": [],
@@ -70,7 +70,6 @@
                   "start": 508,
                   "end": 544,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -92,7 +91,8 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 }
               },
               "arguments": [],
@@ -111,7 +111,6 @@
                   "start": 550,
                   "end": 587,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -133,7 +132,8 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 }
               },
               "arguments": [],
@@ -148,6 +148,7 @@
                   "type": "VariableDeclaration",
                   "start": 596,
                   "end": 619,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -167,8 +168,7 @@
                         "raw": "\"reached\""
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 }
               ]
             }

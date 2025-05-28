@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 45,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 45,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -35,13 +35,10 @@ __ESTREE_TEST__:PASS:
                     "type": "TSMethodSignature",
                     "start": 13,
                     "end": 43,
-                    "accessibility": null,
-                    "computed": true,
                     "key": {
                       "type": "MemberExpression",
                       "start": 14,
                       "end": 32,
-                      "computed": false,
                       "object": {
                         "type": "Identifier",
                         "start": 14,
@@ -51,7 +48,6 @@ __ESTREE_TEST__:PASS:
                         "optional": false,
                         "typeAnnotation": null
                       },
-                      "optional": false,
                       "property": {
                         "type": "Identifier",
                         "start": 21,
@@ -60,12 +56,15 @@ __ESTREE_TEST__:PASS:
                         "name": "toPrimitive",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "optional": false,
+                      "computed": false
                     },
-                    "kind": "method",
+                    "computed": true,
                     "optional": false,
+                    "kind": "method",
+                    "typeParameters": null,
                     "params": [],
-                    "readonly": false,
                     "returnType": {
                       "type": "TSTypeAnnotation",
                       "start": 35,
@@ -76,18 +75,19 @@ __ESTREE_TEST__:PASS:
                         "end": 43
                       }
                     },
-                    "static": false,
-                    "typeParameters": null
+                    "accessibility": null,
+                    "readonly": false,
+                    "static": false
                   }
                 ]
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

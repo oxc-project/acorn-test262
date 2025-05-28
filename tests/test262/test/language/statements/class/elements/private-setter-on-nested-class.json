@@ -23,21 +23,17 @@
             "type": "MethodDefinition",
             "start": 888,
             "end": 914,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 892,
               "end": 894,
               "name": "m"
             },
-            "kind": "set",
             "value": {
               "type": "FunctionExpression",
               "start": 894,
               "end": 914,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -77,8 +73,8 @@
                           "end": 907,
                           "name": "_v"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "right": {
                         "type": "Identifier",
@@ -89,15 +85,17 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "set",
+            "computed": false,
+            "static": false
           },
           {
             "type": "PropertyDefinition",
             "start": 918,
             "end": 974,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 918,
@@ -119,21 +117,17 @@
                     "type": "MethodDefinition",
                     "start": 934,
                     "end": 970,
-                    "static": false,
-                    "computed": false,
                     "key": {
                       "type": "Identifier",
                       "start": 934,
                       "end": 940,
                       "name": "method"
                     },
-                    "kind": "method",
                     "value": {
                       "type": "FunctionExpression",
                       "start": 940,
                       "end": 970,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [
@@ -180,8 +174,8 @@
                                   "end": 959,
                                   "name": "m"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "right": {
                                 "type": "Identifier",
@@ -192,12 +186,18 @@
                             }
                           }
                         ]
-                      }
-                    }
+                      },
+                      "expression": false
+                    },
+                    "kind": "method",
+                    "computed": false,
+                    "static": false
                   }
                 ]
               }
-            }
+            },
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -206,6 +206,7 @@
       "type": "VariableDeclaration",
       "start": 978,
       "end": 994,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -230,13 +231,13 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 995,
       "end": 1018,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -268,14 +269,13 @@
                 "end": 1015,
                 "name": "B"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": []
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -301,8 +301,8 @@
             "end": 1032,
             "name": "method"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -346,8 +346,8 @@
             "end": 1064,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -366,8 +366,8 @@
               "end": 1069,
               "name": "_v"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

@@ -124,14 +124,14 @@
                   "start": 453,
                   "end": 455,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 454,
                     "end": 455,
                     "value": 1,
                     "raw": "1"
-                  }
+                  },
+                  "prefix": true
                 }
               ]
             },

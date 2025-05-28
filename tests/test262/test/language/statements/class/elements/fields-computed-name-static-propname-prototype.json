@@ -27,8 +27,8 @@
             "end": 754,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 766,
             "end": 827,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -71,8 +70,6 @@
                         "type": "PropertyDefinition",
                         "start": 795,
                         "end": 821,
-                        "static": true,
-                        "computed": true,
                         "key": {
                           "type": "Literal",
                           "start": 803,
@@ -86,13 +83,16 @@
                           "end": 820,
                           "value": 42,
                           "raw": "42"
-                        }
+                        },
+                        "computed": true,
+                        "static": true
                       }
                     ]
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -122,8 +122,8 @@
             "end": 844,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -137,7 +137,6 @@
             "start": 856,
             "end": 912,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -166,8 +165,6 @@
                         "type": "PropertyDefinition",
                         "start": 885,
                         "end": 906,
-                        "static": true,
-                        "computed": true,
                         "key": {
                           "type": "Literal",
                           "start": 893,
@@ -175,13 +172,16 @@
                           "value": "prototype",
                           "raw": "'prototype'"
                         },
-                        "value": null
+                        "value": null,
+                        "computed": true,
+                        "static": true
                       }
                     ]
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

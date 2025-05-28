@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 301,
       "end": 307,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -32,7 +32,6 @@
         "start": 392,
         "end": 410,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 393,
@@ -55,7 +54,8 @@
               "name": "undefined"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -117,7 +117,6 @@
         "start": 643,
         "end": 671,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 644,
@@ -131,7 +130,6 @@
               "start": 645,
               "end": 654,
               "operator": "typeof",
-              "prefix": true,
               "argument": {
                 "type": "ParenthesizedExpression",
                 "start": 651,
@@ -142,7 +140,8 @@
                   "end": 653,
                   "name": "x"
                 }
-              }
+              },
+              "prefix": true
             },
             "operator": "===",
             "right": {
@@ -153,7 +152,8 @@
               "raw": "\"undefined\""
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -196,7 +196,6 @@
                       "start": 752,
                       "end": 761,
                       "operator": "typeof",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 758,
@@ -207,7 +206,8 @@
                           "end": 760,
                           "name": "x"
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -227,7 +227,6 @@
         "start": 922,
         "end": 937,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 923,
@@ -248,17 +247,18 @@
               "start": 930,
               "end": 936,
               "operator": "void",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 935,
                 "end": 936,
                 "value": 0,
                 "raw": "0"
-              }
+              },
+              "prefix": true
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",

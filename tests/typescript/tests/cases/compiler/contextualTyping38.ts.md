@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 53,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 52,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,11 +28,51 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeAssertion",
             "start": 10,
             "end": 52,
+            "typeAnnotation": {
+              "type": "TSTypeLiteral",
+              "start": 11,
+              "end": 26,
+              "members": [
+                {
+                  "type": "TSCallSignatureDeclaration",
+                  "start": 13,
+                  "end": 24,
+                  "typeParameters": null,
+                  "params": [],
+                  "returnType": {
+                    "type": "TSTypeAnnotation",
+                    "start": 15,
+                    "end": 23,
+                    "typeAnnotation": {
+                      "type": "TSNumberKeyword",
+                      "start": 17,
+                      "end": 23
+                    }
+                  }
+                }
+              ]
+            },
             "expression": {
               "type": "FunctionExpression",
               "start": 28,
               "end": 52,
+              "id": null,
+              "generator": false,
               "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [
+                {
+                  "type": "Identifier",
+                  "start": 37,
+                  "end": 38,
+                  "decorators": [],
+                  "name": "a",
+                  "optional": false,
+                  "typeAnnotation": null
+                }
+              ],
+              "returnType": null,
               "body": {
                 "type": "BlockStatement",
                 "start": 40,
@@ -54,53 +94,13 @@ __ESTREE_TEST__:PASS:
                   }
                 ]
               },
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [
-                {
-                  "type": "Identifier",
-                  "start": 37,
-                  "end": 38,
-                  "decorators": [],
-                  "name": "a",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              ],
-              "returnType": null,
-              "typeParameters": null
-            },
-            "typeAnnotation": {
-              "type": "TSTypeLiteral",
-              "start": 11,
-              "end": 26,
-              "members": [
-                {
-                  "type": "TSCallSignatureDeclaration",
-                  "start": 13,
-                  "end": 24,
-                  "params": [],
-                  "returnType": {
-                    "type": "TSTypeAnnotation",
-                    "start": 15,
-                    "end": 23,
-                    "typeAnnotation": {
-                      "type": "TSNumberKeyword",
-                      "start": 17,
-                      "end": 23
-                    }
-                  },
-                  "typeParameters": null
-                }
-              ]
+              "expression": false
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

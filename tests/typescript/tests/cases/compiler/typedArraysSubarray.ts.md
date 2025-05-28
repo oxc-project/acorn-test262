@@ -9,7 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 131,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 26,
+        "decorators": [],
+        "name": "int8ArraySubarray",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 29,
@@ -19,12 +33,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 35,
             "end": 63,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 39,
                 "end": 62,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 39,
@@ -38,15 +52,6 @@ __ESTREE_TEST__:PASS:
                   "type": "NewExpression",
                   "start": 45,
                   "end": 62,
-                  "arguments": [
-                    {
-                      "type": "Literal",
-                      "start": 59,
-                      "end": 61,
-                      "raw": "10",
-                      "value": 10
-                    }
-                  ],
                   "callee": {
                     "type": "Identifier",
                     "start": 49,
@@ -56,28 +61,34 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "typeArguments": null
-                }
+                  "typeArguments": null,
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 59,
+                      "end": 61,
+                      "value": 10,
+                      "raw": "10"
+                    }
+                  ]
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           },
           {
             "type": "ExpressionStatement",
             "start": 68,
             "end": 83,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 68,
               "end": 82,
-              "arguments": [],
               "callee": {
                 "type": "MemberExpression",
                 "start": 68,
                 "end": 80,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 68,
@@ -87,7 +98,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 72,
@@ -96,35 +106,28 @@ __ESTREE_TEST__:PASS:
                   "name": "subarray",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [],
+              "optional": false
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 88,
             "end": 104,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 88,
               "end": 103,
-              "arguments": [
-                {
-                  "type": "Literal",
-                  "start": 101,
-                  "end": 102,
-                  "raw": "0",
-                  "value": 0
-                }
-              ],
               "callee": {
                 "type": "MemberExpression",
                 "start": 88,
                 "end": 100,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 88,
@@ -134,7 +137,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 92,
@@ -143,42 +145,36 @@ __ESTREE_TEST__:PASS:
                   "name": "subarray",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 101,
+                  "end": 102,
+                  "value": 0,
+                  "raw": "0"
+                }
+              ],
+              "optional": false
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 109,
             "end": 129,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 109,
               "end": 128,
-              "arguments": [
-                {
-                  "type": "Literal",
-                  "start": 122,
-                  "end": 123,
-                  "raw": "0",
-                  "value": 0
-                },
-                {
-                  "type": "Literal",
-                  "start": 125,
-                  "end": 127,
-                  "raw": "10",
-                  "value": 10
-                }
-              ],
               "callee": {
                 "type": "MemberExpression",
                 "start": 109,
                 "end": 121,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 109,
@@ -188,7 +184,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 113,
@@ -197,35 +192,54 @@ __ESTREE_TEST__:PASS:
                   "name": "subarray",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 122,
+                  "end": 123,
+                  "value": 0,
+                  "raw": "0"
+                },
+                {
+                  "type": "Literal",
+                  "start": 125,
+                  "end": 127,
+                  "value": 10,
+                  "raw": "10"
+                }
+              ],
+              "optional": false
+            },
+            "directive": null
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 26,
-        "decorators": [],
-        "name": "int8ArraySubarray",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 133,
       "end": 266,
+      "id": {
+        "type": "Identifier",
+        "start": 142,
+        "end": 160,
+        "decorators": [],
+        "name": "uint8ArraySubarray",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 163,
@@ -235,12 +249,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 169,
             "end": 198,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 173,
                 "end": 197,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 173,
@@ -254,15 +268,6 @@ __ESTREE_TEST__:PASS:
                   "type": "NewExpression",
                   "start": 179,
                   "end": 197,
-                  "arguments": [
-                    {
-                      "type": "Literal",
-                      "start": 194,
-                      "end": 196,
-                      "raw": "10",
-                      "value": 10
-                    }
-                  ],
                   "callee": {
                     "type": "Identifier",
                     "start": 183,
@@ -272,28 +277,34 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "typeArguments": null
-                }
+                  "typeArguments": null,
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 194,
+                      "end": 196,
+                      "value": 10,
+                      "raw": "10"
+                    }
+                  ]
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           },
           {
             "type": "ExpressionStatement",
             "start": 203,
             "end": 218,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 203,
               "end": 217,
-              "arguments": [],
               "callee": {
                 "type": "MemberExpression",
                 "start": 203,
                 "end": 215,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 203,
@@ -303,7 +314,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 207,
@@ -312,35 +322,28 @@ __ESTREE_TEST__:PASS:
                   "name": "subarray",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [],
+              "optional": false
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 223,
             "end": 239,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 223,
               "end": 238,
-              "arguments": [
-                {
-                  "type": "Literal",
-                  "start": 236,
-                  "end": 237,
-                  "raw": "0",
-                  "value": 0
-                }
-              ],
               "callee": {
                 "type": "MemberExpression",
                 "start": 223,
                 "end": 235,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 223,
@@ -350,7 +353,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 227,
@@ -359,42 +361,36 @@ __ESTREE_TEST__:PASS:
                   "name": "subarray",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 236,
+                  "end": 237,
+                  "value": 0,
+                  "raw": "0"
+                }
+              ],
+              "optional": false
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 244,
             "end": 264,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 244,
               "end": 263,
-              "arguments": [
-                {
-                  "type": "Literal",
-                  "start": 257,
-                  "end": 258,
-                  "raw": "0",
-                  "value": 0
-                },
-                {
-                  "type": "Literal",
-                  "start": 260,
-                  "end": 262,
-                  "raw": "10",
-                  "value": 10
-                }
-              ],
               "callee": {
                 "type": "MemberExpression",
                 "start": 244,
                 "end": 256,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 244,
@@ -404,7 +400,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 248,
@@ -413,35 +408,54 @@ __ESTREE_TEST__:PASS:
                   "name": "subarray",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 257,
+                  "end": 258,
+                  "value": 0,
+                  "raw": "0"
+                },
+                {
+                  "type": "Literal",
+                  "start": 260,
+                  "end": 262,
+                  "value": 10,
+                  "raw": "10"
+                }
+              ],
+              "optional": false
+            },
+            "directive": null
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 142,
-        "end": 160,
-        "decorators": [],
-        "name": "uint8ArraySubarray",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 268,
       "end": 415,
+      "id": {
+        "type": "Identifier",
+        "start": 277,
+        "end": 302,
+        "decorators": [],
+        "name": "uint8ClampedArraySubarray",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 305,
@@ -451,12 +465,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 311,
             "end": 347,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 315,
                 "end": 346,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 315,
@@ -470,15 +484,6 @@ __ESTREE_TEST__:PASS:
                   "type": "NewExpression",
                   "start": 321,
                   "end": 346,
-                  "arguments": [
-                    {
-                      "type": "Literal",
-                      "start": 343,
-                      "end": 345,
-                      "raw": "10",
-                      "value": 10
-                    }
-                  ],
                   "callee": {
                     "type": "Identifier",
                     "start": 325,
@@ -488,28 +493,34 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "typeArguments": null
-                }
+                  "typeArguments": null,
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 343,
+                      "end": 345,
+                      "value": 10,
+                      "raw": "10"
+                    }
+                  ]
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           },
           {
             "type": "ExpressionStatement",
             "start": 352,
             "end": 367,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 352,
               "end": 366,
-              "arguments": [],
               "callee": {
                 "type": "MemberExpression",
                 "start": 352,
                 "end": 364,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 352,
@@ -519,7 +530,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 356,
@@ -528,35 +538,28 @@ __ESTREE_TEST__:PASS:
                   "name": "subarray",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [],
+              "optional": false
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 372,
             "end": 388,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 372,
               "end": 387,
-              "arguments": [
-                {
-                  "type": "Literal",
-                  "start": 385,
-                  "end": 386,
-                  "raw": "0",
-                  "value": 0
-                }
-              ],
               "callee": {
                 "type": "MemberExpression",
                 "start": 372,
                 "end": 384,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 372,
@@ -566,7 +569,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 376,
@@ -575,42 +577,36 @@ __ESTREE_TEST__:PASS:
                   "name": "subarray",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 385,
+                  "end": 386,
+                  "value": 0,
+                  "raw": "0"
+                }
+              ],
+              "optional": false
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 393,
             "end": 413,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 393,
               "end": 412,
-              "arguments": [
-                {
-                  "type": "Literal",
-                  "start": 406,
-                  "end": 407,
-                  "raw": "0",
-                  "value": 0
-                },
-                {
-                  "type": "Literal",
-                  "start": 409,
-                  "end": 411,
-                  "raw": "10",
-                  "value": 10
-                }
-              ],
               "callee": {
                 "type": "MemberExpression",
                 "start": 393,
                 "end": 405,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 393,
@@ -620,7 +616,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 397,
@@ -629,35 +624,54 @@ __ESTREE_TEST__:PASS:
                   "name": "subarray",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 406,
+                  "end": 407,
+                  "value": 0,
+                  "raw": "0"
+                },
+                {
+                  "type": "Literal",
+                  "start": 409,
+                  "end": 411,
+                  "value": 10,
+                  "raw": "10"
+                }
+              ],
+              "optional": false
+            },
+            "directive": null
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 277,
-        "end": 302,
-        "decorators": [],
-        "name": "uint8ClampedArraySubarray",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 417,
       "end": 550,
+      "id": {
+        "type": "Identifier",
+        "start": 426,
+        "end": 444,
+        "decorators": [],
+        "name": "int16ArraySubarray",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 447,
@@ -667,12 +681,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 453,
             "end": 482,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 457,
                 "end": 481,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 457,
@@ -686,15 +700,6 @@ __ESTREE_TEST__:PASS:
                   "type": "NewExpression",
                   "start": 463,
                   "end": 481,
-                  "arguments": [
-                    {
-                      "type": "Literal",
-                      "start": 478,
-                      "end": 480,
-                      "raw": "10",
-                      "value": 10
-                    }
-                  ],
                   "callee": {
                     "type": "Identifier",
                     "start": 467,
@@ -704,28 +709,34 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "typeArguments": null
-                }
+                  "typeArguments": null,
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 478,
+                      "end": 480,
+                      "value": 10,
+                      "raw": "10"
+                    }
+                  ]
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           },
           {
             "type": "ExpressionStatement",
             "start": 487,
             "end": 502,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 487,
               "end": 501,
-              "arguments": [],
               "callee": {
                 "type": "MemberExpression",
                 "start": 487,
                 "end": 499,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 487,
@@ -735,7 +746,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 491,
@@ -744,35 +754,28 @@ __ESTREE_TEST__:PASS:
                   "name": "subarray",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [],
+              "optional": false
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 507,
             "end": 523,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 507,
               "end": 522,
-              "arguments": [
-                {
-                  "type": "Literal",
-                  "start": 520,
-                  "end": 521,
-                  "raw": "0",
-                  "value": 0
-                }
-              ],
               "callee": {
                 "type": "MemberExpression",
                 "start": 507,
                 "end": 519,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 507,
@@ -782,7 +785,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 511,
@@ -791,42 +793,36 @@ __ESTREE_TEST__:PASS:
                   "name": "subarray",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 520,
+                  "end": 521,
+                  "value": 0,
+                  "raw": "0"
+                }
+              ],
+              "optional": false
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 528,
             "end": 548,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 528,
               "end": 547,
-              "arguments": [
-                {
-                  "type": "Literal",
-                  "start": 541,
-                  "end": 542,
-                  "raw": "0",
-                  "value": 0
-                },
-                {
-                  "type": "Literal",
-                  "start": 544,
-                  "end": 546,
-                  "raw": "10",
-                  "value": 10
-                }
-              ],
               "callee": {
                 "type": "MemberExpression",
                 "start": 528,
                 "end": 540,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 528,
@@ -836,7 +832,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 532,
@@ -845,35 +840,54 @@ __ESTREE_TEST__:PASS:
                   "name": "subarray",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 541,
+                  "end": 542,
+                  "value": 0,
+                  "raw": "0"
+                },
+                {
+                  "type": "Literal",
+                  "start": 544,
+                  "end": 546,
+                  "value": 10,
+                  "raw": "10"
+                }
+              ],
+              "optional": false
+            },
+            "directive": null
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 426,
-        "end": 444,
-        "decorators": [],
-        "name": "int16ArraySubarray",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 552,
       "end": 687,
+      "id": {
+        "type": "Identifier",
+        "start": 561,
+        "end": 580,
+        "decorators": [],
+        "name": "uint16ArraySubarray",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 583,
@@ -883,12 +897,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 589,
             "end": 619,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 593,
                 "end": 618,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 593,
@@ -902,15 +916,6 @@ __ESTREE_TEST__:PASS:
                   "type": "NewExpression",
                   "start": 599,
                   "end": 618,
-                  "arguments": [
-                    {
-                      "type": "Literal",
-                      "start": 615,
-                      "end": 617,
-                      "raw": "10",
-                      "value": 10
-                    }
-                  ],
                   "callee": {
                     "type": "Identifier",
                     "start": 603,
@@ -920,28 +925,34 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "typeArguments": null
-                }
+                  "typeArguments": null,
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 615,
+                      "end": 617,
+                      "value": 10,
+                      "raw": "10"
+                    }
+                  ]
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           },
           {
             "type": "ExpressionStatement",
             "start": 624,
             "end": 639,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 624,
               "end": 638,
-              "arguments": [],
               "callee": {
                 "type": "MemberExpression",
                 "start": 624,
                 "end": 636,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 624,
@@ -951,7 +962,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 628,
@@ -960,35 +970,28 @@ __ESTREE_TEST__:PASS:
                   "name": "subarray",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [],
+              "optional": false
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 644,
             "end": 660,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 644,
               "end": 659,
-              "arguments": [
-                {
-                  "type": "Literal",
-                  "start": 657,
-                  "end": 658,
-                  "raw": "0",
-                  "value": 0
-                }
-              ],
               "callee": {
                 "type": "MemberExpression",
                 "start": 644,
                 "end": 656,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 644,
@@ -998,7 +1001,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 648,
@@ -1007,42 +1009,36 @@ __ESTREE_TEST__:PASS:
                   "name": "subarray",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 657,
+                  "end": 658,
+                  "value": 0,
+                  "raw": "0"
+                }
+              ],
+              "optional": false
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 665,
             "end": 685,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 665,
               "end": 684,
-              "arguments": [
-                {
-                  "type": "Literal",
-                  "start": 678,
-                  "end": 679,
-                  "raw": "0",
-                  "value": 0
-                },
-                {
-                  "type": "Literal",
-                  "start": 681,
-                  "end": 683,
-                  "raw": "10",
-                  "value": 10
-                }
-              ],
               "callee": {
                 "type": "MemberExpression",
                 "start": 665,
                 "end": 677,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 665,
@@ -1052,7 +1048,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 669,
@@ -1061,35 +1056,54 @@ __ESTREE_TEST__:PASS:
                   "name": "subarray",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 678,
+                  "end": 679,
+                  "value": 0,
+                  "raw": "0"
+                },
+                {
+                  "type": "Literal",
+                  "start": 681,
+                  "end": 683,
+                  "value": 10,
+                  "raw": "10"
+                }
+              ],
+              "optional": false
+            },
+            "directive": null
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 561,
-        "end": 580,
-        "decorators": [],
-        "name": "uint16ArraySubarray",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 689,
       "end": 822,
+      "id": {
+        "type": "Identifier",
+        "start": 698,
+        "end": 716,
+        "decorators": [],
+        "name": "int32ArraySubarray",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 719,
@@ -1099,12 +1113,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 725,
             "end": 754,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 729,
                 "end": 753,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 729,
@@ -1118,15 +1132,6 @@ __ESTREE_TEST__:PASS:
                   "type": "NewExpression",
                   "start": 735,
                   "end": 753,
-                  "arguments": [
-                    {
-                      "type": "Literal",
-                      "start": 750,
-                      "end": 752,
-                      "raw": "10",
-                      "value": 10
-                    }
-                  ],
                   "callee": {
                     "type": "Identifier",
                     "start": 739,
@@ -1136,28 +1141,34 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "typeArguments": null
-                }
+                  "typeArguments": null,
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 750,
+                      "end": 752,
+                      "value": 10,
+                      "raw": "10"
+                    }
+                  ]
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           },
           {
             "type": "ExpressionStatement",
             "start": 759,
             "end": 774,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 759,
               "end": 773,
-              "arguments": [],
               "callee": {
                 "type": "MemberExpression",
                 "start": 759,
                 "end": 771,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 759,
@@ -1167,7 +1178,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 763,
@@ -1176,35 +1186,28 @@ __ESTREE_TEST__:PASS:
                   "name": "subarray",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [],
+              "optional": false
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 779,
             "end": 795,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 779,
               "end": 794,
-              "arguments": [
-                {
-                  "type": "Literal",
-                  "start": 792,
-                  "end": 793,
-                  "raw": "0",
-                  "value": 0
-                }
-              ],
               "callee": {
                 "type": "MemberExpression",
                 "start": 779,
                 "end": 791,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 779,
@@ -1214,7 +1217,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 783,
@@ -1223,42 +1225,36 @@ __ESTREE_TEST__:PASS:
                   "name": "subarray",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 792,
+                  "end": 793,
+                  "value": 0,
+                  "raw": "0"
+                }
+              ],
+              "optional": false
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 800,
             "end": 820,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 800,
               "end": 819,
-              "arguments": [
-                {
-                  "type": "Literal",
-                  "start": 813,
-                  "end": 814,
-                  "raw": "0",
-                  "value": 0
-                },
-                {
-                  "type": "Literal",
-                  "start": 816,
-                  "end": 818,
-                  "raw": "10",
-                  "value": 10
-                }
-              ],
               "callee": {
                 "type": "MemberExpression",
                 "start": 800,
                 "end": 812,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 800,
@@ -1268,7 +1264,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 804,
@@ -1277,35 +1272,54 @@ __ESTREE_TEST__:PASS:
                   "name": "subarray",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 813,
+                  "end": 814,
+                  "value": 0,
+                  "raw": "0"
+                },
+                {
+                  "type": "Literal",
+                  "start": 816,
+                  "end": 818,
+                  "value": 10,
+                  "raw": "10"
+                }
+              ],
+              "optional": false
+            },
+            "directive": null
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 698,
-        "end": 716,
-        "decorators": [],
-        "name": "int32ArraySubarray",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 824,
       "end": 959,
+      "id": {
+        "type": "Identifier",
+        "start": 833,
+        "end": 852,
+        "decorators": [],
+        "name": "uint32ArraySubarray",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 855,
@@ -1315,12 +1329,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 861,
             "end": 891,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 865,
                 "end": 890,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 865,
@@ -1334,15 +1348,6 @@ __ESTREE_TEST__:PASS:
                   "type": "NewExpression",
                   "start": 871,
                   "end": 890,
-                  "arguments": [
-                    {
-                      "type": "Literal",
-                      "start": 887,
-                      "end": 889,
-                      "raw": "10",
-                      "value": 10
-                    }
-                  ],
                   "callee": {
                     "type": "Identifier",
                     "start": 875,
@@ -1352,28 +1357,34 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "typeArguments": null
-                }
+                  "typeArguments": null,
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 887,
+                      "end": 889,
+                      "value": 10,
+                      "raw": "10"
+                    }
+                  ]
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           },
           {
             "type": "ExpressionStatement",
             "start": 896,
             "end": 911,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 896,
               "end": 910,
-              "arguments": [],
               "callee": {
                 "type": "MemberExpression",
                 "start": 896,
                 "end": 908,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 896,
@@ -1383,7 +1394,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 900,
@@ -1392,35 +1402,28 @@ __ESTREE_TEST__:PASS:
                   "name": "subarray",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [],
+              "optional": false
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 916,
             "end": 932,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 916,
               "end": 931,
-              "arguments": [
-                {
-                  "type": "Literal",
-                  "start": 929,
-                  "end": 930,
-                  "raw": "0",
-                  "value": 0
-                }
-              ],
               "callee": {
                 "type": "MemberExpression",
                 "start": 916,
                 "end": 928,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 916,
@@ -1430,7 +1433,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 920,
@@ -1439,42 +1441,36 @@ __ESTREE_TEST__:PASS:
                   "name": "subarray",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 929,
+                  "end": 930,
+                  "value": 0,
+                  "raw": "0"
+                }
+              ],
+              "optional": false
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 937,
             "end": 957,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 937,
               "end": 956,
-              "arguments": [
-                {
-                  "type": "Literal",
-                  "start": 950,
-                  "end": 951,
-                  "raw": "0",
-                  "value": 0
-                },
-                {
-                  "type": "Literal",
-                  "start": 953,
-                  "end": 955,
-                  "raw": "10",
-                  "value": 10
-                }
-              ],
               "callee": {
                 "type": "MemberExpression",
                 "start": 937,
                 "end": 949,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 937,
@@ -1484,7 +1480,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 941,
@@ -1493,35 +1488,54 @@ __ESTREE_TEST__:PASS:
                   "name": "subarray",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 950,
+                  "end": 951,
+                  "value": 0,
+                  "raw": "0"
+                },
+                {
+                  "type": "Literal",
+                  "start": 953,
+                  "end": 955,
+                  "value": 10,
+                  "raw": "10"
+                }
+              ],
+              "optional": false
+            },
+            "directive": null
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 833,
-        "end": 852,
-        "decorators": [],
-        "name": "uint32ArraySubarray",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 961,
       "end": 1098,
+      "id": {
+        "type": "Identifier",
+        "start": 970,
+        "end": 990,
+        "decorators": [],
+        "name": "float32ArraySubarray",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 993,
@@ -1531,12 +1545,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 999,
             "end": 1030,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 1003,
                 "end": 1029,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 1003,
@@ -1550,15 +1564,6 @@ __ESTREE_TEST__:PASS:
                   "type": "NewExpression",
                   "start": 1009,
                   "end": 1029,
-                  "arguments": [
-                    {
-                      "type": "Literal",
-                      "start": 1026,
-                      "end": 1028,
-                      "raw": "10",
-                      "value": 10
-                    }
-                  ],
                   "callee": {
                     "type": "Identifier",
                     "start": 1013,
@@ -1568,28 +1573,34 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "typeArguments": null
-                }
+                  "typeArguments": null,
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 1026,
+                      "end": 1028,
+                      "value": 10,
+                      "raw": "10"
+                    }
+                  ]
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           },
           {
             "type": "ExpressionStatement",
             "start": 1035,
             "end": 1050,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1035,
               "end": 1049,
-              "arguments": [],
               "callee": {
                 "type": "MemberExpression",
                 "start": 1035,
                 "end": 1047,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 1035,
@@ -1599,7 +1610,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 1039,
@@ -1608,35 +1618,28 @@ __ESTREE_TEST__:PASS:
                   "name": "subarray",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [],
+              "optional": false
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 1055,
             "end": 1071,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1055,
               "end": 1070,
-              "arguments": [
-                {
-                  "type": "Literal",
-                  "start": 1068,
-                  "end": 1069,
-                  "raw": "0",
-                  "value": 0
-                }
-              ],
               "callee": {
                 "type": "MemberExpression",
                 "start": 1055,
                 "end": 1067,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 1055,
@@ -1646,7 +1649,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 1059,
@@ -1655,42 +1657,36 @@ __ESTREE_TEST__:PASS:
                   "name": "subarray",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1068,
+                  "end": 1069,
+                  "value": 0,
+                  "raw": "0"
+                }
+              ],
+              "optional": false
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 1076,
             "end": 1096,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1076,
               "end": 1095,
-              "arguments": [
-                {
-                  "type": "Literal",
-                  "start": 1089,
-                  "end": 1090,
-                  "raw": "0",
-                  "value": 0
-                },
-                {
-                  "type": "Literal",
-                  "start": 1092,
-                  "end": 1094,
-                  "raw": "10",
-                  "value": 10
-                }
-              ],
               "callee": {
                 "type": "MemberExpression",
                 "start": 1076,
                 "end": 1088,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 1076,
@@ -1700,7 +1696,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 1080,
@@ -1709,35 +1704,54 @@ __ESTREE_TEST__:PASS:
                   "name": "subarray",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1089,
+                  "end": 1090,
+                  "value": 0,
+                  "raw": "0"
+                },
+                {
+                  "type": "Literal",
+                  "start": 1092,
+                  "end": 1094,
+                  "value": 10,
+                  "raw": "10"
+                }
+              ],
+              "optional": false
+            },
+            "directive": null
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 970,
-        "end": 990,
-        "decorators": [],
-        "name": "float32ArraySubarray",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 1100,
       "end": 1237,
+      "id": {
+        "type": "Identifier",
+        "start": 1109,
+        "end": 1129,
+        "decorators": [],
+        "name": "float64ArraySubarray",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 1132,
@@ -1747,12 +1761,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 1138,
             "end": 1169,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 1142,
                 "end": 1168,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 1142,
@@ -1766,15 +1780,6 @@ __ESTREE_TEST__:PASS:
                   "type": "NewExpression",
                   "start": 1148,
                   "end": 1168,
-                  "arguments": [
-                    {
-                      "type": "Literal",
-                      "start": 1165,
-                      "end": 1167,
-                      "raw": "10",
-                      "value": 10
-                    }
-                  ],
                   "callee": {
                     "type": "Identifier",
                     "start": 1152,
@@ -1784,28 +1789,34 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "typeArguments": null
-                }
+                  "typeArguments": null,
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 1165,
+                      "end": 1167,
+                      "value": 10,
+                      "raw": "10"
+                    }
+                  ]
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           },
           {
             "type": "ExpressionStatement",
             "start": 1174,
             "end": 1189,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1174,
               "end": 1188,
-              "arguments": [],
               "callee": {
                 "type": "MemberExpression",
                 "start": 1174,
                 "end": 1186,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 1174,
@@ -1815,7 +1826,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 1178,
@@ -1824,35 +1834,28 @@ __ESTREE_TEST__:PASS:
                   "name": "subarray",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [],
+              "optional": false
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 1194,
             "end": 1210,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1194,
               "end": 1209,
-              "arguments": [
-                {
-                  "type": "Literal",
-                  "start": 1207,
-                  "end": 1208,
-                  "raw": "0",
-                  "value": 0
-                }
-              ],
               "callee": {
                 "type": "MemberExpression",
                 "start": 1194,
                 "end": 1206,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 1194,
@@ -1862,7 +1865,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 1198,
@@ -1871,42 +1873,36 @@ __ESTREE_TEST__:PASS:
                   "name": "subarray",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1207,
+                  "end": 1208,
+                  "value": 0,
+                  "raw": "0"
+                }
+              ],
+              "optional": false
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 1215,
             "end": 1235,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1215,
               "end": 1234,
-              "arguments": [
-                {
-                  "type": "Literal",
-                  "start": 1228,
-                  "end": 1229,
-                  "raw": "0",
-                  "value": 0
-                },
-                {
-                  "type": "Literal",
-                  "start": 1231,
-                  "end": 1233,
-                  "raw": "10",
-                  "value": 10
-                }
-              ],
               "callee": {
                 "type": "MemberExpression",
                 "start": 1215,
                 "end": 1227,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 1215,
@@ -1916,7 +1912,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 1219,
@@ -1925,29 +1920,34 @@ __ESTREE_TEST__:PASS:
                   "name": "subarray",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 1228,
+                  "end": 1229,
+                  "value": 0,
+                  "raw": "0"
+                },
+                {
+                  "type": "Literal",
+                  "start": 1231,
+                  "end": 1233,
+                  "value": 10,
+                  "raw": "10"
+                }
+              ],
+              "optional": false
+            },
+            "directive": null
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 1109,
-        "end": 1129,
-        "decorators": [],
-        "name": "float64ArraySubarray",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

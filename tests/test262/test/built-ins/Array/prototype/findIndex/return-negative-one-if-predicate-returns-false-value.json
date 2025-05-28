@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 494,
       "end": 529,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -47,13 +48,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 530,
       "end": 545,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -73,13 +74,13 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 547,
       "end": 621,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -111,8 +112,8 @@
                 "end": 573,
                 "name": "findIndex"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -120,7 +121,6 @@
                 "start": 574,
                 "end": 619,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [
@@ -167,14 +167,14 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               }
             ],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -200,8 +200,8 @@
             "end": 639,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -252,8 +252,8 @@
             "end": 704,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -267,14 +267,14 @@
             "start": 713,
             "end": 715,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 714,
               "end": 715,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -315,8 +315,8 @@
               "end": 741,
               "name": "findIndex"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -324,7 +324,6 @@
               "start": 742,
               "end": 772,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -353,7 +352,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
           ],
           "optional": false
@@ -384,8 +384,8 @@
             "end": 791,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -399,14 +399,14 @@
             "start": 800,
             "end": 802,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 801,
               "end": 802,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -454,8 +454,8 @@
               "end": 846,
               "name": "findIndex"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -463,7 +463,6 @@
               "start": 847,
               "end": 884,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -491,7 +490,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
           ],
           "optional": false
@@ -522,8 +522,8 @@
             "end": 903,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -537,14 +537,14 @@
             "start": 912,
             "end": 914,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 913,
               "end": 914,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -592,8 +592,8 @@
               "end": 961,
               "name": "findIndex"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -601,7 +601,6 @@
               "start": 962,
               "end": 994,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -630,7 +629,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
           ],
           "optional": false
@@ -661,8 +661,8 @@
             "end": 1013,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -676,14 +676,14 @@
             "start": 1022,
             "end": 1024,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1023,
               "end": 1024,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -731,8 +731,8 @@
               "end": 1066,
               "name": "findIndex"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -740,7 +740,6 @@
               "start": 1067,
               "end": 1096,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -769,7 +768,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
           ],
           "optional": false
@@ -800,8 +800,8 @@
             "end": 1115,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -815,14 +815,14 @@
             "start": 1124,
             "end": 1126,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1125,
               "end": 1126,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -870,8 +870,8 @@
               "end": 1165,
               "name": "findIndex"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -879,7 +879,6 @@
               "start": 1166,
               "end": 1197,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -907,7 +906,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
           ],
           "optional": false
@@ -938,8 +938,8 @@
             "end": 1216,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -953,14 +953,14 @@
             "start": 1225,
             "end": 1227,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1226,
               "end": 1227,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

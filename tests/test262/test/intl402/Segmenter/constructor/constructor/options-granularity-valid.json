@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 531,
       "end": 706,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -120,9 +121,7 @@
                         "type": "Property",
                         "start": 662,
                         "end": 691,
-                        "method": true,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 662,
@@ -134,7 +133,6 @@
                           "start": 670,
                           "end": 691,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [],
@@ -156,9 +154,12 @@
                                 }
                               }
                             ]
-                          }
+                          },
+                          "expression": false
                         },
-                        "kind": "init"
+                        "method": true,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   },
@@ -174,8 +175,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -186,6 +186,7 @@
         "type": "VariableDeclaration",
         "start": 713,
         "end": 742,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -212,8 +213,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -230,6 +230,7 @@
             "type": "VariableDeclaration",
             "start": 764,
             "end": 822,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -261,8 +262,8 @@
                       "end": 800,
                       "name": "Segmenter"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -280,9 +281,7 @@
                           "type": "Property",
                           "start": 807,
                           "end": 818,
-                          "method": false,
-                          "shorthand": true,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 807,
@@ -295,20 +294,22 @@
                             "end": 818,
                             "name": "granularity"
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": true,
+                          "computed": false
                         }
                       ]
                     }
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 825,
             "end": 877,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -340,15 +341,14 @@
                       "end": 874,
                       "name": "resolvedOptions"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -374,8 +374,8 @@
                   "end": 896,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -394,8 +394,8 @@
                     "end": 924,
                     "name": "granularity"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Identifier",
@@ -434,8 +434,8 @@
             "end": 953,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -448,9 +448,7 @@
             "type": "ArrowFunctionExpression",
             "start": 966,
             "end": 1017,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -473,8 +471,8 @@
                   "end": 990,
                   "name": "Segmenter"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -492,9 +490,7 @@
                       "type": "Property",
                       "start": 996,
                       "end": 1015,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 996,
@@ -508,12 +504,16 @@
                         "value": "line",
                         "raw": "\"line\""
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

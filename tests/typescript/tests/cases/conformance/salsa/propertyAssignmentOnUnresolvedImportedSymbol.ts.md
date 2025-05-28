@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 24,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 14,
-        "end": 24,
-        "raw": "'arglebaz'",
-        "value": "arglebaz"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -33,8 +25,16 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 14,
+        "end": 24,
+        "value": "arglebaz",
+        "raw": "'arglebaz'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "BlockStatement",
@@ -45,7 +45,6 @@ __ESTREE_TEST__:PASS:
           "type": "ExpressionStatement",
           "start": 31,
           "end": 40,
-          "directive": null,
           "expression": {
             "type": "AssignmentExpression",
             "start": 31,
@@ -55,7 +54,6 @@ __ESTREE_TEST__:PASS:
               "type": "MemberExpression",
               "start": 31,
               "end": 36,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 31,
@@ -65,7 +63,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 33,
@@ -74,16 +71,19 @@ __ESTREE_TEST__:PASS:
                 "name": "bar",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             },
             "right": {
               "type": "Literal",
               "start": 39,
               "end": 40,
-              "raw": "1",
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
-          }
+          },
+          "directive": null
         }
       ]
     }

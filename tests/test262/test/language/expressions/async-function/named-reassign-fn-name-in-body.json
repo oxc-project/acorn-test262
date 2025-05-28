@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 677,
       "end": 695,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 696,
       "end": 813,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -54,7 +55,6 @@
               "end": 738,
               "name": "BindingIdentifier"
             },
-            "expression": false,
             "generator": false,
             "async": true,
             "params": [],
@@ -117,11 +117,11 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -142,9 +142,7 @@
             "type": "ArrowFunctionExpression",
             "start": 825,
             "end": 945,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": true,
             "params": [],
             "body": {
@@ -176,8 +174,8 @@
                         "end": 857,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -232,8 +230,8 @@
                         "end": 895,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -261,7 +259,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

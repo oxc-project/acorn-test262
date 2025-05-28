@@ -27,8 +27,8 @@
             "end": 1613,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 1630,
             "end": 1649,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -63,7 +62,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -100,8 +100,8 @@
             "end": 1729,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -109,13 +109,13 @@
             "start": 1733,
             "end": 1741,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 1740,
               "end": 1741,
               "name": "f"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -170,9 +170,7 @@
               "type": "Property",
               "start": 1855,
               "end": 1856,
-              "method": false,
-              "shorthand": true,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 1855,
@@ -185,7 +183,9 @@
                 "end": 1856,
                 "name": "f"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": true,
+              "computed": false
             }
           ]
         },
@@ -215,7 +215,6 @@
                   "end": 1883,
                   "name": "f"
                 },
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -224,7 +223,8 @@
                   "start": 1886,
                   "end": 1890,
                   "body": []
-                }
+                },
+                "expression": false
               },
               "alternate": {
                 "type": "FunctionDeclaration",
@@ -236,7 +236,6 @@
                   "end": 1907,
                   "name": "_f"
                 },
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -245,7 +244,8 @@
                   "start": 1910,
                   "end": 1912,
                   "body": []
-                }
+                },
+                "expression": false
               }
             }
           ]
@@ -277,8 +277,8 @@
             "end": 1930,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -292,7 +292,6 @@
             "start": 1947,
             "end": 1966,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -313,7 +312,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -350,8 +350,8 @@
             "end": 2047,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -359,13 +359,13 @@
             "start": 2051,
             "end": 2059,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 2058,
               "end": 2059,
               "name": "f"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

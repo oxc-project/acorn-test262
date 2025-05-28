@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 25,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 12,
           "end": 24,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
@@ -33,16 +33,25 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "TSModuleDeclaration",
       "start": 27,
       "end": 67,
+      "id": {
+        "type": "Identifier",
+        "start": 34,
+        "end": 41,
+        "decorators": [],
+        "name": "console",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 42,
@@ -52,17 +61,16 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 48,
             "end": 65,
-            "attributes": [],
             "declaration": {
               "type": "VariableDeclaration",
               "start": 55,
               "end": 65,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 59,
                   "end": 64,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 59,
@@ -76,32 +84,24 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 63,
                     "end": 64,
-                    "raw": "2",
-                    "value": 2
-                  }
+                    "value": 2,
+                    "raw": "2"
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "var"
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 34,
-        "end": 41,
-        "decorators": [],
-        "name": "console",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "script",

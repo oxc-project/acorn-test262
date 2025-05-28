@@ -9,17 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 17,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 17,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 11,
             "end": 16,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 11,
@@ -33,33 +32,33 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 15,
               "end": 16,
-              "raw": "1",
-              "value": 1
-            }
+              "value": 1,
+              "raw": "1"
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 18,
       "end": 31,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 25,
         "end": 31,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 29,
             "end": 30,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 29,
@@ -69,15 +68,16 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

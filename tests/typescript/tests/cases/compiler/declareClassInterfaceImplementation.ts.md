@@ -9,6 +9,17 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 50,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 17,
+        "decorators": [],
+        "name": "IBuffer",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "extends": [],
       "body": {
         "type": "TSInterfaceBody",
         "start": 18,
@@ -18,7 +29,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 24,
             "end": 48,
-            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -39,8 +49,6 @@ __ESTREE_TEST__:PASS:
                 }
               }
             ],
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 39,
@@ -50,35 +58,19 @@ __ESTREE_TEST__:PASS:
                 "start": 41,
                 "end": 47
               }
-            }
+            },
+            "readonly": false,
+            "static": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 17,
-        "decorators": [],
-        "name": "IBuffer",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 52,
       "end": 96,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 92,
-        "end": 96,
-        "body": []
-      },
-      "declare": true,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -89,6 +81,9 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
       "implements": [
         {
           "type": "TSClassImplements",
@@ -106,9 +101,14 @@ __ESTREE_TEST__:PASS:
           "typeArguments": null
         }
       ],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "body": {
+        "type": "ClassBody",
+        "start": 92,
+        "end": 96,
+        "body": []
+      },
+      "abstract": false,
+      "declare": true
     }
   ],
   "sourceType": "script",

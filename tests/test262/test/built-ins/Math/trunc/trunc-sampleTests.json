@@ -27,8 +27,8 @@
             "end": 212,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -63,8 +63,8 @@
                   "end": 227,
                   "name": "trunc"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -94,8 +94,8 @@
               "end": 274,
               "name": "POSITIVE_INFINITY"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -132,8 +132,8 @@
             "end": 354,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -168,8 +168,8 @@
                   "end": 369,
                   "name": "trunc"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -199,8 +199,8 @@
               "end": 416,
               "name": "POSITIVE_INFINITY"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -237,8 +237,8 @@
             "end": 496,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -273,8 +273,8 @@
                   "end": 511,
                   "name": "trunc"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -304,8 +304,8 @@
               "end": 557,
               "name": "POSITIVE_INFINITY"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -342,8 +342,8 @@
             "end": 637,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -378,8 +378,8 @@
                   "end": 652,
                   "name": "trunc"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -398,8 +398,8 @@
                     "end": 667,
                     "name": "EPSILON"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 }
               ],
               "optional": false
@@ -421,8 +421,8 @@
               "end": 694,
               "name": "POSITIVE_INFINITY"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -459,8 +459,8 @@
             "end": 774,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -495,8 +495,8 @@
                   "end": 789,
                   "name": "trunc"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -515,8 +515,8 @@
                     "end": 806,
                     "name": "MIN_VALUE"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 }
               ],
               "optional": false
@@ -538,8 +538,8 @@
               "end": 833,
               "name": "POSITIVE_INFINITY"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -576,8 +576,8 @@
             "end": 914,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -612,8 +612,8 @@
                   "end": 929,
                   "name": "trunc"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -621,14 +621,14 @@
                   "start": 930,
                   "end": 950,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 931,
                     "end": 950,
                     "value": 0.02047410048544407,
                     "raw": "0.02047410048544407"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -650,8 +650,8 @@
               "end": 977,
               "name": "NEGATIVE_INFINITY"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -688,8 +688,8 @@
             "end": 1058,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -724,8 +724,8 @@
                   "end": 1073,
                   "name": "trunc"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -733,14 +733,14 @@
                   "start": 1074,
                   "end": 1094,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1075,
                     "end": 1094,
                     "value": 1e-17,
                     "raw": "0.00000000000000001"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -762,8 +762,8 @@
               "end": 1121,
               "name": "NEGATIVE_INFINITY"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -800,8 +800,8 @@
             "end": 1202,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -836,8 +836,8 @@
                   "end": 1217,
                   "name": "trunc"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -845,14 +845,14 @@
                   "start": 1218,
                   "end": 1237,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1219,
                     "end": 1237,
                     "value": 0.9999999999999999,
                     "raw": "0.9999999999999999"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -874,8 +874,8 @@
               "end": 1264,
               "name": "NEGATIVE_INFINITY"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -912,8 +912,8 @@
             "end": 1345,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -948,8 +948,8 @@
                   "end": 1360,
                   "name": "trunc"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -957,7 +957,6 @@
                   "start": 1361,
                   "end": 1376,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 1362,
@@ -974,9 +973,10 @@
                       "end": 1376,
                       "name": "EPSILON"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -998,8 +998,8 @@
               "end": 1403,
               "name": "NEGATIVE_INFINITY"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -1036,8 +1036,8 @@
             "end": 1484,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1072,8 +1072,8 @@
                   "end": 1499,
                   "name": "trunc"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1081,7 +1081,6 @@
                   "start": 1500,
                   "end": 1517,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 1501,
@@ -1098,9 +1097,10 @@
                       "end": 1517,
                       "name": "MIN_VALUE"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -1122,8 +1122,8 @@
               "end": 1544,
               "name": "NEGATIVE_INFINITY"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -1160,8 +1160,8 @@
             "end": 1626,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1184,8 +1184,8 @@
                 "end": 1637,
                 "name": "trunc"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1204,8 +1204,8 @@
                   "end": 1654,
                   "name": "MAX_VALUE"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             ],
             "optional": false
@@ -1230,8 +1230,8 @@
                 "end": 1667,
                 "name": "floor"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1250,8 +1250,8 @@
                   "end": 1684,
                   "name": "MAX_VALUE"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             ],
             "optional": false
@@ -1291,8 +1291,8 @@
             "end": 1767,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1315,8 +1315,8 @@
                 "end": 1778,
                 "name": "trunc"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1349,8 +1349,8 @@
                 "end": 1794,
                 "name": "floor"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1398,8 +1398,8 @@
             "end": 1866,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1422,8 +1422,8 @@
                 "end": 1877,
                 "name": "trunc"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1456,8 +1456,8 @@
                 "end": 1894,
                 "name": "floor"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1505,8 +1505,8 @@
             "end": 1968,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1529,8 +1529,8 @@
                 "end": 1979,
                 "name": "trunc"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1563,8 +1563,8 @@
                 "end": 1996,
                 "name": "floor"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1612,8 +1612,8 @@
             "end": 2071,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1636,8 +1636,8 @@
                 "end": 2082,
                 "name": "trunc"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1645,7 +1645,6 @@
                 "start": 2083,
                 "end": 2100,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "MemberExpression",
                   "start": 2084,
@@ -1662,9 +1661,10 @@
                     "end": 2100,
                     "name": "MAX_VALUE"
                   },
-                  "computed": false,
-                  "optional": false
-                }
+                  "optional": false,
+                  "computed": false
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -1689,8 +1689,8 @@
                 "end": 2112,
                 "name": "ceil"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1698,7 +1698,6 @@
                 "start": 2113,
                 "end": 2130,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "MemberExpression",
                   "start": 2114,
@@ -1715,9 +1714,10 @@
                     "end": 2130,
                     "name": "MAX_VALUE"
                   },
-                  "computed": false,
-                  "optional": false
-                }
+                  "optional": false,
+                  "computed": false
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -1757,8 +1757,8 @@
             "end": 2214,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1781,8 +1781,8 @@
                 "end": 2225,
                 "name": "trunc"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1790,14 +1790,14 @@
                 "start": 2226,
                 "end": 2229,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 2227,
                   "end": 2229,
                   "value": 10,
                   "raw": "10"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -1822,8 +1822,8 @@
                 "end": 2241,
                 "name": "ceil"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1831,14 +1831,14 @@
                 "start": 2242,
                 "end": 2245,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 2243,
                   "end": 2245,
                   "value": 10,
                   "raw": "10"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -1878,8 +1878,8 @@
             "end": 2315,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1902,8 +1902,8 @@
                 "end": 2326,
                 "name": "trunc"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1911,14 +1911,14 @@
                 "start": 2327,
                 "end": 2331,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 2328,
                   "end": 2331,
                   "value": 3.9,
                   "raw": "3.9"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -1943,8 +1943,8 @@
                 "end": 2343,
                 "name": "ceil"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1952,14 +1952,14 @@
                 "start": 2344,
                 "end": 2348,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 2345,
                   "end": 2348,
                   "value": 3.9,
                   "raw": "3.9"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -1999,8 +1999,8 @@
             "end": 2419,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2023,8 +2023,8 @@
                 "end": 2430,
                 "name": "trunc"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2032,14 +2032,14 @@
                 "start": 2431,
                 "end": 2435,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 2432,
                   "end": 2435,
                   "value": 4.9,
                   "raw": "4.9"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -2064,8 +2064,8 @@
                 "end": 2447,
                 "name": "ceil"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2073,14 +2073,14 @@
                 "start": 2448,
                 "end": 2452,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 2449,
                   "end": 2452,
                   "value": 4.9,
                   "raw": "4.9"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false

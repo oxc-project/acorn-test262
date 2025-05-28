@@ -131,14 +131,14 @@
               "start": 725,
               "end": 735,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 726,
                 "end": 735,
                 "value": 1.0000001,
                 "raw": "1.0000001"
-              }
+              },
+              "prefix": true
             }
           ],
           "optional": false
@@ -204,14 +204,14 @@
                           "start": 844,
                           "end": 854,
                           "operator": "-",
-                          "prefix": true,
                           "argument": {
                             "type": "Literal",
                             "start": 845,
                             "end": 854,
                             "value": 1.0000001,
                             "raw": "1.0000001"
-                          }
+                          },
+                          "prefix": true
                         }
                       ],
                       "optional": false

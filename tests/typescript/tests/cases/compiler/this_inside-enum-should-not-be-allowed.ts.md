@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSEnumDeclaration",
       "start": 0,
       "end": 86,
+      "id": {
+        "type": "Identifier",
+        "start": 5,
+        "end": 17,
+        "decorators": [],
+        "name": "TopLevelEnum",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSEnumBody",
         "start": 18,
@@ -18,7 +27,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 24,
             "end": 59,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 24,
@@ -32,26 +40,27 @@ __ESTREE_TEST__:PASS:
               "type": "ThisExpression",
               "start": 55,
               "end": 59
-            }
+            },
+            "computed": false
           }
         ]
       },
       "const": false,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 5,
-        "end": 17,
-        "decorators": [],
-        "name": "TopLevelEnum",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      "declare": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 88,
       "end": 220,
+      "id": {
+        "type": "Identifier",
+        "start": 95,
+        "end": 105,
+        "decorators": [],
+        "name": "ModuleEnum",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 106,
@@ -61,6 +70,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumDeclaration",
             "start": 112,
             "end": 218,
+            "id": {
+              "type": "Identifier",
+              "start": 117,
+              "end": 129,
+              "decorators": [],
+              "name": "EnumInModule",
+              "optional": false,
+              "typeAnnotation": null
+            },
             "body": {
               "type": "TSEnumBody",
               "start": 130,
@@ -70,7 +88,6 @@ __ESTREE_TEST__:PASS:
                   "type": "TSEnumMember",
                   "start": 140,
                   "end": 165,
-                  "computed": false,
                   "id": {
                     "type": "Identifier",
                     "start": 140,
@@ -84,36 +101,19 @@ __ESTREE_TEST__:PASS:
                     "type": "ThisExpression",
                     "start": 161,
                     "end": 165
-                  }
+                  },
+                  "computed": false
                 }
               ]
             },
             "const": false,
-            "declare": false,
-            "id": {
-              "type": "Identifier",
-              "start": 117,
-              "end": 129,
-              "decorators": [],
-              "name": "EnumInModule",
-              "optional": false,
-              "typeAnnotation": null
-            }
+            "declare": false
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 95,
-        "end": 105,
-        "decorators": [],
-        "name": "ModuleEnum",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "script",

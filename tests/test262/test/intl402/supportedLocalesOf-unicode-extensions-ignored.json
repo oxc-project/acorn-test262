@@ -23,7 +23,6 @@
             "start": 386,
             "end": 2452,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -78,8 +77,8 @@
                         "end": 512,
                         "name": "forEach"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -87,7 +86,6 @@
                         "start": 513,
                         "end": 2448,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [
@@ -107,6 +105,7 @@
                               "type": "VariableDeclaration",
                               "start": 542,
                               "end": 577,
+                              "kind": "var",
                               "declarations": [
                                 {
                                   "type": "VariableDeclarator",
@@ -127,9 +126,7 @@
                                         "type": "Property",
                                         "start": 553,
                                         "end": 575,
-                                        "method": false,
-                                        "shorthand": false,
-                                        "computed": false,
+                                        "kind": "init",
                                         "key": {
                                           "type": "Identifier",
                                           "start": 553,
@@ -142,18 +139,20 @@
                                           "end": 575,
                                           "name": "matcher"
                                         },
-                                        "kind": "init"
+                                        "method": false,
+                                        "shorthand": false,
+                                        "computed": false
                                       }
                                     ]
                                   }
                                 }
-                              ],
-                              "kind": "var"
+                              ]
                             },
                             {
                               "type": "VariableDeclaration",
                               "start": 586,
                               "end": 636,
+                              "kind": "var",
                               "declarations": [
                                 {
                                   "type": "VariableDeclarator",
@@ -192,13 +191,13 @@
                                     "optional": false
                                   }
                                 }
-                              ],
-                              "kind": "var"
+                              ]
                             },
                             {
                               "type": "VariableDeclaration",
                               "start": 645,
                               "end": 719,
+                              "kind": "var",
                               "declarations": [
                                 {
                                   "type": "VariableDeclarator",
@@ -234,8 +233,8 @@
                                           "end": 676,
                                           "name": "supported"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "property": {
                                         "type": "Identifier",
@@ -243,8 +242,8 @@
                                         "end": 683,
                                         "name": "concat"
                                       },
-                                      "computed": false,
-                                      "optional": false
+                                      "optional": false,
+                                      "computed": false
                                     },
                                     "arguments": [
                                       {
@@ -263,8 +262,8 @@
                                           "end": 699,
                                           "name": "byFallback"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       {
                                         "type": "MemberExpression",
@@ -282,15 +281,14 @@
                                           "end": 717,
                                           "name": "unsupported"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       }
                                     ],
                                     "optional": false
                                   }
                                 }
-                              ],
-                              "kind": "var"
+                              ]
                             },
                             {
                               "type": "ExpressionStatement",
@@ -316,8 +314,8 @@
                                     "end": 746,
                                     "name": "forEach"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -325,7 +323,6 @@
                                     "start": 747,
                                     "end": 2440,
                                     "id": null,
-                                    "expression": false,
                                     "generator": false,
                                     "async": false,
                                     "params": [
@@ -345,6 +342,7 @@
                                           "type": "VariableDeclaration",
                                           "start": 779,
                                           "end": 824,
+                                          "kind": "var",
                                           "declarations": [
                                             {
                                               "type": "VariableDeclarator",
@@ -364,13 +362,13 @@
                                                 "raw": "\"-u-co-phonebk-nu-latn\""
                                               }
                                             }
-                                          ],
-                                          "kind": "var"
+                                          ]
                                         },
                                         {
                                           "type": "VariableDeclaration",
                                           "start": 837,
                                           "end": 876,
+                                          "kind": "var",
                                           "declarations": [
                                             {
                                               "type": "VariableDeclarator",
@@ -390,13 +388,13 @@
                                                 "raw": "\"-u-nu-invalid\""
                                               }
                                             }
-                                          ],
-                                          "kind": "var"
+                                          ]
                                         },
                                         {
                                           "type": "VariableDeclaration",
                                           "start": 889,
                                           "end": 952,
+                                          "kind": "var",
                                           "declarations": [
                                             {
                                               "type": "VariableDeclarator",
@@ -428,8 +426,8 @@
                                                     "end": 936,
                                                     "name": "supportedLocalesOf"
                                                   },
-                                                  "computed": false,
-                                                  "optional": false
+                                                  "optional": false,
+                                                  "computed": false
                                                 },
                                                 "arguments": [
                                                   {
@@ -455,13 +453,13 @@
                                                 "optional": false
                                               }
                                             }
-                                          ],
-                                          "kind": "var"
+                                          ]
                                         },
                                         {
                                           "type": "VariableDeclaration",
                                           "start": 965,
                                           "end": 1045,
+                                          "kind": "var",
                                           "declarations": [
                                             {
                                               "type": "VariableDeclarator",
@@ -493,8 +491,8 @@
                                                     "end": 1012,
                                                     "name": "supportedLocalesOf"
                                                   },
-                                                  "computed": false,
-                                                  "optional": false
+                                                  "optional": false,
+                                                  "computed": false
                                                 },
                                                 "arguments": [
                                                   {
@@ -532,13 +530,13 @@
                                                 "optional": false
                                               }
                                             }
-                                          ],
-                                          "kind": "var"
+                                          ]
                                         },
                                         {
                                           "type": "VariableDeclaration",
                                           "start": 1058,
                                           "end": 1140,
+                                          "kind": "var",
                                           "declarations": [
                                             {
                                               "type": "VariableDeclarator",
@@ -570,8 +568,8 @@
                                                     "end": 1105,
                                                     "name": "supportedLocalesOf"
                                                   },
-                                                  "computed": false,
-                                                  "optional": false
+                                                  "optional": false,
+                                                  "computed": false
                                                 },
                                                 "arguments": [
                                                   {
@@ -609,8 +607,7 @@
                                                 "optional": false
                                               }
                                             }
-                                          ],
-                                          "kind": "var"
+                                          ]
                                         },
                                         {
                                           "type": "IfStatement",
@@ -636,8 +633,8 @@
                                                 "end": 1174,
                                                 "name": "length"
                                               },
-                                              "computed": false,
-                                              "optional": false
+                                              "optional": false,
+                                              "computed": false
                                             },
                                             "operator": "===",
                                             "right": {
@@ -677,8 +674,8 @@
                                                       "end": 1216,
                                                       "name": "sameValue"
                                                     },
-                                                    "computed": false,
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "computed": false
                                                   },
                                                   "arguments": [
                                                     {
@@ -697,8 +694,8 @@
                                                         "end": 1234,
                                                         "name": "length"
                                                       },
-                                                      "computed": false,
-                                                      "optional": false
+                                                      "optional": false,
+                                                      "computed": false
                                                     },
                                                     {
                                                       "type": "Literal",
@@ -792,8 +789,8 @@
                                                       "end": 1419,
                                                       "name": "sameValue"
                                                     },
-                                                    "computed": false,
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "computed": false
                                                   },
                                                   "arguments": [
                                                     {
@@ -812,8 +809,8 @@
                                                         "end": 1437,
                                                         "name": "length"
                                                       },
-                                                      "computed": false,
-                                                      "optional": false
+                                                      "optional": false,
+                                                      "computed": false
                                                     },
                                                     {
                                                       "type": "Literal",
@@ -907,8 +904,8 @@
                                                       "end": 1622,
                                                       "name": "sameValue"
                                                     },
-                                                    "computed": false,
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "computed": false
                                                   },
                                                   "arguments": [
                                                     {
@@ -928,8 +925,8 @@
                                                         "value": 0,
                                                         "raw": "0"
                                                       },
-                                                      "computed": true,
-                                                      "optional": false
+                                                      "optional": false,
+                                                      "computed": true
                                                     },
                                                     {
                                                       "type": "BinaryExpression",
@@ -1034,8 +1031,8 @@
                                                       "end": 1821,
                                                       "name": "sameValue"
                                                     },
-                                                    "computed": false,
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "computed": false
                                                   },
                                                   "arguments": [
                                                     {
@@ -1055,8 +1052,8 @@
                                                         "value": 0,
                                                         "raw": "0"
                                                       },
-                                                      "computed": true,
-                                                      "optional": false
+                                                      "optional": false,
+                                                      "computed": true
                                                     },
                                                     {
                                                       "type": "BinaryExpression",
@@ -1168,8 +1165,8 @@
                                                       "end": 2043,
                                                       "name": "sameValue"
                                                     },
-                                                    "computed": false,
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "computed": false
                                                   },
                                                   "arguments": [
                                                     {
@@ -1188,8 +1185,8 @@
                                                         "end": 2061,
                                                         "name": "length"
                                                       },
-                                                      "computed": false,
-                                                      "optional": false
+                                                      "optional": false,
+                                                      "computed": false
                                                     },
                                                     {
                                                       "type": "Literal",
@@ -1283,8 +1280,8 @@
                                                       "end": 2246,
                                                       "name": "sameValue"
                                                     },
-                                                    "computed": false,
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "computed": false
                                                   },
                                                   "arguments": [
                                                     {
@@ -1303,8 +1300,8 @@
                                                         "end": 2264,
                                                         "name": "length"
                                                       },
-                                                      "computed": false,
-                                                      "optional": false
+                                                      "optional": false,
+                                                      "computed": false
                                                     },
                                                     {
                                                       "type": "Literal",
@@ -1378,21 +1375,24 @@
                                           }
                                         }
                                       ]
-                                    }
+                                    },
+                                    "expression": false
                                   }
                                 ],
                                 "optional": false
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

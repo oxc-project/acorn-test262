@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "LabeledStatement",
       "start": 0,
       "end": 26,
+      "label": {
+        "type": "Identifier",
+        "start": 0,
+        "end": 6,
+        "decorators": [],
+        "name": "target",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "ContinueStatement",
         "start": 10,
@@ -22,15 +31,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 0,
-        "end": 6,
-        "decorators": [],
-        "name": "target",
-        "optional": false,
-        "typeAnnotation": null
       }
     }
   ],

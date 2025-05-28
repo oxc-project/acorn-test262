@@ -9,7 +9,46 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 323,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 19,
+        "decorators": [],
+        "name": "diamondTop",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": {
+        "type": "TSTypeParameterDeclaration",
+        "start": 19,
+        "end": 24,
+        "params": [
+          {
+            "type": "TSTypeParameter",
+            "start": 20,
+            "end": 23,
+            "name": {
+              "type": "Identifier",
+              "start": 20,
+              "end": 23,
+              "decorators": [],
+              "name": "Top",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          }
+        ]
+      },
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 27,
@@ -19,7 +58,79 @@ __ESTREE_TEST__:PASS:
             "type": "FunctionDeclaration",
             "start": 33,
             "end": 321,
+            "id": {
+              "type": "Identifier",
+              "start": 42,
+              "end": 55,
+              "decorators": [],
+              "name": "diamondMiddle",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "generator": false,
             "async": false,
+            "declare": false,
+            "typeParameters": {
+              "type": "TSTypeParameterDeclaration",
+              "start": 55,
+              "end": 73,
+              "params": [
+                {
+                  "type": "TSTypeParameter",
+                  "start": 56,
+                  "end": 69,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 56,
+                    "end": 57,
+                    "decorators": [],
+                    "name": "T",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": {
+                    "type": "TSTypeReference",
+                    "start": 66,
+                    "end": 69,
+                    "typeName": {
+                      "type": "Identifier",
+                      "start": 66,
+                      "end": 69,
+                      "decorators": [],
+                      "name": "Top",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeArguments": null
+                  },
+                  "default": null,
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 71,
+                  "end": 72,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 71,
+                    "end": 72,
+                    "decorators": [],
+                    "name": "U",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": null,
+                  "in": false,
+                  "out": false,
+                  "const": false
+                }
+              ]
+            },
+            "params": [],
+            "returnType": null,
             "body": {
               "type": "BlockStatement",
               "start": 76,
@@ -29,7 +140,82 @@ __ESTREE_TEST__:PASS:
                   "type": "FunctionDeclaration",
                   "start": 86,
                   "end": 315,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 95,
+                    "end": 108,
+                    "decorators": [],
+                    "name": "diamondBottom",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "generator": false,
                   "async": false,
+                  "declare": false,
+                  "typeParameters": {
+                    "type": "TSTypeParameterDeclaration",
+                    "start": 108,
+                    "end": 130,
+                    "params": [
+                      {
+                        "type": "TSTypeParameter",
+                        "start": 109,
+                        "end": 129,
+                        "name": {
+                          "type": "Identifier",
+                          "start": 109,
+                          "end": 115,
+                          "decorators": [],
+                          "name": "Bottom",
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
+                        "constraint": {
+                          "type": "TSUnionType",
+                          "start": 124,
+                          "end": 129,
+                          "types": [
+                            {
+                              "type": "TSTypeReference",
+                              "start": 124,
+                              "end": 125,
+                              "typeName": {
+                                "type": "Identifier",
+                                "start": 124,
+                                "end": 125,
+                                "decorators": [],
+                                "name": "T",
+                                "optional": false,
+                                "typeAnnotation": null
+                              },
+                              "typeArguments": null
+                            },
+                            {
+                              "type": "TSTypeReference",
+                              "start": 128,
+                              "end": 129,
+                              "typeName": {
+                                "type": "Identifier",
+                                "start": 128,
+                                "end": 129,
+                                "decorators": [],
+                                "name": "U",
+                                "optional": false,
+                                "typeAnnotation": null
+                              },
+                              "typeArguments": null
+                            }
+                          ]
+                        },
+                        "default": null,
+                        "in": false,
+                        "out": false,
+                        "const": false
+                      }
+                    ]
+                  },
+                  "params": [],
+                  "returnType": null,
                   "body": {
                     "type": "BlockStatement",
                     "start": 133,
@@ -39,12 +225,12 @@ __ESTREE_TEST__:PASS:
                         "type": "VariableDeclaration",
                         "start": 147,
                         "end": 160,
+                        "kind": "var",
                         "declarations": [
                           {
                             "type": "VariableDeclarator",
                             "start": 151,
                             "end": 159,
-                            "definite": false,
                             "id": {
                               "type": "Identifier",
                               "start": 151,
@@ -60,7 +246,6 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 156,
                                   "end": 159,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 156,
@@ -69,26 +254,27 @@ __ESTREE_TEST__:PASS:
                                     "name": "Top",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 }
                               }
                             },
-                            "init": null
+                            "init": null,
+                            "definite": false
                           }
                         ],
-                        "declare": false,
-                        "kind": "var"
+                        "declare": false
                       },
                       {
                         "type": "VariableDeclaration",
                         "start": 173,
                         "end": 191,
+                        "kind": "var",
                         "declarations": [
                           {
                             "type": "VariableDeclarator",
                             "start": 177,
                             "end": 190,
-                            "definite": false,
                             "id": {
                               "type": "Identifier",
                               "start": 177,
@@ -109,7 +295,6 @@ __ESTREE_TEST__:PASS:
                                       "type": "TSTypeReference",
                                       "start": 185,
                                       "end": 186,
-                                      "typeArguments": null,
                                       "typeName": {
                                         "type": "Identifier",
                                         "start": 185,
@@ -118,13 +303,13 @@ __ESTREE_TEST__:PASS:
                                         "name": "T",
                                         "optional": false,
                                         "typeAnnotation": null
-                                      }
+                                      },
+                                      "typeArguments": null
                                     },
                                     {
                                       "type": "TSTypeReference",
                                       "start": 189,
                                       "end": 190,
-                                      "typeArguments": null,
                                       "typeName": {
                                         "type": "Identifier",
                                         "start": 189,
@@ -133,28 +318,29 @@ __ESTREE_TEST__:PASS:
                                         "name": "U",
                                         "optional": false,
                                         "typeAnnotation": null
-                                      }
+                                      },
+                                      "typeArguments": null
                                     }
                                   ]
                                 }
                               }
                             },
-                            "init": null
+                            "init": null,
+                            "definite": false
                           }
                         ],
-                        "declare": false,
-                        "kind": "var"
+                        "declare": false
                       },
                       {
                         "type": "VariableDeclaration",
                         "start": 204,
                         "end": 223,
+                        "kind": "var",
                         "declarations": [
                           {
                             "type": "VariableDeclarator",
                             "start": 208,
                             "end": 222,
-                            "definite": false,
                             "id": {
                               "type": "Identifier",
                               "start": 208,
@@ -170,7 +356,6 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 216,
                                   "end": 222,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 216,
@@ -179,21 +364,21 @@ __ESTREE_TEST__:PASS:
                                     "name": "Bottom",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 }
                               }
                             },
-                            "init": null
+                            "init": null,
+                            "definite": false
                           }
                         ],
-                        "declare": false,
-                        "kind": "var"
+                        "declare": false
                       },
                       {
                         "type": "ExpressionStatement",
                         "start": 237,
                         "end": 250,
-                        "directive": null,
                         "expression": {
                           "type": "AssignmentExpression",
                           "start": 237,
@@ -217,13 +402,13 @@ __ESTREE_TEST__:PASS:
                             "optional": false,
                             "typeAnnotation": null
                           }
-                        }
+                        },
+                        "directive": null
                       },
                       {
                         "type": "ExpressionStatement",
                         "start": 263,
                         "end": 279,
-                        "directive": null,
                         "expression": {
                           "type": "AssignmentExpression",
                           "start": 263,
@@ -247,13 +432,13 @@ __ESTREE_TEST__:PASS:
                             "optional": false,
                             "typeAnnotation": null
                           }
-                        }
+                        },
+                        "directive": null
                       },
                       {
                         "type": "ExpressionStatement",
                         "start": 292,
                         "end": 305,
-                        "directive": null,
                         "expression": {
                           "type": "AssignmentExpression",
                           "start": 292,
@@ -277,205 +462,20 @@ __ESTREE_TEST__:PASS:
                             "optional": false,
                             "typeAnnotation": null
                           }
-                        }
+                        },
+                        "directive": null
                       }
                     ]
                   },
-                  "declare": false,
-                  "expression": false,
-                  "generator": false,
-                  "id": {
-                    "type": "Identifier",
-                    "start": 95,
-                    "end": 108,
-                    "decorators": [],
-                    "name": "diamondBottom",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "params": [],
-                  "returnType": null,
-                  "typeParameters": {
-                    "type": "TSTypeParameterDeclaration",
-                    "start": 108,
-                    "end": 130,
-                    "params": [
-                      {
-                        "type": "TSTypeParameter",
-                        "start": 109,
-                        "end": 129,
-                        "const": false,
-                        "constraint": {
-                          "type": "TSUnionType",
-                          "start": 124,
-                          "end": 129,
-                          "types": [
-                            {
-                              "type": "TSTypeReference",
-                              "start": 124,
-                              "end": 125,
-                              "typeArguments": null,
-                              "typeName": {
-                                "type": "Identifier",
-                                "start": 124,
-                                "end": 125,
-                                "decorators": [],
-                                "name": "T",
-                                "optional": false,
-                                "typeAnnotation": null
-                              }
-                            },
-                            {
-                              "type": "TSTypeReference",
-                              "start": 128,
-                              "end": 129,
-                              "typeArguments": null,
-                              "typeName": {
-                                "type": "Identifier",
-                                "start": 128,
-                                "end": 129,
-                                "decorators": [],
-                                "name": "U",
-                                "optional": false,
-                                "typeAnnotation": null
-                              }
-                            }
-                          ]
-                        },
-                        "default": null,
-                        "in": false,
-                        "name": {
-                          "type": "Identifier",
-                          "start": 109,
-                          "end": 115,
-                          "decorators": [],
-                          "name": "Bottom",
-                          "optional": false,
-                          "typeAnnotation": null
-                        },
-                        "out": false
-                      }
-                    ]
-                  }
+                  "expression": false
                 }
               ]
             },
-            "declare": false,
-            "expression": false,
-            "generator": false,
-            "id": {
-              "type": "Identifier",
-              "start": 42,
-              "end": 55,
-              "decorators": [],
-              "name": "diamondMiddle",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "params": [],
-            "returnType": null,
-            "typeParameters": {
-              "type": "TSTypeParameterDeclaration",
-              "start": 55,
-              "end": 73,
-              "params": [
-                {
-                  "type": "TSTypeParameter",
-                  "start": 56,
-                  "end": 69,
-                  "const": false,
-                  "constraint": {
-                    "type": "TSTypeReference",
-                    "start": 66,
-                    "end": 69,
-                    "typeArguments": null,
-                    "typeName": {
-                      "type": "Identifier",
-                      "start": 66,
-                      "end": 69,
-                      "decorators": [],
-                      "name": "Top",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  },
-                  "default": null,
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 56,
-                    "end": 57,
-                    "decorators": [],
-                    "name": "T",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 71,
-                  "end": 72,
-                  "const": false,
-                  "constraint": null,
-                  "default": null,
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 71,
-                    "end": 72,
-                    "decorators": [],
-                    "name": "U",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                }
-              ]
-            }
+            "expression": false
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 19,
-        "decorators": [],
-        "name": "diamondTop",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": {
-        "type": "TSTypeParameterDeclaration",
-        "start": 19,
-        "end": 24,
-        "params": [
-          {
-            "type": "TSTypeParameter",
-            "start": 20,
-            "end": 23,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 20,
-              "end": 23,
-              "decorators": [],
-              "name": "Top",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          }
-        ]
-      }
+      "expression": false
     }
   ],
   "sourceType": "script",

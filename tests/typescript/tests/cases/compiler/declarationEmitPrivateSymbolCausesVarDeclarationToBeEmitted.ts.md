@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 29,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 6,
           "end": 28,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
@@ -28,15 +28,6 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 14,
             "end": 28,
-            "arguments": [
-              {
-                "type": "Literal",
-                "start": 21,
-                "end": 27,
-                "raw": "'data'",
-                "value": "data"
-              }
-            ],
             "callee": {
               "type": "Identifier",
               "start": 14,
@@ -46,66 +37,31 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 21,
+                "end": 27,
+                "value": "data",
+                "raw": "'data'"
+              }
+            ],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 31,
       "end": 79,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 38,
         "end": 79,
-        "abstract": false,
-        "body": {
-          "type": "ClassBody",
-          "start": 49,
-          "end": 79,
-          "body": [
-            {
-              "type": "PropertyDefinition",
-              "start": 55,
-              "end": 77,
-              "accessibility": "private",
-              "computed": true,
-              "declare": false,
-              "decorators": [],
-              "definite": false,
-              "key": {
-                "type": "Identifier",
-                "start": 64,
-                "end": 69,
-                "decorators": [],
-                "name": "_data",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "override": false,
-              "readonly": false,
-              "static": false,
-              "typeAnnotation": {
-                "type": "TSTypeAnnotation",
-                "start": 71,
-                "end": 76,
-                "typeAnnotation": {
-                  "type": "TSAnyKeyword",
-                  "start": 73,
-                  "end": 76
-                }
-              },
-              "value": null
-            }
-          ]
-        },
-        "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
@@ -116,14 +72,58 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "implements": [],
+        "typeParameters": null,
         "superClass": null,
         "superTypeArguments": null,
-        "typeParameters": null
+        "implements": [],
+        "body": {
+          "type": "ClassBody",
+          "start": 49,
+          "end": 79,
+          "body": [
+            {
+              "type": "PropertyDefinition",
+              "start": 55,
+              "end": 77,
+              "decorators": [],
+              "key": {
+                "type": "Identifier",
+                "start": 64,
+                "end": 69,
+                "decorators": [],
+                "name": "_data",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeAnnotation": {
+                "type": "TSTypeAnnotation",
+                "start": 71,
+                "end": 76,
+                "typeAnnotation": {
+                  "type": "TSAnyKeyword",
+                  "start": 73,
+                  "end": 76
+                }
+              },
+              "value": null,
+              "computed": true,
+              "static": false,
+              "declare": false,
+              "override": false,
+              "optional": false,
+              "definite": false,
+              "readonly": false,
+              "accessibility": "private"
+            }
+          ]
+        },
+        "abstract": false,
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "EmptyStatement",

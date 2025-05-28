@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 312,
       "end": 324,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "\"h\""
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 325,
       "end": 444,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -67,21 +68,17 @@
                       "type": "MethodDefinition",
                       "start": 353,
                       "end": 418,
-                      "static": false,
-                      "computed": false,
                       "key": {
                         "type": "Identifier",
                         "start": 377,
                         "end": 378,
                         "name": "f"
                       },
-                      "kind": "method",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 387,
                         "end": 418,
                         "id": null,
-                        "expression": false,
                         "generator": true,
                         "async": true,
                         "params": [],
@@ -90,8 +87,12 @@
                           "start": 407,
                           "end": 418,
                           "body": []
-                        }
-                      }
+                        },
+                        "expression": false
+                      },
+                      "kind": "method",
+                      "computed": false,
+                      "static": false
                     }
                   ]
                 }
@@ -102,8 +103,8 @@
                 "end": 441,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -111,17 +112,17 @@
               "end": 443,
               "name": "f"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 445,
       "end": 586,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -156,8 +157,6 @@
                       "type": "MethodDefinition",
                       "start": 473,
                       "end": 560,
-                      "static": false,
-                      "computed": true,
                       "key": {
                         "type": "Literal",
                         "start": 507,
@@ -165,13 +164,11 @@
                         "value": "g",
                         "raw": "\"g\""
                       },
-                      "kind": "method",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 529,
                         "end": 560,
                         "id": null,
-                        "expression": false,
                         "generator": true,
                         "async": true,
                         "params": [],
@@ -180,8 +177,12 @@
                           "start": 549,
                           "end": 560,
                           "body": []
-                        }
-                      }
+                        },
+                        "expression": false
+                      },
+                      "kind": "method",
+                      "computed": true,
+                      "static": false
                     }
                   ]
                 }
@@ -192,8 +193,8 @@
                 "end": 583,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -201,17 +202,17 @@
               "end": 585,
               "name": "g"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 587,
       "end": 726,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -246,21 +247,17 @@
                       "type": "MethodDefinition",
                       "start": 615,
                       "end": 700,
-                      "static": false,
-                      "computed": true,
                       "key": {
                         "type": "Identifier",
                         "start": 649,
                         "end": 650,
                         "name": "x"
                       },
-                      "kind": "method",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 669,
                         "end": 700,
                         "id": null,
-                        "expression": false,
                         "generator": true,
                         "async": true,
                         "params": [],
@@ -269,8 +266,12 @@
                           "start": 689,
                           "end": 700,
                           "body": []
-                        }
-                      }
+                        },
+                        "expression": false
+                      },
+                      "kind": "method",
+                      "computed": true,
+                      "static": false
                     }
                   ]
                 }
@@ -281,8 +282,8 @@
                 "end": 723,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -290,12 +291,11 @@
               "end": 725,
               "name": "h"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",

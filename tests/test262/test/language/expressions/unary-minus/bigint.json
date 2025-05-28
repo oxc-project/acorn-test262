@@ -27,8 +27,8 @@
             "end": 467,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,7 +36,6 @@
             "start": 468,
             "end": 471,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 469,
@@ -44,7 +43,8 @@
               "value": null,
               "raw": "0n",
               "bigint": "0"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -89,8 +89,8 @@
             "end": 508,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -98,7 +98,6 @@
             "start": 509,
             "end": 514,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "ParenthesizedExpression",
               "start": 510,
@@ -111,7 +110,8 @@
                 "raw": "0n",
                 "bigint": "0"
               }
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -156,8 +156,8 @@
             "end": 556,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -165,7 +165,6 @@
             "start": 557,
             "end": 560,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 558,
@@ -173,7 +172,8 @@
               "value": null,
               "raw": "1n",
               "bigint": "1"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -218,8 +218,8 @@
             "end": 597,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -227,7 +227,6 @@
             "start": 598,
             "end": 603,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "ParenthesizedExpression",
               "start": 599,
@@ -240,14 +239,14 @@
                 "raw": "1n",
                 "bigint": "1"
               }
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 605,
             "end": 608,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 606,
@@ -255,7 +254,8 @@
               "value": null,
               "raw": "1n",
               "bigint": "1"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -292,8 +292,8 @@
             "end": 647,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -301,7 +301,6 @@
             "start": 648,
             "end": 653,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "ParenthesizedExpression",
               "start": 649,
@@ -314,7 +313,8 @@
                 "raw": "1n",
                 "bigint": "1"
               }
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -359,8 +359,8 @@
             "end": 692,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -368,7 +368,6 @@
             "start": 693,
             "end": 699,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "ParenthesizedExpression",
               "start": 694,
@@ -378,7 +377,6 @@
                 "start": 695,
                 "end": 698,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 696,
@@ -386,9 +384,11 @@
                   "value": null,
                   "raw": "1n",
                   "bigint": "1"
-                }
+                },
+                "prefix": true
               }
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -433,8 +433,8 @@
             "end": 742,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -442,7 +442,6 @@
             "start": 743,
             "end": 749,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "ParenthesizedExpression",
               "start": 744,
@@ -452,7 +451,6 @@
                 "start": 745,
                 "end": 748,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 746,
@@ -460,16 +458,17 @@
                   "value": null,
                   "raw": "1n",
                   "bigint": "1"
-                }
+                },
+                "prefix": true
               }
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 751,
             "end": 754,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 752,
@@ -477,7 +476,8 @@
               "value": null,
               "raw": "1n",
               "bigint": "1"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -514,8 +514,8 @@
             "end": 791,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -523,13 +523,11 @@
             "start": 792,
             "end": 798,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "UnaryExpression",
               "start": 794,
               "end": 798,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 796,
@@ -537,8 +535,10 @@
                 "value": null,
                 "raw": "1n",
                 "bigint": "1"
-              }
-            }
+              },
+              "prefix": true
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -583,8 +583,8 @@
             "end": 841,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -592,13 +592,11 @@
             "start": 842,
             "end": 848,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "UnaryExpression",
               "start": 844,
               "end": 848,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 846,
@@ -606,15 +604,16 @@
                 "value": null,
                 "raw": "1n",
                 "bigint": "1"
-              }
-            }
+              },
+              "prefix": true
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 850,
             "end": 853,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 851,
@@ -622,7 +621,8 @@
               "value": null,
               "raw": "1n",
               "bigint": "1"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -659,8 +659,8 @@
             "end": 890,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -668,7 +668,6 @@
             "start": 894,
             "end": 916,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "ParenthesizedExpression",
               "start": 895,
@@ -681,14 +680,14 @@
                 "raw": "0x1fffffffffffff01n",
                 "bigint": "0x1fffffffffffff01"
               }
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 918,
             "end": 938,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 919,
@@ -696,7 +695,8 @@
               "value": null,
               "raw": "0x1fffffffffffff01n",
               "bigint": "0x1fffffffffffff01"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -733,8 +733,8 @@
             "end": 1013,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -742,7 +742,6 @@
             "start": 1017,
             "end": 1039,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "ParenthesizedExpression",
               "start": 1018,
@@ -755,7 +754,8 @@
                 "raw": "0x1fffffffffffff01n",
                 "bigint": "0x1fffffffffffff01"
               }
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -800,8 +800,8 @@
             "end": 1134,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -809,7 +809,6 @@
             "start": 1138,
             "end": 1160,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "ParenthesizedExpression",
               "start": 1139,
@@ -822,14 +821,14 @@
                 "raw": "0x1fffffffffffff01n",
                 "bigint": "0x1fffffffffffff01"
               }
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 1162,
             "end": 1182,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1163,
@@ -837,7 +836,8 @@
               "value": null,
               "raw": "0x1fffffffffffff00n",
               "bigint": "0x1fffffffffffff00"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

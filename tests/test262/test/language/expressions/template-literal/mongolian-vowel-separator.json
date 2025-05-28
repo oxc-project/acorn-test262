@@ -27,15 +27,14 @@
             "end": 969,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "TemplateLiteral",
             "start": 970,
             "end": 973,
-            "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -47,7 +46,8 @@
                 },
                 "tail": true
               }
-            ]
+            ],
+            "expressions": []
           },
           {
             "type": "Literal",

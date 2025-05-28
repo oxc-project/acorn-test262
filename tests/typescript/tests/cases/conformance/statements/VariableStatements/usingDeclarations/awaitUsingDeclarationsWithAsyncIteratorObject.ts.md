@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 51,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 14,
           "end": 50,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
@@ -30,6 +30,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 18,
                 "end": 50,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 18,
+                  "end": 31,
+                  "decorators": [],
+                  "name": "AsyncIterator",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 31,
@@ -46,35 +55,26 @@ __ESTREE_TEST__:PASS:
                       "end": 49
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 18,
-                  "end": 31,
-                  "decorators": [],
-                  "name": "AsyncIterator",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
       "start": 52,
       "end": 119,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 66,
           "end": 118,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 66,
@@ -90,6 +90,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 71,
                 "end": 118,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 71,
+                  "end": 90,
+                  "decorators": [],
+                  "name": "AsyncIteratorObject",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 90,
@@ -111,35 +120,26 @@ __ESTREE_TEST__:PASS:
                       "end": 117
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 71,
-                  "end": 90,
-                  "decorators": [],
-                  "name": "AsyncIteratorObject",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
       "start": 120,
       "end": 167,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 134,
           "end": 166,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 134,
@@ -155,6 +155,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 138,
                 "end": 166,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 138,
+                  "end": 152,
+                  "decorators": [],
+                  "name": "AsyncGenerator",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 152,
@@ -171,30 +180,35 @@ __ESTREE_TEST__:PASS:
                       "end": 165
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 138,
-                  "end": 152,
-                  "decorators": [],
-                  "name": "AsyncGenerator",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     },
     {
       "type": "FunctionDeclaration",
       "start": 169,
       "end": 309,
+      "id": {
+        "type": "Identifier",
+        "start": 184,
+        "end": 185,
+        "decorators": [],
+        "name": "f",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": true,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 188,
@@ -204,12 +218,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 213,
             "end": 235,
+            "kind": "await using",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 225,
                 "end": 234,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 225,
@@ -227,22 +241,22 @@ __ESTREE_TEST__:PASS:
                   "name": "aio",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "await using"
+            "declare": false
           },
           {
             "type": "VariableDeclaration",
             "start": 240,
             "end": 261,
+            "kind": "await using",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 252,
                 "end": 260,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 252,
@@ -260,22 +274,22 @@ __ESTREE_TEST__:PASS:
                   "name": "ag",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "await using"
+            "declare": false
           },
           {
             "type": "VariableDeclaration",
             "start": 286,
             "end": 307,
+            "kind": "await using",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 298,
                 "end": 306,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 298,
@@ -293,29 +307,15 @@ __ESTREE_TEST__:PASS:
                   "name": "ai",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "await using"
+            "declare": false
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 184,
-        "end": 185,
-        "decorators": [],
-        "name": "f",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

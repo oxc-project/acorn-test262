@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 24,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 6,
           "end": 23,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
@@ -28,19 +28,8 @@ __ESTREE_TEST__:PASS:
             "type": "ClassExpression",
             "start": 12,
             "end": 23,
-            "abstract": false,
-            "body": {
-              "type": "ClassBody",
-              "start": 21,
-              "end": 23,
-              "body": []
-            },
-            "declare": false,
             "decorators": [],
             "id": null,
-            "implements": [],
-            "superClass": null,
-            "superTypeArguments": null,
             "typeParameters": {
               "type": "TSTypeParameterDeclaration",
               "start": 17,
@@ -50,10 +39,6 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeParameter",
                   "start": 18,
                   "end": 19,
-                  "const": false,
-                  "constraint": null,
-                  "default": null,
-                  "in": false,
                   "name": {
                     "type": "Identifier",
                     "start": 18,
@@ -63,15 +48,30 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "out": false
+                  "constraint": null,
+                  "default": null,
+                  "in": false,
+                  "out": false,
+                  "const": false
                 }
               ]
-            }
-          }
+            },
+            "superClass": null,
+            "superTypeArguments": null,
+            "implements": [],
+            "body": {
+              "type": "ClassBody",
+              "start": 21,
+              "end": 23,
+              "body": []
+            },
+            "abstract": false,
+            "declare": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "script",

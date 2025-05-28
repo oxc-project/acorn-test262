@@ -9,46 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 28,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 8,
-        "end": 28,
-        "body": [
-          {
-            "type": "PropertyDefinition",
-            "start": 14,
-            "end": 26,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
-            "key": {
-              "type": "Identifier",
-              "start": 21,
-              "end": 22,
-              "decorators": [],
-              "name": "f",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": true,
-            "typeAnnotation": null,
-            "value": {
-              "type": "Literal",
-              "start": 25,
-              "end": 26,
-              "raw": "1",
-              "value": 1
-            }
-          }
-        ]
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -59,61 +19,55 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 8,
+        "end": 28,
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "start": 14,
+            "end": 26,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 21,
+              "end": 22,
+              "decorators": [],
+              "name": "f",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeAnnotation": null,
+            "value": {
+              "type": "Literal",
+              "start": 25,
+              "end": 26,
+              "value": 1,
+              "raw": "1"
+            },
+            "computed": false,
+            "static": true,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
+          }
+        ]
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 30,
       "end": 75,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 48,
-        "end": 75,
-        "body": [
-          {
-            "type": "PropertyDefinition",
-            "start": 54,
-            "end": 73,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
-            "key": {
-              "type": "Identifier",
-              "start": 61,
-              "end": 62,
-              "decorators": [],
-              "name": "c",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": true,
-            "typeAnnotation": null,
-            "value": {
-              "type": "CallExpression",
-              "start": 65,
-              "end": 72,
-              "arguments": [],
-              "callee": {
-                "type": "Super",
-                "start": 65,
-                "end": 70
-              },
-              "optional": false,
-              "typeArguments": null
-            }
-          }
-        ]
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -124,7 +78,7 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": {
         "type": "Identifier",
         "start": 46,
@@ -135,7 +89,53 @@ __ESTREE_TEST__:PASS:
         "typeAnnotation": null
       },
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 48,
+        "end": 75,
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "start": 54,
+            "end": 73,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 61,
+              "end": 62,
+              "decorators": [],
+              "name": "c",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeAnnotation": null,
+            "value": {
+              "type": "CallExpression",
+              "start": 65,
+              "end": 72,
+              "callee": {
+                "type": "Super",
+                "start": 65,
+                "end": 70
+              },
+              "typeArguments": null,
+              "arguments": [],
+              "optional": false
+            },
+            "computed": false,
+            "static": true,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
+          }
+        ]
+      },
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

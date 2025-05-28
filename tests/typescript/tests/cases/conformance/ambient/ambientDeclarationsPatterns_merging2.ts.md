@@ -9,7 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 52,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 22,
+        "value": "*.foo",
+        "raw": "\"*.foo\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 23,
@@ -19,12 +25,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 27,
             "end": 50,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 31,
                 "end": 49,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 31,
@@ -43,23 +49,17 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "declare": false
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 22,
-        "raw": "\"*.foo\"",
-        "value": "*.foo"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -77,14 +77,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 57,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 49,
-        "end": 56,
-        "raw": "\"a.foo\"",
-        "value": "a.foo"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -99,7 +91,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
@@ -108,7 +99,8 @@ __ESTREE_TEST__:PASS:
             "name": "everywhere",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         },
         {
           "type": "ImportSpecifier",
@@ -123,7 +115,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 21,
@@ -132,7 +123,8 @@ __ESTREE_TEST__:PASS:
             "name": "onlyInA",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         },
         {
           "type": "ImportSpecifier",
@@ -147,7 +139,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 30,
@@ -156,17 +147,32 @@ __ESTREE_TEST__:PASS:
             "name": "alsoOnlyInA",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 49,
+        "end": 56,
+        "value": "a.foo",
+        "raw": "\"a.foo\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "TSModuleDeclaration",
       "start": 58,
       "end": 107,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 73,
+        "end": 80,
+        "value": "a.foo",
+        "raw": "\"a.foo\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 81,
@@ -176,12 +182,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 85,
             "end": 105,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 89,
                 "end": 104,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 89,
@@ -200,23 +206,17 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "declare": false
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 73,
-        "end": 80,
-        "raw": "\"a.foo\"",
-        "value": "a.foo"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -234,14 +234,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 57,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 49,
-        "end": 56,
-        "raw": "\"b.foo\"",
-        "value": "b.foo"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -256,7 +248,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
@@ -265,7 +256,8 @@ __ESTREE_TEST__:PASS:
             "name": "everywhere",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         },
         {
           "type": "ImportSpecifier",
@@ -280,7 +272,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 21,
@@ -289,7 +280,8 @@ __ESTREE_TEST__:PASS:
             "name": "onlyInA",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         },
         {
           "type": "ImportSpecifier",
@@ -304,7 +296,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 30,
@@ -313,17 +304,32 @@ __ESTREE_TEST__:PASS:
             "name": "alsoOnlyInA",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 49,
+        "end": 56,
+        "value": "b.foo",
+        "raw": "\"b.foo\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "TSModuleDeclaration",
       "start": 67,
       "end": 120,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 82,
+        "end": 89,
+        "value": "a.foo",
+        "raw": "\"a.foo\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 90,
@@ -333,12 +339,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 94,
             "end": 118,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 98,
                 "end": 117,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 98,
@@ -357,23 +363,17 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "declare": false
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 82,
-        "end": 89,
-        "raw": "\"a.foo\"",
-        "value": "a.foo"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",

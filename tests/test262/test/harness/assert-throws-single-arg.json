@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 227,
       "end": 245,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "false"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "TryStatement",
@@ -62,8 +62,8 @@
                   "end": 268,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -71,7 +71,6 @@
                   "start": 269,
                   "end": 282,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -80,7 +79,8 @@
                     "start": 280,
                     "end": 282,
                     "body": []
-                  }
+                  },
+                  "expression": false
                 }
               ],
               "optional": false
@@ -151,8 +151,8 @@
                     "end": 337,
                     "name": "constructor"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "operator": "!==",
                 "right": {
@@ -218,8 +218,8 @@
                                   "end": 437,
                                   "name": "constructor"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "property": {
                                 "type": "Identifier",
@@ -227,8 +227,8 @@
                                 "end": 442,
                                 "name": "name"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             }
                           },
                           "operator": "+",

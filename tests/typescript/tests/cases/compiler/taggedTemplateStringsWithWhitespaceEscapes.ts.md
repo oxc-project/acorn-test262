@@ -9,16 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 30,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 27,
-        "end": 30,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -28,11 +18,16 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "RestElement",
           "start": 11,
           "end": 25,
+          "decorators": [],
           "argument": {
             "type": "Identifier",
             "start": 14,
@@ -42,7 +37,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "decorators": [],
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
@@ -63,35 +57,22 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 27,
+        "end": 30,
+        "body": []
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
       "start": 32,
       "end": 49,
-      "directive": null,
       "expression": {
         "type": "TaggedTemplateExpression",
         "start": 32,
         "end": 48,
-        "quasi": {
-          "type": "TemplateLiteral",
-          "start": 34,
-          "end": 48,
-          "expressions": [],
-          "quasis": [
-            {
-              "type": "TemplateElement",
-              "start": 34,
-              "end": 48,
-              "tail": true,
-              "value": {
-                "cooked": "\t\n\u000b\f\r\\",
-                "raw": "\\t\\n\\v\\f\\r\\\\"
-              }
-            }
-          ]
-        },
         "tag": {
           "type": "Identifier",
           "start": 32,
@@ -101,8 +82,27 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "quasi": {
+          "type": "TemplateLiteral",
+          "start": 34,
+          "end": 48,
+          "quasis": [
+            {
+              "type": "TemplateElement",
+              "start": 34,
+              "end": 48,
+              "value": {
+                "cooked": "\t\n\u000b\f\r\\",
+                "raw": "\\t\\n\\v\\f\\r\\\\"
+              },
+              "tail": true
+            }
+          ],
+          "expressions": []
+        }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

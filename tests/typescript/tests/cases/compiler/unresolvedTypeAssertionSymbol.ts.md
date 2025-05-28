@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 10,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 9,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,24 +28,24 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 8,
             "end": 9,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 11,
       "end": 27,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 15,
           "end": 26,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 15,
@@ -59,20 +59,10 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeAssertion",
             "start": 19,
             "end": 26,
-            "expression": {
-              "type": "Identifier",
-              "start": 25,
-              "end": 26,
-              "decorators": [],
-              "name": "x",
-              "optional": false,
-              "typeAnnotation": null
-            },
             "typeAnnotation": {
               "type": "TSTypeReference",
               "start": 20,
               "end": 24,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 20,
@@ -81,13 +71,23 @@ __ESTREE_TEST__:PASS:
                 "name": "asdf",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "typeArguments": null
+            },
+            "expression": {
+              "type": "Identifier",
+              "start": 25,
+              "end": 26,
+              "decorators": [],
+              "name": "x",
+              "optional": false,
+              "typeAnnotation": null
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

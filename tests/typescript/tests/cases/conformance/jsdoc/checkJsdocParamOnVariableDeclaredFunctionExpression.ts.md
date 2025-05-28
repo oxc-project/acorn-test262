@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 66,
       "end": 95,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 70,
           "end": 95,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 70,
@@ -28,16 +28,6 @@ __ESTREE_TEST__:PASS:
             "type": "FunctionExpression",
             "start": 74,
             "end": 95,
-            "async": false,
-            "body": {
-              "type": "BlockStatement",
-              "start": 93,
-              "end": 95,
-              "body": []
-            },
-            "declare": false,
-            "expression": false,
-            "generator": false,
             "id": {
               "type": "Identifier",
               "start": 83,
@@ -47,6 +37,10 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
+            "generator": false,
+            "async": false,
+            "declare": false,
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -68,23 +62,29 @@ __ESTREE_TEST__:PASS:
               }
             ],
             "returnType": null,
-            "typeParameters": null
-          }
+            "body": {
+              "type": "BlockStatement",
+              "start": 93,
+              "end": 95,
+              "body": []
+            },
+            "expression": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 96,
       "end": 102,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 100,
           "end": 101,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 100,
@@ -94,17 +94,16 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 134,
       "end": 156,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 134,
@@ -123,16 +122,6 @@ __ESTREE_TEST__:PASS:
           "type": "FunctionExpression",
           "start": 138,
           "end": 156,
-          "async": false,
-          "body": {
-            "type": "BlockStatement",
-            "start": 154,
-            "end": 156,
-            "body": []
-          },
-          "declare": false,
-          "expression": false,
-          "generator": false,
           "id": {
             "type": "Identifier",
             "start": 147,
@@ -142,6 +131,10 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
+          "generator": false,
+          "async": false,
+          "declare": false,
+          "typeParameters": null,
           "params": [
             {
               "type": "Identifier",
@@ -154,20 +147,27 @@ __ESTREE_TEST__:PASS:
             }
           ],
           "returnType": null,
-          "typeParameters": null
+          "body": {
+            "type": "BlockStatement",
+            "start": 154,
+            "end": 156,
+            "body": []
+          },
+          "expression": false
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "VariableDeclaration",
       "start": 187,
       "end": 244,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 191,
           "end": 213,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 191,
@@ -181,17 +181,11 @@ __ESTREE_TEST__:PASS:
             "type": "FunctionExpression",
             "start": 197,
             "end": 213,
-            "async": false,
-            "body": {
-              "type": "BlockStatement",
-              "start": 210,
-              "end": 213,
-              "body": []
-            },
-            "declare": false,
-            "expression": false,
-            "generator": false,
             "id": null,
+            "generator": false,
+            "async": false,
+            "declare": false,
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -204,14 +198,20 @@ __ESTREE_TEST__:PASS:
               }
             ],
             "returnType": null,
-            "typeParameters": null
-          }
+            "body": {
+              "type": "BlockStatement",
+              "start": 210,
+              "end": 213,
+              "body": []
+            },
+            "expression": false
+          },
+          "definite": false
         },
         {
           "type": "VariableDeclarator",
           "start": 215,
           "end": 243,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 215,
@@ -225,17 +225,11 @@ __ESTREE_TEST__:PASS:
             "type": "FunctionExpression",
             "start": 221,
             "end": 243,
-            "async": false,
-            "body": {
-              "type": "BlockStatement",
-              "start": 240,
-              "end": 243,
-              "body": []
-            },
-            "declare": false,
-            "expression": false,
-            "generator": false,
             "id": null,
+            "generator": false,
+            "async": false,
+            "declare": false,
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -248,12 +242,18 @@ __ESTREE_TEST__:PASS:
               }
             ],
             "returnType": null,
-            "typeParameters": null
-          }
+            "body": {
+              "type": "BlockStatement",
+              "start": 240,
+              "end": 243,
+              "body": []
+            },
+            "expression": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

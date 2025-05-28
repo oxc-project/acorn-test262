@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 355,
       "end": 374,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -32,8 +33,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -70,8 +70,8 @@
               "end": 397,
               "name": "create"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -111,8 +111,8 @@
             "end": 413,
             "name": "aa"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -148,8 +148,8 @@
             "end": 427,
             "name": "ba"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -185,8 +185,8 @@
             "end": 441,
             "name": "ca"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -229,6 +229,7 @@
         "type": "VariableDeclaration",
         "start": 466,
         "end": 475,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -242,8 +243,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -334,8 +334,8 @@
                       "end": 554,
                       "name": "__key"
                     },
-                    "computed": true,
-                    "optional": false
+                    "optional": false,
+                    "computed": true
                   }
                 }
               }
@@ -449,7 +449,6 @@
         "end": 730,
         "name": "erasator_T_1000"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -479,6 +478,7 @@
               "type": "VariableDeclaration",
               "start": 761,
               "end": 768,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -492,8 +492,7 @@
                   },
                   "init": null
                 }
-              ],
-              "kind": "var"
+              ]
             },
             "right": {
               "type": "Identifier",
@@ -534,8 +533,8 @@
                           "end": 806,
                           "name": "indexOf"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -570,7 +569,6 @@
                           "start": 836,
                           "end": 856,
                           "operator": "delete",
-                          "prefix": true,
                           "argument": {
                             "type": "MemberExpression",
                             "start": 843,
@@ -587,9 +585,10 @@
                               "end": 855,
                               "name": "key"
                             },
-                            "computed": true,
-                            "optional": false
-                          }
+                            "optional": false,
+                            "computed": true
+                          },
+                          "prefix": true
                         }
                       }
                     ]
@@ -605,7 +604,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

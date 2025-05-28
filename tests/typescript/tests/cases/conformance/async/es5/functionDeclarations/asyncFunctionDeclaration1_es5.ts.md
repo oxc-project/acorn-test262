@@ -9,16 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 39,
-      "async": true,
-      "body": {
-        "type": "BlockStatement",
-        "start": 36,
-        "end": 39,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 15,
@@ -28,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": true,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
@@ -37,6 +31,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 22,
           "end": 35,
+          "typeName": {
+            "type": "Identifier",
+            "start": 22,
+            "end": 29,
+            "decorators": [],
+            "name": "Promise",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
             "start": 29,
@@ -48,19 +51,16 @@ __ESTREE_TEST__:PASS:
                 "end": 34
               }
             ]
-          },
-          "typeName": {
-            "type": "Identifier",
-            "start": 22,
-            "end": 29,
-            "decorators": [],
-            "name": "Promise",
-            "optional": false,
-            "typeAnnotation": null
           }
         }
       },
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 36,
+        "end": 39,
+        "body": []
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

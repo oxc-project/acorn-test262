@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 572,
       "end": 627,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,9 +28,7 @@
                 "type": "Property",
                 "start": 589,
                 "end": 624,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 589,
@@ -41,7 +40,6 @@
                   "start": 593,
                   "end": 624,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -63,15 +61,17 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -97,56 +97,14 @@
             "end": 645,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "TemplateLiteral",
             "start": 646,
             "end": 676,
-            "expressions": [
-              {
-                "type": "Literal",
-                "start": 649,
-                "end": 650,
-                "value": 0,
-                "raw": "0"
-              },
-              {
-                "type": "Literal",
-                "start": 654,
-                "end": 655,
-                "value": 1,
-                "raw": "1"
-              },
-              {
-                "type": "CallExpression",
-                "start": 659,
-                "end": 670,
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 659,
-                  "end": 668,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 659,
-                    "end": 665,
-                    "name": "object"
-                  },
-                  "property": {
-                    "type": "Identifier",
-                    "start": 666,
-                    "end": 668,
-                    "name": "fn"
-                  },
-                  "computed": false,
-                  "optional": false
-                },
-                "arguments": [],
-                "optional": false
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -187,6 +145,48 @@
                   "cooked": " bar"
                 },
                 "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Literal",
+                "start": 649,
+                "end": 650,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 654,
+                "end": 655,
+                "value": 1,
+                "raw": "1"
+              },
+              {
+                "type": "CallExpression",
+                "start": 659,
+                "end": 670,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 659,
+                  "end": 668,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 659,
+                    "end": 665,
+                    "name": "object"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 666,
+                    "end": 668,
+                    "name": "fn"
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "arguments": [],
+                "optional": false
               }
             ]
           },

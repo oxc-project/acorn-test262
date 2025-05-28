@@ -9,7 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 58,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 20,
+        "value": "mod",
+        "raw": "'mod'"
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 21,
@@ -19,12 +25,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 25,
             "end": 36,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 29,
                 "end": 35,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 29,
@@ -43,11 +49,11 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           },
           {
             "type": "ExportDefaultDeclaration",
@@ -66,15 +72,9 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 20,
-        "raw": "'mod'",
-        "value": "mod"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -92,14 +92,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 23,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 17,
-        "end": 22,
-        "raw": "'mod'",
-        "value": "mod"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -116,19 +108,27 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 17,
+        "end": 22,
+        "value": "mod",
+        "raw": "'mod'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 24,
       "end": 47,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 36,
           "end": 39,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 36,
@@ -138,13 +138,13 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "init": null
+          "init": null,
+          "definite": false
         },
         {
           "type": "VariableDeclarator",
           "start": 41,
           "end": 46,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 41,
@@ -154,37 +154,31 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "ExpressionStatement",
       "start": 92,
       "end": 119,
-      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 92,
         "end": 118,
-        "children": [],
-        "closingElement": {
-          "type": "JSXClosingElement",
-          "start": 112,
-          "end": 118,
-          "name": {
-            "type": "JSXIdentifier",
-            "start": 114,
-            "end": 117,
-            "name": "Foo"
-          }
-        },
         "openingElement": {
           "type": "JSXOpeningElement",
           "start": 92,
           "end": 112,
+          "name": {
+            "type": "JSXIdentifier",
+            "start": 93,
+            "end": 96,
+            "name": "Foo"
+          },
+          "typeArguments": null,
           "attributes": [
             {
               "type": "JSXAttribute",
@@ -212,42 +206,42 @@ __ESTREE_TEST__:PASS:
               }
             }
           ],
+          "selfClosing": false
+        },
+        "children": [],
+        "closingElement": {
+          "type": "JSXClosingElement",
+          "start": 112,
+          "end": 118,
           "name": {
             "type": "JSXIdentifier",
-            "start": 93,
-            "end": 96,
+            "start": 114,
+            "end": 117,
             "name": "Foo"
-          },
-          "selfClosing": false,
-          "typeArguments": null
+          }
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 164,
       "end": 186,
-      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 164,
         "end": 185,
-        "children": [],
-        "closingElement": {
-          "type": "JSXClosingElement",
-          "start": 179,
-          "end": 185,
-          "name": {
-            "type": "JSXIdentifier",
-            "start": 181,
-            "end": 184,
-            "name": "Foo"
-          }
-        },
         "openingElement": {
           "type": "JSXOpeningElement",
           "start": 164,
           "end": 179,
+          "name": {
+            "type": "JSXIdentifier",
+            "start": 165,
+            "end": 168,
+            "name": "Foo"
+          },
+          "typeArguments": null,
           "attributes": [
             {
               "type": "JSXSpreadAttribute",
@@ -264,16 +258,22 @@ __ESTREE_TEST__:PASS:
               }
             }
           ],
+          "selfClosing": false
+        },
+        "children": [],
+        "closingElement": {
+          "type": "JSXClosingElement",
+          "start": 179,
+          "end": 185,
           "name": {
             "type": "JSXIdentifier",
-            "start": 165,
-            "end": 168,
+            "start": 181,
+            "end": 184,
             "name": "Foo"
-          },
-          "selfClosing": false,
-          "typeArguments": null
+          }
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

@@ -9,49 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 37,
-      "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
         "start": 7,
         "end": 37,
-        "body": {
-          "type": "TSInterfaceBody",
-          "start": 19,
-          "end": 37,
-          "body": [
-            {
-              "type": "TSPropertySignature",
-              "start": 25,
-              "end": 35,
-              "accessibility": null,
-              "computed": false,
-              "key": {
-                "type": "Identifier",
-                "start": 25,
-                "end": 26,
-                "decorators": [],
-                "name": "a",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "readonly": false,
-              "static": false,
-              "typeAnnotation": {
-                "type": "TSTypeAnnotation",
-                "start": 26,
-                "end": 34,
-                "typeAnnotation": {
-                  "type": "TSNumberKeyword",
-                  "start": 28,
-                  "end": 34
-                }
-              }
-            }
-          ]
-        },
-        "declare": false,
-        "extends": [],
         "id": {
           "type": "Identifier",
           "start": 17,
@@ -61,59 +22,59 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "typeParameters": null
-      },
-      "exportKind": "type",
-      "source": null,
-      "specifiers": []
-    },
-    {
-      "type": "ExportNamedDeclaration",
-      "start": 38,
-      "end": 75,
-      "attributes": [],
-      "declaration": {
-        "type": "TSInterfaceDeclaration",
-        "start": 45,
-        "end": 75,
+        "typeParameters": null,
+        "extends": [],
         "body": {
           "type": "TSInterfaceBody",
-          "start": 57,
-          "end": 75,
+          "start": 19,
+          "end": 37,
           "body": [
             {
               "type": "TSPropertySignature",
-              "start": 63,
-              "end": 73,
-              "accessibility": null,
+              "start": 25,
+              "end": 35,
               "computed": false,
+              "optional": false,
+              "readonly": false,
               "key": {
                 "type": "Identifier",
-                "start": 63,
-                "end": 64,
+                "start": 25,
+                "end": 26,
                 "decorators": [],
                 "name": "a",
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
-              "readonly": false,
-              "static": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
-                "start": 64,
-                "end": 72,
+                "start": 26,
+                "end": 34,
                 "typeAnnotation": {
                   "type": "TSNumberKeyword",
-                  "start": 66,
-                  "end": 72
+                  "start": 28,
+                  "end": 34
                 }
-              }
+              },
+              "accessibility": null,
+              "static": false
             }
           ]
         },
-        "declare": false,
-        "extends": [],
+        "declare": false
+      },
+      "specifiers": [],
+      "source": null,
+      "exportKind": "type",
+      "attributes": []
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 38,
+      "end": 75,
+      "declaration": {
+        "type": "TSInterfaceDeclaration",
+        "start": 45,
+        "end": 75,
         "id": {
           "type": "Identifier",
           "start": 55,
@@ -123,11 +84,50 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "typeParameters": null
+        "typeParameters": null,
+        "extends": [],
+        "body": {
+          "type": "TSInterfaceBody",
+          "start": 57,
+          "end": 75,
+          "body": [
+            {
+              "type": "TSPropertySignature",
+              "start": 63,
+              "end": 73,
+              "computed": false,
+              "optional": false,
+              "readonly": false,
+              "key": {
+                "type": "Identifier",
+                "start": 63,
+                "end": 64,
+                "decorators": [],
+                "name": "a",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeAnnotation": {
+                "type": "TSTypeAnnotation",
+                "start": 64,
+                "end": 72,
+                "typeAnnotation": {
+                  "type": "TSNumberKeyword",
+                  "start": 66,
+                  "end": 72
+                }
+              },
+              "accessibility": null,
+              "static": false
+            }
+          ]
+        },
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -145,16 +145,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 94,
       "end": 113,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 111,
-        "end": 113,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 103,
@@ -164,6 +154,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -185,7 +179,13 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 111,
+        "end": 113,
+        "body": []
+      },
+      "expression": false
     }
   ],
   "sourceType": "module",

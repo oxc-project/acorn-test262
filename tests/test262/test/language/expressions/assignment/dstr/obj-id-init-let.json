@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 697,
       "end": 703,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -47,8 +47,8 @@
             "end": 718,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -62,7 +62,6 @@
             "start": 735,
             "end": 770,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -101,9 +100,7 @@
                               "type": "Property",
                               "start": 755,
                               "end": 760,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 755,
@@ -127,7 +124,9 @@
                                   "name": "y"
                                 }
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         },
@@ -142,7 +141,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -152,6 +152,7 @@
       "type": "VariableDeclaration",
       "start": 774,
       "end": 780,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -165,8 +166,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "let"
+      ]
     }
   ],
   "sourceType": "script",

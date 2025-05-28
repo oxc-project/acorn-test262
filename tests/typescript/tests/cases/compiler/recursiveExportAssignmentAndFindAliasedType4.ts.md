@@ -18,7 +18,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 14,
@@ -27,10 +26,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 22,
           "end": 76,
-          "raw": "\"recursiveExportAssignmentAndFindAliasedType4_moduleC\"",
-          "value": "recursiveExportAssignmentAndFindAliasedType4_moduleC"
+          "value": "recursiveExportAssignmentAndFindAliasedType4_moduleC",
+          "raw": "\"recursiveExportAssignmentAndFindAliasedType4_moduleC\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSExportAssignment",
@@ -62,14 +62,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 16,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 13,
-        "end": 16,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -80,10 +72,18 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 13,
+        "end": 16,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "TSExportAssignment",
@@ -124,7 +124,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 17,
@@ -133,10 +132,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 25,
           "end": 79,
-          "raw": "\"recursiveExportAssignmentAndFindAliasedType4_moduleC\"",
-          "value": "recursiveExportAssignmentAndFindAliasedType4_moduleC"
+          "value": "recursiveExportAssignmentAndFindAliasedType4_moduleC",
+          "raw": "\"recursiveExportAssignmentAndFindAliasedType4_moduleC\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -151,7 +151,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 98,
@@ -160,26 +159,26 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 106,
           "end": 160,
-          "raw": "\"recursiveExportAssignmentAndFindAliasedType4_moduleB\"",
-          "value": "recursiveExportAssignmentAndFindAliasedType4_moduleB"
+          "value": "recursiveExportAssignmentAndFindAliasedType4_moduleB",
+          "raw": "\"recursiveExportAssignmentAndFindAliasedType4_moduleB\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 163,
       "end": 184,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 170,
         "end": 184,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 174,
             "end": 183,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 174,
@@ -195,7 +194,6 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 177,
                   "end": 183,
-                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 177,
@@ -204,19 +202,21 @@ __ESTREE_TEST__:PASS:
                     "name": "ClassB",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "typeArguments": null
                 }
               }
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

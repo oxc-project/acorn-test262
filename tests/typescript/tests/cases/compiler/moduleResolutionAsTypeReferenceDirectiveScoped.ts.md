@@ -9,17 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 27,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 27,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 13,
             "end": 26,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 13,
@@ -38,15 +37,16 @@ __ESTREE_TEST__:PASS:
                 }
               }
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -64,17 +64,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 32,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 32,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 13,
             "end": 31,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 13,
@@ -93,15 +92,16 @@ __ESTREE_TEST__:PASS:
                 }
               }
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -119,17 +119,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 34,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 34,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 13,
             "end": 33,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 13,
@@ -148,15 +147,16 @@ __ESTREE_TEST__:PASS:
                 }
               }
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -174,17 +174,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 38,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 38,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 13,
             "end": 37,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 13,
@@ -203,15 +202,16 @@ __ESTREE_TEST__:PASS:
                 }
               }
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -229,17 +229,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 40,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 40,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 13,
             "end": 39,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 13,
@@ -258,15 +257,16 @@ __ESTREE_TEST__:PASS:
                 }
               }
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -284,17 +284,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 34,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 34,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 13,
             "end": 33,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 13,
@@ -313,15 +312,16 @@ __ESTREE_TEST__:PASS:
                 }
               }
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -339,17 +339,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 41,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 41,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 13,
             "end": 40,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 13,
@@ -368,15 +367,16 @@ __ESTREE_TEST__:PASS:
                 }
               }
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -394,14 +394,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 48,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 27,
-        "end": 47,
-        "raw": "\"@scoped/typescache\"",
-        "value": "@scoped/typescache"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -416,7 +408,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
@@ -425,24 +416,25 @@ __ESTREE_TEST__:PASS:
             "name": "typesCache",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 27,
+        "end": 47,
+        "value": "@scoped/typescache",
+        "raw": "\"@scoped/typescache\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 49,
       "end": 100,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 78,
-        "end": 99,
-        "raw": "\"@mangled/typescache\"",
-        "value": "@mangled/typescache"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -457,7 +449,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 58,
@@ -466,24 +457,25 @@ __ESTREE_TEST__:PASS:
             "name": "mangledTypes",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 78,
+        "end": 99,
+        "value": "@mangled/typescache",
+        "raw": "\"@mangled/typescache\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 101,
       "end": 161,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 134,
-        "end": 160,
-        "raw": "\"@scoped/nodemodulescache\"",
-        "value": "@scoped/nodemodulescache"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -498,7 +490,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 110,
@@ -507,24 +498,25 @@ __ESTREE_TEST__:PASS:
             "name": "nodeModulesCache",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 134,
+        "end": 160,
+        "value": "@scoped/nodemodulescache",
+        "raw": "\"@scoped/nodemodulescache\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 162,
       "end": 225,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 197,
-        "end": 224,
-        "raw": "\"@mangled/nodemodulescache\"",
-        "value": "@mangled/nodemodulescache"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -539,7 +531,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 171,
@@ -548,24 +539,25 @@ __ESTREE_TEST__:PASS:
             "name": "mangledNodeModules",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 197,
+        "end": 224,
+        "value": "@mangled/nodemodulescache",
+        "raw": "\"@mangled/nodemodulescache\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 226,
       "end": 278,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 255,
-        "end": 277,
-        "raw": "\"@scoped/attypescache\"",
-        "value": "@scoped/attypescache"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -580,7 +572,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 235,
@@ -589,24 +580,25 @@ __ESTREE_TEST__:PASS:
             "name": "atTypesCache",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 255,
+        "end": 277,
+        "value": "@scoped/attypescache",
+        "raw": "\"@scoped/attypescache\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 279,
       "end": 339,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 315,
-        "end": 338,
-        "raw": "\"@mangled/attypescache\"",
-        "value": "@mangled/attypescache"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -621,7 +613,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 288,
@@ -630,11 +621,20 @@ __ESTREE_TEST__:PASS:
             "name": "mangledAtTypesCache",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 315,
+        "end": 338,
+        "value": "@mangled/attypescache",
+        "raw": "\"@mangled/attypescache\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

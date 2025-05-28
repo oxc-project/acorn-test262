@@ -82,6 +82,7 @@
       "type": "VariableDeclaration",
       "start": 488,
       "end": 506,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -101,8 +102,7 @@
             "raw": "false"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "TryStatement",
@@ -239,8 +239,8 @@
                     "end": 600,
                     "name": "constructor"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "operator": "!==",
                 "right": {
@@ -306,8 +306,8 @@
                                   "end": 700,
                                   "name": "constructor"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "property": {
                                 "type": "Identifier",
@@ -315,8 +315,8 @@
                                 "end": 705,
                                 "name": "name"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             }
                           },
                           "operator": "+",

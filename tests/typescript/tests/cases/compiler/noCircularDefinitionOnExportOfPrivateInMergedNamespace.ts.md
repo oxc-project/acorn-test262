@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 15,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 6,
           "end": 14,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
@@ -28,26 +28,18 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 12,
             "end": 14,
-            "raw": "12",
-            "value": 12
-          }
+            "value": 12,
+            "raw": "12"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 16,
       "end": 28,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 26,
-        "end": 28,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -58,10 +50,18 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 26,
+        "end": 28,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "TSExportAssignment",
@@ -81,50 +81,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 43,
       "end": 88,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 65,
-        "end": 88,
-        "body": [
-          {
-            "type": "ExportNamedDeclaration",
-            "start": 71,
-            "end": 86,
-            "attributes": [],
-            "declaration": null,
-            "exportKind": "value",
-            "source": null,
-            "specifiers": [
-              {
-                "type": "ExportSpecifier",
-                "start": 80,
-                "end": 83,
-                "exported": {
-                  "type": "Identifier",
-                  "start": 80,
-                  "end": 83,
-                  "decorators": [],
-                  "name": "cat",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "exportKind": "value",
-                "local": {
-                  "type": "Identifier",
-                  "start": 80,
-                  "end": 83,
-                  "decorators": [],
-                  "name": "cat",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            ]
-          }
-        ]
-      },
-      "declare": true,
-      "global": false,
       "id": {
         "type": "Identifier",
         "start": 61,
@@ -134,7 +90,51 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "namespace"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 65,
+        "end": 88,
+        "body": [
+          {
+            "type": "ExportNamedDeclaration",
+            "start": 71,
+            "end": 86,
+            "declaration": null,
+            "specifiers": [
+              {
+                "type": "ExportSpecifier",
+                "start": 80,
+                "end": 83,
+                "local": {
+                  "type": "Identifier",
+                  "start": 80,
+                  "end": 83,
+                  "decorators": [],
+                  "name": "cat",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "exported": {
+                  "type": "Identifier",
+                  "start": 80,
+                  "end": 83,
+                  "decorators": [],
+                  "name": "cat",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "exportKind": "value"
+              }
+            ],
+            "source": null,
+            "exportKind": "value",
+            "attributes": []
+          }
+        ]
+      },
+      "kind": "namespace",
+      "declare": true,
+      "global": false
     }
   ],
   "sourceType": "module",

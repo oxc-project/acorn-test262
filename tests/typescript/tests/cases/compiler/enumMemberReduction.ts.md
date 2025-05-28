@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSEnumDeclaration",
       "start": 0,
       "end": 30,
+      "id": {
+        "type": "Identifier",
+        "start": 5,
+        "end": 11,
+        "decorators": [],
+        "name": "MyEnum",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSEnumBody",
         "start": 12,
@@ -18,7 +27,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 16,
             "end": 17,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 16,
@@ -28,13 +36,13 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 21,
             "end": 22,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 21,
@@ -44,13 +52,13 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 26,
             "end": 27,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 26,
@@ -60,26 +68,27 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           }
         ]
       },
       "const": false,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 5,
-        "end": 11,
-        "decorators": [],
-        "name": "MyEnum",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      "declare": false
     },
     {
       "type": "TSEnumDeclaration",
       "start": 32,
       "end": 86,
+      "id": {
+        "type": "Identifier",
+        "start": 37,
+        "end": 49,
+        "decorators": [],
+        "name": "MyStringEnum",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSEnumBody",
         "start": 50,
@@ -89,7 +98,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 54,
             "end": 61,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 54,
@@ -103,15 +111,15 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 58,
               "end": 61,
-              "raw": "\"a\"",
-              "value": "a"
-            }
+              "value": "a",
+              "raw": "\"a\""
+            },
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 65,
             "end": 72,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 65,
@@ -125,15 +133,15 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 69,
               "end": 72,
-              "raw": "\"b\"",
-              "value": "b"
-            }
+              "value": "b",
+              "raw": "\"b\""
+            },
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 76,
             "end": 83,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 76,
@@ -147,28 +155,29 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 80,
               "end": 83,
-              "raw": "\"c\"",
-              "value": "c"
-            }
+              "value": "c",
+              "raw": "\"c\""
+            },
+            "computed": false
           }
         ]
       },
       "const": false,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 37,
-        "end": 49,
-        "decorators": [],
-        "name": "MyStringEnum",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      "declare": false
     },
     {
       "type": "TSEnumDeclaration",
       "start": 88,
       "end": 150,
+      "id": {
+        "type": "Identifier",
+        "start": 93,
+        "end": 114,
+        "decorators": [],
+        "name": "MyStringEnumWithEmpty",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSEnumBody",
         "start": 115,
@@ -178,7 +187,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 119,
             "end": 125,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 119,
@@ -192,15 +200,15 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 123,
               "end": 125,
-              "raw": "\"\"",
-              "value": ""
-            }
+              "value": "",
+              "raw": "\"\""
+            },
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 129,
             "end": 136,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 129,
@@ -214,15 +222,15 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 133,
               "end": 136,
-              "raw": "\"b\"",
-              "value": "b"
-            }
+              "value": "b",
+              "raw": "\"b\""
+            },
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 140,
             "end": 147,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 140,
@@ -236,89 +244,24 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 144,
               "end": 147,
-              "raw": "\"c\"",
-              "value": "c"
-            }
+              "value": "c",
+              "raw": "\"c\""
+            },
+            "computed": false
           }
         ]
       },
       "const": false,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 93,
-        "end": 114,
-        "decorators": [],
-        "name": "MyStringEnumWithEmpty",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      "declare": false
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 152,
       "end": 243,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 159,
         "end": 243,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 205,
-          "end": 243,
-          "body": [
-            {
-              "type": "ReturnStatement",
-              "start": 209,
-              "end": 241,
-              "argument": {
-                "type": "LogicalExpression",
-                "start": 216,
-                "end": 240,
-                "operator": "??",
-                "left": {
-                  "type": "Identifier",
-                  "start": 216,
-                  "end": 228,
-                  "decorators": [],
-                  "name": "optionalEnum",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "right": {
-                  "type": "MemberExpression",
-                  "start": 232,
-                  "end": 240,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 232,
-                    "end": 238,
-                    "decorators": [],
-                    "name": "MyEnum",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 239,
-                    "end": 240,
-                    "decorators": [],
-                    "name": "A",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                }
-              }
-            }
-          ]
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 168,
@@ -328,6 +271,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [
           {
             "type": "Identifier",
@@ -349,7 +296,6 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 185,
                     "end": 191,
-                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 185,
@@ -358,7 +304,8 @@ __ESTREE_TEST__:PASS:
                       "name": "MyEnum",
                       "optional": false,
                       "typeAnnotation": null
-                    }
+                    },
+                    "typeArguments": null
                   },
                   {
                     "type": "TSUndefinedKeyword",
@@ -371,77 +318,73 @@ __ESTREE_TEST__:PASS:
           }
         ],
         "returnType": null,
-        "typeParameters": null
-      },
-      "exportKind": "value",
-      "source": null,
-      "specifiers": []
-    },
-    {
-      "type": "ExportNamedDeclaration",
-      "start": 245,
-      "end": 337,
-      "attributes": [],
-      "declaration": {
-        "type": "FunctionDeclaration",
-        "start": 252,
-        "end": 337,
-        "async": false,
         "body": {
           "type": "BlockStatement",
-          "start": 299,
-          "end": 337,
+          "start": 205,
+          "end": 243,
           "body": [
             {
               "type": "ReturnStatement",
-              "start": 303,
-              "end": 335,
+              "start": 209,
+              "end": 241,
               "argument": {
                 "type": "LogicalExpression",
-                "start": 310,
-                "end": 334,
-                "operator": "||",
+                "start": 216,
+                "end": 240,
                 "left": {
                   "type": "Identifier",
-                  "start": 310,
-                  "end": 322,
+                  "start": 216,
+                  "end": 228,
                   "decorators": [],
                   "name": "optionalEnum",
                   "optional": false,
                   "typeAnnotation": null
                 },
+                "operator": "??",
                 "right": {
                   "type": "MemberExpression",
-                  "start": 326,
-                  "end": 334,
-                  "computed": false,
+                  "start": 232,
+                  "end": 240,
                   "object": {
                     "type": "Identifier",
-                    "start": 326,
-                    "end": 332,
+                    "start": 232,
+                    "end": 238,
                     "decorators": [],
                     "name": "MyEnum",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 333,
-                    "end": 334,
+                    "start": 239,
+                    "end": 240,
                     "decorators": [],
-                    "name": "B",
+                    "name": "A",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "optional": false,
+                  "computed": false
                 }
               }
             }
           ]
         },
-        "declare": false,
-        "expression": false,
-        "generator": false,
+        "expression": false
+      },
+      "specifiers": [],
+      "source": null,
+      "exportKind": "value",
+      "attributes": []
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 245,
+      "end": 337,
+      "declaration": {
+        "type": "FunctionDeclaration",
+        "start": 252,
+        "end": 337,
         "id": {
           "type": "Identifier",
           "start": 261,
@@ -451,6 +394,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [
           {
             "type": "Identifier",
@@ -472,7 +419,6 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 279,
                     "end": 285,
-                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 279,
@@ -481,7 +427,8 @@ __ESTREE_TEST__:PASS:
                       "name": "MyEnum",
                       "optional": false,
                       "typeAnnotation": null
-                    }
+                    },
+                    "typeArguments": null
                   },
                   {
                     "type": "TSUndefinedKeyword",
@@ -494,77 +441,73 @@ __ESTREE_TEST__:PASS:
           }
         ],
         "returnType": null,
-        "typeParameters": null
-      },
-      "exportKind": "value",
-      "source": null,
-      "specifiers": []
-    },
-    {
-      "type": "ExportNamedDeclaration",
-      "start": 339,
-      "end": 420,
-      "attributes": [],
-      "declaration": {
-        "type": "FunctionDeclaration",
-        "start": 346,
-        "end": 420,
-        "async": false,
         "body": {
           "type": "BlockStatement",
-          "start": 382,
-          "end": 420,
+          "start": 299,
+          "end": 337,
           "body": [
             {
               "type": "ReturnStatement",
-              "start": 386,
-              "end": 418,
+              "start": 303,
+              "end": 335,
               "argument": {
                 "type": "LogicalExpression",
-                "start": 393,
-                "end": 417,
-                "operator": "??",
+                "start": 310,
+                "end": 334,
                 "left": {
                   "type": "Identifier",
-                  "start": 393,
-                  "end": 405,
+                  "start": 310,
+                  "end": 322,
                   "decorators": [],
                   "name": "optionalEnum",
                   "optional": false,
                   "typeAnnotation": null
                 },
+                "operator": "||",
                 "right": {
                   "type": "MemberExpression",
-                  "start": 409,
-                  "end": 417,
-                  "computed": false,
+                  "start": 326,
+                  "end": 334,
                   "object": {
                     "type": "Identifier",
-                    "start": 409,
-                    "end": 415,
+                    "start": 326,
+                    "end": 332,
                     "decorators": [],
                     "name": "MyEnum",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 416,
-                    "end": 417,
+                    "start": 333,
+                    "end": 334,
                     "decorators": [],
-                    "name": "A",
+                    "name": "B",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "optional": false,
+                  "computed": false
                 }
               }
             }
           ]
         },
-        "declare": false,
-        "expression": false,
-        "generator": false,
+        "expression": false
+      },
+      "specifiers": [],
+      "source": null,
+      "exportKind": "value",
+      "attributes": []
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 339,
+      "end": 420,
+      "declaration": {
+        "type": "FunctionDeclaration",
+        "start": 346,
+        "end": 420,
         "id": {
           "type": "Identifier",
           "start": 355,
@@ -574,6 +517,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [
           {
             "type": "Identifier",
@@ -590,7 +537,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 374,
                 "end": 380,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 374,
@@ -599,83 +545,80 @@ __ESTREE_TEST__:PASS:
                   "name": "MyEnum",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             }
           }
         ],
         "returnType": null,
-        "typeParameters": null
-      },
-      "exportKind": "value",
-      "source": null,
-      "specifiers": []
-    },
-    {
-      "type": "ExportNamedDeclaration",
-      "start": 422,
-      "end": 503,
-      "attributes": [],
-      "declaration": {
-        "type": "FunctionDeclaration",
-        "start": 429,
-        "end": 503,
-        "async": false,
         "body": {
           "type": "BlockStatement",
-          "start": 465,
-          "end": 503,
+          "start": 382,
+          "end": 420,
           "body": [
             {
               "type": "ReturnStatement",
-              "start": 469,
-              "end": 501,
+              "start": 386,
+              "end": 418,
               "argument": {
                 "type": "LogicalExpression",
-                "start": 476,
-                "end": 500,
-                "operator": "||",
+                "start": 393,
+                "end": 417,
                 "left": {
                   "type": "Identifier",
-                  "start": 476,
-                  "end": 488,
+                  "start": 393,
+                  "end": 405,
                   "decorators": [],
                   "name": "optionalEnum",
                   "optional": false,
                   "typeAnnotation": null
                 },
+                "operator": "??",
                 "right": {
                   "type": "MemberExpression",
-                  "start": 492,
-                  "end": 500,
-                  "computed": false,
+                  "start": 409,
+                  "end": 417,
                   "object": {
                     "type": "Identifier",
-                    "start": 492,
-                    "end": 498,
+                    "start": 409,
+                    "end": 415,
                     "decorators": [],
                     "name": "MyEnum",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 499,
-                    "end": 500,
+                    "start": 416,
+                    "end": 417,
                     "decorators": [],
-                    "name": "B",
+                    "name": "A",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "optional": false,
+                  "computed": false
                 }
               }
             }
           ]
         },
-        "declare": false,
-        "expression": false,
-        "generator": false,
+        "expression": false
+      },
+      "specifiers": [],
+      "source": null,
+      "exportKind": "value",
+      "attributes": []
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 422,
+      "end": 503,
+      "declaration": {
+        "type": "FunctionDeclaration",
+        "start": 429,
+        "end": 503,
         "id": {
           "type": "Identifier",
           "start": 438,
@@ -685,6 +628,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [
           {
             "type": "Identifier",
@@ -701,7 +648,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 457,
                 "end": 463,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 457,
@@ -710,83 +656,80 @@ __ESTREE_TEST__:PASS:
                   "name": "MyEnum",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             }
           }
         ],
         "returnType": null,
-        "typeParameters": null
-      },
-      "exportKind": "value",
-      "source": null,
-      "specifiers": []
-    },
-    {
-      "type": "ExportNamedDeclaration",
-      "start": 505,
-      "end": 598,
-      "attributes": [],
-      "declaration": {
-        "type": "FunctionDeclaration",
-        "start": 512,
-        "end": 598,
-        "async": false,
         "body": {
           "type": "BlockStatement",
-          "start": 554,
-          "end": 598,
+          "start": 465,
+          "end": 503,
           "body": [
             {
               "type": "ReturnStatement",
-              "start": 558,
-              "end": 596,
+              "start": 469,
+              "end": 501,
               "argument": {
                 "type": "LogicalExpression",
-                "start": 565,
-                "end": 595,
-                "operator": "||",
+                "start": 476,
+                "end": 500,
                 "left": {
                   "type": "Identifier",
-                  "start": 565,
-                  "end": 577,
+                  "start": 476,
+                  "end": 488,
                   "decorators": [],
                   "name": "optionalEnum",
                   "optional": false,
                   "typeAnnotation": null
                 },
+                "operator": "||",
                 "right": {
                   "type": "MemberExpression",
-                  "start": 581,
-                  "end": 595,
-                  "computed": false,
+                  "start": 492,
+                  "end": 500,
                   "object": {
                     "type": "Identifier",
-                    "start": 581,
-                    "end": 593,
+                    "start": 492,
+                    "end": 498,
                     "decorators": [],
-                    "name": "MyStringEnum",
+                    "name": "MyEnum",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 594,
-                    "end": 595,
+                    "start": 499,
+                    "end": 500,
                     "decorators": [],
                     "name": "B",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "optional": false,
+                  "computed": false
                 }
               }
             }
           ]
         },
-        "declare": false,
-        "expression": false,
-        "generator": false,
+        "expression": false
+      },
+      "specifiers": [],
+      "source": null,
+      "exportKind": "value",
+      "attributes": []
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 505,
+      "end": 598,
+      "declaration": {
+        "type": "FunctionDeclaration",
+        "start": 512,
+        "end": 598,
         "id": {
           "type": "Identifier",
           "start": 521,
@@ -796,6 +739,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [
           {
             "type": "Identifier",
@@ -812,7 +759,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 540,
                 "end": 552,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 540,
@@ -821,83 +767,80 @@ __ESTREE_TEST__:PASS:
                   "name": "MyStringEnum",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             }
           }
         ],
         "returnType": null,
-        "typeParameters": null
-      },
-      "exportKind": "value",
-      "source": null,
-      "specifiers": []
-    },
-    {
-      "type": "ExportNamedDeclaration",
-      "start": 600,
-      "end": 711,
-      "attributes": [],
-      "declaration": {
-        "type": "FunctionDeclaration",
-        "start": 607,
-        "end": 711,
-        "async": false,
         "body": {
           "type": "BlockStatement",
-          "start": 658,
-          "end": 711,
+          "start": 554,
+          "end": 598,
           "body": [
             {
               "type": "ReturnStatement",
-              "start": 662,
-              "end": 709,
+              "start": 558,
+              "end": 596,
               "argument": {
                 "type": "LogicalExpression",
-                "start": 669,
-                "end": 708,
-                "operator": "||",
+                "start": 565,
+                "end": 595,
                 "left": {
                   "type": "Identifier",
-                  "start": 669,
-                  "end": 681,
+                  "start": 565,
+                  "end": 577,
                   "decorators": [],
                   "name": "optionalEnum",
                   "optional": false,
                   "typeAnnotation": null
                 },
+                "operator": "||",
                 "right": {
                   "type": "MemberExpression",
-                  "start": 685,
-                  "end": 708,
-                  "computed": false,
+                  "start": 581,
+                  "end": 595,
                   "object": {
                     "type": "Identifier",
-                    "start": 685,
-                    "end": 706,
+                    "start": 581,
+                    "end": 593,
                     "decorators": [],
-                    "name": "MyStringEnumWithEmpty",
+                    "name": "MyStringEnum",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 707,
-                    "end": 708,
+                    "start": 594,
+                    "end": 595,
                     "decorators": [],
                     "name": "B",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "optional": false,
+                  "computed": false
                 }
               }
             }
           ]
         },
-        "declare": false,
-        "expression": false,
-        "generator": false,
+        "expression": false
+      },
+      "specifiers": [],
+      "source": null,
+      "exportKind": "value",
+      "attributes": []
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 600,
+      "end": 711,
+      "declaration": {
+        "type": "FunctionDeclaration",
+        "start": 607,
+        "end": 711,
         "id": {
           "type": "Identifier",
           "start": 616,
@@ -907,6 +850,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [
           {
             "type": "Identifier",
@@ -923,7 +870,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 635,
                 "end": 656,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 635,
@@ -932,17 +878,71 @@ __ESTREE_TEST__:PASS:
                   "name": "MyStringEnumWithEmpty",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             }
           }
         ],
         "returnType": null,
-        "typeParameters": null
+        "body": {
+          "type": "BlockStatement",
+          "start": 658,
+          "end": 711,
+          "body": [
+            {
+              "type": "ReturnStatement",
+              "start": 662,
+              "end": 709,
+              "argument": {
+                "type": "LogicalExpression",
+                "start": 669,
+                "end": 708,
+                "left": {
+                  "type": "Identifier",
+                  "start": 669,
+                  "end": 681,
+                  "decorators": [],
+                  "name": "optionalEnum",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "operator": "||",
+                "right": {
+                  "type": "MemberExpression",
+                  "start": 685,
+                  "end": 708,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 685,
+                    "end": 706,
+                    "decorators": [],
+                    "name": "MyStringEnumWithEmpty",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 707,
+                    "end": 708,
+                    "decorators": [],
+                    "name": "B",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                }
+              }
+            }
+          ]
+        },
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

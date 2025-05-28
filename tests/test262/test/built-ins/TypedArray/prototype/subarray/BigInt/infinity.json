@@ -23,7 +23,6 @@
             "start": 427,
             "end": 883,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -43,6 +42,7 @@
                   "type": "VariableDeclaration",
                   "start": 444,
                   "end": 486,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -107,8 +107,7 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -156,8 +155,8 @@
                                 "end": 530,
                                 "name": "subarray"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -165,13 +164,13 @@
                                 "start": 531,
                                 "end": 540,
                                 "operator": "-",
-                                "prefix": true,
                                 "argument": {
                                   "type": "Identifier",
                                   "start": 532,
                                   "end": 540,
                                   "name": "Infinity"
-                                }
+                                },
+                                "prefix": true
                               }
                             ],
                             "optional": false
@@ -275,8 +274,8 @@
                                 "end": 638,
                                 "name": "subarray"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -354,8 +353,8 @@
                                 "end": 726,
                                 "name": "subarray"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -370,13 +369,13 @@
                                 "start": 730,
                                 "end": 739,
                                 "operator": "-",
-                                "prefix": true,
                                 "argument": {
                                   "type": "Identifier",
                                   "start": 731,
                                   "end": 739,
                                   "name": "Infinity"
-                                }
+                                },
+                                "prefix": true
                               }
                             ],
                             "optional": false
@@ -447,8 +446,8 @@
                                 "end": 817,
                                 "name": "subarray"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -521,7 +520,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

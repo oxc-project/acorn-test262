@@ -16,14 +16,14 @@
           "start": 280,
           "end": 286,
           "operator": "!",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 281,
             "end": 286,
             "value": false,
             "raw": "false"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -81,7 +81,6 @@
           "start": 365,
           "end": 383,
           "operator": "!",
-          "prefix": true,
           "argument": {
             "type": "NewExpression",
             "start": 366,
@@ -101,7 +100,8 @@
                 "raw": "true"
               }
             ]
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -159,7 +159,6 @@
           "start": 476,
           "end": 495,
           "operator": "!",
-          "prefix": true,
           "argument": {
             "type": "NewExpression",
             "start": 477,
@@ -179,7 +178,8 @@
                 "raw": "false"
               }
             ]
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {

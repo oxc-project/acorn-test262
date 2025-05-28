@@ -30,6 +30,7 @@
       "type": "VariableDeclaration",
       "start": 330,
       "end": 365,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -56,9 +57,7 @@
                 "type": "ArrowFunctionExpression",
                 "start": 355,
                 "end": 363,
-                "id": null,
                 "expression": false,
-                "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
@@ -66,13 +65,14 @@
                   "start": 361,
                   "end": 363,
                   "body": []
-                }
+                },
+                "id": null,
+                "generator": false
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",

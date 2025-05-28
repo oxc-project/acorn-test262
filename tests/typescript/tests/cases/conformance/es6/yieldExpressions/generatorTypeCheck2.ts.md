@@ -9,16 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 36,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 33,
-        "end": 36,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": true,
       "id": {
         "type": "Identifier",
         "start": 10,
@@ -28,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": true,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
@@ -37,6 +31,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 16,
           "end": 32,
+          "typeName": {
+            "type": "Identifier",
+            "start": 16,
+            "end": 24,
+            "decorators": [],
+            "name": "Iterable",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
             "start": 24,
@@ -48,19 +51,16 @@ __ESTREE_TEST__:PASS:
                 "end": 31
               }
             ]
-          },
-          "typeName": {
-            "type": "Identifier",
-            "start": 16,
-            "end": 24,
-            "decorators": [],
-            "name": "Iterable",
-            "optional": false,
-            "typeAnnotation": null
           }
         }
       },
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 33,
+        "end": 36,
+        "body": []
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

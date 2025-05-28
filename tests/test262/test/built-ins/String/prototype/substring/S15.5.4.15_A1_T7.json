@@ -35,14 +35,14 @@
                   "start": 387,
                   "end": 393,
                   "operator": "void",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 392,
                     "end": 393,
                     "value": 0,
                     "raw": "0"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -53,8 +53,8 @@
               "end": 404,
               "name": "substring"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -138,14 +138,14 @@
                             "start": 546,
                             "end": 552,
                             "operator": "void",
-                            "prefix": true,
                             "argument": {
                               "type": "Literal",
                               "start": 551,
                               "end": 552,
                               "value": 0,
                               "raw": "0"
-                            }
+                            },
+                            "prefix": true
                           }
                         ],
                         "optional": false
@@ -156,8 +156,8 @@
                         "end": 563,
                         "name": "substring"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {

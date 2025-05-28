@@ -13,7 +13,6 @@
         "end": 447,
         "name": "f1"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -35,7 +34,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "IfStatement",
@@ -50,7 +50,6 @@
           "start": 468,
           "end": 478,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 474,
@@ -61,7 +60,8 @@
               "end": 477,
               "name": "f1"
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {

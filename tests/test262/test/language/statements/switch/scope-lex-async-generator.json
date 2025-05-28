@@ -19,6 +19,7 @@
           "type": "SwitchCase",
           "start": 837,
           "end": 869,
+          "test": null,
           "consequent": [
             {
               "type": "FunctionDeclaration",
@@ -30,7 +31,6 @@
                 "end": 864,
                 "name": "x"
               },
-              "expression": false,
               "generator": true,
               "async": true,
               "params": [],
@@ -39,10 +39,10 @@
                 "start": 867,
                 "end": 869,
                 "body": []
-              }
+              },
+              "expression": false
             }
-          ],
-          "test": null
+          ]
         }
       ]
     },

@@ -13,7 +13,6 @@
         "end": 363,
         "name": "f1"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -45,7 +44,6 @@
               "end": 400,
               "name": "f"
             },
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -63,16 +61,17 @@
                     "start": 420,
                     "end": 431,
                     "operator": "typeof",
-                    "prefix": true,
                     "argument": {
                       "type": "ThisExpression",
                       "start": 427,
                       "end": 431
-                    }
+                    },
+                    "prefix": true
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "ReturnStatement",
@@ -131,12 +130,12 @@
                       "start": 475,
                       "end": 486,
                       "operator": "typeof",
-                      "prefix": true,
                       "argument": {
                         "type": "ThisExpression",
                         "start": 482,
                         "end": 486
-                      }
+                      },
+                      "prefix": true
                     }
                   },
                   "operator": "===",
@@ -152,7 +151,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "IfStatement",
@@ -163,7 +163,6 @@
         "start": 510,
         "end": 516,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "CallExpression",
           "start": 512,
@@ -176,7 +175,8 @@
           },
           "arguments": [],
           "optional": false
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",

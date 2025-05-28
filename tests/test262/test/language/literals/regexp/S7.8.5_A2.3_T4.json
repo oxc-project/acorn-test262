@@ -47,8 +47,8 @@
                 "end": 620,
                 "name": "source"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           },
           {
@@ -113,8 +113,8 @@
                         "end": 746,
                         "name": "source"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 }

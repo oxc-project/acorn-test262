@@ -18,7 +18,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 12,
@@ -27,10 +26,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 20,
           "end": 32,
-          "raw": "\"typescript\"",
-          "value": "typescript"
+          "value": "typescript",
+          "raw": "\"typescript\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -45,7 +45,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 55,
@@ -54,10 +53,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 63,
           "end": 84,
-          "raw": "\"typescript-internal\"",
-          "value": "typescript-internal"
+          "value": "typescript-internal",
+          "raw": "\"typescript-internal\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -72,7 +72,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 112,
@@ -81,10 +80,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 120,
           "end": 137,
-          "raw": "\"tsserverlibrary\"",
-          "value": "tsserverlibrary"
+          "value": "tsserverlibrary",
+          "raw": "\"tsserverlibrary\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -99,7 +99,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 173,
@@ -108,10 +107,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 181,
           "end": 207,
-          "raw": "\"tsserverlibrary-internal\"",
-          "value": "tsserverlibrary-internal"
+          "value": "tsserverlibrary-internal",
+          "raw": "\"tsserverlibrary-internal\""
         }
-      }
+      },
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

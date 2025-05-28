@@ -12,6 +12,7 @@
         "type": "VariableDeclaration",
         "start": 629,
         "end": 635,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "ArrayExpression",
@@ -97,8 +97,8 @@
                       "end": 676,
                       "name": "test"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -150,8 +150,8 @@
                       "end": 700,
                       "name": "test"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -203,8 +203,8 @@
                       "end": 724,
                       "name": "test"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -256,8 +256,8 @@
                       "end": 748,
                       "name": "test"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -309,8 +309,8 @@
                       "end": 777,
                       "name": "test"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -362,8 +362,8 @@
                       "end": 806,
                       "name": "test"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -415,8 +415,8 @@
                       "end": 831,
                       "name": "test"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -468,8 +468,8 @@
                       "end": 856,
                       "name": "test"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -506,7 +506,6 @@
                   "start": 878,
                   "end": 899,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 879,
@@ -527,8 +526,8 @@
                         "end": 886,
                         "name": "test"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -540,7 +539,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 },
                 {
                   "type": "Literal",
@@ -588,8 +588,8 @@
                       "end": 967,
                       "name": "test"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -641,8 +641,8 @@
                       "end": 992,
                       "name": "test"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -694,8 +694,8 @@
                       "end": 1017,
                       "name": "test"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -747,8 +747,8 @@
                       "end": 1046,
                       "name": "test"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -800,8 +800,8 @@
                       "end": 1075,
                       "name": "test"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -853,8 +853,8 @@
                       "end": 1104,
                       "name": "test"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {

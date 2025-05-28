@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 26,
       "end": 57,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 32,
           "end": 57,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 32,
@@ -28,16 +28,9 @@ __ESTREE_TEST__:PASS:
             "type": "ArrowFunctionExpression",
             "start": 41,
             "end": 57,
-            "async": false,
-            "body": {
-              "type": "BlockStatement",
-              "start": 55,
-              "end": 57,
-              "body": []
-            },
             "expression": false,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -59,12 +52,19 @@ __ESTREE_TEST__:PASS:
               }
             ],
             "returnType": null,
-            "typeParameters": null
-          }
+            "body": {
+              "type": "BlockStatement",
+              "start": 55,
+              "end": 57,
+              "body": []
+            },
+            "id": null,
+            "generator": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "script",

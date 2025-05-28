@@ -9,12 +9,24 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 65,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 7,
         "end": 65,
-        "abstract": false,
+        "decorators": [],
+        "id": {
+          "type": "Identifier",
+          "start": 21,
+          "end": 33,
+          "decorators": [],
+          "name": "AmbientClass",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null,
+        "superClass": null,
+        "superTypeArguments": null,
+        "implements": [],
         "body": {
           "type": "ClassBody",
           "start": 34,
@@ -24,8 +36,6 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 40,
               "end": 63,
-              "accessibility": null,
-              "computed": false,
               "decorators": [],
               "key": {
                 "type": "Identifier",
@@ -36,20 +46,15 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "kind": "method",
-              "optional": false,
-              "override": true,
-              "static": false,
               "value": {
                 "type": "TSEmptyBodyFunctionExpression",
                 "start": 54,
                 "end": 63,
-                "async": false,
-                "body": null,
-                "declare": false,
-                "expression": false,
-                "generator": false,
                 "id": null,
+                "generator": false,
+                "async": false,
+                "declare": false,
+                "typeParameters": null,
                 "params": [],
                 "returnType": {
                   "type": "TSTypeAnnotation",
@@ -61,41 +66,48 @@ __ESTREE_TEST__:PASS:
                     "end": 62
                   }
                 },
-                "typeParameters": null
-              }
+                "body": null,
+                "expression": false
+              },
+              "kind": "method",
+              "computed": false,
+              "static": false,
+              "override": true,
+              "optional": false,
+              "accessibility": null
             }
           ]
         },
-        "declare": true,
-        "decorators": [],
-        "id": {
-          "type": "Identifier",
-          "start": 21,
-          "end": 33,
-          "decorators": [],
-          "name": "AmbientClass",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": true
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 67,
       "end": 129,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 74,
         "end": 129,
-        "abstract": false,
+        "decorators": [],
+        "id": {
+          "type": "Identifier",
+          "start": 80,
+          "end": 95,
+          "decorators": [],
+          "name": "NonAmbientClass",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null,
+        "superClass": null,
+        "superTypeArguments": null,
+        "implements": [],
         "body": {
           "type": "ClassBody",
           "start": 96,
@@ -105,8 +117,6 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 102,
               "end": 127,
-              "accessibility": null,
-              "computed": false,
               "decorators": [],
               "key": {
                 "type": "Identifier",
@@ -117,25 +127,15 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "kind": "method",
-              "optional": false,
-              "override": true,
-              "static": false,
               "value": {
                 "type": "FunctionExpression",
                 "start": 116,
                 "end": 127,
-                "async": false,
-                "body": {
-                  "type": "BlockStatement",
-                  "start": 125,
-                  "end": 127,
-                  "body": []
-                },
-                "declare": false,
-                "expression": false,
-                "generator": false,
                 "id": null,
+                "generator": false,
+                "async": false,
+                "declare": false,
+                "typeParameters": null,
                 "params": [],
                 "returnType": {
                   "type": "TSTypeAnnotation",
@@ -147,41 +147,53 @@ __ESTREE_TEST__:PASS:
                     "end": 124
                   }
                 },
-                "typeParameters": null
-              }
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 125,
+                  "end": 127,
+                  "body": []
+                },
+                "expression": false
+              },
+              "kind": "method",
+              "computed": false,
+              "static": false,
+              "override": true,
+              "optional": false,
+              "accessibility": null
             }
           ]
         },
-        "declare": false,
-        "decorators": [],
-        "id": {
-          "type": "Identifier",
-          "start": 80,
-          "end": 95,
-          "decorators": [],
-          "name": "NonAmbientClass",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 138,
       "end": 191,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 145,
         "end": 191,
-        "abstract": false,
+        "decorators": [],
+        "id": {
+          "type": "Identifier",
+          "start": 159,
+          "end": 170,
+          "decorators": [],
+          "name": "AmbientBase",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null,
+        "superClass": null,
+        "superTypeArguments": null,
+        "implements": [],
         "body": {
           "type": "ClassBody",
           "start": 171,
@@ -191,8 +203,6 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 177,
               "end": 189,
-              "accessibility": null,
-              "computed": false,
               "decorators": [],
               "key": {
                 "type": "Identifier",
@@ -203,20 +213,15 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "kind": "method",
-              "optional": false,
-              "override": false,
-              "static": false,
               "value": {
                 "type": "TSEmptyBodyFunctionExpression",
                 "start": 180,
                 "end": 189,
-                "async": false,
-                "body": null,
-                "declare": false,
-                "expression": false,
-                "generator": false,
                 "id": null,
+                "generator": false,
+                "async": false,
+                "declare": false,
+                "typeParameters": null,
                 "params": [],
                 "returnType": {
                   "type": "TSTypeAnnotation",
@@ -228,41 +233,56 @@ __ESTREE_TEST__:PASS:
                     "end": 188
                   }
                 },
-                "typeParameters": null
-              }
+                "body": null,
+                "expression": false
+              },
+              "kind": "method",
+              "computed": false,
+              "static": false,
+              "override": false,
+              "optional": false,
+              "accessibility": null
             }
           ]
         },
-        "declare": true,
-        "decorators": [],
-        "id": {
-          "type": "Identifier",
-          "start": 159,
-          "end": 170,
-          "decorators": [],
-          "name": "AmbientBase",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": true
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 193,
       "end": 296,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 200,
         "end": 296,
-        "abstract": false,
+        "decorators": [],
+        "id": {
+          "type": "Identifier",
+          "start": 214,
+          "end": 228,
+          "decorators": [],
+          "name": "AmbientDerived",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null,
+        "superClass": {
+          "type": "Identifier",
+          "start": 237,
+          "end": 248,
+          "decorators": [],
+          "name": "AmbientBase",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "superTypeArguments": null,
+        "implements": [],
         "body": {
           "type": "ClassBody",
           "start": 249,
@@ -272,8 +292,6 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 255,
               "end": 267,
-              "accessibility": null,
-              "computed": false,
               "decorators": [],
               "key": {
                 "type": "Identifier",
@@ -284,20 +302,15 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "kind": "method",
-              "optional": false,
-              "override": false,
-              "static": false,
               "value": {
                 "type": "TSEmptyBodyFunctionExpression",
                 "start": 258,
                 "end": 267,
-                "async": false,
-                "body": null,
-                "declare": false,
-                "expression": false,
-                "generator": false,
                 "id": null,
+                "generator": false,
+                "async": false,
+                "declare": false,
+                "typeParameters": null,
                 "params": [],
                 "returnType": {
                   "type": "TSTypeAnnotation",
@@ -309,15 +322,20 @@ __ESTREE_TEST__:PASS:
                     "end": 266
                   }
                 },
-                "typeParameters": null
-              }
+                "body": null,
+                "expression": false
+              },
+              "kind": "method",
+              "computed": false,
+              "static": false,
+              "override": false,
+              "optional": false,
+              "accessibility": null
             },
             {
               "type": "MethodDefinition",
               "start": 273,
               "end": 294,
-              "accessibility": null,
-              "computed": false,
               "decorators": [],
               "key": {
                 "type": "Identifier",
@@ -328,20 +346,15 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "kind": "method",
-              "optional": false,
-              "override": true,
-              "static": false,
               "value": {
                 "type": "TSEmptyBodyFunctionExpression",
                 "start": 285,
                 "end": 294,
-                "async": false,
-                "body": null,
-                "declare": false,
-                "expression": false,
-                "generator": false,
                 "id": null,
+                "generator": false,
+                "async": false,
+                "declare": false,
+                "typeParameters": null,
                 "params": [],
                 "returnType": {
                   "type": "TSTypeAnnotation",
@@ -353,43 +366,39 @@ __ESTREE_TEST__:PASS:
                     "end": 293
                   }
                 },
-                "typeParameters": null
-              }
+                "body": null,
+                "expression": false
+              },
+              "kind": "method",
+              "computed": false,
+              "static": false,
+              "override": true,
+              "optional": false,
+              "accessibility": null
             }
           ]
         },
-        "declare": true,
-        "decorators": [],
-        "id": {
-          "type": "Identifier",
-          "start": 214,
-          "end": 228,
-          "decorators": [],
-          "name": "AmbientDerived",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "implements": [],
-        "superClass": {
-          "type": "Identifier",
-          "start": 237,
-          "end": 248,
-          "decorators": [],
-          "name": "AmbientBase",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": true
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     },
     {
       "type": "TSModuleDeclaration",
       "start": 305,
       "end": 514,
+      "id": {
+        "type": "Identifier",
+        "start": 323,
+        "end": 339,
+        "decorators": [],
+        "name": "ambientNamespace",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 340,
@@ -399,12 +408,24 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 346,
             "end": 399,
-            "attributes": [],
             "declaration": {
               "type": "ClassDeclaration",
               "start": 353,
               "end": 399,
-              "abstract": false,
+              "decorators": [],
+              "id": {
+                "type": "Identifier",
+                "start": 359,
+                "end": 370,
+                "decorators": [],
+                "name": "AmbientBase",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null,
+              "superClass": null,
+              "superTypeArguments": null,
+              "implements": [],
               "body": {
                 "type": "ClassBody",
                 "start": 371,
@@ -414,8 +435,6 @@ __ESTREE_TEST__:PASS:
                     "type": "MethodDefinition",
                     "start": 381,
                     "end": 393,
-                    "accessibility": null,
-                    "computed": false,
                     "decorators": [],
                     "key": {
                       "type": "Identifier",
@@ -426,20 +445,15 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "kind": "method",
-                    "optional": false,
-                    "override": false,
-                    "static": false,
                     "value": {
                       "type": "TSEmptyBodyFunctionExpression",
                       "start": 384,
                       "end": 393,
-                      "async": false,
-                      "body": null,
-                      "declare": false,
-                      "expression": false,
-                      "generator": false,
                       "id": null,
+                      "generator": false,
+                      "async": false,
+                      "declare": false,
+                      "typeParameters": null,
                       "params": [],
                       "returnType": {
                         "type": "TSTypeAnnotation",
@@ -451,41 +465,56 @@ __ESTREE_TEST__:PASS:
                           "end": 392
                         }
                       },
-                      "typeParameters": null
-                    }
+                      "body": null,
+                      "expression": false
+                    },
+                    "kind": "method",
+                    "computed": false,
+                    "static": false,
+                    "override": false,
+                    "optional": false,
+                    "accessibility": null
                   }
                 ]
               },
-              "declare": false,
-              "decorators": [],
-              "id": {
-                "type": "Identifier",
-                "start": 359,
-                "end": 370,
-                "decorators": [],
-                "name": "AmbientBase",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "implements": [],
-              "superClass": null,
-              "superTypeArguments": null,
-              "typeParameters": null
+              "abstract": false,
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
             "start": 405,
             "end": 512,
-            "attributes": [],
             "declaration": {
               "type": "ClassDeclaration",
               "start": 412,
               "end": 512,
-              "abstract": false,
+              "decorators": [],
+              "id": {
+                "type": "Identifier",
+                "start": 418,
+                "end": 432,
+                "decorators": [],
+                "name": "AmbientDerived",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null,
+              "superClass": {
+                "type": "Identifier",
+                "start": 441,
+                "end": 452,
+                "decorators": [],
+                "name": "AmbientBase",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "superTypeArguments": null,
+              "implements": [],
               "body": {
                 "type": "ClassBody",
                 "start": 453,
@@ -495,8 +524,6 @@ __ESTREE_TEST__:PASS:
                     "type": "MethodDefinition",
                     "start": 463,
                     "end": 475,
-                    "accessibility": null,
-                    "computed": false,
                     "decorators": [],
                     "key": {
                       "type": "Identifier",
@@ -507,20 +534,15 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "kind": "method",
-                    "optional": false,
-                    "override": false,
-                    "static": false,
                     "value": {
                       "type": "TSEmptyBodyFunctionExpression",
                       "start": 466,
                       "end": 475,
-                      "async": false,
-                      "body": null,
-                      "declare": false,
-                      "expression": false,
-                      "generator": false,
                       "id": null,
+                      "generator": false,
+                      "async": false,
+                      "declare": false,
+                      "typeParameters": null,
                       "params": [],
                       "returnType": {
                         "type": "TSTypeAnnotation",
@@ -532,15 +554,20 @@ __ESTREE_TEST__:PASS:
                           "end": 474
                         }
                       },
-                      "typeParameters": null
-                    }
+                      "body": null,
+                      "expression": false
+                    },
+                    "kind": "method",
+                    "computed": false,
+                    "static": false,
+                    "override": false,
+                    "optional": false,
+                    "accessibility": null
                   },
                   {
                     "type": "MethodDefinition",
                     "start": 485,
                     "end": 506,
-                    "accessibility": null,
-                    "computed": false,
                     "decorators": [],
                     "key": {
                       "type": "Identifier",
@@ -551,20 +578,15 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "kind": "method",
-                    "optional": false,
-                    "override": true,
-                    "static": false,
                     "value": {
                       "type": "TSEmptyBodyFunctionExpression",
                       "start": 497,
                       "end": 506,
-                      "async": false,
-                      "body": null,
-                      "declare": false,
-                      "expression": false,
-                      "generator": false,
                       "id": null,
+                      "generator": false,
+                      "async": false,
+                      "declare": false,
+                      "typeParameters": null,
                       "params": [],
                       "returnType": {
                         "type": "TSTypeAnnotation",
@@ -576,64 +598,54 @@ __ESTREE_TEST__:PASS:
                           "end": 505
                         }
                       },
-                      "typeParameters": null
-                    }
+                      "body": null,
+                      "expression": false
+                    },
+                    "kind": "method",
+                    "computed": false,
+                    "static": false,
+                    "override": true,
+                    "optional": false,
+                    "accessibility": null
                   }
                 ]
               },
-              "declare": false,
-              "decorators": [],
-              "id": {
-                "type": "Identifier",
-                "start": 418,
-                "end": 432,
-                "decorators": [],
-                "name": "AmbientDerived",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "implements": [],
-              "superClass": {
-                "type": "Identifier",
-                "start": 441,
-                "end": 452,
-                "decorators": [],
-                "name": "AmbientBase",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "superTypeArguments": null,
-              "typeParameters": null
+              "abstract": false,
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           }
         ]
       },
+      "kind": "namespace",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 323,
-        "end": 339,
-        "decorators": [],
-        "name": "ambientNamespace",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "namespace"
+      "global": false
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 523,
       "end": 573,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 530,
         "end": 573,
-        "abstract": false,
+        "decorators": [],
+        "id": {
+          "type": "Identifier",
+          "start": 536,
+          "end": 550,
+          "decorators": [],
+          "name": "NonAmbientBase",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null,
+        "superClass": null,
+        "superTypeArguments": null,
+        "implements": [],
         "body": {
           "type": "ClassBody",
           "start": 551,
@@ -643,8 +655,6 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 557,
               "end": 571,
-              "accessibility": null,
-              "computed": false,
               "decorators": [],
               "key": {
                 "type": "Identifier",
@@ -655,25 +665,15 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "kind": "method",
-              "optional": false,
-              "override": false,
-              "static": false,
               "value": {
                 "type": "FunctionExpression",
                 "start": 560,
                 "end": 571,
-                "async": false,
-                "body": {
-                  "type": "BlockStatement",
-                  "start": 569,
-                  "end": 571,
-                  "body": []
-                },
-                "declare": false,
-                "expression": false,
-                "generator": false,
                 "id": null,
+                "generator": false,
+                "async": false,
+                "declare": false,
+                "typeParameters": null,
                 "params": [],
                 "returnType": {
                   "type": "TSTypeAnnotation",
@@ -685,41 +685,61 @@ __ESTREE_TEST__:PASS:
                     "end": 568
                   }
                 },
-                "typeParameters": null
-              }
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 569,
+                  "end": 571,
+                  "body": []
+                },
+                "expression": false
+              },
+              "kind": "method",
+              "computed": false,
+              "static": false,
+              "override": false,
+              "optional": false,
+              "accessibility": null
             }
           ]
         },
-        "declare": false,
-        "decorators": [],
-        "id": {
-          "type": "Identifier",
-          "start": 536,
-          "end": 550,
-          "decorators": [],
-          "name": "NonAmbientBase",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 575,
       "end": 680,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 582,
         "end": 680,
-        "abstract": false,
+        "decorators": [],
+        "id": {
+          "type": "Identifier",
+          "start": 588,
+          "end": 605,
+          "decorators": [],
+          "name": "NonAmbientDerived",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null,
+        "superClass": {
+          "type": "Identifier",
+          "start": 614,
+          "end": 628,
+          "decorators": [],
+          "name": "NonAmbientBase",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "superTypeArguments": null,
+        "implements": [],
         "body": {
           "type": "ClassBody",
           "start": 629,
@@ -729,8 +749,6 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 635,
               "end": 649,
-              "accessibility": null,
-              "computed": false,
               "decorators": [],
               "key": {
                 "type": "Identifier",
@@ -741,25 +759,15 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "kind": "method",
-              "optional": false,
-              "override": false,
-              "static": false,
               "value": {
                 "type": "FunctionExpression",
                 "start": 638,
                 "end": 649,
-                "async": false,
-                "body": {
-                  "type": "BlockStatement",
-                  "start": 647,
-                  "end": 649,
-                  "body": []
-                },
-                "declare": false,
-                "expression": false,
-                "generator": false,
                 "id": null,
+                "generator": false,
+                "async": false,
+                "declare": false,
+                "typeParameters": null,
                 "params": [],
                 "returnType": {
                   "type": "TSTypeAnnotation",
@@ -771,15 +779,25 @@ __ESTREE_TEST__:PASS:
                     "end": 646
                   }
                 },
-                "typeParameters": null
-              }
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 647,
+                  "end": 649,
+                  "body": []
+                },
+                "expression": false
+              },
+              "kind": "method",
+              "computed": false,
+              "static": false,
+              "override": false,
+              "optional": false,
+              "accessibility": null
             },
             {
               "type": "MethodDefinition",
               "start": 655,
               "end": 678,
-              "accessibility": null,
-              "computed": false,
               "decorators": [],
               "key": {
                 "type": "Identifier",
@@ -790,25 +808,15 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "kind": "method",
-              "optional": false,
-              "override": true,
-              "static": false,
               "value": {
                 "type": "FunctionExpression",
                 "start": 667,
                 "end": 678,
-                "async": false,
-                "body": {
-                  "type": "BlockStatement",
-                  "start": 676,
-                  "end": 678,
-                  "body": []
-                },
-                "declare": false,
-                "expression": false,
-                "generator": false,
                 "id": null,
+                "generator": false,
+                "async": false,
+                "declare": false,
+                "typeParameters": null,
                 "params": [],
                 "returnType": {
                   "type": "TSTypeAnnotation",
@@ -820,38 +828,30 @@ __ESTREE_TEST__:PASS:
                     "end": 675
                   }
                 },
-                "typeParameters": null
-              }
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 676,
+                  "end": 678,
+                  "body": []
+                },
+                "expression": false
+              },
+              "kind": "method",
+              "computed": false,
+              "static": false,
+              "override": true,
+              "optional": false,
+              "accessibility": null
             }
           ]
         },
-        "declare": false,
-        "decorators": [],
-        "id": {
-          "type": "Identifier",
-          "start": 588,
-          "end": 605,
-          "decorators": [],
-          "name": "NonAmbientDerived",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "implements": [],
-        "superClass": {
-          "type": "Identifier",
-          "start": 614,
-          "end": 628,
-          "decorators": [],
-          "name": "NonAmbientBase",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

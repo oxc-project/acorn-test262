@@ -9,20 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 10,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
         "end": 9,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 7,
-            "end": 8,
-            "raw": "1",
-            "value": 1
-          }
-        ],
         "callee": {
           "type": "Identifier",
           "start": 0,
@@ -32,29 +22,28 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 7,
+            "end": 8,
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 11,
       "end": 22,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 11,
         "end": 21,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 18,
-            "end": 20,
-            "bigint": "1",
-            "raw": "1n",
-            "value": null
-          }
-        ],
         "callee": {
           "type": "Identifier",
           "start": 11,
@@ -64,28 +53,29 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 18,
+            "end": 20,
+            "value": null,
+            "raw": "1n",
+            "bigint": "1"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 23,
       "end": 35,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 23,
         "end": 34,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 30,
-            "end": 33,
-            "raw": "\"0\"",
-            "value": "0"
-          }
-        ],
         "callee": {
           "type": "Identifier",
           "start": 23,
@@ -95,28 +85,28 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 30,
+            "end": 33,
+            "value": "0",
+            "raw": "\"0\""
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 36,
       "end": 50,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 36,
         "end": 49,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 43,
-            "end": 48,
-            "raw": "false",
-            "value": false
-          }
-        ],
         "callee": {
           "type": "Identifier",
           "start": 36,
@@ -126,38 +116,28 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 43,
+            "end": 48,
+            "value": false,
+            "raw": "false"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 52,
       "end": 69,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 52,
         "end": 68,
-        "arguments": [
-          {
-            "type": "CallExpression",
-            "start": 59,
-            "end": 67,
-            "arguments": [],
-            "callee": {
-              "type": "Identifier",
-              "start": 59,
-              "end": 65,
-              "decorators": [],
-              "name": "Symbol",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "typeArguments": null
-          }
-        ],
         "callee": {
           "type": "Identifier",
           "start": 52,
@@ -167,19 +147,48 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 59,
+            "end": 67,
+            "callee": {
+              "type": "Identifier",
+              "start": 59,
+              "end": 65,
+              "decorators": [],
+              "name": "Symbol",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null,
+            "arguments": [],
+            "optional": false
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 70,
       "end": 92,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 70,
         "end": 92,
+        "callee": {
+          "type": "Identifier",
+          "start": 70,
+          "end": 76,
+          "decorators": [],
+          "name": "BigInt",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null,
         "arguments": [
           {
             "type": "ObjectExpression",
@@ -190,7 +199,7 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 79,
                 "end": 83,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 79,
@@ -200,23 +209,23 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Literal",
                   "start": 82,
                   "end": 83,
-                  "raw": "1",
-                  "value": 1
-                }
+                  "value": 1,
+                  "raw": "1"
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "optional": false
               },
               {
                 "type": "Property",
                 "start": 85,
                 "end": 89,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 85,
@@ -226,52 +235,33 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Literal",
                   "start": 88,
                   "end": 89,
-                  "raw": "1",
-                  "value": 1
-                }
+                  "value": 1,
+                  "raw": "1"
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "optional": false
               }
             ]
           }
         ],
-        "callee": {
-          "type": "Identifier",
-          "start": 70,
-          "end": 76,
-          "decorators": [],
-          "name": "BigInt",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "optional": false,
-        "typeArguments": null
-      }
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 93,
       "end": 106,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 93,
         "end": 105,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 100,
-            "end": 104,
-            "raw": "null",
-            "value": null
-          }
-        ],
         "callee": {
           "type": "Identifier",
           "start": 93,
@@ -281,19 +271,38 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 100,
+            "end": 104,
+            "value": null,
+            "raw": "null"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 107,
       "end": 124,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 107,
         "end": 124,
+        "callee": {
+          "type": "Identifier",
+          "start": 107,
+          "end": 113,
+          "decorators": [],
+          "name": "BigInt",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null,
         "arguments": [
           {
             "type": "Identifier",
@@ -305,18 +314,9 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         ],
-        "callee": {
-          "type": "Identifier",
-          "start": 107,
-          "end": 113,
-          "decorators": [],
-          "name": "BigInt",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "optional": false,
-        "typeArguments": null
-      }
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

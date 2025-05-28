@@ -27,8 +27,8 @@
             "end": 251,
             "name": "nan"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Identifier",
@@ -84,8 +84,8 @@
           "end": 291,
           "name": "nan"
         },
-        "computed": false,
-        "optional": false
+        "optional": false,
+        "computed": false
       }
     },
     {
@@ -345,8 +345,8 @@
             "end": 389,
             "name": "nan"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       }
     },
@@ -375,8 +375,8 @@
             "end": 403,
             "name": "nan"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       }
     },
@@ -405,8 +405,8 @@
             "end": 413,
             "name": "nan"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       }
     },
@@ -435,8 +435,8 @@
             "end": 427,
             "name": "nan"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       }
     },
@@ -504,14 +504,14 @@
             "start": 448,
             "end": 450,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 449,
               "end": 450,
               "value": 5,
               "raw": "5"
-            }
+            },
+            "prefix": true
           }
         },
         "operator": "||",
@@ -520,14 +520,14 @@
           "start": 454,
           "end": 456,
           "operator": "~",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 455,
             "end": 456,
             "value": 6,
             "raw": "6"
-          }
+          },
+          "prefix": true
         }
       }
     },
@@ -586,8 +586,8 @@
             "end": 481,
             "name": "nan"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -622,8 +622,8 @@
             "end": 495,
             "name": "nan"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -658,8 +658,8 @@
             "end": 510,
             "name": "nan"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -694,8 +694,8 @@
             "end": 525,
             "name": "nan"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -730,8 +730,8 @@
             "end": 540,
             "name": "nan"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -766,8 +766,8 @@
             "end": 557,
             "name": "nan"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -802,8 +802,8 @@
             "end": 572,
             "name": "nan"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -838,8 +838,8 @@
             "end": 588,
             "name": "nan"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -874,8 +874,8 @@
             "end": 604,
             "name": "nan"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -910,8 +910,8 @@
             "end": 623,
             "name": "nan"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -946,8 +946,8 @@
             "end": 638,
             "name": "nan"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -982,8 +982,8 @@
             "end": 653,
             "name": "nan"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",

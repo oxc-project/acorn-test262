@@ -9,7 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 53,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 22,
+        "value": "react",
+        "raw": "'react'"
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 23,
@@ -19,14 +25,6 @@ __ESTREE_TEST__:PASS:
             "type": "ClassDeclaration",
             "start": 26,
             "end": 51,
-            "abstract": false,
-            "body": {
-              "type": "ClassBody",
-              "start": 48,
-              "end": 51,
-              "body": []
-            },
-            "declare": false,
             "decorators": [],
             "id": {
               "type": "Identifier",
@@ -37,9 +35,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "implements": [],
-            "superClass": null,
-            "superTypeArguments": null,
             "typeParameters": {
               "type": "TSTypeParameterDeclaration",
               "start": 41,
@@ -49,10 +44,6 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeParameter",
                   "start": 42,
                   "end": 43,
-                  "const": false,
-                  "constraint": null,
-                  "default": null,
-                  "in": false,
                   "name": {
                     "type": "Identifier",
                     "start": 42,
@@ -62,16 +53,16 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "out": false
+                  "constraint": null,
+                  "default": null,
+                  "in": false,
+                  "out": false,
+                  "const": false
                 },
                 {
                   "type": "TSTypeParameter",
                   "start": 45,
                   "end": 46,
-                  "const": false,
-                  "constraint": null,
-                  "default": null,
-                  "in": false,
                   "name": {
                     "type": "Identifier",
                     "start": 45,
@@ -81,22 +72,31 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "out": false
+                  "constraint": null,
+                  "default": null,
+                  "in": false,
+                  "out": false,
+                  "const": false
                 }
               ]
-            }
+            },
+            "superClass": null,
+            "superTypeArguments": null,
+            "implements": [],
+            "body": {
+              "type": "ClassBody",
+              "start": 48,
+              "end": 51,
+              "body": []
+            },
+            "abstract": false,
+            "declare": false
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 22,
-        "raw": "'react'",
-        "value": "react"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -114,14 +114,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 31,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 23,
-        "end": 30,
-        "raw": "'react'",
-        "value": "react"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -138,21 +130,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 23,
+        "end": 30,
+        "value": "react",
+        "raw": "'react'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 87,
       "end": 121,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 110,
-        "end": 120,
-        "raw": "'./button'",
-        "value": "./button"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -167,7 +159,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 96,
@@ -176,97 +167,29 @@ __ESTREE_TEST__:PASS:
             "name": "Button",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 110,
+        "end": 120,
+        "value": "./button",
+        "raw": "'./button'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 123,
       "end": 227,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 130,
         "end": 227,
-        "abstract": false,
-        "body": {
-          "type": "ClassBody",
-          "start": 174,
-          "end": 227,
-          "body": [
-            {
-              "type": "MethodDefinition",
-              "start": 181,
-              "end": 224,
-              "accessibility": null,
-              "computed": false,
-              "decorators": [],
-              "key": {
-                "type": "Identifier",
-                "start": 181,
-                "end": 187,
-                "decorators": [],
-                "name": "render",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "kind": "method",
-              "optional": false,
-              "override": false,
-              "static": false,
-              "value": {
-                "type": "FunctionExpression",
-                "start": 187,
-                "end": 224,
-                "async": false,
-                "body": {
-                  "type": "BlockStatement",
-                  "start": 190,
-                  "end": 224,
-                  "body": [
-                    {
-                      "type": "ReturnStatement",
-                      "start": 200,
-                      "end": 218,
-                      "argument": {
-                        "type": "JSXElement",
-                        "start": 207,
-                        "end": 217,
-                        "children": [],
-                        "closingElement": null,
-                        "openingElement": {
-                          "type": "JSXOpeningElement",
-                          "start": 207,
-                          "end": 217,
-                          "attributes": [],
-                          "name": {
-                            "type": "JSXIdentifier",
-                            "start": 208,
-                            "end": 214,
-                            "name": "Button"
-                          },
-                          "selfClosing": true,
-                          "typeArguments": null
-                        }
-                      }
-                    }
-                  ]
-                },
-                "declare": false,
-                "expression": false,
-                "generator": false,
-                "id": null,
-                "params": [],
-                "returnType": null,
-                "typeParameters": null
-              }
-            }
-          ]
-        },
-        "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
@@ -277,12 +200,11 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "implements": [],
+        "typeParameters": null,
         "superClass": {
           "type": "MemberExpression",
           "start": 148,
           "end": 163,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 148,
@@ -292,7 +214,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 154,
@@ -301,7 +222,9 @@ __ESTREE_TEST__:PASS:
             "name": "Component",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "superTypeArguments": {
           "type": "TSTypeParameterInstantiation",
@@ -320,11 +243,88 @@ __ESTREE_TEST__:PASS:
             }
           ]
         },
-        "typeParameters": null
+        "implements": [],
+        "body": {
+          "type": "ClassBody",
+          "start": 174,
+          "end": 227,
+          "body": [
+            {
+              "type": "MethodDefinition",
+              "start": 181,
+              "end": 224,
+              "decorators": [],
+              "key": {
+                "type": "Identifier",
+                "start": 181,
+                "end": 187,
+                "decorators": [],
+                "name": "render",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "start": 187,
+                "end": 224,
+                "id": null,
+                "generator": false,
+                "async": false,
+                "declare": false,
+                "typeParameters": null,
+                "params": [],
+                "returnType": null,
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 190,
+                  "end": 224,
+                  "body": [
+                    {
+                      "type": "ReturnStatement",
+                      "start": 200,
+                      "end": 218,
+                      "argument": {
+                        "type": "JSXElement",
+                        "start": 207,
+                        "end": 217,
+                        "openingElement": {
+                          "type": "JSXOpeningElement",
+                          "start": 207,
+                          "end": 217,
+                          "name": {
+                            "type": "JSXIdentifier",
+                            "start": 208,
+                            "end": 214,
+                            "name": "Button"
+                          },
+                          "typeArguments": null,
+                          "attributes": [],
+                          "selfClosing": true
+                        },
+                        "children": [],
+                        "closingElement": null
+                      }
+                    }
+                  ]
+                },
+                "expression": false
+              },
+              "kind": "method",
+              "computed": false,
+              "static": false,
+              "override": false,
+              "optional": false,
+              "accessibility": null
+            }
+          ]
+        },
+        "abstract": false,
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -342,14 +342,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 31,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 23,
-        "end": 30,
-        "raw": "'react'",
-        "value": "react"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -366,112 +358,25 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 23,
+        "end": 30,
+        "value": "react",
+        "raw": "'react'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 33,
       "end": 158,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 40,
         "end": 158,
-        "abstract": false,
-        "body": {
-          "type": "ClassBody",
-          "start": 87,
-          "end": 158,
-          "body": [
-            {
-              "type": "MethodDefinition",
-              "start": 94,
-              "end": 155,
-              "accessibility": null,
-              "computed": false,
-              "decorators": [],
-              "key": {
-                "type": "Identifier",
-                "start": 94,
-                "end": 100,
-                "decorators": [],
-                "name": "render",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "kind": "method",
-              "optional": false,
-              "override": false,
-              "static": false,
-              "value": {
-                "type": "FunctionExpression",
-                "start": 100,
-                "end": 155,
-                "async": false,
-                "body": {
-                  "type": "BlockStatement",
-                  "start": 103,
-                  "end": 155,
-                  "body": [
-                    {
-                      "type": "ReturnStatement",
-                      "start": 113,
-                      "end": 149,
-                      "argument": {
-                        "type": "JSXElement",
-                        "start": 120,
-                        "end": 148,
-                        "children": [
-                          {
-                            "type": "JSXText",
-                            "start": 128,
-                            "end": 139,
-                            "raw": "Some button",
-                            "value": "Some button"
-                          }
-                        ],
-                        "closingElement": {
-                          "type": "JSXClosingElement",
-                          "start": 139,
-                          "end": 148,
-                          "name": {
-                            "type": "JSXIdentifier",
-                            "start": 141,
-                            "end": 147,
-                            "name": "button"
-                          }
-                        },
-                        "openingElement": {
-                          "type": "JSXOpeningElement",
-                          "start": 120,
-                          "end": 128,
-                          "attributes": [],
-                          "name": {
-                            "type": "JSXIdentifier",
-                            "start": 121,
-                            "end": 127,
-                            "name": "button"
-                          },
-                          "selfClosing": false,
-                          "typeArguments": null
-                        }
-                      }
-                    }
-                  ]
-                },
-                "declare": false,
-                "expression": false,
-                "generator": false,
-                "id": null,
-                "params": [],
-                "returnType": null,
-                "typeParameters": null
-              }
-            }
-          ]
-        },
-        "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
@@ -482,12 +387,11 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "implements": [],
+        "typeParameters": null,
         "superClass": {
           "type": "MemberExpression",
           "start": 61,
           "end": 76,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 61,
@@ -497,7 +401,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 67,
@@ -506,7 +409,9 @@ __ESTREE_TEST__:PASS:
             "name": "Component",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "superTypeArguments": {
           "type": "TSTypeParameterInstantiation",
@@ -525,11 +430,106 @@ __ESTREE_TEST__:PASS:
             }
           ]
         },
-        "typeParameters": null
+        "implements": [],
+        "body": {
+          "type": "ClassBody",
+          "start": 87,
+          "end": 158,
+          "body": [
+            {
+              "type": "MethodDefinition",
+              "start": 94,
+              "end": 155,
+              "decorators": [],
+              "key": {
+                "type": "Identifier",
+                "start": 94,
+                "end": 100,
+                "decorators": [],
+                "name": "render",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "start": 100,
+                "end": 155,
+                "id": null,
+                "generator": false,
+                "async": false,
+                "declare": false,
+                "typeParameters": null,
+                "params": [],
+                "returnType": null,
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 103,
+                  "end": 155,
+                  "body": [
+                    {
+                      "type": "ReturnStatement",
+                      "start": 113,
+                      "end": 149,
+                      "argument": {
+                        "type": "JSXElement",
+                        "start": 120,
+                        "end": 148,
+                        "openingElement": {
+                          "type": "JSXOpeningElement",
+                          "start": 120,
+                          "end": 128,
+                          "name": {
+                            "type": "JSXIdentifier",
+                            "start": 121,
+                            "end": 127,
+                            "name": "button"
+                          },
+                          "typeArguments": null,
+                          "attributes": [],
+                          "selfClosing": false
+                        },
+                        "children": [
+                          {
+                            "type": "JSXText",
+                            "start": 128,
+                            "end": 139,
+                            "value": "Some button",
+                            "raw": "Some button"
+                          }
+                        ],
+                        "closingElement": {
+                          "type": "JSXClosingElement",
+                          "start": 139,
+                          "end": 148,
+                          "name": {
+                            "type": "JSXIdentifier",
+                            "start": 141,
+                            "end": 147,
+                            "name": "button"
+                          }
+                        }
+                      }
+                    }
+                  ]
+                },
+                "expression": false
+              },
+              "kind": "method",
+              "computed": false,
+              "static": false,
+              "override": false,
+              "optional": false,
+              "accessibility": null
+            }
+          ]
+        },
+        "abstract": false,
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

@@ -13,14 +13,6 @@ __ESTREE_TEST__:PASS:
         "type": "ClassDeclaration",
         "start": 15,
         "end": 25,
-        "abstract": false,
-        "body": {
-          "type": "ClassBody",
-          "start": 23,
-          "end": 25,
-          "body": []
-        },
-        "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
@@ -31,10 +23,18 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "implements": [],
+        "typeParameters": null,
         "superClass": null,
         "superTypeArguments": null,
-        "typeParameters": null
+        "implements": [],
+        "body": {
+          "type": "ClassBody",
+          "start": 23,
+          "end": 25,
+          "body": []
+        },
+        "abstract": false,
+        "declare": false
       },
       "exportKind": "value"
     }
@@ -54,7 +54,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 51,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 18,
+        "value": "M",
+        "raw": "\"M\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 19,
@@ -64,14 +70,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 25,
             "end": 49,
-            "importKind": "value",
-            "source": {
-              "type": "Literal",
-              "start": 39,
-              "end": 49,
-              "raw": "\"external\"",
-              "value": "external"
-            },
             "specifiers": [
               {
                 "type": "ImportDefaultSpecifier",
@@ -88,20 +86,22 @@ __ESTREE_TEST__:PASS:
                 }
               }
             ],
+            "source": {
+              "type": "Literal",
+              "start": 39,
+              "end": 49,
+              "value": "external",
+              "raw": "\"external\""
+            },
             "phase": null,
-            "attributes": []
+            "attributes": [],
+            "importKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 18,
-        "raw": "\"M\"",
-        "value": "M"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",

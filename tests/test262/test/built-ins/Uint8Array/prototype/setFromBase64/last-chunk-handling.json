@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 330,
       "end": 390,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -81,13 +82,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 391,
       "end": 437,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -119,8 +120,8 @@
                 "end": 424,
                 "name": "setFromBase64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -134,8 +135,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -161,8 +161,8 @@
             "end": 454,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -181,8 +181,8 @@
               "end": 466,
               "name": "read"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -219,8 +219,8 @@
             "end": 488,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -239,8 +239,8 @@
               "end": 503,
               "name": "written"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -277,8 +277,8 @@
             "end": 528,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -344,6 +344,7 @@
       "type": "VariableDeclaration",
       "start": 570,
       "end": 630,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -418,13 +419,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 631,
       "end": 709,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -456,8 +457,8 @@
                 "end": 664,
                 "name": "setFromBase64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -476,9 +477,7 @@
                     "type": "Property",
                     "start": 679,
                     "end": 705,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 679,
@@ -492,7 +491,9 @@
                       "value": "loose",
                       "raw": "'loose'"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -500,8 +501,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -527,8 +527,8 @@
             "end": 726,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -547,8 +547,8 @@
               "end": 738,
               "name": "read"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -585,8 +585,8 @@
             "end": 760,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -605,8 +605,8 @@
               "end": 775,
               "name": "written"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -643,8 +643,8 @@
             "end": 800,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -710,6 +710,7 @@
       "type": "VariableDeclaration",
       "start": 842,
       "end": 902,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -784,13 +785,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 903,
       "end": 995,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -822,8 +823,8 @@
                 "end": 936,
                 "name": "setFromBase64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -842,9 +843,7 @@
                     "type": "Property",
                     "start": 951,
                     "end": 991,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 951,
@@ -858,7 +857,9 @@
                       "value": "stop-before-partial",
                       "raw": "'stop-before-partial'"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -866,8 +867,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -893,8 +893,8 @@
             "end": 1012,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -913,8 +913,8 @@
               "end": 1024,
               "name": "read"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -951,8 +951,8 @@
             "end": 1046,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -971,8 +971,8 @@
               "end": 1061,
               "name": "written"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -1009,8 +1009,8 @@
             "end": 1086,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1076,6 +1076,7 @@
       "type": "VariableDeclaration",
       "start": 1128,
       "end": 1188,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1150,13 +1151,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1189,
       "end": 1268,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1188,8 +1189,8 @@
                 "end": 1222,
                 "name": "setFromBase64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1208,9 +1209,7 @@
                     "type": "Property",
                     "start": 1237,
                     "end": 1264,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1237,
@@ -1224,7 +1223,9 @@
                       "value": "strict",
                       "raw": "'strict'"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -1232,8 +1233,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1259,8 +1259,8 @@
             "end": 1285,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1279,8 +1279,8 @@
               "end": 1297,
               "name": "read"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -1317,8 +1317,8 @@
             "end": 1319,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1337,8 +1337,8 @@
               "end": 1334,
               "name": "written"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -1375,8 +1375,8 @@
             "end": 1359,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1442,6 +1442,7 @@
       "type": "VariableDeclaration",
       "start": 1416,
       "end": 1476,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1516,13 +1517,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1477,
       "end": 1521,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1554,8 +1555,8 @@
                 "end": 1510,
                 "name": "setFromBase64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1569,8 +1570,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1596,8 +1596,8 @@
             "end": 1538,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1616,8 +1616,8 @@
               "end": 1550,
               "name": "read"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -1654,8 +1654,8 @@
             "end": 1572,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1674,8 +1674,8 @@
               "end": 1587,
               "name": "written"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -1712,8 +1712,8 @@
             "end": 1612,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1779,6 +1779,7 @@
       "type": "VariableDeclaration",
       "start": 1654,
       "end": 1714,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1853,13 +1854,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1715,
       "end": 1791,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1891,8 +1892,8 @@
                 "end": 1748,
                 "name": "setFromBase64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1911,9 +1912,7 @@
                     "type": "Property",
                     "start": 1761,
                     "end": 1787,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1761,
@@ -1927,7 +1926,9 @@
                       "value": "loose",
                       "raw": "'loose'"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -1935,8 +1936,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1962,8 +1962,8 @@
             "end": 1808,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1982,8 +1982,8 @@
               "end": 1820,
               "name": "read"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -2020,8 +2020,8 @@
             "end": 1842,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2040,8 +2040,8 @@
               "end": 1857,
               "name": "written"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -2078,8 +2078,8 @@
             "end": 1882,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2145,6 +2145,7 @@
       "type": "VariableDeclaration",
       "start": 1924,
       "end": 1984,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2219,13 +2220,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1985,
       "end": 2075,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2257,8 +2258,8 @@
                 "end": 2018,
                 "name": "setFromBase64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2277,9 +2278,7 @@
                     "type": "Property",
                     "start": 2031,
                     "end": 2071,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 2031,
@@ -2293,7 +2292,9 @@
                       "value": "stop-before-partial",
                       "raw": "'stop-before-partial'"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -2301,8 +2302,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -2328,8 +2328,8 @@
             "end": 2092,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2348,8 +2348,8 @@
               "end": 2104,
               "name": "read"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -2386,8 +2386,8 @@
             "end": 2126,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2406,8 +2406,8 @@
               "end": 2141,
               "name": "written"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -2444,8 +2444,8 @@
             "end": 2166,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2531,8 +2531,8 @@
             "end": 2221,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2546,7 +2546,6 @@
             "start": 2235,
             "end": 2379,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -2559,6 +2558,7 @@
                   "type": "VariableDeclaration",
                   "start": 2250,
                   "end": 2310,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -2633,8 +2633,7 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -2660,8 +2659,8 @@
                         "end": 2333,
                         "name": "setFromBase64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2680,9 +2679,7 @@
                             "type": "Property",
                             "start": 2346,
                             "end": 2373,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 2346,
@@ -2696,7 +2693,9 @@
                               "value": "strict",
                               "raw": "'strict'"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -2705,7 +2704,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -2715,6 +2715,7 @@
       "type": "VariableDeclaration",
       "start": 2409,
       "end": 2469,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2789,13 +2790,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 2470,
       "end": 2516,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2827,8 +2828,8 @@
                 "end": 2503,
                 "name": "setFromBase64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2842,8 +2843,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -2869,8 +2869,8 @@
             "end": 2533,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2889,8 +2889,8 @@
               "end": 2545,
               "name": "read"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -2927,8 +2927,8 @@
             "end": 2567,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2947,8 +2947,8 @@
               "end": 2582,
               "name": "written"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -2985,8 +2985,8 @@
             "end": 2607,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -3052,6 +3052,7 @@
       "type": "VariableDeclaration",
       "start": 2649,
       "end": 2709,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -3126,13 +3127,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 2710,
       "end": 2788,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -3164,8 +3165,8 @@
                 "end": 2743,
                 "name": "setFromBase64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -3184,9 +3185,7 @@
                     "type": "Property",
                     "start": 2758,
                     "end": 2784,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 2758,
@@ -3200,7 +3199,9 @@
                       "value": "loose",
                       "raw": "'loose'"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -3208,8 +3209,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -3235,8 +3235,8 @@
             "end": 2805,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -3255,8 +3255,8 @@
               "end": 2817,
               "name": "read"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -3293,8 +3293,8 @@
             "end": 2839,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -3313,8 +3313,8 @@
               "end": 2854,
               "name": "written"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -3351,8 +3351,8 @@
             "end": 2879,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -3418,6 +3418,7 @@
       "type": "VariableDeclaration",
       "start": 2921,
       "end": 2981,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -3492,13 +3493,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 2982,
       "end": 3074,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -3530,8 +3531,8 @@
                 "end": 3015,
                 "name": "setFromBase64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -3550,9 +3551,7 @@
                     "type": "Property",
                     "start": 3030,
                     "end": 3070,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 3030,
@@ -3566,7 +3565,9 @@
                       "value": "stop-before-partial",
                       "raw": "'stop-before-partial'"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -3574,8 +3575,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -3601,8 +3601,8 @@
             "end": 3091,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -3621,8 +3621,8 @@
               "end": 3103,
               "name": "read"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -3659,8 +3659,8 @@
             "end": 3125,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -3679,8 +3679,8 @@
               "end": 3140,
               "name": "written"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -3717,8 +3717,8 @@
             "end": 3165,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -3804,8 +3804,8 @@
             "end": 3220,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -3819,7 +3819,6 @@
             "start": 3234,
             "end": 3380,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -3832,6 +3831,7 @@
                   "type": "VariableDeclaration",
                   "start": 3249,
                   "end": 3309,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -3906,8 +3906,7 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -3933,8 +3932,8 @@
                         "end": 3332,
                         "name": "setFromBase64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -3953,9 +3952,7 @@
                             "type": "Property",
                             "start": 3347,
                             "end": 3374,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 3347,
@@ -3969,7 +3966,9 @@
                               "value": "strict",
                               "raw": "'strict'"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -3978,7 +3977,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -3988,6 +3988,7 @@
       "type": "VariableDeclaration",
       "start": 3422,
       "end": 3482,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -4062,13 +4063,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 3483,
       "end": 3527,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -4100,8 +4101,8 @@
                 "end": 3516,
                 "name": "setFromBase64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -4115,8 +4116,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -4142,8 +4142,8 @@
             "end": 3544,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -4162,8 +4162,8 @@
               "end": 3556,
               "name": "read"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -4200,8 +4200,8 @@
             "end": 3578,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -4220,8 +4220,8 @@
               "end": 3593,
               "name": "written"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -4258,8 +4258,8 @@
             "end": 3618,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -4325,6 +4325,7 @@
       "type": "VariableDeclaration",
       "start": 3660,
       "end": 3720,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -4399,13 +4400,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 3721,
       "end": 3797,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -4437,8 +4438,8 @@
                 "end": 3754,
                 "name": "setFromBase64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -4457,9 +4458,7 @@
                     "type": "Property",
                     "start": 3767,
                     "end": 3793,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 3767,
@@ -4473,7 +4472,9 @@
                       "value": "loose",
                       "raw": "'loose'"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -4481,8 +4482,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -4508,8 +4508,8 @@
             "end": 3814,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -4528,8 +4528,8 @@
               "end": 3826,
               "name": "read"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -4566,8 +4566,8 @@
             "end": 3848,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -4586,8 +4586,8 @@
               "end": 3863,
               "name": "written"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -4624,8 +4624,8 @@
             "end": 3888,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -4691,6 +4691,7 @@
       "type": "VariableDeclaration",
       "start": 3930,
       "end": 3990,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -4765,13 +4766,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 3991,
       "end": 4081,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -4803,8 +4804,8 @@
                 "end": 4024,
                 "name": "setFromBase64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -4823,9 +4824,7 @@
                     "type": "Property",
                     "start": 4037,
                     "end": 4077,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 4037,
@@ -4839,7 +4838,9 @@
                       "value": "stop-before-partial",
                       "raw": "'stop-before-partial'"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -4847,8 +4848,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -4874,8 +4874,8 @@
             "end": 4098,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -4894,8 +4894,8 @@
               "end": 4110,
               "name": "read"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -4932,8 +4932,8 @@
             "end": 4132,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -4952,8 +4952,8 @@
               "end": 4147,
               "name": "written"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -4990,8 +4990,8 @@
             "end": 4172,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -5077,8 +5077,8 @@
             "end": 4227,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -5092,7 +5092,6 @@
             "start": 4241,
             "end": 4385,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -5105,6 +5104,7 @@
                   "type": "VariableDeclaration",
                   "start": 4256,
                   "end": 4316,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -5179,8 +5179,7 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -5206,8 +5205,8 @@
                         "end": 4339,
                         "name": "setFromBase64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -5226,9 +5225,7 @@
                             "type": "Property",
                             "start": 4352,
                             "end": 4379,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 4352,
@@ -5242,7 +5239,9 @@
                               "value": "strict",
                               "raw": "'strict'"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -5251,7 +5250,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -5281,8 +5281,8 @@
             "end": 4422,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -5296,7 +5296,6 @@
             "start": 4436,
             "end": 4548,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -5309,6 +5308,7 @@
                   "type": "VariableDeclaration",
                   "start": 4451,
                   "end": 4511,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -5383,8 +5383,7 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -5410,8 +5409,8 @@
                         "end": 4534,
                         "name": "setFromBase64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -5426,7 +5425,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -5456,8 +5456,8 @@
             "end": 4565,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -5471,7 +5471,6 @@
             "start": 4579,
             "end": 4723,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -5484,6 +5483,7 @@
                   "type": "VariableDeclaration",
                   "start": 4594,
                   "end": 4654,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -5558,8 +5558,7 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -5585,8 +5584,8 @@
                         "end": 4677,
                         "name": "setFromBase64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -5605,9 +5604,7 @@
                             "type": "Property",
                             "start": 4691,
                             "end": 4717,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 4691,
@@ -5621,7 +5618,9 @@
                               "value": "loose",
                               "raw": "'loose'"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -5630,7 +5629,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -5640,6 +5640,7 @@
       "type": "VariableDeclaration",
       "start": 4727,
       "end": 4787,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -5714,13 +5715,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 4788,
       "end": 4879,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -5752,8 +5753,8 @@
                 "end": 4821,
                 "name": "setFromBase64"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -5772,9 +5773,7 @@
                     "type": "Property",
                     "start": 4835,
                     "end": 4875,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 4835,
@@ -5788,7 +5787,9 @@
                       "value": "stop-before-partial",
                       "raw": "'stop-before-partial'"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -5796,8 +5797,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -5823,8 +5823,8 @@
             "end": 4896,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -5843,8 +5843,8 @@
               "end": 4908,
               "name": "read"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -5881,8 +5881,8 @@
             "end": 4930,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -5901,8 +5901,8 @@
               "end": 4945,
               "name": "written"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -5939,8 +5939,8 @@
             "end": 4970,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -6026,8 +6026,8 @@
             "end": 5025,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -6041,7 +6041,6 @@
             "start": 5039,
             "end": 5184,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -6054,6 +6053,7 @@
                   "type": "VariableDeclaration",
                   "start": 5054,
                   "end": 5114,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -6128,8 +6128,7 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -6155,8 +6154,8 @@
                         "end": 5137,
                         "name": "setFromBase64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -6175,9 +6174,7 @@
                             "type": "Property",
                             "start": 5151,
                             "end": 5178,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 5151,
@@ -6191,7 +6188,9 @@
                               "value": "strict",
                               "raw": "'strict'"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -6200,7 +6199,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -6230,8 +6230,8 @@
             "end": 5220,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -6245,7 +6245,6 @@
             "start": 5234,
             "end": 5348,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -6258,6 +6257,7 @@
                   "type": "VariableDeclaration",
                   "start": 5249,
                   "end": 5309,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -6332,8 +6332,7 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -6359,8 +6358,8 @@
                         "end": 5332,
                         "name": "setFromBase64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -6375,7 +6374,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -6405,8 +6405,8 @@
             "end": 5365,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -6420,7 +6420,6 @@
             "start": 5379,
             "end": 5525,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -6433,6 +6432,7 @@
                   "type": "VariableDeclaration",
                   "start": 5394,
                   "end": 5454,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -6507,8 +6507,7 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -6534,8 +6533,8 @@
                         "end": 5477,
                         "name": "setFromBase64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -6554,9 +6553,7 @@
                             "type": "Property",
                             "start": 5493,
                             "end": 5519,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 5493,
@@ -6570,7 +6567,9 @@
                               "value": "loose",
                               "raw": "'loose'"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -6579,7 +6578,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -6609,8 +6609,8 @@
             "end": 5542,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -6624,7 +6624,6 @@
             "start": 5556,
             "end": 5716,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -6637,6 +6636,7 @@
                   "type": "VariableDeclaration",
                   "start": 5571,
                   "end": 5631,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -6711,8 +6711,7 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -6738,8 +6737,8 @@
                         "end": 5654,
                         "name": "setFromBase64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -6758,9 +6757,7 @@
                             "type": "Property",
                             "start": 5670,
                             "end": 5710,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 5670,
@@ -6774,7 +6771,9 @@
                               "value": "stop-before-partial",
                               "raw": "'stop-before-partial'"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -6783,7 +6782,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -6813,8 +6813,8 @@
             "end": 5733,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -6828,7 +6828,6 @@
             "start": 5747,
             "end": 5894,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -6841,6 +6840,7 @@
                   "type": "VariableDeclaration",
                   "start": 5762,
                   "end": 5822,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -6915,8 +6915,7 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -6942,8 +6941,8 @@
                         "end": 5845,
                         "name": "setFromBase64"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -6962,9 +6961,7 @@
                             "type": "Property",
                             "start": 5861,
                             "end": 5888,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 5861,
@@ -6978,7 +6975,9 @@
                               "value": "strict",
                               "raw": "'strict'"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -6987,7 +6986,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

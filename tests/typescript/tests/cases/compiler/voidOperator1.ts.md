@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 20,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 19,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -37,31 +37,31 @@ __ESTREE_TEST__:PASS:
             "type": "UnaryExpression",
             "start": 13,
             "end": 19,
+            "operator": "void",
             "argument": {
               "type": "Literal",
               "start": 18,
               "end": 19,
-              "raw": "1",
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
-            "operator": "void",
             "prefix": true
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 21,
       "end": 42,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 25,
           "end": 41,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 25,
@@ -84,31 +84,31 @@ __ESTREE_TEST__:PASS:
             "type": "UnaryExpression",
             "start": 35,
             "end": 41,
+            "operator": "void",
             "argument": {
               "type": "Literal",
               "start": 40,
               "end": 41,
-              "raw": "1",
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
-            "operator": "void",
             "prefix": true
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 43,
       "end": 58,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 47,
           "end": 57,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 47,
@@ -122,20 +122,20 @@ __ESTREE_TEST__:PASS:
             "type": "UnaryExpression",
             "start": 51,
             "end": 57,
+            "operator": "void",
             "argument": {
               "type": "Literal",
               "start": 56,
               "end": 57,
-              "raw": "1",
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
-            "operator": "void",
             "prefix": true
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

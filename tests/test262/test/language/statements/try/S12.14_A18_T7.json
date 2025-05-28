@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 250,
       "end": 275,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -31,8 +32,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -60,8 +60,8 @@
             "value": 0,
             "raw": "0"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -98,8 +98,8 @@
             "value": 1,
             "raw": "1"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -136,8 +136,8 @@
             "value": 2,
             "raw": "2"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -152,6 +152,7 @@
       "type": "VariableDeclaration",
       "start": 337,
       "end": 363,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -176,8 +177,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -205,8 +205,8 @@
             "value": 0,
             "raw": "0"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -243,8 +243,8 @@
             "value": 1,
             "raw": "1"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -281,8 +281,8 @@
             "value": 2,
             "raw": "2"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -338,6 +338,7 @@
                 "type": "VariableDeclaration",
                 "start": 485,
                 "end": 492,
+                "kind": "var",
                 "declarations": [
                   {
                     "type": "VariableDeclarator",
@@ -357,8 +358,7 @@
                       "raw": "0"
                     }
                   }
-                ],
-                "kind": "var"
+                ]
               },
               "test": {
                 "type": "BinaryExpression",
@@ -421,8 +421,8 @@
                           "end": 514,
                           "name": "i"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       "operator": "!==",
                       "right": {
@@ -441,8 +441,8 @@
                           "end": 526,
                           "name": "i"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       }
                     },
                     "consequent": {
@@ -588,8 +588,8 @@
                                 "end": 631,
                                 "name": "i"
                               },
-                              "computed": true,
-                              "optional": false
+                              "optional": false,
+                              "computed": true
                             }
                           }
                         ]
@@ -638,8 +638,8 @@
                   "end": 680,
                   "name": "concat"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -677,6 +677,7 @@
                 "type": "VariableDeclaration",
                 "start": 710,
                 "end": 717,
+                "kind": "var",
                 "declarations": [
                   {
                     "type": "VariableDeclarator",
@@ -696,8 +697,7 @@
                       "raw": "0"
                     }
                   }
-                ],
-                "kind": "var"
+                ]
               },
               "test": {
                 "type": "BinaryExpression",
@@ -760,8 +760,8 @@
                           "end": 739,
                           "name": "i"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       "operator": "!==",
                       "right": {
@@ -780,8 +780,8 @@
                           "end": 751,
                           "name": "i"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       }
                     },
                     "consequent": {
@@ -927,8 +927,8 @@
                                 "end": 856,
                                 "name": "i"
                               },
-                              "computed": true,
-                              "optional": false
+                              "optional": false,
+                              "computed": true
                             }
                           }
                         ]
@@ -947,6 +947,7 @@
                 "type": "VariableDeclaration",
                 "start": 872,
                 "end": 879,
+                "kind": "var",
                 "declarations": [
                   {
                     "type": "VariableDeclarator",
@@ -966,8 +967,7 @@
                       "raw": "3"
                     }
                   }
-                ],
-                "kind": "var"
+                ]
               },
               "test": {
                 "type": "BinaryExpression",
@@ -1030,8 +1030,8 @@
                           "end": 901,
                           "name": "i"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       "operator": "!==",
                       "right": {
@@ -1063,8 +1063,8 @@
                             "raw": "3"
                           }
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       }
                     },
                     "consequent": {
@@ -1210,8 +1210,8 @@
                                 "end": 1022,
                                 "name": "i"
                               },
-                              "computed": true,
-                              "optional": false
+                              "optional": false,
+                              "computed": true
                             }
                           }
                         ]
@@ -1300,6 +1300,7 @@
                 "type": "VariableDeclaration",
                 "start": 1116,
                 "end": 1123,
+                "kind": "var",
                 "declarations": [
                   {
                     "type": "VariableDeclarator",
@@ -1319,8 +1320,7 @@
                       "raw": "0"
                     }
                   }
-                ],
-                "kind": "var"
+                ]
               },
               "test": {
                 "type": "BinaryExpression",
@@ -1383,8 +1383,8 @@
                           "end": 1145,
                           "name": "i"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       "operator": "!==",
                       "right": {
@@ -1403,8 +1403,8 @@
                           "end": 1158,
                           "name": "i"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       }
                     },
                     "consequent": {
@@ -1550,8 +1550,8 @@
                                 "end": 1264,
                                 "name": "i"
                               },
-                              "computed": true,
-                              "optional": false
+                              "optional": false,
+                              "computed": true
                             }
                           }
                         ]
@@ -1600,8 +1600,8 @@
                   "end": 1312,
                   "name": "concat"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1667,6 +1667,7 @@
                 "type": "VariableDeclaration",
                 "start": 1372,
                 "end": 1379,
+                "kind": "var",
                 "declarations": [
                   {
                     "type": "VariableDeclarator",
@@ -1686,8 +1687,7 @@
                       "raw": "0"
                     }
                   }
-                ],
-                "kind": "var"
+                ]
               },
               "test": {
                 "type": "BinaryExpression",
@@ -1750,8 +1750,8 @@
                           "end": 1401,
                           "name": "i"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       "operator": "!==",
                       "right": {
@@ -1770,8 +1770,8 @@
                           "end": 1413,
                           "name": "i"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       }
                     },
                     "consequent": {
@@ -1917,8 +1917,8 @@
                                 "end": 1518,
                                 "name": "i"
                               },
-                              "computed": true,
-                              "optional": false
+                              "optional": false,
+                              "computed": true
                             }
                           }
                         ]
@@ -1937,6 +1937,7 @@
                 "type": "VariableDeclaration",
                 "start": 1534,
                 "end": 1541,
+                "kind": "var",
                 "declarations": [
                   {
                     "type": "VariableDeclarator",
@@ -1956,8 +1957,7 @@
                       "raw": "3"
                     }
                   }
-                ],
-                "kind": "var"
+                ]
               },
               "test": {
                 "type": "BinaryExpression",
@@ -2020,8 +2020,8 @@
                           "end": 1563,
                           "name": "i"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       "operator": "!==",
                       "right": {
@@ -2053,8 +2053,8 @@
                             "raw": "3"
                           }
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       }
                     },
                     "consequent": {
@@ -2218,8 +2218,8 @@
                                 "end": 1688,
                                 "name": "i"
                               },
-                              "computed": true,
-                              "optional": false
+                              "optional": false,
+                              "computed": true
                             }
                           }
                         ]

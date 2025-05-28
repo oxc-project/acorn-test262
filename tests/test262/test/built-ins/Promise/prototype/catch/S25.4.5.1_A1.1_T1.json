@@ -23,13 +23,11 @@
             "start": 255,
             "end": 302,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "UnaryExpression",
               "start": 256,
               "end": 302,
               "operator": "!",
-              "prefix": true,
               "argument": {
                 "type": "ParenthesizedExpression",
                 "start": 257,
@@ -58,8 +56,8 @@
                         "end": 275,
                         "name": "prototype"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -67,8 +65,8 @@
                       "end": 281,
                       "name": "catch"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "operator": "instanceof",
                   "right": {
@@ -78,8 +76,10 @@
                     "name": "Function"
                   }
                 }
-              }
-            }
+              },
+              "prefix": true
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

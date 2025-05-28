@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 35,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 34,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,7 +28,12 @@ __ESTREE_TEST__:PASS:
             "type": "ClassExpression",
             "start": 8,
             "end": 34,
-            "abstract": false,
+            "decorators": [],
+            "id": null,
+            "typeParameters": null,
+            "superClass": null,
+            "superTypeArguments": null,
+            "implements": [],
             "body": {
               "type": "ClassBody",
               "start": 14,
@@ -38,11 +43,7 @@ __ESTREE_TEST__:PASS:
                   "type": "PropertyDefinition",
                   "start": 20,
                   "end": 32,
-                  "accessibility": null,
-                  "computed": false,
-                  "declare": false,
                   "decorators": [],
-                  "definite": false,
                   "key": {
                     "type": "Identifier",
                     "start": 26,
@@ -52,33 +53,32 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
-                  "override": false,
-                  "readonly": false,
-                  "static": false,
                   "typeAnnotation": null,
                   "value": {
                     "type": "Literal",
                     "start": 30,
                     "end": 31,
-                    "raw": "4",
-                    "value": 4
-                  }
+                    "value": 4,
+                    "raw": "4"
+                  },
+                  "computed": false,
+                  "static": false,
+                  "declare": false,
+                  "override": false,
+                  "optional": false,
+                  "definite": false,
+                  "readonly": false,
+                  "accessibility": null
                 }
               ]
             },
-            "declare": false,
-            "decorators": [],
-            "id": null,
-            "implements": [],
-            "superClass": null,
-            "superTypeArguments": null,
-            "typeParameters": null
-          }
+            "abstract": false,
+            "declare": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     }
   ],
   "sourceType": "script",

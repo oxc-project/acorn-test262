@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 14,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 13,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -33,23 +33,17 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ForOfStatement",
       "start": 15,
       "end": 39,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 36,
-        "end": 39,
-        "body": []
-      },
       "left": {
         "type": "Identifier",
         "start": 20,
@@ -68,10 +62,16 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 26,
             "end": 33,
-            "raw": "\"hello\"",
-            "value": "hello"
+            "value": "hello",
+            "raw": "\"hello\""
           }
         ]
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 36,
+        "end": 39,
+        "body": []
       }
     },
     {
@@ -79,12 +79,6 @@ __ESTREE_TEST__:PASS:
       "start": 40,
       "end": 62,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 59,
-        "end": 62,
-        "body": []
-      },
       "left": {
         "type": "Identifier",
         "start": 45,
@@ -98,8 +92,14 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "start": 50,
         "end": 57,
-        "raw": "\"hello\"",
-        "value": "hello"
+        "value": "hello",
+        "raw": "\"hello\""
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 59,
+        "end": 62,
+        "body": []
       }
     }
   ],

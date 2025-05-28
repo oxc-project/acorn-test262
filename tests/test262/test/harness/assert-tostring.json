@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 249,
       "end": 267,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "false"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 268,
       "end": 331,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -64,8 +65,8 @@
                 "end": 309,
                 "name": "getPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -73,7 +74,6 @@
                 "start": 310,
                 "end": 329,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": true,
                 "params": [],
@@ -82,14 +82,14 @@
                   "start": 327,
                   "end": 329,
                   "body": []
-                }
+                },
+                "expression": false
               }
             ],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "TryStatement",
@@ -190,8 +190,8 @@
                     "end": 417,
                     "name": "constructor"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "operator": "!==",
                 "right": {
@@ -257,8 +257,8 @@
                                   "end": 510,
                                   "name": "constructor"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "property": {
                                 "type": "Identifier",
@@ -266,8 +266,8 @@
                                 "end": 515,
                                 "name": "name"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             }
                           },
                           "operator": "+",
@@ -300,13 +300,13 @@
         "start": 547,
         "end": 553,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "Identifier",
           "start": 548,
           "end": 553,
           "name": "threw"
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",

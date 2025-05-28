@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 484,
       "end": 499,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -32,8 +33,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -52,7 +52,6 @@
             "start": 502,
             "end": 703,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -142,6 +141,13 @@
                       "type": "SwitchCase",
                       "start": 600,
                       "end": 631,
+                      "test": {
+                        "type": "Literal",
+                        "start": 605,
+                        "end": 606,
+                        "value": 1,
+                        "raw": "1"
+                      },
                       "consequent": [
                         {
                           "type": "FunctionDeclaration",
@@ -153,7 +159,6 @@
                             "end": 624,
                             "name": "f"
                           },
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [],
@@ -162,16 +167,10 @@
                             "start": 627,
                             "end": 631,
                             "body": []
-                          }
+                          },
+                          "expression": false
                         }
-                      ],
-                      "test": {
-                        "type": "Literal",
-                        "start": 605,
-                        "end": 606,
-                        "value": 1,
-                        "raw": "1"
-                      }
+                      ]
                     }
                   ]
                 },
@@ -241,7 +240,8 @@
                   "finalizer": null
                 }
               ]
-            }
+            },
+            "expression": false
           },
           "arguments": [],
           "optional": false
@@ -272,8 +272,8 @@
             "end": 725,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -292,8 +292,8 @@
               "end": 742,
               "name": "constructor"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Identifier",
@@ -329,8 +329,8 @@
             "end": 777,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -349,8 +349,8 @@
               "end": 794,
               "name": "constructor"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Identifier",

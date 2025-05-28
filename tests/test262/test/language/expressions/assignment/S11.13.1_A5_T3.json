@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 615,
       "end": 639,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,9 +28,7 @@
                 "type": "Property",
                 "start": 633,
                 "end": 637,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 633,
@@ -43,18 +42,20 @@
                   "value": 0,
                   "raw": "0"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 640,
       "end": 664,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -75,9 +76,7 @@
                 "type": "Property",
                 "start": 658,
                 "end": 662,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 658,
@@ -91,13 +90,14 @@
                   "value": 1,
                   "raw": "1"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "WithStatement",
@@ -158,7 +158,6 @@
                             "start": 717,
                             "end": 736,
                             "operator": "delete",
-                            "prefix": true,
                             "argument": {
                               "type": "MemberExpression",
                               "start": 724,
@@ -175,9 +174,10 @@
                                 "end": 736,
                                 "name": "x"
                               },
-                              "computed": false,
-                              "optional": false
-                            }
+                              "optional": false,
+                              "computed": false
+                            },
+                            "prefix": true
                           },
                           {
                             "type": "Literal",
@@ -221,8 +221,8 @@
             "end": 765,
             "name": "x"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -285,8 +285,8 @@
                         "end": 850,
                         "name": "x"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 }
@@ -321,8 +321,8 @@
             "end": 872,
             "name": "x"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -385,8 +385,8 @@
                         "end": 957,
                         "name": "x"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 }

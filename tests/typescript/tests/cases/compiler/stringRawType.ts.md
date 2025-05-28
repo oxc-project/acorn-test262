@@ -9,11 +9,36 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 49,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
         "end": 48,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 0,
+          "end": 10,
+          "object": {
+            "type": "Identifier",
+            "start": 0,
+            "end": 6,
+            "decorators": [],
+            "name": "String",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 7,
+            "end": 10,
+            "decorators": [],
+            "name": "raw",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "computed": false
+        },
+        "typeArguments": null,
         "arguments": [
           {
             "type": "ObjectExpression",
@@ -24,7 +49,7 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 13,
                 "end": 39,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 13,
@@ -34,10 +59,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "ArrayExpression",
                   "start": 18,
@@ -47,25 +68,29 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 19,
                       "end": 24,
-                      "raw": "\"foo\"",
-                      "value": "foo"
+                      "value": "foo",
+                      "raw": "\"foo\""
                     },
                     {
                       "type": "Literal",
                       "start": 26,
                       "end": 31,
-                      "raw": "\"bar\"",
-                      "value": "bar"
+                      "value": "bar",
+                      "raw": "\"bar\""
                     },
                     {
                       "type": "Literal",
                       "start": 33,
                       "end": 38,
-                      "raw": "\"baz\"",
-                      "value": "baz"
+                      "value": "baz",
+                      "raw": "\"baz\""
                     }
                   ]
-                }
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "optional": false
               }
             ]
           },
@@ -73,45 +98,20 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 43,
             "end": 44,
-            "raw": "1",
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 46,
             "end": 47,
-            "raw": "2",
-            "value": 2
+            "value": 2,
+            "raw": "2"
           }
         ],
-        "callee": {
-          "type": "MemberExpression",
-          "start": 0,
-          "end": 10,
-          "computed": false,
-          "object": {
-            "type": "Identifier",
-            "start": 0,
-            "end": 6,
-            "decorators": [],
-            "name": "String",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "optional": false,
-          "property": {
-            "type": "Identifier",
-            "start": 7,
-            "end": 10,
-            "decorators": [],
-            "name": "raw",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
-        "optional": false,
-        "typeArguments": null
-      }
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

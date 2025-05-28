@@ -20,12 +20,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 82,
       "end": 115,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 88,
           "end": 114,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 88,
@@ -44,7 +44,7 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 96,
                 "end": 100,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 96,
@@ -54,23 +54,23 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Literal",
                   "start": 99,
                   "end": 100,
-                  "raw": "1",
-                  "value": 1
-                }
+                  "value": 1,
+                  "raw": "1"
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "optional": false
               },
               {
                 "type": "Property",
                 "start": 102,
                 "end": 106,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 102,
@@ -80,23 +80,23 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Literal",
                   "start": 105,
                   "end": 106,
-                  "raw": "1",
-                  "value": 1
-                }
+                  "value": 1,
+                  "raw": "1"
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "optional": false
               },
               {
                 "type": "Property",
                 "start": 108,
                 "end": 112,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 108,
@@ -106,24 +106,24 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Literal",
                   "start": 111,
                   "end": 112,
-                  "raw": "1",
-                  "value": 1
-                }
+                  "value": 1,
+                  "raw": "1"
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -156,14 +156,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 20,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 14,
-        "end": 19,
-        "raw": "\"./a\"",
-        "value": "./a"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -180,14 +172,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 14,
+        "end": 19,
+        "value": "./a",
+        "raw": "\"./a\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 21,
       "end": 23,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 21,
@@ -196,7 +195,8 @@ __ESTREE_TEST__:PASS:
         "name": "a",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

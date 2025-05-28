@@ -24,7 +24,6 @@
               "start": 321,
               "end": 360,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -42,16 +41,17 @@
                       "start": 346,
                       "end": 357,
                       "operator": "typeof",
-                      "prefix": true,
                       "argument": {
                         "type": "ThisExpression",
                         "start": 353,
                         "end": 357
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
           },
           "arguments": [],

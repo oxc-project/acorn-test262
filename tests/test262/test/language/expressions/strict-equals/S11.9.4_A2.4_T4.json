@@ -12,7 +12,6 @@
         "start": 320,
         "end": 336,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 321,
@@ -53,7 +52,8 @@
               "name": "y"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",

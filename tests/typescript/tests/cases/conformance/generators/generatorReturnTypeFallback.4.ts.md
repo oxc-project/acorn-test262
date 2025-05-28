@@ -9,7 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 198,
       "end": 246,
+      "id": {
+        "type": "Identifier",
+        "start": 208,
+        "end": 209,
+        "decorators": [],
+        "name": "f",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": true,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 212,
@@ -19,12 +33,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 218,
             "end": 244,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 224,
                 "end": 243,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 224,
@@ -47,37 +61,23 @@ __ESTREE_TEST__:PASS:
                   "type": "YieldExpression",
                   "start": 236,
                   "end": 243,
+                  "delegate": false,
                   "argument": {
                     "type": "Literal",
                     "start": 242,
                     "end": 243,
-                    "raw": "1",
-                    "value": 1
-                  },
-                  "delegate": false
-                }
+                    "value": 1,
+                    "raw": "1"
+                  }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "const"
+            "declare": false
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": true,
-      "id": {
-        "type": "Identifier",
-        "start": 208,
-        "end": 209,
-        "decorators": [],
-        "name": "f",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 327,
       "end": 345,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "true"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 346,
       "end": 430,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -136,8 +137,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForStatement",
@@ -147,6 +147,7 @@
         "type": "VariableDeclaration",
         "start": 436,
         "end": 450,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -166,8 +167,7 @@
               "raw": "0"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -196,8 +196,8 @@
             "end": 476,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       },
       "update": {
@@ -226,6 +226,7 @@
               "type": "VariableDeclaration",
               "start": 497,
               "end": 529,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -257,8 +258,8 @@
                         "end": 525,
                         "name": "indexI"
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "property": {
                       "type": "Literal",
@@ -267,12 +268,11 @@
                       "value": 0,
                       "raw": "0"
                     },
-                    "computed": true,
-                    "optional": false
+                    "optional": false,
+                    "computed": true
                   }
                 }
-              ],
-              "kind": "var"
+              ]
             },
             "test": {
               "type": "BinaryExpression",
@@ -305,8 +305,8 @@
                     "end": 556,
                     "name": "indexI"
                   },
-                  "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "computed": true
                 },
                 "property": {
                   "type": "Literal",
@@ -315,8 +315,8 @@
                   "value": 1,
                   "raw": "1"
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               }
             },
             "update": {
@@ -397,8 +397,8 @@
                                       "end": 625,
                                       "name": "fromCharCode"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   "arguments": [
                                     {

@@ -12,6 +12,7 @@
           "type": "VariableDeclaration",
           "start": 357,
           "end": 390,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -72,13 +73,13 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "VariableDeclaration",
           "start": 393,
           "end": 426,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -139,8 +140,7 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "ExpressionStatement",
@@ -166,8 +166,8 @@
                 "end": 449,
                 "name": "compareArray"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -199,8 +199,8 @@
                           "end": 476,
                           "name": "symmetricDifference"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -265,6 +265,7 @@
           "type": "VariableDeclaration",
           "start": 505,
           "end": 538,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -325,13 +326,13 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "VariableDeclaration",
           "start": 541,
           "end": 574,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -392,8 +393,7 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "ExpressionStatement",
@@ -419,8 +419,8 @@
                 "end": 597,
                 "name": "compareArray"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -452,8 +452,8 @@
                           "end": 624,
                           "name": "symmetricDifference"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {

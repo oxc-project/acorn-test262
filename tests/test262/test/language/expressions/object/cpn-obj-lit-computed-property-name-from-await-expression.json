@@ -16,6 +16,7 @@
             "type": "VariableDeclaration",
             "start": 744,
             "end": 771,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -36,9 +37,7 @@
                       "type": "Property",
                       "start": 756,
                       "end": 768,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": true,
+                      "kind": "init",
                       "key": {
                         "type": "AwaitExpression",
                         "start": 757,
@@ -58,13 +57,14 @@
                         "value": 9,
                         "raw": "9"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": true
                     }
                   ]
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -90,8 +90,8 @@
                   "end": 789,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -116,8 +116,8 @@
                       "raw": "9"
                     }
                   },
-                  "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "computed": true
                 },
                 {
                   "type": "Literal",
@@ -154,8 +154,8 @@
                   "end": 828,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -194,8 +194,8 @@
                     ],
                     "optional": false
                   },
-                  "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "computed": true
                 },
                 {
                   "type": "Literal",

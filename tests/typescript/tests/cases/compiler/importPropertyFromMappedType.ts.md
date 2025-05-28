@@ -23,12 +23,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 37,
       "end": 102,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 51,
           "end": 101,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 51,
@@ -44,7 +44,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 68,
                 "end": 101,
-                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 68,
@@ -67,79 +66,21 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   }
-                }
+                },
+                "typeArguments": null
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     },
     {
       "type": "TSModuleDeclaration",
       "start": 103,
       "end": 201,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 137,
-        "end": 201,
-        "body": [
-          {
-            "type": "TSTypeAliasDeclaration",
-            "start": 143,
-            "end": 199,
-            "declare": false,
-            "id": {
-              "type": "Identifier",
-              "start": 148,
-              "end": 165,
-              "decorators": [],
-              "name": "NamedConstructors",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeAnnotation": {
-              "type": "TSMappedType",
-              "start": 169,
-              "end": 199,
-              "constraint": {
-                "type": "TSLiteralType",
-                "start": 177,
-                "end": 187,
-                "literal": {
-                  "type": "Literal",
-                  "start": 177,
-                  "end": 187,
-                  "raw": "'NotFound'",
-                  "value": "NotFound"
-                }
-              },
-              "key": {
-                "type": "Identifier",
-                "start": 172,
-                "end": 173,
-                "decorators": [],
-                "name": "P",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "nameType": null,
-              "optional": false,
-              "readonly": null,
-              "typeAnnotation": {
-                "type": "TSUnknownKeyword",
-                "start": 190,
-                "end": 197
-              }
-            },
-            "typeParameters": null
-          }
-        ]
-      },
-      "declare": true,
-      "global": false,
       "id": {
         "type": "Identifier",
         "start": 121,
@@ -149,7 +90,66 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "namespace"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 137,
+        "end": 201,
+        "body": [
+          {
+            "type": "TSTypeAliasDeclaration",
+            "start": 143,
+            "end": 199,
+            "id": {
+              "type": "Identifier",
+              "start": 148,
+              "end": 165,
+              "decorators": [],
+              "name": "NamedConstructors",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null,
+            "typeAnnotation": {
+              "type": "TSMappedType",
+              "start": 169,
+              "end": 199,
+              "key": {
+                "type": "Identifier",
+                "start": 172,
+                "end": 173,
+                "decorators": [],
+                "name": "P",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "constraint": {
+                "type": "TSLiteralType",
+                "start": 177,
+                "end": 187,
+                "literal": {
+                  "type": "Literal",
+                  "start": 177,
+                  "end": 187,
+                  "value": "NotFound",
+                  "raw": "'NotFound'"
+                }
+              },
+              "nameType": null,
+              "typeAnnotation": {
+                "type": "TSUnknownKeyword",
+                "start": 190,
+                "end": 197
+              },
+              "optional": false,
+              "readonly": null
+            },
+            "declare": false
+          }
+        ]
+      },
+      "kind": "namespace",
+      "declare": true,
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -167,14 +167,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 35,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 25,
-        "end": 35,
-        "raw": "'./errors'",
-        "value": "./errors"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -189,7 +181,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
@@ -198,11 +189,20 @@ __ESTREE_TEST__:PASS:
             "name": "NotFound",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 25,
+        "end": 35,
+        "value": "./errors",
+        "raw": "'./errors'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

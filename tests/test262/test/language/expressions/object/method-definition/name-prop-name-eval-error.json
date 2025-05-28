@@ -27,8 +27,8 @@
             "end": 267,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 282,
             "end": 363,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -68,9 +67,7 @@
                           "type": "Property",
                           "start": 304,
                           "end": 355,
-                          "method": true,
-                          "shorthand": false,
-                          "computed": true,
+                          "kind": "init",
                           "key": {
                             "type": "ParenthesizedExpression",
                             "start": 305,
@@ -84,7 +81,6 @@
                                 "start": 306,
                                 "end": 346,
                                 "id": null,
-                                "expression": false,
                                 "generator": false,
                                 "async": false,
                                 "params": [],
@@ -111,7 +107,8 @@
                                       }
                                     }
                                   ]
-                                }
+                                },
+                                "expression": false
                               },
                               "arguments": [],
                               "optional": false
@@ -122,7 +119,6 @@
                             "start": 350,
                             "end": 355,
                             "id": null,
-                            "expression": false,
                             "generator": false,
                             "async": false,
                             "params": [],
@@ -131,16 +127,20 @@
                               "start": 353,
                               "end": 355,
                               "body": []
-                            }
+                            },
+                            "expression": false
                           },
-                          "kind": "init"
+                          "method": true,
+                          "shorthand": false,
+                          "computed": true
                         }
                       ]
                     }
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 15,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 14,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -33,22 +33,22 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 16,
       "end": 40,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 20,
           "end": 39,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 20,
@@ -62,27 +62,27 @@ __ESTREE_TEST__:PASS:
             "type": "JSXElement",
             "start": 30,
             "end": 39,
-            "children": [],
-            "closingElement": null,
             "openingElement": {
               "type": "JSXOpeningElement",
               "start": 30,
               "end": 39,
-              "attributes": [],
               "name": {
                 "type": "JSXIdentifier",
                 "start": 31,
                 "end": 36,
                 "name": "Route"
               },
-              "selfClosing": true,
-              "typeArguments": null
-            }
-          }
+              "typeArguments": null,
+              "attributes": [],
+              "selfClosing": true
+            },
+            "children": [],
+            "closingElement": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

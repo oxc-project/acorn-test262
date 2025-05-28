@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 706,
       "end": 733,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,15 +39,14 @@
                 "end": 730,
                 "name": "now"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -88,17 +88,15 @@
                 "end": 786,
                 "name": "then"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
                 "type": "ArrowFunctionExpression",
                 "start": 787,
                 "end": 992,
-                "id": null,
                 "expression": false,
-                "generator": false,
                 "async": false,
                 "params": [
                   {
@@ -117,6 +115,7 @@
                       "type": "VariableDeclaration",
                       "start": 803,
                       "end": 840,
+                      "kind": "var",
                       "declarations": [
                         {
                           "type": "VariableDeclarator",
@@ -152,8 +151,8 @@
                                   "end": 825,
                                   "name": "now"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "arguments": [],
                               "optional": false
@@ -167,8 +166,7 @@
                             }
                           }
                         }
-                      ],
-                      "kind": "var"
+                      ]
                     },
                     {
                       "type": "ExpressionStatement",
@@ -205,8 +203,8 @@
                                 "end": 863,
                                 "name": "time"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "operator": ">",
                             "right": {
@@ -221,6 +219,28 @@
                             "type": "TemplateLiteral",
                             "start": 871,
                             "end": 903,
+                            "quasis": [
+                              {
+                                "type": "TemplateElement",
+                                "start": 872,
+                                "end": 872,
+                                "value": {
+                                  "raw": "",
+                                  "cooked": ""
+                                },
+                                "tail": false
+                              },
+                              {
+                                "type": "TemplateElement",
+                                "start": 896,
+                                "end": 902,
+                                "value": {
+                                  "raw": " > 100",
+                                  "cooked": " > 100"
+                                },
+                                "tail": true
+                              }
+                            ],
                             "expressions": [
                               {
                                 "type": "CallExpression",
@@ -249,33 +269,11 @@
                                       "end": 894,
                                       "name": "time"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   }
                                 ],
                                 "optional": false
-                              }
-                            ],
-                            "quasis": [
-                              {
-                                "type": "TemplateElement",
-                                "start": 872,
-                                "end": 872,
-                                "value": {
-                                  "raw": "",
-                                  "cooked": ""
-                                },
-                                "tail": false
-                              },
-                              {
-                                "type": "TemplateElement",
-                                "start": 896,
-                                "end": 902,
-                                "value": {
-                                  "raw": " > 100",
-                                  "cooked": " > 100"
-                                },
-                                "tail": true
                               }
                             ]
                           }
@@ -318,8 +316,8 @@
                                 "end": 928,
                                 "name": "time"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "operator": "<=",
                             "right": {
@@ -333,61 +331,6 @@
                             "type": "TemplateLiteral",
                             "start": 941,
                             "end": 988,
-                            "expressions": [
-                              {
-                                "type": "CallExpression",
-                                "start": 944,
-                                "end": 965,
-                                "callee": {
-                                  "type": "Identifier",
-                                  "start": 944,
-                                  "end": 950,
-                                  "name": "String"
-                                },
-                                "arguments": [
-                                  {
-                                    "type": "MemberExpression",
-                                    "start": 951,
-                                    "end": 964,
-                                    "object": {
-                                      "type": "Identifier",
-                                      "start": 951,
-                                      "end": 959,
-                                      "name": "imported"
-                                    },
-                                    "property": {
-                                      "type": "Identifier",
-                                      "start": 960,
-                                      "end": 964,
-                                      "name": "time"
-                                    },
-                                    "computed": false,
-                                    "optional": false
-                                  }
-                                ],
-                                "optional": false
-                              },
-                              {
-                                "type": "CallExpression",
-                                "start": 971,
-                                "end": 986,
-                                "callee": {
-                                  "type": "Identifier",
-                                  "start": 971,
-                                  "end": 977,
-                                  "name": "String"
-                                },
-                                "arguments": [
-                                  {
-                                    "type": "Identifier",
-                                    "start": 978,
-                                    "end": 985,
-                                    "name": "endTime"
-                                  }
-                                ],
-                                "optional": false
-                              }
-                            ],
                             "quasis": [
                               {
                                 "type": "TemplateElement",
@@ -419,6 +362,61 @@
                                 },
                                 "tail": true
                               }
+                            ],
+                            "expressions": [
+                              {
+                                "type": "CallExpression",
+                                "start": 944,
+                                "end": 965,
+                                "callee": {
+                                  "type": "Identifier",
+                                  "start": 944,
+                                  "end": 950,
+                                  "name": "String"
+                                },
+                                "arguments": [
+                                  {
+                                    "type": "MemberExpression",
+                                    "start": 951,
+                                    "end": 964,
+                                    "object": {
+                                      "type": "Identifier",
+                                      "start": 951,
+                                      "end": 959,
+                                      "name": "imported"
+                                    },
+                                    "property": {
+                                      "type": "Identifier",
+                                      "start": 960,
+                                      "end": 964,
+                                      "name": "time"
+                                    },
+                                    "optional": false,
+                                    "computed": false
+                                  }
+                                ],
+                                "optional": false
+                              },
+                              {
+                                "type": "CallExpression",
+                                "start": 971,
+                                "end": 986,
+                                "callee": {
+                                  "type": "Identifier",
+                                  "start": 971,
+                                  "end": 977,
+                                  "name": "String"
+                                },
+                                "arguments": [
+                                  {
+                                    "type": "Identifier",
+                                    "start": 978,
+                                    "end": 985,
+                                    "name": "endTime"
+                                  }
+                                ],
+                                "optional": false
+                              }
                             ]
                           }
                         ],
@@ -426,7 +424,9 @@
                       }
                     }
                   ]
-                }
+                },
+                "id": null,
+                "generator": false
               }
             ],
             "optional": false
@@ -437,8 +437,8 @@
             "end": 998,
             "name": "then"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

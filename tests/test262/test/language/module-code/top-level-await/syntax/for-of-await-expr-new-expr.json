@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 2319,
       "end": 2331,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -59,7 +59,6 @@
                   "start": 2516,
                   "end": 2546,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [
@@ -108,7 +107,8 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 }
               ]
             }
@@ -144,7 +144,6 @@
                     "start": 2572,
                     "end": 2602,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [
@@ -193,7 +192,8 @@
                           }
                         }
                       ]
-                    }
+                    },
+                    "expression": false
                   }
                 ]
               }
@@ -217,6 +217,7 @@
         "type": "VariableDeclaration",
         "start": 2744,
         "end": 2755,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -230,8 +231,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "right": {
         "type": "ArrayExpression",
@@ -258,7 +258,6 @@
                   "start": 2778,
                   "end": 2808,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [
@@ -307,7 +306,8 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 }
               ]
             }
@@ -343,7 +343,6 @@
                     "start": 2834,
                     "end": 2864,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [
@@ -392,7 +391,8 @@
                           }
                         }
                       ]
-                    }
+                    },
+                    "expression": false
                   }
                 ]
               }
@@ -416,6 +416,7 @@
         "type": "VariableDeclaration",
         "start": 3006,
         "end": 3017,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -429,8 +430,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "ArrayExpression",
@@ -457,7 +457,6 @@
                   "start": 3040,
                   "end": 3070,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [
@@ -506,7 +505,8 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 }
               ]
             }
@@ -542,7 +542,6 @@
                     "start": 3096,
                     "end": 3126,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [
@@ -591,7 +590,8 @@
                           }
                         }
                       ]
-                    }
+                    },
+                    "expression": false
                   }
                 ]
               }

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 308,
       "end": 384,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -50,8 +51,8 @@
                       "end": 354,
                       "name": "DateTimeFormat"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": []
                 },
@@ -61,8 +62,8 @@
                   "end": 372,
                   "name": "resolvedOptions"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [],
               "optional": false
@@ -73,12 +74,11 @@
               "end": 383,
               "name": "calendar"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -104,8 +104,8 @@
             "end": 404,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -136,6 +136,7 @@
       "type": "VariableDeclaration",
       "start": 468,
       "end": 579,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -167,8 +168,8 @@
                 "end": 523,
                 "name": "PlainDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -243,13 +244,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 580,
       "end": 633,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -281,15 +282,14 @@
                 "end": 630,
                 "name": "toLocaleString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -315,8 +315,8 @@
             "end": 650,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -324,13 +324,13 @@
             "start": 651,
             "end": 664,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 658,
               "end": 664,
               "name": "result"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -354,6 +354,7 @@
       "type": "VariableDeclaration",
       "start": 753,
       "end": 850,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -385,8 +386,8 @@
                 "end": 799,
                 "name": "PlainDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -462,8 +463,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -489,8 +489,8 @@
             "end": 867,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -513,8 +513,8 @@
                 "end": 894,
                 "name": "toLocaleString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -540,6 +540,7 @@
       "type": "VariableDeclaration",
       "start": 1046,
       "end": 1108,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -582,8 +583,8 @@
                     "end": 1094,
                     "name": "supportedValuesOf"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -599,8 +600,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -626,8 +626,8 @@
             "end": 1125,
             "name": "delete"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -665,8 +665,8 @@
             "end": 1154,
             "name": "delete"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -683,6 +683,7 @@
       "type": "VariableDeclaration",
       "start": 1172,
       "end": 1230,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -726,8 +727,8 @@
                       "end": 1214,
                       "name": "values"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
@@ -738,8 +739,8 @@
                   "end": 1221,
                   "name": "next"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [],
               "optional": false
@@ -750,17 +751,17 @@
               "end": 1229,
               "name": "value"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1232,
       "end": 1351,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -792,8 +793,8 @@
                 "end": 1292,
                 "name": "PlainDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -868,8 +869,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -895,8 +895,8 @@
             "end": 1365,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -909,9 +909,7 @@
             "type": "ArrowFunctionExpression",
             "start": 1378,
             "end": 1426,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -934,12 +932,14 @@
                   "end": 1424,
                   "name": "toLocaleString"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",

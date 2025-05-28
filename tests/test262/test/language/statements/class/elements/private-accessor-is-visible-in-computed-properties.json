@@ -27,8 +27,8 @@
             "end": 960,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 972,
             "end": 1083,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -71,21 +70,17 @@
                         "type": "MethodDefinition",
                         "start": 1001,
                         "end": 1049,
-                        "static": false,
-                        "computed": false,
                         "key": {
                           "type": "PrivateIdentifier",
                           "start": 1005,
                           "end": 1007,
                           "name": "f"
                         },
-                        "kind": "get",
                         "value": {
                           "type": "FunctionExpression",
                           "start": 1007,
                           "end": 1049,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [],
@@ -112,15 +107,17 @@
                                 }
                               }
                             ]
-                          }
-                        }
+                          },
+                          "expression": false
+                        },
+                        "kind": "get",
+                        "computed": false,
+                        "static": false
                       },
                       {
                         "type": "PropertyDefinition",
                         "start": 1055,
                         "end": 1077,
-                        "static": false,
-                        "computed": true,
                         "key": {
                           "type": "MemberExpression",
                           "start": 1056,
@@ -136,8 +133,8 @@
                             "end": 1063,
                             "name": "f"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "value": {
                           "type": "Literal",
@@ -145,13 +142,16 @@
                           "end": 1076,
                           "value": "Test262",
                           "raw": "'Test262'"
-                        }
+                        },
+                        "computed": true,
+                        "static": false
                       }
                     ]
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

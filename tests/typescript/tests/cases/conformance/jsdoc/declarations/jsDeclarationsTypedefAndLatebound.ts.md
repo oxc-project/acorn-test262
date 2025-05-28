@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 48,
       "end": 85,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 54,
           "end": 84,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 54,
@@ -28,15 +28,6 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 64,
             "end": 84,
-            "arguments": [
-              {
-                "type": "Literal",
-                "start": 72,
-                "end": 83,
-                "raw": "\"./LazySet\"",
-                "value": "./LazySet"
-              }
-            ],
             "callee": {
               "type": "Identifier",
               "start": 64,
@@ -46,24 +37,33 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 72,
+                "end": 83,
+                "value": "./LazySet",
+                "raw": "\"./LazySet\""
+              }
+            ],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 110,
       "end": 138,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 116,
           "end": 137,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 116,
@@ -81,21 +81,46 @@ __ESTREE_TEST__:PASS:
             "name": "undefined",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 139,
       "end": 167,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 139,
         "end": 166,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 139,
+          "end": 155,
+          "object": {
+            "type": "Identifier",
+            "start": 139,
+            "end": 148,
+            "decorators": [],
+            "name": "stringSet",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 149,
+            "end": 155,
+            "decorators": [],
+            "name": "addAll",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "computed": false
+        },
+        "typeArguments": null,
         "arguments": [
           {
             "type": "Identifier",
@@ -107,34 +132,9 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         ],
-        "callee": {
-          "type": "MemberExpression",
-          "start": 139,
-          "end": 155,
-          "computed": false,
-          "object": {
-            "type": "Identifier",
-            "start": 139,
-            "end": 148,
-            "decorators": [],
-            "name": "stringSet",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "optional": false,
-          "property": {
-            "type": "Identifier",
-            "start": 149,
-            "end": 155,
-            "decorators": [],
-            "name": "addAll",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
-        "optional": false,
-        "typeArguments": null
-      }
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",
@@ -152,7 +152,20 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 110,
       "end": 227,
-      "abstract": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 116,
+        "end": 123,
+        "decorators": [],
+        "name": "LazySet",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
       "body": {
         "type": "ClassBody",
         "start": 124,
@@ -162,8 +175,6 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 179,
             "end": 198,
-            "accessibility": null,
-            "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
@@ -174,25 +185,15 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "FunctionExpression",
               "start": 185,
               "end": 198,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 196,
-                "end": 198,
-                "body": []
-              },
-              "declare": false,
-              "expression": false,
-              "generator": false,
               "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -205,21 +206,30 @@ __ESTREE_TEST__:PASS:
                 }
               ],
               "returnType": null,
-              "typeParameters": null
-            }
+              "body": {
+                "type": "BlockStatement",
+                "start": 196,
+                "end": 198,
+                "body": []
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null
           },
           {
             "type": "MethodDefinition",
             "start": 203,
             "end": 225,
-            "accessibility": null,
-            "computed": true,
             "decorators": [],
             "key": {
               "type": "MemberExpression",
               "start": 204,
               "end": 219,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 204,
@@ -229,7 +239,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 211,
@@ -238,55 +247,45 @@ __ESTREE_TEST__:PASS:
                 "name": "iterator",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "FunctionExpression",
               "start": 220,
               "end": 225,
+              "id": null,
+              "generator": false,
               "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
               "body": {
                 "type": "BlockStatement",
                 "start": 223,
                 "end": 225,
                 "body": []
               },
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
+              "expression": false
+            },
+            "kind": "method",
+            "computed": true,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
-      "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 116,
-        "end": 123,
-        "decorators": [],
-        "name": "LazySet",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 229,
       "end": 254,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 229,
@@ -296,7 +295,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 229,
           "end": 243,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 229,
@@ -306,7 +304,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 236,
@@ -315,7 +312,9 @@ __ESTREE_TEST__:PASS:
             "name": "exports",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Identifier",
@@ -326,7 +325,8 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

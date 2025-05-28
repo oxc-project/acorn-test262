@@ -15,25 +15,14 @@
           "type": "JSXOpeningElement",
           "start": 0,
           "end": 3,
-          "attributes": [],
           "name": {
             "type": "JSXIdentifier",
             "start": 1,
             "end": 2,
             "name": "p"
           },
+          "attributes": [],
           "selfClosing": false
-        },
-        "closingElement": {
-          "type": "JSXClosingElement",
-          "start": 34,
-          "end": 38,
-          "name": {
-            "type": "JSXIdentifier",
-            "start": 36,
-            "end": 37,
-            "name": "p"
-          }
         },
         "children": [
           {
@@ -51,6 +40,12 @@
               "type": "JSXOpeningElement",
               "start": 7,
               "end": 22,
+              "name": {
+                "type": "JSXIdentifier",
+                "start": 8,
+                "end": 9,
+                "name": "a"
+              },
               "attributes": [
                 {
                   "type": "JSXAttribute",
@@ -71,14 +66,17 @@
                   }
                 }
               ],
-              "name": {
-                "type": "JSXIdentifier",
-                "start": 8,
-                "end": 9,
-                "name": "a"
-              },
               "selfClosing": false
             },
+            "children": [
+              {
+                "type": "JSXText",
+                "start": 22,
+                "end": 26,
+                "value": " bar",
+                "raw": " bar"
+              }
+            ],
             "closingElement": {
               "type": "JSXClosingElement",
               "start": 26,
@@ -89,16 +87,7 @@
                 "end": 29,
                 "name": "a"
               }
-            },
-            "children": [
-              {
-                "type": "JSXText",
-                "start": 22,
-                "end": 26,
-                "value": " bar",
-                "raw": " bar"
-              }
-            ]
+            }
           },
           {
             "type": "JSXText",
@@ -107,7 +96,18 @@
             "value": " baz",
             "raw": " baz"
           }
-        ]
+        ],
+        "closingElement": {
+          "type": "JSXClosingElement",
+          "start": 34,
+          "end": 38,
+          "name": {
+            "type": "JSXIdentifier",
+            "start": 36,
+            "end": 37,
+            "name": "p"
+          }
+        }
       }
     }
   ],

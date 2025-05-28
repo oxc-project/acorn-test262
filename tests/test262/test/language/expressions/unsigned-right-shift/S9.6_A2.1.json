@@ -248,14 +248,14 @@
               "start": 550,
               "end": 552,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 551,
                 "end": 552,
                 "value": 1,
                 "raw": "1"
-              }
+              },
+              "prefix": true
             },
             "operator": ">>>",
             "right": {
@@ -325,14 +325,14 @@
                           "start": 649,
                           "end": 651,
                           "operator": "-",
-                          "prefix": true,
                           "argument": {
                             "type": "Literal",
                             "start": 650,
                             "end": 651,
                             "value": 1,
                             "raw": "1"
-                          }
+                          },
+                          "prefix": true
                         },
                         "operator": ">>>",
                         "right": {

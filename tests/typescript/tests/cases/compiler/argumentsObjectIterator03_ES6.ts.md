@@ -9,117 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 147,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 86,
-        "end": 147,
-        "body": [
-          {
-            "type": "VariableDeclaration",
-            "start": 92,
-            "end": 118,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 96,
-                "end": 117,
-                "definite": false,
-                "id": {
-                  "type": "ArrayPattern",
-                  "start": 96,
-                  "end": 105,
-                  "decorators": [],
-                  "elements": [
-                    {
-                      "type": "Identifier",
-                      "start": 97,
-                      "end": 98,
-                      "decorators": [],
-                      "name": "x",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 100,
-                      "end": 101,
-                      "decorators": [],
-                      "name": "y",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 103,
-                      "end": 104,
-                      "decorators": [],
-                      "name": "z",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  ],
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "init": {
-                  "type": "Identifier",
-                  "start": 108,
-                  "end": 117,
-                  "decorators": [],
-                  "name": "arguments",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "let"
-          },
-          {
-            "type": "ReturnStatement",
-            "start": 128,
-            "end": 145,
-            "argument": {
-              "type": "ArrayExpression",
-              "start": 135,
-              "end": 144,
-              "elements": [
-                {
-                  "type": "Identifier",
-                  "start": 136,
-                  "end": 137,
-                  "decorators": [],
-                  "name": "z",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                {
-                  "type": "Identifier",
-                  "start": 139,
-                  "end": 140,
-                  "decorators": [],
-                  "name": "y",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                {
-                  "type": "Identifier",
-                  "start": 142,
-                  "end": 143,
-                  "decorators": [],
-                  "name": "x",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              ]
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -129,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -212,7 +105,114 @@ __ESTREE_TEST__:PASS:
           ]
         }
       },
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 86,
+        "end": 147,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 92,
+            "end": 118,
+            "kind": "let",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 96,
+                "end": 117,
+                "id": {
+                  "type": "ArrayPattern",
+                  "start": 96,
+                  "end": 105,
+                  "decorators": [],
+                  "elements": [
+                    {
+                      "type": "Identifier",
+                      "start": 97,
+                      "end": 98,
+                      "decorators": [],
+                      "name": "x",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 100,
+                      "end": 101,
+                      "decorators": [],
+                      "name": "y",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 103,
+                      "end": 104,
+                      "decorators": [],
+                      "name": "z",
+                      "optional": false,
+                      "typeAnnotation": null
+                    }
+                  ],
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "init": {
+                  "type": "Identifier",
+                  "start": 108,
+                  "end": 117,
+                  "decorators": [],
+                  "name": "arguments",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "ReturnStatement",
+            "start": 128,
+            "end": 145,
+            "argument": {
+              "type": "ArrayExpression",
+              "start": 135,
+              "end": 144,
+              "elements": [
+                {
+                  "type": "Identifier",
+                  "start": 136,
+                  "end": 137,
+                  "decorators": [],
+                  "name": "z",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                {
+                  "type": "Identifier",
+                  "start": 139,
+                  "end": 140,
+                  "decorators": [],
+                  "name": "y",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                {
+                  "type": "Identifier",
+                  "start": 142,
+                  "end": 143,
+                  "decorators": [],
+                  "name": "x",
+                  "optional": false,
+                  "typeAnnotation": null
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 407,
       "end": 618,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -68,8 +69,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -80,6 +80,7 @@
         "type": "VariableDeclaration",
         "start": 625,
         "end": 638,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -93,8 +94,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -131,8 +131,8 @@
                   "end": 680,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -146,7 +146,6 @@
                   "start": 693,
                   "end": 738,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -179,8 +178,8 @@
                               "end": 725,
                               "name": "Locale"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -193,20 +192,13 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 742,
                   "end": 791,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 762,
-                      "end": 769,
-                      "name": "langtag"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -227,6 +219,14 @@
                         "cooked": "\") throws RangeError"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 762,
+                      "end": 769,
+                      "name": "langtag"
                     }
                   ]
                 }

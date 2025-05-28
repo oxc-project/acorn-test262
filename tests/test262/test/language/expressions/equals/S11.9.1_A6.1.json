@@ -98,14 +98,14 @@
               "start": 410,
               "end": 416,
               "operator": "void",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 415,
                 "end": 416,
                 "value": 0,
                 "raw": "0"
-              }
+              },
+              "prefix": true
             },
             "operator": "==",
             "right": {
@@ -352,14 +352,14 @@
               "start": 773,
               "end": 779,
               "operator": "void",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 778,
                 "end": 779,
                 "value": 0,
                 "raw": "0"
-              }
+              },
+              "prefix": true
             }
           }
         },

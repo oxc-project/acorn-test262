@@ -32,8 +32,8 @@
               "end": 391,
               "name": "charAt"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -112,8 +112,8 @@
                           "end": 490,
                           "name": "charAt"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -164,8 +164,8 @@
               "end": 529,
               "name": "charAt"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -173,14 +173,14 @@
               "start": 530,
               "end": 534,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 531,
                 "end": 534,
                 "value": 0,
                 "raw": "0.0"
-              }
+              },
+              "prefix": true
             }
           ],
           "optional": false
@@ -251,8 +251,8 @@
                           "end": 630,
                           "name": "charAt"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -260,14 +260,14 @@
                           "start": 631,
                           "end": 635,
                           "operator": "-",
-                          "prefix": true,
                           "argument": {
                             "type": "Literal",
                             "start": 632,
                             "end": 635,
                             "value": 0,
                             "raw": "0.0"
-                          }
+                          },
+                          "prefix": true
                         }
                       ],
                       "optional": false

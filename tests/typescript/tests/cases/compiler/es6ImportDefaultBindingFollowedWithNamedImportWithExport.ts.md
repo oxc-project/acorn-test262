@@ -9,17 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 18,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 18,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 11,
             "end": 17,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 11,
@@ -33,33 +32,33 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 15,
               "end": 17,
-              "raw": "10",
-              "value": 10
-            }
+              "value": 10,
+              "raw": "10"
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 19,
       "end": 36,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 26,
         "end": 36,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 30,
             "end": 35,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 30,
@@ -77,31 +76,31 @@ __ESTREE_TEST__:PASS:
               "name": "a",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 37,
       "end": 54,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 44,
         "end": 54,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 48,
             "end": 53,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 48,
@@ -119,15 +118,16 @@ __ESTREE_TEST__:PASS:
               "name": "a",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -157,14 +157,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 49,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 40,
-        "end": 48,
-        "raw": "\"server\"",
-        "value": "server"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -181,21 +173,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 40,
+        "end": 48,
+        "value": "server",
+        "raw": "\"server\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 50,
       "end": 101,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 92,
-        "end": 100,
-        "raw": "\"server\"",
-        "value": "server"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -224,7 +216,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 83,
@@ -233,27 +224,35 @@ __ESTREE_TEST__:PASS:
             "name": "a",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 92,
+        "end": 100,
+        "value": "server",
+        "raw": "\"server\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 102,
       "end": 128,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 109,
         "end": 128,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 113,
             "end": 127,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 113,
@@ -280,28 +279,21 @@ __ESTREE_TEST__:PASS:
               "name": "a",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 129,
       "end": 185,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 176,
-        "end": 184,
-        "raw": "\"server\"",
-        "value": "server"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -330,7 +322,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 167,
@@ -339,27 +330,35 @@ __ESTREE_TEST__:PASS:
             "name": "b",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 176,
+        "end": 184,
+        "value": "server",
+        "raw": "\"server\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 186,
       "end": 212,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 193,
         "end": 212,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 197,
             "end": 211,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 197,
@@ -386,28 +385,21 @@ __ESTREE_TEST__:PASS:
               "name": "b",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 213,
       "end": 272,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 263,
-        "end": 271,
-        "raw": "\"server\"",
-        "value": "server"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -436,7 +428,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 246,
@@ -445,7 +436,8 @@ __ESTREE_TEST__:PASS:
             "name": "x",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         },
         {
           "type": "ImportSpecifier",
@@ -460,7 +452,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 254,
@@ -469,27 +460,35 @@ __ESTREE_TEST__:PASS:
             "name": "y",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 263,
+        "end": 271,
+        "value": "server",
+        "raw": "\"server\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 273,
       "end": 299,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 280,
         "end": 299,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 284,
             "end": 298,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 284,
@@ -516,31 +515,31 @@ __ESTREE_TEST__:PASS:
               "name": "x",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 300,
       "end": 326,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 307,
         "end": 326,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 311,
             "end": 325,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 311,
@@ -567,28 +566,21 @@ __ESTREE_TEST__:PASS:
               "name": "y",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 327,
       "end": 385,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 376,
-        "end": 384,
-        "raw": "\"server\"",
-        "value": "server"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -617,7 +609,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 365,
@@ -626,27 +617,35 @@ __ESTREE_TEST__:PASS:
             "name": "z",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 376,
+        "end": 384,
+        "value": "server",
+        "raw": "\"server\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 386,
       "end": 412,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 393,
         "end": 412,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 397,
             "end": 411,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 397,
@@ -673,28 +672,21 @@ __ESTREE_TEST__:PASS:
               "name": "z",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 413,
       "end": 466,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 457,
-        "end": 465,
-        "raw": "\"server\"",
-        "value": "server"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -723,7 +715,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 446,
@@ -732,27 +723,35 @@ __ESTREE_TEST__:PASS:
             "name": "m",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 457,
+        "end": 465,
+        "value": "server",
+        "raw": "\"server\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 467,
       "end": 493,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 474,
         "end": 493,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 478,
             "end": 492,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 478,
@@ -779,15 +778,16 @@ __ESTREE_TEST__:PASS:
               "name": "m",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 828,
       "end": 924,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -50,8 +51,8 @@
                       "end": 852,
                       "name": "Instant"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "property": {
                     "type": "Identifier",
@@ -59,8 +60,8 @@
                     "end": 857,
                     "name": "from"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -79,8 +80,8 @@
                 "end": 900,
                 "name": "toZonedDateTimeISO"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -94,13 +95,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 926,
       "end": 962,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -159,8 +160,7 @@
             }
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -186,8 +186,8 @@
             "end": 980,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -206,8 +206,8 @@
               "end": 1000,
               "name": "offsetNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "BinaryExpression",
@@ -218,14 +218,14 @@
               "start": 1019,
               "end": 1021,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 1020,
                 "end": 1021,
                 "value": 7,
                 "raw": "7"
-              }
+              },
+              "prefix": true
             },
             "operator": "*",
             "right": {
@@ -270,8 +270,8 @@
             "end": 1088,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -298,8 +298,8 @@
                   "end": 1094,
                   "name": "add"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -311,9 +311,7 @@
                       "type": "Property",
                       "start": 1096,
                       "end": 1111,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1096,
@@ -325,16 +323,18 @@
                         "start": 1109,
                         "end": 1111,
                         "operator": "+",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 1110,
                           "end": 1111,
                           "value": 1,
                           "raw": "1"
-                        }
+                        },
+                        "prefix": true
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
@@ -347,8 +347,8 @@
               "end": 1131,
               "name": "offsetNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "BinaryExpression",
@@ -359,14 +359,14 @@
               "start": 1150,
               "end": 1152,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 1151,
                 "end": 1152,
                 "value": 7,
                 "raw": "7"
-              }
+              },
+              "prefix": true
             },
             "operator": "*",
             "right": {
@@ -411,8 +411,8 @@
             "end": 1239,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -439,8 +439,8 @@
                   "end": 1245,
                   "name": "add"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -452,9 +452,7 @@
                       "type": "Property",
                       "start": 1247,
                       "end": 1262,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1247,
@@ -466,16 +464,18 @@
                         "start": 1260,
                         "end": 1262,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 1261,
                           "end": 1262,
                           "value": 1,
                           "raw": "1"
-                        }
+                        },
+                        "prefix": true
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
@@ -488,8 +488,8 @@
               "end": 1282,
               "name": "offsetNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "BinaryExpression",
@@ -500,14 +500,14 @@
               "start": 1301,
               "end": 1303,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 1302,
                 "end": 1303,
                 "value": 8,
                 "raw": "8"
-              }
+              },
+              "prefix": true
             },
             "operator": "*",
             "right": {

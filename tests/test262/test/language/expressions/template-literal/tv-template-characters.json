@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 696,
       "end": 710,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -46,7 +46,6 @@
             "start": 713,
             "end": 777,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -104,8 +103,8 @@
                         "end": 756,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -128,8 +127,8 @@
                             "end": 762,
                             "name": "raw"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Literal",
@@ -138,8 +137,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -153,14 +152,14 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         },
         "quasi": {
           "type": "TemplateLiteral",
           "start": 778,
           "end": 784,
-          "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -172,7 +171,8 @@
               },
               "tail": true
             }
-          ]
+          ],
+          "expressions": []
         }
       }
     },
@@ -200,8 +200,8 @@
             "end": 803,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -245,15 +245,14 @@
             "end": 831,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "TemplateLiteral",
             "start": 832,
             "end": 838,
-            "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -265,7 +264,8 @@
                 },
                 "tail": true
               }
-            ]
+            ],
+            "expressions": []
           },
           {
             "type": "Literal",

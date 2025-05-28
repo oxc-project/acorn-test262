@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 10,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 9,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,13 +28,13 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 8,
             "end": 9,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "module",
@@ -52,17 +52,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 31,
       "end": 52,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 38,
         "end": 52,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 50,
             "end": 51,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 50,
@@ -72,15 +71,16 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": true,
-        "kind": "var"
+        "declare": true
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -107,7 +107,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 11,
@@ -116,10 +115,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 19,
           "end": 22,
-          "raw": "\"a\"",
-          "value": "a"
+          "value": "a",
+          "raw": "\"a\""
         }
-      }
+      },
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

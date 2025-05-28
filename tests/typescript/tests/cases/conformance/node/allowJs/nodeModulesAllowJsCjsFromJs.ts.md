@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 19,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 0,
@@ -19,7 +18,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 0,
           "end": 11,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 0,
@@ -29,7 +27,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 8,
@@ -38,16 +35,19 @@ __ESTREE_TEST__:PASS:
             "name": "foo",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
           "start": 14,
           "end": 19,
-          "raw": "\"foo\"",
-          "value": "foo"
+          "value": "foo",
+          "raw": "\"foo\""
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",
@@ -65,14 +65,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 27,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 16,
-        "end": 27,
-        "raw": "\"./foo.cjs\"",
-        "value": "./foo.cjs"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -89,19 +81,25 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 16,
+        "end": 27,
+        "value": "./foo.cjs",
+        "raw": "\"./foo.cjs\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 28,
       "end": 36,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 28,
         "end": 35,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 28,
@@ -111,7 +109,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 32,
@@ -120,8 +117,11 @@ __ESTREE_TEST__:PASS:
           "name": "foo",
           "optional": false,
           "typeAnnotation": null
-        }
-      }
+        },
+        "optional": false,
+        "computed": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

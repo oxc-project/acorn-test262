@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 272,
       "end": 286,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -23,23 +24,23 @@
             "start": 283,
             "end": 285,
             "operator": "+",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 284,
               "end": 285,
               "value": 0,
               "raw": "0"
-            }
+            },
+            "prefix": true
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 287,
       "end": 301,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -56,18 +57,17 @@
             "start": 298,
             "end": 300,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 299,
               "end": 300,
               "value": 0,
               "raw": "0"
-            }
+            },
+            "prefix": true
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -246,14 +246,14 @@
               "start": 575,
               "end": 577,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 576,
                 "end": 577,
                 "value": 0,
                 "raw": "0"
-              }
+              },
+              "prefix": true
             }
           }
         },
@@ -403,14 +403,14 @@
               "start": 816,
               "end": 818,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 817,
                 "end": 818,
                 "value": 0,
                 "raw": "0"
-              }
+              },
+              "prefix": true
             }
           }
         },

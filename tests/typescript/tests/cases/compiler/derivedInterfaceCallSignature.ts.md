@@ -9,6 +9,17 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 266,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 19,
+        "decorators": [],
+        "name": "D3SvgPath",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "extends": [],
       "body": {
         "type": "TSInterfaceBody",
         "start": 20,
@@ -18,6 +29,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSCallSignatureDeclaration",
             "start": 26,
             "end": 62,
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -65,15 +77,12 @@ __ESTREE_TEST__:PASS:
                 "start": 55,
                 "end": 61
               }
-            },
-            "typeParameters": null
+            }
           },
           {
             "type": "TSMethodSignature",
             "start": 68,
             "end": 111,
-            "accessibility": null,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 68,
@@ -83,10 +92,11 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
+            "computed": false,
             "optional": false,
+            "kind": "method",
+            "typeParameters": null,
             "params": [],
-            "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 71,
@@ -95,6 +105,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSFunctionType",
                 "start": 73,
                 "end": 110,
+                "typeParameters": null,
                 "params": [
                   {
                     "type": "Identifier",
@@ -142,19 +153,17 @@ __ESTREE_TEST__:PASS:
                     "start": 104,
                     "end": 110
                   }
-                },
-                "typeParameters": null
+                }
               }
             },
-            "static": false,
-            "typeParameters": null
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           },
           {
             "type": "TSMethodSignature",
             "start": 116,
             "end": 159,
-            "accessibility": null,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 116,
@@ -164,10 +173,11 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
+            "computed": false,
             "optional": false,
+            "kind": "method",
+            "typeParameters": null,
             "params": [],
-            "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 119,
@@ -176,6 +186,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSFunctionType",
                 "start": 121,
                 "end": 158,
+                "typeParameters": null,
                 "params": [
                   {
                     "type": "Identifier",
@@ -223,19 +234,17 @@ __ESTREE_TEST__:PASS:
                     "start": 152,
                     "end": 158
                   }
-                },
-                "typeParameters": null
+                }
               }
             },
-            "static": false,
-            "typeParameters": null
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           },
           {
             "type": "TSMethodSignature",
             "start": 164,
             "end": 186,
-            "accessibility": null,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 164,
@@ -245,10 +254,11 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
+            "computed": false,
             "optional": false,
+            "kind": "method",
+            "typeParameters": null,
             "params": [],
-            "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 177,
@@ -259,15 +269,14 @@ __ESTREE_TEST__:PASS:
                 "end": 185
               }
             },
-            "static": false,
-            "typeParameters": null
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           },
           {
             "type": "TSMethodSignature",
             "start": 191,
             "end": 209,
-            "accessibility": null,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 191,
@@ -277,10 +286,11 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
+            "computed": false,
             "optional": false,
+            "kind": "method",
+            "typeParameters": null,
             "params": [],
-            "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 200,
@@ -291,15 +301,14 @@ __ESTREE_TEST__:PASS:
                 "end": 208
               }
             },
-            "static": false,
-            "typeParameters": null
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           },
           {
             "type": "TSMethodSignature",
             "start": 214,
             "end": 264,
-            "accessibility": null,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 214,
@@ -309,10 +318,11 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
+            "computed": false,
             "optional": false,
+            "kind": "method",
+            "typeParameters": null,
             "params": [],
-            "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 223,
@@ -321,6 +331,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSFunctionType",
                 "start": 225,
                 "end": 263,
+                "typeParameters": null,
                 "params": [
                   {
                     "type": "Identifier",
@@ -368,32 +379,48 @@ __ESTREE_TEST__:PASS:
                     "start": 256,
                     "end": 263
                   }
-                },
-                "typeParameters": null
+                }
               }
             },
-            "static": false,
-            "typeParameters": null
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 19,
-        "decorators": [],
-        "name": "D3SvgPath",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 268,
       "end": 874,
+      "id": {
+        "type": "Identifier",
+        "start": 278,
+        "end": 287,
+        "decorators": [],
+        "name": "D3SvgArea",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "extends": [
+        {
+          "type": "TSInterfaceHeritage",
+          "start": 296,
+          "end": 305,
+          "expression": {
+            "type": "Identifier",
+            "start": 296,
+            "end": 305,
+            "decorators": [],
+            "name": "D3SvgPath",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
+        }
+      ],
       "body": {
         "type": "TSInterfaceBody",
         "start": 306,
@@ -403,8 +430,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 312,
             "end": 367,
-            "accessibility": null,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 312,
@@ -414,8 +439,10 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
+            "computed": false,
             "optional": false,
+            "kind": "method",
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -432,6 +459,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSFunctionType",
                     "start": 317,
                     "end": 354,
+                    "typeParameters": null,
                     "params": [
                       {
                         "type": "Identifier",
@@ -479,13 +507,11 @@ __ESTREE_TEST__:PASS:
                         "start": 348,
                         "end": 354
                       }
-                    },
-                    "typeParameters": null
+                    }
                   }
                 }
               }
             ],
-            "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 355,
@@ -494,7 +520,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 357,
                 "end": 366,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 357,
@@ -503,18 +528,18 @@ __ESTREE_TEST__:PASS:
                   "name": "D3SvgArea",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             },
-            "static": false,
-            "typeParameters": null
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           },
           {
             "type": "TSMethodSignature",
             "start": 372,
             "end": 427,
-            "accessibility": null,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 372,
@@ -524,8 +549,10 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
+            "computed": false,
             "optional": false,
+            "kind": "method",
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -542,6 +569,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSFunctionType",
                     "start": 377,
                     "end": 414,
+                    "typeParameters": null,
                     "params": [
                       {
                         "type": "Identifier",
@@ -589,13 +617,11 @@ __ESTREE_TEST__:PASS:
                         "start": 408,
                         "end": 414
                       }
-                    },
-                    "typeParameters": null
+                    }
                   }
                 }
               }
             ],
-            "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 415,
@@ -604,7 +630,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 417,
                 "end": 426,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 417,
@@ -613,18 +638,18 @@ __ESTREE_TEST__:PASS:
                   "name": "D3SvgArea",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             },
-            "static": false,
-            "typeParameters": null
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           },
           {
             "type": "TSMethodSignature",
             "start": 432,
             "end": 476,
-            "accessibility": null,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 432,
@@ -634,10 +659,11 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
+            "computed": false,
             "optional": false,
+            "kind": "method",
+            "typeParameters": null,
             "params": [],
-            "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 436,
@@ -646,6 +672,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSFunctionType",
                 "start": 438,
                 "end": 475,
+                "typeParameters": null,
                 "params": [
                   {
                     "type": "Identifier",
@@ -693,19 +720,17 @@ __ESTREE_TEST__:PASS:
                     "start": 469,
                     "end": 475
                   }
-                },
-                "typeParameters": null
+                }
               }
             },
-            "static": false,
-            "typeParameters": null
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           },
           {
             "type": "TSMethodSignature",
             "start": 481,
             "end": 506,
-            "accessibility": null,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 481,
@@ -715,8 +740,10 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
+            "computed": false,
             "optional": false,
+            "kind": "method",
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -737,7 +764,6 @@ __ESTREE_TEST__:PASS:
                 }
               }
             ],
-            "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 494,
@@ -746,7 +772,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 496,
                 "end": 505,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 496,
@@ -755,18 +780,18 @@ __ESTREE_TEST__:PASS:
                   "name": "D3SvgArea",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             },
-            "static": false,
-            "typeParameters": null
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           },
           {
             "type": "TSMethodSignature",
             "start": 511,
             "end": 567,
-            "accessibility": null,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 511,
@@ -776,8 +801,10 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
+            "computed": false,
             "optional": false,
+            "kind": "method",
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -794,6 +821,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSFunctionType",
                     "start": 517,
                     "end": 554,
+                    "typeParameters": null,
                     "params": [
                       {
                         "type": "Identifier",
@@ -841,13 +869,11 @@ __ESTREE_TEST__:PASS:
                         "start": 548,
                         "end": 554
                       }
-                    },
-                    "typeParameters": null
+                    }
                   }
                 }
               }
             ],
-            "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 555,
@@ -856,7 +882,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 557,
                 "end": 566,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 557,
@@ -865,18 +890,18 @@ __ESTREE_TEST__:PASS:
                   "name": "D3SvgArea",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             },
-            "static": false,
-            "typeParameters": null
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           },
           {
             "type": "TSMethodSignature",
             "start": 572,
             "end": 616,
-            "accessibility": null,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 572,
@@ -886,10 +911,11 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
+            "computed": false,
             "optional": false,
+            "kind": "method",
+            "typeParameters": null,
             "params": [],
-            "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 576,
@@ -898,6 +924,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSFunctionType",
                 "start": 578,
                 "end": 615,
+                "typeParameters": null,
                 "params": [
                   {
                     "type": "Identifier",
@@ -945,19 +972,17 @@ __ESTREE_TEST__:PASS:
                     "start": 609,
                     "end": 615
                   }
-                },
-                "typeParameters": null
+                }
               }
             },
-            "static": false,
-            "typeParameters": null
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           },
           {
             "type": "TSMethodSignature",
             "start": 621,
             "end": 646,
-            "accessibility": null,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 621,
@@ -967,8 +992,10 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
+            "computed": false,
             "optional": false,
+            "kind": "method",
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -989,7 +1016,6 @@ __ESTREE_TEST__:PASS:
                 }
               }
             ],
-            "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 634,
@@ -998,7 +1024,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 636,
                 "end": 645,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 636,
@@ -1007,18 +1032,18 @@ __ESTREE_TEST__:PASS:
                   "name": "D3SvgArea",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             },
-            "static": false,
-            "typeParameters": null
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           },
           {
             "type": "TSMethodSignature",
             "start": 651,
             "end": 707,
-            "accessibility": null,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 651,
@@ -1028,8 +1053,10 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
+            "computed": false,
             "optional": false,
+            "kind": "method",
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -1046,6 +1073,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSFunctionType",
                     "start": 657,
                     "end": 694,
+                    "typeParameters": null,
                     "params": [
                       {
                         "type": "Identifier",
@@ -1093,13 +1121,11 @@ __ESTREE_TEST__:PASS:
                         "start": 688,
                         "end": 694
                       }
-                    },
-                    "typeParameters": null
+                    }
                   }
                 }
               }
             ],
-            "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 695,
@@ -1108,7 +1134,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 697,
                 "end": 706,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 697,
@@ -1117,18 +1142,18 @@ __ESTREE_TEST__:PASS:
                   "name": "D3SvgArea",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             },
-            "static": false,
-            "typeParameters": null
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           },
           {
             "type": "TSMethodSignature",
             "start": 713,
             "end": 758,
-            "accessibility": null,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 713,
@@ -1138,8 +1163,10 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
+            "computed": false,
             "optional": false,
+            "kind": "method",
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -1160,7 +1187,6 @@ __ESTREE_TEST__:PASS:
                 }
               }
             ],
-            "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 746,
@@ -1169,7 +1195,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 748,
                 "end": 757,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 748,
@@ -1178,18 +1203,18 @@ __ESTREE_TEST__:PASS:
                   "name": "D3SvgArea",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             },
-            "static": false,
-            "typeParameters": null
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           },
           {
             "type": "TSMethodSignature",
             "start": 763,
             "end": 799,
-            "accessibility": null,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 763,
@@ -1199,8 +1224,10 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
+            "computed": false,
             "optional": false,
+            "kind": "method",
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -1221,7 +1248,6 @@ __ESTREE_TEST__:PASS:
                 }
               }
             ],
-            "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 787,
@@ -1230,7 +1256,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 789,
                 "end": 798,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 789,
@@ -1239,18 +1264,18 @@ __ESTREE_TEST__:PASS:
                   "name": "D3SvgArea",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             },
-            "static": false,
-            "typeParameters": null
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           },
           {
             "type": "TSMethodSignature",
             "start": 804,
             "end": 872,
-            "accessibility": null,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 804,
@@ -1260,8 +1285,10 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
+            "computed": false,
             "optional": false,
+            "kind": "method",
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -1278,6 +1305,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSFunctionType",
                     "start": 821,
                     "end": 859,
+                    "typeParameters": null,
                     "params": [
                       {
                         "type": "Identifier",
@@ -1325,13 +1353,11 @@ __ESTREE_TEST__:PASS:
                         "start": 852,
                         "end": 859
                       }
-                    },
-                    "typeParameters": null
+                    }
                   }
                 }
               }
             ],
-            "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 860,
@@ -1340,7 +1366,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 862,
                 "end": 871,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 862,
@@ -1349,53 +1374,28 @@ __ESTREE_TEST__:PASS:
                   "name": "D3SvgArea",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             },
-            "static": false,
-            "typeParameters": null
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           }
         ]
       },
-      "declare": false,
-      "extends": [
-        {
-          "type": "TSInterfaceHeritage",
-          "start": 296,
-          "end": 305,
-          "expression": {
-            "type": "Identifier",
-            "start": 296,
-            "end": 305,
-            "decorators": [],
-            "name": "D3SvgPath",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "typeArguments": null
-        }
-      ],
-      "id": {
-        "type": "Identifier",
-        "start": 278,
-        "end": 287,
-        "decorators": [],
-        "name": "D3SvgArea",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 876,
       "end": 896,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 880,
           "end": 895,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 880,
@@ -1411,7 +1411,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 886,
                 "end": 895,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 886,
@@ -1420,52 +1419,33 @@ __ESTREE_TEST__:PASS:
                   "name": "D3SvgArea",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 897,
       "end": 928,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 897,
         "end": 927,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 921,
-            "end": 926,
-            "raw": "'one'",
-            "value": "one"
-          }
-        ],
         "callee": {
           "type": "CallExpression",
           "start": 897,
           "end": 920,
-          "arguments": [
-            {
-              "type": "Literal",
-              "start": 914,
-              "end": 919,
-              "raw": "'two'",
-              "value": "two"
-            }
-          ],
           "callee": {
             "type": "MemberExpression",
             "start": 897,
             "end": 913,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 897,
@@ -1475,7 +1455,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 902,
@@ -1484,14 +1463,35 @@ __ESTREE_TEST__:PASS:
               "name": "interpolate",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "optional": false,
+            "computed": false
           },
-          "optional": false,
-          "typeArguments": null
+          "typeArguments": null,
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 914,
+              "end": 919,
+              "value": "two",
+              "raw": "'two'"
+            }
+          ],
+          "optional": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 921,
+            "end": 926,
+            "value": "one",
+            "raw": "'one'"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

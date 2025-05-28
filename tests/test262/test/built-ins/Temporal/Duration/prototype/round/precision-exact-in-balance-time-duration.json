@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 317,
       "end": 350,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "8692288669465520"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "BlockStatement",
@@ -38,6 +38,7 @@
           "type": "VariableDeclaration",
           "start": 356,
           "end": 381,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -57,13 +58,13 @@
                 "raw": "513"
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "VariableDeclaration",
           "start": 384,
           "end": 457,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -95,8 +96,8 @@
                     "end": 415,
                     "name": "Duration"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -156,13 +157,13 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "VariableDeclaration",
           "start": 461,
           "end": 517,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -194,8 +195,8 @@
                     "end": 483,
                     "name": "round"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -207,9 +208,7 @@
                         "type": "Property",
                         "start": 486,
                         "end": 513,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 486,
@@ -223,7 +222,9 @@
                           "value": "milliseconds",
                           "raw": "\"milliseconds\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   }
@@ -231,13 +232,13 @@
                 "optional": false
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "VariableDeclaration",
           "start": 595,
           "end": 679,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -324,8 +325,7 @@
                 "optional": false
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "ExpressionStatement",
@@ -351,8 +351,8 @@
                 "end": 698,
                 "name": "sameValue"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -403,8 +403,8 @@
                 "end": 806,
                 "name": "assertDuration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -504,6 +504,7 @@
           "type": "VariableDeclaration",
           "start": 997,
           "end": 1025,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -523,13 +524,13 @@
                 "raw": "373761"
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "VariableDeclaration",
           "start": 1028,
           "end": 1104,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -561,8 +562,8 @@
                     "end": 1059,
                     "name": "Duration"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -629,13 +630,13 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "VariableDeclaration",
           "start": 1108,
           "end": 1164,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -667,8 +668,8 @@
                     "end": 1130,
                     "name": "round"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -680,9 +681,7 @@
                         "type": "Property",
                         "start": 1133,
                         "end": 1160,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 1133,
@@ -696,7 +695,9 @@
                           "value": "microseconds",
                           "raw": "\"microseconds\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   }
@@ -704,13 +705,13 @@
                 "optional": false
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "VariableDeclaration",
           "start": 1245,
           "end": 1334,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -797,8 +798,7 @@
                 "optional": false
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "ExpressionStatement",
@@ -824,8 +824,8 @@
                 "end": 1353,
                 "name": "sameValue"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -876,8 +876,8 @@
                 "end": 1465,
                 "name": "assertDuration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -977,6 +977,7 @@
           "type": "VariableDeclaration",
           "start": 1657,
           "end": 1689,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -996,13 +997,13 @@
                 "raw": "321_414_345"
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "VariableDeclaration",
           "start": 1692,
           "end": 1770,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -1034,8 +1035,8 @@
                     "end": 1723,
                     "name": "Duration"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -1109,13 +1110,13 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "VariableDeclaration",
           "start": 1774,
           "end": 1829,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -1147,8 +1148,8 @@
                     "end": 1796,
                     "name": "round"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -1160,9 +1161,7 @@
                         "type": "Property",
                         "start": 1799,
                         "end": 1825,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 1799,
@@ -1176,7 +1175,9 @@
                           "value": "nanoseconds",
                           "raw": "\"nanoseconds\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   }
@@ -1184,13 +1185,13 @@
                 "optional": false
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "VariableDeclaration",
           "start": 1913,
           "end": 2004,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -1277,8 +1278,7 @@
                 "optional": false
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "ExpressionStatement",
@@ -1304,8 +1304,8 @@
                 "end": 2023,
                 "name": "sameValue"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1356,8 +1356,8 @@
                 "end": 2138,
                 "name": "assertDuration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

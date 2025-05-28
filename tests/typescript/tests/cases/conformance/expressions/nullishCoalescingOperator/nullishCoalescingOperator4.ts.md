@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 46,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 14,
           "end": 46,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
@@ -39,8 +39,8 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 18,
                       "end": 27,
-                      "raw": "'literal'",
-                      "value": "literal"
+                      "value": "literal",
+                      "raw": "'literal'"
                     }
                   },
                   {
@@ -57,22 +57,22 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
       "start": 47,
       "end": 81,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 53,
           "end": 81,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 53,
@@ -86,7 +86,6 @@ __ESTREE_TEST__:PASS:
             "type": "LogicalExpression",
             "start": 59,
             "end": 81,
-            "operator": "??",
             "left": {
               "type": "Identifier",
               "start": 59,
@@ -96,16 +95,15 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
+            "operator": "??",
             "right": {
               "type": "CallExpression",
               "start": 65,
               "end": 81,
-              "arguments": [],
               "callee": {
                 "type": "MemberExpression",
                 "start": 65,
                 "end": 79,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 65,
@@ -115,7 +113,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 68,
@@ -124,27 +121,30 @@ __ESTREE_TEST__:PASS:
                   "name": "toLowerCase",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
-              "typeArguments": null
+              "typeArguments": null,
+              "arguments": [],
+              "optional": false
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 82,
       "end": 122,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 88,
           "end": 122,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 88,
@@ -158,7 +158,6 @@ __ESTREE_TEST__:PASS:
             "type": "LogicalExpression",
             "start": 94,
             "end": 122,
-            "operator": "||",
             "left": {
               "type": "Identifier",
               "start": 94,
@@ -168,16 +167,15 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
+            "operator": "||",
             "right": {
               "type": "CallExpression",
               "start": 100,
               "end": 122,
-              "arguments": [],
               "callee": {
                 "type": "MemberExpression",
                 "start": 100,
                 "end": 120,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 100,
@@ -187,7 +185,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 103,
@@ -196,16 +193,19 @@ __ESTREE_TEST__:PASS:
                   "name": "toLocaleUpperCase",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
-              "typeArguments": null
+              "typeArguments": null,
+              "arguments": [],
+              "optional": false
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "script",

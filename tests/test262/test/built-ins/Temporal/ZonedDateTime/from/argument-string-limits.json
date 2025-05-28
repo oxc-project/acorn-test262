@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 602,
       "end": 863,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -68,8 +69,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -80,6 +80,7 @@
         "type": "VariableDeclaration",
         "start": 870,
         "end": 882,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -93,8 +94,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "ArrayExpression",
@@ -131,6 +131,7 @@
               "type": "VariableDeclaration",
               "start": 914,
               "end": 923,
+              "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -144,8 +145,7 @@
                   },
                   "init": null
                 }
-              ],
-              "kind": "const"
+              ]
             },
             "right": {
               "type": "Identifier",
@@ -186,8 +186,8 @@
                           "end": 987,
                           "name": "ZonedDateTime"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -195,8 +195,8 @@
                         "end": 992,
                         "name": "from"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -214,9 +214,7 @@
                             "type": "Property",
                             "start": 1000,
                             "end": 1013,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 1000,
@@ -230,7 +228,9 @@
                               "value": "use",
                               "raw": "\"use\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -248,6 +248,7 @@
       "type": "VariableDeclaration",
       "start": 1218,
       "end": 1404,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -295,13 +296,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1406,
       "end": 1535,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -335,8 +336,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -347,6 +347,7 @@
         "type": "VariableDeclaration",
         "start": 1542,
         "end": 1554,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -360,8 +361,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "ArrayExpression",
@@ -398,6 +398,7 @@
               "type": "VariableDeclaration",
               "start": 1589,
               "end": 1598,
+              "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -411,8 +412,7 @@
                   },
                   "init": null
                 }
-              ],
-              "kind": "const"
+              ]
             },
             "right": {
               "type": "Identifier",
@@ -453,8 +453,8 @@
                           "end": 1665,
                           "name": "ZonedDateTime"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -462,8 +462,8 @@
                         "end": 1670,
                         "name": "from"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -481,9 +481,7 @@
                             "type": "Property",
                             "start": 1678,
                             "end": 1684,
-                            "method": false,
-                            "shorthand": true,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 1678,
@@ -496,7 +494,9 @@
                               "end": 1684,
                               "name": "offset"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": true,
+                            "computed": false
                           }
                         ]
                       }
@@ -516,6 +516,7 @@
               "type": "VariableDeclaration",
               "start": 1701,
               "end": 1710,
+              "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -529,8 +530,7 @@
                   },
                   "init": null
                 }
-              ],
-              "kind": "const"
+              ]
             },
             "right": {
               "type": "Identifier",
@@ -567,8 +567,8 @@
                         "end": 1770,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -581,9 +581,7 @@
                         "type": "ArrowFunctionExpression",
                         "start": 1796,
                         "end": 1846,
-                        "id": null,
                         "expression": true,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -610,8 +608,8 @@
                                 "end": 1824,
                                 "name": "ZonedDateTime"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "property": {
                               "type": "Identifier",
@@ -619,8 +617,8 @@
                               "end": 1829,
                               "name": "from"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -638,9 +636,7 @@
                                   "type": "Property",
                                   "start": 1837,
                                   "end": 1843,
-                                  "method": false,
-                                  "shorthand": true,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 1837,
@@ -653,32 +649,22 @@
                                     "end": 1843,
                                     "name": "offset"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": true,
+                                  "computed": false
                                 }
                               ]
                             }
                           ],
                           "optional": false
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 1854,
                         "end": 1954,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 1877,
-                            "end": 1880,
-                            "name": "arg"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 1945,
-                            "end": 1951,
-                            "name": "offset"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -710,6 +696,20 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 1877,
+                            "end": 1880,
+                            "name": "arg"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 1945,
+                            "end": 1951,
+                            "name": "offset"
+                          }
                         ]
                       }
                     ],
@@ -726,6 +726,7 @@
       "type": "VariableDeclaration",
       "start": 1969,
       "end": 2243,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -787,8 +788,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -799,6 +799,7 @@
         "type": "VariableDeclaration",
         "start": 2250,
         "end": 2262,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -812,8 +813,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "ArrayExpression",
@@ -864,6 +864,7 @@
               "type": "VariableDeclaration",
               "start": 2314,
               "end": 2323,
+              "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -877,8 +878,7 @@
                   },
                   "init": null
                 }
-              ],
-              "kind": "const"
+              ]
             },
             "right": {
               "type": "Identifier",
@@ -915,8 +915,8 @@
                         "end": 2362,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -929,9 +929,7 @@
                         "type": "ArrowFunctionExpression",
                         "start": 2388,
                         "end": 2438,
-                        "id": null,
                         "expression": true,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -958,8 +956,8 @@
                                 "end": 2416,
                                 "name": "ZonedDateTime"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "property": {
                               "type": "Identifier",
@@ -967,8 +965,8 @@
                               "end": 2421,
                               "name": "from"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -986,9 +984,7 @@
                                   "type": "Property",
                                   "start": 2429,
                                   "end": 2435,
-                                  "method": false,
-                                  "shorthand": true,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 2429,
@@ -1001,32 +997,22 @@
                                     "end": 2435,
                                     "name": "offset"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": true,
+                                  "computed": false
                                 }
                               ]
                             }
                           ],
                           "optional": false
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 2446,
                         "end": 2527,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 2450,
-                            "end": 2453,
-                            "name": "arg"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 2518,
-                            "end": 2524,
-                            "name": "offset"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -1057,6 +1043,20 @@
                               "cooked": ")"
                             },
                             "tail": true
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 2450,
+                            "end": 2453,
+                            "name": "arg"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 2518,
+                            "end": 2524,
+                            "name": "offset"
                           }
                         ]
                       }

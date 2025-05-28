@@ -23,7 +23,6 @@
             "start": 1006,
             "end": 1411,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": true,
             "params": [],
@@ -36,6 +35,7 @@
                   "type": "VariableDeclaration",
                   "start": 1028,
                   "end": 1045,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -54,13 +54,13 @@
                         "elements": []
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "VariableDeclaration",
                   "start": 1048,
                   "end": 1087,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -92,8 +92,8 @@
                             "end": 1079,
                             "name": "fromAsync"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -106,8 +106,7 @@
                         "optional": false
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -133,8 +132,8 @@
                         "end": 1338,
                         "name": "push"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -152,6 +151,7 @@
                   "type": "VariableDeclaration",
                   "start": 1345,
                   "end": 1374,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -175,8 +175,7 @@
                         }
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -202,8 +201,8 @@
                         "end": 1396,
                         "name": "compareArray"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -223,7 +222,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

@@ -24,7 +24,6 @@
           "end": 1569,
           "name": "f"
         },
-        "expression": false,
         "generator": false,
         "async": false,
         "params": [],
@@ -46,7 +45,8 @@
               }
             }
           ]
-        }
+        },
+        "expression": false
       },
       "alternate": {
         "type": "EmptyStatement",
@@ -78,8 +78,8 @@
             "end": 1622,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -87,13 +87,13 @@
             "start": 1623,
             "end": 1631,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 1630,
               "end": 1631,
               "name": "f"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -130,8 +130,8 @@
             "end": 1662,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1275,
       "end": 1281,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -48,7 +48,6 @@
             "end": 1303,
             "name": "h"
           },
-          "expression": false,
           "generator": true,
           "async": true,
           "params": [
@@ -65,9 +64,7 @@
                     "type": "Property",
                     "start": 1306,
                     "end": 1331,
-                    "method": false,
-                    "shorthand": true,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1306,
@@ -91,7 +88,9 @@
                         "name": "unresolvableReference"
                       }
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": true,
+                    "computed": false
                   }
                 ]
               },
@@ -108,7 +107,8 @@
             "start": 1340,
             "end": 1346,
             "body": []
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -136,8 +136,8 @@
             "end": 1362,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -151,7 +151,6 @@
             "start": 1379,
             "end": 1400,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -179,7 +178,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

@@ -9,26 +9,26 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 8,
-      "directive": null,
       "expression": {
         "type": "ArrowFunctionExpression",
         "start": 0,
         "end": 7,
+        "expression": true,
         "async": false,
+        "typeParameters": null,
+        "params": [],
+        "returnType": null,
         "body": {
           "type": "Literal",
           "start": 6,
           "end": 7,
-          "raw": "0",
-          "value": 0
+          "value": 0,
+          "raw": "0"
         },
-        "expression": true,
-        "generator": false,
         "id": null,
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
-      }
+        "generator": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

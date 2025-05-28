@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 30,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 12,
           "end": 29,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
@@ -33,27 +33,26 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 31,
       "end": 89,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 38,
         "end": 89,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 44,
             "end": 88,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 44,
@@ -71,6 +70,28 @@ __ESTREE_TEST__:PASS:
                 "type": "TemplateLiteral",
                 "start": 60,
                 "end": 79,
+                "quasis": [
+                  {
+                    "type": "TemplateElement",
+                    "start": 60,
+                    "end": 68,
+                    "value": {
+                      "cooked": "data-",
+                      "raw": "data-"
+                    },
+                    "tail": false
+                  },
+                  {
+                    "type": "TemplateElement",
+                    "start": 77,
+                    "end": 79,
+                    "value": {
+                      "cooked": "",
+                      "raw": ""
+                    },
+                    "tail": true
+                  }
+                ],
                 "expressions": [
                   {
                     "type": "Identifier",
@@ -81,35 +102,12 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   }
-                ],
-                "quasis": [
-                  {
-                    "type": "TemplateElement",
-                    "start": 60,
-                    "end": 68,
-                    "tail": false,
-                    "value": {
-                      "cooked": "data-",
-                      "raw": "data-"
-                    }
-                  },
-                  {
-                    "type": "TemplateElement",
-                    "start": 77,
-                    "end": 79,
-                    "tail": true,
-                    "value": {
-                      "cooked": "",
-                      "raw": ""
-                    }
-                  }
                 ]
               },
               "typeAnnotation": {
                 "type": "TSTypeReference",
                 "start": 83,
                 "end": 88,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 83,
@@ -118,28 +116,42 @@ __ESTREE_TEST__:PASS:
                   "name": "const",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 91,
       "end": 175,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 98,
         "end": 175,
-        "abstract": false,
+        "decorators": [],
+        "id": {
+          "type": "Identifier",
+          "start": 104,
+          "end": 112,
+          "decorators": [],
+          "name": "WithData",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null,
+        "superClass": null,
+        "superTypeArguments": null,
+        "implements": [],
         "body": {
           "type": "ClassBody",
           "start": 113,
@@ -149,8 +161,6 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 119,
               "end": 173,
-              "accessibility": null,
-              "computed": true,
               "decorators": [],
               "key": {
                 "type": "Identifier",
@@ -161,15 +171,17 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "kind": "method",
-              "optional": true,
-              "override": false,
-              "static": false,
               "value": {
                 "type": "FunctionExpression",
                 "start": 135,
                 "end": 173,
+                "id": null,
+                "generator": false,
                 "async": false,
+                "declare": false,
+                "typeParameters": null,
+                "params": [],
+                "returnType": null,
                 "body": {
                   "type": "BlockStatement",
                   "start": 138,
@@ -183,58 +195,45 @@ __ESTREE_TEST__:PASS:
                         "type": "Literal",
                         "start": 155,
                         "end": 166,
-                        "raw": "\"something\"",
-                        "value": "something"
+                        "value": "something",
+                        "raw": "\"something\""
                       }
                     }
                   ]
                 },
-                "declare": false,
-                "expression": false,
-                "generator": false,
-                "id": null,
-                "params": [],
-                "returnType": null,
-                "typeParameters": null
-              }
+                "expression": false
+              },
+              "kind": "method",
+              "computed": true,
+              "static": false,
+              "override": false,
+              "optional": true,
+              "accessibility": null
             }
           ]
         },
-        "declare": false,
-        "decorators": [],
-        "id": {
-          "type": "Identifier",
-          "start": 104,
-          "end": 112,
-          "decorators": [],
-          "name": "WithData",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 177,
       "end": 229,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 184,
         "end": 229,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 190,
             "end": 228,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 190,
@@ -248,7 +247,6 @@ __ESTREE_TEST__:PASS:
               "type": "CallExpression",
               "start": 194,
               "end": 228,
-              "arguments": [],
               "callee": {
                 "type": "TSNonNullExpression",
                 "start": 194,
@@ -257,12 +255,10 @@ __ESTREE_TEST__:PASS:
                   "type": "MemberExpression",
                   "start": 194,
                   "end": 225,
-                  "computed": true,
                   "object": {
                     "type": "NewExpression",
                     "start": 195,
                     "end": 209,
-                    "arguments": [],
                     "callee": {
                       "type": "Identifier",
                       "start": 199,
@@ -272,29 +268,33 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "typeArguments": null
+                    "typeArguments": null,
+                    "arguments": []
                   },
-                  "optional": false,
                   "property": {
                     "type": "Literal",
                     "start": 211,
                     "end": 224,
-                    "raw": "\"ahahahaahah\"",
-                    "value": "ahahahaahah"
-                  }
+                    "value": "ahahahaahah",
+                    "raw": "\"ahahahaahah\""
+                  },
+                  "optional": false,
+                  "computed": true
                 }
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [],
+              "optional": false
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

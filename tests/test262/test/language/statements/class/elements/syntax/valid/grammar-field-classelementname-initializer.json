@@ -23,8 +23,6 @@
             "type": "PropertyDefinition",
             "start": 1457,
             "end": 1463,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1457,
@@ -37,14 +35,14 @@
               "end": 1462,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "computed": false,
+            "static": false
           },
           {
             "type": "PropertyDefinition",
             "start": 1466,
             "end": 1472,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1466,
@@ -57,14 +55,14 @@
               "end": 1471,
               "value": 2,
               "raw": "2"
-            }
+            },
+            "computed": false,
+            "static": false
           },
           {
             "type": "PropertyDefinition",
             "start": 1475,
             "end": 1486,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1475,
@@ -77,14 +75,14 @@
               "end": 1485,
               "value": 3,
               "raw": "3"
-            }
+            },
+            "computed": false,
+            "static": false
           },
           {
             "type": "PropertyDefinition",
             "start": 1489,
             "end": 1500,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1489,
@@ -97,14 +95,14 @@
               "end": 1499,
               "value": 4,
               "raw": "4"
-            }
+            },
+            "computed": false,
+            "static": false
           },
           {
             "type": "PropertyDefinition",
             "start": 1503,
             "end": 1520,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1503,
@@ -117,14 +115,14 @@
               "end": 1519,
               "value": 5,
               "raw": "5"
-            }
+            },
+            "computed": false,
+            "static": false
           },
           {
             "type": "PropertyDefinition",
             "start": 1523,
             "end": 1539,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1523,
@@ -137,7 +135,9 @@
               "end": 1538,
               "value": 6,
               "raw": "6"
-            }
+            },
+            "computed": false,
+            "static": false
           }
         ]
       }

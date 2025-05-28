@@ -9,52 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 50,
-      "attributes": [],
       "declaration": {
         "type": "TSModuleDeclaration",
         "start": 7,
         "end": 50,
-        "body": {
-          "type": "TSModuleBlock",
-          "start": 16,
-          "end": 50,
-          "body": [
-            {
-              "type": "ExportNamedDeclaration",
-              "start": 22,
-              "end": 48,
-              "attributes": [],
-              "declaration": {
-                "type": "TSInterfaceDeclaration",
-                "start": 29,
-                "end": 48,
-                "body": {
-                  "type": "TSInterfaceBody",
-                  "start": 41,
-                  "end": 48,
-                  "body": []
-                },
-                "declare": false,
-                "extends": [],
-                "id": {
-                  "type": "Identifier",
-                  "start": 39,
-                  "end": 40,
-                  "decorators": [],
-                  "name": "I",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "typeParameters": null
-              },
-              "exportKind": "type",
-              "source": null,
-              "specifiers": []
-            }
-          ]
-        },
-        "declare": false,
-        "global": false,
         "id": {
           "type": "Identifier",
           "start": 14,
@@ -64,11 +22,53 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "kind": "module"
+        "body": {
+          "type": "TSModuleBlock",
+          "start": 16,
+          "end": 50,
+          "body": [
+            {
+              "type": "ExportNamedDeclaration",
+              "start": 22,
+              "end": 48,
+              "declaration": {
+                "type": "TSInterfaceDeclaration",
+                "start": 29,
+                "end": 48,
+                "id": {
+                  "type": "Identifier",
+                  "start": 39,
+                  "end": 40,
+                  "decorators": [],
+                  "name": "I",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeParameters": null,
+                "extends": [],
+                "body": {
+                  "type": "TSInterfaceBody",
+                  "start": 41,
+                  "end": 48,
+                  "body": []
+                },
+                "declare": false
+              },
+              "specifiers": [],
+              "source": null,
+              "exportKind": "type",
+              "attributes": []
+            }
+          ]
+        },
+        "kind": "module",
+        "declare": false,
+        "global": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -83,7 +83,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSQualifiedName",
         "start": 63,
@@ -106,23 +105,23 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 68,
       "end": 84,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 75,
         "end": 84,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 79,
             "end": 83,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 79,
@@ -138,7 +137,6 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 82,
                   "end": 83,
-                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 82,
@@ -147,19 +145,21 @@ __ESTREE_TEST__:PASS:
                     "name": "b",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "typeArguments": null
                 }
               }
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

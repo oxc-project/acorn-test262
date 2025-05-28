@@ -13,16 +13,6 @@ __ESTREE_TEST__:PASS:
         "type": "FunctionDeclaration",
         "start": 15,
         "end": 38,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 30,
-          "end": 38,
-          "body": []
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 24,
@@ -32,9 +22,19 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [],
         "returnType": null,
-        "typeParameters": null
+        "body": {
+          "type": "BlockStatement",
+          "start": 30,
+          "end": 38,
+          "body": []
+        },
+        "expression": false
       },
       "exportKind": "value"
     },
@@ -51,7 +51,7 @@ __ESTREE_TEST__:PASS:
             "type": "Property",
             "start": 61,
             "end": 84,
-            "computed": false,
+            "kind": "init",
             "key": {
               "type": "Identifier",
               "start": 61,
@@ -61,17 +61,17 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "init",
-            "method": false,
-            "optional": false,
-            "shorthand": false,
             "value": {
               "type": "Literal",
               "start": 67,
               "end": 84,
-              "raw": "\"another default\"",
-              "value": "another default"
-            }
+              "value": "another default",
+              "raw": "\"another default\""
+            },
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "optional": false
           }
         ]
       },

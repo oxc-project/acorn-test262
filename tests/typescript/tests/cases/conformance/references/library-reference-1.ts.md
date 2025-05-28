@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 46,
       "end": 77,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 58,
           "end": 76,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 58,
@@ -35,8 +35,6 @@ __ESTREE_TEST__:PASS:
                     "type": "TSMethodSignature",
                     "start": 63,
                     "end": 74,
-                    "accessibility": null,
-                    "computed": false,
                     "key": {
                       "type": "Identifier",
                       "start": 63,
@@ -46,10 +44,11 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "kind": "method",
+                    "computed": false,
                     "optional": false,
+                    "kind": "method",
+                    "typeParameters": null,
                     "params": [],
-                    "readonly": false,
                     "returnType": {
                       "type": "TSTypeAnnotation",
                       "start": 68,
@@ -60,18 +59,19 @@ __ESTREE_TEST__:PASS:
                         "end": 74
                       }
                     },
-                    "static": false,
-                    "typeParameters": null
+                    "accessibility": null,
+                    "readonly": false,
+                    "static": false
                   }
                 ]
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     }
   ],
   "sourceType": "module",
@@ -89,17 +89,14 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 33,
       "end": 41,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 33,
         "end": 40,
-        "arguments": [],
         "callee": {
           "type": "MemberExpression",
           "start": 33,
           "end": 38,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 33,
@@ -109,7 +106,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 35,
@@ -118,11 +114,15 @@ __ESTREE_TEST__:PASS:
             "name": "foo",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

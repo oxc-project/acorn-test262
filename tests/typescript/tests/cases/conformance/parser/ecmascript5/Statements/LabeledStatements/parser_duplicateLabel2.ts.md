@@ -9,10 +9,26 @@ __ESTREE_TEST__:PASS:
       "type": "LabeledStatement",
       "start": 0,
       "end": 55,
+      "label": {
+        "type": "Identifier",
+        "start": 0,
+        "end": 6,
+        "decorators": [],
+        "name": "target",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "WhileStatement",
         "start": 8,
         "end": 55,
+        "test": {
+          "type": "Literal",
+          "start": 15,
+          "end": 19,
+          "value": true,
+          "raw": "true"
+        },
         "body": {
           "type": "BlockStatement",
           "start": 21,
@@ -22,24 +38,6 @@ __ESTREE_TEST__:PASS:
               "type": "LabeledStatement",
               "start": 25,
               "end": 53,
-              "body": {
-                "type": "WhileStatement",
-                "start": 35,
-                "end": 53,
-                "body": {
-                  "type": "BlockStatement",
-                  "start": 48,
-                  "end": 53,
-                  "body": []
-                },
-                "test": {
-                  "type": "Literal",
-                  "start": 42,
-                  "end": 46,
-                  "raw": "true",
-                  "value": true
-                }
-              },
               "label": {
                 "type": "Identifier",
                 "start": 25,
@@ -48,26 +46,28 @@ __ESTREE_TEST__:PASS:
                 "name": "target",
                 "optional": false,
                 "typeAnnotation": null
+              },
+              "body": {
+                "type": "WhileStatement",
+                "start": 35,
+                "end": 53,
+                "test": {
+                  "type": "Literal",
+                  "start": 42,
+                  "end": 46,
+                  "value": true,
+                  "raw": "true"
+                },
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 48,
+                  "end": 53,
+                  "body": []
+                }
               }
             }
           ]
-        },
-        "test": {
-          "type": "Literal",
-          "start": 15,
-          "end": 19,
-          "raw": "true",
-          "value": true
         }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 0,
-        "end": 6,
-        "decorators": [],
-        "name": "target",
-        "optional": false,
-        "typeAnnotation": null
       }
     }
   ],

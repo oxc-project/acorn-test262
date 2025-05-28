@@ -23,7 +23,6 @@
             "start": 331,
             "end": 479,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": true,
             "params": [],
@@ -60,8 +59,8 @@
                           "end": 377,
                           "name": "throwsAsync"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -74,9 +73,7 @@
                           "type": "ArrowFunctionExpression",
                           "start": 396,
                           "end": 475,
-                          "id": null,
                           "expression": true,
-                          "generator": false,
                           "async": false,
                           "params": [],
                           "body": {
@@ -99,8 +96,8 @@
                                 "end": 417,
                                 "name": "fromAsync"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -112,9 +109,7 @@
                                     "type": "Property",
                                     "start": 420,
                                     "end": 472,
-                                    "method": false,
-                                    "shorthand": false,
-                                    "computed": true,
+                                    "kind": "get",
                                     "key": {
                                       "type": "MemberExpression",
                                       "start": 425,
@@ -131,15 +126,14 @@
                                         "end": 440,
                                         "name": "iterator"
                                       },
-                                      "computed": false,
-                                      "optional": false
+                                      "optional": false,
+                                      "computed": false
                                     },
                                     "value": {
                                       "type": "FunctionExpression",
                                       "start": 441,
                                       "end": 472,
                                       "id": null,
-                                      "expression": false,
                                       "generator": false,
                                       "async": false,
                                       "params": [],
@@ -166,15 +160,20 @@
                                             }
                                           }
                                         ]
-                                      }
+                                      },
+                                      "expression": false
                                     },
-                                    "kind": "get"
+                                    "method": false,
+                                    "shorthand": false,
+                                    "computed": true
                                   }
                                 ]
                               }
                             ],
                             "optional": false
-                          }
+                          },
+                          "id": null,
+                          "generator": false
                         }
                       ],
                       "optional": false
@@ -182,7 +181,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

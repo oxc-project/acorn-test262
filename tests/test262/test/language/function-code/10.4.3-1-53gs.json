@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 371,
       "end": 389,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -24,8 +25,7 @@
             "end": 388
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -36,7 +36,6 @@
         "start": 395,
         "end": 539,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 397,
@@ -54,7 +53,6 @@
                 "start": 399,
                 "end": 535,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -92,7 +90,6 @@
                                   "start": 426,
                                   "end": 495,
                                   "id": null,
-                                  "expression": false,
                                   "generator": false,
                                   "async": false,
                                   "params": [],
@@ -123,16 +120,17 @@
                                           "start": 477,
                                           "end": 488,
                                           "operator": "typeof",
-                                          "prefix": true,
                                           "argument": {
                                             "type": "ThisExpression",
                                             "start": 484,
                                             "end": 488
-                                          }
+                                          },
+                                          "prefix": true
                                         }
                                       }
                                     ]
-                                  }
+                                  },
+                                  "expression": false
                                 }
                               },
                               "arguments": [],
@@ -174,13 +172,15 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               }
             },
             "arguments": [],
             "optional": false
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",

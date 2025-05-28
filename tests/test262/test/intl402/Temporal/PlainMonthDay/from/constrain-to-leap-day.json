@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 266,
       "end": 685,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -446,8 +447,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -458,6 +458,7 @@
         "type": "VariableDeclaration",
         "start": 692,
         "end": 724,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -490,8 +491,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -508,6 +508,7 @@
             "type": "VariableDeclaration",
             "start": 739,
             "end": 835,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -543,8 +544,8 @@
                         "end": 772,
                         "name": "PlainMonthDay"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -552,8 +553,8 @@
                       "end": 777,
                       "name": "from"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -565,9 +566,7 @@
                           "type": "Property",
                           "start": 780,
                           "end": 788,
-                          "method": false,
-                          "shorthand": true,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 780,
@@ -580,15 +579,15 @@
                             "end": 788,
                             "name": "calendar"
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": true,
+                          "computed": false
                         },
                         {
                           "type": "Property",
                           "start": 790,
                           "end": 799,
-                          "method": false,
-                          "shorthand": true,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 790,
@@ -601,15 +600,15 @@
                             "end": 799,
                             "name": "monthCode"
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": true,
+                          "computed": false
                         },
                         {
                           "type": "Property",
                           "start": 801,
                           "end": 804,
-                          "method": false,
-                          "shorthand": true,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 801,
@@ -622,7 +621,9 @@
                             "end": 804,
                             "name": "day"
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": true,
+                          "computed": false
                         }
                       ]
                     },
@@ -635,9 +636,7 @@
                           "type": "Property",
                           "start": 810,
                           "end": 831,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 810,
@@ -651,7 +650,9 @@
                             "value": "constrain",
                             "raw": "\"constrain\""
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false
                         }
                       ]
                     }
@@ -659,8 +660,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -686,8 +686,8 @@
                   "end": 854,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -706,8 +706,8 @@
                     "end": 861,
                     "name": "day"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "BinaryExpression",
@@ -732,64 +732,6 @@
                   "type": "TemplateLiteral",
                   "start": 876,
                   "end": 957,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 879,
-                      "end": 887,
-                      "name": "calendar"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 892,
-                      "end": 901,
-                      "name": "monthCode"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 905,
-                      "end": 908,
-                      "name": "day"
-                    },
-                    {
-                      "type": "BinaryExpression",
-                      "start": 932,
-                      "end": 939,
-                      "left": {
-                        "type": "Identifier",
-                        "start": 932,
-                        "end": 935,
-                        "name": "day"
-                      },
-                      "operator": "-",
-                      "right": {
-                        "type": "Literal",
-                        "start": 938,
-                        "end": 939,
-                        "value": 1,
-                        "raw": "1"
-                      }
-                    },
-                    {
-                      "type": "BinaryExpression",
-                      "start": 948,
-                      "end": 955,
-                      "left": {
-                        "type": "Identifier",
-                        "start": 948,
-                        "end": 951,
-                        "name": "day"
-                      },
-                      "operator": "-",
-                      "right": {
-                        "type": "Literal",
-                        "start": 954,
-                        "end": 955,
-                        "value": 2,
-                        "raw": "2"
-                      }
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -850,6 +792,64 @@
                         "cooked": ""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 879,
+                      "end": 887,
+                      "name": "calendar"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 892,
+                      "end": 901,
+                      "name": "monthCode"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 905,
+                      "end": 908,
+                      "name": "day"
+                    },
+                    {
+                      "type": "BinaryExpression",
+                      "start": 932,
+                      "end": 939,
+                      "left": {
+                        "type": "Identifier",
+                        "start": 932,
+                        "end": 935,
+                        "name": "day"
+                      },
+                      "operator": "-",
+                      "right": {
+                        "type": "Literal",
+                        "start": 938,
+                        "end": 939,
+                        "value": 1,
+                        "raw": "1"
+                      }
+                    },
+                    {
+                      "type": "BinaryExpression",
+                      "start": 948,
+                      "end": 955,
+                      "left": {
+                        "type": "Identifier",
+                        "start": 948,
+                        "end": 951,
+                        "name": "day"
+                      },
+                      "operator": "-",
+                      "right": {
+                        "type": "Literal",
+                        "start": 954,
+                        "end": 955,
+                        "value": 2,
+                        "raw": "2"
+                      }
                     }
                   ]
                 }

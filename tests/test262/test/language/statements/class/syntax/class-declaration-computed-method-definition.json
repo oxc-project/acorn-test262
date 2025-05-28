@@ -23,8 +23,6 @@
             "type": "MethodDefinition",
             "start": 529,
             "end": 537,
-            "static": false,
-            "computed": true,
             "key": {
               "type": "Literal",
               "start": 530,
@@ -32,13 +30,11 @@
               "value": 1,
               "raw": "1"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 532,
               "end": 537,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -47,8 +43,12 @@
                 "start": 535,
                 "end": 537,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": true,
+            "static": false
           }
         ]
       }
@@ -77,8 +77,8 @@
             "end": 557,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -86,13 +86,13 @@
             "start": 558,
             "end": 566,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 565,
               "end": 566,
               "name": "A"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -129,8 +129,8 @@
             "end": 597,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -138,7 +138,6 @@
             "start": 598,
             "end": 619,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 605,
@@ -159,8 +158,8 @@
                   "end": 616,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Literal",
@@ -169,9 +168,10 @@
                 "value": 1,
                 "raw": "1"
               },
-              "computed": true,
-              "optional": false
-            }
+              "optional": false,
+              "computed": true
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

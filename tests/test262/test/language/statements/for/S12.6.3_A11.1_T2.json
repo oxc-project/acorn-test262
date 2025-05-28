@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 360,
       "end": 370,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -51,6 +51,12 @@
       "type": "LabeledStatement",
       "start": 382,
       "end": 564,
+      "label": {
+        "type": "Identifier",
+        "start": 382,
+        "end": 387,
+        "name": "outer"
+      },
       "body": {
         "type": "ForStatement",
         "start": 390,
@@ -59,6 +65,7 @@
           "type": "VariableDeclaration",
           "start": 394,
           "end": 405,
+          "kind": "var",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -78,8 +85,7 @@
                 "raw": "0"
               }
             }
-          ],
-          "kind": "var"
+          ]
         },
         "test": {
           "type": "BinaryExpression",
@@ -128,6 +134,12 @@
               "type": "LabeledStatement",
               "start": 432,
               "end": 561,
+              "label": {
+                "type": "Identifier",
+                "start": 432,
+                "end": 438,
+                "name": "nested"
+              },
               "body": {
                 "type": "ForStatement",
                 "start": 441,
@@ -136,6 +148,7 @@
                   "type": "VariableDeclaration",
                   "start": 445,
                   "end": 458,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -155,8 +168,7 @@
                         "raw": "0"
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 "test": {
                   "type": "BinaryExpression",
@@ -292,22 +304,10 @@
                     }
                   ]
                 }
-              },
-              "label": {
-                "type": "Identifier",
-                "start": 432,
-                "end": 438,
-                "name": "nested"
               }
             }
           ]
         }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 382,
-        "end": 387,
-        "name": "outer"
       }
     },
     {
@@ -407,6 +407,12 @@
       "type": "LabeledStatement",
       "start": 881,
       "end": 1062,
+      "label": {
+        "type": "Identifier",
+        "start": 881,
+        "end": 886,
+        "name": "outer"
+      },
       "body": {
         "type": "ForStatement",
         "start": 889,
@@ -415,6 +421,7 @@
           "type": "VariableDeclaration",
           "start": 893,
           "end": 904,
+          "kind": "var",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -434,8 +441,7 @@
                 "raw": "0"
               }
             }
-          ],
-          "kind": "var"
+          ]
         },
         "test": {
           "type": "BinaryExpression",
@@ -484,6 +490,12 @@
               "type": "LabeledStatement",
               "start": 931,
               "end": 1059,
+              "label": {
+                "type": "Identifier",
+                "start": 931,
+                "end": 937,
+                "name": "nested"
+              },
               "body": {
                 "type": "ForStatement",
                 "start": 940,
@@ -492,6 +504,7 @@
                   "type": "VariableDeclaration",
                   "start": 944,
                   "end": 957,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -511,8 +524,7 @@
                         "raw": "0"
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 "test": {
                   "type": "BinaryExpression",
@@ -648,22 +660,10 @@
                     }
                   ]
                 }
-              },
-              "label": {
-                "type": "Identifier",
-                "start": 931,
-                "end": 937,
-                "name": "nested"
               }
             }
           ]
         }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 881,
-        "end": 886,
-        "name": "outer"
       }
     },
     {
@@ -763,6 +763,12 @@
       "type": "LabeledStatement",
       "start": 1374,
       "end": 1550,
+      "label": {
+        "type": "Identifier",
+        "start": 1374,
+        "end": 1379,
+        "name": "outer"
+      },
       "body": {
         "type": "ForStatement",
         "start": 1382,
@@ -771,6 +777,7 @@
           "type": "VariableDeclaration",
           "start": 1386,
           "end": 1397,
+          "kind": "var",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -790,8 +797,7 @@
                 "raw": "0"
               }
             }
-          ],
-          "kind": "var"
+          ]
         },
         "test": {
           "type": "BinaryExpression",
@@ -840,6 +846,12 @@
               "type": "LabeledStatement",
               "start": 1424,
               "end": 1547,
+              "label": {
+                "type": "Identifier",
+                "start": 1424,
+                "end": 1430,
+                "name": "nested"
+              },
               "body": {
                 "type": "ForStatement",
                 "start": 1433,
@@ -848,6 +860,7 @@
                   "type": "VariableDeclaration",
                   "start": 1437,
                   "end": 1450,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -867,8 +880,7 @@
                         "raw": "0"
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 "test": {
                   "type": "BinaryExpression",
@@ -999,22 +1011,10 @@
                     }
                   ]
                 }
-              },
-              "label": {
-                "type": "Identifier",
-                "start": 1424,
-                "end": 1430,
-                "name": "nested"
               }
             }
           ]
         }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 1374,
-        "end": 1379,
-        "name": "outer"
       }
     },
     {

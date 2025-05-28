@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 37,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 14,
           "end": 36,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
@@ -30,7 +30,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 21,
                 "end": 36,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 21,
@@ -39,26 +38,39 @@ __ESTREE_TEST__:PASS:
                   "name": "WizardStepProps",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 38,
       "end": 166,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 45,
         "end": 166,
-        "abstract": false,
+        "decorators": [],
+        "id": {
+          "type": "Identifier",
+          "start": 51,
+          "end": 57,
+          "decorators": [],
+          "name": "Wizard",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null,
+        "superClass": null,
+        "superTypeArguments": null,
+        "implements": [],
         "body": {
           "type": "ClassBody",
           "start": 58,
@@ -68,8 +80,6 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 62,
               "end": 164,
-              "accessibility": null,
-              "computed": false,
               "decorators": [],
               "key": {
                 "type": "Identifier",
@@ -80,15 +90,17 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "kind": "get",
-              "optional": false,
-              "override": false,
-              "static": false,
               "value": {
                 "type": "FunctionExpression",
                 "start": 71,
                 "end": 164,
+                "id": null,
+                "generator": false,
                 "async": false,
+                "declare": false,
+                "typeParameters": null,
+                "params": [],
+                "returnType": null,
                 "body": {
                   "type": "BlockStatement",
                   "start": 74,
@@ -111,7 +123,7 @@ __ESTREE_TEST__:PASS:
                               "type": "Property",
                               "start": 95,
                               "end": 117,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 95,
@@ -121,10 +133,6 @@ __ESTREE_TEST__:PASS:
                                 "optional": false,
                                 "typeAnnotation": null
                               },
-                              "kind": "init",
-                              "method": false,
-                              "optional": false,
-                              "shorthand": false,
                               "value": {
                                 "type": "TSAsExpression",
                                 "start": 103,
@@ -138,7 +146,6 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 111,
                                   "end": 117,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 111,
@@ -147,9 +154,14 @@ __ESTREE_TEST__:PASS:
                                     "name": "Wizard",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 }
-                              }
+                              },
+                              "method": false,
+                              "shorthand": false,
+                              "computed": false,
+                              "optional": false
                             },
                             {
                               "type": "SpreadElement",
@@ -171,7 +183,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 144,
                           "end": 159,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 144,
@@ -180,100 +191,40 @@ __ESTREE_TEST__:PASS:
                             "name": "WizardStepProps",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       }
                     }
                   ]
                 },
-                "declare": false,
-                "expression": false,
-                "generator": false,
-                "id": null,
-                "params": [],
-                "returnType": null,
-                "typeParameters": null
-              }
+                "expression": false
+              },
+              "kind": "get",
+              "computed": false,
+              "static": false,
+              "override": false,
+              "optional": false,
+              "accessibility": null
             }
           ]
         },
-        "declare": false,
-        "decorators": [],
-        "id": {
-          "type": "Identifier",
-          "start": 51,
-          "end": 57,
-          "decorators": [],
-          "name": "Wizard",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 168,
       "end": 223,
-      "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
         "start": 175,
         "end": 223,
-        "body": {
-          "type": "TSInterfaceBody",
-          "start": 201,
-          "end": 223,
-          "body": [
-            {
-              "type": "TSPropertySignature",
-              "start": 205,
-              "end": 221,
-              "accessibility": null,
-              "computed": false,
-              "key": {
-                "type": "Identifier",
-                "start": 205,
-                "end": 211,
-                "decorators": [],
-                "name": "wizard",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": true,
-              "readonly": false,
-              "static": false,
-              "typeAnnotation": {
-                "type": "TSTypeAnnotation",
-                "start": 212,
-                "end": 220,
-                "typeAnnotation": {
-                  "type": "TSTypeReference",
-                  "start": 214,
-                  "end": 220,
-                  "typeArguments": null,
-                  "typeName": {
-                    "type": "Identifier",
-                    "start": 214,
-                    "end": 220,
-                    "decorators": [],
-                    "name": "Wizard",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                }
-              }
-            }
-          ]
-        },
-        "declare": false,
-        "extends": [],
         "id": {
           "type": "Identifier",
           "start": 185,
@@ -283,11 +234,60 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "typeParameters": null
+        "typeParameters": null,
+        "extends": [],
+        "body": {
+          "type": "TSInterfaceBody",
+          "start": 201,
+          "end": 223,
+          "body": [
+            {
+              "type": "TSPropertySignature",
+              "start": 205,
+              "end": 221,
+              "computed": false,
+              "optional": true,
+              "readonly": false,
+              "key": {
+                "type": "Identifier",
+                "start": 205,
+                "end": 211,
+                "decorators": [],
+                "name": "wizard",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeAnnotation": {
+                "type": "TSTypeAnnotation",
+                "start": 212,
+                "end": 220,
+                "typeAnnotation": {
+                  "type": "TSTypeReference",
+                  "start": 214,
+                  "end": 220,
+                  "typeName": {
+                    "type": "Identifier",
+                    "start": 214,
+                    "end": 220,
+                    "decorators": [],
+                    "name": "Wizard",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeArguments": null
+                }
+              },
+              "accessibility": null,
+              "static": false
+            }
+          ]
+        },
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     }
   ],
   "sourceType": "module",

@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 31,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 17,
-        "end": 30,
-        "raw": "\"./data.json\"",
-        "value": "./data.json"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -33,19 +25,27 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 17,
+        "end": 30,
+        "value": "./data.json",
+        "raw": "\"./data.json\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 32,
       "end": 53,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 36,
           "end": 52,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 36,
@@ -72,11 +72,11 @@ __ESTREE_TEST__:PASS:
             "name": "data",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     }
   ],
   "sourceType": "module",
@@ -94,12 +94,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 24,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 12,
           "end": 23,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
@@ -118,11 +118,11 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "ExportDefaultDeclaration",

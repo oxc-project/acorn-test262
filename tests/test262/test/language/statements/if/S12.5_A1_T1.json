@@ -12,7 +12,6 @@
         "start": 375,
         "end": 379,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 376,
@@ -24,7 +23,8 @@
             "value": 1,
             "raw": "1"
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "ThrowStatement",
@@ -62,7 +62,6 @@
         "start": 625,
         "end": 632,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 626,
@@ -74,7 +73,8 @@
             "value": true,
             "raw": "true"
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "ThrowStatement",
@@ -112,7 +112,6 @@
         "start": 881,
         "end": 887,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 882,
@@ -124,7 +123,8 @@
             "value": "1",
             "raw": "\"1\""
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "ThrowStatement",
@@ -162,7 +162,6 @@
         "start": 1135,
         "end": 1141,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 1136,
@@ -174,7 +173,8 @@
             "value": "A",
             "raw": "\"A\""
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "ThrowStatement",

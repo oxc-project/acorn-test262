@@ -9,7 +9,20 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 38,
-      "abstract": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 6,
+        "end": 7,
+        "decorators": [],
+        "name": "C",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
       "body": {
         "type": "ClassBody",
         "start": 8,
@@ -19,7 +32,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 12,
             "end": 36,
-            "accessibility": null,
             "parameters": [
               {
                 "type": "AssignmentPattern",
@@ -44,19 +56,17 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 },
-                "optional": false,
                 "right": {
                   "type": "Literal",
                   "start": 25,
                   "end": 26,
-                  "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
+                "optional": false,
                 "typeAnnotation": null
               }
             ],
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 27,
@@ -66,25 +76,15 @@ __ESTREE_TEST__:PASS:
                 "start": 29,
                 "end": 35
               }
-            }
+            },
+            "readonly": false,
+            "static": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
-      "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 6,
-        "end": 7,
-        "decorators": [],
-        "name": "C",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

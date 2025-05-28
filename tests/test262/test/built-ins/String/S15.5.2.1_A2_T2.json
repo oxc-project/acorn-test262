@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 385,
       "end": 430,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -39,8 +40,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -67,8 +67,8 @@
             "value": "__custom__prop",
             "raw": "\"__custom__prop\""
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "operator": "!==",
         "right": {
@@ -127,8 +127,8 @@
                       "value": "__custom__prop",
                       "raw": "\"__custom__prop\""
                     },
-                    "computed": true,
-                    "optional": false
+                    "optional": false,
+                    "computed": true
                   }
                 }
               ]
@@ -167,8 +167,8 @@
               "end": 864,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -176,8 +176,8 @@
             "end": 879,
             "name": "__custom__prop"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -213,8 +213,8 @@
             "value": "__custom__prop",
             "raw": "\"__custom__prop\""
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "operator": "!==",
         "right": {
@@ -274,8 +274,8 @@
                       "value": "__custom__prop",
                       "raw": "\"__custom__prop\""
                     },
-                    "computed": true,
-                    "optional": false
+                    "optional": false,
+                    "computed": true
                   }
                 }
               ]

@@ -9,11 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 4,
       "end": 146,
-      "attributes": [],
       "declaration": {
         "type": "TSEnumDeclaration",
         "start": 11,
         "end": 146,
+        "id": {
+          "type": "Identifier",
+          "start": 16,
+          "end": 30,
+          "decorators": [],
+          "name": "SignatureFlags",
+          "optional": false,
+          "typeAnnotation": null
+        },
         "body": {
           "type": "TSEnumBody",
           "start": 31,
@@ -23,7 +31,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSEnumMember",
               "start": 41,
               "end": 49,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 41,
@@ -37,15 +44,15 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 48,
                 "end": 49,
-                "raw": "0",
-                "value": 0
-              }
+                "value": 0,
+                "raw": "0"
+              },
+              "computed": false
             },
             {
               "type": "TSEnumMember",
               "start": 59,
               "end": 72,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 59,
@@ -59,15 +66,15 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 71,
                 "end": 72,
-                "raw": "1",
-                "value": 1
-              }
+                "value": 1,
+                "raw": "1"
+              },
+              "computed": false
             },
             {
               "type": "TSEnumMember",
               "start": 82,
               "end": 106,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 82,
@@ -81,28 +88,28 @@ __ESTREE_TEST__:PASS:
                 "type": "BinaryExpression",
                 "start": 100,
                 "end": 106,
-                "operator": "<<",
                 "left": {
                   "type": "Literal",
                   "start": 100,
                   "end": 101,
-                  "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
+                "operator": "<<",
                 "right": {
                   "type": "Literal",
                   "start": 105,
                   "end": 106,
-                  "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
-              }
+              },
+              "computed": false
             },
             {
               "type": "TSEnumMember",
               "start": 116,
               "end": 140,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 116,
@@ -116,40 +123,33 @@ __ESTREE_TEST__:PASS:
                 "type": "BinaryExpression",
                 "start": 134,
                 "end": 140,
-                "operator": "<<",
                 "left": {
                   "type": "Literal",
                   "start": 134,
                   "end": 135,
-                  "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
+                "operator": "<<",
                 "right": {
                   "type": "Literal",
                   "start": 139,
                   "end": 140,
-                  "raw": "2",
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 }
-              }
+              },
+              "computed": false
             }
           ]
         },
         "const": false,
-        "declare": false,
-        "id": {
-          "type": "Identifier",
-          "start": 16,
-          "end": 30,
-          "decorators": [],
-          "name": "SignatureFlags",
-          "optional": false,
-          "typeAnnotation": null
-        }
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

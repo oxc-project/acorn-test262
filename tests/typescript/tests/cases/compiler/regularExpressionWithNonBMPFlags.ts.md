@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 359,
       "end": 406,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 365,
           "end": 405,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 365,
@@ -28,17 +28,17 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 378,
             "end": 405,
+            "value": null,
             "raw": "/(?𝘴𝘪-𝘮:^𝘧𝘰𝘰.)/𝘨𝘮𝘶",
             "regex": {
               "flags": "𝘨𝘮𝘶",
               "pattern": "(?𝘴𝘪-𝘮:^𝘧𝘰𝘰.)"
-            },
-            "value": null
-          }
+            }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "script",

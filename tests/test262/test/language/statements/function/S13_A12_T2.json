@@ -37,7 +37,6 @@
         "end": 389,
         "name": "__cont"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -56,7 +55,6 @@
               "end": 413,
               "name": "__func"
             },
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -77,7 +75,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "EmptyStatement",
@@ -93,13 +92,13 @@
               "start": 556,
               "end": 569,
               "operator": "delete",
-              "prefix": true,
               "argument": {
                 "type": "Identifier",
                 "start": 563,
                 "end": 569,
                 "name": "__func"
-              }
+              },
+              "prefix": true
             },
             "consequent": {
               "type": "BlockStatement",
@@ -218,7 +217,8 @@
             "alternate": null
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",

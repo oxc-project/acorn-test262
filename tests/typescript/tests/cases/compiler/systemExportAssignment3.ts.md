@@ -9,7 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 84,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 18,
+        "value": "a",
+        "raw": "\"a\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 19,
@@ -19,12 +25,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 25,
             "end": 39,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 29,
                 "end": 38,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 29,
@@ -43,11 +49,11 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           },
           {
             "type": "TSExportAssignment",
@@ -65,15 +71,9 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 18,
-        "raw": "\"a\"",
-        "value": "a"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -91,14 +91,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 23,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 19,
-        "end": 22,
-        "raw": "\"a\"",
-        "value": "a"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -115,8 +107,16 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 19,
+        "end": 22,
+        "value": "a",
+        "raw": "\"a\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

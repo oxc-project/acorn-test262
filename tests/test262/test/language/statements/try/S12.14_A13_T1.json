@@ -13,7 +13,6 @@
         "end": 326,
         "name": "myFunction1"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -115,12 +114,14 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 500,
       "end": 521,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -146,8 +147,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -228,7 +228,6 @@
         "end": 628,
         "name": "myFunction2"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -317,12 +316,14 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 720,
       "end": 741,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -348,8 +349,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -430,7 +430,6 @@
         "end": 847,
         "name": "myFunction3"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -506,12 +505,14 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 930,
       "end": 951,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -537,8 +538,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -619,7 +619,6 @@
         "end": 1057,
         "name": "myFunction4"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -720,7 +719,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "TryStatement",
@@ -735,6 +735,7 @@
             "type": "VariableDeclaration",
             "start": 1169,
             "end": 1190,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -760,8 +761,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ThrowStatement",

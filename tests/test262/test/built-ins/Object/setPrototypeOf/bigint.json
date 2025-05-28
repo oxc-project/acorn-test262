@@ -16,6 +16,7 @@
             "type": "VariableDeclaration",
             "start": 240,
             "end": 252,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -36,8 +37,7 @@
                   "bigint": "0"
                 }
               }
-            ],
-            "kind": "let"
+            ]
           }
         ]
       },
@@ -110,8 +110,8 @@
             "end": 376,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -134,8 +134,8 @@
                 "end": 398,
                 "name": "setPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

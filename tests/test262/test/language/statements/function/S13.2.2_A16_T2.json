@@ -16,13 +16,13 @@
           "start": 429,
           "end": 442,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 436,
             "end": 442,
             "name": "__func"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -70,13 +70,13 @@
                     "start": 549,
                     "end": 562,
                     "operator": "typeof",
-                    "prefix": true,
                     "argument": {
                       "type": "Identifier",
                       "start": 556,
                       "end": 562,
                       "name": "__func"
-                    }
+                    },
+                    "prefix": true
                   }
                 }
               ]
@@ -90,6 +90,7 @@
       "type": "VariableDeclaration",
       "start": 650,
       "end": 706,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -115,7 +116,6 @@
                 "end": 681,
                 "name": "__func"
               },
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -155,8 +155,8 @@
                           "end": 696,
                           "name": "prop"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "right": {
                         "type": "Identifier",
@@ -167,7 +167,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             },
             "arguments": [
               {
@@ -180,8 +181,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -207,8 +207,8 @@
             "end": 811,
             "name": "prop"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -267,8 +267,8 @@
                       "end": 902,
                       "name": "prop"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
@@ -291,13 +291,13 @@
           "start": 1083,
           "end": 1096,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 1090,
             "end": 1096,
             "name": "__func"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -345,13 +345,13 @@
                     "start": 1203,
                     "end": 1216,
                     "operator": "typeof",
-                    "prefix": true,
                     "argument": {
                       "type": "Identifier",
                       "start": 1210,
                       "end": 1216,
                       "name": "__func"
-                    }
+                    },
+                    "prefix": true
                   }
                 }
               ]

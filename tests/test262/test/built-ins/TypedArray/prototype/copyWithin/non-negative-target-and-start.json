@@ -23,7 +23,6 @@
             "start": 865,
             "end": 1344,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -141,8 +140,8 @@
                                 "end": 951,
                                 "name": "copyWithin"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -320,8 +319,8 @@
                                 "end": 1067,
                                 "name": "copyWithin"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -499,8 +498,8 @@
                                 "end": 1183,
                                 "name": "copyWithin"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -678,8 +677,8 @@
                                 "end": 1299,
                                 "name": "copyWithin"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -756,7 +755,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

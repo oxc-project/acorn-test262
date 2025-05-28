@@ -18,6 +18,7 @@
       "type": "VariableDeclaration",
       "start": 324,
       "end": 336,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -37,8 +38,7 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "const"
+      ]
     }
   ],
   "sourceType": "script",

@@ -9,7 +9,20 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 113,
-      "abstract": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 6,
+        "end": 7,
+        "decorators": [],
+        "name": "C",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
       "body": {
         "type": "ClassBody",
         "start": 8,
@@ -19,8 +32,6 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 14,
             "end": 43,
-            "accessibility": null,
-            "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
@@ -31,20 +42,15 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
               "start": 16,
               "end": 43,
-              "async": false,
-              "body": null,
-              "declare": false,
-              "expression": false,
-              "generator": true,
               "id": null,
+              "generator": true,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -73,6 +79,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 29,
                   "end": 42,
+                  "typeName": {
+                    "type": "Identifier",
+                    "start": 29,
+                    "end": 37,
+                    "decorators": [],
+                    "name": "Iterable",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
                   "typeArguments": {
                     "type": "TSTypeParameterInstantiation",
                     "start": 37,
@@ -84,27 +99,23 @@ __ESTREE_TEST__:PASS:
                         "end": 41
                       }
                     ]
-                  },
-                  "typeName": {
-                    "type": "Identifier",
-                    "start": 29,
-                    "end": 37,
-                    "decorators": [],
-                    "name": "Iterable",
-                    "optional": false,
-                    "typeAnnotation": null
                   }
                 }
               },
-              "typeParameters": null
-            }
+              "body": null,
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null
           },
           {
             "type": "MethodDefinition",
             "start": 48,
             "end": 77,
-            "accessibility": null,
-            "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
@@ -115,20 +126,15 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
               "start": 50,
               "end": 77,
-              "async": false,
-              "body": null,
-              "declare": false,
-              "expression": false,
-              "generator": true,
               "id": null,
+              "generator": true,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -157,6 +163,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 63,
                   "end": 76,
+                  "typeName": {
+                    "type": "Identifier",
+                    "start": 63,
+                    "end": 71,
+                    "decorators": [],
+                    "name": "Iterable",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
                   "typeArguments": {
                     "type": "TSTypeParameterInstantiation",
                     "start": 71,
@@ -168,27 +183,23 @@ __ESTREE_TEST__:PASS:
                         "end": 75
                       }
                     ]
-                  },
-                  "typeName": {
-                    "type": "Identifier",
-                    "start": 63,
-                    "end": 71,
-                    "decorators": [],
-                    "name": "Iterable",
-                    "optional": false,
-                    "typeAnnotation": null
                   }
                 }
               },
-              "typeParameters": null
-            }
+              "body": null,
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null
           },
           {
             "type": "MethodDefinition",
             "start": 82,
             "end": 111,
-            "accessibility": null,
-            "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
@@ -199,25 +210,15 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "FunctionExpression",
               "start": 84,
               "end": 111,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 108,
-                "end": 111,
-                "body": []
-              },
-              "declare": false,
-              "expression": false,
-              "generator": true,
               "id": null,
+              "generator": true,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -246,6 +247,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 94,
                   "end": 107,
+                  "typeName": {
+                    "type": "Identifier",
+                    "start": 94,
+                    "end": 102,
+                    "decorators": [],
+                    "name": "Iterable",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
                   "typeArguments": {
                     "type": "TSTypeParameterInstantiation",
                     "start": 102,
@@ -257,38 +267,28 @@ __ESTREE_TEST__:PASS:
                         "end": 106
                       }
                     ]
-                  },
-                  "typeName": {
-                    "type": "Identifier",
-                    "start": 94,
-                    "end": 102,
-                    "decorators": [],
-                    "name": "Iterable",
-                    "optional": false,
-                    "typeAnnotation": null
                   }
                 }
               },
-              "typeParameters": null
-            }
+              "body": {
+                "type": "BlockStatement",
+                "start": 108,
+                "end": 111,
+                "body": []
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
-      "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 6,
-        "end": 7,
-        "decorators": [],
-        "name": "C",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 52,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 49,
-        "end": 52,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -27,9 +19,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 9,
@@ -39,14 +28,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeParameter",
             "start": 10,
             "end": 26,
-            "const": false,
-            "constraint": {
-              "type": "TSNumberKeyword",
-              "start": 20,
-              "end": 26
-            },
-            "default": null,
-            "in": false,
             "name": {
               "type": "Identifier",
               "start": 10,
@@ -56,16 +37,20 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "out": false
+            "constraint": {
+              "type": "TSNumberKeyword",
+              "start": 20,
+              "end": 26
+            },
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
           },
           {
             "type": "TSTypeParameter",
             "start": 28,
             "end": 29,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
             "name": {
               "type": "Identifier",
               "start": 28,
@@ -75,20 +60,16 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "out": false
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
           },
           {
             "type": "TSTypeParameter",
             "start": 31,
             "end": 47,
-            "const": false,
-            "constraint": {
-              "type": "TSStringKeyword",
-              "start": 41,
-              "end": 47
-            },
-            "default": null,
-            "in": false,
             "name": {
               "type": "Identifier",
               "start": 31,
@@ -98,21 +79,38 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "out": false
+            "constraint": {
+              "type": "TSStringKeyword",
+              "start": 41,
+              "end": 47
+            },
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
           }
         ]
-      }
+      },
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 49,
+        "end": 52,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 53,
       "end": 67,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 53,
         "end": 66,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 53,
@@ -122,7 +120,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 57,
@@ -131,8 +128,11 @@ __ESTREE_TEST__:PASS:
           "name": "prototype",
           "optional": false,
           "typeAnnotation": null
-        }
-      }
+        },
+        "optional": false,
+        "computed": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

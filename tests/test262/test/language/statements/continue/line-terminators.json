@@ -7,6 +7,12 @@
       "type": "LabeledStatement",
       "start": 390,
       "end": 491,
+      "label": {
+        "type": "Identifier",
+        "start": 390,
+        "end": 394,
+        "name": "FOR1"
+      },
       "body": {
         "type": "ForStatement",
         "start": 397,
@@ -15,6 +21,7 @@
           "type": "VariableDeclaration",
           "start": 401,
           "end": 408,
+          "kind": "var",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -34,8 +41,7 @@
                 "raw": "1"
               }
             }
-          ],
-          "kind": "var"
+          ]
         },
         "test": {
           "type": "BinaryExpression",
@@ -78,6 +84,12 @@
               "type": "LabeledStatement",
               "start": 421,
               "end": 479,
+              "label": {
+                "type": "Identifier",
+                "start": 421,
+                "end": 431,
+                "name": "FOR1NESTED"
+              },
               "body": {
                 "type": "ForStatement",
                 "start": 434,
@@ -86,6 +98,7 @@
                   "type": "VariableDeclaration",
                   "start": 438,
                   "end": 445,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -105,8 +118,7 @@
                         "raw": "1"
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 "test": {
                   "type": "BinaryExpression",
@@ -164,12 +176,6 @@
                     }
                   ]
                 }
-              },
-              "label": {
-                "type": "Identifier",
-                "start": 421,
-                "end": 431,
-                "name": "FOR1NESTED"
               }
             },
             {
@@ -191,12 +197,6 @@
             }
           ]
         }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 390,
-        "end": 394,
-        "name": "FOR1"
       }
     },
     {
@@ -223,8 +223,8 @@
             "end": 509,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -255,6 +255,12 @@
       "type": "LabeledStatement",
       "start": 631,
       "end": 732,
+      "label": {
+        "type": "Identifier",
+        "start": 631,
+        "end": 635,
+        "name": "FOR2"
+      },
       "body": {
         "type": "ForStatement",
         "start": 638,
@@ -263,6 +269,7 @@
           "type": "VariableDeclaration",
           "start": 642,
           "end": 649,
+          "kind": "var",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -282,8 +289,7 @@
                 "raw": "1"
               }
             }
-          ],
-          "kind": "var"
+          ]
         },
         "test": {
           "type": "BinaryExpression",
@@ -326,6 +332,12 @@
               "type": "LabeledStatement",
               "start": 662,
               "end": 720,
+              "label": {
+                "type": "Identifier",
+                "start": 662,
+                "end": 672,
+                "name": "FOR2NESTED"
+              },
               "body": {
                 "type": "ForStatement",
                 "start": 675,
@@ -334,6 +346,7 @@
                   "type": "VariableDeclaration",
                   "start": 679,
                   "end": 686,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -353,8 +366,7 @@
                         "raw": "1"
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 "test": {
                   "type": "BinaryExpression",
@@ -412,12 +424,6 @@
                     }
                   ]
                 }
-              },
-              "label": {
-                "type": "Identifier",
-                "start": 662,
-                "end": 672,
-                "name": "FOR2NESTED"
               }
             },
             {
@@ -439,12 +445,6 @@
             }
           ]
         }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 631,
-        "end": 635,
-        "name": "FOR2"
       }
     },
     {
@@ -471,8 +471,8 @@
             "end": 750,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -503,6 +503,12 @@
       "type": "LabeledStatement",
       "start": 872,
       "end": 973,
+      "label": {
+        "type": "Identifier",
+        "start": 872,
+        "end": 876,
+        "name": "FOR3"
+      },
       "body": {
         "type": "ForStatement",
         "start": 879,
@@ -511,6 +517,7 @@
           "type": "VariableDeclaration",
           "start": 883,
           "end": 890,
+          "kind": "var",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -530,8 +537,7 @@
                 "raw": "1"
               }
             }
-          ],
-          "kind": "var"
+          ]
         },
         "test": {
           "type": "BinaryExpression",
@@ -574,6 +580,12 @@
               "type": "LabeledStatement",
               "start": 903,
               "end": 961,
+              "label": {
+                "type": "Identifier",
+                "start": 903,
+                "end": 913,
+                "name": "FOR3NESTED"
+              },
               "body": {
                 "type": "ForStatement",
                 "start": 916,
@@ -582,6 +594,7 @@
                   "type": "VariableDeclaration",
                   "start": 920,
                   "end": 927,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -601,8 +614,7 @@
                         "raw": "1"
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 "test": {
                   "type": "BinaryExpression",
@@ -660,12 +672,6 @@
                     }
                   ]
                 }
-              },
-              "label": {
-                "type": "Identifier",
-                "start": 903,
-                "end": 913,
-                "name": "FOR3NESTED"
               }
             },
             {
@@ -687,12 +693,6 @@
             }
           ]
         }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 872,
-        "end": 876,
-        "name": "FOR3"
       }
     },
     {
@@ -719,8 +719,8 @@
             "end": 990,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -751,6 +751,12 @@
       "type": "LabeledStatement",
       "start": 1112,
       "end": 1213,
+      "label": {
+        "type": "Identifier",
+        "start": 1112,
+        "end": 1116,
+        "name": "FOR4"
+      },
       "body": {
         "type": "ForStatement",
         "start": 1119,
@@ -759,6 +765,7 @@
           "type": "VariableDeclaration",
           "start": 1123,
           "end": 1130,
+          "kind": "var",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -778,8 +785,7 @@
                 "raw": "1"
               }
             }
-          ],
-          "kind": "var"
+          ]
         },
         "test": {
           "type": "BinaryExpression",
@@ -822,6 +828,12 @@
               "type": "LabeledStatement",
               "start": 1143,
               "end": 1201,
+              "label": {
+                "type": "Identifier",
+                "start": 1143,
+                "end": 1153,
+                "name": "FOR4NESTED"
+              },
               "body": {
                 "type": "ForStatement",
                 "start": 1156,
@@ -830,6 +842,7 @@
                   "type": "VariableDeclaration",
                   "start": 1160,
                   "end": 1167,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -849,8 +862,7 @@
                         "raw": "1"
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 "test": {
                   "type": "BinaryExpression",
@@ -908,12 +920,6 @@
                     }
                   ]
                 }
-              },
-              "label": {
-                "type": "Identifier",
-                "start": 1143,
-                "end": 1153,
-                "name": "FOR4NESTED"
               }
             },
             {
@@ -935,12 +941,6 @@
             }
           ]
         }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 1112,
-        "end": 1116,
-        "name": "FOR4"
       }
     },
     {
@@ -967,8 +967,8 @@
             "end": 1231,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

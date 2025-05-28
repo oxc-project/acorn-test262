@@ -9,11 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 0,
       "end": 34,
-      "async": false,
-      "body": null,
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -23,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -53,17 +52,13 @@ __ESTREE_TEST__:PASS:
           "end": 33
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "TSDeclareFunction",
       "start": 35,
       "end": 69,
-      "async": false,
-      "body": null,
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 44,
@@ -73,6 +68,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -103,37 +102,13 @@ __ESTREE_TEST__:PASS:
           "end": 68
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 70,
       "end": 112,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 98,
-        "end": 112,
-        "body": [
-          {
-            "type": "ReturnStatement",
-            "start": 100,
-            "end": 110,
-            "argument": {
-              "type": "Identifier",
-              "start": 107,
-              "end": 110,
-              "decorators": [],
-              "name": "bar",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 79,
@@ -143,6 +118,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -173,7 +152,28 @@ __ESTREE_TEST__:PASS:
           "end": 97
         }
       },
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 98,
+        "end": 112,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 100,
+            "end": 110,
+            "argument": {
+              "type": "Identifier",
+              "start": 107,
+              "end": 110,
+              "decorators": [],
+              "name": "bar",
+              "optional": false,
+              "typeAnnotation": null
+            }
+          }
+        ]
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",
@@ -184,12 +184,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 114,
       "end": 132,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 118,
           "end": 131,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 118,
@@ -203,15 +203,6 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 122,
             "end": 131,
-            "arguments": [
-              {
-                "type": "Literal",
-                "start": 126,
-                "end": 130,
-                "raw": "true",
-                "value": true
-              }
-            ],
             "callee": {
               "type": "Identifier",
               "start": 122,
@@ -221,13 +212,22 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 126,
+                "end": 130,
+                "value": true,
+                "raw": "true"
+              }
+            ],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

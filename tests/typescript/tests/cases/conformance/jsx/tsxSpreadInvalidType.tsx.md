@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 79,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 13,
+        "decorators": [],
+        "name": "JSX",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 14,
@@ -18,11 +27,21 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 20,
             "end": 77,
-            "attributes": [],
             "declaration": {
               "type": "TSInterfaceDeclaration",
               "start": 27,
               "end": 77,
+              "id": {
+                "type": "Identifier",
+                "start": 37,
+                "end": 54,
+                "decorators": [],
+                "name": "IntrinsicElements",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null,
+              "extends": [],
               "body": {
                 "type": "TSInterfaceBody",
                 "start": 55,
@@ -32,7 +51,6 @@ __ESTREE_TEST__:PASS:
                     "type": "TSIndexSignature",
                     "start": 57,
                     "end": 75,
-                    "accessibility": null,
                     "parameters": [
                       {
                         "type": "Identifier",
@@ -53,8 +71,6 @@ __ESTREE_TEST__:PASS:
                         }
                       }
                     ],
-                    "readonly": false,
-                    "static": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "start": 70,
@@ -64,52 +80,36 @@ __ESTREE_TEST__:PASS:
                         "start": 72,
                         "end": 75
                       }
-                    }
+                    },
+                    "readonly": false,
+                    "static": false,
+                    "accessibility": null
                   }
                 ]
               },
-              "declare": false,
-              "extends": [],
-              "id": {
-                "type": "Identifier",
-                "start": 37,
-                "end": 54,
-                "decorators": [],
-                "name": "IntrinsicElements",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "typeParameters": null
+              "declare": false
             },
-            "exportKind": "type",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "type",
+            "attributes": []
           }
         ]
       },
+      "kind": "namespace",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 13,
-        "decorators": [],
-        "name": "JSX",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "namespace"
+      "global": false
     },
     {
       "type": "VariableDeclaration",
       "start": 81,
       "end": 103,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 87,
           "end": 102,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 87,
@@ -134,22 +134,22 @@ __ESTREE_TEST__:PASS:
               "start": 97,
               "end": 102
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 104,
       "end": 119,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 110,
           "end": 118,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 110,
@@ -163,24 +163,24 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 114,
             "end": 118,
-            "raw": "null",
-            "value": null
-          }
+            "value": null,
+            "raw": "null"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 120,
       "end": 140,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 126,
           "end": 139,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 126,
@@ -198,22 +198,22 @@ __ESTREE_TEST__:PASS:
             "name": "undefined",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 142,
       "end": 168,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 148,
           "end": 168,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 148,
@@ -227,12 +227,17 @@ __ESTREE_TEST__:PASS:
             "type": "JSXElement",
             "start": 152,
             "end": 168,
-            "children": [],
-            "closingElement": null,
             "openingElement": {
               "type": "JSXOpeningElement",
               "start": 152,
               "end": 168,
+              "name": {
+                "type": "JSXIdentifier",
+                "start": 153,
+                "end": 156,
+                "name": "div"
+              },
+              "typeArguments": null,
               "attributes": [
                 {
                   "type": "JSXSpreadAttribute",
@@ -249,31 +254,26 @@ __ESTREE_TEST__:PASS:
                   }
                 }
               ],
-              "name": {
-                "type": "JSXIdentifier",
-                "start": 153,
-                "end": 156,
-                "name": "div"
-              },
-              "selfClosing": true,
-              "typeArguments": null
-            }
-          }
+              "selfClosing": true
+            },
+            "children": [],
+            "closingElement": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 169,
       "end": 195,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 175,
           "end": 195,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 175,
@@ -287,12 +287,17 @@ __ESTREE_TEST__:PASS:
             "type": "JSXElement",
             "start": 179,
             "end": 195,
-            "children": [],
-            "closingElement": null,
             "openingElement": {
               "type": "JSXOpeningElement",
               "start": 179,
               "end": 195,
+              "name": {
+                "type": "JSXIdentifier",
+                "start": 180,
+                "end": 183,
+                "name": "div"
+              },
+              "typeArguments": null,
               "attributes": [
                 {
                   "type": "JSXSpreadAttribute",
@@ -309,31 +314,26 @@ __ESTREE_TEST__:PASS:
                   }
                 }
               ],
-              "name": {
-                "type": "JSXIdentifier",
-                "start": 180,
-                "end": 183,
-                "name": "div"
-              },
-              "selfClosing": true,
-              "typeArguments": null
-            }
-          }
+              "selfClosing": true
+            },
+            "children": [],
+            "closingElement": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 196,
       "end": 222,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 202,
           "end": 222,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 202,
@@ -347,12 +347,17 @@ __ESTREE_TEST__:PASS:
             "type": "JSXElement",
             "start": 206,
             "end": 222,
-            "children": [],
-            "closingElement": null,
             "openingElement": {
               "type": "JSXOpeningElement",
               "start": 206,
               "end": 222,
+              "name": {
+                "type": "JSXIdentifier",
+                "start": 207,
+                "end": 210,
+                "name": "div"
+              },
+              "typeArguments": null,
               "attributes": [
                 {
                   "type": "JSXSpreadAttribute",
@@ -369,20 +374,15 @@ __ESTREE_TEST__:PASS:
                   }
                 }
               ],
-              "name": {
-                "type": "JSXIdentifier",
-                "start": 207,
-                "end": 210,
-                "name": "div"
-              },
-              "selfClosing": true,
-              "typeArguments": null
-            }
-          }
+              "selfClosing": true
+            },
+            "children": [],
+            "closingElement": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "script",

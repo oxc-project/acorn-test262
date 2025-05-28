@@ -9,22 +9,22 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 10,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "VariableDeclaration",
       "start": 60,
       "end": 78,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 64,
           "end": 77,
-          "definite": false,
           "id": {
             "type": "ArrayPattern",
             "start": 64,
@@ -53,15 +53,15 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 75,
                 "end": 76,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "module",

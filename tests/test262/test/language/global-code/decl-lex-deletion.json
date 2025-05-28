@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 719,
       "end": 734,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -32,13 +32,13 @@
         "start": 736,
         "end": 753,
         "operator": "delete",
-        "prefix": true,
         "argument": {
           "type": "Identifier",
           "start": 743,
           "end": 753,
           "name": "test262let"
-        }
+        },
+        "prefix": true
       }
     },
     {
@@ -56,6 +56,7 @@
       "type": "VariableDeclaration",
       "start": 913,
       "end": 939,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -75,8 +76,7 @@
             "raw": "null"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -87,13 +87,13 @@
         "start": 941,
         "end": 960,
         "operator": "delete",
-        "prefix": true,
         "argument": {
           "type": "Identifier",
           "start": 948,
           "end": 960,
           "name": "test262const"
-        }
+        },
+        "prefix": true
       }
     },
     {
@@ -134,13 +134,13 @@
         "start": 1001,
         "end": 1020,
         "operator": "delete",
-        "prefix": true,
         "argument": {
           "type": "Identifier",
           "start": 1008,
           "end": 1020,
           "name": "test262class"
-        }
+        },
+        "prefix": true
       }
     },
     {

@@ -24,7 +24,6 @@
               "start": 418,
               "end": 435,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "MemberExpression",
                 "start": 419,
@@ -41,9 +40,10 @@
                   "end": 435,
                   "name": "MAX_VALUE"
                 },
-                "computed": false,
-                "optional": false
-              }
+                "optional": false,
+                "computed": false
+              },
+              "prefix": true
             },
             "operator": "+",
             "right": {
@@ -62,8 +62,8 @@
                 "end": 454,
                 "name": "MAX_VALUE"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           },
           "operator": "+",
@@ -83,8 +83,8 @@
               "end": 473,
               "name": "MAX_VALUE"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         },
         "operator": "!==",
@@ -105,7 +105,6 @@
                 "start": 479,
                 "end": 496,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "MemberExpression",
                   "start": 480,
@@ -122,9 +121,10 @@
                     "end": 496,
                     "name": "MAX_VALUE"
                   },
-                  "computed": false,
-                  "optional": false
-                }
+                  "optional": false,
+                  "computed": false
+                },
+                "prefix": true
               },
               "operator": "+",
               "right": {
@@ -143,8 +143,8 @@
                   "end": 515,
                   "name": "MAX_VALUE"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             }
           },
@@ -165,8 +165,8 @@
               "end": 535,
               "name": "MAX_VALUE"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
       },
@@ -219,7 +219,6 @@
                           "start": 701,
                           "end": 718,
                           "operator": "-",
-                          "prefix": true,
                           "argument": {
                             "type": "MemberExpression",
                             "start": 702,
@@ -236,9 +235,10 @@
                               "end": 718,
                               "name": "MAX_VALUE"
                             },
-                            "computed": false,
-                            "optional": false
-                          }
+                            "optional": false,
+                            "computed": false
+                          },
+                          "prefix": true
                         },
                         "operator": "+",
                         "right": {
@@ -257,8 +257,8 @@
                             "end": 737,
                             "name": "MAX_VALUE"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         }
                       },
                       "operator": "+",
@@ -278,8 +278,8 @@
                           "end": 756,
                           "name": "MAX_VALUE"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     }
                   }
@@ -316,7 +316,6 @@
                 "start": 779,
                 "end": 796,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "MemberExpression",
                   "start": 780,
@@ -333,9 +332,10 @@
                     "end": 796,
                     "name": "MAX_VALUE"
                   },
-                  "computed": false,
-                  "optional": false
-                }
+                  "optional": false,
+                  "computed": false
+                },
+                "prefix": true
               },
               "operator": "+",
               "right": {
@@ -354,8 +354,8 @@
                   "end": 815,
                   "name": "MAX_VALUE"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             }
           },
@@ -376,8 +376,8 @@
               "end": 835,
               "name": "MAX_VALUE"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         },
         "operator": "===",
@@ -390,7 +390,6 @@
             "start": 840,
             "end": 857,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 841,
@@ -407,9 +406,10 @@
                 "end": 857,
                 "name": "MAX_VALUE"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           "operator": "+",
           "right": {
@@ -436,8 +436,8 @@
                   "end": 877,
                   "name": "MAX_VALUE"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "operator": "+",
               "right": {
@@ -456,8 +456,8 @@
                   "end": 896,
                   "name": "MAX_VALUE"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             }
           }
@@ -516,7 +516,6 @@
                             "start": 1066,
                             "end": 1083,
                             "operator": "-",
-                            "prefix": true,
                             "argument": {
                               "type": "MemberExpression",
                               "start": 1067,
@@ -533,9 +532,10 @@
                                 "end": 1083,
                                 "name": "MAX_VALUE"
                               },
-                              "computed": false,
-                              "optional": false
-                            }
+                              "optional": false,
+                              "computed": false
+                            },
+                            "prefix": true
                           },
                           "operator": "+",
                           "right": {
@@ -554,8 +554,8 @@
                               "end": 1102,
                               "name": "MAX_VALUE"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           }
                         }
                       },
@@ -576,8 +576,8 @@
                           "end": 1122,
                           "name": "MAX_VALUE"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     }
                   }

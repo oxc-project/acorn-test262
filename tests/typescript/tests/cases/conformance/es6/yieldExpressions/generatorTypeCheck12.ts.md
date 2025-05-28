@@ -9,29 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 66,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 48,
-        "end": 66,
-        "body": [
-          {
-            "type": "ReturnStatement",
-            "start": 54,
-            "end": 64,
-            "argument": {
-              "type": "Literal",
-              "start": 61,
-              "end": 63,
-              "raw": "\"\"",
-              "value": ""
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": true,
       "id": {
         "type": "Identifier",
         "start": 10,
@@ -41,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": true,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
@@ -50,6 +31,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 15,
           "end": 47,
+          "typeName": {
+            "type": "Identifier",
+            "start": 15,
+            "end": 31,
+            "decorators": [],
+            "name": "IterableIterator",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
             "start": 31,
@@ -66,19 +56,29 @@ __ESTREE_TEST__:PASS:
                 "end": 46
               }
             ]
-          },
-          "typeName": {
-            "type": "Identifier",
-            "start": 15,
-            "end": 31,
-            "decorators": [],
-            "name": "IterableIterator",
-            "optional": false,
-            "typeAnnotation": null
           }
         }
       },
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 48,
+        "end": 66,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 54,
+            "end": 64,
+            "argument": {
+              "type": "Literal",
+              "start": 61,
+              "end": 63,
+              "value": "",
+              "raw": "\"\""
+            }
+          }
+        ]
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

@@ -9,17 +9,17 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 35,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 15,
         "end": 35,
-        "raw": "'module-not-existed'",
-        "value": "module-not-existed"
+        "value": "module-not-existed",
+        "raw": "'module-not-existed'"
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

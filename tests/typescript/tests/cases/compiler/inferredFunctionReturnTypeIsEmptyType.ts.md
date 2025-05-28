@@ -9,7 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 97,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 12,
+        "decorators": [],
+        "name": "foo",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 15,
@@ -19,24 +33,12 @@ __ESTREE_TEST__:PASS:
             "type": "IfStatement",
             "start": 21,
             "end": 95,
-            "alternate": {
-              "type": "BlockStatement",
-              "start": 67,
-              "end": 95,
-              "body": [
-                {
-                  "type": "ReturnStatement",
-                  "start": 77,
-                  "end": 89,
-                  "argument": {
-                    "type": "Literal",
-                    "start": 84,
-                    "end": 88,
-                    "raw": "\"42\"",
-                    "value": "42"
-                  }
-                }
-              ]
+            "test": {
+              "type": "Literal",
+              "start": 25,
+              "end": 29,
+              "value": true,
+              "raw": "true"
             },
             "consequent": {
               "type": "BlockStatement",
@@ -51,37 +53,35 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 48,
                     "end": 50,
-                    "raw": "42",
-                    "value": 42
+                    "value": 42,
+                    "raw": "42"
                   }
                 }
               ]
             },
-            "test": {
-              "type": "Literal",
-              "start": 25,
-              "end": 29,
-              "raw": "true",
-              "value": true
+            "alternate": {
+              "type": "BlockStatement",
+              "start": 67,
+              "end": 95,
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 77,
+                  "end": 89,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 84,
+                    "end": 88,
+                    "value": "42",
+                    "raw": "\"42\""
+                  }
+                }
+              ]
             }
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 12,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     },
     {
       "type": "EmptyStatement",

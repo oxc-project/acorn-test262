@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1177,
       "end": 1233,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 1215,
                 "name": "Duration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -75,25 +76,25 @@
                 "start": 1228,
                 "end": 1231,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1229,
                   "end": 1231,
                   "value": 60,
                   "raw": "60"
-                }
+                },
+                "prefix": true
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1234,
       "end": 1289,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -125,8 +126,8 @@
                 "end": 1263,
                 "name": "round"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -138,9 +139,7 @@
                     "type": "Property",
                     "start": 1266,
                     "end": 1285,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1266,
@@ -154,7 +153,9 @@
                       "value": "days",
                       "raw": "\"days\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -162,8 +163,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -189,8 +189,8 @@
             "end": 1320,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -225,28 +225,28 @@
             "start": 1338,
             "end": 1340,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1339,
               "end": 1340,
               "value": 2,
               "raw": "2"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 1342,
             "end": 1345,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1343,
               "end": 1345,
               "value": 12,
               "raw": "12"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

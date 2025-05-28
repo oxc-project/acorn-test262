@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1033,
       "end": 1042,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -40,7 +40,6 @@
             "start": 1045,
             "end": 1158,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -87,7 +86,6 @@
                         "end": 1089,
                         "name": "f"
                       },
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -96,7 +94,8 @@
                         "start": 1092,
                         "end": 1094,
                         "body": []
-                      }
+                      },
+                      "expression": false
                     }
                   ]
                 },
@@ -121,7 +120,6 @@
                       "end": 1124,
                       "name": "_f"
                     },
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -130,7 +128,8 @@
                       "start": 1127,
                       "end": 1129,
                       "body": []
-                    }
+                    },
+                    "expression": false
                   },
                   "alternate": {
                     "type": "FunctionDeclaration",
@@ -142,7 +141,6 @@
                       "end": 1145,
                       "name": "f"
                     },
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -151,11 +149,13 @@
                       "start": 1148,
                       "end": 1152,
                       "body": []
-                    }
+                    },
+                    "expression": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           "arguments": [],
           "optional": false
@@ -186,8 +186,8 @@
             "end": 1180,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 294,
       "end": 304,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -91,14 +91,14 @@
             "start": 333,
             "end": 335,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 334,
               "end": 335,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           }
         }
       }
@@ -123,14 +123,14 @@
           "start": 346,
           "end": 348,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 347,
             "end": 348,
             "value": 1,
             "raw": "1"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {

@@ -27,14 +27,14 @@
               "start": 298,
               "end": 300,
               "operator": "+",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 299,
                 "end": 300,
                 "value": 0,
                 "raw": "0"
-              }
+              },
+              "prefix": true
             }
           ],
           "optional": false
@@ -100,14 +100,14 @@
                           "start": 383,
                           "end": 385,
                           "operator": "+",
-                          "prefix": true,
                           "argument": {
                             "type": "Literal",
                             "start": 384,
                             "end": 385,
                             "value": 0,
                             "raw": "0"
-                          }
+                          },
+                          "prefix": true
                         }
                       ],
                       "optional": false
@@ -145,14 +145,14 @@
               "start": 415,
               "end": 417,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 416,
                 "end": 417,
                 "value": 0,
                 "raw": "0"
-              }
+              },
+              "prefix": true
             }
           ],
           "optional": false
@@ -218,14 +218,14 @@
                           "start": 500,
                           "end": 502,
                           "operator": "-",
-                          "prefix": true,
                           "argument": {
                             "type": "Literal",
                             "start": 501,
                             "end": 502,
                             "value": 0,
                             "raw": "0"
-                          }
+                          },
+                          "prefix": true
                         }
                       ],
                       "optional": false

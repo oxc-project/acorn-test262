@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 21,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 12,
           "end": 20,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
@@ -33,27 +33,26 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 83,
       "end": 114,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 90,
         "end": 114,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 96,
             "end": 113,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 96,
@@ -67,14 +66,6 @@ __ESTREE_TEST__:PASS:
               "type": "ClassExpression",
               "start": 100,
               "end": 113,
-              "abstract": false,
-              "body": {
-                "type": "ClassBody",
-                "start": 111,
-                "end": 113,
-                "body": []
-              },
-              "declare": false,
               "decorators": [
                 {
                   "type": "Decorator",
@@ -92,19 +83,28 @@ __ESTREE_TEST__:PASS:
                 }
               ],
               "id": null,
-              "implements": [],
+              "typeParameters": null,
               "superClass": null,
               "superTypeArguments": null,
-              "typeParameters": null
-            }
+              "implements": [],
+              "body": {
+                "type": "ClassBody",
+                "start": 111,
+                "end": 113,
+                "body": []
+              },
+              "abstract": false,
+              "declare": false
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -122,11 +122,11 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 9,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

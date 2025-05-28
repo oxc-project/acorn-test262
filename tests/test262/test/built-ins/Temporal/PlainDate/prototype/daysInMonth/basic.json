@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 314,
       "end": 514,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -48,8 +49,8 @@
                         "end": 355,
                         "name": "PlainDate"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -109,8 +110,8 @@
                         "end": 400,
                         "name": "PlainDate"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -170,8 +171,8 @@
                         "end": 446,
                         "name": "PlainDate"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -231,8 +232,8 @@
                         "end": 492,
                         "name": "PlainDate"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -270,8 +271,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -282,6 +282,7 @@
         "type": "VariableDeclaration",
         "start": 520,
         "end": 547,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -308,8 +309,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -346,8 +346,8 @@
                   "end": 578,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -366,8 +366,8 @@
                     "end": 600,
                     "name": "daysInMonth"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Identifier",
@@ -379,20 +379,6 @@
                   "type": "TemplateLiteral",
                   "start": 612,
                   "end": 659,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 615,
-                      "end": 623,
-                      "name": "expected"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 648,
-                      "end": 657,
-                      "name": "plainDate"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -423,6 +409,20 @@
                         "cooked": ""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 615,
+                      "end": 623,
+                      "name": "expected"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 648,
+                      "end": 657,
+                      "name": "plainDate"
                     }
                   ]
                 }

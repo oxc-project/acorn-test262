@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 258,
       "end": 287,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 262,
           "end": 286,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 262,
@@ -30,6 +30,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSFunctionType",
                 "start": 265,
                 "end": 286,
+                "typeParameters": null,
                 "params": [
                   {
                     "type": "Identifier",
@@ -59,27 +60,26 @@ __ESTREE_TEST__:PASS:
                     "start": 280,
                     "end": 286
                   }
-                },
-                "typeParameters": null
+                }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 303,
       "end": 341,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 307,
           "end": 340,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 307,
@@ -93,7 +93,6 @@ __ESTREE_TEST__:PASS:
             "type": "LogicalExpression",
             "start": 311,
             "end": 340,
-            "operator": "||",
             "left": {
               "type": "Identifier",
               "start": 311,
@@ -103,47 +102,14 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
+            "operator": "||",
             "right": {
               "type": "ArrowFunctionExpression",
               "start": 317,
               "end": 339,
-              "async": false,
-              "body": {
-                "type": "CallExpression",
-                "start": 324,
-                "end": 339,
-                "arguments": [],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 324,
-                  "end": 337,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 324,
-                    "end": 325,
-                    "decorators": [],
-                    "name": "a",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 326,
-                    "end": 337,
-                    "decorators": [],
-                    "name": "toLowerCase",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              },
               "expression": true,
-              "generator": false,
-              "id": null,
+              "async": false,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -156,13 +122,47 @@ __ESTREE_TEST__:PASS:
                 }
               ],
               "returnType": null,
-              "typeParameters": null
+              "body": {
+                "type": "CallExpression",
+                "start": 324,
+                "end": 339,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 324,
+                  "end": 337,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 324,
+                    "end": 325,
+                    "decorators": [],
+                    "name": "a",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 326,
+                    "end": 337,
+                    "decorators": [],
+                    "name": "toLowerCase",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
+                "arguments": [],
+                "optional": false
+              },
+              "id": null,
+              "generator": false
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

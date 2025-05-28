@@ -9,11 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 0,
       "end": 21,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 17,
@@ -23,48 +18,19 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": null,
       "params": [],
       "returnType": null,
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 22,
       "end": 48,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 39,
-        "end": 48,
-        "body": [
-          {
-            "type": "VariableDeclaration",
-            "start": 41,
-            "end": 46,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 45,
-                "end": 46,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 45,
-                  "end": 46,
-                  "decorators": [],
-                  "name": "x",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "init": null
-              }
-            ],
-            "declare": false,
-            "kind": "var"
-          }
-        ]
-      },
-      "declare": true,
-      "global": false,
       "id": {
         "type": "Identifier",
         "start": 37,
@@ -74,17 +40,46 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "module"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 39,
+        "end": 48,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 41,
+            "end": 46,
+            "kind": "var",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 45,
+                "end": 46,
+                "id": {
+                  "type": "Identifier",
+                  "start": 45,
+                  "end": 46,
+                  "decorators": [],
+                  "name": "x",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "init": null,
+                "definite": false
+              }
+            ],
+            "declare": false
+          }
+        ]
+      },
+      "kind": "module",
+      "declare": true,
+      "global": false
     },
     {
       "type": "TSDeclareFunction",
       "start": 49,
       "end": 71,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 66,
@@ -94,6 +89,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -106,7 +105,8 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": null,
+      "expression": false
     }
   ],
   "sourceType": "script",

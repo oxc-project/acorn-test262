@@ -30,6 +30,7 @@
       "type": "VariableDeclaration",
       "start": 1076,
       "end": 1113,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -54,13 +55,13 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1114,
       "end": 1141,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -92,15 +93,14 @@
                 "end": 1138,
                 "name": "move"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -166,7 +166,6 @@
             "start": 1248,
             "end": 1286,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "ParenthesizedExpression",
               "start": 1249,
@@ -189,7 +188,8 @@
                   "name": "MyDisposableStack"
                 }
               }
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

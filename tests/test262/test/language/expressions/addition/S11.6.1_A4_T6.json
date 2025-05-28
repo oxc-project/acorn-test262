@@ -28,14 +28,14 @@
             "start": 397,
             "end": 399,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 398,
               "end": 399,
               "value": 0,
               "raw": "0"
-            }
+            },
+            "prefix": true
           }
         },
         "operator": "!==",
@@ -100,14 +100,14 @@
                         "start": 473,
                         "end": 475,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 474,
                           "end": 475,
                           "value": 0,
                           "raw": "0"
-                        }
+                        },
+                        "prefix": true
                       }
                     }
                   }
@@ -238,14 +238,14 @@
             "start": 597,
             "end": 599,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 598,
               "end": 599,
               "value": 0,
               "raw": "0"
-            }
+            },
+            "prefix": true
           },
           "operator": "+",
           "right": {
@@ -310,14 +310,14 @@
                         "start": 673,
                         "end": 675,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 674,
                           "end": 675,
                           "value": 0,
                           "raw": "0"
-                        }
+                        },
+                        "prefix": true
                       },
                       "operator": "+",
                       "right": {
@@ -467,8 +467,8 @@
               "end": 817,
               "name": "MAX_VALUE"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "operator": "+",
           "right": {
@@ -476,14 +476,14 @@
             "start": 820,
             "end": 822,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 821,
               "end": 822,
               "value": 0,
               "raw": "0"
-            }
+            },
+            "prefix": true
           }
         },
         "operator": "!==",
@@ -503,8 +503,8 @@
             "end": 843,
             "name": "MAX_VALUE"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       },
       "consequent": {
@@ -563,8 +563,8 @@
                           "end": 953,
                           "name": "MAX_VALUE"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "operator": "+",
                       "right": {
@@ -572,14 +572,14 @@
                         "start": 956,
                         "end": 958,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 957,
                           "end": 958,
                           "value": 0,
                           "raw": "0"
-                        }
+                        },
+                        "prefix": true
                       }
                     }
                   }
@@ -619,8 +619,8 @@
               "end": 995,
               "name": "MAX_VALUE"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "operator": "+",
           "right": {
@@ -648,8 +648,8 @@
             "end": 1020,
             "name": "MAX_VALUE"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       },
       "consequent": {
@@ -708,8 +708,8 @@
                           "end": 1129,
                           "name": "MAX_VALUE"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "operator": "+",
                       "right": {
@@ -746,14 +746,14 @@
             "start": 1155,
             "end": 1157,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1156,
               "end": 1157,
               "value": 0,
               "raw": "0"
-            }
+            },
+            "prefix": true
           },
           "operator": "+",
           "right": {
@@ -772,8 +772,8 @@
               "end": 1176,
               "name": "MIN_VALUE"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         },
         "operator": "!==",
@@ -793,8 +793,8 @@
             "end": 1197,
             "name": "MIN_VALUE"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       },
       "consequent": {
@@ -842,14 +842,14 @@
                         "start": 1291,
                         "end": 1293,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 1292,
                           "end": 1293,
                           "value": 0,
                           "raw": "0"
-                        }
+                        },
+                        "prefix": true
                       },
                       "operator": "+",
                       "right": {
@@ -868,8 +868,8 @@
                           "end": 1312,
                           "name": "MIN_VALUE"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     }
                   }
@@ -917,8 +917,8 @@
               "end": 1353,
               "name": "MIN_VALUE"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         },
         "operator": "!==",
@@ -938,8 +938,8 @@
             "end": 1374,
             "name": "MIN_VALUE"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       },
       "consequent": {
@@ -1006,8 +1006,8 @@
                           "end": 1487,
                           "name": "MIN_VALUE"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     }
                   }

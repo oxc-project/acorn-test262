@@ -16,14 +16,14 @@
           "start": 279,
           "end": 285,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 280,
             "end": 285,
             "value": false,
             "raw": "false"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -75,14 +75,14 @@
                       "start": 352,
                       "end": 358,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 353,
                         "end": 358,
                         "value": false,
                         "raw": "false"
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -106,7 +106,6 @@
           "start": 379,
           "end": 397,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "NewExpression",
             "start": 380,
@@ -126,7 +125,8 @@
                 "raw": "true"
               }
             ]
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -134,14 +134,14 @@
           "start": 402,
           "end": 404,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 403,
             "end": 404,
             "value": 1,
             "raw": "1"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -185,7 +185,6 @@
                       "start": 478,
                       "end": 496,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "NewExpression",
                         "start": 479,
@@ -205,7 +204,8 @@
                             "raw": "true"
                           }
                         ]
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }

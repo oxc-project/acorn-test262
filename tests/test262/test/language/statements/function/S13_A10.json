@@ -13,7 +13,6 @@
         "end": 262,
         "name": "__ziggy__func"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -35,12 +34,14 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 291,
       "end": 310,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -59,8 +60,7 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -87,8 +87,8 @@
             "end": 329,
             "name": "ziggy"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Identifier",
@@ -111,7 +111,6 @@
           "start": 440,
           "end": 464,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 447,
@@ -128,9 +127,10 @@
               "end": 464,
               "name": "ziggy"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -178,7 +178,6 @@
                     "start": 591,
                     "end": 615,
                     "operator": "typeof",
-                    "prefix": true,
                     "argument": {
                       "type": "MemberExpression",
                       "start": 598,
@@ -195,9 +194,10 @@
                         "end": 615,
                         "name": "ziggy"
                       },
-                      "computed": false,
-                      "optional": false
-                    }
+                      "optional": false,
+                      "computed": false
+                    },
+                    "prefix": true
                   }
                 }
               ]
@@ -235,8 +235,8 @@
               "end": 813,
               "name": "ziggy"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [],
           "optional": false
@@ -302,8 +302,8 @@
                         "end": 961,
                         "name": "ziggy"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false

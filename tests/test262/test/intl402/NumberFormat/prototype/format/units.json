@@ -13,7 +13,6 @@
         "end": 311,
         "name": "check"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -33,6 +32,7 @@
             "type": "VariableDeclaration",
             "start": 322,
             "end": 396,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -70,8 +70,8 @@
                       "end": 353,
                       "name": "toLocaleString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -89,9 +89,7 @@
                           "type": "Property",
                           "start": 367,
                           "end": 380,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 367,
@@ -105,15 +103,15 @@
                             "value": "unit",
                             "raw": "\"unit\""
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false
                         },
                         {
                           "type": "Property",
                           "start": 382,
                           "end": 392,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 382,
@@ -126,7 +124,9 @@
                             "end": 392,
                             "name": "unit"
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false
                         }
                       ]
                     }
@@ -134,13 +134,13 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 399,
             "end": 433,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -178,15 +178,14 @@
                       "end": 430,
                       "name": "toLocaleString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -212,8 +211,8 @@
                   "end": 455,
                   "name": "notSameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -233,12 +232,14 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 468,
       "end": 509,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -264,8 +265,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -276,6 +276,7 @@
         "type": "VariableDeclaration",
         "start": 516,
         "end": 532,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -289,8 +290,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -337,6 +337,7 @@
               "type": "VariableDeclaration",
               "start": 573,
               "end": 590,
+              "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -350,8 +351,7 @@
                   },
                   "init": null
                 }
-              ],
-              "kind": "const"
+              ]
             },
             "right": {
               "type": "Identifier",

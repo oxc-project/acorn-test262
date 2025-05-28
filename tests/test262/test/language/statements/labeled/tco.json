@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 363,
       "end": 381,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -51,7 +51,6 @@
               "end": 393,
               "name": "f"
             },
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -133,6 +132,12 @@
                   "type": "LabeledStatement",
                   "start": 453,
                   "end": 478,
+                  "label": {
+                    "type": "Identifier",
+                    "start": 453,
+                    "end": 460,
+                    "name": "test262"
+                  },
                   "body": {
                     "type": "ReturnStatement",
                     "start": 462,
@@ -170,16 +175,11 @@
                       ],
                       "optional": false
                     }
-                  },
-                  "label": {
-                    "type": "Identifier",
-                    "start": 453,
-                    "end": 460,
-                    "name": "test262"
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           "arguments": [
             {
@@ -217,8 +217,8 @@
             "end": 516,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

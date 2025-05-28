@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1282,
       "end": 1350,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -22,9 +23,7 @@
             "type": "ArrowFunctionExpression",
             "start": 1292,
             "end": 1349,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": true,
             "params": [],
             "body": {
@@ -45,11 +44,12 @@
                 "options": null,
                 "phase": null
               }
-            }
+            },
+            "id": null,
+            "generator": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -90,17 +90,15 @@
                 "end": 1361,
                 "name": "catch"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
                 "type": "ArrowFunctionExpression",
                 "start": 1362,
                 "end": 1426,
-                "id": null,
                 "expression": false,
-                "generator": false,
                 "async": false,
                 "params": [
                   {
@@ -139,8 +137,8 @@
                             "end": 1395,
                             "name": "notSameValue"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -148,13 +146,13 @@
                             "start": 1396,
                             "end": 1408,
                             "operator": "typeof",
-                            "prefix": true,
                             "argument": {
                               "type": "Identifier",
                               "start": 1403,
                               "end": 1408,
                               "name": "error"
-                            }
+                            },
+                            "prefix": true
                           },
                           {
                             "type": "Literal",
@@ -168,7 +166,9 @@
                       }
                     }
                   ]
-                }
+                },
+                "id": null,
+                "generator": false
               }
             ],
             "optional": false
@@ -179,8 +179,8 @@
             "end": 1432,
             "name": "then"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

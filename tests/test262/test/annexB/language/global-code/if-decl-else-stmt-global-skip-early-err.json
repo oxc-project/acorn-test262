@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1173,
       "end": 1185,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "123"
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -53,8 +53,8 @@
             "end": 1202,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -102,7 +102,6 @@
           "end": 1278,
           "name": "f"
         },
-        "expression": false,
         "generator": false,
         "async": false,
         "params": [],
@@ -111,7 +110,8 @@
           "start": 1281,
           "end": 1285,
           "body": []
-        }
+        },
+        "expression": false
       },
       "alternate": {
         "type": "EmptyStatement",
@@ -143,8 +143,8 @@
             "end": 1310,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

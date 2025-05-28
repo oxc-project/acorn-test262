@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 307,
       "end": 516,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,9 +28,7 @@
                 "type": "Property",
                 "start": 335,
                 "end": 355,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 335,
@@ -44,15 +43,15 @@
                   "value": "Etc/GMT-3",
                   "raw": "'Etc/GMT-3'"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 361,
                 "end": 382,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 361,
@@ -67,15 +66,15 @@
                   "value": "Etc/GMT-14",
                   "raw": "'Etc/GMT-14'"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 388,
                 "end": 406,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 388,
@@ -90,15 +89,15 @@
                   "value": "Etc/GMT-2",
                   "raw": "'Etc/GMT-2'"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 412,
                 "end": 434,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 412,
@@ -113,15 +112,15 @@
                   "value": "Etc/GMT-13",
                   "raw": "'Etc/GMT-13'"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 440,
                 "end": 461,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 440,
@@ -136,15 +135,15 @@
                   "value": "Etc/GMT+7",
                   "raw": "'Etc/GMT+7'"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 467,
                 "end": 486,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 467,
@@ -159,15 +158,15 @@
                   "value": "Etc/GMT+12",
                   "raw": "'Etc/GMT+12'"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 492,
                 "end": 512,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 492,
@@ -182,18 +181,20 @@
                   "value": "Etc/GMT+9",
                   "raw": "'Etc/GMT+9'"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 517,
       "end": 561,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -226,8 +227,7 @@
             ]
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -261,8 +261,8 @@
                 "end": 576,
                 "name": "entries"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -280,17 +280,15 @@
             "end": 601,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 602,
             "end": 968,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -322,6 +320,7 @@
                   "type": "VariableDeclaration",
                   "start": 635,
                   "end": 752,
+                  "kind": "let",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -353,8 +352,8 @@
                             "end": 673,
                             "name": "DateTimeFormat"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -373,9 +372,7 @@
                                 "type": "Property",
                                 "start": 689,
                                 "end": 709,
-                                "method": false,
-                                "shorthand": false,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 689,
@@ -388,15 +385,15 @@
                                   "end": 709,
                                   "name": "offsetZone"
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": false,
+                                "computed": false
                               },
                               {
                                 "type": "Property",
                                 "start": 711,
                                 "end": 729,
-                                "method": false,
-                                "shorthand": false,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 711,
@@ -410,15 +407,15 @@
                                   "value": "short",
                                   "raw": "\"short\""
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": false,
+                                "computed": false
                               },
                               {
                                 "type": "Property",
                                 "start": 731,
                                 "end": 749,
-                                "method": false,
-                                "shorthand": false,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 731,
@@ -432,20 +429,22 @@
                                   "value": "short",
                                   "raw": "\"short\""
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": false,
+                                "computed": false
                               }
                             ]
                           }
                         ]
                       }
                     }
-                  ],
-                  "kind": "let"
+                  ]
                 },
                 {
                   "type": "VariableDeclaration",
                   "start": 757,
                   "end": 868,
+                  "kind": "let",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -477,8 +476,8 @@
                             "end": 792,
                             "name": "DateTimeFormat"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -497,9 +496,7 @@
                                 "type": "Property",
                                 "start": 808,
                                 "end": 825,
-                                "method": false,
-                                "shorthand": false,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 808,
@@ -512,15 +509,15 @@
                                   "end": 825,
                                   "name": "gmtZone"
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": false,
+                                "computed": false
                               },
                               {
                                 "type": "Property",
                                 "start": 827,
                                 "end": 845,
-                                "method": false,
-                                "shorthand": false,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 827,
@@ -534,15 +531,15 @@
                                   "value": "short",
                                   "raw": "\"short\""
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": false,
+                                "computed": false
                               },
                               {
                                 "type": "Property",
                                 "start": 847,
                                 "end": 865,
-                                "method": false,
-                                "shorthand": false,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 847,
@@ -556,15 +553,16 @@
                                   "value": "short",
                                   "raw": "\"short\""
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": false,
+                                "computed": false
                               }
                             ]
                           }
                         ]
                       }
                     }
-                  ],
-                  "kind": "let"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -590,8 +588,8 @@
                         "end": 889,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -614,8 +612,8 @@
                             "end": 905,
                             "name": "format"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -647,8 +645,8 @@
                             "end": 925,
                             "name": "format"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -664,20 +662,6 @@
                         "type": "TemplateLiteral",
                         "start": 933,
                         "end": 964,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 936,
-                            "end": 946,
-                            "name": "offsetZone"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 954,
-                            "end": 961,
-                            "name": "gmtZone"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -709,6 +693,20 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 936,
+                            "end": 946,
+                            "name": "offsetZone"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 954,
+                            "end": 961,
+                            "name": "gmtZone"
+                          }
                         ]
                       }
                     ],
@@ -716,7 +714,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

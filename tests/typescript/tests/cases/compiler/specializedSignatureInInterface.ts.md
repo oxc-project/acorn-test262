@@ -9,6 +9,17 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 36,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 11,
+        "decorators": [],
+        "name": "A",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "extends": [],
       "body": {
         "type": "TSInterfaceBody",
         "start": 12,
@@ -18,6 +29,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSCallSignatureDeclaration",
             "start": 16,
             "end": 34,
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -47,28 +59,43 @@ __ESTREE_TEST__:PASS:
                 "start": 29,
                 "end": 33
               }
-            },
-            "typeParameters": null
+            }
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 11,
-        "decorators": [],
-        "name": "A",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 38,
       "end": 107,
+      "id": {
+        "type": "Identifier",
+        "start": 48,
+        "end": 49,
+        "decorators": [],
+        "name": "B",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "extends": [
+        {
+          "type": "TSInterfaceHeritage",
+          "start": 58,
+          "end": 59,
+          "expression": {
+            "type": "Identifier",
+            "start": 58,
+            "end": 59,
+            "decorators": [],
+            "name": "A",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
+        }
+      ],
       "body": {
         "type": "TSInterfaceBody",
         "start": 60,
@@ -78,6 +105,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSCallSignatureDeclaration",
             "start": 64,
             "end": 83,
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -98,8 +126,8 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 69,
                       "end": 74,
-                      "raw": "'foo'",
-                      "value": "foo"
+                      "value": "foo",
+                      "raw": "'foo'"
                     }
                   }
                 }
@@ -114,13 +142,13 @@ __ESTREE_TEST__:PASS:
                 "start": 76,
                 "end": 82
               }
-            },
-            "typeParameters": null
+            }
           },
           {
             "type": "TSCallSignatureDeclaration",
             "start": 86,
             "end": 105,
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -141,8 +169,8 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 91,
                       "end": 96,
-                      "raw": "'bar'",
-                      "value": "bar"
+                      "value": "bar",
+                      "raw": "'bar'"
                     }
                   }
                 }
@@ -157,39 +185,11 @@ __ESTREE_TEST__:PASS:
                 "start": 98,
                 "end": 104
               }
-            },
-            "typeParameters": null
+            }
           }
         ]
       },
-      "declare": false,
-      "extends": [
-        {
-          "type": "TSInterfaceHeritage",
-          "start": 58,
-          "end": 59,
-          "expression": {
-            "type": "Identifier",
-            "start": 58,
-            "end": 59,
-            "decorators": [],
-            "name": "A",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "typeArguments": null
-        }
-      ],
-      "id": {
-        "type": "Identifier",
-        "start": 48,
-        "end": 49,
-        "decorators": [],
-        "name": "B",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     }
   ],
   "sourceType": "script",

@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 27,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 26,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -35,7 +35,6 @@ __ESTREE_TEST__:PASS:
                     "type": "TSIndexSignature",
                     "start": 11,
                     "end": 24,
-                    "accessibility": null,
                     "parameters": [
                       {
                         "type": "Identifier",
@@ -56,30 +55,31 @@ __ESTREE_TEST__:PASS:
                         }
                       }
                     ],
+                    "typeAnnotation": null,
                     "readonly": false,
                     "static": false,
-                    "typeAnnotation": null
+                    "accessibility": null
                   }
                 ]
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 52,
       "end": 83,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 56,
           "end": 82,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 56,
@@ -100,7 +100,6 @@ __ESTREE_TEST__:PASS:
                     "type": "TSIndexSignature",
                     "start": 64,
                     "end": 80,
-                    "accessibility": null,
                     "parameters": [
                       {
                         "type": "Identifier",
@@ -117,7 +116,6 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 72,
                             "end": 78,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 72,
@@ -126,24 +124,26 @@ __ESTREE_TEST__:PASS:
                               "name": "RegExp",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         }
                       }
                     ],
+                    "typeAnnotation": null,
                     "readonly": false,
                     "static": false,
-                    "typeAnnotation": null
+                    "accessibility": null
                   }
                 ]
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

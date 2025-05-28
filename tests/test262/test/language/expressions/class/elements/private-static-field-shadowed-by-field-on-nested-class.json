@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 3514,
       "end": 3713,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -33,8 +34,6 @@
                   "type": "PropertyDefinition",
                   "start": 3532,
                   "end": 3558,
-                  "static": true,
-                  "computed": false,
                   "key": {
                     "type": "PrivateIdentifier",
                     "start": 3539,
@@ -47,27 +46,25 @@
                     "end": 3557,
                     "value": "outer class",
                     "raw": "'outer class'"
-                  }
+                  },
+                  "computed": false,
+                  "static": true
                 },
                 {
                   "type": "MethodDefinition",
                   "start": 3562,
                   "end": 3608,
-                  "static": true,
-                  "computed": false,
                   "key": {
                     "type": "Identifier",
                     "start": 3569,
                     "end": 3580,
                     "name": "fieldAccess"
                   },
-                  "kind": "method",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 3580,
                     "end": 3608,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -95,20 +92,22 @@
                               "end": 3603,
                               "name": "m"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           }
                         }
                       ]
-                    }
-                  }
+                    },
+                    "expression": false
+                  },
+                  "kind": "method",
+                  "computed": false,
+                  "static": true
                 },
                 {
                   "type": "PropertyDefinition",
                   "start": 3612,
                   "end": 3711,
-                  "static": true,
-                  "computed": false,
                   "key": {
                     "type": "Identifier",
                     "start": 3619,
@@ -130,8 +129,6 @@
                           "type": "PropertyDefinition",
                           "start": 3635,
                           "end": 3654,
-                          "static": false,
-                          "computed": false,
                           "key": {
                             "type": "PrivateIdentifier",
                             "start": 3635,
@@ -144,27 +141,25 @@
                             "end": 3653,
                             "value": "inner class",
                             "raw": "'inner class'"
-                          }
+                          },
+                          "computed": false,
+                          "static": false
                         },
                         {
                           "type": "MethodDefinition",
                           "start": 3659,
                           "end": 3707,
-                          "static": true,
-                          "computed": false,
                           "key": {
                             "type": "Identifier",
                             "start": 3666,
                             "end": 3677,
                             "name": "fieldAccess"
                           },
-                          "kind": "method",
                           "value": {
                             "type": "FunctionExpression",
                             "start": 3677,
                             "end": 3707,
                             "id": null,
-                            "expression": false,
                             "generator": false,
                             "async": false,
                             "params": [
@@ -200,24 +195,29 @@
                                       "end": 3700,
                                       "name": "m"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   }
                                 }
                               ]
-                            }
-                          }
+                            },
+                            "expression": false
+                          },
+                          "kind": "method",
+                          "computed": false,
+                          "static": true
                         }
                       ]
                     }
-                  }
+                  },
+                  "computed": false,
+                  "static": true
                 }
               ]
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -243,8 +243,8 @@
             "end": 3731,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -267,8 +267,8 @@
                 "end": 3745,
                 "name": "fieldAccess"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -288,6 +288,7 @@
       "type": "VariableDeclaration",
       "start": 3766,
       "end": 3784,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -319,14 +320,13 @@
                 "end": 3781,
                 "name": "B"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": []
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -352,8 +352,8 @@
             "end": 3802,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -380,8 +380,8 @@
                   "end": 3806,
                   "name": "B"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -389,8 +389,8 @@
                 "end": 3818,
                 "name": "fieldAccess"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -437,8 +437,8 @@
             "end": 3853,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -452,7 +452,6 @@
             "start": 3865,
             "end": 3901,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -489,8 +488,8 @@
                           "end": 3883,
                           "name": "B"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -498,8 +497,8 @@
                         "end": 3895,
                         "name": "fieldAccess"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -513,7 +512,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

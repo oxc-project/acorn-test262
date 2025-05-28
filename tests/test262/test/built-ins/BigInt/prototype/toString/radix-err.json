@@ -12,6 +12,7 @@
         "type": "VariableDeclaration",
         "start": 431,
         "end": 436,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "ArrayExpression",
@@ -92,8 +92,8 @@
                   "end": 475,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -107,7 +107,6 @@
                   "start": 488,
                   "end": 526,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -147,8 +146,8 @@
                               "end": 518,
                               "name": "toString"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -162,7 +161,8 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
                 {
                   "type": "BinaryExpression",
@@ -211,8 +211,8 @@
                   "end": 561,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -226,7 +226,6 @@
                   "start": 574,
                   "end": 613,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -256,7 +255,6 @@
                                 "start": 592,
                                 "end": 595,
                                 "operator": "-",
-                                "prefix": true,
                                 "argument": {
                                   "type": "Literal",
                                   "start": 593,
@@ -264,7 +262,8 @@
                                   "value": null,
                                   "raw": "1n",
                                   "bigint": "1"
-                                }
+                                },
+                                "prefix": true
                               }
                             },
                             "property": {
@@ -273,8 +272,8 @@
                               "end": 605,
                               "name": "toString"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -288,7 +287,8 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
                 {
                   "type": "BinaryExpression",
@@ -337,8 +337,8 @@
                   "end": 649,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -352,7 +352,6 @@
                   "start": 662,
                   "end": 700,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -392,8 +391,8 @@
                               "end": 692,
                               "name": "toString"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -407,7 +406,8 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
                 {
                   "type": "BinaryExpression",

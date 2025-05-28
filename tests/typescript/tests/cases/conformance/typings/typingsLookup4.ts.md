@@ -9,17 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 23,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 23,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 13,
             "end": 22,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 13,
@@ -38,15 +37,16 @@ __ESTREE_TEST__:PASS:
                 }
               }
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -64,17 +64,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 23,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 23,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 13,
             "end": 22,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 13,
@@ -93,15 +92,16 @@ __ESTREE_TEST__:PASS:
                 }
               }
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -119,17 +119,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 19,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 19,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 13,
             "end": 18,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 13,
@@ -143,17 +142,18 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 17,
               "end": 18,
-              "raw": "2",
-              "value": 2
-            }
+              "value": 2,
+              "raw": "2"
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -171,17 +171,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 19,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 19,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 13,
             "end": 18,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 13,
@@ -195,17 +194,18 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 17,
               "end": 18,
-              "raw": "3",
-              "value": 3
-            }
+              "value": 3,
+              "raw": "3"
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -223,14 +223,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 27,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 18,
-        "end": 26,
-        "raw": "\"jquery\"",
-        "value": "jquery"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -245,7 +237,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
@@ -254,24 +245,25 @@ __ESTREE_TEST__:PASS:
             "name": "j",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 18,
+        "end": 26,
+        "value": "jquery",
+        "raw": "\"jquery\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 28,
       "end": 55,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 46,
-        "end": 54,
-        "raw": "\"kquery\"",
-        "value": "kquery"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -286,7 +278,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 37,
@@ -295,24 +286,25 @@ __ESTREE_TEST__:PASS:
             "name": "k",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 46,
+        "end": 54,
+        "value": "kquery",
+        "raw": "\"kquery\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 56,
       "end": 83,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 74,
-        "end": 82,
-        "raw": "\"lquery\"",
-        "value": "lquery"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -327,7 +319,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 65,
@@ -336,24 +327,25 @@ __ESTREE_TEST__:PASS:
             "name": "l",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 74,
+        "end": 82,
+        "value": "lquery",
+        "raw": "\"lquery\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 84,
       "end": 111,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 102,
-        "end": 110,
-        "raw": "\"mquery\"",
-        "value": "mquery"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -368,7 +360,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 93,
@@ -377,32 +368,37 @@ __ESTREE_TEST__:PASS:
             "name": "m",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 102,
+        "end": 110,
+        "value": "mquery",
+        "raw": "\"mquery\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 112,
       "end": 126,
-      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 112,
         "end": 125,
-        "operator": "+",
         "left": {
           "type": "BinaryExpression",
           "start": 112,
           "end": 121,
-          "operator": "+",
           "left": {
             "type": "BinaryExpression",
             "start": 112,
             "end": 117,
-            "operator": "+",
             "left": {
               "type": "Identifier",
               "start": 112,
@@ -412,6 +408,7 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
+            "operator": "+",
             "right": {
               "type": "Identifier",
               "start": 116,
@@ -422,6 +419,7 @@ __ESTREE_TEST__:PASS:
               "typeAnnotation": null
             }
           },
+          "operator": "+",
           "right": {
             "type": "Identifier",
             "start": 120,
@@ -432,6 +430,7 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         },
+        "operator": "+",
         "right": {
           "type": "Identifier",
           "start": 124,
@@ -441,7 +440,8 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

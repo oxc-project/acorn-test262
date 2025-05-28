@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 44,
+      "id": {
+        "type": "Identifier",
+        "start": 15,
+        "end": 16,
+        "decorators": [],
+        "name": "M",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 17,
@@ -18,14 +27,6 @@ __ESTREE_TEST__:PASS:
             "type": "ClassDeclaration",
             "start": 21,
             "end": 42,
-            "abstract": false,
-            "body": {
-              "type": "ClassBody",
-              "start": 37,
-              "end": 42,
-              "body": []
-            },
-            "declare": true,
             "decorators": [],
             "id": {
               "type": "Identifier",
@@ -36,25 +37,24 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "implements": [],
+            "typeParameters": null,
             "superClass": null,
             "superTypeArguments": null,
-            "typeParameters": null
+            "implements": [],
+            "body": {
+              "type": "ClassBody",
+              "start": 37,
+              "end": 42,
+              "body": []
+            },
+            "abstract": false,
+            "declare": true
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 15,
-        "end": 16,
-        "decorators": [],
-        "name": "M",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "script",

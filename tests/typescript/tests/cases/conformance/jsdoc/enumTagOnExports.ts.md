@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 22,
       "end": 37,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 22,
@@ -19,7 +18,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 22,
           "end": 31,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 22,
@@ -29,7 +27,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 30,
@@ -38,7 +35,9 @@ __ESTREE_TEST__:PASS:
             "name": "a",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "ObjectExpression",
@@ -46,13 +45,13 @@ __ESTREE_TEST__:PASS:
           "end": 36,
           "properties": []
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 61,
       "end": 83,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 61,
@@ -62,12 +61,10 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 61,
           "end": 77,
-          "computed": false,
           "object": {
             "type": "MemberExpression",
             "start": 61,
             "end": 75,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 61,
@@ -77,7 +74,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 68,
@@ -86,9 +82,10 @@ __ESTREE_TEST__:PASS:
               "name": "exports",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "optional": false,
+            "computed": false
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 76,
@@ -97,7 +94,9 @@ __ESTREE_TEST__:PASS:
             "name": "b",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "ObjectExpression",
@@ -105,7 +104,8 @@ __ESTREE_TEST__:PASS:
           "end": 82,
           "properties": []
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

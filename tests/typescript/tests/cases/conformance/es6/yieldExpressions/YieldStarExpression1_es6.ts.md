@@ -9,12 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 11,
-      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 0,
         "end": 10,
-        "operator": "*",
         "left": {
           "type": "Identifier",
           "start": 0,
@@ -24,13 +22,15 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "operator": "*",
         "right": {
           "type": "ArrayExpression",
           "start": 8,
           "end": 10,
           "elements": []
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

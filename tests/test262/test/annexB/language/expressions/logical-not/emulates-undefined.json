@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 658,
       "end": 689,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -34,12 +35,11 @@
               "end": 688,
               "name": "IsHTMLDDA"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -61,13 +61,13 @@
             "start": 698,
             "end": 708,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 699,
               "end": 708,
               "name": "IsHTMLDDA"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -97,8 +97,8 @@
             "end": 727,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -106,20 +106,20 @@
             "start": 728,
             "end": 739,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "UnaryExpression",
               "start": 729,
               "end": 739,
               "operator": "!",
-              "prefix": true,
               "argument": {
                 "type": "Identifier",
                 "start": 730,
                 "end": 739,
                 "name": "IsHTMLDDA"
-              }
-            }
+              },
+              "prefix": true
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

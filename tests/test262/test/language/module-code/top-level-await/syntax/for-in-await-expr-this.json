@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 2430,
       "end": 2442,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForInStatement",
@@ -87,6 +87,7 @@
         "type": "VariableDeclaration",
         "start": 2759,
         "end": 2770,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -100,8 +101,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "right": {
         "type": "ArrayExpression",
@@ -157,6 +157,7 @@
         "type": "VariableDeclaration",
         "start": 2933,
         "end": 2944,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -170,8 +171,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "ArrayExpression",

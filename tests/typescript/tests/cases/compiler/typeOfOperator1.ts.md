@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 10,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 9,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,24 +28,24 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 8,
             "end": 9,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 11,
       "end": 36,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 15,
           "end": 35,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 15,
@@ -68,6 +68,7 @@ __ESTREE_TEST__:PASS:
             "type": "UnaryExpression",
             "start": 27,
             "end": 35,
+            "operator": "typeof",
             "argument": {
               "type": "Identifier",
               "start": 34,
@@ -77,24 +78,23 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "operator": "typeof",
             "prefix": true
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 37,
       "end": 62,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 41,
           "end": 61,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 41,
@@ -117,6 +117,7 @@ __ESTREE_TEST__:PASS:
             "type": "UnaryExpression",
             "start": 53,
             "end": 61,
+            "operator": "typeof",
             "argument": {
               "type": "Identifier",
               "start": 60,
@@ -126,13 +127,12 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "operator": "typeof",
             "prefix": true
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

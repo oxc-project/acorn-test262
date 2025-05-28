@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 942,
       "end": 1006,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -33,15 +34,11 @@
                   "type": "PropertyDefinition",
                   "start": 960,
                   "end": 976,
-                  "static": false,
-                  "computed": true,
                   "key": {
                     "type": "ArrowFunctionExpression",
                     "start": 961,
                     "end": 970,
-                    "id": null,
                     "expression": false,
-                    "generator": false,
                     "async": false,
                     "params": [],
                     "body": {
@@ -49,7 +46,9 @@
                       "start": 967,
                       "end": 970,
                       "body": []
-                    }
+                    },
+                    "id": null,
+                    "generator": false
                   },
                   "value": {
                     "type": "Literal",
@@ -57,21 +56,19 @@
                     "end": 975,
                     "value": 1,
                     "raw": "1"
-                  }
+                  },
+                  "computed": true,
+                  "static": false
                 },
                 {
                   "type": "PropertyDefinition",
                   "start": 980,
                   "end": 1003,
-                  "static": true,
-                  "computed": true,
                   "key": {
                     "type": "ArrowFunctionExpression",
                     "start": 988,
                     "end": 997,
-                    "id": null,
                     "expression": false,
-                    "generator": false,
                     "async": false,
                     "params": [],
                     "body": {
@@ -79,7 +76,9 @@
                       "start": 994,
                       "end": 997,
                       "body": []
-                    }
+                    },
+                    "id": null,
+                    "generator": false
                   },
                   "value": {
                     "type": "Literal",
@@ -87,19 +86,21 @@
                     "end": 1002,
                     "value": 1,
                     "raw": "1"
-                  }
+                  },
+                  "computed": true,
+                  "static": true
                 }
               ]
             }
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1008,
       "end": 1024,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -124,8 +125,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -151,8 +151,8 @@
             "end": 1042,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -169,9 +169,7 @@
               "type": "ArrowFunctionExpression",
               "start": 1048,
               "end": 1057,
-              "id": null,
               "expression": false,
-              "generator": false,
               "async": false,
               "params": [],
               "body": {
@@ -179,10 +177,12 @@
                 "start": 1054,
                 "end": 1057,
                 "body": []
-              }
+              },
+              "id": null,
+              "generator": false
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           {
             "type": "Literal",
@@ -219,8 +219,8 @@
             "end": 1083,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -237,9 +237,7 @@
               "type": "ArrowFunctionExpression",
               "start": 1089,
               "end": 1098,
-              "id": null,
               "expression": false,
-              "generator": false,
               "async": false,
               "params": [],
               "body": {
@@ -247,10 +245,12 @@
                 "start": 1095,
                 "end": 1098,
                 "body": []
-              }
+              },
+              "id": null,
+              "generator": false
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           {
             "type": "Literal",
@@ -287,8 +287,8 @@
             "end": 1124,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -316,9 +316,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 1137,
                   "end": 1146,
-                  "id": null,
                   "expression": false,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -326,13 +324,15 @@
                     "start": 1143,
                     "end": 1146,
                     "body": []
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 }
               ],
               "optional": false
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           {
             "type": "Literal",
@@ -369,8 +369,8 @@
             "end": 1173,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -398,9 +398,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 1186,
                   "end": 1195,
-                  "id": null,
                   "expression": false,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -408,13 +406,15 @@
                     "start": 1192,
                     "end": 1195,
                     "body": []
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 }
               ],
               "optional": false
             },
-            "computed": true,
-            "optional": false
+            "optional": false,
+            "computed": true
           },
           {
             "type": "Literal",

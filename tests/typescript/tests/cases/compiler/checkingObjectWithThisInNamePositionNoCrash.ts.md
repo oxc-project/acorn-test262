@@ -9,17 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 174,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 174,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 13,
             "end": 174,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 13,
@@ -38,7 +37,7 @@ __ESTREE_TEST__:PASS:
                   "type": "Property",
                   "start": 27,
                   "end": 172,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 27,
@@ -48,15 +47,17 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "kind": "init",
-                  "method": true,
-                  "optional": false,
-                  "shorthand": false,
                   "value": {
                     "type": "FunctionExpression",
                     "start": 31,
                     "end": 172,
+                    "id": null,
+                    "generator": false,
                     "async": false,
+                    "declare": false,
+                    "typeParameters": null,
+                    "params": [],
+                    "returnType": null,
                     "body": {
                       "type": "BlockStatement",
                       "start": 34,
@@ -75,18 +76,16 @@ __ESTREE_TEST__:PASS:
                                 "type": "Property",
                                 "start": 65,
                                 "end": 77,
-                                "computed": true,
+                                "kind": "init",
                                 "key": {
                                   "type": "MemberExpression",
                                   "start": 66,
                                   "end": 72,
-                                  "computed": false,
                                   "object": {
                                     "type": "ThisExpression",
                                     "start": 66,
                                     "end": 70
                                   },
-                                  "optional": false,
                                   "property": {
                                     "type": "Identifier",
                                     "start": 71,
@@ -95,44 +94,45 @@ __ESTREE_TEST__:PASS:
                                     "name": "a",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "optional": false,
+                                  "computed": false
                                 },
-                                "kind": "init",
-                                "method": false,
-                                "optional": false,
-                                "shorthand": false,
                                 "value": {
                                   "type": "Literal",
                                   "start": 75,
                                   "end": 77,
-                                  "raw": "\"\"",
-                                  "value": ""
-                                }
+                                  "value": "",
+                                  "raw": "\"\""
+                                },
+                                "method": false,
+                                "shorthand": false,
+                                "computed": true,
+                                "optional": false
                               }
                             ]
                           }
                         }
                       ]
                     },
-                    "declare": false,
-                    "expression": false,
-                    "generator": false,
-                    "id": null,
-                    "params": [],
-                    "returnType": null,
-                    "typeParameters": null
-                  }
+                    "expression": false
+                  },
+                  "method": true,
+                  "shorthand": false,
+                  "computed": false,
+                  "optional": false
                 }
               ]
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

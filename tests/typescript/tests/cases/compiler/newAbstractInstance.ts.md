@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 20,
-      "abstract": true,
-      "body": {
-        "type": "ClassBody",
-        "start": 17,
-        "end": 20,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -27,21 +19,29 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 17,
+        "end": 20,
+        "body": []
+      },
+      "abstract": true,
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 21,
       "end": 40,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 35,
           "end": 39,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 35,
@@ -57,7 +57,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 38,
                 "end": 39,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 38,
@@ -66,26 +65,25 @@ __ESTREE_TEST__:PASS:
                   "name": "B",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     },
     {
       "type": "ExpressionStatement",
       "start": 41,
       "end": 49,
-      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 41,
         "end": 48,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 45,
@@ -95,8 +93,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": []
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

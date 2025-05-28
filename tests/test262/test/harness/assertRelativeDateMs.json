@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 315,
       "end": 326,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -325,14 +325,14 @@
                 "start": 541,
                 "end": 543,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 542,
                   "end": 543,
                   "value": 1,
                   "raw": "1"
-                }
+                },
+                "prefix": true
               }
             ]
           },
@@ -341,14 +341,14 @@
             "start": 546,
             "end": 548,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 547,
               "end": 548,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -508,14 +508,14 @@
                 "start": 661,
                 "end": 663,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 662,
                   "end": 663,
                   "value": 1,
                   "raw": "1"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -531,14 +531,14 @@
             "start": 669,
             "end": 674,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 670,
               "end": 674,
               "value": 1000,
               "raw": "1000"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -691,14 +691,14 @@
                 "start": 786,
                 "end": 788,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 787,
                   "end": 788,
                   "value": 2,
                   "raw": "2"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -721,14 +721,14 @@
             "start": 797,
             "end": 804,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 798,
               "end": 804,
               "value": 120000,
               "raw": "120000"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -955,13 +955,13 @@
         "start": 983,
         "end": 990,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "Identifier",
           "start": 984,
           "end": 990,
           "name": "thrown"
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -1019,8 +1019,8 @@
               "end": 1086,
               "name": "constructor"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "operator": "!==",
           "right": {
@@ -1129,14 +1129,14 @@
                       "start": 1222,
                       "end": 1224,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 1223,
                         "end": 1224,
                         "value": 1,
                         "raw": "1"
-                      }
+                      },
+                      "prefix": true
                     }
                   ]
                 },
@@ -1205,13 +1205,13 @@
         "start": 1269,
         "end": 1276,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "Identifier",
           "start": 1270,
           "end": 1276,
           "name": "thrown"
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -1269,8 +1269,8 @@
               "end": 1372,
               "name": "constructor"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "operator": "!==",
           "right": {
@@ -1455,13 +1455,13 @@
         "start": 1560,
         "end": 1567,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "Identifier",
           "start": 1561,
           "end": 1567,
           "name": "thrown"
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -1519,8 +1519,8 @@
               "end": 1663,
               "name": "constructor"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "operator": "!==",
           "right": {
@@ -1645,14 +1645,14 @@
                   "start": 1809,
                   "end": 1811,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1810,
                     "end": 1811,
                     "value": 1,
                     "raw": "1"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -1712,13 +1712,13 @@
         "start": 1852,
         "end": 1859,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "Identifier",
           "start": 1853,
           "end": 1859,
           "name": "thrown"
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -1776,8 +1776,8 @@
               "end": 1955,
               "name": "constructor"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "operator": "!==",
           "right": {
@@ -1954,13 +1954,13 @@
         "start": 2147,
         "end": 2154,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "Identifier",
           "start": 2148,
           "end": 2154,
           "name": "thrown"
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -2018,8 +2018,8 @@
               "end": 2250,
               "name": "constructor"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "operator": "!==",
           "right": {

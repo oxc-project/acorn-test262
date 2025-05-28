@@ -9,24 +9,22 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 21,
-      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 0,
         "end": 20,
-        "operator": "/",
         "left": {
           "type": "BinaryExpression",
           "start": 0,
           "end": 12,
-          "operator": "/",
           "left": {
             "type": "Literal",
             "start": 0,
             "end": 1,
-            "raw": "1",
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
+          "operator": "/",
           "right": {
             "type": "Identifier",
             "start": 3,
@@ -37,16 +35,15 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         },
+        "operator": "/",
         "right": {
           "type": "CallExpression",
           "start": 13,
           "end": 20,
-          "arguments": [],
           "callee": {
             "type": "MemberExpression",
             "start": 13,
             "end": 18,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 13,
@@ -56,7 +53,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 15,
@@ -65,12 +61,16 @@ __ESTREE_TEST__:PASS:
               "name": "foo",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "optional": false,
+            "computed": false
           },
-          "optional": false,
-          "typeArguments": null
+          "typeArguments": null,
+          "arguments": [],
+          "optional": false
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

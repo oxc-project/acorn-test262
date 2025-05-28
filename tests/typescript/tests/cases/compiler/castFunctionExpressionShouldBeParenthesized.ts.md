@@ -9,22 +9,18 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 33,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
         "end": 33,
-        "arguments": [],
         "callee": {
           "type": "MemberExpression",
           "start": 0,
           "end": 31,
-          "computed": false,
           "object": {
             "type": "CallExpression",
             "start": 0,
             "end": 27,
-            "arguments": [],
             "callee": {
               "type": "TSAsExpression",
               "start": 1,
@@ -33,16 +29,6 @@ __ESTREE_TEST__:PASS:
                 "type": "FunctionExpression",
                 "start": 1,
                 "end": 17,
-                "async": false,
-                "body": {
-                  "type": "BlockStatement",
-                  "start": 14,
-                  "end": 17,
-                  "body": []
-                },
-                "declare": false,
-                "expression": false,
-                "generator": false,
                 "id": {
                   "type": "Identifier",
                   "start": 10,
@@ -52,9 +38,19 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
+                "generator": false,
+                "async": false,
+                "declare": false,
+                "typeParameters": null,
                 "params": [],
                 "returnType": null,
-                "typeParameters": null
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 14,
+                  "end": 17,
+                  "body": []
+                },
+                "expression": false
               },
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
@@ -62,10 +58,10 @@ __ESTREE_TEST__:PASS:
                 "end": 24
               }
             },
-            "optional": false,
-            "typeArguments": null
+            "typeArguments": null,
+            "arguments": [],
+            "optional": false
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 28,
@@ -74,11 +70,15 @@ __ESTREE_TEST__:PASS:
             "name": "foo",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

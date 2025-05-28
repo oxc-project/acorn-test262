@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 499,
       "end": 520,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -32,8 +33,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -55,7 +55,6 @@
           "start": 534,
           "end": 642,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -88,8 +87,8 @@
                       "end": 560,
                       "name": "prop"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "right": {
                     "type": "Literal",
@@ -104,6 +103,7 @@
                 "type": "VariableDeclaration",
                 "start": 570,
                 "end": 583,
+                "kind": "var",
                 "declarations": [
                   {
                     "type": "VariableDeclarator",
@@ -122,8 +122,7 @@
                       "properties": []
                     }
                   }
-                ],
-                "kind": "var"
+                ]
               },
               {
                 "type": "ExpressionStatement",
@@ -150,8 +149,8 @@
                       "end": 596,
                       "name": "prop"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "right": {
                     "type": "Literal",
@@ -187,8 +186,8 @@
                       "end": 616,
                       "name": "slot"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "right": {
                     "type": "ThisExpression",
@@ -209,7 +208,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -255,13 +255,13 @@
           "start": 763,
           "end": 773,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 770,
             "end": 773,
             "name": "obj"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -309,13 +309,13 @@
                     "start": 874,
                     "end": 884,
                     "operator": "typeof",
-                    "prefix": true,
                     "argument": {
                       "type": "Identifier",
                       "start": 881,
                       "end": 884,
                       "name": "obj"
-                    }
+                    },
+                    "prefix": true
                   }
                 }
               ]
@@ -349,8 +349,8 @@
             "end": 1075,
             "name": "prop"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -409,8 +409,8 @@
                       "end": 1170,
                       "name": "prop"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
@@ -448,8 +448,8 @@
               "end": 1361,
               "name": "slot"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -457,8 +457,8 @@
             "end": 1366,
             "name": "prop"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -521,8 +521,8 @@
                         "end": 1465,
                         "name": "slot"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -530,8 +530,8 @@
                       "end": 1470,
                       "name": "prop"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]

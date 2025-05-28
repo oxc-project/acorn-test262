@@ -9,17 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 29,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 29,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 13,
             "end": 28,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 13,
@@ -33,17 +32,18 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 17,
               "end": 28,
-              "raw": "\"default a\"",
-              "value": "default a"
-            }
+              "value": "default a",
+              "raw": "\"default a\""
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -61,17 +61,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 29,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 29,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 13,
             "end": 28,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 13,
@@ -85,17 +84,18 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 17,
               "end": 28,
-              "raw": "\"default b\"",
-              "value": "default b"
-            }
+              "value": "default b",
+              "raw": "\"default b\""
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -113,17 +113,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 27,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 27,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 13,
             "end": 26,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 13,
@@ -137,17 +136,18 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 17,
               "end": 26,
-              "raw": "\"ts3.1 a\"",
-              "value": "ts3.1 a"
-            }
+              "value": "ts3.1 a",
+              "raw": "\"ts3.1 a\""
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -165,17 +165,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 27,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 27,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 13,
             "end": 26,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 13,
@@ -189,17 +188,18 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 17,
               "end": 26,
-              "raw": "\"ts3.1 b\"",
-              "value": "ts3.1 b"
-            }
+              "value": "ts3.1 b",
+              "raw": "\"ts3.1 b\""
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -217,14 +217,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 24,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 18,
-        "end": 23,
-        "raw": "\"ext\"",
-        "value": "ext"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -239,7 +231,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
@@ -248,24 +239,25 @@ __ESTREE_TEST__:PASS:
             "name": "a",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 18,
+        "end": 23,
+        "value": "ext",
+        "raw": "\"ext\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 25,
       "end": 55,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 43,
-        "end": 54,
-        "raw": "\"ext/other\"",
-        "value": "ext/other"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -280,7 +272,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 34,
@@ -289,22 +280,31 @@ __ESTREE_TEST__:PASS:
             "name": "b",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 43,
+        "end": 54,
+        "value": "ext/other",
+        "raw": "\"ext/other\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 57,
       "end": 81,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 63,
           "end": 80,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 63,
@@ -324,8 +324,8 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 67,
                   "end": 76,
-                  "raw": "\"ts3.1 a\"",
-                  "value": "ts3.1 a"
+                  "value": "ts3.1 a",
+                  "raw": "\"ts3.1 a\""
                 }
               }
             }
@@ -338,22 +338,22 @@ __ESTREE_TEST__:PASS:
             "name": "a",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 82,
       "end": 106,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 88,
           "end": 105,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 88,
@@ -373,8 +373,8 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 92,
                   "end": 101,
-                  "raw": "\"ts3.1 b\"",
-                  "value": "ts3.1 b"
+                  "value": "ts3.1 b",
+                  "raw": "\"ts3.1 b\""
                 }
               }
             }
@@ -387,11 +387,11 @@ __ESTREE_TEST__:PASS:
             "name": "b",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "module",

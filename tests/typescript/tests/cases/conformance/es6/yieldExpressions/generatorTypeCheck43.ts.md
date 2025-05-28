@@ -9,7 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 71,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 11,
+        "decorators": [],
+        "name": "g",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": true,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 14,
@@ -19,12 +33,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 20,
             "end": 69,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 24,
                 "end": 69,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 24,
@@ -43,68 +57,54 @@ __ESTREE_TEST__:PASS:
                       "type": "Property",
                       "start": 38,
                       "end": 63,
-                      "computed": true,
+                      "kind": "init",
                       "key": {
                         "type": "YieldExpression",
                         "start": 40,
                         "end": 47,
+                        "delegate": false,
                         "argument": {
                           "type": "Literal",
                           "start": 46,
                           "end": 47,
-                          "raw": "0",
-                          "value": 0
-                        },
-                        "delegate": false
+                          "value": 0,
+                          "raw": "0"
+                        }
                       },
-                      "kind": "init",
-                      "method": true,
-                      "optional": false,
-                      "shorthand": false,
                       "value": {
                         "type": "FunctionExpression",
                         "start": 48,
                         "end": 63,
+                        "id": null,
+                        "generator": true,
                         "async": false,
+                        "declare": false,
+                        "typeParameters": null,
+                        "params": [],
+                        "returnType": null,
                         "body": {
                           "type": "BlockStatement",
                           "start": 51,
                           "end": 63,
                           "body": []
                         },
-                        "declare": false,
-                        "expression": false,
-                        "generator": true,
-                        "id": null,
-                        "params": [],
-                        "returnType": null,
-                        "typeParameters": null
-                      }
+                        "expression": false
+                      },
+                      "method": true,
+                      "shorthand": false,
+                      "computed": true,
+                      "optional": false
                     }
                   ]
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "declare": false
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": true,
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 11,
-        "decorators": [],
-        "name": "g",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

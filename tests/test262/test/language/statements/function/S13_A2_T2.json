@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 286,
       "end": 351,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -36,7 +37,6 @@
                   "end": 310,
                   "name": "__func"
                 },
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [
@@ -84,13 +84,14 @@
                             "value": 1,
                             "raw": "1"
                           },
-                          "computed": true,
-                          "optional": false
+                          "optional": false,
+                          "computed": true
                         }
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               }
             },
             "arguments": [
@@ -112,8 +113,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -197,13 +197,13 @@
           "start": 699,
           "end": 712,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 706,
             "end": 712,
             "name": "__func"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -251,13 +251,13 @@
                     "start": 821,
                     "end": 834,
                     "operator": "typeof",
-                    "prefix": true,
                     "argument": {
                       "type": "Identifier",
                       "start": 828,
                       "end": 834,
                       "name": "__func"
-                    }
+                    },
+                    "prefix": true
                   }
                 }
               ]

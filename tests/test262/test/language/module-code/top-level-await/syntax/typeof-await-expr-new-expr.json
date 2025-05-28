@@ -12,7 +12,6 @@
         "start": 1006,
         "end": 1062,
         "operator": "typeof",
-        "prefix": true,
         "argument": {
           "type": "AwaitExpression",
           "start": 1013,
@@ -33,7 +32,6 @@
                 "start": 1031,
                 "end": 1061,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [
@@ -82,11 +80,13 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               }
             ]
           }
-        }
+        },
+        "prefix": true
       }
     }
   ],

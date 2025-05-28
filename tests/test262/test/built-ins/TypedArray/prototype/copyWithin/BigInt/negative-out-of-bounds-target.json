@@ -23,7 +23,6 @@
             "start": 1075,
             "end": 1832,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -131,8 +130,8 @@
                                 "end": 1159,
                                 "name": "copyWithin"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -140,14 +139,14 @@
                                 "start": 1160,
                                 "end": 1163,
                                 "operator": "-",
-                                "prefix": true,
                                 "argument": {
                                   "type": "Literal",
                                   "start": 1161,
                                   "end": 1163,
                                   "value": 10,
                                   "raw": "10"
-                                }
+                                },
+                                "prefix": true
                               },
                               {
                                 "type": "Literal",
@@ -312,8 +311,8 @@
                                 "end": 1332,
                                 "name": "copyWithin"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -321,13 +320,13 @@
                                 "start": 1333,
                                 "end": 1342,
                                 "operator": "-",
-                                "prefix": true,
                                 "argument": {
                                   "type": "Identifier",
                                   "start": 1334,
                                   "end": 1342,
                                   "name": "Infinity"
-                                }
+                                },
+                                "prefix": true
                               },
                               {
                                 "type": "Literal",
@@ -500,8 +499,8 @@
                                 "end": 1527,
                                 "name": "copyWithin"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -509,14 +508,14 @@
                                 "start": 1528,
                                 "end": 1531,
                                 "operator": "-",
-                                "prefix": true,
                                 "argument": {
                                   "type": "Literal",
                                   "start": 1529,
                                   "end": 1531,
                                   "value": 10,
                                   "raw": "10"
-                                }
+                                },
+                                "prefix": true
                               },
                               {
                                 "type": "Literal",
@@ -689,8 +688,8 @@
                                 "end": 1710,
                                 "name": "copyWithin"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -698,13 +697,13 @@
                                 "start": 1711,
                                 "end": 1720,
                                 "operator": "-",
-                                "prefix": true,
                                 "argument": {
                                   "type": "Identifier",
                                   "start": 1712,
                                   "end": 1720,
                                   "name": "Infinity"
-                                }
+                                },
+                                "prefix": true
                               },
                               {
                                 "type": "Literal",
@@ -778,7 +777,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

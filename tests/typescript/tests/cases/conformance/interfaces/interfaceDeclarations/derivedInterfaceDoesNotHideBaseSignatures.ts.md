@@ -9,6 +9,17 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 108,
       "end": 171,
+      "id": {
+        "type": "Identifier",
+        "start": 118,
+        "end": 122,
+        "decorators": [],
+        "name": "Base",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "extends": [],
       "body": {
         "type": "TSInterfaceBody",
         "start": 123,
@@ -18,6 +29,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSCallSignatureDeclaration",
             "start": 129,
             "end": 140,
+            "typeParameters": null,
             "params": [],
             "returnType": {
               "type": "TSTypeAnnotation",
@@ -28,13 +40,13 @@ __ESTREE_TEST__:PASS:
                 "start": 133,
                 "end": 139
               }
-            },
-            "typeParameters": null
+            }
           },
           {
             "type": "TSConstructSignatureDeclaration",
             "start": 145,
             "end": 169,
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -64,28 +76,43 @@ __ESTREE_TEST__:PASS:
                 "start": 162,
                 "end": 168
               }
-            },
-            "typeParameters": null
+            }
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 118,
-        "end": 122,
-        "decorators": [],
-        "name": "Base",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 173,
       "end": 252,
+      "id": {
+        "type": "Identifier",
+        "start": 183,
+        "end": 190,
+        "decorators": [],
+        "name": "Derived",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "extends": [
+        {
+          "type": "TSInterfaceHeritage",
+          "start": 199,
+          "end": 203,
+          "expression": {
+            "type": "Identifier",
+            "start": 199,
+            "end": 203,
+            "decorators": [],
+            "name": "Base",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
+        }
+      ],
       "body": {
         "type": "TSInterfaceBody",
         "start": 204,
@@ -95,6 +122,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSCallSignatureDeclaration",
             "start": 210,
             "end": 221,
+            "typeParameters": null,
             "params": [],
             "returnType": {
               "type": "TSTypeAnnotation",
@@ -105,13 +133,13 @@ __ESTREE_TEST__:PASS:
                 "start": 214,
                 "end": 220
               }
-            },
-            "typeParameters": null
+            }
           },
           {
             "type": "TSConstructSignatureDeclaration",
             "start": 226,
             "end": 250,
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -141,39 +169,11 @@ __ESTREE_TEST__:PASS:
                 "start": 243,
                 "end": 249
               }
-            },
-            "typeParameters": null
+            }
           }
         ]
       },
-      "declare": false,
-      "extends": [
-        {
-          "type": "TSInterfaceHeritage",
-          "start": 199,
-          "end": 203,
-          "expression": {
-            "type": "Identifier",
-            "start": 199,
-            "end": 203,
-            "decorators": [],
-            "name": "Base",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "typeArguments": null
-        }
-      ],
-      "id": {
-        "type": "Identifier",
-        "start": 183,
-        "end": 190,
-        "decorators": [],
-        "name": "Derived",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     }
   ],
   "sourceType": "script",

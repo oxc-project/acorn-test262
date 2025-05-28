@@ -12,7 +12,6 @@
         "start": 1131,
         "end": 1170,
         "operator": "delete",
-        "prefix": true,
         "argument": {
           "type": "MemberExpression",
           "start": 1138,
@@ -33,8 +32,8 @@
               "end": 1153,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "MemberExpression",
@@ -52,12 +51,13 @@
               "end": 1169,
               "name": "iterator"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
-          "computed": true,
-          "optional": false
-        }
+          "optional": false,
+          "computed": true
+        },
+        "prefix": true
       }
     },
     {
@@ -84,8 +84,8 @@
             "end": 1186,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -99,7 +99,6 @@
             "start": 1198,
             "end": 1241,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -112,6 +111,7 @@
                   "type": "VariableDeclaration",
                   "start": 1213,
                   "end": 1239,
+                  "kind": "let",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -171,11 +171,11 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "let"
+                  ]
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

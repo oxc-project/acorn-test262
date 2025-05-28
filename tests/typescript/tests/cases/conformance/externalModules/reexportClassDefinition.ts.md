@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 9,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 7,
-        "end": 9,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -27,10 +19,18 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 7,
+        "end": 9,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "TSExportAssignment",
@@ -71,7 +71,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 14,
@@ -80,10 +79,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 22,
           "end": 30,
-          "raw": "'./foo1'",
-          "value": "./foo1"
+          "value": "./foo1",
+          "raw": "'./foo1'"
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSExportAssignment",
@@ -98,7 +98,7 @@ __ESTREE_TEST__:PASS:
             "type": "Property",
             "start": 49,
             "end": 56,
-            "computed": false,
+            "kind": "init",
             "key": {
               "type": "Identifier",
               "start": 49,
@@ -108,10 +108,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "init",
-            "method": false,
-            "optional": false,
-            "shorthand": false,
             "value": {
               "type": "Identifier",
               "start": 52,
@@ -120,7 +116,11 @@ __ESTREE_TEST__:PASS:
               "name": "foo1",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "optional": false
           }
         ]
       }
@@ -150,7 +150,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 14,
@@ -159,23 +158,16 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 22,
           "end": 30,
-          "raw": "'./foo2'",
-          "value": "./foo2"
+          "value": "./foo2",
+          "raw": "'./foo2'"
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "ClassDeclaration",
       "start": 32,
       "end": 57,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 55,
-        "end": 57,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -186,12 +178,11 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": {
         "type": "MemberExpression",
         "start": 48,
         "end": 54,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 48,
@@ -201,7 +192,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 53,
@@ -210,10 +200,20 @@ __ESTREE_TEST__:PASS:
           "name": "x",
           "optional": false,
           "typeAnnotation": null
-        }
+        },
+        "optional": false,
+        "computed": false
       },
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 55,
+        "end": 57,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "module",

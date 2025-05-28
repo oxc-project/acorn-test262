@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 831,
       "end": 899,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 867,
                 "name": "Duration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -115,13 +116,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 901,
       "end": 957,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -153,8 +154,8 @@
                 "end": 944,
                 "name": "PlainDate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -181,13 +182,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 958,
       "end": 1022,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -219,8 +220,8 @@
                 "end": 1009,
                 "name": "PlainDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -247,8 +248,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -259,6 +259,7 @@
         "type": "VariableDeclaration",
         "start": 1029,
         "end": 1037,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -272,8 +273,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "right": {
         "type": "ArrayExpression",
@@ -361,6 +361,7 @@
             "type": "VariableDeclaration",
             "start": 1184,
             "end": 1250,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -392,8 +393,8 @@
                       "end": 1213,
                       "name": "total"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -405,9 +406,7 @@
                           "type": "Property",
                           "start": 1215,
                           "end": 1219,
-                          "method": false,
-                          "shorthand": true,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 1215,
@@ -420,15 +419,15 @@
                             "end": 1219,
                             "name": "unit"
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": true,
+                          "computed": false
                         },
                         {
                           "type": "Property",
                           "start": 1221,
                           "end": 1247,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 1221,
@@ -441,7 +440,9 @@
                             "end": 1247,
                             "name": "relativeToDate"
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false
                         }
                       ]
                     }
@@ -449,13 +450,13 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 1253,
             "end": 1321,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -487,8 +488,8 @@
                       "end": 1280,
                       "name": "total"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -500,9 +501,7 @@
                           "type": "Property",
                           "start": 1282,
                           "end": 1286,
-                          "method": false,
-                          "shorthand": true,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 1282,
@@ -515,15 +514,15 @@
                             "end": 1286,
                             "name": "unit"
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": true,
+                          "computed": false
                         },
                         {
                           "type": "Property",
                           "start": 1288,
                           "end": 1318,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 1288,
@@ -536,7 +535,9 @@
                             "end": 1318,
                             "name": "relativeToDateTime"
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false
                         }
                       ]
                     }
@@ -544,8 +545,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -571,8 +571,8 @@
                   "end": 1341,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -591,14 +591,6 @@
                   "type": "TemplateLiteral",
                   "start": 1360,
                   "end": 1376,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1370,
-                      "end": 1374,
-                      "name": "unit"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -619,6 +611,14 @@
                         "cooked": ""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1370,
+                      "end": 1374,
+                      "name": "unit"
                     }
                   ]
                 }

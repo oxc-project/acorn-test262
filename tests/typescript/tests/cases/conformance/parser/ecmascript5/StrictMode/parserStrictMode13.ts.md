@@ -9,14 +9,14 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 13,
-      "directive": "use strict",
       "expression": {
         "type": "Literal",
         "start": 0,
         "end": 12,
-        "raw": "\"use strict\"",
-        "value": "use strict"
-      }
+        "value": "use strict",
+        "raw": "\"use strict\""
+      },
+      "directive": "use strict"
     },
     {
       "type": "TryStatement",
@@ -28,17 +28,10 @@ __ESTREE_TEST__:PASS:
         "end": 21,
         "body": []
       },
-      "finalizer": null,
       "handler": {
         "type": "CatchClause",
         "start": 22,
         "end": 37,
-        "body": {
-          "type": "BlockStatement",
-          "start": 34,
-          "end": 37,
-          "body": []
-        },
         "param": {
           "type": "Identifier",
           "start": 28,
@@ -47,8 +40,15 @@ __ESTREE_TEST__:PASS:
           "name": "eval",
           "optional": false,
           "typeAnnotation": null
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 34,
+          "end": 37,
+          "body": []
         }
-      }
+      },
+      "finalizer": null
     }
   ],
   "sourceType": "script",

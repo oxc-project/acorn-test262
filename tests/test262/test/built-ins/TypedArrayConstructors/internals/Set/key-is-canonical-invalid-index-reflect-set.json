@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 738,
       "end": 759,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 760,
       "end": 841,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -53,9 +54,7 @@
                 "type": "Property",
                 "start": 776,
                 "end": 837,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 776,
@@ -67,7 +66,6 @@
                   "start": 785,
                   "end": 837,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -107,15 +105,17 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -137,7 +137,6 @@
             "start": 874,
             "end": 4260,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -157,6 +156,7 @@
                   "type": "VariableDeclaration",
                   "start": 891,
                   "end": 912,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -182,8 +182,7 @@
                       },
                       "init": null
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -221,14 +220,14 @@
                             "start": 925,
                             "end": 927,
                             "operator": "-",
-                            "prefix": true,
                             "argument": {
                               "type": "Literal",
                               "start": 926,
                               "end": 927,
                               "value": 1,
                               "raw": "1"
-                            }
+                            },
+                            "prefix": true
                           }
                         ]
                       },
@@ -238,8 +237,8 @@
                         "end": 936,
                         "name": "forEach"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -247,7 +246,6 @@
                         "start": 937,
                         "end": 3823,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [
@@ -287,8 +285,8 @@
                                     "end": 978,
                                     "name": "defineProperty"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -307,8 +305,8 @@
                                       "end": 991,
                                       "name": "prototype"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   {
                                     "type": "Identifier",
@@ -325,9 +323,7 @@
                                         "type": "Property",
                                         "start": 1006,
                                         "end": 1089,
-                                        "method": false,
-                                        "shorthand": false,
-                                        "computed": false,
+                                        "kind": "init",
                                         "key": {
                                           "type": "Identifier",
                                           "start": 1006,
@@ -339,7 +335,6 @@
                                           "start": 1011,
                                           "end": 1089,
                                           "id": null,
-                                          "expression": false,
                                           "generator": false,
                                           "async": false,
                                           "params": [],
@@ -386,17 +381,18 @@
                                                 }
                                               }
                                             ]
-                                          }
+                                          },
+                                          "expression": false
                                         },
-                                        "kind": "init"
+                                        "method": false,
+                                        "shorthand": false,
+                                        "computed": false
                                       },
                                       {
                                         "type": "Property",
                                         "start": 1097,
                                         "end": 1182,
-                                        "method": false,
-                                        "shorthand": false,
-                                        "computed": false,
+                                        "kind": "init",
                                         "key": {
                                           "type": "Identifier",
                                           "start": 1097,
@@ -408,7 +404,6 @@
                                           "start": 1102,
                                           "end": 1182,
                                           "id": null,
-                                          "expression": false,
                                           "generator": false,
                                           "async": false,
                                           "params": [
@@ -462,17 +457,18 @@
                                                 }
                                               }
                                             ]
-                                          }
+                                          },
+                                          "expression": false
                                         },
-                                        "kind": "init"
+                                        "method": false,
+                                        "shorthand": false,
+                                        "computed": false
                                       },
                                       {
                                         "type": "Property",
                                         "start": 1190,
                                         "end": 1208,
-                                        "method": false,
-                                        "shorthand": false,
-                                        "computed": false,
+                                        "kind": "init",
                                         "key": {
                                           "type": "Identifier",
                                           "start": 1190,
@@ -486,7 +482,9 @@
                                           "value": true,
                                           "raw": "true"
                                         },
-                                        "kind": "init"
+                                        "method": false,
+                                        "shorthand": false,
+                                        "computed": false
                                       }
                                     ]
                                   }
@@ -596,8 +594,8 @@
                                         "end": 1287,
                                         "name": "set"
                                       },
-                                      "computed": false,
-                                      "optional": false
+                                      "optional": false,
+                                      "computed": false
                                     },
                                     "arguments": [
                                       {
@@ -683,7 +681,6 @@
                                     "start": 1404,
                                     "end": 1431,
                                     "operator": "!",
-                                    "prefix": true,
                                     "argument": {
                                       "type": "CallExpression",
                                       "start": 1405,
@@ -704,8 +701,8 @@
                                           "end": 1426,
                                           "name": "hasOwnProperty"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [
                                         {
@@ -716,7 +713,8 @@
                                         }
                                       ],
                                       "optional": false
-                                    }
+                                    },
+                                    "prefix": true
                                   },
                                   {
                                     "type": "BinaryExpression",
@@ -774,7 +772,6 @@
                                     "start": 1515,
                                     "end": 1544,
                                     "operator": "!",
-                                    "prefix": true,
                                     "argument": {
                                       "type": "CallExpression",
                                       "start": 1516,
@@ -795,8 +792,8 @@
                                           "end": 1539,
                                           "name": "hasOwnProperty"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [
                                         {
@@ -807,7 +804,8 @@
                                         }
                                       ],
                                       "optional": false
-                                    }
+                                    },
+                                    "prefix": true
                                   },
                                   {
                                     "type": "BinaryExpression",
@@ -968,8 +966,8 @@
                                         "end": 1697,
                                         "name": "set"
                                       },
-                                      "computed": false,
-                                      "optional": false
+                                      "optional": false,
+                                      "computed": false
                                     },
                                     "arguments": [
                                       {
@@ -1055,7 +1053,6 @@
                                     "start": 1840,
                                     "end": 1867,
                                     "operator": "!",
-                                    "prefix": true,
                                     "argument": {
                                       "type": "CallExpression",
                                       "start": 1841,
@@ -1076,8 +1073,8 @@
                                           "end": 1862,
                                           "name": "hasOwnProperty"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [
                                         {
@@ -1088,7 +1085,8 @@
                                         }
                                       ],
                                       "optional": false
-                                    }
+                                    },
+                                    "prefix": true
                                   },
                                   {
                                     "type": "BinaryExpression",
@@ -1146,7 +1144,6 @@
                                     "start": 1977,
                                     "end": 2006,
                                     "operator": "!",
-                                    "prefix": true,
                                     "argument": {
                                       "type": "CallExpression",
                                       "start": 1978,
@@ -1167,8 +1164,8 @@
                                           "end": 2001,
                                           "name": "hasOwnProperty"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [
                                         {
@@ -1179,7 +1176,8 @@
                                         }
                                       ],
                                       "optional": false
-                                    }
+                                    },
+                                    "prefix": true
                                   },
                                   {
                                     "type": "BinaryExpression",
@@ -1296,8 +1294,8 @@
                                       "end": 2171,
                                       "name": "defineProperty"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   "arguments": [
                                     {
@@ -1321,9 +1319,7 @@
                                           "type": "Property",
                                           "start": 2189,
                                           "end": 2218,
-                                          "method": false,
-                                          "shorthand": false,
-                                          "computed": false,
+                                          "kind": "init",
                                           "key": {
                                             "type": "Identifier",
                                             "start": 2189,
@@ -1335,7 +1331,6 @@
                                             "start": 2194,
                                             "end": 2218,
                                             "id": null,
-                                            "expression": false,
                                             "generator": false,
                                             "async": false,
                                             "params": [],
@@ -1357,17 +1352,18 @@
                                                   }
                                                 }
                                               ]
-                                            }
+                                            },
+                                            "expression": false
                                           },
-                                          "kind": "init"
+                                          "method": false,
+                                          "shorthand": false,
+                                          "computed": false
                                         },
                                         {
                                           "type": "Property",
                                           "start": 2226,
                                           "end": 2311,
-                                          "method": false,
-                                          "shorthand": false,
-                                          "computed": false,
+                                          "kind": "init",
                                           "key": {
                                             "type": "Identifier",
                                             "start": 2226,
@@ -1379,7 +1375,6 @@
                                             "start": 2231,
                                             "end": 2311,
                                             "id": null,
-                                            "expression": false,
                                             "generator": false,
                                             "async": false,
                                             "params": [
@@ -1433,17 +1428,18 @@
                                                   }
                                                 }
                                               ]
-                                            }
+                                            },
+                                            "expression": false
                                           },
-                                          "kind": "init"
+                                          "method": false,
+                                          "shorthand": false,
+                                          "computed": false
                                         },
                                         {
                                           "type": "Property",
                                           "start": 2319,
                                           "end": 2337,
-                                          "method": false,
-                                          "shorthand": false,
-                                          "computed": false,
+                                          "kind": "init",
                                           "key": {
                                             "type": "Identifier",
                                             "start": 2319,
@@ -1457,7 +1453,9 @@
                                             "value": true,
                                             "raw": "true"
                                           },
-                                          "kind": "init"
+                                          "method": false,
+                                          "shorthand": false,
+                                          "computed": false
                                         }
                                       ]
                                     }
@@ -1501,8 +1499,8 @@
                                         "end": 2369,
                                         "name": "set"
                                       },
-                                      "computed": false,
-                                      "optional": false
+                                      "optional": false,
+                                      "computed": false
                                     },
                                     "arguments": [
                                       {
@@ -1588,7 +1586,6 @@
                                     "start": 2494,
                                     "end": 2521,
                                     "operator": "!",
-                                    "prefix": true,
                                     "argument": {
                                       "type": "CallExpression",
                                       "start": 2495,
@@ -1609,8 +1606,8 @@
                                           "end": 2516,
                                           "name": "hasOwnProperty"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [
                                         {
@@ -1621,7 +1618,8 @@
                                         }
                                       ],
                                       "optional": false
-                                    }
+                                    },
+                                    "prefix": true
                                   },
                                   {
                                     "type": "BinaryExpression",
@@ -1708,8 +1706,8 @@
                                     "end": 2640,
                                     "name": "sameValue"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -1728,8 +1726,8 @@
                                       "end": 2653,
                                       "name": "key"
                                     },
-                                    "computed": true,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": true
                                   },
                                   {
                                     "type": "Literal",
@@ -1878,8 +1876,8 @@
                                       "end": 2824,
                                       "name": "defineProperty"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   "arguments": [
                                     {
@@ -1903,9 +1901,7 @@
                                           "type": "Property",
                                           "start": 2836,
                                           "end": 2844,
-                                          "method": false,
-                                          "shorthand": false,
-                                          "computed": false,
+                                          "kind": "init",
                                           "key": {
                                             "type": "Identifier",
                                             "start": 2836,
@@ -1919,15 +1915,15 @@
                                             "value": 1,
                                             "raw": "1"
                                           },
-                                          "kind": "init"
+                                          "method": false,
+                                          "shorthand": false,
+                                          "computed": false
                                         },
                                         {
                                           "type": "Property",
                                           "start": 2846,
                                           "end": 2861,
-                                          "method": false,
-                                          "shorthand": false,
-                                          "computed": false,
+                                          "kind": "init",
                                           "key": {
                                             "type": "Identifier",
                                             "start": 2846,
@@ -1941,15 +1937,15 @@
                                             "value": false,
                                             "raw": "false"
                                           },
-                                          "kind": "init"
+                                          "method": false,
+                                          "shorthand": false,
+                                          "computed": false
                                         },
                                         {
                                           "type": "Property",
                                           "start": 2863,
                                           "end": 2881,
-                                          "method": false,
-                                          "shorthand": false,
-                                          "computed": false,
+                                          "kind": "init",
                                           "key": {
                                             "type": "Identifier",
                                             "start": 2863,
@@ -1963,7 +1959,9 @@
                                             "value": true,
                                             "raw": "true"
                                           },
-                                          "kind": "init"
+                                          "method": false,
+                                          "shorthand": false,
+                                          "computed": false
                                         }
                                       ]
                                     }
@@ -2007,8 +2005,8 @@
                                         "end": 2908,
                                         "name": "set"
                                       },
-                                      "computed": false,
-                                      "optional": false
+                                      "optional": false,
+                                      "computed": false
                                     },
                                     "arguments": [
                                       {
@@ -2094,7 +2092,6 @@
                                     "start": 3037,
                                     "end": 3064,
                                     "operator": "!",
-                                    "prefix": true,
                                     "argument": {
                                       "type": "CallExpression",
                                       "start": 3038,
@@ -2115,8 +2112,8 @@
                                           "end": 3059,
                                           "name": "hasOwnProperty"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [
                                         {
@@ -2127,7 +2124,8 @@
                                         }
                                       ],
                                       "optional": false
-                                    }
+                                    },
+                                    "prefix": true
                                   },
                                   {
                                     "type": "BinaryExpression",
@@ -2214,8 +2212,8 @@
                                     "end": 3187,
                                     "name": "sameValue"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -2234,8 +2232,8 @@
                                       "end": 3200,
                                       "name": "key"
                                     },
-                                    "computed": true,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": true
                                   },
                                   {
                                     "type": "Literal",
@@ -2384,8 +2382,8 @@
                                       "end": 3378,
                                       "name": "preventExtensions"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   "arguments": [
                                     {
@@ -2434,8 +2432,8 @@
                                         "end": 3406,
                                         "name": "set"
                                       },
-                                      "computed": false,
-                                      "optional": false
+                                      "optional": false,
+                                      "computed": false
                                     },
                                     "arguments": [
                                       {
@@ -2521,7 +2519,6 @@
                                     "start": 3535,
                                     "end": 3562,
                                     "operator": "!",
-                                    "prefix": true,
                                     "argument": {
                                       "type": "CallExpression",
                                       "start": 3536,
@@ -2542,8 +2539,8 @@
                                           "end": 3557,
                                           "name": "hasOwnProperty"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [
                                         {
@@ -2554,7 +2551,8 @@
                                         }
                                       ],
                                       "optional": false
-                                    }
+                                    },
+                                    "prefix": true
                                   },
                                   {
                                     "type": "BinaryExpression",
@@ -2612,7 +2610,6 @@
                                     "start": 3661,
                                     "end": 3690,
                                     "operator": "!",
-                                    "prefix": true,
                                     "argument": {
                                       "type": "CallExpression",
                                       "start": 3662,
@@ -2633,8 +2630,8 @@
                                           "end": 3685,
                                           "name": "hasOwnProperty"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [
                                         {
@@ -2645,7 +2642,8 @@
                                         }
                                       ],
                                       "optional": false
-                                    }
+                                    },
+                                    "prefix": true
                                   },
                                   {
                                     "type": "BinaryExpression",
@@ -2703,7 +2701,6 @@
                                     "start": 3793,
                                     "end": 3817,
                                     "operator": "delete",
-                                    "prefix": true,
                                     "argument": {
                                       "type": "MemberExpression",
                                       "start": 3800,
@@ -2724,8 +2721,8 @@
                                           "end": 3812,
                                           "name": "prototype"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "property": {
                                         "type": "Identifier",
@@ -2733,16 +2730,18 @@
                                         "end": 3816,
                                         "name": "key"
                                       },
-                                      "computed": true,
-                                      "optional": false
-                                    }
+                                      "optional": false,
+                                      "computed": true
+                                    },
+                                    "prefix": true
                                   }
                                 ],
                                 "optional": false
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       }
                     ],
                     "optional": false
@@ -2878,8 +2877,8 @@
                             "end": 3901,
                             "name": "set"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -2941,7 +2940,6 @@
                         "start": 4021,
                         "end": 4046,
                         "operator": "!",
-                        "prefix": true,
                         "argument": {
                           "type": "CallExpression",
                           "start": 4022,
@@ -2962,8 +2960,8 @@
                               "end": 4043,
                               "name": "hasOwnProperty"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -2975,7 +2973,8 @@
                             }
                           ],
                           "optional": false
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "Literal",
@@ -3012,8 +3011,8 @@
                         "end": 4152,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -3033,8 +3032,8 @@
                           "value": 1,
                           "raw": "1"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Literal",
@@ -3055,7 +3054,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -3085,8 +3085,8 @@
             "end": 4280,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

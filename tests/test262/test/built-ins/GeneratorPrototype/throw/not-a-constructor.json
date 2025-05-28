@@ -27,8 +27,8 @@
             "end": 757,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -66,8 +66,8 @@
                       "end": 796,
                       "name": "getPrototypeOf"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -88,7 +88,6 @@
                             "end": 809,
                             "name": "g"
                           },
-                          "expression": false,
                           "generator": true,
                           "async": false,
                           "params": [],
@@ -97,7 +96,8 @@
                             "start": 812,
                             "end": 814,
                             "body": []
-                          }
+                          },
+                          "expression": false
                         }
                       },
                       "property": {
@@ -106,8 +106,8 @@
                         "end": 825,
                         "name": "prototype"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   ],
                   "optional": false
@@ -118,8 +118,8 @@
                   "end": 832,
                   "name": "throw"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             ],
             "optional": false
@@ -166,8 +166,8 @@
             "end": 956,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -180,9 +180,7 @@
             "type": "ArrowFunctionExpression",
             "start": 968,
             "end": 1129,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -200,7 +198,6 @@
                     "end": 989,
                     "name": "g"
                   },
-                  "expression": false,
                   "generator": true,
                   "async": false,
                   "params": [],
@@ -209,12 +206,14 @@
                     "start": 992,
                     "end": 994,
                     "body": []
-                  }
+                  },
+                  "expression": false
                 },
                 {
                   "type": "VariableDeclaration",
                   "start": 995,
                   "end": 1029,
+                  "kind": "let",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -239,13 +238,13 @@
                         "arguments": []
                       }
                     }
-                  ],
-                  "kind": "let"
+                  ]
                 },
                 {
                   "type": "VariableDeclaration",
                   "start": 1030,
                   "end": 1049,
+                  "kind": "let",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -271,8 +270,7 @@
                         "optional": false
                       }
                     }
-                  ],
-                  "kind": "let"
+                  ]
                 },
                 {
                   "type": "TryStatement",
@@ -307,8 +305,8 @@
                               "end": 1072,
                               "name": "throw"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -385,7 +383,9 @@
                   "finalizer": null
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

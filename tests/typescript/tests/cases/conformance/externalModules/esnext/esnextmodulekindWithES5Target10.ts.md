@@ -18,7 +18,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 11,
@@ -27,23 +26,16 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 19,
           "end": 24,
-          "raw": "\"mod\"",
-          "value": "mod"
+          "value": "mod",
+          "raw": "\"mod\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSModuleDeclaration",
       "start": 39,
       "end": 54,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 51,
-        "end": 54,
-        "body": []
-      },
-      "declare": false,
-      "global": false,
       "id": {
         "type": "Identifier",
         "start": 49,
@@ -53,7 +45,15 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "namespace"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 51,
+        "end": 54,
+        "body": []
+      },
+      "kind": "namespace",
+      "declare": false,
+      "global": false
     },
     {
       "type": "TSExportAssignment",

@@ -9,24 +9,33 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 13,
-      "directive": "use strict",
       "expression": {
         "type": "Literal",
         "start": 0,
         "end": 12,
-        "raw": "\"use strict\"",
-        "value": "use strict"
-      }
+        "value": "use strict",
+        "raw": "\"use strict\""
+      },
+      "directive": "use strict"
     },
     {
       "type": "ExpressionStatement",
       "start": 14,
       "end": 25,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 14,
         "end": 24,
+        "callee": {
+          "type": "Identifier",
+          "start": 14,
+          "end": 19,
+          "decorators": [],
+          "name": "yield",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null,
         "arguments": [
           {
             "type": "Identifier",
@@ -38,18 +47,9 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         ],
-        "callee": {
-          "type": "Identifier",
-          "start": 14,
-          "end": 19,
-          "decorators": [],
-          "name": "yield",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "optional": false,
-        "typeArguments": null
-      }
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

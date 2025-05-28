@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 21,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 0,
@@ -19,12 +18,10 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 0,
           "end": 16,
-          "computed": false,
           "object": {
             "type": "MemberExpression",
             "start": 0,
             "end": 14,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 0,
@@ -34,7 +31,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 7,
@@ -43,9 +39,10 @@ __ESTREE_TEST__:PASS:
               "name": "exports",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "optional": false,
+            "computed": false
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 15,
@@ -54,22 +51,24 @@ __ESTREE_TEST__:PASS:
             "name": "x",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
           "start": 19,
           "end": 20,
-          "raw": "1",
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 22,
       "end": 57,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 22,
@@ -79,7 +78,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 22,
           "end": 36,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 22,
@@ -89,7 +87,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 29,
@@ -98,21 +95,14 @@ __ESTREE_TEST__:PASS:
             "name": "exports",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "CallExpression",
           "start": 39,
           "end": 56,
-          "arguments": [
-            {
-              "type": "Literal",
-              "start": 47,
-              "end": 55,
-              "raw": "\"./y.js\"",
-              "value": "./y.js"
-            }
-          ],
           "callee": {
             "type": "Identifier",
             "start": 39,
@@ -122,10 +112,20 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
-          "typeArguments": null
+          "typeArguments": null,
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 47,
+              "end": 55,
+              "value": "./y.js",
+              "raw": "\"./y.js\""
+            }
+          ],
+          "optional": false
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",
@@ -143,12 +143,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 26,
-      "attributes": [],
       "declaration": {
         "type": "TSTypeAliasDeclaration",
         "start": 7,
         "end": 26,
-        "declare": true,
         "id": {
           "type": "Identifier",
           "start": 20,
@@ -158,6 +156,7 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "typeParameters": null,
         "typeAnnotation": {
           "type": "TSLiteralType",
           "start": 24,
@@ -166,15 +165,16 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 24,
             "end": 25,
-            "raw": "1",
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         },
-        "typeParameters": null
+        "declare": true
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     }
   ],
   "sourceType": "module",

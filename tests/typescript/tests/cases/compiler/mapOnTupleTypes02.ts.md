@@ -9,12 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 37,
-      "attributes": [],
       "declaration": {
         "type": "TSTypeAliasDeclaration",
         "start": 7,
         "end": 37,
-        "declare": false,
         "id": {
           "type": "Identifier",
           "start": 12,
@@ -24,6 +22,7 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "typeParameters": null,
         "typeAnnotation": {
           "type": "TSTupleType",
           "start": 20,
@@ -41,115 +40,21 @@ __ESTREE_TEST__:PASS:
             }
           ]
         },
-        "typeParameters": null
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 39,
       "end": 114,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 46,
         "end": 114,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 79,
-          "end": 114,
-          "body": [
-            {
-              "type": "ReturnStatement",
-              "start": 83,
-              "end": 112,
-              "argument": {
-                "type": "CallExpression",
-                "start": 90,
-                "end": 111,
-                "arguments": [
-                  {
-                    "type": "ArrowFunctionExpression",
-                    "start": 100,
-                    "end": 110,
-                    "async": false,
-                    "body": {
-                      "type": "BinaryExpression",
-                      "start": 105,
-                      "end": 110,
-                      "operator": "+",
-                      "left": {
-                        "type": "Identifier",
-                        "start": 105,
-                        "end": 106,
-                        "decorators": [],
-                        "name": "d",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "right": {
-                        "type": "Literal",
-                        "start": 109,
-                        "end": 110,
-                        "raw": "1",
-                        "value": 1
-                      }
-                    },
-                    "expression": true,
-                    "generator": false,
-                    "id": null,
-                    "params": [
-                      {
-                        "type": "Identifier",
-                        "start": 100,
-                        "end": 101,
-                        "decorators": [],
-                        "name": "d",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    ],
-                    "returnType": null,
-                    "typeParameters": null
-                  }
-                ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 90,
-                  "end": 99,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 90,
-                    "end": 95,
-                    "decorators": [],
-                    "name": "point",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 96,
-                    "end": 99,
-                    "decorators": [],
-                    "name": "map",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          ]
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 55,
@@ -159,6 +64,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [
           {
             "type": "Identifier",
@@ -175,7 +84,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 72,
                 "end": 77,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 72,
@@ -184,17 +92,109 @@ __ESTREE_TEST__:PASS:
                   "name": "Point",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             }
           }
         ],
         "returnType": null,
-        "typeParameters": null
+        "body": {
+          "type": "BlockStatement",
+          "start": 79,
+          "end": 114,
+          "body": [
+            {
+              "type": "ReturnStatement",
+              "start": 83,
+              "end": 112,
+              "argument": {
+                "type": "CallExpression",
+                "start": 90,
+                "end": 111,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 90,
+                  "end": 99,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 90,
+                    "end": 95,
+                    "decorators": [],
+                    "name": "point",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 96,
+                    "end": 99,
+                    "decorators": [],
+                    "name": "map",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "ArrowFunctionExpression",
+                    "start": 100,
+                    "end": 110,
+                    "expression": true,
+                    "async": false,
+                    "typeParameters": null,
+                    "params": [
+                      {
+                        "type": "Identifier",
+                        "start": 100,
+                        "end": 101,
+                        "decorators": [],
+                        "name": "d",
+                        "optional": false,
+                        "typeAnnotation": null
+                      }
+                    ],
+                    "returnType": null,
+                    "body": {
+                      "type": "BinaryExpression",
+                      "start": 105,
+                      "end": 110,
+                      "left": {
+                        "type": "Identifier",
+                        "start": 105,
+                        "end": 106,
+                        "decorators": [],
+                        "name": "d",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "operator": "+",
+                      "right": {
+                        "type": "Literal",
+                        "start": 109,
+                        "end": 110,
+                        "value": 1,
+                        "raw": "1"
+                      }
+                    },
+                    "id": null,
+                    "generator": false
+                  }
+                ],
+                "optional": false
+              }
+            }
+          ]
+        },
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

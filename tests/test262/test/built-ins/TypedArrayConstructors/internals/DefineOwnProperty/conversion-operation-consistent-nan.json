@@ -23,7 +23,6 @@
             "start": 2749,
             "end": 3448,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -43,6 +42,7 @@
                   "type": "VariableDeclaration",
                   "start": 2766,
                   "end": 2822,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -75,13 +75,13 @@
                         "optional": false
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "VariableDeclaration",
                   "start": 2825,
                   "end": 2849,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -114,13 +114,13 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "VariableDeclaration",
                   "start": 2852,
                   "end": 2876,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -158,8 +158,7 @@
                       },
                       "init": null
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ForStatement",
@@ -211,8 +210,8 @@
                         "end": 2911,
                         "name": "length"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   },
                   "update": {
@@ -264,8 +263,8 @@
                               "end": 2941,
                               "name": "idx"
                             },
-                            "computed": true,
-                            "optional": false
+                            "optional": false,
+                            "computed": true
                           }
                         }
                       },
@@ -348,8 +347,8 @@
                               "end": 3013,
                               "name": "defineProperty"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -374,9 +373,7 @@
                                   "type": "Property",
                                   "start": 3030,
                                   "end": 3041,
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 3030,
@@ -389,7 +386,9 @@
                                     "end": 3041,
                                     "name": "aNaN"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false
                                 }
                               ]
                             }
@@ -405,6 +404,7 @@
                           "type": "VariableDeclaration",
                           "start": 3056,
                           "end": 3065,
+                          "kind": "var",
                           "declarations": [
                             {
                               "type": "VariableDeclarator",
@@ -424,8 +424,7 @@
                                 "raw": "0"
                               }
                             }
-                          ],
-                          "kind": "var"
+                          ]
                         },
                         "test": {
                           "type": "BinaryExpression",
@@ -454,8 +453,8 @@
                               "end": 3085,
                               "name": "length"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           }
                         },
                         "update": {
@@ -480,6 +479,7 @@
                               "type": "VariableDeclaration",
                               "start": 3100,
                               "end": 3124,
+                              "kind": "var",
                               "declarations": [
                                 {
                                   "type": "VariableDeclarator",
@@ -507,17 +507,17 @@
                                       "end": 3122,
                                       "name": "i"
                                     },
-                                    "computed": true,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": true
                                   }
                                 }
-                              ],
-                              "kind": "var"
+                              ]
                             },
                             {
                               "type": "VariableDeclaration",
                               "start": 3131,
                               "end": 3157,
+                              "kind": "var",
                               "declarations": [
                                 {
                                   "type": "VariableDeclarator",
@@ -545,12 +545,11 @@
                                       "end": 3155,
                                       "name": "i"
                                     },
-                                    "computed": true,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": true
                                   }
                                 }
-                              ],
-                              "kind": "var"
+                              ]
                             },
                             {
                               "type": "ExpressionStatement",
@@ -587,8 +586,8 @@
                                         "end": 3190,
                                         "name": "i"
                                       },
-                                      "computed": true,
-                                      "optional": false
+                                      "optional": false,
+                                      "computed": true
                                     },
                                     "operator": "!==",
                                     "right": {
@@ -607,28 +606,14 @@
                                         "end": 3205,
                                         "name": "i"
                                       },
-                                      "computed": true,
-                                      "optional": false
+                                      "optional": false,
+                                      "computed": true
                                     }
                                   },
                                   {
                                     "type": "TemplateLiteral",
                                     "start": 3216,
                                     "end": 3286,
-                                    "expressions": [
-                                      {
-                                        "type": "Identifier",
-                                        "start": 3234,
-                                        "end": 3237,
-                                        "name": "idx"
-                                      },
-                                      {
-                                        "type": "Identifier",
-                                        "start": 3264,
-                                        "end": 3273,
-                                        "name": "precision"
-                                      }
-                                    ],
                                     "quasis": [
                                       {
                                         "type": "TemplateElement",
@@ -659,6 +644,20 @@
                                           "cooked": " precision)"
                                         },
                                         "tail": true
+                                      }
+                                    ],
+                                    "expressions": [
+                                      {
+                                        "type": "Identifier",
+                                        "start": 3234,
+                                        "end": 3237,
+                                        "name": "idx"
+                                      },
+                                      {
+                                        "type": "Identifier",
+                                        "start": 3264,
+                                        "end": 3273,
+                                        "name": "precision"
                                       }
                                     ]
                                   }
@@ -701,8 +700,8 @@
                                         "end": 3329,
                                         "name": "i"
                                       },
-                                      "computed": true,
-                                      "optional": false
+                                      "optional": false,
+                                      "computed": true
                                     },
                                     "operator": "!==",
                                     "right": {
@@ -721,28 +720,14 @@
                                         "end": 3345,
                                         "name": "i"
                                       },
-                                      "computed": true,
-                                      "optional": false
+                                      "optional": false,
+                                      "computed": true
                                     }
                                   },
                                   {
                                     "type": "TemplateLiteral",
                                     "start": 3356,
                                     "end": 3427,
-                                    "expressions": [
-                                      {
-                                        "type": "Identifier",
-                                        "start": 3375,
-                                        "end": 3378,
-                                        "name": "idx"
-                                      },
-                                      {
-                                        "type": "Identifier",
-                                        "start": 3405,
-                                        "end": 3414,
-                                        "name": "precision"
-                                      }
-                                    ],
                                     "quasis": [
                                       {
                                         "type": "TemplateElement",
@@ -774,6 +759,20 @@
                                         },
                                         "tail": true
                                       }
+                                    ],
+                                    "expressions": [
+                                      {
+                                        "type": "Identifier",
+                                        "start": 3375,
+                                        "end": 3378,
+                                        "name": "idx"
+                                      },
+                                      {
+                                        "type": "Identifier",
+                                        "start": 3405,
+                                        "end": 3414,
+                                        "name": "precision"
+                                      }
                                     ]
                                   }
                                 ],
@@ -787,7 +786,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Identifier",

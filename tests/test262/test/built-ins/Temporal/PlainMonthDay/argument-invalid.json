@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 259,
       "end": 416,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -96,14 +97,14 @@
                     "start": 319,
                     "end": 321,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 320,
                       "end": 321,
                       "value": 3,
                       "raw": "3"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "Literal",
@@ -250,22 +251,21 @@
                     "start": 408,
                     "end": 411,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 409,
                       "end": 411,
                       "value": 20,
                       "raw": "20"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -276,6 +276,7 @@
         "type": "VariableDeclaration",
         "start": 423,
         "end": 447,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -308,8 +309,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -346,8 +346,8 @@
                   "end": 475,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -360,9 +360,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 488,
                   "end": 549,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -385,8 +383,8 @@
                         "end": 520,
                         "name": "PlainMonthDay"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -414,32 +412,14 @@
                         "name": "year"
                       }
                     ]
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 555,
                   "end": 597,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 563,
-                      "end": 567,
-                      "name": "year"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 578,
-                      "end": 583,
-                      "name": "month"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 592,
-                      "end": 595,
-                      "name": "day"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -480,6 +460,26 @@
                         "cooked": ""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 563,
+                      "end": 567,
+                      "name": "year"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 578,
+                      "end": 583,
+                      "name": "month"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 592,
+                      "end": 595,
+                      "name": "day"
                     }
                   ]
                 }

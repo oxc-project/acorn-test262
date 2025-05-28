@@ -9,17 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 31,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 31,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 11,
             "end": 30,
-            "definite": false,
             "id": {
               "type": "ArrayPattern",
               "start": 11,
@@ -66,61 +65,60 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 22,
                   "end": 23,
-                  "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 {
                   "type": "Literal",
                   "start": 25,
                   "end": 26,
-                  "raw": "2",
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 },
                 {
                   "type": "Literal",
                   "start": 28,
                   "end": 29,
-                  "raw": "3",
-                  "value": 3
+                  "value": 3,
+                  "raw": "3"
                 }
               ]
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "let"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 32,
       "end": 92,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 39,
         "end": 92,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 45,
             "end": 91,
-            "definite": false,
             "id": {
               "type": "ObjectPattern",
               "start": 45,
               "end": 64,
               "decorators": [],
-              "optional": false,
               "properties": [
                 {
                   "type": "Property",
                   "start": 46,
                   "end": 51,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 46,
@@ -130,10 +128,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "kind": "init",
-                  "method": false,
-                  "optional": false,
-                  "shorthand": false,
                   "value": {
                     "type": "Identifier",
                     "start": 49,
@@ -142,13 +136,17 @@ __ESTREE_TEST__:PASS:
                     "name": "z0",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "optional": false
                 },
                 {
                   "type": "Property",
                   "start": 53,
                   "end": 63,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 53,
@@ -158,22 +156,17 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "kind": "init",
-                  "method": false,
-                  "optional": false,
-                  "shorthand": false,
                   "value": {
                     "type": "ObjectPattern",
                     "start": 56,
                     "end": 63,
                     "decorators": [],
-                    "optional": false,
                     "properties": [
                       {
                         "type": "Property",
                         "start": 57,
                         "end": 62,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 57,
@@ -183,10 +176,6 @@ __ESTREE_TEST__:PASS:
                           "optional": false,
                           "typeAnnotation": null
                         },
-                        "kind": "init",
-                        "method": false,
-                        "optional": false,
-                        "shorthand": false,
                         "value": {
                           "type": "Identifier",
                           "start": 60,
@@ -195,13 +184,23 @@ __ESTREE_TEST__:PASS:
                           "name": "z1",
                           "optional": false,
                           "typeAnnotation": null
-                        }
+                        },
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false,
+                        "optional": false
                       }
                     ],
+                    "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "optional": false
                 }
               ],
+              "optional": false,
               "typeAnnotation": null
             },
             "init": {
@@ -213,7 +212,7 @@ __ESTREE_TEST__:PASS:
                   "type": "Property",
                   "start": 68,
                   "end": 75,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 68,
@@ -223,23 +222,23 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "kind": "init",
-                  "method": false,
-                  "optional": false,
-                  "shorthand": false,
                   "value": {
                     "type": "Literal",
                     "start": 71,
                     "end": 75,
-                    "raw": "true",
-                    "value": true
-                  }
+                    "value": true,
+                    "raw": "true"
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "optional": false
                 },
                 {
                   "type": "Property",
                   "start": 77,
                   "end": 90,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 77,
@@ -249,10 +248,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "kind": "init",
-                  "method": false,
-                  "optional": false,
-                  "shorthand": false,
                   "value": {
                     "type": "ObjectExpression",
                     "start": 80,
@@ -262,7 +257,7 @@ __ESTREE_TEST__:PASS:
                         "type": "Property",
                         "start": 81,
                         "end": 89,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 81,
@@ -272,43 +267,42 @@ __ESTREE_TEST__:PASS:
                           "optional": false,
                           "typeAnnotation": null
                         },
-                        "kind": "init",
-                        "method": false,
-                        "optional": false,
-                        "shorthand": false,
                         "value": {
                           "type": "Literal",
                           "start": 84,
                           "end": 89,
-                          "raw": "\"123\"",
-                          "value": "123"
-                        }
+                          "value": "123",
+                          "raw": "\"123\""
+                        },
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false,
+                        "optional": false
                       }
                     ]
-                  }
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "optional": false
                 }
               ]
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ForOfStatement",
       "start": 93,
       "end": 114,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 112,
-        "end": 114,
-        "body": []
-      },
       "left": {
         "type": "ArrayPattern",
         "start": 98,
@@ -342,12 +336,18 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 107,
                 "end": 108,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ]
           }
         ]
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 112,
+        "end": 114,
+        "body": []
       }
     }
   ],

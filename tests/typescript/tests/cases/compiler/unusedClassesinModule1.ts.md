@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 81,
+      "id": {
+        "type": "Identifier",
+        "start": 7,
+        "end": 8,
+        "decorators": [],
+        "name": "A",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 9,
@@ -18,55 +27,6 @@ __ESTREE_TEST__:PASS:
             "type": "ClassDeclaration",
             "start": 15,
             "end": 79,
-            "abstract": false,
-            "body": {
-              "type": "ClassBody",
-              "start": 32,
-              "end": 79,
-              "body": [
-                {
-                  "type": "MethodDefinition",
-                  "start": 42,
-                  "end": 73,
-                  "accessibility": "public",
-                  "computed": false,
-                  "decorators": [],
-                  "key": {
-                    "type": "Identifier",
-                    "start": 49,
-                    "end": 59,
-                    "decorators": [],
-                    "name": "handelChar",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "kind": "method",
-                  "optional": false,
-                  "override": false,
-                  "static": false,
-                  "value": {
-                    "type": "FunctionExpression",
-                    "start": 59,
-                    "end": 73,
-                    "async": false,
-                    "body": {
-                      "type": "BlockStatement",
-                      "start": 62,
-                      "end": 73,
-                      "body": []
-                    },
-                    "declare": false,
-                    "expression": false,
-                    "generator": false,
-                    "id": null,
-                    "params": [],
-                    "returnType": null,
-                    "typeParameters": null
-                  }
-                }
-              ]
-            },
-            "declare": false,
             "decorators": [],
             "id": {
               "type": "Identifier",
@@ -77,25 +37,65 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "implements": [],
+            "typeParameters": null,
             "superClass": null,
             "superTypeArguments": null,
-            "typeParameters": null
+            "implements": [],
+            "body": {
+              "type": "ClassBody",
+              "start": 32,
+              "end": 79,
+              "body": [
+                {
+                  "type": "MethodDefinition",
+                  "start": 42,
+                  "end": 73,
+                  "decorators": [],
+                  "key": {
+                    "type": "Identifier",
+                    "start": 49,
+                    "end": 59,
+                    "decorators": [],
+                    "name": "handelChar",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "value": {
+                    "type": "FunctionExpression",
+                    "start": 59,
+                    "end": 73,
+                    "id": null,
+                    "generator": false,
+                    "async": false,
+                    "declare": false,
+                    "typeParameters": null,
+                    "params": [],
+                    "returnType": null,
+                    "body": {
+                      "type": "BlockStatement",
+                      "start": 62,
+                      "end": 73,
+                      "body": []
+                    },
+                    "expression": false
+                  },
+                  "kind": "method",
+                  "computed": false,
+                  "static": false,
+                  "override": false,
+                  "optional": false,
+                  "accessibility": "public"
+                }
+              ]
+            },
+            "abstract": false,
+            "declare": false
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 7,
-        "end": 8,
-        "decorators": [],
-        "name": "A",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "script",

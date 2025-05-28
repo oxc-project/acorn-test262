@@ -22,9 +22,7 @@
             "type": "ArrowFunctionExpression",
             "start": 645,
             "end": 1873,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": true,
             "params": [],
             "body": {
@@ -60,8 +58,8 @@
                           "end": 682,
                           "name": "fromAsync"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -97,7 +95,6 @@
                           "start": 694,
                           "end": 820,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": true,
                           "params": [],
@@ -130,8 +127,8 @@
                                       "end": 734,
                                       "name": "sameValue"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   "arguments": [
                                     {
@@ -157,7 +154,8 @@
                                 }
                               }
                             ]
-                          }
+                          },
+                          "expression": false
                         },
                         {
                           "type": "Identifier",
@@ -198,8 +196,8 @@
                           "end": 858,
                           "name": "fromAsync"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -235,7 +233,6 @@
                           "start": 870,
                           "end": 986,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": true,
                           "params": [],
@@ -268,8 +265,8 @@
                                       "end": 910,
                                       "name": "sameValue"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   "arguments": [
                                     {
@@ -296,7 +293,8 @@
                                 }
                               }
                             ]
-                          }
+                          },
+                          "expression": false
                         },
                         {
                           "type": "Literal",
@@ -338,8 +336,8 @@
                           "end": 1019,
                           "name": "fromAsync"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -375,7 +373,6 @@
                           "start": 1031,
                           "end": 1153,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": true,
                           "params": [],
@@ -408,8 +405,8 @@
                                       "end": 1071,
                                       "name": "sameValue"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   "arguments": [
                                     {
@@ -436,7 +433,8 @@
                                 }
                               }
                             ]
-                          }
+                          },
+                          "expression": false
                         },
                         {
                           "type": "Literal",
@@ -478,8 +476,8 @@
                           "end": 1190,
                           "name": "fromAsync"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -515,7 +513,6 @@
                           "start": 1202,
                           "end": 1322,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": true,
                           "params": [],
@@ -548,8 +545,8 @@
                                       "end": 1242,
                                       "name": "sameValue"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   "arguments": [
                                     {
@@ -576,7 +573,8 @@
                                 }
                               }
                             ]
-                          }
+                          },
+                          "expression": false
                         },
                         {
                           "type": "Literal",
@@ -618,8 +616,8 @@
                           "end": 1357,
                           "name": "fromAsync"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -655,7 +653,6 @@
                           "start": 1369,
                           "end": 1486,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": true,
                           "params": [],
@@ -688,8 +685,8 @@
                                       "end": 1409,
                                       "name": "sameValue"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   "arguments": [
                                     {
@@ -717,7 +714,8 @@
                                 }
                               }
                             ]
-                          }
+                          },
+                          "expression": false
                         },
                         {
                           "type": "Literal",
@@ -760,8 +758,8 @@
                           "end": 1518,
                           "name": "fromAsync"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -797,7 +795,6 @@
                           "start": 1530,
                           "end": 1649,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": true,
                           "params": [],
@@ -830,8 +827,8 @@
                                       "end": 1570,
                                       "name": "sameValue"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   "arguments": [
                                     {
@@ -858,7 +855,8 @@
                                 }
                               }
                             ]
-                          }
+                          },
+                          "expression": false
                         },
                         {
                           "type": "Literal",
@@ -876,6 +874,7 @@
                   "type": "VariableDeclaration",
                   "start": 1661,
                   "end": 1697,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -909,8 +908,7 @@
                         "optional": false
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -940,8 +938,8 @@
                           "end": 1721,
                           "name": "fromAsync"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -977,7 +975,6 @@
                           "start": 1733,
                           "end": 1857,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": true,
                           "params": [],
@@ -1010,8 +1007,8 @@
                                       "end": 1773,
                                       "name": "sameValue"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   "arguments": [
                                     {
@@ -1037,7 +1034,8 @@
                                 }
                               }
                             ]
-                          }
+                          },
+                          "expression": false
                         },
                         {
                           "type": "Identifier",
@@ -1051,7 +1049,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

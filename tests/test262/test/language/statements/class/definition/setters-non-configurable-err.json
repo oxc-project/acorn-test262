@@ -27,8 +27,8 @@
             "end": 528,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 540,
             "end": 599,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -71,8 +70,6 @@
                         "type": "MethodDefinition",
                         "start": 565,
                         "end": 595,
-                        "static": true,
-                        "computed": true,
                         "key": {
                           "type": "Literal",
                           "start": 577,
@@ -80,13 +77,11 @@
                           "value": "prototype",
                           "raw": "'prototype'"
                         },
-                        "kind": "set",
                         "value": {
                           "type": "FunctionExpression",
                           "start": 589,
                           "end": 595,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [
@@ -102,14 +97,19 @@
                             "start": 593,
                             "end": 595,
                             "body": []
-                          }
-                        }
+                          },
+                          "expression": false
+                        },
+                        "kind": "set",
+                        "computed": true,
+                        "static": true
                       }
                     ]
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

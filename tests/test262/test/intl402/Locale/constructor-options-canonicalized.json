@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1062,
       "end": 1235,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -32,9 +33,7 @@
                     "type": "Property",
                     "start": 1094,
                     "end": 1103,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1094,
@@ -48,15 +47,15 @@
                       "value": "ca",
                       "raw": "\"ca\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 1109,
                     "end": 1127,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1109,
@@ -70,15 +69,15 @@
                       "value": "calendar",
                       "raw": "\"calendar\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 1133,
                     "end": 1226,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1133,
@@ -134,15 +133,16 @@
                         }
                       ]
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -153,6 +153,7 @@
         "type": "VariableDeclaration",
         "start": 1242,
         "end": 1270,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -167,9 +168,7 @@
                   "type": "Property",
                   "start": 1250,
                   "end": 1253,
-                  "method": false,
-                  "shorthand": true,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 1250,
@@ -182,15 +181,15 @@
                     "end": 1253,
                     "name": "key"
                   },
-                  "kind": "init"
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false
                 },
                 {
                   "type": "Property",
                   "start": 1255,
                   "end": 1261,
-                  "method": false,
-                  "shorthand": true,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 1255,
@@ -203,15 +202,15 @@
                     "end": 1261,
                     "name": "option"
                   },
-                  "kind": "init"
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false
                 },
                 {
                   "type": "Property",
                   "start": 1263,
                   "end": 1268,
-                  "method": false,
-                  "shorthand": true,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 1263,
@@ -224,14 +223,15 @@
                     "end": 1268,
                     "name": "tests"
                   },
-                  "kind": "init"
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false
                 }
               ]
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -253,6 +253,7 @@
               "type": "VariableDeclaration",
               "start": 1298,
               "end": 1329,
+              "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -279,8 +280,7 @@
                   },
                   "init": null
                 }
-              ],
-              "kind": "const"
+              ]
             },
             "right": {
               "type": "Identifier",
@@ -297,6 +297,7 @@
                   "type": "VariableDeclaration",
                   "start": 1346,
                   "end": 1420,
+                  "kind": "let",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -328,28 +329,14 @@
                             "end": 1391,
                             "name": "Locale"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
                             "type": "TemplateLiteral",
                             "start": 1392,
                             "end": 1418,
-                            "expressions": [
-                              {
-                                "type": "Identifier",
-                                "start": 1400,
-                                "end": 1403,
-                                "name": "key"
-                              },
-                              {
-                                "type": "Identifier",
-                                "start": 1407,
-                                "end": 1416,
-                                "name": "canonical"
-                              }
-                            ],
                             "quasis": [
                               {
                                 "type": "TemplateElement",
@@ -381,13 +368,26 @@
                                 },
                                 "tail": true
                               }
+                            ],
+                            "expressions": [
+                              {
+                                "type": "Identifier",
+                                "start": 1400,
+                                "end": 1403,
+                                "name": "key"
+                              },
+                              {
+                                "type": "Identifier",
+                                "start": 1407,
+                                "end": 1416,
+                                "name": "canonical"
+                              }
                             ]
                           }
                         ]
                       }
                     }
-                  ],
-                  "kind": "let"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -413,8 +413,8 @@
                         "end": 1442,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -433,8 +433,8 @@
                           "end": 1474,
                           "name": "option"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Identifier",
@@ -446,32 +446,6 @@
                         "type": "TemplateLiteral",
                         "start": 1500,
                         "end": 1576,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 1525,
-                            "end": 1528,
-                            "name": "key"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 1532,
-                            "end": 1541,
-                            "name": "canonical"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 1547,
-                            "end": 1553,
-                            "name": "option"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 1565,
-                            "end": 1574,
-                            "name": "canonical"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -523,6 +497,32 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 1525,
+                            "end": 1528,
+                            "name": "key"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 1532,
+                            "end": 1541,
+                            "name": "canonical"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 1547,
+                            "end": 1553,
+                            "name": "option"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 1565,
+                            "end": 1574,
+                            "name": "canonical"
+                          }
                         ]
                       }
                     ],
@@ -533,6 +533,7 @@
                   "type": "VariableDeclaration",
                   "start": 1589,
                   "end": 1666,
+                  "kind": "let",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -564,15 +565,14 @@
                             "end": 1634,
                             "name": "Locale"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
                             "type": "TemplateLiteral",
                             "start": 1635,
                             "end": 1639,
-                            "expressions": [],
                             "quasis": [
                               {
                                 "type": "TemplateElement",
@@ -584,7 +584,8 @@
                                 },
                                 "tail": true
                               }
-                            ]
+                            ],
+                            "expressions": []
                           },
                           {
                             "type": "ObjectExpression",
@@ -595,9 +596,7 @@
                                 "type": "Property",
                                 "start": 1643,
                                 "end": 1662,
-                                "method": false,
-                                "shorthand": false,
-                                "computed": true,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 1644,
@@ -610,15 +609,16 @@
                                   "end": 1662,
                                   "name": "canonical"
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": false,
+                                "computed": true
                               }
                             ]
                           }
                         ]
                       }
                     }
-                  ],
-                  "kind": "let"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -644,8 +644,8 @@
                         "end": 1688,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -664,8 +664,8 @@
                           "end": 1720,
                           "name": "option"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Identifier",
@@ -677,32 +677,6 @@
                         "type": "TemplateLiteral",
                         "start": 1746,
                         "end": 1831,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 1773,
-                            "end": 1779,
-                            "name": "option"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 1785,
-                            "end": 1794,
-                            "name": "canonical"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 1802,
-                            "end": 1808,
-                            "name": "option"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 1820,
-                            "end": 1829,
-                            "name": "canonical"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -754,6 +728,32 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 1773,
+                            "end": 1779,
+                            "name": "option"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 1785,
+                            "end": 1794,
+                            "name": "canonical"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 1802,
+                            "end": 1808,
+                            "name": "option"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 1820,
+                            "end": 1829,
+                            "name": "canonical"
+                          }
                         ]
                       }
                     ],
@@ -764,6 +764,7 @@
                   "type": "VariableDeclaration",
                   "start": 1844,
                   "end": 1924,
+                  "kind": "let",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -795,28 +796,14 @@
                             "end": 1892,
                             "name": "Locale"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
                             "type": "TemplateLiteral",
                             "start": 1893,
                             "end": 1922,
-                            "expressions": [
-                              {
-                                "type": "Identifier",
-                                "start": 1901,
-                                "end": 1904,
-                                "name": "key"
-                              },
-                              {
-                                "type": "Identifier",
-                                "start": 1908,
-                                "end": 1920,
-                                "name": "noncanonical"
-                              }
-                            ],
                             "quasis": [
                               {
                                 "type": "TemplateElement",
@@ -848,13 +835,26 @@
                                 },
                                 "tail": true
                               }
+                            ],
+                            "expressions": [
+                              {
+                                "type": "Identifier",
+                                "start": 1901,
+                                "end": 1904,
+                                "name": "key"
+                              },
+                              {
+                                "type": "Identifier",
+                                "start": 1908,
+                                "end": 1920,
+                                "name": "noncanonical"
+                              }
                             ]
                           }
                         ]
                       }
                     }
-                  ],
-                  "kind": "let"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -880,8 +880,8 @@
                         "end": 1946,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -900,8 +900,8 @@
                           "end": 1981,
                           "name": "option"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Identifier",
@@ -913,32 +913,6 @@
                         "type": "TemplateLiteral",
                         "start": 2007,
                         "end": 2086,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 2032,
-                            "end": 2035,
-                            "name": "key"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 2039,
-                            "end": 2051,
-                            "name": "noncanonical"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 2057,
-                            "end": 2063,
-                            "name": "option"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 2075,
-                            "end": 2084,
-                            "name": "canonical"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -990,6 +964,32 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 2032,
+                            "end": 2035,
+                            "name": "key"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 2039,
+                            "end": 2051,
+                            "name": "noncanonical"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 2057,
+                            "end": 2063,
+                            "name": "option"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 2075,
+                            "end": 2084,
+                            "name": "canonical"
+                          }
                         ]
                       }
                     ],
@@ -1000,6 +1000,7 @@
                   "type": "VariableDeclaration",
                   "start": 2099,
                   "end": 2182,
+                  "kind": "let",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -1031,15 +1032,14 @@
                             "end": 2147,
                             "name": "Locale"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
                             "type": "TemplateLiteral",
                             "start": 2148,
                             "end": 2152,
-                            "expressions": [],
                             "quasis": [
                               {
                                 "type": "TemplateElement",
@@ -1051,7 +1051,8 @@
                                 },
                                 "tail": true
                               }
-                            ]
+                            ],
+                            "expressions": []
                           },
                           {
                             "type": "ObjectExpression",
@@ -1062,9 +1063,7 @@
                                 "type": "Property",
                                 "start": 2156,
                                 "end": 2178,
-                                "method": false,
-                                "shorthand": false,
-                                "computed": true,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 2157,
@@ -1077,15 +1076,16 @@
                                   "end": 2178,
                                   "name": "noncanonical"
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": false,
+                                "computed": true
                               }
                             ]
                           }
                         ]
                       }
                     }
-                  ],
-                  "kind": "let"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -1111,8 +1111,8 @@
                         "end": 2204,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1131,8 +1131,8 @@
                           "end": 2239,
                           "name": "option"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       {
                         "type": "Identifier",
@@ -1144,32 +1144,6 @@
                         "type": "TemplateLiteral",
                         "start": 2265,
                         "end": 2353,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 2292,
-                            "end": 2298,
-                            "name": "option"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 2304,
-                            "end": 2316,
-                            "name": "noncanonical"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 2324,
-                            "end": 2330,
-                            "name": "option"
-                          },
-                          {
-                            "type": "Identifier",
-                            "start": 2342,
-                            "end": 2351,
-                            "name": "canonical"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -1220,6 +1194,32 @@
                               "cooked": ""
                             },
                             "tail": true
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 2292,
+                            "end": 2298,
+                            "name": "option"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 2304,
+                            "end": 2316,
+                            "name": "noncanonical"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 2324,
+                            "end": 2330,
+                            "name": "option"
+                          },
+                          {
+                            "type": "Identifier",
+                            "start": 2342,
+                            "end": 2351,
+                            "name": "canonical"
                           }
                         ]
                       }

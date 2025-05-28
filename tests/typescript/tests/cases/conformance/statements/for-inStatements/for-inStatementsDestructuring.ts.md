@@ -9,22 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ForInStatement",
       "start": 0,
       "end": 25,
-      "body": {
-        "type": "BlockStatement",
-        "start": 23,
-        "end": 25,
-        "body": []
-      },
       "left": {
         "type": "VariableDeclaration",
         "start": 5,
         "end": 15,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 9,
             "end": 15,
-            "definite": false,
             "id": {
               "type": "ArrayPattern",
               "start": 9,
@@ -53,17 +47,23 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
       "right": {
         "type": "ArrayExpression",
         "start": 19,
         "end": 21,
         "elements": []
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 23,
+        "end": 25,
+        "body": []
       }
     }
   ],

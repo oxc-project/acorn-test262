@@ -13,7 +13,6 @@
         "end": 778,
         "name": "thrower"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -40,7 +39,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -66,8 +66,8 @@
             "end": 827,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -81,7 +81,6 @@
             "start": 842,
             "end": 912,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -125,9 +124,7 @@
                           "type": "Property",
                           "start": 890,
                           "end": 904,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": true,
+                          "kind": "init",
                           "key": {
                             "type": "CallExpression",
                             "start": 891,
@@ -147,7 +144,9 @@
                             "end": 904,
                             "name": "x"
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": true
                         }
                       ]
                     },
@@ -161,7 +160,8 @@
                   "finalizer": null
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

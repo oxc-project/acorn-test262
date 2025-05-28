@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 797,
       "end": 815,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "'outside'"
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 816,
       "end": 856,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -70,8 +71,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "SwitchStatement",
@@ -98,7 +98,6 @@
               "start": 878,
               "end": 902,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -119,7 +118,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
           },
           {
@@ -136,79 +136,6 @@
           "type": "SwitchCase",
           "start": 914,
           "end": 1030,
-          "consequent": [
-            {
-              "type": "ExpressionStatement",
-              "start": 971,
-              "end": 1008,
-              "expression": {
-                "type": "AssignmentExpression",
-                "start": 971,
-                "end": 1007,
-                "operator": "=",
-                "left": {
-                  "type": "Identifier",
-                  "start": 971,
-                  "end": 980,
-                  "name": "probeStmt"
-                },
-                "right": {
-                  "type": "FunctionExpression",
-                  "start": 983,
-                  "end": 1007,
-                  "id": null,
-                  "expression": false,
-                  "generator": false,
-                  "async": false,
-                  "params": [],
-                  "body": {
-                    "type": "BlockStatement",
-                    "start": 994,
-                    "end": 1007,
-                    "body": [
-                      {
-                        "type": "ReturnStatement",
-                        "start": 996,
-                        "end": 1005,
-                        "argument": {
-                          "type": "Identifier",
-                          "start": 1003,
-                          "end": 1004,
-                          "name": "x"
-                        }
-                      }
-                    ]
-                  }
-                }
-              }
-            },
-            {
-              "type": "VariableDeclaration",
-              "start": 1013,
-              "end": 1030,
-              "declarations": [
-                {
-                  "type": "VariableDeclarator",
-                  "start": 1017,
-                  "end": 1029,
-                  "id": {
-                    "type": "Identifier",
-                    "start": 1017,
-                    "end": 1018,
-                    "name": "x"
-                  },
-                  "init": {
-                    "type": "Literal",
-                    "start": 1021,
-                    "end": 1029,
-                    "value": "inside",
-                    "raw": "'inside'"
-                  }
-                }
-              ],
-              "kind": "let"
-            }
-          ],
           "test": {
             "type": "SequenceExpression",
             "start": 919,
@@ -230,7 +157,6 @@
                   "start": 935,
                   "end": 959,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -251,7 +177,8 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 }
               },
               {
@@ -262,7 +189,80 @@
                 "raw": "null"
               }
             ]
-          }
+          },
+          "consequent": [
+            {
+              "type": "ExpressionStatement",
+              "start": 971,
+              "end": 1008,
+              "expression": {
+                "type": "AssignmentExpression",
+                "start": 971,
+                "end": 1007,
+                "operator": "=",
+                "left": {
+                  "type": "Identifier",
+                  "start": 971,
+                  "end": 980,
+                  "name": "probeStmt"
+                },
+                "right": {
+                  "type": "FunctionExpression",
+                  "start": 983,
+                  "end": 1007,
+                  "id": null,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 994,
+                    "end": 1007,
+                    "body": [
+                      {
+                        "type": "ReturnStatement",
+                        "start": 996,
+                        "end": 1005,
+                        "argument": {
+                          "type": "Identifier",
+                          "start": 1003,
+                          "end": 1004,
+                          "name": "x"
+                        }
+                      }
+                    ]
+                  },
+                  "expression": false
+                }
+              }
+            },
+            {
+              "type": "VariableDeclaration",
+              "start": 1013,
+              "end": 1030,
+              "kind": "let",
+              "declarations": [
+                {
+                  "type": "VariableDeclarator",
+                  "start": 1017,
+                  "end": 1029,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 1017,
+                    "end": 1018,
+                    "name": "x"
+                  },
+                  "init": {
+                    "type": "Literal",
+                    "start": 1021,
+                    "end": 1029,
+                    "value": "inside",
+                    "raw": "'inside'"
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -290,8 +290,8 @@
             "end": 1050,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -342,8 +342,8 @@
             "end": 1092,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -401,8 +401,8 @@
             "end": 1181,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

@@ -9,19 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 20,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 7,
         "end": 20,
-        "abstract": false,
-        "body": {
-          "type": "ClassBody",
-          "start": 17,
-          "end": 20,
-          "body": []
-        },
-        "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
@@ -32,30 +23,38 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "implements": [],
+        "typeParameters": null,
         "superClass": null,
         "superTypeArguments": null,
-        "typeParameters": null
+        "implements": [],
+        "body": {
+          "type": "ClassBody",
+          "start": 17,
+          "end": 20,
+          "body": []
+        },
+        "abstract": false,
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 22,
       "end": 49,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 29,
         "end": 49,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 33,
             "end": 48,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 33,
@@ -69,7 +68,6 @@ __ESTREE_TEST__:PASS:
               "type": "NewExpression",
               "start": 39,
               "end": 48,
-              "arguments": [],
               "callee": {
                 "type": "Identifier",
                 "start": 43,
@@ -79,49 +77,27 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": []
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 51,
       "end": 102,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 58,
         "end": 102,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 82,
-          "end": 102,
-          "body": [
-            {
-              "type": "ReturnStatement",
-              "start": 88,
-              "end": 100,
-              "argument": {
-                "type": "Literal",
-                "start": 95,
-                "end": 99,
-                "raw": "true",
-                "value": true
-              }
-            }
-          ]
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 67,
@@ -131,6 +107,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [
           {
             "type": "Identifier",
@@ -147,7 +127,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 77,
                 "end": 80,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 77,
@@ -156,17 +135,38 @@ __ESTREE_TEST__:PASS:
                   "name": "Foo",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             }
           }
         ],
         "returnType": null,
-        "typeParameters": null
+        "body": {
+          "type": "BlockStatement",
+          "start": 82,
+          "end": 102,
+          "body": [
+            {
+              "type": "ReturnStatement",
+              "start": 88,
+              "end": 100,
+              "argument": {
+                "type": "Literal",
+                "start": 95,
+                "end": 99,
+                "value": true,
+                "raw": "true"
+              }
+            }
+          ]
+        },
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

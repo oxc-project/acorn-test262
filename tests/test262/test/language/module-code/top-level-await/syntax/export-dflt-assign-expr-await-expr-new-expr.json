@@ -27,7 +27,6 @@
               "start": 1954,
               "end": 1984,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -76,7 +75,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
           ]
         }

@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 226,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 226,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -33,7 +33,13 @@ __ESTREE_TEST__:PASS:
                 "type": "FunctionExpression",
                 "start": 54,
                 "end": 91,
+                "id": null,
+                "generator": false,
                 "async": false,
+                "declare": false,
+                "typeParameters": null,
+                "params": [],
+                "returnType": null,
                 "body": {
                   "type": "BlockStatement",
                   "start": 65,
@@ -43,12 +49,12 @@ __ESTREE_TEST__:PASS:
                       "type": "VariableDeclaration",
                       "start": 75,
                       "end": 85,
+                      "kind": "let",
                       "declarations": [
                         {
                           "type": "VariableDeclarator",
                           "start": 79,
                           "end": 84,
-                          "definite": false,
                           "id": {
                             "type": "Identifier",
                             "start": 79,
@@ -62,37 +68,31 @@ __ESTREE_TEST__:PASS:
                             "type": "Literal",
                             "start": 83,
                             "end": 84,
-                            "raw": "1",
-                            "value": 1
-                          }
+                            "value": 1,
+                            "raw": "1"
+                          },
+                          "definite": false
                         }
                       ],
-                      "declare": false,
-                      "kind": "let"
+                      "declare": false
                     }
                   ]
                 },
-                "declare": false,
-                "expression": false,
-                "generator": false,
-                "id": null,
-                "params": [],
-                "returnType": null,
-                "typeParameters": null
+                "expression": false
               },
               {
                 "type": "Literal",
                 "start": 119,
                 "end": 122,
-                "raw": "'1'",
-                "value": "1"
+                "value": "1",
+                "raw": "'1'"
               },
               {
                 "type": "Literal",
                 "start": 151,
                 "end": 152,
-                "raw": "2",
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "ObjectExpression",
@@ -103,7 +103,7 @@ __ESTREE_TEST__:PASS:
                     "type": "Property",
                     "start": 182,
                     "end": 186,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 182,
@@ -113,17 +113,17 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "kind": "init",
-                    "method": false,
-                    "optional": false,
-                    "shorthand": false,
                     "value": {
                       "type": "Literal",
                       "start": 185,
                       "end": 186,
-                      "raw": "1",
-                      "value": 1
-                    }
+                      "value": 1,
+                      "raw": "1"
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "optional": false
                   }
                 ]
               },
@@ -136,31 +136,31 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 216,
                     "end": 217,
-                    "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 219,
                     "end": 220,
-                    "raw": "2",
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   },
                   {
                     "type": "Literal",
                     "start": 222,
                     "end": 223,
-                    "raw": "3",
-                    "value": 3
+                    "value": 3,
+                    "raw": "3"
                   }
                 ]
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

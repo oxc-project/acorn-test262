@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 20,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 18,
-        "end": 20,
-        "body": []
-      },
-      "declare": true,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -27,10 +19,18 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 18,
+        "end": 20,
+        "body": []
+      },
+      "abstract": false,
+      "declare": true
     }
   ],
   "sourceType": "module",
@@ -48,6 +48,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 85,
+      "id": {
+        "type": "Identifier",
+        "start": 18,
+        "end": 21,
+        "decorators": [],
+        "name": "Foo",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 22,
@@ -57,6 +66,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSModuleDeclaration",
             "start": 28,
             "end": 83,
+            "id": {
+              "type": "Identifier",
+              "start": 38,
+              "end": 47,
+              "decorators": [],
+              "name": "prototype",
+              "optional": false,
+              "typeAnnotation": null
+            },
             "body": {
               "type": "TSModuleBlock",
               "start": 48,
@@ -66,11 +84,6 @@ __ESTREE_TEST__:PASS:
                   "type": "TSDeclareFunction",
                   "start": 58,
                   "end": 77,
-                  "async": false,
-                  "body": null,
-                  "declare": false,
-                  "expression": false,
-                  "generator": false,
                   "id": {
                     "type": "Identifier",
                     "start": 67,
@@ -80,6 +93,10 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
+                  "generator": false,
+                  "async": false,
+                  "declare": false,
+                  "typeParameters": null,
                   "params": [],
                   "returnType": {
                     "type": "TSTypeAnnotation",
@@ -91,37 +108,20 @@ __ESTREE_TEST__:PASS:
                       "end": 76
                     }
                   },
-                  "typeParameters": null
+                  "body": null,
+                  "expression": false
                 }
               ]
             },
+            "kind": "namespace",
             "declare": false,
-            "global": false,
-            "id": {
-              "type": "Identifier",
-              "start": 38,
-              "end": 47,
-              "decorators": [],
-              "name": "prototype",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "kind": "namespace"
+            "global": false
           }
         ]
       },
+      "kind": "namespace",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 18,
-        "end": 21,
-        "decorators": [],
-        "name": "Foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "namespace"
+      "global": false
     }
   ],
   "sourceType": "module",

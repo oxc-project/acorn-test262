@@ -9,16 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 57,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 54,
-        "end": 57,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -28,11 +18,41 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": {
+        "type": "TSTypeParameterDeclaration",
+        "start": 28,
+        "end": 31,
+        "params": [
+          {
+            "type": "TSTypeParameter",
+            "start": 29,
+            "end": 30,
+            "name": {
+              "type": "Identifier",
+              "start": 29,
+              "end": 30,
+              "decorators": [],
+              "name": "T",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          }
+        ]
+      },
       "params": [
         {
           "type": "RestElement",
           "start": 32,
           "end": 52,
+          "decorators": [],
           "argument": {
             "type": "Identifier",
             "start": 35,
@@ -42,7 +62,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "decorators": [],
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
@@ -61,7 +80,6 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 48,
                   "end": 49,
-                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 48,
@@ -70,7 +88,8 @@ __ESTREE_TEST__:PASS:
                     "name": "T",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "typeArguments": null
                 }
               }
             }
@@ -79,43 +98,24 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": {
-        "type": "TSTypeParameterDeclaration",
-        "start": 28,
-        "end": 31,
-        "params": [
-          {
-            "type": "TSTypeParameter",
-            "start": 29,
-            "end": 30,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 29,
-              "end": 30,
-              "decorators": [],
-              "name": "T",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          }
-        ]
-      }
+      "body": {
+        "type": "BlockStatement",
+        "start": 54,
+        "end": 57,
+        "body": []
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 59,
       "end": 110,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 65,
           "end": 109,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 65,
@@ -134,7 +134,7 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 88,
                 "end": 107,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 88,
@@ -144,10 +144,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": true,
                 "value": {
                   "type": "Identifier",
                   "start": 88,
@@ -156,14 +152,18 @@ __ESTREE_TEST__:PASS:
                   "name": "doSomethingWithKeys",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "method": false,
+                "shorthand": true,
+                "computed": false,
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "script",

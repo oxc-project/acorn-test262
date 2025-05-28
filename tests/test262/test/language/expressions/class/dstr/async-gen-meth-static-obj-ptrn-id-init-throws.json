@@ -13,7 +13,6 @@
         "end": 2021,
         "name": "thrower"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -40,12 +39,14 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 2058,
       "end": 2129,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -72,21 +73,17 @@
                   "type": "MethodDefinition",
                   "start": 2076,
                   "end": 2126,
-                  "static": true,
-                  "computed": false,
                   "key": {
                     "type": "Identifier",
                     "start": 2090,
                     "end": 2096,
                     "name": "method"
                   },
-                  "kind": "method",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 2096,
                     "end": 2126,
                     "id": null,
-                    "expression": false,
                     "generator": true,
                     "async": true,
                     "params": [
@@ -99,9 +96,7 @@
                             "type": "Property",
                             "start": 2099,
                             "end": 2112,
-                            "method": false,
-                            "shorthand": true,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 2099,
@@ -132,7 +127,9 @@
                                 "optional": false
                               }
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": true,
+                            "computed": false
                           }
                         ]
                       }
@@ -142,20 +139,24 @@
                       "start": 2116,
                       "end": 2126,
                       "body": []
-                    }
-                  }
+                    },
+                    "expression": false
+                  },
+                  "kind": "method",
+                  "computed": false,
+                  "static": true
                 }
               ]
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 2131,
       "end": 2153,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -183,12 +184,11 @@
               "end": 2152,
               "name": "method"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -214,8 +214,8 @@
             "end": 2168,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -229,7 +229,6 @@
             "start": 2183,
             "end": 2211,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -264,7 +263,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

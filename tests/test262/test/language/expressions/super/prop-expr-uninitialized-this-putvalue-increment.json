@@ -23,21 +23,17 @@
             "type": "MethodDefinition",
             "start": 554,
             "end": 621,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 554,
               "end": 565,
               "name": "constructor"
             },
-            "kind": "constructor",
             "value": {
               "type": "FunctionExpression",
               "start": 565,
               "end": 621,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -72,8 +68,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "constructor",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -103,21 +103,17 @@
             "type": "MethodDefinition",
             "start": 656,
             "end": 697,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 656,
               "end": 667,
               "name": "constructor"
             },
-            "kind": "constructor",
             "value": {
               "type": "FunctionExpression",
               "start": 667,
               "end": 697,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -157,14 +153,18 @@
                           "arguments": [],
                           "optional": false
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       }
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "constructor",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -193,8 +193,8 @@
             "end": 714,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -207,9 +207,7 @@
             "type": "ArrowFunctionExpression",
             "start": 731,
             "end": 748,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -223,7 +221,9 @@
                 "name": "Derived"
               },
               "arguments": []
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

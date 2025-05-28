@@ -9,17 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 20,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 20,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 11,
             "end": 20,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 11,
@@ -34,15 +33,16 @@ __ESTREE_TEST__:PASS:
               "start": 18,
               "end": 20,
               "properties": []
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -60,14 +60,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 29,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 21,
-        "end": 29,
-        "raw": "'./mod1'",
-        "value": "./mod1"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -82,7 +74,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
@@ -91,17 +82,25 @@ __ESTREE_TEST__:PASS:
             "name": "hurk",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 21,
+        "end": 29,
+        "value": "./mod1",
+        "raw": "'./mod1'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 30,
       "end": 46,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 30,
@@ -111,7 +110,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 30,
           "end": 42,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 30,
@@ -121,7 +119,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 35,
@@ -130,16 +127,19 @@ __ESTREE_TEST__:PASS:
             "name": "expando",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
           "start": 45,
           "end": 46,
-          "raw": "4",
-          "value": 4
+          "value": 4,
+          "raw": "4"
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

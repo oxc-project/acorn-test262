@@ -27,8 +27,8 @@
             "end": 329,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -41,9 +41,7 @@
             "type": "ArrowFunctionExpression",
             "start": 342,
             "end": 386,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -66,8 +64,8 @@
                   "end": 370,
                   "name": "PlainDate"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -91,7 +89,9 @@
                   "raw": "1"
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -121,8 +121,8 @@
             "end": 402,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -135,9 +135,7 @@
             "type": "ArrowFunctionExpression",
             "start": 415,
             "end": 462,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -160,8 +158,8 @@
                   "end": 443,
                   "name": "PlainDate"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -185,7 +183,9 @@
                   "raw": "1"
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -215,8 +215,8 @@
             "end": 478,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -229,9 +229,7 @@
             "type": "ArrowFunctionExpression",
             "start": 491,
             "end": 538,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -254,8 +252,8 @@
                   "end": 519,
                   "name": "PlainDate"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -279,7 +277,9 @@
                   "name": "Infinity"
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -289,6 +289,7 @@
       "type": "VariableDeclaration",
       "start": 542,
       "end": 670,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -304,9 +305,7 @@
             "type": "ArrowFunctionExpression",
             "start": 552,
             "end": 669,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -326,9 +325,7 @@
               "type": "ArrowFunctionExpression",
               "start": 586,
               "end": 669,
-              "id": null,
               "expression": true,
-              "generator": false,
               "async": false,
               "params": [
                 {
@@ -358,8 +355,8 @@
                     "end": 632,
                     "name": "toPrimitiveObserver"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -382,17 +379,21 @@
                   }
                 ],
                 "optional": false
-              }
-            }
+              },
+              "id": null,
+              "generator": false
+            },
+            "id": null,
+            "generator": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 671,
       "end": 1207,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -829,8 +830,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -841,6 +841,7 @@
         "type": "VariableDeclaration",
         "start": 1214,
         "end": 1249,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -873,8 +874,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -891,6 +891,7 @@
             "type": "VariableDeclaration",
             "start": 1264,
             "end": 1282,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -909,13 +910,13 @@
                   "elements": []
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 1285,
             "end": 1326,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -947,17 +948,15 @@
                       "end": 1307,
                       "name": "map"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
                       "type": "ArrowFunctionExpression",
                       "start": 1308,
                       "end": 1324,
-                      "id": null,
                       "expression": true,
-                      "generator": false,
                       "async": false,
                       "params": [
                         {
@@ -986,14 +985,15 @@
                           }
                         ],
                         "optional": false
-                      }
+                      },
+                      "id": null,
+                      "generator": false
                     }
                   ],
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -1019,8 +1019,8 @@
                   "end": 1342,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1033,9 +1033,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 1355,
                   "end": 1393,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -1058,8 +1056,8 @@
                         "end": 1383,
                         "name": "PlainDate"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1074,7 +1072,9 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "Identifier",
@@ -1110,8 +1110,8 @@
                   "end": 1430,
                   "name": "compareArray"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1130,14 +1130,6 @@
                   "type": "TemplateLiteral",
                   "start": 1449,
                   "end": 1485,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1452,
-                      "end": 1463,
-                      "name": "description"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -1158,6 +1150,14 @@
                         "cooked": " order of operations"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1452,
+                      "end": 1463,
+                      "name": "description"
                     }
                   ]
                 }

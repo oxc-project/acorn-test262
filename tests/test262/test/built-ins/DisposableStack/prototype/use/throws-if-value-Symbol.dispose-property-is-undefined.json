@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1751,
       "end": 1785,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -31,8 +32,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -58,8 +58,8 @@
             "end": 1799,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -73,7 +73,6 @@
             "start": 1811,
             "end": 1871,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -106,8 +105,8 @@
                         "end": 1835,
                         "name": "use"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -119,9 +118,7 @@
                             "type": "Property",
                             "start": 1838,
                             "end": 1865,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": true,
+                            "kind": "init",
                             "key": {
                               "type": "MemberExpression",
                               "start": 1839,
@@ -138,8 +135,8 @@
                                 "end": 1853,
                                 "name": "dispose"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "value": {
                               "type": "Identifier",
@@ -147,7 +144,9 @@
                               "end": 1865,
                               "name": "undefined"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": true
                           }
                         ]
                       }
@@ -156,7 +155,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

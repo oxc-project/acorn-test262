@@ -139,14 +139,14 @@
           "start": 487,
           "end": 489,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 488,
             "end": 489,
             "value": 1,
             "raw": "1"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -389,14 +389,14 @@
           "start": 761,
           "end": 763,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 762,
             "end": 763,
             "value": 1,
             "raw": "1"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {

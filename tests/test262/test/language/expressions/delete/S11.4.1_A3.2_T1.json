@@ -40,13 +40,13 @@
           "start": 353,
           "end": 361,
           "operator": "delete",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 360,
             "end": 361,
             "name": "x"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {

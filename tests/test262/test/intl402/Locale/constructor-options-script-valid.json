@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1095,
       "end": 1250,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -121,9 +122,7 @@
                         "type": "Property",
                         "start": 1207,
                         "end": 1235,
-                        "method": true,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 1207,
@@ -135,7 +134,6 @@
                           "start": 1215,
                           "end": 1235,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [],
@@ -157,9 +155,12 @@
                                 }
                               }
                             ]
-                          }
+                          },
+                          "expression": false
                         },
-                        "kind": "init"
+                        "method": true,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   },
@@ -175,8 +176,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -187,6 +187,7 @@
         "type": "VariableDeclaration",
         "start": 1256,
         "end": 1280,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -213,8 +214,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -231,6 +231,7 @@
             "type": "VariableDeclaration",
             "start": 1308,
             "end": 1356,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -280,8 +281,7 @@
                   }
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -307,8 +307,8 @@
                   "end": 1376,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -339,8 +339,8 @@
                           "end": 1397,
                           "name": "Locale"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -359,9 +359,7 @@
                               "type": "Property",
                               "start": 1406,
                               "end": 1412,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 1406,
@@ -374,7 +372,9 @@
                                 "end": 1412,
                                 "name": "script"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -386,8 +386,8 @@
                       "end": 1424,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
@@ -402,20 +402,6 @@
                   "type": "TemplateLiteral",
                   "start": 1444,
                   "end": 1521,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1479,
-                      "end": 1485,
-                      "name": "script"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 1512,
-                      "end": 1518,
-                      "name": "expect"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -446,6 +432,20 @@
                         "cooked": "\""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1479,
+                      "end": 1485,
+                      "name": "script"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 1512,
+                      "end": 1518,
+                      "name": "expect"
                     }
                   ]
                 }
@@ -554,8 +554,8 @@
                   "end": 1605,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -586,8 +586,8 @@
                           "end": 1626,
                           "name": "Locale"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -606,9 +606,7 @@
                               "type": "Property",
                               "start": 1638,
                               "end": 1644,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 1638,
@@ -621,7 +619,9 @@
                                 "end": 1644,
                                 "name": "script"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -633,8 +633,8 @@
                       "end": 1656,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
@@ -649,20 +649,6 @@
                   "type": "TemplateLiteral",
                   "start": 1676,
                   "end": 1756,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1714,
-                      "end": 1720,
-                      "name": "script"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 1747,
-                      "end": 1753,
-                      "name": "expect"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -693,6 +679,20 @@
                         "cooked": "\""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1714,
+                      "end": 1720,
+                      "name": "script"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 1747,
+                      "end": 1753,
+                      "name": "expect"
                     }
                   ]
                 }
@@ -783,8 +783,8 @@
                   "end": 1835,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -815,8 +815,8 @@
                           "end": 1856,
                           "name": "Locale"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -835,9 +835,7 @@
                               "type": "Property",
                               "start": 1870,
                               "end": 1876,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 1870,
@@ -850,7 +848,9 @@
                                 "end": 1876,
                                 "name": "script"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -862,8 +862,8 @@
                       "end": 1888,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
@@ -878,20 +878,6 @@
                   "type": "TemplateLiteral",
                   "start": 1908,
                   "end": 1990,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1948,
-                      "end": 1954,
-                      "name": "script"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 1981,
-                      "end": 1987,
-                      "name": "expect"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -922,6 +908,20 @@
                         "cooked": "\""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1948,
+                      "end": 1954,
+                      "name": "script"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 1981,
+                      "end": 1987,
+                      "name": "expect"
                     }
                   ]
                 }

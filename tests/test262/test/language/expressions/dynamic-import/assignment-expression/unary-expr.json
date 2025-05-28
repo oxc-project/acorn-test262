@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 790,
       "end": 819,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,9 +28,7 @@
                 "type": "Property",
                 "start": 808,
                 "end": 816,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 808,
@@ -43,13 +42,14 @@
                   "value": 42,
                   "raw": "42"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -64,7 +64,6 @@
           "start": 828,
           "end": 843,
           "operator": "delete",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 835,
@@ -81,9 +80,10 @@
               "end": 843,
               "name": "prop"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "options": null,
         "phase": null
@@ -102,14 +102,14 @@
           "start": 853,
           "end": 859,
           "operator": "void",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 858,
             "end": 859,
             "value": 0,
             "raw": "0"
-          }
+          },
+          "prefix": true
         },
         "options": null,
         "phase": null
@@ -128,13 +128,13 @@
           "start": 869,
           "end": 878,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "ObjectExpression",
             "start": 876,
             "end": 878,
             "properties": []
-          }
+          },
+          "prefix": true
         },
         "options": null,
         "phase": null
@@ -153,21 +153,21 @@
           "start": 888,
           "end": 895,
           "operator": "+",
-          "prefix": true,
           "argument": {
             "type": "UnaryExpression",
             "start": 889,
             "end": 895,
             "operator": "void",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 894,
               "end": 895,
               "value": 0,
               "raw": "0"
-            }
-          }
+            },
+            "prefix": true
+          },
+          "prefix": true
         },
         "options": null,
         "phase": null
@@ -186,21 +186,21 @@
           "start": 905,
           "end": 912,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "UnaryExpression",
             "start": 906,
             "end": 912,
             "operator": "void",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 911,
               "end": 912,
               "value": 0,
               "raw": "0"
-            }
-          }
+            },
+            "prefix": true
+          },
+          "prefix": true
         },
         "options": null,
         "phase": null
@@ -219,21 +219,21 @@
           "start": 922,
           "end": 929,
           "operator": "!",
-          "prefix": true,
           "argument": {
             "type": "UnaryExpression",
             "start": 923,
             "end": 929,
             "operator": "void",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 928,
               "end": 929,
               "value": 0,
               "raw": "0"
-            }
-          }
+            },
+            "prefix": true
+          },
+          "prefix": true
         },
         "options": null,
         "phase": null
@@ -252,21 +252,21 @@
           "start": 939,
           "end": 946,
           "operator": "~",
-          "prefix": true,
           "argument": {
             "type": "UnaryExpression",
             "start": 940,
             "end": 946,
             "operator": "void",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 945,
               "end": 946,
               "value": 0,
               "raw": "0"
-            }
-          }
+            },
+            "prefix": true
+          },
+          "prefix": true
         },
         "options": null,
         "phase": null
@@ -285,56 +285,56 @@
           "start": 956,
           "end": 981,
           "operator": "delete",
-          "prefix": true,
           "argument": {
             "type": "UnaryExpression",
             "start": 963,
             "end": 981,
             "operator": "void",
-            "prefix": true,
             "argument": {
               "type": "UnaryExpression",
               "start": 968,
               "end": 981,
               "operator": "typeof",
-              "prefix": true,
               "argument": {
                 "type": "UnaryExpression",
                 "start": 975,
                 "end": 981,
                 "operator": "+",
-                "prefix": true,
                 "argument": {
                   "type": "UnaryExpression",
                   "start": 976,
                   "end": 981,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "UnaryExpression",
                     "start": 977,
                     "end": 981,
                     "operator": "~",
-                    "prefix": true,
                     "argument": {
                       "type": "UnaryExpression",
                       "start": 978,
                       "end": 981,
                       "operator": "!",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 980,
                         "end": 981,
                         "value": 0,
                         "raw": "0"
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
+                      },
+                      "prefix": true
+                    },
+                    "prefix": true
+                  },
+                  "prefix": true
+                },
+                "prefix": true
+              },
+              "prefix": true
+            },
+            "prefix": true
+          },
+          "prefix": true
         },
         "options": null,
         "phase": null

@@ -27,8 +27,8 @@
             "end": 581,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -48,13 +48,13 @@
                   "start": 583,
                   "end": 592,
                   "operator": "+",
-                  "prefix": true,
                   "argument": {
                     "type": "Identifier",
                     "start": 584,
                     "end": 592,
                     "name": "Infinity"
-                  }
+                  },
+                  "prefix": true
                 }
               },
               "property": {
@@ -63,8 +63,8 @@
                 "end": 605,
                 "name": "toPrecision"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -99,6 +99,7 @@
       "type": "VariableDeclaration",
       "start": 644,
       "end": 674,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -126,19 +127,18 @@
                 "start": 663,
                 "end": 672,
                 "operator": "+",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 664,
                   "end": 672,
                   "name": "Infinity"
-                }
+                },
+                "prefix": true
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -164,8 +164,8 @@
             "end": 691,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -188,8 +188,8 @@
                 "end": 705,
                 "name": "toPrecision"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -244,8 +244,8 @@
             "end": 762,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -265,13 +265,13 @@
                   "start": 764,
                   "end": 773,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Identifier",
                     "start": 765,
                     "end": 773,
                     "name": "Infinity"
-                  }
+                  },
+                  "prefix": true
                 }
               },
               "property": {
@@ -280,8 +280,8 @@
                 "end": 786,
                 "name": "toPrecision"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -316,6 +316,7 @@
       "type": "VariableDeclaration",
       "start": 827,
       "end": 857,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -343,19 +344,18 @@
                 "start": 846,
                 "end": 855,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 847,
                   "end": 855,
                   "name": "Infinity"
-                }
+                },
+                "prefix": true
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -381,8 +381,8 @@
             "end": 874,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -405,8 +405,8 @@
                 "end": 888,
                 "name": "toPrecision"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

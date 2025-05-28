@@ -16,7 +16,6 @@
           "start": 276,
           "end": 299,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 283,
@@ -33,9 +32,10 @@
               "end": 299,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -82,7 +82,6 @@
                   "start": 395,
                   "end": 418,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 402,
@@ -99,9 +98,10 @@
                       "end": 418,
                       "name": "prototype"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -123,7 +123,6 @@
           "start": 427,
           "end": 453,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 434,
@@ -141,9 +140,10 @@
               "value": "prototype",
               "raw": "'prototype'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -190,7 +190,6 @@
                   "start": 552,
                   "end": 578,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 559,
@@ -208,9 +207,10 @@
                       "value": "prototype",
                       "raw": "\"prototype\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -232,7 +232,6 @@
           "start": 587,
           "end": 613,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 594,
@@ -249,9 +248,10 @@
               "end": 613,
               "name": "fromCharCode"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -298,7 +298,6 @@
                   "start": 716,
                   "end": 742,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 723,
@@ -315,9 +314,10 @@
                       "end": 742,
                       "name": "fromCharCode"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -339,7 +339,6 @@
           "start": 751,
           "end": 780,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 758,
@@ -357,9 +356,10 @@
               "value": "fromCharCode",
               "raw": "'fromCharCode'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -406,7 +406,6 @@
                   "start": 886,
                   "end": 915,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 893,
@@ -424,9 +423,10 @@
                       "value": "fromCharCode",
                       "raw": "\"fromCharCode\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -448,7 +448,6 @@
           "start": 924,
           "end": 956,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 931,
@@ -469,8 +468,8 @@
                 "end": 947,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -478,9 +477,10 @@
               "end": 956,
               "name": "toString"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -527,7 +527,6 @@
                   "start": 1065,
                   "end": 1097,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 1072,
@@ -548,8 +547,8 @@
                         "end": 1088,
                         "name": "prototype"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -557,9 +556,10 @@
                       "end": 1097,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -581,7 +581,6 @@
           "start": 1106,
           "end": 1141,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 1113,
@@ -602,8 +601,8 @@
                 "end": 1129,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Literal",
@@ -612,9 +611,10 @@
               "value": "toString",
               "raw": "'toString'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -661,7 +661,6 @@
                   "start": 1253,
                   "end": 1288,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 1260,
@@ -682,8 +681,8 @@
                         "end": 1276,
                         "name": "prototype"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Literal",
@@ -692,9 +691,10 @@
                       "value": "toString",
                       "raw": "\"toString\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -716,7 +716,6 @@
           "start": 1297,
           "end": 1332,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 1304,
@@ -737,8 +736,8 @@
                 "end": 1320,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -746,9 +745,10 @@
               "end": 1332,
               "name": "constructor"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -795,7 +795,6 @@
                   "start": 1444,
                   "end": 1479,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 1451,
@@ -816,8 +815,8 @@
                         "end": 1467,
                         "name": "prototype"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -825,9 +824,10 @@
                       "end": 1479,
                       "name": "constructor"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -849,7 +849,6 @@
           "start": 1488,
           "end": 1526,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 1495,
@@ -870,8 +869,8 @@
                 "end": 1511,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Literal",
@@ -880,9 +879,10 @@
               "value": "constructor",
               "raw": "'constructor'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -929,7 +929,6 @@
                   "start": 1641,
                   "end": 1679,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 1648,
@@ -950,8 +949,8 @@
                         "end": 1664,
                         "name": "prototype"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Literal",
@@ -960,9 +959,10 @@
                       "value": "constructor",
                       "raw": "\"constructor\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -984,7 +984,6 @@
           "start": 1688,
           "end": 1719,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 1695,
@@ -1005,8 +1004,8 @@
                 "end": 1711,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -1014,9 +1013,10 @@
               "end": 1719,
               "name": "valueOf"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -1063,7 +1063,6 @@
                   "start": 1827,
                   "end": 1858,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 1834,
@@ -1084,8 +1083,8 @@
                         "end": 1850,
                         "name": "prototype"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -1093,9 +1092,10 @@
                       "end": 1858,
                       "name": "valueOf"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -1117,7 +1117,6 @@
           "start": 1867,
           "end": 1901,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 1874,
@@ -1138,8 +1137,8 @@
                 "end": 1890,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Literal",
@@ -1148,9 +1147,10 @@
               "value": "valueOf",
               "raw": "'valueOf'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -1197,7 +1197,6 @@
                   "start": 2013,
                   "end": 2047,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 2020,
@@ -1218,8 +1217,8 @@
                         "end": 2036,
                         "name": "prototype"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Literal",
@@ -1228,9 +1227,10 @@
                       "value": "valueOf",
                       "raw": "\"valueOf\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -1252,7 +1252,6 @@
           "start": 2056,
           "end": 2086,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 2063,
@@ -1273,8 +1272,8 @@
                 "end": 2079,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -1282,9 +1281,10 @@
               "end": 2086,
               "name": "charAt"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -1331,7 +1331,6 @@
                   "start": 2193,
                   "end": 2223,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 2200,
@@ -1352,8 +1351,8 @@
                         "end": 2216,
                         "name": "prototype"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -1361,9 +1360,10 @@
                       "end": 2223,
                       "name": "charAt"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -1385,7 +1385,6 @@
           "start": 2232,
           "end": 2265,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 2239,
@@ -1406,8 +1405,8 @@
                 "end": 2255,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Literal",
@@ -1416,9 +1415,10 @@
               "value": "charAt",
               "raw": "'charAt'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -1465,7 +1465,6 @@
                   "start": 2375,
                   "end": 2408,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 2382,
@@ -1486,8 +1485,8 @@
                         "end": 2398,
                         "name": "prototype"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Literal",
@@ -1496,9 +1495,10 @@
                       "value": "charAt",
                       "raw": "\"charAt\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -1520,7 +1520,6 @@
           "start": 2417,
           "end": 2451,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 2424,
@@ -1541,8 +1540,8 @@
                 "end": 2440,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -1550,9 +1549,10 @@
               "end": 2451,
               "name": "charCodeAt"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -1599,7 +1599,6 @@
                   "start": 2562,
                   "end": 2596,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 2569,
@@ -1620,8 +1619,8 @@
                         "end": 2585,
                         "name": "prototype"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -1629,9 +1628,10 @@
                       "end": 2596,
                       "name": "charCodeAt"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -1653,7 +1653,6 @@
           "start": 2605,
           "end": 2642,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 2612,
@@ -1674,8 +1673,8 @@
                 "end": 2628,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Literal",
@@ -1684,9 +1683,10 @@
               "value": "charCodeAt",
               "raw": "'charCodeAt'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -1733,7 +1733,6 @@
                   "start": 2756,
                   "end": 2793,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 2763,
@@ -1754,8 +1753,8 @@
                         "end": 2779,
                         "name": "prototype"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Literal",
@@ -1764,9 +1763,10 @@
                       "value": "charCodeAt",
                       "raw": "\"charCodeAt\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -1788,7 +1788,6 @@
           "start": 2802,
           "end": 2833,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 2809,
@@ -1809,8 +1808,8 @@
                 "end": 2825,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -1818,9 +1817,10 @@
               "end": 2833,
               "name": "indexOf"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -1867,7 +1867,6 @@
                   "start": 2942,
                   "end": 2973,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 2949,
@@ -1888,8 +1887,8 @@
                         "end": 2965,
                         "name": "prototype"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -1897,9 +1896,10 @@
                       "end": 2973,
                       "name": "indexOf"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -1921,7 +1921,6 @@
           "start": 2982,
           "end": 3016,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 2989,
@@ -1942,8 +1941,8 @@
                 "end": 3005,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Literal",
@@ -1952,9 +1951,10 @@
               "value": "indexOf",
               "raw": "'indexOf'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -2001,7 +2001,6 @@
                   "start": 3128,
                   "end": 3162,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 3135,
@@ -2022,8 +2021,8 @@
                         "end": 3151,
                         "name": "prototype"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Literal",
@@ -2032,9 +2031,10 @@
                       "value": "indexOf",
                       "raw": "\"indexOf\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -2056,7 +2056,6 @@
           "start": 3171,
           "end": 3206,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 3178,
@@ -2077,8 +2076,8 @@
                 "end": 3194,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -2086,9 +2085,10 @@
               "end": 3206,
               "name": "lastIndexOf"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -2135,7 +2135,6 @@
                   "start": 3319,
                   "end": 3354,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 3326,
@@ -2156,8 +2155,8 @@
                         "end": 3342,
                         "name": "prototype"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -2165,9 +2164,10 @@
                       "end": 3354,
                       "name": "lastIndexOf"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -2189,7 +2189,6 @@
           "start": 3363,
           "end": 3401,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 3370,
@@ -2210,8 +2209,8 @@
                 "end": 3386,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Literal",
@@ -2220,9 +2219,10 @@
               "value": "lastIndexOf",
               "raw": "'lastIndexOf'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -2269,7 +2269,6 @@
                   "start": 3517,
                   "end": 3555,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 3524,
@@ -2290,8 +2289,8 @@
                         "end": 3540,
                         "name": "prototype"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Literal",
@@ -2300,9 +2299,10 @@
                       "value": "lastIndexOf",
                       "raw": "\"lastIndexOf\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -2324,7 +2324,6 @@
           "start": 3564,
           "end": 3593,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 3571,
@@ -2345,8 +2344,8 @@
                 "end": 3587,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -2354,9 +2353,10 @@
               "end": 3593,
               "name": "split"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -2403,7 +2403,6 @@
                   "start": 3699,
                   "end": 3728,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 3706,
@@ -2424,8 +2423,8 @@
                         "end": 3722,
                         "name": "prototype"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -2433,9 +2432,10 @@
                       "end": 3728,
                       "name": "split"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -2457,7 +2457,6 @@
           "start": 3737,
           "end": 3769,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 3744,
@@ -2478,8 +2477,8 @@
                 "end": 3760,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Literal",
@@ -2488,9 +2487,10 @@
               "value": "split",
               "raw": "'split'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -2537,7 +2537,6 @@
                   "start": 3878,
                   "end": 3910,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 3885,
@@ -2558,8 +2557,8 @@
                         "end": 3901,
                         "name": "prototype"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Literal",
@@ -2568,9 +2567,10 @@
                       "value": "split",
                       "raw": "\"split\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -2592,7 +2592,6 @@
           "start": 3919,
           "end": 3952,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 3926,
@@ -2613,8 +2612,8 @@
                 "end": 3942,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -2622,9 +2621,10 @@
               "end": 3952,
               "name": "substring"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -2671,7 +2671,6 @@
                   "start": 4063,
                   "end": 4096,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 4070,
@@ -2692,8 +2691,8 @@
                         "end": 4086,
                         "name": "prototype"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -2701,9 +2700,10 @@
                       "end": 4096,
                       "name": "substring"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -2725,7 +2725,6 @@
           "start": 4105,
           "end": 4141,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 4112,
@@ -2746,8 +2745,8 @@
                 "end": 4128,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Literal",
@@ -2756,9 +2755,10 @@
               "value": "substring",
               "raw": "'substring'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -2805,7 +2805,6 @@
                   "start": 4255,
                   "end": 4291,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 4262,
@@ -2826,8 +2825,8 @@
                         "end": 4278,
                         "name": "prototype"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Literal",
@@ -2836,9 +2835,10 @@
                       "value": "substring",
                       "raw": "\"substring\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -2860,7 +2860,6 @@
           "start": 4300,
           "end": 4335,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 4307,
@@ -2881,8 +2880,8 @@
                 "end": 4323,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -2890,9 +2889,10 @@
               "end": 4335,
               "name": "toLowerCase"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -2939,7 +2939,6 @@
                   "start": 4447,
                   "end": 4482,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 4454,
@@ -2960,8 +2959,8 @@
                         "end": 4470,
                         "name": "prototype"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -2969,9 +2968,10 @@
                       "end": 4482,
                       "name": "toLowerCase"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -2993,7 +2993,6 @@
           "start": 4491,
           "end": 4529,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 4498,
@@ -3014,8 +3013,8 @@
                 "end": 4514,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Literal",
@@ -3024,9 +3023,10 @@
               "value": "toLowerCase",
               "raw": "'toLowerCase'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -3073,7 +3073,6 @@
                   "start": 4644,
                   "end": 4682,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 4651,
@@ -3094,8 +3093,8 @@
                         "end": 4667,
                         "name": "prototype"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Literal",
@@ -3104,9 +3103,10 @@
                       "value": "toLowerCase",
                       "raw": "\"toLowerCase\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -3128,7 +3128,6 @@
           "start": 4691,
           "end": 4726,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 4698,
@@ -3149,8 +3148,8 @@
                 "end": 4714,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -3158,9 +3157,10 @@
               "end": 4726,
               "name": "toUpperCase"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -3207,7 +3207,6 @@
                   "start": 4838,
                   "end": 4873,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 4845,
@@ -3228,8 +3227,8 @@
                         "end": 4861,
                         "name": "prototype"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -3237,9 +3236,10 @@
                       "end": 4873,
                       "name": "toUpperCase"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -3261,7 +3261,6 @@
           "start": 4882,
           "end": 4920,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 4889,
@@ -3282,8 +3281,8 @@
                 "end": 4905,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Literal",
@@ -3292,9 +3291,10 @@
               "value": "toUpperCase",
               "raw": "'toUpperCase'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -3341,7 +3341,6 @@
                   "start": 5017,
                   "end": 5039,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 5024,
@@ -3358,9 +3357,10 @@
                       "end": 5039,
                       "name": "prototype"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -3382,7 +3382,6 @@
           "start": 5048,
           "end": 5078,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 5055,
@@ -3403,8 +3402,8 @@
                 "end": 5071,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -3412,9 +3411,10 @@
               "end": 5078,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -3461,7 +3461,6 @@
                   "start": 5182,
                   "end": 5212,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 5189,
@@ -3482,8 +3481,8 @@
                         "end": 5205,
                         "name": "prototype"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -3491,9 +3490,10 @@
                       "end": 5212,
                       "name": "length"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 }
               }
             }
@@ -3515,7 +3515,6 @@
           "start": 5221,
           "end": 5254,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 5228,
@@ -3536,8 +3535,8 @@
                 "end": 5244,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Literal",
@@ -3546,9 +3545,10 @@
               "value": "length",
               "raw": "'length'"
             },
-            "computed": true,
-            "optional": false
-          }
+            "optional": false,
+            "computed": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -3595,7 +3595,6 @@
                   "start": 5361,
                   "end": 5394,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 5368,
@@ -3616,8 +3615,8 @@
                         "end": 5384,
                         "name": "prototype"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Literal",
@@ -3626,9 +3625,10 @@
                       "value": "length",
                       "raw": "\"length\""
                     },
-                    "computed": true,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": true
+                  },
+                  "prefix": true
                 }
               }
             }

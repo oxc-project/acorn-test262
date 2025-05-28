@@ -9,25 +9,14 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 15,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
         "end": 14,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 9,
-            "end": 13,
-            "raw": "2017",
-            "value": 2017
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 0,
           "end": 8,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 0,
@@ -37,7 +26,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 5,
@@ -46,11 +34,23 @@ __ESTREE_TEST__:PASS:
             "name": "UTC",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 9,
+            "end": 13,
+            "value": 2017,
+            "raw": "2017"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

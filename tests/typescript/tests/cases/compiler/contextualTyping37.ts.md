@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 50,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 49,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,6 +28,47 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeAssertion",
             "start": 10,
             "end": 49,
+            "typeAnnotation": {
+              "type": "TSArrayType",
+              "start": 11,
+              "end": 28,
+              "elementType": {
+                "type": "TSTypeLiteral",
+                "start": 11,
+                "end": 26,
+                "members": [
+                  {
+                    "type": "TSPropertySignature",
+                    "start": 13,
+                    "end": 24,
+                    "computed": false,
+                    "optional": false,
+                    "readonly": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 13,
+                      "end": 15,
+                      "decorators": [],
+                      "name": "id",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeAnnotation": {
+                      "type": "TSTypeAnnotation",
+                      "start": 15,
+                      "end": 23,
+                      "typeAnnotation": {
+                        "type": "TSNumberKeyword",
+                        "start": 17,
+                        "end": 23
+                      }
+                    },
+                    "accessibility": null,
+                    "static": false
+                  }
+                ]
+              }
+            },
             "expression": {
               "type": "ArrayExpression",
               "start": 29,
@@ -42,7 +83,7 @@ __ESTREE_TEST__:PASS:
                       "type": "Property",
                       "start": 32,
                       "end": 40,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 32,
@@ -52,17 +93,17 @@ __ESTREE_TEST__:PASS:
                         "optional": false,
                         "typeAnnotation": null
                       },
-                      "kind": "init",
-                      "method": false,
-                      "optional": false,
-                      "shorthand": false,
                       "value": {
                         "type": "Literal",
                         "start": 37,
                         "end": 40,
-                        "raw": "\"s\"",
-                        "value": "s"
-                      }
+                        "value": "s",
+                        "raw": "\"s\""
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "optional": false
                     }
                   ]
                 },
@@ -73,53 +114,12 @@ __ESTREE_TEST__:PASS:
                   "properties": []
                 }
               ]
-            },
-            "typeAnnotation": {
-              "type": "TSArrayType",
-              "start": 11,
-              "end": 28,
-              "elementType": {
-                "type": "TSTypeLiteral",
-                "start": 11,
-                "end": 26,
-                "members": [
-                  {
-                    "type": "TSPropertySignature",
-                    "start": 13,
-                    "end": 24,
-                    "accessibility": null,
-                    "computed": false,
-                    "key": {
-                      "type": "Identifier",
-                      "start": 13,
-                      "end": 15,
-                      "decorators": [],
-                      "name": "id",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "optional": false,
-                    "readonly": false,
-                    "static": false,
-                    "typeAnnotation": {
-                      "type": "TSTypeAnnotation",
-                      "start": 15,
-                      "end": 23,
-                      "typeAnnotation": {
-                        "type": "TSNumberKeyword",
-                        "start": 17,
-                        "end": 23
-                      }
-                    }
-                  }
-                ]
-              }
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

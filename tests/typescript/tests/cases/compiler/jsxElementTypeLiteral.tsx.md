@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 44,
       "end": 75,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 67,
-        "end": 74,
-        "raw": "\"react\"",
-        "value": "react"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -33,74 +25,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 67,
+        "end": 74,
+        "value": "react",
+        "raw": "\"react\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "TSModuleDeclaration",
       "start": 77,
       "end": 268,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 92,
-        "end": 268,
-        "body": [
-          {
-            "type": "TSModuleDeclaration",
-            "start": 96,
-            "end": 266,
-            "body": {
-              "type": "TSModuleBlock",
-              "start": 110,
-              "end": 266,
-              "body": [
-                {
-                  "type": "TSTypeAliasDeclaration",
-                  "start": 237,
-                  "end": 262,
-                  "declare": false,
-                  "id": {
-                    "type": "Identifier",
-                    "start": 242,
-                    "end": 253,
-                    "decorators": [],
-                    "name": "ElementType",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "typeAnnotation": {
-                    "type": "TSLiteralType",
-                    "start": 256,
-                    "end": 261,
-                    "literal": {
-                      "type": "Literal",
-                      "start": 256,
-                      "end": 261,
-                      "raw": "\"div\"",
-                      "value": "div"
-                    }
-                  },
-                  "typeParameters": null
-                }
-              ]
-            },
-            "declare": false,
-            "global": false,
-            "id": {
-              "type": "Identifier",
-              "start": 106,
-              "end": 109,
-              "decorators": [],
-              "name": "JSX",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "kind": "namespace"
-          }
-        ]
-      },
-      "declare": true,
-      "global": true,
       "id": {
         "type": "Identifier",
         "start": 85,
@@ -110,18 +49,79 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "global"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 92,
+        "end": 268,
+        "body": [
+          {
+            "type": "TSModuleDeclaration",
+            "start": 96,
+            "end": 266,
+            "id": {
+              "type": "Identifier",
+              "start": 106,
+              "end": 109,
+              "decorators": [],
+              "name": "JSX",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "body": {
+              "type": "TSModuleBlock",
+              "start": 110,
+              "end": 266,
+              "body": [
+                {
+                  "type": "TSTypeAliasDeclaration",
+                  "start": 237,
+                  "end": 262,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 242,
+                    "end": 253,
+                    "decorators": [],
+                    "name": "ElementType",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeParameters": null,
+                  "typeAnnotation": {
+                    "type": "TSLiteralType",
+                    "start": 256,
+                    "end": 261,
+                    "literal": {
+                      "type": "Literal",
+                      "start": 256,
+                      "end": 261,
+                      "value": "div",
+                      "raw": "\"div\""
+                    }
+                  },
+                  "declare": false
+                }
+              ]
+            },
+            "kind": "namespace",
+            "declare": false,
+            "global": false
+          }
+        ]
+      },
+      "kind": "global",
+      "declare": true,
+      "global": true
     },
     {
       "type": "VariableDeclaration",
       "start": 318,
       "end": 334,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 322,
           "end": 333,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 322,
@@ -135,38 +135,38 @@ __ESTREE_TEST__:PASS:
             "type": "JSXElement",
             "start": 326,
             "end": 333,
-            "children": [],
-            "closingElement": null,
             "openingElement": {
               "type": "JSXOpeningElement",
               "start": 326,
               "end": 333,
-              "attributes": [],
               "name": {
                 "type": "JSXIdentifier",
                 "start": 327,
                 "end": 330,
                 "name": "div"
               },
-              "selfClosing": true,
-              "typeArguments": null
-            }
-          }
+              "typeArguments": null,
+              "attributes": [],
+              "selfClosing": true
+            },
+            "children": [],
+            "closingElement": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 397,
       "end": 414,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 401,
           "end": 413,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 401,
@@ -180,38 +180,38 @@ __ESTREE_TEST__:PASS:
             "type": "JSXElement",
             "start": 405,
             "end": 413,
-            "children": [],
-            "closingElement": null,
             "openingElement": {
               "type": "JSXOpeningElement",
               "start": 405,
               "end": 413,
-              "attributes": [],
               "name": {
                 "type": "JSXIdentifier",
                 "start": 406,
                 "end": 410,
                 "name": "span"
               },
-              "selfClosing": true,
-              "typeArguments": null
-            }
-          }
+              "typeArguments": null,
+              "attributes": [],
+              "selfClosing": true
+            },
+            "children": [],
+            "closingElement": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 503,
       "end": 522,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 507,
           "end": 521,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 507,
@@ -225,27 +225,27 @@ __ESTREE_TEST__:PASS:
             "type": "JSXElement",
             "start": 511,
             "end": 521,
-            "children": [],
-            "closingElement": null,
             "openingElement": {
               "type": "JSXOpeningElement",
               "start": 511,
               "end": 521,
-              "attributes": [],
               "name": {
                 "type": "JSXIdentifier",
                 "start": 512,
                 "end": 518,
                 "name": "ruhroh"
               },
-              "selfClosing": true,
-              "typeArguments": null
-            }
-          }
+              "typeArguments": null,
+              "attributes": [],
+              "selfClosing": true
+            },
+            "children": [],
+            "closingElement": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     }
   ],
   "sourceType": "module",

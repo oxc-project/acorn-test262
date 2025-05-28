@@ -75,13 +75,13 @@
                 "start": 419,
                 "end": 427,
                 "operator": "delete",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 426,
                   "end": 427,
                   "name": "e"
-                }
+                },
+                "prefix": true
               },
               "consequent": {
                 "type": "BlockStatement",

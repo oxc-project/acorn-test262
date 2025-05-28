@@ -13,7 +13,6 @@
         "end": 578,
         "name": "fn1"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -41,7 +40,8 @@
         "start": 590,
         "end": 592,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -53,7 +53,6 @@
         "end": 606,
         "name": "fn2"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -88,7 +87,8 @@
         "start": 625,
         "end": 627,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -100,7 +100,6 @@
         "end": 641,
         "name": "fn3"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -124,9 +123,7 @@
                   "type": "Property",
                   "start": 647,
                   "end": 648,
-                  "method": false,
-                  "shorthand": true,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 647,
@@ -139,7 +136,9 @@
                     "end": 648,
                     "name": "y"
                   },
-                  "kind": "init"
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false
                 }
               ]
             },
@@ -162,7 +161,8 @@
         "start": 658,
         "end": 660,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -174,7 +174,6 @@
         "end": 674,
         "name": "fn4"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -199,9 +198,7 @@
                   "type": "Property",
                   "start": 681,
                   "end": 682,
-                  "method": false,
-                  "shorthand": true,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 681,
@@ -214,7 +211,9 @@
                     "end": 682,
                     "name": "y"
                   },
-                  "kind": "init"
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false
                 }
               ]
             },
@@ -238,7 +237,8 @@
         "start": 694,
         "end": 696,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -250,7 +250,6 @@
         "end": 710,
         "name": "fn5"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -263,9 +262,7 @@
               "type": "Property",
               "start": 712,
               "end": 721,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 712,
@@ -290,7 +287,9 @@
                   }
                 ]
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             }
           ]
         }
@@ -300,7 +299,8 @@
         "start": 724,
         "end": 726,
         "body": []
-      }
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

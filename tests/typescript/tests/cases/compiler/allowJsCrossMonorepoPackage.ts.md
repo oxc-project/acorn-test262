@@ -9,16 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 37,
-      "attributes": [],
       "declaration": {
         "type": "TSDeclareFunction",
         "start": 7,
         "end": 37,
-        "async": false,
-        "body": null,
-        "declare": true,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 24,
@@ -28,6 +22,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": true,
+        "typeParameters": null,
         "params": [],
         "returnType": {
           "type": "TSTypeAnnotation",
@@ -41,16 +39,18 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 31,
               "end": 36,
-              "raw": "\"pkg\"",
-              "value": "pkg"
+              "value": "pkg",
+              "raw": "\"pkg\""
             }
           }
         },
-        "typeParameters": null
+        "body": null,
+        "expression": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -68,21 +68,21 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 26,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 20,
-        "end": 25,
-        "raw": "\"pkg\"",
-        "value": "pkg"
-      },
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 9,
           "end": 12,
+          "local": {
+            "type": "Identifier",
+            "start": 9,
+            "end": 12,
+            "decorators": [],
+            "name": "pkg",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 9,
@@ -92,18 +92,18 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 9,
-            "end": 12,
-            "decorators": [],
-            "name": "pkg",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 20,
+        "end": 25,
+        "value": "pkg",
+        "raw": "\"pkg\""
+      },
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -121,14 +121,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 33,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 20,
-        "end": 32,
-        "raw": "\"./utils.js\"",
-        "value": "./utils.js"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -143,7 +135,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
@@ -152,27 +143,35 @@ __ESTREE_TEST__:PASS:
             "name": "pkg",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 20,
+        "end": 32,
+        "value": "./utils.js",
+        "raw": "\"./utils.js\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 34,
       "end": 57,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 41,
         "end": 57,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 47,
             "end": 56,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 47,
@@ -186,7 +185,6 @@ __ESTREE_TEST__:PASS:
               "type": "CallExpression",
               "start": 51,
               "end": 56,
-              "arguments": [],
               "callee": {
                 "type": "Identifier",
                 "start": 51,
@@ -196,17 +194,19 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [],
+              "optional": false
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -224,14 +224,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 27,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 18,
-        "end": 26,
-        "raw": "\"shared\"",
-        "value": "shared"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -246,7 +238,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
@@ -255,11 +246,20 @@ __ESTREE_TEST__:PASS:
             "name": "x",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 18,
+        "end": 26,
+        "value": "shared",
+        "raw": "\"shared\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

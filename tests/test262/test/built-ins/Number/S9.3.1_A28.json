@@ -27,8 +27,8 @@
             "end": 339,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -94,8 +94,8 @@
             "end": 408,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -103,7 +103,6 @@
             "start": 409,
             "end": 417,
             "operator": "+",
-            "prefix": true,
             "argument": {
               "type": "ParenthesizedExpression",
               "start": 410,
@@ -115,7 +114,8 @@
                 "value": "0xC",
                 "raw": "\"0xC\""
               }
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -159,8 +159,8 @@
             "end": 488,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -226,8 +226,8 @@
             "end": 557,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

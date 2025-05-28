@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 321,
       "end": 620,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -118,14 +119,14 @@
                     "start": 423,
                     "end": 432,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 424,
                       "end": 432,
                       "value": 19761118,
                       "raw": "19761118"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "Literal",
@@ -250,8 +251,8 @@
                         "end": 592,
                         "name": "Duration"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": []
                   },
@@ -267,8 +268,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -279,6 +279,7 @@
         "type": "VariableDeclaration",
         "start": 627,
         "end": 651,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -305,8 +306,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -343,8 +343,8 @@
                   "end": 688,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -357,9 +357,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 709,
                   "end": 759,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -382,8 +380,8 @@
                         "end": 742,
                         "name": "PlainYearMonth"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -414,20 +412,14 @@
                         "raw": "1"
                       }
                     ]
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 765,
                   "end": 805,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 768,
-                      "end": 779,
-                      "name": "description"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -448,6 +440,14 @@
                         "cooked": " is not a valid calendar"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 768,
+                      "end": 779,
+                      "name": "description"
                     }
                   ]
                 }

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 851,
       "end": 887,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -23,7 +24,6 @@
             "start": 873,
             "end": 886,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -32,16 +32,17 @@
               "start": 884,
               "end": 886,
               "body": []
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 888,
       "end": 957,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -73,8 +74,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -100,8 +100,8 @@
             "end": 975,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -124,8 +124,8 @@
                 "end": 997,
                 "name": "getPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -153,8 +153,8 @@
               "end": 1051,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         ],
         "optional": false
@@ -184,8 +184,8 @@
             "end": 1073,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -235,8 +235,8 @@
             "end": 1167,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -284,6 +284,7 @@
         "type": "VariableDeclaration",
         "start": 1249,
         "end": 1256,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -297,8 +298,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "CallExpression",
@@ -320,8 +320,8 @@
             "end": 1286,
             "name": "getOwnPropertyNames"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -364,14 +364,6 @@
                   "type": "TemplateLiteral",
                   "start": 1328,
                   "end": 1377,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1372,
-                      "end": 1375,
-                      "name": "key"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -393,6 +385,14 @@
                       },
                       "tail": true
                     }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1372,
+                      "end": 1375,
+                      "name": "key"
+                    }
                   ]
                 }
               ],
@@ -411,6 +411,7 @@
         "type": "VariableDeclaration",
         "start": 1388,
         "end": 1395,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -424,8 +425,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "CallExpression",
@@ -447,8 +447,8 @@
             "end": 1427,
             "name": "getOwnPropertySymbols"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -491,28 +491,6 @@
                   "type": "TemplateLiteral",
                   "start": 1469,
                   "end": 1527,
-                  "expressions": [
-                    {
-                      "type": "CallExpression",
-                      "start": 1514,
-                      "end": 1525,
-                      "callee": {
-                        "type": "Identifier",
-                        "start": 1514,
-                        "end": 1520,
-                        "name": "String"
-                      },
-                      "arguments": [
-                        {
-                          "type": "Identifier",
-                          "start": 1521,
-                          "end": 1524,
-                          "name": "key"
-                        }
-                      ],
-                      "optional": false
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -533,6 +511,28 @@
                         "cooked": ""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "CallExpression",
+                      "start": 1514,
+                      "end": 1525,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 1514,
+                        "end": 1520,
+                        "name": "String"
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "start": 1521,
+                          "end": 1524,
+                          "name": "key"
+                        }
+                      ],
+                      "optional": false
                     }
                   ]
                 }
@@ -567,8 +567,8 @@
             "end": 1549,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -591,8 +591,8 @@
                 "end": 1571,
                 "name": "getPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -620,8 +620,8 @@
               "end": 1625,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         ],
         "optional": false

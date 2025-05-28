@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 12,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 10,
-        "end": 12,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -27,63 +19,23 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 10,
+        "end": 12,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 13,
       "end": 50,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 24,
-        "end": 50,
-        "body": [
-          {
-            "type": "TSEnumDeclaration",
-            "start": 30,
-            "end": 48,
-            "body": {
-              "type": "TSEnumBody",
-              "start": 43,
-              "end": 48,
-              "members": [
-                {
-                  "type": "TSEnumMember",
-                  "start": 45,
-                  "end": 46,
-                  "computed": false,
-                  "id": {
-                    "type": "Identifier",
-                    "start": 45,
-                    "end": 46,
-                    "decorators": [],
-                    "name": "X",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "initializer": null
-                }
-              ]
-            },
-            "const": true,
-            "declare": false,
-            "id": {
-              "type": "Identifier",
-              "start": 41,
-              "end": 42,
-              "decorators": [],
-              "name": "E",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "global": false,
       "id": {
         "type": "Identifier",
         "start": 20,
@@ -93,7 +45,55 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "module"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 24,
+        "end": 50,
+        "body": [
+          {
+            "type": "TSEnumDeclaration",
+            "start": 30,
+            "end": 48,
+            "id": {
+              "type": "Identifier",
+              "start": 41,
+              "end": 42,
+              "decorators": [],
+              "name": "E",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "body": {
+              "type": "TSEnumBody",
+              "start": 43,
+              "end": 48,
+              "members": [
+                {
+                  "type": "TSEnumMember",
+                  "start": 45,
+                  "end": 46,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 45,
+                    "end": 46,
+                    "decorators": [],
+                    "name": "X",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "initializer": null,
+                  "computed": false
+                }
+              ]
+            },
+            "const": true,
+            "declare": false
+          }
+        ]
+      },
+      "kind": "module",
+      "declare": false,
+      "global": false
     },
     {
       "type": "TSExportAssignment",

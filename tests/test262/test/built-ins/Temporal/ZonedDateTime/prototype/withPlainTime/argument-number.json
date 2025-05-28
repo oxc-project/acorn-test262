@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 301,
       "end": 380,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 344,
                 "name": "ZonedDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -60,13 +61,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 382,
       "end": 460,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -95,14 +96,14 @@
                 "start": 407,
                 "end": 424,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 408,
                   "end": 424,
                   "value": 123456.987654321,
                   "raw": "123456.987654321"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -121,8 +122,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -133,6 +133,7 @@
         "type": "VariableDeclaration",
         "start": 467,
         "end": 476,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -146,8 +147,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -184,8 +184,8 @@
                   "end": 506,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -198,9 +198,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 527,
                   "end": 560,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -223,8 +221,8 @@
                         "end": 555,
                         "name": "withPlainTime"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -235,20 +233,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 566,
                   "end": 625,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 579,
-                      "end": 582,
-                      "name": "arg"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -269,6 +261,14 @@
                         "cooked": ") is not a valid ISO string for PlainTime"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 579,
+                      "end": 582,
+                      "name": "arg"
                     }
                   ]
                 }

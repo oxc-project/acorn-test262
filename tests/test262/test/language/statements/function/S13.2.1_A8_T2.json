@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 493,
       "end": 524,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "true"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 526,
       "end": 609,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -49,7 +50,6 @@
             "start": 539,
             "end": 609,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -69,6 +69,7 @@
                   "type": "VariableDeclaration",
                   "start": 563,
                   "end": 573,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -88,8 +89,7 @@
                         "raw": "1"
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ThrowStatement",
@@ -119,11 +119,11 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "TryStatement",
@@ -138,6 +138,7 @@
             "type": "VariableDeclaration",
             "start": 620,
             "end": 653,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -170,8 +171,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ThrowStatement",
@@ -224,13 +224,13 @@
                 "start": 770,
                 "end": 772,
                 "operator": "!",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 771,
                   "end": 772,
                   "name": "e"
-                }
+                },
+                "prefix": true
               },
               "consequent": {
                 "type": "BlockStatement",

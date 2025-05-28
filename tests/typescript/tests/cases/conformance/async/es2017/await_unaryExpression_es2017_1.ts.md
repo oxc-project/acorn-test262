@@ -9,42 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 45,
-      "async": true,
-      "body": {
-        "type": "BlockStatement",
-        "start": 21,
-        "end": 45,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 27,
-            "end": 37,
-            "directive": null,
-            "expression": {
-              "type": "UnaryExpression",
-              "start": 27,
-              "end": 36,
-              "argument": {
-                "type": "AwaitExpression",
-                "start": 28,
-                "end": 36,
-                "argument": {
-                  "type": "Literal",
-                  "start": 34,
-                  "end": 36,
-                  "raw": "42",
-                  "value": 42
-                }
-              },
-              "operator": "!",
-              "prefix": true
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 15,
@@ -54,50 +18,50 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": true,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 21,
+        "end": 45,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 27,
+            "end": 37,
+            "expression": {
+              "type": "UnaryExpression",
+              "start": 27,
+              "end": 36,
+              "operator": "!",
+              "argument": {
+                "type": "AwaitExpression",
+                "start": 28,
+                "end": 36,
+                "argument": {
+                  "type": "Literal",
+                  "start": 34,
+                  "end": 36,
+                  "value": 42,
+                  "raw": "42"
+                }
+              },
+              "prefix": true
+            },
+            "directive": null
+          }
+        ]
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 47,
       "end": 99,
-      "async": true,
-      "body": {
-        "type": "BlockStatement",
-        "start": 69,
-        "end": 99,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 75,
-            "end": 91,
-            "directive": null,
-            "expression": {
-              "type": "UnaryExpression",
-              "start": 75,
-              "end": 90,
-              "argument": {
-                "type": "AwaitExpression",
-                "start": 82,
-                "end": 90,
-                "argument": {
-                  "type": "Literal",
-                  "start": 88,
-                  "end": 90,
-                  "raw": "42",
-                  "value": 42
-                }
-              },
-              "operator": "delete",
-              "prefix": true
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 62,
@@ -107,50 +71,50 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": true,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 69,
+        "end": 99,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 75,
+            "end": 91,
+            "expression": {
+              "type": "UnaryExpression",
+              "start": 75,
+              "end": 90,
+              "operator": "delete",
+              "argument": {
+                "type": "AwaitExpression",
+                "start": 82,
+                "end": 90,
+                "argument": {
+                  "type": "Literal",
+                  "start": 88,
+                  "end": 90,
+                  "value": 42,
+                  "raw": "42"
+                }
+              },
+              "prefix": true
+            },
+            "directive": null
+          }
+        ]
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 101,
       "end": 153,
-      "async": true,
-      "body": {
-        "type": "BlockStatement",
-        "start": 123,
-        "end": 153,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 129,
-            "end": 145,
-            "directive": null,
-            "expression": {
-              "type": "UnaryExpression",
-              "start": 129,
-              "end": 144,
-              "argument": {
-                "type": "AwaitExpression",
-                "start": 136,
-                "end": 144,
-                "argument": {
-                  "type": "Literal",
-                  "start": 142,
-                  "end": 144,
-                  "raw": "42",
-                  "value": 42
-                }
-              },
-              "operator": "delete",
-              "prefix": true
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 116,
@@ -160,50 +124,50 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": true,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 123,
+        "end": 153,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 129,
+            "end": 145,
+            "expression": {
+              "type": "UnaryExpression",
+              "start": 129,
+              "end": 144,
+              "operator": "delete",
+              "argument": {
+                "type": "AwaitExpression",
+                "start": 136,
+                "end": 144,
+                "argument": {
+                  "type": "Literal",
+                  "start": 142,
+                  "end": 144,
+                  "value": 42,
+                  "raw": "42"
+                }
+              },
+              "prefix": true
+            },
+            "directive": null
+          }
+        ]
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 155,
       "end": 199,
-      "async": true,
-      "body": {
-        "type": "BlockStatement",
-        "start": 177,
-        "end": 199,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 183,
-            "end": 197,
-            "directive": null,
-            "expression": {
-              "type": "UnaryExpression",
-              "start": 183,
-              "end": 196,
-              "argument": {
-                "type": "AwaitExpression",
-                "start": 188,
-                "end": 196,
-                "argument": {
-                  "type": "Literal",
-                  "start": 194,
-                  "end": 196,
-                  "raw": "42",
-                  "value": 42
-                }
-              },
-              "operator": "void",
-              "prefix": true
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 170,
@@ -213,50 +177,50 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": true,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 177,
+        "end": 199,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 183,
+            "end": 197,
+            "expression": {
+              "type": "UnaryExpression",
+              "start": 183,
+              "end": 196,
+              "operator": "void",
+              "argument": {
+                "type": "AwaitExpression",
+                "start": 188,
+                "end": 196,
+                "argument": {
+                  "type": "Literal",
+                  "start": 194,
+                  "end": 196,
+                  "value": 42,
+                  "raw": "42"
+                }
+              },
+              "prefix": true
+            },
+            "directive": null
+          }
+        ]
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 201,
       "end": 241,
-      "async": true,
-      "body": {
-        "type": "BlockStatement",
-        "start": 223,
-        "end": 241,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 229,
-            "end": 239,
-            "directive": null,
-            "expression": {
-              "type": "UnaryExpression",
-              "start": 229,
-              "end": 238,
-              "argument": {
-                "type": "AwaitExpression",
-                "start": 230,
-                "end": 238,
-                "argument": {
-                  "type": "Literal",
-                  "start": 236,
-                  "end": 238,
-                  "raw": "42",
-                  "value": 42
-                }
-              },
-              "operator": "+",
-              "prefix": true
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 216,
@@ -266,9 +230,45 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": true,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 223,
+        "end": 241,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 229,
+            "end": 239,
+            "expression": {
+              "type": "UnaryExpression",
+              "start": 229,
+              "end": 238,
+              "operator": "+",
+              "argument": {
+                "type": "AwaitExpression",
+                "start": 230,
+                "end": 238,
+                "argument": {
+                  "type": "Literal",
+                  "start": 236,
+                  "end": 238,
+                  "value": 42,
+                  "raw": "42"
+                }
+              },
+              "prefix": true
+            },
+            "directive": null
+          }
+        ]
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

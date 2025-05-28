@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 14,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 12,
-        "end": 14,
-        "body": []
-      },
-      "declare": false,
-      "extends": [],
       "id": {
         "type": "Identifier",
         "start": 10,
@@ -26,18 +18,26 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "typeParameters": null
+      "typeParameters": null,
+      "extends": [],
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 12,
+        "end": 14,
+        "body": []
+      },
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 15,
       "end": 25,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 19,
           "end": 24,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 19,
@@ -51,13 +51,13 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 23,
             "end": 24,
-            "raw": "0",
-            "value": 0
-          }
+            "value": 0,
+            "raw": "0"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

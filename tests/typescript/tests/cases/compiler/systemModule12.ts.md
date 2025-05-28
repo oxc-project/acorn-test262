@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 36,
       "end": 57,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 50,
-        "end": 57,
-        "raw": "'file1'",
-        "value": "file1"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -33,8 +25,16 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 50,
+        "end": 57,
+        "value": "file1",
+        "raw": "'file1'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

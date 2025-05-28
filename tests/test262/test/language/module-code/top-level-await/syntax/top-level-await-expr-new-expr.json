@@ -27,7 +27,6 @@
               "start": 953,
               "end": 983,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -76,7 +75,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
           ]
         }

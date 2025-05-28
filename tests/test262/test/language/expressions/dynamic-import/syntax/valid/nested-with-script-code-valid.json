@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1210,
       "end": 1221,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -33,7 +33,6 @@
         "end": 1237,
         "name": "smoosh"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -42,7 +41,8 @@
         "start": 1240,
         "end": 1242,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "WithStatement",

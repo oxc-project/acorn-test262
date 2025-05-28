@@ -13,7 +13,6 @@
         "end": 395,
         "name": "__func"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -31,13 +30,13 @@
               "start": 404,
               "end": 420,
               "operator": "delete",
-              "prefix": true,
               "argument": {
                 "type": "Identifier",
                 "start": 411,
                 "end": 420,
                 "name": "arguments"
-              }
+              },
+              "prefix": true
             }
           },
           {
@@ -52,7 +51,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "IfStatement",
@@ -67,7 +67,6 @@
           "start": 540,
           "end": 566,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "CallExpression",
             "start": 547,
@@ -109,7 +108,8 @@
               }
             ],
             "optional": false
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {

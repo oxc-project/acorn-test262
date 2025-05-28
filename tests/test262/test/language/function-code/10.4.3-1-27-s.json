@@ -13,7 +13,6 @@
         "end": 332,
         "name": "f1"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -32,7 +31,6 @@
               "end": 351,
               "name": "f"
             },
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -50,16 +48,17 @@
                     "start": 371,
                     "end": 382,
                     "operator": "typeof",
-                    "prefix": true,
                     "argument": {
                       "type": "ThisExpression",
                       "start": 378,
                       "end": 382
-                    }
+                    },
+                    "prefix": true
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "ReturnStatement",
@@ -118,12 +117,12 @@
                       "start": 426,
                       "end": 437,
                       "operator": "typeof",
-                      "prefix": true,
                       "argument": {
                         "type": "ThisExpression",
                         "start": 433,
                         "end": 437
-                      }
+                      },
+                      "prefix": true
                     }
                   },
                   "operator": "===",
@@ -139,7 +138,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

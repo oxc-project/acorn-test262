@@ -9,7 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 65,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 29,
+        "value": "my-React-Lib",
+        "raw": "\"my-React-Lib\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 30,
@@ -19,12 +25,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 36,
             "end": 47,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 40,
                 "end": 46,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 40,
@@ -43,11 +49,11 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           },
           {
             "type": "TSExportAssignment",
@@ -65,15 +71,9 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 29,
-        "raw": "\"my-React-Lib\"",
-        "value": "my-React-Lib"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -91,14 +91,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 43,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 28,
-        "end": 42,
-        "raw": "\"my-React-Lib\"",
-        "value": "my-React-Lib"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -115,19 +107,27 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 28,
+        "end": 42,
+        "value": "my-React-Lib",
+        "raw": "\"my-React-Lib\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 68,
       "end": 89,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 80,
           "end": 88,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 80,
@@ -146,27 +146,31 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "ExpressionStatement",
       "start": 91,
       "end": 103,
-      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 91,
         "end": 102,
-        "children": [],
-        "closingElement": null,
         "openingElement": {
           "type": "JSXOpeningElement",
           "start": 91,
           "end": 102,
+          "name": {
+            "type": "JSXIdentifier",
+            "start": 92,
+            "end": 95,
+            "name": "foo"
+          },
+          "typeArguments": null,
           "attributes": [
             {
               "type": "JSXAttribute",
@@ -181,16 +185,12 @@ __ESTREE_TEST__:PASS:
               "value": null
             }
           ],
-          "name": {
-            "type": "JSXIdentifier",
-            "start": 92,
-            "end": 95,
-            "name": "foo"
-          },
-          "selfClosing": true,
-          "typeArguments": null
-        }
-      }
+          "selfClosing": true
+        },
+        "children": [],
+        "closingElement": null
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

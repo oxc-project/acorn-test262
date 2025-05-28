@@ -9,11 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 4,
       "end": 71,
-      "attributes": [],
       "declaration": {
         "type": "TSEnumDeclaration",
         "start": 11,
         "end": 71,
+        "id": {
+          "type": "Identifier",
+          "start": 16,
+          "end": 29,
+          "decorators": [],
+          "name": "CodeGenTarget",
+          "optional": false,
+          "typeAnnotation": null
+        },
         "body": {
           "type": "TSEnumBody",
           "start": 30,
@@ -23,7 +31,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSEnumMember",
               "start": 40,
               "end": 47,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 40,
@@ -37,15 +44,15 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 46,
                 "end": 47,
-                "raw": "0",
-                "value": 0
-              }
+                "value": 0,
+                "raw": "0"
+              },
+              "computed": false
             },
             {
               "type": "TSEnumMember",
               "start": 57,
               "end": 64,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 57,
@@ -59,27 +66,20 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 63,
                 "end": 64,
-                "raw": "1",
-                "value": 1
-              }
+                "value": 1,
+                "raw": "1"
+              },
+              "computed": false
             }
           ]
         },
         "const": false,
-        "declare": false,
-        "id": {
-          "type": "Identifier",
-          "start": 16,
-          "end": 29,
-          "decorators": [],
-          "name": "CodeGenTarget",
-          "optional": false,
-          "typeAnnotation": null
-        }
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

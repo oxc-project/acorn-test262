@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 31,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 9,
           "end": 31,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 9,
@@ -28,16 +28,6 @@ __ESTREE_TEST__:PASS:
             "type": "FunctionExpression",
             "start": 13,
             "end": 31,
-            "async": false,
-            "body": {
-              "type": "BlockStatement",
-              "start": 28,
-              "end": 31,
-              "body": []
-            },
-            "declare": false,
-            "expression": false,
-            "generator": false,
             "id": {
               "type": "Identifier",
               "start": 22,
@@ -47,20 +37,29 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
+            "generator": false,
+            "async": false,
+            "declare": false,
+            "typeParameters": null,
             "params": [],
             "returnType": null,
-            "typeParameters": null
-          }
+            "body": {
+              "type": "BlockStatement",
+              "start": 28,
+              "end": 31,
+              "body": []
+            },
+            "expression": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 32,
       "end": 56,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 32,
@@ -70,7 +69,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 32,
           "end": 35,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 32,
@@ -80,7 +78,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 34,
@@ -89,22 +86,14 @@ __ESTREE_TEST__:PASS:
             "name": "a",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "FunctionExpression",
           "start": 38,
           "end": 56,
-          "async": false,
-          "body": {
-            "type": "BlockStatement",
-            "start": 53,
-            "end": 56,
-            "body": []
-          },
-          "declare": false,
-          "expression": false,
-          "generator": false,
           "id": {
             "type": "Identifier",
             "start": 47,
@@ -114,11 +103,22 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
+          "generator": false,
+          "async": false,
+          "declare": false,
+          "typeParameters": null,
           "params": [],
           "returnType": null,
-          "typeParameters": null
+          "body": {
+            "type": "BlockStatement",
+            "start": 53,
+            "end": 56,
+            "body": []
+          },
+          "expression": false
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",
@@ -136,12 +136,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 40,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 39,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -155,12 +155,17 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 8,
             "end": 39,
-            "arguments": [],
             "callee": {
               "type": "FunctionExpression",
               "start": 8,
               "end": 37,
+              "id": null,
+              "generator": false,
               "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
               "body": {
                 "type": "BlockStatement",
                 "start": 20,
@@ -174,27 +179,22 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 33,
                       "end": 34,
-                      "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   }
                 ]
               },
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
+              "expression": false
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "module",

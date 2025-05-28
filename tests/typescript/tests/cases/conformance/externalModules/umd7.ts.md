@@ -9,11 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 0,
       "end": 33,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 17,
@@ -23,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": null,
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
@@ -34,7 +33,8 @@ __ESTREE_TEST__:PASS:
           "end": 32
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "TSExportAssignment",
@@ -80,12 +80,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 34,
       "end": 56,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 38,
           "end": 55,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 38,
@@ -108,7 +108,6 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 50,
             "end": 55,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 50,
@@ -118,13 +117,14 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     }
   ],
   "sourceType": "module",

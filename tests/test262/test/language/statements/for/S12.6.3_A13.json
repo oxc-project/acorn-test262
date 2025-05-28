@@ -90,6 +90,7 @@
         "type": "VariableDeclaration",
         "start": 671,
         "end": 682,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -109,8 +110,7 @@
               "raw": "0"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "BinaryExpression",

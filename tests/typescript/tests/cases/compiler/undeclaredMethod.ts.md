@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 64,
+      "id": {
+        "type": "Identifier",
+        "start": 7,
+        "end": 8,
+        "decorators": [],
+        "name": "M",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 9,
@@ -18,60 +27,10 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 15,
             "end": 62,
-            "attributes": [],
             "declaration": {
               "type": "ClassDeclaration",
               "start": 22,
               "end": 62,
-              "abstract": false,
-              "body": {
-                "type": "ClassBody",
-                "start": 30,
-                "end": 62,
-                "body": [
-                  {
-                    "type": "MethodDefinition",
-                    "start": 40,
-                    "end": 56,
-                    "accessibility": "public",
-                    "computed": false,
-                    "decorators": [],
-                    "key": {
-                      "type": "Identifier",
-                      "start": 47,
-                      "end": 51,
-                      "decorators": [],
-                      "name": "salt",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "kind": "method",
-                    "optional": false,
-                    "override": false,
-                    "static": false,
-                    "value": {
-                      "type": "FunctionExpression",
-                      "start": 51,
-                      "end": 56,
-                      "async": false,
-                      "body": {
-                        "type": "BlockStatement",
-                        "start": 54,
-                        "end": 56,
-                        "body": []
-                      },
-                      "declare": false,
-                      "expression": false,
-                      "generator": false,
-                      "id": null,
-                      "params": [],
-                      "returnType": null,
-                      "typeParameters": null
-                    }
-                  }
-                ]
-              },
-              "declare": false,
               "decorators": [],
               "id": {
                 "type": "Identifier",
@@ -82,40 +41,81 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "implements": [],
+              "typeParameters": null,
               "superClass": null,
               "superTypeArguments": null,
-              "typeParameters": null
+              "implements": [],
+              "body": {
+                "type": "ClassBody",
+                "start": 30,
+                "end": 62,
+                "body": [
+                  {
+                    "type": "MethodDefinition",
+                    "start": 40,
+                    "end": 56,
+                    "decorators": [],
+                    "key": {
+                      "type": "Identifier",
+                      "start": 47,
+                      "end": 51,
+                      "decorators": [],
+                      "name": "salt",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "value": {
+                      "type": "FunctionExpression",
+                      "start": 51,
+                      "end": 56,
+                      "id": null,
+                      "generator": false,
+                      "async": false,
+                      "declare": false,
+                      "typeParameters": null,
+                      "params": [],
+                      "returnType": null,
+                      "body": {
+                        "type": "BlockStatement",
+                        "start": 54,
+                        "end": 56,
+                        "body": []
+                      },
+                      "expression": false
+                    },
+                    "kind": "method",
+                    "computed": false,
+                    "static": false,
+                    "override": false,
+                    "optional": false,
+                    "accessibility": "public"
+                  }
+                ]
+              },
+              "abstract": false,
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 7,
-        "end": 8,
-        "decorators": [],
-        "name": "M",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     },
     {
       "type": "VariableDeclaration",
       "start": 66,
       "end": 88,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 70,
           "end": 87,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 70,
@@ -131,7 +131,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 72,
                 "end": 75,
-                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 72,
@@ -154,7 +153,8 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   }
-                }
+                },
+                "typeArguments": null
               }
             }
           },
@@ -162,12 +162,10 @@ __ESTREE_TEST__:PASS:
             "type": "NewExpression",
             "start": 78,
             "end": 87,
-            "arguments": [],
             "callee": {
               "type": "MemberExpression",
               "start": 82,
               "end": 85,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 82,
@@ -177,7 +175,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 84,
@@ -186,30 +183,30 @@ __ESTREE_TEST__:PASS:
                 "name": "C",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             },
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": []
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 90,
       "end": 99,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 90,
         "end": 98,
-        "arguments": [],
         "callee": {
           "type": "MemberExpression",
           "start": 90,
           "end": 96,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 90,
@@ -219,7 +216,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 92,
@@ -228,27 +224,28 @@ __ESTREE_TEST__:PASS:
             "name": "salt",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 108,
       "end": 120,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 108,
         "end": 119,
-        "arguments": [],
         "callee": {
           "type": "MemberExpression",
           "start": 108,
           "end": 117,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 108,
@@ -258,7 +255,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 110,
@@ -267,11 +263,15 @@ __ESTREE_TEST__:PASS:
             "name": "saltbar",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

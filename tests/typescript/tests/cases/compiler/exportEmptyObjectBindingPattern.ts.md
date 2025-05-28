@@ -9,24 +9,23 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 21,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 21,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 13,
             "end": 20,
-            "definite": false,
             "id": {
               "type": "ObjectPattern",
               "start": 13,
               "end": 15,
               "decorators": [],
-              "optional": false,
               "properties": [],
+              "optional": false,
               "typeAnnotation": null
             },
             "init": {
@@ -34,15 +33,16 @@ __ESTREE_TEST__:PASS:
               "start": 18,
               "end": 20,
               "properties": []
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

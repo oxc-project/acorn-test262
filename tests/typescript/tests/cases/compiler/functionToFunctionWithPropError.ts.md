@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 44,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 12,
           "end": 43,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
@@ -35,6 +35,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSCallSignatureDeclaration",
                     "start": 17,
                     "end": 28,
+                    "typeParameters": null,
                     "params": [],
                     "returnType": {
                       "type": "TSTypeAnnotation",
@@ -45,15 +46,15 @@ __ESTREE_TEST__:PASS:
                         "start": 21,
                         "end": 27
                       }
-                    },
-                    "typeParameters": null
+                    }
                   },
                   {
                     "type": "TSPropertySignature",
                     "start": 29,
                     "end": 41,
-                    "accessibility": null,
                     "computed": false,
+                    "optional": false,
+                    "readonly": false,
                     "key": {
                       "type": "Identifier",
                       "start": 29,
@@ -63,9 +64,6 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "optional": false,
-                    "readonly": false,
-                    "static": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "start": 33,
@@ -75,28 +73,30 @@ __ESTREE_TEST__:PASS:
                         "start": 35,
                         "end": 41
                       }
-                    }
+                    },
+                    "accessibility": null,
+                    "static": false
                   }
                 ]
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "let"
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
       "start": 45,
       "end": 75,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 57,
           "end": 75,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 57,
@@ -117,6 +117,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSCallSignatureDeclaration",
                     "start": 62,
                     "end": 73,
+                    "typeParameters": null,
                     "params": [],
                     "returnType": {
                       "type": "TSTypeAnnotation",
@@ -127,24 +128,22 @@ __ESTREE_TEST__:PASS:
                         "start": 66,
                         "end": 72
                       }
-                    },
-                    "typeParameters": null
+                    }
                   }
                 ]
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "let"
+      "declare": true
     },
     {
       "type": "ExpressionStatement",
       "start": 77,
       "end": 83,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 77,
@@ -168,13 +167,13 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 84,
       "end": 90,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 84,
@@ -198,7 +197,8 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

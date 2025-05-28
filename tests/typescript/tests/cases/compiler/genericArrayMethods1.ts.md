@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 33,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 32,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -42,20 +42,10 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 18,
             "end": 32,
-            "arguments": [
-              {
-                "type": "Literal",
-                "start": 30,
-                "end": 31,
-                "raw": "0",
-                "value": 0
-              }
-            ],
             "callee": {
               "type": "MemberExpression",
               "start": 18,
               "end": 29,
-              "computed": false,
               "object": {
                 "type": "ArrayExpression",
                 "start": 18,
@@ -65,19 +55,18 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 19,
                     "end": 20,
-                    "raw": "0",
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Literal",
                     "start": 21,
                     "end": 22,
-                    "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
                 ]
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 24,
@@ -86,15 +75,26 @@ __ESTREE_TEST__:PASS:
                 "name": "slice",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 30,
+                "end": 31,
+                "value": 0,
+                "raw": "0"
+              }
+            ],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

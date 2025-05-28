@@ -9,17 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 44,
       "end": 83,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 51,
         "end": 83,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 65,
             "end": 82,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 65,
@@ -35,7 +34,6 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 71,
                   "end": 82,
-                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 71,
@@ -44,19 +42,21 @@ __ESTREE_TEST__:PASS:
                     "name": "HTMLElement",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "typeArguments": null
                 }
               }
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": true,
-        "kind": "const"
+        "declare": true
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -74,22 +74,22 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 44,
       "end": 53,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "VariableDeclaration",
       "start": 54,
       "end": 86,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 68,
           "end": 85,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 68,
@@ -105,7 +105,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 74,
                 "end": 85,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 74,
@@ -114,15 +113,16 @@ __ESTREE_TEST__:PASS:
                   "name": "HTMLElement",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     }
   ],
   "sourceType": "module",

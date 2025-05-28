@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 300,
       "end": 353,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -39,8 +40,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -70,8 +70,8 @@
               "end": 462,
               "name": "slice"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -79,14 +79,14 @@
               "start": 463,
               "end": 468,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 464,
                 "end": 468,
                 "value": 0.01,
                 "raw": "0.01"
-              }
+              },
+              "prefix": true
             },
             {
               "type": "Literal",
@@ -159,8 +159,8 @@
                         "end": 621,
                         "name": "slice"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -168,14 +168,14 @@
                         "start": 622,
                         "end": 627,
                         "operator": "-",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 623,
                           "end": 627,
                           "value": 0.01,
                           "raw": "0.01"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "Literal",

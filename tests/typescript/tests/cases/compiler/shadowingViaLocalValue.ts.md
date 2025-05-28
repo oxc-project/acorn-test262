@@ -14,12 +14,12 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclaration",
           "start": 6,
           "end": 12,
+          "kind": "let",
           "declarations": [
             {
               "type": "VariableDeclarator",
               "start": 10,
               "end": 11,
-              "definite": false,
               "id": {
                 "type": "Identifier",
                 "start": 10,
@@ -29,11 +29,11 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "init": null
+              "init": null,
+              "definite": false
             }
           ],
-          "declare": false,
-          "kind": "let"
+          "declare": false
         },
         {
           "type": "BlockStatement",
@@ -44,12 +44,12 @@ __ESTREE_TEST__:PASS:
               "type": "VariableDeclaration",
               "start": 27,
               "end": 37,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 31,
                   "end": 36,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 31,
@@ -63,13 +63,13 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 35,
                     "end": 36,
-                    "raw": "1",
-                    "value": 1
-                  }
+                    "value": 1,
+                    "raw": "1"
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "var"
+              "declare": false
             }
           ]
         }
@@ -84,12 +84,12 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclaration",
           "start": 53,
           "end": 60,
+          "kind": "let",
           "declarations": [
             {
               "type": "VariableDeclarator",
               "start": 57,
               "end": 59,
-              "definite": false,
               "id": {
                 "type": "Identifier",
                 "start": 57,
@@ -99,11 +99,11 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "init": null
+              "init": null,
+              "definite": false
             }
           ],
-          "declare": false,
-          "kind": "let"
+          "declare": false
         },
         {
           "type": "BlockStatement",
@@ -114,21 +114,16 @@ __ESTREE_TEST__:PASS:
               "type": "ForStatement",
               "start": 75,
               "end": 95,
-              "body": {
-                "type": "EmptyStatement",
-                "start": 94,
-                "end": 95
-              },
               "init": {
                 "type": "VariableDeclaration",
                 "start": 80,
                 "end": 90,
+                "kind": "var",
                 "declarations": [
                   {
                     "type": "VariableDeclarator",
                     "start": 84,
                     "end": 90,
-                    "definite": false,
                     "id": {
                       "type": "Identifier",
                       "start": 84,
@@ -142,16 +137,21 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 89,
                       "end": 90,
-                      "raw": "0",
-                      "value": 0
-                    }
+                      "value": 0,
+                      "raw": "0"
+                    },
+                    "definite": false
                   }
                 ],
-                "declare": false,
-                "kind": "var"
+                "declare": false
               },
               "test": null,
-              "update": null
+              "update": null,
+              "body": {
+                "type": "EmptyStatement",
+                "start": 94,
+                "end": 95
+              }
             }
           ]
         }

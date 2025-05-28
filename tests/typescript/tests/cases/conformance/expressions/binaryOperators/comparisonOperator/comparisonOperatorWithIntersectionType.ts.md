@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 23,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 12,
           "end": 23,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
@@ -35,8 +35,9 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 17,
                     "end": 21,
-                    "accessibility": null,
                     "computed": false,
+                    "optional": false,
+                    "readonly": false,
                     "key": {
                       "type": "Identifier",
                       "start": 17,
@@ -46,9 +47,6 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "optional": false,
-                    "readonly": false,
-                    "static": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "start": 18,
@@ -61,32 +59,32 @@ __ESTREE_TEST__:PASS:
                           "type": "Literal",
                           "start": 20,
                           "end": 21,
-                          "raw": "1",
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       }
-                    }
+                    },
+                    "accessibility": null,
+                    "static": false
                   }
                 ]
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "let"
+      "declare": true
     },
     {
       "type": "ExpressionStatement",
       "start": 24,
       "end": 30,
-      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 24,
         "end": 29,
-        "operator": ">",
         "left": {
           "type": "Identifier",
           "start": 24,
@@ -96,25 +94,27 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "operator": ">",
         "right": {
           "type": "Literal",
           "start": 28,
           "end": 29,
-          "raw": "1",
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "VariableDeclaration",
       "start": 32,
       "end": 71,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 44,
           "end": 71,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 44,
@@ -140,8 +140,9 @@ __ESTREE_TEST__:PASS:
                         "type": "TSPropertySignature",
                         "start": 49,
                         "end": 53,
-                        "accessibility": null,
                         "computed": false,
+                        "optional": false,
+                        "readonly": false,
                         "key": {
                           "type": "Identifier",
                           "start": 49,
@@ -151,9 +152,6 @@ __ESTREE_TEST__:PASS:
                           "optional": false,
                           "typeAnnotation": null
                         },
-                        "optional": false,
-                        "readonly": false,
-                        "static": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
                           "start": 50,
@@ -166,11 +164,13 @@ __ESTREE_TEST__:PASS:
                               "type": "Literal",
                               "start": 52,
                               "end": 53,
-                              "raw": "1",
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           }
-                        }
+                        },
+                        "accessibility": null,
+                        "static": false
                       }
                     ]
                   },
@@ -183,8 +183,9 @@ __ESTREE_TEST__:PASS:
                         "type": "TSPropertySignature",
                         "start": 60,
                         "end": 69,
-                        "accessibility": null,
                         "computed": false,
+                        "optional": false,
+                        "readonly": false,
                         "key": {
                           "type": "Identifier",
                           "start": 60,
@@ -194,9 +195,6 @@ __ESTREE_TEST__:PASS:
                           "optional": false,
                           "typeAnnotation": null
                         },
-                        "optional": false,
-                        "readonly": false,
-                        "static": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
                           "start": 61,
@@ -206,7 +204,9 @@ __ESTREE_TEST__:PASS:
                             "start": 63,
                             "end": 69
                           }
-                        }
+                        },
+                        "accessibility": null,
+                        "static": false
                       }
                     ]
                   }
@@ -214,22 +214,20 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "let"
+      "declare": true
     },
     {
       "type": "ExpressionStatement",
       "start": 72,
       "end": 78,
-      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 72,
         "end": 77,
-        "operator": ">",
         "left": {
           "type": "Identifier",
           "start": 72,
@@ -239,14 +237,16 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "operator": ">",
         "right": {
           "type": "Literal",
           "start": 76,
           "end": 77,
-          "raw": "1",
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

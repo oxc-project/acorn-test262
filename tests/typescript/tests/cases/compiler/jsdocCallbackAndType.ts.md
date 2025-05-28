@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 63,
       "end": 69,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 67,
           "end": 68,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 67,
@@ -24,22 +24,20 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 70,
       "end": 74,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 70,
         "end": 73,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 70,
@@ -49,28 +47,20 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 75,
       "end": 80,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 75,
         "end": 79,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 77,
-            "end": 78,
-            "raw": "1",
-            "value": 1
-          }
-        ],
         "callee": {
           "type": "Identifier",
           "start": 75,
@@ -80,9 +70,19 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 77,
+            "end": 78,
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

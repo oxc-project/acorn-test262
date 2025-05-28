@@ -9,17 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 33,
       "end": 44,
-      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 33,
         "end": 44,
-        "children": [],
-        "closingElement": null,
         "openingElement": {
           "type": "JSXOpeningElement",
           "start": 33,
           "end": 44,
+          "name": {
+            "type": "JSXIdentifier",
+            "start": 34,
+            "end": 37,
+            "name": "foo"
+          },
+          "typeArguments": null,
           "attributes": [
             {
               "type": "JSXAttribute",
@@ -34,16 +38,12 @@ __ESTREE_TEST__:PASS:
               "value": null
             }
           ],
-          "name": {
-            "type": "JSXIdentifier",
-            "start": 34,
-            "end": 37,
-            "name": "foo"
-          },
-          "selfClosing": true,
-          "typeArguments": null
-        }
-      }
+          "selfClosing": true
+        },
+        "children": [],
+        "closingElement": null
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

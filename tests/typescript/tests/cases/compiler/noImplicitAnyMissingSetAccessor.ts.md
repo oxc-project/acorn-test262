@@ -9,50 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 60,
-      "abstract": true,
-      "body": {
-        "type": "ClassBody",
-        "start": 22,
-        "end": 60,
-        "body": [
-          {
-            "type": "TSAbstractMethodDefinition",
-            "start": 28,
-            "end": 58,
-            "accessibility": "public",
-            "computed": false,
-            "decorators": [],
-            "key": {
-              "type": "Identifier",
-              "start": 48,
-              "end": 55,
-              "decorators": [],
-              "name": "message",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "kind": "get",
-            "optional": false,
-            "override": false,
-            "static": false,
-            "value": {
-              "type": "TSEmptyBodyFunctionExpression",
-              "start": 55,
-              "end": 58,
-              "async": false,
-              "body": null,
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
-          }
-        ]
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -63,16 +19,81 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 22,
+        "end": 60,
+        "body": [
+          {
+            "type": "TSAbstractMethodDefinition",
+            "start": 28,
+            "end": 58,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 48,
+              "end": 55,
+              "decorators": [],
+              "name": "message",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "value": {
+              "type": "TSEmptyBodyFunctionExpression",
+              "start": 55,
+              "end": 58,
+              "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
+              "body": null,
+              "expression": false
+            },
+            "kind": "get",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": "public"
+          }
+        ]
+      },
+      "abstract": true,
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 62,
       "end": 144,
-      "abstract": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 68,
+        "end": 73,
+        "decorators": [],
+        "name": "Child",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "superClass": {
+        "type": "Identifier",
+        "start": 82,
+        "end": 88,
+        "decorators": [],
+        "name": "Parent",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "implements": [],
       "body": {
         "type": "ClassBody",
         "start": 89,
@@ -82,8 +103,6 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 95,
             "end": 142,
-            "accessibility": "public",
-            "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
@@ -94,15 +113,17 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "get",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "FunctionExpression",
               "start": 113,
               "end": 142,
+              "id": null,
+              "generator": false,
               "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
               "body": {
                 "type": "BlockStatement",
                 "start": 116,
@@ -116,46 +137,25 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 133,
                       "end": 135,
-                      "raw": "\"\"",
-                      "value": ""
+                      "value": "",
+                      "raw": "\"\""
                     }
                   }
                 ]
               },
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
+              "expression": false
+            },
+            "kind": "get",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": "public"
           }
         ]
       },
-      "declare": false,
-      "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 68,
-        "end": 73,
-        "decorators": [],
-        "name": "Child",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": {
-        "type": "Identifier",
-        "start": 82,
-        "end": 88,
-        "decorators": [],
-        "name": "Parent",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

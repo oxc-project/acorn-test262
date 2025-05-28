@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1026,
       "end": 1047,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "false"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ClassDeclaration",
@@ -49,8 +49,6 @@
             "type": "PropertyDefinition",
             "start": 1060,
             "end": 1106,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1060,
@@ -96,7 +94,9 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -125,8 +125,8 @@
             "end": 1123,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -140,7 +140,6 @@
             "start": 1137,
             "end": 1162,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -167,7 +166,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -197,8 +197,8 @@
             "end": 1182,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

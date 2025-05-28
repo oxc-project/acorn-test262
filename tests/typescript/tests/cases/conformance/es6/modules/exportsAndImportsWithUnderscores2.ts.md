@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 10,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 10,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -33,11 +33,11 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -66,48 +66,48 @@ __ESTREE_TEST__:PASS:
               "type": "Property",
               "start": 36,
               "end": 54,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Literal",
                 "start": 36,
                 "end": 48,
-                "raw": "\"__esmodule\"",
-                "value": "__esmodule"
+                "value": "__esmodule",
+                "raw": "\"__esmodule\""
               },
-              "kind": "init",
-              "method": false,
-              "optional": false,
-              "shorthand": false,
               "value": {
                 "type": "Literal",
                 "start": 50,
                 "end": 54,
-                "raw": "true",
-                "value": true
-              }
+                "value": true,
+                "raw": "true"
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "optional": false
             },
             {
               "type": "Property",
               "start": 60,
               "end": 75,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Literal",
                 "start": 60,
                 "end": 71,
-                "raw": "\"__proto__\"",
-                "value": "__proto__"
+                "value": "__proto__",
+                "raw": "\"__proto__\""
               },
-              "kind": "init",
-              "method": false,
-              "optional": false,
-              "shorthand": false,
               "value": {
                 "type": "ObjectExpression",
                 "start": 73,
                 "end": 75,
                 "properties": []
-              }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "optional": false
             }
           ]
         }
@@ -130,14 +130,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 21,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 14,
-        "end": 20,
-        "raw": "\"./m1\"",
-        "value": "./m1"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -154,31 +146,38 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 14,
+        "end": 20,
+        "value": "./m1",
+        "raw": "\"./m1\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 22,
       "end": 58,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 28,
           "end": 57,
-          "definite": false,
           "id": {
             "type": "ObjectPattern",
             "start": 28,
             "end": 53,
             "decorators": [],
-            "optional": false,
             "properties": [
               {
                 "type": "Property",
                 "start": 30,
                 "end": 40,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 30,
@@ -188,10 +187,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": true,
                 "value": {
                   "type": "Identifier",
                   "start": 30,
@@ -200,13 +195,17 @@ __ESTREE_TEST__:PASS:
                   "name": "__esmodule",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "method": false,
+                "shorthand": true,
+                "computed": false,
+                "optional": false
               },
               {
                 "type": "Property",
                 "start": 42,
                 "end": 51,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 42,
@@ -216,10 +215,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": true,
                 "value": {
                   "type": "Identifier",
                   "start": 42,
@@ -228,9 +223,14 @@ __ESTREE_TEST__:PASS:
                   "name": "__proto__",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "method": false,
+                "shorthand": true,
+                "computed": false,
+                "optional": false
               }
             ],
+            "optional": false,
             "typeAnnotation": null
           },
           "init": {
@@ -241,11 +241,11 @@ __ESTREE_TEST__:PASS:
             "name": "R",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "module",

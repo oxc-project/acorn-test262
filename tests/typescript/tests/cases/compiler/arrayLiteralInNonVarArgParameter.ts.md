@@ -9,16 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 51,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 48,
-        "end": 51,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -28,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -56,6 +50,7 @@ __ESTREE_TEST__:PASS:
           "type": "RestElement",
           "start": 30,
           "end": 46,
+          "decorators": [],
           "argument": {
             "type": "Identifier",
             "start": 33,
@@ -65,7 +60,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "decorators": [],
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
@@ -86,17 +80,32 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 48,
+        "end": 51,
+        "body": []
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
       "start": 53,
       "end": 77,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 53,
         "end": 76,
+        "callee": {
+          "type": "Identifier",
+          "start": 53,
+          "end": 58,
+          "decorators": [],
+          "name": "panic",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null,
         "arguments": [
           {
             "type": "ArrayExpression",
@@ -108,29 +117,20 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 63,
             "end": 68,
-            "raw": "'one'",
-            "value": "one"
+            "value": "one",
+            "raw": "'one'"
           },
           {
             "type": "Literal",
             "start": 70,
             "end": 75,
-            "raw": "'two'",
-            "value": "two"
+            "value": "two",
+            "raw": "'two'"
           }
         ],
-        "callee": {
-          "type": "Identifier",
-          "start": 53,
-          "end": 58,
-          "decorators": [],
-          "name": "panic",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "optional": false,
-        "typeArguments": null
-      }
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

@@ -10,22 +10,16 @@ __ESTREE_TEST__:PASS:
       "start": 0,
       "end": 27,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 25,
-        "end": 27,
-        "body": []
-      },
       "left": {
         "type": "VariableDeclaration",
         "start": 5,
         "end": 15,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 9,
             "end": 15,
-            "definite": false,
             "id": {
               "type": "ArrayPattern",
               "start": 9,
@@ -54,11 +48,11 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "let"
+        "declare": false
       },
       "right": {
         "type": "ArrayExpression",
@@ -72,6 +66,12 @@ __ESTREE_TEST__:PASS:
             "elements": []
           }
         ]
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 25,
+        "end": 27,
+        "body": []
       }
     }
   ],

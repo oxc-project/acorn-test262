@@ -27,8 +27,8 @@
             "end": 283,
             "name": "isFrozen"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

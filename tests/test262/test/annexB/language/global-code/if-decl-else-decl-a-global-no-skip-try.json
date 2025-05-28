@@ -27,8 +27,8 @@
             "end": 1609,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -113,7 +113,6 @@
                   "end": 1736,
                   "name": "f"
                 },
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -135,7 +134,8 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               },
               "alternate": {
                 "type": "FunctionDeclaration",
@@ -147,7 +147,6 @@
                   "end": 1771,
                   "name": "_f"
                 },
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -156,7 +155,8 @@
                   "start": 1774,
                   "end": 1776,
                   "body": []
-                }
+                },
+                "expression": false
               }
             }
           ]
@@ -188,8 +188,8 @@
             "end": 1797,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -197,13 +197,13 @@
             "start": 1801,
             "end": 1809,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 1808,
               "end": 1809,
               "name": "f"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -247,8 +247,8 @@
             "end": 1894,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

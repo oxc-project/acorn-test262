@@ -13,7 +13,6 @@
         "end": 386,
         "name": "f1"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -64,7 +63,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "IfStatement",
@@ -75,7 +75,6 @@
         "start": 427,
         "end": 448,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 428,
@@ -121,7 +120,8 @@
               "raw": "false"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -164,7 +164,6 @@
           "start": 513,
           "end": 530,
           "operator": "!",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 514,
@@ -203,7 +202,8 @@
                 "raw": "true"
               }
             }
-          }
+          },
+          "prefix": true
         },
         "consequent": {
           "type": "BlockStatement",
@@ -250,7 +250,6 @@
         "end": 605,
         "name": "f2"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -336,7 +335,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "IfStatement",
@@ -347,7 +347,6 @@
         "start": 670,
         "end": 687,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 671,
@@ -386,7 +385,8 @@
               "raw": "true"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",

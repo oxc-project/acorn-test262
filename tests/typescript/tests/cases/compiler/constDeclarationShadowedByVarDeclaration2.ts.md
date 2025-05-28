@@ -9,7 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 48,
       "end": 139,
+      "id": {
+        "type": "Identifier",
+        "start": 57,
+        "end": 62,
+        "decorators": [],
+        "name": "outer",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 65,
@@ -19,12 +33,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 71,
             "end": 83,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 77,
                 "end": 82,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 77,
@@ -38,19 +52,33 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 81,
                   "end": 82,
-                  "raw": "0",
-                  "value": 0
-                }
+                  "value": 0,
+                  "raw": "0"
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "const"
+            "declare": false
           },
           {
             "type": "FunctionDeclaration",
             "start": 88,
             "end": 137,
+            "id": {
+              "type": "Identifier",
+              "start": 97,
+              "end": 102,
+              "decorators": [],
+              "name": "inner",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "generator": false,
             "async": false,
+            "declare": false,
+            "typeParameters": null,
+            "params": [],
+            "returnType": null,
             "body": {
               "type": "BlockStatement",
               "start": 105,
@@ -60,12 +88,12 @@ __ESTREE_TEST__:PASS:
                   "type": "VariableDeclaration",
                   "start": 115,
                   "end": 131,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
                       "start": 119,
                       "end": 130,
-                      "definite": false,
                       "id": {
                         "type": "Identifier",
                         "start": 119,
@@ -79,49 +107,21 @@ __ESTREE_TEST__:PASS:
                         "type": "Literal",
                         "start": 123,
                         "end": 130,
-                        "raw": "\"inner\"",
-                        "value": "inner"
-                      }
+                        "value": "inner",
+                        "raw": "\"inner\""
+                      },
+                      "definite": false
                     }
                   ],
-                  "declare": false,
-                  "kind": "var"
+                  "declare": false
                 }
               ]
             },
-            "declare": false,
-            "expression": false,
-            "generator": false,
-            "id": {
-              "type": "Identifier",
-              "start": 97,
-              "end": 102,
-              "decorators": [],
-              "name": "inner",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
+            "expression": false
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 57,
-        "end": 62,
-        "decorators": [],
-        "name": "outer",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

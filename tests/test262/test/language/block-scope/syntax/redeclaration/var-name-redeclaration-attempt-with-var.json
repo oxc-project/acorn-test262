@@ -12,6 +12,7 @@
           "type": "VariableDeclaration",
           "start": 550,
           "end": 556,
+          "kind": "var",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -25,13 +26,13 @@
               },
               "init": null
             }
-          ],
-          "kind": "var"
+          ]
         },
         {
           "type": "VariableDeclaration",
           "start": 557,
           "end": 562,
+          "kind": "var",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -45,8 +46,7 @@
               },
               "init": null
             }
-          ],
-          "kind": "var"
+          ]
         }
       ]
     }

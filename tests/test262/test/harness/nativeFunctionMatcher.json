@@ -59,7 +59,6 @@
                 "type": "TemplateLiteral",
                 "start": 522,
                 "end": 587,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
@@ -71,7 +70,8 @@
                     },
                     "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               },
               {
                 "type": "Literal",
@@ -137,17 +137,15 @@
             "end": 969,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 970,
             "end": 1107,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -232,41 +230,6 @@
                                 "type": "TemplateLiteral",
                                 "start": 1065,
                                 "end": 1099,
-                                "expressions": [
-                                  {
-                                    "type": "CallExpression",
-                                    "start": 1068,
-                                    "end": 1085,
-                                    "callee": {
-                                      "type": "MemberExpression",
-                                      "start": 1068,
-                                      "end": 1082,
-                                      "object": {
-                                        "type": "Identifier",
-                                        "start": 1068,
-                                        "end": 1072,
-                                        "name": "JSON"
-                                      },
-                                      "property": {
-                                        "type": "Identifier",
-                                        "start": 1073,
-                                        "end": 1082,
-                                        "name": "stringify"
-                                      },
-                                      "computed": false,
-                                      "optional": false
-                                    },
-                                    "arguments": [
-                                      {
-                                        "type": "Identifier",
-                                        "start": 1083,
-                                        "end": 1084,
-                                        "name": "s"
-                                      }
-                                    ],
-                                    "optional": false
-                                  }
-                                ],
                                 "quasis": [
                                   {
                                     "type": "TemplateElement",
@@ -288,6 +251,41 @@
                                     },
                                     "tail": true
                                   }
+                                ],
+                                "expressions": [
+                                  {
+                                    "type": "CallExpression",
+                                    "start": 1068,
+                                    "end": 1085,
+                                    "callee": {
+                                      "type": "MemberExpression",
+                                      "start": 1068,
+                                      "end": 1082,
+                                      "object": {
+                                        "type": "Identifier",
+                                        "start": 1068,
+                                        "end": 1072,
+                                        "name": "JSON"
+                                      },
+                                      "property": {
+                                        "type": "Identifier",
+                                        "start": 1073,
+                                        "end": 1082,
+                                        "name": "stringify"
+                                      },
+                                      "optional": false,
+                                      "computed": false
+                                    },
+                                    "arguments": [
+                                      {
+                                        "type": "Identifier",
+                                        "start": 1083,
+                                        "end": 1084,
+                                        "name": "s"
+                                      }
+                                    ],
+                                    "optional": false
+                                  }
                                 ]
                               }
                             ]
@@ -299,7 +297,9 @@
                   "finalizer": null
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -414,17 +414,15 @@
             "end": 1528,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 1529,
             "end": 1718,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -443,6 +441,7 @@
                   "type": "VariableDeclaration",
                   "start": 1540,
                   "end": 1557,
+                  "kind": "let",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -462,8 +461,7 @@
                         "raw": "false"
                       }
                     }
-                  ],
-                  "kind": "let"
+                  ]
                 },
                 {
                   "type": "TryStatement",
@@ -578,41 +576,6 @@
                               "type": "TemplateLiteral",
                               "start": 1676,
                               "end": 1710,
-                              "expressions": [
-                                {
-                                  "type": "CallExpression",
-                                  "start": 1679,
-                                  "end": 1696,
-                                  "callee": {
-                                    "type": "MemberExpression",
-                                    "start": 1679,
-                                    "end": 1693,
-                                    "object": {
-                                      "type": "Identifier",
-                                      "start": 1679,
-                                      "end": 1683,
-                                      "name": "JSON"
-                                    },
-                                    "property": {
-                                      "type": "Identifier",
-                                      "start": 1684,
-                                      "end": 1693,
-                                      "name": "stringify"
-                                    },
-                                    "computed": false,
-                                    "optional": false
-                                  },
-                                  "arguments": [
-                                    {
-                                      "type": "Identifier",
-                                      "start": 1694,
-                                      "end": 1695,
-                                      "name": "s"
-                                    }
-                                  ],
-                                  "optional": false
-                                }
-                              ],
                               "quasis": [
                                 {
                                   "type": "TemplateElement",
@@ -634,6 +597,41 @@
                                   },
                                   "tail": true
                                 }
+                              ],
+                              "expressions": [
+                                {
+                                  "type": "CallExpression",
+                                  "start": 1679,
+                                  "end": 1696,
+                                  "callee": {
+                                    "type": "MemberExpression",
+                                    "start": 1679,
+                                    "end": 1693,
+                                    "object": {
+                                      "type": "Identifier",
+                                      "start": 1679,
+                                      "end": 1683,
+                                      "name": "JSON"
+                                    },
+                                    "property": {
+                                      "type": "Identifier",
+                                      "start": 1684,
+                                      "end": 1693,
+                                      "name": "stringify"
+                                    },
+                                    "optional": false,
+                                    "computed": false
+                                  },
+                                  "arguments": [
+                                    {
+                                      "type": "Identifier",
+                                      "start": 1694,
+                                      "end": 1695,
+                                      "name": "s"
+                                    }
+                                  ],
+                                  "optional": false
+                                }
                               ]
                             }
                           ]
@@ -644,7 +642,9 @@
                   "alternate": null
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

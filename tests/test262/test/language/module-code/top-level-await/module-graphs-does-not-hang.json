@@ -15,8 +15,8 @@
         "value": "./module-graphs-parent-tla_FIXTURE.js",
         "raw": "\"./module-graphs-parent-tla_FIXTURE.js\""
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",

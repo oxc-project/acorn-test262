@@ -13,7 +13,6 @@
         "end": 370,
         "name": "empty"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -34,7 +33,8 @@
         "start": 378,
         "end": 380,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -46,7 +46,6 @@
         "end": 405,
         "name": "emptyWithArray"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -63,9 +62,7 @@
                 "type": "Property",
                 "start": 410,
                 "end": 415,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 410,
@@ -78,7 +75,9 @@
                   "end": 415,
                   "elements": []
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -89,7 +88,8 @@
         "start": 418,
         "end": 420,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -101,7 +101,6 @@
         "end": 446,
         "name": "emptyWithObject"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -118,9 +117,7 @@
                 "type": "Property",
                 "start": 451,
                 "end": 456,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 451,
@@ -133,7 +130,9 @@
                   "end": 456,
                   "properties": []
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -144,7 +143,8 @@
         "start": 459,
         "end": 461,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -156,7 +156,6 @@
         "end": 488,
         "name": "emptyWithLeading"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -183,7 +182,8 @@
         "start": 499,
         "end": 501,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -195,7 +195,6 @@
         "end": 526,
         "name": "singleElement"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -212,9 +211,7 @@
                 "type": "Property",
                 "start": 531,
                 "end": 535,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 531,
@@ -227,7 +224,9 @@
                   "end": 535,
                   "name": "b"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -238,7 +237,8 @@
         "start": 538,
         "end": 540,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -250,7 +250,6 @@
         "end": 579,
         "name": "singleElementWithInitializer"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -267,9 +266,7 @@
                 "type": "Property",
                 "start": 584,
                 "end": 592,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 584,
@@ -294,7 +291,9 @@
                     "raw": "0"
                   }
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -305,7 +304,8 @@
         "start": 595,
         "end": 597,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -317,7 +317,6 @@
         "end": 630,
         "name": "singleElementWithArray"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -334,9 +333,7 @@
                 "type": "Property",
                 "start": 635,
                 "end": 641,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 635,
@@ -356,7 +353,9 @@
                     }
                   ]
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -367,7 +366,8 @@
         "start": 644,
         "end": 646,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -379,7 +379,6 @@
         "end": 680,
         "name": "singleElementWithObject"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -396,9 +395,7 @@
                 "type": "Property",
                 "start": 685,
                 "end": 694,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 685,
@@ -414,9 +411,7 @@
                       "type": "Property",
                       "start": 689,
                       "end": 693,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 689,
@@ -429,11 +424,15 @@
                         "end": 693,
                         "name": "b"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -444,7 +443,8 @@
         "start": 697,
         "end": 699,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -456,7 +456,6 @@
         "end": 734,
         "name": "singleElementWithLeading"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -479,9 +478,7 @@
                 "type": "Property",
                 "start": 742,
                 "end": 746,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 742,
@@ -494,7 +491,9 @@
                   "end": 746,
                   "name": "b"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -505,7 +504,8 @@
         "start": 749,
         "end": 751,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -517,7 +517,6 @@
         "end": 775,
         "name": "multiElement"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -534,9 +533,7 @@
                 "type": "Property",
                 "start": 780,
                 "end": 784,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 780,
@@ -549,15 +546,15 @@
                   "end": 784,
                   "name": "r"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 786,
                 "end": 790,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 786,
@@ -570,15 +567,15 @@
                   "end": 790,
                   "name": "s"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 792,
                 "end": 796,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 792,
@@ -591,7 +588,9 @@
                   "end": 796,
                   "name": "t"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -602,7 +601,8 @@
         "start": 799,
         "end": 801,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -614,7 +614,6 @@
         "end": 839,
         "name": "multiElementWithInitializer"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -631,9 +630,7 @@
                 "type": "Property",
                 "start": 844,
                 "end": 852,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 844,
@@ -658,15 +655,15 @@
                     "raw": "0"
                   }
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 854,
                 "end": 858,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 854,
@@ -679,15 +676,15 @@
                   "end": 858,
                   "name": "s"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 860,
                 "end": 868,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 860,
@@ -712,7 +709,9 @@
                     "raw": "1"
                   }
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -723,7 +722,8 @@
         "start": 871,
         "end": 873,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -735,7 +735,6 @@
         "end": 905,
         "name": "multiElementWithArray"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -752,9 +751,7 @@
                 "type": "Property",
                 "start": 910,
                 "end": 916,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 910,
@@ -774,15 +771,15 @@
                     }
                   ]
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 918,
                 "end": 919,
-                "method": false,
-                "shorthand": true,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 918,
@@ -795,15 +792,15 @@
                   "end": 919,
                   "name": "b"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": true,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 921,
                 "end": 927,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 921,
@@ -823,7 +820,9 @@
                     }
                   ]
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -834,7 +833,8 @@
         "start": 930,
         "end": 932,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -846,7 +846,6 @@
         "end": 965,
         "name": "multiElementWithObject"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -863,9 +862,7 @@
                 "type": "Property",
                 "start": 970,
                 "end": 979,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 970,
@@ -881,9 +878,7 @@
                       "type": "Property",
                       "start": 974,
                       "end": 978,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 974,
@@ -896,19 +891,21 @@
                         "end": 978,
                         "name": "q"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 981,
                 "end": 987,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 981,
@@ -924,9 +921,7 @@
                       "type": "Property",
                       "start": 985,
                       "end": 986,
-                      "method": false,
-                      "shorthand": true,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 985,
@@ -939,19 +934,21 @@
                         "end": 986,
                         "name": "r"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": true,
+                      "computed": false
                     }
                   ]
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 989,
                 "end": 999,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 989,
@@ -967,9 +964,7 @@
                       "type": "Property",
                       "start": 993,
                       "end": 998,
-                      "method": false,
-                      "shorthand": true,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 993,
@@ -994,11 +989,15 @@
                           "raw": "0"
                         }
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": true,
+                      "computed": false
                     }
                   ]
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -1009,7 +1008,8 @@
         "start": 1002,
         "end": 1004,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -1021,7 +1021,6 @@
         "end": 1038,
         "name": "multiElementWithLeading"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -1050,9 +1049,7 @@
                 "type": "Property",
                 "start": 1049,
                 "end": 1053,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1049,
@@ -1065,15 +1062,15 @@
                   "end": 1053,
                   "name": "r"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 1055,
                 "end": 1059,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1055,
@@ -1086,15 +1083,15 @@
                   "end": 1059,
                   "name": "s"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 1061,
                 "end": 1065,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1061,
@@ -1107,7 +1104,9 @@
                   "end": 1065,
                   "name": "t"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -1118,7 +1117,8 @@
         "start": 1068,
         "end": 1070,
         "body": []
-      }
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

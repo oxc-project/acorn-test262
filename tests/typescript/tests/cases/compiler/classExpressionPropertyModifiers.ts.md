@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 84,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 6,
           "end": 84,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
@@ -28,93 +28,6 @@ __ESTREE_TEST__:PASS:
             "type": "ClassExpression",
             "start": 10,
             "end": 84,
-            "abstract": false,
-            "body": {
-              "type": "ClassBody",
-              "start": 20,
-              "end": 84,
-              "body": [
-                {
-                  "type": "PropertyDefinition",
-                  "start": 26,
-                  "end": 62,
-                  "accessibility": null,
-                  "computed": true,
-                  "declare": true,
-                  "decorators": [],
-                  "definite": false,
-                  "key": {
-                    "type": "MemberExpression",
-                    "start": 35,
-                    "end": 53,
-                    "computed": false,
-                    "object": {
-                      "type": "Identifier",
-                      "start": 35,
-                      "end": 41,
-                      "decorators": [],
-                      "name": "Symbol",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "optional": false,
-                    "property": {
-                      "type": "Identifier",
-                      "start": 42,
-                      "end": 53,
-                      "decorators": [],
-                      "name": "toStringTag",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  },
-                  "optional": false,
-                  "override": false,
-                  "readonly": false,
-                  "static": false,
-                  "typeAnnotation": null,
-                  "value": {
-                    "type": "Literal",
-                    "start": 57,
-                    "end": 61,
-                    "raw": "\"uh\"",
-                    "value": "uh"
-                  }
-                },
-                {
-                  "type": "PropertyDefinition",
-                  "start": 67,
-                  "end": 82,
-                  "accessibility": null,
-                  "computed": false,
-                  "declare": false,
-                  "decorators": [],
-                  "definite": false,
-                  "key": {
-                    "type": "Identifier",
-                    "start": 74,
-                    "end": 77,
-                    "decorators": [],
-                    "name": "foo",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "override": false,
-                  "readonly": false,
-                  "static": false,
-                  "typeAnnotation": null,
-                  "value": {
-                    "type": "Literal",
-                    "start": 80,
-                    "end": 81,
-                    "raw": "1",
-                    "value": 1
-                  }
-                }
-              ]
-            },
-            "declare": false,
             "decorators": [],
             "id": {
               "type": "Identifier",
@@ -125,15 +38,102 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "implements": [],
+            "typeParameters": null,
             "superClass": null,
             "superTypeArguments": null,
-            "typeParameters": null
-          }
+            "implements": [],
+            "body": {
+              "type": "ClassBody",
+              "start": 20,
+              "end": 84,
+              "body": [
+                {
+                  "type": "PropertyDefinition",
+                  "start": 26,
+                  "end": 62,
+                  "decorators": [],
+                  "key": {
+                    "type": "MemberExpression",
+                    "start": 35,
+                    "end": 53,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 35,
+                      "end": 41,
+                      "decorators": [],
+                      "name": "Symbol",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 42,
+                      "end": 53,
+                      "decorators": [],
+                      "name": "toStringTag",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "optional": false,
+                    "computed": false
+                  },
+                  "typeAnnotation": null,
+                  "value": {
+                    "type": "Literal",
+                    "start": 57,
+                    "end": 61,
+                    "value": "uh",
+                    "raw": "\"uh\""
+                  },
+                  "computed": true,
+                  "static": false,
+                  "declare": true,
+                  "override": false,
+                  "optional": false,
+                  "definite": false,
+                  "readonly": false,
+                  "accessibility": null
+                },
+                {
+                  "type": "PropertyDefinition",
+                  "start": 67,
+                  "end": 82,
+                  "decorators": [],
+                  "key": {
+                    "type": "Identifier",
+                    "start": 74,
+                    "end": 77,
+                    "decorators": [],
+                    "name": "foo",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeAnnotation": null,
+                  "value": {
+                    "type": "Literal",
+                    "start": 80,
+                    "end": 81,
+                    "value": 1,
+                    "raw": "1"
+                  },
+                  "computed": false,
+                  "static": false,
+                  "declare": false,
+                  "override": false,
+                  "optional": false,
+                  "definite": false,
+                  "readonly": false,
+                  "accessibility": null
+                }
+              ]
+            },
+            "abstract": false,
+            "declare": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "script",

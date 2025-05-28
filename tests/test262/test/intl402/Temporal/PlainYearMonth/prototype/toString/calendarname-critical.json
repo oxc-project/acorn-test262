@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 323,
       "end": 462,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -88,8 +89,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -100,6 +100,7 @@
         "type": "VariableDeclaration",
         "start": 469,
         "end": 504,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -132,8 +133,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -150,6 +150,7 @@
             "type": "VariableDeclaration",
             "start": 519,
             "end": 583,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -181,8 +182,8 @@
                       "end": 564,
                       "name": "PlainYearMonth"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -213,13 +214,13 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 586,
             "end": 650,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -251,8 +252,8 @@
                       "end": 619,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -264,9 +265,7 @@
                           "type": "Property",
                           "start": 622,
                           "end": 646,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 622,
@@ -280,7 +279,9 @@
                             "value": "critical",
                             "raw": "\"critical\""
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false
                         }
                       ]
                     }
@@ -288,8 +289,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -315,8 +315,8 @@
                   "end": 669,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -335,14 +335,6 @@
                   "type": "TemplateLiteral",
                   "start": 688,
                   "end": 741,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 691,
-                      "end": 702,
-                      "name": "description"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -363,6 +355,14 @@
                         "cooked": " calendar for calendarName = critical"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 691,
+                      "end": 702,
+                      "name": "description"
                     }
                   ]
                 }

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 554,
       "end": 636,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -128,8 +129,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -285,7 +285,6 @@
         "end": 732,
         "name": "__FACTORY"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -331,8 +330,8 @@
                   "end": 758,
                   "name": "volume"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "Identifier",
@@ -389,8 +388,8 @@
                   "end": 791,
                   "name": "id"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "Identifier",
@@ -447,8 +446,8 @@
                   "end": 821,
                   "name": "top"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "MemberExpression",
@@ -467,8 +466,8 @@
                   "value": 2,
                   "raw": "2"
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               }
             }
           },
@@ -504,13 +503,14 @@
                   "value": 3,
                   "raw": "3"
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               }
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",
@@ -595,8 +595,8 @@
             "end": 1025,
             "name": "color"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -654,8 +654,8 @@
                       "end": 1144,
                       "name": "color"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
@@ -689,8 +689,8 @@
             "end": 1340,
             "name": "volume"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -748,8 +748,8 @@
                       "end": 1460,
                       "name": "volume"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
@@ -783,8 +783,8 @@
             "end": 1656,
             "name": "bottom"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -842,8 +842,8 @@
                       "end": 1778,
                       "name": "bottom"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
@@ -877,8 +877,8 @@
             "end": 1970,
             "name": "id"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -936,8 +936,8 @@
                       "end": 2070,
                       "name": "id"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
@@ -971,8 +971,8 @@
             "end": 2264,
             "name": "left"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -1030,8 +1030,8 @@
                       "end": 2380,
                       "name": "left"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
@@ -1065,8 +1065,8 @@
             "end": 2573,
             "name": "top"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -1124,8 +1124,8 @@
                       "end": 2678,
                       "name": "top"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]

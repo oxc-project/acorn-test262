@@ -9,21 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 49,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 32,
-        "end": 48,
-        "raw": "\"./src/thing.js\"",
-        "value": "./src/thing.js"
-      },
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 8,
           "end": 25,
+          "local": {
+            "type": "Identifier",
+            "start": 8,
+            "end": 16,
+            "decorators": [],
+            "name": "srcthing",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 20,
@@ -33,18 +33,18 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 8,
-            "end": 16,
-            "decorators": [],
-            "name": "srcthing",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 32,
+        "end": 48,
+        "value": "./src/thing.js",
+        "raw": "\"./src/thing.js\""
+      },
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -62,14 +62,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 391,
       "end": 427,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 411,
-        "end": 426,
-        "raw": "\"@this/package\"",
-        "value": "@this/package"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -86,24 +78,29 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 411,
+        "end": 426,
+        "value": "@this/package",
+        "raw": "\"@this/package\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 429,
       "end": 440,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 429,
         "end": 439,
-        "arguments": [],
         "callee": {
           "type": "MemberExpression",
           "start": 429,
           "end": 437,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 429,
@@ -113,7 +110,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 432,
@@ -122,31 +118,24 @@ __ESTREE_TEST__:PASS:
             "name": "thing",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 442,
       "end": 477,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 449,
         "end": 477,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 475,
-          "end": 477,
-          "body": []
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 458,
@@ -156,6 +145,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [],
         "returnType": {
           "type": "TSTypeAnnotation",
@@ -167,11 +160,18 @@ __ESTREE_TEST__:PASS:
             "end": 474
           }
         },
-        "typeParameters": null
+        "body": {
+          "type": "BlockStatement",
+          "start": 475,
+          "end": 477,
+          "body": []
+        },
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 896,
       "end": 949,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -47,8 +48,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -59,6 +59,7 @@
         "type": "VariableDeclaration",
         "start": 956,
         "end": 970,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -72,8 +73,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -110,8 +110,8 @@
                   "end": 1010,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -146,8 +146,8 @@
                             "end": 1039,
                             "name": "DateTimeFormat"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -165,9 +165,7 @@
                                 "type": "Property",
                                 "start": 1045,
                                 "end": 1053,
-                                "method": false,
-                                "shorthand": true,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 1045,
@@ -180,7 +178,9 @@
                                   "end": 1053,
                                   "name": "timeZone"
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": true,
+                                "computed": false
                               }
                             ]
                           }
@@ -192,8 +192,8 @@
                         "end": 1071,
                         "name": "resolvedOptions"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false
@@ -204,8 +204,8 @@
                     "end": 1082,
                     "name": "timeZone"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Identifier",

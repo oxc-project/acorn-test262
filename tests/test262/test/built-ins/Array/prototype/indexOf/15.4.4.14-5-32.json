@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 320,
       "end": 339,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -52,8 +52,8 @@
             "end": 357,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -97,8 +97,8 @@
                 "end": 383,
                 "name": "indexOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -112,14 +112,14 @@
                 "start": 395,
                 "end": 399,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 396,
                   "end": 399,
                   "value": 1.5,
                   "raw": "1.5"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -129,14 +129,14 @@
             "start": 402,
             "end": 404,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 403,
               "end": 404,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -173,8 +173,8 @@
             "end": 469,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -218,8 +218,8 @@
                 "end": 495,
                 "name": "indexOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -233,14 +233,14 @@
                 "start": 507,
                 "end": 511,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 508,
                   "end": 511,
                   "value": 1.5,
                   "raw": "1.5"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false

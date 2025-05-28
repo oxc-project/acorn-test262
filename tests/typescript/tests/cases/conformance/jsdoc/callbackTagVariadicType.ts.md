@@ -9,17 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 93,
       "end": 117,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 100,
         "end": 117,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 106,
             "end": 117,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 106,
@@ -33,40 +32,41 @@ __ESTREE_TEST__:PASS:
               "type": "ArrowFunctionExpression",
               "start": 110,
               "end": 117,
+              "expression": true,
               "async": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
               "body": {
                 "type": "Literal",
                 "start": 116,
                 "end": 117,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
-              "expression": true,
-              "generator": false,
               "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
+              "generator": false
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "VariableDeclaration",
       "start": 118,
       "end": 139,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 122,
           "end": 139,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 122,
@@ -80,22 +80,6 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 128,
             "end": 139,
-            "arguments": [
-              {
-                "type": "Literal",
-                "start": 130,
-                "end": 133,
-                "raw": "'a'",
-                "value": "a"
-              },
-              {
-                "type": "Literal",
-                "start": 135,
-                "end": 138,
-                "raw": "'b'",
-                "value": "b"
-              }
-            ],
             "callee": {
               "type": "Identifier",
               "start": 128,
@@ -105,13 +89,29 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 130,
+                "end": 133,
+                "value": "a",
+                "raw": "'a'"
+              },
+              {
+                "type": "Literal",
+                "start": 135,
+                "end": 138,
+                "value": "b",
+                "raw": "'b'"
+              }
+            ],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "module",

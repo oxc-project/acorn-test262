@@ -9,31 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 10,
       "end": 60,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 43,
-        "end": 60,
-        "body": [
-          {
-            "type": "ReturnStatement",
-            "start": 49,
-            "end": 58,
-            "argument": {
-              "type": "Identifier",
-              "start": 56,
-              "end": 57,
-              "decorators": [],
-              "name": "n",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 19,
@@ -43,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -64,53 +43,33 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 43,
+        "end": 60,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 49,
+            "end": 58,
+            "argument": {
+              "type": "Identifier",
+              "start": 56,
+              "end": 57,
+              "decorators": [],
+              "name": "n",
+              "optional": false,
+              "typeAnnotation": null
+            }
+          }
+        ]
+      },
+      "expression": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 61,
       "end": 114,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 84,
-        "end": 114,
-        "body": [
-          {
-            "type": "ExportNamedDeclaration",
-            "start": 90,
-            "end": 112,
-            "attributes": [],
-            "declaration": {
-              "type": "TSInterfaceDeclaration",
-              "start": 97,
-              "end": 112,
-              "body": {
-                "type": "TSInterfaceBody",
-                "start": 109,
-                "end": 112,
-                "body": []
-              },
-              "declare": false,
-              "extends": [],
-              "id": {
-                "type": "Identifier",
-                "start": 107,
-                "end": 108,
-                "decorators": [],
-                "name": "I",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "typeParameters": null
-            },
-            "exportKind": "type",
-            "source": null,
-            "specifiers": []
-          }
-        ]
-      },
-      "declare": false,
-      "global": false,
       "id": {
         "type": "Identifier",
         "start": 71,
@@ -120,7 +79,48 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "namespace"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 84,
+        "end": 114,
+        "body": [
+          {
+            "type": "ExportNamedDeclaration",
+            "start": 90,
+            "end": 112,
+            "declaration": {
+              "type": "TSInterfaceDeclaration",
+              "start": 97,
+              "end": 112,
+              "id": {
+                "type": "Identifier",
+                "start": 107,
+                "end": 108,
+                "decorators": [],
+                "name": "I",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null,
+              "extends": [],
+              "body": {
+                "type": "TSInterfaceBody",
+                "start": 109,
+                "end": 112,
+                "body": []
+              },
+              "declare": false
+            },
+            "specifiers": [],
+            "source": null,
+            "exportKind": "type",
+            "attributes": []
+          }
+        ]
+      },
+      "kind": "namespace",
+      "declare": false,
+      "global": false
     }
   ],
   "sourceType": "script",

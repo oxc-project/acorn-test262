@@ -23,21 +23,17 @@
             "type": "MethodDefinition",
             "start": 977,
             "end": 1013,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 984,
               "end": 985,
               "name": "m"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 985,
               "end": 1013,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -55,7 +51,6 @@
                       "start": 994,
                       "end": 1008,
                       "operator": "delete",
-                      "prefix": true,
                       "argument": {
                         "type": "MemberExpression",
                         "start": 1001,
@@ -71,14 +66,19 @@
                           "end": 1008,
                           "name": "x"
                         },
-                        "computed": false,
-                        "optional": false
-                      }
+                        "optional": false,
+                        "computed": false
+                      },
+                      "prefix": true
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true
           }
         ]
       }
@@ -107,8 +107,8 @@
             "end": 1038,
             "name": "setPrototypeOf"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -152,8 +152,8 @@
             "end": 1063,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -166,9 +166,7 @@
             "type": "ArrowFunctionExpression",
             "start": 1080,
             "end": 1098,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -200,15 +198,17 @@
                         "end": 1093,
                         "name": "m"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

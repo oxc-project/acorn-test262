@@ -180,14 +180,14 @@
           "start": 403,
           "end": 405,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 404,
             "end": 405,
             "value": 1,
             "raw": "1"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {

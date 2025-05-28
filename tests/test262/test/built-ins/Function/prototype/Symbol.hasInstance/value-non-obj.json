@@ -27,8 +27,8 @@
             "end": 433,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -44,7 +44,6 @@
                 "start": 434,
                 "end": 447,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -53,7 +52,8 @@
                   "start": 445,
                   "end": 447,
                   "body": []
-                }
+                },
+                "expression": false
               },
               "property": {
                 "type": "MemberExpression",
@@ -71,11 +71,11 @@
                   "end": 466,
                   "name": "hasInstance"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "arguments": [],
             "optional": false
@@ -115,8 +115,8 @@
             "end": 495,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -132,7 +132,6 @@
                 "start": 496,
                 "end": 509,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -141,7 +140,8 @@
                   "start": 507,
                   "end": 509,
                   "body": []
-                }
+                },
+                "expression": false
               },
               "property": {
                 "type": "MemberExpression",
@@ -159,11 +159,11 @@
                   "end": 528,
                   "name": "hasInstance"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "arguments": [
               {
@@ -210,8 +210,8 @@
             "end": 566,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -227,7 +227,6 @@
                 "start": 567,
                 "end": 580,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -236,7 +235,8 @@
                   "start": 578,
                   "end": 580,
                   "body": []
-                }
+                },
+                "expression": false
               },
               "property": {
                 "type": "MemberExpression",
@@ -254,11 +254,11 @@
                   "end": 599,
                   "name": "hasInstance"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "arguments": [
               {
@@ -306,8 +306,8 @@
             "end": 632,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -323,7 +323,6 @@
                 "start": 633,
                 "end": 646,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -332,7 +331,8 @@
                   "start": 644,
                   "end": 646,
                   "body": []
-                }
+                },
+                "expression": false
               },
               "property": {
                 "type": "MemberExpression",
@@ -350,11 +350,11 @@
                   "end": 665,
                   "name": "hasInstance"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "arguments": [
               {
@@ -402,8 +402,8 @@
             "end": 698,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -419,7 +419,6 @@
                 "start": 699,
                 "end": 712,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -428,7 +427,8 @@
                   "start": 710,
                   "end": 712,
                   "body": []
-                }
+                },
+                "expression": false
               },
               "property": {
                 "type": "MemberExpression",
@@ -446,11 +446,11 @@
                   "end": 731,
                   "name": "hasInstance"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "arguments": [
               {
@@ -498,8 +498,8 @@
             "end": 768,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -515,7 +515,6 @@
                 "start": 769,
                 "end": 782,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -524,7 +523,8 @@
                   "start": 780,
                   "end": 782,
                   "body": []
-                }
+                },
+                "expression": false
               },
               "property": {
                 "type": "MemberExpression",
@@ -542,11 +542,11 @@
                   "end": 801,
                   "name": "hasInstance"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "arguments": [
               {
@@ -600,8 +600,8 @@
             "end": 838,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -617,7 +617,6 @@
                 "start": 839,
                 "end": 852,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -626,7 +625,8 @@
                   "start": 850,
                   "end": 852,
                   "body": []
-                }
+                },
+                "expression": false
               },
               "property": {
                 "type": "MemberExpression",
@@ -644,11 +644,11 @@
                   "end": 871,
                   "name": "hasInstance"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "arguments": [
               {

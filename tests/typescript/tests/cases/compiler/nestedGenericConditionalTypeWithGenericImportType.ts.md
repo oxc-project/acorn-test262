@@ -9,12 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 11,
       "end": 37,
-      "attributes": [],
       "declaration": {
         "type": "TSTypeAliasDeclaration",
         "start": 18,
         "end": 37,
-        "declare": false,
         "id": {
           "type": "Identifier",
           "start": 23,
@@ -23,11 +21,6 @@ __ESTREE_TEST__:PASS:
           "name": "Name",
           "optional": false,
           "typeAnnotation": null
-        },
-        "typeAnnotation": {
-          "type": "TSAnyKeyword",
-          "start": 33,
-          "end": 36
         },
         "typeParameters": {
           "type": "TSTypeParameterDeclaration",
@@ -38,10 +31,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeParameter",
               "start": 28,
               "end": 29,
-              "const": false,
-              "constraint": null,
-              "default": null,
-              "in": false,
               "name": {
                 "type": "Identifier",
                 "start": 28,
@@ -51,14 +40,25 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "out": false
+              "constraint": null,
+              "default": null,
+              "in": false,
+              "out": false,
+              "const": false
             }
           ]
-        }
+        },
+        "typeAnnotation": {
+          "type": "TSAnyKeyword",
+          "start": 33,
+          "end": 36
+        },
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -76,7 +76,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSTypeAliasDeclaration",
       "start": 0,
       "end": 120,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 5,
@@ -85,6 +84,32 @@ __ESTREE_TEST__:PASS:
         "name": "T",
         "optional": false,
         "typeAnnotation": null
+      },
+      "typeParameters": {
+        "type": "TSTypeParameterDeclaration",
+        "start": 6,
+        "end": 9,
+        "params": [
+          {
+            "type": "TSTypeParameter",
+            "start": 7,
+            "end": 8,
+            "name": {
+              "type": "Identifier",
+              "start": 7,
+              "end": 8,
+              "decorators": [],
+              "name": "X",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          }
+        ]
       },
       "typeAnnotation": {
         "type": "TSConditionalType",
@@ -113,26 +138,21 @@ __ESTREE_TEST__:PASS:
               "start": 38,
               "end": 41
             },
-            "falseType": {
-              "type": "TSStringKeyword",
-              "start": 50,
-              "end": 56
-            },
             "trueType": {
               "type": "TSAnyKeyword",
               "start": 44,
               "end": 47
+            },
+            "falseType": {
+              "type": "TSStringKeyword",
+              "start": 50,
+              "end": 56
             }
           },
           "extendsType": {
             "type": "TSAnyKeyword",
             "start": 66,
             "end": 69
-          },
-          "falseType": {
-            "type": "TSAnyKeyword",
-            "start": 99,
-            "end": 102
           },
           "trueType": {
             "type": "TSImportType",
@@ -146,8 +166,8 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 79,
                 "end": 87,
-                "raw": "\"./name\"",
-                "value": "./name"
+                "value": "./name",
+                "raw": "\"./name\""
               }
             },
             "options": null,
@@ -169,7 +189,6 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 94,
                   "end": 95,
-                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 94,
@@ -178,49 +197,30 @@ __ESTREE_TEST__:PASS:
                     "name": "X",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "typeArguments": null
                 }
               ]
             }
+          },
+          "falseType": {
+            "type": "TSAnyKeyword",
+            "start": 99,
+            "end": 102
           }
-        },
-        "falseType": {
-          "type": "TSAnyKeyword",
-          "start": 116,
-          "end": 119
         },
         "trueType": {
           "type": "TSAnyKeyword",
           "start": 108,
           "end": 111
+        },
+        "falseType": {
+          "type": "TSAnyKeyword",
+          "start": 116,
+          "end": 119
         }
       },
-      "typeParameters": {
-        "type": "TSTypeParameterDeclaration",
-        "start": 6,
-        "end": 9,
-        "params": [
-          {
-            "type": "TSTypeParameter",
-            "start": 7,
-            "end": 8,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 7,
-              "end": 8,
-              "decorators": [],
-              "name": "X",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          }
-        ]
-      }
+      "declare": false
     }
   ],
   "sourceType": "module",

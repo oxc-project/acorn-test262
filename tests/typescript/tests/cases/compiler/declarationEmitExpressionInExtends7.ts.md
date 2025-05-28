@@ -13,17 +13,9 @@ __ESTREE_TEST__:PASS:
         "type": "ClassDeclaration",
         "start": 15,
         "end": 53,
-        "abstract": false,
-        "body": {
-          "type": "ClassBody",
-          "start": 51,
-          "end": 53,
-          "body": []
-        },
-        "declare": false,
         "decorators": [],
         "id": null,
-        "implements": [],
+        "typeParameters": null,
         "superClass": {
           "type": "Identifier",
           "start": 29,
@@ -34,7 +26,15 @@ __ESTREE_TEST__:PASS:
           "typeAnnotation": null
         },
         "superTypeArguments": null,
-        "typeParameters": null
+        "implements": [],
+        "body": {
+          "type": "ClassBody",
+          "start": 51,
+          "end": 53,
+          "body": []
+        },
+        "abstract": false,
+        "declare": false
       },
       "exportKind": "value"
     }

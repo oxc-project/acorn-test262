@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 889,
       "end": 1083,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -33,21 +34,17 @@
                   "type": "MethodDefinition",
                   "start": 907,
                   "end": 946,
-                  "static": true,
-                  "computed": false,
                   "key": {
                     "type": "PrivateIdentifier",
                     "start": 918,
                     "end": 920,
                     "name": "f"
                   },
-                  "kind": "set",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 920,
                     "end": 946,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [
@@ -87,8 +84,8 @@
                                 "end": 937,
                                 "name": "_v"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "right": {
                               "type": "Identifier",
@@ -99,28 +96,28 @@
                           }
                         }
                       ]
-                    }
-                  }
+                    },
+                    "expression": false
+                  },
+                  "kind": "set",
+                  "computed": false,
+                  "static": true
                 },
                 {
                   "type": "MethodDefinition",
                   "start": 950,
                   "end": 1081,
-                  "static": true,
-                  "computed": false,
                   "key": {
                     "type": "Identifier",
                     "start": 957,
                     "end": 963,
                     "name": "access"
                   },
-                  "kind": "method",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 963,
                     "end": 1081,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -133,6 +130,7 @@
                           "type": "VariableDeclaration",
                           "start": 972,
                           "end": 990,
+                          "kind": "const",
                           "declarations": [
                             {
                               "type": "VariableDeclarator",
@@ -150,8 +148,7 @@
                                 "end": 989
                               }
                             }
-                          ],
-                          "kind": "const"
+                          ]
                         },
                         {
                           "type": "FunctionDeclaration",
@@ -163,7 +160,6 @@
                             "end": 1018,
                             "name": "innerFunction"
                           },
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [],
@@ -197,8 +193,8 @@
                                       "end": 1036,
                                       "name": "f"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   "right": {
                                     "type": "Literal",
@@ -210,7 +206,8 @@
                                 }
                               }
                             ]
-                          }
+                          },
+                          "expression": false
                         },
                         {
                           "type": "ExpressionStatement",
@@ -231,15 +228,18 @@
                           }
                         }
                       ]
-                    }
-                  }
+                    },
+                    "expression": false
+                  },
+                  "kind": "method",
+                  "computed": false,
+                  "static": true
                 }
               ]
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -265,8 +265,8 @@
             "end": 1093,
             "name": "access"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [],
         "optional": false
@@ -296,8 +296,8 @@
             "end": 1113,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -316,8 +316,8 @@
               "end": 1118,
               "name": "_v"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -354,8 +354,8 @@
             "end": 1145,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -369,7 +369,6 @@
             "start": 1157,
             "end": 1192,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -406,8 +405,8 @@
                           "end": 1180,
                           "name": "access"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -415,8 +414,8 @@
                         "end": 1185,
                         "name": "call"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -430,7 +429,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

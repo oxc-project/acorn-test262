@@ -34,8 +34,8 @@
               "end": 360,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -72,8 +72,8 @@
             "end": 389,
             "name": "NumberFormat"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

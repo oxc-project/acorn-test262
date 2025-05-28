@@ -12,7 +12,6 @@
         "start": 424,
         "end": 440,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 425,
@@ -37,7 +36,8 @@
               }
             ]
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "ThrowStatement",
@@ -75,7 +75,6 @@
         "start": 690,
         "end": 710,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 691,
@@ -100,7 +99,8 @@
               }
             ]
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "ThrowStatement",
@@ -138,7 +138,6 @@
         "start": 963,
         "end": 981,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 964,
@@ -163,7 +162,8 @@
               }
             ]
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "ThrowStatement",
@@ -201,7 +201,6 @@
         "start": 1233,
         "end": 1251,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 1234,
@@ -226,7 +225,8 @@
               }
             ]
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "ThrowStatement",
@@ -264,7 +264,6 @@
         "start": 1503,
         "end": 1524,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 1504,
@@ -289,7 +288,8 @@
               }
             ]
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "ThrowStatement",
@@ -327,7 +327,6 @@
         "start": 1782,
         "end": 1800,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 1783,
@@ -351,7 +350,8 @@
               }
             ]
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "ThrowStatement",
@@ -389,7 +389,6 @@
         "start": 2056,
         "end": 2075,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 2057,
@@ -414,7 +413,8 @@
               }
             ]
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "ThrowStatement",
@@ -452,7 +452,6 @@
         "start": 2330,
         "end": 2354,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 2331,
@@ -476,7 +475,8 @@
               }
             ]
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "ThrowStatement",
@@ -514,7 +514,6 @@
         "start": 2614,
         "end": 2631,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 2615,
@@ -539,7 +538,8 @@
               }
             ]
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "ThrowStatement",

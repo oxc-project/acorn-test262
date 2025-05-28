@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 112,
+      "id": {
+        "type": "Identifier",
+        "start": 15,
+        "end": 16,
+        "decorators": [],
+        "name": "Q",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 17,
@@ -18,11 +27,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSDeclareFunction",
             "start": 23,
             "end": 47,
-            "async": false,
-            "body": null,
-            "declare": false,
-            "expression": false,
-            "generator": false,
             "id": {
               "type": "Identifier",
               "start": 32,
@@ -32,6 +36,10 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
+            "generator": false,
+            "async": false,
+            "declare": false,
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -48,6 +56,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSFunctionType",
                     "start": 37,
                     "end": 45,
+                    "typeParameters": null,
                     "params": [],
                     "returnType": {
                       "type": "TSTypeAnnotation",
@@ -58,77 +67,33 @@ __ESTREE_TEST__:PASS:
                         "start": 41,
                         "end": 45
                       }
-                    },
-                    "typeParameters": null
+                    }
                   }
                 }
               }
             ],
             "returnType": null,
-            "typeParameters": null
+            "body": null,
+            "expression": false
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 15,
-        "end": 16,
-        "decorators": [],
-        "name": "Q",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     },
     {
       "type": "ExpressionStatement",
       "start": 115,
       "end": 139,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 115,
         "end": 138,
-        "arguments": [
-          {
-            "type": "FunctionExpression",
-            "start": 119,
-            "end": 137,
-            "async": false,
-            "body": {
-              "type": "BlockStatement",
-              "start": 130,
-              "end": 137,
-              "body": [
-                {
-                  "type": "ExpressionStatement",
-                  "start": 131,
-                  "end": 136,
-                  "directive": null,
-                  "expression": {
-                    "type": "ThisExpression",
-                    "start": 131,
-                    "end": 135
-                  }
-                }
-              ]
-            },
-            "declare": false,
-            "expression": false,
-            "generator": false,
-            "id": null,
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 115,
           "end": 118,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 115,
@@ -138,7 +103,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 117,
@@ -147,11 +111,47 @@ __ESTREE_TEST__:PASS:
             "name": "f",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "start": 119,
+            "end": 137,
+            "id": null,
+            "generator": false,
+            "async": false,
+            "declare": false,
+            "typeParameters": null,
+            "params": [],
+            "returnType": null,
+            "body": {
+              "type": "BlockStatement",
+              "start": 130,
+              "end": 137,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 131,
+                  "end": 136,
+                  "expression": {
+                    "type": "ThisExpression",
+                    "start": 131,
+                    "end": 135
+                  },
+                  "directive": null
+                }
+              ]
+            },
+            "expression": false
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

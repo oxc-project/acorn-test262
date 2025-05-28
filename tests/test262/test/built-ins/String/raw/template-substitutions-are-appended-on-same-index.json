@@ -27,8 +27,8 @@
             "end": 1217,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -51,29 +51,13 @@
                 "end": 1228,
                 "name": "raw"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "quasi": {
               "type": "TemplateLiteral",
               "start": 1228,
               "end": 1241,
-              "expressions": [
-                {
-                  "type": "Literal",
-                  "start": 1232,
-                  "end": 1233,
-                  "value": 2,
-                  "raw": "2"
-                },
-                {
-                  "type": "Literal",
-                  "start": 1237,
-                  "end": 1238,
-                  "value": 4,
-                  "raw": "4"
-                }
-              ],
               "quasis": [
                 {
                   "type": "TemplateElement",
@@ -104,6 +88,22 @@
                     "cooked": "5"
                   },
                   "tail": true
+                }
+              ],
+              "expressions": [
+                {
+                  "type": "Literal",
+                  "start": 1232,
+                  "end": 1233,
+                  "value": 2,
+                  "raw": "2"
+                },
+                {
+                  "type": "Literal",
+                  "start": 1237,
+                  "end": 1238,
+                  "value": 4,
+                  "raw": "4"
                 }
               ]
             }

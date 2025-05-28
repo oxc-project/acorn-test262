@@ -9,11 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 0,
       "end": 29,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 17,
@@ -23,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": null,
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
@@ -34,20 +33,13 @@ __ESTREE_TEST__:PASS:
           "end": 28
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 30,
       "end": 54,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 52,
-        "end": 54,
-        "body": []
-      },
-      "declare": true,
-      "global": false,
       "id": {
         "type": "Identifier",
         "start": 48,
@@ -57,7 +49,15 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "namespace"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 52,
+        "end": 54,
+        "body": []
+      },
+      "kind": "namespace",
+      "declare": true,
+      "global": false
     },
     {
       "type": "TSExportAssignment",
@@ -89,14 +89,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 29,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 21,
-        "end": 28,
-        "raw": "\"./foo\"",
-        "value": "./foo"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -113,19 +105,25 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 21,
+        "end": 28,
+        "value": "./foo",
+        "raw": "\"./foo\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 30,
       "end": 42,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 30,
         "end": 41,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 30,
@@ -135,7 +133,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 34,
@@ -144,8 +141,11 @@ __ESTREE_TEST__:PASS:
           "name": "default",
           "optional": false,
           "typeAnnotation": null
-        }
-      }
+        },
+        "optional": false,
+        "computed": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

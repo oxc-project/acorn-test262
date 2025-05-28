@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 42,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 41,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,16 +28,40 @@ __ESTREE_TEST__:PASS:
             "type": "MemberExpression",
             "start": 8,
             "end": 41,
-            "computed": false,
             "object": {
               "type": "CallExpression",
               "start": 8,
               "end": 37,
+              "callee": {
+                "type": "FunctionExpression",
+                "start": 8,
+                "end": 23,
+                "id": null,
+                "generator": false,
+                "async": false,
+                "declare": false,
+                "typeParameters": null,
+                "params": [],
+                "returnType": null,
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 20,
+                  "end": 23,
+                  "body": []
+                },
+                "expression": false
+              },
+              "typeArguments": null,
               "arguments": [
                 {
                   "type": "TSTypeAssertion",
                   "start": 25,
                   "end": 36,
+                  "typeAnnotation": {
+                    "type": "TSAnyKeyword",
+                    "start": 26,
+                    "end": 29
+                  },
                   "expression": {
                     "type": "Identifier",
                     "start": 30,
@@ -46,37 +70,11 @@ __ESTREE_TEST__:PASS:
                     "name": "window",
                     "optional": false,
                     "typeAnnotation": null
-                  },
-                  "typeAnnotation": {
-                    "type": "TSAnyKeyword",
-                    "start": 26,
-                    "end": 29
                   }
                 }
               ],
-              "callee": {
-                "type": "FunctionExpression",
-                "start": 8,
-                "end": 23,
-                "async": false,
-                "body": {
-                  "type": "BlockStatement",
-                  "start": 20,
-                  "end": 23,
-                  "body": []
-                },
-                "declare": false,
-                "expression": false,
-                "generator": false,
-                "id": null,
-                "params": [],
-                "returnType": null,
-                "typeParameters": null
-              },
-              "optional": false,
-              "typeArguments": null
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 38,
@@ -85,12 +83,14 @@ __ESTREE_TEST__:PASS:
               "name": "foo",
               "optional": false,
               "typeAnnotation": null
-            }
-          }
+            },
+            "optional": false,
+            "computed": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

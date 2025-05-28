@@ -9,55 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 44,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 13,
-        "end": 44,
-        "body": [
-          {
-            "type": "MethodDefinition",
-            "start": 19,
-            "end": 42,
-            "accessibility": null,
-            "computed": false,
-            "decorators": [],
-            "key": {
-              "type": "Identifier",
-              "start": 26,
-              "end": 32,
-              "decorators": [],
-              "name": "getFoo",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": true,
-            "value": {
-              "type": "FunctionExpression",
-              "start": 32,
-              "end": 42,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 35,
-                "end": 42,
-                "body": []
-              },
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
-          }
-        ]
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -68,9 +19,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 9,
@@ -80,10 +28,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeParameter",
             "start": 10,
             "end": 11,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
             "name": {
               "type": "Identifier",
               "start": 10,
@@ -93,64 +37,71 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "out": false
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
           }
         ]
-      }
-    },
-    {
-      "type": "ClassDeclaration",
-      "start": 46,
-      "end": 105,
-      "abstract": false,
+      },
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 74,
-        "end": 105,
+        "start": 13,
+        "end": 44,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 80,
-            "end": 103,
-            "accessibility": null,
-            "computed": false,
+            "start": 19,
+            "end": 42,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 87,
-              "end": 93,
+              "start": 26,
+              "end": 32,
               "decorators": [],
               "name": "getFoo",
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": true,
             "value": {
               "type": "FunctionExpression",
-              "start": 93,
-              "end": 103,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 96,
-                "end": 103,
-                "body": []
-              },
-              "declare": false,
-              "expression": false,
-              "generator": false,
+              "start": 32,
+              "end": 42,
               "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
               "params": [],
               "returnType": null,
-              "typeParameters": null
-            }
+              "body": {
+                "type": "BlockStatement",
+                "start": 35,
+                "end": 42,
+                "body": []
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true,
+            "override": false,
+            "optional": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
+      "abstract": false,
+      "declare": false
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 46,
+      "end": 105,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -161,7 +112,32 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": {
+        "type": "TSTypeParameterDeclaration",
+        "start": 55,
+        "end": 58,
+        "params": [
+          {
+            "type": "TSTypeParameter",
+            "start": 56,
+            "end": 57,
+            "name": {
+              "type": "Identifier",
+              "start": 56,
+              "end": 57,
+              "decorators": [],
+              "name": "T",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          }
+        ]
+      },
       "superClass": {
         "type": "Identifier",
         "start": 67,
@@ -180,7 +156,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 71,
             "end": 72,
-            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 71,
@@ -189,36 +164,61 @@ __ESTREE_TEST__:PASS:
               "name": "T",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "typeArguments": null
           }
         ]
       },
-      "typeParameters": {
-        "type": "TSTypeParameterDeclaration",
-        "start": 55,
-        "end": 58,
-        "params": [
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 74,
+        "end": 105,
+        "body": [
           {
-            "type": "TSTypeParameter",
-            "start": 56,
-            "end": 57,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
+            "type": "MethodDefinition",
+            "start": 80,
+            "end": 103,
+            "decorators": [],
+            "key": {
               "type": "Identifier",
-              "start": 56,
-              "end": 57,
+              "start": 87,
+              "end": 93,
               "decorators": [],
-              "name": "T",
+              "name": "getFoo",
               "optional": false,
               "typeAnnotation": null
             },
-            "out": false
+            "value": {
+              "type": "FunctionExpression",
+              "start": 93,
+              "end": 103,
+              "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
+              "body": {
+                "type": "BlockStatement",
+                "start": 96,
+                "end": 103,
+                "body": []
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true,
+            "override": false,
+            "optional": false,
+            "accessibility": null
           }
         ]
-      }
+      },
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

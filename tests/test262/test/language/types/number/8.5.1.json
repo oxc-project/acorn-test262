@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1179,
       "end": 1193,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1194,
       "end": 1228,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -65,8 +66,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForStatement",
@@ -76,6 +76,7 @@
         "type": "VariableDeclaration",
         "start": 1233,
         "end": 1246,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -95,8 +96,7 @@
               "raw": "0"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -160,8 +160,8 @@
                   "end": 1291,
                   "name": "power"
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "Identifier",
@@ -235,8 +235,8 @@
             "value": 1075,
             "raw": "1075"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "operator": "!==",
         "right": {
@@ -306,8 +306,8 @@
             "value": 1074,
             "raw": "1074"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "operator": "!==",
         "right": {
@@ -367,8 +367,8 @@
                       "value": 1074,
                       "raw": "1074"
                     },
-                    "computed": true,
-                    "optional": false
+                    "optional": false,
+                    "computed": true
                   }
                 }
               ]
@@ -386,6 +386,7 @@
         "type": "VariableDeclaration",
         "start": 1979,
         "end": 1995,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -405,8 +406,7 @@
               "raw": "1074"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -469,8 +469,8 @@
                   "end": 2040,
                   "name": "index"
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               },
               "operator": "===",
               "right": {
@@ -577,8 +577,8 @@
                     "raw": "1"
                   }
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               },
               "operator": "!==",
               "right": {
@@ -605,8 +605,8 @@
                       "end": 2166,
                       "name": "index"
                     },
-                    "computed": true,
-                    "optional": false
+                    "optional": false,
+                    "computed": true
                   },
                   "operator": "*",
                   "right": {
@@ -677,7 +677,6 @@
         "start": 2331,
         "end": 2382,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 2332,
@@ -701,7 +700,8 @@
               "name": "Infinity"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -746,7 +746,6 @@
         "start": 2577,
         "end": 2619,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 2578,
@@ -768,16 +767,17 @@
               "start": 2609,
               "end": 2618,
               "operator": "+",
-              "prefix": true,
               "argument": {
                 "type": "Identifier",
                 "start": 2610,
                 "end": 2618,
                 "name": "Infinity"
-              }
+              },
+              "prefix": true
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",

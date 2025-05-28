@@ -263,14 +263,14 @@
               "start": 770,
               "end": 772,
               "operator": "+",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 771,
                 "end": 772,
                 "value": 0,
                 "raw": "0"
-              }
+              },
+              "prefix": true
             }
           ]
         },
@@ -291,14 +291,14 @@
               "start": 789,
               "end": 791,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 790,
                 "end": 791,
                 "value": 0,
                 "raw": "0"
-              }
+              },
+              "prefix": true
             }
           ]
         }
@@ -341,6 +341,7 @@
       "type": "VariableDeclaration",
       "start": 876,
       "end": 885,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -366,8 +367,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -424,7 +424,6 @@
         "start": 906,
         "end": 916,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 907,
@@ -447,7 +446,8 @@
               "name": "y"
             }
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",

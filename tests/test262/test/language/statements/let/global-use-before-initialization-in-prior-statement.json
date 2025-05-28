@@ -18,6 +18,7 @@
       "type": "VariableDeclaration",
       "start": 322,
       "end": 328,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -31,8 +32,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "let"
+      ]
     }
   ],
   "sourceType": "script",

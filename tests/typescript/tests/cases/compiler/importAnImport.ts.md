@@ -9,39 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 35,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 13,
-        "end": 35,
-        "body": [
-          {
-            "type": "TSImportEqualsDeclaration",
-            "start": 19,
-            "end": 33,
-            "id": {
-              "type": "Identifier",
-              "start": 26,
-              "end": 28,
-              "decorators": [],
-              "name": "ma",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "importKind": "value",
-            "moduleReference": {
-              "type": "Identifier",
-              "start": 31,
-              "end": 32,
-              "decorators": [],
-              "name": "a",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "global": false,
       "id": {
         "type": "TSQualifiedName",
         "start": 7,
@@ -79,12 +46,54 @@ __ESTREE_TEST__:PASS:
           "typeAnnotation": null
         }
       },
-      "kind": "module"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 13,
+        "end": 35,
+        "body": [
+          {
+            "type": "TSImportEqualsDeclaration",
+            "start": 19,
+            "end": 33,
+            "id": {
+              "type": "Identifier",
+              "start": 26,
+              "end": 28,
+              "decorators": [],
+              "name": "ma",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "moduleReference": {
+              "type": "Identifier",
+              "start": 31,
+              "end": 32,
+              "decorators": [],
+              "name": "a",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "importKind": "value"
+          }
+        ]
+      },
+      "kind": "module",
+      "declare": false,
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 37,
       "end": 76,
+      "id": {
+        "type": "Identifier",
+        "start": 44,
+        "end": 46,
+        "decorators": [],
+        "name": "m0",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 47,
@@ -103,7 +112,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "importKind": "value",
             "moduleReference": {
               "type": "TSQualifiedName",
               "start": 65,
@@ -154,22 +162,14 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               }
-            }
+            },
+            "importKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 44,
-        "end": 46,
-        "decorators": [],
-        "name": "m0",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "script",

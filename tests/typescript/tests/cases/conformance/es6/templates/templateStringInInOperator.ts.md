@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 44,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 43,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,43 +28,43 @@ __ESTREE_TEST__:PASS:
             "type": "BinaryExpression",
             "start": 8,
             "end": 43,
-            "operator": "in",
             "left": {
               "type": "TemplateLiteral",
               "start": 8,
               "end": 19,
-              "expressions": [
-                {
-                  "type": "Literal",
-                  "start": 12,
-                  "end": 16,
-                  "raw": "\"hi\"",
-                  "value": "hi"
-                }
-              ],
               "quasis": [
                 {
                   "type": "TemplateElement",
                   "start": 8,
                   "end": 11,
-                  "tail": false,
                   "value": {
                     "cooked": "",
                     "raw": ""
-                  }
+                  },
+                  "tail": false
                 },
                 {
                   "type": "TemplateElement",
                   "start": 17,
                   "end": 19,
-                  "tail": true,
                   "value": {
                     "cooked": "",
                     "raw": ""
-                  }
+                  },
+                  "tail": true
+                }
+              ],
+              "expressions": [
+                {
+                  "type": "Literal",
+                  "start": 12,
+                  "end": 16,
+                  "value": "hi",
+                  "raw": "\"hi\""
                 }
               ]
             },
+            "operator": "in",
             "right": {
               "type": "ObjectExpression",
               "start": 23,
@@ -74,7 +74,7 @@ __ESTREE_TEST__:PASS:
                   "type": "Property",
                   "start": 25,
                   "end": 31,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 25,
@@ -84,23 +84,23 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "kind": "init",
-                  "method": false,
-                  "optional": false,
-                  "shorthand": false,
                   "value": {
                     "type": "Literal",
                     "start": 29,
                     "end": 31,
-                    "raw": "10",
-                    "value": 10
-                  }
+                    "value": 10,
+                    "raw": "10"
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "optional": false
                 },
                 {
                   "type": "Property",
                   "start": 33,
                   "end": 42,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 33,
@@ -110,25 +110,25 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "kind": "init",
-                  "method": false,
-                  "optional": false,
-                  "shorthand": false,
                   "value": {
                     "type": "Literal",
                     "start": 40,
                     "end": 42,
-                    "raw": "20",
-                    "value": 20
-                  }
+                    "value": 20,
+                    "raw": "20"
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "optional": false
                 }
               ]
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

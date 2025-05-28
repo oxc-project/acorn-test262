@@ -27,8 +27,8 @@
         "value": "./has-property-str-found-init.js",
         "raw": "'./has-property-str-found-init.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
@@ -38,6 +38,7 @@
         "type": "VariableDeclaration",
         "start": 570,
         "end": 581,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -51,8 +52,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "specifiers": [],
       "source": null,
@@ -62,6 +62,7 @@
       "type": "VariableDeclaration",
       "start": 582,
       "end": 593,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -75,8 +76,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExportNamedDeclaration",
@@ -230,8 +230,8 @@
                 "end": 773,
                 "name": "has"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -341,8 +341,8 @@
                 "end": 872,
                 "name": "has"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -452,8 +452,8 @@
                 "end": 975,
                 "name": "has"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -563,8 +563,8 @@
                 "end": 1078,
                 "name": "has"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

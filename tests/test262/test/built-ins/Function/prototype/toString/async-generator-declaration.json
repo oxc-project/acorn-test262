@@ -13,7 +13,6 @@
         "end": 371,
         "name": "f"
       },
-      "expression": false,
       "generator": true,
       "async": true,
       "params": [
@@ -46,7 +45,8 @@
             "end": 451
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

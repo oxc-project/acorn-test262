@@ -9,20 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 13,
-      "directive": "use strict",
       "expression": {
         "type": "Literal",
         "start": 0,
         "end": 12,
-        "raw": "\"use strict\"",
-        "value": "use strict"
-      }
+        "value": "use strict",
+        "raw": "\"use strict\""
+      },
+      "directive": "use strict"
     },
     {
       "type": "ExpressionStatement",
       "start": 14,
       "end": 17,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 14,
@@ -31,7 +30,8 @@ __ESTREE_TEST__:PASS:
         "name": "let",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

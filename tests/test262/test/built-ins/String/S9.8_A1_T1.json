@@ -129,14 +129,14 @@
               "start": 519,
               "end": 525,
               "operator": "void",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 524,
                 "end": 525,
                 "value": 0,
                 "raw": "0"
-              }
+              },
+              "prefix": true
             }
           ],
           "optional": false
@@ -202,14 +202,14 @@
                           "start": 628,
                           "end": 634,
                           "operator": "void",
-                          "prefix": true,
                           "argument": {
                             "type": "Literal",
                             "start": 633,
                             "end": 634,
                             "value": 0,
                             "raw": "0"
-                          }
+                          },
+                          "prefix": true
                         }
                       ],
                       "optional": false

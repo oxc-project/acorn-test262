@@ -9,12 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 25,
-      "attributes": [],
       "declaration": {
         "type": "TSTypeAliasDeclaration",
         "start": 7,
         "end": 25,
-        "declare": false,
         "id": {
           "type": "Identifier",
           "start": 12,
@@ -24,32 +22,33 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "typeParameters": null,
         "typeAnnotation": {
           "type": "TSAnyKeyword",
           "start": 21,
           "end": 24
         },
-        "typeParameters": null
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 26,
       "end": 53,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 33,
         "end": 53,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 39,
             "end": 52,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 39,
@@ -63,17 +62,18 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 48,
               "end": 52,
-              "raw": "null",
-              "value": null
-            }
+              "value": null,
+              "raw": "null"
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -91,21 +91,21 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 56,
       "end": 110,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 97,
-        "end": 109,
-        "raw": "'./gridview'",
-        "value": "./gridview"
-      },
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 65,
           "end": 89,
+          "local": {
+            "type": "Identifier",
+            "start": 65,
+            "end": 71,
+            "decorators": [],
+            "name": "Sizing",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 75,
@@ -115,28 +115,36 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 65,
-            "end": 71,
-            "decorators": [],
-            "name": "Sizing",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 97,
+        "end": 109,
+        "value": "./gridview",
+        "raw": "'./gridview'"
+      },
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 111,
       "end": 192,
-      "attributes": [],
       "declaration": {
         "type": "TSModuleDeclaration",
         "start": 118,
         "end": 192,
+        "id": {
+          "type": "Identifier",
+          "start": 128,
+          "end": 134,
+          "decorators": [],
+          "name": "Sizing",
+          "optional": false,
+          "typeAnnotation": null
+        },
         "body": {
           "type": "TSModuleBlock",
           "start": 135,
@@ -146,17 +154,16 @@ __ESTREE_TEST__:PASS:
               "type": "ExportNamedDeclaration",
               "start": 141,
               "end": 190,
-              "attributes": [],
               "declaration": {
                 "type": "VariableDeclaration",
                 "start": 148,
                 "end": 190,
+                "kind": "const",
                 "declarations": [
                   {
                     "type": "VariableDeclarator",
                     "start": 154,
                     "end": 189,
-                    "definite": false,
                     "id": {
                       "type": "Identifier",
                       "start": 154,
@@ -175,7 +182,7 @@ __ESTREE_TEST__:PASS:
                           "type": "Property",
                           "start": 169,
                           "end": 187,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 169,
@@ -185,47 +192,40 @@ __ESTREE_TEST__:PASS:
                             "optional": false,
                             "typeAnnotation": null
                           },
-                          "kind": "init",
-                          "method": false,
-                          "optional": false,
-                          "shorthand": false,
                           "value": {
                             "type": "Literal",
                             "start": 175,
                             "end": 187,
-                            "raw": "'distribute'",
-                            "value": "distribute"
-                          }
+                            "value": "distribute",
+                            "raw": "'distribute'"
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "optional": false
                         }
                       ]
-                    }
+                    },
+                    "definite": false
                   }
                 ],
-                "declare": false,
-                "kind": "const"
+                "declare": false
               },
-              "exportKind": "value",
+              "specifiers": [],
               "source": null,
-              "specifiers": []
+              "exportKind": "value",
+              "attributes": []
             }
           ]
         },
+        "kind": "namespace",
         "declare": false,
-        "global": false,
-        "id": {
-          "type": "Identifier",
-          "start": 128,
-          "end": 134,
-          "decorators": [],
-          "name": "Sizing",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "kind": "namespace"
+        "global": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

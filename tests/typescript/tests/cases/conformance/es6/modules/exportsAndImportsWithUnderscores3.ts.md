@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 10,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 10,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -33,11 +33,11 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -66,73 +66,73 @@ __ESTREE_TEST__:PASS:
               "type": "Property",
               "start": 36,
               "end": 45,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Literal",
                 "start": 36,
                 "end": 41,
-                "raw": "\"___\"",
-                "value": "___"
+                "value": "___",
+                "raw": "\"___\""
               },
-              "kind": "init",
-              "method": false,
-              "optional": false,
-              "shorthand": false,
               "value": {
                 "type": "Literal",
                 "start": 43,
                 "end": 45,
-                "raw": "30",
-                "value": 30
-              }
+                "value": 30,
+                "raw": "30"
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "optional": false
             },
             {
               "type": "Property",
               "start": 51,
               "end": 65,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Literal",
                 "start": 51,
                 "end": 61,
-                "raw": "\"___hello\"",
-                "value": "___hello"
+                "value": "___hello",
+                "raw": "\"___hello\""
               },
-              "kind": "init",
-              "method": false,
-              "optional": false,
-              "shorthand": false,
               "value": {
                 "type": "Literal",
                 "start": 63,
                 "end": 65,
-                "raw": "21",
-                "value": 21
-              }
+                "value": 21,
+                "raw": "21"
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "optional": false
             },
             {
               "type": "Property",
               "start": 71,
               "end": 80,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Literal",
                 "start": 71,
                 "end": 76,
-                "raw": "\"_hi\"",
-                "value": "_hi"
+                "value": "_hi",
+                "raw": "\"_hi\""
               },
-              "kind": "init",
-              "method": false,
-              "optional": false,
-              "shorthand": false,
               "value": {
                 "type": "Literal",
                 "start": 78,
                 "end": 80,
-                "raw": "40",
-                "value": 40
-              }
+                "value": 40,
+                "raw": "40"
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "optional": false
             }
           ]
         }
@@ -155,14 +155,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 21,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 14,
-        "end": 20,
-        "raw": "\"./m1\"",
-        "value": "./m1"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -179,31 +171,38 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 14,
+        "end": 20,
+        "value": "./m1",
+        "raw": "\"./m1\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 22,
       "end": 55,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 28,
           "end": 54,
-          "definite": false,
           "id": {
             "type": "ObjectPattern",
             "start": 28,
             "end": 50,
             "decorators": [],
-            "optional": false,
             "properties": [
               {
                 "type": "Property",
                 "start": 30,
                 "end": 33,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 30,
@@ -213,10 +212,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": true,
                 "value": {
                   "type": "Identifier",
                   "start": 30,
@@ -225,13 +220,17 @@ __ESTREE_TEST__:PASS:
                   "name": "___",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "method": false,
+                "shorthand": true,
+                "computed": false,
+                "optional": false
               },
               {
                 "type": "Property",
                 "start": 35,
                 "end": 43,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 35,
@@ -241,10 +240,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": true,
                 "value": {
                   "type": "Identifier",
                   "start": 35,
@@ -253,13 +248,17 @@ __ESTREE_TEST__:PASS:
                   "name": "___hello",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "method": false,
+                "shorthand": true,
+                "computed": false,
+                "optional": false
               },
               {
                 "type": "Property",
                 "start": 45,
                 "end": 48,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 45,
@@ -269,10 +268,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": true,
                 "value": {
                   "type": "Identifier",
                   "start": 45,
@@ -281,9 +276,14 @@ __ESTREE_TEST__:PASS:
                   "name": "_hi",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "method": false,
+                "shorthand": true,
+                "computed": false,
+                "optional": false
               }
             ],
+            "optional": false,
             "typeAnnotation": null
           },
           "init": {
@@ -294,11 +294,11 @@ __ESTREE_TEST__:PASS:
             "name": "R",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "module",

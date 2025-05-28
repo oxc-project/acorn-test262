@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 27,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 26,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -30,6 +30,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 10,
                 "end": 26,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 10,
+                  "end": 18,
+                  "decorators": [],
+                  "name": "Iterable",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 18,
@@ -41,46 +50,31 @@ __ESTREE_TEST__:PASS:
                       "end": 25
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 10,
-                  "end": 18,
-                  "decorators": [],
-                  "name": "Iterable",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ForOfStatement",
       "start": 28,
       "end": 53,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 50,
-        "end": 53,
-        "body": []
-      },
       "left": {
         "type": "VariableDeclaration",
         "start": 33,
         "end": 40,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 37,
             "end": 40,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 37,
@@ -90,11 +84,11 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "let"
+        "declare": false
       },
       "right": {
         "type": "Identifier",
@@ -104,6 +98,12 @@ __ESTREE_TEST__:PASS:
         "name": "iter",
         "optional": false,
         "typeAnnotation": null
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 50,
+        "end": 53,
+        "body": []
       }
     }
   ],

@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 15,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 6,
           "end": 15,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
@@ -29,11 +29,11 @@ __ESTREE_TEST__:PASS:
             "start": 13,
             "end": 15,
             "properties": []
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ExportDefaultDeclaration",

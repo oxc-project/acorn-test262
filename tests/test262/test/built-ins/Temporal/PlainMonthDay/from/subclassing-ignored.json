@@ -27,8 +27,8 @@
             "end": 338,
             "name": "checkSubclassingIgnoredStatic"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -47,8 +47,8 @@
               "end": 364,
               "name": "PlainMonthDay"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -75,9 +75,7 @@
             "type": "ArrowFunctionExpression",
             "start": 391,
             "end": 456,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -107,8 +105,8 @@
                   "end": 438,
                   "name": "assertPlainMonthDay"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -133,7 +131,9 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

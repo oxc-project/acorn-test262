@@ -9,7 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 81,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 13,
+        "decorators": [],
+        "name": "test",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 16,
@@ -19,12 +33,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 22,
             "end": 51,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 26,
                 "end": 50,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 26,
@@ -38,7 +52,6 @@ __ESTREE_TEST__:PASS:
                   "type": "NewExpression",
                   "start": 33,
                   "end": 50,
-                  "arguments": [],
                   "callee": {
                     "type": "Identifier",
                     "start": 37,
@@ -57,7 +70,6 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 43,
                         "end": 47,
-                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 43,
@@ -66,33 +78,21 @@ __ESTREE_TEST__:PASS:
                           "name": "WAWA",
                           "optional": false,
                           "typeAnnotation": null
-                        }
+                        },
+                        "typeArguments": null
                       }
                     ]
-                  }
-                }
+                  },
+                  "arguments": []
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 13,
-        "decorators": [],
-        "name": "test",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

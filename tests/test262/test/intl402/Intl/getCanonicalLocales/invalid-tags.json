@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 621,
       "end": 672,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -32,8 +33,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForStatement",
@@ -43,6 +43,7 @@
         "type": "VariableDeclaration",
         "start": 678,
         "end": 687,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -62,8 +63,7 @@
               "raw": "0"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -92,8 +92,8 @@
             "end": 719,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       },
       "update": {
@@ -118,6 +118,7 @@
             "type": "VariableDeclaration",
             "start": 730,
             "end": 770,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -145,12 +146,11 @@
                     "end": 768,
                     "name": "i"
                   },
-                  "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "computed": true
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -176,8 +176,8 @@
                   "end": 786,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -191,7 +191,6 @@
                   "start": 799,
                   "end": 856,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -224,8 +223,8 @@
                               "end": 840,
                               "name": "getCanonicalLocales"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -239,7 +238,8 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
                 {
                   "type": "BinaryExpression",

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 320,
       "end": 389,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -50,8 +51,8 @@
                       "end": 361,
                       "name": "NumberFormat"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": []
                 },
@@ -61,8 +62,8 @@
                   "end": 379,
                   "name": "resolvedOptions"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [],
               "optional": false
@@ -73,17 +74,17 @@
               "end": 388,
               "name": "locale"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 391,
       "end": 556,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -130,17 +131,15 @@
                 "end": 446,
                 "name": "filter"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
                 "type": "ArrowFunctionExpression",
                 "start": 447,
                 "end": 553,
-                "id": null,
                 "expression": true,
-                "generator": false,
                 "async": false,
                 "params": [
                   {
@@ -186,8 +185,8 @@
                               "end": 476,
                               "name": "NumberFormat"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -229,8 +228,8 @@
                           "end": 528,
                           "name": "resolvedOptions"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [],
                       "optional": false
@@ -241,8 +240,8 @@
                       "end": 546,
                       "name": "numberingSystem"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "operator": "===",
                   "right": {
@@ -251,14 +250,15 @@
                     "end": 553,
                     "name": "nu"
                   }
-                }
+                },
+                "id": null,
+                "generator": false
               }
             ],
             "optional": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "IfStatement",
@@ -284,8 +284,8 @@
             "end": 596,
             "name": "includes"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -307,6 +307,7 @@
             "type": "VariableDeclaration",
             "start": 610,
             "end": 681,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -338,8 +339,8 @@
                       "end": 650,
                       "name": "NumberFormat"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -364,8 +365,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -391,8 +391,8 @@
                   "end": 700,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -419,8 +419,8 @@
                         "end": 729,
                         "name": "resolvedOptions"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false
@@ -431,8 +431,8 @@
                     "end": 747,
                     "name": "numberingSystem"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -480,8 +480,8 @@
             "end": 850,
             "name": "includes"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -503,6 +503,7 @@
             "type": "VariableDeclaration",
             "start": 864,
             "end": 935,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -534,8 +535,8 @@
                       "end": 904,
                       "name": "NumberFormat"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -560,8 +561,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -587,8 +587,8 @@
                   "end": 954,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -615,8 +615,8 @@
                         "end": 983,
                         "name": "resolvedOptions"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false
@@ -627,8 +627,8 @@
                     "end": 1001,
                     "name": "numberingSystem"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",

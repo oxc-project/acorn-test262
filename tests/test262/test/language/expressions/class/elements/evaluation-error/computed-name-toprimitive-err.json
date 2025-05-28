@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1770,
       "end": 1855,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,9 +28,7 @@
                 "type": "Property",
                 "start": 1784,
                 "end": 1852,
-                "method": false,
-                "shorthand": false,
-                "computed": true,
+                "kind": "init",
                 "key": {
                   "type": "MemberExpression",
                   "start": 1785,
@@ -46,15 +45,14 @@
                     "end": 1803,
                     "name": "toPrimitive"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1806,
                   "end": 1852,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -81,15 +79,17 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": true
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -101,7 +101,6 @@
         "end": 1876,
         "name": "evaluate"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -114,6 +113,7 @@
             "type": "VariableDeclaration",
             "start": 1883,
             "end": 1913,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -140,25 +140,25 @@
                         "type": "PropertyDefinition",
                         "start": 1903,
                         "end": 1908,
-                        "static": false,
-                        "computed": true,
                         "key": {
                           "type": "Identifier",
                           "start": 1904,
                           "end": 1907,
                           "name": "obj"
                         },
-                        "value": null
+                        "value": null,
+                        "computed": true,
+                        "static": false
                       }
                     ]
                   }
                 }
               }
-            ],
-            "kind": "var"
+            ]
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -184,8 +184,8 @@
             "end": 1930,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

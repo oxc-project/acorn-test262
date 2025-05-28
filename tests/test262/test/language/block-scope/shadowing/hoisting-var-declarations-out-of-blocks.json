@@ -13,7 +13,6 @@
         "end": 232,
         "name": "fn"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -31,6 +30,7 @@
                 "type": "VariableDeclaration",
                 "start": 245,
                 "end": 255,
+                "kind": "var",
                 "declarations": [
                   {
                     "type": "VariableDeclarator",
@@ -50,13 +50,13 @@
                       "raw": "1"
                     }
                   }
-                ],
-                "kind": "var"
+                ]
               },
               {
                 "type": "VariableDeclaration",
                 "start": 260,
                 "end": 266,
+                "kind": "var",
                 "declarations": [
                   {
                     "type": "VariableDeclarator",
@@ -70,8 +70,7 @@
                     },
                     "init": null
                   }
-                ],
-                "kind": "var"
+                ]
               }
             ]
           },
@@ -99,8 +98,8 @@
                   "end": 289,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -144,8 +143,8 @@
                   "end": 315,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -165,7 +164,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

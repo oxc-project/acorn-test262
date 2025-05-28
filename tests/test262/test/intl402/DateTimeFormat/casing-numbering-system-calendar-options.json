@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 344,
       "end": 415,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -50,8 +51,8 @@
                       "end": 387,
                       "name": "DateTimeFormat"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": []
                 },
@@ -61,8 +62,8 @@
                   "end": 405,
                   "name": "resolvedOptions"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [],
               "optional": false
@@ -73,17 +74,17 @@
               "end": 414,
               "name": "locale"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 417,
       "end": 584,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -130,17 +131,15 @@
                 "end": 472,
                 "name": "filter"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
                 "type": "ArrowFunctionExpression",
                 "start": 473,
                 "end": 581,
-                "id": null,
                 "expression": true,
-                "generator": false,
                 "async": false,
                 "params": [
                   {
@@ -186,8 +185,8 @@
                               "end": 504,
                               "name": "DateTimeFormat"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -229,8 +228,8 @@
                           "end": 556,
                           "name": "resolvedOptions"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [],
                       "optional": false
@@ -241,8 +240,8 @@
                       "end": 574,
                       "name": "numberingSystem"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "operator": "===",
                   "right": {
@@ -251,14 +250,15 @@
                     "end": 581,
                     "name": "nu"
                   }
-                }
+                },
+                "id": null,
+                "generator": false
               }
             ],
             "optional": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "IfStatement",
@@ -284,8 +284,8 @@
             "end": 624,
             "name": "includes"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -307,6 +307,7 @@
             "type": "VariableDeclaration",
             "start": 638,
             "end": 713,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -338,8 +339,8 @@
                       "end": 682,
                       "name": "DateTimeFormat"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -364,8 +365,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -391,8 +391,8 @@
                   "end": 732,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -419,8 +419,8 @@
                         "end": 763,
                         "name": "resolvedOptions"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false
@@ -431,8 +431,8 @@
                     "end": 781,
                     "name": "numberingSystem"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -480,8 +480,8 @@
             "end": 884,
             "name": "includes"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -503,6 +503,7 @@
             "type": "VariableDeclaration",
             "start": 898,
             "end": 973,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -534,8 +535,8 @@
                       "end": 942,
                       "name": "DateTimeFormat"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -560,8 +561,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -587,8 +587,8 @@
                   "end": 992,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -615,8 +615,8 @@
                         "end": 1023,
                         "name": "resolvedOptions"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false
@@ -627,8 +627,8 @@
                     "end": 1041,
                     "name": "numberingSystem"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -656,6 +656,7 @@
       "type": "VariableDeclaration",
       "start": 1106,
       "end": 1265,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -702,17 +703,15 @@
                 "end": 1160,
                 "name": "filter"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
                 "type": "ArrowFunctionExpression",
                 "start": 1161,
                 "end": 1262,
-                "id": null,
                 "expression": true,
-                "generator": false,
                 "async": false,
                 "params": [
                   {
@@ -758,8 +757,8 @@
                               "end": 1192,
                               "name": "DateTimeFormat"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -801,8 +800,8 @@
                           "end": 1244,
                           "name": "resolvedOptions"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [],
                       "optional": false
@@ -813,8 +812,8 @@
                       "end": 1255,
                       "name": "calendar"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "operator": "===",
                   "right": {
@@ -823,14 +822,15 @@
                     "end": 1262,
                     "name": "ca"
                   }
-                }
+                },
+                "id": null,
+                "generator": false
               }
             ],
             "optional": false
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "IfStatement",
@@ -856,8 +856,8 @@
             "end": 1298,
             "name": "includes"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -879,6 +879,7 @@
             "type": "VariableDeclaration",
             "start": 1315,
             "end": 1393,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -910,8 +911,8 @@
                       "end": 1359,
                       "name": "DateTimeFormat"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -936,8 +937,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -963,8 +963,8 @@
                   "end": 1412,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -991,8 +991,8 @@
                         "end": 1443,
                         "name": "resolvedOptions"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false
@@ -1003,8 +1003,8 @@
                     "end": 1454,
                     "name": "calendar"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -1052,8 +1052,8 @@
             "end": 1545,
             "name": "includes"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1075,6 +1075,7 @@
             "type": "VariableDeclaration",
             "start": 1562,
             "end": 1640,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -1106,8 +1107,8 @@
                       "end": 1606,
                       "name": "DateTimeFormat"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1132,8 +1133,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -1159,8 +1159,8 @@
                   "end": 1659,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1187,8 +1187,8 @@
                         "end": 1690,
                         "name": "resolvedOptions"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false
@@ -1199,8 +1199,8 @@
                     "end": 1701,
                     "name": "calendar"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",

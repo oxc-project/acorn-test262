@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 24,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 14,
           "end": 23,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
@@ -33,22 +33,22 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
       "start": 25,
       "end": 46,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 39,
           "end": 45,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 39,
@@ -68,98 +68,26 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 42,
                   "end": 45,
-                  "raw": "\"y\"",
-                  "value": "y"
+                  "value": "y",
+                  "raw": "\"y\""
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 48,
       "end": 97,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 55,
         "end": 97,
-        "abstract": false,
-        "body": {
-          "type": "ClassBody",
-          "start": 66,
-          "end": 97,
-          "body": [
-            {
-              "type": "PropertyDefinition",
-              "start": 72,
-              "end": 81,
-              "accessibility": null,
-              "computed": true,
-              "declare": false,
-              "decorators": [],
-              "definite": false,
-              "key": {
-                "type": "Identifier",
-                "start": 73,
-                "end": 74,
-                "decorators": [],
-                "name": "x",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "override": false,
-              "readonly": false,
-              "static": false,
-              "typeAnnotation": null,
-              "value": {
-                "type": "Literal",
-                "start": 78,
-                "end": 80,
-                "raw": "10",
-                "value": 10
-              }
-            },
-            {
-              "type": "PropertyDefinition",
-              "start": 86,
-              "end": 95,
-              "accessibility": null,
-              "computed": true,
-              "declare": false,
-              "decorators": [],
-              "definite": false,
-              "key": {
-                "type": "Identifier",
-                "start": 87,
-                "end": 88,
-                "decorators": [],
-                "name": "y",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "override": false,
-              "readonly": false,
-              "static": false,
-              "typeAnnotation": null,
-              "value": {
-                "type": "Literal",
-                "start": 92,
-                "end": 94,
-                "raw": "10",
-                "value": 10
-              }
-            }
-          ]
-        },
-        "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
@@ -170,14 +98,86 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "implements": [],
+        "typeParameters": null,
         "superClass": null,
         "superTypeArguments": null,
-        "typeParameters": null
+        "implements": [],
+        "body": {
+          "type": "ClassBody",
+          "start": 66,
+          "end": 97,
+          "body": [
+            {
+              "type": "PropertyDefinition",
+              "start": 72,
+              "end": 81,
+              "decorators": [],
+              "key": {
+                "type": "Identifier",
+                "start": 73,
+                "end": 74,
+                "decorators": [],
+                "name": "x",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeAnnotation": null,
+              "value": {
+                "type": "Literal",
+                "start": 78,
+                "end": 80,
+                "value": 10,
+                "raw": "10"
+              },
+              "computed": true,
+              "static": false,
+              "declare": false,
+              "override": false,
+              "optional": false,
+              "definite": false,
+              "readonly": false,
+              "accessibility": null
+            },
+            {
+              "type": "PropertyDefinition",
+              "start": 86,
+              "end": 95,
+              "decorators": [],
+              "key": {
+                "type": "Identifier",
+                "start": 87,
+                "end": 88,
+                "decorators": [],
+                "name": "y",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeAnnotation": null,
+              "value": {
+                "type": "Literal",
+                "start": 92,
+                "end": 94,
+                "value": 10,
+                "raw": "10"
+              },
+              "computed": true,
+              "static": false,
+              "declare": false,
+              "override": false,
+              "optional": false,
+              "definite": false,
+              "readonly": false,
+              "accessibility": null
+            }
+          ]
+        },
+        "abstract": false,
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

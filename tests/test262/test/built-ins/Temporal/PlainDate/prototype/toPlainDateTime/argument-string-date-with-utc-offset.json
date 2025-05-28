@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 323,
       "end": 375,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 362,
                 "name": "PlainDate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -66,13 +67,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 377,
       "end": 744,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -148,8 +149,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -160,6 +160,7 @@
         "type": "VariableDeclaration",
         "start": 751,
         "end": 760,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -173,8 +174,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -191,6 +191,7 @@
             "type": "VariableDeclaration",
             "start": 782,
             "end": 827,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -222,8 +223,8 @@
                       "end": 821,
                       "name": "toPlainDateTime"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -236,8 +237,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -263,8 +263,8 @@
                   "end": 866,
                   "name": "assertPlainDateTime"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -347,14 +347,6 @@
                   "type": "TemplateLiteral",
                   "start": 934,
                   "end": 990,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 938,
-                      "end": 941,
-                      "name": "arg"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -376,6 +368,14 @@
                       },
                       "tail": true
                     }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 938,
+                      "end": 941,
+                      "name": "arg"
+                    }
                   ]
                 }
               ],
@@ -389,6 +389,7 @@
       "type": "VariableDeclaration",
       "start": 999,
       "end": 1208,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -457,8 +458,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -469,6 +469,7 @@
         "type": "VariableDeclaration",
         "start": 1215,
         "end": 1224,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -482,8 +483,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -520,8 +520,8 @@
                   "end": 1261,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -534,9 +534,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 1283,
                   "end": 1318,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -559,8 +557,8 @@
                         "end": 1313,
                         "name": "toPlainDateTime"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -571,20 +569,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 1324,
                   "end": 1385,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1328,
-                      "end": 1331,
-                      "name": "arg"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -605,6 +597,14 @@
                         "cooked": "\" UTC offset without time is not valid for PlainTime"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1328,
+                      "end": 1331,
+                      "name": "arg"
                     }
                   ]
                 }

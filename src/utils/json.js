@@ -1,8 +1,15 @@
+import fs from 'node:fs/promises';
+import { join as pathJoin } from 'node:path';
+
 const INFINITY_PLACEHOLDER = '__INFINITY__INFINITY__INFINITY__';
 const INFINITY_REGEXP = new RegExp(`"${INFINITY_PLACEHOLDER}"`, 'g');
 
+const fieldOrdersJson = await fs.readFile(pathJoin(import.meta.dirname, '../field-orders.json'), 'utf8');
+const fieldOrders = JSON.parse(fieldOrdersJson);
+
 // Transformer for Acorn AST.
 //
+// * Re-order fields as specified in `field-orders.json`.
 // * Replace `RegExp`s and `BigInt`s with `null`.
 // * Replace `Infinity` with `"__INFINITY__INFINITY__INFINITY__"` placeholder
 //   which will be replaced in JSON with `1e+400`.
@@ -14,40 +21,44 @@ export function transformerAcorn(_key, value) {
 
   if (typeof value !== 'object' || value === null || !Object.hasOwn(value, 'type')) return value;
 
-  if (value.type === 'ImportDeclaration' || value.type === 'ImportExpression') {
-    value.phase = null;
-  } else if (value.type === 'Literal' && Object.hasOwn(value, 'regex')) {
+  const {type} = value;
+  if (type === 'ImportDeclaration' || type === 'ImportExpression') {
+    if (!Object.hasOwn(value, 'phase')) value.phase = null;
+  } else if (type === 'Literal' && Object.hasOwn(value, 'regex')) {
     value.regex.flags = [...value.regex.flags].sort().join('');
     value.value = null;
   }
 
-  return value;
+  // Re-order fields
+  const keys = fieldOrders[type];
+  if (!keys) return value;
+
+  const reordered = { type, start: value.start, end: value.end };
+  for (const key of keys) {
+    if (key === 'type' || key === 'span') continue;
+    if (Object.hasOwn(value, key)) reordered[key] = value[key];
+  }
+  for (const key of Object.keys(value)) {
+    if (key !== 'type' && !keys.includes(key)) reordered[key] = value[key];
+  }
+  return reordered;
 }
 
 // Transformer for TS-ESLint AST.
 //
-// Makes the same changes as `acornTransformer`, but:
-// * Also converts location fields.
-// * Does not add `phase` field to `ImportExpression`.
+// Makes the same changes as `acornTransformer`, but also:
+// * Converts location fields.
+// * Replaces `undefined` with `null`.
 export function transformerTs(_key, value) {
   if (typeof value === 'bigint') return null;
   if (value === Infinity) return INFINITY_PLACEHOLDER;
 
   if (typeof value !== 'object' || value === null || !Object.hasOwn(value, 'type')) return value;
 
-  if (value.type === 'ImportDeclaration') {
-    // Add `phase` field before `attributes` if `attributes` field exists (it should)
-    if (Object.hasOwn(value, 'attributes')) {
-      const { attributes } = value;
-      delete value.attributes;
-      value.phase = null;
-      value.attributes = attributes;
-    } else {
-      value.phase = null;
-    }
-  } else if (value.type === 'ImportExpression') {
-    value.phase = null;
-  } else if (value.type === 'Literal' && Object.hasOwn(value, 'regex')) {
+  const {type} = value;
+  if (type === 'ImportDeclaration' || type === 'ImportExpression') {
+    if (!Object.hasOwn(value, 'phase')) value.phase = null;
+  } else if (type === 'Literal' && Object.hasOwn(value, 'regex')) {
     value.regex.flags = [...value.regex.flags].sort().join('');
     value.value = null;
   }
@@ -60,14 +71,27 @@ export function transformerTs(_key, value) {
   }
 
   // Remove `loc` field
-  if (Object.hasOwn(value, 'loc')) value.loc = undefined;
+  if (Object.hasOwn(value, 'loc')) delete value.loc;
 
   // Convert `range` field to `start` + `end`
-  if (Object.hasOwn(value, 'range')) {
-    value = { type: value.type, start: value.range[0], end: value.range[1], ...value, range: undefined };
+  const reordered = { type, start: value.range[0], end: value.range[1] };
+
+  // Re-order fields
+  const keys = fieldOrders[type];
+  if (keys) {
+    for (const key of keys) {
+      if (key === 'type' || key === 'span') continue;
+      if (Object.hasOwn(value, key)) reordered[key] = value[key];
+    }
+    for (const key of Object.keys(value)) {
+      if (key !== 'type' && key !== 'range' && !keys.includes(key)) reordered[key] = value[key];
+    }
+  } else {
+    delete value.range;
+    Object.assign(reordered, value);
   }
 
-  return value;
+  return reordered;
 }
 
 export function stringifyWith(ast, transformer) {

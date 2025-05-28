@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1337,
       "end": 1529,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -184,9 +185,7 @@
                         "type": "Property",
                         "start": 1489,
                         "end": 1516,
-                        "method": true,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 1489,
@@ -198,7 +197,6 @@
                           "start": 1496,
                           "end": 1516,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [],
@@ -220,9 +218,12 @@
                                 }
                               }
                             ]
-                          }
+                          },
+                          "expression": false
                         },
-                        "kind": "init"
+                        "method": true,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   },
@@ -238,8 +239,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -250,6 +250,7 @@
         "type": "VariableDeclaration",
         "start": 1535,
         "end": 1560,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -276,8 +277,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -294,6 +294,7 @@
             "type": "VariableDeclaration",
             "start": 1589,
             "end": 1641,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -331,8 +332,7 @@
                   }
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -358,8 +358,8 @@
                   "end": 1661,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -390,8 +390,8 @@
                           "end": 1682,
                           "name": "Locale"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -410,9 +410,7 @@
                               "type": "Property",
                               "start": 1690,
                               "end": 1697,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 1690,
@@ -425,7 +423,9 @@
                                 "end": 1697,
                                 "name": "numeric"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -437,8 +437,8 @@
                       "end": 1708,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
@@ -453,20 +453,6 @@
                   "type": "TemplateLiteral",
                   "start": 1728,
                   "end": 1807,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1763,
-                      "end": 1770,
-                      "name": "numeric"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 1796,
-                      "end": 1804,
-                      "name": "expected"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -498,6 +484,20 @@
                       },
                       "tail": true
                     }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1763,
+                      "end": 1770,
+                      "name": "numeric"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 1796,
+                      "end": 1804,
+                      "name": "expected"
+                    }
                   ]
                 }
               ],
@@ -528,8 +528,8 @@
                   "end": 1832,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -560,8 +560,8 @@
                           "end": 1853,
                           "name": "Locale"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -580,9 +580,7 @@
                               "type": "Property",
                               "start": 1871,
                               "end": 1878,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 1871,
@@ -595,7 +593,9 @@
                                 "end": 1878,
                                 "name": "numeric"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -607,8 +607,8 @@
                       "end": 1889,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
@@ -623,20 +623,6 @@
                   "type": "TemplateLiteral",
                   "start": 1909,
                   "end": 1998,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1954,
-                      "end": 1961,
-                      "name": "numeric"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 1987,
-                      "end": 1995,
-                      "name": "expected"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -668,6 +654,20 @@
                       },
                       "tail": true
                     }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1954,
+                      "end": 1961,
+                      "name": "numeric"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 1987,
+                      "end": 1995,
+                      "name": "expected"
+                    }
                   ]
                 }
               ],
@@ -698,8 +698,8 @@
                   "end": 2023,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -726,8 +726,8 @@
                         "end": 2044,
                         "name": "Locale"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -746,9 +746,7 @@
                             "type": "Property",
                             "start": 2063,
                             "end": 2070,
-                            "method": false,
-                            "shorthand": true,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 2063,
@@ -761,7 +759,9 @@
                               "end": 2070,
                               "name": "numeric"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": true,
+                            "computed": false
                           }
                         ]
                       }
@@ -773,8 +773,8 @@
                     "end": 2080,
                     "name": "numeric"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Identifier",
@@ -786,20 +786,6 @@
                   "type": "TemplateLiteral",
                   "start": 2100,
                   "end": 2186,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 2146,
-                      "end": 2153,
-                      "name": "numeric"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 2175,
-                      "end": 2183,
-                      "name": "expected"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -830,6 +816,20 @@
                         "cooked": "\""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 2146,
+                      "end": 2153,
+                      "name": "numeric"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 2175,
+                      "end": 2183,
+                      "name": "expected"
                     }
                   ]
                 }

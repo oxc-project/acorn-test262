@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 234,
       "end": 253,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -32,8 +33,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -59,8 +59,8 @@
             "end": 271,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -72,13 +72,13 @@
               "start": 272,
               "end": 276,
               "operator": "!",
-              "prefix": true,
               "argument": {
                 "type": "Identifier",
                 "start": 273,
                 "end": 276,
                 "name": "sym"
-              }
+              },
+              "prefix": true
             },
             "operator": "||",
             "right": {
@@ -131,8 +131,8 @@
             "end": 337,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 318,
       "end": 670,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -211,8 +212,8 @@
                       "end": 638,
                       "name": "Instant"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   {
                     "type": "Literal",
@@ -226,8 +227,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -238,6 +238,7 @@
         "type": "VariableDeclaration",
         "start": 677,
         "end": 701,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -264,8 +265,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -302,8 +302,8 @@
                   "end": 738,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -327,13 +327,13 @@
                           "start": 744,
                           "end": 754,
                           "operator": "typeof",
-                          "prefix": true,
                           "argument": {
                             "type": "Identifier",
                             "start": 751,
                             "end": 754,
                             "name": "arg"
-                          }
+                          },
+                          "prefix": true
                         },
                         "operator": "===",
                         "right": {
@@ -362,13 +362,13 @@
                               "start": 772,
                               "end": 782,
                               "operator": "typeof",
-                              "prefix": true,
                               "argument": {
                                 "type": "Identifier",
                                 "start": 779,
                                 "end": 782,
                                 "name": "arg"
-                              }
+                              },
+                              "prefix": true
                             },
                             "operator": "===",
                             "right": {
@@ -412,13 +412,13 @@
                         "start": 816,
                         "end": 826,
                         "operator": "typeof",
-                        "prefix": true,
                         "argument": {
                           "type": "Identifier",
                           "start": 823,
                           "end": 826,
                           "name": "arg"
-                        }
+                        },
+                        "prefix": true
                       },
                       "operator": "===",
                       "right": {
@@ -447,9 +447,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 884,
                   "end": 916,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -476,8 +474,8 @@
                           "end": 906,
                           "name": "Instant"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -485,8 +483,8 @@
                         "end": 911,
                         "name": "from"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -497,20 +495,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 922,
                   "end": 977,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 925,
-                      "end": 936,
-                      "name": "description"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -532,6 +524,14 @@
                       },
                       "tail": true
                     }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 925,
+                      "end": 936,
+                      "name": "description"
+                    }
                   ]
                 }
               ],
@@ -545,6 +545,7 @@
       "type": "VariableDeclaration",
       "start": 986,
       "end": 1141,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -613,8 +614,8 @@
                         "end": 1054,
                         "name": "Instant"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -622,8 +623,8 @@
                       "end": 1064,
                       "name": "prototype"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   {
                     "type": "Literal",
@@ -637,8 +638,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -649,6 +649,7 @@
         "type": "VariableDeclaration",
         "start": 1148,
         "end": 1172,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -675,8 +676,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -713,8 +713,8 @@
                   "end": 1209,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -727,9 +727,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 1221,
                   "end": 1253,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -756,8 +754,8 @@
                           "end": 1243,
                           "name": "Instant"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -765,8 +763,8 @@
                         "end": 1248,
                         "name": "from"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -777,20 +775,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 1255,
                   "end": 1300,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1258,
-                      "end": 1269,
-                      "name": "description"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -811,6 +803,14 @@
                         "cooked": " does not convert to a string"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1258,
+                      "end": 1269,
+                      "name": "description"
                     }
                   ]
                 }

@@ -15,7 +15,6 @@
           "type": "JSXOpeningElement",
           "start": 0,
           "end": 7,
-          "attributes": [],
           "name": {
             "type": "JSXMemberExpression",
             "start": 1,
@@ -44,8 +43,10 @@
               "name": "c"
             }
           },
+          "attributes": [],
           "selfClosing": false
         },
+        "children": [],
         "closingElement": {
           "type": "JSXClosingElement",
           "start": 7,
@@ -78,8 +79,7 @@
               "name": "c"
             }
           }
-        },
-        "children": []
+        }
       }
     }
   ],

@@ -23,12 +23,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 12,
       "end": 34,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 24,
           "end": 33,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 24,
@@ -47,11 +47,11 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     }
   ],
   "sourceType": "module",
@@ -69,17 +69,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 23,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 23,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 11,
             "end": 22,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 11,
@@ -93,17 +92,18 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 15,
               "end": 22,
-              "raw": "\"hello\"",
-              "value": "hello"
-            }
+              "value": "hello",
+              "raw": "\"hello\""
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

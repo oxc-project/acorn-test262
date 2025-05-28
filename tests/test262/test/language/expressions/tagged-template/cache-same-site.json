@@ -13,7 +13,6 @@
         "end": 431,
         "name": "tag"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -53,12 +52,14 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 488,
       "end": 498,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -78,13 +79,13 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 499,
       "end": 522,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -104,13 +105,13 @@
             "raw": "null"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 523,
       "end": 549,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -130,8 +131,7 @@
             "raw": "null"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -143,7 +143,6 @@
         "end": 571,
         "name": "runTemplate"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -170,14 +169,6 @@
                 "type": "TemplateLiteral",
                 "start": 581,
                 "end": 595,
-                "expressions": [
-                  {
-                    "type": "Identifier",
-                    "start": 588,
-                    "end": 589,
-                    "name": "a"
-                  }
-                ],
                 "quasis": [
                   {
                     "type": "TemplateElement",
@@ -199,12 +190,21 @@
                     },
                     "tail": true
                   }
+                ],
+                "expressions": [
+                  {
+                    "type": "Identifier",
+                    "start": 588,
+                    "end": 589,
+                    "name": "a"
+                  }
                 ]
               }
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -351,8 +351,8 @@
             "end": 732,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

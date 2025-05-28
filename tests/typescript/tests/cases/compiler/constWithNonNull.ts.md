@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 17,
       "end": 53,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 31,
           "end": 52,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 31,
@@ -45,21 +45,22 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     },
     {
       "type": "ExpressionStatement",
       "start": 54,
       "end": 59,
-      "directive": null,
       "expression": {
         "type": "UpdateExpression",
         "start": 54,
         "end": 58,
+        "operator": "++",
+        "prefix": false,
         "argument": {
           "type": "TSNonNullExpression",
           "start": 54,
@@ -73,10 +74,9 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           }
-        },
-        "operator": "++",
-        "prefix": false
-      }
+        }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

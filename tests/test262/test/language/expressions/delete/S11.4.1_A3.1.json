@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 334,
       "end": 344,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -42,13 +42,13 @@
           "start": 349,
           "end": 357,
           "operator": "delete",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 356,
             "end": 357,
             "name": "x"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -97,6 +97,7 @@
       "type": "VariableDeclaration",
       "start": 447,
       "end": 457,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -116,8 +117,7 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -132,7 +132,6 @@
           "start": 462,
           "end": 475,
           "operator": "delete",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 469,
@@ -148,9 +147,10 @@
               "end": 475,
               "name": "y"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -205,7 +205,6 @@
         "end": 589,
         "name": "MyFunction"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -214,7 +213,8 @@
         "start": 592,
         "end": 594,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "IfStatement",
@@ -229,13 +229,13 @@
           "start": 599,
           "end": 616,
           "operator": "delete",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 606,
             "end": 616,
             "name": "MyFunction"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -284,6 +284,7 @@
       "type": "VariableDeclaration",
       "start": 729,
       "end": 761,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -308,8 +309,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -324,13 +324,13 @@
           "start": 766,
           "end": 781,
           "operator": "delete",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 773,
             "end": 781,
             "name": "MyObject"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {

@@ -20,7 +20,6 @@
             "start": 868,
             "end": 1138,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -53,8 +52,8 @@
                         "end": 899,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -77,8 +76,8 @@
                             "end": 918,
                             "name": "toString"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [],
                         "optional": false
@@ -123,8 +122,8 @@
                             "end": 969,
                             "name": "sameValue"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -160,7 +159,6 @@
                         "end": 1017,
                         "name": "arguments"
                       },
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -169,7 +167,8 @@
                         "start": 1020,
                         "end": 1022,
                         "body": []
-                      }
+                      },
+                      "expression": false
                     },
                     {
                       "type": "ExpressionStatement",
@@ -195,8 +194,8 @@
                             "end": 1043,
                             "name": "sameValue"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -248,8 +247,8 @@
                         "end": 1091,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -272,8 +271,8 @@
                             "end": 1110,
                             "name": "toString"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [],
                         "optional": false
@@ -290,7 +289,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           "arguments": [],
           "optional": false
@@ -314,7 +314,6 @@
             "start": 1171,
             "end": 1442,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -354,8 +353,8 @@
                         "end": 1203,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -378,8 +377,8 @@
                             "end": 1222,
                             "name": "toString"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [],
                         "optional": false
@@ -424,8 +423,8 @@
                             "end": 1273,
                             "name": "sameValue"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -461,7 +460,6 @@
                         "end": 1321,
                         "name": "arguments"
                       },
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -470,7 +468,8 @@
                         "start": 1324,
                         "end": 1326,
                         "body": []
-                      }
+                      },
+                      "expression": false
                     },
                     {
                       "type": "ExpressionStatement",
@@ -496,8 +495,8 @@
                             "end": 1347,
                             "name": "sameValue"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -549,8 +548,8 @@
                         "end": 1395,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -573,8 +572,8 @@
                             "end": 1414,
                             "name": "toString"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [],
                         "optional": false
@@ -591,7 +590,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           "arguments": [],
           "optional": false
@@ -615,7 +615,6 @@
             "start": 1474,
             "end": 1748,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -660,8 +659,8 @@
                         "end": 1509,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -684,8 +683,8 @@
                             "end": 1528,
                             "name": "toString"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [],
                         "optional": false
@@ -730,8 +729,8 @@
                             "end": 1579,
                             "name": "sameValue"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -767,7 +766,6 @@
                         "end": 1627,
                         "name": "arguments"
                       },
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -776,7 +774,8 @@
                         "start": 1630,
                         "end": 1632,
                         "body": []
-                      }
+                      },
+                      "expression": false
                     },
                     {
                       "type": "ExpressionStatement",
@@ -802,8 +801,8 @@
                             "end": 1653,
                             "name": "sameValue"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -855,8 +854,8 @@
                         "end": 1701,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -879,8 +878,8 @@
                             "end": 1720,
                             "name": "toString"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [],
                         "optional": false
@@ -897,7 +896,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           "arguments": [],
           "optional": false

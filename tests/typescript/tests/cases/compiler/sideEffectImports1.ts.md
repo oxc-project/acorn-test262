@@ -9,49 +9,49 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 24,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 7,
         "end": 23,
-        "raw": "\"does-not-exist\"",
-        "value": "does-not-exist"
+        "value": "does-not-exist",
+        "raw": "\"does-not-exist\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 25,
       "end": 58,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 32,
         "end": 57,
-        "raw": "\"./does-not-exist-either\"",
-        "value": "./does-not-exist-either"
+        "value": "./does-not-exist-either",
+        "raw": "\"./does-not-exist-either\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 59,
       "end": 95,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 66,
         "end": 94,
-        "raw": "\"./does-not-exist-either.js\"",
-        "value": "./does-not-exist-either.js"
+        "value": "./does-not-exist-either.js",
+        "raw": "\"./does-not-exist-either.js\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

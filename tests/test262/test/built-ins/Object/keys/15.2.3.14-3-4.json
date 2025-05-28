@@ -13,7 +13,6 @@
         "end": 289,
         "name": "testArgs2"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -45,6 +44,7 @@
             "type": "VariableDeclaration",
             "start": 359,
             "end": 390,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -76,8 +76,8 @@
                       "end": 378,
                       "name": "keys"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -90,8 +90,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "IfStatement",
@@ -125,8 +124,8 @@
                       "end": 405,
                       "name": "length"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "operator": "===",
                   "right": {
@@ -159,8 +158,8 @@
                       "value": 0,
                       "raw": "0"
                     },
-                    "computed": true,
-                    "optional": false
+                    "optional": false,
+                    "computed": true
                   },
                   "operator": "in",
                   "right": {
@@ -193,8 +192,8 @@
                     "value": 1,
                     "raw": "1"
                   },
-                  "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "computed": true
                 },
                 "operator": "in",
                 "right": {
@@ -220,7 +219,8 @@
             "alternate": null
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -232,7 +232,6 @@
         "end": 493,
         "name": "testArgs3"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -264,6 +263,7 @@
             "type": "VariableDeclaration",
             "start": 563,
             "end": 594,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -295,8 +295,8 @@
                       "end": 582,
                       "name": "keys"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -309,8 +309,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "IfStatement",
@@ -348,8 +347,8 @@
                         "end": 609,
                         "name": "length"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "operator": "===",
                     "right": {
@@ -382,8 +381,8 @@
                         "value": 0,
                         "raw": "0"
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "operator": "in",
                     "right": {
@@ -416,8 +415,8 @@
                       "value": 1,
                       "raw": "1"
                     },
-                    "computed": true,
-                    "optional": false
+                    "optional": false,
+                    "computed": true
                   },
                   "operator": "in",
                   "right": {
@@ -450,8 +449,8 @@
                     "value": 2,
                     "raw": "2"
                   },
-                  "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "computed": true
                 },
                 "operator": "in",
                 "right": {
@@ -477,7 +476,8 @@
             "alternate": null
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -489,7 +489,6 @@
         "end": 718,
         "name": "testArgs4"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -521,6 +520,7 @@
             "type": "VariableDeclaration",
             "start": 788,
             "end": 819,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -552,8 +552,8 @@
                       "end": 807,
                       "name": "keys"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -566,8 +566,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "IfStatement",
@@ -609,8 +608,8 @@
                           "end": 834,
                           "name": "length"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "operator": "===",
                       "right": {
@@ -643,8 +642,8 @@
                           "value": 0,
                           "raw": "0"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       "operator": "in",
                       "right": {
@@ -677,8 +676,8 @@
                         "value": 1,
                         "raw": "1"
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "operator": "in",
                     "right": {
@@ -711,8 +710,8 @@
                       "value": 2,
                       "raw": "2"
                     },
-                    "computed": true,
-                    "optional": false
+                    "optional": false,
+                    "computed": true
                   },
                   "operator": "in",
                   "right": {
@@ -745,8 +744,8 @@
                     "value": 3,
                     "raw": "3"
                   },
-                  "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "computed": true
                 },
                 "operator": "in",
                 "right": {
@@ -772,7 +771,8 @@
             "alternate": null
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

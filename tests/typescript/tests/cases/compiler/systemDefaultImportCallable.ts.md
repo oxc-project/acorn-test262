@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 101,
+      "id": {
+        "type": "Identifier",
+        "start": 15,
+        "end": 19,
+        "decorators": [],
+        "name": "core",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 20,
@@ -18,12 +27,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 26,
             "end": 99,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 30,
                 "end": 98,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 30,
@@ -44,8 +53,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSMethodSignature",
                           "start": 48,
                           "end": 92,
-                          "accessibility": null,
-                          "computed": false,
                           "key": {
                             "type": "Identifier",
                             "start": 48,
@@ -55,8 +62,10 @@ __ESTREE_TEST__:PASS:
                             "optional": false,
                             "typeAnnotation": null
                           },
-                          "kind": "method",
+                          "computed": false,
                           "optional": false,
+                          "kind": "method",
+                          "typeParameters": null,
                           "params": [
                             {
                               "type": "Identifier",
@@ -95,7 +104,6 @@ __ESTREE_TEST__:PASS:
                               }
                             }
                           ],
-                          "readonly": false,
                           "returnType": {
                             "type": "TSTypeAnnotation",
                             "start": 83,
@@ -106,39 +114,37 @@ __ESTREE_TEST__:PASS:
                               "end": 91
                             }
                           },
-                          "static": false,
-                          "typeParameters": null
+                          "accessibility": null,
+                          "readonly": false,
+                          "static": false
                         }
                       ]
                     }
                   }
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 15,
-        "end": 19,
-        "decorators": [],
-        "name": "core",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 102,
       "end": 217,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 117,
+        "end": 143,
+        "value": "core-js/fn/string/repeat",
+        "raw": "\"core-js/fn/string/repeat\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 144,
@@ -148,12 +154,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 150,
             "end": 188,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 154,
                 "end": 187,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 154,
@@ -210,11 +216,11 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           },
           {
             "type": "ExportDefaultDeclaration",
@@ -233,15 +239,9 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 117,
-        "end": 143,
-        "raw": "\"core-js/fn/string/repeat\"",
-        "value": "core-js/fn/string/repeat"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -259,14 +259,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 46,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 19,
-        "end": 45,
-        "raw": "\"core-js/fn/string/repeat\"",
-        "value": "core-js/fn/string/repeat"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -283,19 +275,27 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 19,
+        "end": 45,
+        "value": "core-js/fn/string/repeat",
+        "raw": "\"core-js/fn/string/repeat\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 48,
       "end": 108,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 54,
           "end": 107,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 54,
@@ -318,68 +318,6 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 66,
             "end": 107,
-            "arguments": [
-              {
-                "type": "BinaryExpression",
-                "start": 73,
-                "end": 103,
-                "operator": "+",
-                "left": {
-                  "type": "CallExpression",
-                  "start": 73,
-                  "end": 97,
-                  "arguments": [],
-                  "callee": {
-                    "type": "MemberExpression",
-                    "start": 73,
-                    "end": 95,
-                    "computed": false,
-                    "object": {
-                      "type": "NewExpression",
-                      "start": 73,
-                      "end": 83,
-                      "arguments": [],
-                      "callee": {
-                        "type": "Identifier",
-                        "start": 77,
-                        "end": 81,
-                        "decorators": [],
-                        "name": "Date",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "typeArguments": null
-                    },
-                    "optional": false,
-                    "property": {
-                      "type": "Identifier",
-                      "start": 84,
-                      "end": 95,
-                      "decorators": [],
-                      "name": "toUTCString",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  },
-                  "optional": false,
-                  "typeArguments": null
-                },
-                "right": {
-                  "type": "Literal",
-                  "start": 100,
-                  "end": 103,
-                  "raw": "\" \"",
-                  "value": " "
-                }
-              },
-              {
-                "type": "Literal",
-                "start": 105,
-                "end": 106,
-                "raw": "2",
-                "value": 2
-              }
-            ],
             "callee": {
               "type": "Identifier",
               "start": 66,
@@ -389,13 +327,75 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [
+              {
+                "type": "BinaryExpression",
+                "start": 73,
+                "end": 103,
+                "left": {
+                  "type": "CallExpression",
+                  "start": 73,
+                  "end": 97,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 73,
+                    "end": 95,
+                    "object": {
+                      "type": "NewExpression",
+                      "start": 73,
+                      "end": 83,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 77,
+                        "end": 81,
+                        "decorators": [],
+                        "name": "Date",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "typeArguments": null,
+                      "arguments": []
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 84,
+                      "end": 95,
+                      "decorators": [],
+                      "name": "toUTCString",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "optional": false,
+                    "computed": false
+                  },
+                  "typeArguments": null,
+                  "arguments": [],
+                  "optional": false
+                },
+                "operator": "+",
+                "right": {
+                  "type": "Literal",
+                  "start": 100,
+                  "end": 103,
+                  "value": " ",
+                  "raw": "\" \""
+                }
+              },
+              {
+                "type": "Literal",
+                "start": 105,
+                "end": 106,
+                "value": 2,
+                "raw": "2"
+              }
+            ],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "module",

@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 61,
+      "id": {
+        "type": "Identifier",
+        "start": 7,
+        "end": 8,
+        "decorators": [],
+        "name": "A",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 9,
@@ -18,17 +27,16 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 15,
             "end": 43,
-            "attributes": [],
             "declaration": {
               "type": "VariableDeclaration",
               "start": 22,
               "end": 43,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 26,
                   "end": 43,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 26,
@@ -42,28 +50,29 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 30,
                     "end": 43,
-                    "raw": "'hello world'",
-                    "value": "hello world"
-                  }
+                    "value": "hello world",
+                    "raw": "'hello world'"
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "var"
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           },
           {
             "type": "VariableDeclaration",
             "start": 48,
             "end": 59,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 52,
                 "end": 58,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 52,
@@ -77,39 +86,30 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 56,
                   "end": 58,
-                  "raw": "12",
-                  "value": 12
-                }
+                  "value": 12,
+                  "raw": "12"
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 7,
-        "end": 8,
-        "decorators": [],
-        "name": "A",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     },
     {
       "type": "VariableDeclaration",
       "start": 64,
       "end": 78,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 68,
           "end": 77,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 68,
@@ -128,22 +128,22 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 79,
       "end": 91,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 83,
           "end": 90,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 83,
@@ -157,7 +157,6 @@ __ESTREE_TEST__:PASS:
             "type": "MemberExpression",
             "start": 87,
             "end": 90,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 87,
@@ -167,7 +166,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 89,
@@ -176,23 +174,25 @@ __ESTREE_TEST__:PASS:
               "name": "x",
               "optional": false,
               "typeAnnotation": null
-            }
-          }
+            },
+            "optional": false,
+            "computed": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 127,
       "end": 139,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 131,
           "end": 138,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 131,
@@ -206,7 +206,6 @@ __ESTREE_TEST__:PASS:
             "type": "MemberExpression",
             "start": 135,
             "end": 138,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 135,
@@ -216,7 +215,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 137,
@@ -225,12 +223,14 @@ __ESTREE_TEST__:PASS:
               "name": "y",
               "optional": false,
               "typeAnnotation": null
-            }
-          }
+            },
+            "optional": false,
+            "computed": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

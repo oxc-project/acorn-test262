@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 244,
       "end": 264,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -23,22 +24,22 @@
             "start": 254,
             "end": 263,
             "operator": "+",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 255,
               "end": 263,
               "name": "Infinity"
-            }
+            },
+            "prefix": true
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 265,
       "end": 282,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -57,8 +58,7 @@
             "name": "Infinity"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",

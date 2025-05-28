@@ -15,6 +15,12 @@
           "type": "JSXOpeningElement",
           "start": 0,
           "end": 35,
+          "name": {
+            "type": "JSXIdentifier",
+            "start": 1,
+            "end": 4,
+            "name": "div"
+          },
           "attributes": [
             {
               "type": "JSXSpreadAttribute",
@@ -46,16 +52,10 @@
               }
             }
           ],
-          "name": {
-            "type": "JSXIdentifier",
-            "start": 1,
-            "end": 4,
-            "name": "div"
-          },
           "selfClosing": true
         },
-        "closingElement": null,
-        "children": []
+        "children": [],
+        "closingElement": null
       }
     }
   ],

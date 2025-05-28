@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 24,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 12,
           "end": 23,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
@@ -33,22 +33,34 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 25,
       "end": 168,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 32,
         "end": 168,
-        "abstract": false,
+        "decorators": [],
+        "id": {
+          "type": "Identifier",
+          "start": 38,
+          "end": 45,
+          "decorators": [],
+          "name": "Greeter",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null,
+        "superClass": null,
+        "superTypeArguments": null,
+        "implements": [],
         "body": {
           "type": "ClassBody",
           "start": 46,
@@ -58,9 +70,6 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 50,
               "end": 116,
-              "accessibility": null,
-              "computed": false,
-              "declare": false,
               "decorators": [
                 {
                   "type": "Decorator",
@@ -70,15 +79,6 @@ __ESTREE_TEST__:PASS:
                     "type": "CallExpression",
                     "start": 51,
                     "end": 70,
-                    "arguments": [
-                      {
-                        "type": "Literal",
-                        "start": 58,
-                        "end": 69,
-                        "raw": "\"Hello, %s\"",
-                        "value": "Hello, %s"
-                      }
-                    ],
                     "callee": {
                       "type": "Identifier",
                       "start": 51,
@@ -88,12 +88,20 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "optional": false,
-                    "typeArguments": null
+                    "typeArguments": null,
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 58,
+                        "end": 69,
+                        "value": "Hello, %s",
+                        "raw": "\"Hello, %s\""
+                      }
+                    ],
+                    "optional": false
                   }
                 }
               ],
-              "definite": false,
               "key": {
                 "type": "Identifier",
                 "start": 73,
@@ -103,10 +111,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
-              "override": false,
-              "readonly": false,
-              "static": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
                 "start": 81,
@@ -124,19 +128,19 @@ __ESTREE_TEST__:PASS:
                         "type": "TemplateLiteral",
                         "start": 83,
                         "end": 89,
-                        "expressions": [],
                         "quasis": [
                           {
                             "type": "TemplateElement",
                             "start": 83,
                             "end": 89,
-                            "tail": true,
                             "value": {
                               "cooked": "boss",
                               "raw": "boss"
-                            }
+                            },
+                            "tail": true
                           }
-                        ]
+                        ],
+                        "expressions": []
                       }
                     },
                     {
@@ -147,19 +151,19 @@ __ESTREE_TEST__:PASS:
                         "type": "TemplateLiteral",
                         "start": 92,
                         "end": 102,
-                        "expressions": [],
                         "quasis": [
                           {
                             "type": "TemplateElement",
                             "start": 92,
                             "end": 102,
-                            "tail": true,
                             "value": {
                               "cooked": "employee",
                               "raw": "employee"
-                            }
+                            },
+                            "tail": true
                           }
-                        ]
+                        ],
+                        "expressions": []
                       }
                     }
                   ]
@@ -169,42 +173,38 @@ __ESTREE_TEST__:PASS:
                 "type": "TemplateLiteral",
                 "start": 105,
                 "end": 115,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
                     "start": 105,
                     "end": 115,
-                    "tail": true,
                     "value": {
                       "cooked": "employee",
                       "raw": "employee"
-                    }
+                    },
+                    "tail": true
                   }
-                ]
-              }
+                ],
+                "expressions": []
+              },
+              "computed": false,
+              "static": false,
+              "declare": false,
+              "override": false,
+              "optional": false,
+              "definite": false,
+              "readonly": false,
+              "accessibility": null
             }
           ]
         },
-        "declare": false,
-        "decorators": [],
-        "id": {
-          "type": "Identifier",
-          "start": 38,
-          "end": 45,
-          "decorators": [],
-          "name": "Greeter",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

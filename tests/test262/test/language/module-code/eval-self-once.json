@@ -15,8 +15,8 @@
         "value": "./eval-self-once.js",
         "raw": "'./eval-self-once.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -30,8 +30,8 @@
         "value": "./eval-self-once.js",
         "raw": "'./eval-self-once.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -57,8 +57,8 @@
         "value": "./eval-self-once.js",
         "raw": "'./eval-self-once.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
@@ -84,8 +84,8 @@
         "value": "./eval-self-once.js",
         "raw": "'./eval-self-once.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
@@ -126,8 +126,8 @@
         "value": "./eval-self-once.js",
         "raw": "'./eval-self-once.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExportAllDeclaration",
@@ -197,8 +197,8 @@
         "value": "./eval-self-once.js",
         "raw": "'./eval-self-once.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -216,6 +216,7 @@
       "type": "VariableDeclaration",
       "start": 1333,
       "end": 1363,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -241,8 +242,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -268,8 +268,8 @@
             "end": 1381,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -288,8 +288,8 @@
               "end": 1396,
               "name": "test262"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Identifier",
@@ -333,8 +333,8 @@
             "end": 1460,
             "name": "test262"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -369,8 +369,8 @@
             "end": 1485,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -389,8 +389,8 @@
               "end": 1500,
               "name": "test262"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

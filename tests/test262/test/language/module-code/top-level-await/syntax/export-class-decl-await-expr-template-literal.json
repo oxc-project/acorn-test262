@@ -13,7 +13,6 @@
         "end": 2045,
         "name": "fn"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -31,7 +30,6 @@
               "start": 2059,
               "end": 2072,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -40,11 +38,13 @@
                 "start": 2070,
                 "end": 2072,
                 "body": []
-              }
+              },
+              "expression": false
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExportNamedDeclaration",
@@ -79,7 +79,6 @@
                 "type": "TemplateLiteral",
                 "start": 2149,
                 "end": 2151,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
@@ -91,7 +90,8 @@
                     },
                     "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               }
             }
           ],

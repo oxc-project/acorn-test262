@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 55,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 54,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,48 +28,25 @@ __ESTREE_TEST__:PASS:
             "type": "ConditionalExpression",
             "start": 8,
             "end": 54,
-            "alternate": {
-              "type": "ConditionalExpression",
-              "start": 37,
-              "end": 54,
-              "alternate": {
-                "type": "Identifier",
-                "start": 53,
-                "end": 54,
-                "decorators": [],
-                "name": "g",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "consequent": {
-                "type": "Identifier",
-                "start": 45,
-                "end": 46,
-                "decorators": [],
-                "name": "f",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "test": {
-                "type": "Identifier",
-                "start": 37,
-                "end": 38,
-                "decorators": [],
-                "name": "c",
-                "optional": false,
-                "typeAnnotation": null
-              }
+            "test": {
+              "type": "Identifier",
+              "start": 8,
+              "end": 9,
+              "decorators": [],
+              "name": "a",
+              "optional": false,
+              "typeAnnotation": null
             },
             "consequent": {
               "type": "ConditionalExpression",
               "start": 15,
               "end": 32,
-              "alternate": {
+              "test": {
                 "type": "Identifier",
-                "start": 31,
-                "end": 32,
+                "start": 15,
+                "end": 16,
                 "decorators": [],
-                "name": "e",
+                "name": "b",
                 "optional": false,
                 "typeAnnotation": null
               },
@@ -82,30 +59,53 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "test": {
+              "alternate": {
                 "type": "Identifier",
-                "start": 15,
-                "end": 16,
+                "start": 31,
+                "end": 32,
                 "decorators": [],
-                "name": "b",
+                "name": "e",
                 "optional": false,
                 "typeAnnotation": null
               }
             },
-            "test": {
-              "type": "Identifier",
-              "start": 8,
-              "end": 9,
-              "decorators": [],
-              "name": "a",
-              "optional": false,
-              "typeAnnotation": null
+            "alternate": {
+              "type": "ConditionalExpression",
+              "start": 37,
+              "end": 54,
+              "test": {
+                "type": "Identifier",
+                "start": 37,
+                "end": 38,
+                "decorators": [],
+                "name": "c",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "consequent": {
+                "type": "Identifier",
+                "start": 45,
+                "end": 46,
+                "decorators": [],
+                "name": "f",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "alternate": {
+                "type": "Identifier",
+                "start": 53,
+                "end": 54,
+                "decorators": [],
+                "name": "g",
+                "optional": false,
+                "typeAnnotation": null
+              }
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 699,
       "end": 711,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "123"
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -53,8 +53,8 @@
             "end": 728,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -97,6 +97,13 @@
           "type": "SwitchCase",
           "start": 799,
           "end": 828,
+          "test": {
+            "type": "Literal",
+            "start": 804,
+            "end": 805,
+            "value": 1,
+            "raw": "1"
+          },
           "consequent": [
             {
               "type": "FunctionDeclaration",
@@ -108,7 +115,6 @@
                 "end": 821,
                 "name": "f"
               },
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -117,16 +123,10 @@
                 "start": 824,
                 "end": 828,
                 "body": []
-              }
+              },
+              "expression": false
             }
-          ],
-          "test": {
-            "type": "Literal",
-            "start": 804,
-            "end": 805,
-            "value": 1,
-            "raw": "1"
-          }
+          ]
         }
       ]
     },
@@ -154,8 +154,8 @@
             "end": 848,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

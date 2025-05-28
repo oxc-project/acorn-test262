@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 947,
       "end": 967,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "\"a c\""
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 968,
       "end": 1022,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -72,13 +73,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1023,
       "end": 1255,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -160,9 +161,7 @@
                     "type": "Property",
                     "start": 1147,
                     "end": 1172,
-                    "method": true,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1147,
@@ -174,7 +173,6 @@
                       "start": 1155,
                       "end": 1172,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -196,9 +194,12 @@
                             }
                           }
                         ]
-                      }
+                      },
+                      "expression": false
                     },
-                    "kind": "init"
+                    "method": true,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               },
@@ -211,9 +212,7 @@
                     "type": "Property",
                     "start": 1182,
                     "end": 1204,
-                    "method": true,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1182,
@@ -225,7 +224,6 @@
                       "start": 1189,
                       "end": 1204,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -247,9 +245,12 @@
                             }
                           }
                         ]
-                      }
+                      },
+                      "expression": false
                     },
-                    "kind": "init"
+                    "method": true,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               },
@@ -262,9 +263,7 @@
                     "type": "Property",
                     "start": 1214,
                     "end": 1249,
-                    "method": true,
-                    "shorthand": false,
-                    "computed": true,
+                    "kind": "init",
                     "key": {
                       "type": "MemberExpression",
                       "start": 1215,
@@ -281,15 +280,14 @@
                         "end": 1233,
                         "name": "toPrimitive"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "value": {
                       "type": "FunctionExpression",
                       "start": 1234,
                       "end": 1249,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -311,17 +309,19 @@
                             }
                           }
                         ]
-                      }
+                      },
+                      "expression": false
                     },
-                    "kind": "init"
+                    "method": true,
+                    "shorthand": false,
+                    "computed": true
                   }
                 ]
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -347,8 +347,8 @@
             "end": 1346,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -356,7 +356,6 @@
             "start": 1352,
             "end": 1863,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -376,6 +375,7 @@
                   "type": "VariableDeclaration",
                   "start": 1382,
                   "end": 1445,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -407,8 +407,8 @@
                             "end": 1418,
                             "name": "Segmenter"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -426,9 +426,7 @@
                                 "type": "Property",
                                 "start": 1431,
                                 "end": 1442,
-                                "method": false,
-                                "shorthand": true,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 1431,
@@ -441,20 +439,22 @@
                                   "end": 1442,
                                   "name": "granularity"
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": true,
+                                "computed": false
                               }
                             ]
                           }
                         ]
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "VariableDeclaration",
                   "start": 1452,
                   "end": 1493,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -486,8 +486,8 @@
                             "end": 1485,
                             "name": "segment"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -500,8 +500,7 @@
                         "optional": false
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -527,8 +526,8 @@
                         "end": 1520,
                         "name": "forEach"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -536,7 +535,6 @@
                         "start": 1521,
                         "end": 1855,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [
@@ -556,6 +554,7 @@
                               "type": "VariableDeclaration",
                               "start": 1547,
                               "end": 1588,
+                              "kind": "const",
                               "declarations": [
                                 {
                                   "type": "VariableDeclarator",
@@ -587,8 +586,8 @@
                                         "end": 1580,
                                         "name": "containing"
                                       },
-                                      "computed": false,
-                                      "optional": false
+                                      "optional": false,
+                                      "computed": false
                                     },
                                     "arguments": [
                                       {
@@ -601,13 +600,13 @@
                                     "optional": false
                                   }
                                 }
-                              ],
-                              "kind": "const"
+                              ]
                             },
                             {
                               "type": "VariableDeclaration",
                               "start": 1597,
                               "end": 1660,
+                              "kind": "const",
                               "declarations": [
                                 {
                                   "type": "VariableDeclarator",
@@ -664,8 +663,7 @@
                                     }
                                   }
                                 }
-                              ],
-                              "kind": "const"
+                              ]
                             },
                             {
                               "type": "ExpressionStatement",
@@ -691,8 +689,8 @@
                                     "end": 1685,
                                     "name": "sameValue"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -718,8 +716,8 @@
                                       "end": 1701,
                                       "name": "index"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   {
                                     "type": "BinaryExpression",
@@ -768,8 +766,8 @@
                                     "end": 1744,
                                     "name": "sameValue"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -795,8 +793,8 @@
                                       "end": 1764,
                                       "name": "segment"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   {
                                     "type": "BinaryExpression",
@@ -845,8 +843,8 @@
                                     "end": 1809,
                                     "name": "sameValue"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -871,8 +869,8 @@
                                       "end": 1829,
                                       "name": "input"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   {
                                     "type": "BinaryExpression",
@@ -898,14 +896,16 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -915,6 +915,7 @@
       "type": "VariableDeclaration",
       "start": 1923,
       "end": 1998,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -946,8 +947,8 @@
                 "end": 1959,
                 "name": "Segmenter"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -965,9 +966,7 @@
                     "type": "Property",
                     "start": 1972,
                     "end": 1995,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1972,
@@ -981,20 +980,22 @@
                       "value": "sentence",
                       "raw": "\"sentence\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1999,
       "end": 2040,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1026,8 +1027,8 @@
                 "end": 2032,
                 "name": "segment"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1040,8 +1041,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1067,8 +1067,8 @@
             "end": 2061,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1076,7 +1076,6 @@
             "start": 2062,
             "end": 2351,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -1096,6 +1095,7 @@
                   "type": "VariableDeclaration",
                   "start": 2082,
                   "end": 2123,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -1127,8 +1127,8 @@
                             "end": 2115,
                             "name": "containing"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -1141,13 +1141,13 @@
                         "optional": false
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "VariableDeclaration",
                   "start": 2126,
                   "end": 2178,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -1179,8 +1179,7 @@
                         }
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -1206,8 +1205,8 @@
                         "end": 2197,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1233,8 +1232,8 @@
                           "end": 2213,
                           "name": "index"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       {
                         "type": "BinaryExpression",
@@ -1283,8 +1282,8 @@
                         "end": 2250,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1309,8 +1308,8 @@
                           "end": 2272,
                           "name": "segment"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       {
                         "type": "BinaryExpression",
@@ -1359,8 +1358,8 @@
                         "end": 2311,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1385,8 +1384,8 @@
                           "end": 2331,
                           "name": "input"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       {
                         "type": "BinaryExpression",
@@ -1412,7 +1411,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

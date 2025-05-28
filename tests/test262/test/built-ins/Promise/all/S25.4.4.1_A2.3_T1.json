@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 281,
       "end": 294,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             "elements": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -68,8 +68,8 @@
                     "end": 307,
                     "name": "all"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -87,8 +87,8 @@
                 "end": 317,
                 "name": "then"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -96,7 +96,6 @@
                 "start": 318,
                 "end": 444,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [
@@ -132,13 +131,11 @@
                             "start": 346,
                             "end": 373,
                             "operator": "!",
-                            "prefix": true,
                             "argument": {
                               "type": "UnaryExpression",
                               "start": 347,
                               "end": 373,
                               "operator": "!",
-                              "prefix": true,
                               "argument": {
                                 "type": "ParenthesizedExpression",
                                 "start": 348,
@@ -161,8 +158,10 @@
                                     "name": "Array"
                                   }
                                 }
-                              }
-                            }
+                              },
+                              "prefix": true
+                            },
+                            "prefix": true
                           },
                           {
                             "type": "Literal",
@@ -176,7 +175,8 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               }
             ],
             "optional": false
@@ -187,8 +187,8 @@
             "end": 450,
             "name": "then"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

@@ -23,7 +23,6 @@
             "start": 783,
             "end": 933,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -63,8 +62,8 @@
                         "end": 813,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -78,7 +77,6 @@
                         "start": 826,
                         "end": 858,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -107,20 +105,21 @@
                                     "start": 850,
                                     "end": 852,
                                     "operator": "-",
-                                    "prefix": true,
                                     "argument": {
                                       "type": "Literal",
                                       "start": 851,
                                       "end": 852,
                                       "value": 1,
                                       "raw": "1"
-                                    }
+                                    },
+                                    "prefix": true
                                   }
                                 ]
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       }
                     ],
                     "optional": false
@@ -150,8 +149,8 @@
                         "end": 877,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -165,7 +164,6 @@
                         "start": 890,
                         "end": 929,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -194,26 +192,28 @@
                                     "start": 914,
                                     "end": 923,
                                     "operator": "-",
-                                    "prefix": true,
                                     "argument": {
                                       "type": "Identifier",
                                       "start": 915,
                                       "end": 923,
                                       "name": "Infinity"
-                                    }
+                                    },
+                                    "prefix": true
                                   }
                                 ]
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

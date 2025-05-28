@@ -34,8 +34,8 @@
               "end": 967,
               "name": "DurationFormat"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -121,8 +121,8 @@
               "end": 1058,
               "name": "DurationFormat"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -208,8 +208,8 @@
               "end": 1150,
               "name": "DurationFormat"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -295,8 +295,8 @@
               "end": 1241,
               "name": "DurationFormat"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -382,8 +382,8 @@
               "end": 1331,
               "name": "DurationFormat"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -483,8 +483,8 @@
               "end": 1444,
               "name": "DurationFormat"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -584,8 +584,8 @@
               "end": 1559,
               "name": "DurationFormat"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -685,8 +685,8 @@
               "end": 1674,
               "name": "DurationFormat"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -779,8 +779,8 @@
               "end": 1783,
               "name": "DurationFormat"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -873,8 +873,8 @@
               "end": 1892,
               "name": "DurationFormat"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

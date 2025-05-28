@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 31,
       "end": 56,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 43,
           "end": 55,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 43,
@@ -33,11 +33,11 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -52,7 +52,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 72,
@@ -61,10 +60,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 80,
           "end": 89,
-          "raw": "\"./other\"",
-          "value": "./other"
+          "value": "./other",
+          "raw": "\"./other\""
         }
-      }
+      },
+      "importKind": "value"
     }
   ],
   "sourceType": "module",
@@ -82,12 +82,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 26,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 14,
           "end": 25,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
@@ -106,25 +106,31 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 27,
       "end": 54,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 36,
           "end": 51,
+          "local": {
+            "type": "Identifier",
+            "start": 36,
+            "end": 42,
+            "decorators": [],
+            "name": "_await",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 46,
@@ -134,18 +140,12 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 36,
-            "end": 42,
-            "decorators": [],
-            "name": "_await",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": null,
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

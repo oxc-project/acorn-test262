@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 2299,
       "end": 2374,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 2342,
                 "name": "ZonedDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -60,13 +61,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 2375,
       "end": 2415,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -87,9 +88,7 @@
                 "type": "Property",
                 "start": 2393,
                 "end": 2412,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 2393,
@@ -103,18 +102,20 @@
                   "value": "days",
                   "raw": "\"days\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 2417,
       "end": 2516,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -154,8 +155,8 @@
                     "end": 2459,
                     "name": "ZonedDateTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -181,8 +182,8 @@
                 "end": 2496,
                 "name": "until"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -201,8 +202,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -228,8 +228,8 @@
             "end": 2547,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -323,6 +323,7 @@
       "type": "VariableDeclaration",
       "start": 2614,
       "end": 2713,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -362,8 +363,8 @@
                     "end": 2656,
                     "name": "ZonedDateTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -389,8 +390,8 @@
                 "end": 2693,
                 "name": "until"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -409,8 +410,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -436,8 +436,8 @@
             "end": 2744,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -531,6 +531,7 @@
       "type": "VariableDeclaration",
       "start": 2812,
       "end": 2911,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -570,8 +571,8 @@
                     "end": 2854,
                     "name": "ZonedDateTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -597,8 +598,8 @@
                 "end": 2891,
                 "name": "until"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -617,8 +618,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -644,8 +644,8 @@
             "end": 2942,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -739,6 +739,7 @@
       "type": "VariableDeclaration",
       "start": 3010,
       "end": 3109,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -778,8 +779,8 @@
                     "end": 3052,
                     "name": "ZonedDateTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -805,8 +806,8 @@
                 "end": 3089,
                 "name": "until"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -825,8 +826,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -852,8 +852,8 @@
             "end": 3140,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -947,6 +947,7 @@
       "type": "VariableDeclaration",
       "start": 3202,
       "end": 3301,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -986,8 +987,8 @@
                     "end": 3244,
                     "name": "ZonedDateTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -1013,8 +1014,8 @@
                 "end": 3281,
                 "name": "until"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1033,8 +1034,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1060,8 +1060,8 @@
             "end": 3332,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1155,6 +1155,7 @@
       "type": "VariableDeclaration",
       "start": 3477,
       "end": 3576,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1194,8 +1195,8 @@
                     "end": 3519,
                     "name": "ZonedDateTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -1221,8 +1222,8 @@
                 "end": 3556,
                 "name": "until"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1241,8 +1242,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1268,8 +1268,8 @@
             "end": 3607,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1318,70 +1318,70 @@
             "start": 3632,
             "end": 3635,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 3633,
               "end": 3635,
               "value": 58,
               "raw": "58"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 3637,
             "end": 3640,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 3638,
               "end": 3640,
               "value": 58,
               "raw": "58"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 3642,
             "end": 3646,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 3643,
               "end": 3646,
               "value": 998,
               "raw": "998"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 3648,
             "end": 3652,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 3649,
               "end": 3652,
               "value": 998,
               "raw": "998"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 3654,
             "end": 3658,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 3655,
               "end": 3658,
               "value": 999,
               "raw": "999"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

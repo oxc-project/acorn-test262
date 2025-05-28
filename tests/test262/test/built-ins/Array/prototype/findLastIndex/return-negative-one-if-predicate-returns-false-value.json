@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 517,
       "end": 552,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -47,13 +48,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 553,
       "end": 568,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -73,13 +74,13 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 570,
       "end": 645,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -111,8 +112,8 @@
                 "end": 600,
                 "name": "findLastIndex"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -120,7 +121,6 @@
                 "start": 601,
                 "end": 643,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -160,14 +160,14 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               }
             ],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -193,8 +193,8 @@
             "end": 663,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -245,8 +245,8 @@
             "end": 728,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -260,14 +260,14 @@
             "start": 737,
             "end": 739,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 738,
               "end": 739,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -308,8 +308,8 @@
               "end": 769,
               "name": "findLastIndex"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -317,7 +317,6 @@
               "start": 770,
               "end": 797,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -339,7 +338,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
           ],
           "optional": false
@@ -370,8 +370,8 @@
             "end": 816,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -385,14 +385,14 @@
             "start": 825,
             "end": 827,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 826,
               "end": 827,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -440,8 +440,8 @@
               "end": 875,
               "name": "findLastIndex"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -449,7 +449,6 @@
               "start": 876,
               "end": 910,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -470,7 +469,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
           ],
           "optional": false
@@ -501,8 +501,8 @@
             "end": 929,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -516,14 +516,14 @@
             "start": 938,
             "end": 940,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 939,
               "end": 940,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -571,8 +571,8 @@
               "end": 991,
               "name": "findLastIndex"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -580,7 +580,6 @@
               "start": 992,
               "end": 1021,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -602,7 +601,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
           ],
           "optional": false
@@ -633,8 +633,8 @@
             "end": 1040,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -648,14 +648,14 @@
             "start": 1049,
             "end": 1051,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1050,
               "end": 1051,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -703,8 +703,8 @@
               "end": 1097,
               "name": "findLastIndex"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -712,7 +712,6 @@
               "start": 1098,
               "end": 1124,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -734,7 +733,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
           ],
           "optional": false
@@ -765,8 +765,8 @@
             "end": 1143,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -780,14 +780,14 @@
             "start": 1152,
             "end": 1154,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1153,
               "end": 1154,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -835,8 +835,8 @@
               "end": 1197,
               "name": "findLastIndex"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -844,7 +844,6 @@
               "start": 1198,
               "end": 1226,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -865,7 +864,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
           ],
           "optional": false
@@ -896,8 +896,8 @@
             "end": 1245,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -911,14 +911,14 @@
             "start": 1254,
             "end": 1256,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1255,
               "end": 1256,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

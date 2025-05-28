@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 9,
-      "directive": null,
       "expression": {
         "type": "TSInstantiationExpression",
         "start": 0,
@@ -30,7 +29,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 7,
               "end": 8,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 7,
@@ -39,22 +37,24 @@ __ESTREE_TEST__:PASS:
                 "name": "T",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "typeArguments": null
             }
           ]
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "VariableDeclaration",
       "start": 10,
       "end": 42,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 16,
           "end": 42,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 16,
@@ -92,11 +92,11 @@ __ESTREE_TEST__:PASS:
                 }
               ]
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "script",

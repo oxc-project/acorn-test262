@@ -9,17 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 206,
       "end": 244,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 213,
         "end": 244,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 219,
             "end": 244,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 219,
@@ -33,17 +32,11 @@ __ESTREE_TEST__:PASS:
               "type": "FunctionExpression",
               "start": 225,
               "end": 244,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 241,
-                "end": 244,
-                "body": []
-              },
-              "declare": false,
-              "expression": false,
-              "generator": false,
               "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -65,16 +58,23 @@ __ESTREE_TEST__:PASS:
                 }
               ],
               "returnType": null,
-              "typeParameters": null
-            }
+              "body": {
+                "type": "BlockStatement",
+                "start": 241,
+                "end": 244,
+                "body": []
+              },
+              "expression": false
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

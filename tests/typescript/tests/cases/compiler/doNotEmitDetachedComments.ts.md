@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 35,
       "end": 46,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 39,
           "end": 45,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 39,
@@ -28,28 +28,18 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 43,
             "end": 45,
-            "raw": "10",
-            "value": 10
-          }
+            "value": 10,
+            "raw": "10"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 72,
       "end": 90,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 87,
-        "end": 90,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 81,
@@ -59,24 +49,24 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 87,
+        "end": 90,
+        "body": []
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 154,
       "end": 172,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 169,
-        "end": 172,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 163,
@@ -86,9 +76,19 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 169,
+        "end": 172,
+        "body": []
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

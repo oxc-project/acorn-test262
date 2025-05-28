@@ -14,12 +14,12 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclaration",
           "start": 61,
           "end": 79,
+          "kind": "let",
           "declarations": [
             {
               "type": "VariableDeclarator",
               "start": 65,
               "end": 78,
-              "definite": false,
               "id": {
                 "type": "Identifier",
                 "start": 65,
@@ -34,16 +34,25 @@ __ESTREE_TEST__:PASS:
                 "start": 76,
                 "end": 78,
                 "properties": []
-              }
+              },
+              "definite": false
             }
           ],
-          "declare": false,
-          "kind": "let"
+          "declare": false
         },
         {
           "type": "TSEnumDeclaration",
           "start": 82,
           "end": 112,
+          "id": {
+            "type": "Identifier",
+            "start": 87,
+            "end": 89,
+            "decorators": [],
+            "name": "En",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "body": {
             "type": "TSEnumBody",
             "start": 90,
@@ -53,7 +62,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSEnumMember",
                 "start": 96,
                 "end": 108,
-                "computed": false,
                 "id": {
                   "type": "Identifier",
                   "start": 96,
@@ -71,21 +79,13 @@ __ESTREE_TEST__:PASS:
                   "name": "Infinity",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "computed": false
               }
             ]
           },
           "const": false,
-          "declare": false,
-          "id": {
-            "type": "Identifier",
-            "start": 87,
-            "end": 89,
-            "decorators": [],
-            "name": "En",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "declare": false
         }
       ]
     },
@@ -98,12 +98,12 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclaration",
           "start": 120,
           "end": 133,
+          "kind": "let",
           "declarations": [
             {
               "type": "VariableDeclarator",
               "start": 124,
               "end": 132,
-              "definite": false,
               "id": {
                 "type": "Identifier",
                 "start": 124,
@@ -118,16 +118,25 @@ __ESTREE_TEST__:PASS:
                 "start": 130,
                 "end": 132,
                 "properties": []
-              }
+              },
+              "definite": false
             }
           ],
-          "declare": false,
-          "kind": "let"
+          "declare": false
         },
         {
           "type": "TSEnumDeclaration",
           "start": 136,
           "end": 161,
+          "id": {
+            "type": "Identifier",
+            "start": 141,
+            "end": 143,
+            "decorators": [],
+            "name": "En",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "body": {
             "type": "TSEnumBody",
             "start": 144,
@@ -137,7 +146,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSEnumMember",
                 "start": 150,
                 "end": 157,
-                "computed": false,
                 "id": {
                   "type": "Identifier",
                   "start": 150,
@@ -155,21 +163,13 @@ __ESTREE_TEST__:PASS:
                   "name": "NaN",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "computed": false
               }
             ]
           },
           "const": false,
-          "declare": false,
-          "id": {
-            "type": "Identifier",
-            "start": 141,
-            "end": 143,
-            "decorators": [],
-            "name": "En",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "declare": false
         }
       ]
     }

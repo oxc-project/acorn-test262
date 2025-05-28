@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 26,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 6,
           "end": 25,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
@@ -28,20 +28,20 @@ __ESTREE_TEST__:PASS:
             "type": "ImportExpression",
             "start": 12,
             "end": 25,
-            "options": null,
             "source": {
               "type": "Literal",
               "start": 19,
               "end": 24,
-              "raw": "\"./b\"",
-              "value": "./b"
+              "value": "./b",
+              "raw": "\"./b\""
             },
+            "options": null,
             "phase": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "module",
@@ -63,8 +63,8 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "start": 15,
         "end": 16,
-        "raw": "1",
-        "value": 1
+        "value": 1,
+        "raw": "1"
       },
       "exportKind": "value"
     }

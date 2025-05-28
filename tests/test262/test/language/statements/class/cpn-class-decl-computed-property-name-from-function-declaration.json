@@ -13,7 +13,6 @@
         "end": 885,
         "name": "f"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -22,7 +21,8 @@
         "start": 888,
         "end": 890,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "ClassDeclaration",
@@ -44,8 +44,6 @@
             "type": "MethodDefinition",
             "start": 905,
             "end": 932,
-            "static": false,
-            "computed": true,
             "key": {
               "type": "CallExpression",
               "start": 906,
@@ -59,13 +57,11 @@
               "arguments": [],
               "optional": false
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 910,
               "end": 932,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -87,15 +83,17 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": true,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 935,
             "end": 969,
-            "static": true,
-            "computed": true,
             "key": {
               "type": "CallExpression",
               "start": 943,
@@ -109,13 +107,11 @@
               "arguments": [],
               "optional": false
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 947,
               "end": 969,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -137,8 +133,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": true,
+            "static": true
           }
         ]
       }
@@ -152,6 +152,7 @@
       "type": "VariableDeclaration",
       "start": 974,
       "end": 990,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -176,8 +177,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -203,8 +203,8 @@
             "end": 1008,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -234,8 +234,8 @@
                 "arguments": [],
                 "optional": false
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "arguments": [],
             "optional": false
@@ -275,8 +275,8 @@
             "end": 1045,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -306,8 +306,8 @@
                 "arguments": [],
                 "optional": false
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "arguments": [],
             "optional": false
@@ -347,8 +347,8 @@
             "end": 1082,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -392,8 +392,8 @@
                 ],
                 "optional": false
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "arguments": [],
             "optional": false
@@ -433,8 +433,8 @@
             "end": 1127,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -478,8 +478,8 @@
                 ],
                 "optional": false
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "arguments": [],
             "optional": false

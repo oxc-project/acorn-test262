@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 292,
       "end": 345,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -39,8 +40,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -55,7 +55,6 @@
           "start": 440,
           "end": 467,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "CallExpression",
             "start": 447,
@@ -76,12 +75,13 @@
                 "end": 465,
                 "name": "substring"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -129,7 +129,6 @@
                     "start": 618,
                     "end": 645,
                     "operator": "typeof",
-                    "prefix": true,
                     "argument": {
                       "type": "CallExpression",
                       "start": 625,
@@ -150,12 +149,13 @@
                           "end": 643,
                           "name": "substring"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [],
                       "optional": false
-                    }
+                    },
+                    "prefix": true
                   }
                 }
               ]

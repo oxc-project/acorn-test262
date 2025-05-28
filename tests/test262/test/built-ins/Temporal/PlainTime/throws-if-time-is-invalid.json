@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 514,
       "end": 728,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -33,14 +34,14 @@
                     "start": 537,
                     "end": 539,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 538,
                       "end": 539,
                       "value": 1,
                       "raw": "1"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               },
@@ -75,14 +76,14 @@
                     "start": 556,
                     "end": 558,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 557,
                       "end": 558,
                       "value": 1,
                       "raw": "1"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               },
@@ -131,14 +132,14 @@
                     "start": 581,
                     "end": 583,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 582,
                       "end": 583,
                       "value": 1,
                       "raw": "1"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               },
@@ -201,14 +202,14 @@
                     "start": 612,
                     "end": 614,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 613,
                       "end": 614,
                       "value": 1,
                       "raw": "1"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               },
@@ -285,14 +286,14 @@
                     "start": 651,
                     "end": 653,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 652,
                       "end": 653,
                       "value": 1,
                       "raw": "1"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               },
@@ -383,14 +384,14 @@
                     "start": 696,
                     "end": 698,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 697,
                       "end": 698,
                       "value": 1,
                       "raw": "1"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               },
@@ -446,8 +447,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -458,6 +458,7 @@
         "type": "VariableDeclaration",
         "start": 735,
         "end": 743,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -471,8 +472,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -509,8 +509,8 @@
                   "end": 777,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -523,9 +523,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 799,
                   "end": 836,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -548,8 +546,8 @@
                         "end": 827,
                         "name": "PlainTime"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -564,12 +562,36 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 842,
                   "end": 874,
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 843,
+                      "end": 850,
+                      "value": {
+                        "raw": "args = ",
+                        "cooked": "args = "
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 873,
+                      "end": 873,
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": true
+                    }
+                  ],
                   "expressions": [
                     {
                       "type": "CallExpression",
@@ -591,8 +613,8 @@
                           "end": 866,
                           "name": "stringify"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -603,28 +625,6 @@
                         }
                       ],
                       "optional": false
-                    }
-                  ],
-                  "quasis": [
-                    {
-                      "type": "TemplateElement",
-                      "start": 843,
-                      "end": 850,
-                      "value": {
-                        "raw": "args = ",
-                        "cooked": "args = "
-                      },
-                      "tail": false
-                    },
-                    {
-                      "type": "TemplateElement",
-                      "start": 873,
-                      "end": 873,
-                      "value": {
-                        "raw": "",
-                        "cooked": ""
-                      },
-                      "tail": true
                     }
                   ]
                 }

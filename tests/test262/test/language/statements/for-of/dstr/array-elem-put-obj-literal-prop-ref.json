@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 2792,
       "end": 2808,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -32,13 +33,13 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 2810,
       "end": 2826,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -58,8 +59,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -84,9 +84,7 @@
                   "type": "Property",
                   "start": 2838,
                   "end": 2919,
-                  "method": false,
-                  "shorthand": false,
-                  "computed": false,
+                  "kind": "get",
                   "key": {
                     "type": "Identifier",
                     "start": 2842,
@@ -98,7 +96,6 @@
                     "start": 2843,
                     "end": 2919,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -133,17 +130,18 @@
                           }
                         }
                       ]
-                    }
+                    },
+                    "expression": false
                   },
-                  "kind": "get"
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false
                 },
                 {
                   "type": "Property",
                   "start": 2923,
                   "end": 2959,
-                  "method": false,
-                  "shorthand": false,
-                  "computed": false,
+                  "kind": "set",
                   "key": {
                     "type": "Identifier",
                     "start": 2927,
@@ -155,7 +153,6 @@
                     "start": 2928,
                     "end": 2959,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [
@@ -195,9 +192,12 @@
                           }
                         }
                       ]
-                    }
+                    },
+                    "expression": false
                   },
-                  "kind": "set"
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false
                 }
               ]
             },
@@ -207,8 +207,8 @@
               "end": 2963,
               "name": "y"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         ]
       },
@@ -262,8 +262,8 @@
                   "end": 2996,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -334,8 +334,8 @@
             "end": 3048,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

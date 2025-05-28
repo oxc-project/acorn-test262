@@ -9,22 +9,18 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 11,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
         "end": 11,
-        "arguments": [],
         "callee": {
           "type": "MemberExpression",
           "start": 0,
           "end": 9,
-          "computed": false,
           "object": {
             "type": "NewExpression",
             "start": 0,
             "end": 7,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 4,
@@ -34,9 +30,9 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "typeArguments": null
+            "typeArguments": null,
+            "arguments": []
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 8,
@@ -45,11 +41,15 @@ __ESTREE_TEST__:PASS:
             "name": "b",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

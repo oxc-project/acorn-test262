@@ -32,8 +32,8 @@
               "end": 637,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Literal",
@@ -42,8 +42,8 @@
             "value": 3,
             "raw": "3"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -83,8 +83,8 @@
               "end": 667,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -92,8 +92,8 @@
             "end": 671,
             "name": "bar"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -124,7 +124,6 @@
             "start": 716,
             "end": 1178,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -144,6 +143,7 @@
                   "type": "VariableDeclaration",
                   "start": 733,
                   "end": 771,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -200,8 +200,7 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -228,8 +227,8 @@
                         "end": 789,
                         "name": "test262"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "right": {
                       "type": "Literal",
@@ -265,8 +264,8 @@
                         "end": 813,
                         "name": "ecma262"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "right": {
                       "type": "Literal",
@@ -281,6 +280,7 @@
                   "type": "VariableDeclaration",
                   "start": 822,
                   "end": 861,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -312,8 +312,8 @@
                             "end": 851,
                             "name": "ownKeys"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -326,8 +326,7 @@
                         "optional": false
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -421,6 +420,7 @@
                   "type": "VariableDeclaration",
                   "start": 960,
                   "end": 996,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -466,8 +466,8 @@
                             "end": 992,
                             "name": "subarray"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -481,8 +481,7 @@
                         "optional": false
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -509,8 +508,8 @@
                         "end": 1014,
                         "name": "test262"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "right": {
                       "type": "Literal",
@@ -546,8 +545,8 @@
                         "end": 1038,
                         "name": "ecma262"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "right": {
                       "type": "Literal",
@@ -562,6 +561,7 @@
                   "type": "VariableDeclaration",
                   "start": 1047,
                   "end": 1086,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -593,8 +593,8 @@
                             "end": 1076,
                             "name": "ownKeys"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -607,8 +607,7 @@
                         "optional": false
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -692,7 +691,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 41,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 14,
           "end": 40,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
@@ -35,7 +35,6 @@ __ESTREE_TEST__:PASS:
                     "type": "TSIndexSignature",
                     "start": 19,
                     "end": 38,
-                    "accessibility": null,
                     "parameters": [
                       {
                         "type": "Identifier",
@@ -56,8 +55,6 @@ __ESTREE_TEST__:PASS:
                         }
                       }
                     ],
-                    "readonly": false,
-                    "static": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "start": 30,
@@ -67,28 +64,31 @@ __ESTREE_TEST__:PASS:
                         "start": 32,
                         "end": 38
                       }
-                    }
+                    },
+                    "readonly": false,
+                    "static": false,
+                    "accessibility": null
                   }
                 ]
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
       "start": 42,
       "end": 103,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 48,
           "end": 102,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 48,
@@ -109,7 +109,6 @@ __ESTREE_TEST__:PASS:
                     "type": "TSIndexSignature",
                     "start": 53,
                     "end": 72,
-                    "accessibility": null,
                     "parameters": [
                       {
                         "type": "Identifier",
@@ -130,8 +129,6 @@ __ESTREE_TEST__:PASS:
                         }
                       }
                     ],
-                    "readonly": false,
-                    "static": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "start": 64,
@@ -141,7 +138,10 @@ __ESTREE_TEST__:PASS:
                         "start": 66,
                         "end": 72
                       }
-                    }
+                    },
+                    "readonly": false,
+                    "static": false,
+                    "accessibility": null
                   }
                 ]
               }
@@ -170,45 +170,45 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 85,
                 "end": 100,
-                "computed": true,
+                "kind": "init",
                 "key": {
                   "type": "BinaryExpression",
                   "start": 86,
                   "end": 95,
-                  "operator": "+",
                   "left": {
                     "type": "Literal",
                     "start": 86,
                     "end": 89,
-                    "raw": "\"a\"",
-                    "value": "a"
+                    "value": "a",
+                    "raw": "\"a\""
                   },
+                  "operator": "+",
                   "right": {
                     "type": "Literal",
                     "start": 92,
                     "end": 95,
-                    "raw": "\"b\"",
-                    "value": "b"
+                    "value": "b",
+                    "raw": "\"b\""
                   }
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Literal",
                   "start": 98,
                   "end": 100,
-                  "raw": "\"\"",
-                  "value": ""
-                }
+                  "value": "",
+                  "raw": "\"\""
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": true,
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "script",

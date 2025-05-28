@@ -28,21 +28,17 @@
             "type": "MethodDefinition",
             "start": 403,
             "end": 464,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 403,
               "end": 414,
               "name": "constructor"
             },
-            "kind": "constructor",
             "value": {
               "type": "FunctionExpression",
               "start": 423,
               "end": 464,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -57,28 +53,28 @@
                     "end": 454
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "constructor",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 473,
             "end": 514,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 473,
               "end": 474,
               "name": "m"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 483,
               "end": 514,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -87,8 +83,12 @@
                 "start": 503,
                 "end": 514,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -135,7 +135,6 @@
         "end": 768,
         "name": "B"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -144,7 +143,8 @@
         "start": 770,
         "end": 772,
         "body": []
-      }
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

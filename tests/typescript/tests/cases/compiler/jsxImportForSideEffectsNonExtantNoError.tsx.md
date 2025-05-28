@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 44,
       "end": 75,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 67,
-        "end": 74,
-        "raw": "\"react\"",
-        "value": "react"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -33,35 +25,43 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 67,
+        "end": 74,
+        "value": "react",
+        "raw": "\"react\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 77,
       "end": 96,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 84,
         "end": 95,
-        "raw": "\"./App.css\"",
-        "value": "./App.css"
+        "value": "./App.css",
+        "raw": "\"./App.css\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 124,
       "end": 148,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 130,
           "end": 147,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 130,
@@ -75,6 +75,20 @@ __ESTREE_TEST__:PASS:
             "type": "JSXElement",
             "start": 136,
             "end": 147,
+            "openingElement": {
+              "type": "JSXOpeningElement",
+              "start": 136,
+              "end": 141,
+              "name": {
+                "type": "JSXIdentifier",
+                "start": 137,
+                "end": 140,
+                "name": "div"
+              },
+              "typeArguments": null,
+              "attributes": [],
+              "selfClosing": false
+            },
             "children": [],
             "closingElement": {
               "type": "JSXClosingElement",
@@ -86,26 +100,12 @@ __ESTREE_TEST__:PASS:
                 "end": 146,
                 "name": "div"
               }
-            },
-            "openingElement": {
-              "type": "JSXOpeningElement",
-              "start": 136,
-              "end": 141,
-              "attributes": [],
-              "name": {
-                "type": "JSXIdentifier",
-                "start": 137,
-                "end": 140,
-                "name": "div"
-              },
-              "selfClosing": false,
-              "typeArguments": null
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "module",

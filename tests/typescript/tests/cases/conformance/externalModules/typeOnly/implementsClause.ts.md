@@ -9,19 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 29,
-      "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
         "start": 7,
         "end": 29,
-        "body": {
-          "type": "TSInterfaceBody",
-          "start": 27,
-          "end": 29,
-          "body": []
-        },
-        "declare": false,
-        "extends": [],
         "id": {
           "type": "Identifier",
           "start": 17,
@@ -31,11 +22,20 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "typeParameters": null
+        "typeParameters": null,
+        "extends": [],
+        "body": {
+          "type": "TSInterfaceBody",
+          "start": 27,
+          "end": 29,
+          "body": []
+        },
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -53,14 +53,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 38,
-      "importKind": "type",
-      "source": {
-        "type": "Literal",
-        "start": 28,
-        "end": 37,
-        "raw": "'./types'",
-        "value": "./types"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -77,22 +69,36 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 28,
+        "end": 37,
+        "value": "./types",
+        "raw": "'./types'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "type"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 39,
       "end": 56,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 48,
           "end": 53,
+          "local": {
+            "type": "Identifier",
+            "start": 48,
+            "end": 53,
+            "decorators": [],
+            "name": "types",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 48,
@@ -102,18 +108,12 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 48,
-            "end": 53,
-            "decorators": [],
-            "name": "types",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": null,
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -131,14 +131,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 38,
-      "importKind": "type",
-      "source": {
-        "type": "Literal",
-        "start": 28,
-        "end": 37,
-        "raw": "'./types'",
-        "value": "./types"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -155,21 +147,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 28,
+        "end": 37,
+        "value": "./types",
+        "raw": "'./types'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "type"
     },
     {
       "type": "ImportDeclaration",
       "start": 39,
       "end": 79,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 72,
-        "end": 78,
-        "raw": "'./ns'",
-        "value": "./ns"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -186,21 +178,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 72,
+        "end": 78,
+        "value": "./ns",
+        "raw": "'./ns'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ClassDeclaration",
       "start": 81,
       "end": 118,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 116,
-        "end": 118,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -211,6 +203,9 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
       "implements": [
         {
           "type": "TSClassImplements",
@@ -220,7 +215,6 @@ __ESTREE_TEST__:PASS:
             "type": "MemberExpression",
             "start": 100,
             "end": 115,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 100,
@@ -230,7 +224,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 106,
@@ -239,27 +232,26 @@ __ESTREE_TEST__:PASS:
               "name": "Component",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "optional": false,
+            "computed": false
           },
           "typeArguments": null
         }
       ],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "body": {
+        "type": "ClassBody",
+        "start": 116,
+        "end": 118,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 119,
       "end": 172,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 170,
-        "end": 172,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -270,6 +262,9 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
       "implements": [
         {
           "type": "TSClassImplements",
@@ -279,12 +274,10 @@ __ESTREE_TEST__:PASS:
             "type": "MemberExpression",
             "start": 138,
             "end": 169,
-            "computed": false,
             "object": {
               "type": "MemberExpression",
               "start": 138,
               "end": 159,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 138,
@@ -294,7 +287,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 154,
@@ -303,9 +295,10 @@ __ESTREE_TEST__:PASS:
                 "name": "types",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 160,
@@ -314,14 +307,21 @@ __ESTREE_TEST__:PASS:
               "name": "Component",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "optional": false,
+            "computed": false
           },
           "typeArguments": null
         }
       ],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "body": {
+        "type": "ClassBody",
+        "start": 170,
+        "end": 172,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "module",

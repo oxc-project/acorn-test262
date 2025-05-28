@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 371,
       "end": 386,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -44,8 +45,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "DoWhileStatement",
@@ -166,14 +166,14 @@
                 "start": 474,
                 "end": 476,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 475,
                   "end": 476,
                   "value": 1,
                   "raw": "1"
-                }
+                },
+                "prefix": true
               }
             }
           }
@@ -260,6 +260,7 @@
       "type": "VariableDeclaration",
       "start": 633,
       "end": 649,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -297,8 +298,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "DoWhileStatement",
@@ -432,14 +432,14 @@
                 "start": 759,
                 "end": 761,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 760,
                   "end": 761,
                   "value": 1,
                   "raw": "1"
-                }
+                },
+                "prefix": true
               }
             }
           }
@@ -526,6 +526,7 @@
       "type": "VariableDeclaration",
       "start": 919,
       "end": 935,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -563,8 +564,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "DoWhileStatement",
@@ -785,6 +785,7 @@
       "type": "VariableDeclaration",
       "start": 1204,
       "end": 1220,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -822,8 +823,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "DoWhileStatement",
@@ -928,14 +928,14 @@
                 "start": 1295,
                 "end": 1297,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1296,
                   "end": 1297,
                   "value": 1,
                   "raw": "1"
-                }
+                },
+                "prefix": true
               }
             }
           }
@@ -1022,6 +1022,7 @@
       "type": "VariableDeclaration",
       "start": 1450,
       "end": 1459,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1041,8 +1042,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "DoWhileStatement",
@@ -1209,6 +1209,7 @@
       "type": "VariableDeclaration",
       "start": 1651,
       "end": 1667,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1246,8 +1247,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "DoWhileStatement",
@@ -1364,14 +1364,14 @@
                 "start": 1758,
                 "end": 1760,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 1759,
                   "end": 1760,
                   "value": 1,
                   "raw": "1"
-                }
+                },
+                "prefix": true
               }
             }
           }

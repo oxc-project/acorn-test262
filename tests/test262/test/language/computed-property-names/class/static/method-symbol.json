@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 2258,
       "end": 2278,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -32,13 +33,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 2279,
       "end": 2299,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -64,8 +65,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ClassDeclaration",
@@ -87,21 +87,17 @@
             "type": "MethodDefinition",
             "start": 2312,
             "end": 2338,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 2319,
               "end": 2320,
               "name": "a"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 2320,
               "end": 2338,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -123,28 +119,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true
           },
           {
             "type": "MethodDefinition",
             "start": 2341,
             "end": 2372,
-            "static": true,
-            "computed": true,
             "key": {
               "type": "Identifier",
               "start": 2349,
               "end": 2353,
               "name": "sym1"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 2354,
               "end": 2372,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -166,28 +162,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": true,
+            "static": true
           },
           {
             "type": "MethodDefinition",
             "start": 2375,
             "end": 2401,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 2382,
               "end": 2383,
               "name": "c"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 2383,
               "end": 2401,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -209,28 +205,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true
           },
           {
             "type": "MethodDefinition",
             "start": 2404,
             "end": 2435,
-            "static": true,
-            "computed": true,
             "key": {
               "type": "Identifier",
               "start": 2412,
               "end": 2416,
               "name": "sym2"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 2417,
               "end": 2435,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -252,8 +248,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": true,
+            "static": true
           }
         ]
       }
@@ -282,8 +282,8 @@
             "end": 2454,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -306,8 +306,8 @@
                 "end": 2458,
                 "name": "a"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -354,8 +354,8 @@
             "end": 2550,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -378,8 +378,8 @@
                 "end": 2557,
                 "name": "sym1"
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "arguments": [],
             "optional": false
@@ -426,8 +426,8 @@
             "end": 2659,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -450,8 +450,8 @@
                 "end": 2663,
                 "name": "c"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -498,8 +498,8 @@
             "end": 2755,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -522,8 +522,8 @@
                 "end": 2762,
                 "name": "sym2"
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "arguments": [],
             "optional": false
@@ -570,8 +570,8 @@
             "end": 2867,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -594,8 +594,8 @@
                 "end": 2882,
                 "name": "keys"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

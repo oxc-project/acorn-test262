@@ -7,10 +7,17 @@
       "type": "LabeledStatement",
       "start": 327,
       "end": 364,
+      "label": {
+        "type": "Identifier",
+        "start": 327,
+        "end": 336,
+        "name": "LABEL_OUT"
+      },
       "body": {
         "type": "VariableDeclaration",
         "start": 339,
         "end": 364,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -84,14 +91,7 @@
               "raw": "0"
             }
           }
-        ],
-        "kind": "var"
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 327,
-        "end": 336,
-        "name": "LABEL_OUT"
+        ]
       }
     },
     {
@@ -111,7 +111,6 @@
             "start": 366,
             "end": 750,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -124,6 +123,12 @@
                   "type": "LabeledStatement",
                   "start": 378,
                   "end": 680,
+                  "label": {
+                    "type": "Identifier",
+                    "start": 378,
+                    "end": 391,
+                    "name": "LABEL_DO_LOOP"
+                  },
                   "body": {
                     "type": "DoWhileStatement",
                     "start": 394,
@@ -137,6 +142,12 @@
                           "type": "LabeledStatement",
                           "start": 403,
                           "end": 418,
+                          "label": {
+                            "type": "Identifier",
+                            "start": 403,
+                            "end": 411,
+                            "name": "LABEL_IN"
+                          },
                           "body": {
                             "type": "ExpressionStatement",
                             "start": 414,
@@ -154,12 +165,6 @@
                                 "name": "x"
                               }
                             }
-                          },
-                          "label": {
-                            "type": "Identifier",
-                            "start": 403,
-                            "end": 411,
-                            "name": "LABEL_IN"
                           }
                         },
                         {
@@ -197,6 +202,12 @@
                           "type": "LabeledStatement",
                           "start": 445,
                           "end": 608,
+                          "label": {
+                            "type": "Identifier",
+                            "start": 445,
+                            "end": 462,
+                            "name": "LABEL_NESTED_LOOP"
+                          },
                           "body": {
                             "type": "DoWhileStatement",
                             "start": 465,
@@ -210,6 +221,12 @@
                                   "type": "LabeledStatement",
                                   "start": 478,
                                   "end": 501,
+                                  "label": {
+                                    "type": "Identifier",
+                                    "start": 478,
+                                    "end": 493,
+                                    "name": "LABEL_IN_NESTED"
+                                  },
                                   "body": {
                                     "type": "ExpressionStatement",
                                     "start": 496,
@@ -227,12 +244,6 @@
                                         "name": "xx"
                                       }
                                     }
-                                  },
-                                  "label": {
-                                    "type": "Identifier",
-                                    "start": 478,
-                                    "end": 493,
-                                    "name": "LABEL_IN_NESTED"
                                   }
                                 },
                                 {
@@ -281,6 +292,12 @@
                                   "type": "LabeledStatement",
                                   "start": 566,
                                   "end": 591,
+                                  "label": {
+                                    "type": "Identifier",
+                                    "start": 566,
+                                    "end": 583,
+                                    "name": "LABEL_IN_NESTED_2"
+                                  },
                                   "body": {
                                     "type": "ExpressionStatement",
                                     "start": 586,
@@ -298,12 +315,6 @@
                                         "name": "yy"
                                       }
                                     }
-                                  },
-                                  "label": {
-                                    "type": "Identifier",
-                                    "start": 566,
-                                    "end": 583,
-                                    "name": "LABEL_IN_NESTED_2"
                                   }
                                 }
                               ]
@@ -315,18 +326,18 @@
                               "value": 0,
                               "raw": "0"
                             }
-                          },
-                          "label": {
-                            "type": "Identifier",
-                            "start": 445,
-                            "end": 462,
-                            "name": "LABEL_NESTED_LOOP"
                           }
                         },
                         {
                           "type": "LabeledStatement",
                           "start": 618,
                           "end": 635,
+                          "label": {
+                            "type": "Identifier",
+                            "start": 618,
+                            "end": 628,
+                            "name": "LABEL_IN_2"
+                          },
                           "body": {
                             "type": "ExpressionStatement",
                             "start": 631,
@@ -344,12 +355,6 @@
                                 "name": "y"
                               }
                             }
-                          },
-                          "label": {
-                            "type": "Identifier",
-                            "start": 618,
-                            "end": 628,
-                            "name": "LABEL_IN_2"
                           }
                         },
                         {
@@ -362,7 +367,6 @@
                             "end": 664,
                             "name": "IN_DO_FUNC"
                           },
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [],
@@ -371,7 +375,8 @@
                             "start": 666,
                             "end": 668,
                             "body": []
-                          }
+                          },
+                          "expression": false
                         }
                       ]
                     },
@@ -382,18 +387,18 @@
                       "value": 0,
                       "raw": "0"
                     }
-                  },
-                  "label": {
-                    "type": "Identifier",
-                    "start": 378,
-                    "end": 391,
-                    "name": "LABEL_DO_LOOP"
                   }
                 },
                 {
                   "type": "LabeledStatement",
                   "start": 682,
                   "end": 725,
+                  "label": {
+                    "type": "Identifier",
+                    "start": 682,
+                    "end": 700,
+                    "name": "LABEL_ANOTHER_LOOP"
+                  },
                   "body": {
                     "type": "DoWhileStatement",
                     "start": 703,
@@ -417,12 +422,6 @@
                       "value": 0,
                       "raw": "0"
                     }
-                  },
-                  "label": {
-                    "type": "Identifier",
-                    "start": 682,
-                    "end": 700,
-                    "name": "LABEL_ANOTHER_LOOP"
                   }
                 },
                 {
@@ -435,7 +434,6 @@
                     "end": 744,
                     "name": "OUT_FUNC"
                   },
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -444,10 +442,12 @@
                     "start": 746,
                     "end": 748,
                     "body": []
-                  }
+                  },
+                  "expression": false
                 }
               ]
-            }
+            },
+            "expression": false
           }
         },
         "arguments": [],

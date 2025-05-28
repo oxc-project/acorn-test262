@@ -9,7 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 304,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 24,
+        "decorators": [],
+        "name": "minimalExample1",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 27,
@@ -19,7 +33,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeAliasDeclaration",
             "start": 33,
             "end": 101,
-            "declare": false,
             "id": {
               "type": "Identifier",
               "start": 38,
@@ -29,6 +42,7 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
+            "typeParameters": null,
             "typeAnnotation": {
               "type": "TSUnionType",
               "start": 53,
@@ -43,8 +57,9 @@ __ESTREE_TEST__:PASS:
                       "type": "TSPropertySignature",
                       "start": 57,
                       "end": 70,
-                      "accessibility": null,
                       "computed": false,
+                      "optional": false,
+                      "readonly": false,
                       "key": {
                         "type": "Identifier",
                         "start": 57,
@@ -54,9 +69,6 @@ __ESTREE_TEST__:PASS:
                         "optional": false,
                         "typeAnnotation": null
                       },
-                      "optional": false,
-                      "readonly": false,
-                      "static": false,
                       "typeAnnotation": {
                         "type": "TSTypeAnnotation",
                         "start": 61,
@@ -69,11 +81,13 @@ __ESTREE_TEST__:PASS:
                             "type": "Literal",
                             "start": 63,
                             "end": 70,
-                            "raw": "\"hddvd\"",
-                            "value": "hddvd"
+                            "value": "hddvd",
+                            "raw": "\"hddvd\""
                           }
                         }
-                      }
+                      },
+                      "accessibility": null,
+                      "static": false
                     }
                   ]
                 },
@@ -86,8 +100,9 @@ __ESTREE_TEST__:PASS:
                       "type": "TSPropertySignature",
                       "start": 85,
                       "end": 99,
-                      "accessibility": null,
                       "computed": false,
+                      "optional": false,
+                      "readonly": false,
                       "key": {
                         "type": "Identifier",
                         "start": 85,
@@ -97,9 +112,6 @@ __ESTREE_TEST__:PASS:
                         "optional": false,
                         "typeAnnotation": null
                       },
-                      "optional": false,
-                      "readonly": false,
-                      "static": false,
                       "typeAnnotation": {
                         "type": "TSTypeAnnotation",
                         "start": 89,
@@ -112,32 +124,24 @@ __ESTREE_TEST__:PASS:
                             "type": "Literal",
                             "start": 91,
                             "end": 99,
-                            "raw": "\"bluray\"",
-                            "value": "bluray"
+                            "value": "bluray",
+                            "raw": "\"bluray\""
                           }
                         }
-                      }
+                      },
+                      "accessibility": null,
+                      "static": false
                     }
                   ]
                 }
               ]
             },
-            "typeParameters": null
+            "declare": false
           },
           {
             "type": "FunctionDeclaration",
             "start": 107,
             "end": 138,
-            "async": false,
-            "body": {
-              "type": "BlockStatement",
-              "start": 131,
-              "end": 138,
-              "body": []
-            },
-            "declare": false,
-            "expression": false,
-            "generator": false,
             "id": {
               "type": "Identifier",
               "start": 116,
@@ -147,6 +151,10 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
+            "generator": false,
+            "async": false,
+            "declare": false,
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -167,7 +175,6 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 123,
                       "end": 127,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 123,
@@ -176,24 +183,40 @@ __ESTREE_TEST__:PASS:
                         "name": "Disc",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     }
                   }
                 }
               }
             ],
             "returnType": null,
-            "typeParameters": null
+            "body": {
+              "type": "BlockStatement",
+              "start": 131,
+              "end": 138,
+              "body": []
+            },
+            "expression": false
           },
           {
             "type": "ExpressionStatement",
             "start": 144,
             "end": 213,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 144,
               "end": 212,
+              "callee": {
+                "type": "Identifier",
+                "start": 144,
+                "end": 147,
+                "decorators": [],
+                "name": "foo",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeArguments": null,
               "arguments": [
                 {
                   "type": "ArrayExpression",
@@ -209,7 +232,7 @@ __ESTREE_TEST__:PASS:
                           "type": "Property",
                           "start": 160,
                           "end": 174,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 160,
@@ -219,17 +242,17 @@ __ESTREE_TEST__:PASS:
                             "optional": false,
                             "typeAnnotation": null
                           },
-                          "kind": "init",
-                          "method": false,
-                          "optional": false,
-                          "shorthand": false,
                           "value": {
                             "type": "Literal",
                             "start": 166,
                             "end": 174,
-                            "raw": "\"bluray\"",
-                            "value": "bluray"
-                          }
+                            "value": "bluray",
+                            "raw": "\"bluray\""
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "optional": false
                         }
                       ]
                     },
@@ -242,7 +265,7 @@ __ESTREE_TEST__:PASS:
                           "type": "Property",
                           "start": 189,
                           "end": 202,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 189,
@@ -252,46 +275,37 @@ __ESTREE_TEST__:PASS:
                             "optional": false,
                             "typeAnnotation": null
                           },
-                          "kind": "init",
-                          "method": false,
-                          "optional": false,
-                          "shorthand": false,
                           "value": {
                             "type": "Literal",
                             "start": 195,
                             "end": 202,
-                            "raw": "\"hdpvd\"",
-                            "value": "hdpvd"
-                          }
+                            "value": "hdpvd",
+                            "raw": "\"hdpvd\""
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "optional": false
                         }
                       ]
                     }
                   ]
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 144,
-                "end": 147,
-                "decorators": [],
-                "name": "foo",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "typeArguments": null
-            }
+              "optional": false
+            },
+            "directive": null
           },
           {
             "type": "VariableDeclaration",
             "start": 219,
             "end": 302,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 225,
                 "end": 301,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 225,
@@ -311,7 +325,6 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 229,
                         "end": 233,
-                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 229,
@@ -320,7 +333,8 @@ __ESTREE_TEST__:PASS:
                           "name": "Disc",
                           "optional": false,
                           "typeAnnotation": null
-                        }
+                        },
+                        "typeArguments": null
                       }
                     }
                   }
@@ -339,7 +353,7 @@ __ESTREE_TEST__:PASS:
                           "type": "Property",
                           "start": 250,
                           "end": 264,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 250,
@@ -349,17 +363,17 @@ __ESTREE_TEST__:PASS:
                             "optional": false,
                             "typeAnnotation": null
                           },
-                          "kind": "init",
-                          "method": false,
-                          "optional": false,
-                          "shorthand": false,
                           "value": {
                             "type": "Literal",
                             "start": 256,
                             "end": 264,
-                            "raw": "\"bluray\"",
-                            "value": "bluray"
-                          }
+                            "value": "bluray",
+                            "raw": "\"bluray\""
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "optional": false
                         }
                       ]
                     },
@@ -372,7 +386,7 @@ __ESTREE_TEST__:PASS:
                           "type": "Property",
                           "start": 279,
                           "end": 292,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 279,
@@ -382,44 +396,30 @@ __ESTREE_TEST__:PASS:
                             "optional": false,
                             "typeAnnotation": null
                           },
-                          "kind": "init",
-                          "method": false,
-                          "optional": false,
-                          "shorthand": false,
                           "value": {
                             "type": "Literal",
                             "start": 285,
                             "end": 292,
-                            "raw": "\"hdpvd\"",
-                            "value": "hdpvd"
-                          }
+                            "value": "hdpvd",
+                            "raw": "\"hdpvd\""
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "optional": false
                         }
                       ]
                     }
                   ]
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "const"
+            "declare": false
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 24,
-        "decorators": [],
-        "name": "minimalExample1",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

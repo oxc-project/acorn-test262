@@ -27,8 +27,8 @@
             "end": 595,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -71,6 +71,13 @@
           "type": "SwitchCase",
           "start": 639,
           "end": 695,
+          "test": {
+            "type": "Literal",
+            "start": 644,
+            "end": 645,
+            "value": 1,
+            "raw": "1"
+          },
           "consequent": [
             {
               "type": "FunctionDeclaration",
@@ -82,7 +89,6 @@
                 "end": 661,
                 "name": "f"
               },
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -104,16 +110,10 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
-          ],
-          "test": {
-            "type": "Literal",
-            "start": 644,
-            "end": 645,
-            "value": 1,
-            "raw": "1"
-          }
+          ]
         }
       ]
     },
@@ -127,7 +127,6 @@
         "end": 709,
         "name": "f"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -149,7 +148,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

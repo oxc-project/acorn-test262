@@ -12,7 +12,6 @@
         "start": 1115,
         "end": 1217,
         "operator": "void",
-        "prefix": true,
         "argument": {
           "type": "AwaitExpression",
           "start": 1120,
@@ -94,7 +93,8 @@
               }
             }
           }
-        }
+        },
+        "prefix": true
       }
     }
   ],

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1129,
       "end": 1610,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -159,8 +160,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -171,6 +171,7 @@
         "type": "VariableDeclaration",
         "start": 1616,
         "end": 1630,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -184,8 +185,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -222,8 +222,8 @@
                   "end": 1675,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -237,7 +237,6 @@
                   "start": 1688,
                   "end": 1743,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -270,8 +269,8 @@
                               "end": 1720,
                               "name": "Locale"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -290,9 +289,7 @@
                                   "type": "Property",
                                   "start": 1728,
                                   "end": 1736,
-                                  "method": false,
-                                  "shorthand": true,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 1728,
@@ -305,7 +302,9 @@
                                     "end": 1736,
                                     "name": "language"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": true,
+                                  "computed": false
                                 }
                               ]
                             }
@@ -313,20 +312,13 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 1745,
                   "end": 1813,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1782,
-                      "end": 1790,
-                      "name": "language"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -347,6 +339,14 @@
                         "cooked": "\"}) throws RangeError"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1782,
+                      "end": 1790,
+                      "name": "language"
                     }
                   ]
                 }

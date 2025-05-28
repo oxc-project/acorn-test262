@@ -9,49 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 66,
-      "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
         "start": 7,
         "end": 66,
-        "body": {
-          "type": "TSInterfaceBody",
-          "start": 37,
-          "end": 66,
-          "body": [
-            {
-              "type": "TSPropertySignature",
-              "start": 41,
-              "end": 64,
-              "accessibility": null,
-              "computed": false,
-              "key": {
-                "type": "Identifier",
-                "start": 41,
-                "end": 57,
-                "decorators": [],
-                "name": "rejectOnNotFound",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": true,
-              "readonly": false,
-              "static": false,
-              "typeAnnotation": {
-                "type": "TSTypeAnnotation",
-                "start": 58,
-                "end": 63,
-                "typeAnnotation": {
-                  "type": "TSAnyKeyword",
-                  "start": 60,
-                  "end": 63
-                }
-              }
-            }
-          ]
-        },
-        "declare": false,
-        "extends": [],
         "id": {
           "type": "Identifier",
           "start": 17,
@@ -61,55 +22,59 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "typeParameters": null
+        "typeParameters": null,
+        "extends": [],
+        "body": {
+          "type": "TSInterfaceBody",
+          "start": 37,
+          "end": 66,
+          "body": [
+            {
+              "type": "TSPropertySignature",
+              "start": 41,
+              "end": 64,
+              "computed": false,
+              "optional": true,
+              "readonly": false,
+              "key": {
+                "type": "Identifier",
+                "start": 41,
+                "end": 57,
+                "decorators": [],
+                "name": "rejectOnNotFound",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeAnnotation": {
+                "type": "TSTypeAnnotation",
+                "start": 58,
+                "end": 63,
+                "typeAnnotation": {
+                  "type": "TSAnyKeyword",
+                  "start": 60,
+                  "end": 63
+                }
+              },
+              "accessibility": null,
+              "static": false
+            }
+          ]
+        },
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 68,
       "end": 169,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 75,
         "end": 169,
-        "abstract": false,
-        "body": {
-          "type": "ClassBody",
-          "start": 147,
-          "end": 169,
-          "body": [
-            {
-              "type": "PropertyDefinition",
-              "start": 151,
-              "end": 167,
-              "accessibility": "private",
-              "computed": false,
-              "declare": false,
-              "decorators": [],
-              "definite": false,
-              "key": {
-                "type": "Identifier",
-                "start": 159,
-                "end": 166,
-                "decorators": [],
-                "name": "fetcher",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "override": false,
-              "readonly": false,
-              "static": false,
-              "typeAnnotation": null,
-              "value": null
-            }
-          ]
-        },
-        "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
@@ -120,9 +85,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
         "typeParameters": {
           "type": "TSTypeParameterDeclaration",
           "start": 93,
@@ -132,38 +94,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeParameter",
               "start": 94,
               "end": 145,
-              "const": false,
-              "constraint": {
-                "type": "TSTypeReference",
-                "start": 104,
-                "end": 123,
-                "typeArguments": null,
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 104,
-                  "end": 123,
-                  "decorators": [],
-                  "name": "PrismaClientOptions",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              },
-              "default": {
-                "type": "TSTypeReference",
-                "start": 126,
-                "end": 145,
-                "typeArguments": null,
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 126,
-                  "end": 145,
-                  "decorators": [],
-                  "name": "PrismaClientOptions",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              },
-              "in": false,
               "name": {
                 "type": "Identifier",
                 "start": 94,
@@ -173,14 +103,84 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "out": false
+              "constraint": {
+                "type": "TSTypeReference",
+                "start": 104,
+                "end": 123,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 104,
+                  "end": 123,
+                  "decorators": [],
+                  "name": "PrismaClientOptions",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null
+              },
+              "default": {
+                "type": "TSTypeReference",
+                "start": 126,
+                "end": 145,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 126,
+                  "end": 145,
+                  "decorators": [],
+                  "name": "PrismaClientOptions",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null
+              },
+              "in": false,
+              "out": false,
+              "const": false
             }
           ]
-        }
+        },
+        "superClass": null,
+        "superTypeArguments": null,
+        "implements": [],
+        "body": {
+          "type": "ClassBody",
+          "start": 147,
+          "end": 169,
+          "body": [
+            {
+              "type": "PropertyDefinition",
+              "start": 151,
+              "end": 167,
+              "decorators": [],
+              "key": {
+                "type": "Identifier",
+                "start": 159,
+                "end": 166,
+                "decorators": [],
+                "name": "fetcher",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeAnnotation": null,
+              "value": null,
+              "computed": false,
+              "static": false,
+              "declare": false,
+              "override": false,
+              "optional": false,
+              "definite": false,
+              "readonly": false,
+              "accessibility": "private"
+            }
+          ]
+        },
+        "abstract": false,
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -198,16 +198,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportAllDeclaration",
       "start": 0,
       "end": 31,
-      "attributes": [],
       "exported": null,
-      "exportKind": "value",
       "source": {
         "type": "Literal",
         "start": 14,
         "end": 30,
-        "raw": "\".prisma/client\"",
-        "value": ".prisma/client"
-      }
+        "value": ".prisma/client",
+        "raw": "\".prisma/client\""
+      },
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
@@ -225,14 +225,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 46,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 29,
-        "end": 45,
-        "raw": "\"@prisma/client\"",
-        "value": "@prisma/client"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -247,7 +239,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
@@ -256,22 +247,31 @@ __ESTREE_TEST__:PASS:
             "name": "PrismaClient",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 29,
+        "end": 45,
+        "value": "@prisma/client",
+        "raw": "\"@prisma/client\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 47,
       "end": 168,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 61,
           "end": 167,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 61,
@@ -287,6 +287,32 @@ __ESTREE_TEST__:PASS:
                 "type": "TSFunctionType",
                 "start": 76,
                 "end": 167,
+                "typeParameters": {
+                  "type": "TSTypeParameterDeclaration",
+                  "start": 76,
+                  "end": 95,
+                  "params": [
+                    {
+                      "type": "TSTypeParameter",
+                      "start": 77,
+                      "end": 94,
+                      "name": {
+                        "type": "Identifier",
+                        "start": 77,
+                        "end": 94,
+                        "decorators": [],
+                        "name": "TPrismaClientCtor",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "constraint": null,
+                      "default": null,
+                      "in": false,
+                      "out": false,
+                      "const": false
+                    }
+                  ]
+                },
                 "params": [
                   {
                     "type": "Identifier",
@@ -303,7 +329,6 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 104,
                         "end": 121,
-                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 104,
@@ -312,7 +337,8 @@ __ESTREE_TEST__:PASS:
                           "name": "TPrismaClientCtor",
                           "optional": false,
                           "typeAnnotation": null
-                        }
+                        },
+                        "typeArguments": null
                       }
                     }
                   }
@@ -330,7 +356,6 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 126,
                         "end": 143,
-                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 126,
@@ -339,7 +364,8 @@ __ESTREE_TEST__:PASS:
                           "name": "TPrismaClientCtor",
                           "optional": false,
                           "typeAnnotation": null
-                        }
+                        },
+                        "typeArguments": null
                       },
                       {
                         "type": "TSTypeLiteral",
@@ -350,8 +376,9 @@ __ESTREE_TEST__:PASS:
                             "type": "TSPropertySignature",
                             "start": 148,
                             "end": 165,
-                            "accessibility": null,
                             "computed": false,
+                            "optional": false,
+                            "readonly": false,
                             "key": {
                               "type": "Identifier",
                               "start": 148,
@@ -361,9 +388,6 @@ __ESTREE_TEST__:PASS:
                               "optional": false,
                               "typeAnnotation": null
                             },
-                            "optional": false,
-                            "readonly": false,
-                            "static": false,
                             "typeAnnotation": {
                               "type": "TSTypeAnnotation",
                               "start": 156,
@@ -373,58 +397,34 @@ __ESTREE_TEST__:PASS:
                                 "start": 158,
                                 "end": 165
                               }
-                            }
+                            },
+                            "accessibility": null,
+                            "static": false
                           }
                         ]
                       }
                     ]
                   }
-                },
-                "typeParameters": {
-                  "type": "TSTypeParameterDeclaration",
-                  "start": 76,
-                  "end": 95,
-                  "params": [
-                    {
-                      "type": "TSTypeParameter",
-                      "start": 77,
-                      "end": 94,
-                      "const": false,
-                      "constraint": null,
-                      "default": null,
-                      "in": false,
-                      "name": {
-                        "type": "Identifier",
-                        "start": 77,
-                        "end": 94,
-                        "decorators": [],
-                        "name": "TPrismaClientCtor",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "out": false
-                    }
-                  ]
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
       "start": 169,
       "end": 220,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 175,
           "end": 219,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 175,
@@ -438,6 +438,16 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 192,
             "end": 219,
+            "callee": {
+              "type": "Identifier",
+              "start": 192,
+              "end": 205,
+              "decorators": [],
+              "name": "enhancePrisma",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null,
             "arguments": [
               {
                 "type": "Identifier",
@@ -449,22 +459,12 @@ __ESTREE_TEST__:PASS:
                 "typeAnnotation": null
               }
             ],
-            "callee": {
-              "type": "Identifier",
-              "start": 192,
-              "end": 205,
-              "decorators": [],
-              "name": "enhancePrisma",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "typeArguments": null
-          }
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -474,7 +474,6 @@ __ESTREE_TEST__:PASS:
         "type": "NewExpression",
         "start": 236,
         "end": 256,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 240,
@@ -484,7 +483,8 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "typeArguments": null
+        "typeArguments": null,
+        "arguments": []
       },
       "exportKind": "value"
     }

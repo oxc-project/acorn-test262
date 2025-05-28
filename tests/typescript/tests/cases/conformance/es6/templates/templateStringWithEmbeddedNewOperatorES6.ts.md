@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 38,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 37,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,20 +28,33 @@ __ESTREE_TEST__:PASS:
             "type": "TemplateLiteral",
             "start": 8,
             "end": 37,
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "start": 8,
+                "end": 14,
+                "value": {
+                  "cooked": "abc",
+                  "raw": "abc"
+                },
+                "tail": false
+              },
+              {
+                "type": "TemplateElement",
+                "start": 32,
+                "end": 37,
+                "value": {
+                  "cooked": "def",
+                  "raw": "def"
+                },
+                "tail": true
+              }
+            ],
             "expressions": [
               {
                 "type": "NewExpression",
                 "start": 15,
                 "end": 31,
-                "arguments": [
-                  {
-                    "type": "Literal",
-                    "start": 26,
-                    "end": 30,
-                    "raw": "\"Hi\"",
-                    "value": "Hi"
-                  }
-                ],
                 "callee": {
                   "type": "Identifier",
                   "start": 19,
@@ -51,36 +64,23 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "typeArguments": null
-              }
-            ],
-            "quasis": [
-              {
-                "type": "TemplateElement",
-                "start": 8,
-                "end": 14,
-                "tail": false,
-                "value": {
-                  "cooked": "abc",
-                  "raw": "abc"
-                }
-              },
-              {
-                "type": "TemplateElement",
-                "start": 32,
-                "end": 37,
-                "tail": true,
-                "value": {
-                  "cooked": "def",
-                  "raw": "def"
-                }
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 26,
+                    "end": 30,
+                    "value": "Hi",
+                    "raw": "\"Hi\""
+                  }
+                ]
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

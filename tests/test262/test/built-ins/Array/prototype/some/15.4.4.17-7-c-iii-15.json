@@ -13,7 +13,6 @@
         "end": 291,
         "name": "callbackfn"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -50,7 +49,6 @@
               "start": 318,
               "end": 331,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -59,11 +57,13 @@
                 "start": 329,
                 "end": 331,
                 "body": []
-              }
+              },
+              "expression": false
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -108,8 +108,8 @@
                 "end": 352,
                 "name": "some"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

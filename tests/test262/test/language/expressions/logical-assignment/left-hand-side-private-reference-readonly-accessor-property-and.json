@@ -23,21 +23,17 @@
             "type": "MethodDefinition",
             "start": 1606,
             "end": 1641,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 1610,
               "end": 1616,
               "name": "field"
             },
-            "kind": "get",
             "value": {
               "type": "FunctionExpression",
               "start": 1616,
               "end": 1641,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -59,28 +55,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "get",
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 1644,
             "end": 1704,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1644,
               "end": 1662,
               "name": "compoundAssignment"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 1662,
               "end": 1704,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -113,8 +109,8 @@
                           "end": 1689,
                           "name": "field"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "right": {
                         "type": "Literal",
@@ -126,8 +122,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -136,6 +136,7 @@
       "type": "VariableDeclaration",
       "start": 1708,
       "end": 1726,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -160,8 +161,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -187,8 +187,8 @@
             "end": 1740,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -201,9 +201,7 @@
             "type": "ArrowFunctionExpression",
             "start": 1752,
             "end": 1780,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -226,12 +224,14 @@
                   "end": 1778,
                   "name": "compoundAssignment"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",

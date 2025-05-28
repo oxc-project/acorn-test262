@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSEnumDeclaration",
       "start": 0,
       "end": 39,
+      "id": {
+        "type": "Identifier",
+        "start": 5,
+        "end": 16,
+        "decorators": [],
+        "name": "EnumExample",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSEnumBody",
         "start": 17,
@@ -18,7 +27,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 23,
             "end": 36,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 23,
@@ -32,23 +40,15 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 30,
               "end": 36,
-              "raw": "'TEST'",
-              "value": "TEST"
-            }
+              "value": "TEST",
+              "raw": "'TEST'"
+            },
+            "computed": false
           }
         ]
       },
       "const": false,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 5,
-        "end": 16,
-        "decorators": [],
-        "name": "EnumExample",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      "declare": false
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -81,14 +81,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 40,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 24,
-        "end": 39,
-        "raw": "'./EnumExample'",
-        "value": "./EnumExample"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -105,8 +97,16 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 24,
+        "end": 39,
+        "value": "./EnumExample",
+        "raw": "'./EnumExample'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -121,12 +121,11 @@ __ESTREE_TEST__:PASS:
             "type": "Property",
             "start": 63,
             "end": 85,
-            "computed": true,
+            "kind": "init",
             "key": {
               "type": "MemberExpression",
               "start": 64,
               "end": 80,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 64,
@@ -136,7 +135,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 76,
@@ -145,18 +143,20 @@ __ESTREE_TEST__:PASS:
                 "name": "TEST",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             },
-            "kind": "init",
-            "method": false,
-            "optional": false,
-            "shorthand": false,
             "value": {
               "type": "ObjectExpression",
               "start": 83,
               "end": 85,
               "properties": []
-            }
+            },
+            "method": false,
+            "shorthand": false,
+            "computed": true,
+            "optional": false
           }
         ]
       },

@@ -27,8 +27,8 @@
             "end": 283,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -51,8 +51,8 @@
                 "end": 305,
                 "name": "isLockFree"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -89,8 +89,8 @@
                       "end": 324,
                       "name": "NaN"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 ],
                 "optional": false
@@ -140,8 +140,8 @@
             "end": 414,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -164,8 +164,8 @@
                 "end": 436,
                 "name": "isLockFree"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -191,14 +191,14 @@
                     "start": 445,
                     "end": 447,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 446,
                       "end": 447,
                       "value": 1,
                       "raw": "1"
-                    }
+                    },
+                    "prefix": true
                   }
                 ],
                 "optional": false
@@ -248,8 +248,8 @@
             "end": 529,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -272,8 +272,8 @@
                 "end": 551,
                 "name": "isLockFree"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -349,8 +349,8 @@
             "end": 648,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -373,8 +373,8 @@
                 "end": 670,
                 "name": "isLockFree"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -450,8 +450,8 @@
             "end": 762,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -474,8 +474,8 @@
                 "end": 784,
                 "name": "isLockFree"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -508,8 +508,8 @@
                 "end": 811,
                 "name": "isLockFree"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -557,8 +557,8 @@
             "end": 895,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -581,8 +581,8 @@
                 "end": 917,
                 "name": "isLockFree"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -615,8 +615,8 @@
                 "end": 944,
                 "name": "isLockFree"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -664,8 +664,8 @@
             "end": 1029,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -688,8 +688,8 @@
                 "end": 1051,
                 "name": "isLockFree"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -722,8 +722,8 @@
                 "end": 1079,
                 "name": "isLockFree"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -771,8 +771,8 @@
             "end": 1163,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -795,8 +795,8 @@
                 "end": 1185,
                 "name": "isLockFree"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -829,8 +829,8 @@
                 "end": 1210,
                 "name": "isLockFree"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -842,9 +842,7 @@
                     "type": "Property",
                     "start": 1212,
                     "end": 1228,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1212,
@@ -855,9 +853,7 @@
                       "type": "ArrowFunctionExpression",
                       "start": 1221,
                       "end": 1228,
-                      "id": null,
                       "expression": true,
-                      "generator": false,
                       "async": false,
                       "params": [],
                       "body": {
@@ -866,9 +862,13 @@
                         "end": 1228,
                         "value": 1,
                         "raw": "1"
-                      }
+                      },
+                      "id": null,
+                      "generator": false
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -910,8 +910,8 @@
             "end": 1324,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -934,8 +934,8 @@
                 "end": 1346,
                 "name": "isLockFree"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -968,8 +968,8 @@
                 "end": 1371,
                 "name": "isLockFree"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -981,9 +981,7 @@
                     "type": "Property",
                     "start": 1373,
                     "end": 1389,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1373,
@@ -994,9 +992,7 @@
                       "type": "ArrowFunctionExpression",
                       "start": 1382,
                       "end": 1389,
-                      "id": null,
                       "expression": true,
-                      "generator": false,
                       "async": false,
                       "params": [],
                       "body": {
@@ -1005,9 +1001,13 @@
                         "end": 1389,
                         "value": 3,
                         "raw": "3"
-                      }
+                      },
+                      "id": null,
+                      "generator": false
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -1049,8 +1049,8 @@
             "end": 1485,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1073,8 +1073,8 @@
                 "end": 1507,
                 "name": "isLockFree"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1107,8 +1107,8 @@
                 "end": 1532,
                 "name": "isLockFree"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1120,9 +1120,7 @@
                     "type": "Property",
                     "start": 1534,
                     "end": 1553,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1534,
@@ -1133,9 +1131,7 @@
                       "type": "ArrowFunctionExpression",
                       "start": 1544,
                       "end": 1553,
-                      "id": null,
                       "expression": true,
-                      "generator": false,
                       "async": false,
                       "params": [],
                       "body": {
@@ -1144,9 +1140,13 @@
                         "end": 1553,
                         "value": "1",
                         "raw": "'1'"
-                      }
+                      },
+                      "id": null,
+                      "generator": false
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -1188,8 +1188,8 @@
             "end": 1654,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1212,8 +1212,8 @@
                 "end": 1676,
                 "name": "isLockFree"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1246,8 +1246,8 @@
                 "end": 1701,
                 "name": "isLockFree"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1259,9 +1259,7 @@
                     "type": "Property",
                     "start": 1703,
                     "end": 1722,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1703,
@@ -1272,9 +1270,7 @@
                       "type": "ArrowFunctionExpression",
                       "start": 1713,
                       "end": 1722,
-                      "id": null,
                       "expression": true,
-                      "generator": false,
                       "async": false,
                       "params": [],
                       "body": {
@@ -1283,9 +1279,13 @@
                         "end": 1722,
                         "value": "3",
                         "raw": "'3'"
-                      }
+                      },
+                      "id": null,
+                      "generator": false
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -1313,7 +1313,6 @@
         "end": 1821,
         "name": "hide"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -1423,7 +1422,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

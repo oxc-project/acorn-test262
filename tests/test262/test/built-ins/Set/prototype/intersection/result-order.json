@@ -12,6 +12,7 @@
           "type": "VariableDeclaration",
           "start": 354,
           "end": 384,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -65,13 +66,13 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "VariableDeclaration",
           "start": 387,
           "end": 417,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -125,8 +126,7 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "ExpressionStatement",
@@ -152,8 +152,8 @@
                 "end": 440,
                 "name": "compareArray"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -185,8 +185,8 @@
                           "end": 460,
                           "name": "intersection"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -237,6 +237,7 @@
           "type": "VariableDeclaration",
           "start": 483,
           "end": 513,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -290,13 +291,13 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "VariableDeclaration",
           "start": 516,
           "end": 546,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -350,8 +351,7 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "ExpressionStatement",
@@ -377,8 +377,8 @@
                 "end": 569,
                 "name": "compareArray"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -410,8 +410,8 @@
                           "end": 589,
                           "name": "intersection"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -462,6 +462,7 @@
           "type": "VariableDeclaration",
           "start": 612,
           "end": 642,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -515,13 +516,13 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "VariableDeclaration",
           "start": 645,
           "end": 678,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -582,8 +583,7 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "ExpressionStatement",
@@ -609,8 +609,8 @@
                 "end": 701,
                 "name": "compareArray"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -642,8 +642,8 @@
                           "end": 721,
                           "name": "intersection"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -694,6 +694,7 @@
           "type": "VariableDeclaration",
           "start": 744,
           "end": 774,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -747,13 +748,13 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "VariableDeclaration",
           "start": 777,
           "end": 810,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -814,8 +815,7 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "ExpressionStatement",
@@ -841,8 +841,8 @@
                 "end": 833,
                 "name": "compareArray"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -874,8 +874,8 @@
                           "end": 853,
                           "name": "intersection"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -926,6 +926,7 @@
           "type": "VariableDeclaration",
           "start": 941,
           "end": 974,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -986,13 +987,13 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "VariableDeclaration",
           "start": 977,
           "end": 1007,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -1046,8 +1047,7 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "ExpressionStatement",
@@ -1073,8 +1073,8 @@
                 "end": 1030,
                 "name": "compareArray"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1106,8 +1106,8 @@
                           "end": 1050,
                           "name": "intersection"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -1158,6 +1158,7 @@
           "type": "VariableDeclaration",
           "start": 1073,
           "end": 1106,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -1218,13 +1219,13 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "VariableDeclaration",
           "start": 1109,
           "end": 1139,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -1278,8 +1279,7 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "ExpressionStatement",
@@ -1305,8 +1305,8 @@
                 "end": 1162,
                 "name": "compareArray"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1338,8 +1338,8 @@
                           "end": 1182,
                           "name": "intersection"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {

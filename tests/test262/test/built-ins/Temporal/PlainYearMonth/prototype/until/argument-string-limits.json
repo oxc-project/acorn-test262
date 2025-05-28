@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 277,
       "end": 331,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 321,
                 "name": "PlainYearMonth"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -59,13 +60,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 576,
       "end": 734,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -127,8 +128,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -139,6 +139,7 @@
         "type": "VariableDeclaration",
         "start": 741,
         "end": 750,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -152,8 +153,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -190,8 +190,8 @@
                   "end": 786,
                   "name": "until"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -211,6 +211,7 @@
       "type": "VariableDeclaration",
       "start": 796,
       "end": 956,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -272,8 +273,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -284,6 +284,7 @@
         "type": "VariableDeclaration",
         "start": 963,
         "end": 972,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -297,8 +298,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -335,8 +335,8 @@
                   "end": 1009,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -349,9 +349,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 1031,
                   "end": 1056,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -374,8 +372,8 @@
                         "end": 1051,
                         "name": "until"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -386,20 +384,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 1062,
                   "end": 1125,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1066,
-                      "end": 1069,
-                      "name": "arg"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -420,6 +412,14 @@
                         "cooked": "\" is outside the representable range of PlainYearMonth"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1066,
+                      "end": 1069,
+                      "name": "arg"
                     }
                   ]
                 }

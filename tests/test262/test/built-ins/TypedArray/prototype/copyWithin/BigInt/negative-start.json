@@ -23,7 +23,6 @@
             "start": 1061,
             "end": 2142,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -131,8 +130,8 @@
                                 "end": 1145,
                                 "name": "copyWithin"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -147,14 +146,14 @@
                                 "start": 1149,
                                 "end": 1151,
                                 "operator": "-",
-                                "prefix": true,
                                 "argument": {
                                   "type": "Literal",
                                   "start": 1150,
                                   "end": 1151,
                                   "value": 1,
                                   "raw": "1"
-                                }
+                                },
+                                "prefix": true
                               }
                             ],
                             "optional": false
@@ -312,8 +311,8 @@
                                 "end": 1316,
                                 "name": "copyWithin"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -328,14 +327,14 @@
                                 "start": 1320,
                                 "end": 1322,
                                 "operator": "-",
-                                "prefix": true,
                                 "argument": {
                                   "type": "Literal",
                                   "start": 1321,
                                   "end": 1322,
                                   "value": 2,
                                   "raw": "2"
-                                }
+                                },
+                                "prefix": true
                               }
                             ],
                             "optional": false
@@ -501,8 +500,8 @@
                                 "end": 1497,
                                 "name": "copyWithin"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -517,14 +516,14 @@
                                 "start": 1501,
                                 "end": 1503,
                                 "operator": "-",
-                                "prefix": true,
                                 "argument": {
                                   "type": "Literal",
                                   "start": 1502,
                                   "end": 1503,
                                   "value": 2,
                                   "raw": "2"
-                                }
+                                },
+                                "prefix": true
                               }
                             ],
                             "optional": false
@@ -682,8 +681,8 @@
                                 "end": 1674,
                                 "name": "copyWithin"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -691,28 +690,28 @@
                                 "start": 1675,
                                 "end": 1677,
                                 "operator": "-",
-                                "prefix": true,
                                 "argument": {
                                   "type": "Literal",
                                   "start": 1676,
                                   "end": 1677,
                                   "value": 1,
                                   "raw": "1"
-                                }
+                                },
+                                "prefix": true
                               },
                               {
                                 "type": "UnaryExpression",
                                 "start": 1679,
                                 "end": 1681,
                                 "operator": "-",
-                                "prefix": true,
                                 "argument": {
                                   "type": "Literal",
                                   "start": 1680,
                                   "end": 1681,
                                   "value": 2,
                                   "raw": "2"
-                                }
+                                },
+                                "prefix": true
                               }
                             ],
                             "optional": false
@@ -870,8 +869,8 @@
                                 "end": 1849,
                                 "name": "copyWithin"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -879,28 +878,28 @@
                                 "start": 1850,
                                 "end": 1852,
                                 "operator": "-",
-                                "prefix": true,
                                 "argument": {
                                   "type": "Literal",
                                   "start": 1851,
                                   "end": 1852,
                                   "value": 2,
                                   "raw": "2"
-                                }
+                                },
+                                "prefix": true
                               },
                               {
                                 "type": "UnaryExpression",
                                 "start": 1854,
                                 "end": 1856,
                                 "operator": "-",
-                                "prefix": true,
                                 "argument": {
                                   "type": "Literal",
                                   "start": 1855,
                                   "end": 1856,
                                   "value": 3,
                                   "raw": "3"
-                                }
+                                },
+                                "prefix": true
                               }
                             ],
                             "optional": false
@@ -1066,8 +1065,8 @@
                                 "end": 2032,
                                 "name": "copyWithin"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -1075,28 +1074,28 @@
                                 "start": 2033,
                                 "end": 2035,
                                 "operator": "-",
-                                "prefix": true,
                                 "argument": {
                                   "type": "Literal",
                                   "start": 2034,
                                   "end": 2035,
                                   "value": 5,
                                   "raw": "5"
-                                }
+                                },
+                                "prefix": true
                               },
                               {
                                 "type": "UnaryExpression",
                                 "start": 2037,
                                 "end": 2039,
                                 "operator": "-",
-                                "prefix": true,
                                 "argument": {
                                   "type": "Literal",
                                   "start": 2038,
                                   "end": 2039,
                                   "value": 2,
                                   "raw": "2"
-                                }
+                                },
+                                "prefix": true
                               }
                             ],
                             "optional": false
@@ -1163,7 +1162,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

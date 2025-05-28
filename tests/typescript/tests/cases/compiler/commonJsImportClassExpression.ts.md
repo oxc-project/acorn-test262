@@ -13,7 +13,12 @@ __ESTREE_TEST__:PASS:
         "type": "ClassExpression",
         "start": 9,
         "end": 32,
-        "abstract": false,
+        "decorators": [],
+        "id": null,
+        "typeParameters": null,
+        "superClass": null,
+        "superTypeArguments": null,
+        "implements": [],
         "body": {
           "type": "ClassBody",
           "start": 15,
@@ -23,11 +28,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 21,
               "end": 30,
-              "accessibility": null,
-              "computed": false,
-              "declare": false,
               "decorators": [],
-              "definite": false,
               "key": {
                 "type": "Identifier",
                 "start": 21,
@@ -37,28 +38,27 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
-              "override": false,
-              "readonly": false,
-              "static": false,
               "typeAnnotation": null,
               "value": {
                 "type": "Literal",
                 "start": 29,
                 "end": 30,
-                "raw": "1",
-                "value": 1
-              }
+                "value": 1,
+                "raw": "1"
+              },
+              "computed": false,
+              "static": false,
+              "declare": false,
+              "override": false,
+              "optional": false,
+              "definite": false,
+              "readonly": false,
+              "accessibility": null
             }
           ]
         },
-        "declare": false,
-        "decorators": [],
-        "id": null,
-        "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": false
       }
     }
   ],
@@ -86,7 +86,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 15,
@@ -95,21 +94,22 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 23,
           "end": 31,
-          "raw": "'./mod1'",
-          "value": "./mod1"
+          "value": "./mod1",
+          "raw": "'./mod1'"
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 33,
       "end": 54,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 45,
           "end": 53,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 45,
@@ -125,7 +125,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 48,
                 "end": 53,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 48,
@@ -134,26 +133,25 @@ __ESTREE_TEST__:PASS:
                   "name": "Chunk",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "ExpressionStatement",
       "start": 55,
       "end": 63,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 55,
         "end": 62,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 55,
@@ -163,7 +161,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 57,
@@ -172,8 +169,11 @@ __ESTREE_TEST__:PASS:
           "name": "chunk",
           "optional": false,
           "typeAnnotation": null
-        }
-      }
+        },
+        "optional": false,
+        "computed": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

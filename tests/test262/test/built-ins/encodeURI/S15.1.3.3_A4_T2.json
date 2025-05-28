@@ -114,8 +114,8 @@
                     "end": 503,
                     "name": "toLowerCase"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [],
                 "optional": false
@@ -269,8 +269,8 @@
                     "end": 948,
                     "name": "toLowerCase"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [],
                 "optional": false
@@ -428,8 +428,8 @@
                       "end": 1507,
                       "name": "toLowerCase"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false

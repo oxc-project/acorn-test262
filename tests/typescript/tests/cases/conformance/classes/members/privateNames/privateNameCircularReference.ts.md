@@ -9,134 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 130,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 8,
-        "end": 130,
-        "body": [
-          {
-            "type": "PropertyDefinition",
-            "start": 14,
-            "end": 31,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
-            "key": {
-              "type": "PrivateIdentifier",
-              "start": 14,
-              "end": 18,
-              "name": "foo"
-            },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": null,
-            "value": {
-              "type": "MemberExpression",
-              "start": 21,
-              "end": 30,
-              "computed": false,
-              "object": {
-                "type": "ThisExpression",
-                "start": 21,
-                "end": 25
-              },
-              "optional": false,
-              "property": {
-                "type": "PrivateIdentifier",
-                "start": 26,
-                "end": 30,
-                "name": "bar"
-              }
-            }
-          },
-          {
-            "type": "PropertyDefinition",
-            "start": 36,
-            "end": 53,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
-            "key": {
-              "type": "PrivateIdentifier",
-              "start": 36,
-              "end": 40,
-              "name": "bar"
-            },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": null,
-            "value": {
-              "type": "MemberExpression",
-              "start": 43,
-              "end": 52,
-              "computed": false,
-              "object": {
-                "type": "ThisExpression",
-                "start": 43,
-                "end": 47
-              },
-              "optional": false,
-              "property": {
-                "type": "PrivateIdentifier",
-                "start": 48,
-                "end": 52,
-                "name": "foo"
-              }
-            }
-          },
-          {
-            "type": "PropertyDefinition",
-            "start": 58,
-            "end": 82,
-            "accessibility": null,
-            "computed": true,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
-            "key": {
-              "type": "Literal",
-              "start": 59,
-              "end": 65,
-              "raw": "\"#baz\"",
-              "value": "#baz"
-            },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": null,
-            "value": {
-              "type": "MemberExpression",
-              "start": 69,
-              "end": 81,
-              "computed": true,
-              "object": {
-                "type": "ThisExpression",
-                "start": 69,
-                "end": 73
-              },
-              "optional": false,
-              "property": {
-                "type": "Literal",
-                "start": 74,
-                "end": 80,
-                "raw": "\"#baz\"",
-                "value": "#baz"
-              }
-            }
-          }
-        ]
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -147,10 +19,138 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 8,
+        "end": 130,
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "start": 14,
+            "end": 31,
+            "decorators": [],
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 14,
+              "end": 18,
+              "name": "foo"
+            },
+            "typeAnnotation": null,
+            "value": {
+              "type": "MemberExpression",
+              "start": 21,
+              "end": 30,
+              "object": {
+                "type": "ThisExpression",
+                "start": 21,
+                "end": 25
+              },
+              "property": {
+                "type": "PrivateIdentifier",
+                "start": 26,
+                "end": 30,
+                "name": "bar"
+              },
+              "optional": false,
+              "computed": false
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 36,
+            "end": 53,
+            "decorators": [],
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 36,
+              "end": 40,
+              "name": "bar"
+            },
+            "typeAnnotation": null,
+            "value": {
+              "type": "MemberExpression",
+              "start": 43,
+              "end": 52,
+              "object": {
+                "type": "ThisExpression",
+                "start": 43,
+                "end": 47
+              },
+              "property": {
+                "type": "PrivateIdentifier",
+                "start": 48,
+                "end": 52,
+                "name": "foo"
+              },
+              "optional": false,
+              "computed": false
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 58,
+            "end": 82,
+            "decorators": [],
+            "key": {
+              "type": "Literal",
+              "start": 59,
+              "end": 65,
+              "value": "#baz",
+              "raw": "\"#baz\""
+            },
+            "typeAnnotation": null,
+            "value": {
+              "type": "MemberExpression",
+              "start": 69,
+              "end": 81,
+              "object": {
+                "type": "ThisExpression",
+                "start": 69,
+                "end": 73
+              },
+              "property": {
+                "type": "Literal",
+                "start": 74,
+                "end": 80,
+                "value": "#baz",
+                "raw": "\"#baz\""
+              },
+              "optional": false,
+              "computed": true
+            },
+            "computed": true,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
+          }
+        ]
+      },
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

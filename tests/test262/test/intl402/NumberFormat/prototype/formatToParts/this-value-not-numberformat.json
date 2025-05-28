@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 381,
       "end": 465,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -85,13 +86,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 466,
       "end": 519,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -127,8 +128,8 @@
                   "end": 494,
                   "name": "NumberFormat"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -136,8 +137,8 @@
                 "end": 504,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -145,12 +146,11 @@
               "end": 518,
               "name": "formatToParts"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -176,17 +176,15 @@
             "end": 543,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 544,
             "end": 696,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -225,8 +223,8 @@
                         "end": 571,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -239,9 +237,7 @@
                         "type": "ArrowFunctionExpression",
                         "start": 592,
                         "end": 613,
-                        "id": null,
                         "expression": true,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -264,8 +260,8 @@
                               "end": 605,
                               "name": "call"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -276,34 +272,14 @@
                             }
                           ],
                           "optional": false
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 619,
                         "end": 689,
-                        "expressions": [
-                          {
-                            "type": "CallExpression",
-                            "start": 647,
-                            "end": 661,
-                            "callee": {
-                              "type": "Identifier",
-                              "start": 647,
-                              "end": 653,
-                              "name": "String"
-                            },
-                            "arguments": [
-                              {
-                                "type": "Identifier",
-                                "start": 654,
-                                "end": 660,
-                                "name": "target"
-                              }
-                            ],
-                            "optional": false
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -325,6 +301,28 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "CallExpression",
+                            "start": 647,
+                            "end": 661,
+                            "callee": {
+                              "type": "Identifier",
+                              "start": 647,
+                              "end": 653,
+                              "name": "String"
+                            },
+                            "arguments": [
+                              {
+                                "type": "Identifier",
+                                "start": 654,
+                                "end": 660,
+                                "name": "target"
+                              }
+                            ],
+                            "optional": false
+                          }
                         ]
                       }
                     ],
@@ -332,7 +330,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

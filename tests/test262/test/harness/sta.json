@@ -27,13 +27,13 @@
               "start": 288,
               "end": 307,
               "operator": "typeof",
-              "prefix": true,
               "argument": {
                 "type": "Identifier",
                 "start": 295,
                 "end": 307,
                 "name": "Test262Error"
-              }
+              },
+              "prefix": true
             },
             "operator": "===",
             "right": {
@@ -72,7 +72,6 @@
               "start": 332,
               "end": 370,
               "operator": "typeof",
-              "prefix": true,
               "argument": {
                 "type": "MemberExpression",
                 "start": 339,
@@ -93,8 +92,8 @@
                     "end": 361,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -102,9 +101,10 @@
                   "end": 370,
                   "name": "toString"
                 },
-                "computed": false,
-                "optional": false
-              }
+                "optional": false,
+                "computed": false
+              },
+              "prefix": true
             },
             "operator": "===",
             "right": {
@@ -143,7 +143,6 @@
               "start": 395,
               "end": 422,
               "operator": "typeof",
-              "prefix": true,
               "argument": {
                 "type": "MemberExpression",
                 "start": 402,
@@ -160,9 +159,10 @@
                   "end": 422,
                   "name": "thrower"
                 },
-                "computed": false,
-                "optional": false
-              }
+                "optional": false,
+                "computed": false
+              },
+              "prefix": true
             },
             "operator": "===",
             "right": {
@@ -201,13 +201,13 @@
               "start": 447,
               "end": 468,
               "operator": "typeof",
-              "prefix": true,
               "argument": {
                 "type": "Identifier",
                 "start": 454,
                 "end": 468,
                 "name": "$DONOTEVALUATE"
-              }
+              },
+              "prefix": true
             },
             "operator": "===",
             "right": {

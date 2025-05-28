@@ -13,7 +13,6 @@
         "end": 505,
         "name": "f"
       },
-      "expression": false,
       "generator": true,
       "async": true,
       "params": [],
@@ -31,6 +30,7 @@
               "type": "VariableDeclaration",
               "start": 523,
               "end": 528,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -44,8 +44,7 @@
                   },
                   "init": null
                 }
-              ],
-              "kind": "var"
+              ]
             },
             "right": {
               "type": "ArrayExpression",
@@ -72,7 +71,8 @@
             "body": []
           }
         ]
-      }
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

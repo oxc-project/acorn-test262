@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 242,
       "end": 258,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -23,17 +24,16 @@
             "start": 248,
             "end": 257,
             "operator": "+",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 249,
               "end": 257,
               "name": "Infinity"
-            }
+            },
+            "prefix": true
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -48,7 +48,6 @@
           "start": 331,
           "end": 340,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 337,
@@ -59,7 +58,8 @@
               "end": 339,
               "name": "x"
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -111,7 +111,6 @@
                       "start": 440,
                       "end": 449,
                       "operator": "typeof",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 446,
@@ -122,7 +121,8 @@
                           "end": 448,
                           "name": "x"
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }
@@ -146,7 +146,6 @@
           "start": 589,
           "end": 606,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 595,
@@ -156,15 +155,16 @@
               "start": 596,
               "end": 605,
               "operator": "+",
-              "prefix": true,
               "argument": {
                 "type": "Identifier",
                 "start": 597,
                 "end": 605,
                 "name": "Infinity"
-              }
+              },
+              "prefix": true
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -216,7 +216,6 @@
                       "start": 697,
                       "end": 714,
                       "operator": "typeof",
-                      "prefix": true,
                       "argument": {
                         "type": "ParenthesizedExpression",
                         "start": 703,
@@ -226,15 +225,16 @@
                           "start": 704,
                           "end": 713,
                           "operator": "+",
-                          "prefix": true,
                           "argument": {
                             "type": "Identifier",
                             "start": 705,
                             "end": 713,
                             "name": "Infinity"
-                          }
+                          },
+                          "prefix": true
                         }
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }

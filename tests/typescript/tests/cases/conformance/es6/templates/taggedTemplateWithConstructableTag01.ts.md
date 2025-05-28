@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 17,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 14,
-        "end": 17,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -27,38 +19,27 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 14,
+        "end": 17,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 19,
       "end": 42,
-      "directive": null,
       "expression": {
         "type": "TaggedTemplateExpression",
         "start": 19,
         "end": 41,
-        "quasi": {
-          "type": "TemplateLiteral",
-          "start": 27,
-          "end": 41,
-          "expressions": [],
-          "quasis": [
-            {
-              "type": "TemplateElement",
-              "start": 27,
-              "end": 41,
-              "tail": true,
-              "value": {
-                "cooked": "Hello world!",
-                "raw": "Hello world!"
-              }
-            }
-          ]
-        },
         "tag": {
           "type": "Identifier",
           "start": 19,
@@ -68,8 +49,27 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "quasi": {
+          "type": "TemplateLiteral",
+          "start": 27,
+          "end": 41,
+          "quasis": [
+            {
+              "type": "TemplateElement",
+              "start": 27,
+              "end": 41,
+              "value": {
+                "cooked": "Hello world!",
+                "raw": "Hello world!"
+              },
+              "tail": true
+            }
+          ],
+          "expressions": []
+        }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

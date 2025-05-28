@@ -13,7 +13,6 @@
         "end": 263,
         "name": "assertThrows"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -39,6 +38,7 @@
             "type": "VariableDeclaration",
             "start": 290,
             "end": 309,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -58,8 +58,7 @@
                   "raw": "false"
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "TryStatement",
@@ -153,8 +152,8 @@
                           "end": 405,
                           "name": "sameValue"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -173,8 +172,8 @@
                             "end": 423,
                             "name": "constructor"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         {
                           "type": "Identifier",
@@ -210,8 +209,8 @@
                           "end": 464,
                           "name": "sameValue"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -230,8 +229,8 @@
                             "end": 478,
                             "name": "message"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         {
                           "type": "Identifier",
@@ -273,14 +272,6 @@
                   "type": "TemplateLiteral",
                   "start": 521,
                   "end": 564,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 533,
-                      "end": 537,
-                      "name": "func"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -302,6 +293,14 @@
                       },
                       "tail": true
                     }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 533,
+                      "end": 537,
+                      "name": "func"
+                    }
                   ]
                 }
               ],
@@ -309,7 +308,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -330,9 +330,7 @@
             "type": "ArrowFunctionExpression",
             "start": 583,
             "end": 610,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -355,12 +353,14 @@
                   "end": 608,
                   "name": "compareArray"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -392,9 +392,7 @@
             "type": "ArrowFunctionExpression",
             "start": 668,
             "end": 703,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -417,8 +415,8 @@
                   "end": 693,
                   "name": "compareArray"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -436,7 +434,9 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -468,9 +468,7 @@
             "type": "ArrowFunctionExpression",
             "start": 761,
             "end": 803,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -493,8 +491,8 @@
                   "end": 786,
                   "name": "compareArray"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -519,7 +517,9 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -551,9 +551,7 @@
             "type": "ArrowFunctionExpression",
             "start": 865,
             "end": 894,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -576,8 +574,8 @@
                   "end": 890,
                   "name": "compareArray"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -588,7 +586,9 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",
@@ -620,9 +620,7 @@
             "type": "ArrowFunctionExpression",
             "start": 954,
             "end": 1001,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -645,8 +643,8 @@
                   "end": 979,
                   "name": "compareArray"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -670,7 +668,9 @@
                 }
               ],
               "optional": false
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",

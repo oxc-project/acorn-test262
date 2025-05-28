@@ -13,7 +13,6 @@
         "end": 281,
         "name": "_10_5_7_b_3_fun"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -48,8 +47,8 @@
                   "value": 1,
                   "raw": "1"
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "Literal",
@@ -89,8 +88,8 @@
                     "value": 0,
                     "raw": "0"
                   },
-                  "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "computed": true
                 },
                 "operator": "===",
                 "right": {
@@ -123,8 +122,8 @@
                     "value": 1,
                     "raw": "1"
                   },
-                  "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "computed": true
                 },
                 "operator": "===",
                 "right": {
@@ -138,7 +137,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",

@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 41,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 13,
+        "decorators": [],
+        "name": "Foo",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 14,
@@ -18,19 +27,10 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 20,
             "end": 39,
-            "attributes": [],
             "declaration": {
               "type": "ClassDeclaration",
               "start": 27,
               "end": 39,
-              "abstract": false,
-              "body": {
-                "type": "ClassBody",
-                "start": 37,
-                "end": 39,
-                "body": []
-              },
-              "declare": false,
               "decorators": [],
               "id": {
                 "type": "Identifier",
@@ -41,41 +41,44 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "implements": [],
+              "typeParameters": null,
               "superClass": null,
               "superTypeArguments": null,
-              "typeParameters": null
+              "implements": [],
+              "body": {
+                "type": "ClassBody",
+                "start": 37,
+                "end": 39,
+                "body": []
+              },
+              "abstract": false,
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           }
         ]
       },
+      "kind": "namespace",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 13,
-        "decorators": [],
-        "name": "Foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "namespace"
+      "global": false
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 43,
       "end": 75,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 73,
-        "end": 75,
-        "body": []
+      "id": {
+        "type": "Identifier",
+        "start": 53,
+        "end": 55,
+        "decorators": [],
+        "name": "C1",
+        "optional": false,
+        "typeAnnotation": null
       },
-      "declare": false,
+      "typeParameters": null,
       "extends": [
         {
           "type": "TSInterfaceHeritage",
@@ -89,7 +92,6 @@ __ESTREE_TEST__:PASS:
               "type": "MemberExpression",
               "start": 64,
               "end": 72,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 64,
@@ -99,7 +101,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": true,
               "property": {
                 "type": "Identifier",
                 "start": 69,
@@ -108,22 +109,21 @@ __ESTREE_TEST__:PASS:
                 "name": "Bar",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": true,
+              "computed": false
             }
           },
           "typeArguments": null
         }
       ],
-      "id": {
-        "type": "Identifier",
-        "start": 53,
-        "end": 55,
-        "decorators": [],
-        "name": "C1",
-        "optional": false,
-        "typeAnnotation": null
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 73,
+        "end": 75,
+        "body": []
       },
-      "typeParameters": null
+      "declare": false
     }
   ],
   "sourceType": "script",

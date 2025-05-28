@@ -9,32 +9,32 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 24,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 20,
+        "value": "ext",
+        "raw": "\"ext\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 21,
         "end": 24,
         "body": []
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 20,
-        "raw": "\"ext\"",
-        "value": "ext"
-      }
+      "global": false
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 25,
       "end": 35,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -52,17 +52,17 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 10,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 7,
         "end": 10,
-        "raw": "\"A\"",
-        "value": "A"
+        "value": "A",
+        "raw": "\"A\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

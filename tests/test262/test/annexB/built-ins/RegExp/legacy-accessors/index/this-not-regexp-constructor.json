@@ -11,6 +11,7 @@
         "type": "VariableDeclaration",
         "start": 593,
         "end": 602,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -30,8 +31,7 @@
               "raw": "1"
             }
           }
-        ],
-        "kind": "let"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -74,6 +74,7 @@
             "type": "VariableDeclaration",
             "start": 621,
             "end": 646,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -105,13 +106,13 @@
                   }
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 649,
             "end": 712,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -143,8 +144,8 @@
                       "end": 693,
                       "name": "getOwnPropertyDescriptor"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -163,8 +164,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -190,8 +190,8 @@
                   "end": 839,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -199,7 +199,6 @@
                   "start": 840,
                   "end": 855,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "MemberExpression",
                     "start": 847,
@@ -216,9 +215,10 @@
                       "end": 855,
                       "name": "get"
                     },
-                    "computed": false,
-                    "optional": false
-                  }
+                    "optional": false,
+                    "computed": false
+                  },
+                  "prefix": true
                 },
                 {
                   "type": "Literal",
@@ -274,8 +274,8 @@
                   "end": 979,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -289,7 +289,6 @@
                   "start": 1000,
                   "end": 1037,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -322,15 +321,16 @@
                               "end": 1028,
                               "name": "get"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [],
                           "optional": false
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
                 {
                   "type": "BinaryExpression",
@@ -392,8 +392,8 @@
                   "end": 1137,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -407,7 +407,6 @@
                   "start": 1158,
                   "end": 1203,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -444,8 +443,8 @@
                                 "end": 1186,
                                 "name": "get"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "property": {
                               "type": "Identifier",
@@ -453,8 +452,8 @@
                               "end": 1191,
                               "name": "call"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -473,7 +472,8 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
                 {
                   "type": "BinaryExpression",
@@ -535,8 +535,8 @@
                   "end": 1299,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -550,7 +550,6 @@
                   "start": 1320,
                   "end": 1378,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -587,8 +586,8 @@
                                 "end": 1348,
                                 "name": "get"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "property": {
                               "type": "Identifier",
@@ -596,8 +595,8 @@
                               "end": 1353,
                               "name": "call"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -616,15 +615,16 @@
                                 "end": 1370,
                                 "name": "prototype"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             }
                           ],
                           "optional": false
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
                 {
                   "type": "BinaryExpression",
@@ -741,8 +741,8 @@
                   "end": 1522,
                   "name": "forEach"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -750,7 +750,6 @@
                   "start": 1523,
                   "end": 1732,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [
@@ -790,8 +789,8 @@
                               "end": 1559,
                               "name": "throws"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -805,7 +804,6 @@
                               "start": 1584,
                               "end": 1635,
                               "id": null,
-                              "expression": false,
                               "generator": false,
                               "async": false,
                               "params": [],
@@ -842,8 +840,8 @@
                                             "end": 1614,
                                             "name": "get"
                                           },
-                                          "computed": false,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": false
                                         },
                                         "property": {
                                           "type": "Identifier",
@@ -851,8 +849,8 @@
                                           "end": 1619,
                                           "name": "call"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [
                                         {
@@ -866,7 +864,8 @@
                                     }
                                   }
                                 ]
-                              }
+                              },
+                              "expression": false
                             },
                             {
                               "type": "BinaryExpression",
@@ -930,7 +929,8 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 }
               ],
               "optional": false

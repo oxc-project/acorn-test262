@@ -32,8 +32,8 @@
               "end": 394,
               "name": "slice"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -45,7 +45,6 @@
                 "start": 395,
                 "end": 408,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -54,7 +53,8 @@
                   "start": 406,
                   "end": 408,
                   "body": []
-                }
+                },
+                "expression": false
               },
               "arguments": [],
               "optional": false
@@ -124,8 +124,8 @@
                         "end": 529,
                         "name": "slice"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -137,7 +137,6 @@
                           "start": 530,
                           "end": 543,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [],
@@ -146,7 +145,8 @@
                             "start": 541,
                             "end": 543,
                             "body": []
-                          }
+                          },
+                          "expression": false
                         },
                         "arguments": [],
                         "optional": false

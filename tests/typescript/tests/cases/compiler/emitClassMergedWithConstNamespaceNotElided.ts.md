@@ -9,11 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 135,
-      "attributes": [],
       "declaration": {
         "type": "TSModuleDeclaration",
         "start": 7,
         "end": 135,
+        "id": {
+          "type": "Identifier",
+          "start": 17,
+          "end": 22,
+          "decorators": [],
+          "name": "Clone",
+          "optional": false,
+          "typeAnnotation": null
+        },
         "body": {
           "type": "TSModuleBlock",
           "start": 23,
@@ -23,6 +31,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSEnumDeclaration",
               "start": 29,
               "end": 133,
+              "id": {
+                "type": "Identifier",
+                "start": 40,
+                "end": 45,
+                "decorators": [],
+                "name": "LOCAL",
+                "optional": false,
+                "typeAnnotation": null
+              },
               "body": {
                 "type": "TSEnumBody",
                 "start": 46,
@@ -32,7 +49,6 @@ __ESTREE_TEST__:PASS:
                     "type": "TSEnumMember",
                     "start": 56,
                     "end": 64,
-                    "computed": false,
                     "id": {
                       "type": "Identifier",
                       "start": 56,
@@ -46,15 +62,15 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 63,
                       "end": 64,
-                      "raw": "0",
-                      "value": 0
-                    }
+                      "value": 0,
+                      "raw": "0"
+                    },
+                    "computed": false
                   },
                   {
                     "type": "TSEnumMember",
                     "start": 74,
                     "end": 83,
-                    "computed": false,
                     "id": {
                       "type": "Identifier",
                       "start": 74,
@@ -68,15 +84,15 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 82,
                       "end": 83,
-                      "raw": "1",
-                      "value": 1
-                    }
+                      "value": 1,
+                      "raw": "1"
+                    },
+                    "computed": false
                   },
                   {
                     "type": "TSEnumMember",
                     "start": 93,
                     "end": 105,
-                    "computed": false,
                     "id": {
                       "type": "Identifier",
                       "start": 93,
@@ -90,15 +106,15 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 104,
                       "end": 105,
-                      "raw": "2",
-                      "value": 2
-                    }
+                      "value": 2,
+                      "raw": "2"
+                    },
+                    "computed": false
                   },
                   {
                     "type": "TSEnumMember",
                     "start": 115,
                     "end": 127,
-                    "computed": false,
                     "id": {
                       "type": "Identifier",
                       "start": 115,
@@ -112,53 +128,49 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 126,
                       "end": 127,
-                      "raw": "3",
-                      "value": 3
-                    }
+                      "value": 3,
+                      "raw": "3"
+                    },
+                    "computed": false
                   }
                 ]
               },
               "const": true,
-              "declare": false,
-              "id": {
-                "type": "Identifier",
-                "start": 40,
-                "end": 45,
-                "decorators": [],
-                "name": "LOCAL",
-                "optional": false,
-                "typeAnnotation": null
-              }
+              "declare": false
             }
           ]
         },
+        "kind": "namespace",
         "declare": false,
-        "global": false,
-        "id": {
-          "type": "Identifier",
-          "start": 17,
-          "end": 22,
-          "decorators": [],
-          "name": "Clone",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "kind": "namespace"
+        "global": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 137,
       "end": 196,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 144,
         "end": 196,
-        "abstract": false,
+        "decorators": [],
+        "id": {
+          "type": "Identifier",
+          "start": 150,
+          "end": 155,
+          "decorators": [],
+          "name": "Clone",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null,
+        "superClass": null,
+        "superTypeArguments": null,
+        "implements": [],
         "body": {
           "type": "ClassBody",
           "start": 156,
@@ -168,8 +180,6 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 162,
               "end": 194,
-              "accessibility": null,
-              "computed": false,
               "decorators": [],
               "key": {
                 "type": "Identifier",
@@ -180,20 +190,15 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "kind": "method",
-              "optional": false,
-              "override": false,
-              "static": true,
               "value": {
                 "type": "TSEmptyBodyFunctionExpression",
                 "start": 174,
                 "end": 194,
-                "async": false,
-                "body": null,
-                "declare": false,
-                "expression": false,
-                "generator": false,
                 "id": null,
+                "generator": false,
+                "async": false,
+                "declare": false,
+                "typeParameters": null,
                 "params": [
                   {
                     "type": "Identifier",
@@ -224,30 +229,25 @@ __ESTREE_TEST__:PASS:
                     "end": 193
                   }
                 },
-                "typeParameters": null
-              }
+                "body": null,
+                "expression": false
+              },
+              "kind": "method",
+              "computed": false,
+              "static": true,
+              "override": false,
+              "optional": false,
+              "accessibility": null
             }
           ]
         },
-        "declare": false,
-        "decorators": [],
-        "id": {
-          "type": "Identifier",
-          "start": 150,
-          "end": 155,
-          "decorators": [],
-          "name": "Clone",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -265,14 +265,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 29,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 20,
-        "end": 28,
-        "raw": "\"./enum\"",
-        "value": "./enum"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -287,7 +279,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 8,
@@ -296,35 +287,33 @@ __ESTREE_TEST__:PASS:
             "name": "Clone",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 20,
+        "end": 28,
+        "value": "./enum",
+        "raw": "\"./enum\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 31,
       "end": 49,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 31,
         "end": 48,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 43,
-            "end": 47,
-            "raw": "\"ok\"",
-            "value": "ok"
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 31,
           "end": 42,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 31,
@@ -334,7 +323,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 37,
@@ -343,11 +331,23 @@ __ESTREE_TEST__:PASS:
             "name": "clone",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 43,
+            "end": 47,
+            "value": "ok",
+            "raw": "\"ok\""
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

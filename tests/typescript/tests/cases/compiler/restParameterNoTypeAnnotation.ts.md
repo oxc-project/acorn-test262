@@ -9,7 +9,40 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 76,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 12,
+        "decorators": [],
+        "name": "foo",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [
+        {
+          "type": "RestElement",
+          "start": 13,
+          "end": 20,
+          "decorators": [],
+          "argument": {
+            "type": "Identifier",
+            "start": 16,
+            "end": 20,
+            "decorators": [],
+            "name": "rest",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "typeAnnotation": null,
+          "value": null
+        }
+      ],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 22,
@@ -19,12 +52,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 32,
             "end": 56,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 36,
                 "end": 55,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 36,
@@ -47,7 +80,6 @@ __ESTREE_TEST__:PASS:
                   "type": "MemberExpression",
                   "start": 48,
                   "end": 55,
-                  "computed": true,
                   "object": {
                     "type": "Identifier",
                     "start": 48,
@@ -57,19 +89,20 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Literal",
                     "start": 53,
                     "end": 54,
-                    "raw": "0",
-                    "value": 0
-                  }
-                }
+                    "value": 0,
+                    "raw": "0"
+                  },
+                  "optional": false,
+                  "computed": true
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           },
           {
             "type": "ReturnStatement",
@@ -87,40 +120,7 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 12,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [
-        {
-          "type": "RestElement",
-          "start": 13,
-          "end": 20,
-          "argument": {
-            "type": "Identifier",
-            "start": 16,
-            "end": 20,
-            "decorators": [],
-            "name": "rest",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "decorators": [],
-          "optional": false,
-          "typeAnnotation": null,
-          "value": null
-        }
-      ],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

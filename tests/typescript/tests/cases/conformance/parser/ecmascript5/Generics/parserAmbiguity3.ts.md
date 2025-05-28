@@ -9,17 +9,25 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 19,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
         "end": 18,
+        "callee": {
+          "type": "Identifier",
+          "start": 0,
+          "end": 1,
+          "decorators": [],
+          "name": "f",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null,
         "arguments": [
           {
             "type": "BinaryExpression",
             "start": 2,
             "end": 7,
-            "operator": "<",
             "left": {
               "type": "Identifier",
               "start": 2,
@@ -29,6 +37,7 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
+            "operator": "<",
             "right": {
               "type": "Identifier",
               "start": 6,
@@ -43,7 +52,6 @@ __ESTREE_TEST__:PASS:
             "type": "BinaryExpression",
             "start": 9,
             "end": 17,
-            "operator": ">",
             "left": {
               "type": "Identifier",
               "start": 9,
@@ -53,34 +61,26 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
+            "operator": ">",
             "right": {
               "type": "UnaryExpression",
               "start": 13,
               "end": 17,
+              "operator": "+",
               "argument": {
                 "type": "Literal",
                 "start": 15,
                 "end": 16,
-                "raw": "7",
-                "value": 7
+                "value": 7,
+                "raw": "7"
               },
-              "operator": "+",
               "prefix": true
             }
           }
         ],
-        "callee": {
-          "type": "Identifier",
-          "start": 0,
-          "end": 1,
-          "decorators": [],
-          "name": "f",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "optional": false,
-        "typeArguments": null
-      }
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

@@ -16,7 +16,6 @@
           "start": 309,
           "end": 319,
           "operator": "delete",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 316,
@@ -27,7 +26,8 @@
               "end": 318,
               "name": "x"
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {

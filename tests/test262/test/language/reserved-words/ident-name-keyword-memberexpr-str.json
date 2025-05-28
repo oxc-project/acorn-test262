@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 245,
       "end": 265,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -54,8 +54,8 @@
             "value": "await",
             "raw": "'await'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -92,8 +92,8 @@
             "value": "break",
             "raw": "'break'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -130,8 +130,8 @@
             "value": "case",
             "raw": "'case'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -168,8 +168,8 @@
             "value": "catch",
             "raw": "'catch'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -206,8 +206,8 @@
             "value": "class",
             "raw": "'class'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -244,8 +244,8 @@
             "value": "const",
             "raw": "'const'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -282,8 +282,8 @@
             "value": "continue",
             "raw": "'continue'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -320,8 +320,8 @@
             "value": "debugger",
             "raw": "'debugger'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -358,8 +358,8 @@
             "value": "default",
             "raw": "'default'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -396,8 +396,8 @@
             "value": "delete",
             "raw": "'delete'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -434,8 +434,8 @@
             "value": "do",
             "raw": "'do'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -472,8 +472,8 @@
             "value": "else",
             "raw": "'else'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -510,8 +510,8 @@
             "value": "export",
             "raw": "'export'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -548,8 +548,8 @@
             "value": "extends",
             "raw": "'extends'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -586,8 +586,8 @@
             "value": "finally",
             "raw": "'finally'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -624,8 +624,8 @@
             "value": "for",
             "raw": "'for'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -662,8 +662,8 @@
             "value": "function",
             "raw": "'function'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -700,8 +700,8 @@
             "value": "if",
             "raw": "'if'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -738,8 +738,8 @@
             "value": "import",
             "raw": "'import'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -776,8 +776,8 @@
             "value": "in",
             "raw": "'in'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -814,8 +814,8 @@
             "value": "instanceof",
             "raw": "'instanceof'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -852,8 +852,8 @@
             "value": "new",
             "raw": "'new'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -890,8 +890,8 @@
             "value": "return",
             "raw": "'return'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -928,8 +928,8 @@
             "value": "super",
             "raw": "'super'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -966,8 +966,8 @@
             "value": "switch",
             "raw": "'switch'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -1004,8 +1004,8 @@
             "value": "this",
             "raw": "'this'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -1042,8 +1042,8 @@
             "value": "throw",
             "raw": "'throw'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -1080,8 +1080,8 @@
             "value": "try",
             "raw": "'try'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -1118,8 +1118,8 @@
             "value": "typeof",
             "raw": "'typeof'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -1156,8 +1156,8 @@
             "value": "var",
             "raw": "'var'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -1194,8 +1194,8 @@
             "value": "void",
             "raw": "'void'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -1232,8 +1232,8 @@
             "value": "while",
             "raw": "'while'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -1270,8 +1270,8 @@
             "value": "with",
             "raw": "'with'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -1308,8 +1308,8 @@
             "value": "yield",
             "raw": "'yield'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -1346,8 +1346,8 @@
             "value": "enum",
             "raw": "'enum'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -1384,8 +1384,8 @@
             "value": "implements",
             "raw": "'implements'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -1422,8 +1422,8 @@
             "value": "interface",
             "raw": "'interface'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -1460,8 +1460,8 @@
             "value": "package",
             "raw": "'package'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -1498,8 +1498,8 @@
             "value": "protected",
             "raw": "'protected'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -1536,8 +1536,8 @@
             "value": "private",
             "raw": "'private'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -1574,8 +1574,8 @@
             "value": "public",
             "raw": "'public'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -1612,8 +1612,8 @@
             "value": "let",
             "raw": "'let'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -1650,8 +1650,8 @@
             "value": "static",
             "raw": "'static'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -1666,6 +1666,7 @@
       "type": "VariableDeclaration",
       "start": 1645,
       "end": 2241,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1986,8 +1987,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForStatement",
@@ -1997,6 +1997,7 @@
         "type": "VariableDeclaration",
         "start": 2248,
         "end": 2257,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -2016,8 +2017,7 @@
               "raw": "0"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -2046,8 +2046,8 @@
             "end": 2273,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         }
       },
       "update": {
@@ -2072,6 +2072,7 @@
             "type": "VariableDeclaration",
             "start": 2286,
             "end": 2312,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -2099,12 +2100,11 @@
                     "end": 2310,
                     "name": "i"
                   },
-                  "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "computed": true
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -2141,8 +2141,8 @@
                       "end": 2350,
                       "name": "hasOwnProperty"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -2214,8 +2214,8 @@
                   "end": 2440,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -2234,8 +2234,8 @@
                     "end": 2464,
                     "name": "propertyName"
                   },
-                  "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "computed": true
                 },
                 {
                   "type": "Identifier",

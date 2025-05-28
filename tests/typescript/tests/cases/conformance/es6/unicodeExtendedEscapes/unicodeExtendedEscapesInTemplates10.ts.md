@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 222,
       "end": 241,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 226,
           "end": 240,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 226,
@@ -28,24 +28,24 @@ __ESTREE_TEST__:PASS:
             "type": "TemplateLiteral",
             "start": 230,
             "end": 240,
-            "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
                 "start": 230,
                 "end": 240,
-                "tail": true,
                 "value": {
                   "cooked": "\ud800",
                   "raw": "\\u{D800}"
-                }
+                },
+                "tail": true
               }
-            ]
-          }
+            ],
+            "expressions": []
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

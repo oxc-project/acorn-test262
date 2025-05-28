@@ -13,7 +13,6 @@
         "end": 570,
         "name": "body"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -33,6 +32,7 @@
             "type": "VariableDeclaration",
             "start": 587,
             "end": 633,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -75,8 +75,8 @@
                           "end": 627,
                           "name": "length"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "operator": "*",
                       "right": {
@@ -90,8 +90,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -117,8 +116,8 @@
                   "end": 649,
                   "name": "forEach"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -126,7 +125,6 @@
                   "start": 650,
                   "end": 690,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [
@@ -173,8 +171,8 @@
                               "end": 680,
                               "name": "i"
                             },
-                            "computed": true,
-                            "optional": false
+                            "optional": false,
+                            "computed": true
                           },
                           "right": {
                             "type": "Identifier",
@@ -185,7 +183,8 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 }
               ],
               "optional": false
@@ -195,6 +194,7 @@
             "type": "VariableDeclaration",
             "start": 696,
             "end": 727,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -220,13 +220,13 @@
                 },
                 "init": null
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 730,
             "end": 786,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -258,8 +258,8 @@
                       "end": 754,
                       "name": "length"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "operator": "*",
                   "right": {
@@ -278,13 +278,12 @@
                       "end": 785,
                       "name": "BYTES_PER_ELEMENT"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -328,8 +327,8 @@
                       "end": 840,
                       "name": "buffer"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   {
                     "type": "Literal",
@@ -372,8 +371,8 @@
                   "end": 886,
                   "name": "copyWithin"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -392,8 +391,8 @@
                     "end": 898,
                     "name": "length"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -448,8 +447,8 @@
                       "end": 954,
                       "name": "buffer"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   {
                     "type": "Identifier",
@@ -507,7 +506,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

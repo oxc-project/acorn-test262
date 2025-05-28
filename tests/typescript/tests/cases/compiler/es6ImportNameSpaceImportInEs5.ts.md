@@ -9,17 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 18,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 18,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 11,
             "end": 17,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 11,
@@ -33,17 +32,18 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 15,
               "end": 17,
-              "raw": "10",
-              "value": 10
-            }
+              "value": 10,
+              "raw": "10"
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -61,14 +61,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 70,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 34,
-        "end": 69,
-        "raw": "\"./es6ImportNameSpaceImportInEs5_0\"",
-        "value": "./es6ImportNameSpaceImportInEs5_0"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -85,19 +77,27 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 34,
+        "end": 69,
+        "value": "./es6ImportNameSpaceImportInEs5_0",
+        "raw": "\"./es6ImportNameSpaceImportInEs5_0\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 71,
       "end": 98,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 75,
           "end": 97,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 75,
@@ -111,7 +111,6 @@ __ESTREE_TEST__:PASS:
             "type": "MemberExpression",
             "start": 79,
             "end": 97,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 79,
@@ -121,7 +120,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 96,
@@ -130,25 +128,19 @@ __ESTREE_TEST__:PASS:
               "name": "a",
               "optional": false,
               "typeAnnotation": null
-            }
-          }
+            },
+            "optional": false,
+            "computed": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ImportDeclaration",
       "start": 99,
       "end": 170,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 134,
-        "end": 169,
-        "raw": "\"./es6ImportNameSpaceImportInEs5_0\"",
-        "value": "./es6ImportNameSpaceImportInEs5_0"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -165,8 +157,16 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 134,
+        "end": 169,
+        "value": "./es6ImportNameSpaceImportInEs5_0",
+        "raw": "\"./es6ImportNameSpaceImportInEs5_0\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

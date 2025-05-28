@@ -9,12 +9,40 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 4,
       "end": 174,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 11,
         "end": 174,
-        "abstract": false,
+        "decorators": [],
+        "id": {
+          "type": "Identifier",
+          "start": 17,
+          "end": 30,
+          "decorators": [],
+          "name": "LoggerAdapter",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null,
+        "superClass": null,
+        "superTypeArguments": null,
+        "implements": [
+          {
+            "type": "TSClassImplements",
+            "start": 42,
+            "end": 49,
+            "expression": {
+              "type": "Identifier",
+              "start": 42,
+              "end": 49,
+              "decorators": [],
+              "name": "ILogger",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
+          }
+        ],
         "body": {
           "type": "ClassBody",
           "start": 50,
@@ -24,8 +52,6 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 60,
               "end": 168,
-              "accessibility": null,
-              "computed": false,
               "decorators": [],
               "key": {
                 "type": "Identifier",
@@ -36,104 +62,15 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "kind": "constructor",
-              "optional": false,
-              "override": false,
-              "static": false,
               "value": {
                 "type": "FunctionExpression",
                 "start": 72,
                 "end": 168,
-                "async": false,
-                "body": {
-                  "type": "BlockStatement",
-                  "start": 97,
-                  "end": 168,
-                  "body": [
-                    {
-                      "type": "ExpressionStatement",
-                      "start": 112,
-                      "end": 158,
-                      "directive": null,
-                      "expression": {
-                        "type": "AssignmentExpression",
-                        "start": 112,
-                        "end": 157,
-                        "operator": "=",
-                        "left": {
-                          "type": "MemberExpression",
-                          "start": 112,
-                          "end": 129,
-                          "computed": false,
-                          "object": {
-                            "type": "ThisExpression",
-                            "start": 112,
-                            "end": 116
-                          },
-                          "optional": false,
-                          "property": {
-                            "type": "Identifier",
-                            "start": 117,
-                            "end": 129,
-                            "decorators": [],
-                            "name": "_information",
-                            "optional": false,
-                            "typeAnnotation": null
-                          }
-                        },
-                        "right": {
-                          "type": "CallExpression",
-                          "start": 132,
-                          "end": 157,
-                          "arguments": [],
-                          "callee": {
-                            "type": "MemberExpression",
-                            "start": 132,
-                            "end": 155,
-                            "computed": false,
-                            "object": {
-                              "type": "MemberExpression",
-                              "start": 132,
-                              "end": 143,
-                              "computed": false,
-                              "object": {
-                                "type": "ThisExpression",
-                                "start": 132,
-                                "end": 136
-                              },
-                              "optional": false,
-                              "property": {
-                                "type": "Identifier",
-                                "start": 137,
-                                "end": 143,
-                                "decorators": [],
-                                "name": "logger",
-                                "optional": false,
-                                "typeAnnotation": null
-                              }
-                            },
-                            "optional": false,
-                            "property": {
-                              "type": "Identifier",
-                              "start": 144,
-                              "end": 155,
-                              "decorators": [],
-                              "name": "information",
-                              "optional": false,
-                              "typeAnnotation": null
-                            }
-                          },
-                          "optional": false,
-                          "typeArguments": null
-                        }
-                      }
-                    }
-                  ]
-                },
-                "declare": false,
-                "expression": false,
-                "generator": false,
                 "id": null,
+                "generator": false,
+                "async": false,
+                "declare": false,
+                "typeParameters": null,
                 "params": [
                   {
                     "type": "TSParameterProperty",
@@ -157,7 +94,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 88,
                           "end": 95,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 88,
@@ -166,7 +102,8 @@ __ESTREE_TEST__:PASS:
                             "name": "ILogger",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       }
                     },
@@ -175,46 +112,109 @@ __ESTREE_TEST__:PASS:
                   }
                 ],
                 "returnType": null,
-                "typeParameters": null
-              }
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 97,
+                  "end": 168,
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "start": 112,
+                      "end": 158,
+                      "expression": {
+                        "type": "AssignmentExpression",
+                        "start": 112,
+                        "end": 157,
+                        "operator": "=",
+                        "left": {
+                          "type": "MemberExpression",
+                          "start": 112,
+                          "end": 129,
+                          "object": {
+                            "type": "ThisExpression",
+                            "start": 112,
+                            "end": 116
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 117,
+                            "end": 129,
+                            "decorators": [],
+                            "name": "_information",
+                            "optional": false,
+                            "typeAnnotation": null
+                          },
+                          "optional": false,
+                          "computed": false
+                        },
+                        "right": {
+                          "type": "CallExpression",
+                          "start": 132,
+                          "end": 157,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 132,
+                            "end": 155,
+                            "object": {
+                              "type": "MemberExpression",
+                              "start": 132,
+                              "end": 143,
+                              "object": {
+                                "type": "ThisExpression",
+                                "start": 132,
+                                "end": 136
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 137,
+                                "end": 143,
+                                "decorators": [],
+                                "name": "logger",
+                                "optional": false,
+                                "typeAnnotation": null
+                              },
+                              "optional": false,
+                              "computed": false
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 144,
+                              "end": 155,
+                              "decorators": [],
+                              "name": "information",
+                              "optional": false,
+                              "typeAnnotation": null
+                            },
+                            "optional": false,
+                            "computed": false
+                          },
+                          "typeArguments": null,
+                          "arguments": [],
+                          "optional": false
+                        }
+                      },
+                      "directive": null
+                    }
+                  ]
+                },
+                "expression": false
+              },
+              "kind": "constructor",
+              "computed": false,
+              "static": false,
+              "override": false,
+              "optional": false,
+              "accessibility": null
             }
           ]
         },
-        "declare": false,
-        "decorators": [],
-        "id": {
-          "type": "Identifier",
-          "start": 17,
-          "end": 30,
-          "decorators": [],
-          "name": "LoggerAdapter",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "implements": [
-          {
-            "type": "TSClassImplements",
-            "start": 42,
-            "end": 49,
-            "expression": {
-              "type": "Identifier",
-              "start": 42,
-              "end": 49,
-              "decorators": [],
-              "name": "ILogger",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeArguments": null
-          }
-        ],
-        "superClass": null,
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 17,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 16,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,27 +28,33 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 15,
             "end": 16,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 18,
       "end": 40,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 26,
           "end": 39,
+          "local": {
+            "type": "Identifier",
+            "start": 26,
+            "end": 34,
+            "decorators": [],
+            "name": "_default",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 38,
@@ -58,18 +64,12 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 26,
-            "end": 34,
-            "decorators": [],
-            "name": "_default",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": null,
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -79,20 +79,20 @@ __ESTREE_TEST__:PASS:
         "type": "BinaryExpression",
         "start": 56,
         "end": 61,
-        "operator": "+",
         "left": {
           "type": "Literal",
           "start": 56,
           "end": 57,
-          "raw": "1",
-          "value": 1
+          "value": 1,
+          "raw": "1"
         },
+        "operator": "+",
         "right": {
           "type": "Literal",
           "start": 60,
           "end": 61,
-          "raw": "2",
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       },
       "exportKind": "value"

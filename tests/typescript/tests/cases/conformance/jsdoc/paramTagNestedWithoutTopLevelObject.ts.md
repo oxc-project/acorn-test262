@@ -9,7 +9,31 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 33,
       "end": 70,
+      "id": {
+        "type": "Identifier",
+        "start": 42,
+        "end": 43,
+        "decorators": [],
+        "name": "g",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 44,
+          "end": 47,
+          "decorators": [],
+          "name": "xyz",
+          "optional": false,
+          "typeAnnotation": null
+        }
+      ],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 49,
@@ -23,7 +47,6 @@ __ESTREE_TEST__:PASS:
               "type": "MemberExpression",
               "start": 62,
               "end": 67,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 62,
@@ -33,7 +56,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 66,
@@ -42,36 +64,14 @@ __ESTREE_TEST__:PASS:
                 "name": "p",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             }
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 42,
-        "end": 43,
-        "decorators": [],
-        "name": "g",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [
-        {
-          "type": "Identifier",
-          "start": 44,
-          "end": 47,
-          "decorators": [],
-          "name": "xyz",
-          "optional": false,
-          "typeAnnotation": null
-        }
-      ],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

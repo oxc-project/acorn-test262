@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSTypeAliasDeclaration",
       "start": 22,
       "end": 68,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 27,
@@ -19,6 +18,7 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSConditionalType",
         "start": 34,
@@ -33,24 +33,23 @@ __ESTREE_TEST__:PASS:
           "start": 46,
           "end": 52
         },
-        "falseType": {
-          "type": "TSStringKeyword",
-          "start": 61,
-          "end": 67
-        },
         "trueType": {
           "type": "TSAnyKeyword",
           "start": 55,
           "end": 58
+        },
+        "falseType": {
+          "type": "TSStringKeyword",
+          "start": 61,
+          "end": 67
         }
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 70,
       "end": 105,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 75,
@@ -59,21 +58,6 @@ __ESTREE_TEST__:PASS:
         "name": "WithSpec",
         "optional": false,
         "typeAnnotation": null
-      },
-      "typeAnnotation": {
-        "type": "TSTypeReference",
-        "start": 104,
-        "end": 105,
-        "typeArguments": null,
-        "typeName": {
-          "type": "Identifier",
-          "start": 104,
-          "end": 105,
-          "decorators": [],
-          "name": "T",
-          "optional": false,
-          "typeAnnotation": null
-        }
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
@@ -84,14 +68,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeParameter",
             "start": 84,
             "end": 100,
-            "const": false,
-            "constraint": {
-              "type": "TSNumberKeyword",
-              "start": 94,
-              "end": 100
-            },
-            "default": null,
-            "in": false,
             "name": {
               "type": "Identifier",
               "start": 84,
@@ -101,16 +77,39 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "out": false
+            "constraint": {
+              "type": "TSNumberKeyword",
+              "start": 94,
+              "end": 100
+            },
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
           }
         ]
-      }
+      },
+      "typeAnnotation": {
+        "type": "TSTypeReference",
+        "start": 104,
+        "end": 105,
+        "typeName": {
+          "type": "Identifier",
+          "start": 104,
+          "end": 105,
+          "decorators": [],
+          "name": "T",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
+      },
+      "declare": false
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 107,
       "end": 130,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 112,
@@ -120,10 +119,20 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTypeReference",
         "start": 116,
         "end": 130,
+        "typeName": {
+          "type": "Identifier",
+          "start": 116,
+          "end": 124,
+          "decorators": [],
+          "name": "WithSpec",
+          "optional": false,
+          "typeAnnotation": null
+        },
         "typeArguments": {
           "type": "TSTypeParameterInstantiation",
           "start": 124,
@@ -133,7 +142,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 125,
               "end": 129,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 125,
@@ -142,21 +150,13 @@ __ESTREE_TEST__:PASS:
                 "name": "Spec",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "typeArguments": null
             }
           ]
-        },
-        "typeName": {
-          "type": "Identifier",
-          "start": 116,
-          "end": 124,
-          "decorators": [],
-          "name": "WithSpec",
-          "optional": false,
-          "typeAnnotation": null
         }
       },
-      "typeParameters": null
+      "declare": false
     }
   ],
   "sourceType": "script",

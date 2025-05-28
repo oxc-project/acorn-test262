@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 141,
       "end": 196,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 147,
           "end": 196,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 147,
@@ -28,41 +28,11 @@ __ESTREE_TEST__:PASS:
             "type": "FunctionExpression",
             "start": 152,
             "end": 196,
-            "async": false,
-            "body": {
-              "type": "BlockStatement",
-              "start": 168,
-              "end": 196,
-              "body": [
-                {
-                  "type": "ExpressionStatement",
-                  "start": 174,
-                  "end": 178,
-                  "directive": null,
-                  "expression": {
-                    "type": "ThisExpression",
-                    "start": 174,
-                    "end": 178
-                  }
-                },
-                {
-                  "type": "ReturnStatement",
-                  "start": 183,
-                  "end": 194,
-                  "argument": {
-                    "type": "Literal",
-                    "start": 190,
-                    "end": 194,
-                    "raw": "true",
-                    "value": true
-                  }
-                }
-              ]
-            },
-            "declare": false,
-            "expression": false,
-            "generator": false,
             "id": null,
+            "generator": false,
+            "async": false,
+            "declare": false,
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -84,12 +54,42 @@ __ESTREE_TEST__:PASS:
               }
             ],
             "returnType": null,
-            "typeParameters": null
-          }
+            "body": {
+              "type": "BlockStatement",
+              "start": 168,
+              "end": 196,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 174,
+                  "end": 178,
+                  "expression": {
+                    "type": "ThisExpression",
+                    "start": 174,
+                    "end": 178
+                  },
+                  "directive": null
+                },
+                {
+                  "type": "ReturnStatement",
+                  "start": 183,
+                  "end": 194,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 190,
+                    "end": 194,
+                    "value": true,
+                    "raw": "true"
+                  }
+                }
+              ]
+            },
+            "expression": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "script",

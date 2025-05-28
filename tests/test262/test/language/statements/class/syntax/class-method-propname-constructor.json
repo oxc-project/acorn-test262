@@ -23,21 +23,17 @@
             "type": "MethodDefinition",
             "start": 377,
             "end": 393,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 377,
               "end": 388,
               "name": "constructor"
             },
-            "kind": "constructor",
             "value": {
               "type": "FunctionExpression",
               "start": 388,
               "end": 393,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -46,8 +42,12 @@
                 "start": 391,
                 "end": 393,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "constructor",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -76,8 +76,8 @@
             "end": 413,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -85,13 +85,13 @@
             "start": 414,
             "end": 422,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 421,
               "end": 422,
               "name": "A"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

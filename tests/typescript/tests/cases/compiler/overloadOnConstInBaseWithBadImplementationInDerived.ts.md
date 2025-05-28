@@ -9,6 +9,17 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 65,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 11,
+        "decorators": [],
+        "name": "I",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "extends": [],
       "body": {
         "type": "TSInterfaceBody",
         "start": 12,
@@ -18,8 +29,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 18,
             "end": 63,
-            "accessibility": null,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 18,
@@ -29,8 +38,10 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
+            "computed": false,
             "optional": false,
+            "kind": "method",
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -65,6 +76,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSFunctionType",
                     "start": 42,
                     "end": 61,
+                    "typeParameters": null,
                     "params": [
                       {
                         "type": "Identifier",
@@ -85,8 +97,8 @@ __ESTREE_TEST__:PASS:
                               "type": "Literal",
                               "start": 46,
                               "end": 50,
-                              "raw": "'hi'",
-                              "value": "hi"
+                              "value": "hi",
+                              "raw": "'hi'"
                             }
                           }
                         }
@@ -101,37 +113,54 @@ __ESTREE_TEST__:PASS:
                         "start": 55,
                         "end": 61
                       }
-                    },
-                    "typeParameters": null
+                    }
                   }
                 }
               }
             ],
-            "readonly": false,
             "returnType": null,
-            "static": false,
-            "typeParameters": null
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 11,
-        "decorators": [],
-        "name": "I",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 67,
       "end": 157,
-      "abstract": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 73,
+        "end": 74,
+        "decorators": [],
+        "name": "C",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [
+        {
+          "type": "TSClassImplements",
+          "start": 86,
+          "end": 87,
+          "expression": {
+            "type": "Identifier",
+            "start": 86,
+            "end": 87,
+            "decorators": [],
+            "name": "I",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
+        }
+      ],
       "body": {
         "type": "ClassBody",
         "start": 88,
@@ -141,8 +170,6 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 94,
             "end": 155,
-            "accessibility": null,
-            "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
@@ -153,25 +180,15 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "FunctionExpression",
               "start": 96,
               "end": 155,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 139,
-                "end": 155,
-                "body": []
-              },
-              "declare": false,
-              "expression": false,
-              "generator": false,
               "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -206,6 +223,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSFunctionType",
                       "start": 118,
                       "end": 137,
+                      "typeParameters": null,
                       "params": [
                         {
                           "type": "Identifier",
@@ -226,8 +244,8 @@ __ESTREE_TEST__:PASS:
                                 "type": "Literal",
                                 "start": 122,
                                 "end": 126,
-                                "raw": "'hi'",
-                                "value": "hi"
+                                "value": "hi",
+                                "raw": "'hi'"
                               }
                             }
                           }
@@ -242,49 +260,31 @@ __ESTREE_TEST__:PASS:
                           "start": 131,
                           "end": 137
                         }
-                      },
-                      "typeParameters": null
+                      }
                     }
                   }
                 }
               ],
               "returnType": null,
-              "typeParameters": null
-            }
+              "body": {
+                "type": "BlockStatement",
+                "start": 139,
+                "end": 155,
+                "body": []
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
-      "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 73,
-        "end": 74,
-        "decorators": [],
-        "name": "C",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [
-        {
-          "type": "TSClassImplements",
-          "start": 86,
-          "end": 87,
-          "expression": {
-            "type": "Identifier",
-            "start": 86,
-            "end": 87,
-            "decorators": [],
-            "name": "I",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "typeArguments": null
-        }
-      ],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

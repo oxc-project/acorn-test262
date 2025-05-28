@@ -9,7 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 50,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 20,
+        "value": "mod",
+        "raw": "\"mod\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 21,
@@ -19,17 +25,16 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 27,
             "end": 48,
-            "attributes": [],
             "declaration": {
               "type": "VariableDeclaration",
               "start": 34,
               "end": 48,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 38,
                   "end": 47,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 38,
@@ -48,82 +53,27 @@ __ESTREE_TEST__:PASS:
                       }
                     }
                   },
-                  "init": null
+                  "init": null,
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "var"
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 20,
-        "raw": "\"mod\"",
-        "value": "mod"
-      }
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 52,
       "end": 113,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 72,
-        "end": 113,
-        "body": [
-          {
-            "type": "ExportNamedDeclaration",
-            "start": 78,
-            "end": 102,
-            "attributes": [],
-            "declaration": null,
-            "exportKind": "value",
-            "source": {
-              "type": "Literal",
-              "start": 96,
-              "end": 101,
-              "raw": "\"mod\"",
-              "value": "mod"
-            },
-            "specifiers": [
-              {
-                "type": "ExportSpecifier",
-                "start": 87,
-                "end": 88,
-                "exported": {
-                  "type": "Identifier",
-                  "start": 87,
-                  "end": 88,
-                  "decorators": [],
-                  "name": "x",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "exportKind": "value",
-                "local": {
-                  "type": "Identifier",
-                  "start": 87,
-                  "end": 88,
-                  "decorators": [],
-                  "name": "x",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            ]
-          }
-        ]
-      },
-      "declare": true,
-      "global": false,
       "id": {
         "type": "Identifier",
         "start": 70,
@@ -133,7 +83,57 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "namespace"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 72,
+        "end": 113,
+        "body": [
+          {
+            "type": "ExportNamedDeclaration",
+            "start": 78,
+            "end": 102,
+            "declaration": null,
+            "specifiers": [
+              {
+                "type": "ExportSpecifier",
+                "start": 87,
+                "end": 88,
+                "local": {
+                  "type": "Identifier",
+                  "start": 87,
+                  "end": 88,
+                  "decorators": [],
+                  "name": "x",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "exported": {
+                  "type": "Identifier",
+                  "start": 87,
+                  "end": 88,
+                  "decorators": [],
+                  "name": "x",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "exportKind": "value"
+              }
+            ],
+            "source": {
+              "type": "Literal",
+              "start": 96,
+              "end": 101,
+              "value": "mod",
+              "raw": "\"mod\""
+            },
+            "exportKind": "value",
+            "attributes": []
+          }
+        ]
+      },
+      "kind": "namespace",
+      "declare": true,
+      "global": false
     }
   ],
   "sourceType": "script",

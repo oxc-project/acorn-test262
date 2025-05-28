@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 16,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 15,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -33,27 +33,24 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 17,
       "end": 35,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 17,
         "end": 34,
-        "arguments": [],
         "callee": {
           "type": "MemberExpression",
           "start": 17,
           "end": 32,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 17,
@@ -63,7 +60,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 21,
@@ -72,11 +68,15 @@ __ESTREE_TEST__:PASS:
             "name": "toUpperCase",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

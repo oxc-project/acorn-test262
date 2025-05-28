@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 210,
       "end": 222,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "4"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "BlockStatement",
@@ -38,6 +38,7 @@
           "type": "VariableDeclaration",
           "start": 243,
           "end": 255,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -57,8 +58,7 @@
                 "raw": "5"
               }
             }
-          ],
-          "kind": "const"
+          ]
         }
       ]
     },
@@ -86,8 +86,8 @@
             "end": 275,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -127,6 +127,7 @@
             "type": "VariableDeclaration",
             "start": 298,
             "end": 310,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -146,8 +147,7 @@
                   "raw": "1"
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -173,8 +173,8 @@
                   "end": 329,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {

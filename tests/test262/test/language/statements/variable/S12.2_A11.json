@@ -28,8 +28,8 @@
             "value": "__declared__var",
             "raw": "'__declared__var'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -64,8 +64,8 @@
             "value": "__declared__var",
             "raw": "'__declared__var'"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "operator": "!==",
         "right": {
@@ -124,8 +124,8 @@
                       "value": "__declared__var",
                       "raw": "'__declared__var'"
                     },
-                    "computed": true,
-                    "optional": false
+                    "optional": false,
+                    "computed": true
                   }
                 }
               ]
@@ -208,6 +208,7 @@
       "type": "VariableDeclaration",
       "start": 998,
       "end": 1018,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -221,8 +222,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     }
   ],
   "sourceType": "script",

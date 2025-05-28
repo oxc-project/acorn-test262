@@ -9,17 +9,14 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 14,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
         "end": 13,
-        "arguments": [],
         "callee": {
           "type": "MemberExpression",
           "start": 0,
           "end": 11,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 0,
@@ -29,7 +26,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 8,
@@ -38,17 +34,20 @@ __ESTREE_TEST__:PASS:
             "name": "fn1",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 15,
       "end": 38,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 15,
@@ -58,7 +57,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 15,
           "end": 26,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 15,
@@ -68,7 +66,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 23,
@@ -77,13 +74,14 @@ __ESTREE_TEST__:PASS:
             "name": "fn2",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "MemberExpression",
           "start": 29,
           "end": 37,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 29,
@@ -93,7 +91,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 34,
@@ -102,9 +99,12 @@ __ESTREE_TEST__:PASS:
             "name": "min",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

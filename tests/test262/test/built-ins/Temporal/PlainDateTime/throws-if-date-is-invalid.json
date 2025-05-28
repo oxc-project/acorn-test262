@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 595,
       "end": 717,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -194,8 +195,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -206,6 +206,7 @@
         "type": "VariableDeclaration",
         "start": 724,
         "end": 732,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -219,8 +220,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -257,8 +257,8 @@
                   "end": 766,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -271,9 +271,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 788,
                   "end": 829,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -296,8 +294,8 @@
                         "end": 820,
                         "name": "PlainDateTime"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -312,12 +310,36 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 835,
                   "end": 867,
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 836,
+                      "end": 843,
+                      "value": {
+                        "raw": "args = ",
+                        "cooked": "args = "
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 866,
+                      "end": 866,
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": true
+                    }
+                  ],
                   "expressions": [
                     {
                       "type": "CallExpression",
@@ -339,8 +361,8 @@
                           "end": 859,
                           "name": "stringify"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -351,28 +373,6 @@
                         }
                       ],
                       "optional": false
-                    }
-                  ],
-                  "quasis": [
-                    {
-                      "type": "TemplateElement",
-                      "start": 836,
-                      "end": 843,
-                      "value": {
-                        "raw": "args = ",
-                        "cooked": "args = "
-                      },
-                      "tail": false
-                    },
-                    {
-                      "type": "TemplateElement",
-                      "start": 866,
-                      "end": 866,
-                      "value": {
-                        "raw": "",
-                        "cooked": ""
-                      },
-                      "tail": true
                     }
                   ]
                 }

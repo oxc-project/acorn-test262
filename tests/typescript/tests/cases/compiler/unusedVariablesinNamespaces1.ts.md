@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 65,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 20,
+        "decorators": [],
+        "name": "Validation",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 21,
@@ -18,12 +27,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 27,
             "end": 63,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 33,
                 "end": 62,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 33,
@@ -37,32 +46,23 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 49,
                   "end": 62,
+                  "value": null,
                   "raw": "/^[A-Za-z]+$/",
                   "regex": {
                     "flags": "",
                     "pattern": "^[A-Za-z]+$"
-                  },
-                  "value": null
-                }
+                  }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "const"
+            "declare": false
           }
         ]
       },
+      "kind": "namespace",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 20,
-        "decorators": [],
-        "name": "Validation",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "namespace"
+      "global": false
     }
   ],
   "sourceType": "script",

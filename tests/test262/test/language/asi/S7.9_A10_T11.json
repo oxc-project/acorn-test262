@@ -12,6 +12,12 @@
           "type": "LabeledStatement",
           "start": 292,
           "end": 295,
+          "label": {
+            "type": "Identifier",
+            "start": 292,
+            "end": 293,
+            "name": "a"
+          },
           "body": {
             "type": "ExpressionStatement",
             "start": 294,
@@ -23,12 +29,6 @@
               "value": 1,
               "raw": "1"
             }
-          },
-          "label": {
-            "type": "Identifier",
-            "start": 292,
-            "end": 293,
-            "name": "a"
           }
         }
       ]

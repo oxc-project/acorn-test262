@@ -9,7 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 57,
       "end": 121,
+      "id": {
+        "type": "Identifier",
+        "start": 72,
+        "end": 76,
+        "decorators": [],
+        "name": "test",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": true,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 79,
@@ -20,22 +34,16 @@ __ESTREE_TEST__:PASS:
             "start": 83,
             "end": 118,
             "await": true,
-            "body": {
-              "type": "BlockStatement",
-              "start": 116,
-              "end": 118,
-              "body": []
-            },
             "left": {
               "type": "VariableDeclaration",
               "start": 94,
               "end": 108,
+              "kind": "await using",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 106,
                   "end": 108,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 106,
@@ -45,11 +53,11 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "init": null
+                  "init": null,
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "await using"
+              "declare": false
             },
             "right": {
               "type": "Identifier",
@@ -59,6 +67,12 @@ __ESTREE_TEST__:PASS:
               "name": "of",
               "optional": false,
               "typeAnnotation": null
+            },
+            "body": {
+              "type": "BlockStatement",
+              "start": 116,
+              "end": 118,
+              "body": []
             }
           },
           {
@@ -68,21 +82,7 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 72,
-        "end": 76,
-        "decorators": [],
-        "name": "test",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

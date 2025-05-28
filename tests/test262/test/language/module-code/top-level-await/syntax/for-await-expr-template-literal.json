@@ -15,7 +15,6 @@
           "type": "TemplateLiteral",
           "start": 2636,
           "end": 2638,
-          "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -27,7 +26,8 @@
               },
               "tail": true
             }
-          ]
+          ],
+          "expressions": []
         }
       },
       "test": {
@@ -38,7 +38,6 @@
           "type": "TemplateLiteral",
           "start": 2647,
           "end": 2649,
-          "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -50,7 +49,8 @@
               },
               "tail": true
             }
-          ]
+          ],
+          "expressions": []
         }
       },
       "update": {
@@ -61,7 +61,6 @@
           "type": "TemplateLiteral",
           "start": 2657,
           "end": 2659,
-          "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -73,7 +72,8 @@
               },
               "tail": true
             }
-          ]
+          ],
+          "expressions": []
         }
       },
       "body": {
@@ -93,7 +93,6 @@
                 "type": "TemplateLiteral",
                 "start": 2672,
                 "end": 2674,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
@@ -105,7 +104,8 @@
                     },
                     "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               }
             }
           },
@@ -126,6 +126,7 @@
         "type": "VariableDeclaration",
         "start": 2863,
         "end": 2874,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -139,8 +140,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "AwaitExpression",
@@ -150,7 +150,6 @@
           "type": "TemplateLiteral",
           "start": 2882,
           "end": 2884,
-          "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -162,7 +161,8 @@
               },
               "tail": true
             }
-          ]
+          ],
+          "expressions": []
         }
       },
       "update": {
@@ -173,7 +173,6 @@
           "type": "TemplateLiteral",
           "start": 2892,
           "end": 2894,
-          "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -185,7 +184,8 @@
               },
               "tail": true
             }
-          ]
+          ],
+          "expressions": []
         }
       },
       "body": {
@@ -205,7 +205,6 @@
                 "type": "TemplateLiteral",
                 "start": 2907,
                 "end": 2909,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
@@ -217,7 +216,8 @@
                     },
                     "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               }
             }
           },
@@ -238,6 +238,7 @@
         "type": "VariableDeclaration",
         "start": 3087,
         "end": 3098,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -251,8 +252,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "test": {
         "type": "AwaitExpression",
@@ -262,7 +262,6 @@
           "type": "TemplateLiteral",
           "start": 3106,
           "end": 3108,
-          "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -274,7 +273,8 @@
               },
               "tail": true
             }
-          ]
+          ],
+          "expressions": []
         }
       },
       "update": {
@@ -285,7 +285,6 @@
           "type": "TemplateLiteral",
           "start": 3116,
           "end": 3118,
-          "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -297,7 +296,8 @@
               },
               "tail": true
             }
-          ]
+          ],
+          "expressions": []
         }
       },
       "body": {
@@ -317,7 +317,6 @@
                 "type": "TemplateLiteral",
                 "start": 3131,
                 "end": 3133,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
@@ -329,7 +328,8 @@
                     },
                     "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               }
             }
           },

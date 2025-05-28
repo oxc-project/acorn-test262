@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 20,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 0,
@@ -19,7 +18,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 0,
           "end": 14,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 0,
@@ -29,7 +27,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 7,
@@ -38,7 +35,9 @@ __ESTREE_TEST__:PASS:
             "name": "exports",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "ObjectExpression",
@@ -46,7 +45,8 @@ __ESTREE_TEST__:PASS:
           "end": 19,
           "properties": []
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",
@@ -64,11 +64,11 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 10,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -86,11 +86,11 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 10,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -108,97 +108,97 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 48,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 15,
         "end": 47,
-        "raw": "\"exports-and-types-versions/foo\"",
-        "value": "exports-and-types-versions/foo"
+        "value": "exports-and-types-versions/foo",
+        "raw": "\"exports-and-types-versions/foo\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 49,
       "end": 98,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 64,
         "end": 97,
-        "raw": "\"exports-and-types-versions/nope\"",
-        "value": "exports-and-types-versions/nope"
+        "value": "exports-and-types-versions/nope",
+        "raw": "\"exports-and-types-versions/nope\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 99,
       "end": 147,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 114,
         "end": 146,
-        "raw": "\"exports-and-types-versions/yep\"",
-        "value": "exports-and-types-versions/yep"
+        "value": "exports-and-types-versions/yep",
+        "raw": "\"exports-and-types-versions/yep\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 148,
       "end": 206,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 163,
         "end": 205,
-        "raw": "\"exports-and-types-versions/versioned-yep\"",
-        "value": "exports-and-types-versions/versioned-yep"
+        "value": "exports-and-types-versions/versioned-yep",
+        "raw": "\"exports-and-types-versions/versioned-yep\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 207,
       "end": 265,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 222,
         "end": 264,
-        "raw": "\"exports-and-types-versions/versioned-nah\"",
-        "value": "exports-and-types-versions/versioned-nah"
+        "value": "exports-and-types-versions/versioned-nah",
+        "raw": "\"exports-and-types-versions/versioned-nah\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 266,
       "end": 307,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 281,
         "end": 306,
-        "raw": "\"just-types-versions/foo\"",
-        "value": "just-types-versions/foo"
+        "value": "just-types-versions/foo",
+        "raw": "\"just-types-versions/foo\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",
@@ -216,97 +216,97 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 48,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 15,
         "end": 47,
-        "raw": "\"exports-and-types-versions/foo\"",
-        "value": "exports-and-types-versions/foo"
+        "value": "exports-and-types-versions/foo",
+        "raw": "\"exports-and-types-versions/foo\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 49,
       "end": 98,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 64,
         "end": 97,
-        "raw": "\"exports-and-types-versions/nope\"",
-        "value": "exports-and-types-versions/nope"
+        "value": "exports-and-types-versions/nope",
+        "raw": "\"exports-and-types-versions/nope\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 99,
       "end": 147,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 114,
         "end": 146,
-        "raw": "\"exports-and-types-versions/yep\"",
-        "value": "exports-and-types-versions/yep"
+        "value": "exports-and-types-versions/yep",
+        "raw": "\"exports-and-types-versions/yep\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 148,
       "end": 206,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 163,
         "end": 205,
-        "raw": "\"exports-and-types-versions/versioned-yep\"",
-        "value": "exports-and-types-versions/versioned-yep"
+        "value": "exports-and-types-versions/versioned-yep",
+        "raw": "\"exports-and-types-versions/versioned-yep\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 207,
       "end": 265,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 222,
         "end": 264,
-        "raw": "\"exports-and-types-versions/versioned-nah\"",
-        "value": "exports-and-types-versions/versioned-nah"
+        "value": "exports-and-types-versions/versioned-nah",
+        "raw": "\"exports-and-types-versions/versioned-nah\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 266,
       "end": 307,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 281,
         "end": 306,
-        "raw": "\"just-types-versions/foo\"",
-        "value": "just-types-versions/foo"
+        "value": "just-types-versions/foo",
+        "raw": "\"just-types-versions/foo\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

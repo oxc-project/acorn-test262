@@ -23,8 +23,6 @@
             "type": "PropertyDefinition",
             "start": 1247,
             "end": 1269,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1247,
@@ -36,7 +34,6 @@
               "start": 1255,
               "end": 1268,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -45,15 +42,16 @@
                 "start": 1266,
                 "end": 1268,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "computed": false,
+            "static": false
           },
           {
             "type": "PropertyDefinition",
             "start": 1272,
             "end": 1307,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 1272,
@@ -64,9 +62,7 @@
               "type": "ArrowFunctionExpression",
               "start": 1281,
               "end": 1306,
-              "id": null,
               "expression": true,
-              "generator": false,
               "async": false,
               "params": [
                 {
@@ -99,28 +95,28 @@
                 "start": 1297,
                 "end": 1306,
                 "name": "undefined"
-              }
-            }
+              },
+              "id": null,
+              "generator": false
+            },
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 1311,
             "end": 1361,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1311,
               "end": 1329,
               "name": "accessPrivateField"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 1329,
               "end": 1361,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -148,13 +144,17 @@
                         "end": 1356,
                         "name": "field"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -163,6 +163,7 @@
       "type": "VariableDeclaration",
       "start": 1365,
       "end": 1381,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -187,8 +188,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -214,8 +214,8 @@
             "end": 1398,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -242,8 +242,8 @@
                   "end": 1419,
                   "name": "accessPrivateField"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [],
               "optional": false
@@ -254,8 +254,8 @@
               "end": 1428,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -292,8 +292,8 @@
             "end": 1450,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -316,8 +316,8 @@
                 "end": 1458,
                 "name": "field"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -325,8 +325,8 @@
               "end": 1465,
               "name": "length"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

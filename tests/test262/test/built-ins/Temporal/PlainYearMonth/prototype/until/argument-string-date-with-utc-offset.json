@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 318,
       "end": 373,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 362,
                 "name": "PlainYearMonth"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -59,13 +60,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 375,
       "end": 658,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -141,8 +142,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -153,6 +153,7 @@
         "type": "VariableDeclaration",
         "start": 665,
         "end": 674,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -166,8 +167,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -184,6 +184,7 @@
             "type": "VariableDeclaration",
             "start": 696,
             "end": 731,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -215,8 +216,8 @@
                       "end": 725,
                       "name": "until"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -229,8 +230,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -256,8 +256,8 @@
                   "end": 765,
                   "name": "assertDuration"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -340,14 +340,6 @@
                   "type": "TemplateLiteral",
                   "start": 817,
                   "end": 878,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 821,
-                      "end": 824,
-                      "name": "arg"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -369,6 +361,14 @@
                       },
                       "tail": true
                     }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 821,
+                      "end": 824,
+                      "name": "arg"
+                    }
                   ]
                 }
               ],
@@ -382,6 +382,7 @@
       "type": "VariableDeclaration",
       "start": 887,
       "end": 1155,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -471,8 +472,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -483,6 +483,7 @@
         "type": "VariableDeclaration",
         "start": 1162,
         "end": 1171,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -496,8 +497,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -534,8 +534,8 @@
                   "end": 1208,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -548,9 +548,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 1230,
                   "end": 1255,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -573,8 +571,8 @@
                         "end": 1250,
                         "name": "until"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -585,20 +583,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 1261,
                   "end": 1327,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1265,
-                      "end": 1268,
-                      "name": "arg"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -619,6 +611,14 @@
                         "cooked": "\" UTC offset without time is not valid for PlainYearMonth"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1265,
+                      "end": 1268,
+                      "name": "arg"
                     }
                   ]
                 }

@@ -9,7 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 47,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 20,
+        "value": "foo",
+        "raw": "\"foo\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 21,
@@ -19,17 +25,16 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 24,
             "end": 45,
-            "attributes": [],
             "declaration": {
               "type": "VariableDeclaration",
               "start": 31,
               "end": 45,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 35,
                   "end": 44,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 35,
@@ -48,27 +53,22 @@ __ESTREE_TEST__:PASS:
                       }
                     }
                   },
-                  "init": null
+                  "init": null,
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "var"
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 20,
-        "raw": "\"foo\"",
-        "value": "foo"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -95,7 +95,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 46,
@@ -104,21 +103,22 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 54,
           "end": 59,
-          "raw": "\"foo\"",
-          "value": "foo"
+          "value": "foo",
+          "raw": "\"foo\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 62,
       "end": 81,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 66,
           "end": 80,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 66,
@@ -132,12 +132,10 @@ __ESTREE_TEST__:PASS:
             "type": "BinaryExpression",
             "start": 70,
             "end": 80,
-            "operator": "+",
             "left": {
               "type": "MemberExpression",
               "start": 70,
               "end": 75,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 70,
@@ -147,7 +145,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 74,
@@ -156,20 +153,23 @@ __ESTREE_TEST__:PASS:
                 "name": "x",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             },
+            "operator": "+",
             "right": {
               "type": "Literal",
               "start": 78,
               "end": 80,
-              "raw": "10",
-              "value": 10
+              "value": 10,
+              "raw": "10"
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "module",

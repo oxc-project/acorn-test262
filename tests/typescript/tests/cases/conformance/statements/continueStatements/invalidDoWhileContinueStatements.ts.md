@@ -15,6 +15,15 @@ __ESTREE_TEST__:PASS:
       "type": "LabeledStatement",
       "start": 78,
       "end": 112,
+      "label": {
+        "type": "Identifier",
+        "start": 78,
+        "end": 81,
+        "decorators": [],
+        "name": "ONE",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "DoWhileStatement",
         "start": 83,
@@ -37,24 +46,24 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 107,
           "end": 111,
-          "raw": "true",
-          "value": true
+          "value": true,
+          "raw": "true"
         }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 78,
-        "end": 81,
-        "decorators": [],
-        "name": "ONE",
-        "optional": false,
-        "typeAnnotation": null
       }
     },
     {
       "type": "LabeledStatement",
       "start": 147,
       "end": 218,
+      "label": {
+        "type": "Identifier",
+        "start": 147,
+        "end": 150,
+        "decorators": [],
+        "name": "TWO",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "DoWhileStatement",
         "start": 152,
@@ -68,12 +77,12 @@ __ESTREE_TEST__:PASS:
               "type": "VariableDeclaration",
               "start": 161,
               "end": 204,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 165,
                   "end": 204,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 165,
@@ -87,7 +96,11 @@ __ESTREE_TEST__:PASS:
                     "type": "ArrowFunctionExpression",
                     "start": 169,
                     "end": 204,
+                    "expression": false,
                     "async": false,
+                    "typeParameters": null,
+                    "params": [],
+                    "returnType": null,
                     "body": {
                       "type": "BlockStatement",
                       "start": 175,
@@ -109,17 +122,13 @@ __ESTREE_TEST__:PASS:
                         }
                       ]
                     },
-                    "expression": false,
-                    "generator": false,
                     "id": null,
-                    "params": [],
-                    "returnType": null,
-                    "typeParameters": null
-                  }
+                    "generator": false
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "var"
+              "declare": false
             }
           ]
         },
@@ -127,24 +136,24 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 213,
           "end": 217,
-          "raw": "true",
-          "value": true
+          "value": true,
+          "raw": "true"
         }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 147,
-        "end": 150,
-        "decorators": [],
-        "name": "TWO",
-        "optional": false,
-        "typeAnnotation": null
       }
     },
     {
       "type": "LabeledStatement",
       "start": 220,
       "end": 302,
+      "label": {
+        "type": "Identifier",
+        "start": 220,
+        "end": 225,
+        "decorators": [],
+        "name": "THREE",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "DoWhileStatement",
         "start": 227,
@@ -158,12 +167,12 @@ __ESTREE_TEST__:PASS:
               "type": "VariableDeclaration",
               "start": 236,
               "end": 288,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 240,
                   "end": 288,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 240,
@@ -177,7 +186,13 @@ __ESTREE_TEST__:PASS:
                     "type": "FunctionExpression",
                     "start": 245,
                     "end": 288,
+                    "id": null,
+                    "generator": false,
                     "async": false,
+                    "declare": false,
+                    "typeParameters": null,
+                    "params": [],
+                    "returnType": null,
                     "body": {
                       "type": "BlockStatement",
                       "start": 257,
@@ -199,18 +214,12 @@ __ESTREE_TEST__:PASS:
                         }
                       ]
                     },
-                    "declare": false,
-                    "expression": false,
-                    "generator": false,
-                    "id": null,
-                    "params": [],
-                    "returnType": null,
-                    "typeParameters": null
-                  }
+                    "expression": false
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "var"
+              "declare": false
             }
           ]
         },
@@ -218,18 +227,9 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 297,
           "end": 301,
-          "raw": "true",
-          "value": true
+          "value": true,
+          "raw": "true"
         }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 220,
-        "end": 225,
-        "decorators": [],
-        "name": "THREE",
-        "optional": false,
-        "typeAnnotation": null
       }
     },
     {
@@ -259,6 +259,15 @@ __ESTREE_TEST__:PASS:
             "type": "LabeledStatement",
             "start": 352,
             "end": 381,
+            "label": {
+              "type": "Identifier",
+              "start": 352,
+              "end": 356,
+              "decorators": [],
+              "name": "FIVE",
+              "optional": false,
+              "typeAnnotation": null
+            },
             "body": {
               "type": "DoWhileStatement",
               "start": 362,
@@ -273,18 +282,9 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 376,
                 "end": 380,
-                "raw": "true",
-                "value": true
+                "value": true,
+                "raw": "true"
               }
-            },
-            "label": {
-              "type": "Identifier",
-              "start": 352,
-              "end": 356,
-              "decorators": [],
-              "name": "FIVE",
-              "optional": false,
-              "typeAnnotation": null
             }
           }
         ]
@@ -293,24 +293,33 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "start": 390,
         "end": 394,
-        "raw": "true",
-        "value": true
+        "value": true,
+        "raw": "true"
       }
     },
     {
       "type": "LabeledStatement",
       "start": 428,
       "end": 445,
+      "label": {
+        "type": "Identifier",
+        "start": 428,
+        "end": 432,
+        "decorators": [],
+        "name": "NINE",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "VariableDeclaration",
         "start": 434,
         "end": 445,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 438,
             "end": 444,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 438,
@@ -324,22 +333,13 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 442,
               "end": 444,
-              "raw": "12",
-              "value": 12
-            }
+              "value": 12,
+              "raw": "12"
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 428,
-        "end": 432,
-        "decorators": [],
-        "name": "NINE",
-        "optional": false,
-        "typeAnnotation": null
+        "declare": false
       }
     },
     {
@@ -371,8 +371,8 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "start": 479,
         "end": 483,
-        "raw": "true",
-        "value": true
+        "value": true,
+        "raw": "true"
       }
     }
   ],

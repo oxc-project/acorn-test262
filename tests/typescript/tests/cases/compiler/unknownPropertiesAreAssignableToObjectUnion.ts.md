@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 36,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 6,
           "end": 35,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
@@ -35,7 +35,6 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 9,
                     "end": 15,
-                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 9,
@@ -44,7 +43,8 @@ __ESTREE_TEST__:PASS:
                       "name": "Object",
                       "optional": false,
                       "typeAnnotation": null
-                    }
+                    },
+                    "typeArguments": null
                   },
                   {
                     "type": "TSStringKeyword",
@@ -64,7 +64,7 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 29,
                 "end": 33,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 29,
@@ -74,35 +74,35 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Literal",
                   "start": 32,
                   "end": 33,
-                  "raw": "0",
-                  "value": 0
-                }
+                  "value": 0,
+                  "raw": "0"
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 37,
       "end": 76,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 43,
           "end": 75,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 43,
@@ -123,7 +123,6 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 46,
                     "end": 52,
-                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 46,
@@ -132,7 +131,8 @@ __ESTREE_TEST__:PASS:
                       "name": "Object",
                       "optional": false,
                       "typeAnnotation": null
-                    }
+                    },
+                    "typeArguments": null
                   },
                   {
                     "type": "TSUndefinedKeyword",
@@ -152,7 +152,7 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 69,
                 "end": 73,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 69,
@@ -162,24 +162,24 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Literal",
                   "start": 72,
                   "end": 73,
-                  "raw": "0",
-                  "value": 0
-                }
+                  "value": 0,
+                  "raw": "0"
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "script",

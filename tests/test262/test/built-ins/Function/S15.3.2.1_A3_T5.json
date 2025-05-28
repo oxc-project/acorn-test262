@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 945,
       "end": 972,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "\"return \\\"A\\\";\""
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "TryStatement",
@@ -42,6 +42,7 @@
             "type": "VariableDeclaration",
             "start": 982,
             "end": 1017,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -69,14 +70,14 @@
                       "start": 1003,
                       "end": 1009,
                       "operator": "void",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 1008,
                         "end": 1009,
                         "value": 0,
                         "raw": "0"
-                      }
+                      },
+                      "prefix": true
                     },
                     {
                       "type": "Identifier",
@@ -87,8 +88,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "var"
+            ]
           }
         ]
       },
@@ -173,8 +173,8 @@
             "end": 1112,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -193,8 +193,8 @@
               "end": 1126,
               "name": "constructor"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Identifier",
@@ -237,8 +237,8 @@
             "end": 1228,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

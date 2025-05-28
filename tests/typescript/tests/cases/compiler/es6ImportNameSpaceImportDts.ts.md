@@ -9,19 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 18,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 7,
         "end": 18,
-        "abstract": false,
-        "body": {
-          "type": "ClassBody",
-          "start": 15,
-          "end": 18,
-          "body": []
-        },
-        "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
@@ -32,14 +23,23 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "implements": [],
+        "typeParameters": null,
         "superClass": null,
         "superTypeArguments": null,
-        "typeParameters": null
+        "implements": [],
+        "body": {
+          "type": "ClassBody",
+          "start": 15,
+          "end": 18,
+          "body": []
+        },
+        "abstract": false,
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "EmptyStatement",
@@ -62,14 +62,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 45,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 34,
-        "end": 44,
-        "raw": "\"./server\"",
-        "value": "./server"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -86,24 +78,31 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 34,
+        "end": 44,
+        "value": "./server",
+        "raw": "\"./server\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 46,
       "end": 86,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 53,
         "end": 86,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 57,
             "end": 85,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 57,
@@ -117,12 +116,10 @@ __ESTREE_TEST__:PASS:
               "type": "NewExpression",
               "start": 61,
               "end": 85,
-              "arguments": [],
               "callee": {
                 "type": "MemberExpression",
                 "start": 65,
                 "end": 83,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 65,
@@ -132,7 +129,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 82,
@@ -141,31 +137,27 @@ __ESTREE_TEST__:PASS:
                   "name": "c",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": []
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 87,
       "end": 133,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 122,
-        "end": 132,
-        "raw": "\"./server\"",
-        "value": "./server"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -182,8 +174,16 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 122,
+        "end": 132,
+        "value": "./server",
+        "raw": "\"./server\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

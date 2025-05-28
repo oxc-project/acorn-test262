@@ -13,8 +13,8 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "start": 15,
         "end": 21,
-        "raw": "\"test\"",
-        "value": "test"
+        "value": "test",
+        "raw": "\"test\""
       },
       "exportKind": "value"
     },
@@ -22,12 +22,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 23,
       "end": 42,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 27,
           "end": 41,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 27,
@@ -41,13 +41,13 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 40,
             "end": 41,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "module",

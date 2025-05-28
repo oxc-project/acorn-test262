@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 20,
-      "abstract": true,
-      "body": {
-        "type": "ClassBody",
-        "start": 17,
-        "end": 20,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -27,21 +19,29 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 17,
+        "end": 20,
+        "body": []
+      },
+      "abstract": true,
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 43,
       "end": 63,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 47,
           "end": 62,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 47,
@@ -58,6 +58,7 @@ __ESTREE_TEST__:PASS:
                 "start": 52,
                 "end": 62,
                 "abstract": false,
+                "typeParameters": null,
                 "params": [],
                 "returnType": {
                   "type": "TSTypeAnnotation",
@@ -67,7 +68,6 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 61,
                     "end": 62,
-                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 61,
@@ -76,24 +76,23 @@ __ESTREE_TEST__:PASS:
                       "name": "A",
                       "optional": false,
                       "typeAnnotation": null
-                    }
+                    },
+                    "typeArguments": null
                   }
-                },
-                "typeParameters": null
+                }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 84,
       "end": 92,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 84,
@@ -117,13 +116,13 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 104,
       "end": 117,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 104,
@@ -142,10 +141,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 110,
           "end": 116,
-          "raw": "\"asdf\"",
-          "value": "asdf"
+          "value": "asdf",
+          "raw": "\"asdf\""
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

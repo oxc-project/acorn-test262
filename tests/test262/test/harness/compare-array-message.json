@@ -27,8 +27,8 @@
             "end": 282,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -78,8 +78,8 @@
             "end": 317,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -129,8 +129,8 @@
             "end": 349,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -181,8 +181,8 @@
             "end": 382,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -201,9 +201,7 @@
             "type": "ArrowFunctionExpression",
             "start": 391,
             "end": 399,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -211,7 +209,9 @@
               "start": 397,
               "end": 399,
               "body": []
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false
@@ -241,8 +241,8 @@
             "end": 421,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -292,8 +292,8 @@
             "end": 461,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -357,8 +357,8 @@
             "end": 503,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -407,8 +407,8 @@
             "end": 536,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -457,8 +457,8 @@
             "end": 569,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -478,14 +478,14 @@
             "start": 578,
             "end": 580,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 579,
               "end": 580,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -515,8 +515,8 @@
             "end": 602,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -565,8 +565,8 @@
             "end": 641,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -586,13 +586,13 @@
             "start": 650,
             "end": 659,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 651,
               "end": 659,
               "name": "Infinity"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false
@@ -622,8 +622,8 @@
             "end": 681,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -673,8 +673,8 @@
             "end": 715,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -694,14 +694,14 @@
             "start": 724,
             "end": 728,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 725,
               "end": 728,
               "value": 0.1,
               "raw": "0.1"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false

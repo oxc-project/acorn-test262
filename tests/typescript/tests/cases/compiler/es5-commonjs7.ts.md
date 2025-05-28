@@ -24,17 +24,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 26,
       "end": 48,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 33,
         "end": 48,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 37,
             "end": 47,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 37,
@@ -44,15 +43,16 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

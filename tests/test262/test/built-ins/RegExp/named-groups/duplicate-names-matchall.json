@@ -13,7 +13,6 @@
         "end": 357,
         "name": "matchesIterator"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -59,8 +58,8 @@
                   "end": 404,
                   "name": "compareIterator"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -89,17 +88,15 @@
                       "end": 427,
                       "name": "map"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
                       "type": "ArrowFunctionExpression",
                       "start": 428,
                       "end": 481,
-                      "id": null,
                       "expression": false,
-                      "generator": false,
                       "async": false,
                       "params": [
                         {
@@ -122,9 +119,7 @@
                               "type": "ArrowFunctionExpression",
                               "start": 446,
                               "end": 476,
-                              "id": null,
                               "expression": true,
-                              "generator": false,
                               "async": false,
                               "params": [
                                 {
@@ -154,8 +149,8 @@
                                     "end": 470,
                                     "name": "compareArray"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -172,11 +167,15 @@
                                   }
                                 ],
                                 "optional": false
-                              }
+                              },
+                              "id": null,
+                              "generator": false
                             }
                           }
                         ]
-                      }
+                      },
+                      "id": null,
+                      "generator": false
                     }
                   ],
                   "optional": false
@@ -186,7 +185,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -224,8 +224,8 @@
                 "end": 518,
                 "name": "matchAll"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -370,8 +370,8 @@
                 "end": 661,
                 "name": "matchAll"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

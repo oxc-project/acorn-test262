@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 308,
       "end": 317,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -39,7 +39,6 @@
         "end": 338,
         "name": "myFunction1"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -117,12 +116,14 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 403,
       "end": 424,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -148,8 +149,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -281,6 +281,7 @@
       "type": "VariableDeclaration",
       "start": 595,
       "end": 604,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -300,8 +301,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -313,7 +313,6 @@
         "end": 625,
         "name": "myFunction2"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -403,7 +402,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "TryStatement",
@@ -418,6 +418,7 @@
             "type": "VariableDeclaration",
             "start": 714,
             "end": 735,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -443,8 +444,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ThrowStatement",
@@ -554,6 +554,7 @@
       "type": "VariableDeclaration",
       "start": 971,
       "end": 980,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -573,8 +574,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -586,7 +586,6 @@
         "end": 1001,
         "name": "myFunction3"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -663,7 +662,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "TryStatement",
@@ -678,6 +678,7 @@
             "type": "VariableDeclaration",
             "start": 1081,
             "end": 1102,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -703,8 +704,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ThrowStatement",
@@ -814,6 +814,7 @@
       "type": "VariableDeclaration",
       "start": 1338,
       "end": 1347,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -833,8 +834,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -846,7 +846,6 @@
         "end": 1368,
         "name": "myFunction4"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -948,7 +947,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "TryStatement",
@@ -963,6 +963,7 @@
             "type": "VariableDeclaration",
             "start": 1471,
             "end": 1492,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -988,8 +989,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ThrowStatement",
@@ -1099,6 +1099,7 @@
       "type": "VariableDeclaration",
       "start": 1728,
       "end": 1737,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1118,8 +1119,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -1131,7 +1131,6 @@
         "end": 1758,
         "name": "myFunction5"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -1232,7 +1231,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "TryStatement",
@@ -1247,6 +1247,7 @@
             "type": "VariableDeclaration",
             "start": 1866,
             "end": 1887,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -1272,8 +1273,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ThrowStatement",
@@ -1383,6 +1383,7 @@
       "type": "VariableDeclaration",
       "start": 2123,
       "end": 2132,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1402,8 +1403,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -1415,7 +1415,6 @@
         "end": 2153,
         "name": "myFunction6"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -1529,7 +1528,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "TryStatement",
@@ -1544,6 +1544,7 @@
             "type": "VariableDeclaration",
             "start": 2273,
             "end": 2294,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -1569,8 +1570,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ThrowStatement",
@@ -1806,6 +1806,7 @@
       "type": "VariableDeclaration",
       "start": 2730,
       "end": 2739,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1825,8 +1826,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -1838,7 +1838,6 @@
         "end": 2760,
         "name": "myFunction7"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -1928,12 +1927,14 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 2839,
       "end": 2860,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1959,8 +1960,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -2080,6 +2080,7 @@
       "type": "VariableDeclaration",
       "start": 3038,
       "end": 3047,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2099,8 +2100,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -2112,7 +2112,6 @@
         "end": 3068,
         "name": "myFunction8"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -2202,7 +2201,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "TryStatement",
@@ -2217,6 +2217,7 @@
             "type": "VariableDeclaration",
             "start": 3157,
             "end": 3178,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -2242,8 +2243,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           }
         ]
       },

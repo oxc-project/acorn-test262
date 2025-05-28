@@ -9,62 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 42,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 8,
-        "end": 42,
-        "body": [
-          {
-            "type": "PropertyDefinition",
-            "start": 14,
-            "end": 40,
-            "accessibility": null,
-            "computed": true,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
-            "key": {
-              "type": "MemberExpression",
-              "start": 15,
-              "end": 33,
-              "computed": false,
-              "object": {
-                "type": "Identifier",
-                "start": 15,
-                "end": 21,
-                "decorators": [],
-                "name": "Symbol",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "property": {
-                "type": "Identifier",
-                "start": 22,
-                "end": 33,
-                "decorators": [],
-                "name": "toPrimitive",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": null,
-            "value": {
-              "type": "Literal",
-              "start": 37,
-              "end": 39,
-              "raw": "\"\"",
-              "value": ""
-            }
-          }
-        ]
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -75,10 +19,66 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 8,
+        "end": 42,
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "start": 14,
+            "end": 40,
+            "decorators": [],
+            "key": {
+              "type": "MemberExpression",
+              "start": 15,
+              "end": 33,
+              "object": {
+                "type": "Identifier",
+                "start": 15,
+                "end": 21,
+                "decorators": [],
+                "name": "Symbol",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 22,
+                "end": 33,
+                "decorators": [],
+                "name": "toPrimitive",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "optional": false,
+              "computed": false
+            },
+            "typeAnnotation": null,
+            "value": {
+              "type": "Literal",
+              "start": 37,
+              "end": 39,
+              "value": "",
+              "raw": "\"\""
+            },
+            "computed": true,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
+          }
+        ]
+      },
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

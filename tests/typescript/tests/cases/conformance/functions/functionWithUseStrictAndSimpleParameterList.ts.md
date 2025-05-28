@@ -9,30 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 40,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 19,
-        "end": 40,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 25,
-            "end": 38,
-            "directive": "use strict",
-            "expression": {
-              "type": "Literal",
-              "start": 25,
-              "end": 37,
-              "raw": "\"use strict\"",
-              "value": "use strict"
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -42,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "AssignmentPattern",
@@ -57,35 +37,54 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "right": {
             "type": "Literal",
             "start": 15,
             "end": 17,
-            "raw": "10",
-            "value": 10
+            "value": 10,
+            "raw": "10"
           },
+          "optional": false,
           "typeAnnotation": null
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 19,
+        "end": 40,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 25,
+            "end": 38,
+            "expression": {
+              "type": "Literal",
+              "start": 25,
+              "end": 37,
+              "value": "use strict",
+              "raw": "\"use strict\""
+            },
+            "directive": "use strict"
+          }
+        ]
+      },
+      "expression": false
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 42,
       "end": 62,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 49,
         "end": 62,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 53,
             "end": 61,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 53,
@@ -99,32 +98,23 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 59,
               "end": 61,
-              "raw": "10",
-              "value": 10
-            }
+              "value": 10,
+              "raw": "10"
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "FunctionDeclaration",
       "start": 63,
       "end": 85,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 82,
-        "end": 85,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 72,
@@ -134,6 +124,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "AssignmentPattern",
@@ -149,25 +143,45 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "right": {
             "type": "Literal",
             "start": 78,
             "end": 80,
-            "raw": "10",
-            "value": 10
+            "value": 10,
+            "raw": "10"
           },
+          "optional": false,
           "typeAnnotation": null
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 82,
+        "end": 85,
+        "body": []
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 87,
       "end": 160,
+      "id": {
+        "type": "Identifier",
+        "start": 96,
+        "end": 105,
+        "decorators": [],
+        "name": "container",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 108,
@@ -177,29 +191,19 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 114,
             "end": 127,
-            "directive": "use strict",
             "expression": {
               "type": "Literal",
               "start": 114,
               "end": 126,
-              "raw": "\"use strict\"",
-              "value": "use strict"
-            }
+              "value": "use strict",
+              "raw": "\"use strict\""
+            },
+            "directive": "use strict"
           },
           {
             "type": "FunctionDeclaration",
             "start": 132,
             "end": 158,
-            "async": false,
-            "body": {
-              "type": "BlockStatement",
-              "start": 151,
-              "end": 158,
-              "body": []
-            },
-            "declare": false,
-            "expression": false,
-            "generator": false,
             "id": {
               "type": "Identifier",
               "start": 141,
@@ -209,6 +213,10 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
+            "generator": false,
+            "async": false,
+            "declare": false,
+            "typeParameters": null,
             "params": [
               {
                 "type": "AssignmentPattern",
@@ -224,66 +232,34 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "right": {
                   "type": "Literal",
                   "start": 147,
                   "end": 149,
-                  "raw": "10",
-                  "value": 10
+                  "value": 10,
+                  "raw": "10"
                 },
+                "optional": false,
                 "typeAnnotation": null
               }
             ],
             "returnType": null,
-            "typeParameters": null
+            "body": {
+              "type": "BlockStatement",
+              "start": 151,
+              "end": 158,
+              "body": []
+            },
+            "expression": false
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 96,
-        "end": 105,
-        "decorators": [],
-        "name": "container",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 162,
       "end": 213,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 192,
-        "end": 213,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 198,
-            "end": 211,
-            "directive": "use strict",
-            "expression": {
-              "type": "Literal",
-              "start": 198,
-              "end": 210,
-              "raw": "'use strict'",
-              "value": "use strict"
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 171,
@@ -293,11 +269,16 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "RestElement",
           "start": 176,
           "end": 190,
+          "decorators": [],
           "argument": {
             "type": "Identifier",
             "start": 179,
@@ -307,7 +288,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "decorators": [],
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
@@ -328,36 +308,32 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 192,
+        "end": 213,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 198,
+            "end": 211,
+            "expression": {
+              "type": "Literal",
+              "start": 198,
+              "end": 210,
+              "value": "use strict",
+              "raw": "'use strict'"
+            },
+            "directive": "use strict"
+          }
+        ]
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 215,
       "end": 267,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 246,
-        "end": 267,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 252,
-            "end": 265,
-            "directive": "use strict",
-            "expression": {
-              "type": "Literal",
-              "start": 252,
-              "end": 264,
-              "raw": "'use strict'",
-              "value": "use strict"
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 224,
@@ -367,6 +343,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "AssignmentPattern",
@@ -382,20 +362,21 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "right": {
             "type": "Literal",
             "start": 234,
             "end": 235,
-            "raw": "1",
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
+          "optional": false,
           "typeAnnotation": null
         },
         {
           "type": "RestElement",
           "start": 237,
           "end": 244,
+          "decorators": [],
           "argument": {
             "type": "Identifier",
             "start": 240,
@@ -405,43 +386,38 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "decorators": [],
           "optional": false,
           "typeAnnotation": null,
           "value": null
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 246,
+        "end": 267,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 252,
+            "end": 265,
+            "expression": {
+              "type": "Literal",
+              "start": 252,
+              "end": 264,
+              "value": "use strict",
+              "raw": "'use strict'"
+            },
+            "directive": "use strict"
+          }
+        ]
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 269,
       "end": 323,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 302,
-        "end": 323,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 308,
-            "end": 321,
-            "directive": "use strict",
-            "expression": {
-              "type": "Literal",
-              "start": 308,
-              "end": 320,
-              "raw": "'use strict'",
-              "value": "use strict"
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 278,
@@ -451,6 +427,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "AssignmentPattern",
@@ -466,48 +446,44 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "right": {
             "type": "Literal",
             "start": 299,
             "end": 300,
-            "raw": "1",
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
+          "optional": false,
           "typeAnnotation": null
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 302,
+        "end": 323,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 308,
+            "end": 321,
+            "expression": {
+              "type": "Literal",
+              "start": 308,
+              "end": 320,
+              "value": "use strict",
+              "raw": "'use strict'"
+            },
+            "directive": "use strict"
+          }
+        ]
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 325,
       "end": 388,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 367,
-        "end": 388,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 373,
-            "end": 386,
-            "directive": "use strict",
-            "expression": {
-              "type": "Literal",
-              "start": 373,
-              "end": 385,
-              "raw": "'use strict'",
-              "value": "use strict"
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 334,
@@ -517,19 +493,22 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "ObjectPattern",
           "start": 355,
           "end": 365,
           "decorators": [],
-          "optional": false,
           "properties": [
             {
               "type": "Property",
               "start": 356,
               "end": 359,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 356,
@@ -539,10 +518,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "kind": "init",
-              "method": false,
-              "optional": false,
-              "shorthand": true,
               "value": {
                 "type": "Identifier",
                 "start": 356,
@@ -551,9 +526,14 @@ __ESTREE_TEST__:PASS:
                 "name": "foo",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "method": false,
+              "shorthand": true,
+              "computed": false,
+              "optional": false
             }
           ],
+          "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
             "start": 360,
@@ -567,36 +547,32 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 367,
+        "end": 388,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 373,
+            "end": 386,
+            "expression": {
+              "type": "Literal",
+              "start": 373,
+              "end": 385,
+              "value": "use strict",
+              "raw": "'use strict'"
+            },
+            "directive": "use strict"
+          }
+        ]
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 390,
       "end": 454,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 433,
-        "end": 454,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 439,
-            "end": 452,
-            "directive": "use strict",
-            "expression": {
-              "type": "Literal",
-              "start": 439,
-              "end": 451,
-              "raw": "'use strict'",
-              "value": "use strict"
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 399,
@@ -606,6 +582,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "ArrayPattern",
@@ -642,36 +622,32 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 433,
+        "end": 454,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 439,
+            "end": 452,
+            "expression": {
+              "type": "Literal",
+              "start": 439,
+              "end": 451,
+              "value": "use strict",
+              "raw": "'use strict'"
+            },
+            "directive": "use strict"
+          }
+        ]
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 456,
       "end": 516,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 495,
-        "end": 516,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 501,
-            "end": 514,
-            "directive": "use strict",
-            "expression": {
-              "type": "Literal",
-              "start": 501,
-              "end": 513,
-              "raw": "\"use strict\"",
-              "value": "use strict"
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 465,
@@ -681,6 +657,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "AssignmentPattern",
@@ -696,14 +676,14 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "right": {
             "type": "Literal",
             "start": 483,
             "end": 485,
-            "raw": "10",
-            "value": 10
+            "value": 10,
+            "raw": "10"
           },
+          "optional": false,
           "typeAnnotation": null
         },
         {
@@ -720,61 +700,44 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "right": {
             "type": "Literal",
             "start": 491,
             "end": 493,
-            "raw": "20",
-            "value": 20
+            "value": 20,
+            "raw": "20"
           },
+          "optional": false,
           "typeAnnotation": null
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 495,
+        "end": 516,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 501,
+            "end": 514,
+            "expression": {
+              "type": "Literal",
+              "start": 501,
+              "end": 513,
+              "value": "use strict",
+              "raw": "\"use strict\""
+            },
+            "directive": "use strict"
+          }
+        ]
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 518,
       "end": 588,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 556,
-        "end": 588,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 562,
-            "end": 568,
-            "directive": "foo",
-            "expression": {
-              "type": "Literal",
-              "start": 562,
-              "end": 567,
-              "raw": "\"foo\"",
-              "value": "foo"
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 573,
-            "end": 586,
-            "directive": "use strict",
-            "expression": {
-              "type": "Literal",
-              "start": 573,
-              "end": 585,
-              "raw": "\"use strict\"",
-              "value": "use strict"
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 527,
@@ -784,6 +747,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "AssignmentPattern",
@@ -799,14 +766,14 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "right": {
             "type": "Literal",
             "start": 544,
             "end": 546,
-            "raw": "10",
-            "value": 10
+            "value": 10,
+            "raw": "10"
           },
+          "optional": false,
           "typeAnnotation": null
         },
         {
@@ -823,92 +790,57 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "right": {
             "type": "Literal",
             "start": 552,
             "end": 554,
-            "raw": "20",
-            "value": 20
+            "value": 20,
+            "raw": "20"
           },
+          "optional": false,
           "typeAnnotation": null
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 556,
+        "end": 588,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 562,
+            "end": 568,
+            "expression": {
+              "type": "Literal",
+              "start": 562,
+              "end": 567,
+              "value": "foo",
+              "raw": "\"foo\""
+            },
+            "directive": "foo"
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 573,
+            "end": 586,
+            "expression": {
+              "type": "Literal",
+              "start": 573,
+              "end": 585,
+              "value": "use strict",
+              "raw": "\"use strict\""
+            },
+            "directive": "use strict"
+          }
+        ]
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 590,
       "end": 680,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 631,
-        "end": 680,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 637,
-            "end": 643,
-            "directive": "foo",
-            "expression": {
-              "type": "Literal",
-              "start": 637,
-              "end": 642,
-              "raw": "\"foo\"",
-              "value": "foo"
-            }
-          },
-          {
-            "type": "VariableDeclaration",
-            "start": 648,
-            "end": 660,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 654,
-                "end": 659,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 654,
-                  "end": 655,
-                  "decorators": [],
-                  "name": "c",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "init": {
-                  "type": "Literal",
-                  "start": 658,
-                  "end": 659,
-                  "raw": "1",
-                  "value": 1
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "const"
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 665,
-            "end": 678,
-            "directive": null,
-            "expression": {
-              "type": "Literal",
-              "start": 665,
-              "end": 677,
-              "raw": "\"use strict\"",
-              "value": "use strict"
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 599,
@@ -918,6 +850,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "AssignmentPattern",
@@ -933,14 +869,14 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "right": {
             "type": "Literal",
             "start": 619,
             "end": 621,
-            "raw": "10",
-            "value": 10
+            "value": 10,
+            "raw": "10"
           },
+          "optional": false,
           "typeAnnotation": null
         },
         {
@@ -957,19 +893,83 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "right": {
             "type": "Literal",
             "start": 627,
             "end": 629,
-            "raw": "20",
-            "value": 20
+            "value": 20,
+            "raw": "20"
           },
+          "optional": false,
           "typeAnnotation": null
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 631,
+        "end": 680,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 637,
+            "end": 643,
+            "expression": {
+              "type": "Literal",
+              "start": 637,
+              "end": 642,
+              "value": "foo",
+              "raw": "\"foo\""
+            },
+            "directive": "foo"
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 648,
+            "end": 660,
+            "kind": "const",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 654,
+                "end": 659,
+                "id": {
+                  "type": "Identifier",
+                  "start": 654,
+                  "end": 655,
+                  "decorators": [],
+                  "name": "c",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "init": {
+                  "type": "Literal",
+                  "start": 658,
+                  "end": 659,
+                  "value": 1,
+                  "raw": "1"
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 665,
+            "end": 678,
+            "expression": {
+              "type": "Literal",
+              "start": 665,
+              "end": 677,
+              "value": "use strict",
+              "raw": "\"use strict\""
+            },
+            "directive": null
+          }
+        ]
+      },
+      "expression": false
     }
   ],
   "sourceType": "module",

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 567,
       "end": 778,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -66,8 +67,8 @@
                               "end": 617,
                               "name": "DateTimeFormat"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -86,9 +87,7 @@
                                   "type": "Property",
                                   "start": 629,
                                   "end": 647,
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 629,
@@ -102,7 +101,9 @@
                                     "value": "short",
                                     "raw": "\"short\""
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": false
                                 }
                               ]
                             }
@@ -114,8 +115,8 @@
                           "end": 669,
                           "name": "formatToParts"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -134,17 +135,15 @@
                       "end": 682,
                       "name": "find"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
                       "type": "ArrowFunctionExpression",
                       "start": 683,
                       "end": 763,
-                      "id": null,
                       "expression": true,
-                      "generator": false,
                       "async": false,
                       "params": [
                         {
@@ -190,8 +189,8 @@
                               "end": 712,
                               "name": "type"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "operator": "===",
                           "right": {
@@ -240,8 +239,8 @@
                                   "raw": "1"
                                 }
                               },
-                              "computed": true,
-                              "optional": false
+                              "optional": false,
+                              "computed": true
                             },
                             "property": {
                               "type": "Identifier",
@@ -249,8 +248,8 @@
                               "end": 747,
                               "name": "type"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "operator": "===",
                           "right": {
@@ -261,7 +260,9 @@
                             "raw": "\"dayPeriod\""
                           }
                         }
-                      }
+                      },
+                      "id": null,
+                      "generator": false
                     }
                   ],
                   "optional": false
@@ -272,8 +273,8 @@
                   "end": 771,
                   "name": "value"
                 },
-                "computed": false,
-                "optional": true
+                "optional": true,
+                "computed": false
               }
             },
             "operator": "||",
@@ -286,13 +287,13 @@
             }
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 779,
       "end": 1002,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -344,8 +345,8 @@
                           "end": 831,
                           "name": "DateTimeFormat"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -364,9 +365,7 @@
                               "type": "Property",
                               "start": 843,
                               "end": 861,
-                              "method": false,
-                              "shorthand": false,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 843,
@@ -380,7 +379,9 @@
                                 "value": "short",
                                 "raw": "\"short\""
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": false,
+                              "computed": false
                             }
                           ]
                         }
@@ -392,8 +393,8 @@
                       "end": 886,
                       "name": "formatRangeToParts"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -471,17 +472,15 @@
                   "end": 932,
                   "name": "find"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
                   "type": "ArrowFunctionExpression",
                   "start": 933,
                   "end": 994,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [
                     {
@@ -515,8 +514,8 @@
                           "end": 952,
                           "name": "type"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "operator": "===",
                       "right": {
@@ -548,8 +547,8 @@
                           "end": 981,
                           "name": "source"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "operator": "===",
                       "right": {
@@ -560,7 +559,9 @@
                         "raw": "\"shared\""
                       }
                     }
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 }
               ],
               "optional": false
@@ -571,17 +572,17 @@
               "end": 1001,
               "name": "value"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1004,
       "end": 1085,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -613,8 +614,8 @@
                 "end": 1045,
                 "name": "DateTimeFormat"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -633,9 +634,7 @@
                     "type": "Property",
                     "start": 1057,
                     "end": 1081,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1057,
@@ -649,20 +648,22 @@
                       "value": "Pacific/Apia",
                       "raw": "\"Pacific/Apia\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1087,
       "end": 1136,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -694,8 +695,8 @@
                 "end": 1123,
                 "name": "PlainDate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -722,13 +723,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1137,
       "end": 1186,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -760,8 +761,8 @@
                 "end": 1173,
                 "name": "PlainDate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -788,13 +789,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1187,
       "end": 1242,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -826,8 +827,8 @@
                 "end": 1227,
                 "name": "formatRange"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -846,8 +847,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -873,8 +873,8 @@
             "end": 1259,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -887,14 +887,6 @@
             "type": "TemplateLiteral",
             "start": 1272,
             "end": 1313,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 1283,
-                "end": 1303,
-                "name": "usDateRangeSeparator"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -916,6 +908,14 @@
                 },
                 "tail": true
               }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 1283,
+                "end": 1303,
+                "name": "usDateRangeSeparator"
+              }
             ]
           },
           {
@@ -933,6 +933,7 @@
       "type": "VariableDeclaration",
       "start": 1332,
       "end": 1415,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -964,8 +965,8 @@
                 "end": 1376,
                 "name": "PlainDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1034,13 +1035,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1416,
       "end": 1500,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1072,8 +1073,8 @@
                 "end": 1460,
                 "name": "PlainDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1142,13 +1143,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1501,
       "end": 1568,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1180,8 +1181,8 @@
                 "end": 1545,
                 "name": "formatRange"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1200,8 +1201,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1227,8 +1227,8 @@
             "end": 1585,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1241,26 +1241,6 @@
             "type": "TemplateLiteral",
             "start": 1607,
             "end": 1700,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 1628,
-                "end": 1644,
-                "name": "usDayPeriodSpace"
-              },
-              {
-                "type": "Identifier",
-                "start": 1649,
-                "end": 1669,
-                "name": "usDateRangeSeparator"
-              },
-              {
-                "type": "Identifier",
-                "start": 1680,
-                "end": 1696,
-                "name": "usDayPeriodSpace"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -1302,6 +1282,26 @@
                 },
                 "tail": true
               }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 1628,
+                "end": 1644,
+                "name": "usDayPeriodSpace"
+              },
+              {
+                "type": "Identifier",
+                "start": 1649,
+                "end": 1669,
+                "name": "usDateRangeSeparator"
+              },
+              {
+                "type": "Identifier",
+                "start": 1680,
+                "end": 1696,
+                "name": "usDayPeriodSpace"
+              }
             ]
           },
           {
@@ -1319,6 +1319,7 @@
       "type": "VariableDeclaration",
       "start": 1726,
       "end": 1788,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1350,8 +1351,8 @@
                 "end": 1770,
                 "name": "PlainMonthDay"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1378,13 +1379,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1789,
       "end": 1851,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1416,8 +1417,8 @@
                 "end": 1833,
                 "name": "PlainMonthDay"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1444,13 +1445,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1852,
       "end": 1919,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1482,8 +1483,8 @@
                 "end": 1896,
                 "name": "formatRange"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1502,8 +1503,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1529,8 +1529,8 @@
             "end": 1936,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1543,14 +1543,6 @@
             "type": "TemplateLiteral",
             "start": 1953,
             "end": 1984,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 1959,
-                "end": 1979,
-                "name": "usDateRangeSeparator"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -1572,6 +1564,14 @@
                 },
                 "tail": true
               }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 1959,
+                "end": 1979,
+                "name": "usDateRangeSeparator"
+              }
             ]
           },
           {
@@ -1589,6 +1589,7 @@
       "type": "VariableDeclaration",
       "start": 2008,
       "end": 2071,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1620,8 +1621,8 @@
                 "end": 2044,
                 "name": "PlainTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1669,13 +1670,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 2072,
       "end": 2136,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1707,8 +1708,8 @@
                 "end": 2108,
                 "name": "PlainTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1756,13 +1757,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 2137,
       "end": 2192,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1794,8 +1795,8 @@
                 "end": 2177,
                 "name": "formatRange"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1814,8 +1815,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -1841,8 +1841,8 @@
             "end": 2209,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1855,26 +1855,6 @@
             "type": "TemplateLiteral",
             "start": 2227,
             "end": 2310,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 2238,
-                "end": 2254,
-                "name": "usDayPeriodSpace"
-              },
-              {
-                "type": "Identifier",
-                "start": 2259,
-                "end": 2279,
-                "name": "usDateRangeSeparator"
-              },
-              {
-                "type": "Identifier",
-                "start": 2290,
-                "end": 2306,
-                "name": "usDayPeriodSpace"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -1916,6 +1896,26 @@
                 },
                 "tail": true
               }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 2238,
+                "end": 2254,
+                "name": "usDayPeriodSpace"
+              },
+              {
+                "type": "Identifier",
+                "start": 2259,
+                "end": 2279,
+                "name": "usDateRangeSeparator"
+              },
+              {
+                "type": "Identifier",
+                "start": 2290,
+                "end": 2306,
+                "name": "usDayPeriodSpace"
+              }
             ]
           },
           {
@@ -1933,6 +1933,7 @@
       "type": "VariableDeclaration",
       "start": 2332,
       "end": 2395,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1964,8 +1965,8 @@
                 "end": 2374,
                 "name": "PlainYearMonth"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1992,13 +1993,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 2396,
       "end": 2459,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2030,8 +2031,8 @@
                 "end": 2438,
                 "name": "PlainYearMonth"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2058,13 +2059,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 2460,
       "end": 2518,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -2096,8 +2097,8 @@
                 "end": 2501,
                 "name": "formatRange"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2116,8 +2117,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -2143,8 +2143,8 @@
             "end": 2535,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2157,14 +2157,6 @@
             "type": "TemplateLiteral",
             "start": 2549,
             "end": 2586,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 2558,
-                "end": 2578,
-                "name": "usDateRangeSeparator"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -2185,6 +2177,14 @@
                   "cooked": "9/2021"
                 },
                 "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 2558,
+                "end": 2578,
+                "name": "usDateRangeSeparator"
               }
             ]
           },

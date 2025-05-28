@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 283,
       "end": 301,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -24,8 +25,7 @@
             "end": 300
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -37,7 +37,6 @@
         "end": 320,
         "name": "testcase"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -50,6 +49,7 @@
             "type": "VariableDeclaration",
             "start": 325,
             "end": 344,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -68,8 +68,7 @@
                   "name": "eval"
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -95,8 +94,8 @@
                   "end": 361,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -138,7 +137,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

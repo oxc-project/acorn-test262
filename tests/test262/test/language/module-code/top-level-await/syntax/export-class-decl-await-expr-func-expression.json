@@ -13,7 +13,6 @@
         "end": 2223,
         "name": "fn"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -31,7 +30,6 @@
               "start": 2237,
               "end": 2250,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -40,11 +38,13 @@
                 "start": 2248,
                 "end": 2250,
                 "body": []
-              }
+              },
+              "expression": false
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExportNamedDeclaration",
@@ -80,7 +80,6 @@
                 "start": 2327,
                 "end": 2340,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -89,7 +88,8 @@
                   "start": 2338,
                   "end": 2340,
                   "body": []
-                }
+                },
+                "expression": false
               }
             }
           ],

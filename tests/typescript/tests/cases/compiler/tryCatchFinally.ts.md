@@ -15,22 +15,10 @@ __ESTREE_TEST__:PASS:
         "end": 7,
         "body": []
       },
-      "finalizer": {
-        "type": "BlockStatement",
-        "start": 29,
-        "end": 32,
-        "body": []
-      },
       "handler": {
         "type": "CatchClause",
         "start": 8,
         "end": 20,
-        "body": {
-          "type": "BlockStatement",
-          "start": 17,
-          "end": 20,
-          "body": []
-        },
         "param": {
           "type": "Identifier",
           "start": 14,
@@ -39,7 +27,19 @@ __ESTREE_TEST__:PASS:
           "name": "e",
           "optional": false,
           "typeAnnotation": null
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 17,
+          "end": 20,
+          "body": []
         }
+      },
+      "finalizer": {
+        "type": "BlockStatement",
+        "start": 29,
+        "end": 32,
+        "body": []
       }
     },
     {
@@ -52,17 +52,10 @@ __ESTREE_TEST__:PASS:
         "end": 41,
         "body": []
       },
-      "finalizer": null,
       "handler": {
         "type": "CatchClause",
         "start": 42,
         "end": 53,
-        "body": {
-          "type": "BlockStatement",
-          "start": 51,
-          "end": 53,
-          "body": []
-        },
         "param": {
           "type": "Identifier",
           "start": 48,
@@ -71,8 +64,15 @@ __ESTREE_TEST__:PASS:
           "name": "e",
           "optional": false,
           "typeAnnotation": null
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 51,
+          "end": 53,
+          "body": []
         }
-      }
+      },
+      "finalizer": null
     },
     {
       "type": "TryStatement",
@@ -84,13 +84,13 @@ __ESTREE_TEST__:PASS:
         "end": 61,
         "body": []
       },
+      "handler": null,
       "finalizer": {
         "type": "BlockStatement",
         "start": 70,
         "end": 72,
         "body": []
-      },
-      "handler": null
+      }
     }
   ],
   "sourceType": "script",

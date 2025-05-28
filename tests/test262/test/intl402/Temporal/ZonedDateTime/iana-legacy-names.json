@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 258,
       "end": 382,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -82,8 +83,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -109,17 +109,15 @@
             "end": 403,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 404,
             "end": 591,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": false,
             "params": [
               {
@@ -138,6 +136,7 @@
                   "type": "VariableDeclaration",
                   "start": 417,
                   "end": 470,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -169,8 +168,8 @@
                             "end": 460,
                             "name": "ZonedDateTime"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -190,8 +189,7 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -217,8 +215,8 @@
                         "end": 489,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -237,8 +235,8 @@
                           "end": 509,
                           "name": "timeZoneId"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       {
                         "type": "Identifier",
@@ -250,33 +248,6 @@
                         "type": "TemplateLiteral",
                         "start": 516,
                         "end": 587,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 520,
-                            "end": 523,
-                            "name": "arg"
-                          },
-                          {
-                            "type": "MemberExpression",
-                            "start": 544,
-                            "end": 563,
-                            "object": {
-                              "type": "Identifier",
-                              "start": 544,
-                              "end": 552,
-                              "name": "instance"
-                            },
-                            "property": {
-                              "type": "Identifier",
-                              "start": 553,
-                              "end": 563,
-                              "name": "timeZoneId"
-                            },
-                            "computed": false,
-                            "optional": false
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -308,6 +279,33 @@
                             },
                             "tail": true
                           }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 520,
+                            "end": 523,
+                            "name": "arg"
+                          },
+                          {
+                            "type": "MemberExpression",
+                            "start": 544,
+                            "end": 563,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 544,
+                              "end": 552,
+                              "name": "instance"
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 553,
+                              "end": 563,
+                              "name": "timeZoneId"
+                            },
+                            "optional": false,
+                            "computed": false
+                          }
                         ]
                       }
                     ],
@@ -315,7 +313,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

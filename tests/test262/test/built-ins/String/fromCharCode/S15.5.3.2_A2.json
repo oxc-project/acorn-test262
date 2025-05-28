@@ -31,8 +31,8 @@
               "end": 367,
               "name": "fromCharCode"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [],
           "optional": false
@@ -98,8 +98,8 @@
                         "end": 486,
                         "name": "fromCharCode"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false

@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSTypeAliasDeclaration",
       "start": 0,
       "end": 18,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 5,
@@ -19,28 +18,28 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSNumberKeyword",
         "start": 11,
         "end": 17
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 19,
       "end": 40,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 26,
         "end": 40,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 32,
             "end": 39,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 32,
@@ -54,17 +53,18 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 38,
               "end": 39,
-              "raw": "1",
-              "value": 1
-            }
+              "value": 1,
+              "raw": "1"
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportDefaultDeclaration",

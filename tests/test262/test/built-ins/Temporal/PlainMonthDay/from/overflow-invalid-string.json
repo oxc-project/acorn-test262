@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1128,
       "end": 1231,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -43,8 +44,8 @@
                     "end": 1178,
                     "name": "PlainMonthDay"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -72,9 +73,7 @@
                     "type": "Property",
                     "start": 1190,
                     "end": 1206,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1190,
@@ -88,15 +87,15 @@
                       "value": "M05",
                       "raw": "\"M05\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 1208,
                     "end": 1214,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1208,
@@ -110,7 +109,9 @@
                       "value": 2,
                       "raw": "2"
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               },
@@ -124,13 +125,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1233,
       "end": 1329,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -192,8 +193,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -204,6 +204,7 @@
         "type": "VariableDeclaration",
         "start": 1335,
         "end": 1346,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -217,8 +218,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -240,6 +240,7 @@
               "type": "VariableDeclaration",
               "start": 1372,
               "end": 1386,
+              "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -253,8 +254,7 @@
                   },
                   "init": null
                 }
-              ],
-              "kind": "const"
+              ]
             },
             "right": {
               "type": "Identifier",
@@ -291,8 +291,8 @@
                         "end": 1423,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -305,9 +305,7 @@
                         "type": "ArrowFunctionExpression",
                         "start": 1449,
                         "end": 1503,
-                        "id": null,
                         "expression": true,
-                        "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
@@ -334,8 +332,8 @@
                                 "end": 1477,
                                 "name": "PlainMonthDay"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "property": {
                               "type": "Identifier",
@@ -343,8 +341,8 @@
                               "end": 1482,
                               "name": "from"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -362,9 +360,7 @@
                                   "type": "Property",
                                   "start": 1492,
                                   "end": 1500,
-                                  "method": false,
-                                  "shorthand": true,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 1492,
@@ -377,26 +373,22 @@
                                     "end": 1500,
                                     "name": "overflow"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": true,
+                                  "computed": false
                                 }
                               ]
                             }
                           ],
                           "optional": false
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       },
                       {
                         "type": "TemplateLiteral",
                         "start": 1511,
                         "end": 1545,
-                        "expressions": [
-                          {
-                            "type": "Identifier",
-                            "start": 1533,
-                            "end": 1541,
-                            "name": "overflow"
-                          }
-                        ],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -417,6 +409,14 @@
                               "cooked": "\")"
                             },
                             "tail": true
+                          }
+                        ],
+                        "expressions": [
+                          {
+                            "type": "Identifier",
+                            "start": 1533,
+                            "end": 1541,
+                            "name": "overflow"
                           }
                         ]
                       }

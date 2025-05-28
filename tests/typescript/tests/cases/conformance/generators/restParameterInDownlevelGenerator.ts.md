@@ -9,62 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 56,
       "end": 139,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 106,
-        "end": 139,
-        "body": [
-          {
-            "type": "ForOfStatement",
-            "start": 112,
-            "end": 137,
-            "await": false,
-            "body": {
-              "type": "EmptyStatement",
-              "start": 136,
-              "end": 137
-            },
-            "left": {
-              "type": "VariableDeclaration",
-              "start": 117,
-              "end": 124,
-              "declarations": [
-                {
-                  "type": "VariableDeclarator",
-                  "start": 121,
-                  "end": 124,
-                  "definite": false,
-                  "id": {
-                    "type": "Identifier",
-                    "start": 121,
-                    "end": 124,
-                    "decorators": [],
-                    "name": "str",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "init": null
-                }
-              ],
-              "declare": false,
-              "kind": "var"
-            },
-            "right": {
-              "type": "Identifier",
-              "start": 128,
-              "end": 135,
-              "decorators": [],
-              "name": "strings",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": true,
       "id": {
         "type": "Identifier",
         "start": 67,
@@ -74,11 +18,16 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": true,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "RestElement",
           "start": 84,
           "end": 104,
+          "decorators": [],
           "argument": {
             "type": "Identifier",
             "start": 87,
@@ -88,7 +37,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "decorators": [],
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
@@ -109,7 +57,59 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 106,
+        "end": 139,
+        "body": [
+          {
+            "type": "ForOfStatement",
+            "start": 112,
+            "end": 137,
+            "await": false,
+            "left": {
+              "type": "VariableDeclaration",
+              "start": 117,
+              "end": 124,
+              "kind": "var",
+              "declarations": [
+                {
+                  "type": "VariableDeclarator",
+                  "start": 121,
+                  "end": 124,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 121,
+                    "end": 124,
+                    "decorators": [],
+                    "name": "str",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "init": null,
+                  "definite": false
+                }
+              ],
+              "declare": false
+            },
+            "right": {
+              "type": "Identifier",
+              "start": 128,
+              "end": 135,
+              "decorators": [],
+              "name": "strings",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "body": {
+              "type": "EmptyStatement",
+              "start": 136,
+              "end": 137
+            }
+          }
+        ]
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

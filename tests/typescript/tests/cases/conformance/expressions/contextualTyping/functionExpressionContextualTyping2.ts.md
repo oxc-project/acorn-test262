@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 662,
       "end": 702,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 666,
           "end": 702,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 666,
@@ -30,6 +30,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSFunctionType",
                 "start": 670,
                 "end": 702,
+                "typeParameters": null,
                 "params": [
                   {
                     "type": "Identifier",
@@ -77,27 +78,26 @@ __ESTREE_TEST__:PASS:
                     "start": 696,
                     "end": 702
                   }
-                },
-                "typeParameters": null
+                }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 703,
       "end": 758,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 707,
           "end": 757,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 707,
@@ -133,6 +133,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSFunctionType",
                     "start": 724,
                     "end": 756,
+                    "typeParameters": null,
                     "params": [
                       {
                         "type": "Identifier",
@@ -180,24 +181,22 @@ __ESTREE_TEST__:PASS:
                         "start": 750,
                         "end": 756
                       }
-                    },
-                    "typeParameters": null
+                    }
                   }
                 ]
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 759,
       "end": 794,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 759,
@@ -216,29 +215,9 @@ __ESTREE_TEST__:PASS:
           "type": "ArrowFunctionExpression",
           "start": 764,
           "end": 794,
-          "async": false,
-          "body": {
-            "type": "BlockStatement",
-            "start": 778,
-            "end": 794,
-            "body": [
-              {
-                "type": "ReturnStatement",
-                "start": 780,
-                "end": 792,
-                "argument": {
-                  "type": "Literal",
-                  "start": 787,
-                  "end": 791,
-                  "raw": "true",
-                  "value": true
-                }
-              }
-            ]
-          },
           "expression": false,
-          "generator": false,
-          "id": null,
+          "async": false,
+          "typeParameters": null,
           "params": [
             {
               "type": "Identifier",
@@ -260,9 +239,30 @@ __ESTREE_TEST__:PASS:
             }
           ],
           "returnType": null,
-          "typeParameters": null
+          "body": {
+            "type": "BlockStatement",
+            "start": 778,
+            "end": 794,
+            "body": [
+              {
+                "type": "ReturnStatement",
+                "start": 780,
+                "end": 792,
+                "argument": {
+                  "type": "Literal",
+                  "start": 787,
+                  "end": 791,
+                  "value": true,
+                  "raw": "true"
+                }
+              }
+            ]
+          },
+          "id": null,
+          "generator": false
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

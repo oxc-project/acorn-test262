@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 14,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 13,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -33,22 +33,22 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 15,
       "end": 51,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 19,
           "end": 50,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 19,
@@ -64,6 +64,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSFunctionType",
                 "start": 22,
                 "end": 34,
+                "typeParameters": null,
                 "params": [],
                 "returnType": {
                   "type": "TSTypeAnnotation",
@@ -74,8 +75,7 @@ __ESTREE_TEST__:PASS:
                     "start": 28,
                     "end": 34
                   }
-                },
-                "typeParameters": null
+                }
               }
             }
           },
@@ -83,11 +83,16 @@ __ESTREE_TEST__:PASS:
             "type": "ArrowFunctionExpression",
             "start": 37,
             "end": 50,
+            "expression": true,
             "async": false,
+            "typeParameters": null,
+            "params": [],
+            "returnType": null,
             "body": {
               "type": "YieldExpression",
               "start": 43,
               "end": 50,
+              "delegate": false,
               "argument": {
                 "type": "Identifier",
                 "start": 49,
@@ -96,20 +101,15 @@ __ESTREE_TEST__:PASS:
                 "name": "s",
                 "optional": false,
                 "typeAnnotation": null
-              },
-              "delegate": false
+              }
             },
-            "expression": true,
-            "generator": false,
             "id": null,
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
+            "generator": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

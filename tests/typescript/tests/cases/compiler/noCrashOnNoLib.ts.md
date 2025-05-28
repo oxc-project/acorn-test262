@@ -9,12 +9,25 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 91,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 7,
         "end": 91,
+        "id": {
+          "type": "Identifier",
+          "start": 16,
+          "end": 17,
+          "decorators": [],
+          "name": "f",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "generator": false,
         "async": false,
+        "declare": false,
+        "typeParameters": null,
+        "params": [],
+        "returnType": null,
         "body": {
           "type": "BlockStatement",
           "start": 20,
@@ -24,12 +37,12 @@ __ESTREE_TEST__:PASS:
               "type": "VariableDeclaration",
               "start": 26,
               "end": 38,
+              "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 30,
                   "end": 37,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 30,
@@ -54,16 +67,23 @@ __ESTREE_TEST__:PASS:
                       }
                     }
                   },
-                  "init": null
+                  "init": null,
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "let"
+              "declare": false
             },
             {
               "type": "WhileStatement",
               "start": 43,
               "end": 89,
+              "test": {
+                "type": "Literal",
+                "start": 50,
+                "end": 54,
+                "value": true,
+                "raw": "true"
+              },
               "body": {
                 "type": "BlockStatement",
                 "start": 56,
@@ -73,7 +93,6 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 64,
                     "end": 83,
-                    "directive": null,
                     "expression": {
                       "type": "AssignmentExpression",
                       "start": 64,
@@ -101,7 +120,6 @@ __ESTREE_TEST__:PASS:
                               "type": "LogicalExpression",
                               "start": 73,
                               "end": 80,
-                              "operator": "||",
                               "left": {
                                 "type": "Identifier",
                                 "start": 73,
@@ -111,6 +129,7 @@ __ESTREE_TEST__:PASS:
                                 "optional": false,
                                 "typeAnnotation": null
                               },
+                              "operator": "||",
                               "right": {
                                 "type": "ArrayExpression",
                                 "start": 78,
@@ -121,39 +140,20 @@ __ESTREE_TEST__:PASS:
                           }
                         ]
                       }
-                    }
+                    },
+                    "directive": null
                   }
                 ]
-              },
-              "test": {
-                "type": "Literal",
-                "start": 50,
-                "end": 54,
-                "raw": "true",
-                "value": true
               }
             }
           ]
         },
-        "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 16,
-          "end": 17,
-          "decorators": [],
-          "name": "f",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

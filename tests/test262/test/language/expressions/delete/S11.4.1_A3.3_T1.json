@@ -45,13 +45,13 @@
               "start": 367,
               "end": 375,
               "operator": "delete",
-              "prefix": true,
               "argument": {
                 "type": "Identifier",
                 "start": 374,
                 "end": 375,
                 "name": "x"
-              }
+              },
+              "prefix": true
             }
           },
           {

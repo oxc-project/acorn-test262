@@ -23,21 +23,17 @@
             "type": "MethodDefinition",
             "start": 960,
             "end": 991,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 975,
               "end": 986,
               "name": "constructor"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 986,
               "end": 991,
               "id": null,
-              "expression": false,
               "generator": true,
               "async": true,
               "params": [],
@@ -46,28 +42,28 @@
                 "start": 989,
                 "end": 991,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true
           },
           {
             "type": "MethodDefinition",
             "start": 994,
             "end": 1010,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 994,
               "end": 1005,
               "name": "constructor"
             },
-            "kind": "constructor",
             "value": {
               "type": "FunctionExpression",
               "start": 1005,
               "end": 1010,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -76,8 +72,12 @@
                 "start": 1008,
                 "end": 1010,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "constructor",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -117,8 +117,8 @@
                 "end": 1072,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -174,8 +174,8 @@
                   "end": 1108,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -183,8 +183,8 @@
                 "end": 1123,
                 "name": "hasOwnProperty"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -225,8 +225,8 @@
             "end": 1160,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -249,8 +249,8 @@
                 "end": 1172,
                 "name": "prototype"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "property": {
               "type": "Identifier",
@@ -258,8 +258,8 @@
               "end": 1184,
               "name": "constructor"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "MemberExpression",
@@ -277,8 +277,8 @@
               "end": 1199,
               "name": "constructor"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         ],
         "optional": false

@@ -9,12 +9,53 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 77,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 7,
         "end": 77,
-        "abstract": false,
+        "decorators": [],
+        "id": {
+          "type": "Identifier",
+          "start": 13,
+          "end": 14,
+          "decorators": [],
+          "name": "C",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": {
+          "type": "TSTypeParameterDeclaration",
+          "start": 14,
+          "end": 37,
+          "params": [
+            {
+              "type": "TSTypeParameter",
+              "start": 15,
+              "end": 36,
+              "name": {
+                "type": "Identifier",
+                "start": 15,
+                "end": 27,
+                "decorators": [],
+                "name": "TypeVariable",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "constraint": null,
+              "default": {
+                "type": "TSStringKeyword",
+                "start": 30,
+                "end": 36
+              },
+              "in": false,
+              "out": false,
+              "const": false
+            }
+          ]
+        },
+        "superClass": null,
+        "superTypeArguments": null,
+        "implements": [],
         "body": {
           "type": "ClassBody",
           "start": 38,
@@ -24,9 +65,6 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 42,
               "end": 75,
-              "accessibility": null,
-              "computed": false,
-              "declare": false,
               "decorators": [
                 {
                   "type": "Decorator",
@@ -43,7 +81,6 @@ __ESTREE_TEST__:PASS:
                   }
                 }
               ],
-              "definite": false,
               "key": {
                 "type": "Identifier",
                 "start": 54,
@@ -53,10 +90,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
-              "override": false,
-              "readonly": false,
-              "static": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
                 "start": 60,
@@ -65,7 +98,6 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 62,
                   "end": 74,
-                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 62,
@@ -74,61 +106,29 @@ __ESTREE_TEST__:PASS:
                     "name": "TypeVariable",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "typeArguments": null
                 }
               },
-              "value": null
+              "value": null,
+              "computed": false,
+              "static": false,
+              "declare": false,
+              "override": false,
+              "optional": false,
+              "definite": false,
+              "readonly": false,
+              "accessibility": null
             }
           ]
         },
-        "declare": false,
-        "decorators": [],
-        "id": {
-          "type": "Identifier",
-          "start": 13,
-          "end": 14,
-          "decorators": [],
-          "name": "C",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
-        "typeParameters": {
-          "type": "TSTypeParameterDeclaration",
-          "start": 14,
-          "end": 37,
-          "params": [
-            {
-              "type": "TSTypeParameter",
-              "start": 15,
-              "end": 36,
-              "const": false,
-              "constraint": null,
-              "default": {
-                "type": "TSStringKeyword",
-                "start": 30,
-                "end": 36
-              },
-              "in": false,
-              "name": {
-                "type": "Identifier",
-                "start": 15,
-                "end": 27,
-                "decorators": [],
-                "name": "TypeVariable",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "out": false
-            }
-          ]
-        }
+        "abstract": false,
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

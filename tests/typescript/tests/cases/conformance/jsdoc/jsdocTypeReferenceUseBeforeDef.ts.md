@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 24,
       "end": 38,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 30,
           "end": 38,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 30,
@@ -28,26 +28,18 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 34,
             "end": 38,
-            "raw": "null",
-            "value": null
-          }
+            "value": null,
+            "raw": "null"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 39,
       "end": 50,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 47,
-        "end": 50,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -58,10 +50,18 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 47,
+        "end": 50,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

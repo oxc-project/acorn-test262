@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 17,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 6,
           "end": 16,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
@@ -28,24 +28,24 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 10,
             "end": 16,
-            "raw": "\"oops\"",
-            "value": "oops"
-          }
+            "value": "oops",
+            "raw": "\"oops\""
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 18,
       "end": 39,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 24,
           "end": 38,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 24,
@@ -59,19 +59,11 @@ __ESTREE_TEST__:PASS:
             "type": "UnaryExpression",
             "start": 28,
             "end": 38,
+            "operator": "+",
             "argument": {
               "type": "TSTypeAssertion",
               "start": 30,
               "end": 38,
-              "expression": {
-                "type": "Identifier",
-                "start": 37,
-                "end": 38,
-                "decorators": [],
-                "name": "x",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "typeAnnotation": {
                 "type": "TSLiteralType",
                 "start": 31,
@@ -80,18 +72,26 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 31,
                   "end": 35,
-                  "raw": "1234",
-                  "value": 1234
+                  "value": 1234,
+                  "raw": "1234"
                 }
+              },
+              "expression": {
+                "type": "Identifier",
+                "start": 37,
+                "end": 38,
+                "decorators": [],
+                "name": "x",
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "operator": "+",
             "prefix": true
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "script",

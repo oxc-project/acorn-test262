@@ -26,9 +26,7 @@
               "type": "Property",
               "start": 1154,
               "end": 1166,
-              "method": false,
-              "shorthand": true,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 1154,
@@ -58,7 +56,9 @@
                   }
                 }
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": true,
+              "computed": false
             }
           ]
         },
@@ -94,9 +94,7 @@
               "type": "Property",
               "start": 1204,
               "end": 1219,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 1204,
@@ -126,7 +124,9 @@
                   }
                 }
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             }
           ]
         },

@@ -13,14 +13,6 @@ __ESTREE_TEST__:PASS:
         "type": "ClassDeclaration",
         "start": 15,
         "end": 27,
-        "abstract": false,
-        "body": {
-          "type": "ClassBody",
-          "start": 25,
-          "end": 27,
-          "body": []
-        },
-        "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
@@ -31,10 +23,18 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "implements": [],
+        "typeParameters": null,
         "superClass": null,
         "superTypeArguments": null,
-        "typeParameters": null
+        "implements": [],
+        "body": {
+          "type": "ClassBody",
+          "start": 25,
+          "end": 27,
+          "body": []
+        },
+        "abstract": false,
+        "declare": false
       },
       "exportKind": "value"
     },
@@ -42,19 +42,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 28,
       "end": 47,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 35,
         "end": 47,
-        "abstract": false,
-        "body": {
-          "type": "ClassBody",
-          "start": 45,
-          "end": 47,
-          "body": []
-        },
-        "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
@@ -65,14 +56,23 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "implements": [],
+        "typeParameters": null,
         "superClass": null,
         "superTypeArguments": null,
-        "typeParameters": null
+        "implements": [],
+        "body": {
+          "type": "ClassBody",
+          "start": 45,
+          "end": 47,
+          "body": []
+        },
+        "abstract": false,
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -90,14 +90,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 24,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 16,
-        "end": 23,
-        "raw": "\"./mod\"",
-        "value": "./mod"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -114,21 +106,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 16,
+        "end": 23,
+        "value": "./mod",
+        "raw": "\"./mod\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 25,
       "end": 65,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 57,
-        "end": 64,
-        "raw": "\"./mod\"",
-        "value": "./mod"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -143,7 +135,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 45,
@@ -152,24 +143,25 @@ __ESTREE_TEST__:PASS:
             "name": "Foo2",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 57,
+        "end": 64,
+        "value": "./mod",
+        "raw": "\"./mod\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 66,
       "end": 111,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 103,
-        "end": 110,
-        "raw": "\"./mod\"",
-        "value": "./mod"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -184,7 +176,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 75,
@@ -193,7 +184,8 @@ __ESTREE_TEST__:PASS:
             "name": "Bar",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         },
         {
           "type": "ImportSpecifier",
@@ -208,7 +200,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 91,
@@ -217,22 +208,29 @@ __ESTREE_TEST__:PASS:
             "name": "Foo3",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 103,
+        "end": 110,
+        "value": "./mod",
+        "raw": "\"./mod\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 112,
       "end": 122,
-      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 112,
         "end": 121,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 116,
@@ -242,19 +240,19 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": []
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 123,
       "end": 134,
-      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 123,
         "end": 133,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 127,
@@ -264,19 +262,19 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": []
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 135,
       "end": 145,
-      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 135,
         "end": 144,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 139,
@@ -286,19 +284,19 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": []
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 146,
       "end": 157,
-      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 146,
         "end": 156,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 150,
@@ -308,8 +306,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": []
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

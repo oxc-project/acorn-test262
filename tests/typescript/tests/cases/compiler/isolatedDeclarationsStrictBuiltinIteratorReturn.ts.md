@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 33,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 12,
           "end": 32,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
@@ -30,6 +30,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 16,
                 "end": 32,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 16,
+                  "end": 24,
+                  "decorators": [],
+                  "name": "Iterable",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 24,
@@ -41,35 +50,26 @@ __ESTREE_TEST__:PASS:
                       "end": 31
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 16,
-                  "end": 24,
-                  "decorators": [],
-                  "name": "Iterable",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "let"
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
       "start": 34,
       "end": 72,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 46,
           "end": 71,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 46,
@@ -85,6 +85,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 50,
                 "end": 71,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 50,
+                  "end": 58,
+                  "decorators": [],
+                  "name": "Iterable",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 58,
@@ -101,35 +110,26 @@ __ESTREE_TEST__:PASS:
                       "end": 70
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 50,
-                  "end": 58,
-                  "decorators": [],
-                  "name": "Iterable",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "let"
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
       "start": 73,
       "end": 116,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 85,
           "end": 115,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 85,
@@ -145,6 +145,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 89,
                 "end": 115,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 89,
+                  "end": 97,
+                  "decorators": [],
+                  "name": "Iterable",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 97,
@@ -166,35 +175,26 @@ __ESTREE_TEST__:PASS:
                       "end": 114
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 89,
-                  "end": 97,
-                  "decorators": [],
-                  "name": "Iterable",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "let"
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
       "start": 117,
       "end": 161,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 129,
           "end": 160,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 129,
@@ -210,6 +210,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 133,
                 "end": 160,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 133,
+                  "end": 141,
+                  "decorators": [],
+                  "name": "Iterable",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 141,
@@ -226,35 +235,26 @@ __ESTREE_TEST__:PASS:
                       "end": 159
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 133,
-                  "end": 141,
-                  "decorators": [],
-                  "name": "Iterable",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "let"
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
       "start": 162,
       "end": 211,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 174,
           "end": 210,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 174,
@@ -270,6 +270,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 178,
                 "end": 210,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 178,
+                  "end": 186,
+                  "decorators": [],
+                  "name": "Iterable",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 186,
@@ -291,35 +300,26 @@ __ESTREE_TEST__:PASS:
                       "end": 209
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 178,
-                  "end": 186,
-                  "decorators": [],
-                  "name": "Iterable",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "let"
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
       "start": 212,
       "end": 268,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 224,
           "end": 267,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 224,
@@ -335,6 +335,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 228,
                 "end": 267,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 228,
+                  "end": 236,
+                  "decorators": [],
+                  "name": "Iterable",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 236,
@@ -349,7 +358,6 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 245,
                       "end": 266,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 245,
@@ -358,38 +366,30 @@ __ESTREE_TEST__:PASS:
                         "name": "BuiltinIteratorReturn",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 228,
-                  "end": 236,
-                  "decorators": [],
-                  "name": "Iterable",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "let"
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
       "start": 269,
       "end": 330,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 281,
           "end": 329,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 281,
@@ -405,6 +405,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 285,
                 "end": 329,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 285,
+                  "end": 293,
+                  "decorators": [],
+                  "name": "Iterable",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 293,
@@ -419,7 +428,6 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 302,
                       "end": 323,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 302,
@@ -428,7 +436,8 @@ __ESTREE_TEST__:PASS:
                         "name": "BuiltinIteratorReturn",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSAnyKeyword",
@@ -436,35 +445,26 @@ __ESTREE_TEST__:PASS:
                       "end": 328
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 285,
-                  "end": 293,
-                  "decorators": [],
-                  "name": "Iterable",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "let"
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
       "start": 332,
       "end": 373,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 344,
           "end": 372,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 344,
@@ -480,6 +480,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 348,
                 "end": 372,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 348,
+                  "end": 364,
+                  "decorators": [],
+                  "name": "IterableIterator",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 364,
@@ -491,35 +500,26 @@ __ESTREE_TEST__:PASS:
                       "end": 371
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 348,
-                  "end": 364,
-                  "decorators": [],
-                  "name": "IterableIterator",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "let"
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
       "start": 374,
       "end": 420,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 386,
           "end": 419,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 386,
@@ -535,6 +535,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 390,
                 "end": 419,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 390,
+                  "end": 406,
+                  "decorators": [],
+                  "name": "IterableIterator",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 406,
@@ -551,35 +560,26 @@ __ESTREE_TEST__:PASS:
                       "end": 418
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 390,
-                  "end": 406,
-                  "decorators": [],
-                  "name": "IterableIterator",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "let"
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
       "start": 421,
       "end": 473,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 433,
           "end": 472,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 433,
@@ -595,6 +595,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 438,
                 "end": 472,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 438,
+                  "end": 454,
+                  "decorators": [],
+                  "name": "IterableIterator",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 454,
@@ -616,35 +625,26 @@ __ESTREE_TEST__:PASS:
                       "end": 471
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 438,
-                  "end": 454,
-                  "decorators": [],
-                  "name": "IterableIterator",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "let"
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
       "start": 474,
       "end": 527,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 486,
           "end": 526,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 486,
@@ -660,6 +660,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 491,
                 "end": 526,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 491,
+                  "end": 507,
+                  "decorators": [],
+                  "name": "IterableIterator",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 507,
@@ -676,35 +685,26 @@ __ESTREE_TEST__:PASS:
                       "end": 525
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 491,
-                  "end": 507,
-                  "decorators": [],
-                  "name": "IterableIterator",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "let"
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
       "start": 528,
       "end": 586,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 540,
           "end": 585,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 540,
@@ -720,6 +720,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 545,
                 "end": 585,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 545,
+                  "end": 561,
+                  "decorators": [],
+                  "name": "IterableIterator",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 561,
@@ -741,35 +750,26 @@ __ESTREE_TEST__:PASS:
                       "end": 584
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 545,
-                  "end": 561,
-                  "decorators": [],
-                  "name": "IterableIterator",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "let"
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
       "start": 587,
       "end": 652,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 599,
           "end": 651,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 599,
@@ -785,6 +785,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 604,
                 "end": 651,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 604,
+                  "end": 620,
+                  "decorators": [],
+                  "name": "IterableIterator",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 620,
@@ -799,7 +808,6 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 629,
                       "end": 650,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 629,
@@ -808,38 +816,30 @@ __ESTREE_TEST__:PASS:
                         "name": "BuiltinIteratorReturn",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 604,
-                  "end": 620,
-                  "decorators": [],
-                  "name": "IterableIterator",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "let"
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
       "start": 653,
       "end": 723,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 665,
           "end": 722,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 665,
@@ -855,6 +855,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 670,
                 "end": 722,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 670,
+                  "end": 686,
+                  "decorators": [],
+                  "name": "IterableIterator",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 686,
@@ -869,7 +878,6 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 695,
                       "end": 716,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 695,
@@ -878,7 +886,8 @@ __ESTREE_TEST__:PASS:
                         "name": "BuiltinIteratorReturn",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSAnyKeyword",
@@ -886,34 +895,20 @@ __ESTREE_TEST__:PASS:
                       "end": 721
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 670,
-                  "end": 686,
-                  "decorators": [],
-                  "name": "IterableIterator",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "let"
+      "declare": true
     },
     {
       "type": "TSDeclareFunction",
       "start": 725,
       "end": 765,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 742,
@@ -923,6 +918,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": null,
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
@@ -932,6 +931,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 748,
           "end": 764,
+          "typeName": {
+            "type": "Identifier",
+            "start": 748,
+            "end": 756,
+            "decorators": [],
+            "name": "Iterable",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
             "start": 756,
@@ -943,29 +951,16 @@ __ESTREE_TEST__:PASS:
                 "end": 763
               }
             ]
-          },
-          "typeName": {
-            "type": "Identifier",
-            "start": 748,
-            "end": 756,
-            "decorators": [],
-            "name": "Iterable",
-            "optional": false,
-            "typeAnnotation": null
           }
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "TSDeclareFunction",
       "start": 766,
       "end": 811,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 783,
@@ -975,6 +970,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": null,
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
@@ -984,6 +983,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 789,
           "end": 810,
+          "typeName": {
+            "type": "Identifier",
+            "start": 789,
+            "end": 797,
+            "decorators": [],
+            "name": "Iterable",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
             "start": 797,
@@ -1000,29 +1008,16 @@ __ESTREE_TEST__:PASS:
                 "end": 809
               }
             ]
-          },
-          "typeName": {
-            "type": "Identifier",
-            "start": 789,
-            "end": 797,
-            "decorators": [],
-            "name": "Iterable",
-            "optional": false,
-            "typeAnnotation": null
           }
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "TSDeclareFunction",
       "start": 812,
       "end": 862,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 829,
@@ -1032,6 +1027,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": null,
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
@@ -1041,6 +1040,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 835,
           "end": 861,
+          "typeName": {
+            "type": "Identifier",
+            "start": 835,
+            "end": 843,
+            "decorators": [],
+            "name": "Iterable",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
             "start": 843,
@@ -1062,29 +1070,16 @@ __ESTREE_TEST__:PASS:
                 "end": 860
               }
             ]
-          },
-          "typeName": {
-            "type": "Identifier",
-            "start": 835,
-            "end": 843,
-            "decorators": [],
-            "name": "Iterable",
-            "optional": false,
-            "typeAnnotation": null
           }
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "TSDeclareFunction",
       "start": 863,
       "end": 914,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 880,
@@ -1094,6 +1089,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": null,
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
@@ -1103,6 +1102,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 886,
           "end": 913,
+          "typeName": {
+            "type": "Identifier",
+            "start": 886,
+            "end": 894,
+            "decorators": [],
+            "name": "Iterable",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
             "start": 894,
@@ -1119,29 +1127,16 @@ __ESTREE_TEST__:PASS:
                 "end": 912
               }
             ]
-          },
-          "typeName": {
-            "type": "Identifier",
-            "start": 886,
-            "end": 894,
-            "decorators": [],
-            "name": "Iterable",
-            "optional": false,
-            "typeAnnotation": null
           }
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "TSDeclareFunction",
       "start": 915,
       "end": 971,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 932,
@@ -1151,6 +1146,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": null,
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
@@ -1160,6 +1159,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 938,
           "end": 970,
+          "typeName": {
+            "type": "Identifier",
+            "start": 938,
+            "end": 946,
+            "decorators": [],
+            "name": "Iterable",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
             "start": 946,
@@ -1181,29 +1189,16 @@ __ESTREE_TEST__:PASS:
                 "end": 969
               }
             ]
-          },
-          "typeName": {
-            "type": "Identifier",
-            "start": 938,
-            "end": 946,
-            "decorators": [],
-            "name": "Iterable",
-            "optional": false,
-            "typeAnnotation": null
           }
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "TSDeclareFunction",
       "start": 972,
       "end": 1035,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 989,
@@ -1213,6 +1208,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": null,
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
@@ -1222,6 +1221,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 995,
           "end": 1034,
+          "typeName": {
+            "type": "Identifier",
+            "start": 995,
+            "end": 1003,
+            "decorators": [],
+            "name": "Iterable",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
             "start": 1003,
@@ -1236,7 +1244,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 1012,
                 "end": 1033,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 1012,
@@ -1245,32 +1252,20 @@ __ESTREE_TEST__:PASS:
                   "name": "BuiltinIteratorReturn",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             ]
-          },
-          "typeName": {
-            "type": "Identifier",
-            "start": 995,
-            "end": 1003,
-            "decorators": [],
-            "name": "Iterable",
-            "optional": false,
-            "typeAnnotation": null
           }
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "TSDeclareFunction",
       "start": 1036,
       "end": 1104,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 1053,
@@ -1280,6 +1275,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": null,
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
@@ -1289,6 +1288,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 1059,
           "end": 1103,
+          "typeName": {
+            "type": "Identifier",
+            "start": 1059,
+            "end": 1067,
+            "decorators": [],
+            "name": "Iterable",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
             "start": 1067,
@@ -1303,7 +1311,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 1076,
                 "end": 1097,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 1076,
@@ -1312,7 +1319,8 @@ __ESTREE_TEST__:PASS:
                   "name": "BuiltinIteratorReturn",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               },
               {
                 "type": "TSAnyKeyword",
@@ -1320,29 +1328,16 @@ __ESTREE_TEST__:PASS:
                 "end": 1102
               }
             ]
-          },
-          "typeName": {
-            "type": "Identifier",
-            "start": 1059,
-            "end": 1067,
-            "decorators": [],
-            "name": "Iterable",
-            "optional": false,
-            "typeAnnotation": null
           }
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "TSDeclareFunction",
       "start": 1106,
       "end": 1154,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 1123,
@@ -1352,6 +1347,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": null,
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
@@ -1361,6 +1360,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 1129,
           "end": 1153,
+          "typeName": {
+            "type": "Identifier",
+            "start": 1129,
+            "end": 1145,
+            "decorators": [],
+            "name": "IterableIterator",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
             "start": 1145,
@@ -1372,29 +1380,16 @@ __ESTREE_TEST__:PASS:
                 "end": 1152
               }
             ]
-          },
-          "typeName": {
-            "type": "Identifier",
-            "start": 1129,
-            "end": 1145,
-            "decorators": [],
-            "name": "IterableIterator",
-            "optional": false,
-            "typeAnnotation": null
           }
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "TSDeclareFunction",
       "start": 1155,
       "end": 1208,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 1172,
@@ -1404,6 +1399,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": null,
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
@@ -1413,6 +1412,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 1178,
           "end": 1207,
+          "typeName": {
+            "type": "Identifier",
+            "start": 1178,
+            "end": 1194,
+            "decorators": [],
+            "name": "IterableIterator",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
             "start": 1194,
@@ -1429,29 +1437,16 @@ __ESTREE_TEST__:PASS:
                 "end": 1206
               }
             ]
-          },
-          "typeName": {
-            "type": "Identifier",
-            "start": 1178,
-            "end": 1194,
-            "decorators": [],
-            "name": "IterableIterator",
-            "optional": false,
-            "typeAnnotation": null
           }
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "TSDeclareFunction",
       "start": 1209,
       "end": 1268,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 1226,
@@ -1461,6 +1456,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": null,
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
@@ -1470,6 +1469,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 1233,
           "end": 1267,
+          "typeName": {
+            "type": "Identifier",
+            "start": 1233,
+            "end": 1249,
+            "decorators": [],
+            "name": "IterableIterator",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
             "start": 1249,
@@ -1491,29 +1499,16 @@ __ESTREE_TEST__:PASS:
                 "end": 1266
               }
             ]
-          },
-          "typeName": {
-            "type": "Identifier",
-            "start": 1233,
-            "end": 1249,
-            "decorators": [],
-            "name": "IterableIterator",
-            "optional": false,
-            "typeAnnotation": null
           }
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "TSDeclareFunction",
       "start": 1269,
       "end": 1329,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 1286,
@@ -1523,6 +1518,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": null,
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
@@ -1532,6 +1531,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 1293,
           "end": 1328,
+          "typeName": {
+            "type": "Identifier",
+            "start": 1293,
+            "end": 1309,
+            "decorators": [],
+            "name": "IterableIterator",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
             "start": 1309,
@@ -1548,29 +1556,16 @@ __ESTREE_TEST__:PASS:
                 "end": 1327
               }
             ]
-          },
-          "typeName": {
-            "type": "Identifier",
-            "start": 1293,
-            "end": 1309,
-            "decorators": [],
-            "name": "IterableIterator",
-            "optional": false,
-            "typeAnnotation": null
           }
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "TSDeclareFunction",
       "start": 1330,
       "end": 1395,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 1347,
@@ -1580,6 +1575,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": null,
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
@@ -1589,6 +1588,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 1354,
           "end": 1394,
+          "typeName": {
+            "type": "Identifier",
+            "start": 1354,
+            "end": 1370,
+            "decorators": [],
+            "name": "IterableIterator",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
             "start": 1370,
@@ -1610,29 +1618,16 @@ __ESTREE_TEST__:PASS:
                 "end": 1393
               }
             ]
-          },
-          "typeName": {
-            "type": "Identifier",
-            "start": 1354,
-            "end": 1370,
-            "decorators": [],
-            "name": "IterableIterator",
-            "optional": false,
-            "typeAnnotation": null
           }
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "TSDeclareFunction",
       "start": 1396,
       "end": 1468,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 1413,
@@ -1642,6 +1637,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": null,
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
@@ -1651,6 +1650,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 1420,
           "end": 1467,
+          "typeName": {
+            "type": "Identifier",
+            "start": 1420,
+            "end": 1436,
+            "decorators": [],
+            "name": "IterableIterator",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
             "start": 1436,
@@ -1665,7 +1673,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 1445,
                 "end": 1466,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 1445,
@@ -1674,32 +1681,20 @@ __ESTREE_TEST__:PASS:
                   "name": "BuiltinIteratorReturn",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             ]
-          },
-          "typeName": {
-            "type": "Identifier",
-            "start": 1420,
-            "end": 1436,
-            "decorators": [],
-            "name": "IterableIterator",
-            "optional": false,
-            "typeAnnotation": null
           }
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "TSDeclareFunction",
       "start": 1469,
       "end": 1546,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 1486,
@@ -1709,6 +1704,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": null,
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
@@ -1718,6 +1717,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 1493,
           "end": 1545,
+          "typeName": {
+            "type": "Identifier",
+            "start": 1493,
+            "end": 1509,
+            "decorators": [],
+            "name": "IterableIterator",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
             "start": 1509,
@@ -1732,7 +1740,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 1518,
                 "end": 1539,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 1518,
@@ -1741,7 +1748,8 @@ __ESTREE_TEST__:PASS:
                   "name": "BuiltinIteratorReturn",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               },
               {
                 "type": "TSAnyKeyword",
@@ -1749,30 +1757,22 @@ __ESTREE_TEST__:PASS:
                 "end": 1544
               }
             ]
-          },
-          "typeName": {
-            "type": "Identifier",
-            "start": 1493,
-            "end": 1509,
-            "decorators": [],
-            "name": "IterableIterator",
-            "optional": false,
-            "typeAnnotation": null
           }
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 1548,
       "end": 1589,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 1554,
           "end": 1588,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1554,
@@ -1786,22 +1786,9 @@ __ESTREE_TEST__:PASS:
             "type": "ArrowFunctionExpression",
             "start": 1559,
             "end": 1588,
-            "async": false,
-            "body": {
-              "type": "TSNonNullExpression",
-              "start": 1583,
-              "end": 1588,
-              "expression": {
-                "type": "Literal",
-                "start": 1583,
-                "end": 1587,
-                "raw": "null",
-                "value": null
-              }
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [],
             "returnType": {
               "type": "TSTypeAnnotation",
@@ -1811,6 +1798,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 1563,
                 "end": 1579,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 1563,
+                  "end": 1571,
+                  "decorators": [],
+                  "name": "Iterable",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 1571,
@@ -1822,35 +1818,39 @@ __ESTREE_TEST__:PASS:
                       "end": 1578
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 1563,
-                  "end": 1571,
-                  "decorators": [],
-                  "name": "Iterable",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             },
-            "typeParameters": null
-          }
+            "body": {
+              "type": "TSNonNullExpression",
+              "start": 1583,
+              "end": 1588,
+              "expression": {
+                "type": "Literal",
+                "start": 1583,
+                "end": 1587,
+                "value": null,
+                "raw": "null"
+              }
+            },
+            "id": null,
+            "generator": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 1590,
       "end": 1636,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 1596,
           "end": 1635,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1596,
@@ -1864,22 +1864,9 @@ __ESTREE_TEST__:PASS:
             "type": "ArrowFunctionExpression",
             "start": 1601,
             "end": 1635,
-            "async": false,
-            "body": {
-              "type": "TSNonNullExpression",
-              "start": 1630,
-              "end": 1635,
-              "expression": {
-                "type": "Literal",
-                "start": 1630,
-                "end": 1634,
-                "raw": "null",
-                "value": null
-              }
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [],
             "returnType": {
               "type": "TSTypeAnnotation",
@@ -1889,6 +1876,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 1605,
                 "end": 1626,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 1605,
+                  "end": 1613,
+                  "decorators": [],
+                  "name": "Iterable",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 1613,
@@ -1905,35 +1901,39 @@ __ESTREE_TEST__:PASS:
                       "end": 1625
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 1605,
-                  "end": 1613,
-                  "decorators": [],
-                  "name": "Iterable",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             },
-            "typeParameters": null
-          }
+            "body": {
+              "type": "TSNonNullExpression",
+              "start": 1630,
+              "end": 1635,
+              "expression": {
+                "type": "Literal",
+                "start": 1630,
+                "end": 1634,
+                "value": null,
+                "raw": "null"
+              }
+            },
+            "id": null,
+            "generator": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 1637,
       "end": 1688,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 1643,
           "end": 1687,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1643,
@@ -1947,22 +1947,9 @@ __ESTREE_TEST__:PASS:
             "type": "ArrowFunctionExpression",
             "start": 1648,
             "end": 1687,
-            "async": false,
-            "body": {
-              "type": "TSNonNullExpression",
-              "start": 1682,
-              "end": 1687,
-              "expression": {
-                "type": "Literal",
-                "start": 1682,
-                "end": 1686,
-                "raw": "null",
-                "value": null
-              }
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [],
             "returnType": {
               "type": "TSTypeAnnotation",
@@ -1972,6 +1959,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 1652,
                 "end": 1678,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 1652,
+                  "end": 1660,
+                  "decorators": [],
+                  "name": "Iterable",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 1660,
@@ -1993,35 +1989,39 @@ __ESTREE_TEST__:PASS:
                       "end": 1677
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 1652,
-                  "end": 1660,
-                  "decorators": [],
-                  "name": "Iterable",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             },
-            "typeParameters": null
-          }
+            "body": {
+              "type": "TSNonNullExpression",
+              "start": 1682,
+              "end": 1687,
+              "expression": {
+                "type": "Literal",
+                "start": 1682,
+                "end": 1686,
+                "value": null,
+                "raw": "null"
+              }
+            },
+            "id": null,
+            "generator": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 1689,
       "end": 1741,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 1695,
           "end": 1740,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1695,
@@ -2035,22 +2035,9 @@ __ESTREE_TEST__:PASS:
             "type": "ArrowFunctionExpression",
             "start": 1700,
             "end": 1740,
-            "async": false,
-            "body": {
-              "type": "TSNonNullExpression",
-              "start": 1735,
-              "end": 1740,
-              "expression": {
-                "type": "Literal",
-                "start": 1735,
-                "end": 1739,
-                "raw": "null",
-                "value": null
-              }
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [],
             "returnType": {
               "type": "TSTypeAnnotation",
@@ -2060,6 +2047,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 1704,
                 "end": 1731,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 1704,
+                  "end": 1712,
+                  "decorators": [],
+                  "name": "Iterable",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 1712,
@@ -2076,35 +2072,39 @@ __ESTREE_TEST__:PASS:
                       "end": 1730
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 1704,
-                  "end": 1712,
-                  "decorators": [],
-                  "name": "Iterable",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             },
-            "typeParameters": null
-          }
+            "body": {
+              "type": "TSNonNullExpression",
+              "start": 1735,
+              "end": 1740,
+              "expression": {
+                "type": "Literal",
+                "start": 1735,
+                "end": 1739,
+                "value": null,
+                "raw": "null"
+              }
+            },
+            "id": null,
+            "generator": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 1742,
       "end": 1799,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 1748,
           "end": 1798,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1748,
@@ -2118,22 +2118,9 @@ __ESTREE_TEST__:PASS:
             "type": "ArrowFunctionExpression",
             "start": 1753,
             "end": 1798,
-            "async": false,
-            "body": {
-              "type": "TSNonNullExpression",
-              "start": 1793,
-              "end": 1798,
-              "expression": {
-                "type": "Literal",
-                "start": 1793,
-                "end": 1797,
-                "raw": "null",
-                "value": null
-              }
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [],
             "returnType": {
               "type": "TSTypeAnnotation",
@@ -2143,6 +2130,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 1757,
                 "end": 1789,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 1757,
+                  "end": 1765,
+                  "decorators": [],
+                  "name": "Iterable",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 1765,
@@ -2164,35 +2160,39 @@ __ESTREE_TEST__:PASS:
                       "end": 1788
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 1757,
-                  "end": 1765,
-                  "decorators": [],
-                  "name": "Iterable",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             },
-            "typeParameters": null
-          }
+            "body": {
+              "type": "TSNonNullExpression",
+              "start": 1793,
+              "end": 1798,
+              "expression": {
+                "type": "Literal",
+                "start": 1793,
+                "end": 1797,
+                "value": null,
+                "raw": "null"
+              }
+            },
+            "id": null,
+            "generator": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 1800,
       "end": 1864,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 1806,
           "end": 1863,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1806,
@@ -2206,22 +2206,9 @@ __ESTREE_TEST__:PASS:
             "type": "ArrowFunctionExpression",
             "start": 1811,
             "end": 1863,
-            "async": false,
-            "body": {
-              "type": "TSNonNullExpression",
-              "start": 1858,
-              "end": 1863,
-              "expression": {
-                "type": "Literal",
-                "start": 1858,
-                "end": 1862,
-                "raw": "null",
-                "value": null
-              }
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [],
             "returnType": {
               "type": "TSTypeAnnotation",
@@ -2231,6 +2218,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 1815,
                 "end": 1854,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 1815,
+                  "end": 1823,
+                  "decorators": [],
+                  "name": "Iterable",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 1823,
@@ -2245,7 +2241,6 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 1832,
                       "end": 1853,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 1832,
@@ -2254,38 +2249,43 @@ __ESTREE_TEST__:PASS:
                         "name": "BuiltinIteratorReturn",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 1815,
-                  "end": 1823,
-                  "decorators": [],
-                  "name": "Iterable",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             },
-            "typeParameters": null
-          }
+            "body": {
+              "type": "TSNonNullExpression",
+              "start": 1858,
+              "end": 1863,
+              "expression": {
+                "type": "Literal",
+                "start": 1858,
+                "end": 1862,
+                "value": null,
+                "raw": "null"
+              }
+            },
+            "id": null,
+            "generator": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 1865,
       "end": 1934,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 1871,
           "end": 1933,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1871,
@@ -2299,22 +2299,9 @@ __ESTREE_TEST__:PASS:
             "type": "ArrowFunctionExpression",
             "start": 1876,
             "end": 1933,
-            "async": false,
-            "body": {
-              "type": "TSNonNullExpression",
-              "start": 1928,
-              "end": 1933,
-              "expression": {
-                "type": "Literal",
-                "start": 1928,
-                "end": 1932,
-                "raw": "null",
-                "value": null
-              }
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [],
             "returnType": {
               "type": "TSTypeAnnotation",
@@ -2324,6 +2311,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 1880,
                 "end": 1924,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 1880,
+                  "end": 1888,
+                  "decorators": [],
+                  "name": "Iterable",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 1888,
@@ -2338,7 +2334,6 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 1897,
                       "end": 1918,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 1897,
@@ -2347,7 +2342,8 @@ __ESTREE_TEST__:PASS:
                         "name": "BuiltinIteratorReturn",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSAnyKeyword",
@@ -2355,35 +2351,39 @@ __ESTREE_TEST__:PASS:
                       "end": 1923
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 1880,
-                  "end": 1888,
-                  "decorators": [],
-                  "name": "Iterable",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             },
-            "typeParameters": null
-          }
+            "body": {
+              "type": "TSNonNullExpression",
+              "start": 1928,
+              "end": 1933,
+              "expression": {
+                "type": "Literal",
+                "start": 1928,
+                "end": 1932,
+                "value": null,
+                "raw": "null"
+              }
+            },
+            "id": null,
+            "generator": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 1936,
       "end": 1985,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 1942,
           "end": 1984,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1942,
@@ -2397,22 +2397,9 @@ __ESTREE_TEST__:PASS:
             "type": "ArrowFunctionExpression",
             "start": 1947,
             "end": 1984,
-            "async": false,
-            "body": {
-              "type": "TSNonNullExpression",
-              "start": 1979,
-              "end": 1984,
-              "expression": {
-                "type": "Literal",
-                "start": 1979,
-                "end": 1983,
-                "raw": "null",
-                "value": null
-              }
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [],
             "returnType": {
               "type": "TSTypeAnnotation",
@@ -2422,6 +2409,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 1951,
                 "end": 1975,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 1951,
+                  "end": 1967,
+                  "decorators": [],
+                  "name": "IterableIterator",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 1967,
@@ -2433,35 +2429,39 @@ __ESTREE_TEST__:PASS:
                       "end": 1974
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 1951,
-                  "end": 1967,
-                  "decorators": [],
-                  "name": "IterableIterator",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             },
-            "typeParameters": null
-          }
+            "body": {
+              "type": "TSNonNullExpression",
+              "start": 1979,
+              "end": 1984,
+              "expression": {
+                "type": "Literal",
+                "start": 1979,
+                "end": 1983,
+                "value": null,
+                "raw": "null"
+              }
+            },
+            "id": null,
+            "generator": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 1986,
       "end": 2040,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 1992,
           "end": 2039,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1992,
@@ -2475,22 +2475,9 @@ __ESTREE_TEST__:PASS:
             "type": "ArrowFunctionExpression",
             "start": 1997,
             "end": 2039,
-            "async": false,
-            "body": {
-              "type": "TSNonNullExpression",
-              "start": 2034,
-              "end": 2039,
-              "expression": {
-                "type": "Literal",
-                "start": 2034,
-                "end": 2038,
-                "raw": "null",
-                "value": null
-              }
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [],
             "returnType": {
               "type": "TSTypeAnnotation",
@@ -2500,6 +2487,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 2001,
                 "end": 2030,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 2001,
+                  "end": 2017,
+                  "decorators": [],
+                  "name": "IterableIterator",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 2017,
@@ -2516,35 +2512,39 @@ __ESTREE_TEST__:PASS:
                       "end": 2029
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 2001,
-                  "end": 2017,
-                  "decorators": [],
-                  "name": "IterableIterator",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             },
-            "typeParameters": null
-          }
+            "body": {
+              "type": "TSNonNullExpression",
+              "start": 2034,
+              "end": 2039,
+              "expression": {
+                "type": "Literal",
+                "start": 2034,
+                "end": 2038,
+                "value": null,
+                "raw": "null"
+              }
+            },
+            "id": null,
+            "generator": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 2041,
       "end": 2101,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 2047,
           "end": 2100,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 2047,
@@ -2558,22 +2558,9 @@ __ESTREE_TEST__:PASS:
             "type": "ArrowFunctionExpression",
             "start": 2053,
             "end": 2100,
-            "async": false,
-            "body": {
-              "type": "TSNonNullExpression",
-              "start": 2095,
-              "end": 2100,
-              "expression": {
-                "type": "Literal",
-                "start": 2095,
-                "end": 2099,
-                "raw": "null",
-                "value": null
-              }
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [],
             "returnType": {
               "type": "TSTypeAnnotation",
@@ -2583,6 +2570,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 2057,
                 "end": 2091,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 2057,
+                  "end": 2073,
+                  "decorators": [],
+                  "name": "IterableIterator",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 2073,
@@ -2604,35 +2600,39 @@ __ESTREE_TEST__:PASS:
                       "end": 2090
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 2057,
-                  "end": 2073,
-                  "decorators": [],
-                  "name": "IterableIterator",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             },
-            "typeParameters": null
-          }
+            "body": {
+              "type": "TSNonNullExpression",
+              "start": 2095,
+              "end": 2100,
+              "expression": {
+                "type": "Literal",
+                "start": 2095,
+                "end": 2099,
+                "value": null,
+                "raw": "null"
+              }
+            },
+            "id": null,
+            "generator": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 2102,
       "end": 2163,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 2108,
           "end": 2162,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 2108,
@@ -2646,22 +2646,9 @@ __ESTREE_TEST__:PASS:
             "type": "ArrowFunctionExpression",
             "start": 2114,
             "end": 2162,
-            "async": false,
-            "body": {
-              "type": "TSNonNullExpression",
-              "start": 2157,
-              "end": 2162,
-              "expression": {
-                "type": "Literal",
-                "start": 2157,
-                "end": 2161,
-                "raw": "null",
-                "value": null
-              }
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [],
             "returnType": {
               "type": "TSTypeAnnotation",
@@ -2671,6 +2658,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 2118,
                 "end": 2153,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 2118,
+                  "end": 2134,
+                  "decorators": [],
+                  "name": "IterableIterator",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 2134,
@@ -2687,35 +2683,39 @@ __ESTREE_TEST__:PASS:
                       "end": 2152
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 2118,
-                  "end": 2134,
-                  "decorators": [],
-                  "name": "IterableIterator",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             },
-            "typeParameters": null
-          }
+            "body": {
+              "type": "TSNonNullExpression",
+              "start": 2157,
+              "end": 2162,
+              "expression": {
+                "type": "Literal",
+                "start": 2157,
+                "end": 2161,
+                "value": null,
+                "raw": "null"
+              }
+            },
+            "id": null,
+            "generator": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 2164,
       "end": 2230,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 2170,
           "end": 2229,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 2170,
@@ -2729,22 +2729,9 @@ __ESTREE_TEST__:PASS:
             "type": "ArrowFunctionExpression",
             "start": 2176,
             "end": 2229,
-            "async": false,
-            "body": {
-              "type": "TSNonNullExpression",
-              "start": 2224,
-              "end": 2229,
-              "expression": {
-                "type": "Literal",
-                "start": 2224,
-                "end": 2228,
-                "raw": "null",
-                "value": null
-              }
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [],
             "returnType": {
               "type": "TSTypeAnnotation",
@@ -2754,6 +2741,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 2180,
                 "end": 2220,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 2180,
+                  "end": 2196,
+                  "decorators": [],
+                  "name": "IterableIterator",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 2196,
@@ -2775,35 +2771,39 @@ __ESTREE_TEST__:PASS:
                       "end": 2219
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 2180,
-                  "end": 2196,
-                  "decorators": [],
-                  "name": "IterableIterator",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             },
-            "typeParameters": null
-          }
+            "body": {
+              "type": "TSNonNullExpression",
+              "start": 2224,
+              "end": 2229,
+              "expression": {
+                "type": "Literal",
+                "start": 2224,
+                "end": 2228,
+                "value": null,
+                "raw": "null"
+              }
+            },
+            "id": null,
+            "generator": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 2231,
       "end": 2304,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 2237,
           "end": 2303,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 2237,
@@ -2817,22 +2817,9 @@ __ESTREE_TEST__:PASS:
             "type": "ArrowFunctionExpression",
             "start": 2243,
             "end": 2303,
-            "async": false,
-            "body": {
-              "type": "TSNonNullExpression",
-              "start": 2298,
-              "end": 2303,
-              "expression": {
-                "type": "Literal",
-                "start": 2298,
-                "end": 2302,
-                "raw": "null",
-                "value": null
-              }
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [],
             "returnType": {
               "type": "TSTypeAnnotation",
@@ -2842,6 +2829,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 2247,
                 "end": 2294,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 2247,
+                  "end": 2263,
+                  "decorators": [],
+                  "name": "IterableIterator",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 2263,
@@ -2856,7 +2852,6 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 2272,
                       "end": 2293,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 2272,
@@ -2865,38 +2860,43 @@ __ESTREE_TEST__:PASS:
                         "name": "BuiltinIteratorReturn",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 2247,
-                  "end": 2263,
-                  "decorators": [],
-                  "name": "IterableIterator",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             },
-            "typeParameters": null
-          }
+            "body": {
+              "type": "TSNonNullExpression",
+              "start": 2298,
+              "end": 2303,
+              "expression": {
+                "type": "Literal",
+                "start": 2298,
+                "end": 2302,
+                "value": null,
+                "raw": "null"
+              }
+            },
+            "id": null,
+            "generator": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 2305,
       "end": 2383,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 2311,
           "end": 2382,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 2311,
@@ -2910,22 +2910,9 @@ __ESTREE_TEST__:PASS:
             "type": "ArrowFunctionExpression",
             "start": 2317,
             "end": 2382,
-            "async": false,
-            "body": {
-              "type": "TSNonNullExpression",
-              "start": 2377,
-              "end": 2382,
-              "expression": {
-                "type": "Literal",
-                "start": 2377,
-                "end": 2381,
-                "raw": "null",
-                "value": null
-              }
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [],
             "returnType": {
               "type": "TSTypeAnnotation",
@@ -2935,6 +2922,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 2321,
                 "end": 2373,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 2321,
+                  "end": 2337,
+                  "decorators": [],
+                  "name": "IterableIterator",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 2337,
@@ -2949,7 +2945,6 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 2346,
                       "end": 2367,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 2346,
@@ -2958,7 +2953,8 @@ __ESTREE_TEST__:PASS:
                         "name": "BuiltinIteratorReturn",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSAnyKeyword",
@@ -2966,24 +2962,28 @@ __ESTREE_TEST__:PASS:
                       "end": 2372
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 2321,
-                  "end": 2337,
-                  "decorators": [],
-                  "name": "IterableIterator",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             },
-            "typeParameters": null
-          }
+            "body": {
+              "type": "TSNonNullExpression",
+              "start": 2377,
+              "end": 2382,
+              "expression": {
+                "type": "Literal",
+                "start": 2377,
+                "end": 2381,
+                "value": null,
+                "raw": "null"
+              }
+            },
+            "id": null,
+            "generator": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "script",

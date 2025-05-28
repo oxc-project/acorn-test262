@@ -9,77 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 57,
       "end": 163,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 65,
-        "end": 163,
-        "body": [
-          {
-            "type": "AccessorProperty",
-            "start": 99,
-            "end": 121,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
-            "key": {
-              "type": "Identifier",
-              "start": 115,
-              "end": 116,
-              "decorators": [],
-              "name": "x",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": true,
-            "typeAnnotation": null,
-            "value": {
-              "type": "Literal",
-              "start": 119,
-              "end": 120,
-              "raw": "1",
-              "value": 1
-            }
-          },
-          {
-            "type": "AccessorProperty",
-            "start": 146,
-            "end": 161,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
-            "key": {
-              "type": "Identifier",
-              "start": 155,
-              "end": 156,
-              "decorators": [],
-              "name": "y",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": null,
-            "value": {
-              "type": "Literal",
-              "start": 159,
-              "end": 160,
-              "raw": "2",
-              "value": 2
-            }
-          }
-        ]
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -90,10 +19,81 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 65,
+        "end": 163,
+        "body": [
+          {
+            "type": "AccessorProperty",
+            "start": 99,
+            "end": 121,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 115,
+              "end": 116,
+              "decorators": [],
+              "name": "x",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeAnnotation": null,
+            "value": {
+              "type": "Literal",
+              "start": 119,
+              "end": 120,
+              "value": 1,
+              "raw": "1"
+            },
+            "computed": false,
+            "static": true,
+            "override": false,
+            "definite": false,
+            "accessibility": null,
+            "declare": false,
+            "optional": false,
+            "readonly": false
+          },
+          {
+            "type": "AccessorProperty",
+            "start": 146,
+            "end": 161,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 155,
+              "end": 156,
+              "decorators": [],
+              "name": "y",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeAnnotation": null,
+            "value": {
+              "type": "Literal",
+              "start": 159,
+              "end": 160,
+              "value": 2,
+              "raw": "2"
+            },
+            "computed": false,
+            "static": false,
+            "override": false,
+            "definite": false,
+            "accessibility": null,
+            "declare": false,
+            "optional": false,
+            "readonly": false
+          }
+        ]
+      },
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

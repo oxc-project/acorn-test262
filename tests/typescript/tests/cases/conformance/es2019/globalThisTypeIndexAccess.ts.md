@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 52,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 14,
           "end": 52,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
@@ -30,18 +30,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSIndexedAccessType",
                 "start": 19,
                 "end": 52,
-                "indexType": {
-                  "type": "TSLiteralType",
-                  "start": 39,
-                  "end": 51,
-                  "literal": {
-                    "type": "Literal",
-                    "start": 39,
-                    "end": 51,
-                    "raw": "\"globalThis\"",
-                    "value": "globalThis"
-                  }
-                },
                 "objectType": {
                   "type": "TSTypeQuery",
                   "start": 20,
@@ -56,15 +44,27 @@ __ESTREE_TEST__:PASS:
                     "typeAnnotation": null
                   },
                   "typeArguments": null
+                },
+                "indexType": {
+                  "type": "TSLiteralType",
+                  "start": 39,
+                  "end": 51,
+                  "literal": {
+                    "type": "Literal",
+                    "start": 39,
+                    "end": 51,
+                    "value": "globalThis",
+                    "raw": "\"globalThis\""
+                  }
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     }
   ],
   "sourceType": "script",

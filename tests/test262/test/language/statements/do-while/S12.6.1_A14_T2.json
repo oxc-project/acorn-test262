@@ -16,6 +16,7 @@
             "type": "VariableDeclaration",
             "start": 428,
             "end": 446,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -35,8 +36,7 @@
                   "raw": "1"
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "BreakStatement",
@@ -60,7 +60,6 @@
             "end": 479,
             "name": "__func"
           },
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -82,7 +81,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         },
         "arguments": [],
         "optional": false

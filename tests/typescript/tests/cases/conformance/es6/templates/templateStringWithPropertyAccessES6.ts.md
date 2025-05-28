@@ -9,73 +9,50 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 28,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
         "end": 27,
-        "arguments": [
-          {
-            "type": "TemplateLiteral",
-            "start": 21,
-            "end": 26,
-            "expressions": [],
-            "quasis": [
-              {
-                "type": "TemplateElement",
-                "start": 21,
-                "end": 26,
-                "tail": true,
-                "value": {
-                  "cooked": "abc",
-                  "raw": "abc"
-                }
-              }
-            ]
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 0,
           "end": 20,
-          "computed": false,
           "object": {
             "type": "TemplateLiteral",
             "start": 0,
             "end": 12,
-            "expressions": [
-              {
-                "type": "Literal",
-                "start": 6,
-                "end": 7,
-                "raw": "0",
-                "value": 0
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
                 "start": 0,
                 "end": 6,
-                "tail": false,
                 "value": {
                   "cooked": "abc",
                   "raw": "abc"
-                }
+                },
+                "tail": false
               },
               {
                 "type": "TemplateElement",
                 "start": 7,
                 "end": 12,
-                "tail": true,
                 "value": {
                   "cooked": "abc",
                   "raw": "abc"
-                }
+                },
+                "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Literal",
+                "start": 6,
+                "end": 7,
+                "value": 0,
+                "raw": "0"
               }
             ]
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 13,
@@ -84,11 +61,34 @@ __ESTREE_TEST__:PASS:
             "name": "indexOf",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "TemplateLiteral",
+            "start": 21,
+            "end": 26,
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "start": 21,
+                "end": 26,
+                "value": {
+                  "cooked": "abc",
+                  "raw": "abc"
+                },
+                "tail": true
+              }
+            ],
+            "expressions": []
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

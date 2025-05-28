@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 604,
       "end": 620,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,13 +21,13 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 621,
       "end": 637,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -40,13 +41,13 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 638,
       "end": 654,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -60,8 +61,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "BlockStatement",
@@ -103,8 +103,8 @@
                   "end": 692,
                   "name": "isLockFree"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -143,8 +143,8 @@
                 "end": 772,
                 "name": "sameValue"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -152,13 +152,13 @@
                 "start": 773,
                 "end": 791,
                 "operator": "typeof",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 780,
                   "end": 791,
                   "name": "isLockFree1"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -202,8 +202,8 @@
                 "end": 1049,
                 "name": "sameValue"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -226,8 +226,8 @@
                     "end": 1073,
                     "name": "isLockFree"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -304,8 +304,8 @@
                   "end": 1226,
                   "name": "isLockFree"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -344,8 +344,8 @@
                 "end": 1306,
                 "name": "sameValue"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -353,13 +353,13 @@
                 "start": 1307,
                 "end": 1325,
                 "operator": "typeof",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 1314,
                   "end": 1325,
                   "name": "isLockFree2"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -403,8 +403,8 @@
                 "end": 1583,
                 "name": "sameValue"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -427,8 +427,8 @@
                     "end": 1607,
                     "name": "isLockFree"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -474,6 +474,7 @@
           "type": "VariableDeclaration",
           "start": 1728,
           "end": 1768,
+          "kind": "let",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -505,8 +506,8 @@
                     "end": 1764,
                     "name": "isLockFree"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -520,8 +521,7 @@
                 "optional": false
               }
             }
-          ],
-          "kind": "let"
+          ]
         },
         {
           "type": "ExpressionStatement",
@@ -547,8 +547,8 @@
                 "end": 1830,
                 "name": "sameValue"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -556,13 +556,13 @@
                 "start": 1831,
                 "end": 1849,
                 "operator": "typeof",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 1838,
                   "end": 1849,
                   "name": "isLockFree4"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -606,8 +606,8 @@
                 "end": 1931,
                 "name": "sameValue"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -681,8 +681,8 @@
                   "end": 2030,
                   "name": "isLockFree"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -721,8 +721,8 @@
                 "end": 2110,
                 "name": "sameValue"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -730,13 +730,13 @@
                 "start": 2111,
                 "end": 2129,
                 "operator": "typeof",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 2118,
                   "end": 2129,
                   "name": "isLockFree8"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -780,8 +780,8 @@
                 "end": 2387,
                 "name": "sameValue"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -804,8 +804,8 @@
                     "end": 2411,
                     "name": "isLockFree"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -855,6 +855,7 @@
             "type": "VariableDeclaration",
             "start": 2538,
             "end": 2547,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -874,8 +875,7 @@
                   "raw": "0"
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           "test": {
             "type": "BinaryExpression",
@@ -923,7 +923,6 @@
                   "start": 2572,
                   "end": 2597,
                   "operator": "!",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 2573,
@@ -973,8 +972,8 @@
                         "end": 2594,
                         "name": "includes"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -985,7 +984,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 },
                 "consequent": {
                   "type": "BlockStatement",
@@ -1016,8 +1016,8 @@
                             "end": 2623,
                             "name": "sameValue"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -1040,8 +1040,8 @@
                                 "end": 2642,
                                 "name": "isLockFree"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -1109,8 +1109,8 @@
             "end": 2724,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1133,8 +1133,8 @@
                 "end": 2746,
                 "name": "isLockFree"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1188,8 +1188,8 @@
             "end": 2870,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1212,8 +1212,8 @@
                 "end": 2892,
                 "name": "isLockFree"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1267,8 +1267,8 @@
             "end": 3016,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1291,8 +1291,8 @@
                 "end": 3038,
                 "name": "isLockFree"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1346,8 +1346,8 @@
             "end": 3213,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1370,8 +1370,8 @@
                 "end": 3232,
                 "name": "isLockFree"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1426,8 +1426,8 @@
             "end": 3300,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1450,8 +1450,8 @@
                 "end": 3319,
                 "name": "isLockFree"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1506,8 +1506,8 @@
             "end": 3385,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1530,8 +1530,8 @@
                 "end": 3404,
                 "name": "isLockFree"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1586,8 +1586,8 @@
             "end": 3472,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1610,8 +1610,8 @@
                 "end": 3491,
                 "name": "isLockFree"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1666,8 +1666,8 @@
             "end": 3559,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1690,8 +1690,8 @@
                 "end": 3578,
                 "name": "isLockFree"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1746,8 +1746,8 @@
             "end": 3646,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1770,8 +1770,8 @@
                 "end": 3665,
                 "name": "isLockFree"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1826,8 +1826,8 @@
             "end": 3733,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1850,8 +1850,8 @@
                 "end": 3752,
                 "name": "isLockFree"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1906,8 +1906,8 @@
             "end": 3822,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1930,8 +1930,8 @@
                 "end": 3841,
                 "name": "isLockFree"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1986,8 +1986,8 @@
             "end": 3911,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2010,8 +2010,8 @@
                 "end": 3930,
                 "name": "isLockFree"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

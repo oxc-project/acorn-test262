@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 29,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 28,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -35,6 +35,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSCallSignatureDeclaration",
                     "start": 18,
                     "end": 26,
+                    "typeParameters": null,
                     "params": [],
                     "returnType": {
                       "type": "TSTypeAnnotation",
@@ -45,18 +46,17 @@ __ESTREE_TEST__:PASS:
                         "start": 22,
                         "end": 25
                       }
-                    },
-                    "typeParameters": null
+                    }
                   }
                 ]
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "TSExportAssignment",
@@ -97,7 +97,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 72,
@@ -106,21 +105,20 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 80,
           "end": 112,
-          "raw": "'./localAliasExportAssignment_0'",
-          "value": "./localAliasExportAssignment_0"
+          "value": "./localAliasExportAssignment_0",
+          "raw": "'./localAliasExportAssignment_0'"
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 116,
       "end": 126,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 116,
         "end": 125,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 116,
@@ -130,9 +128,11 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

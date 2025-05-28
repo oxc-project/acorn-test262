@@ -13,20 +13,20 @@ __ESTREE_TEST__:PASS:
         "type": "FunctionDeclaration",
         "start": 26,
         "end": 41,
+        "id": null,
+        "generator": false,
         "async": false,
+        "declare": false,
+        "typeParameters": null,
+        "params": [],
+        "returnType": null,
         "body": {
           "type": "BlockStatement",
           "start": 38,
           "end": 41,
           "body": []
         },
-        "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": null,
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "expression": false
       },
       "exportKind": "value"
     },
@@ -34,21 +34,21 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 42,
       "end": 72,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 66,
-        "end": 72,
-        "raw": "'./hi'",
-        "value": "./hi"
-      },
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 51,
           "end": 58,
+          "local": {
+            "type": "Identifier",
+            "start": 51,
+            "end": 58,
+            "decorators": [],
+            "name": "default",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 51,
@@ -58,38 +58,38 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 51,
-            "end": 58,
-            "decorators": [],
-            "name": "default",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 66,
+        "end": 72,
+        "value": "./hi",
+        "raw": "'./hi'"
+      },
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 73,
       "end": 109,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 103,
-        "end": 109,
-        "raw": "'./hi'",
-        "value": "./hi"
-      },
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 82,
           "end": 95,
+          "local": {
+            "type": "Identifier",
+            "start": 82,
+            "end": 84,
+            "decorators": [],
+            "name": "aa",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 88,
@@ -99,18 +99,18 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 82,
-            "end": 84,
-            "decorators": [],
-            "name": "aa",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 103,
+        "end": 109,
+        "value": "./hi",
+        "raw": "'./hi'"
+      },
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

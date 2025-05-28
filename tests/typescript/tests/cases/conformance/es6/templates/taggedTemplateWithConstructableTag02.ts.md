@@ -9,6 +9,17 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 69,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 11,
+        "decorators": [],
+        "name": "I",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "extends": [],
       "body": {
         "type": "TSInterfaceBody",
         "start": 12,
@@ -18,11 +29,13 @@ __ESTREE_TEST__:PASS:
             "type": "TSConstructSignatureDeclaration",
             "start": 18,
             "end": 47,
+            "typeParameters": null,
             "params": [
               {
                 "type": "RestElement",
                 "start": 23,
                 "end": 37,
+                "decorators": [],
                 "argument": {
                   "type": "Identifier",
                   "start": 26,
@@ -32,7 +45,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "decorators": [],
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
@@ -61,13 +73,13 @@ __ESTREE_TEST__:PASS:
                 "start": 40,
                 "end": 46
               }
-            },
-            "typeParameters": null
+            }
           },
           {
             "type": "TSConstructSignatureDeclaration",
             "start": 52,
             "end": 67,
+            "typeParameters": null,
             "params": [],
             "returnType": {
               "type": "TSTypeAnnotation",
@@ -78,34 +90,22 @@ __ESTREE_TEST__:PASS:
                 "start": 60,
                 "end": 66
               }
-            },
-            "typeParameters": null
+            }
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 11,
-        "decorators": [],
-        "name": "I",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 70,
       "end": 81,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 74,
           "end": 80,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 74,
@@ -121,7 +121,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 79,
                 "end": 80,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 79,
@@ -130,43 +129,25 @@ __ESTREE_TEST__:PASS:
                   "name": "I",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 82,
       "end": 101,
-      "directive": null,
       "expression": {
         "type": "TaggedTemplateExpression",
         "start": 82,
         "end": 100,
-        "quasi": {
-          "type": "TemplateLiteral",
-          "start": 86,
-          "end": 100,
-          "expressions": [],
-          "quasis": [
-            {
-              "type": "TemplateElement",
-              "start": 86,
-              "end": 100,
-              "tail": true,
-              "value": {
-                "cooked": "Hello world!",
-                "raw": "Hello world!"
-              }
-            }
-          ]
-        },
         "tag": {
           "type": "Identifier",
           "start": 82,
@@ -176,8 +157,27 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "quasi": {
+          "type": "TemplateLiteral",
+          "start": 86,
+          "end": 100,
+          "quasis": [
+            {
+              "type": "TemplateElement",
+              "start": 86,
+              "end": 100,
+              "value": {
+                "cooked": "Hello world!",
+                "raw": "Hello world!"
+              },
+              "tail": true
+            }
+          ],
+          "expressions": []
+        }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

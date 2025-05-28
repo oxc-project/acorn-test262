@@ -24,7 +24,6 @@
               "start": 245,
               "end": 257,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -33,7 +32,8 @@
                 "start": 255,
                 "end": 257,
                 "body": []
-              }
+              },
+              "expression": false
             }
           },
           "property": {
@@ -42,8 +42,8 @@
             "end": 273,
             "name": "hasOwnProperty"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

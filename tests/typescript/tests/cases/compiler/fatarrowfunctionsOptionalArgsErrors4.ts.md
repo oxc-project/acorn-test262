@@ -9,33 +9,24 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 4,
       "end": 44,
-      "directive": null,
       "expression": {
         "type": "ConditionalExpression",
         "start": 4,
         "end": 43,
-        "alternate": {
+        "test": {
           "type": "Literal",
-          "start": 39,
-          "end": 43,
-          "raw": "null",
-          "value": null
+          "start": 4,
+          "end": 9,
+          "value": false,
+          "raw": "false"
         },
         "consequent": {
           "type": "ArrowFunctionExpression",
           "start": 12,
           "end": 36,
-          "async": false,
-          "body": {
-            "type": "Literal",
-            "start": 34,
-            "end": 36,
-            "raw": "47",
-            "value": 47
-          },
           "expression": true,
-          "generator": false,
-          "id": null,
+          "async": false,
+          "typeParameters": null,
           "params": [
             {
               "type": "AssignmentPattern",
@@ -60,60 +51,60 @@ __ESTREE_TEST__:PASS:
                   }
                 }
               },
-              "optional": false,
               "right": {
                 "type": "Literal",
                 "start": 28,
                 "end": 29,
-                "raw": "0",
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
+              "optional": false,
               "typeAnnotation": null
             }
           ],
           "returnType": null,
-          "typeParameters": null
+          "body": {
+            "type": "Literal",
+            "start": 34,
+            "end": 36,
+            "value": 47,
+            "raw": "47"
+          },
+          "id": null,
+          "generator": false
         },
-        "test": {
+        "alternate": {
           "type": "Literal",
-          "start": 4,
-          "end": 9,
-          "raw": "false",
-          "value": false
+          "start": 39,
+          "end": 43,
+          "value": null,
+          "raw": "null"
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 49,
       "end": 91,
-      "directive": null,
       "expression": {
         "type": "ConditionalExpression",
         "start": 49,
         "end": 90,
-        "alternate": {
+        "test": {
           "type": "Literal",
-          "start": 86,
-          "end": 90,
-          "raw": "null",
-          "value": null
+          "start": 49,
+          "end": 54,
+          "value": false,
+          "raw": "false"
         },
         "consequent": {
           "type": "ArrowFunctionExpression",
           "start": 58,
           "end": 82,
-          "async": false,
-          "body": {
-            "type": "Literal",
-            "start": 80,
-            "end": 82,
-            "raw": "57",
-            "value": 57
-          },
           "expression": true,
-          "generator": false,
-          "id": null,
+          "async": false,
+          "typeParameters": null,
           "params": [
             {
               "type": "AssignmentPattern",
@@ -138,53 +129,67 @@ __ESTREE_TEST__:PASS:
                   }
                 }
               },
-              "optional": false,
               "right": {
                 "type": "Literal",
                 "start": 74,
                 "end": 75,
-                "raw": "0",
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
+              "optional": false,
               "typeAnnotation": null
             }
           ],
           "returnType": null,
-          "typeParameters": null
+          "body": {
+            "type": "Literal",
+            "start": 80,
+            "end": 82,
+            "value": 57,
+            "raw": "57"
+          },
+          "id": null,
+          "generator": false
         },
-        "test": {
+        "alternate": {
           "type": "Literal",
-          "start": 49,
-          "end": 54,
-          "raw": "false",
-          "value": false
+          "start": 86,
+          "end": 90,
+          "value": null,
+          "raw": "null"
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 96,
       "end": 136,
-      "directive": null,
       "expression": {
         "type": "ConditionalExpression",
         "start": 96,
         "end": 135,
+        "test": {
+          "type": "Literal",
+          "start": 96,
+          "end": 101,
+          "value": false,
+          "raw": "false"
+        },
+        "consequent": {
+          "type": "Literal",
+          "start": 104,
+          "end": 108,
+          "value": null,
+          "raw": "null"
+        },
         "alternate": {
           "type": "ArrowFunctionExpression",
           "start": 111,
           "end": 135,
-          "async": false,
-          "body": {
-            "type": "Literal",
-            "start": 133,
-            "end": 135,
-            "raw": "67",
-            "value": 67
-          },
           "expression": true,
-          "generator": false,
-          "id": null,
+          "async": false,
+          "typeParameters": null,
           "params": [
             {
               "type": "AssignmentPattern",
@@ -209,66 +214,50 @@ __ESTREE_TEST__:PASS:
                   }
                 }
               },
-              "optional": false,
               "right": {
                 "type": "Literal",
                 "start": 127,
                 "end": 128,
-                "raw": "0",
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
+              "optional": false,
               "typeAnnotation": null
             }
           ],
           "returnType": null,
-          "typeParameters": null
-        },
-        "consequent": {
-          "type": "Literal",
-          "start": 104,
-          "end": 108,
-          "raw": "null",
-          "value": null
-        },
-        "test": {
-          "type": "Literal",
-          "start": 96,
-          "end": 101,
-          "raw": "false",
-          "value": false
+          "body": {
+            "type": "Literal",
+            "start": 133,
+            "end": 135,
+            "value": 67,
+            "raw": "67"
+          },
+          "id": null,
+          "generator": false
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 141,
       "end": 200,
-      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 141,
         "end": 199,
-        "operator": "+",
         "left": {
           "type": "BinaryExpression",
           "start": 141,
           "end": 170,
-          "operator": "+",
           "left": {
             "type": "ArrowFunctionExpression",
             "start": 142,
             "end": 164,
-            "async": false,
-            "body": {
-              "type": "Literal",
-              "start": 163,
-              "end": 164,
-              "raw": "0",
-              "value": 0
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [
               {
                 "type": "AssignmentPattern",
@@ -293,43 +282,45 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 },
-                "optional": false,
                 "right": {
                   "type": "Literal",
                   "start": 157,
                   "end": 158,
-                  "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
+                "optional": false,
                 "typeAnnotation": null
               }
             ],
             "returnType": null,
-            "typeParameters": null
+            "body": {
+              "type": "Literal",
+              "start": 163,
+              "end": 164,
+              "value": 0,
+              "raw": "0"
+            },
+            "id": null,
+            "generator": false
           },
+          "operator": "+",
           "right": {
             "type": "Literal",
             "start": 168,
             "end": 170,
-            "raw": "''",
-            "value": ""
+            "value": "",
+            "raw": "''"
           }
         },
+        "operator": "+",
         "right": {
           "type": "ArrowFunctionExpression",
           "start": 174,
           "end": 198,
-          "async": false,
-          "body": {
-            "type": "Literal",
-            "start": 195,
-            "end": 198,
-            "raw": "106",
-            "value": 106
-          },
           "expression": true,
-          "generator": false,
-          "id": null,
+          "async": false,
+          "typeParameters": null,
           "params": [
             {
               "type": "AssignmentPattern",
@@ -354,47 +345,57 @@ __ESTREE_TEST__:PASS:
                   }
                 }
               },
-              "optional": false,
               "right": {
                 "type": "Literal",
                 "start": 189,
                 "end": 190,
-                "raw": "2",
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
+              "optional": false,
               "typeAnnotation": null
             }
           ],
           "returnType": null,
-          "typeParameters": null
+          "body": {
+            "type": "Literal",
+            "start": 195,
+            "end": 198,
+            "value": 106,
+            "raw": "106"
+          },
+          "id": null,
+          "generator": false
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 206,
       "end": 632,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 206,
         "end": 631,
+        "callee": {
+          "type": "Identifier",
+          "start": 206,
+          "end": 209,
+          "decorators": [],
+          "name": "foo",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null,
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 219,
             "end": 229,
-            "async": false,
-            "body": {
-              "type": "Literal",
-              "start": 226,
-              "end": 229,
-              "raw": "110",
-              "value": 110
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -407,23 +408,23 @@ __ESTREE_TEST__:PASS:
               }
             ],
             "returnType": null,
-            "typeParameters": null
+            "body": {
+              "type": "Literal",
+              "start": 226,
+              "end": 229,
+              "value": 110,
+              "raw": "110"
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "ArrowFunctionExpression",
             "start": 241,
             "end": 251,
-            "async": false,
-            "body": {
-              "type": "Literal",
-              "start": 248,
-              "end": 251,
-              "raw": "111",
-              "value": 111
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -436,13 +437,35 @@ __ESTREE_TEST__:PASS:
               }
             ],
             "returnType": null,
-            "typeParameters": null
+            "body": {
+              "type": "Literal",
+              "start": 248,
+              "end": 251,
+              "value": 111,
+              "raw": "111"
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "ArrowFunctionExpression",
             "start": 263,
             "end": 305,
+            "expression": false,
             "async": false,
+            "typeParameters": null,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 264,
+                "end": 265,
+                "decorators": [],
+                "name": "a",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            ],
+            "returnType": null,
             "body": {
               "type": "BlockStatement",
               "start": 270,
@@ -456,44 +479,22 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 291,
                     "end": 294,
-                    "raw": "112",
-                    "value": 112
+                    "value": 112,
+                    "raw": "112"
                   }
                 }
               ]
             },
-            "expression": false,
-            "generator": false,
             "id": null,
-            "params": [
-              {
-                "type": "Identifier",
-                "start": 264,
-                "end": 265,
-                "decorators": [],
-                "name": "a",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            ],
-            "returnType": null,
-            "typeParameters": null
+            "generator": false
           },
           {
             "type": "ArrowFunctionExpression",
             "start": 315,
             "end": 327,
-            "async": false,
-            "body": {
-              "type": "Literal",
-              "start": 324,
-              "end": 327,
-              "raw": "113",
-              "value": 113
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -506,23 +507,23 @@ __ESTREE_TEST__:PASS:
               }
             ],
             "returnType": null,
-            "typeParameters": null
+            "body": {
+              "type": "Literal",
+              "start": 324,
+              "end": 327,
+              "value": 113,
+              "raw": "113"
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "ArrowFunctionExpression",
             "start": 338,
             "end": 353,
-            "async": false,
-            "body": {
-              "type": "Literal",
-              "start": 350,
-              "end": 353,
-              "raw": "114",
-              "value": 114
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -544,23 +545,23 @@ __ESTREE_TEST__:PASS:
               }
             ],
             "returnType": null,
-            "typeParameters": null
+            "body": {
+              "type": "Literal",
+              "start": 350,
+              "end": 353,
+              "value": 114,
+              "raw": "114"
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "ArrowFunctionExpression",
             "start": 364,
             "end": 382,
-            "async": false,
-            "body": {
-              "type": "Literal",
-              "start": 379,
-              "end": 382,
-              "raw": "115",
-              "value": 115
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -582,23 +583,23 @@ __ESTREE_TEST__:PASS:
               }
             ],
             "returnType": null,
-            "typeParameters": null
+            "body": {
+              "type": "Literal",
+              "start": 379,
+              "end": 382,
+              "value": 115,
+              "raw": "115"
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "ArrowFunctionExpression",
             "start": 393,
             "end": 415,
-            "async": false,
-            "body": {
-              "type": "Literal",
-              "start": 412,
-              "end": 415,
-              "raw": "116",
-              "value": 116
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [
               {
                 "type": "AssignmentPattern",
@@ -623,35 +624,35 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 },
-                "optional": false,
                 "right": {
                   "type": "Literal",
                   "start": 406,
                   "end": 407,
-                  "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
+                "optional": false,
                 "typeAnnotation": null
               }
             ],
             "returnType": null,
-            "typeParameters": null
+            "body": {
+              "type": "Literal",
+              "start": 412,
+              "end": 415,
+              "value": 116,
+              "raw": "116"
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "ArrowFunctionExpression",
             "start": 426,
             "end": 440,
-            "async": false,
-            "body": {
-              "type": "Literal",
-              "start": 437,
-              "end": 440,
-              "raw": "117",
-              "value": 117
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [
               {
                 "type": "AssignmentPattern",
@@ -667,35 +668,35 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "right": {
                   "type": "Literal",
                   "start": 431,
                   "end": 432,
-                  "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
+                "optional": false,
                 "typeAnnotation": null
               }
             ],
             "returnType": null,
-            "typeParameters": null
+            "body": {
+              "type": "Literal",
+              "start": 437,
+              "end": 440,
+              "value": 117,
+              "raw": "117"
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "ArrowFunctionExpression",
             "start": 451,
             "end": 474,
-            "async": false,
-            "body": {
-              "type": "Literal",
-              "start": 471,
-              "end": 474,
-              "raw": "118",
-              "value": 118
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [
               {
                 "type": "AssignmentPattern",
@@ -720,40 +721,41 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 },
-                "optional": false,
                 "right": {
                   "type": "Literal",
                   "start": 465,
                   "end": 466,
-                  "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
+                "optional": false,
                 "typeAnnotation": null
               }
             ],
             "returnType": null,
-            "typeParameters": null
+            "body": {
+              "type": "Literal",
+              "start": 471,
+              "end": 474,
+              "value": 118,
+              "raw": "118"
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "ArrowFunctionExpression",
             "start": 485,
             "end": 508,
-            "async": false,
-            "body": {
-              "type": "Literal",
-              "start": 505,
-              "end": 508,
-              "raw": "119",
-              "value": 119
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [
               {
                 "type": "RestElement",
                 "start": 486,
                 "end": 500,
+                "decorators": [],
                 "argument": {
                   "type": "Identifier",
                   "start": 489,
@@ -763,7 +765,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "decorators": [],
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
@@ -784,23 +785,23 @@ __ESTREE_TEST__:PASS:
               }
             ],
             "returnType": null,
-            "typeParameters": null
+            "body": {
+              "type": "Literal",
+              "start": 505,
+              "end": 508,
+              "value": 119,
+              "raw": "119"
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "ArrowFunctionExpression",
             "start": 519,
             "end": 553,
-            "async": false,
-            "body": {
-              "type": "Literal",
-              "start": 550,
-              "end": 553,
-              "raw": "120",
-              "value": 120
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -825,20 +826,21 @@ __ESTREE_TEST__:PASS:
                   "optional": true,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "right": {
                   "type": "Literal",
                   "start": 528,
                   "end": 529,
-                  "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
+                "optional": false,
                 "typeAnnotation": null
               },
               {
                 "type": "RestElement",
                 "start": 531,
                 "end": 545,
+                "decorators": [],
                 "argument": {
                   "type": "Identifier",
                   "start": 534,
@@ -848,7 +850,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "decorators": [],
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
@@ -869,67 +870,23 @@ __ESTREE_TEST__:PASS:
               }
             ],
             "returnType": null,
-            "typeParameters": null
+            "body": {
+              "type": "Literal",
+              "start": 550,
+              "end": 553,
+              "value": 120,
+              "raw": "120"
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "ArrowFunctionExpression",
             "start": 563,
             "end": 587,
-            "async": false,
-            "body": {
-              "type": "ArrowFunctionExpression",
-              "start": 570,
-              "end": 587,
-              "async": false,
-              "body": {
-                "type": "ArrowFunctionExpression",
-                "start": 577,
-                "end": 587,
-                "async": false,
-                "body": {
-                  "type": "Literal",
-                  "start": 584,
-                  "end": 587,
-                  "raw": "121",
-                  "value": 121
-                },
-                "expression": true,
-                "generator": false,
-                "id": null,
-                "params": [
-                  {
-                    "type": "Identifier",
-                    "start": 578,
-                    "end": 579,
-                    "decorators": [],
-                    "name": "c",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                ],
-                "returnType": null,
-                "typeParameters": null
-              },
-              "expression": true,
-              "generator": false,
-              "id": null,
-              "params": [
-                {
-                  "type": "Identifier",
-                  "start": 571,
-                  "end": 572,
-                  "decorators": [],
-                  "name": "b",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              ],
-              "returnType": null,
-              "typeParameters": null
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -942,32 +899,18 @@ __ESTREE_TEST__:PASS:
               }
             ],
             "returnType": null,
-            "typeParameters": null
-          },
-          {
-            "type": "ConditionalExpression",
-            "start": 597,
-            "end": 625,
-            "alternate": {
+            "body": {
               "type": "ArrowFunctionExpression",
-              "start": 615,
-              "end": 625,
-              "async": false,
-              "body": {
-                "type": "Literal",
-                "start": 622,
-                "end": 625,
-                "raw": "122",
-                "value": 122
-              },
+              "start": 570,
+              "end": 587,
               "expression": true,
-              "generator": false,
-              "id": null,
+              "async": false,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 616,
-                  "end": 617,
+                  "start": 571,
+                  "end": 572,
                   "decorators": [],
                   "name": "b",
                   "optional": false,
@@ -975,23 +918,59 @@ __ESTREE_TEST__:PASS:
                 }
               ],
               "returnType": null,
-              "typeParameters": null
+              "body": {
+                "type": "ArrowFunctionExpression",
+                "start": 577,
+                "end": 587,
+                "expression": true,
+                "async": false,
+                "typeParameters": null,
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "start": 578,
+                    "end": 579,
+                    "decorators": [],
+                    "name": "c",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                ],
+                "returnType": null,
+                "body": {
+                  "type": "Literal",
+                  "start": 584,
+                  "end": 587,
+                  "value": 121,
+                  "raw": "121"
+                },
+                "id": null,
+                "generator": false
+              },
+              "id": null,
+              "generator": false
+            },
+            "id": null,
+            "generator": false
+          },
+          {
+            "type": "ConditionalExpression",
+            "start": 597,
+            "end": 625,
+            "test": {
+              "type": "Literal",
+              "start": 597,
+              "end": 602,
+              "value": false,
+              "raw": "false"
             },
             "consequent": {
               "type": "ArrowFunctionExpression",
               "start": 604,
               "end": 612,
-              "async": false,
-              "body": {
-                "type": "Literal",
-                "start": 611,
-                "end": 612,
-                "raw": "0",
-                "value": 0
-              },
               "expression": true,
-              "generator": false,
-              "id": null,
+              "async": false,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -1004,29 +983,50 @@ __ESTREE_TEST__:PASS:
                 }
               ],
               "returnType": null,
-              "typeParameters": null
+              "body": {
+                "type": "Literal",
+                "start": 611,
+                "end": 612,
+                "value": 0,
+                "raw": "0"
+              },
+              "id": null,
+              "generator": false
             },
-            "test": {
-              "type": "Literal",
-              "start": 597,
-              "end": 602,
-              "raw": "false",
-              "value": false
+            "alternate": {
+              "type": "ArrowFunctionExpression",
+              "start": 615,
+              "end": 625,
+              "expression": true,
+              "async": false,
+              "typeParameters": null,
+              "params": [
+                {
+                  "type": "Identifier",
+                  "start": 616,
+                  "end": 617,
+                  "decorators": [],
+                  "name": "b",
+                  "optional": false,
+                  "typeAnnotation": null
+                }
+              ],
+              "returnType": null,
+              "body": {
+                "type": "Literal",
+                "start": 622,
+                "end": 625,
+                "value": 122,
+                "raw": "122"
+              },
+              "id": null,
+              "generator": false
             }
           }
         ],
-        "callee": {
-          "type": "Identifier",
-          "start": 206,
-          "end": 209,
-          "decorators": [],
-          "name": "foo",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "optional": false,
-        "typeArguments": null
-      }
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

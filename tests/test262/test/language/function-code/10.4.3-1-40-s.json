@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 331,
       "end": 498,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -23,7 +24,6 @@
             "start": 340,
             "end": 498,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -49,6 +49,7 @@
                   "type": "VariableDeclaration",
                   "start": 376,
                   "end": 431,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -65,7 +66,6 @@
                         "start": 384,
                         "end": 431,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -83,20 +83,20 @@
                                 "start": 413,
                                 "end": 424,
                                 "operator": "typeof",
-                                "prefix": true,
                                 "argument": {
                                   "type": "ThisExpression",
                                   "start": 420,
                                   "end": 424
-                                }
+                                },
+                                "prefix": true
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ReturnStatement",
@@ -155,12 +155,12 @@
                             "start": 468,
                             "end": 479,
                             "operator": "typeof",
-                            "prefix": true,
                             "argument": {
                               "type": "ThisExpression",
                               "start": 475,
                               "end": 479
-                            }
+                            },
+                            "prefix": true
                           }
                         },
                         "operator": "===",
@@ -176,11 +176,11 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",

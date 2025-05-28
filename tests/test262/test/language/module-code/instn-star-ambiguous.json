@@ -27,8 +27,8 @@
         "value": "./instn-star-ambiguous_FIXTURE.js",
         "raw": "'./instn-star-ambiguous_FIXTURE.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",
@@ -144,8 +144,8 @@
             "end": 1378,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

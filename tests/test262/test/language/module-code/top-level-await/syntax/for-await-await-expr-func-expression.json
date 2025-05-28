@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1792,
       "end": 1804,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -48,7 +48,6 @@
               "start": 1997,
               "end": 2010,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -57,7 +56,8 @@
                 "start": 2008,
                 "end": 2010,
                 "body": []
-              }
+              },
+              "expression": false
             }
           }
         ]
@@ -80,7 +80,6 @@
                 "start": 2023,
                 "end": 2036,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -89,7 +88,8 @@
                   "start": 2034,
                   "end": 2036,
                   "body": []
-                }
+                },
+                "expression": false
               }
             }
           },
@@ -111,6 +111,7 @@
         "type": "VariableDeclaration",
         "start": 2197,
         "end": 2208,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -124,8 +125,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "right": {
         "type": "ArrayExpression",
@@ -141,7 +141,6 @@
               "start": 2219,
               "end": 2232,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -150,7 +149,8 @@
                 "start": 2230,
                 "end": 2232,
                 "body": []
-              }
+              },
+              "expression": false
             }
           }
         ]
@@ -173,7 +173,6 @@
                 "start": 2245,
                 "end": 2258,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -182,7 +181,8 @@
                   "start": 2256,
                   "end": 2258,
                   "body": []
-                }
+                },
+                "expression": false
               }
             }
           },
@@ -204,6 +204,7 @@
         "type": "VariableDeclaration",
         "start": 2419,
         "end": 2430,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -217,8 +218,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "ArrayExpression",
@@ -234,7 +234,6 @@
               "start": 2441,
               "end": 2454,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -243,7 +242,8 @@
                 "start": 2452,
                 "end": 2454,
                 "body": []
-              }
+              },
+              "expression": false
             }
           }
         ]
@@ -266,7 +266,6 @@
                 "start": 2467,
                 "end": 2480,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -275,7 +274,8 @@
                   "start": 2478,
                   "end": 2480,
                   "body": []
-                }
+                },
+                "expression": false
               }
             }
           },

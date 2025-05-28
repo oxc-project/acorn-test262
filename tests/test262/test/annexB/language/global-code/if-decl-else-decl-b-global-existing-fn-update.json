@@ -24,7 +24,6 @@
           "end": 1580,
           "name": "_f"
         },
-        "expression": false,
         "generator": false,
         "async": false,
         "params": [],
@@ -33,7 +32,8 @@
           "start": 1583,
           "end": 1585,
           "body": []
-        }
+        },
+        "expression": false
       },
       "alternate": {
         "type": "FunctionDeclaration",
@@ -45,7 +45,6 @@
           "end": 1601,
           "name": "f"
         },
-        "expression": false,
         "generator": false,
         "async": false,
         "params": [],
@@ -67,7 +66,8 @@
               }
             }
           ]
-        }
+        },
+        "expression": false
       }
     },
     {
@@ -94,8 +94,8 @@
             "end": 1653,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -103,13 +103,13 @@
             "start": 1654,
             "end": 1662,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 1661,
               "end": 1662,
               "name": "f"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -146,8 +146,8 @@
             "end": 1693,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -184,7 +184,6 @@
         "end": 1732,
         "name": "f"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -206,7 +205,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

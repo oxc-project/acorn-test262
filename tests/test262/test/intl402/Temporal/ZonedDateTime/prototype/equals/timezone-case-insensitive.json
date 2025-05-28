@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 292,
       "end": 12495,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -4191,13 +4192,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 12956,
       "end": 13046,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -4269,8 +4270,8 @@
                                 "end": 13030,
                                 "name": "supportedValuesOf"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -4292,8 +4293,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -4304,6 +4304,7 @@
         "type": "VariableDeclaration",
         "start": 13052,
         "end": 13060,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -4317,8 +4318,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -4335,6 +4335,7 @@
             "type": "VariableDeclaration",
             "start": 13073,
             "end": 13104,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -4366,20 +4367,20 @@
                       "end": 13101,
                       "name": "toLowerCase"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 13107,
             "end": 13138,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -4411,20 +4412,20 @@
                       "end": 13135,
                       "name": "toUpperCase"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 13141,
             "end": 13188,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -4456,8 +4457,8 @@
                       "end": 13179,
                       "name": "ZonedDateTime"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -4477,8 +4478,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -4515,8 +4515,8 @@
                       "end": 13208,
                       "name": "equals"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -4539,8 +4539,8 @@
                           "end": 13225,
                           "name": "withTimeZone"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -4559,20 +4559,6 @@
                   "type": "TemplateLiteral",
                   "start": 13235,
                   "end": 13284,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 13249,
-                      "end": 13251,
-                      "name": "id"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 13276,
-                      "end": 13281,
-                      "name": "upper"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -4603,6 +4589,20 @@
                         "cooked": "\""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 13249,
+                      "end": 13251,
+                      "name": "id"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 13276,
+                      "end": 13281,
+                      "name": "upper"
                     }
                   ]
                 }
@@ -4645,8 +4645,8 @@
                       "end": 13306,
                       "name": "equals"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -4669,8 +4669,8 @@
                           "end": 13323,
                           "name": "withTimeZone"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -4689,20 +4689,6 @@
                   "type": "TemplateLiteral",
                   "start": 13333,
                   "end": 13382,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 13347,
-                      "end": 13349,
-                      "name": "id"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 13374,
-                      "end": 13379,
-                      "name": "lower"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -4733,6 +4719,20 @@
                         "cooked": "\""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 13347,
+                      "end": 13349,
+                      "name": "id"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 13374,
+                      "end": 13379,
+                      "name": "lower"
                     }
                   ]
                 }

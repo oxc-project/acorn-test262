@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 149,
+      "id": {
+        "type": "Identifier",
+        "start": 15,
+        "end": 19,
+        "decorators": [],
+        "name": "test",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 20,
@@ -18,14 +27,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSModuleDeclaration",
             "start": 26,
             "end": 44,
-            "body": {
-              "type": "TSModuleBlock",
-              "start": 41,
-              "end": 44,
-              "body": []
-            },
-            "declare": false,
-            "global": false,
             "id": {
               "type": "Identifier",
               "start": 33,
@@ -35,13 +36,20 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "module"
+            "body": {
+              "type": "TSModuleBlock",
+              "start": 41,
+              "end": 44,
+              "body": []
+            },
+            "kind": "module",
+            "declare": false,
+            "global": false
           },
           {
             "type": "ExportNamedDeclaration",
             "start": 116,
             "end": 147,
-            "attributes": [],
             "declaration": {
               "type": "TSImportEqualsDeclaration",
               "start": 123,
@@ -55,7 +63,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "importKind": "value",
               "moduleReference": {
                 "type": "Identifier",
                 "start": 139,
@@ -64,26 +71,19 @@ __ESTREE_TEST__:PASS:
                 "name": "mstring",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "importKind": "value"
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 15,
-        "end": 19,
-        "decorators": [],
-        "name": "test",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "script",

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 286,
       "end": 367,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 329,
                 "name": "ZonedDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -47,7 +48,6 @@
                 "start": 330,
                 "end": 358,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 331,
@@ -55,7 +55,8 @@
                   "value": null,
                   "raw": "65_261_246_399_500_000_000n",
                   "bigint": "65261246399500000000"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -67,8 +68,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -94,8 +94,8 @@
             "end": 414,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -122,8 +122,8 @@
                   "end": 432,
                   "name": "round"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -135,9 +135,7 @@
                       "type": "Property",
                       "start": 435,
                       "end": 457,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 435,
@@ -151,15 +149,15 @@
                         "value": "second",
                         "raw": "\"second\""
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     },
                     {
                       "type": "Property",
                       "start": 459,
                       "end": 480,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 459,
@@ -173,7 +171,9 @@
                         "value": "floor",
                         "raw": "\"floor\""
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
@@ -186,15 +186,14 @@
               "end": 500,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "UnaryExpression",
             "start": 504,
             "end": 532,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 505,
@@ -202,7 +201,8 @@
               "value": null,
               "raw": "65_261_246_400_000_000_000n",
               "bigint": "65261246400000000000"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -239,8 +239,8 @@
             "end": 668,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -267,8 +267,8 @@
                   "end": 686,
                   "name": "round"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -280,9 +280,7 @@
                       "type": "Property",
                       "start": 689,
                       "end": 711,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 689,
@@ -296,15 +294,15 @@
                         "value": "second",
                         "raw": "\"second\""
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     },
                     {
                       "type": "Property",
                       "start": 713,
                       "end": 734,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 713,
@@ -318,7 +316,9 @@
                         "value": "trunc",
                         "raw": "\"trunc\""
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
@@ -331,15 +331,14 @@
               "end": 754,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "UnaryExpression",
             "start": 758,
             "end": 786,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 759,
@@ -347,7 +346,8 @@
               "value": null,
               "raw": "65_261_246_400_000_000_000n",
               "bigint": "65261246400000000000"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -384,8 +384,8 @@
             "end": 922,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -412,8 +412,8 @@
                   "end": 940,
                   "name": "round"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -425,9 +425,7 @@
                       "type": "Property",
                       "start": 943,
                       "end": 965,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 943,
@@ -441,15 +439,15 @@
                         "value": "second",
                         "raw": "\"second\""
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     },
                     {
                       "type": "Property",
                       "start": 967,
                       "end": 987,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 967,
@@ -463,7 +461,9 @@
                         "value": "ceil",
                         "raw": "\"ceil\""
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
@@ -476,15 +476,14 @@
               "end": 1007,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "UnaryExpression",
             "start": 1011,
             "end": 1039,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1012,
@@ -492,7 +491,8 @@
               "value": null,
               "raw": "65_261_246_399_000_000_000n",
               "bigint": "65261246399000000000"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -529,8 +529,8 @@
             "end": 1174,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -557,8 +557,8 @@
                   "end": 1192,
                   "name": "round"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -570,9 +570,7 @@
                       "type": "Property",
                       "start": 1195,
                       "end": 1217,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1195,
@@ -586,15 +584,15 @@
                         "value": "second",
                         "raw": "\"second\""
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     },
                     {
                       "type": "Property",
                       "start": 1219,
                       "end": 1245,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1219,
@@ -608,7 +606,9 @@
                         "value": "halfExpand",
                         "raw": "\"halfExpand\""
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
@@ -621,15 +621,14 @@
               "end": 1265,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "UnaryExpression",
             "start": 1269,
             "end": 1297,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 1270,
@@ -637,7 +636,8 @@
               "value": null,
               "raw": "65_261_246_399_000_000_000n",
               "bigint": "65261246399000000000"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

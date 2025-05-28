@@ -105,9 +105,7 @@
                                                                                   "type": "Property",
                                                                                   "start": 1417,
                                                                                   "end": 1430,
-                                                                                  "method": true,
-                                                                                  "shorthand": false,
-                                                                                  "computed": false,
+                                                                                  "kind": "init",
                                                                                   "key": {
                                                                                     "type": "Identifier",
                                                                                     "start": 1417,
@@ -119,7 +117,6 @@
                                                                                     "start": 1425,
                                                                                     "end": 1430,
                                                                                     "id": null,
-                                                                                    "expression": false,
                                                                                     "generator": false,
                                                                                     "async": false,
                                                                                     "params": [],
@@ -128,9 +125,12 @@
                                                                                       "start": 1428,
                                                                                       "end": 1430,
                                                                                       "body": []
-                                                                                    }
+                                                                                    },
+                                                                                    "expression": false
                                                                                   },
-                                                                                  "kind": "init"
+                                                                                  "method": true,
+                                                                                  "shorthand": false,
+                                                                                  "computed": false
                                                                                 }
                                                                               ]
                                                                             }

@@ -12,6 +12,7 @@
           "type": "VariableDeclaration",
           "start": 277,
           "end": 304,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -58,13 +59,13 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "VariableDeclaration",
           "start": 307,
           "end": 334,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -111,8 +112,7 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "ExpressionStatement",
@@ -138,8 +138,8 @@
                 "end": 357,
                 "name": "compareArray"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -171,8 +171,8 @@
                           "end": 370,
                           "name": "union"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -230,6 +230,7 @@
           "type": "VariableDeclaration",
           "start": 396,
           "end": 423,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -276,13 +277,13 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "VariableDeclaration",
           "start": 426,
           "end": 453,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -329,8 +330,7 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "ExpressionStatement",
@@ -356,8 +356,8 @@
                 "end": 476,
                 "name": "compareArray"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -389,8 +389,8 @@
                           "end": 489,
                           "name": "union"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -448,6 +448,7 @@
           "type": "VariableDeclaration",
           "start": 515,
           "end": 542,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -494,13 +495,13 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "VariableDeclaration",
           "start": 545,
           "end": 569,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -540,8 +541,7 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "ExpressionStatement",
@@ -567,8 +567,8 @@
                 "end": 592,
                 "name": "compareArray"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -600,8 +600,8 @@
                           "end": 605,
                           "name": "union"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -659,6 +659,7 @@
           "type": "VariableDeclaration",
           "start": 631,
           "end": 655,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -698,13 +699,13 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "VariableDeclaration",
           "start": 658,
           "end": 685,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -751,8 +752,7 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "ExpressionStatement",
@@ -778,8 +778,8 @@
                 "end": 708,
                 "name": "compareArray"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -811,8 +811,8 @@
                           "end": 721,
                           "name": "union"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {

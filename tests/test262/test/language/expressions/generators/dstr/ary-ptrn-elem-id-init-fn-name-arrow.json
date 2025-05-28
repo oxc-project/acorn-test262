@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1863,
       "end": 1881,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1882,
       "end": 1888,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -46,8 +47,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -69,7 +69,6 @@
           "start": 1893,
           "end": 1996,
           "id": null,
-          "expression": false,
           "generator": true,
           "async": false,
           "params": [
@@ -92,9 +91,7 @@
                     "type": "ArrowFunctionExpression",
                     "start": 1912,
                     "end": 1920,
-                    "id": null,
                     "expression": false,
-                    "generator": false,
                     "async": false,
                     "params": [],
                     "body": {
@@ -102,7 +99,9 @@
                       "start": 1918,
                       "end": 1920,
                       "body": []
-                    }
+                    },
+                    "id": null,
+                    "generator": false
                   }
                 }
               ]
@@ -137,8 +136,8 @@
                       "end": 1943,
                       "name": "sameValue"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -157,8 +156,8 @@
                         "end": 1954,
                         "name": "name"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     {
                       "type": "Literal",
@@ -208,7 +207,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -250,8 +250,8 @@
             "end": 2009,
             "name": "next"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [],
         "optional": false
@@ -281,8 +281,8 @@
             "end": 2029,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

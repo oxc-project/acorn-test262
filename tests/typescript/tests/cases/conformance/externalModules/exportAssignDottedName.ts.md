@@ -9,12 +9,25 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 36,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 7,
         "end": 36,
+        "id": {
+          "type": "Identifier",
+          "start": 16,
+          "end": 17,
+          "decorators": [],
+          "name": "x",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "generator": false,
         "async": false,
+        "declare": false,
+        "typeParameters": null,
+        "params": [],
+        "returnType": null,
         "body": {
           "type": "BlockStatement",
           "start": 19,
@@ -28,31 +41,18 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 29,
                 "end": 33,
-                "raw": "true",
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             }
           ]
         },
-        "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 16,
-          "end": 17,
-          "decorators": [],
-          "name": "x",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -79,7 +79,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 14,
@@ -88,10 +87,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 22,
           "end": 30,
-          "raw": "'./foo1'",
-          "value": "./foo1"
+          "value": "./foo1",
+          "raw": "'./foo1'"
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSExportAssignment",
@@ -101,7 +101,6 @@ __ESTREE_TEST__:PASS:
         "type": "MemberExpression",
         "start": 42,
         "end": 48,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 42,
@@ -111,7 +110,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 47,
@@ -120,7 +118,9 @@ __ESTREE_TEST__:PASS:
           "name": "x",
           "optional": false,
           "typeAnnotation": null
-        }
+        },
+        "optional": false,
+        "computed": false
       }
     }
   ],

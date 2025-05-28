@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 233,
       "end": 4170,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -304,7 +305,6 @@
                     "start": 932,
                     "end": 955,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 933,
@@ -312,7 +312,8 @@
                       "value": null,
                       "raw": "377677326989880000000n",
                       "bigint": "377677326989880000000"
-                    }
+                    },
+                    "prefix": true
                   }
                 ]
               },
@@ -1375,8 +1376,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -1387,6 +1387,7 @@
         "type": "VariableDeclaration",
         "start": 4177,
         "end": 4198,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -1413,8 +1414,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -1431,6 +1431,7 @@
             "type": "VariableDeclaration",
             "start": 4213,
             "end": 4255,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -1466,8 +1467,8 @@
                         "end": 4244,
                         "name": "Instant"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -1475,8 +1476,8 @@
                       "end": 4249,
                       "name": "from"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1489,8 +1490,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -1516,8 +1516,8 @@
                   "end": 4274,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1536,8 +1536,8 @@
                     "end": 4298,
                     "name": "epochNanoseconds"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Identifier",
@@ -1549,14 +1549,6 @@
                   "type": "TemplateLiteral",
                   "start": 4310,
                   "end": 4332,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 4326,
-                      "end": 4329,
-                      "name": "arg"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -1577,6 +1569,14 @@
                         "cooked": ")"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 4326,
+                      "end": 4329,
+                      "name": "arg"
                     }
                   ]
                 }

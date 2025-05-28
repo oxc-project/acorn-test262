@@ -13,7 +13,6 @@
         "end": 526,
         "name": "f_arg"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -22,7 +21,8 @@
         "start": 529,
         "end": 532,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "TryStatement",

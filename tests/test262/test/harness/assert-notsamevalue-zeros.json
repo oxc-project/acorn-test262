@@ -27,8 +27,8 @@
             "end": 240,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -43,14 +43,14 @@
             "start": 244,
             "end": 246,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 245,
               "end": 246,
               "value": 0,
               "raw": "0"
-            }
+            },
+            "prefix": true
           }
         ],
         "optional": false

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 759,
       "end": 814,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,9 +28,7 @@
                 "type": "Property",
                 "start": 779,
                 "end": 810,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 779,
@@ -52,16 +51,17 @@
                     "end": 810,
                     "name": "MAX_SAFE_INTEGER"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -102,8 +102,8 @@
                 "end": 849,
                 "name": "MAX_SAFE_INTEGER"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "-",
             "right": {
@@ -114,8 +114,8 @@
               "raw": "1"
             }
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -165,8 +165,8 @@
                 "end": 893,
                 "name": "MAX_SAFE_INTEGER"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "operator": "-",
             "right": {
@@ -177,8 +177,8 @@
               "raw": "3"
             }
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
@@ -193,6 +193,7 @@
       "type": "VariableDeclaration",
       "start": 905,
       "end": 1030,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -209,7 +210,6 @@
             "start": 923,
             "end": 1029,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -261,8 +261,8 @@
                         "end": 960,
                         "name": "push"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -343,11 +343,11 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "TryStatement",
@@ -390,8 +390,8 @@
                       "end": 1055,
                       "name": "prototype"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "property": {
                     "type": "Identifier",
@@ -399,8 +399,8 @@
                     "end": 1067,
                     "name": "reduceRight"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -408,8 +408,8 @@
                   "end": 1072,
                   "name": "call"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -500,8 +500,8 @@
                     "end": 1186,
                     "name": "sameValue"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -520,8 +520,8 @@
                       "end": 1197,
                       "name": "length"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   {
                     "type": "Literal",
@@ -565,8 +565,8 @@
                     "end": 1271,
                     "name": "compareArray"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -586,8 +586,8 @@
                       "value": 0,
                       "raw": "0"
                     },
-                    "computed": true,
-                    "optional": false
+                    "optional": false,
+                    "computed": true
                   },
                   {
                     "type": "ArrayExpression",
@@ -621,8 +621,8 @@
                             "end": 1316,
                             "name": "MAX_SAFE_INTEGER"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "operator": "-",
                         "right": {
@@ -670,8 +670,8 @@
                     "end": 1426,
                     "name": "compareArray"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -691,8 +691,8 @@
                       "value": 1,
                       "raw": "1"
                     },
-                    "computed": true,
-                    "optional": false
+                    "optional": false,
+                    "computed": true
                   },
                   {
                     "type": "ArrayExpression",
@@ -726,8 +726,8 @@
                             "end": 1471,
                             "name": "MAX_SAFE_INTEGER"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "operator": "-",
                         "right": {

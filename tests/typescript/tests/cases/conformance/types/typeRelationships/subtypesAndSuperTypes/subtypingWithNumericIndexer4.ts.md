@@ -9,44 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 62,
       "end": 93,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 77,
-        "end": 93,
-        "body": [
-          {
-            "type": "TSPropertySignature",
-            "start": 79,
-            "end": 91,
-            "accessibility": null,
-            "computed": false,
-            "key": {
-              "type": "Identifier",
-              "start": 79,
-              "end": 82,
-              "decorators": [],
-              "name": "foo",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 82,
-              "end": 90,
-              "typeAnnotation": {
-                "type": "TSStringKeyword",
-                "start": 84,
-                "end": 90
-              }
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "extends": [],
       "id": {
         "type": "Identifier",
         "start": 72,
@@ -56,49 +18,60 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "typeParameters": null
+      "typeParameters": null,
+      "extends": [],
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 77,
+        "end": 93,
+        "body": [
+          {
+            "type": "TSPropertySignature",
+            "start": 79,
+            "end": 91,
+            "computed": false,
+            "optional": false,
+            "readonly": false,
+            "key": {
+              "type": "Identifier",
+              "start": 79,
+              "end": 82,
+              "decorators": [],
+              "name": "foo",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 82,
+              "end": 90,
+              "typeAnnotation": {
+                "type": "TSStringKeyword",
+                "start": 84,
+                "end": 90
+              }
+            },
+            "accessibility": null,
+            "static": false
+          }
+        ]
+      },
+      "declare": false
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 94,
       "end": 141,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 125,
-        "end": 141,
-        "body": [
-          {
-            "type": "TSPropertySignature",
-            "start": 127,
-            "end": 139,
-            "accessibility": null,
-            "computed": false,
-            "key": {
-              "type": "Identifier",
-              "start": 127,
-              "end": 130,
-              "decorators": [],
-              "name": "bar",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 130,
-              "end": 138,
-              "typeAnnotation": {
-                "type": "TSStringKeyword",
-                "start": 132,
-                "end": 138
-              }
-            }
-          }
-        ]
+      "id": {
+        "type": "Identifier",
+        "start": 104,
+        "end": 111,
+        "decorators": [],
+        "name": "Derived",
+        "optional": false,
+        "typeAnnotation": null
       },
-      "declare": false,
+      "typeParameters": null,
       "extends": [
         {
           "type": "TSInterfaceHeritage",
@@ -116,58 +89,58 @@ __ESTREE_TEST__:PASS:
           "typeArguments": null
         }
       ],
-      "id": {
-        "type": "Identifier",
-        "start": 104,
-        "end": 111,
-        "decorators": [],
-        "name": "Derived",
-        "optional": false,
-        "typeAnnotation": null
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 125,
+        "end": 141,
+        "body": [
+          {
+            "type": "TSPropertySignature",
+            "start": 127,
+            "end": 139,
+            "computed": false,
+            "optional": false,
+            "readonly": false,
+            "key": {
+              "type": "Identifier",
+              "start": 127,
+              "end": 130,
+              "decorators": [],
+              "name": "bar",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 130,
+              "end": 138,
+              "typeAnnotation": {
+                "type": "TSStringKeyword",
+                "start": 132,
+                "end": 138
+              }
+            },
+            "accessibility": null,
+            "static": false
+          }
+        ]
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 142,
       "end": 193,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 177,
-        "end": 193,
-        "body": [
-          {
-            "type": "TSPropertySignature",
-            "start": 179,
-            "end": 191,
-            "accessibility": null,
-            "computed": false,
-            "key": {
-              "type": "Identifier",
-              "start": 179,
-              "end": 182,
-              "decorators": [],
-              "name": "baz",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 182,
-              "end": 190,
-              "typeAnnotation": {
-                "type": "TSStringKeyword",
-                "start": 184,
-                "end": 190
-              }
-            }
-          }
-        ]
+      "id": {
+        "type": "Identifier",
+        "start": 152,
+        "end": 160,
+        "decorators": [],
+        "name": "Derived2",
+        "optional": false,
+        "typeAnnotation": null
       },
-      "declare": false,
+      "typeParameters": null,
       "extends": [
         {
           "type": "TSInterfaceHeritage",
@@ -185,22 +158,62 @@ __ESTREE_TEST__:PASS:
           "typeArguments": null
         }
       ],
-      "id": {
-        "type": "Identifier",
-        "start": 152,
-        "end": 160,
-        "decorators": [],
-        "name": "Derived2",
-        "optional": false,
-        "typeAnnotation": null
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 177,
+        "end": 193,
+        "body": [
+          {
+            "type": "TSPropertySignature",
+            "start": 179,
+            "end": 191,
+            "computed": false,
+            "optional": false,
+            "readonly": false,
+            "key": {
+              "type": "Identifier",
+              "start": 179,
+              "end": 182,
+              "decorators": [],
+              "name": "baz",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 182,
+              "end": 190,
+              "typeAnnotation": {
+                "type": "TSStringKeyword",
+                "start": 184,
+                "end": 190
+              }
+            },
+            "accessibility": null,
+            "static": false
+          }
+        ]
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 195,
       "end": 232,
-      "abstract": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 201,
+        "end": 202,
+        "decorators": [],
+        "name": "A",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
       "body": {
         "type": "ClassBody",
         "start": 203,
@@ -210,7 +223,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 209,
             "end": 230,
-            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -231,8 +243,6 @@ __ESTREE_TEST__:PASS:
                 }
               }
             ],
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 220,
@@ -241,7 +251,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 222,
                 "end": 229,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 222,
@@ -250,33 +259,45 @@ __ESTREE_TEST__:PASS:
                   "name": "Derived",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
-            }
+            },
+            "readonly": false,
+            "static": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
-      "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 201,
-        "end": 202,
-        "decorators": [],
-        "name": "A",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 234,
       "end": 289,
-      "abstract": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 240,
+        "end": 241,
+        "decorators": [],
+        "name": "B",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "superClass": {
+        "type": "Identifier",
+        "start": 250,
+        "end": 251,
+        "decorators": [],
+        "name": "A",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "implements": [],
       "body": {
         "type": "ClassBody",
         "start": 252,
@@ -286,7 +307,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 258,
             "end": 278,
-            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -307,8 +327,6 @@ __ESTREE_TEST__:PASS:
                 }
               }
             ],
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 269,
@@ -318,38 +336,29 @@ __ESTREE_TEST__:PASS:
                 "start": 271,
                 "end": 277
               }
-            }
+            },
+            "readonly": false,
+            "static": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
-      "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 240,
-        "end": 241,
-        "decorators": [],
-        "name": "B",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": {
-        "type": "Identifier",
-        "start": 250,
-        "end": 251,
-        "decorators": [],
-        "name": "A",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 291,
       "end": 540,
+      "id": {
+        "type": "Identifier",
+        "start": 298,
+        "end": 306,
+        "decorators": [],
+        "name": "Generics",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 307,
@@ -359,7 +368,59 @@ __ESTREE_TEST__:PASS:
             "type": "ClassDeclaration",
             "start": 313,
             "end": 371,
-            "abstract": false,
+            "decorators": [],
+            "id": {
+              "type": "Identifier",
+              "start": 319,
+              "end": 320,
+              "decorators": [],
+              "name": "A",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": {
+              "type": "TSTypeParameterDeclaration",
+              "start": 320,
+              "end": 339,
+              "params": [
+                {
+                  "type": "TSTypeParameter",
+                  "start": 321,
+                  "end": 338,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 321,
+                    "end": 322,
+                    "decorators": [],
+                    "name": "T",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": {
+                    "type": "TSTypeReference",
+                    "start": 331,
+                    "end": 338,
+                    "typeName": {
+                      "type": "Identifier",
+                      "start": 331,
+                      "end": 338,
+                      "decorators": [],
+                      "name": "Derived",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeArguments": null
+                  },
+                  "default": null,
+                  "in": false,
+                  "out": false,
+                  "const": false
+                }
+              ]
+            },
+            "superClass": null,
+            "superTypeArguments": null,
+            "implements": [],
             "body": {
               "type": "ClassBody",
               "start": 340,
@@ -369,7 +430,6 @@ __ESTREE_TEST__:PASS:
                   "type": "TSIndexSignature",
                   "start": 350,
                   "end": 365,
-                  "accessibility": null,
                   "parameters": [
                     {
                       "type": "Identifier",
@@ -390,8 +450,6 @@ __ESTREE_TEST__:PASS:
                       }
                     }
                   ],
-                  "readonly": false,
-                  "static": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 361,
@@ -400,7 +458,6 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 363,
                       "end": 364,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 363,
@@ -409,72 +466,66 @@ __ESTREE_TEST__:PASS:
                         "name": "T",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     }
-                  }
+                  },
+                  "readonly": false,
+                  "static": false,
+                  "accessibility": null
                 }
               ]
             },
-            "declare": false,
-            "decorators": [],
-            "id": {
-              "type": "Identifier",
-              "start": 319,
-              "end": 320,
-              "decorators": [],
-              "name": "A",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "implements": [],
-            "superClass": null,
-            "superTypeArguments": null,
-            "typeParameters": {
-              "type": "TSTypeParameterDeclaration",
-              "start": 320,
-              "end": 339,
-              "params": [
-                {
-                  "type": "TSTypeParameter",
-                  "start": 321,
-                  "end": 338,
-                  "const": false,
-                  "constraint": {
-                    "type": "TSTypeReference",
-                    "start": 331,
-                    "end": 338,
-                    "typeArguments": null,
-                    "typeName": {
-                      "type": "Identifier",
-                      "start": 331,
-                      "end": 338,
-                      "decorators": [],
-                      "name": "Derived",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  },
-                  "default": null,
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 321,
-                    "end": 322,
-                    "decorators": [],
-                    "name": "T",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                }
-              ]
-            }
+            "abstract": false,
+            "declare": false
           },
           {
             "type": "ClassDeclaration",
             "start": 377,
             "end": 446,
-            "abstract": false,
+            "decorators": [],
+            "id": {
+              "type": "Identifier",
+              "start": 383,
+              "end": 384,
+              "decorators": [],
+              "name": "B",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null,
+            "superClass": {
+              "type": "Identifier",
+              "start": 393,
+              "end": 394,
+              "decorators": [],
+              "name": "A",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "superTypeArguments": {
+              "type": "TSTypeParameterInstantiation",
+              "start": 394,
+              "end": 400,
+              "params": [
+                {
+                  "type": "TSTypeReference",
+                  "start": 395,
+                  "end": 399,
+                  "typeName": {
+                    "type": "Identifier",
+                    "start": 395,
+                    "end": 399,
+                    "decorators": [],
+                    "name": "Base",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeArguments": null
+                }
+              ]
+            },
+            "implements": [],
             "body": {
               "type": "ClassBody",
               "start": 401,
@@ -484,7 +535,6 @@ __ESTREE_TEST__:PASS:
                   "type": "TSIndexSignature",
                   "start": 411,
                   "end": 431,
-                  "accessibility": null,
                   "parameters": [
                     {
                       "type": "Identifier",
@@ -505,8 +555,6 @@ __ESTREE_TEST__:PASS:
                       }
                     }
                   ],
-                  "readonly": false,
-                  "static": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 422,
@@ -516,26 +564,74 @@ __ESTREE_TEST__:PASS:
                       "start": 424,
                       "end": 430
                     }
-                  }
+                  },
+                  "readonly": false,
+                  "static": false,
+                  "accessibility": null
                 }
               ]
             },
-            "declare": false,
+            "abstract": false,
+            "declare": false
+          },
+          {
+            "type": "ClassDeclaration",
+            "start": 452,
+            "end": 538,
             "decorators": [],
             "id": {
               "type": "Identifier",
-              "start": 383,
-              "end": 384,
+              "start": 458,
+              "end": 460,
               "decorators": [],
-              "name": "B",
+              "name": "B3",
               "optional": false,
               "typeAnnotation": null
             },
-            "implements": [],
+            "typeParameters": {
+              "type": "TSTypeParameterDeclaration",
+              "start": 460,
+              "end": 479,
+              "params": [
+                {
+                  "type": "TSTypeParameter",
+                  "start": 461,
+                  "end": 478,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 461,
+                    "end": 462,
+                    "decorators": [],
+                    "name": "T",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": {
+                    "type": "TSTypeReference",
+                    "start": 471,
+                    "end": 478,
+                    "typeName": {
+                      "type": "Identifier",
+                      "start": 471,
+                      "end": 478,
+                      "decorators": [],
+                      "name": "Derived",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeArguments": null
+                  },
+                  "default": null,
+                  "in": false,
+                  "out": false,
+                  "const": false
+                }
+              ]
+            },
             "superClass": {
               "type": "Identifier",
-              "start": 393,
-              "end": 394,
+              "start": 488,
+              "end": 489,
               "decorators": [],
               "name": "A",
               "optional": false,
@@ -543,33 +639,27 @@ __ESTREE_TEST__:PASS:
             },
             "superTypeArguments": {
               "type": "TSTypeParameterInstantiation",
-              "start": 394,
-              "end": 400,
+              "start": 489,
+              "end": 492,
               "params": [
                 {
                   "type": "TSTypeReference",
-                  "start": 395,
-                  "end": 399,
-                  "typeArguments": null,
+                  "start": 490,
+                  "end": 491,
                   "typeName": {
                     "type": "Identifier",
-                    "start": 395,
-                    "end": 399,
+                    "start": 490,
+                    "end": 491,
                     "decorators": [],
-                    "name": "Base",
+                    "name": "T",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "typeArguments": null
                 }
               ]
             },
-            "typeParameters": null
-          },
-          {
-            "type": "ClassDeclaration",
-            "start": 452,
-            "end": 538,
-            "abstract": false,
+            "implements": [],
             "body": {
               "type": "ClassBody",
               "start": 493,
@@ -579,7 +669,6 @@ __ESTREE_TEST__:PASS:
                   "type": "TSIndexSignature",
                   "start": 503,
                   "end": 523,
-                  "accessibility": null,
                   "parameters": [
                     {
                       "type": "Identifier",
@@ -600,8 +689,6 @@ __ESTREE_TEST__:PASS:
                       }
                     }
                   ],
-                  "readonly": false,
-                  "static": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 514,
@@ -611,108 +698,21 @@ __ESTREE_TEST__:PASS:
                       "start": 516,
                       "end": 522
                     }
-                  }
-                }
-              ]
-            },
-            "declare": false,
-            "decorators": [],
-            "id": {
-              "type": "Identifier",
-              "start": 458,
-              "end": 460,
-              "decorators": [],
-              "name": "B3",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "implements": [],
-            "superClass": {
-              "type": "Identifier",
-              "start": 488,
-              "end": 489,
-              "decorators": [],
-              "name": "A",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "superTypeArguments": {
-              "type": "TSTypeParameterInstantiation",
-              "start": 489,
-              "end": 492,
-              "params": [
-                {
-                  "type": "TSTypeReference",
-                  "start": 490,
-                  "end": 491,
-                  "typeArguments": null,
-                  "typeName": {
-                    "type": "Identifier",
-                    "start": 490,
-                    "end": 491,
-                    "decorators": [],
-                    "name": "T",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                }
-              ]
-            },
-            "typeParameters": {
-              "type": "TSTypeParameterDeclaration",
-              "start": 460,
-              "end": 479,
-              "params": [
-                {
-                  "type": "TSTypeParameter",
-                  "start": 461,
-                  "end": 478,
-                  "const": false,
-                  "constraint": {
-                    "type": "TSTypeReference",
-                    "start": 471,
-                    "end": 478,
-                    "typeArguments": null,
-                    "typeName": {
-                      "type": "Identifier",
-                      "start": 471,
-                      "end": 478,
-                      "decorators": [],
-                      "name": "Derived",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
                   },
-                  "default": null,
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 461,
-                    "end": 462,
-                    "decorators": [],
-                    "name": "T",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
+                  "readonly": false,
+                  "static": false,
+                  "accessibility": null
                 }
               ]
-            }
+            },
+            "abstract": false,
+            "declare": false
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 298,
-        "end": 306,
-        "decorators": [],
-        "name": "Generics",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "script",

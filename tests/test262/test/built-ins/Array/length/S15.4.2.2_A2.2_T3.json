@@ -134,8 +134,8 @@
                     "end": 540,
                     "name": "sameValue"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -219,8 +219,8 @@
                     "end": 703,
                     "name": "MAX_VALUE"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 }
               ]
             }
@@ -283,8 +283,8 @@
                             "end": 823,
                             "name": "MAX_VALUE"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         }
                       ]
                     }
@@ -334,8 +334,8 @@
                     "end": 860,
                     "name": "sameValue"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -419,8 +419,8 @@
                     "end": 1023,
                     "name": "MIN_VALUE"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 }
               ]
             }
@@ -483,8 +483,8 @@
                             "end": 1143,
                             "name": "MIN_VALUE"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         }
                       ]
                     }
@@ -534,8 +534,8 @@
                     "end": 1180,
                     "name": "sameValue"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {

@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSEnumDeclaration",
       "start": 0,
       "end": 64,
+      "id": {
+        "type": "Identifier",
+        "start": 5,
+        "end": 6,
+        "decorators": [],
+        "name": "E",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSEnumBody",
         "start": 7,
@@ -18,7 +27,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 13,
             "end": 18,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 13,
@@ -36,13 +44,13 @@ __ESTREE_TEST__:PASS:
               "name": "A",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 24,
             "end": 31,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 24,
@@ -56,7 +64,6 @@ __ESTREE_TEST__:PASS:
               "type": "MemberExpression",
               "start": 28,
               "end": 31,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 28,
@@ -66,7 +73,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 30,
@@ -75,14 +81,16 @@ __ESTREE_TEST__:PASS:
                 "name": "B",
                 "optional": false,
                 "typeAnnotation": null
-              }
-            }
+              },
+              "optional": false,
+              "computed": false
+            },
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 37,
             "end": 47,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 37,
@@ -96,7 +104,6 @@ __ESTREE_TEST__:PASS:
               "type": "MemberExpression",
               "start": 41,
               "end": 47,
-              "computed": true,
               "object": {
                 "type": "Identifier",
                 "start": 41,
@@ -106,21 +113,22 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Literal",
                 "start": 43,
                 "end": 46,
-                "raw": "\"C\"",
-                "value": "C"
-              }
-            }
+                "value": "C",
+                "raw": "\"C\""
+              },
+              "optional": false,
+              "computed": true
+            },
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 53,
             "end": 62,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 53,
@@ -134,14 +142,14 @@ __ESTREE_TEST__:PASS:
               "type": "BinaryExpression",
               "start": 57,
               "end": 62,
-              "operator": "+",
               "left": {
                 "type": "Literal",
                 "start": 57,
                 "end": 58,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
+              "operator": "+",
               "right": {
                 "type": "Identifier",
                 "start": 61,
@@ -151,21 +159,13 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               }
-            }
+            },
+            "computed": false
           }
         ]
       },
       "const": false,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 5,
-        "end": 6,
-        "decorators": [],
-        "name": "E",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      "declare": false
     }
   ],
   "sourceType": "script",

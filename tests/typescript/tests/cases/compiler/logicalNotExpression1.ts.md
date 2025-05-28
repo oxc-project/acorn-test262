@@ -9,11 +9,11 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 5,
-      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 0,
         "end": 4,
+        "operator": "!",
         "argument": {
           "type": "Identifier",
           "start": 1,
@@ -23,9 +23,9 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "operator": "!",
         "prefix": true
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

@@ -13,7 +13,6 @@
         "end": 312,
         "name": "values"
       },
-      "expression": false,
       "generator": true,
       "async": false,
       "params": [],
@@ -66,12 +65,14 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 415,
       "end": 439,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -97,13 +98,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 440,
       "end": 450,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -123,13 +124,18 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "LabeledStatement",
       "start": 452,
       "end": 708,
+      "label": {
+        "type": "Identifier",
+        "start": 452,
+        "end": 457,
+        "name": "outer"
+      },
       "body": {
         "type": "WhileStatement",
         "start": 459,
@@ -155,6 +161,7 @@
                 "type": "VariableDeclaration",
                 "start": 481,
                 "end": 486,
+                "kind": "var",
                 "declarations": [
                   {
                     "type": "VariableDeclarator",
@@ -168,8 +175,7 @@
                     },
                     "init": null
                   }
-                ],
-                "kind": "var"
+                ]
               },
               "right": {
                 "type": "Identifier",
@@ -266,12 +272,6 @@
             }
           ]
         }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 452,
-        "end": 457,
-        "name": "outer"
       }
     },
     {
@@ -298,8 +298,8 @@
             "end": 726,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

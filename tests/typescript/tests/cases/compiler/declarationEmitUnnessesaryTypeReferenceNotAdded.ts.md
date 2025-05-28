@@ -9,38 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 55,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 24,
-        "end": 55,
-        "body": [
-          {
-            "type": "TSInterfaceDeclaration",
-            "start": 30,
-            "end": 53,
-            "body": {
-              "type": "TSInterfaceBody",
-              "start": 51,
-              "end": 53,
-              "body": []
-            },
-            "declare": false,
-            "extends": [],
-            "id": {
-              "type": "Identifier",
-              "start": 40,
-              "end": 50,
-              "decorators": [],
-              "name": "ParsedArgs",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeParameters": null
-          }
-        ]
-      },
-      "declare": true,
-      "global": false,
       "id": {
         "type": "Identifier",
         "start": 18,
@@ -50,17 +18,44 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "namespace"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 24,
+        "end": 55,
+        "body": [
+          {
+            "type": "TSInterfaceDeclaration",
+            "start": 30,
+            "end": 53,
+            "id": {
+              "type": "Identifier",
+              "start": 40,
+              "end": 50,
+              "decorators": [],
+              "name": "ParsedArgs",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null,
+            "extends": [],
+            "body": {
+              "type": "TSInterfaceBody",
+              "start": 51,
+              "end": 53,
+              "body": []
+            },
+            "declare": false
+          }
+        ]
+      },
+      "kind": "namespace",
+      "declare": true,
+      "global": false
     },
     {
       "type": "TSDeclareFunction",
       "start": 56,
       "end": 105,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 73,
@@ -70,6 +65,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -98,7 +97,6 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 88,
           "end": 104,
-          "typeArguments": null,
           "typeName": {
             "type": "TSQualifiedName",
             "start": 88,
@@ -121,10 +119,12 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             }
-          }
+          },
+          "typeArguments": null
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "TSExportAssignment",
@@ -156,12 +156,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 25,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 14,
           "end": 24,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
@@ -180,11 +180,11 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     },
     {
       "type": "TSExportAssignment",
@@ -225,7 +225,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 18,
@@ -234,10 +233,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 26,
           "end": 36,
-          "raw": "'minimist'",
-          "value": "minimist"
+          "value": "minimist",
+          "raw": "'minimist'"
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -252,7 +252,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 56,
@@ -261,10 +260,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 64,
           "end": 73,
-          "raw": "'process'",
-          "value": "process"
+          "value": "process",
+          "raw": "'process'"
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -274,97 +274,6 @@ __ESTREE_TEST__:PASS:
         "type": "FunctionDeclaration",
         "start": 92,
         "end": 179,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 134,
-          "end": 179,
-          "body": [
-            {
-              "type": "ReturnStatement",
-              "start": 138,
-              "end": 177,
-              "argument": {
-                "type": "CallExpression",
-                "start": 145,
-                "end": 176,
-                "arguments": [
-                  {
-                    "type": "CallExpression",
-                    "start": 154,
-                    "end": 175,
-                    "arguments": [
-                      {
-                        "type": "Literal",
-                        "start": 173,
-                        "end": 174,
-                        "raw": "2",
-                        "value": 2
-                      }
-                    ],
-                    "callee": {
-                      "type": "MemberExpression",
-                      "start": 154,
-                      "end": 172,
-                      "computed": false,
-                      "object": {
-                        "type": "MemberExpression",
-                        "start": 154,
-                        "end": 166,
-                        "computed": false,
-                        "object": {
-                          "type": "Identifier",
-                          "start": 154,
-                          "end": 161,
-                          "decorators": [],
-                          "name": "process",
-                          "optional": false,
-                          "typeAnnotation": null
-                        },
-                        "optional": false,
-                        "property": {
-                          "type": "Identifier",
-                          "start": 162,
-                          "end": 166,
-                          "decorators": [],
-                          "name": "argv",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
-                      },
-                      "optional": false,
-                      "property": {
-                        "type": "Identifier",
-                        "start": 167,
-                        "end": 172,
-                        "decorators": [],
-                        "name": "slice",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    },
-                    "optional": false,
-                    "typeArguments": null
-                  }
-                ],
-                "callee": {
-                  "type": "Identifier",
-                  "start": 145,
-                  "end": 153,
-                  "decorators": [],
-                  "name": "minimist",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          ]
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 101,
@@ -374,6 +283,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [],
         "returnType": {
           "type": "TSTypeAnnotation",
@@ -383,7 +296,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 114,
             "end": 133,
-            "typeArguments": null,
             "typeName": {
               "type": "TSQualifiedName",
               "start": 114,
@@ -406,10 +318,98 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               }
-            }
+            },
+            "typeArguments": null
           }
         },
-        "typeParameters": null
+        "body": {
+          "type": "BlockStatement",
+          "start": 134,
+          "end": 179,
+          "body": [
+            {
+              "type": "ReturnStatement",
+              "start": 138,
+              "end": 177,
+              "argument": {
+                "type": "CallExpression",
+                "start": 145,
+                "end": 176,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 145,
+                  "end": 153,
+                  "decorators": [],
+                  "name": "minimist",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "CallExpression",
+                    "start": 154,
+                    "end": 175,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 154,
+                      "end": 172,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 154,
+                        "end": 166,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 154,
+                          "end": 161,
+                          "decorators": [],
+                          "name": "process",
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 162,
+                          "end": 166,
+                          "decorators": [],
+                          "name": "argv",
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
+                        "optional": false,
+                        "computed": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 167,
+                        "end": 172,
+                        "decorators": [],
+                        "name": "slice",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "optional": false,
+                      "computed": false
+                    },
+                    "typeArguments": null,
+                    "arguments": [
+                      {
+                        "type": "Literal",
+                        "start": 173,
+                        "end": 174,
+                        "value": 2,
+                        "raw": "2"
+                      }
+                    ],
+                    "optional": false
+                  }
+                ],
+                "optional": false
+              }
+            }
+          ]
+        },
+        "expression": false
       },
       "exportKind": "value"
     }

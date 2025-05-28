@@ -18,7 +18,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "Identifier",
         "start": 11,
@@ -27,7 +26,8 @@ __ESTREE_TEST__:PASS:
         "name": "b",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "importKind": "value"
     }
   ],
   "sourceType": "script",

@@ -9,69 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 80,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 51,
-        "end": 80,
-        "body": [
-          {
-            "type": "ReturnStatement",
-            "start": 55,
-            "end": 78,
-            "argument": {
-              "type": "UnaryExpression",
-              "start": 62,
-              "end": 77,
-              "argument": {
-                "type": "UnaryExpression",
-                "start": 63,
-                "end": 77,
-                "argument": {
-                  "type": "CallExpression",
-                  "start": 64,
-                  "end": 77,
-                  "arguments": [],
-                  "callee": {
-                    "type": "MemberExpression",
-                    "start": 64,
-                    "end": 75,
-                    "computed": false,
-                    "object": {
-                      "type": "Identifier",
-                      "start": 64,
-                      "end": 68,
-                      "decorators": [],
-                      "name": "Math",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "optional": false,
-                    "property": {
-                      "type": "Identifier",
-                      "start": 69,
-                      "end": 75,
-                      "decorators": [],
-                      "name": "random",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  },
-                  "optional": false,
-                  "typeArguments": null
-                },
-                "operator": "!",
-                "prefix": true
-              },
-              "operator": "!",
-              "prefix": true
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -81,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -102,7 +43,66 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 51,
+        "end": 80,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 55,
+            "end": 78,
+            "argument": {
+              "type": "UnaryExpression",
+              "start": 62,
+              "end": 77,
+              "operator": "!",
+              "argument": {
+                "type": "UnaryExpression",
+                "start": 63,
+                "end": 77,
+                "operator": "!",
+                "argument": {
+                  "type": "CallExpression",
+                  "start": 64,
+                  "end": 77,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 64,
+                    "end": 75,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 64,
+                      "end": 68,
+                      "decorators": [],
+                      "name": "Math",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 69,
+                      "end": 75,
+                      "decorators": [],
+                      "name": "random",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "optional": false,
+                    "computed": false
+                  },
+                  "typeArguments": null,
+                  "arguments": [],
+                  "optional": false
+                },
+                "prefix": true
+              },
+              "prefix": true
+            }
+          }
+        ]
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

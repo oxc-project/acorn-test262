@@ -9,25 +9,14 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 10,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
         "end": 9,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 7,
-            "end": 8,
-            "raw": "0",
-            "value": 0
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 0,
           "end": 6,
-          "computed": false,
           "object": {
             "type": "ArrayExpression",
             "start": 0,
@@ -37,12 +26,11 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 1,
                 "end": 2,
-                "raw": "0",
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ]
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 4,
@@ -51,43 +39,43 @@ __ESTREE_TEST__:PASS:
             "name": "at",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 7,
+            "end": 8,
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 11,
       "end": 23,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 11,
         "end": 22,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 20,
-            "end": 21,
-            "raw": "0",
-            "value": 0
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 11,
           "end": 19,
-          "computed": false,
           "object": {
             "type": "Literal",
             "start": 11,
             "end": 16,
-            "raw": "\"foo\"",
-            "value": "foo"
+            "value": "foo",
+            "raw": "\"foo\""
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 17,
@@ -96,40 +84,40 @@ __ESTREE_TEST__:PASS:
             "name": "at",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 20,
+            "end": 21,
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 24,
       "end": 46,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 24,
         "end": 45,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 43,
-            "end": 44,
-            "raw": "0",
-            "value": 0
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 24,
           "end": 42,
-          "computed": false,
           "object": {
             "type": "NewExpression",
             "start": 24,
             "end": 39,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 28,
@@ -139,9 +127,9 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "typeArguments": null
+            "typeArguments": null,
+            "arguments": []
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 40,
@@ -150,40 +138,40 @@ __ESTREE_TEST__:PASS:
             "name": "at",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 43,
+            "end": 44,
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 47,
       "end": 70,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 47,
         "end": 69,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 67,
-            "end": 68,
-            "raw": "0",
-            "value": 0
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 47,
           "end": 66,
-          "computed": false,
           "object": {
             "type": "NewExpression",
             "start": 47,
             "end": 63,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 51,
@@ -193,9 +181,9 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "typeArguments": null
+            "typeArguments": null,
+            "arguments": []
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 64,
@@ -204,40 +192,40 @@ __ESTREE_TEST__:PASS:
             "name": "at",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 67,
+            "end": 68,
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 71,
       "end": 101,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 71,
         "end": 100,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 98,
-            "end": 99,
-            "raw": "0",
-            "value": 0
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 71,
           "end": 97,
-          "computed": false,
           "object": {
             "type": "NewExpression",
             "start": 71,
             "end": 94,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 75,
@@ -247,9 +235,9 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "typeArguments": null
+            "typeArguments": null,
+            "arguments": []
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 95,
@@ -258,40 +246,40 @@ __ESTREE_TEST__:PASS:
             "name": "at",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 98,
+            "end": 99,
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 102,
       "end": 125,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 102,
         "end": 124,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 122,
-            "end": 123,
-            "raw": "0",
-            "value": 0
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 102,
           "end": 121,
-          "computed": false,
           "object": {
             "type": "NewExpression",
             "start": 102,
             "end": 118,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 106,
@@ -301,9 +289,9 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "typeArguments": null
+            "typeArguments": null,
+            "arguments": []
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 119,
@@ -312,40 +300,40 @@ __ESTREE_TEST__:PASS:
             "name": "at",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 122,
+            "end": 123,
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 126,
       "end": 150,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 126,
         "end": 149,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 147,
-            "end": 148,
-            "raw": "0",
-            "value": 0
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 126,
           "end": 146,
-          "computed": false,
           "object": {
             "type": "NewExpression",
             "start": 126,
             "end": 143,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 130,
@@ -355,9 +343,9 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "typeArguments": null
+            "typeArguments": null,
+            "arguments": []
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 144,
@@ -366,40 +354,40 @@ __ESTREE_TEST__:PASS:
             "name": "at",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 147,
+            "end": 148,
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 151,
       "end": 174,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 151,
         "end": 173,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 171,
-            "end": 172,
-            "raw": "0",
-            "value": 0
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 151,
           "end": 170,
-          "computed": false,
           "object": {
             "type": "NewExpression",
             "start": 151,
             "end": 167,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 155,
@@ -409,9 +397,9 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "typeArguments": null
+            "typeArguments": null,
+            "arguments": []
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 168,
@@ -420,40 +408,40 @@ __ESTREE_TEST__:PASS:
             "name": "at",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 171,
+            "end": 172,
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 175,
       "end": 199,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 175,
         "end": 198,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 196,
-            "end": 197,
-            "raw": "0",
-            "value": 0
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 175,
           "end": 195,
-          "computed": false,
           "object": {
             "type": "NewExpression",
             "start": 175,
             "end": 192,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 179,
@@ -463,9 +451,9 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "typeArguments": null
+            "typeArguments": null,
+            "arguments": []
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 193,
@@ -474,40 +462,40 @@ __ESTREE_TEST__:PASS:
             "name": "at",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 196,
+            "end": 197,
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 200,
       "end": 225,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 200,
         "end": 224,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 222,
-            "end": 223,
-            "raw": "0",
-            "value": 0
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 200,
           "end": 221,
-          "computed": false,
           "object": {
             "type": "NewExpression",
             "start": 200,
             "end": 218,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 204,
@@ -517,9 +505,9 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "typeArguments": null
+            "typeArguments": null,
+            "arguments": []
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 219,
@@ -528,40 +516,40 @@ __ESTREE_TEST__:PASS:
             "name": "at",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 222,
+            "end": 223,
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 226,
       "end": 251,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 226,
         "end": 250,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 248,
-            "end": 249,
-            "raw": "0",
-            "value": 0
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 226,
           "end": 247,
-          "computed": false,
           "object": {
             "type": "NewExpression",
             "start": 226,
             "end": 244,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 230,
@@ -571,9 +559,9 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "typeArguments": null
+            "typeArguments": null,
+            "arguments": []
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 245,
@@ -582,40 +570,40 @@ __ESTREE_TEST__:PASS:
             "name": "at",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 248,
+            "end": 249,
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 252,
       "end": 278,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 252,
         "end": 277,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 275,
-            "end": 276,
-            "raw": "0",
-            "value": 0
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 252,
           "end": 274,
-          "computed": false,
           "object": {
             "type": "NewExpression",
             "start": 252,
             "end": 271,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 256,
@@ -625,9 +613,9 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "typeArguments": null
+            "typeArguments": null,
+            "arguments": []
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 272,
@@ -636,40 +624,40 @@ __ESTREE_TEST__:PASS:
             "name": "at",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 275,
+            "end": 276,
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 279,
       "end": 306,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 279,
         "end": 305,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 303,
-            "end": 304,
-            "raw": "0",
-            "value": 0
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 279,
           "end": 302,
-          "computed": false,
           "object": {
             "type": "NewExpression",
             "start": 279,
             "end": 299,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 283,
@@ -679,9 +667,9 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "typeArguments": null
+            "typeArguments": null,
+            "arguments": []
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 300,
@@ -690,11 +678,23 @@ __ESTREE_TEST__:PASS:
             "name": "at",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 303,
+            "end": 304,
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

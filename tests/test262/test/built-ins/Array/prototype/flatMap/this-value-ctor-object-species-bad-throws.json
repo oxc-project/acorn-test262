@@ -27,8 +27,8 @@
             "end": 1348,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,7 +36,6 @@
             "start": 1352,
             "end": 1382,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 1359,
@@ -57,8 +56,8 @@
                   "end": 1374,
                   "name": "prototype"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "property": {
                 "type": "Identifier",
@@ -66,9 +65,10 @@
                 "end": 1382,
                 "name": "flatMap"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -92,6 +92,7 @@
       "type": "VariableDeclaration",
       "start": 1481,
       "end": 1510,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -153,13 +154,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1511,
       "end": 1552,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -176,7 +177,6 @@
             "start": 1526,
             "end": 1551,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -204,11 +204,11 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -235,8 +235,8 @@
             "end": 1569,
             "name": "constructor"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "ObjectExpression",
@@ -250,6 +250,7 @@
       "type": "VariableDeclaration",
       "start": 1576,
       "end": 1611,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -281,8 +282,8 @@
                 "end": 1600,
                 "name": "flatMap"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -295,8 +296,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -322,8 +322,8 @@
             "end": 1631,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -402,8 +402,8 @@
             "end": 1729,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -426,8 +426,8 @@
                 "end": 1754,
                 "name": "getPrototypeOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -455,8 +455,8 @@
               "end": 1781,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -473,6 +473,7 @@
       "type": "VariableDeclaration",
       "start": 1860,
       "end": 1875,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -492,8 +493,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -520,8 +520,8 @@
             "end": 1891,
             "name": "constructor"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "ObjectExpression",
@@ -532,9 +532,7 @@
               "type": "Property",
               "start": 1898,
               "end": 1954,
-              "method": false,
-              "shorthand": false,
-              "computed": true,
+              "kind": "get",
               "key": {
                 "type": "MemberExpression",
                 "start": 1903,
@@ -551,15 +549,14 @@
                   "end": 1917,
                   "name": "species"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "value": {
                 "type": "FunctionExpression",
                 "start": 1918,
                 "end": 1954,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -599,9 +596,12 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               },
-              "kind": "get"
+              "method": false,
+              "shorthand": false,
+              "computed": true
             }
           ]
         }
@@ -631,8 +631,8 @@
             "end": 1971,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -646,7 +646,6 @@
             "start": 1983,
             "end": 2022,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -679,8 +678,8 @@
                         "end": 2009,
                         "name": "flatMap"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -694,7 +693,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -731,8 +731,8 @@
             "end": 2095,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -808,8 +808,8 @@
             "end": 2179,
             "name": "constructor"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "ObjectExpression",
@@ -820,9 +820,7 @@
               "type": "Property",
               "start": 2186,
               "end": 2243,
-              "method": false,
-              "shorthand": false,
-              "computed": true,
+              "kind": "get",
               "key": {
                 "type": "MemberExpression",
                 "start": 2191,
@@ -839,15 +837,14 @@
                   "end": 2205,
                   "name": "species"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "value": {
                 "type": "FunctionExpression",
                 "start": 2206,
                 "end": 2243,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -887,9 +884,12 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               },
-              "kind": "get"
+              "method": false,
+              "shorthand": false,
+              "computed": true
             }
           ]
         }
@@ -919,8 +919,8 @@
             "end": 2260,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -934,7 +934,6 @@
             "start": 2272,
             "end": 2311,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -967,8 +966,8 @@
                         "end": 2298,
                         "name": "flatMap"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -982,7 +981,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -1019,8 +1019,8 @@
             "end": 2384,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1096,8 +1096,8 @@
             "end": 2468,
             "name": "constructor"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "ObjectExpression",
@@ -1108,9 +1108,7 @@
               "type": "Property",
               "start": 2475,
               "end": 2535,
-              "method": false,
-              "shorthand": false,
-              "computed": true,
+              "kind": "get",
               "key": {
                 "type": "MemberExpression",
                 "start": 2480,
@@ -1127,15 +1125,14 @@
                   "end": 2494,
                   "name": "species"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "value": {
                 "type": "FunctionExpression",
                 "start": 2495,
                 "end": 2535,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -1175,9 +1172,12 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               },
-              "kind": "get"
+              "method": false,
+              "shorthand": false,
+              "computed": true
             }
           ]
         }
@@ -1207,8 +1207,8 @@
             "end": 2552,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1222,7 +1222,6 @@
             "start": 2564,
             "end": 2603,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1255,8 +1254,8 @@
                         "end": 2590,
                         "name": "flatMap"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1270,7 +1269,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -1307,8 +1307,8 @@
             "end": 2676,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1384,8 +1384,8 @@
             "end": 2760,
             "name": "constructor"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "ObjectExpression",
@@ -1396,9 +1396,7 @@
               "type": "Property",
               "start": 2767,
               "end": 2824,
-              "method": false,
-              "shorthand": false,
-              "computed": true,
+              "kind": "get",
               "key": {
                 "type": "MemberExpression",
                 "start": 2772,
@@ -1415,15 +1413,14 @@
                   "end": 2786,
                   "name": "species"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "value": {
                 "type": "FunctionExpression",
                 "start": 2787,
                 "end": 2824,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -1462,9 +1459,12 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               },
-              "kind": "get"
+              "method": false,
+              "shorthand": false,
+              "computed": true
             }
           ]
         }
@@ -1494,8 +1494,8 @@
             "end": 2841,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1509,7 +1509,6 @@
             "start": 2853,
             "end": 2892,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1542,8 +1541,8 @@
                         "end": 2879,
                         "name": "flatMap"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1557,7 +1556,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -1594,8 +1594,8 @@
             "end": 2965,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1671,8 +1671,8 @@
             "end": 3049,
             "name": "constructor"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "ObjectExpression",
@@ -1683,9 +1683,7 @@
               "type": "Property",
               "start": 3056,
               "end": 3113,
-              "method": false,
-              "shorthand": false,
-              "computed": true,
+              "kind": "get",
               "key": {
                 "type": "MemberExpression",
                 "start": 3061,
@@ -1702,15 +1700,14 @@
                   "end": 3075,
                   "name": "species"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "value": {
                 "type": "FunctionExpression",
                 "start": 3076,
                 "end": 3113,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -1749,9 +1746,12 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               },
-              "kind": "get"
+              "method": false,
+              "shorthand": false,
+              "computed": true
             }
           ]
         }
@@ -1781,8 +1781,8 @@
             "end": 3130,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1796,7 +1796,6 @@
             "start": 3142,
             "end": 3181,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -1829,8 +1828,8 @@
                         "end": 3168,
                         "name": "flatMap"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1844,7 +1843,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -1881,8 +1881,8 @@
             "end": 3254,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1958,8 +1958,8 @@
             "end": 3338,
             "name": "constructor"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "ObjectExpression",
@@ -1970,9 +1970,7 @@
               "type": "Property",
               "start": 3345,
               "end": 3408,
-              "method": false,
-              "shorthand": false,
-              "computed": true,
+              "kind": "get",
               "key": {
                 "type": "MemberExpression",
                 "start": 3350,
@@ -1989,15 +1987,14 @@
                   "end": 3364,
                   "name": "species"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "value": {
                 "type": "FunctionExpression",
                 "start": 3365,
                 "end": 3408,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -2043,9 +2040,12 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               },
-              "kind": "get"
+              "method": false,
+              "shorthand": false,
+              "computed": true
             }
           ]
         }
@@ -2075,8 +2075,8 @@
             "end": 3425,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2090,7 +2090,6 @@
             "start": 3437,
             "end": 3476,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -2123,8 +2122,8 @@
                         "end": 3463,
                         "name": "flatMap"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2138,7 +2137,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -2175,8 +2175,8 @@
             "end": 3549,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2252,8 +2252,8 @@
             "end": 3633,
             "name": "constructor"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "ObjectExpression",
@@ -2264,9 +2264,7 @@
               "type": "Property",
               "start": 3640,
               "end": 3709,
-              "method": false,
-              "shorthand": false,
-              "computed": true,
+              "kind": "get",
               "key": {
                 "type": "MemberExpression",
                 "start": 3645,
@@ -2283,15 +2281,14 @@
                   "end": 3659,
                   "name": "species"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "value": {
                 "type": "FunctionExpression",
                 "start": 3660,
                 "end": 3709,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -2336,9 +2333,12 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               },
-              "kind": "get"
+              "method": false,
+              "shorthand": false,
+              "computed": true
             }
           ]
         }
@@ -2368,8 +2368,8 @@
             "end": 3726,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -2383,7 +2383,6 @@
             "start": 3741,
             "end": 3780,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -2416,8 +2415,8 @@
                         "end": 3767,
                         "name": "flatMap"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2431,7 +2430,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",
@@ -2468,8 +2468,8 @@
             "end": 3856,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

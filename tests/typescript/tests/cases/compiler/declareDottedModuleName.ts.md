@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 59,
+      "id": {
+        "type": "Identifier",
+        "start": 7,
+        "end": 8,
+        "decorators": [],
+        "name": "M",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 9,
@@ -18,14 +27,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSModuleDeclaration",
             "start": 15,
             "end": 29,
-            "body": {
-              "type": "TSModuleBlock",
-              "start": 26,
-              "end": 29,
-              "body": []
-            },
-            "declare": false,
-            "global": false,
             "id": {
               "type": "TSQualifiedName",
               "start": 22,
@@ -49,27 +50,35 @@ __ESTREE_TEST__:PASS:
                 "typeAnnotation": null
               }
             },
-            "kind": "module"
+            "body": {
+              "type": "TSModuleBlock",
+              "start": 26,
+              "end": 29,
+              "body": []
+            },
+            "kind": "module",
+            "declare": false,
+            "global": false
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 7,
-        "end": 8,
-        "decorators": [],
-        "name": "M",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 61,
       "end": 125,
+      "id": {
+        "type": "Identifier",
+        "start": 68,
+        "end": 69,
+        "decorators": [],
+        "name": "M",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 70,
@@ -79,19 +88,10 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 76,
             "end": 97,
-            "attributes": [],
             "declaration": {
               "type": "TSModuleDeclaration",
               "start": 83,
               "end": 97,
-              "body": {
-                "type": "TSModuleBlock",
-                "start": 94,
-                "end": 97,
-                "body": []
-              },
-              "declare": false,
-              "global": false,
               "id": {
                 "type": "TSQualifiedName",
                 "start": 90,
@@ -115,39 +115,31 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               },
-              "kind": "module"
+              "body": {
+                "type": "TSModuleBlock",
+                "start": 94,
+                "end": 97,
+                "body": []
+              },
+              "kind": "module",
+              "declare": false,
+              "global": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 68,
-        "end": 69,
-        "decorators": [],
-        "name": "M",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 127,
       "end": 169,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 138,
-        "end": 169,
-        "body": []
-      },
-      "declare": false,
-      "global": false,
       "id": {
         "type": "TSQualifiedName",
         "start": 134,
@@ -171,7 +163,15 @@ __ESTREE_TEST__:PASS:
           "typeAnnotation": null
         }
       },
-      "kind": "module"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 138,
+        "end": 169,
+        "body": []
+      },
+      "kind": "module",
+      "declare": false,
+      "global": false
     }
   ],
   "sourceType": "script",

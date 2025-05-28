@@ -9,32 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 28,
       "end": 67,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 45,
-        "end": 67,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 51,
-            "end": 53,
-            "directive": null,
-            "expression": {
-              "type": "Identifier",
-              "start": 51,
-              "end": 52,
-              "decorators": [],
-              "name": "a",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 37,
@@ -44,11 +18,16 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "RestElement",
           "start": 39,
           "end": 43,
+          "decorators": [],
           "argument": {
             "type": "Identifier",
             "start": 42,
@@ -58,14 +37,35 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "decorators": [],
           "optional": false,
           "typeAnnotation": null,
           "value": null
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 45,
+        "end": 67,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 51,
+            "end": 53,
+            "expression": {
+              "type": "Identifier",
+              "start": 51,
+              "end": 52,
+              "decorators": [],
+              "name": "a",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "directive": null
+          }
+        ]
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

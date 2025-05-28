@@ -23,7 +23,6 @@
             "start": 1234,
             "end": 1951,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -43,6 +42,7 @@
                   "type": "VariableDeclaration",
                   "start": 1251,
                   "end": 1285,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -96,8 +96,7 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -209,14 +208,14 @@
                                 "start": 1398,
                                 "end": 1400,
                                 "operator": "-",
-                                "prefix": true,
                                 "argument": {
                                   "type": "Literal",
                                   "start": 1399,
                                   "end": 1400,
                                   "value": 0,
                                   "raw": "0"
-                                }
+                                },
+                                "prefix": true
                               },
                               {
                                 "type": "Literal",
@@ -414,8 +413,8 @@
                         "end": 1603,
                         "name": "forEach"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -423,7 +422,6 @@
                         "start": 1604,
                         "end": 1947,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [
@@ -443,6 +441,7 @@
                               "type": "VariableDeclaration",
                               "start": 1625,
                               "end": 1636,
+                              "kind": "var",
                               "declarations": [
                                 {
                                   "type": "VariableDeclarator",
@@ -456,8 +455,7 @@
                                   },
                                   "init": null
                                 }
-                              ],
-                              "kind": "var"
+                              ]
                             },
                             {
                               "type": "ExpressionStatement",
@@ -494,8 +492,8 @@
                                       "end": 1664,
                                       "name": "reduce"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   "arguments": [
                                     {
@@ -503,7 +501,6 @@
                                       "start": 1665,
                                       "end": 1705,
                                       "id": null,
-                                      "expression": false,
                                       "generator": false,
                                       "async": false,
                                       "params": [],
@@ -533,12 +530,13 @@
                                                 "value": 0,
                                                 "raw": "0"
                                               },
-                                              "computed": true,
-                                              "optional": false
+                                              "optional": false,
+                                              "computed": true
                                             }
                                           }
                                         ]
-                                      }
+                                      },
+                                      "expression": false
                                     }
                                   ],
                                   "optional": false
@@ -569,8 +567,8 @@
                                     "end": 1728,
                                     "name": "sameValue"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -596,8 +594,8 @@
                                       "value": 0,
                                       "raw": "0"
                                     },
-                                    "computed": true,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": true
                                   },
                                   {
                                     "type": "BinaryExpression",
@@ -620,8 +618,8 @@
                                         "value": 1,
                                         "raw": "1"
                                       },
-                                      "computed": true,
-                                      "optional": false
+                                      "optional": false,
+                                      "computed": true
                                     },
                                     "operator": "+",
                                     "right": {
@@ -671,8 +669,8 @@
                                       "end": 1816,
                                       "name": "reduce"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   "arguments": [
                                     {
@@ -680,7 +678,6 @@
                                       "start": 1817,
                                       "end": 1857,
                                       "id": null,
-                                      "expression": false,
                                       "generator": false,
                                       "async": false,
                                       "params": [],
@@ -710,12 +707,13 @@
                                                 "value": 0,
                                                 "raw": "0"
                                               },
-                                              "computed": true,
-                                              "optional": false
+                                              "optional": false,
+                                              "computed": true
                                             }
                                           }
                                         ]
-                                      }
+                                      },
+                                      "expression": false
                                     },
                                     {
                                       "type": "Literal",
@@ -753,8 +751,8 @@
                                     "end": 1884,
                                     "name": "sameValue"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -780,8 +778,8 @@
                                       "value": 0,
                                       "raw": "0"
                                     },
-                                    "computed": true,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": true
                                   },
                                   {
                                     "type": "BinaryExpression",
@@ -804,8 +802,8 @@
                                         "value": 1,
                                         "raw": "1"
                                       },
-                                      "computed": true,
-                                      "optional": false
+                                      "optional": false,
+                                      "computed": true
                                     },
                                     "operator": "+",
                                     "right": {
@@ -821,14 +819,16 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

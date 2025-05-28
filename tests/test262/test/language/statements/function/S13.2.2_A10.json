@@ -13,7 +13,6 @@
         "end": 361,
         "name": "FACTORY"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -46,8 +45,8 @@
                   "end": 375,
                   "name": "id"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "Literal",
@@ -82,15 +81,14 @@
                   "end": 397,
                   "name": "func"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "FunctionExpression",
                 "start": 400,
                 "end": 433,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -112,7 +110,8 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               }
             }
           },
@@ -140,8 +139,8 @@
                   "end": 448,
                   "name": "id"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "CallExpression",
@@ -162,8 +161,8 @@
                     "end": 460,
                     "name": "func"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [],
                 "optional": false
@@ -171,7 +170,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "TryStatement",
@@ -186,6 +186,7 @@
             "type": "VariableDeclaration",
             "start": 568,
             "end": 592,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -210,8 +211,7 @@
                   "arguments": []
                 }
               }
-            ],
-            "kind": "var"
+            ]
           }
         ]
       },
@@ -296,8 +296,8 @@
             "end": 908,
             "name": "id"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -356,8 +356,8 @@
                       "end": 987,
                       "name": "id"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]

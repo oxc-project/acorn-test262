@@ -9,11 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 144,
-      "attributes": [],
       "declaration": {
         "type": "TSEnumDeclaration",
         "start": 7,
         "end": 144,
+        "id": {
+          "type": "Identifier",
+          "start": 12,
+          "end": 23,
+          "decorators": [],
+          "name": "MouseButton",
+          "optional": false,
+          "typeAnnotation": null
+        },
         "body": {
           "type": "TSEnumBody",
           "start": 24,
@@ -23,7 +31,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSEnumMember",
               "start": 27,
               "end": 42,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 27,
@@ -37,15 +44,15 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 41,
                 "end": 42,
-                "raw": "1",
-                "value": 1
-              }
+                "value": 1,
+                "raw": "1"
+              },
+              "computed": false
             },
             {
               "type": "TSEnumMember",
               "start": 45,
               "end": 61,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 45,
@@ -59,15 +66,15 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 60,
                 "end": 61,
-                "raw": "2",
-                "value": 2
-              }
+                "value": 2,
+                "raw": "2"
+              },
+              "computed": false
             },
             {
               "type": "TSEnumMember",
               "start": 64,
               "end": 81,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 64,
@@ -81,15 +88,15 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 80,
                 "end": 81,
-                "raw": "4",
-                "value": 4
-              }
+                "value": 4,
+                "raw": "4"
+              },
+              "computed": false
             },
             {
               "type": "TSEnumMember",
               "start": 84,
               "end": 103,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 84,
@@ -103,15 +110,15 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 102,
                 "end": 103,
-                "raw": "5",
-                "value": 5
-              }
+                "value": 5,
+                "raw": "5"
+              },
+              "computed": false
             },
             {
               "type": "TSEnumMember",
               "start": 106,
               "end": 125,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 106,
@@ -125,15 +132,15 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 124,
                 "end": 125,
-                "raw": "6",
-                "value": 6
-              }
+                "value": 6,
+                "raw": "6"
+              },
+              "computed": false
             },
             {
               "type": "TSEnumMember",
               "start": 128,
               "end": 141,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 128,
@@ -147,43 +154,35 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 140,
                 "end": 141,
-                "raw": "0",
-                "value": 0
-              }
+                "value": 0,
+                "raw": "0"
+              },
+              "computed": false
             }
           ]
         },
         "const": false,
-        "declare": false,
-        "id": {
-          "type": "Identifier",
-          "start": 12,
-          "end": 23,
-          "decorators": [],
-          "name": "MouseButton",
-          "optional": false,
-          "typeAnnotation": null
-        }
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 146,
       "end": 376,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 153,
         "end": 376,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 159,
             "end": 375,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 159,
@@ -202,23 +201,18 @@ __ESTREE_TEST__:PASS:
                   "type": "Property",
                   "start": 179,
                   "end": 206,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Literal",
                     "start": 179,
                     "end": 183,
-                    "raw": "'-1'",
-                    "value": "-1"
+                    "value": "-1",
+                    "raw": "'-1'"
                   },
-                  "kind": "init",
-                  "method": false,
-                  "optional": false,
-                  "shorthand": false,
                   "value": {
                     "type": "MemberExpression",
                     "start": 185,
                     "end": 206,
-                    "computed": false,
                     "object": {
                       "type": "Identifier",
                       "start": 185,
@@ -228,7 +222,6 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "optional": false,
                     "property": {
                       "type": "Identifier",
                       "start": 197,
@@ -237,30 +230,31 @@ __ESTREE_TEST__:PASS:
                       "name": "NO_BUTTON",
                       "optional": false,
                       "typeAnnotation": null
-                    }
-                  }
+                    },
+                    "optional": false,
+                    "computed": false
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "optional": false
                 },
                 {
                   "type": "Property",
                   "start": 209,
                   "end": 237,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Literal",
                     "start": 209,
                     "end": 212,
-                    "raw": "\"0\"",
-                    "value": "0"
+                    "value": "0",
+                    "raw": "\"0\""
                   },
-                  "kind": "init",
-                  "method": false,
-                  "optional": false,
-                  "shorthand": false,
                   "value": {
                     "type": "MemberExpression",
                     "start": 214,
                     "end": 237,
-                    "computed": false,
                     "object": {
                       "type": "Identifier",
                       "start": 214,
@@ -270,7 +264,6 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "optional": false,
                     "property": {
                       "type": "Identifier",
                       "start": 226,
@@ -279,30 +272,31 @@ __ESTREE_TEST__:PASS:
                       "name": "LEFT_BUTTON",
                       "optional": false,
                       "typeAnnotation": null
-                    }
-                  }
+                    },
+                    "optional": false,
+                    "computed": false
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "optional": false
                 },
                 {
                   "type": "Property",
                   "start": 240,
                   "end": 270,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Literal",
                     "start": 240,
                     "end": 243,
-                    "raw": "\"1\"",
-                    "value": "1"
+                    "value": "1",
+                    "raw": "\"1\""
                   },
-                  "kind": "init",
-                  "method": false,
-                  "optional": false,
-                  "shorthand": false,
                   "value": {
                     "type": "MemberExpression",
                     "start": 245,
                     "end": 270,
-                    "computed": false,
                     "object": {
                       "type": "Identifier",
                       "start": 245,
@@ -312,7 +306,6 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "optional": false,
                     "property": {
                       "type": "Identifier",
                       "start": 257,
@@ -321,30 +314,31 @@ __ESTREE_TEST__:PASS:
                       "name": "MIDDLE_BUTTON",
                       "optional": false,
                       "typeAnnotation": null
-                    }
-                  }
+                    },
+                    "optional": false,
+                    "computed": false
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "optional": false
                 },
                 {
                   "type": "Property",
                   "start": 273,
                   "end": 302,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Literal",
                     "start": 273,
                     "end": 276,
-                    "raw": "\"2\"",
-                    "value": "2"
+                    "value": "2",
+                    "raw": "\"2\""
                   },
-                  "kind": "init",
-                  "method": false,
-                  "optional": false,
-                  "shorthand": false,
                   "value": {
                     "type": "MemberExpression",
                     "start": 278,
                     "end": 302,
-                    "computed": false,
                     "object": {
                       "type": "Identifier",
                       "start": 278,
@@ -354,7 +348,6 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "optional": false,
                     "property": {
                       "type": "Identifier",
                       "start": 290,
@@ -363,30 +356,31 @@ __ESTREE_TEST__:PASS:
                       "name": "RIGHT_BUTTON",
                       "optional": false,
                       "typeAnnotation": null
-                    }
-                  }
+                    },
+                    "optional": false,
+                    "computed": false
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "optional": false
                 },
                 {
                   "type": "Property",
                   "start": 305,
                   "end": 337,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Literal",
                     "start": 305,
                     "end": 308,
-                    "raw": "\"3\"",
-                    "value": "3"
+                    "value": "3",
+                    "raw": "\"3\""
                   },
-                  "kind": "init",
-                  "method": false,
-                  "optional": false,
-                  "shorthand": false,
                   "value": {
                     "type": "MemberExpression",
                     "start": 310,
                     "end": 337,
-                    "computed": false,
                     "object": {
                       "type": "Identifier",
                       "start": 310,
@@ -396,7 +390,6 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "optional": false,
                     "property": {
                       "type": "Identifier",
                       "start": 322,
@@ -405,30 +398,31 @@ __ESTREE_TEST__:PASS:
                       "name": "XBUTTON1_BUTTON",
                       "optional": false,
                       "typeAnnotation": null
-                    }
-                  }
+                    },
+                    "optional": false,
+                    "computed": false
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "optional": false
                 },
                 {
                   "type": "Property",
                   "start": 340,
                   "end": 372,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Literal",
                     "start": 340,
                     "end": 343,
-                    "raw": "\"4\"",
-                    "value": "4"
+                    "value": "4",
+                    "raw": "\"4\""
                   },
-                  "kind": "init",
-                  "method": false,
-                  "optional": false,
-                  "shorthand": false,
                   "value": {
                     "type": "MemberExpression",
                     "start": 345,
                     "end": 372,
-                    "computed": false,
                     "object": {
                       "type": "Identifier",
                       "start": 345,
@@ -438,7 +432,6 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "optional": false,
                     "property": {
                       "type": "Identifier",
                       "start": 357,
@@ -447,19 +440,26 @@ __ESTREE_TEST__:PASS:
                       "name": "XBUTTON2_BUTTON",
                       "optional": false,
                       "typeAnnotation": null
-                    }
-                  }
+                    },
+                    "optional": false,
+                    "computed": false
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "optional": false
                 }
               ]
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

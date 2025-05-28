@@ -23,35 +23,31 @@
             "type": "PropertyDefinition",
             "start": 655,
             "end": 657,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 655,
               "end": 657,
               "name": "x"
             },
-            "value": null
+            "value": null,
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 660,
             "end": 666,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 660,
               "end": 661,
               "name": "m"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 661,
               "end": 666,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -60,8 +56,12 @@
                 "start": 664,
                 "end": 666,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }

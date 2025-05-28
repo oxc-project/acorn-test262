@@ -13,7 +13,6 @@
         "end": 338,
         "name": "test"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -42,7 +41,6 @@
                 "start": 400,
                 "end": 411,
                 "operator": "typeof",
-                "prefix": true,
                 "argument": {
                   "type": "ParenthesizedExpression",
                   "start": 406,
@@ -53,7 +51,8 @@
                     "end": 410,
                     "name": "arg"
                   }
-                }
+                },
+                "prefix": true
               },
               "operator": "!==",
               "right": {
@@ -105,7 +104,6 @@
                             "start": 541,
                             "end": 552,
                             "operator": "typeof",
-                            "prefix": true,
                             "argument": {
                               "type": "ParenthesizedExpression",
                               "start": 547,
@@ -116,7 +114,8 @@
                                 "end": 551,
                                 "name": "arg"
                               }
-                            }
+                            },
+                            "prefix": true
                           }
                         }
                       }
@@ -128,7 +127,8 @@
             "alternate": null
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

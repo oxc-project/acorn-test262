@@ -9,82 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 48,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 7,
         "end": 48,
-        "abstract": false,
-        "body": {
-          "type": "ClassBody",
-          "start": 16,
-          "end": 48,
-          "body": [
-            {
-              "type": "PropertyDefinition",
-              "start": 19,
-              "end": 27,
-              "accessibility": null,
-              "computed": false,
-              "declare": false,
-              "decorators": [],
-              "definite": false,
-              "key": {
-                "type": "Identifier",
-                "start": 19,
-                "end": 21,
-                "decorators": [],
-                "name": "m1",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "override": false,
-              "readonly": false,
-              "static": false,
-              "typeAnnotation": null,
-              "value": {
-                "type": "Literal",
-                "start": 24,
-                "end": 26,
-                "raw": "42",
-                "value": 42
-              }
-            },
-            {
-              "type": "PropertyDefinition",
-              "start": 29,
-              "end": 46,
-              "accessibility": null,
-              "computed": false,
-              "declare": false,
-              "decorators": [],
-              "definite": false,
-              "key": {
-                "type": "Identifier",
-                "start": 36,
-                "end": 38,
-                "decorators": [],
-                "name": "s1",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "override": false,
-              "readonly": false,
-              "static": true,
-              "typeAnnotation": null,
-              "value": {
-                "type": "Literal",
-                "start": 41,
-                "end": 45,
-                "raw": "true",
-                "value": true
-              }
-            }
-          ]
-        },
-        "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
@@ -95,14 +23,86 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "implements": [],
+        "typeParameters": null,
         "superClass": null,
         "superTypeArguments": null,
-        "typeParameters": null
+        "implements": [],
+        "body": {
+          "type": "ClassBody",
+          "start": 16,
+          "end": 48,
+          "body": [
+            {
+              "type": "PropertyDefinition",
+              "start": 19,
+              "end": 27,
+              "decorators": [],
+              "key": {
+                "type": "Identifier",
+                "start": 19,
+                "end": 21,
+                "decorators": [],
+                "name": "m1",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeAnnotation": null,
+              "value": {
+                "type": "Literal",
+                "start": 24,
+                "end": 26,
+                "value": 42,
+                "raw": "42"
+              },
+              "computed": false,
+              "static": false,
+              "declare": false,
+              "override": false,
+              "optional": false,
+              "definite": false,
+              "readonly": false,
+              "accessibility": null
+            },
+            {
+              "type": "PropertyDefinition",
+              "start": 29,
+              "end": 46,
+              "decorators": [],
+              "key": {
+                "type": "Identifier",
+                "start": 36,
+                "end": 38,
+                "decorators": [],
+                "name": "s1",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeAnnotation": null,
+              "value": {
+                "type": "Literal",
+                "start": 41,
+                "end": 45,
+                "value": true,
+                "raw": "true"
+              },
+              "computed": false,
+              "static": true,
+              "declare": false,
+              "override": false,
+              "optional": false,
+              "definite": false,
+              "readonly": false,
+              "accessibility": null
+            }
+          ]
+        },
+        "abstract": false,
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -129,7 +129,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 13,
@@ -138,32 +137,24 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 21,
           "end": 30,
-          "raw": "\"./foo_0\"",
-          "value": "./foo_0"
+          "value": "./foo_0",
+          "raw": "\"./foo_0\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "IfStatement",
       "start": 33,
       "end": 81,
-      "alternate": null,
-      "consequent": {
-        "type": "BlockStatement",
-        "start": 46,
-        "end": 81,
-        "body": []
-      },
       "test": {
         "type": "MemberExpression",
         "start": 36,
         "end": 45,
-        "computed": false,
         "object": {
           "type": "MemberExpression",
           "start": 36,
           "end": 42,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 36,
@@ -173,7 +164,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 40,
@@ -182,9 +172,10 @@ __ESTREE_TEST__:PASS:
             "name": "C1",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 43,
@@ -193,8 +184,17 @@ __ESTREE_TEST__:PASS:
           "name": "s1",
           "optional": false,
           "typeAnnotation": null
-        }
-      }
+        },
+        "optional": false,
+        "computed": false
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 46,
+        "end": 81,
+        "body": []
+      },
+      "alternate": null
     }
   ],
   "sourceType": "module",

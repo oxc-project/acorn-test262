@@ -9,53 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 35,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 12,
-        "end": 35,
-        "body": [
-          {
-            "type": "TSIndexSignature",
-            "start": 18,
-            "end": 33,
-            "accessibility": null,
-            "parameters": [
-              {
-                "type": "RestElement",
-                "start": 19,
-                "end": 23,
-                "argument": {
-                  "type": "Identifier",
-                  "start": 22,
-                  "end": 23,
-                  "decorators": [],
-                  "name": "x",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "decorators": [],
-                "optional": false,
-                "typeAnnotation": null,
-                "value": null
-              }
-            ],
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 24,
-              "end": 32,
-              "typeAnnotation": {
-                "type": "TSStringKeyword",
-                "start": 26,
-                "end": 32
-              }
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "extends": [],
       "id": {
         "type": "Identifier",
         "start": 10,
@@ -65,59 +18,59 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "typeParameters": null
-    },
-    {
-      "type": "ClassDeclaration",
-      "start": 37,
-      "end": 67,
-      "abstract": false,
+      "typeParameters": null,
+      "extends": [],
       "body": {
-        "type": "ClassBody",
-        "start": 45,
-        "end": 67,
+        "type": "TSInterfaceBody",
+        "start": 12,
+        "end": 35,
         "body": [
           {
             "type": "TSIndexSignature",
-            "start": 51,
-            "end": 65,
-            "accessibility": null,
+            "start": 18,
+            "end": 33,
             "parameters": [
               {
                 "type": "RestElement",
-                "start": 52,
-                "end": 56,
+                "start": 19,
+                "end": 23,
+                "decorators": [],
                 "argument": {
                   "type": "Identifier",
-                  "start": 55,
-                  "end": 56,
+                  "start": 22,
+                  "end": 23,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "decorators": [],
                 "optional": false,
                 "typeAnnotation": null,
                 "value": null
               }
             ],
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 57,
-              "end": 65,
+              "start": 24,
+              "end": 32,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
-                "start": 59,
-                "end": 65
+                "start": 26,
+                "end": 32
               }
-            }
+            },
+            "readonly": false,
+            "static": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
+      "declare": false
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 37,
+      "end": 67,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -128,10 +81,57 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 45,
+        "end": 67,
+        "body": [
+          {
+            "type": "TSIndexSignature",
+            "start": 51,
+            "end": 65,
+            "parameters": [
+              {
+                "type": "RestElement",
+                "start": 52,
+                "end": 56,
+                "decorators": [],
+                "argument": {
+                  "type": "Identifier",
+                  "start": 55,
+                  "end": 56,
+                  "decorators": [],
+                  "name": "x",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "optional": false,
+                "typeAnnotation": null,
+                "value": null
+              }
+            ],
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 57,
+              "end": 65,
+              "typeAnnotation": {
+                "type": "TSStringKeyword",
+                "start": 59,
+                "end": 65
+              }
+            },
+            "readonly": false,
+            "static": false,
+            "accessibility": null
+          }
+        ]
+      },
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

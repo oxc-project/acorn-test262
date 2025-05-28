@@ -9,65 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 50,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 16,
-        "end": 50,
-        "body": [
-          {
-            "type": "PropertyDefinition",
-            "start": 22,
-            "end": 48,
-            "accessibility": null,
-            "computed": true,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
-            "key": {
-              "type": "MemberExpression",
-              "start": 23,
-              "end": 38,
-              "computed": false,
-              "object": {
-                "type": "Identifier",
-                "start": 23,
-                "end": 29,
-                "decorators": [],
-                "name": "Symbol",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "property": {
-                "type": "Identifier",
-                "start": 30,
-                "end": 38,
-                "decorators": [],
-                "name": "isRegExp",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 39,
-              "end": 47,
-              "typeAnnotation": {
-                "type": "TSStringKeyword",
-                "start": 41,
-                "end": 47
-              }
-            },
-            "value": null
-          }
-        ]
-      },
-      "declare": true,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -78,10 +19,69 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 16,
+        "end": 50,
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "start": 22,
+            "end": 48,
+            "decorators": [],
+            "key": {
+              "type": "MemberExpression",
+              "start": 23,
+              "end": 38,
+              "object": {
+                "type": "Identifier",
+                "start": 23,
+                "end": 29,
+                "decorators": [],
+                "name": "Symbol",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 30,
+                "end": 38,
+                "decorators": [],
+                "name": "isRegExp",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "optional": false,
+              "computed": false
+            },
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 39,
+              "end": 47,
+              "typeAnnotation": {
+                "type": "TSStringKeyword",
+                "start": 41,
+                "end": 47
+              }
+            },
+            "value": null,
+            "computed": true,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
+          }
+        ]
+      },
+      "abstract": false,
+      "declare": true
     }
   ],
   "sourceType": "script",

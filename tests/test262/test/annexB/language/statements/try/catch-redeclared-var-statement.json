@@ -74,6 +74,7 @@
               "type": "VariableDeclaration",
               "start": 399,
               "end": 432,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -93,8 +94,7 @@
                     "raw": "\"initializer in catch\""
                   }
                 }
-              ],
-              "kind": "var"
+              ]
             }
           ]
         }
@@ -125,8 +125,8 @@
             "end": 454,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

@@ -9,11 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 82,
-      "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
         "start": 7,
         "end": 82,
+        "id": {
+          "type": "Identifier",
+          "start": 17,
+          "end": 28,
+          "decorators": [],
+          "name": "Translation",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null,
+        "extends": [],
         "body": {
           "type": "TSInterfaceBody",
           "start": 29,
@@ -23,8 +33,9 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 33,
               "end": 80,
-              "accessibility": null,
               "computed": false,
+              "optional": false,
+              "readonly": false,
               "key": {
                 "type": "Identifier",
                 "start": 33,
@@ -34,9 +45,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
-              "readonly": false,
-              "static": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
                 "start": 47,
@@ -45,7 +53,6 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 49,
                   "end": 79,
-                  "typeArguments": null,
                   "typeName": {
                     "type": "TSQualifiedName",
                     "start": 49,
@@ -68,38 +75,39 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     }
-                  }
+                  },
+                  "typeArguments": null
                 }
-              }
+              },
+              "accessibility": null,
+              "static": false
             }
           ]
         },
-        "declare": false,
-        "extends": [],
-        "id": {
-          "type": "Identifier",
-          "start": 17,
-          "end": 28,
-          "decorators": [],
-          "name": "Translation",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "typeParameters": null
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 84,
       "end": 338,
-      "attributes": [],
       "declaration": {
         "type": "TSModuleDeclaration",
         "start": 91,
         "end": 338,
+        "id": {
+          "type": "Identifier",
+          "start": 101,
+          "end": 112,
+          "decorators": [],
+          "name": "Translation",
+          "optional": false,
+          "typeAnnotation": null
+        },
         "body": {
           "type": "TSModuleBlock",
           "start": 113,
@@ -109,12 +117,10 @@ __ESTREE_TEST__:PASS:
               "type": "ExportNamedDeclaration",
               "start": 117,
               "end": 182,
-              "attributes": [],
               "declaration": {
                 "type": "TSTypeAliasDeclaration",
                 "start": 124,
                 "end": 182,
-                "declare": false,
                 "id": {
                   "type": "Identifier",
                   "start": 129,
@@ -124,6 +130,7 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
+                "typeParameters": null,
                 "typeAnnotation": {
                   "type": "TSUnionType",
                   "start": 150,
@@ -137,8 +144,8 @@ __ESTREE_TEST__:PASS:
                         "type": "Literal",
                         "start": 150,
                         "end": 164,
-                        "raw": "'translation1'",
-                        "value": "translation1"
+                        "value": "translation1",
+                        "raw": "'translation1'"
                       }
                     },
                     {
@@ -149,33 +156,33 @@ __ESTREE_TEST__:PASS:
                         "type": "Literal",
                         "start": 167,
                         "end": 181,
-                        "raw": "'translation2'",
-                        "value": "translation2"
+                        "value": "translation2",
+                        "raw": "'translation2'"
                       }
                     }
                   ]
                 },
-                "typeParameters": null
+                "declare": false
               },
-              "exportKind": "type",
+              "specifiers": [],
               "source": null,
-              "specifiers": []
+              "exportKind": "type",
+              "attributes": []
             },
             {
               "type": "ExportNamedDeclaration",
               "start": 185,
               "end": 336,
-              "attributes": [],
               "declaration": {
                 "type": "VariableDeclaration",
                 "start": 192,
                 "end": 336,
+                "kind": "const",
                 "declarations": [
                   {
                     "type": "VariableDeclarator",
                     "start": 198,
                     "end": 336,
-                    "definite": false,
                     "id": {
                       "type": "Identifier",
                       "start": 198,
@@ -194,7 +201,7 @@ __ESTREE_TEST__:PASS:
                           "type": "Property",
                           "start": 225,
                           "end": 275,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 225,
@@ -204,10 +211,6 @@ __ESTREE_TEST__:PASS:
                             "optional": false,
                             "typeAnnotation": null
                           },
-                          "kind": "init",
-                          "method": false,
-                          "optional": false,
-                          "shorthand": false,
                           "value": {
                             "type": "TSAsExpression",
                             "start": 239,
@@ -216,14 +219,13 @@ __ESTREE_TEST__:PASS:
                               "type": "Literal",
                               "start": 239,
                               "end": 253,
-                              "raw": "'translation1'",
-                              "value": "translation1"
+                              "value": "translation1",
+                              "raw": "'translation1'"
                             },
                             "typeAnnotation": {
                               "type": "TSTypeReference",
                               "start": 257,
                               "end": 275,
-                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 257,
@@ -232,15 +234,20 @@ __ESTREE_TEST__:PASS:
                                 "name": "TranslationKeyEnum",
                                 "optional": false,
                                 "typeAnnotation": null
-                              }
+                              },
+                              "typeArguments": null
                             }
-                          }
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "optional": false
                         },
                         {
                           "type": "Property",
                           "start": 281,
                           "end": 331,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 281,
@@ -250,10 +257,6 @@ __ESTREE_TEST__:PASS:
                             "optional": false,
                             "typeAnnotation": null
                           },
-                          "kind": "init",
-                          "method": false,
-                          "optional": false,
-                          "shorthand": false,
                           "value": {
                             "type": "TSAsExpression",
                             "start": 295,
@@ -262,14 +265,13 @@ __ESTREE_TEST__:PASS:
                               "type": "Literal",
                               "start": 295,
                               "end": 309,
-                              "raw": "'translation2'",
-                              "value": "translation2"
+                              "value": "translation2",
+                              "raw": "'translation2'"
                             },
                             "typeAnnotation": {
                               "type": "TSTypeReference",
                               "start": 313,
                               "end": 331,
-                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 313,
@@ -278,39 +280,37 @@ __ESTREE_TEST__:PASS:
                                 "name": "TranslationKeyEnum",
                                 "optional": false,
                                 "typeAnnotation": null
-                              }
+                              },
+                              "typeArguments": null
                             }
-                          }
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "optional": false
                         }
                       ]
-                    }
+                    },
+                    "definite": false
                   }
                 ],
-                "declare": false,
-                "kind": "const"
+                "declare": false
               },
-              "exportKind": "value",
+              "specifiers": [],
               "source": null,
-              "specifiers": []
+              "exportKind": "value",
+              "attributes": []
             }
           ]
         },
+        "kind": "namespace",
         "declare": false,
-        "global": false,
-        "id": {
-          "type": "Identifier",
-          "start": 101,
-          "end": 112,
-          "decorators": [],
-          "name": "Translation",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "kind": "namespace"
+        "global": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -328,14 +328,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 44,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 28,
-        "end": 43,
-        "raw": "\"./translation\"",
-        "value": "./translation"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -350,7 +342,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
@@ -359,11 +350,20 @@ __ESTREE_TEST__:PASS:
             "name": "Translation",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 28,
+        "end": 43,
+        "value": "./translation",
+        "raw": "\"./translation\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -378,7 +378,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSQualifiedName",
         "start": 73,
@@ -401,165 +400,17 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 106,
       "end": 236,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 113,
         "end": 236,
-        "abstract": false,
-        "body": {
-          "type": "ClassBody",
-          "start": 124,
-          "end": 236,
-          "body": [
-            {
-              "type": "PropertyDefinition",
-              "start": 128,
-              "end": 168,
-              "accessibility": null,
-              "computed": false,
-              "declare": false,
-              "decorators": [],
-              "definite": false,
-              "key": {
-                "type": "Identifier",
-                "start": 128,
-                "end": 146,
-                "decorators": [],
-                "name": "TranslationKeyEnum",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "override": false,
-              "readonly": false,
-              "static": false,
-              "typeAnnotation": null,
-              "value": {
-                "type": "Identifier",
-                "start": 149,
-                "end": 167,
-                "decorators": [],
-                "name": "TranslationKeyEnum",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            },
-            {
-              "type": "MethodDefinition",
-              "start": 171,
-              "end": 234,
-              "accessibility": null,
-              "computed": false,
-              "decorators": [],
-              "key": {
-                "type": "Identifier",
-                "start": 171,
-                "end": 176,
-                "decorators": [],
-                "name": "print",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "kind": "method",
-              "optional": false,
-              "override": false,
-              "static": false,
-              "value": {
-                "type": "FunctionExpression",
-                "start": 176,
-                "end": 234,
-                "async": false,
-                "body": {
-                  "type": "BlockStatement",
-                  "start": 179,
-                  "end": 234,
-                  "body": [
-                    {
-                      "type": "ExpressionStatement",
-                      "start": 185,
-                      "end": 230,
-                      "directive": null,
-                      "expression": {
-                        "type": "CallExpression",
-                        "start": 185,
-                        "end": 229,
-                        "arguments": [
-                          {
-                            "type": "MemberExpression",
-                            "start": 197,
-                            "end": 228,
-                            "computed": false,
-                            "object": {
-                              "type": "Identifier",
-                              "start": 197,
-                              "end": 215,
-                              "decorators": [],
-                              "name": "TranslationKeyEnum",
-                              "optional": false,
-                              "typeAnnotation": null
-                            },
-                            "optional": false,
-                            "property": {
-                              "type": "Identifier",
-                              "start": 216,
-                              "end": 228,
-                              "decorators": [],
-                              "name": "Translation1",
-                              "optional": false,
-                              "typeAnnotation": null
-                            }
-                          }
-                        ],
-                        "callee": {
-                          "type": "MemberExpression",
-                          "start": 185,
-                          "end": 196,
-                          "computed": false,
-                          "object": {
-                            "type": "Identifier",
-                            "start": 185,
-                            "end": 192,
-                            "decorators": [],
-                            "name": "console",
-                            "optional": false,
-                            "typeAnnotation": null
-                          },
-                          "optional": false,
-                          "property": {
-                            "type": "Identifier",
-                            "start": 193,
-                            "end": 196,
-                            "decorators": [],
-                            "name": "log",
-                            "optional": false,
-                            "typeAnnotation": null
-                          }
-                        },
-                        "optional": false,
-                        "typeArguments": null
-                      }
-                    }
-                  ]
-                },
-                "declare": false,
-                "expression": false,
-                "generator": false,
-                "id": null,
-                "params": [],
-                "returnType": null,
-                "typeParameters": null
-              }
-            }
-          ]
-        },
-        "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
@@ -570,14 +421,163 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "implements": [],
+        "typeParameters": null,
         "superClass": null,
         "superTypeArguments": null,
-        "typeParameters": null
+        "implements": [],
+        "body": {
+          "type": "ClassBody",
+          "start": 124,
+          "end": 236,
+          "body": [
+            {
+              "type": "PropertyDefinition",
+              "start": 128,
+              "end": 168,
+              "decorators": [],
+              "key": {
+                "type": "Identifier",
+                "start": 128,
+                "end": 146,
+                "decorators": [],
+                "name": "TranslationKeyEnum",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeAnnotation": null,
+              "value": {
+                "type": "Identifier",
+                "start": 149,
+                "end": 167,
+                "decorators": [],
+                "name": "TranslationKeyEnum",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "computed": false,
+              "static": false,
+              "declare": false,
+              "override": false,
+              "optional": false,
+              "definite": false,
+              "readonly": false,
+              "accessibility": null
+            },
+            {
+              "type": "MethodDefinition",
+              "start": 171,
+              "end": 234,
+              "decorators": [],
+              "key": {
+                "type": "Identifier",
+                "start": 171,
+                "end": 176,
+                "decorators": [],
+                "name": "print",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "start": 176,
+                "end": 234,
+                "id": null,
+                "generator": false,
+                "async": false,
+                "declare": false,
+                "typeParameters": null,
+                "params": [],
+                "returnType": null,
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 179,
+                  "end": 234,
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "start": 185,
+                      "end": 230,
+                      "expression": {
+                        "type": "CallExpression",
+                        "start": 185,
+                        "end": 229,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 185,
+                          "end": 196,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 185,
+                            "end": 192,
+                            "decorators": [],
+                            "name": "console",
+                            "optional": false,
+                            "typeAnnotation": null
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 193,
+                            "end": 196,
+                            "decorators": [],
+                            "name": "log",
+                            "optional": false,
+                            "typeAnnotation": null
+                          },
+                          "optional": false,
+                          "computed": false
+                        },
+                        "typeArguments": null,
+                        "arguments": [
+                          {
+                            "type": "MemberExpression",
+                            "start": 197,
+                            "end": 228,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 197,
+                              "end": 215,
+                              "decorators": [],
+                              "name": "TranslationKeyEnum",
+                              "optional": false,
+                              "typeAnnotation": null
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 216,
+                              "end": 228,
+                              "decorators": [],
+                              "name": "Translation1",
+                              "optional": false,
+                              "typeAnnotation": null
+                            },
+                            "optional": false,
+                            "computed": false
+                          }
+                        ],
+                        "optional": false
+                      },
+                      "directive": null
+                    }
+                  ]
+                },
+                "expression": false
+              },
+              "kind": "method",
+              "computed": false,
+              "static": false,
+              "override": false,
+              "optional": false,
+              "accessibility": null
+            }
+          ]
+        },
+        "abstract": false,
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -595,14 +595,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 30,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 21,
-        "end": 29,
-        "raw": "\"./test\"",
-        "value": "./test"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -617,7 +609,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
@@ -626,32 +617,37 @@ __ESTREE_TEST__:PASS:
             "name": "Test",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 21,
+        "end": 29,
+        "value": "./test",
+        "raw": "\"./test\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 31,
       "end": 50,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 31,
         "end": 49,
-        "arguments": [],
         "callee": {
           "type": "MemberExpression",
           "start": 31,
           "end": 47,
-          "computed": false,
           "object": {
             "type": "NewExpression",
             "start": 31,
             "end": 41,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 35,
@@ -661,9 +657,9 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "typeArguments": null
+            "typeArguments": null,
+            "arguments": []
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 42,
@@ -672,11 +668,15 @@ __ESTREE_TEST__:PASS:
             "name": "print",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

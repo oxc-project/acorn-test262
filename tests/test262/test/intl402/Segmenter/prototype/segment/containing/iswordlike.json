@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 796,
       "end": 860,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -46,13 +47,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 874,
       "end": 1838,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -170,8 +171,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -197,8 +197,8 @@
             "end": 1867,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -206,7 +206,6 @@
             "start": 1873,
             "end": 2737,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -226,6 +225,7 @@
                   "type": "VariableDeclaration",
                   "start": 1903,
                   "end": 1966,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -257,8 +257,8 @@
                             "end": 1939,
                             "name": "Segmenter"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -276,9 +276,7 @@
                                 "type": "Property",
                                 "start": 1952,
                                 "end": 1963,
-                                "method": false,
-                                "shorthand": true,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 1952,
@@ -291,15 +289,16 @@
                                   "end": 1963,
                                   "name": "granularity"
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": true,
+                                "computed": false
                               }
                             ]
                           }
                         ]
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -325,8 +324,8 @@
                         "end": 1987,
                         "name": "forEach"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -334,7 +333,6 @@
                         "start": 1988,
                         "end": 2729,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [
@@ -354,6 +352,7 @@
                               "type": "VariableDeclaration",
                               "start": 2014,
                               "end": 2055,
+                              "kind": "const",
                               "declarations": [
                                 {
                                   "type": "VariableDeclarator",
@@ -385,8 +384,8 @@
                                         "end": 2047,
                                         "name": "segment"
                                       },
-                                      "computed": false,
-                                      "optional": false
+                                      "optional": false,
+                                      "computed": false
                                     },
                                     "arguments": [
                                       {
@@ -399,8 +398,7 @@
                                     "optional": false
                                   }
                                 }
-                              ],
-                              "kind": "const"
+                              ]
                             },
                             {
                               "type": "ForStatement",
@@ -410,6 +408,7 @@
                                 "type": "VariableDeclaration",
                                 "start": 2069,
                                 "end": 2082,
+                                "kind": "let",
                                 "declarations": [
                                   {
                                     "type": "VariableDeclarator",
@@ -429,8 +428,7 @@
                                       "raw": "0"
                                     }
                                   }
-                                ],
-                                "kind": "let"
+                                ]
                               },
                               "test": {
                                 "type": "BinaryExpression",
@@ -459,8 +457,8 @@
                                     "end": 2104,
                                     "name": "length"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 }
                               },
                               "update": {
@@ -485,6 +483,7 @@
                                     "type": "VariableDeclaration",
                                     "start": 2127,
                                     "end": 2168,
+                                    "kind": "const",
                                     "declarations": [
                                       {
                                         "type": "VariableDeclarator",
@@ -516,8 +515,8 @@
                                               "end": 2160,
                                               "name": "containing"
                                             },
-                                            "computed": false,
-                                            "optional": false
+                                            "optional": false,
+                                            "computed": false
                                           },
                                           "arguments": [
                                             {
@@ -530,13 +529,13 @@
                                           "optional": false
                                         }
                                       }
-                                    ],
-                                    "kind": "const"
+                                    ]
                                   },
                                   {
                                     "type": "VariableDeclaration",
                                     "start": 2179,
                                     "end": 2272,
+                                    "kind": "const",
                                     "declarations": [
                                       {
                                         "type": "VariableDeclarator",
@@ -552,26 +551,6 @@
                                           "type": "TemplateLiteral",
                                           "start": 2205,
                                           "end": 2271,
-                                          "expressions": [
-                                            {
-                                              "type": "Identifier",
-                                              "start": 2221,
-                                              "end": 2232,
-                                              "name": "granularity"
-                                            },
-                                            {
-                                              "type": "Identifier",
-                                              "start": 2243,
-                                              "end": 2248,
-                                              "name": "input"
-                                            },
-                                            {
-                                              "type": "Identifier",
-                                              "start": 2263,
-                                              "end": 2268,
-                                              "name": "index"
-                                            }
-                                          ],
                                           "quasis": [
                                             {
                                               "type": "TemplateElement",
@@ -613,11 +592,30 @@
                                               },
                                               "tail": true
                                             }
+                                          ],
+                                          "expressions": [
+                                            {
+                                              "type": "Identifier",
+                                              "start": 2221,
+                                              "end": 2232,
+                                              "name": "granularity"
+                                            },
+                                            {
+                                              "type": "Identifier",
+                                              "start": 2243,
+                                              "end": 2248,
+                                              "name": "input"
+                                            },
+                                            {
+                                              "type": "Identifier",
+                                              "start": 2263,
+                                              "end": 2268,
+                                              "name": "index"
+                                            }
                                           ]
                                         }
                                       }
-                                    ],
-                                    "kind": "const"
+                                    ]
                                   },
                                   {
                                     "type": "ExpressionStatement",
@@ -643,8 +641,8 @@
                                           "end": 2299,
                                           "name": "sameValue"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [
                                         {
@@ -674,8 +672,8 @@
                                               "end": 2318,
                                               "name": "index"
                                             },
-                                            "computed": false,
-                                            "optional": false
+                                            "optional": false,
+                                            "computed": false
                                           },
                                           "operator": ">=",
                                           "right": {
@@ -690,14 +688,6 @@
                                           "type": "TemplateLiteral",
                                           "start": 2325,
                                           "end": 2344,
-                                          "expressions": [
-                                            {
-                                              "type": "Identifier",
-                                              "start": 2328,
-                                              "end": 2331,
-                                              "name": "msg"
-                                            }
-                                          ],
                                           "quasis": [
                                             {
                                               "type": "TemplateElement",
@@ -718,6 +708,14 @@
                                                 "cooked": " index >= 0"
                                               },
                                               "tail": true
+                                            }
+                                          ],
+                                          "expressions": [
+                                            {
+                                              "type": "Identifier",
+                                              "start": 2328,
+                                              "end": 2331,
+                                              "name": "msg"
                                             }
                                           ]
                                         }
@@ -749,8 +747,8 @@
                                           "end": 2373,
                                           "name": "sameValue"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [
                                         {
@@ -780,8 +778,8 @@
                                               "end": 2392,
                                               "name": "index"
                                             },
-                                            "computed": false,
-                                            "optional": false
+                                            "optional": false,
+                                            "computed": false
                                           },
                                           "operator": "<",
                                           "right": {
@@ -800,22 +798,14 @@
                                               "end": 2407,
                                               "name": "length"
                                             },
-                                            "computed": false,
-                                            "optional": false
+                                            "optional": false,
+                                            "computed": false
                                           }
                                         },
                                         {
                                           "type": "TemplateLiteral",
                                           "start": 2409,
                                           "end": 2423,
-                                          "expressions": [
-                                            {
-                                              "type": "Identifier",
-                                              "start": 2412,
-                                              "end": 2415,
-                                              "name": "msg"
-                                            }
-                                          ],
                                           "quasis": [
                                             {
                                               "type": "TemplateElement",
@@ -836,6 +826,14 @@
                                                 "cooked": " index"
                                               },
                                               "tail": true
+                                            }
+                                          ],
+                                          "expressions": [
+                                            {
+                                              "type": "Identifier",
+                                              "start": 2412,
+                                              "end": 2415,
+                                              "name": "msg"
                                             }
                                           ]
                                         }
@@ -867,8 +865,8 @@
                                           "end": 2452,
                                           "name": "sameValue"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [
                                         {
@@ -883,7 +881,6 @@
                                           "start": 2463,
                                           "end": 2482,
                                           "operator": "typeof",
-                                          "prefix": true,
                                           "argument": {
                                             "type": "MemberExpression",
                                             "start": 2470,
@@ -900,22 +897,15 @@
                                               "end": 2482,
                                               "name": "input"
                                             },
-                                            "computed": false,
-                                            "optional": false
-                                          }
+                                            "optional": false,
+                                            "computed": false
+                                          },
+                                          "prefix": true
                                         },
                                         {
                                           "type": "TemplateLiteral",
                                           "start": 2484,
                                           "end": 2498,
-                                          "expressions": [
-                                            {
-                                              "type": "Identifier",
-                                              "start": 2487,
-                                              "end": 2490,
-                                              "name": "msg"
-                                            }
-                                          ],
                                           "quasis": [
                                             {
                                               "type": "TemplateElement",
@@ -936,6 +926,14 @@
                                                 "cooked": " input"
                                               },
                                               "tail": true
+                                            }
+                                          ],
+                                          "expressions": [
+                                            {
+                                              "type": "Identifier",
+                                              "start": 2487,
+                                              "end": 2490,
+                                              "name": "msg"
                                             }
                                           ]
                                         }
@@ -967,8 +965,8 @@
                                           "end": 2527,
                                           "name": "sameValue"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [
                                         {
@@ -993,21 +991,13 @@
                                             "end": 2556,
                                             "name": "isWordLike"
                                           },
-                                          "computed": false,
-                                          "optional": false
+                                          "optional": false,
+                                          "computed": false
                                         },
                                         {
                                           "type": "TemplateLiteral",
                                           "start": 2572,
                                           "end": 2611,
-                                          "expressions": [
-                                            {
-                                              "type": "Identifier",
-                                              "start": 2575,
-                                              "end": 2578,
-                                              "name": "msg"
-                                            }
-                                          ],
                                           "quasis": [
                                             {
                                               "type": "TemplateElement",
@@ -1028,6 +1018,14 @@
                                                 "cooked": " isWordLike should be undefined"
                                               },
                                               "tail": true
+                                            }
+                                          ],
+                                          "expressions": [
+                                            {
+                                              "type": "Identifier",
+                                              "start": 2575,
+                                              "end": 2578,
+                                              "name": "msg"
                                             }
                                           ]
                                         }
@@ -1059,8 +1057,8 @@
                                           "end": 2643,
                                           "name": "compareArray"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [
                                         {
@@ -1083,8 +1081,8 @@
                                               "end": 2670,
                                               "name": "getOwnPropertyNames"
                                             },
-                                            "computed": false,
-                                            "optional": false
+                                            "optional": false,
+                                            "computed": false
                                           },
                                           "arguments": [
                                             {
@@ -1132,14 +1130,16 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

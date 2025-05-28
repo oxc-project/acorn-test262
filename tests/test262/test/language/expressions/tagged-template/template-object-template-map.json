@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 672,
       "end": 683,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,13 +21,13 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 684,
       "end": 699,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -45,13 +46,13 @@
             "elements": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 700,
       "end": 713,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -71,8 +72,7 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -84,7 +84,6 @@
         "end": 731,
         "name": "sameSite"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -111,21 +110,6 @@
                 "type": "TemplateLiteral",
                 "start": 741,
                 "end": 752,
-                "expressions": [
-                  {
-                    "type": "UpdateExpression",
-                    "start": 744,
-                    "end": 750,
-                    "operator": "++",
-                    "prefix": false,
-                    "argument": {
-                      "type": "Identifier",
-                      "start": 744,
-                      "end": 748,
-                      "name": "site"
-                    }
-                  }
-                ],
                 "quasis": [
                   {
                     "type": "TemplateElement",
@@ -147,12 +131,28 @@
                     },
                     "tail": true
                   }
+                ],
+                "expressions": [
+                  {
+                    "type": "UpdateExpression",
+                    "start": 744,
+                    "end": 750,
+                    "operator": "++",
+                    "prefix": false,
+                    "argument": {
+                      "type": "Identifier",
+                      "start": 744,
+                      "end": 748,
+                      "name": "site"
+                    }
+                  }
                 ]
               }
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -164,7 +164,6 @@
         "end": 769,
         "name": "tag"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -189,13 +188,13 @@
               "start": 789,
               "end": 796,
               "operator": "!",
-              "prefix": true,
               "argument": {
                 "type": "Identifier",
                 "start": 790,
                 "end": 796,
                 "name": "expect"
-              }
+              },
+              "prefix": true
             },
             "consequent": {
               "type": "BlockStatement",
@@ -253,8 +252,8 @@
                   "end": 840,
                   "name": "push"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -268,7 +267,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -324,15 +324,6 @@
           "type": "TemplateLiteral",
           "start": 883,
           "end": 889,
-          "expressions": [
-            {
-              "type": "Literal",
-              "start": 886,
-              "end": 887,
-              "value": 1,
-              "raw": "1"
-            }
-          ],
           "quasis": [
             {
               "type": "TemplateElement",
@@ -353,6 +344,15 @@
                 "cooked": ""
               },
               "tail": true
+            }
+          ],
+          "expressions": [
+            {
+              "type": "Literal",
+              "start": 886,
+              "end": 887,
+              "value": 1,
+              "raw": "1"
             }
           ]
         }
@@ -430,8 +430,8 @@
                 "value": 0,
                 "raw": "0"
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "operator": "===",
             "right": {
@@ -481,8 +481,8 @@
                 "value": 1,
                 "raw": "1"
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "operator": "===",
             "right": {
@@ -532,8 +532,8 @@
                 "value": 2,
                 "raw": "2"
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "operator": "!==",
             "right": {
@@ -583,8 +583,8 @@
                 "value": 3,
                 "raw": "3"
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "operator": "===",
             "right": {
@@ -634,8 +634,8 @@
                 "value": 4,
                 "raw": "4"
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "operator": "===",
             "right": {

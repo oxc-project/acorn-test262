@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1846,
       "end": 1864,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForStatement",
@@ -37,6 +37,7 @@
         "type": "VariableDeclaration",
         "start": 1871,
         "end": 1900,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -61,9 +62,7 @@
                     "type": "ArrowFunctionExpression",
                     "start": 1886,
                     "end": 1894,
-                    "id": null,
                     "expression": false,
-                    "generator": false,
                     "async": false,
                     "params": [],
                     "body": {
@@ -71,7 +70,9 @@
                       "start": 1892,
                       "end": 1894,
                       "body": []
-                    }
+                    },
+                    "id": null,
+                    "generator": false
                   }
                 }
               ]
@@ -83,8 +84,7 @@
               "elements": []
             }
           }
-        ],
-        "kind": "const"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -135,8 +135,8 @@
                   "end": 1939,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -155,8 +155,8 @@
                     "end": 1950,
                     "name": "name"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -220,8 +220,8 @@
             "end": 2000,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 660,
       "end": 783,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -88,8 +89,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -100,6 +100,7 @@
         "type": "VariableDeclaration",
         "start": 790,
         "end": 825,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -132,8 +133,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -150,6 +150,7 @@
             "type": "VariableDeclaration",
             "start": 840,
             "end": 897,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -181,8 +182,8 @@
                       "end": 875,
                       "name": "PlainDate"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -220,13 +221,13 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 900,
             "end": 958,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -258,8 +259,8 @@
                       "end": 928,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -271,9 +272,7 @@
                           "type": "Property",
                           "start": 931,
                           "end": 954,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 931,
@@ -286,7 +285,9 @@
                             "end": 954,
                             "name": "undefined"
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false
                         }
                       ]
                     }
@@ -294,8 +295,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -321,8 +321,8 @@
                   "end": 977,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -341,14 +341,6 @@
                   "type": "TemplateLiteral",
                   "start": 996,
                   "end": 1062,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1040,
-                      "end": 1051,
-                      "name": "description"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -369,6 +361,14 @@
                         "cooked": " calendar"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1040,
+                      "end": 1051,
+                      "name": "description"
                     }
                   ]
                 }

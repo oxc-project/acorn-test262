@@ -230,6 +230,7 @@
       "type": "VariableDeclaration",
       "start": 530,
       "end": 539,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -249,8 +250,7 @@
             "raw": "13"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "TryStatement",
@@ -360,6 +360,7 @@
       "type": "VariableDeclaration",
       "start": 672,
       "end": 680,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -379,13 +380,13 @@
             "raw": "3"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 681,
       "end": 690,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -405,8 +406,7 @@
             "raw": "10"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "TryStatement",
@@ -633,6 +633,7 @@
       "type": "VariableDeclaration",
       "start": 964,
       "end": 975,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -665,8 +666,7 @@
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "TryStatement",
@@ -846,8 +846,8 @@
                     "end": 1159,
                     "name": "sameValue"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -896,13 +896,13 @@
               "start": 1208,
               "end": 1217,
               "operator": "+",
-              "prefix": true,
               "argument": {
                 "type": "Identifier",
                 "start": 1209,
                 "end": 1217,
                 "name": "Infinity"
-              }
+              },
+              "prefix": true
             }
           }
         ]
@@ -942,13 +942,13 @@
                   "start": 1241,
                   "end": 1250,
                   "operator": "+",
-                  "prefix": true,
                   "argument": {
                     "type": "Identifier",
                     "start": 1242,
                     "end": 1250,
                     "name": "Infinity"
-                  }
+                  },
+                  "prefix": true
                 }
               },
               "consequent": {
@@ -1013,13 +1013,13 @@
               "start": 1362,
               "end": 1371,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Identifier",
                 "start": 1363,
                 "end": 1371,
                 "name": "Infinity"
-              }
+              },
+              "prefix": true
             }
           }
         ]
@@ -1059,13 +1059,13 @@
                   "start": 1395,
                   "end": 1404,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Identifier",
                     "start": 1396,
                     "end": 1404,
                     "name": "Infinity"
-                  }
+                  },
+                  "prefix": true
                 }
               },
               "consequent": {
@@ -1130,14 +1130,14 @@
               "start": 1517,
               "end": 1519,
               "operator": "+",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 1518,
                 "end": 1519,
                 "value": 0,
                 "raw": "0"
-              }
+              },
+              "prefix": true
             }
           }
         ]
@@ -1177,14 +1177,14 @@
                   "start": 1543,
                   "end": 1545,
                   "operator": "+",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 1544,
                     "end": 1545,
                     "value": 0,
                     "raw": "0"
-                  }
+                  },
+                  "prefix": true
                 }
               },
               "consequent": {
@@ -1249,14 +1249,14 @@
               "start": 1652,
               "end": 1654,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 1653,
                 "end": 1654,
                 "value": 0,
                 "raw": "0"
-              }
+              },
+              "prefix": true
             }
           }
         ]
@@ -1300,8 +1300,8 @@
                     "end": 1686,
                     "name": "sameValue"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -1315,14 +1315,14 @@
                     "start": 1690,
                     "end": 1692,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 1691,
                       "end": 1692,
                       "value": 0,
                       "raw": "0"
-                    }
+                    },
+                    "prefix": true
                   }
                 ],
                 "optional": false

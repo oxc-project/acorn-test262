@@ -13,7 +13,6 @@
         "end": 1763,
         "name": "fn"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -40,7 +39,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -52,7 +52,6 @@
         "end": 1818,
         "name": "evaluate"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -81,8 +80,6 @@
                   "type": "PropertyDefinition",
                   "start": 1839,
                   "end": 1854,
-                  "static": false,
-                  "computed": true,
                   "key": {
                     "type": "Identifier",
                     "start": 1840,
@@ -101,13 +98,16 @@
                     },
                     "arguments": [],
                     "optional": false
-                  }
+                  },
+                  "computed": true,
+                  "static": false
                 }
               ]
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -133,8 +133,8 @@
             "end": 1875,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

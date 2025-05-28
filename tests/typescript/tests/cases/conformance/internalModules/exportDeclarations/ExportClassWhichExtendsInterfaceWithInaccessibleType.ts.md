@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 293,
+      "id": {
+        "type": "Identifier",
+        "start": 7,
+        "end": 8,
+        "decorators": [],
+        "name": "A",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 9,
@@ -18,6 +27,17 @@ __ESTREE_TEST__:PASS:
             "type": "TSInterfaceDeclaration",
             "start": 16,
             "end": 116,
+            "id": {
+              "type": "Identifier",
+              "start": 26,
+              "end": 31,
+              "decorators": [],
+              "name": "Point",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null,
+            "extends": [],
             "body": {
               "type": "TSInterfaceBody",
               "start": 32,
@@ -27,8 +47,9 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 42,
                   "end": 52,
-                  "accessibility": null,
                   "computed": false,
+                  "optional": false,
+                  "readonly": false,
                   "key": {
                     "type": "Identifier",
                     "start": 42,
@@ -38,9 +59,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
-                  "readonly": false,
-                  "static": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 43,
@@ -50,14 +68,17 @@ __ESTREE_TEST__:PASS:
                       "start": 45,
                       "end": 51
                     }
-                  }
+                  },
+                  "accessibility": null,
+                  "static": false
                 },
                 {
                   "type": "TSPropertySignature",
                   "start": 61,
                   "end": 71,
-                  "accessibility": null,
                   "computed": false,
+                  "optional": false,
+                  "readonly": false,
                   "key": {
                     "type": "Identifier",
                     "start": 61,
@@ -67,9 +88,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
-                  "readonly": false,
-                  "static": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 62,
@@ -79,14 +97,14 @@ __ESTREE_TEST__:PASS:
                       "start": 64,
                       "end": 70
                     }
-                  }
+                  },
+                  "accessibility": null,
+                  "static": false
                 },
                 {
                   "type": "TSMethodSignature",
                   "start": 81,
                   "end": 110,
-                  "accessibility": null,
-                  "computed": false,
                   "key": {
                     "type": "Identifier",
                     "start": 81,
@@ -96,8 +114,10 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "kind": "method",
+                  "computed": false,
                   "optional": false,
+                  "kind": "method",
+                  "typeParameters": null,
                   "params": [
                     {
                       "type": "Identifier",
@@ -114,7 +134,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 95,
                           "end": 100,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 95,
@@ -123,12 +142,12 @@ __ESTREE_TEST__:PASS:
                             "name": "Point",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       }
                     }
                   ],
-                  "readonly": false,
                   "returnType": {
                     "type": "TSTypeAnnotation",
                     "start": 101,
@@ -139,34 +158,52 @@ __ESTREE_TEST__:PASS:
                       "end": 109
                     }
                   },
-                  "static": false,
-                  "typeParameters": null
+                  "accessibility": null,
+                  "readonly": false,
+                  "static": false
                 }
               ]
             },
-            "declare": false,
-            "extends": [],
-            "id": {
-              "type": "Identifier",
-              "start": 26,
-              "end": 31,
-              "decorators": [],
-              "name": "Point",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeParameters": null
+            "declare": false
           },
           {
             "type": "ExportNamedDeclaration",
             "start": 122,
             "end": 291,
-            "attributes": [],
             "declaration": {
               "type": "ClassDeclaration",
               "start": 129,
               "end": 291,
-              "abstract": false,
+              "decorators": [],
+              "id": {
+                "type": "Identifier",
+                "start": 135,
+                "end": 142,
+                "decorators": [],
+                "name": "Point2d",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null,
+              "superClass": null,
+              "superTypeArguments": null,
+              "implements": [
+                {
+                  "type": "TSClassImplements",
+                  "start": 154,
+                  "end": 159,
+                  "expression": {
+                    "type": "Identifier",
+                    "start": 154,
+                    "end": 159,
+                    "decorators": [],
+                    "name": "Point",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeArguments": null
+                }
+              ],
               "body": {
                 "type": "ClassBody",
                 "start": 160,
@@ -176,8 +213,6 @@ __ESTREE_TEST__:PASS:
                     "type": "MethodDefinition",
                     "start": 170,
                     "end": 221,
-                    "accessibility": null,
-                    "computed": false,
                     "decorators": [],
                     "key": {
                       "type": "Identifier",
@@ -188,25 +223,15 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "kind": "constructor",
-                    "optional": false,
-                    "override": false,
-                    "static": false,
                     "value": {
                       "type": "FunctionExpression",
                       "start": 181,
                       "end": 221,
-                      "async": false,
-                      "body": {
-                        "type": "BlockStatement",
-                        "start": 218,
-                        "end": 221,
-                        "body": []
-                      },
-                      "declare": false,
-                      "expression": false,
-                      "generator": false,
                       "id": null,
+                      "generator": false,
+                      "async": false,
+                      "declare": false,
+                      "typeParameters": null,
                       "params": [
                         {
                           "type": "TSParameterProperty",
@@ -266,15 +291,25 @@ __ESTREE_TEST__:PASS:
                         }
                       ],
                       "returnType": null,
-                      "typeParameters": null
-                    }
+                      "body": {
+                        "type": "BlockStatement",
+                        "start": 218,
+                        "end": 221,
+                        "body": []
+                      },
+                      "expression": false
+                    },
+                    "kind": "constructor",
+                    "computed": false,
+                    "static": false,
+                    "override": false,
+                    "optional": false,
+                    "accessibility": null
                   },
                   {
                     "type": "MethodDefinition",
                     "start": 231,
                     "end": 285,
-                    "accessibility": null,
-                    "computed": false,
                     "decorators": [],
                     "key": {
                       "type": "Identifier",
@@ -285,38 +320,15 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "kind": "method",
-                    "optional": false,
-                    "override": false,
-                    "static": false,
                     "value": {
                       "type": "FunctionExpression",
                       "start": 241,
                       "end": 285,
-                      "async": false,
-                      "body": {
-                        "type": "BlockStatement",
-                        "start": 252,
-                        "end": 285,
-                        "body": [
-                          {
-                            "type": "ReturnStatement",
-                            "start": 266,
-                            "end": 275,
-                            "argument": {
-                              "type": "Literal",
-                              "start": 273,
-                              "end": 274,
-                              "raw": "1",
-                              "value": 1
-                            }
-                          }
-                        ]
-                      },
-                      "declare": false,
-                      "expression": false,
-                      "generator": false,
                       "id": null,
+                      "generator": false,
+                      "async": false,
+                      "declare": false,
+                      "typeParameters": null,
                       "params": [
                         {
                           "type": "Identifier",
@@ -333,7 +345,6 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 245,
                               "end": 250,
-                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 245,
@@ -342,67 +353,56 @@ __ESTREE_TEST__:PASS:
                                 "name": "Point",
                                 "optional": false,
                                 "typeAnnotation": null
-                              }
+                              },
+                              "typeArguments": null
                             }
                           }
                         }
                       ],
                       "returnType": null,
-                      "typeParameters": null
-                    }
+                      "body": {
+                        "type": "BlockStatement",
+                        "start": 252,
+                        "end": 285,
+                        "body": [
+                          {
+                            "type": "ReturnStatement",
+                            "start": 266,
+                            "end": 275,
+                            "argument": {
+                              "type": "Literal",
+                              "start": 273,
+                              "end": 274,
+                              "value": 1,
+                              "raw": "1"
+                            }
+                          }
+                        ]
+                      },
+                      "expression": false
+                    },
+                    "kind": "method",
+                    "computed": false,
+                    "static": false,
+                    "override": false,
+                    "optional": false,
+                    "accessibility": null
                   }
                 ]
               },
-              "declare": false,
-              "decorators": [],
-              "id": {
-                "type": "Identifier",
-                "start": 135,
-                "end": 142,
-                "decorators": [],
-                "name": "Point2d",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "implements": [
-                {
-                  "type": "TSClassImplements",
-                  "start": 154,
-                  "end": 159,
-                  "expression": {
-                    "type": "Identifier",
-                    "start": 154,
-                    "end": 159,
-                    "decorators": [],
-                    "name": "Point",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "typeArguments": null
-                }
-              ],
-              "superClass": null,
-              "superTypeArguments": null,
-              "typeParameters": null
+              "abstract": false,
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 7,
-        "end": 8,
-        "decorators": [],
-        "name": "A",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "script",

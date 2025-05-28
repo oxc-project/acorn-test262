@@ -35,14 +35,14 @@
                   "start": 414,
                   "end": 420,
                   "operator": "void",
-                  "prefix": true,
                   "argument": {
                     "type": "Literal",
                     "start": 419,
                     "end": 420,
                     "value": 0,
                     "raw": "0"
-                  }
+                  },
+                  "prefix": true
                 }
               ],
               "optional": false
@@ -53,8 +53,8 @@
               "end": 427,
               "name": "slice"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -138,14 +138,14 @@
                             "start": 565,
                             "end": 571,
                             "operator": "void",
-                            "prefix": true,
                             "argument": {
                               "type": "Literal",
                               "start": 570,
                               "end": 571,
                               "value": 0,
                               "raw": "0"
-                            }
+                            },
+                            "prefix": true
                           }
                         ],
                         "optional": false
@@ -156,8 +156,8 @@
                         "end": 578,
                         "name": "slice"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {

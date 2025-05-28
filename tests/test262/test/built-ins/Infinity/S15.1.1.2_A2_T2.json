@@ -51,8 +51,8 @@
             "end": 303,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -60,7 +60,6 @@
             "start": 304,
             "end": 320,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "ParenthesizedExpression",
               "start": 310,
@@ -71,7 +70,8 @@
                 "end": 319,
                 "name": "Infinity"
               }
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

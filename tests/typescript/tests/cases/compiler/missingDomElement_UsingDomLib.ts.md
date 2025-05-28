@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 31,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 29,
-        "end": 31,
-        "body": []
-      },
-      "declare": false,
-      "extends": [],
       "id": {
         "type": "Identifier",
         "start": 10,
@@ -26,18 +18,24 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "typeParameters": null
+      "typeParameters": null,
+      "extends": [],
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 29,
+        "end": 31,
+        "body": []
+      },
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 33,
       "end": 81,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 33,
         "end": 80,
-        "computed": false,
         "object": {
           "type": "TSAsExpression",
           "start": 34,
@@ -62,7 +60,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 49,
             "end": 67,
-            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 49,
@@ -71,10 +68,10 @@ __ESTREE_TEST__:PASS:
               "name": "HTMLMissingElement",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "typeArguments": null
           }
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 69,
@@ -83,8 +80,11 @@ __ESTREE_TEST__:PASS:
           "name": "textContent",
           "optional": false,
           "typeAnnotation": null
-        }
-      }
+        },
+        "optional": false,
+        "computed": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

@@ -18,6 +18,12 @@
           "type": "LabeledStatement",
           "start": 888,
           "end": 893,
+          "label": {
+            "type": "Identifier",
+            "start": 888,
+            "end": 889,
+            "name": "x"
+          },
           "body": {
             "type": "ExpressionStatement",
             "start": 891,
@@ -29,12 +35,6 @@
               "value": 42,
               "raw": "42"
             }
-          },
-          "label": {
-            "type": "Identifier",
-            "start": 888,
-            "end": 889,
-            "name": "x"
           }
         }
       ]

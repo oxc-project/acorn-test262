@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1548,
       "end": 1566,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -24,8 +25,7 @@
             "end": 1565
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -51,8 +51,8 @@
             "end": 1580,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -66,7 +66,6 @@
             "start": 1592,
             "end": 1665,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -95,8 +94,6 @@
                         "type": "PropertyDefinition",
                         "start": 1621,
                         "end": 1643,
-                        "static": false,
-                        "computed": true,
                         "key": {
                           "type": "MemberExpression",
                           "start": 1622,
@@ -113,8 +110,8 @@
                             "end": 1629,
                             "name": "f"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "value": {
                           "type": "Literal",
@@ -122,14 +119,14 @@
                           "end": 1642,
                           "value": "Test262",
                           "raw": "'Test262'"
-                        }
+                        },
+                        "computed": true,
+                        "static": false
                       },
                       {
                         "type": "PropertyDefinition",
                         "start": 1648,
                         "end": 1659,
-                        "static": false,
-                        "computed": false,
                         "key": {
                           "type": "PrivateIdentifier",
                           "start": 1648,
@@ -142,13 +139,16 @@
                           "end": 1658,
                           "value": "foo",
                           "raw": "'foo'"
-                        }
+                        },
+                        "computed": false,
+                        "static": false
                       }
                     ]
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

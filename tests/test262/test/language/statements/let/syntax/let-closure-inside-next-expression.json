@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 226,
       "end": 237,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             "elements": []
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ForStatement",
@@ -36,6 +36,7 @@
         "type": "VariableDeclaration",
         "start": 243,
         "end": 252,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -55,8 +56,7 @@
               "raw": "0"
             }
           }
-        ],
-        "kind": "let"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -102,8 +102,8 @@
                 "end": 267,
                 "name": "push"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -111,7 +111,6 @@
                 "start": 268,
                 "end": 293,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -132,7 +131,8 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               }
             ],
             "optional": false
@@ -167,6 +167,7 @@
         "type": "VariableDeclaration",
         "start": 310,
         "end": 319,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -186,8 +187,7 @@
               "raw": "0"
             }
           }
-        ],
-        "kind": "let"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -250,8 +250,8 @@
                   "end": 353,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -293,8 +293,8 @@
                       "end": 364,
                       "name": "k"
                     },
-                    "computed": true,
-                    "optional": false
+                    "optional": false,
+                    "computed": true
                   },
                   "arguments": [],
                   "optional": false

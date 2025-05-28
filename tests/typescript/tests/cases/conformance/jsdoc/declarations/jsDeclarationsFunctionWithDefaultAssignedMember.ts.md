@@ -9,16 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 17,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 15,
-        "end": 17,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -28,15 +18,24 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 15,
+        "end": 17,
+        "body": []
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
       "start": 19,
       "end": 33,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 19,
@@ -46,7 +45,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 19,
           "end": 26,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 19,
@@ -56,7 +54,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 23,
@@ -65,7 +62,9 @@ __ESTREE_TEST__:PASS:
             "name": "foo",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Identifier",
@@ -76,13 +75,13 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 34,
       "end": 52,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 34,
@@ -92,7 +91,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 34,
           "end": 45,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 34,
@@ -102,7 +100,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 38,
@@ -111,7 +108,9 @@ __ESTREE_TEST__:PASS:
             "name": "default",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Identifier",
@@ -122,13 +121,13 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 53,
       "end": 74,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 53,
@@ -138,7 +137,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 53,
           "end": 67,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 53,
@@ -148,7 +146,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 60,
@@ -157,7 +154,9 @@ __ESTREE_TEST__:PASS:
             "name": "exports",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Identifier",
@@ -168,7 +167,8 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

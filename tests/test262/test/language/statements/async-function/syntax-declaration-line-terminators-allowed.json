@@ -13,7 +13,6 @@
         "end": 312,
         "name": "foo"
       },
-      "expression": false,
       "generator": false,
       "async": true,
       "params": [],
@@ -22,7 +21,8 @@
         "start": 315,
         "end": 321,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 259,
       "end": 395,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -43,8 +44,8 @@
                     "end": 299,
                     "name": "PlainDate"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -90,8 +91,8 @@
                     "end": 337,
                     "name": "PlainDate"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -137,8 +138,8 @@
                     "end": 377,
                     "name": "PlainDate"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -167,8 +168,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -179,6 +179,7 @@
         "type": "VariableDeclaration",
         "start": 401,
         "end": 416,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -192,8 +193,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -230,8 +230,8 @@
                   "end": 447,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -250,8 +250,8 @@
                     "end": 468,
                     "name": "daysInWeek"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -264,14 +264,6 @@
                   "type": "TemplateLiteral",
                   "start": 473,
                   "end": 513,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 502,
-                      "end": 511,
-                      "name": "plainDate"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -292,6 +284,14 @@
                         "cooked": ""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 502,
+                      "end": 511,
+                      "name": "plainDate"
                     }
                   ]
                 }

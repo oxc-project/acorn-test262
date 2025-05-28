@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 675,
       "end": 898,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -58,8 +59,8 @@
                           "end": 727,
                           "name": "DateTimeFormat"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -78,9 +79,7 @@
                               "type": "Property",
                               "start": 739,
                               "end": 757,
-                              "method": false,
-                              "shorthand": false,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 739,
@@ -94,7 +93,9 @@
                                 "value": "short",
                                 "raw": "\"short\""
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": false,
+                              "computed": false
                             }
                           ]
                         }
@@ -106,8 +107,8 @@
                       "end": 782,
                       "name": "formatRangeToParts"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -185,17 +186,15 @@
                   "end": 828,
                   "name": "find"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
                   "type": "ArrowFunctionExpression",
                   "start": 829,
                   "end": 890,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [
                     {
@@ -229,8 +228,8 @@
                           "end": 848,
                           "name": "type"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "operator": "===",
                       "right": {
@@ -262,8 +261,8 @@
                           "end": 877,
                           "name": "source"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "operator": "===",
                       "right": {
@@ -274,7 +273,9 @@
                         "raw": "\"shared\""
                       }
                     }
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 }
               ],
               "optional": false
@@ -285,17 +286,17 @@
               "end": 897,
               "name": "value"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 900,
       "end": 946,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -328,13 +329,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 947,
       "end": 993,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -367,13 +368,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 994,
       "end": 1040,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -406,13 +407,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1041,
       "end": 1087,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -445,13 +446,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1089,
       "end": 1132,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -483,8 +484,8 @@
                 "end": 1122,
                 "name": "DateTimeFormat"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -497,8 +498,7 @@
             ]
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -524,8 +524,8 @@
             "end": 1149,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -548,8 +548,8 @@
                 "end": 1165,
                 "name": "formatRange"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -602,8 +602,8 @@
             "end": 1210,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -626,8 +626,8 @@
                 "end": 1226,
                 "name": "formatRange"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -649,14 +649,6 @@
             "type": "TemplateLiteral",
             "start": 1242,
             "end": 1283,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 1253,
-                "end": 1273,
-                "name": "usDateRangeSeparator"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -677,6 +669,14 @@
                   "cooked": "1/5/2019"
                 },
                 "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 1253,
+                "end": 1273,
+                "name": "usDateRangeSeparator"
               }
             ]
           }
@@ -708,8 +708,8 @@
             "end": 1302,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -732,8 +732,8 @@
                 "end": 1318,
                 "name": "formatRange"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -755,14 +755,6 @@
             "type": "TemplateLiteral",
             "start": 1334,
             "end": 1375,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 1345,
-                "end": 1365,
-                "name": "usDateRangeSeparator"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -783,6 +775,14 @@
                   "cooked": "3/4/2019"
                 },
                 "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 1345,
+                "end": 1365,
+                "name": "usDateRangeSeparator"
               }
             ]
           }
@@ -814,8 +814,8 @@
             "end": 1394,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -838,8 +838,8 @@
                 "end": 1410,
                 "name": "formatRange"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -861,14 +861,6 @@
             "type": "TemplateLiteral",
             "start": 1426,
             "end": 1467,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 1437,
-                "end": 1457,
-                "name": "usDateRangeSeparator"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -889,6 +881,14 @@
                   "cooked": "3/4/2020"
                 },
                 "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 1437,
+                "end": 1457,
+                "name": "usDateRangeSeparator"
               }
             ]
           }
@@ -920,8 +920,8 @@
             "end": 1486,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -944,8 +944,8 @@
                 "end": 1502,
                 "name": "formatRange"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -967,14 +967,6 @@
             "type": "TemplateLiteral",
             "start": 1518,
             "end": 1559,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 1529,
-                "end": 1549,
-                "name": "usDateRangeSeparator"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -995,6 +987,14 @@
                   "cooked": "3/4/2019"
                 },
                 "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 1529,
+                "end": 1549,
+                "name": "usDateRangeSeparator"
               }
             ]
           }
@@ -1026,8 +1026,8 @@
             "end": 1578,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1050,8 +1050,8 @@
                 "end": 1594,
                 "name": "formatRange"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1073,14 +1073,6 @@
             "type": "TemplateLiteral",
             "start": 1610,
             "end": 1651,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 1621,
-                "end": 1641,
-                "name": "usDateRangeSeparator"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -1101,6 +1093,14 @@
                   "cooked": "3/4/2020"
                 },
                 "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 1621,
+                "end": 1641,
+                "name": "usDateRangeSeparator"
               }
             ]
           }
@@ -1132,8 +1132,8 @@
             "end": 1670,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1156,8 +1156,8 @@
                 "end": 1686,
                 "name": "formatRange"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1179,14 +1179,6 @@
             "type": "TemplateLiteral",
             "start": 1702,
             "end": 1743,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 1713,
-                "end": 1733,
-                "name": "usDateRangeSeparator"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -1207,6 +1199,14 @@
                   "cooked": "3/4/2020"
                 },
                 "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 1713,
+                "end": 1733,
+                "name": "usDateRangeSeparator"
               }
             ]
           }
@@ -1249,8 +1249,8 @@
               "end": 1776,
               "name": "DateTimeFormat"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -1269,9 +1269,7 @@
                   "type": "Property",
                   "start": 1787,
                   "end": 1802,
-                  "method": false,
-                  "shorthand": false,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 1787,
@@ -1285,15 +1283,15 @@
                     "value": "numeric",
                     "raw": "\"numeric\""
                   },
-                  "kind": "init"
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false
                 },
                 {
                   "type": "Property",
                   "start": 1804,
                   "end": 1818,
-                  "method": false,
-                  "shorthand": false,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 1804,
@@ -1307,15 +1305,15 @@
                     "value": "short",
                     "raw": "\"short\""
                   },
-                  "kind": "init"
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false
                 },
                 {
                   "type": "Property",
                   "start": 1820,
                   "end": 1834,
-                  "method": false,
-                  "shorthand": false,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 1820,
@@ -1329,7 +1327,9 @@
                     "value": "numeric",
                     "raw": "\"numeric\""
                   },
-                  "kind": "init"
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false
                 }
               ]
             }
@@ -1361,8 +1361,8 @@
             "end": 1854,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1385,8 +1385,8 @@
                 "end": 1870,
                 "name": "formatRange"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1439,8 +1439,8 @@
             "end": 1918,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1463,8 +1463,8 @@
                 "end": 1934,
                 "name": "formatRange"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1486,14 +1486,6 @@
             "type": "TemplateLiteral",
             "start": 1950,
             "end": 1987,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 1958,
-                "end": 1978,
-                "name": "usDateRangeSeparator"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -1514,6 +1506,14 @@
                   "cooked": "5, 2019"
                 },
                 "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 1958,
+                "end": 1978,
+                "name": "usDateRangeSeparator"
               }
             ]
           }
@@ -1545,8 +1545,8 @@
             "end": 2006,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1569,8 +1569,8 @@
                 "end": 2022,
                 "name": "formatRange"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1592,14 +1592,6 @@
             "type": "TemplateLiteral",
             "start": 2038,
             "end": 2079,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 2046,
-                "end": 2066,
-                "name": "usDateRangeSeparator"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -1620,6 +1612,14 @@
                   "cooked": "Mar 4, 2019"
                 },
                 "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 2046,
+                "end": 2066,
+                "name": "usDateRangeSeparator"
               }
             ]
           }
@@ -1651,8 +1651,8 @@
             "end": 2098,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1675,8 +1675,8 @@
                 "end": 2114,
                 "name": "formatRange"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1698,14 +1698,6 @@
             "type": "TemplateLiteral",
             "start": 2130,
             "end": 2177,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 2144,
-                "end": 2164,
-                "name": "usDateRangeSeparator"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -1726,6 +1718,14 @@
                   "cooked": "Mar 4, 2020"
                 },
                 "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 2144,
+                "end": 2164,
+                "name": "usDateRangeSeparator"
               }
             ]
           }
@@ -1757,8 +1757,8 @@
             "end": 2196,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1781,8 +1781,8 @@
                 "end": 2212,
                 "name": "formatRange"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1804,14 +1804,6 @@
             "type": "TemplateLiteral",
             "start": 2228,
             "end": 2269,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 2236,
-                "end": 2256,
-                "name": "usDateRangeSeparator"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -1832,6 +1824,14 @@
                   "cooked": "Mar 4, 2019"
                 },
                 "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 2236,
+                "end": 2256,
+                "name": "usDateRangeSeparator"
               }
             ]
           }
@@ -1863,8 +1863,8 @@
             "end": 2288,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1887,8 +1887,8 @@
                 "end": 2304,
                 "name": "formatRange"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -1910,14 +1910,6 @@
             "type": "TemplateLiteral",
             "start": 2320,
             "end": 2367,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 2334,
-                "end": 2354,
-                "name": "usDateRangeSeparator"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -1938,6 +1930,14 @@
                   "cooked": "Mar 4, 2020"
                 },
                 "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 2334,
+                "end": 2354,
+                "name": "usDateRangeSeparator"
               }
             ]
           }
@@ -1969,8 +1969,8 @@
             "end": 2386,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1993,8 +1993,8 @@
                 "end": 2402,
                 "name": "formatRange"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2016,14 +2016,6 @@
             "type": "TemplateLiteral",
             "start": 2418,
             "end": 2465,
-            "expressions": [
-              {
-                "type": "Identifier",
-                "start": 2432,
-                "end": 2452,
-                "name": "usDateRangeSeparator"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -2044,6 +2036,14 @@
                   "cooked": "Mar 4, 2020"
                 },
                 "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Identifier",
+                "start": 2432,
+                "end": 2452,
+                "name": "usDateRangeSeparator"
               }
             ]
           }

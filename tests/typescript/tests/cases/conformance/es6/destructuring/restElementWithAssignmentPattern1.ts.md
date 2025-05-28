@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 25,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 13,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -33,13 +33,13 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         },
         {
           "type": "VariableDeclarator",
           "start": 15,
           "end": 24,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 15,
@@ -58,17 +58,16 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 26,
       "end": 52,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 26,
@@ -84,6 +83,7 @@ __ESTREE_TEST__:PASS:
               "type": "RestElement",
               "start": 27,
               "end": 40,
+              "decorators": [],
               "argument": {
                 "type": "ArrayPattern",
                 "start": 30,
@@ -113,21 +113,20 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "optional": false,
                     "right": {
                       "type": "Literal",
                       "start": 38,
                       "end": 39,
-                      "raw": "0",
-                      "value": 0
+                      "value": 0,
+                      "raw": "0"
                     },
+                    "optional": false,
                     "typeAnnotation": null
                   }
                 ],
                 "optional": false,
                 "typeAnnotation": null
               },
-              "decorators": [],
               "optional": false,
               "typeAnnotation": null,
               "value": null
@@ -145,19 +144,20 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 45,
               "end": 47,
-              "raw": "\"\"",
-              "value": ""
+              "value": "",
+              "raw": "\"\""
             },
             {
               "type": "Literal",
               "start": 49,
               "end": 50,
-              "raw": "1",
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           ]
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

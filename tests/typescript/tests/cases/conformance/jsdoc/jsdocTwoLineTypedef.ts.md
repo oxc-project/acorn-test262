@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSTypeAliasDeclaration",
       "start": 79,
       "end": 104,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 84,
@@ -19,12 +18,13 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSVoidKeyword",
         "start": 99,
         "end": 103
       },
-      "typeParameters": null
+      "declare": false
     }
   ],
   "sourceType": "script",

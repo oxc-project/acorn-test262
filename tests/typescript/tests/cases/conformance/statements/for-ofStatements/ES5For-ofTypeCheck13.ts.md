@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 37,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 6,
           "end": 37,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
@@ -30,6 +30,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 14,
                 "end": 25,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 14,
+                  "end": 17,
+                  "decorators": [],
+                  "name": "Set",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 17,
@@ -41,15 +50,6 @@ __ESTREE_TEST__:PASS:
                       "end": 24
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 14,
-                  "end": 17,
-                  "decorators": [],
-                  "name": "Set",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             }
@@ -58,7 +58,6 @@ __ESTREE_TEST__:PASS:
             "type": "NewExpression",
             "start": 28,
             "end": 37,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 32,
@@ -68,36 +67,26 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": []
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 38,
       "end": 57,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 38,
         "end": 57,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 49,
-            "end": 56,
-            "raw": "'Hello'",
-            "value": "Hello"
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 38,
           "end": 48,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 38,
@@ -107,7 +96,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 45,
@@ -116,35 +104,36 @@ __ESTREE_TEST__:PASS:
             "name": "add",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 49,
+            "end": 56,
+            "value": "Hello",
+            "raw": "'Hello'"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 58,
       "end": 77,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 58,
         "end": 77,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 69,
-            "end": 76,
-            "raw": "'World'",
-            "value": "World"
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 58,
           "end": 68,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 58,
@@ -154,7 +143,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 65,
@@ -163,33 +151,39 @@ __ESTREE_TEST__:PASS:
             "name": "add",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 69,
+            "end": 76,
+            "value": "World",
+            "raw": "'World'"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ForOfStatement",
       "start": 78,
       "end": 107,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 104,
-        "end": 107,
-        "body": []
-      },
       "left": {
         "type": "VariableDeclaration",
         "start": 83,
         "end": 92,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 89,
             "end": 92,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 89,
@@ -199,11 +193,11 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
       "right": {
         "type": "Identifier",
@@ -213,6 +207,12 @@ __ESTREE_TEST__:PASS:
         "name": "strSet",
         "optional": false,
         "typeAnnotation": null
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 104,
+        "end": 107,
+        "body": []
       }
     }
   ],

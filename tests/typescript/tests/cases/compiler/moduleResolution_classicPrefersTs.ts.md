@@ -13,8 +13,8 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "start": 15,
         "end": 36,
-        "raw": "\"dir1/dir2/dir3/a.js\"",
-        "value": "dir1/dir2/dir3/a.js"
+        "value": "dir1/dir2/dir3/a.js",
+        "raw": "\"dir1/dir2/dir3/a.js\""
       },
       "exportKind": "value"
     }
@@ -38,8 +38,8 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "start": 15,
         "end": 31,
-        "raw": "\"dir1/dir2/a.ts\"",
-        "value": "dir1/dir2/a.ts"
+        "value": "dir1/dir2/a.ts",
+        "raw": "\"dir1/dir2/a.ts\""
       },
       "exportKind": "value"
     }
@@ -59,14 +59,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 18,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 14,
-        "end": 17,
-        "raw": "\"a\"",
-        "value": "a"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -83,8 +75,16 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 14,
+        "end": 17,
+        "value": "a",
+        "raw": "\"a\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

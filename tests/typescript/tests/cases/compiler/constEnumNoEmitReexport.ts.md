@@ -9,11 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 50,
-      "attributes": [],
       "declaration": {
         "type": "TSEnumDeclaration",
         "start": 7,
         "end": 50,
+        "id": {
+          "type": "Identifier",
+          "start": 18,
+          "end": 29,
+          "decorators": [],
+          "name": "MyConstEnum",
+          "optional": false,
+          "typeAnnotation": null
+        },
         "body": {
           "type": "TSEnumBody",
           "start": 30,
@@ -23,7 +31,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSEnumMember",
               "start": 36,
               "end": 39,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 36,
@@ -33,13 +40,13 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "initializer": null
+              "initializer": null,
+              "computed": false
             },
             {
               "type": "TSEnumMember",
               "start": 45,
               "end": 48,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 45,
@@ -49,25 +56,18 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "initializer": null
+              "initializer": null,
+              "computed": false
             }
           ]
         },
         "const": true,
-        "declare": false,
-        "id": {
-          "type": "Identifier",
-          "start": 18,
-          "end": 29,
-          "decorators": [],
-          "name": "MyConstEnum",
-          "optional": false,
-          "typeAnnotation": null
-        }
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "EmptyStatement",
@@ -90,14 +90,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 42,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 28,
-        "end": 41,
-        "raw": "'./ConstEnum'",
-        "value": "./ConstEnum"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -112,7 +104,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
@@ -121,25 +112,40 @@ __ESTREE_TEST__:PASS:
             "name": "MyConstEnum",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 28,
+        "end": 41,
+        "value": "./ConstEnum",
+        "raw": "'./ConstEnum'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 43,
       "end": 66,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 52,
           "end": 63,
+          "local": {
+            "type": "Identifier",
+            "start": 52,
+            "end": 63,
+            "decorators": [],
+            "name": "MyConstEnum",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 52,
@@ -149,18 +155,12 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 52,
-            "end": 63,
-            "decorators": [],
-            "name": "MyConstEnum",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": null,
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -178,14 +178,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 42,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 28,
-        "end": 41,
-        "raw": "'./ConstEnum'",
-        "value": "./ConstEnum"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -200,7 +192,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
@@ -209,11 +200,20 @@ __ESTREE_TEST__:PASS:
             "name": "MyConstEnum",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 28,
+        "end": 41,
+        "value": "./ConstEnum",
+        "raw": "'./ConstEnum'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -246,21 +246,21 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 53,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 39,
-        "end": 52,
-        "raw": "'./ConstEnum'",
-        "value": "./ConstEnum"
-      },
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 9,
           "end": 31,
+          "local": {
+            "type": "Identifier",
+            "start": 9,
+            "end": 20,
+            "decorators": [],
+            "name": "MyConstEnum",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 24,
@@ -270,18 +270,18 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 9,
-            "end": 20,
-            "decorators": [],
-            "name": "MyConstEnum",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 39,
+        "end": 52,
+        "value": "./ConstEnum",
+        "raw": "'./ConstEnum'"
+      },
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -299,21 +299,21 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 42,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 28,
-        "end": 41,
-        "raw": "'./ConstEnum'",
-        "value": "./ConstEnum"
-      },
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 9,
           "end": 20,
+          "local": {
+            "type": "Identifier",
+            "start": 9,
+            "end": 20,
+            "decorators": [],
+            "name": "MyConstEnum",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 9,
@@ -323,18 +323,18 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 9,
-            "end": 20,
-            "decorators": [],
-            "name": "MyConstEnum",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 28,
+        "end": 41,
+        "value": "./ConstEnum",
+        "raw": "'./ConstEnum'"
+      },
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -352,14 +352,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 49,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 25,
-        "end": 48,
-        "raw": "'./ImportExportDefault'",
-        "value": "./ImportExportDefault"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -376,21 +368,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 25,
+        "end": 48,
+        "value": "./ImportExportDefault",
+        "raw": "'./ImportExportDefault'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 50,
       "end": 95,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 75,
-        "end": 94,
-        "raw": "'./ReExportDefault'",
-        "value": "./ReExportDefault"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -407,19 +399,25 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 75,
+        "end": 94,
+        "value": "./ReExportDefault",
+        "raw": "'./ReExportDefault'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 96,
       "end": 113,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 96,
         "end": 112,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 96,
@@ -429,7 +427,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 109,
@@ -438,19 +435,20 @@ __ESTREE_TEST__:PASS:
           "name": "Foo",
           "optional": false,
           "typeAnnotation": null
-        }
-      }
+        },
+        "optional": false,
+        "computed": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 114,
       "end": 131,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 114,
         "end": 130,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 114,
@@ -460,7 +458,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 127,
@@ -469,8 +466,11 @@ __ESTREE_TEST__:PASS:
           "name": "Foo",
           "optional": false,
           "typeAnnotation": null
-        }
-      }
+        },
+        "optional": false,
+        "computed": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",
@@ -488,14 +488,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 45,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 28,
-        "end": 44,
-        "raw": "'./ImportExport'",
-        "value": "./ImportExport"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -510,7 +502,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
@@ -519,22 +510,29 @@ __ESTREE_TEST__:PASS:
             "name": "MyConstEnum",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 28,
+        "end": 44,
+        "value": "./ImportExport",
+        "raw": "'./ImportExport'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 46,
       "end": 62,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 46,
         "end": 61,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 46,
@@ -544,7 +542,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 58,
@@ -553,8 +550,11 @@ __ESTREE_TEST__:PASS:
           "name": "Foo",
           "optional": false,
           "typeAnnotation": null
-        }
-      }
+        },
+        "optional": false,
+        "computed": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",
@@ -572,14 +572,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 41,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 28,
-        "end": 40,
-        "raw": "'./ReExport'",
-        "value": "./ReExport"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -594,7 +586,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
@@ -603,22 +594,29 @@ __ESTREE_TEST__:PASS:
             "name": "MyConstEnum",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 28,
+        "end": 40,
+        "value": "./ReExport",
+        "raw": "'./ReExport'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 42,
       "end": 58,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 42,
         "end": 57,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 42,
@@ -628,7 +626,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 54,
@@ -637,8 +634,11 @@ __ESTREE_TEST__:PASS:
           "name": "Foo",
           "optional": false,
           "typeAnnotation": null
-        }
-      }
+        },
+        "optional": false,
+        "computed": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

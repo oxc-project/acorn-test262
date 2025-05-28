@@ -13,7 +13,6 @@
         "end": 2029,
         "name": "fn"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -31,7 +30,6 @@
               "start": 2043,
               "end": 2056,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -40,11 +38,13 @@
                 "start": 2054,
                 "end": 2056,
                 "body": []
-              }
+              },
+              "expression": false
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExportNamedDeclaration",

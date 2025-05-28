@@ -18,7 +18,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 37,
@@ -27,10 +26,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 45,
           "end": 72,
-          "raw": "'./requireOfAnEmptyFile1_b'",
-          "value": "./requireOfAnEmptyFile1_b"
+          "value": "./requireOfAnEmptyFile1_b",
+          "raw": "'./requireOfAnEmptyFile1_b'"
         }
-      }
+      },
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

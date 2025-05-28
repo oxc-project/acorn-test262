@@ -9,22 +9,22 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 10,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "VariableDeclaration",
       "start": 12,
       "end": 33,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 24,
           "end": 32,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 24,
@@ -43,11 +43,11 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -57,14 +57,6 @@ __ESTREE_TEST__:PASS:
         "type": "ClassDeclaration",
         "start": 55,
         "end": 66,
-        "abstract": false,
-        "body": {
-          "type": "ClassBody",
-          "start": 63,
-          "end": 66,
-          "body": []
-        },
-        "declare": false,
         "decorators": [
           {
             "type": "Decorator",
@@ -90,10 +82,18 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "implements": [],
+        "typeParameters": null,
         "superClass": null,
         "superTypeArguments": null,
-        "typeParameters": null
+        "implements": [],
+        "body": {
+          "type": "ClassBody",
+          "start": 63,
+          "end": 66,
+          "body": []
+        },
+        "abstract": false,
+        "declare": false
       },
       "exportKind": "value"
     },
@@ -101,11 +101,11 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 68,
       "end": 75,
-      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 68,
         "end": 74,
+        "operator": "void",
         "argument": {
           "type": "Identifier",
           "start": 73,
@@ -115,20 +115,20 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "operator": "void",
         "prefix": true
-      }
+      },
+      "directive": null
     },
     {
       "type": "VariableDeclaration",
       "start": 77,
       "end": 96,
+      "kind": "using",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 83,
           "end": 95,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 83,
@@ -142,13 +142,13 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 91,
             "end": 95,
-            "raw": "null",
-            "value": null
-          }
+            "value": null,
+            "raw": "null"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "using"
+      "declare": false
     }
   ],
   "sourceType": "module",

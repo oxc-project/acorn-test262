@@ -9,16 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 32,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 29,
-        "end": 32,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -28,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "AssignmentPattern",
@@ -44,6 +38,7 @@ __ESTREE_TEST__:PASS:
                 "type": "RestElement",
                 "start": 15,
                 "end": 19,
+                "decorators": [],
                 "argument": {
                   "type": "Identifier",
                   "start": 18,
@@ -53,7 +48,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "decorators": [],
                 "optional": false,
                 "typeAnnotation": null,
                 "value": null
@@ -62,34 +56,30 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "right": {
             "type": "Literal",
             "start": 23,
             "end": 27,
-            "raw": "null",
-            "value": null
+            "value": null,
+            "raw": "null"
           },
+          "optional": false,
           "typeAnnotation": null
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 29,
+        "end": 32,
+        "body": []
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 34,
       "end": 71,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 68,
-        "end": 71,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 43,
@@ -99,6 +89,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "AssignmentPattern",
@@ -115,6 +109,7 @@ __ESTREE_TEST__:PASS:
                 "type": "RestElement",
                 "start": 49,
                 "end": 53,
+                "decorators": [],
                 "argument": {
                   "type": "Identifier",
                   "start": 52,
@@ -124,7 +119,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "decorators": [],
                 "optional": false,
                 "typeAnnotation": null,
                 "value": null
@@ -133,7 +127,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "right": {
             "type": "Identifier",
             "start": 57,
@@ -143,26 +136,23 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
+          "optional": false,
           "typeAnnotation": null
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 68,
+        "end": 71,
+        "body": []
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 73,
       "end": 103,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 100,
-        "end": 103,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 82,
@@ -172,6 +162,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "AssignmentPattern",
@@ -188,6 +182,7 @@ __ESTREE_TEST__:PASS:
                 "type": "RestElement",
                 "start": 88,
                 "end": 92,
+                "decorators": [],
                 "argument": {
                   "type": "Identifier",
                   "start": 91,
@@ -197,7 +192,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "decorators": [],
                 "optional": false,
                 "typeAnnotation": null,
                 "value": null
@@ -206,33 +200,29 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "right": {
             "type": "ObjectExpression",
             "start": 96,
             "end": 98,
             "properties": []
           },
+          "optional": false,
           "typeAnnotation": null
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 100,
+        "end": 103,
+        "body": []
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 105,
       "end": 135,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 132,
-        "end": 135,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 114,
@@ -242,6 +232,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "AssignmentPattern",
@@ -258,6 +252,7 @@ __ESTREE_TEST__:PASS:
                 "type": "RestElement",
                 "start": 120,
                 "end": 124,
+                "decorators": [],
                 "argument": {
                   "type": "Identifier",
                   "start": 123,
@@ -267,7 +262,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "decorators": [],
                 "optional": false,
                 "typeAnnotation": null,
                 "value": null
@@ -276,18 +270,24 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "right": {
             "type": "ArrayExpression",
             "start": 128,
             "end": 130,
             "elements": []
           },
+          "optional": false,
           "typeAnnotation": null
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 132,
+        "end": 135,
+        "body": []
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

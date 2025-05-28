@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1146,
       "end": 1221,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -37,9 +38,7 @@
                         "type": "Property",
                         "start": 1182,
                         "end": 1208,
-                        "method": true,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 1182,
@@ -51,7 +50,6 @@
                           "start": 1190,
                           "end": 1208,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [],
@@ -73,9 +71,12 @@
                                 }
                               }
                             ]
-                          }
+                          },
+                          "expression": false
                         },
-                        "kind": "init"
+                        "method": true,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   },
@@ -91,8 +92,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -103,6 +103,7 @@
         "type": "VariableDeclaration",
         "start": 1227,
         "end": 1253,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -129,8 +130,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -147,6 +147,7 @@
             "type": "VariableDeclaration",
             "start": 1283,
             "end": 1313,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -178,8 +179,7 @@
                   }
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -205,8 +205,8 @@
                   "end": 1333,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -237,8 +237,8 @@
                           "end": 1354,
                           "name": "Locale"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -257,9 +257,7 @@
                               "type": "Property",
                               "start": 1362,
                               "end": 1370,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 1362,
@@ -272,7 +270,9 @@
                                 "end": 1370,
                                 "name": "language"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -284,8 +284,8 @@
                       "end": 1381,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
@@ -300,20 +300,6 @@
                   "type": "TemplateLiteral",
                   "start": 1401,
                   "end": 1482,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1438,
-                      "end": 1446,
-                      "name": "language"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 1473,
-                      "end": 1479,
-                      "name": "expect"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -344,6 +330,20 @@
                         "cooked": "\""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1438,
+                      "end": 1446,
+                      "name": "language"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 1473,
+                      "end": 1479,
+                      "name": "expect"
                     }
                   ]
                 }
@@ -429,8 +429,8 @@
                   "end": 1546,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -461,8 +461,8 @@
                           "end": 1567,
                           "name": "Locale"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -481,9 +481,7 @@
                               "type": "Property",
                               "start": 1578,
                               "end": 1586,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 1578,
@@ -496,7 +494,9 @@
                                 "end": 1586,
                                 "name": "language"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -508,8 +508,8 @@
                       "end": 1597,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
@@ -524,20 +524,6 @@
                   "type": "TemplateLiteral",
                   "start": 1617,
                   "end": 1701,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1657,
-                      "end": 1665,
-                      "name": "language"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 1692,
-                      "end": 1698,
-                      "name": "expect"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -569,6 +555,20 @@
                       },
                       "tail": true
                     }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1657,
+                      "end": 1665,
+                      "name": "language"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 1692,
+                      "end": 1698,
+                      "name": "expect"
+                    }
                   ]
                 }
               ],
@@ -599,8 +599,8 @@
                   "end": 1723,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -613,9 +613,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 1736,
                   "end": 1779,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -638,8 +636,8 @@
                         "end": 1757,
                         "name": "Locale"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -658,9 +656,7 @@
                             "type": "Property",
                             "start": 1769,
                             "end": 1777,
-                            "method": false,
-                            "shorthand": true,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 1769,
@@ -673,12 +669,16 @@
                               "end": 1777,
                               "name": "language"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": true,
+                            "computed": false
                           }
                         ]
                       }
                     ]
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 }
               ],
               "optional": false
@@ -691,6 +691,7 @@
       "type": "VariableDeclaration",
       "start": 1786,
       "end": 1871,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -738,8 +739,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -750,6 +750,7 @@
         "type": "VariableDeclaration",
         "start": 1877,
         "end": 1891,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -763,8 +764,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -801,8 +801,8 @@
                   "end": 1936,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -815,9 +815,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 1949,
                   "end": 1988,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -840,8 +838,8 @@
                         "end": 1970,
                         "name": "Locale"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -860,9 +858,7 @@
                             "type": "Property",
                             "start": 1978,
                             "end": 1986,
-                            "method": false,
-                            "shorthand": true,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 1978,
@@ -875,12 +871,16 @@
                               "end": 1986,
                               "name": "language"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": true,
+                            "computed": false
                           }
                         ]
                       }
                     ]
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 }
               ],
               "optional": false
@@ -910,8 +910,8 @@
                   "end": 2006,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -924,9 +924,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 2019,
                   "end": 2061,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -949,8 +947,8 @@
                         "end": 2040,
                         "name": "Locale"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -969,9 +967,7 @@
                             "type": "Property",
                             "start": 2051,
                             "end": 2059,
-                            "method": false,
-                            "shorthand": true,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 2051,
@@ -984,12 +980,16 @@
                               "end": 2059,
                               "name": "language"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": true,
+                            "computed": false
                           }
                         ]
                       }
                     ]
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 }
               ],
               "optional": false
@@ -1019,8 +1019,8 @@
                   "end": 2079,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1033,9 +1033,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 2092,
                   "end": 2135,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -1058,8 +1056,8 @@
                         "end": 2113,
                         "name": "Locale"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -1078,9 +1076,7 @@
                             "type": "Property",
                             "start": 2125,
                             "end": 2133,
-                            "method": false,
-                            "shorthand": true,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 2125,
@@ -1093,12 +1089,16 @@
                               "end": 2133,
                               "name": "language"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": true,
+                            "computed": false
                           }
                         ]
                       }
                     ]
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 }
               ],
               "optional": false

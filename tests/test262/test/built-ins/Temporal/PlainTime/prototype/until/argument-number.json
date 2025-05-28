@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 289,
       "end": 356,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 328,
                 "name": "PlainTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -87,13 +88,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 358,
       "end": 436,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -122,14 +123,14 @@
                 "start": 383,
                 "end": 400,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 384,
                   "end": 400,
                   "value": 123456.987654321,
                   "raw": "123456.987654321"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -148,8 +149,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -160,6 +160,7 @@
         "type": "VariableDeclaration",
         "start": 443,
         "end": 452,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -173,8 +174,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -211,8 +211,8 @@
                   "end": 482,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -225,9 +225,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 503,
                   "end": 528,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -250,8 +248,8 @@
                         "end": 523,
                         "name": "until"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -262,20 +260,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 534,
                   "end": 593,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 547,
-                      "end": 550,
-                      "name": "arg"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -296,6 +288,14 @@
                         "cooked": ") is not a valid ISO string for PlainTime"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 547,
+                      "end": 550,
+                      "name": "arg"
                     }
                   ]
                 }

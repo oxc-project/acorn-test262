@@ -9,49 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 36,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 19,
-        "end": 36,
-        "body": [
-          {
-            "type": "PropertyDefinition",
-            "start": 25,
-            "end": 34,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
-            "key": {
-              "type": "Identifier",
-              "start": 25,
-              "end": 26,
-              "decorators": [],
-              "name": "x",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 26,
-              "end": 34,
-              "typeAnnotation": {
-                "type": "TSNumberKeyword",
-                "start": 28,
-                "end": 34
-              }
-            },
-            "value": null
-          }
-        ]
-      },
-      "declare": true,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -62,58 +19,58 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
-    },
-    {
-      "type": "ClassDeclaration",
-      "start": 37,
-      "end": 73,
-      "abstract": false,
+      "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 56,
-        "end": 73,
+        "start": 19,
+        "end": 36,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 62,
-            "end": 71,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
+            "start": 25,
+            "end": 34,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 62,
-              "end": 63,
+              "start": 25,
+              "end": 26,
               "decorators": [],
               "name": "x",
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 63,
-              "end": 71,
+              "start": 26,
+              "end": 34,
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
-                "start": 65,
-                "end": 71
+                "start": 28,
+                "end": 34
               }
             },
-            "value": null
+            "value": null,
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": true,
+      "abstract": false,
+      "declare": true
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 37,
+      "end": 73,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -124,10 +81,53 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 56,
+        "end": 73,
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "start": 62,
+            "end": 71,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 62,
+              "end": 63,
+              "decorators": [],
+              "name": "x",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 63,
+              "end": 71,
+              "typeAnnotation": {
+                "type": "TSNumberKeyword",
+                "start": 65,
+                "end": 71
+              }
+            },
+            "value": null,
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
+          }
+        ]
+      },
+      "abstract": false,
+      "declare": true
     }
   ],
   "sourceType": "module",
@@ -145,15 +145,21 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 29,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 8,
           "end": 12,
+          "local": {
+            "type": "Identifier",
+            "start": 8,
+            "end": 12,
+            "decorators": [],
+            "name": "Cls1",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 8,
@@ -163,21 +169,21 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 8,
-            "end": 12,
-            "decorators": [],
-            "name": "Cls1",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         },
         {
           "type": "ExportSpecifier",
           "start": 14,
           "end": 27,
+          "local": {
+            "type": "Identifier",
+            "start": 14,
+            "end": 18,
+            "decorators": [],
+            "name": "Cls1",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 22,
@@ -187,32 +193,32 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 14,
-            "end": 18,
-            "decorators": [],
-            "name": "Cls1",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": null,
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 30,
       "end": 59,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 38,
           "end": 42,
+          "local": {
+            "type": "Identifier",
+            "start": 38,
+            "end": 42,
+            "decorators": [],
+            "name": "Cls2",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 38,
@@ -222,21 +228,21 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 38,
-            "end": 42,
-            "decorators": [],
-            "name": "Cls2",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         },
         {
           "type": "ExportSpecifier",
           "start": 44,
           "end": 57,
+          "local": {
+            "type": "Identifier",
+            "start": 44,
+            "end": 48,
+            "decorators": [],
+            "name": "Cls2",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 52,
@@ -246,32 +252,32 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 44,
-            "end": 48,
-            "decorators": [],
-            "name": "Cls2",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": null,
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 60,
       "end": 84,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 68,
           "end": 82,
+          "local": {
+            "type": "Identifier",
+            "start": 68,
+            "end": 72,
+            "decorators": [],
+            "name": "Cls1",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 76,
@@ -281,32 +287,32 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 68,
-            "end": 72,
-            "decorators": [],
-            "name": "Cls1",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": null,
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 85,
       "end": 109,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 93,
           "end": 107,
+          "local": {
+            "type": "Identifier",
+            "start": 93,
+            "end": 97,
+            "decorators": [],
+            "name": "Cls2",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 101,
@@ -316,18 +322,12 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 93,
-            "end": 97,
-            "decorators": [],
-            "name": "Cls2",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": null,
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

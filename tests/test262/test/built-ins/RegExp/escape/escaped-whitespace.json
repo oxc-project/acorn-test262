@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1861,
       "end": 1907,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "'\\uFEFF\\u0020\\u00A0\\u202F'"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -53,8 +53,8 @@
             "end": 1925,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -77,8 +77,8 @@
                 "end": 1939,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -102,7 +102,6 @@
             "type": "TemplateLiteral",
             "start": 1962,
             "end": 2014,
-            "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -114,7 +113,8 @@
                 },
                 "tail": true
               }
-            ]
+            ],
+            "expressions": []
           }
         ],
         "optional": false
@@ -144,8 +144,8 @@
             "end": 2033,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -168,8 +168,8 @@
                 "end": 2047,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -193,7 +193,6 @@
             "type": "TemplateLiteral",
             "start": 2068,
             "end": 2118,
-            "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -205,7 +204,8 @@
                 },
                 "tail": true
               }
-            ]
+            ],
+            "expressions": []
           }
         ],
         "optional": false
@@ -235,8 +235,8 @@
             "end": 2137,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -259,8 +259,8 @@
                 "end": 2151,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -284,7 +284,6 @@
             "type": "TemplateLiteral",
             "start": 2172,
             "end": 2222,
-            "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -296,7 +295,8 @@
                 },
                 "tail": true
               }
-            ]
+            ],
+            "expressions": []
           }
         ],
         "optional": false
@@ -326,8 +326,8 @@
             "end": 2241,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -350,8 +350,8 @@
                 "end": 2255,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -375,7 +375,6 @@
             "type": "TemplateLiteral",
             "start": 2278,
             "end": 2330,
-            "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -387,7 +386,8 @@
                 },
                 "tail": true
               }
-            ]
+            ],
+            "expressions": []
           }
         ],
         "optional": false
@@ -417,8 +417,8 @@
             "end": 2350,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -441,8 +441,8 @@
                 "end": 2364,
                 "name": "escape"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -465,7 +465,6 @@
             "type": "TemplateLiteral",
             "start": 2406,
             "end": 2441,
-            "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -477,7 +476,8 @@
                 },
                 "tail": true
               }
-            ]
+            ],
+            "expressions": []
           }
         ],
         "optional": false

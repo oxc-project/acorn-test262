@@ -42,9 +42,7 @@
                       "type": "Property",
                       "start": 684,
                       "end": 695,
-                      "method": true,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 684,
@@ -56,7 +54,6 @@
                         "start": 690,
                         "end": 695,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -65,9 +62,12 @@
                           "start": 693,
                           "end": 695,
                           "body": []
-                        }
+                        },
+                        "expression": false
                       },
-                      "kind": "init"
+                      "method": true,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 },
@@ -77,8 +77,8 @@
                   "end": 704,
                   "name": "method"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               {
                 "type": "ObjectExpression",
@@ -135,9 +135,7 @@
                         "type": "Property",
                         "start": 745,
                         "end": 756,
-                        "method": true,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 745,
@@ -149,7 +147,6 @@
                           "start": 751,
                           "end": 756,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [],
@@ -158,9 +155,12 @@
                             "start": 754,
                             "end": 756,
                             "body": []
-                          }
+                          },
+                          "expression": false
                         },
-                        "kind": "init"
+                        "method": true,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   },
@@ -170,8 +170,8 @@
                     "end": 765,
                     "name": "method"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "ObjectExpression",
@@ -182,9 +182,7 @@
                       "type": "Property",
                       "start": 769,
                       "end": 779,
-                      "method": true,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 769,
@@ -196,7 +194,6 @@
                         "start": 774,
                         "end": 779,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -205,9 +202,12 @@
                           "start": 777,
                           "end": 779,
                           "body": []
-                        }
+                        },
+                        "expression": false
                       },
-                      "kind": "init"
+                      "method": true,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
@@ -219,8 +219,8 @@
               "end": 788,
               "name": "apply"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         ],
         "optional": false

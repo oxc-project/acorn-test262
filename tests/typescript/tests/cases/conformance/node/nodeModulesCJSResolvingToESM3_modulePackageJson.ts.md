@@ -9,38 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 10,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
-    }
-  ],
-  "sourceType": "module",
-  "hashbang": null
-}
-```
-__ESTREE_TEST__:PASS:
-```json
-{
-  "type": "Program",
-  "start": 0,
-  "end": 31,
-  "body": [
-    {
-      "type": "ImportDeclaration",
-      "start": 0,
-      "end": 30,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 15,
-        "end": 29,
-        "raw": "\"./module.mjs\"",
-        "value": "./module.mjs"
-      },
-      "specifiers": [],
-      "phase": null,
+      "exportKind": "value",
       "attributes": []
     }
   ],
@@ -59,17 +31,17 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 30,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 15,
         "end": 29,
-        "raw": "\"./module.mjs\"",
-        "value": "./module.mjs"
+        "value": "./module.mjs",
+        "raw": "\"./module.mjs\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",
@@ -87,17 +59,45 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 30,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 15,
         "end": 29,
-        "raw": "\"./module.mjs\"",
-        "value": "./module.mjs"
+        "value": "./module.mjs",
+        "raw": "\"./module.mjs\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 31,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 0,
+      "end": 30,
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "start": 15,
+        "end": 29,
+        "value": "./module.mjs",
+        "raw": "\"./module.mjs\""
+      },
+      "phase": null,
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",
@@ -115,17 +115,17 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 30,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 15,
         "end": 29,
-        "raw": "\"./module.mjs\"",
-        "value": "./module.mjs"
+        "value": "./module.mjs",
+        "raw": "\"./module.mjs\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

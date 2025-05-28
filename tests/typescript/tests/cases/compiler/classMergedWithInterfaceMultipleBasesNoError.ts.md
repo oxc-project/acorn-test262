@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 17,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 14,
-        "end": 17,
-        "body": []
-      },
-      "declare": false,
-      "extends": [],
       "id": {
         "type": "Identifier",
         "start": 10,
@@ -26,20 +18,20 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "typeParameters": null
+      "typeParameters": null,
+      "extends": [],
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 14,
+        "end": 17,
+        "body": []
+      },
+      "declare": false
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 18,
       "end": 35,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 32,
-        "end": 35,
-        "body": []
-      },
-      "declare": false,
-      "extends": [],
       "id": {
         "type": "Identifier",
         "start": 28,
@@ -49,20 +41,20 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "typeParameters": null
+      "typeParameters": null,
+      "extends": [],
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 32,
+        "end": 35,
+        "body": []
+      },
+      "declare": false
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 36,
       "end": 51,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 48,
-        "end": 51,
-        "body": []
-      },
-      "declare": false,
-      "extends": [],
       "id": {
         "type": "Identifier",
         "start": 46,
@@ -72,19 +64,30 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "typeParameters": null
+      "typeParameters": null,
+      "extends": [],
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 48,
+        "end": 51,
+        "body": []
+      },
+      "declare": false
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 52,
       "end": 86,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 83,
-        "end": 86,
-        "body": []
+      "id": {
+        "type": "Identifier",
+        "start": 62,
+        "end": 65,
+        "decorators": [],
+        "name": "Foo",
+        "optional": false,
+        "typeAnnotation": null
       },
-      "declare": false,
+      "typeParameters": null,
       "extends": [
         {
           "type": "TSInterfaceHeritage",
@@ -117,29 +120,18 @@ __ESTREE_TEST__:PASS:
           "typeArguments": null
         }
       ],
-      "id": {
-        "type": "Identifier",
-        "start": 62,
-        "end": 65,
-        "decorators": [],
-        "name": "Foo",
-        "optional": false,
-        "typeAnnotation": null
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 83,
+        "end": 86,
+        "body": []
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 87,
       "end": 100,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 97,
-        "end": 100,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -150,10 +142,18 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 97,
+        "end": 100,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -163,105 +163,9 @@ __ESTREE_TEST__:PASS:
         "type": "ClassDeclaration",
         "start": 117,
         "end": 231,
-        "abstract": false,
-        "body": {
-          "type": "ClassBody",
-          "start": 135,
-          "end": 231,
-          "body": [
-            {
-              "type": "PropertyDefinition",
-              "start": 141,
-              "end": 185,
-              "accessibility": null,
-              "computed": false,
-              "declare": false,
-              "decorators": [],
-              "definite": false,
-              "key": {
-                "type": "Identifier",
-                "start": 150,
-                "end": 158,
-                "decorators": [],
-                "name": "observer",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "override": false,
-              "readonly": true,
-              "static": false,
-              "typeAnnotation": null,
-              "value": {
-                "type": "MemberExpression",
-                "start": 161,
-                "end": 184,
-                "computed": false,
-                "object": {
-                  "type": "ThisExpression",
-                  "start": 161,
-                  "end": 165
-                },
-                "optional": false,
-                "property": {
-                  "type": "Identifier",
-                  "start": 166,
-                  "end": 184,
-                  "decorators": [],
-                  "name": "handleIntersection",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            },
-            {
-              "type": "PropertyDefinition",
-              "start": 190,
-              "end": 229,
-              "accessibility": null,
-              "computed": false,
-              "declare": false,
-              "decorators": [],
-              "definite": false,
-              "key": {
-                "type": "Identifier",
-                "start": 199,
-                "end": 217,
-                "decorators": [],
-                "name": "handleIntersection",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "override": false,
-              "readonly": true,
-              "static": false,
-              "typeAnnotation": null,
-              "value": {
-                "type": "ArrowFunctionExpression",
-                "start": 220,
-                "end": 229,
-                "async": false,
-                "body": {
-                  "type": "BlockStatement",
-                  "start": 226,
-                  "end": 229,
-                  "body": []
-                },
-                "expression": false,
-                "generator": false,
-                "id": null,
-                "params": [],
-                "returnType": null,
-                "typeParameters": null
-              }
-            }
-          ]
-        },
-        "declare": false,
         "decorators": [],
         "id": null,
-        "implements": [],
+        "typeParameters": null,
         "superClass": {
           "type": "Identifier",
           "start": 131,
@@ -272,7 +176,103 @@ __ESTREE_TEST__:PASS:
           "typeAnnotation": null
         },
         "superTypeArguments": null,
-        "typeParameters": null
+        "implements": [],
+        "body": {
+          "type": "ClassBody",
+          "start": 135,
+          "end": 231,
+          "body": [
+            {
+              "type": "PropertyDefinition",
+              "start": 141,
+              "end": 185,
+              "decorators": [],
+              "key": {
+                "type": "Identifier",
+                "start": 150,
+                "end": 158,
+                "decorators": [],
+                "name": "observer",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeAnnotation": null,
+              "value": {
+                "type": "MemberExpression",
+                "start": 161,
+                "end": 184,
+                "object": {
+                  "type": "ThisExpression",
+                  "start": 161,
+                  "end": 165
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 166,
+                  "end": 184,
+                  "decorators": [],
+                  "name": "handleIntersection",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "optional": false,
+                "computed": false
+              },
+              "computed": false,
+              "static": false,
+              "declare": false,
+              "override": false,
+              "optional": false,
+              "definite": false,
+              "readonly": true,
+              "accessibility": null
+            },
+            {
+              "type": "PropertyDefinition",
+              "start": 190,
+              "end": 229,
+              "decorators": [],
+              "key": {
+                "type": "Identifier",
+                "start": 199,
+                "end": 217,
+                "decorators": [],
+                "name": "handleIntersection",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeAnnotation": null,
+              "value": {
+                "type": "ArrowFunctionExpression",
+                "start": 220,
+                "end": 229,
+                "expression": false,
+                "async": false,
+                "typeParameters": null,
+                "params": [],
+                "returnType": null,
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 226,
+                  "end": 229,
+                  "body": []
+                },
+                "id": null,
+                "generator": false
+              },
+              "computed": false,
+              "static": false,
+              "declare": false,
+              "override": false,
+              "optional": false,
+              "definite": false,
+              "readonly": true,
+              "accessibility": null
+            }
+          ]
+        },
+        "abstract": false,
+        "declare": false
       },
       "exportKind": "value"
     }

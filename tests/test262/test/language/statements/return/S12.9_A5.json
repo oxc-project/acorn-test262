@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 268,
       "end": 277,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -39,7 +39,6 @@
         "end": 294,
         "name": "myfunc1"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -97,7 +96,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -183,6 +183,7 @@
       "type": "VariableDeclaration",
       "start": 421,
       "end": 430,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -202,8 +203,7 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -215,7 +215,6 @@
         "end": 447,
         "name": "myfunc2"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -278,7 +277,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -364,6 +364,7 @@
       "type": "VariableDeclaration",
       "start": 580,
       "end": 589,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -383,8 +384,7 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -396,7 +396,6 @@
         "end": 606,
         "name": "myfunc3"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -465,7 +464,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "IfStatement",

@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 20,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 19,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -33,22 +33,22 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 21,
       "end": 40,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 25,
           "end": 39,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 25,
@@ -67,17 +67,16 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 42,
       "end": 49,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 42,
@@ -86,13 +85,13 @@ __ESTREE_TEST__:PASS:
         "name": "declare",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 101,
       "end": 107,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 101,
@@ -101,20 +100,21 @@ __ESTREE_TEST__:PASS:
         "name": "module",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 159,
       "end": 179,
-      "directive": null,
       "expression": {
         "type": "Literal",
         "start": 159,
         "end": 179,
-        "raw": "\"my external module\"",
-        "value": "my external module"
-      }
+        "value": "my external module",
+        "raw": "\"my external module\""
+      },
+      "directive": null
     },
     {
       "type": "BlockStatement",

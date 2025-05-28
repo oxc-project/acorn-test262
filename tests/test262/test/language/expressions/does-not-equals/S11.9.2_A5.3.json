@@ -32,14 +32,14 @@
               "start": 355,
               "end": 357,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 356,
                 "end": 357,
                 "value": 1,
                 "raw": "1"
-              }
+              },
+              "prefix": true
             }
           }
         },
@@ -115,14 +115,14 @@
               "start": 458,
               "end": 463,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 459,
                 "end": 463,
                 "value": 1.1,
                 "raw": "1.10"
-              }
+              },
+              "prefix": true
             }
           }
         },

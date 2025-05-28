@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 2631,
       "end": 2643,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForInStatement",
@@ -47,7 +47,6 @@
               "start": 2808,
               "end": 2821,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -56,7 +55,8 @@
                 "start": 2819,
                 "end": 2821,
                 "body": []
-              }
+              },
+              "expression": false
             }
           }
         ]
@@ -79,7 +79,6 @@
                 "start": 2834,
                 "end": 2847,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -88,7 +87,8 @@
                   "start": 2845,
                   "end": 2847,
                   "body": []
-                }
+                },
+                "expression": false
               }
             }
           },
@@ -109,6 +109,7 @@
         "type": "VariableDeclaration",
         "start": 2978,
         "end": 2989,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -122,8 +123,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "right": {
         "type": "ArrayExpression",
@@ -139,7 +139,6 @@
               "start": 3000,
               "end": 3013,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -148,7 +147,8 @@
                 "start": 3011,
                 "end": 3013,
                 "body": []
-              }
+              },
+              "expression": false
             }
           }
         ]
@@ -171,7 +171,6 @@
                 "start": 3026,
                 "end": 3039,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -180,7 +179,8 @@
                   "start": 3037,
                   "end": 3039,
                   "body": []
-                }
+                },
+                "expression": false
               }
             }
           },
@@ -201,6 +201,7 @@
         "type": "VariableDeclaration",
         "start": 3170,
         "end": 3181,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -214,8 +215,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "ArrayExpression",
@@ -231,7 +231,6 @@
               "start": 3192,
               "end": 3205,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -240,7 +239,8 @@
                 "start": 3203,
                 "end": 3205,
                 "body": []
-              }
+              },
+              "expression": false
             }
           }
         ]
@@ -263,7 +263,6 @@
                 "start": 3218,
                 "end": 3231,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -272,7 +271,8 @@
                   "start": 3229,
                   "end": 3231,
                   "body": []
-                }
+                },
+                "expression": false
               }
             }
           },

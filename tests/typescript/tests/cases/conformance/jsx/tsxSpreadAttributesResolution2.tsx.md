@@ -18,7 +18,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 15,
@@ -27,15 +26,27 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 23,
           "end": 30,
-          "raw": "'react'",
-          "value": "react"
+          "value": "react",
+          "raw": "'react'"
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 34,
       "end": 87,
+      "id": {
+        "type": "Identifier",
+        "start": 44,
+        "end": 56,
+        "decorators": [],
+        "name": "PoisonedProp",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "extends": [],
       "body": {
         "type": "TSInterfaceBody",
         "start": 57,
@@ -45,8 +56,9 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 63,
             "end": 73,
-            "accessibility": null,
             "computed": false,
+            "optional": false,
+            "readonly": false,
             "key": {
               "type": "Identifier",
               "start": 63,
@@ -56,9 +68,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 64,
@@ -68,14 +77,17 @@ __ESTREE_TEST__:PASS:
                 "start": 66,
                 "end": 72
               }
-            }
+            },
+            "accessibility": null,
+            "static": false
           },
           {
             "type": "TSPropertySignature",
             "start": 78,
             "end": 85,
-            "accessibility": null,
             "computed": false,
+            "optional": false,
+            "readonly": false,
             "key": {
               "type": "Identifier",
               "start": 78,
@@ -85,9 +97,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 79,
@@ -100,32 +109,87 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 81,
                   "end": 84,
-                  "raw": "\"2\"",
-                  "value": "2"
+                  "value": "2",
+                  "raw": "\"2\""
                 }
               }
-            }
+            },
+            "accessibility": null,
+            "static": false
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 44,
-        "end": 56,
-        "decorators": [],
-        "name": "PoisonedProp",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 89,
       "end": 203,
-      "abstract": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 95,
+        "end": 103,
+        "decorators": [],
+        "name": "Poisoned",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "superClass": {
+        "type": "MemberExpression",
+        "start": 112,
+        "end": 127,
+        "object": {
+          "type": "Identifier",
+          "start": 112,
+          "end": 117,
+          "decorators": [],
+          "name": "React",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "property": {
+          "type": "Identifier",
+          "start": 118,
+          "end": 127,
+          "decorators": [],
+          "name": "Component",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "optional": false,
+        "computed": false
+      },
+      "superTypeArguments": {
+        "type": "TSTypeParameterInstantiation",
+        "start": 127,
+        "end": 145,
+        "params": [
+          {
+            "type": "TSTypeReference",
+            "start": 128,
+            "end": 140,
+            "typeName": {
+              "type": "Identifier",
+              "start": 128,
+              "end": 140,
+              "decorators": [],
+              "name": "PoisonedProp",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
+          },
+          {
+            "type": "TSTypeLiteral",
+            "start": 142,
+            "end": 144,
+            "members": []
+          }
+        ]
+      },
+      "implements": [],
       "body": {
         "type": "ClassBody",
         "start": 146,
@@ -135,8 +199,6 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 152,
             "end": 201,
-            "accessibility": null,
-            "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
@@ -147,15 +209,17 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "FunctionExpression",
               "start": 158,
               "end": 201,
+              "id": null,
+              "generator": false,
               "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
               "body": {
                 "type": "BlockStatement",
                 "start": 161,
@@ -169,13 +233,27 @@ __ESTREE_TEST__:PASS:
                       "type": "JSXElement",
                       "start": 178,
                       "end": 194,
+                      "openingElement": {
+                        "type": "JSXOpeningElement",
+                        "start": 178,
+                        "end": 183,
+                        "name": {
+                          "type": "JSXIdentifier",
+                          "start": 179,
+                          "end": 182,
+                          "name": "div"
+                        },
+                        "typeArguments": null,
+                        "attributes": [],
+                        "selfClosing": false
+                      },
                       "children": [
                         {
                           "type": "JSXText",
                           "start": 183,
                           "end": 188,
-                          "raw": "Hello",
-                          "value": "Hello"
+                          "value": "Hello",
+                          "raw": "Hello"
                         }
                       ],
                       "closingElement": {
@@ -188,113 +266,35 @@ __ESTREE_TEST__:PASS:
                           "end": 193,
                           "name": "div"
                         }
-                      },
-                      "openingElement": {
-                        "type": "JSXOpeningElement",
-                        "start": 178,
-                        "end": 183,
-                        "attributes": [],
-                        "name": {
-                          "type": "JSXIdentifier",
-                          "start": 179,
-                          "end": 182,
-                          "name": "div"
-                        },
-                        "selfClosing": false,
-                        "typeArguments": null
                       }
                     }
                   }
                 ]
               },
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
-      "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 95,
-        "end": 103,
-        "decorators": [],
-        "name": "Poisoned",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": {
-        "type": "MemberExpression",
-        "start": 112,
-        "end": 127,
-        "computed": false,
-        "object": {
-          "type": "Identifier",
-          "start": 112,
-          "end": 117,
-          "decorators": [],
-          "name": "React",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "optional": false,
-        "property": {
-          "type": "Identifier",
-          "start": 118,
-          "end": 127,
-          "decorators": [],
-          "name": "Component",
-          "optional": false,
-          "typeAnnotation": null
-        }
-      },
-      "superTypeArguments": {
-        "type": "TSTypeParameterInstantiation",
-        "start": 127,
-        "end": 145,
-        "params": [
-          {
-            "type": "TSTypeReference",
-            "start": 128,
-            "end": 140,
-            "typeArguments": null,
-            "typeName": {
-              "type": "Identifier",
-              "start": 128,
-              "end": 140,
-              "decorators": [],
-              "name": "PoisonedProp",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          },
-          {
-            "type": "TSTypeLiteral",
-            "start": 142,
-            "end": 144,
-            "members": []
-          }
-        ]
-      },
-      "typeParameters": null
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 205,
       "end": 220,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 211,
           "end": 219,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 211,
@@ -309,27 +309,31 @@ __ESTREE_TEST__:PASS:
             "start": 217,
             "end": 219,
             "properties": []
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 228,
       "end": 264,
-      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 228,
         "end": 263,
-        "children": [],
-        "closingElement": null,
         "openingElement": {
           "type": "JSXOpeningElement",
           "start": 228,
           "end": 263,
+          "name": {
+            "type": "JSXIdentifier",
+            "start": 229,
+            "end": 237,
+            "name": "Poisoned"
+          },
+          "typeArguments": null,
           "attributes": [
             {
               "type": "JSXSpreadAttribute",
@@ -344,7 +348,7 @@ __ESTREE_TEST__:PASS:
                     "type": "Property",
                     "start": 243,
                     "end": 250,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 243,
@@ -354,23 +358,23 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "kind": "init",
-                    "method": false,
-                    "optional": false,
-                    "shorthand": false,
                     "value": {
                       "type": "Literal",
                       "start": 246,
                       "end": 250,
-                      "raw": "\"ok\"",
-                      "value": "ok"
-                    }
+                      "value": "ok",
+                      "raw": "\"ok\""
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "optional": false
                   },
                   {
                     "type": "Property",
                     "start": 252,
                     "end": 258,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 252,
@@ -380,43 +384,39 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "kind": "init",
-                    "method": false,
-                    "optional": false,
-                    "shorthand": false,
                     "value": {
                       "type": "Literal",
                       "start": 255,
                       "end": 258,
-                      "raw": "\"2\"",
-                      "value": "2"
-                    }
+                      "value": "2",
+                      "raw": "\"2\""
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "optional": false
                   }
                 ]
               }
             }
           ],
-          "name": {
-            "type": "JSXIdentifier",
-            "start": 229,
-            "end": 237,
-            "name": "Poisoned"
-          },
-          "selfClosing": true,
-          "typeArguments": null
-        }
-      }
+          "selfClosing": true
+        },
+        "children": [],
+        "closingElement": null
+      },
+      "directive": null
     },
     {
       "type": "VariableDeclaration",
       "start": 275,
       "end": 305,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 279,
           "end": 304,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 279,
@@ -430,12 +430,17 @@ __ESTREE_TEST__:PASS:
             "type": "JSXElement",
             "start": 283,
             "end": 304,
-            "children": [],
-            "closingElement": null,
             "openingElement": {
               "type": "JSXOpeningElement",
               "start": 283,
               "end": 304,
+              "name": {
+                "type": "JSXIdentifier",
+                "start": 284,
+                "end": 292,
+                "name": "Poisoned"
+              },
+              "typeArguments": null,
               "attributes": [
                 {
                   "type": "JSXSpreadAttribute",
@@ -452,31 +457,26 @@ __ESTREE_TEST__:PASS:
                   }
                 }
               ],
-              "name": {
-                "type": "JSXIdentifier",
-                "start": 284,
-                "end": 292,
-                "name": "Poisoned"
-              },
-              "selfClosing": true,
-              "typeArguments": null
-            }
-          }
+              "selfClosing": true
+            },
+            "children": [],
+            "closingElement": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 306,
       "end": 327,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 310,
           "end": 326,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 310,
@@ -490,38 +490,38 @@ __ESTREE_TEST__:PASS:
             "type": "JSXElement",
             "start": 314,
             "end": 326,
-            "children": [],
-            "closingElement": null,
             "openingElement": {
               "type": "JSXOpeningElement",
               "start": 314,
               "end": 326,
-              "attributes": [],
               "name": {
                 "type": "JSXIdentifier",
                 "start": 315,
                 "end": 323,
                 "name": "Poisoned"
               },
-              "selfClosing": true,
-              "typeArguments": null
-            }
-          }
+              "typeArguments": null,
+              "attributes": [],
+              "selfClosing": true
+            },
+            "children": [],
+            "closingElement": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 328,
       "end": 352,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 332,
           "end": 351,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 332,
@@ -535,12 +535,17 @@ __ESTREE_TEST__:PASS:
             "type": "JSXElement",
             "start": 336,
             "end": 351,
-            "children": [],
-            "closingElement": null,
             "openingElement": {
               "type": "JSXOpeningElement",
               "start": 336,
               "end": 351,
+              "name": {
+                "type": "JSXIdentifier",
+                "start": 337,
+                "end": 345,
+                "name": "Poisoned"
+              },
+              "typeArguments": null,
               "attributes": [
                 {
                   "type": "JSXAttribute",
@@ -567,31 +572,26 @@ __ESTREE_TEST__:PASS:
                   "value": null
                 }
               ],
-              "name": {
-                "type": "JSXIdentifier",
-                "start": 337,
-                "end": 345,
-                "name": "Poisoned"
-              },
-              "selfClosing": true,
-              "typeArguments": null
-            }
-          }
+              "selfClosing": true
+            },
+            "children": [],
+            "closingElement": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 353,
       "end": 393,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 357,
           "end": 392,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 357,
@@ -605,12 +605,17 @@ __ESTREE_TEST__:PASS:
             "type": "JSXElement",
             "start": 361,
             "end": 392,
-            "children": [],
-            "closingElement": null,
             "openingElement": {
               "type": "JSXOpeningElement",
               "start": 361,
               "end": 392,
+              "name": {
+                "type": "JSXIdentifier",
+                "start": 362,
+                "end": 370,
+                "name": "Poisoned"
+              },
+              "typeArguments": null,
               "attributes": [
                 {
                   "type": "JSXSpreadAttribute",
@@ -625,7 +630,7 @@ __ESTREE_TEST__:PASS:
                         "type": "Property",
                         "start": 376,
                         "end": 380,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 376,
@@ -635,23 +640,23 @@ __ESTREE_TEST__:PASS:
                           "optional": false,
                           "typeAnnotation": null
                         },
-                        "kind": "init",
-                        "method": false,
-                        "optional": false,
-                        "shorthand": false,
                         "value": {
                           "type": "Literal",
                           "start": 379,
                           "end": 380,
-                          "raw": "5",
-                          "value": 5
-                        }
+                          "value": 5,
+                          "raw": "5"
+                        },
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false,
+                        "optional": false
                       },
                       {
                         "type": "Property",
                         "start": 382,
                         "end": 388,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 382,
@@ -661,47 +666,42 @@ __ESTREE_TEST__:PASS:
                           "optional": false,
                           "typeAnnotation": null
                         },
-                        "kind": "init",
-                        "method": false,
-                        "optional": false,
-                        "shorthand": false,
                         "value": {
                           "type": "Literal",
                           "start": 385,
                           "end": 388,
-                          "raw": "\"2\"",
-                          "value": "2"
-                        }
+                          "value": "2",
+                          "raw": "\"2\""
+                        },
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false,
+                        "optional": false
                       }
                     ]
                   }
                 }
               ],
-              "name": {
-                "type": "JSXIdentifier",
-                "start": 362,
-                "end": 370,
-                "name": "Poisoned"
-              },
-              "selfClosing": true,
-              "typeArguments": null
-            }
-          }
+              "selfClosing": true
+            },
+            "children": [],
+            "closingElement": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 394,
       "end": 443,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 398,
           "end": 442,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 398,
@@ -715,12 +715,17 @@ __ESTREE_TEST__:PASS:
             "type": "JSXElement",
             "start": 403,
             "end": 442,
-            "children": [],
-            "closingElement": null,
             "openingElement": {
               "type": "JSXOpeningElement",
               "start": 403,
               "end": 442,
+              "name": {
+                "type": "JSXIdentifier",
+                "start": 404,
+                "end": 412,
+                "name": "Poisoned"
+              },
+              "typeArguments": null,
               "attributes": [
                 {
                   "type": "JSXSpreadAttribute",
@@ -735,7 +740,7 @@ __ESTREE_TEST__:PASS:
                         "type": "Property",
                         "start": 418,
                         "end": 422,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 418,
@@ -745,23 +750,23 @@ __ESTREE_TEST__:PASS:
                           "optional": false,
                           "typeAnnotation": null
                         },
-                        "kind": "init",
-                        "method": false,
-                        "optional": false,
-                        "shorthand": false,
                         "value": {
                           "type": "Literal",
                           "start": 421,
                           "end": 422,
-                          "raw": "5",
-                          "value": 5
-                        }
+                          "value": 5,
+                          "raw": "5"
+                        },
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false,
+                        "optional": false
                       },
                       {
                         "type": "Property",
                         "start": 424,
                         "end": 430,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 424,
@@ -771,17 +776,17 @@ __ESTREE_TEST__:PASS:
                           "optional": false,
                           "typeAnnotation": null
                         },
-                        "kind": "init",
-                        "method": false,
-                        "optional": false,
-                        "shorthand": false,
                         "value": {
                           "type": "Literal",
                           "start": 427,
                           "end": 430,
-                          "raw": "\"2\"",
-                          "value": "2"
-                        }
+                          "value": "2",
+                          "raw": "\"2\""
+                        },
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false,
+                        "optional": false
                       }
                     ]
                   }
@@ -800,25 +805,20 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 435,
                     "end": 439,
-                    "raw": "\"hi\"",
-                    "value": "hi"
+                    "value": "hi",
+                    "raw": "\"hi\""
                   }
                 }
               ],
-              "name": {
-                "type": "JSXIdentifier",
-                "start": 404,
-                "end": 412,
-                "name": "Poisoned"
-              },
-              "selfClosing": true,
-              "typeArguments": null
-            }
-          }
+              "selfClosing": true
+            },
+            "children": [],
+            "closingElement": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     }
   ],
   "sourceType": "script",

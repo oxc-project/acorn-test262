@@ -13,7 +13,6 @@
         "end": 327,
         "name": "foo"
       },
-      "expression": false,
       "generator": false,
       "async": true,
       "params": [],
@@ -35,7 +34,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -68,8 +68,8 @@
             "end": 356,
             "name": "then"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -77,7 +77,6 @@
             "start": 357,
             "end": 405,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -113,14 +112,14 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "FunctionExpression",
             "start": 407,
             "end": 460,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -160,8 +159,8 @@
                         "end": 440,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -200,7 +199,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

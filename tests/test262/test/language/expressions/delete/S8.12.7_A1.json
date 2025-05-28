@@ -16,7 +16,6 @@
           "start": 524,
           "end": 537,
           "operator": "delete",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 531,
@@ -33,9 +32,10 @@
               "end": 537,
               "name": "E"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -83,7 +83,6 @@
                     "start": 618,
                     "end": 631,
                     "operator": "delete",
-                    "prefix": true,
                     "argument": {
                       "type": "MemberExpression",
                       "start": 625,
@@ -100,9 +99,10 @@
                         "end": 631,
                         "name": "E"
                       },
-                      "computed": false,
-                      "optional": false
-                    }
+                      "optional": false,
+                      "computed": false
+                    },
+                    "prefix": true
                   }
                 }
               ]
@@ -136,8 +136,8 @@
             "end": 818,
             "name": "E"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "===",
         "right": {

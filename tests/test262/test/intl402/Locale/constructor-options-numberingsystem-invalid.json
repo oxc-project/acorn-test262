@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 632,
       "end": 827,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -110,8 +111,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -122,6 +122,7 @@
         "type": "VariableDeclaration",
         "start": 833,
         "end": 854,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -135,8 +136,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -173,8 +173,8 @@
                   "end": 906,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -188,7 +188,6 @@
                   "start": 919,
                   "end": 981,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -221,8 +220,8 @@
                               "end": 951,
                               "name": "Locale"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -241,9 +240,7 @@
                                   "type": "Property",
                                   "start": 959,
                                   "end": 974,
-                                  "method": false,
-                                  "shorthand": true,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 959,
@@ -256,7 +253,9 @@
                                     "end": 974,
                                     "name": "numberingSystem"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": true,
+                                  "computed": false
                                 }
                               ]
                             }
@@ -264,20 +263,13 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 983,
                   "end": 1065,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1027,
-                      "end": 1042,
-                      "name": "numberingSystem"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -298,6 +290,14 @@
                         "cooked": "\"}) throws RangeError"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1027,
+                      "end": 1042,
+                      "name": "numberingSystem"
                     }
                   ]
                 }

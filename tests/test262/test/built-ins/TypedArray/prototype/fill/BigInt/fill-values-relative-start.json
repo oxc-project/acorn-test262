@@ -23,7 +23,6 @@
             "start": 1218,
             "end": 1787,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -123,8 +122,8 @@
                                 "end": 1285,
                                 "name": "fill"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -274,8 +273,8 @@
                                 "end": 1414,
                                 "name": "fill"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -425,8 +424,8 @@
                                 "end": 1545,
                                 "name": "fill"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -442,14 +441,14 @@
                                 "start": 1550,
                                 "end": 1552,
                                 "operator": "-",
-                                "prefix": true,
                                 "argument": {
                                   "type": "Literal",
                                   "start": 1551,
                                   "end": 1552,
                                   "value": 1,
                                   "raw": "1"
-                                }
+                                },
+                                "prefix": true
                               }
                             ],
                             "optional": false
@@ -583,8 +582,8 @@
                                 "end": 1699,
                                 "name": "fill"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -600,14 +599,14 @@
                                 "start": 1704,
                                 "end": 1706,
                                 "operator": "-",
-                                "prefix": true,
                                 "argument": {
                                   "type": "Literal",
                                   "start": 1705,
                                   "end": 1706,
                                   "value": 5,
                                   "raw": "5"
-                                }
+                                },
+                                "prefix": true
                               }
                             ],
                             "optional": false
@@ -658,7 +657,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

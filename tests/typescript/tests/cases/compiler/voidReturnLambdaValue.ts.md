@@ -9,67 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 113,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 59,
-        "end": 113,
-        "body": [
-          {
-            "type": "ReturnStatement",
-            "start": 77,
-            "end": 111,
-            "argument": {
-              "type": "CallExpression",
-              "start": 84,
-              "end": 110,
-              "arguments": [
-                {
-                  "type": "Identifier",
-                  "start": 93,
-                  "end": 97,
-                  "decorators": [],
-                  "name": "arg1",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                {
-                  "type": "Identifier",
-                  "start": 99,
-                  "end": 103,
-                  "decorators": [],
-                  "name": "arg2",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                {
-                  "type": "Identifier",
-                  "start": 105,
-                  "end": 109,
-                  "decorators": [],
-                  "name": "arg2",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              ],
-              "callee": {
-                "type": "Identifier",
-                "start": 84,
-                "end": 92,
-                "decorators": [],
-                "name": "callback",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "typeArguments": null
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -79,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -113,6 +56,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSFunctionType",
               "start": 34,
               "end": 52,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -151,8 +95,7 @@ __ESTREE_TEST__:PASS:
                   "start": 48,
                   "end": 52
                 }
-              },
-              "typeParameters": null
+              }
             }
           }
         }
@@ -167,7 +110,64 @@ __ESTREE_TEST__:PASS:
           "end": 58
         }
       },
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 59,
+        "end": 113,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 77,
+            "end": 111,
+            "argument": {
+              "type": "CallExpression",
+              "start": 84,
+              "end": 110,
+              "callee": {
+                "type": "Identifier",
+                "start": 84,
+                "end": 92,
+                "decorators": [],
+                "name": "callback",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeArguments": null,
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 93,
+                  "end": 97,
+                  "decorators": [],
+                  "name": "arg1",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                {
+                  "type": "Identifier",
+                  "start": 99,
+                  "end": 103,
+                  "decorators": [],
+                  "name": "arg2",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                {
+                  "type": "Identifier",
+                  "start": 105,
+                  "end": 109,
+                  "decorators": [],
+                  "name": "arg2",
+                  "optional": false,
+                  "typeAnnotation": null
+                }
+              ],
+              "optional": false
+            }
+          }
+        ]
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

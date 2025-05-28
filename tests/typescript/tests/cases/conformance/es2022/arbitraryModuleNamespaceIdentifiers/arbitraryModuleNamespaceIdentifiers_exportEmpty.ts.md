@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 147,
       "end": 169,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 153,
           "end": 168,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 153,
@@ -28,35 +28,24 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 161,
             "end": 168,
-            "raw": "\"empty\"",
-            "value": "empty"
-          }
+            "value": "empty",
+            "raw": "\"empty\""
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 170,
       "end": 193,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 179,
           "end": 190,
-          "exported": {
-            "type": "Literal",
-            "start": 188,
-            "end": 190,
-            "raw": "\"\"",
-            "value": ""
-          },
-          "exportKind": "value",
           "local": {
             "type": "Identifier",
             "start": 179,
@@ -65,22 +54,25 @@ __ESTREE_TEST__:PASS:
             "name": "empty",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "exported": {
+            "type": "Literal",
+            "start": 188,
+            "end": 190,
+            "value": "",
+            "raw": "\"\""
+          },
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": null,
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 194,
       "end": 272,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 220,
-        "end": 271,
-        "raw": "\"./arbitraryModuleNamespaceIdentifiers_exportEmpty\"",
-        "value": "./arbitraryModuleNamespaceIdentifiers_exportEmpty"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -90,10 +82,9 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 203,
             "end": 205,
-            "raw": "\"\"",
-            "value": ""
+            "value": "",
+            "raw": "\"\""
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 209,
@@ -102,22 +93,31 @@ __ESTREE_TEST__:PASS:
             "name": "foo",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 220,
+        "end": 271,
+        "value": "./arbitraryModuleNamespaceIdentifiers_exportEmpty",
+        "raw": "\"./arbitraryModuleNamespaceIdentifiers_exportEmpty\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 273,
       "end": 317,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 279,
           "end": 316,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 279,
@@ -137,8 +137,8 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 284,
                   "end": 310,
-                  "raw": "\"type error expected here\"",
-                  "value": "type error expected here"
+                  "value": "type error expected here",
+                  "raw": "\"type error expected here\""
                 }
               }
             }
@@ -151,11 +151,11 @@ __ESTREE_TEST__:PASS:
             "name": "foo",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "module",

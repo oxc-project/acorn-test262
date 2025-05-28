@@ -9,7 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 57,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 11,
+        "decorators": [],
+        "name": "g",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": true,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 14,
@@ -19,12 +33,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 20,
             "end": 55,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 24,
                 "end": 54,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 24,
@@ -38,14 +52,6 @@ __ESTREE_TEST__:PASS:
                   "type": "ClassExpression",
                   "start": 28,
                   "end": 54,
-                  "abstract": false,
-                  "body": {
-                    "type": "ClassBody",
-                    "start": 52,
-                    "end": 54,
-                    "body": []
-                  },
-                  "declare": false,
                   "decorators": [],
                   "id": {
                     "type": "Identifier",
@@ -56,39 +62,33 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "implements": [],
+                  "typeParameters": null,
                   "superClass": {
                     "type": "YieldExpression",
                     "start": 45,
                     "end": 50,
-                    "argument": null,
-                    "delegate": false
+                    "delegate": false,
+                    "argument": null
                   },
                   "superTypeArguments": null,
-                  "typeParameters": null
-                }
+                  "implements": [],
+                  "body": {
+                    "type": "ClassBody",
+                    "start": 52,
+                    "end": 54,
+                    "body": []
+                  },
+                  "abstract": false,
+                  "declare": false
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": true,
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 11,
-        "decorators": [],
-        "name": "g",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

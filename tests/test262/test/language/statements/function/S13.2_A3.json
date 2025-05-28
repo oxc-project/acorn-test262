@@ -13,7 +13,6 @@
         "end": 433,
         "name": "__func"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -22,7 +21,8 @@
         "start": 435,
         "end": 437,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",
@@ -53,8 +53,8 @@
             "end": 546,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -113,8 +113,8 @@
                       "end": 646,
                       "name": "length"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
@@ -134,7 +134,6 @@
         "end": 749,
         "name": "__gunc"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -162,7 +161,8 @@
         "start": 756,
         "end": 758,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",
@@ -193,8 +193,8 @@
             "end": 867,
             "name": "length"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -253,8 +253,8 @@
                       "end": 967,
                       "name": "length"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]

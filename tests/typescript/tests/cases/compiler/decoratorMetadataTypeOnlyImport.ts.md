@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 38,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 21,
-        "end": 37,
-        "raw": "'unknown-module'",
-        "value": "unknown-module"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -31,7 +23,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
@@ -40,22 +31,29 @@ __ESTREE_TEST__:PASS:
             "name": "List",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 21,
+        "end": 37,
+        "value": "unknown-module",
+        "raw": "'unknown-module'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 39,
       "end": 73,
-      "attributes": [],
       "declaration": {
         "type": "TSTypeAliasDeclaration",
         "start": 46,
         "end": 73,
-        "declare": false,
         "id": {
           "type": "Identifier",
           "start": 51,
@@ -65,10 +63,20 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "typeParameters": null,
         "typeAnnotation": {
           "type": "TSTypeReference",
           "start": 60,
           "end": 72,
+          "typeName": {
+            "type": "Identifier",
+            "start": 60,
+            "end": 64,
+            "decorators": [],
+            "name": "List",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
             "start": 64,
@@ -80,22 +88,14 @@ __ESTREE_TEST__:PASS:
                 "end": 71
               }
             ]
-          },
-          "typeName": {
-            "type": "Identifier",
-            "start": 60,
-            "end": 64,
-            "decorators": [],
-            "name": "List",
-            "optional": false,
-            "typeAnnotation": null
           }
         },
-        "typeParameters": null
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -113,14 +113,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 34,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 28,
-        "end": 33,
-        "raw": "'./a'",
-        "value": "./a"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -135,7 +127,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "type",
           "local": {
             "type": "Identifier",
             "start": 14,
@@ -144,22 +135,31 @@ __ESTREE_TEST__:PASS:
             "name": "MyList",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "type"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 28,
+        "end": 33,
+        "value": "./a",
+        "raw": "'./a'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 36,
       "end": 63,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 48,
           "end": 62,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 48,
@@ -178,17 +178,30 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "ClassDeclaration",
       "start": 65,
       "end": 108,
-      "abstract": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 71,
+        "end": 74,
+        "decorators": [],
+        "name": "Foo",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
       "body": {
         "type": "ClassBody",
         "start": 75,
@@ -198,9 +211,6 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 79,
             "end": 106,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
             "decorators": [
               {
                 "type": "Decorator",
@@ -217,7 +227,6 @@ __ESTREE_TEST__:PASS:
                 }
               }
             ],
-            "definite": false,
             "key": {
               "type": "Identifier",
               "start": 90,
@@ -227,10 +236,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": true,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 97,
@@ -239,7 +244,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 99,
                 "end": 105,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 99,
@@ -248,28 +252,24 @@ __ESTREE_TEST__:PASS:
                   "name": "MyList",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             },
-            "value": null
+            "value": null,
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": true,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
-      "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 71,
-        "end": 74,
-        "decorators": [],
-        "name": "Foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "module",

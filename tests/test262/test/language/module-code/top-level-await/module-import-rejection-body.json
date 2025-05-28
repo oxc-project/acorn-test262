@@ -27,8 +27,8 @@
         "value": "./module-import-rejection-body_FIXTURE.js",
         "raw": "'./module-import-rejection-body_FIXTURE.js'"
       },
-      "attributes": [],
-      "phase": null
+      "phase": null,
+      "attributes": []
     },
     {
       "type": "ThrowStatement",

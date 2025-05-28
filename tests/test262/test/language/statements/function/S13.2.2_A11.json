@@ -13,7 +13,6 @@
         "end": 405,
         "name": "FACTORY"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -46,8 +45,8 @@
                   "end": 419,
                   "name": "id"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "Literal",
@@ -82,8 +81,8 @@
                   "end": 442,
                   "name": "id"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "CallExpression",
@@ -104,8 +103,8 @@
                     "end": 454,
                     "name": "func"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [],
                 "optional": false
@@ -122,7 +121,6 @@
               "end": 478,
               "name": "func"
             },
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -144,10 +142,12 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "TryStatement",
@@ -162,6 +162,7 @@
             "type": "VariableDeclaration",
             "start": 617,
             "end": 641,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -186,8 +187,7 @@
                   "arguments": []
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ThrowStatement",

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 299,
       "end": 330,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "1735213600_321"
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 360,
       "end": 405,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -79,13 +80,13 @@
             }
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 406,
       "end": 443,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -117,13 +118,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 444,
       "end": 490,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -155,8 +156,8 @@
                 "end": 480,
                 "name": "Instant"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -168,8 +169,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -180,6 +180,7 @@
         "type": "VariableDeclaration",
         "start": 497,
         "end": 510,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -193,8 +194,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "ArrayExpression",
@@ -210,9 +210,7 @@
                 "type": "Property",
                 "start": 520,
                 "end": 537,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 520,
@@ -227,7 +225,9 @@
                   "value": "numeric",
                   "raw": "\"numeric\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           },
@@ -240,9 +240,7 @@
                 "type": "Property",
                 "start": 545,
                 "end": 560,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 545,
@@ -257,7 +255,9 @@
                   "value": "long",
                   "raw": "\"long\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           },
@@ -270,9 +270,7 @@
                 "type": "Property",
                 "start": 568,
                 "end": 584,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 568,
@@ -287,7 +285,9 @@
                   "value": "numeric",
                   "raw": "\"numeric\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           },
@@ -300,9 +300,7 @@
                 "type": "Property",
                 "start": 592,
                 "end": 609,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 592,
@@ -317,7 +315,9 @@
                   "value": "long",
                   "raw": "\"long\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           },
@@ -330,9 +330,7 @@
                 "type": "Property",
                 "start": 617,
                 "end": 634,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 617,
@@ -347,7 +345,9 @@
                   "value": "numeric",
                   "raw": "\"numeric\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           },
@@ -360,9 +360,7 @@
                 "type": "Property",
                 "start": 642,
                 "end": 661,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 642,
@@ -377,7 +375,9 @@
                   "value": "numeric",
                   "raw": "\"numeric\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           },
@@ -390,9 +390,7 @@
                 "type": "Property",
                 "start": 669,
                 "end": 688,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 669,
@@ -407,7 +405,9 @@
                   "value": "numeric",
                   "raw": "\"numeric\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           },
@@ -420,9 +420,7 @@
                 "type": "Property",
                 "start": 696,
                 "end": 723,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 696,
@@ -437,7 +435,9 @@
                   "value": 3,
                   "raw": "3"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           },
@@ -450,9 +450,7 @@
                 "type": "Property",
                 "start": 731,
                 "end": 751,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 731,
@@ -467,7 +465,9 @@
                   "value": "short",
                   "raw": "\"short\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           },
@@ -480,9 +480,7 @@
                 "type": "Property",
                 "start": 759,
                 "end": 782,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 759,
@@ -497,7 +495,9 @@
                   "value": "short",
                   "raw": "\"short\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -512,6 +512,7 @@
             "type": "VariableDeclaration",
             "start": 863,
             "end": 923,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -543,8 +544,8 @@
                       "end": 907,
                       "name": "toLocaleString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -564,13 +565,13 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 926,
             "end": 992,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -602,8 +603,8 @@
                       "end": 976,
                       "name": "toLocaleString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -623,8 +624,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -650,8 +650,8 @@
                   "end": 1011,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -670,6 +670,28 @@
                   "type": "TemplateLiteral",
                   "start": 1045,
                   "end": 1122,
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 1046,
+                      "end": 1095,
+                      "value": {
+                        "raw": "Instant.toLocaleString should format lone option ",
+                        "cooked": "Instant.toLocaleString should format lone option "
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 1121,
+                      "end": 1121,
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": true
+                    }
+                  ],
                   "expressions": [
                     {
                       "type": "CallExpression",
@@ -691,8 +713,8 @@
                           "end": 1111,
                           "name": "stringify"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -703,28 +725,6 @@
                         }
                       ],
                       "optional": false
-                    }
-                  ],
-                  "quasis": [
-                    {
-                      "type": "TemplateElement",
-                      "start": 1046,
-                      "end": 1095,
-                      "value": {
-                        "raw": "Instant.toLocaleString should format lone option ",
-                        "cooked": "Instant.toLocaleString should format lone option "
-                      },
-                      "tail": false
-                    },
-                    {
-                      "type": "TemplateElement",
-                      "start": 1121,
-                      "end": 1121,
-                      "value": {
-                        "raw": "",
-                        "cooked": ""
-                      },
-                      "tail": true
                     }
                   ]
                 }

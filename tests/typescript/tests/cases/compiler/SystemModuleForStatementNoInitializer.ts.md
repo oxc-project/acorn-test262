@@ -9,22 +9,22 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 11,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "VariableDeclaration",
       "start": 13,
       "end": 23,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 17,
           "end": 22,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 17,
@@ -38,24 +38,24 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 21,
             "end": 22,
-            "raw": "0",
-            "value": 0
-          }
+            "value": 0,
+            "raw": "0"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 24,
       "end": 39,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 28,
           "end": 38,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 28,
@@ -69,37 +69,23 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 36,
             "end": 38,
-            "raw": "10",
-            "value": 10
-          }
+            "value": 10,
+            "raw": "10"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "ForStatement",
       "start": 41,
       "end": 78,
-      "body": {
-        "type": "BlockStatement",
-        "start": 64,
-        "end": 78,
-        "body": [
-          {
-            "type": "BreakStatement",
-            "start": 70,
-            "end": 76,
-            "label": null
-          }
-        ]
-      },
       "init": null,
       "test": {
         "type": "BinaryExpression",
         "start": 48,
         "end": 57,
-        "operator": "<",
         "left": {
           "type": "Identifier",
           "start": 48,
@@ -109,6 +95,7 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "operator": "<",
         "right": {
           "type": "Identifier",
           "start": 52,
@@ -123,6 +110,8 @@ __ESTREE_TEST__:PASS:
         "type": "UpdateExpression",
         "start": 59,
         "end": 62,
+        "operator": "++",
+        "prefix": true,
         "argument": {
           "type": "Identifier",
           "start": 61,
@@ -131,15 +120,44 @@ __ESTREE_TEST__:PASS:
           "name": "i",
           "optional": false,
           "typeAnnotation": null
-        },
-        "operator": "++",
-        "prefix": true
+        }
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 64,
+        "end": 78,
+        "body": [
+          {
+            "type": "BreakStatement",
+            "start": 70,
+            "end": 76,
+            "label": null
+          }
+        ]
       }
     },
     {
       "type": "ForStatement",
       "start": 80,
       "end": 108,
+      "init": null,
+      "test": null,
+      "update": {
+        "type": "UpdateExpression",
+        "start": 89,
+        "end": 92,
+        "operator": "++",
+        "prefix": true,
+        "argument": {
+          "type": "Identifier",
+          "start": 91,
+          "end": 92,
+          "decorators": [],
+          "name": "i",
+          "optional": false,
+          "typeAnnotation": null
+        }
+      },
       "body": {
         "type": "BlockStatement",
         "start": 94,
@@ -152,30 +170,15 @@ __ESTREE_TEST__:PASS:
             "label": null
           }
         ]
-      },
-      "init": null,
-      "test": null,
-      "update": {
-        "type": "UpdateExpression",
-        "start": 89,
-        "end": 92,
-        "argument": {
-          "type": "Identifier",
-          "start": 91,
-          "end": 92,
-          "decorators": [],
-          "name": "i",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "operator": "++",
-        "prefix": true
       }
     },
     {
       "type": "ForStatement",
       "start": 110,
       "end": 134,
+      "init": null,
+      "test": null,
+      "update": null,
       "body": {
         "type": "BlockStatement",
         "start": 120,
@@ -188,10 +191,7 @@ __ESTREE_TEST__:PASS:
             "label": null
           }
         ]
-      },
-      "init": null,
-      "test": null,
-      "update": null
+      }
     }
   ],
   "sourceType": "module",

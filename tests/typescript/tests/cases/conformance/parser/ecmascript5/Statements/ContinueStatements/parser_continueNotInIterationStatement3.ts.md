@@ -9,11 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "SwitchStatement",
       "start": 0,
       "end": 39,
+      "discriminant": {
+        "type": "Literal",
+        "start": 8,
+        "end": 9,
+        "value": 0,
+        "raw": "0"
+      },
       "cases": [
         {
           "type": "SwitchCase",
           "start": 15,
           "end": 37,
+          "test": null,
           "consequent": [
             {
               "type": "ContinueStatement",
@@ -21,17 +29,9 @@ __ESTREE_TEST__:PASS:
               "end": 37,
               "label": null
             }
-          ],
-          "test": null
+          ]
         }
-      ],
-      "discriminant": {
-        "type": "Literal",
-        "start": 8,
-        "end": 9,
-        "raw": "0",
-        "value": 0
-      }
+      ]
     }
   ],
   "sourceType": "script",

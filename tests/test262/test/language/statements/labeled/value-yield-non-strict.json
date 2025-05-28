@@ -7,6 +7,12 @@
       "type": "LabeledStatement",
       "start": 296,
       "end": 305,
+      "label": {
+        "type": "Identifier",
+        "start": 296,
+        "end": 301,
+        "name": "yield"
+      },
       "body": {
         "type": "ExpressionStatement",
         "start": 303,
@@ -18,12 +24,6 @@
           "value": 1,
           "raw": "1"
         }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 296,
-        "end": 301,
-        "name": "yield"
       }
     }
   ],

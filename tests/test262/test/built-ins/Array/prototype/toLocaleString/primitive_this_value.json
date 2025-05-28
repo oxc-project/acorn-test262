@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 619,
       "end": 665,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -53,15 +54,14 @@
                 "end": 662,
                 "name": "toLocaleString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -92,8 +92,8 @@
               "end": 684,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -101,15 +101,14 @@
             "end": 693,
             "name": "toString"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "FunctionExpression",
           "start": 696,
           "end": 732,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -127,16 +126,17 @@
                   "start": 718,
                   "end": 729,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "ThisExpression",
                     "start": 725,
                     "end": 729
-                  }
+                  },
+                  "prefix": true
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -164,8 +164,8 @@
             "end": 751,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -203,8 +203,8 @@
                 "end": 780,
                 "name": "toLocaleString"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false

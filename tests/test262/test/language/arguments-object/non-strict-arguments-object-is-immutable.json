@@ -13,7 +13,6 @@
         "end": 674,
         "name": "f1"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -46,8 +45,8 @@
                   "end": 697,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -55,13 +54,13 @@
                   "start": 698,
                   "end": 714,
                   "operator": "delete",
-                  "prefix": true,
                   "argument": {
                     "type": "Identifier",
                     "start": 705,
                     "end": 714,
                     "name": "arguments"
-                  }
+                  },
+                  "prefix": true
                 },
                 {
                   "type": "Literal",
@@ -75,7 +74,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

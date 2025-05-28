@@ -27,6 +27,7 @@
         "value": "./json-value-boolean_FIXTURE.json",
         "raw": "'./json-value-boolean_FIXTURE.json'"
       },
+      "phase": null,
       "attributes": [
         {
           "type": "ImportAttribute",
@@ -46,8 +47,7 @@
             "raw": "'json'"
           }
         }
-      ],
-      "phase": null
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -73,8 +73,8 @@
             "end": 692,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

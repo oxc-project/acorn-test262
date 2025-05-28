@@ -14,12 +14,12 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclaration",
           "start": 6,
           "end": 12,
+          "kind": "let",
           "declarations": [
             {
               "type": "VariableDeclarator",
               "start": 10,
               "end": 11,
-              "definite": false,
               "id": {
                 "type": "Identifier",
                 "start": 10,
@@ -29,22 +29,25 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "init": null
+              "init": null,
+              "definite": false
             }
           ],
-          "declare": false,
-          "kind": "let"
+          "declare": false
         },
         {
           "type": "ExpressionStatement",
           "start": 17,
           "end": 25,
-          "directive": null,
           "expression": {
             "type": "ArrowFunctionExpression",
             "start": 17,
             "end": 24,
+            "expression": true,
             "async": false,
+            "typeParameters": null,
+            "params": [],
+            "returnType": null,
             "body": {
               "type": "Identifier",
               "start": 23,
@@ -54,13 +57,10 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "expression": true,
-            "generator": false,
             "id": null,
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
+            "generator": false
+          },
+          "directive": null
         }
       ]
     },
@@ -68,22 +68,36 @@ __ESTREE_TEST__:PASS:
       "type": "SwitchStatement",
       "start": 29,
       "end": 102,
+      "discriminant": {
+        "type": "Literal",
+        "start": 37,
+        "end": 38,
+        "value": 1,
+        "raw": "1"
+      },
       "cases": [
         {
           "type": "SwitchCase",
           "start": 46,
           "end": 100,
+          "test": {
+            "type": "Literal",
+            "start": 51,
+            "end": 52,
+            "value": 1,
+            "raw": "1"
+          },
           "consequent": [
             {
               "type": "VariableDeclaration",
               "start": 62,
               "end": 68,
+              "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 66,
                   "end": 67,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 66,
@@ -93,22 +107,25 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "init": null
+                  "init": null,
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "let"
+              "declare": false
             },
             {
               "type": "ExpressionStatement",
               "start": 77,
               "end": 85,
-              "directive": null,
               "expression": {
                 "type": "ArrowFunctionExpression",
                 "start": 77,
                 "end": 84,
+                "expression": true,
                 "async": false,
+                "typeParameters": null,
+                "params": [],
+                "returnType": null,
                 "body": {
                   "type": "Identifier",
                   "start": 83,
@@ -118,13 +135,10 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "expression": true,
-                "generator": false,
                 "id": null,
-                "params": [],
-                "returnType": null,
-                "typeParameters": null
-              }
+                "generator": false
+              },
+              "directive": null
             },
             {
               "type": "BreakStatement",
@@ -132,23 +146,9 @@ __ESTREE_TEST__:PASS:
               "end": 100,
               "label": null
             }
-          ],
-          "test": {
-            "type": "Literal",
-            "start": 51,
-            "end": 52,
-            "raw": "1",
-            "value": 1
-          }
+          ]
         }
-      ],
-      "discriminant": {
-        "type": "Literal",
-        "start": 37,
-        "end": 38,
-        "raw": "1",
-        "value": 1
-      }
+      ]
     }
   ],
   "sourceType": "script",

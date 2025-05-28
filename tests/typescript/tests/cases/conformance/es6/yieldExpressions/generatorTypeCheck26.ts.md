@@ -9,194 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 160,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 78,
-        "end": 160,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 84,
-            "end": 104,
-            "directive": null,
-            "expression": {
-              "type": "YieldExpression",
-              "start": 84,
-              "end": 103,
-              "argument": {
-                "type": "ArrowFunctionExpression",
-                "start": 90,
-                "end": 103,
-                "async": false,
-                "body": {
-                  "type": "MemberExpression",
-                  "start": 95,
-                  "end": 103,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 95,
-                    "end": 96,
-                    "decorators": [],
-                    "name": "x",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 97,
-                    "end": 103,
-                    "decorators": [],
-                    "name": "length",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "expression": true,
-                "generator": false,
-                "id": null,
-                "params": [
-                  {
-                    "type": "Identifier",
-                    "start": 90,
-                    "end": 91,
-                    "decorators": [],
-                    "name": "x",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                ],
-                "returnType": null,
-                "typeParameters": null
-              },
-              "delegate": false
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 109,
-            "end": 132,
-            "directive": null,
-            "expression": {
-              "type": "YieldExpression",
-              "start": 109,
-              "end": 131,
-              "argument": {
-                "type": "ArrayExpression",
-                "start": 116,
-                "end": 131,
-                "elements": [
-                  {
-                    "type": "ArrowFunctionExpression",
-                    "start": 117,
-                    "end": 130,
-                    "async": false,
-                    "body": {
-                      "type": "MemberExpression",
-                      "start": 122,
-                      "end": 130,
-                      "computed": false,
-                      "object": {
-                        "type": "Identifier",
-                        "start": 122,
-                        "end": 123,
-                        "decorators": [],
-                        "name": "x",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "optional": false,
-                      "property": {
-                        "type": "Identifier",
-                        "start": 124,
-                        "end": 130,
-                        "decorators": [],
-                        "name": "length",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    },
-                    "expression": true,
-                    "generator": false,
-                    "id": null,
-                    "params": [
-                      {
-                        "type": "Identifier",
-                        "start": 117,
-                        "end": 118,
-                        "decorators": [],
-                        "name": "x",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    ],
-                    "returnType": null,
-                    "typeParameters": null
-                  }
-                ]
-              },
-              "delegate": true
-            }
-          },
-          {
-            "type": "ReturnStatement",
-            "start": 137,
-            "end": 158,
-            "argument": {
-              "type": "ArrowFunctionExpression",
-              "start": 144,
-              "end": 157,
-              "async": false,
-              "body": {
-                "type": "MemberExpression",
-                "start": 149,
-                "end": 157,
-                "computed": false,
-                "object": {
-                  "type": "Identifier",
-                  "start": 149,
-                  "end": 150,
-                  "decorators": [],
-                  "name": "x",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Identifier",
-                  "start": 151,
-                  "end": 157,
-                  "decorators": [],
-                  "name": "length",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              },
-              "expression": true,
-              "generator": false,
-              "id": null,
-              "params": [
-                {
-                  "type": "Identifier",
-                  "start": 144,
-                  "end": 145,
-                  "decorators": [],
-                  "name": "x",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              ],
-              "returnType": null,
-              "typeParameters": null
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": true,
       "id": {
         "type": "Identifier",
         "start": 10,
@@ -206,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": true,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
@@ -215,6 +31,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 15,
           "end": 77,
+          "typeName": {
+            "type": "Identifier",
+            "start": 15,
+            "end": 31,
+            "decorators": [],
+            "name": "IterableIterator",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
             "start": 31,
@@ -224,6 +49,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSFunctionType",
                 "start": 32,
                 "end": 53,
+                "typeParameters": null,
                 "params": [
                   {
                     "type": "Identifier",
@@ -253,13 +79,13 @@ __ESTREE_TEST__:PASS:
                     "start": 47,
                     "end": 53
                   }
-                },
-                "typeParameters": null
+                }
               },
               {
                 "type": "TSFunctionType",
                 "start": 55,
                 "end": 76,
+                "typeParameters": null,
                 "params": [
                   {
                     "type": "Identifier",
@@ -289,23 +115,197 @@ __ESTREE_TEST__:PASS:
                     "start": 70,
                     "end": 76
                   }
-                },
-                "typeParameters": null
+                }
               }
             ]
-          },
-          "typeName": {
-            "type": "Identifier",
-            "start": 15,
-            "end": 31,
-            "decorators": [],
-            "name": "IterableIterator",
-            "optional": false,
-            "typeAnnotation": null
           }
         }
       },
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 78,
+        "end": 160,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 84,
+            "end": 104,
+            "expression": {
+              "type": "YieldExpression",
+              "start": 84,
+              "end": 103,
+              "delegate": false,
+              "argument": {
+                "type": "ArrowFunctionExpression",
+                "start": 90,
+                "end": 103,
+                "expression": true,
+                "async": false,
+                "typeParameters": null,
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "start": 90,
+                    "end": 91,
+                    "decorators": [],
+                    "name": "x",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                ],
+                "returnType": null,
+                "body": {
+                  "type": "MemberExpression",
+                  "start": 95,
+                  "end": 103,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 95,
+                    "end": 96,
+                    "decorators": [],
+                    "name": "x",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 97,
+                    "end": 103,
+                    "decorators": [],
+                    "name": "length",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "id": null,
+                "generator": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 109,
+            "end": 132,
+            "expression": {
+              "type": "YieldExpression",
+              "start": 109,
+              "end": 131,
+              "delegate": true,
+              "argument": {
+                "type": "ArrayExpression",
+                "start": 116,
+                "end": 131,
+                "elements": [
+                  {
+                    "type": "ArrowFunctionExpression",
+                    "start": 117,
+                    "end": 130,
+                    "expression": true,
+                    "async": false,
+                    "typeParameters": null,
+                    "params": [
+                      {
+                        "type": "Identifier",
+                        "start": 117,
+                        "end": 118,
+                        "decorators": [],
+                        "name": "x",
+                        "optional": false,
+                        "typeAnnotation": null
+                      }
+                    ],
+                    "returnType": null,
+                    "body": {
+                      "type": "MemberExpression",
+                      "start": 122,
+                      "end": 130,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 122,
+                        "end": 123,
+                        "decorators": [],
+                        "name": "x",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 124,
+                        "end": 130,
+                        "decorators": [],
+                        "name": "length",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "optional": false,
+                      "computed": false
+                    },
+                    "id": null,
+                    "generator": false
+                  }
+                ]
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ReturnStatement",
+            "start": 137,
+            "end": 158,
+            "argument": {
+              "type": "ArrowFunctionExpression",
+              "start": 144,
+              "end": 157,
+              "expression": true,
+              "async": false,
+              "typeParameters": null,
+              "params": [
+                {
+                  "type": "Identifier",
+                  "start": 144,
+                  "end": 145,
+                  "decorators": [],
+                  "name": "x",
+                  "optional": false,
+                  "typeAnnotation": null
+                }
+              ],
+              "returnType": null,
+              "body": {
+                "type": "MemberExpression",
+                "start": 149,
+                "end": 157,
+                "object": {
+                  "type": "Identifier",
+                  "start": 149,
+                  "end": 150,
+                  "decorators": [],
+                  "name": "x",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 151,
+                  "end": 157,
+                  "decorators": [],
+                  "name": "length",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "optional": false,
+                "computed": false
+              },
+              "id": null,
+              "generator": false
+            }
+          }
+        ]
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

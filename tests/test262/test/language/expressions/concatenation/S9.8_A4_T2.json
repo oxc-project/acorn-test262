@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 345,
       "end": 360,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "\"abc\""
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -133,6 +133,7 @@
       "type": "VariableDeclaration",
       "start": 476,
       "end": 491,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -152,8 +153,7 @@
             "raw": "\"abc\""
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -172,13 +172,13 @@
             "start": 496,
             "end": 505,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 503,
               "end": 505,
               "name": "x2"
-            }
+            },
+            "prefix": true
           },
           "operator": "+",
           "right": {
@@ -195,13 +195,13 @@
           "start": 515,
           "end": 524,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 522,
             "end": 524,
             "name": "x2"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -249,14 +249,14 @@
                         "start": 604,
                         "end": 616,
                         "operator": "typeof",
-                        "prefix": true,
                         "argument": {
                           "type": "Literal",
                           "start": 611,
                           "end": 616,
                           "value": "abc",
                           "raw": "\"abc\""
-                        }
+                        },
+                        "prefix": true
                       },
                       "operator": "+",
                       "right": {

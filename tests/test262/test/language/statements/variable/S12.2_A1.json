@@ -202,8 +202,8 @@
             "end": 1083,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -217,7 +217,6 @@
             "start": 1100,
             "end": 1167,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -250,7 +249,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -389,6 +389,7 @@
       "type": "VariableDeclaration",
       "start": 1571,
       "end": 1624,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -456,8 +457,7 @@
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -472,13 +472,13 @@
           "start": 1719,
           "end": 1723,
           "operator": "!",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 1720,
             "end": 1723,
             "name": "__y"
-          }
+          },
+          "prefix": true
         },
         "operator": "&",
         "right": {
@@ -486,7 +486,6 @@
           "start": 1724,
           "end": 1742,
           "operator": "!",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 1725,
@@ -510,7 +509,8 @@
                 "raw": "\"smeagol\""
               }
             }
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {

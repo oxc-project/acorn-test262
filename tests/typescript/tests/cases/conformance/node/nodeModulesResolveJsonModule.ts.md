@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 55,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 16,
-        "end": 32,
-        "raw": "\"./package.json\"",
-        "value": "./package.json"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -33,6 +25,13 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 16,
+        "end": 32,
+        "value": "./package.json",
+        "raw": "\"./package.json\""
+      },
       "phase": null,
       "attributes": [
         {
@@ -52,27 +51,27 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 46,
             "end": 52,
-            "raw": "\"json\"",
-            "value": "json"
+            "value": "json",
+            "raw": "\"json\""
           }
         }
-      ]
+      ],
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 56,
       "end": 85,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 63,
         "end": 85,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 69,
             "end": 84,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 69,
@@ -86,7 +85,6 @@ __ESTREE_TEST__:PASS:
               "type": "MemberExpression",
               "start": 76,
               "end": 84,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 76,
@@ -96,7 +94,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 80,
@@ -105,29 +102,24 @@ __ESTREE_TEST__:PASS:
                 "name": "name",
                 "optional": false,
                 "typeAnnotation": null
-              }
-            }
+              },
+              "optional": false,
+              "computed": false
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 86,
       "end": 145,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 106,
-        "end": 122,
-        "raw": "\"./package.json\"",
-        "value": "./package.json"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -144,6 +136,13 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 106,
+        "end": 122,
+        "value": "./package.json",
+        "raw": "\"./package.json\""
+      },
       "phase": null,
       "attributes": [
         {
@@ -163,27 +162,27 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 136,
             "end": 142,
-            "raw": "\"json\"",
-            "value": "json"
+            "value": "json",
+            "raw": "\"json\""
           }
         }
-      ]
+      ],
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 146,
       "end": 170,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 153,
         "end": 170,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 159,
             "end": 169,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 159,
@@ -201,31 +200,31 @@ __ESTREE_TEST__:PASS:
               "name": "ns",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 171,
       "end": 208,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 178,
         "end": 208,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 184,
             "end": 207,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 184,
@@ -239,12 +238,10 @@ __ESTREE_TEST__:PASS:
               "type": "MemberExpression",
               "start": 192,
               "end": 207,
-              "computed": false,
               "object": {
                 "type": "MemberExpression",
                 "start": 192,
                 "end": 202,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 192,
@@ -254,7 +251,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 195,
@@ -263,9 +259,10 @@ __ESTREE_TEST__:PASS:
                   "name": "default",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 203,
@@ -274,16 +271,19 @@ __ESTREE_TEST__:PASS:
                 "name": "name",
                 "optional": false,
                 "typeAnnotation": null
-              }
-            }
+              },
+              "optional": false,
+              "computed": false
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -301,14 +301,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 33,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 16,
-        "end": 32,
-        "raw": "\"./package.json\"",
-        "value": "./package.json"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -325,24 +317,31 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 16,
+        "end": 32,
+        "value": "./package.json",
+        "raw": "\"./package.json\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 34,
       "end": 63,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 41,
         "end": 63,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 47,
             "end": 62,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 47,
@@ -356,7 +355,6 @@ __ESTREE_TEST__:PASS:
               "type": "MemberExpression",
               "start": 54,
               "end": 62,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 54,
@@ -366,7 +364,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 58,
@@ -375,29 +372,24 @@ __ESTREE_TEST__:PASS:
                 "name": "name",
                 "optional": false,
                 "typeAnnotation": null
-              }
-            }
+              },
+              "optional": false,
+              "computed": false
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 64,
       "end": 101,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 84,
-        "end": 100,
-        "raw": "\"./package.json\"",
-        "value": "./package.json"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -414,24 +406,31 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 84,
+        "end": 100,
+        "value": "./package.json",
+        "raw": "\"./package.json\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 102,
       "end": 126,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 109,
         "end": 126,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 115,
             "end": 125,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 115,
@@ -449,31 +448,31 @@ __ESTREE_TEST__:PASS:
               "name": "ns",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 127,
       "end": 164,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 134,
         "end": 164,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 140,
             "end": 163,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 140,
@@ -487,12 +486,10 @@ __ESTREE_TEST__:PASS:
               "type": "MemberExpression",
               "start": 148,
               "end": 163,
-              "computed": false,
               "object": {
                 "type": "MemberExpression",
                 "start": 148,
                 "end": 158,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 148,
@@ -502,7 +499,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 151,
@@ -511,9 +507,10 @@ __ESTREE_TEST__:PASS:
                   "name": "default",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 159,
@@ -522,16 +519,19 @@ __ESTREE_TEST__:PASS:
                 "name": "name",
                 "optional": false,
                 "typeAnnotation": null
-              }
-            }
+              },
+              "optional": false,
+              "computed": false
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -549,14 +549,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 55,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 16,
-        "end": 32,
-        "raw": "\"./package.json\"",
-        "value": "./package.json"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -573,6 +565,13 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 16,
+        "end": 32,
+        "value": "./package.json",
+        "raw": "\"./package.json\""
+      },
       "phase": null,
       "attributes": [
         {
@@ -592,27 +591,27 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 46,
             "end": 52,
-            "raw": "\"json\"",
-            "value": "json"
+            "value": "json",
+            "raw": "\"json\""
           }
         }
-      ]
+      ],
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 56,
       "end": 85,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 63,
         "end": 85,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 69,
             "end": 84,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 69,
@@ -626,7 +625,6 @@ __ESTREE_TEST__:PASS:
               "type": "MemberExpression",
               "start": 76,
               "end": 84,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 76,
@@ -636,7 +634,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 80,
@@ -645,29 +642,24 @@ __ESTREE_TEST__:PASS:
                 "name": "name",
                 "optional": false,
                 "typeAnnotation": null
-              }
-            }
+              },
+              "optional": false,
+              "computed": false
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 86,
       "end": 145,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 106,
-        "end": 122,
-        "raw": "\"./package.json\"",
-        "value": "./package.json"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -684,6 +676,13 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 106,
+        "end": 122,
+        "value": "./package.json",
+        "raw": "\"./package.json\""
+      },
       "phase": null,
       "attributes": [
         {
@@ -703,27 +702,27 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 136,
             "end": 142,
-            "raw": "\"json\"",
-            "value": "json"
+            "value": "json",
+            "raw": "\"json\""
           }
         }
-      ]
+      ],
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 146,
       "end": 170,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 153,
         "end": 170,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 159,
             "end": 169,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 159,
@@ -741,31 +740,31 @@ __ESTREE_TEST__:PASS:
               "name": "ns",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 171,
       "end": 208,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 178,
         "end": 208,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 184,
             "end": 207,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 184,
@@ -779,12 +778,10 @@ __ESTREE_TEST__:PASS:
               "type": "MemberExpression",
               "start": 192,
               "end": 207,
-              "computed": false,
               "object": {
                 "type": "MemberExpression",
                 "start": 192,
                 "end": 202,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 192,
@@ -794,7 +791,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 195,
@@ -803,9 +799,10 @@ __ESTREE_TEST__:PASS:
                   "name": "default",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 203,
@@ -814,16 +811,19 @@ __ESTREE_TEST__:PASS:
                 "name": "name",
                 "optional": false,
                 "typeAnnotation": null
-              }
-            }
+              },
+              "optional": false,
+              "computed": false
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 29,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 28,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,6 +28,28 @@ __ESTREE_TEST__:PASS:
             "type": "TemplateLiteral",
             "start": 8,
             "end": 28,
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "start": 8,
+                "end": 14,
+                "value": {
+                  "cooked": "abc",
+                  "raw": "abc"
+                },
+                "tail": false
+              },
+              {
+                "type": "TemplateElement",
+                "start": 23,
+                "end": 28,
+                "value": {
+                  "cooked": "def",
+                  "raw": "def"
+                },
+                "tail": true
+              }
+            ],
             "expressions": [
               {
                 "type": "ArrayExpression",
@@ -38,53 +60,31 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 16,
                     "end": 17,
-                    "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 18,
                     "end": 19,
-                    "raw": "2",
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   },
                   {
                     "type": "Literal",
                     "start": 20,
                     "end": 21,
-                    "raw": "3",
-                    "value": 3
+                    "value": 3,
+                    "raw": "3"
                   }
                 ]
               }
-            ],
-            "quasis": [
-              {
-                "type": "TemplateElement",
-                "start": 8,
-                "end": 14,
-                "tail": false,
-                "value": {
-                  "cooked": "abc",
-                  "raw": "abc"
-                }
-              },
-              {
-                "type": "TemplateElement",
-                "start": 23,
-                "end": 28,
-                "tail": true,
-                "value": {
-                  "cooked": "def",
-                  "raw": "def"
-                }
-              }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

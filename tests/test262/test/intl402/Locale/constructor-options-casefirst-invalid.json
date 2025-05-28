@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 659,
       "end": 792,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -74,9 +75,7 @@
                     "type": "Property",
                     "start": 759,
                     "end": 786,
-                    "method": true,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 759,
@@ -88,7 +87,6 @@
                       "start": 766,
                       "end": 786,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -110,17 +108,19 @@
                             }
                           }
                         ]
-                      }
+                      },
+                      "expression": false
                     },
-                    "kind": "init"
+                    "method": true,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -131,6 +131,7 @@
         "type": "VariableDeclaration",
         "start": 798,
         "end": 813,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -144,8 +145,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -182,8 +182,8 @@
                   "end": 859,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -197,7 +197,6 @@
                   "start": 872,
                   "end": 928,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -230,8 +229,8 @@
                               "end": 904,
                               "name": "Locale"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -250,9 +249,7 @@
                                   "type": "Property",
                                   "start": 912,
                                   "end": 921,
-                                  "method": false,
-                                  "shorthand": true,
-                                  "computed": false,
+                                  "kind": "init",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 912,
@@ -265,7 +262,9 @@
                                     "end": 921,
                                     "name": "caseFirst"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": true,
+                                  "computed": false
                                 }
                               ]
                             }
@@ -273,20 +272,13 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 930,
                   "end": 1000,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 968,
-                      "end": 977,
-                      "name": "caseFirst"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -307,6 +299,14 @@
                         "cooked": "\"}) throws RangeError"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 968,
+                      "end": 977,
+                      "name": "caseFirst"
                     }
                   ]
                 }

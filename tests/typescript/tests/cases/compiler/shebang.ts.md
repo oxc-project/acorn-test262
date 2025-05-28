@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 20,
       "end": 79,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 24,
           "end": 78,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 24,
@@ -28,13 +28,13 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 30,
             "end": 78,
-            "raw": "'I wish the generated JS to be executed in node'",
-            "value": "I wish the generated JS to be executed in node"
-          }
+            "value": "I wish the generated JS to be executed in node",
+            "raw": "'I wish the generated JS to be executed in node'"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

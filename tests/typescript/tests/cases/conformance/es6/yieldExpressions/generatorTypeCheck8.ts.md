@@ -9,13 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 69,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 66,
-        "end": 69,
-        "body": []
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 22,
+        "decorators": [],
+        "name": "BadGenerator",
+        "optional": false,
+        "typeAnnotation": null
       },
-      "declare": false,
+      "typeParameters": null,
       "extends": [
         {
           "type": "TSInterfaceHeritage",
@@ -70,31 +73,18 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 22,
-        "decorators": [],
-        "name": "BadGenerator",
-        "optional": false,
-        "typeAnnotation": null
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 66,
+        "end": 69,
+        "body": []
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 70,
       "end": 102,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 99,
-        "end": 102,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": true,
       "id": {
         "type": "Identifier",
         "start": 80,
@@ -104,6 +94,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": true,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
@@ -113,7 +107,6 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 86,
           "end": 98,
-          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 86,
@@ -122,10 +115,17 @@ __ESTREE_TEST__:PASS:
             "name": "BadGenerator",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "typeArguments": null
         }
       },
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 99,
+        "end": 102,
+        "body": []
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

@@ -23,21 +23,17 @@
             "type": "MethodDefinition",
             "start": 888,
             "end": 912,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 888,
               "end": 895,
               "name": "valueOf"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 895,
               "end": 912,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -59,8 +55,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -89,8 +89,8 @@
             "end": 931,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -119,8 +119,8 @@
                 "end": 958,
                 "name": "valueOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -184,8 +184,8 @@
             "end": 1003,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

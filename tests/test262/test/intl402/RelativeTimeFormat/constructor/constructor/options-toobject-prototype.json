@@ -27,8 +27,8 @@
             "end": 409,
             "name": "defineProperties"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -47,8 +47,8 @@
               "end": 426,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "ObjectExpression",
@@ -59,9 +59,7 @@
                 "type": "Property",
                 "start": 432,
                 "end": 466,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 432,
@@ -78,9 +76,7 @@
                       "type": "Property",
                       "start": 447,
                       "end": 461,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 447,
@@ -94,19 +90,21 @@
                         "value": "short",
                         "raw": "\"short\""
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 470,
                 "end": 505,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 470,
@@ -123,9 +121,7 @@
                       "type": "Property",
                       "start": 487,
                       "end": 500,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 487,
@@ -139,11 +135,15 @@
                         "value": "auto",
                         "raw": "\"auto\""
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -155,6 +155,7 @@
       "type": "VariableDeclaration",
       "start": 511,
       "end": 575,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -208,8 +209,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -220,6 +220,7 @@
         "type": "VariableDeclaration",
         "start": 582,
         "end": 595,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -233,8 +234,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -251,6 +251,7 @@
             "type": "VariableDeclaration",
             "start": 621,
             "end": 674,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -282,8 +283,8 @@
                       "end": 660,
                       "name": "RelativeTimeFormat"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -301,13 +302,13 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 677,
             "end": 723,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -339,15 +340,14 @@
                       "end": 720,
                       "name": "resolvedOptions"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -373,8 +373,8 @@
                   "end": 742,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -393,8 +393,8 @@
                     "end": 764,
                     "name": "style"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -407,28 +407,6 @@
                   "type": "TemplateLiteral",
                   "start": 779,
                   "end": 859,
-                  "expressions": [
-                    {
-                      "type": "CallExpression",
-                      "start": 799,
-                      "end": 814,
-                      "callee": {
-                        "type": "Identifier",
-                        "start": 799,
-                        "end": 805,
-                        "name": "String"
-                      },
-                      "arguments": [
-                        {
-                          "type": "Identifier",
-                          "start": 806,
-                          "end": 813,
-                          "name": "options"
-                        }
-                      ],
-                      "optional": false
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -449,6 +427,28 @@
                         "cooked": " should yield the correct value for \"style\""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "CallExpression",
+                      "start": 799,
+                      "end": 814,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 799,
+                        "end": 805,
+                        "name": "String"
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "start": 806,
+                          "end": 813,
+                          "name": "options"
+                        }
+                      ],
+                      "optional": false
                     }
                   ]
                 }
@@ -480,8 +480,8 @@
                   "end": 880,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -500,8 +500,8 @@
                     "end": 904,
                     "name": "numeric"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -514,28 +514,6 @@
                   "type": "TemplateLiteral",
                   "start": 918,
                   "end": 1000,
-                  "expressions": [
-                    {
-                      "type": "CallExpression",
-                      "start": 938,
-                      "end": 953,
-                      "callee": {
-                        "type": "Identifier",
-                        "start": 938,
-                        "end": 944,
-                        "name": "String"
-                      },
-                      "arguments": [
-                        {
-                          "type": "Identifier",
-                          "start": 945,
-                          "end": 952,
-                          "name": "options"
-                        }
-                      ],
-                      "optional": false
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -556,6 +534,28 @@
                         "cooked": " should yield the correct value for \"numeric\""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "CallExpression",
+                      "start": 938,
+                      "end": 953,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 938,
+                        "end": 944,
+                        "name": "String"
+                      },
+                      "arguments": [
+                        {
+                          "type": "Identifier",
+                          "start": 945,
+                          "end": 952,
+                          "name": "options"
+                        }
+                      ],
+                      "optional": false
                     }
                   ]
                 }

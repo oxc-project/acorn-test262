@@ -21,13 +21,13 @@
               "start": 275,
               "end": 277,
               "operator": "-",
-              "prefix": true,
               "argument": {
                 "type": "Identifier",
                 "start": 276,
                 "end": 277,
                 "name": "x"
-              }
+              },
+              "prefix": true
             }
           },
           {
@@ -66,13 +66,13 @@
                       "start": 349,
                       "end": 351,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Identifier",
                         "start": 350,
                         "end": 351,
                         "name": "x"
-                      }
+                      },
+                      "prefix": true
                     }
                   }
                 }

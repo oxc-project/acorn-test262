@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 29,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 28,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,55 +28,55 @@ __ESTREE_TEST__:PASS:
             "type": "TemplateLiteral",
             "start": 8,
             "end": 28,
-            "expressions": [
-              {
-                "type": "BinaryExpression",
-                "start": 15,
-                "end": 22,
-                "operator": "+",
-                "left": {
-                  "type": "Literal",
-                  "start": 15,
-                  "end": 17,
-                  "raw": "10",
-                  "value": 10
-                },
-                "right": {
-                  "type": "Literal",
-                  "start": 20,
-                  "end": 22,
-                  "raw": "10",
-                  "value": 10
-                }
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
                 "start": 8,
                 "end": 14,
-                "tail": false,
                 "value": {
                   "cooked": "abc",
                   "raw": "abc"
-                }
+                },
+                "tail": false
               },
               {
                 "type": "TemplateElement",
                 "start": 23,
                 "end": 28,
-                "tail": true,
                 "value": {
                   "cooked": "def",
                   "raw": "def"
+                },
+                "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "BinaryExpression",
+                "start": 15,
+                "end": 22,
+                "left": {
+                  "type": "Literal",
+                  "start": 15,
+                  "end": 17,
+                  "value": 10,
+                  "raw": "10"
+                },
+                "operator": "+",
+                "right": {
+                  "type": "Literal",
+                  "start": 20,
+                  "end": 22,
+                  "value": 10,
+                  "raw": "10"
                 }
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

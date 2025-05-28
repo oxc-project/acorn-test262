@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 239,
       "end": 247,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -39,7 +39,6 @@
         "end": 264,
         "name": "adding1"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -79,7 +78,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "TryStatement",
@@ -201,6 +201,7 @@
       "type": "VariableDeclaration",
       "start": 427,
       "end": 435,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -220,8 +221,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -233,7 +233,6 @@
         "end": 452,
         "name": "adding2"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -272,7 +271,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "TryStatement",
@@ -388,6 +388,7 @@
       "type": "VariableDeclaration",
       "start": 591,
       "end": 599,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -407,8 +408,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -420,7 +420,6 @@
         "end": 616,
         "name": "adding3"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -448,7 +447,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "TryStatement",
@@ -570,7 +570,6 @@
         "end": 758,
         "name": "adding4"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -616,7 +615,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "TryStatement",

@@ -9,95 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 62,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 16,
-        "end": 62,
-        "body": [
-          {
-            "type": "ExportNamedDeclaration",
-            "start": 22,
-            "end": 60,
-            "attributes": [],
-            "declaration": {
-              "type": "TSEnumDeclaration",
-              "start": 29,
-              "end": 60,
-              "body": {
-                "type": "TSEnumBody",
-                "start": 36,
-                "end": 60,
-                "members": [
-                  {
-                    "type": "TSEnumMember",
-                    "start": 46,
-                    "end": 47,
-                    "computed": false,
-                    "id": {
-                      "type": "Identifier",
-                      "start": 46,
-                      "end": 47,
-                      "decorators": [],
-                      "name": "a",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "initializer": null
-                  },
-                  {
-                    "type": "TSEnumMember",
-                    "start": 49,
-                    "end": 50,
-                    "computed": false,
-                    "id": {
-                      "type": "Identifier",
-                      "start": 49,
-                      "end": 50,
-                      "decorators": [],
-                      "name": "b",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "initializer": null
-                  },
-                  {
-                    "type": "TSEnumMember",
-                    "start": 52,
-                    "end": 53,
-                    "computed": false,
-                    "id": {
-                      "type": "Identifier",
-                      "start": 52,
-                      "end": 53,
-                      "decorators": [],
-                      "name": "c",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "initializer": null
-                  }
-                ]
-              },
-              "const": false,
-              "declare": false,
-              "id": {
-                "type": "Identifier",
-                "start": 34,
-                "end": 35,
-                "decorators": [],
-                "name": "E",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            },
-            "exportKind": "value",
-            "source": null,
-            "specifiers": []
-          }
-        ]
-      },
-      "declare": false,
-      "global": false,
       "id": {
         "type": "Identifier",
         "start": 10,
@@ -107,181 +18,101 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "namespace"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 16,
+        "end": 62,
+        "body": [
+          {
+            "type": "ExportNamedDeclaration",
+            "start": 22,
+            "end": 60,
+            "declaration": {
+              "type": "TSEnumDeclaration",
+              "start": 29,
+              "end": 60,
+              "id": {
+                "type": "Identifier",
+                "start": 34,
+                "end": 35,
+                "decorators": [],
+                "name": "E",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "body": {
+                "type": "TSEnumBody",
+                "start": 36,
+                "end": 60,
+                "members": [
+                  {
+                    "type": "TSEnumMember",
+                    "start": 46,
+                    "end": 47,
+                    "id": {
+                      "type": "Identifier",
+                      "start": 46,
+                      "end": 47,
+                      "decorators": [],
+                      "name": "a",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "initializer": null,
+                    "computed": false
+                  },
+                  {
+                    "type": "TSEnumMember",
+                    "start": 49,
+                    "end": 50,
+                    "id": {
+                      "type": "Identifier",
+                      "start": 49,
+                      "end": 50,
+                      "decorators": [],
+                      "name": "b",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "initializer": null,
+                    "computed": false
+                  },
+                  {
+                    "type": "TSEnumMember",
+                    "start": 52,
+                    "end": 53,
+                    "id": {
+                      "type": "Identifier",
+                      "start": 52,
+                      "end": 53,
+                      "decorators": [],
+                      "name": "c",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "initializer": null,
+                    "computed": false
+                  }
+                ]
+              },
+              "const": false,
+              "declare": false
+            },
+            "specifiers": [],
+            "source": null,
+            "exportKind": "value",
+            "attributes": []
+          }
+        ]
+      },
+      "kind": "namespace",
+      "declare": false,
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 63,
       "end": 169,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 77,
-        "end": 169,
-        "body": [
-          {
-            "type": "ExportNamedDeclaration",
-            "start": 83,
-            "end": 121,
-            "attributes": [],
-            "declaration": {
-              "type": "TSEnumDeclaration",
-              "start": 90,
-              "end": 121,
-              "body": {
-                "type": "TSEnumBody",
-                "start": 97,
-                "end": 121,
-                "members": [
-                  {
-                    "type": "TSEnumMember",
-                    "start": 107,
-                    "end": 108,
-                    "computed": false,
-                    "id": {
-                      "type": "Identifier",
-                      "start": 107,
-                      "end": 108,
-                      "decorators": [],
-                      "name": "a",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "initializer": null
-                  },
-                  {
-                    "type": "TSEnumMember",
-                    "start": 110,
-                    "end": 111,
-                    "computed": false,
-                    "id": {
-                      "type": "Identifier",
-                      "start": 110,
-                      "end": 111,
-                      "decorators": [],
-                      "name": "b",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "initializer": null
-                  },
-                  {
-                    "type": "TSEnumMember",
-                    "start": 113,
-                    "end": 114,
-                    "computed": false,
-                    "id": {
-                      "type": "Identifier",
-                      "start": 113,
-                      "end": 114,
-                      "decorators": [],
-                      "name": "c",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "initializer": null
-                  }
-                ]
-              },
-              "const": false,
-              "declare": false,
-              "id": {
-                "type": "Identifier",
-                "start": 95,
-                "end": 96,
-                "decorators": [],
-                "name": "E",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            },
-            "exportKind": "value",
-            "source": null,
-            "specifiers": []
-          },
-          {
-            "type": "ExportNamedDeclaration",
-            "start": 126,
-            "end": 167,
-            "attributes": [],
-            "declaration": {
-              "type": "TSEnumDeclaration",
-              "start": 133,
-              "end": 167,
-              "body": {
-                "type": "TSEnumBody",
-                "start": 143,
-                "end": 167,
-                "members": [
-                  {
-                    "type": "TSEnumMember",
-                    "start": 153,
-                    "end": 154,
-                    "computed": false,
-                    "id": {
-                      "type": "Identifier",
-                      "start": 153,
-                      "end": 154,
-                      "decorators": [],
-                      "name": "a",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "initializer": null
-                  },
-                  {
-                    "type": "TSEnumMember",
-                    "start": 156,
-                    "end": 157,
-                    "computed": false,
-                    "id": {
-                      "type": "Identifier",
-                      "start": 156,
-                      "end": 157,
-                      "decorators": [],
-                      "name": "b",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "initializer": null
-                  },
-                  {
-                    "type": "TSEnumMember",
-                    "start": 159,
-                    "end": 160,
-                    "computed": false,
-                    "id": {
-                      "type": "Identifier",
-                      "start": 159,
-                      "end": 160,
-                      "decorators": [],
-                      "name": "c",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "initializer": null
-                  }
-                ]
-              },
-              "const": false,
-              "declare": false,
-              "id": {
-                "type": "Identifier",
-                "start": 138,
-                "end": 142,
-                "decorators": [],
-                "name": "Nope",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            },
-            "exportKind": "value",
-            "source": null,
-            "specifiers": []
-          }
-        ]
-      },
-      "declare": false,
-      "global": false,
       "id": {
         "type": "Identifier",
         "start": 73,
@@ -291,117 +122,181 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "namespace"
-    },
-    {
-      "type": "TSModuleDeclaration",
-      "start": 170,
-      "end": 234,
       "body": {
         "type": "TSModuleBlock",
-        "start": 185,
-        "end": 234,
+        "start": 77,
+        "end": 169,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 191,
-            "end": 232,
-            "attributes": [],
+            "start": 83,
+            "end": 121,
             "declaration": {
               "type": "TSEnumDeclaration",
-              "start": 198,
-              "end": 232,
+              "start": 90,
+              "end": 121,
+              "id": {
+                "type": "Identifier",
+                "start": 95,
+                "end": 96,
+                "decorators": [],
+                "name": "E",
+                "optional": false,
+                "typeAnnotation": null
+              },
               "body": {
                 "type": "TSEnumBody",
-                "start": 205,
-                "end": 232,
+                "start": 97,
+                "end": 121,
                 "members": [
                   {
                     "type": "TSEnumMember",
-                    "start": 215,
-                    "end": 216,
-                    "computed": false,
+                    "start": 107,
+                    "end": 108,
                     "id": {
                       "type": "Identifier",
-                      "start": 215,
-                      "end": 216,
+                      "start": 107,
+                      "end": 108,
                       "decorators": [],
                       "name": "a",
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "initializer": null
+                    "initializer": null,
+                    "computed": false
                   },
                   {
                     "type": "TSEnumMember",
-                    "start": 218,
-                    "end": 219,
-                    "computed": false,
+                    "start": 110,
+                    "end": 111,
                     "id": {
                       "type": "Identifier",
-                      "start": 218,
-                      "end": 219,
+                      "start": 110,
+                      "end": 111,
                       "decorators": [],
                       "name": "b",
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "initializer": null
+                    "initializer": null,
+                    "computed": false
                   },
                   {
                     "type": "TSEnumMember",
-                    "start": 221,
-                    "end": 222,
-                    "computed": false,
+                    "start": 113,
+                    "end": 114,
                     "id": {
                       "type": "Identifier",
-                      "start": 221,
-                      "end": 222,
+                      "start": 113,
+                      "end": 114,
                       "decorators": [],
                       "name": "c",
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "initializer": null
-                  },
-                  {
-                    "type": "TSEnumMember",
-                    "start": 224,
-                    "end": 225,
-                    "computed": false,
-                    "id": {
-                      "type": "Identifier",
-                      "start": 224,
-                      "end": 225,
-                      "decorators": [],
-                      "name": "d",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "initializer": null
+                    "initializer": null,
+                    "computed": false
                   }
                 ]
               },
               "const": false,
-              "declare": false,
+              "declare": false
+            },
+            "specifiers": [],
+            "source": null,
+            "exportKind": "value",
+            "attributes": []
+          },
+          {
+            "type": "ExportNamedDeclaration",
+            "start": 126,
+            "end": 167,
+            "declaration": {
+              "type": "TSEnumDeclaration",
+              "start": 133,
+              "end": 167,
               "id": {
                 "type": "Identifier",
-                "start": 203,
-                "end": 204,
+                "start": 138,
+                "end": 142,
                 "decorators": [],
-                "name": "E",
+                "name": "Nope",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "body": {
+                "type": "TSEnumBody",
+                "start": 143,
+                "end": 167,
+                "members": [
+                  {
+                    "type": "TSEnumMember",
+                    "start": 153,
+                    "end": 154,
+                    "id": {
+                      "type": "Identifier",
+                      "start": 153,
+                      "end": 154,
+                      "decorators": [],
+                      "name": "a",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "initializer": null,
+                    "computed": false
+                  },
+                  {
+                    "type": "TSEnumMember",
+                    "start": 156,
+                    "end": 157,
+                    "id": {
+                      "type": "Identifier",
+                      "start": 156,
+                      "end": 157,
+                      "decorators": [],
+                      "name": "b",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "initializer": null,
+                    "computed": false
+                  },
+                  {
+                    "type": "TSEnumMember",
+                    "start": 159,
+                    "end": 160,
+                    "id": {
+                      "type": "Identifier",
+                      "start": 159,
+                      "end": 160,
+                      "decorators": [],
+                      "name": "c",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "initializer": null,
+                    "computed": false
+                  }
+                ]
+              },
+              "const": false,
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           }
         ]
       },
+      "kind": "namespace",
       "declare": false,
-      "global": false,
+      "global": false
+    },
+    {
+      "type": "TSModuleDeclaration",
+      "start": 170,
+      "end": 234,
       "id": {
         "type": "Identifier",
         "start": 180,
@@ -411,85 +306,117 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "namespace"
-    },
-    {
-      "type": "TSModuleDeclaration",
-      "start": 235,
-      "end": 291,
       "body": {
         "type": "TSModuleBlock",
-        "start": 248,
-        "end": 291,
+        "start": 185,
+        "end": 234,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 254,
-            "end": 289,
-            "attributes": [],
+            "start": 191,
+            "end": 232,
             "declaration": {
               "type": "TSEnumDeclaration",
-              "start": 261,
-              "end": 289,
+              "start": 198,
+              "end": 232,
+              "id": {
+                "type": "Identifier",
+                "start": 203,
+                "end": 204,
+                "decorators": [],
+                "name": "E",
+                "optional": false,
+                "typeAnnotation": null
+              },
               "body": {
                 "type": "TSEnumBody",
-                "start": 268,
-                "end": 289,
+                "start": 205,
+                "end": 232,
                 "members": [
                   {
                     "type": "TSEnumMember",
-                    "start": 278,
-                    "end": 279,
-                    "computed": false,
+                    "start": 215,
+                    "end": 216,
                     "id": {
                       "type": "Identifier",
-                      "start": 278,
-                      "end": 279,
+                      "start": 215,
+                      "end": 216,
                       "decorators": [],
                       "name": "a",
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "initializer": null
+                    "initializer": null,
+                    "computed": false
                   },
                   {
                     "type": "TSEnumMember",
-                    "start": 281,
-                    "end": 282,
-                    "computed": false,
+                    "start": 218,
+                    "end": 219,
                     "id": {
                       "type": "Identifier",
-                      "start": 281,
-                      "end": 282,
+                      "start": 218,
+                      "end": 219,
                       "decorators": [],
                       "name": "b",
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "initializer": null
+                    "initializer": null,
+                    "computed": false
+                  },
+                  {
+                    "type": "TSEnumMember",
+                    "start": 221,
+                    "end": 222,
+                    "id": {
+                      "type": "Identifier",
+                      "start": 221,
+                      "end": 222,
+                      "decorators": [],
+                      "name": "c",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "initializer": null,
+                    "computed": false
+                  },
+                  {
+                    "type": "TSEnumMember",
+                    "start": 224,
+                    "end": 225,
+                    "id": {
+                      "type": "Identifier",
+                      "start": 224,
+                      "end": 225,
+                      "decorators": [],
+                      "name": "d",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "initializer": null,
+                    "computed": false
                   }
                 ]
               },
               "const": false,
-              "declare": false,
-              "id": {
-                "type": "Identifier",
-                "start": 266,
-                "end": 267,
-                "decorators": [],
-                "name": "E",
-                "optional": false,
-                "typeAnnotation": null
-              }
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           }
         ]
       },
+      "kind": "namespace",
       "declare": false,
-      "global": false,
+      "global": false
+    },
+    {
+      "type": "TSModuleDeclaration",
+      "start": 235,
+      "end": 291,
       "id": {
         "type": "Identifier",
         "start": 245,
@@ -499,85 +426,85 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "namespace"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 248,
+        "end": 291,
+        "body": [
+          {
+            "type": "ExportNamedDeclaration",
+            "start": 254,
+            "end": 289,
+            "declaration": {
+              "type": "TSEnumDeclaration",
+              "start": 261,
+              "end": 289,
+              "id": {
+                "type": "Identifier",
+                "start": 266,
+                "end": 267,
+                "decorators": [],
+                "name": "E",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "body": {
+                "type": "TSEnumBody",
+                "start": 268,
+                "end": 289,
+                "members": [
+                  {
+                    "type": "TSEnumMember",
+                    "start": 278,
+                    "end": 279,
+                    "id": {
+                      "type": "Identifier",
+                      "start": 278,
+                      "end": 279,
+                      "decorators": [],
+                      "name": "a",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "initializer": null,
+                    "computed": false
+                  },
+                  {
+                    "type": "TSEnumMember",
+                    "start": 281,
+                    "end": 282,
+                    "id": {
+                      "type": "Identifier",
+                      "start": 281,
+                      "end": 282,
+                      "decorators": [],
+                      "name": "b",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "initializer": null,
+                    "computed": false
+                  }
+                ]
+              },
+              "const": false,
+              "declare": false
+            },
+            "specifiers": [],
+            "source": null,
+            "exportKind": "value",
+            "attributes": []
+          }
+        ]
+      },
+      "kind": "namespace",
+      "declare": false,
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 292,
       "end": 348,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 305,
-        "end": 348,
-        "body": [
-          {
-            "type": "ExportNamedDeclaration",
-            "start": 311,
-            "end": 346,
-            "attributes": [],
-            "declaration": {
-              "type": "TSEnumDeclaration",
-              "start": 318,
-              "end": 346,
-              "body": {
-                "type": "TSEnumBody",
-                "start": 325,
-                "end": 346,
-                "members": [
-                  {
-                    "type": "TSEnumMember",
-                    "start": 335,
-                    "end": 336,
-                    "computed": false,
-                    "id": {
-                      "type": "Identifier",
-                      "start": 335,
-                      "end": 336,
-                      "decorators": [],
-                      "name": "c",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "initializer": null
-                  },
-                  {
-                    "type": "TSEnumMember",
-                    "start": 338,
-                    "end": 339,
-                    "computed": false,
-                    "id": {
-                      "type": "Identifier",
-                      "start": 338,
-                      "end": 339,
-                      "decorators": [],
-                      "name": "d",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "initializer": null
-                  }
-                ]
-              },
-              "const": false,
-              "declare": false,
-              "id": {
-                "type": "Identifier",
-                "start": 323,
-                "end": 324,
-                "decorators": [],
-                "name": "E",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            },
-            "exportKind": "value",
-            "source": null,
-            "specifiers": []
-          }
-        ]
-      },
-      "declare": false,
-      "global": false,
       "id": {
         "type": "Identifier",
         "start": 302,
@@ -587,101 +514,85 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "namespace"
-    },
-    {
-      "type": "TSModuleDeclaration",
-      "start": 349,
-      "end": 417,
       "body": {
         "type": "TSModuleBlock",
-        "start": 365,
-        "end": 417,
+        "start": 305,
+        "end": 348,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 371,
-            "end": 415,
-            "attributes": [],
+            "start": 311,
+            "end": 346,
             "declaration": {
               "type": "TSEnumDeclaration",
-              "start": 378,
-              "end": 415,
+              "start": 318,
+              "end": 346,
+              "id": {
+                "type": "Identifier",
+                "start": 323,
+                "end": 324,
+                "decorators": [],
+                "name": "E",
+                "optional": false,
+                "typeAnnotation": null
+              },
               "body": {
                 "type": "TSEnumBody",
-                "start": 391,
-                "end": 415,
+                "start": 325,
+                "end": 346,
                 "members": [
                   {
                     "type": "TSEnumMember",
-                    "start": 401,
-                    "end": 402,
-                    "computed": false,
+                    "start": 335,
+                    "end": 336,
                     "id": {
                       "type": "Identifier",
-                      "start": 401,
-                      "end": 402,
-                      "decorators": [],
-                      "name": "a",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "initializer": null
-                  },
-                  {
-                    "type": "TSEnumMember",
-                    "start": 404,
-                    "end": 405,
-                    "computed": false,
-                    "id": {
-                      "type": "Identifier",
-                      "start": 404,
-                      "end": 405,
-                      "decorators": [],
-                      "name": "b",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "initializer": null
-                  },
-                  {
-                    "type": "TSEnumMember",
-                    "start": 407,
-                    "end": 408,
-                    "computed": false,
-                    "id": {
-                      "type": "Identifier",
-                      "start": 407,
-                      "end": 408,
+                      "start": 335,
+                      "end": 336,
                       "decorators": [],
                       "name": "c",
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "initializer": null
+                    "initializer": null,
+                    "computed": false
+                  },
+                  {
+                    "type": "TSEnumMember",
+                    "start": 338,
+                    "end": 339,
+                    "id": {
+                      "type": "Identifier",
+                      "start": 338,
+                      "end": 339,
+                      "decorators": [],
+                      "name": "d",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "initializer": null,
+                    "computed": false
                   }
                 ]
               },
-              "const": true,
-              "declare": false,
-              "id": {
-                "type": "Identifier",
-                "start": 389,
-                "end": 390,
-                "decorators": [],
-                "name": "E",
-                "optional": false,
-                "typeAnnotation": null
-              }
+              "const": false,
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           }
         ]
       },
+      "kind": "namespace",
       "declare": false,
-      "global": false,
+      "global": false
+    },
+    {
+      "type": "TSModuleDeclaration",
+      "start": 349,
+      "end": 417,
       "id": {
         "type": "Identifier",
         "start": 359,
@@ -691,12 +602,110 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "namespace"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 365,
+        "end": 417,
+        "body": [
+          {
+            "type": "ExportNamedDeclaration",
+            "start": 371,
+            "end": 415,
+            "declaration": {
+              "type": "TSEnumDeclaration",
+              "start": 378,
+              "end": 415,
+              "id": {
+                "type": "Identifier",
+                "start": 389,
+                "end": 390,
+                "decorators": [],
+                "name": "E",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "body": {
+                "type": "TSEnumBody",
+                "start": 391,
+                "end": 415,
+                "members": [
+                  {
+                    "type": "TSEnumMember",
+                    "start": 401,
+                    "end": 402,
+                    "id": {
+                      "type": "Identifier",
+                      "start": 401,
+                      "end": 402,
+                      "decorators": [],
+                      "name": "a",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "initializer": null,
+                    "computed": false
+                  },
+                  {
+                    "type": "TSEnumMember",
+                    "start": 404,
+                    "end": 405,
+                    "id": {
+                      "type": "Identifier",
+                      "start": 404,
+                      "end": 405,
+                      "decorators": [],
+                      "name": "b",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "initializer": null,
+                    "computed": false
+                  },
+                  {
+                    "type": "TSEnumMember",
+                    "start": 407,
+                    "end": 408,
+                    "id": {
+                      "type": "Identifier",
+                      "start": 407,
+                      "end": 408,
+                      "decorators": [],
+                      "name": "c",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "initializer": null,
+                    "computed": false
+                  }
+                ]
+              },
+              "const": true,
+              "declare": false
+            },
+            "specifiers": [],
+            "source": null,
+            "exportKind": "value",
+            "attributes": []
+          }
+        ]
+      },
+      "kind": "namespace",
+      "declare": false,
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 418,
       "end": 491,
+      "id": {
+        "type": "Identifier",
+        "start": 428,
+        "end": 432,
+        "decorators": [],
+        "name": "Decl",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 433,
@@ -706,11 +715,19 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 439,
             "end": 489,
-            "attributes": [],
             "declaration": {
               "type": "TSEnumDeclaration",
               "start": 446,
               "end": 489,
+              "id": {
+                "type": "Identifier",
+                "start": 459,
+                "end": 460,
+                "decorators": [],
+                "name": "E",
+                "optional": false,
+                "typeAnnotation": null
+              },
               "body": {
                 "type": "TSEnumBody",
                 "start": 461,
@@ -720,7 +737,6 @@ __ESTREE_TEST__:PASS:
                     "type": "TSEnumMember",
                     "start": 471,
                     "end": 472,
-                    "computed": false,
                     "id": {
                       "type": "Identifier",
                       "start": 471,
@@ -730,13 +746,13 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "initializer": null
+                    "initializer": null,
+                    "computed": false
                   },
                   {
                     "type": "TSEnumMember",
                     "start": 474,
                     "end": 475,
-                    "computed": false,
                     "id": {
                       "type": "Identifier",
                       "start": 474,
@@ -746,13 +762,13 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "initializer": null
+                    "initializer": null,
+                    "computed": false
                   },
                   {
                     "type": "TSEnumMember",
                     "start": 477,
                     "end": 482,
-                    "computed": false,
                     "id": {
                       "type": "Identifier",
                       "start": 477,
@@ -766,47 +782,40 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 481,
                       "end": 482,
-                      "raw": "3",
-                      "value": 3
-                    }
+                      "value": 3,
+                      "raw": "3"
+                    },
+                    "computed": false
                   }
                 ]
               },
               "const": false,
-              "declare": true,
-              "id": {
-                "type": "Identifier",
-                "start": 459,
-                "end": 460,
-                "decorators": [],
-                "name": "E",
-                "optional": false,
-                "typeAnnotation": null
-              }
+              "declare": true
             },
-            "exportKind": "type",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "type",
+            "attributes": []
           }
         ]
       },
+      "kind": "namespace",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 428,
-        "end": 432,
-        "decorators": [],
-        "name": "Decl",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "namespace"
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 492,
       "end": 597,
+      "id": {
+        "type": "Identifier",
+        "start": 502,
+        "end": 508,
+        "decorators": [],
+        "name": "Merged",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 509,
@@ -816,11 +825,19 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 515,
             "end": 551,
-            "attributes": [],
             "declaration": {
               "type": "TSEnumDeclaration",
               "start": 522,
               "end": 551,
+              "id": {
+                "type": "Identifier",
+                "start": 527,
+                "end": 528,
+                "decorators": [],
+                "name": "E",
+                "optional": false,
+                "typeAnnotation": null
+              },
               "body": {
                 "type": "TSEnumBody",
                 "start": 529,
@@ -830,7 +847,6 @@ __ESTREE_TEST__:PASS:
                     "type": "TSEnumMember",
                     "start": 539,
                     "end": 540,
-                    "computed": false,
                     "id": {
                       "type": "Identifier",
                       "start": 539,
@@ -840,13 +856,13 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "initializer": null
+                    "initializer": null,
+                    "computed": false
                   },
                   {
                     "type": "TSEnumMember",
                     "start": 542,
                     "end": 543,
-                    "computed": false,
                     "id": {
                       "type": "Identifier",
                       "start": 542,
@@ -856,35 +872,36 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "initializer": null
+                    "initializer": null,
+                    "computed": false
                   }
                 ]
               },
               "const": false,
-              "declare": false,
-              "id": {
-                "type": "Identifier",
-                "start": 527,
-                "end": 528,
-                "decorators": [],
-                "name": "E",
-                "optional": false,
-                "typeAnnotation": null
-              }
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
             "start": 556,
             "end": 595,
-            "attributes": [],
             "declaration": {
               "type": "TSEnumDeclaration",
               "start": 563,
               "end": 595,
+              "id": {
+                "type": "Identifier",
+                "start": 568,
+                "end": 569,
+                "decorators": [],
+                "name": "E",
+                "optional": false,
+                "typeAnnotation": null
+              },
               "body": {
                 "type": "TSEnumBody",
                 "start": 570,
@@ -894,7 +911,6 @@ __ESTREE_TEST__:PASS:
                     "type": "TSEnumMember",
                     "start": 580,
                     "end": 585,
-                    "computed": false,
                     "id": {
                       "type": "Identifier",
                       "start": 580,
@@ -908,15 +924,15 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 584,
                       "end": 585,
-                      "raw": "3",
-                      "value": 3
-                    }
+                      "value": 3,
+                      "raw": "3"
+                    },
+                    "computed": false
                   },
                   {
                     "type": "TSEnumMember",
                     "start": 587,
                     "end": 588,
-                    "computed": false,
                     "id": {
                       "type": "Identifier",
                       "start": 587,
@@ -926,45 +942,38 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "initializer": null
+                    "initializer": null,
+                    "computed": false
                   }
                 ]
               },
               "const": false,
-              "declare": false,
-              "id": {
-                "type": "Identifier",
-                "start": 568,
-                "end": 569,
-                "decorators": [],
-                "name": "E",
-                "optional": false,
-                "typeAnnotation": null
-              }
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           }
         ]
       },
+      "kind": "namespace",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 502,
-        "end": 508,
-        "decorators": [],
-        "name": "Merged",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "namespace"
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 599,
       "end": 716,
+      "id": {
+        "type": "Identifier",
+        "start": 609,
+        "end": 616,
+        "decorators": [],
+        "name": "Merged2",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 617,
@@ -974,11 +983,19 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 623,
             "end": 660,
-            "attributes": [],
             "declaration": {
               "type": "TSEnumDeclaration",
               "start": 630,
               "end": 660,
+              "id": {
+                "type": "Identifier",
+                "start": 635,
+                "end": 636,
+                "decorators": [],
+                "name": "E",
+                "optional": false,
+                "typeAnnotation": null
+              },
               "body": {
                 "type": "TSEnumBody",
                 "start": 637,
@@ -988,7 +1005,6 @@ __ESTREE_TEST__:PASS:
                     "type": "TSEnumMember",
                     "start": 647,
                     "end": 648,
-                    "computed": false,
                     "id": {
                       "type": "Identifier",
                       "start": 647,
@@ -998,13 +1014,13 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "initializer": null
+                    "initializer": null,
+                    "computed": false
                   },
                   {
                     "type": "TSEnumMember",
                     "start": 650,
                     "end": 651,
-                    "computed": false,
                     "id": {
                       "type": "Identifier",
                       "start": 650,
@@ -1014,13 +1030,13 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "initializer": null
+                    "initializer": null,
+                    "computed": false
                   },
                   {
                     "type": "TSEnumMember",
                     "start": 653,
                     "end": 654,
-                    "computed": false,
                     "id": {
                       "type": "Identifier",
                       "start": 653,
@@ -1030,35 +1046,36 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "initializer": null
+                    "initializer": null,
+                    "computed": false
                   }
                 ]
               },
               "const": false,
-              "declare": false,
-              "id": {
-                "type": "Identifier",
-                "start": 635,
-                "end": 636,
-                "decorators": [],
-                "name": "E",
-                "optional": false,
-                "typeAnnotation": null
-              }
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
             "start": 665,
             "end": 714,
-            "attributes": [],
             "declaration": {
               "type": "TSModuleDeclaration",
               "start": 672,
               "end": 714,
+              "id": {
+                "type": "Identifier",
+                "start": 679,
+                "end": 680,
+                "decorators": [],
+                "name": "E",
+                "optional": false,
+                "typeAnnotation": null
+              },
               "body": {
                 "type": "TSModuleBlock",
                 "start": 681,
@@ -1068,17 +1085,16 @@ __ESTREE_TEST__:PASS:
                     "type": "ExportNamedDeclaration",
                     "start": 691,
                     "end": 708,
-                    "attributes": [],
                     "declaration": {
                       "type": "VariableDeclaration",
                       "start": 698,
                       "end": 708,
+                      "kind": "let",
                       "declarations": [
                         {
                           "type": "VariableDeclarator",
                           "start": 702,
                           "end": 707,
-                          "definite": false,
                           "id": {
                             "type": "Identifier",
                             "start": 702,
@@ -1092,62 +1108,46 @@ __ESTREE_TEST__:PASS:
                             "type": "Literal",
                             "start": 706,
                             "end": 707,
-                            "raw": "5",
-                            "value": 5
-                          }
+                            "value": 5,
+                            "raw": "5"
+                          },
+                          "definite": false
                         }
                       ],
-                      "declare": false,
-                      "kind": "let"
+                      "declare": false
                     },
-                    "exportKind": "value",
+                    "specifiers": [],
                     "source": null,
-                    "specifiers": []
+                    "exportKind": "value",
+                    "attributes": []
                   }
                 ]
               },
+              "kind": "module",
               "declare": false,
-              "global": false,
-              "id": {
-                "type": "Identifier",
-                "start": 679,
-                "end": 680,
-                "decorators": [],
-                "name": "E",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "kind": "module"
+              "global": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           }
         ]
       },
+      "kind": "namespace",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 609,
-        "end": 616,
-        "decorators": [],
-        "name": "Merged2",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "namespace"
+      "global": false
     },
     {
       "type": "VariableDeclaration",
       "start": 718,
       "end": 735,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 722,
           "end": 734,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 722,
@@ -1163,7 +1163,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 727,
                 "end": 734,
-                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 727,
@@ -1186,26 +1185,27 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   }
-                }
+                },
+                "typeArguments": null
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 736,
       "end": 757,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 740,
           "end": 756,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 740,
@@ -1221,7 +1221,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 751,
                 "end": 756,
-                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 751,
@@ -1244,26 +1243,27 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   }
-                }
+                },
+                "typeArguments": null
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 758,
       "end": 781,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 762,
           "end": 780,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 762,
@@ -1279,7 +1279,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 774,
                 "end": 780,
-                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 774,
@@ -1302,26 +1301,27 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   }
-                }
+                },
+                "typeArguments": null
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 782,
       "end": 801,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 786,
           "end": 800,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 786,
@@ -1337,7 +1337,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 796,
                 "end": 800,
-                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 796,
@@ -1360,26 +1359,27 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   }
-                }
+                },
+                "typeArguments": null
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 802,
       "end": 821,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 806,
           "end": 820,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 806,
@@ -1395,7 +1395,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 816,
                 "end": 820,
-                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 816,
@@ -1418,26 +1417,27 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   }
-                }
+                },
+                "typeArguments": null
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 822,
       "end": 841,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 826,
           "end": 840,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 826,
@@ -1453,7 +1453,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 832,
                 "end": 840,
-                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 832,
@@ -1476,26 +1475,27 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   }
-                }
+                },
+                "typeArguments": null
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 842,
       "end": 857,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 846,
           "end": 856,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 846,
@@ -1511,7 +1511,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 849,
                 "end": 856,
-                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 849,
@@ -1534,26 +1533,27 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   }
-                }
+                },
+                "typeArguments": null
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 858,
       "end": 875,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 862,
           "end": 874,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 862,
@@ -1569,7 +1569,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 868,
                 "end": 874,
-                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 868,
@@ -1592,26 +1591,27 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   }
-                }
+                },
+                "typeArguments": null
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 876,
       "end": 897,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 880,
           "end": 896,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 880,
@@ -1627,7 +1627,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 888,
                 "end": 896,
-                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 888,
@@ -1650,26 +1649,27 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   }
-                }
+                },
+                "typeArguments": null
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 898,
       "end": 921,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 902,
           "end": 920,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 902,
@@ -1685,7 +1685,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 911,
                 "end": 920,
-                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 911,
@@ -1708,21 +1707,21 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   }
-                }
+                },
+                "typeArguments": null
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 922,
       "end": 938,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 922,
@@ -1746,13 +1745,13 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 945,
       "end": 962,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 945,
@@ -1776,13 +1775,13 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 978,
       "end": 993,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 978,
@@ -1806,13 +1805,13 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 1000,
       "end": 1015,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 1000,
@@ -1836,13 +1835,13 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 1031,
       "end": 1042,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 1031,
@@ -1866,13 +1865,13 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 1052,
       "end": 1063,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 1052,
@@ -1896,13 +1895,13 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 1114,
       "end": 1130,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 1114,
@@ -1926,13 +1925,13 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 1137,
       "end": 1154,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 1137,
@@ -1956,13 +1955,13 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 1161,
       "end": 1176,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 1161,
@@ -1986,13 +1985,13 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 1192,
       "end": 1207,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 1192,
@@ -2016,13 +2015,13 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 1231,
       "end": 1242,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 1231,
@@ -2046,13 +2045,13 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 1252,
       "end": 1263,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 1252,
@@ -2076,13 +2075,13 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 1353,
       "end": 1359,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 1353,
@@ -2106,13 +2105,13 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 1360,
       "end": 1368,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 1360,
@@ -2136,13 +2135,13 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 1378,
       "end": 1386,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 1378,
@@ -2166,13 +2165,13 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 1430,
       "end": 1443,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 1430,
@@ -2196,13 +2195,13 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 1459,
       "end": 1472,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 1459,
@@ -2226,13 +2225,13 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 1523,
       "end": 1537,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 1523,
@@ -2256,13 +2255,13 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 1544,
       "end": 1558,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 1544,
@@ -2286,7 +2285,8 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

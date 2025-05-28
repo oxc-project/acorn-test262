@@ -9,7 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 51,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 23,
+        "value": "foobar",
+        "raw": "\"foobar\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 24,
@@ -19,17 +25,16 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 26,
             "end": 49,
-            "attributes": [],
             "declaration": {
               "type": "VariableDeclaration",
               "start": 33,
               "end": 49,
+              "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 39,
                   "end": 48,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 39,
@@ -48,33 +53,27 @@ __ESTREE_TEST__:PASS:
                       }
                     }
                   },
-                  "init": null
+                  "init": null,
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "const"
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 23,
-        "raw": "\"foobar\"",
-        "value": "foobar"
-      }
+      "global": false
     },
     {
       "type": "ExpressionStatement",
       "start": 52,
       "end": 59,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 52,
@@ -83,13 +82,20 @@ __ESTREE_TEST__:PASS:
         "name": "foobar",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "TSModuleDeclaration",
       "start": 61,
       "end": 112,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 76,
+        "end": 84,
+        "value": "barfoo",
+        "raw": "'barfoo'"
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 85,
@@ -99,17 +105,16 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 87,
             "end": 110,
-            "attributes": [],
             "declaration": {
               "type": "VariableDeclaration",
               "start": 94,
               "end": 110,
+              "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 100,
                   "end": 109,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 100,
@@ -128,33 +133,27 @@ __ESTREE_TEST__:PASS:
                       }
                     }
                   },
-                  "init": null
+                  "init": null,
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "const"
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 76,
-        "end": 84,
-        "raw": "'barfoo'",
-        "value": "barfoo"
-      }
+      "global": false
     },
     {
       "type": "ExpressionStatement",
       "start": 113,
       "end": 120,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 113,
@@ -163,12 +162,22 @@ __ESTREE_TEST__:PASS:
         "name": "barfoo",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "TSModuleDeclaration",
       "start": 122,
       "end": 171,
+      "id": {
+        "type": "Identifier",
+        "start": 137,
+        "end": 143,
+        "decorators": [],
+        "name": "farboo",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 144,
@@ -178,17 +187,16 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 146,
             "end": 169,
-            "attributes": [],
             "declaration": {
               "type": "VariableDeclaration",
               "start": 153,
               "end": 169,
+              "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 159,
                   "end": 168,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 159,
@@ -207,36 +215,27 @@ __ESTREE_TEST__:PASS:
                       }
                     }
                   },
-                  "init": null
+                  "init": null,
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "const"
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 137,
-        "end": 143,
-        "decorators": [],
-        "name": "farboo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     },
     {
       "type": "ExpressionStatement",
       "start": 172,
       "end": 178,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 172,
@@ -245,7 +244,8 @@ __ESTREE_TEST__:PASS:
         "name": "faroo",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

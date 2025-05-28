@@ -9,16 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 34,
-      "attributes": [],
       "declaration": {
         "type": "TSDeclareFunction",
         "start": 7,
         "end": 34,
-        "async": false,
-        "body": null,
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 16,
@@ -28,6 +22,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [],
         "returnType": {
           "type": "TSTypeAnnotation",
@@ -39,11 +37,13 @@ __ESTREE_TEST__:PASS:
             "end": 33
           }
         },
-        "typeParameters": null
+        "body": null,
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -61,11 +61,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 0,
       "end": 41,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 17,
@@ -75,6 +70,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -105,56 +104,13 @@ __ESTREE_TEST__:PASS:
           "end": 40
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 42,
       "end": 110,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 71,
-        "end": 110,
-        "body": [
-          {
-            "type": "ExportNamedDeclaration",
-            "start": 77,
-            "end": 108,
-            "attributes": [],
-            "declaration": null,
-            "exportKind": "value",
-            "source": null,
-            "specifiers": [
-              {
-                "type": "ExportSpecifier",
-                "start": 85,
-                "end": 106,
-                "exported": {
-                  "type": "Identifier",
-                  "start": 99,
-                  "end": 106,
-                  "decorators": [],
-                  "name": "default",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "exportKind": "value",
-                "local": {
-                  "type": "Identifier",
-                  "start": 85,
-                  "end": 95,
-                  "decorators": [],
-                  "name": "nullthrows",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            ]
-          }
-        ]
-      },
-      "declare": true,
-      "global": false,
       "id": {
         "type": "Identifier",
         "start": 60,
@@ -164,7 +120,51 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "namespace"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 71,
+        "end": 110,
+        "body": [
+          {
+            "type": "ExportNamedDeclaration",
+            "start": 77,
+            "end": 108,
+            "declaration": null,
+            "specifiers": [
+              {
+                "type": "ExportSpecifier",
+                "start": 85,
+                "end": 106,
+                "local": {
+                  "type": "Identifier",
+                  "start": 85,
+                  "end": 95,
+                  "decorators": [],
+                  "name": "nullthrows",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "exported": {
+                  "type": "Identifier",
+                  "start": 99,
+                  "end": 106,
+                  "decorators": [],
+                  "name": "default",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "exportKind": "value"
+              }
+            ],
+            "source": null,
+            "exportKind": "value",
+            "attributes": []
+          }
+        ]
+      },
+      "kind": "namespace",
+      "declare": true,
+      "global": false
     },
     {
       "type": "TSExportAssignment",
@@ -196,14 +196,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 25,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 20,
-        "end": 24,
-        "raw": "'ip'",
-        "value": "ip"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -220,21 +212,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 20,
+        "end": 24,
+        "value": "ip",
+        "raw": "'ip'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 26,
       "end": 62,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 49,
-        "end": 61,
-        "raw": "'nullthrows'",
-        "value": "nullthrows"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -251,19 +243,49 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 49,
+        "end": 61,
+        "value": "nullthrows",
+        "raw": "'nullthrows'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 159,
       "end": 234,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 166,
         "end": 234,
+        "id": {
+          "type": "Identifier",
+          "start": 175,
+          "end": 185,
+          "decorators": [],
+          "name": "getAddress",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "generator": false,
         "async": false,
+        "declare": false,
+        "typeParameters": null,
+        "params": [],
+        "returnType": {
+          "type": "TSTypeAnnotation",
+          "start": 187,
+          "end": 195,
+          "typeAnnotation": {
+            "type": "TSStringKeyword",
+            "start": 189,
+            "end": 195
+          }
+        },
         "body": {
           "type": "BlockStatement",
           "start": 196,
@@ -277,41 +299,6 @@ __ESTREE_TEST__:PASS:
                 "type": "CallExpression",
                 "start": 207,
                 "end": 231,
-                "arguments": [
-                  {
-                    "type": "CallExpression",
-                    "start": 218,
-                    "end": 230,
-                    "arguments": [],
-                    "callee": {
-                      "type": "MemberExpression",
-                      "start": 218,
-                      "end": 228,
-                      "computed": false,
-                      "object": {
-                        "type": "Identifier",
-                        "start": 218,
-                        "end": 220,
-                        "decorators": [],
-                        "name": "ip",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "optional": false,
-                      "property": {
-                        "type": "Identifier",
-                        "start": 221,
-                        "end": 228,
-                        "decorators": [],
-                        "name": "address",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    },
-                    "optional": false,
-                    "typeArguments": null
-                  }
-                ],
                 "callee": {
                   "type": "Identifier",
                   "start": 207,
@@ -321,40 +308,53 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
-                "typeArguments": null
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "CallExpression",
+                    "start": 218,
+                    "end": 230,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 218,
+                      "end": 228,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 218,
+                        "end": 220,
+                        "decorators": [],
+                        "name": "ip",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 221,
+                        "end": 228,
+                        "decorators": [],
+                        "name": "address",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "optional": false,
+                      "computed": false
+                    },
+                    "typeArguments": null,
+                    "arguments": [],
+                    "optional": false
+                  }
+                ],
+                "optional": false
               }
             }
           ]
         },
-        "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 175,
-          "end": 185,
-          "decorators": [],
-          "name": "getAddress",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [],
-        "returnType": {
-          "type": "TSTypeAnnotation",
-          "start": 187,
-          "end": 195,
-          "typeAnnotation": {
-            "type": "TSStringKeyword",
-            "start": 189,
-            "end": 195
-          }
-        },
-        "typeParameters": null
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

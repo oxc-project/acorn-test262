@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 18,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 16,
-        "end": 18,
-        "body": []
-      },
-      "declare": true,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -27,10 +19,18 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 16,
+        "end": 18,
+        "body": []
+      },
+      "abstract": false,
+      "declare": true
     }
   ],
   "sourceType": "module",
@@ -48,12 +48,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 14,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 6,
           "end": 13,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
@@ -68,17 +68,16 @@ __ESTREE_TEST__:PASS:
             "start": 10,
             "end": 13,
             "properties": []
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 15,
       "end": 25,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 15,
@@ -88,7 +87,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 15,
           "end": 18,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 15,
@@ -98,7 +96,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 17,
@@ -107,7 +104,9 @@ __ESTREE_TEST__:PASS:
             "name": "d",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "ObjectExpression",
@@ -115,7 +114,8 @@ __ESTREE_TEST__:PASS:
           "end": 24,
           "properties": []
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

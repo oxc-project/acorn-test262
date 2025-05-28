@@ -13,7 +13,6 @@
         "end": 2051,
         "name": "fn"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -31,7 +30,6 @@
               "start": 2065,
               "end": 2078,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -40,11 +38,13 @@
                 "start": 2076,
                 "end": 2078,
                 "body": []
-              }
+              },
+              "expression": false
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -79,9 +79,7 @@
                     "type": "Property",
                     "start": 2163,
                     "end": 2176,
-                    "method": true,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 2163,
@@ -93,7 +91,6 @@
                       "start": 2171,
                       "end": 2176,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -102,9 +99,12 @@
                         "start": 2174,
                         "end": 2176,
                         "body": []
-                      }
+                      },
+                      "expression": false
                     },
-                    "kind": "init"
+                    "method": true,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }

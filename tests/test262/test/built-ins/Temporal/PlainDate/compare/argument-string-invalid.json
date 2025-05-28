@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 357,
       "end": 1337,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -271,13 +272,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1338,
       "end": 1387,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -309,8 +310,8 @@
                 "end": 1374,
                 "name": "PlainDate"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -337,8 +338,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -349,6 +349,7 @@
         "type": "VariableDeclaration",
         "start": 1393,
         "end": 1402,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -362,8 +363,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -400,8 +400,8 @@
                   "end": 1439,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -414,9 +414,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 1461,
                   "end": 1505,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -443,8 +441,8 @@
                           "end": 1485,
                           "name": "PlainDate"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -452,8 +450,8 @@
                         "end": 1493,
                         "name": "compare"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -470,20 +468,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 1511,
                   "end": 1587,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1515,
-                      "end": 1518,
-                      "name": "arg"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -504,6 +496,14 @@
                         "cooked": "\" should not be a valid ISO string for a PlainDate (first argument)"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1515,
+                      "end": 1518,
+                      "name": "arg"
                     }
                   ]
                 }
@@ -535,8 +535,8 @@
                   "end": 1608,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -549,9 +549,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 1630,
                   "end": 1674,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -578,8 +576,8 @@
                           "end": 1654,
                           "name": "PlainDate"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "property": {
                         "type": "Identifier",
@@ -587,8 +585,8 @@
                         "end": 1662,
                         "name": "compare"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -605,20 +603,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 1680,
                   "end": 1757,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1684,
-                      "end": 1687,
-                      "name": "arg"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -639,6 +631,14 @@
                         "cooked": "\" should not be a valid ISO string for a PlainDate (second argument)"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1684,
+                      "end": 1687,
+                      "name": "arg"
                     }
                   ]
                 }

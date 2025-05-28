@@ -9,21 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 30,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 7,
         "end": 30,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 28,
-          "end": 30,
-          "body": []
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 16,
@@ -33,31 +22,33 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [],
         "returnType": null,
-        "typeParameters": null
+        "body": {
+          "type": "BlockStatement",
+          "start": 28,
+          "end": 30,
+          "body": []
+        },
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 31,
       "end": 65,
-      "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
         "start": 38,
         "end": 65,
-        "body": {
-          "type": "TSInterfaceBody",
-          "start": 63,
-          "end": 65,
-          "body": []
-        },
-        "declare": false,
-        "extends": [],
         "id": {
           "type": "Identifier",
           "start": 48,
@@ -67,11 +58,20 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "typeParameters": null
+        "typeParameters": null,
+        "extends": [],
+        "body": {
+          "type": "TSInterfaceBody",
+          "start": 63,
+          "end": 65,
+          "body": []
+        },
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -89,14 +89,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 57,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 42,
-        "end": 56,
-        "raw": "\"./exports.js\"",
-        "value": "./exports.js"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -111,7 +103,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
@@ -120,7 +111,8 @@ __ESTREE_TEST__:PASS:
             "name": "Component",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         },
         {
           "type": "ImportSpecifier",
@@ -135,7 +127,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 20,
@@ -144,11 +135,20 @@ __ESTREE_TEST__:PASS:
             "name": "ComponentProps",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 42,
+        "end": 56,
+        "value": "./exports.js",
+        "raw": "\"./exports.js\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",
@@ -166,14 +166,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 62,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 47,
-        "end": 61,
-        "raw": "\"./exports.js\"",
-        "value": "./exports.js"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -188,7 +180,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
@@ -197,7 +188,8 @@ __ESTREE_TEST__:PASS:
             "name": "Component",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         },
         {
           "type": "ImportSpecifier",
@@ -212,7 +204,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "type",
           "local": {
             "type": "Identifier",
             "start": 25,
@@ -221,11 +212,20 @@ __ESTREE_TEST__:PASS:
             "name": "ComponentProps",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "type"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 47,
+        "end": 61,
+        "value": "./exports.js",
+        "raw": "\"./exports.js\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

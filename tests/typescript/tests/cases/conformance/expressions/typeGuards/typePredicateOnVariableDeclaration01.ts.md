@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 22,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 21,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -30,12 +30,12 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypePredicate",
                 "start": 7,
                 "end": 21,
-                "asserts": false,
                 "parameterName": {
                   "type": "TSThisType",
                   "start": 7,
                   "end": 11
                 },
+                "asserts": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
                   "start": 15,
@@ -49,11 +49,11 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

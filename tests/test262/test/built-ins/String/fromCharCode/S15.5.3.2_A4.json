@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 286,
       "end": 324,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -34,12 +35,11 @@
               "end": 323,
               "name": "fromCharCode"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -50,7 +50,6 @@
         "start": 326,
         "end": 352,
         "operator": "delete",
-        "prefix": true,
         "argument": {
           "type": "MemberExpression",
           "start": 333,
@@ -67,9 +66,10 @@
             "end": 352,
             "name": "fromCharCode"
           },
-          "computed": false,
-          "optional": false
-        }
+          "optional": false,
+          "computed": false
+        },
+        "prefix": true
       }
     },
     {
@@ -85,6 +85,7 @@
             "type": "VariableDeclaration",
             "start": 452,
             "end": 496,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -138,8 +139,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ThrowStatement",

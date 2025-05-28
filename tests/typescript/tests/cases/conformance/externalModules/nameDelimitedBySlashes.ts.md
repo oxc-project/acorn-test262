@@ -9,17 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 20,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 20,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 11,
             "end": 19,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 11,
@@ -33,17 +32,18 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 17,
               "end": 19,
-              "raw": "42",
-              "value": 42
-            }
+              "value": 42,
+              "raw": "42"
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -70,7 +70,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 13,
@@ -79,21 +78,22 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 21,
           "end": 35,
-          "raw": "'./test/foo_0'",
-          "value": "./test/foo_0"
+          "value": "./test/foo_0",
+          "raw": "'./test/foo_0'"
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 38,
       "end": 59,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 42,
           "end": 58,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 42,
@@ -107,12 +107,10 @@ __ESTREE_TEST__:PASS:
             "type": "BinaryExpression",
             "start": 46,
             "end": 58,
-            "operator": "+",
             "left": {
               "type": "MemberExpression",
               "start": 46,
               "end": 53,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 46,
@@ -122,7 +120,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 50,
@@ -131,20 +128,23 @@ __ESTREE_TEST__:PASS:
                 "name": "foo",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             },
+            "operator": "+",
             "right": {
               "type": "Literal",
               "start": 56,
               "end": 58,
-              "raw": "42",
-              "value": 42
+              "value": 42,
+              "raw": "42"
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "module",

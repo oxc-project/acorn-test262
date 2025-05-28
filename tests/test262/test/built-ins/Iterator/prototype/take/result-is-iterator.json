@@ -43,7 +43,6 @@
                       "start": 376,
                       "end": 391,
                       "id": null,
-                      "expression": false,
                       "generator": true,
                       "async": false,
                       "params": [],
@@ -52,7 +51,8 @@
                         "start": 389,
                         "end": 391,
                         "body": []
-                      }
+                      },
+                      "expression": false
                     }
                   },
                   "arguments": [],
@@ -64,8 +64,8 @@
                   "end": 399,
                   "name": "take"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {

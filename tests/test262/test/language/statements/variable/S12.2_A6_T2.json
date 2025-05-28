@@ -178,6 +178,7 @@
                   "type": "VariableDeclaration",
                   "start": 761,
                   "end": 783,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -191,8 +192,7 @@
                       },
                       "init": null
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 }
               ]
             },
@@ -215,6 +215,7 @@
                     "type": "VariableDeclaration",
                     "start": 807,
                     "end": 831,
+                    "kind": "var",
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
@@ -228,8 +229,7 @@
                         },
                         "init": null
                       }
-                    ],
-                    "kind": "var"
+                    ]
                   }
                 ]
               }
@@ -266,6 +266,7 @@
                     "type": "VariableDeclaration",
                     "start": 864,
                     "end": 888,
+                    "kind": "var",
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
@@ -279,8 +280,7 @@
                         },
                         "init": null
                       }
-                    ],
-                    "kind": "var"
+                    ]
                   }
                 ]
               },
@@ -303,6 +303,7 @@
                       "type": "VariableDeclaration",
                       "start": 915,
                       "end": 941,
+                      "kind": "var",
                       "declarations": [
                         {
                           "type": "VariableDeclarator",
@@ -316,8 +317,7 @@
                           },
                           "init": null
                         }
-                      ],
-                      "kind": "var"
+                      ]
                     }
                   ]
                 }

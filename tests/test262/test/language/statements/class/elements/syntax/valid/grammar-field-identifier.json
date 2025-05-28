@@ -23,85 +23,85 @@
             "type": "PropertyDefinition",
             "start": 1467,
             "end": 1469,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1467,
               "end": 1468,
               "name": "$"
             },
-            "value": null
+            "value": null,
+            "computed": false,
+            "static": false
           },
           {
             "type": "PropertyDefinition",
             "start": 1472,
             "end": 1474,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1472,
               "end": 1473,
               "name": "_"
             },
-            "value": null
+            "value": null,
+            "computed": false,
+            "static": false
           },
           {
             "type": "PropertyDefinition",
             "start": 1477,
             "end": 1484,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1477,
               "end": 1483,
               "name": "o"
             },
-            "value": null
+            "value": null,
+            "computed": false,
+            "static": false
           },
           {
             "type": "PropertyDefinition",
             "start": 1487,
             "end": 1494,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1487,
               "end": 1493,
               "name": "℘"
             },
-            "value": null
+            "value": null,
+            "computed": false,
+            "static": false
           },
           {
             "type": "PropertyDefinition",
             "start": 1497,
             "end": 1510,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1497,
               "end": 1509,
               "name": "ZW_‌_NJ"
             },
-            "value": null
+            "value": null,
+            "computed": false,
+            "static": false
           },
           {
             "type": "PropertyDefinition",
             "start": 1513,
             "end": 1525,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1513,
               "end": 1524,
               "name": "ZW_‍_J"
             },
-            "value": null
+            "value": null,
+            "computed": false,
+            "static": false
           }
         ]
       }

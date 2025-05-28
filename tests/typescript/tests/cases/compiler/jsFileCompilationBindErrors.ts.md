@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 14,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 13,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,24 +28,24 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 8,
             "end": 13,
-            "raw": "\"sss\"",
-            "value": "sss"
-          }
+            "value": "sss",
+            "raw": "\"sss\""
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 15,
       "end": 25,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 19,
           "end": 24,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 19,
@@ -59,19 +59,33 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 23,
             "end": 24,
-            "raw": "0",
-            "value": 0
-          }
+            "value": 0,
+            "raw": "0"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 82,
       "end": 160,
+      "id": {
+        "type": "Identifier",
+        "start": 91,
+        "end": 92,
+        "decorators": [],
+        "name": "f",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 95,
@@ -91,27 +105,27 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 91,
-        "end": 92,
-        "decorators": [],
-        "name": "f",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 162,
       "end": 273,
+      "id": {
+        "type": "Identifier",
+        "start": 171,
+        "end": 172,
+        "decorators": [],
+        "name": "b",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 175,
@@ -121,25 +135,25 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 181,
             "end": 194,
-            "directive": "use strict",
             "expression": {
               "type": "Literal",
               "start": 181,
               "end": 193,
-              "raw": "\"use strict\"",
-              "value": "use strict"
-            }
+              "value": "use strict",
+              "raw": "\"use strict\""
+            },
+            "directive": "use strict"
           },
           {
             "type": "VariableDeclaration",
             "start": 199,
             "end": 217,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 203,
                 "end": 216,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 203,
@@ -153,31 +167,17 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 215,
                   "end": 216,
-                  "raw": "0",
-                  "value": 0
-                }
+                  "value": 0,
+                  "raw": "0"
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 171,
-        "end": 172,
-        "decorators": [],
-        "name": "b",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

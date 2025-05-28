@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 20,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 6,
           "end": 19,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
@@ -43,81 +43,20 @@ __ESTREE_TEST__:PASS:
             "start": 17,
             "end": 19,
             "elements": []
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 21,
       "end": 76,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 28,
         "end": 76,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 57,
-          "end": 76,
-          "body": [
-            {
-              "type": "ExpressionStatement",
-              "start": 61,
-              "end": 74,
-              "directive": null,
-              "expression": {
-                "type": "CallExpression",
-                "start": 61,
-                "end": 73,
-                "arguments": [
-                  {
-                    "type": "Identifier",
-                    "start": 68,
-                    "end": 72,
-                    "decorators": [],
-                    "name": "data",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 61,
-                  "end": 67,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 61,
-                    "end": 62,
-                    "decorators": [],
-                    "name": "r",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 63,
-                    "end": 67,
-                    "decorators": [],
-                    "name": "push",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          ]
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 37,
@@ -127,6 +66,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [
           {
             "type": "Identifier",
@@ -148,11 +91,68 @@ __ESTREE_TEST__:PASS:
           }
         ],
         "returnType": null,
-        "typeParameters": null
+        "body": {
+          "type": "BlockStatement",
+          "start": 57,
+          "end": 76,
+          "body": [
+            {
+              "type": "ExpressionStatement",
+              "start": 61,
+              "end": 74,
+              "expression": {
+                "type": "CallExpression",
+                "start": 61,
+                "end": 73,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 61,
+                  "end": 67,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 61,
+                    "end": 62,
+                    "decorators": [],
+                    "name": "r",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 63,
+                    "end": 67,
+                    "decorators": [],
+                    "name": "push",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 68,
+                    "end": 72,
+                    "decorators": [],
+                    "name": "data",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                ],
+                "optional": false
+              },
+              "directive": null
+            }
+          ]
+        },
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -170,14 +170,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 30,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 25,
-        "end": 29,
-        "raw": "\"./\"",
-        "value": "./"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -192,7 +184,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
@@ -201,30 +192,29 @@ __ESTREE_TEST__:PASS:
             "name": "register",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 25,
+        "end": 29,
+        "value": "./",
+        "raw": "\"./\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 31,
       "end": 46,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 31,
         "end": 45,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 40,
-            "end": 44,
-            "raw": "\"ok\"",
-            "value": "ok"
-          }
-        ],
         "callee": {
           "type": "Identifier",
           "start": 31,
@@ -234,9 +224,19 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 40,
+            "end": 44,
+            "value": "ok",
+            "raw": "\"ok\""
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",
@@ -254,37 +254,36 @@ __ESTREE_TEST__:PASS:
       "type": "ExportAllDeclaration",
       "start": 0,
       "end": 27,
-      "attributes": [],
       "exported": null,
-      "exportKind": "value",
       "source": {
         "type": "Literal",
         "start": 14,
         "end": 26,
-        "raw": "\"./register\"",
-        "value": "./register"
-      }
+        "value": "./register",
+        "raw": "\"./register\""
+      },
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "ExportAllDeclaration",
       "start": 28,
       "end": 52,
-      "attributes": [],
       "exported": null,
-      "exportKind": "value",
       "source": {
         "type": "Literal",
         "start": 42,
         "end": 51,
-        "raw": "\"./data1\"",
-        "value": "./data1"
-      }
+        "value": "./data1",
+        "raw": "\"./data1\""
+      },
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "ExportAllDeclaration",
       "start": 53,
       "end": 88,
-      "attributes": [],
       "exported": {
         "type": "Identifier",
         "start": 65,
@@ -294,14 +293,15 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "exportKind": "value",
       "source": {
         "type": "Literal",
         "start": 78,
         "end": 87,
-        "raw": "\"./data1\"",
-        "value": "./data1"
-      }
+        "value": "./data1",
+        "raw": "\"./data1\""
+      },
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",

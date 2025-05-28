@@ -9,57 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 31,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 13,
-        "end": 31,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 19,
-            "end": 29,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 19,
-              "end": 29,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 19,
-                "end": 25,
-                "computed": false,
-                "object": {
-                  "type": "ThisExpression",
-                  "start": 19,
-                  "end": 23
-                },
-                "optional": false,
-                "property": {
-                  "type": "Identifier",
-                  "start": 24,
-                  "end": 25,
-                  "decorators": [],
-                  "name": "a",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              },
-              "right": {
-                "type": "Literal",
-                "start": 28,
-                "end": 29,
-                "raw": "1",
-                "value": 1
-              }
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -69,9 +18,60 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 13,
+        "end": 31,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 19,
+            "end": 29,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 19,
+              "end": 29,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 19,
+                "end": 25,
+                "object": {
+                  "type": "ThisExpression",
+                  "start": 19,
+                  "end": 23
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 24,
+                  "end": 25,
+                  "decorators": [],
+                  "name": "a",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "optional": false,
+                "computed": false
+              },
+              "right": {
+                "type": "Literal",
+                "start": 28,
+                "end": 29,
+                "value": 1,
+                "raw": "1"
+              }
+            },
+            "directive": null
+          }
+        ]
+      },
+      "expression": false
     }
   ],
   "sourceType": "module",
@@ -89,7 +89,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 46,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 0,
@@ -99,12 +98,10 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 0,
           "end": 15,
-          "computed": false,
           "object": {
             "type": "MemberExpression",
             "start": 0,
             "end": 11,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 0,
@@ -114,7 +111,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 2,
@@ -123,9 +119,10 @@ __ESTREE_TEST__:PASS:
               "name": "prototype",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "optional": false,
+            "computed": false
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 12,
@@ -134,13 +131,21 @@ __ESTREE_TEST__:PASS:
             "name": "foo",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "FunctionExpression",
           "start": 18,
           "end": 46,
+          "id": null,
+          "generator": false,
           "async": false,
+          "declare": false,
+          "typeParameters": null,
+          "params": [],
+          "returnType": null,
           "body": {
             "type": "BlockStatement",
             "start": 29,
@@ -154,13 +159,11 @@ __ESTREE_TEST__:PASS:
                   "type": "MemberExpression",
                   "start": 38,
                   "end": 44,
-                  "computed": false,
                   "object": {
                     "type": "ThisExpression",
                     "start": 38,
                     "end": 42
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 43,
@@ -169,20 +172,17 @@ __ESTREE_TEST__:PASS:
                     "name": "a",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "optional": false,
+                  "computed": false
                 }
               }
             ]
           },
-          "declare": false,
-          "expression": false,
-          "generator": false,
-          "id": null,
-          "params": [],
-          "returnType": null,
-          "typeParameters": null
+          "expression": false
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

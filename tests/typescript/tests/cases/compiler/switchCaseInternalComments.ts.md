@@ -9,15 +9,38 @@ __ESTREE_TEST__:PASS:
       "type": "LabeledStatement",
       "start": 7,
       "end": 259,
+      "label": {
+        "type": "Identifier",
+        "start": 7,
+        "end": 10,
+        "decorators": [],
+        "name": "foo",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "SwitchStatement",
         "start": 25,
         "end": 259,
+        "discriminant": {
+          "type": "Literal",
+          "start": 46,
+          "end": 51,
+          "value": false,
+          "raw": "false"
+        },
         "cases": [
           {
             "type": "SwitchCase",
             "start": 78,
             "end": 148,
+            "test": {
+              "type": "Literal",
+              "start": 89,
+              "end": 94,
+              "value": false,
+              "raw": "false"
+            },
             "consequent": [
               {
                 "type": "BreakStatement",
@@ -33,26 +56,26 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            ],
-            "test": {
-              "type": "Literal",
-              "start": 89,
-              "end": 94,
-              "raw": "false",
-              "value": false
-            }
+            ]
           },
           {
             "type": "SwitchCase",
             "start": 160,
             "end": 176,
-            "consequent": [],
-            "test": null
+            "test": null,
+            "consequent": []
           },
           {
             "type": "SwitchCase",
             "start": 195,
             "end": 250,
+            "test": {
+              "type": "Literal",
+              "start": 207,
+              "end": 212,
+              "value": false,
+              "raw": "false"
+            },
             "consequent": [
               {
                 "type": "BlockStatement",
@@ -60,32 +83,9 @@ __ESTREE_TEST__:PASS:
                 "end": 250,
                 "body": []
               }
-            ],
-            "test": {
-              "type": "Literal",
-              "start": 207,
-              "end": 212,
-              "raw": "false",
-              "value": false
-            }
+            ]
           }
-        ],
-        "discriminant": {
-          "type": "Literal",
-          "start": 46,
-          "end": 51,
-          "raw": "false",
-          "value": false
-        }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 7,
-        "end": 10,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
+        ]
       }
     }
   ],

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 499,
       "end": 520,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "false"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 529,
       "end": 557,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -60,20 +61,19 @@
                 "start": 553,
                 "end": 555,
                 "operator": "+",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 554,
                   "end": 555,
                   "value": 0,
                   "raw": "0"
-                }
+                },
+                "prefix": true
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForStatement",
@@ -83,6 +83,7 @@
         "type": "VariableDeclaration",
         "start": 571,
         "end": 580,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -102,8 +103,7 @@
               "raw": "0"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "Identifier",

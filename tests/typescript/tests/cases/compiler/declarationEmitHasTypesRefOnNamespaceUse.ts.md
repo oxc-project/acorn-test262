@@ -9,38 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 50,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 21,
-        "end": 50,
-        "body": [
-          {
-            "type": "TSInterfaceDeclaration",
-            "start": 27,
-            "end": 48,
-            "body": {
-              "type": "TSInterfaceBody",
-              "start": 41,
-              "end": 48,
-              "body": []
-            },
-            "declare": false,
-            "extends": [],
-            "id": {
-              "type": "Identifier",
-              "start": 37,
-              "end": 40,
-              "decorators": [],
-              "name": "Dep",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeParameters": null
-          }
-        ]
-      },
-      "declare": true,
-      "global": false,
       "id": {
         "type": "Identifier",
         "start": 18,
@@ -50,7 +18,39 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "namespace"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 21,
+        "end": 50,
+        "body": [
+          {
+            "type": "TSInterfaceDeclaration",
+            "start": 27,
+            "end": 48,
+            "id": {
+              "type": "Identifier",
+              "start": 37,
+              "end": 40,
+              "decorators": [],
+              "name": "Dep",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null,
+            "extends": [],
+            "body": {
+              "type": "TSInterfaceBody",
+              "start": 41,
+              "end": 48,
+              "body": []
+            },
+            "declare": false
+          }
+        ]
+      },
+      "kind": "namespace",
+      "declare": true,
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -68,14 +68,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 31,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 28,
-        "end": 31,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -86,6 +78,9 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
       "implements": [
         {
           "type": "TSClassImplements",
@@ -95,7 +90,6 @@ __ESTREE_TEST__:PASS:
             "type": "MemberExpression",
             "start": 21,
             "end": 27,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 21,
@@ -105,7 +99,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 24,
@@ -114,14 +107,21 @@ __ESTREE_TEST__:PASS:
               "name": "Dep",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "optional": false,
+            "computed": false
           },
           "typeArguments": null
         }
       ],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "body": {
+        "type": "ClassBody",
+        "start": 28,
+        "end": 31,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "module",

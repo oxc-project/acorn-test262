@@ -15,9 +15,7 @@
           "type": "ArrowFunctionExpression",
           "start": 1092,
           "end": 1160,
-          "id": null,
           "expression": false,
-          "generator": false,
           "async": true,
           "params": [],
           "body": {
@@ -64,7 +62,9 @@
                 }
               }
             ]
-          }
+          },
+          "id": null,
+          "generator": false
         }
       }
     }

@@ -9,20 +9,34 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 12,
-      "directive": "use strict",
       "expression": {
         "type": "Literal",
         "start": 0,
         "end": 12,
-        "raw": "\"use strict\"",
-        "value": "use strict"
-      }
+        "value": "use strict",
+        "raw": "\"use strict\""
+      },
+      "directive": "use strict"
     },
     {
       "type": "FunctionDeclaration",
       "start": 13,
       "end": 45,
+      "id": {
+        "type": "Identifier",
+        "start": 22,
+        "end": 23,
+        "decorators": [],
+        "name": "f",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 26,
@@ -32,12 +46,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 32,
             "end": 43,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 36,
                 "end": 42,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 36,
@@ -52,29 +66,15 @@ __ESTREE_TEST__:PASS:
                   "start": 40,
                   "end": 42,
                   "elements": []
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 22,
-        "end": 23,
-        "decorators": [],
-        "name": "f",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

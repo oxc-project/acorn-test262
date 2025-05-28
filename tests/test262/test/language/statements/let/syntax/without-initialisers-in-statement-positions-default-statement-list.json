@@ -19,11 +19,13 @@
           "type": "SwitchCase",
           "start": 287,
           "end": 302,
+          "test": null,
           "consequent": [
             {
               "type": "VariableDeclaration",
               "start": 296,
               "end": 302,
+              "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -37,11 +39,9 @@
                   },
                   "init": null
                 }
-              ],
-              "kind": "let"
+              ]
             }
-          ],
-          "test": null
+          ]
         }
       ]
     }

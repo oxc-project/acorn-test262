@@ -12,6 +12,7 @@
           "type": "VariableDeclaration",
           "start": 381,
           "end": 429,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -43,8 +44,8 @@
                     "end": 415,
                     "name": "PlainDate"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -71,8 +72,7 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "ForOfStatement",
@@ -83,6 +83,7 @@
             "type": "VariableDeclaration",
             "start": 437,
             "end": 454,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -96,8 +97,7 @@
                 },
                 "init": null
               }
-            ],
-            "kind": "const"
+            ]
           },
           "right": {
             "type": "ArrayExpression",
@@ -149,8 +149,8 @@
                       "end": 515,
                       "name": "assertDuration"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -181,8 +181,8 @@
                               "end": 545,
                               "name": "PlainDate"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -214,8 +214,8 @@
                           "end": 564,
                           "name": "since"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -233,9 +233,7 @@
                               "type": "Property",
                               "start": 572,
                               "end": 583,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 572,
@@ -248,7 +246,9 @@
                                 "end": 583,
                                 "name": "largestUnit"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -267,14 +267,14 @@
                       "start": 597,
                       "end": 599,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 598,
                         "end": 599,
                         "value": 1,
                         "raw": "1"
-                      }
+                      },
+                      "prefix": true
                     },
                     {
                       "type": "Literal",
@@ -367,8 +367,8 @@
                       "end": 708,
                       "name": "assertDuration"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -399,8 +399,8 @@
                               "end": 738,
                               "name": "PlainDate"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -432,8 +432,8 @@
                           "end": 757,
                           "name": "since"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -451,9 +451,7 @@
                               "type": "Property",
                               "start": 765,
                               "end": 776,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 765,
@@ -466,7 +464,9 @@
                                 "end": 776,
                                 "name": "largestUnit"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -499,14 +499,14 @@
                       "start": 796,
                       "end": 799,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 797,
                         "end": 799,
                         "value": 30,
                         "raw": "30"
-                      }
+                      },
+                      "prefix": true
                     },
                     {
                       "type": "Literal",
@@ -585,8 +585,8 @@
                       "end": 915,
                       "name": "assertDuration"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -617,8 +617,8 @@
                               "end": 945,
                               "name": "PlainDate"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -650,8 +650,8 @@
                           "end": 964,
                           "name": "since"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -669,9 +669,7 @@
                               "type": "Property",
                               "start": 972,
                               "end": 983,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 972,
@@ -684,7 +682,9 @@
                                 "end": 983,
                                 "name": "largestUnit"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -717,14 +717,14 @@
                       "start": 1003,
                       "end": 1006,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 1004,
                         "end": 1006,
                         "value": 29,
                         "raw": "29"
-                      }
+                      },
+                      "prefix": true
                     },
                     {
                       "type": "Literal",
@@ -803,8 +803,8 @@
                       "end": 1122,
                       "name": "assertDuration"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -835,8 +835,8 @@
                               "end": 1152,
                               "name": "PlainDate"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -868,8 +868,8 @@
                           "end": 1171,
                           "name": "since"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -887,9 +887,7 @@
                               "type": "Property",
                               "start": 1179,
                               "end": 1190,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 1179,
@@ -902,7 +900,9 @@
                                 "end": 1190,
                                 "name": "largestUnit"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -935,14 +935,14 @@
                       "start": 1210,
                       "end": 1213,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 1211,
                         "end": 1213,
                         "value": 28,
                         "raw": "28"
-                      }
+                      },
+                      "prefix": true
                     },
                     {
                       "type": "Literal",
@@ -1011,6 +1011,7 @@
           "type": "VariableDeclaration",
           "start": 1382,
           "end": 1430,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -1042,8 +1043,8 @@
                     "end": 1416,
                     "name": "PlainDate"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -1070,8 +1071,7 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "ForOfStatement",
@@ -1082,6 +1082,7 @@
             "type": "VariableDeclaration",
             "start": 1438,
             "end": 1455,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -1095,8 +1096,7 @@
                 },
                 "init": null
               }
-            ],
-            "kind": "const"
+            ]
           },
           "right": {
             "type": "ArrayExpression",
@@ -1148,8 +1148,8 @@
                       "end": 1516,
                       "name": "assertDuration"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1180,8 +1180,8 @@
                               "end": 1546,
                               "name": "PlainDate"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -1213,8 +1213,8 @@
                           "end": 1565,
                           "name": "since"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -1232,9 +1232,7 @@
                               "type": "Property",
                               "start": 1573,
                               "end": 1584,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 1573,
@@ -1247,7 +1245,9 @@
                                 "end": 1584,
                                 "name": "largestUnit"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -1266,14 +1266,14 @@
                       "start": 1598,
                       "end": 1600,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 1599,
                         "end": 1600,
                         "value": 1,
                         "raw": "1"
-                      }
+                      },
+                      "prefix": true
                     },
                     {
                       "type": "Literal",
@@ -1366,8 +1366,8 @@
                       "end": 1709,
                       "name": "assertDuration"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1398,8 +1398,8 @@
                               "end": 1739,
                               "name": "PlainDate"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -1431,8 +1431,8 @@
                           "end": 1758,
                           "name": "since"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -1450,9 +1450,7 @@
                               "type": "Property",
                               "start": 1766,
                               "end": 1777,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 1766,
@@ -1465,7 +1463,9 @@
                                 "end": 1777,
                                 "name": "largestUnit"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -1498,14 +1498,14 @@
                       "start": 1797,
                       "end": 1800,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 1798,
                         "end": 1800,
                         "value": 30,
                         "raw": "30"
-                      }
+                      },
+                      "prefix": true
                     },
                     {
                       "type": "Literal",
@@ -1584,8 +1584,8 @@
                       "end": 1916,
                       "name": "assertDuration"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1616,8 +1616,8 @@
                               "end": 1946,
                               "name": "PlainDate"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -1649,8 +1649,8 @@
                           "end": 1965,
                           "name": "since"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -1668,9 +1668,7 @@
                               "type": "Property",
                               "start": 1973,
                               "end": 1984,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 1973,
@@ -1683,7 +1681,9 @@
                                 "end": 1984,
                                 "name": "largestUnit"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -1716,14 +1716,14 @@
                       "start": 2004,
                       "end": 2007,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 2005,
                         "end": 2007,
                         "value": 29,
                         "raw": "29"
-                      }
+                      },
+                      "prefix": true
                     },
                     {
                       "type": "Literal",
@@ -1792,6 +1792,7 @@
           "type": "VariableDeclaration",
           "start": 2195,
           "end": 2244,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -1823,8 +1824,8 @@
                     "end": 2229,
                     "name": "PlainDate"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -1851,8 +1852,7 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "ForOfStatement",
@@ -1863,6 +1863,7 @@
             "type": "VariableDeclaration",
             "start": 2252,
             "end": 2269,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -1876,8 +1877,7 @@
                 },
                 "init": null
               }
-            ],
-            "kind": "const"
+            ]
           },
           "right": {
             "type": "ArrayExpression",
@@ -1929,8 +1929,8 @@
                       "end": 2330,
                       "name": "assertDuration"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1961,8 +1961,8 @@
                               "end": 2360,
                               "name": "PlainDate"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -1994,8 +1994,8 @@
                           "end": 2379,
                           "name": "since"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -2013,9 +2013,7 @@
                               "type": "Property",
                               "start": 2387,
                               "end": 2398,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 2387,
@@ -2028,7 +2026,9 @@
                                 "end": 2398,
                                 "name": "largestUnit"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -2047,14 +2047,14 @@
                       "start": 2412,
                       "end": 2414,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 2413,
                         "end": 2414,
                         "value": 3,
                         "raw": "3"
-                      }
+                      },
+                      "prefix": true
                     },
                     {
                       "type": "Literal",
@@ -2147,8 +2147,8 @@
                       "end": 2522,
                       "name": "assertDuration"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -2179,8 +2179,8 @@
                               "end": 2552,
                               "name": "PlainDate"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -2212,8 +2212,8 @@
                           "end": 2571,
                           "name": "since"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -2231,9 +2231,7 @@
                               "type": "Property",
                               "start": 2579,
                               "end": 2590,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 2579,
@@ -2246,7 +2244,9 @@
                                 "end": 2590,
                                 "name": "largestUnit"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -2265,14 +2265,14 @@
                       "start": 2604,
                       "end": 2606,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 2605,
                         "end": 2606,
                         "value": 2,
                         "raw": "2"
-                      }
+                      },
+                      "prefix": true
                     },
                     {
                       "type": "Literal",
@@ -2286,14 +2286,14 @@
                       "start": 2611,
                       "end": 2614,
                       "operator": "-",
-                      "prefix": true,
                       "argument": {
                         "type": "Literal",
                         "start": 2612,
                         "end": 2614,
                         "value": 30,
                         "raw": "30"
-                      }
+                      },
+                      "prefix": true
                     },
                     {
                       "type": "Literal",
@@ -2362,6 +2362,7 @@
           "type": "VariableDeclaration",
           "start": 2803,
           "end": 2851,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -2393,8 +2394,8 @@
                     "end": 2837,
                     "name": "PlainDate"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -2421,8 +2422,7 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "ExpressionStatement",
@@ -2448,8 +2448,8 @@
                 "end": 2884,
                 "name": "assertDuration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2480,8 +2480,8 @@
                         "end": 2912,
                         "name": "PlainDate"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2513,8 +2513,8 @@
                     "end": 2932,
                     "name": "since"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -2532,9 +2532,7 @@
                         "type": "Property",
                         "start": 2940,
                         "end": 2961,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 2940,
@@ -2548,7 +2546,9 @@
                           "value": "months",
                           "raw": "\"months\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   }
@@ -2567,14 +2567,14 @@
                 "start": 2973,
                 "end": 2976,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 2974,
                   "end": 2976,
                   "value": 28,
                   "raw": "28"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -2667,8 +2667,8 @@
                 "end": 3089,
                 "name": "assertDuration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2699,8 +2699,8 @@
                         "end": 3117,
                         "name": "PlainDate"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2732,8 +2732,8 @@
                     "end": 3137,
                     "name": "since"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -2751,9 +2751,7 @@
                         "type": "Property",
                         "start": 3145,
                         "end": 3165,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 3145,
@@ -2767,7 +2765,9 @@
                           "value": "years",
                           "raw": "\"years\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   }
@@ -2779,28 +2779,28 @@
                 "start": 3174,
                 "end": 3176,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 3175,
                   "end": 3176,
                   "value": 2,
                   "raw": "2"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 3178,
                 "end": 3180,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 3179,
                   "end": 3180,
                   "value": 4,
                   "raw": "4"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -2893,8 +2893,8 @@
                 "end": 3301,
                 "name": "assertDuration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -2925,8 +2925,8 @@
                         "end": 3329,
                         "name": "PlainDate"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -2958,8 +2958,8 @@
                     "end": 3349,
                     "name": "since"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -2977,9 +2977,7 @@
                         "type": "Property",
                         "start": 3357,
                         "end": 3378,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 3357,
@@ -2993,7 +2991,9 @@
                           "value": "months",
                           "raw": "\"months\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   }
@@ -3012,14 +3012,14 @@
                 "start": 3390,
                 "end": 3393,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 3391,
                   "end": 3393,
                   "value": 27,
                   "raw": "27"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -3033,14 +3033,14 @@
                 "start": 3398,
                 "end": 3401,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 3399,
                   "end": 3401,
                   "value": 30,
                   "raw": "30"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -3119,8 +3119,8 @@
                 "end": 3532,
                 "name": "assertDuration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -3151,8 +3151,8 @@
                         "end": 3560,
                         "name": "PlainDate"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -3184,8 +3184,8 @@
                     "end": 3580,
                     "name": "since"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -3203,9 +3203,7 @@
                         "type": "Property",
                         "start": 3588,
                         "end": 3608,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 3588,
@@ -3219,7 +3217,9 @@
                           "value": "years",
                           "raw": "\"years\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   }
@@ -3231,28 +3231,28 @@
                 "start": 3617,
                 "end": 3619,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 3618,
                   "end": 3619,
                   "value": 2,
                   "raw": "2"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 3621,
                 "end": 3623,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 3622,
                   "end": 3623,
                   "value": 3,
                   "raw": "3"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -3266,14 +3266,14 @@
                 "start": 3628,
                 "end": 3631,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 3629,
                   "end": 3631,
                   "value": 30,
                   "raw": "30"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -3359,8 +3359,8 @@
                 "end": 3904,
                 "name": "assertDuration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -3391,8 +3391,8 @@
                         "end": 3932,
                         "name": "PlainDate"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -3424,8 +3424,8 @@
                     "end": 3951,
                     "name": "since"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -3448,8 +3448,8 @@
                         "end": 3974,
                         "name": "PlainDate"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -3484,9 +3484,7 @@
                         "type": "Property",
                         "start": 3991,
                         "end": 4012,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 3991,
@@ -3500,7 +3498,9 @@
                           "value": "months",
                           "raw": "\"months\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   }
@@ -3519,14 +3519,14 @@
                 "start": 4024,
                 "end": 4026,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 4025,
                   "end": 4026,
                   "value": 1,
                   "raw": "1"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -3540,14 +3540,14 @@
                 "start": 4031,
                 "end": 4034,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 4032,
                   "end": 4034,
                   "value": 28,
                   "raw": "28"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -3626,8 +3626,8 @@
                 "end": 4150,
                 "name": "assertDuration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -3658,8 +3658,8 @@
                         "end": 4178,
                         "name": "PlainDate"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -3691,8 +3691,8 @@
                     "end": 4197,
                     "name": "since"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -3715,8 +3715,8 @@
                         "end": 4220,
                         "name": "PlainDate"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -3751,9 +3751,7 @@
                         "type": "Property",
                         "start": 4237,
                         "end": 4257,
-                        "method": false,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 4237,
@@ -3767,7 +3765,9 @@
                           "value": "years",
                           "raw": "\"years\""
                         },
-                        "kind": "init"
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   }
@@ -3779,28 +3779,28 @@
                 "start": 4266,
                 "end": 4268,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 4267,
                   "end": 4268,
                   "value": 1,
                   "raw": "1"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "UnaryExpression",
                 "start": 4270,
                 "end": 4272,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 4271,
                   "end": 4272,
                   "value": 3,
                   "raw": "3"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",
@@ -3814,14 +3814,14 @@
                 "start": 4277,
                 "end": 4280,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 4278,
                   "end": 4280,
                   "value": 30,
                   "raw": "30"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Literal",

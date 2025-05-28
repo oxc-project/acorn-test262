@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 569,
       "end": 673,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -46,8 +47,8 @@
                     "end": 614,
                     "name": "ZonedDateTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -73,8 +74,8 @@
                 "end": 660,
                 "name": "getTimeZoneTransition"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -88,8 +89,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -115,8 +115,8 @@
             "end": 693,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -135,8 +135,8 @@
               "end": 725,
               "name": "offsetNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "MemberExpression",
@@ -162,8 +162,8 @@
                   "end": 748,
                   "name": "subtract"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -175,9 +175,7 @@
                       "type": "Property",
                       "start": 751,
                       "end": 765,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 751,
@@ -191,7 +189,9 @@
                         "value": 1,
                         "raw": "1"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
@@ -204,8 +204,8 @@
               "end": 786,
               "name": "offsetNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -242,8 +242,8 @@
             "end": 845,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -262,15 +262,14 @@
               "end": 876,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "UnaryExpression",
             "start": 880,
             "end": 899,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 881,
@@ -278,7 +277,8 @@
               "value": null,
               "raw": "59004000000000000n",
               "bigint": "59004000000000000"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -295,6 +295,7 @@
       "type": "VariableDeclaration",
       "start": 957,
       "end": 1106,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -334,8 +335,8 @@
                     "end": 1002,
                     "name": "ZonedDateTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -343,7 +344,6 @@
                     "start": 1003,
                     "end": 1022,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 1004,
@@ -351,7 +351,8 @@
                       "value": null,
                       "raw": "39488400000000000n",
                       "bigint": "39488400000000000"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "Literal",
@@ -368,8 +369,8 @@
                 "end": 1097,
                 "name": "getTimeZoneTransition"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -383,8 +384,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -410,8 +410,8 @@
             "end": 1126,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -430,8 +430,8 @@
               "end": 1158,
               "name": "offsetNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "MemberExpression",
@@ -457,8 +457,8 @@
                   "end": 1181,
                   "name": "subtract"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -470,9 +470,7 @@
                       "type": "Property",
                       "start": 1184,
                       "end": 1198,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1184,
@@ -486,7 +484,9 @@
                         "value": 1,
                         "raw": "1"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
@@ -499,8 +499,8 @@
               "end": 1219,
               "name": "offsetNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -537,8 +537,8 @@
             "end": 1278,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -557,8 +557,8 @@
               "end": 1309,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -583,6 +583,7 @@
       "type": "VariableDeclaration",
       "start": 1630,
       "end": 1790,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -622,8 +623,8 @@
                     "end": 1678,
                     "name": "ZonedDateTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -631,7 +632,6 @@
                     "start": 1679,
                     "end": 1698,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 1680,
@@ -639,7 +639,8 @@
                       "value": null,
                       "raw": "84290400000000000n",
                       "bigint": "84290400000000000"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "Literal",
@@ -656,8 +657,8 @@
                 "end": 1777,
                 "name": "getTimeZoneTransition"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -671,8 +672,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -698,8 +698,8 @@
             "end": 1810,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -718,8 +718,8 @@
               "end": 1845,
               "name": "offsetNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "MemberExpression",
@@ -745,8 +745,8 @@
                   "end": 1871,
                   "name": "subtract"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -758,9 +758,7 @@
                       "type": "Property",
                       "start": 1874,
                       "end": 1888,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1874,
@@ -774,7 +772,9 @@
                         "value": 1,
                         "raw": "1"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
@@ -787,8 +787,8 @@
               "end": 1909,
               "name": "offsetNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -825,8 +825,8 @@
             "end": 1968,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -845,15 +845,14 @@
               "end": 2002,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "UnaryExpression",
             "start": 2006,
             "end": 2026,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 2007,
@@ -861,7 +860,8 @@
               "value": null,
               "raw": "765378000000000000n",
               "bigint": "765378000000000000"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -878,6 +878,7 @@
       "type": "VariableDeclaration",
       "start": 2084,
       "end": 2240,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -917,8 +918,8 @@
                     "end": 2132,
                     "name": "ZonedDateTime"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -926,7 +927,6 @@
                     "start": 2133,
                     "end": 2152,
                     "operator": "-",
-                    "prefix": true,
                     "argument": {
                       "type": "Literal",
                       "start": 2134,
@@ -934,7 +934,8 @@
                       "value": null,
                       "raw": "94658400000000000n",
                       "bigint": "94658400000000000"
-                    }
+                    },
+                    "prefix": true
                   },
                   {
                     "type": "Literal",
@@ -951,8 +952,8 @@
                 "end": 2231,
                 "name": "getTimeZoneTransition"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -966,8 +967,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -993,8 +993,8 @@
             "end": 2260,
             "name": "notSameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1013,8 +1013,8 @@
               "end": 2295,
               "name": "offsetNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "MemberExpression",
@@ -1040,8 +1040,8 @@
                   "end": 2321,
                   "name": "subtract"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1053,9 +1053,7 @@
                       "type": "Property",
                       "start": 2324,
                       "end": 2338,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 2324,
@@ -1069,7 +1067,9 @@
                         "value": 1,
                         "raw": "1"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
@@ -1082,8 +1082,8 @@
               "end": 2359,
               "name": "offsetNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",
@@ -1120,8 +1120,8 @@
             "end": 2418,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1140,15 +1140,14 @@
               "end": 2452,
               "name": "epochNanoseconds"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "UnaryExpression",
             "start": 2456,
             "end": 2475,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 2457,
@@ -1156,7 +1155,8 @@
               "value": null,
               "raw": "21470400000000000n",
               "bigint": "21470400000000000"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

@@ -9,19 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 94,
       "end": 113,
-      "attributes": [],
       "declaration": {
         "type": "TSModuleDeclaration",
         "start": 101,
         "end": 113,
-        "body": {
-          "type": "TSModuleBlock",
-          "start": 110,
-          "end": 113,
-          "body": []
-        },
-        "declare": false,
-        "global": false,
         "id": {
           "type": "Identifier",
           "start": 108,
@@ -31,11 +22,20 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "kind": "module"
+        "body": {
+          "type": "TSModuleBlock",
+          "start": 110,
+          "end": 113,
+          "body": []
+        },
+        "kind": "module",
+        "declare": false,
+        "global": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

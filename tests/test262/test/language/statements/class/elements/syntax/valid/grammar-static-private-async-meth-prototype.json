@@ -23,21 +23,17 @@
             "type": "MethodDefinition",
             "start": 624,
             "end": 652,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 637,
               "end": 647,
               "name": "prototype"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 647,
               "end": 652,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": true,
               "params": [],
@@ -46,8 +42,12 @@
                 "start": 650,
                 "end": 652,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true
           }
         ]
       }

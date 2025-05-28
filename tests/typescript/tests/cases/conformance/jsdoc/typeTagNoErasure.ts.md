@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 95,
       "end": 126,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 101,
           "end": 126,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 101,
@@ -28,19 +28,9 @@ __ESTREE_TEST__:PASS:
             "type": "ArrowFunctionExpression",
             "start": 108,
             "end": 126,
-            "async": false,
-            "body": {
-              "type": "Identifier",
-              "start": 119,
-              "end": 126,
-              "decorators": [],
-              "name": "dibbity",
-              "optional": false,
-              "typeAnnotation": null
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -53,31 +43,31 @@ __ESTREE_TEST__:PASS:
               }
             ],
             "returnType": null,
-            "typeParameters": null
-          }
+            "body": {
+              "type": "Identifier",
+              "start": 119,
+              "end": 126,
+              "decorators": [],
+              "name": "dibbity",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "id": null,
+            "generator": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 128,
       "end": 135,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 128,
         "end": 135,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 133,
-            "end": 134,
-            "raw": "1",
-            "value": 1
-          }
-        ],
         "callee": {
           "type": "Identifier",
           "start": 128,
@@ -87,28 +77,28 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 133,
+            "end": 134,
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 147,
       "end": 157,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 147,
         "end": 157,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 152,
-            "end": 156,
-            "raw": "'hi'",
-            "value": "hi"
-          }
-        ],
         "callee": {
           "type": "Identifier",
           "start": 147,
@@ -118,9 +108,19 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 152,
+            "end": 156,
+            "value": "hi",
+            "raw": "'hi'"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

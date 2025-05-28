@@ -9,19 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "ForInStatement",
       "start": 0,
       "end": 17,
-      "body": {
-        "type": "BlockStatement",
-        "start": 14,
-        "end": 17,
-        "body": []
-      },
       "left": {
         "type": "ObjectPattern",
         "start": 5,
         "end": 7,
         "decorators": [],
-        "optional": false,
         "properties": [],
+        "optional": false,
         "typeAnnotation": null
       },
       "right": {
@@ -32,6 +26,12 @@ __ESTREE_TEST__:PASS:
         "name": "b",
         "optional": false,
         "typeAnnotation": null
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 14,
+        "end": 17,
+        "body": []
       }
     }
   ],

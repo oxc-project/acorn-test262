@@ -400,6 +400,7 @@
       "type": "VariableDeclaration",
       "start": 807,
       "end": 819,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -419,8 +420,7 @@
             "raw": "\"x\""
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",

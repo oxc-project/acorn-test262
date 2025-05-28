@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 22,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 19,
-        "end": 22,
-        "body": []
-      },
-      "declare": true,
-      "global": false,
       "id": {
         "type": "Identifier",
         "start": 15,
@@ -26,12 +18,31 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "module"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 19,
+        "end": 22,
+        "body": []
+      },
+      "kind": "module",
+      "declare": true,
+      "global": false
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 24,
       "end": 63,
+      "id": {
+        "type": "Identifier",
+        "start": 34,
+        "end": 38,
+        "decorators": [],
+        "name": "Obj1",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "extends": [],
       "body": {
         "type": "TSInterfaceBody",
         "start": 39,
@@ -41,6 +52,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSConstructSignatureDeclaration",
             "start": 42,
             "end": 61,
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -71,34 +83,22 @@ __ESTREE_TEST__:PASS:
                 "end": 60,
                 "members": []
               }
-            },
-            "typeParameters": null
+            }
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 34,
-        "end": 38,
-        "decorators": [],
-        "name": "Obj1",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 64,
       "end": 79,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 68,
           "end": 78,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 68,
@@ -114,7 +114,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 74,
                 "end": 78,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 74,
@@ -123,31 +122,36 @@ __ESTREE_TEST__:PASS:
                   "name": "Obj1",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 80,
       "end": 96,
-      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 80,
         "end": 95,
-        "children": [],
-        "closingElement": null,
         "openingElement": {
           "type": "JSXOpeningElement",
           "start": 80,
           "end": 95,
+          "name": {
+            "type": "JSXIdentifier",
+            "start": 81,
+            "end": 85,
+            "name": "obj1"
+          },
+          "typeArguments": null,
           "attributes": [
             {
               "type": "JSXAttribute",
@@ -167,22 +171,18 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 89,
                   "end": 91,
-                  "raw": "10",
-                  "value": 10
+                  "value": 10,
+                  "raw": "10"
                 }
               }
             }
           ],
-          "name": {
-            "type": "JSXIdentifier",
-            "start": 81,
-            "end": 85,
-            "name": "obj1"
-          },
-          "selfClosing": true,
-          "typeArguments": null
-        }
-      }
+          "selfClosing": true
+        },
+        "children": [],
+        "closingElement": null
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

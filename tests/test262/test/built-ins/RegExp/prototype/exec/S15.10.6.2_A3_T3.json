@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 456,
       "end": 8270,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1612,13 +1613,13 @@
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 8272,
       "end": 8302,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1638,13 +1639,13 @@
             "raw": "12"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 8304,
       "end": 8332,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1668,13 +1669,13 @@
             }
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 8333,
       "end": 8349,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1694,8 +1695,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "DoWhileStatement",
@@ -1710,6 +1710,7 @@
             "type": "VariableDeclaration",
             "start": 8359,
             "end": 8400,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -1741,8 +1742,8 @@
                       "end": 8385,
                       "name": "exec"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1755,8 +1756,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "IfStatement",
@@ -1854,8 +1854,8 @@
             "end": 8515,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

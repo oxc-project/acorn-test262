@@ -9,22 +9,36 @@ __ESTREE_TEST__:PASS:
       "type": "SwitchStatement",
       "start": 0,
       "end": 136,
+      "discriminant": {
+        "type": "Literal",
+        "start": 8,
+        "end": 9,
+        "value": 1,
+        "raw": "1"
+      },
       "cases": [
         {
           "type": "SwitchCase",
           "start": 17,
           "end": 54,
+          "test": {
+            "type": "Literal",
+            "start": 22,
+            "end": 23,
+            "value": 0,
+            "raw": "0"
+          },
           "consequent": [
             {
               "type": "VariableDeclaration",
               "start": 33,
               "end": 39,
+              "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 37,
                   "end": 38,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 37,
@@ -34,11 +48,11 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "init": null
+                  "init": null,
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "let"
+              "declare": false
             },
             {
               "type": "BreakStatement",
@@ -46,30 +60,30 @@ __ESTREE_TEST__:PASS:
               "end": 54,
               "label": null
             }
-          ],
-          "test": {
-            "type": "Literal",
-            "start": 22,
-            "end": 23,
-            "raw": "0",
-            "value": 0
-          }
+          ]
         },
         {
           "type": "SwitchCase",
           "start": 59,
           "end": 102,
+          "test": {
+            "type": "Literal",
+            "start": 64,
+            "end": 65,
+            "value": 1,
+            "raw": "1"
+          },
           "consequent": [
             {
               "type": "VariableDeclaration",
               "start": 75,
               "end": 87,
+              "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 81,
                   "end": 86,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 81,
@@ -83,13 +97,13 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 85,
                     "end": 86,
-                    "raw": "1",
-                    "value": 1
-                  }
+                    "value": 1,
+                    "raw": "1"
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "const"
+              "declare": false
             },
             {
               "type": "BreakStatement",
@@ -97,30 +111,24 @@ __ESTREE_TEST__:PASS:
               "end": 102,
               "label": null
             }
-          ],
-          "test": {
-            "type": "Literal",
-            "start": 64,
-            "end": 65,
-            "raw": "1",
-            "value": 1
-          }
+          ]
         },
         {
           "type": "SwitchCase",
           "start": 107,
           "end": 134,
+          "test": null,
           "consequent": [
             {
               "type": "VariableDeclaration",
               "start": 124,
               "end": 134,
+              "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 128,
                   "end": 133,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 128,
@@ -134,46 +142,52 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 132,
                     "end": 133,
-                    "raw": "2",
-                    "value": 2
-                  }
+                    "value": 2,
+                    "raw": "2"
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "let"
+              "declare": false
             }
-          ],
-          "test": null
+          ]
         }
-      ],
-      "discriminant": {
-        "type": "Literal",
-        "start": 8,
-        "end": 9,
-        "raw": "1",
-        "value": 1
-      }
+      ]
     },
     {
       "type": "SwitchStatement",
       "start": 139,
       "end": 205,
+      "discriminant": {
+        "type": "Literal",
+        "start": 147,
+        "end": 148,
+        "value": 2,
+        "raw": "2"
+      },
       "cases": [
         {
           "type": "SwitchCase",
           "start": 156,
           "end": 178,
+          "test": {
+            "type": "Literal",
+            "start": 161,
+            "end": 162,
+            "value": 0,
+            "raw": "0"
+          },
           "consequent": [
             {
               "type": "VariableDeclaration",
               "start": 172,
               "end": 178,
+              "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 176,
                   "end": 177,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 176,
@@ -183,31 +197,30 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "init": null
+                  "init": null,
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "let"
+              "declare": false
             }
-          ],
-          "test": {
-            "type": "Literal",
-            "start": 161,
-            "end": 162,
-            "raw": "0",
-            "value": 0
-          }
+          ]
         },
         {
           "type": "SwitchCase",
           "start": 183,
           "end": 203,
+          "test": {
+            "type": "Literal",
+            "start": 188,
+            "end": 189,
+            "value": 1,
+            "raw": "1"
+          },
           "consequent": [
             {
               "type": "ExpressionStatement",
               "start": 199,
               "end": 203,
-              "directive": null,
               "expression": {
                 "type": "AssignmentExpression",
                 "start": 199,
@@ -226,28 +239,15 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 201,
                   "end": 202,
-                  "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
-              }
+              },
+              "directive": null
             }
-          ],
-          "test": {
-            "type": "Literal",
-            "start": 188,
-            "end": 189,
-            "raw": "1",
-            "value": 1
-          }
+          ]
         }
-      ],
-      "discriminant": {
-        "type": "Literal",
-        "start": 147,
-        "end": 148,
-        "raw": "2",
-        "value": 2
-      }
+      ]
     }
   ],
   "sourceType": "script",

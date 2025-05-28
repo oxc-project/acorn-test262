@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 34,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 33,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -38,25 +38,25 @@ __ESTREE_TEST__:PASS:
                     "type": "Property",
                     "start": 11,
                     "end": 26,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Literal",
                       "start": 11,
                       "end": 16,
-                      "raw": "\"a-b\"",
-                      "value": "a-b"
+                      "value": "a-b",
+                      "raw": "\"a-b\""
                     },
-                    "kind": "init",
-                    "method": false,
-                    "optional": false,
-                    "shorthand": false,
                     "value": {
                       "type": "Literal",
                       "start": 18,
                       "end": 26,
-                      "raw": "\"string\"",
-                      "value": "string"
-                    }
+                      "value": "string",
+                      "raw": "\"string\""
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "optional": false
                   }
                 ]
               },
@@ -67,22 +67,22 @@ __ESTREE_TEST__:PASS:
                 "properties": []
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 36,
       "end": 72,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 40,
           "end": 71,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 40,
@@ -106,25 +106,25 @@ __ESTREE_TEST__:PASS:
                     "type": "Property",
                     "start": 47,
                     "end": 64,
-                    "computed": true,
+                    "kind": "init",
                     "key": {
                       "type": "Literal",
                       "start": 48,
                       "end": 53,
-                      "raw": "\"a-b\"",
-                      "value": "a-b"
+                      "value": "a-b",
+                      "raw": "\"a-b\""
                     },
-                    "kind": "init",
-                    "method": false,
-                    "optional": false,
-                    "shorthand": false,
                     "value": {
                       "type": "Literal",
                       "start": 56,
                       "end": 64,
-                      "raw": "\"string\"",
-                      "value": "string"
-                    }
+                      "value": "string",
+                      "raw": "\"string\""
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": true,
+                    "optional": false
                   }
                 ]
               },
@@ -135,11 +135,11 @@ __ESTREE_TEST__:PASS:
                 "properties": []
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

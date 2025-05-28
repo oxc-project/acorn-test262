@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 389,
       "end": 436,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -47,13 +48,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 437,
       "end": 468,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -86,8 +87,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -98,6 +98,7 @@
         "type": "VariableDeclaration",
         "start": 474,
         "end": 482,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -111,8 +112,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -129,6 +129,7 @@
             "type": "VariableDeclaration",
             "start": 497,
             "end": 532,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -174,13 +175,13 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 535,
             "end": 568,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -226,8 +227,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -253,8 +253,8 @@
                   "end": 587,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -273,8 +273,8 @@
                     "end": 603,
                     "name": "__proto__"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "MemberExpression",
@@ -292,8 +292,8 @@
                     "end": 621,
                     "name": "__proto__"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 }
               ],
               "optional": false

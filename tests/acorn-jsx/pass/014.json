@@ -15,6 +15,12 @@
           "type": "JSXOpeningElement",
           "start": 0,
           "end": 27,
+          "name": {
+            "type": "JSXIdentifier",
+            "start": 1,
+            "end": 2,
+            "name": "a"
+          },
           "attributes": [
             {
               "type": "JSXAttribute",
@@ -48,17 +54,17 @@
                       "type": "JSXOpeningElement",
                       "start": 10,
                       "end": 15,
-                      "attributes": [],
                       "name": {
                         "type": "JSXIdentifier",
                         "start": 11,
                         "end": 12,
                         "name": "c"
                       },
+                      "attributes": [],
                       "selfClosing": true
                     },
-                    "closingElement": null,
-                    "children": []
+                    "children": [],
+                    "closingElement": null
                   },
                   "alternate": {
                     "type": "JSXElement",
@@ -68,32 +74,26 @@
                       "type": "JSXOpeningElement",
                       "start": 18,
                       "end": 23,
-                      "attributes": [],
                       "name": {
                         "type": "JSXIdentifier",
                         "start": 19,
                         "end": 20,
                         "name": "d"
                       },
+                      "attributes": [],
                       "selfClosing": true
                     },
-                    "closingElement": null,
-                    "children": []
+                    "children": [],
+                    "closingElement": null
                   }
                 }
               }
             }
           ],
-          "name": {
-            "type": "JSXIdentifier",
-            "start": 1,
-            "end": 2,
-            "name": "a"
-          },
           "selfClosing": true
         },
-        "closingElement": null,
-        "children": []
+        "children": [],
+        "closingElement": null
       }
     }
   ],

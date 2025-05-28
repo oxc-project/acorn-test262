@@ -15,6 +15,23 @@
           "type": "JSXOpeningElement",
           "start": 0,
           "end": 11,
+          "name": {
+            "type": "JSXNamespacedName",
+            "start": 1,
+            "end": 4,
+            "namespace": {
+              "type": "JSXIdentifier",
+              "start": 1,
+              "end": 2,
+              "name": "n"
+            },
+            "name": {
+              "type": "JSXIdentifier",
+              "start": 3,
+              "end": 4,
+              "name": "a"
+            }
+          },
           "attributes": [
             {
               "type": "JSXAttribute",
@@ -40,27 +57,10 @@
               "value": null
             }
           ],
-          "name": {
-            "type": "JSXNamespacedName",
-            "start": 1,
-            "end": 4,
-            "namespace": {
-              "type": "JSXIdentifier",
-              "start": 1,
-              "end": 2,
-              "name": "n"
-            },
-            "name": {
-              "type": "JSXIdentifier",
-              "start": 3,
-              "end": 4,
-              "name": "a"
-            }
-          },
           "selfClosing": true
         },
-        "closingElement": null,
-        "children": []
+        "children": [],
+        "closingElement": null
       }
     }
   ],

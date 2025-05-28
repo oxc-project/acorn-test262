@@ -13,7 +13,6 @@
         "end": 481,
         "name": "__func"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -58,7 +57,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "TryStatement",
@@ -187,6 +187,7 @@
             "type": "VariableDeclaration",
             "start": 919,
             "end": 936,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -212,8 +213,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           }
         ]
       },

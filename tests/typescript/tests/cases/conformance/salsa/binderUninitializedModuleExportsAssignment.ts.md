@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 18,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 17,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -32,22 +32,22 @@ __ESTREE_TEST__:PASS:
             "name": "loop2",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 19,
       "end": 37,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 23,
           "end": 36,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 23,
@@ -65,17 +65,16 @@ __ESTREE_TEST__:PASS:
             "name": "loop1",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 39,
       "end": 62,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 39,
@@ -85,7 +84,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 39,
           "end": 53,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 39,
@@ -95,7 +93,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 46,
@@ -104,7 +101,9 @@ __ESTREE_TEST__:PASS:
             "name": "exports",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Identifier",
@@ -115,7 +114,8 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

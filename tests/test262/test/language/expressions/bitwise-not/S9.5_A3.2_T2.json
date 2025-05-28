@@ -16,14 +16,14 @@
           "start": 239,
           "end": 246,
           "operator": "~",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 240,
             "end": 246,
             "value": 1.2345,
             "raw": "1.2345"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -31,14 +31,14 @@
           "start": 251,
           "end": 253,
           "operator": "~",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 252,
             "end": 253,
             "value": 1,
             "raw": "1"
-          }
+          },
+          "prefix": true
         }
       },
       "consequent": {
@@ -88,21 +88,21 @@
           "start": 324,
           "end": 332,
           "operator": "~",
-          "prefix": true,
           "argument": {
             "type": "UnaryExpression",
             "start": 325,
             "end": 332,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 326,
               "end": 332,
               "value": 5.4321,
               "raw": "5.4321"
-            }
-          }
+            },
+            "prefix": true
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -110,21 +110,21 @@
           "start": 337,
           "end": 340,
           "operator": "~",
-          "prefix": true,
           "argument": {
             "type": "UnaryExpression",
             "start": 338,
             "end": 340,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 339,
               "end": 340,
               "value": 5,
               "raw": "5"
-            }
-          }
+            },
+            "prefix": true
+          },
+          "prefix": true
         }
       },
       "consequent": {

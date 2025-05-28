@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSEnumDeclaration",
       "start": 0,
       "end": 49,
+      "id": {
+        "type": "Identifier",
+        "start": 5,
+        "end": 15,
+        "decorators": [],
+        "name": "TShirtSize",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSEnumBody",
         "start": 16,
@@ -18,7 +27,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 21,
             "end": 26,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 21,
@@ -28,13 +36,13 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 31,
             "end": 37,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 31,
@@ -44,13 +52,13 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 42,
             "end": 47,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 42,
@@ -60,32 +68,24 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           }
         ]
       },
       "const": false,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 5,
-        "end": 15,
-        "decorators": [],
-        "name": "TShirtSize",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 50,
       "end": 80,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 54,
           "end": 79,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 54,
@@ -99,7 +99,6 @@ __ESTREE_TEST__:PASS:
             "type": "MemberExpression",
             "start": 63,
             "end": 79,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 63,
@@ -109,7 +108,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 74,
@@ -118,23 +116,25 @@ __ESTREE_TEST__:PASS:
               "name": "Large",
               "optional": false,
               "typeAnnotation": null
-            }
-          }
+            },
+            "optional": false,
+            "computed": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 81,
       "end": 111,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 85,
           "end": 110,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 85,
@@ -148,7 +148,6 @@ __ESTREE_TEST__:PASS:
             "type": "MemberExpression",
             "start": 92,
             "end": 110,
-            "computed": true,
             "object": {
               "type": "Identifier",
               "start": 92,
@@ -158,7 +157,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 103,
@@ -167,23 +165,23 @@ __ESTREE_TEST__:PASS:
               "name": "mySize",
               "optional": false,
               "typeAnnotation": null
-            }
-          }
+            },
+            "optional": false,
+            "computed": true
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 200,
       "end": 209,
-      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 200,
         "end": 209,
-        "operator": "+",
         "left": {
           "type": "Identifier",
           "start": 200,
@@ -193,14 +191,16 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "operator": "+",
         "right": {
           "type": "Literal",
           "start": 207,
           "end": 209,
-          "raw": "''",
-          "value": ""
+          "value": "",
+          "raw": "''"
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

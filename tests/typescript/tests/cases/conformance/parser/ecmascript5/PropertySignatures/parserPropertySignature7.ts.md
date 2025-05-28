@@ -9,42 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 26,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 12,
-        "end": 26,
-        "body": [
-          {
-            "type": "TSPropertySignature",
-            "start": 16,
-            "end": 24,
-            "accessibility": null,
-            "computed": false,
-            "key": {
-              "type": "Literal",
-              "start": 16,
-              "end": 19,
-              "raw": "\"G\"",
-              "value": "G"
-            },
-            "optional": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 19,
-              "end": 23,
-              "typeAnnotation": {
-                "type": "TSAnyKeyword",
-                "start": 20,
-                "end": 23
-              }
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "extends": [],
       "id": {
         "type": "Identifier",
         "start": 10,
@@ -54,7 +18,43 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "typeParameters": null
+      "typeParameters": null,
+      "extends": [],
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 12,
+        "end": 26,
+        "body": [
+          {
+            "type": "TSPropertySignature",
+            "start": 16,
+            "end": 24,
+            "computed": false,
+            "optional": false,
+            "readonly": false,
+            "key": {
+              "type": "Literal",
+              "start": 16,
+              "end": 19,
+              "value": "G",
+              "raw": "\"G\""
+            },
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 19,
+              "end": 23,
+              "typeAnnotation": {
+                "type": "TSAnyKeyword",
+                "start": 20,
+                "end": 23
+              }
+            },
+            "accessibility": null,
+            "static": false
+          }
+        ]
+      },
+      "declare": false
     }
   ],
   "sourceType": "script",

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1135,
       "end": 1246,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,9 +28,7 @@
                 "type": "Property",
                 "start": 1220,
                 "end": 1242,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Literal",
                   "start": 1220,
@@ -44,13 +43,14 @@
                   "value": "uksystem",
                   "raw": "\"uksystem\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -61,6 +61,7 @@
         "type": "VariableDeclaration",
         "start": 1253,
         "end": 1270,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -87,8 +88,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "CallExpression",
@@ -110,8 +110,8 @@
             "end": 1288,
             "name": "entries"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -132,6 +132,7 @@
             "type": "VariableDeclaration",
             "start": 1304,
             "end": 1334,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -163,13 +164,13 @@
                   }
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 1337,
             "end": 1372,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -201,8 +202,7 @@
                   }
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -228,8 +228,8 @@
                   "end": 1433,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -370,6 +370,7 @@
             "type": "VariableDeclaration",
             "start": 1717,
             "end": 1760,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -401,8 +402,8 @@
                       "end": 1754,
                       "name": "getCanonicalLocales"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -415,8 +416,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -442,8 +442,8 @@
                   "end": 1779,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -462,8 +462,8 @@
                     "end": 1793,
                     "name": "length"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -500,8 +500,8 @@
                   "end": 1817,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -521,8 +521,8 @@
                     "value": 0,
                     "raw": "0"
                   },
-                  "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "computed": true
                 },
                 {
                   "type": "Identifier",

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 648,
       "end": 698,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 686,
                 "name": "ZonedDateTime"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -60,13 +61,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 700,
       "end": 767,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -114,8 +115,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -126,6 +126,7 @@
         "type": "VariableDeclaration",
         "start": 773,
         "end": 788,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -139,8 +140,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -177,8 +177,8 @@
                   "end": 821,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -191,9 +191,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 834,
                   "end": 876,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -216,8 +214,8 @@
                         "end": 865,
                         "name": "getTimeZoneTransition"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -228,7 +226,9 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 }
               ],
               "optional": false
@@ -258,8 +258,8 @@
                   "end": 894,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -272,9 +272,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 907,
                   "end": 964,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -297,8 +295,8 @@
                         "end": 938,
                         "name": "getTimeZoneTransition"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -310,9 +308,7 @@
                             "type": "Property",
                             "start": 941,
                             "end": 961,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 941,
@@ -325,13 +321,17 @@
                               "end": 961,
                               "name": "badString"
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 }
               ],
               "optional": false

@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 58,
+      "id": {
+        "type": "Identifier",
+        "start": 18,
+        "end": 23,
+        "decorators": [],
+        "name": "Thing",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 24,
@@ -18,16 +27,10 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 27,
             "end": 56,
-            "attributes": [],
             "declaration": {
               "type": "TSDeclareFunction",
               "start": 34,
               "end": 56,
-              "async": false,
-              "body": null,
-              "declare": false,
-              "expression": false,
-              "generator": false,
               "id": {
                 "type": "Identifier",
                 "start": 43,
@@ -37,6 +40,10 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
               "params": [],
               "returnType": {
                 "type": "TSTypeAnnotation",
@@ -48,26 +55,19 @@ __ESTREE_TEST__:PASS:
                   "end": 55
                 }
               },
-              "typeParameters": null
+              "body": null,
+              "expression": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           }
         ]
       },
+      "kind": "namespace",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 18,
-        "end": 23,
-        "decorators": [],
-        "name": "Thing",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "namespace"
+      "global": false
     },
     {
       "type": "TSExportAssignment",
@@ -113,12 +113,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 34,
       "end": 59,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 38,
           "end": 58,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 38,
@@ -141,12 +141,10 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 50,
             "end": 58,
-            "arguments": [],
             "callee": {
               "type": "MemberExpression",
               "start": 50,
               "end": 56,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 50,
@@ -156,7 +154,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 54,
@@ -165,15 +162,18 @@ __ESTREE_TEST__:PASS:
                 "name": "fn",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     }
   ],
   "sourceType": "module",

@@ -9,17 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 90,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
         "end": 89,
-        "arguments": [],
         "callee": {
           "type": "ArrowFunctionExpression",
           "start": 1,
           "end": 86,
+          "expression": false,
           "async": false,
+          "typeParameters": null,
+          "params": [],
+          "returnType": null,
           "body": {
             "type": "BlockStatement",
             "start": 7,
@@ -29,14 +31,6 @@ __ESTREE_TEST__:PASS:
                 "type": "ClassDeclaration",
                 "start": 13,
                 "end": 32,
-                "abstract": true,
-                "body": {
-                  "type": "ClassBody",
-                  "start": 30,
-                  "end": 32,
-                  "body": []
-                },
-                "declare": false,
                 "decorators": [],
                 "id": {
                   "type": "Identifier",
@@ -47,23 +41,23 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "implements": [],
+                "typeParameters": null,
                 "superClass": null,
                 "superTypeArguments": null,
-                "typeParameters": null
+                "implements": [],
+                "body": {
+                  "type": "ClassBody",
+                  "start": 30,
+                  "end": 32,
+                  "body": []
+                },
+                "abstract": true,
+                "declare": false
               },
               {
                 "type": "ClassDeclaration",
                 "start": 37,
                 "end": 57,
-                "abstract": false,
-                "body": {
-                  "type": "ClassBody",
-                  "start": 55,
-                  "end": 57,
-                  "body": []
-                },
-                "declare": false,
                 "decorators": [],
                 "id": {
                   "type": "Identifier",
@@ -74,7 +68,7 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "implements": [],
+                "typeParameters": null,
                 "superClass": {
                   "type": "Identifier",
                   "start": 53,
@@ -85,18 +79,24 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 },
                 "superTypeArguments": null,
-                "typeParameters": null
+                "implements": [],
+                "body": {
+                  "type": "ClassBody",
+                  "start": 55,
+                  "end": 57,
+                  "body": []
+                },
+                "abstract": false,
+                "declare": false
               },
               {
                 "type": "ExpressionStatement",
                 "start": 62,
                 "end": 70,
-                "directive": null,
                 "expression": {
                   "type": "NewExpression",
                   "start": 62,
                   "end": 69,
-                  "arguments": [],
                   "callee": {
                     "type": "Identifier",
                     "start": 66,
@@ -106,8 +106,10 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "typeArguments": null
-                }
+                  "typeArguments": null,
+                  "arguments": []
+                },
+                "directive": null
               },
               {
                 "type": "ReturnStatement",
@@ -125,16 +127,14 @@ __ESTREE_TEST__:PASS:
               }
             ]
           },
-          "expression": false,
-          "generator": false,
           "id": null,
-          "params": [],
-          "returnType": null,
-          "typeParameters": null
+          "generator": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

@@ -23,21 +23,17 @@
             "type": "MethodDefinition",
             "start": 2166,
             "end": 2228,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 2180,
               "end": 2186,
               "name": "method"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 2186,
               "end": 2228,
               "id": null,
-              "expression": false,
               "generator": true,
               "async": true,
               "params": [
@@ -71,8 +67,12 @@
                 "start": 2218,
                 "end": 2228,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true
           }
         ]
       }
@@ -86,6 +86,7 @@
       "type": "VariableDeclaration",
       "start": 2233,
       "end": 2255,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -113,12 +114,11 @@
               "end": 2254,
               "name": "method"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -144,8 +144,8 @@
             "end": 2270,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -159,7 +159,6 @@
             "start": 2287,
             "end": 2315,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -194,7 +193,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 352,
       "end": 378,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -44,8 +45,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -75,6 +75,12 @@
       "type": "LabeledStatement",
       "start": 390,
       "end": 564,
+      "label": {
+        "type": "Identifier",
+        "start": 390,
+        "end": 395,
+        "name": "outer"
+      },
       "body": {
         "type": "ForStatement",
         "start": 398,
@@ -145,6 +151,12 @@
               "type": "LabeledStatement",
               "start": 436,
               "end": 561,
+              "label": {
+                "type": "Identifier",
+                "start": 436,
+                "end": 442,
+                "name": "nested"
+              },
               "body": {
                 "type": "ForStatement",
                 "start": 445,
@@ -302,22 +314,10 @@
                     }
                   ]
                 }
-              },
-              "label": {
-                "type": "Identifier",
-                "start": 436,
-                "end": 442,
-                "name": "nested"
               }
             }
           ]
         }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 390,
-        "end": 395,
-        "name": "outer"
       }
     },
     {
@@ -417,6 +417,12 @@
       "type": "LabeledStatement",
       "start": 881,
       "end": 1054,
+      "label": {
+        "type": "Identifier",
+        "start": 881,
+        "end": 886,
+        "name": "outer"
+      },
       "body": {
         "type": "ForStatement",
         "start": 889,
@@ -487,6 +493,12 @@
               "type": "LabeledStatement",
               "start": 927,
               "end": 1051,
+              "label": {
+                "type": "Identifier",
+                "start": 927,
+                "end": 933,
+                "name": "nested"
+              },
               "body": {
                 "type": "ForStatement",
                 "start": 936,
@@ -644,22 +656,10 @@
                     }
                   ]
                 }
-              },
-              "label": {
-                "type": "Identifier",
-                "start": 927,
-                "end": 933,
-                "name": "nested"
               }
             }
           ]
         }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 881,
-        "end": 886,
-        "name": "outer"
       }
     },
     {
@@ -759,6 +759,12 @@
       "type": "LabeledStatement",
       "start": 1366,
       "end": 1534,
+      "label": {
+        "type": "Identifier",
+        "start": 1366,
+        "end": 1371,
+        "name": "outer"
+      },
       "body": {
         "type": "ForStatement",
         "start": 1374,
@@ -829,6 +835,12 @@
               "type": "LabeledStatement",
               "start": 1412,
               "end": 1531,
+              "label": {
+                "type": "Identifier",
+                "start": 1412,
+                "end": 1418,
+                "name": "nested"
+              },
               "body": {
                 "type": "ForStatement",
                 "start": 1421,
@@ -981,22 +993,10 @@
                     }
                   ]
                 }
-              },
-              "label": {
-                "type": "Identifier",
-                "start": 1412,
-                "end": 1418,
-                "name": "nested"
               }
             }
           ]
         }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 1366,
-        "end": 1371,
-        "name": "outer"
       }
     },
     {

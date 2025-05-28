@@ -23,21 +23,17 @@
             "type": "MethodDefinition",
             "start": 2169,
             "end": 2193,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 2176,
               "end": 2177,
               "name": "a"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 2177,
               "end": 2193,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -59,15 +55,17 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true
           },
           {
             "type": "MethodDefinition",
             "start": 2196,
             "end": 2226,
-            "static": true,
-            "computed": true,
             "key": {
               "type": "Literal",
               "start": 2204,
@@ -75,13 +73,11 @@
               "value": "b",
               "raw": "'b'"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 2208,
               "end": 2226,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -103,28 +99,28 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": true,
+            "static": true
           },
           {
             "type": "MethodDefinition",
             "start": 2229,
             "end": 2255,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 2236,
               "end": 2237,
               "name": "c"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 2237,
               "end": 2255,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -146,15 +142,17 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true
           },
           {
             "type": "MethodDefinition",
             "start": 2258,
             "end": 2288,
-            "static": true,
-            "computed": true,
             "key": {
               "type": "Literal",
               "start": 2266,
@@ -162,13 +160,11 @@
               "value": "d",
               "raw": "'d'"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 2270,
               "end": 2288,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -190,8 +186,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": true,
+            "static": true
           }
         ]
       }
@@ -220,8 +220,8 @@
             "end": 2307,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -244,8 +244,8 @@
                 "end": 2311,
                 "name": "a"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -292,8 +292,8 @@
             "end": 2401,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -316,8 +316,8 @@
                 "end": 2405,
                 "name": "b"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -364,8 +364,8 @@
             "end": 2501,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -388,8 +388,8 @@
                 "end": 2505,
                 "name": "c"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -436,8 +436,8 @@
             "end": 2597,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -460,8 +460,8 @@
                 "end": 2601,
                 "name": "d"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false
@@ -508,8 +508,8 @@
             "end": 2700,
             "name": "compareArray"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -532,8 +532,8 @@
                 "end": 2715,
                 "name": "keys"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

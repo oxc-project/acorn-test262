@@ -9,44 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 40,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 8,
-        "end": 40,
-        "body": [
-          {
-            "type": "PropertyDefinition",
-            "start": 14,
-            "end": 32,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
-            "key": {
-              "type": "Identifier",
-              "start": 21,
-              "end": 24,
-              "decorators": [],
-              "name": "foo",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": true,
-            "typeAnnotation": null,
-            "value": {
-              "type": "ThisExpression",
-              "start": 27,
-              "end": 31
-            }
-          }
-        ]
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -57,53 +19,53 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
-    },
-    {
-      "type": "ClassDeclaration",
-      "start": 42,
-      "end": 86,
-      "abstract": false,
+      "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 54,
-        "end": 86,
+        "start": 8,
+        "end": 40,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 60,
-            "end": 78,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
+            "start": 14,
+            "end": 32,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 67,
-              "end": 70,
+              "start": 21,
+              "end": 24,
               "decorators": [],
               "name": "foo",
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": true,
             "typeAnnotation": null,
             "value": {
               "type": "ThisExpression",
-              "start": 73,
-              "end": 77
-            }
+              "start": 27,
+              "end": 31
+            },
+            "computed": false,
+            "static": true,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
+      "abstract": false,
+      "declare": false
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 42,
+      "end": 86,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -114,9 +76,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 50,
@@ -126,10 +85,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeParameter",
             "start": 51,
             "end": 52,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
             "name": {
               "type": "Identifier",
               "start": 51,
@@ -139,10 +94,55 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "out": false
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
           }
         ]
-      }
+      },
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 54,
+        "end": 86,
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "start": 60,
+            "end": 78,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 67,
+              "end": 70,
+              "decorators": [],
+              "name": "foo",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeAnnotation": null,
+            "value": {
+              "type": "ThisExpression",
+              "start": 73,
+              "end": 77
+            },
+            "computed": false,
+            "static": true,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
+          }
+        ]
+      },
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

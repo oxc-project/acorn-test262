@@ -9,7 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 31,
       "end": 70,
+      "id": {
+        "type": "Identifier",
+        "start": 40,
+        "end": 42,
+        "decorators": [],
+        "name": "f1",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 45,
@@ -31,32 +45,18 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 40,
-        "end": 42,
-        "decorators": [],
-        "name": "f1",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 71,
       "end": 85,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 77,
           "end": 85,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 77,
@@ -70,7 +70,6 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 81,
             "end": 85,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 81,
@@ -80,19 +79,34 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 113,
       "end": 147,
+      "id": {
+        "type": "Identifier",
+        "start": 122,
+        "end": 124,
+        "decorators": [],
+        "name": "f2",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 127,
@@ -106,38 +120,24 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 140,
               "end": 144,
-              "raw": "null",
-              "value": null
+              "value": null,
+              "raw": "null"
             }
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 122,
-        "end": 124,
-        "decorators": [],
-        "name": "f2",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 148,
       "end": 162,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 154,
           "end": 162,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 154,
@@ -151,7 +151,6 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 158,
             "end": 162,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 158,
@@ -161,13 +160,14 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "script",

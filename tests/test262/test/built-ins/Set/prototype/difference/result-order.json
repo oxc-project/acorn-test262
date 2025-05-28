@@ -12,6 +12,7 @@
           "type": "VariableDeclaration",
           "start": 318,
           "end": 351,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -72,13 +73,13 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "VariableDeclaration",
           "start": 354,
           "end": 387,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -139,8 +140,7 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "ExpressionStatement",
@@ -166,8 +166,8 @@
                 "end": 410,
                 "name": "compareArray"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -199,8 +199,8 @@
                           "end": 428,
                           "name": "difference"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -251,6 +251,7 @@
           "type": "VariableDeclaration",
           "start": 451,
           "end": 484,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -311,13 +312,13 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "VariableDeclaration",
           "start": 487,
           "end": 520,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -378,8 +379,7 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "ExpressionStatement",
@@ -405,8 +405,8 @@
                 "end": 543,
                 "name": "compareArray"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -438,8 +438,8 @@
                           "end": 561,
                           "name": "difference"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -490,6 +490,7 @@
           "type": "VariableDeclaration",
           "start": 584,
           "end": 617,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -550,13 +551,13 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "VariableDeclaration",
           "start": 620,
           "end": 656,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -624,8 +625,7 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "ExpressionStatement",
@@ -651,8 +651,8 @@
                 "end": 679,
                 "name": "compareArray"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -684,8 +684,8 @@
                           "end": 697,
                           "name": "difference"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -736,6 +736,7 @@
           "type": "VariableDeclaration",
           "start": 720,
           "end": 756,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -803,13 +804,13 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "VariableDeclaration",
           "start": 759,
           "end": 792,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
@@ -870,8 +871,7 @@
                 ]
               }
             }
-          ],
-          "kind": "const"
+          ]
         },
         {
           "type": "ExpressionStatement",
@@ -897,8 +897,8 @@
                 "end": 815,
                 "name": "compareArray"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -930,8 +930,8 @@
                           "end": 833,
                           "name": "difference"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {

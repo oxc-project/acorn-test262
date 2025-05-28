@@ -33,6 +33,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 79,
+      "id": {
+        "type": "Identifier",
+        "start": 8,
+        "end": 14,
+        "decorators": [],
+        "name": "global",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 15,
@@ -42,6 +51,17 @@ __ESTREE_TEST__:PASS:
             "type": "TSInterfaceDeclaration",
             "start": 21,
             "end": 77,
+            "id": {
+              "type": "Identifier",
+              "start": 32,
+              "end": 48,
+              "decorators": [],
+              "name": "ImportAttributes",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null,
+            "extends": [],
             "body": {
               "type": "TSInterfaceBody",
               "start": 49,
@@ -51,8 +71,9 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 59,
                   "end": 71,
-                  "accessibility": null,
                   "computed": false,
+                  "optional": false,
+                  "readonly": false,
                   "key": {
                     "type": "Identifier",
                     "start": 59,
@@ -62,9 +83,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
-                  "readonly": false,
-                  "static": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 63,
@@ -77,54 +95,28 @@ __ESTREE_TEST__:PASS:
                         "type": "Literal",
                         "start": 65,
                         "end": 71,
-                        "raw": "\"json\"",
-                        "value": "json"
+                        "value": "json",
+                        "raw": "\"json\""
                       }
                     }
-                  }
+                  },
+                  "accessibility": null,
+                  "static": false
                 }
               ]
             },
-            "declare": false,
-            "extends": [],
-            "id": {
-              "type": "Identifier",
-              "start": 32,
-              "end": 48,
-              "decorators": [],
-              "name": "ImportAttributes",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeParameters": null
+            "declare": false
           }
         ]
       },
+      "kind": "global",
       "declare": true,
-      "global": true,
-      "id": {
-        "type": "Identifier",
-        "start": 8,
-        "end": 14,
-        "decorators": [],
-        "name": "global",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "global"
+      "global": true
     },
     {
       "type": "ImportDeclaration",
       "start": 81,
       "end": 133,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 101,
-        "end": 106,
-        "raw": "\"./a\"",
-        "value": "./a"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -141,6 +133,13 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 101,
+        "end": 106,
+        "value": "./a",
+        "raw": "\"./a\""
+      },
       "phase": null,
       "attributes": [
         {
@@ -160,21 +159,22 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 120,
             "end": 130,
-            "raw": "\"not-json\"",
-            "value": "not-json"
+            "value": "not-json",
+            "raw": "\"not-json\""
           }
         }
-      ]
+      ],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 134,
       "end": 142,
-      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 134,
         "end": 141,
+        "operator": "void",
         "argument": {
           "type": "Identifier",
           "start": 139,
@@ -184,108 +184,14 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "operator": "void",
         "prefix": true
-      }
+      },
+      "directive": null
     },
     {
       "type": "FunctionDeclaration",
       "start": 144,
       "end": 257,
-      "async": true,
-      "body": {
-        "type": "BlockStatement",
-        "start": 163,
-        "end": 257,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 169,
-            "end": 255,
-            "directive": null,
-            "expression": {
-              "type": "AwaitExpression",
-              "start": 169,
-              "end": 254,
-              "argument": {
-                "type": "ImportExpression",
-                "start": 175,
-                "end": 254,
-                "options": {
-                  "type": "ObjectExpression",
-                  "start": 189,
-                  "end": 253,
-                  "properties": [
-                    {
-                      "type": "Property",
-                      "start": 199,
-                      "end": 246,
-                      "computed": false,
-                      "key": {
-                        "type": "Identifier",
-                        "start": 199,
-                        "end": 203,
-                        "decorators": [],
-                        "name": "with",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "kind": "init",
-                      "method": false,
-                      "optional": false,
-                      "shorthand": false,
-                      "value": {
-                        "type": "ObjectExpression",
-                        "start": 205,
-                        "end": 246,
-                        "properties": [
-                          {
-                            "type": "Property",
-                            "start": 219,
-                            "end": 235,
-                            "computed": false,
-                            "key": {
-                              "type": "Identifier",
-                              "start": 219,
-                              "end": 223,
-                              "decorators": [],
-                              "name": "type",
-                              "optional": false,
-                              "typeAnnotation": null
-                            },
-                            "kind": "init",
-                            "method": false,
-                            "optional": false,
-                            "shorthand": false,
-                            "value": {
-                              "type": "Literal",
-                              "start": 225,
-                              "end": 235,
-                              "raw": "\"not-json\"",
-                              "value": "not-json"
-                            }
-                          }
-                        ]
-                      }
-                    }
-                  ]
-                },
-                "source": {
-                  "type": "Literal",
-                  "start": 182,
-                  "end": 187,
-                  "raw": "\"./a\"",
-                  "value": "./a"
-                },
-                "phase": null
-              }
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 159,
@@ -295,9 +201,103 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": true,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 163,
+        "end": 257,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 169,
+            "end": 255,
+            "expression": {
+              "type": "AwaitExpression",
+              "start": 169,
+              "end": 254,
+              "argument": {
+                "type": "ImportExpression",
+                "start": 175,
+                "end": 254,
+                "source": {
+                  "type": "Literal",
+                  "start": 182,
+                  "end": 187,
+                  "value": "./a",
+                  "raw": "\"./a\""
+                },
+                "options": {
+                  "type": "ObjectExpression",
+                  "start": 189,
+                  "end": 253,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 199,
+                      "end": 246,
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "start": 199,
+                        "end": 203,
+                        "decorators": [],
+                        "name": "with",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "value": {
+                        "type": "ObjectExpression",
+                        "start": 205,
+                        "end": 246,
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "start": 219,
+                            "end": 235,
+                            "kind": "init",
+                            "key": {
+                              "type": "Identifier",
+                              "start": 219,
+                              "end": 223,
+                              "decorators": [],
+                              "name": "type",
+                              "optional": false,
+                              "typeAnnotation": null
+                            },
+                            "value": {
+                              "type": "Literal",
+                              "start": 225,
+                              "end": 235,
+                              "value": "not-json",
+                              "raw": "\"not-json\""
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "optional": false
+                          }
+                        ]
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "optional": false
+                    }
+                  ]
+                },
+                "phase": null
+              }
+            },
+            "directive": null
+          }
+        ]
+      },
+      "expression": false
     }
   ],
   "sourceType": "module",

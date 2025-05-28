@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 546,
       "end": 555,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -40,7 +40,6 @@
             "start": 558,
             "end": 660,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -53,6 +52,7 @@
                   "type": "VariableDeclaration",
                   "start": 573,
                   "end": 585,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -72,8 +72,7 @@
                         "raw": "123"
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -114,6 +113,7 @@
                       "type": "SwitchCase",
                       "start": 618,
                       "end": 650,
+                      "test": null,
                       "consequent": [
                         {
                           "type": "FunctionDeclaration",
@@ -125,7 +125,6 @@
                             "end": 643,
                             "name": "f"
                           },
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [],
@@ -134,15 +133,16 @@
                             "start": 646,
                             "end": 650,
                             "body": []
-                          }
+                          },
+                          "expression": false
                         }
-                      ],
-                      "test": null
+                      ]
                     }
                   ]
                 }
               ]
-            }
+            },
+            "expression": false
           },
           "arguments": [],
           "optional": false
@@ -173,8 +173,8 @@
             "end": 682,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

@@ -23,21 +23,17 @@
             "type": "MethodDefinition",
             "start": 2569,
             "end": 2592,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 2576,
               "end": 2582,
               "name": "method"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 2582,
               "end": 2592,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -67,8 +63,12 @@
                 "start": 2590,
                 "end": 2592,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true
           }
         ]
       }
@@ -102,8 +102,8 @@
             "end": 2610,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -117,7 +117,6 @@
             "start": 2622,
             "end": 2656,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -150,8 +149,8 @@
                         "end": 2645,
                         "name": "method"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -173,7 +172,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

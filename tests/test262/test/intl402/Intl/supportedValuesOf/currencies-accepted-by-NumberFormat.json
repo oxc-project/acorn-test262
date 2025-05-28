@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 969,
       "end": 1023,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 1010,
                 "name": "supportedValuesOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -53,8 +54,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -65,6 +65,7 @@
         "type": "VariableDeclaration",
         "start": 1030,
         "end": 1042,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -78,8 +79,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -96,6 +96,7 @@
             "type": "VariableDeclaration",
             "start": 1062,
             "end": 1131,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -127,8 +128,8 @@
                       "end": 1093,
                       "name": "NumberFormat"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -147,9 +148,7 @@
                           "type": "Property",
                           "start": 1101,
                           "end": 1118,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 1101,
@@ -163,15 +162,15 @@
                             "value": "currency",
                             "raw": "\"currency\""
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false
                         },
                         {
                           "type": "Property",
                           "start": 1120,
                           "end": 1128,
-                          "method": false,
-                          "shorthand": true,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 1120,
@@ -184,15 +183,16 @@
                             "end": 1128,
                             "name": "currency"
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": true,
+                          "computed": false
                         }
                       ]
                     }
                   ]
                 }
               }
-            ],
-            "kind": "let"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -218,8 +218,8 @@
                   "end": 1150,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -246,8 +246,8 @@
                         "end": 1170,
                         "name": "resolvedOptions"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false
@@ -258,8 +258,8 @@
                     "end": 1181,
                     "name": "currency"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Identifier",
@@ -271,14 +271,6 @@
                   "type": "TemplateLiteral",
                   "start": 1212,
                   "end": 1254,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1215,
-                      "end": 1223,
-                      "name": "currency"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -299,6 +291,14 @@
                         "cooked": " is supported by NumberFormat"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1215,
+                      "end": 1223,
+                      "name": "currency"
                     }
                   ]
                 }

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 559,
       "end": 625,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -43,8 +44,8 @@
                 "end": 597,
                 "name": "test"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -58,8 +59,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -81,13 +81,13 @@
             "start": 634,
             "end": 645,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 635,
               "end": 645,
               "name": "__executed"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

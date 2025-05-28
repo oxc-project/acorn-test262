@@ -9,51 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 36,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 7,
         "end": 36,
-        "abstract": false,
-        "body": {
-          "type": "ClassBody",
-          "start": 19,
-          "end": 36,
-          "body": [
-            {
-              "type": "PropertyDefinition",
-              "start": 23,
-              "end": 34,
-              "accessibility": null,
-              "computed": false,
-              "declare": false,
-              "decorators": [],
-              "definite": false,
-              "key": {
-                "type": "PrivateIdentifier",
-                "start": 23,
-                "end": 29,
-                "name": "field"
-              },
-              "optional": false,
-              "override": false,
-              "readonly": false,
-              "static": false,
-              "typeAnnotation": {
-                "type": "TSTypeAnnotation",
-                "start": 29,
-                "end": 34,
-                "typeAnnotation": {
-                  "type": "TSAnyKeyword",
-                  "start": 31,
-                  "end": 34
-                }
-              },
-              "value": null
-            }
-          ]
-        },
-        "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
@@ -64,25 +23,66 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "implements": [],
+        "typeParameters": null,
         "superClass": null,
         "superTypeArguments": null,
-        "typeParameters": null
+        "implements": [],
+        "body": {
+          "type": "ClassBody",
+          "start": 19,
+          "end": 36,
+          "body": [
+            {
+              "type": "PropertyDefinition",
+              "start": 23,
+              "end": 34,
+              "decorators": [],
+              "key": {
+                "type": "PrivateIdentifier",
+                "start": 23,
+                "end": 29,
+                "name": "field"
+              },
+              "typeAnnotation": {
+                "type": "TSTypeAnnotation",
+                "start": 29,
+                "end": 34,
+                "typeAnnotation": {
+                  "type": "TSAnyKeyword",
+                  "start": 31,
+                  "end": 34
+                }
+              },
+              "value": null,
+              "computed": false,
+              "static": false,
+              "declare": false,
+              "override": false,
+              "optional": false,
+              "definite": false,
+              "readonly": false,
+              "accessibility": null
+            }
+          ]
+        },
+        "abstract": false,
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "VariableDeclaration",
       "start": 38,
       "end": 72,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 44,
           "end": 71,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 44,
@@ -98,7 +98,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 50,
                 "end": 55,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 50,
@@ -107,7 +106,8 @@ __ESTREE_TEST__:PASS:
                   "name": "Class",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             }
           },
@@ -126,11 +126,11 @@ __ESTREE_TEST__:PASS:
               "start": 64,
               "end": 71
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "module",

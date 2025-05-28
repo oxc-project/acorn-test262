@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 10,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 9,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,24 +28,24 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 8,
             "end": 9,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 11,
       "end": 43,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 15,
           "end": 42,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 15,
@@ -59,44 +59,6 @@ __ESTREE_TEST__:PASS:
             "type": "ConditionalExpression",
             "start": 21,
             "end": 42,
-            "alternate": {
-              "type": "ArrowFunctionExpression",
-              "start": 35,
-              "end": 42,
-              "async": false,
-              "body": {
-                "type": "Literal",
-                "start": 41,
-                "end": 42,
-                "raw": "0",
-                "value": 0
-              },
-              "expression": true,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            },
-            "consequent": {
-              "type": "ArrowFunctionExpression",
-              "start": 25,
-              "end": 32,
-              "async": false,
-              "body": {
-                "type": "Literal",
-                "start": 31,
-                "end": 32,
-                "raw": "0",
-                "value": 0
-              },
-              "expression": true,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            },
             "test": {
               "type": "Identifier",
               "start": 21,
@@ -105,12 +67,50 @@ __ESTREE_TEST__:PASS:
               "name": "x",
               "optional": false,
               "typeAnnotation": null
+            },
+            "consequent": {
+              "type": "ArrowFunctionExpression",
+              "start": 25,
+              "end": 32,
+              "expression": true,
+              "async": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
+              "body": {
+                "type": "Literal",
+                "start": 31,
+                "end": 32,
+                "value": 0,
+                "raw": "0"
+              },
+              "id": null,
+              "generator": false
+            },
+            "alternate": {
+              "type": "ArrowFunctionExpression",
+              "start": 35,
+              "end": 42,
+              "expression": true,
+              "async": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
+              "body": {
+                "type": "Literal",
+                "start": 41,
+                "end": 42,
+                "value": 0,
+                "raw": "0"
+              },
+              "id": null,
+              "generator": false
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

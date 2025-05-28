@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 3,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 0,
@@ -18,7 +17,8 @@ __ESTREE_TEST__:PASS:
         "name": "let",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

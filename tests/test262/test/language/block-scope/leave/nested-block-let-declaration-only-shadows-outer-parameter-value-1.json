@@ -20,7 +20,6 @@
             "start": 248,
             "end": 348,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -40,6 +39,12 @@
                   "type": "LabeledStatement",
                   "start": 264,
                   "end": 314,
+                  "label": {
+                    "type": "Identifier",
+                    "start": 264,
+                    "end": 269,
+                    "name": "label"
+                  },
                   "body": {
                     "type": "BlockStatement",
                     "start": 271,
@@ -49,6 +54,7 @@
                         "type": "VariableDeclaration",
                         "start": 277,
                         "end": 293,
+                        "kind": "let",
                         "declarations": [
                           {
                             "type": "VariableDeclarator",
@@ -68,8 +74,7 @@
                               "raw": "'inner'"
                             }
                           }
-                        ],
-                        "kind": "let"
+                        ]
                       },
                       {
                         "type": "BreakStatement",
@@ -83,12 +88,6 @@
                         }
                       }
                     ]
-                  },
-                  "label": {
-                    "type": "Identifier",
-                    "start": 264,
-                    "end": 269,
-                    "name": "label"
                   }
                 },
                 {
@@ -115,8 +114,8 @@
                         "end": 333,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -137,7 +136,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         },
         "arguments": [

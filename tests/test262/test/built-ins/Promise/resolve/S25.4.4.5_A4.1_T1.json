@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 243,
       "end": 324,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -46,7 +47,6 @@
                 "start": 275,
                 "end": 322,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [
@@ -86,13 +86,13 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -151,8 +151,8 @@
                 "end": 346,
                 "name": "then"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -160,7 +160,6 @@
                 "start": 347,
                 "end": 440,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -195,14 +194,14 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               },
               {
                 "type": "FunctionExpression",
                 "start": 442,
                 "end": 567,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [
@@ -238,13 +237,11 @@
                             "start": 467,
                             "end": 495,
                             "operator": "!",
-                            "prefix": true,
                             "argument": {
                               "type": "UnaryExpression",
                               "start": 468,
                               "end": 495,
                               "operator": "!",
-                              "prefix": true,
                               "argument": {
                                 "type": "ParenthesizedExpression",
                                 "start": 469,
@@ -267,8 +264,10 @@
                                     "name": "TypeError"
                                   }
                                 }
-                              }
-                            }
+                              },
+                              "prefix": true
+                            },
+                            "prefix": true
                           },
                           {
                             "type": "Literal",
@@ -282,7 +281,8 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               }
             ],
             "optional": false
@@ -293,8 +293,8 @@
             "end": 573,
             "name": "then"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

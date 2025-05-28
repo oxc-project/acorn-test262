@@ -13,7 +13,6 @@
         "end": 300,
         "name": "await"
       },
-      "expression": false,
       "generator": false,
       "async": true,
       "params": [],
@@ -35,7 +34,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

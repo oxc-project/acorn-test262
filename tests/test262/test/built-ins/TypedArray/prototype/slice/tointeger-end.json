@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 459,
       "end": 515,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -27,9 +28,7 @@
                 "type": "Property",
                 "start": 473,
                 "end": 512,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 473,
@@ -41,7 +40,6 @@
                   "start": 482,
                   "end": 512,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -63,15 +61,17 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -93,7 +93,6 @@
             "start": 548,
             "end": 1468,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -113,6 +112,7 @@
                   "type": "VariableDeclaration",
                   "start": 565,
                   "end": 603,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -173,8 +173,7 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -222,8 +221,8 @@
                                 "end": 639,
                                 "name": "slice"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -309,8 +308,8 @@
                                 "end": 700,
                                 "name": "slice"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -404,8 +403,8 @@
                                 "end": 762,
                                 "name": "slice"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -490,8 +489,8 @@
                                 "end": 819,
                                 "name": "slice"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -577,8 +576,8 @@
                                 "end": 878,
                                 "name": "slice"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -692,8 +691,8 @@
                                 "end": 962,
                                 "name": "slice"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -779,8 +778,8 @@
                                 "end": 1019,
                                 "name": "slice"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -874,8 +873,8 @@
                                 "end": 1078,
                                 "name": "slice"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -969,8 +968,8 @@
                                 "end": 1137,
                                 "name": "slice"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -985,14 +984,14 @@
                                 "start": 1141,
                                 "end": 1145,
                                 "operator": "-",
-                                "prefix": true,
                                 "argument": {
                                   "type": "Literal",
                                   "start": 1142,
                                   "end": 1145,
                                   "value": 0.6,
                                   "raw": "0.6"
-                                }
+                                },
+                                "prefix": true
                               }
                             ],
                             "optional": false
@@ -1063,8 +1062,8 @@
                                 "end": 1196,
                                 "name": "slice"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -1079,14 +1078,14 @@
                                 "start": 1200,
                                 "end": 1204,
                                 "operator": "-",
-                                "prefix": true,
                                 "argument": {
                                   "type": "Literal",
                                   "start": 1201,
                                   "end": 1204,
                                   "value": 1.1,
                                   "raw": "1.1"
-                                }
+                                },
+                                "prefix": true
                               }
                             ],
                             "optional": false
@@ -1179,8 +1178,8 @@
                                 "end": 1265,
                                 "name": "slice"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -1195,14 +1194,14 @@
                                 "start": 1269,
                                 "end": 1273,
                                 "operator": "-",
-                                "prefix": true,
                                 "argument": {
                                   "type": "Literal",
                                   "start": 1270,
                                   "end": 1273,
                                   "value": 1.5,
                                   "raw": "1.5"
-                                }
+                                },
+                                "prefix": true
                               }
                             ],
                             "optional": false
@@ -1295,8 +1294,8 @@
                                 "end": 1335,
                                 "name": "slice"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -1404,8 +1403,8 @@
                                 "end": 1417,
                                 "name": "slice"
                               },
-                              "computed": false,
-                              "optional": false
+                              "optional": false,
+                              "computed": false
                             },
                             "arguments": [
                               {
@@ -1460,7 +1459,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

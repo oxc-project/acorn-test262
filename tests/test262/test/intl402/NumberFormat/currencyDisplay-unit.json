@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 612,
       "end": 761,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -78,9 +79,7 @@
                         "type": "Property",
                         "start": 701,
                         "end": 738,
-                        "method": true,
-                        "shorthand": false,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 701,
@@ -92,7 +91,6 @@
                           "start": 709,
                           "end": 738,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [],
@@ -114,9 +112,12 @@
                                 }
                               }
                             ]
-                          }
+                          },
+                          "expression": false
                         },
-                        "kind": "init"
+                        "method": true,
+                        "shorthand": false,
+                        "computed": false
                       }
                     ]
                   },
@@ -132,8 +133,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -144,6 +144,7 @@
         "type": "VariableDeclaration",
         "start": 768,
         "end": 797,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -170,8 +171,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -188,6 +188,7 @@
             "type": "VariableDeclaration",
             "start": 819,
             "end": 947,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -219,8 +220,8 @@
                       "end": 851,
                       "name": "NumberFormat"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -238,9 +239,7 @@
                           "type": "Property",
                           "start": 862,
                           "end": 881,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Literal",
                             "start": 862,
@@ -255,15 +254,15 @@
                             "value": "currency",
                             "raw": "\"currency\""
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false
                         },
                         {
                           "type": "Property",
                           "start": 887,
                           "end": 904,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Literal",
                             "start": 887,
@@ -278,15 +277,15 @@
                             "value": "EUR",
                             "raw": "\"EUR\""
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false
                         },
                         {
                           "type": "Property",
                           "start": 910,
                           "end": 940,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Literal",
                             "start": 910,
@@ -300,20 +299,22 @@
                             "end": 940,
                             "name": "validOption"
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false
                         }
                       ]
                     }
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 950,
             "end": 995,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -345,15 +346,14 @@
                       "end": 992,
                       "name": "resolvedOptions"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -379,8 +379,8 @@
                   "end": 1014,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -399,8 +399,8 @@
                     "end": 1046,
                     "name": "currencyDisplay"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Identifier",
@@ -424,6 +424,7 @@
         "type": "VariableDeclaration",
         "start": 1067,
         "end": 1086,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -444,8 +445,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -462,6 +462,7 @@
             "type": "VariableDeclaration",
             "start": 1108,
             "end": 1212,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -493,8 +494,8 @@
                       "end": 1140,
                       "name": "NumberFormat"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -512,9 +513,7 @@
                           "type": "Property",
                           "start": 1151,
                           "end": 1169,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Literal",
                             "start": 1151,
@@ -529,15 +528,15 @@
                             "value": "percent",
                             "raw": "\"percent\""
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false
                         },
                         {
                           "type": "Property",
                           "start": 1175,
                           "end": 1205,
-                          "method": false,
-                          "shorthand": false,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Literal",
                             "start": 1175,
@@ -551,20 +550,22 @@
                             "end": 1205,
                             "name": "validOption"
                           },
-                          "kind": "init"
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false
                         }
                       ]
                     }
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 1215,
             "end": 1260,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -596,15 +597,14 @@
                       "end": 1257,
                       "name": "resolvedOptions"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -630,8 +630,8 @@
                   "end": 1279,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -650,8 +650,8 @@
                     "end": 1311,
                     "name": "currencyDisplay"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Identifier",

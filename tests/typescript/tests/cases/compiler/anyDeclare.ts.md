@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 19,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 12,
           "end": 18,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
@@ -33,77 +33,16 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "TSModuleDeclaration",
       "start": 20,
       "end": 75,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 33,
-        "end": 75,
-        "body": [
-          {
-            "type": "VariableDeclaration",
-            "start": 39,
-            "end": 48,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 43,
-                "end": 47,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 43,
-                  "end": 47,
-                  "decorators": [],
-                  "name": "myFn",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "init": null
-              }
-            ],
-            "declare": false,
-            "kind": "var"
-          },
-          {
-            "type": "FunctionDeclaration",
-            "start": 53,
-            "end": 73,
-            "async": false,
-            "body": {
-              "type": "BlockStatement",
-              "start": 69,
-              "end": 73,
-              "body": []
-            },
-            "declare": false,
-            "expression": false,
-            "generator": false,
-            "id": {
-              "type": "Identifier",
-              "start": 62,
-              "end": 66,
-              "decorators": [],
-              "name": "myFn",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
-        ]
-      },
-      "declare": false,
-      "global": false,
       "id": {
         "type": "Identifier",
         "start": 27,
@@ -113,7 +52,68 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "module"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 33,
+        "end": 75,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 39,
+            "end": 48,
+            "kind": "var",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 43,
+                "end": 47,
+                "id": {
+                  "type": "Identifier",
+                  "start": 43,
+                  "end": 47,
+                  "decorators": [],
+                  "name": "myFn",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "init": null,
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "FunctionDeclaration",
+            "start": 53,
+            "end": 73,
+            "id": {
+              "type": "Identifier",
+              "start": 62,
+              "end": 66,
+              "decorators": [],
+              "name": "myFn",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "generator": false,
+            "async": false,
+            "declare": false,
+            "typeParameters": null,
+            "params": [],
+            "returnType": null,
+            "body": {
+              "type": "BlockStatement",
+              "start": 69,
+              "end": 73,
+              "body": []
+            },
+            "expression": false
+          }
+        ]
+      },
+      "kind": "module",
+      "declare": false,
+      "global": false
     }
   ],
   "sourceType": "script",

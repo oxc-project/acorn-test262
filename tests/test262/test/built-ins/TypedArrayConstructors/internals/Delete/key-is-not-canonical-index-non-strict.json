@@ -23,7 +23,6 @@
             "start": 863,
             "end": 1686,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -43,6 +42,7 @@
                   "type": "VariableDeclaration",
                   "start": 880,
                   "end": 964,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -90,8 +90,7 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -117,17 +116,15 @@
                         "end": 980,
                         "name": "forEach"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
                         "type": "ArrowFunctionExpression",
                         "start": 981,
                         "end": 1682,
-                        "id": null,
                         "expression": false,
-                        "generator": false,
                         "async": false,
                         "params": [
                           {
@@ -146,6 +143,7 @@
                               "type": "VariableDeclaration",
                               "start": 996,
                               "end": 1018,
+                              "kind": "var",
                               "declarations": [
                                 {
                                   "type": "VariableDeclarator",
@@ -170,8 +168,7 @@
                                     "arguments": []
                                   }
                                 }
-                              ],
-                              "kind": "var"
+                              ]
                             },
                             {
                               "type": "ExpressionStatement",
@@ -197,8 +194,8 @@
                                     "end": 1066,
                                     "name": "sameValue"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -206,7 +203,6 @@
                                     "start": 1074,
                                     "end": 1092,
                                     "operator": "delete",
-                                    "prefix": true,
                                     "argument": {
                                       "type": "MemberExpression",
                                       "start": 1081,
@@ -223,9 +219,10 @@
                                         "end": 1091,
                                         "name": "key"
                                       },
-                                      "computed": true,
-                                      "optional": false
-                                    }
+                                      "optional": false,
+                                      "computed": true
+                                    },
+                                    "prefix": true
                                   },
                                   {
                                     "type": "Literal",
@@ -274,8 +271,8 @@
                                       "end": 1182,
                                       "name": "prototype"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   "property": {
                                     "type": "Identifier",
@@ -283,8 +280,8 @@
                                     "end": 1186,
                                     "name": "key"
                                   },
-                                  "computed": true,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": true
                                 },
                                 "right": {
                                   "type": "Identifier",
@@ -318,8 +315,8 @@
                                     "end": 1216,
                                     "name": "sameValue"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -327,7 +324,6 @@
                                     "start": 1224,
                                     "end": 1242,
                                     "operator": "delete",
-                                    "prefix": true,
                                     "argument": {
                                       "type": "MemberExpression",
                                       "start": 1231,
@@ -344,9 +340,10 @@
                                         "end": 1241,
                                         "name": "key"
                                       },
-                                      "computed": true,
-                                      "optional": false
-                                    }
+                                      "optional": false,
+                                      "computed": true
+                                    },
+                                    "prefix": true
                                   },
                                   {
                                     "type": "Literal",
@@ -391,8 +388,8 @@
                                     "end": 1328,
                                     "name": "key"
                                   },
-                                  "computed": true,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": true
                                 },
                                 "right": {
                                   "type": "Identifier",
@@ -426,8 +423,8 @@
                                     "end": 1357,
                                     "name": "sameValue"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -435,7 +432,6 @@
                                     "start": 1365,
                                     "end": 1383,
                                     "operator": "delete",
-                                    "prefix": true,
                                     "argument": {
                                       "type": "MemberExpression",
                                       "start": 1372,
@@ -452,9 +448,10 @@
                                         "end": 1382,
                                         "name": "key"
                                       },
-                                      "computed": true,
-                                      "optional": false
-                                    }
+                                      "optional": false,
+                                      "computed": true
+                                    },
+                                    "prefix": true
                                   },
                                   {
                                     "type": "Literal",
@@ -498,8 +495,8 @@
                                     "end": 1474,
                                     "name": "defineProperty"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -523,9 +520,7 @@
                                         "type": "Property",
                                         "start": 1496,
                                         "end": 1517,
-                                        "method": true,
-                                        "shorthand": false,
-                                        "computed": false,
+                                        "kind": "init",
                                         "key": {
                                           "type": "Identifier",
                                           "start": 1496,
@@ -537,7 +532,6 @@
                                           "start": 1499,
                                           "end": 1517,
                                           "id": null,
-                                          "expression": false,
                                           "generator": false,
                                           "async": false,
                                           "params": [],
@@ -558,9 +552,12 @@
                                                 }
                                               }
                                             ]
-                                          }
+                                          },
+                                          "expression": false
                                         },
-                                        "kind": "init"
+                                        "method": true,
+                                        "shorthand": false,
+                                        "computed": false
                                       }
                                     ]
                                   }
@@ -592,8 +589,8 @@
                                     "end": 1547,
                                     "name": "sameValue"
                                   },
-                                  "computed": false,
-                                  "optional": false
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "arguments": [
                                   {
@@ -601,7 +598,6 @@
                                     "start": 1555,
                                     "end": 1573,
                                     "operator": "delete",
-                                    "prefix": true,
                                     "argument": {
                                       "type": "MemberExpression",
                                       "start": 1562,
@@ -618,9 +614,10 @@
                                         "end": 1572,
                                         "name": "key"
                                       },
-                                      "computed": true,
-                                      "optional": false
-                                    }
+                                      "optional": false,
+                                      "computed": true
+                                    },
+                                    "prefix": true
                                   },
                                   {
                                     "type": "Literal",
@@ -649,7 +646,6 @@
                                 "start": 1645,
                                 "end": 1677,
                                 "operator": "delete",
-                                "prefix": true,
                                 "argument": {
                                   "type": "MemberExpression",
                                   "start": 1652,
@@ -670,8 +666,8 @@
                                       "end": 1672,
                                       "name": "prototype"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   "property": {
                                     "type": "Identifier",
@@ -679,20 +675,24 @@
                                     "end": 1676,
                                     "name": "key"
                                   },
-                                  "computed": true,
-                                  "optional": false
-                                }
+                                  "optional": false,
+                                  "computed": true
+                                },
+                                "prefix": true
                               }
                             }
                           ]
-                        }
+                        },
+                        "id": null,
+                        "generator": false
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

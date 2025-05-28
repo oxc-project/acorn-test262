@@ -9,7 +9,20 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 11,
       "end": 157,
-      "abstract": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 17,
+        "end": 27,
+        "decorators": [],
+        "name": "Recursive1",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
       "body": {
         "type": "ClassBody",
         "start": 28,
@@ -19,8 +32,6 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 34,
             "end": 86,
-            "accessibility": null,
-            "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
@@ -31,25 +42,15 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "constructor",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "FunctionExpression",
               "start": 45,
               "end": 86,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 84,
-                "end": 86,
-                "body": []
-              },
-              "declare": false,
-              "expression": false,
-              "generator": false,
               "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "TSParameterProperty",
@@ -73,7 +74,6 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 72,
                         "end": 82,
-                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 72,
@@ -82,7 +82,8 @@ __ESTREE_TEST__:PASS:
                           "name": "Recursive1",
                           "optional": false,
                           "typeAnnotation": null
-                        }
+                        },
+                        "typeArguments": null
                       }
                     }
                   },
@@ -91,18 +92,26 @@ __ESTREE_TEST__:PASS:
                 }
               ],
               "returnType": null,
-              "typeParameters": null
-            }
+              "body": {
+                "type": "BlockStatement",
+                "start": 84,
+                "end": 86,
+                "body": []
+              },
+              "expression": false
+            },
+            "kind": "constructor",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null
           },
           {
             "type": "PropertyDefinition",
             "start": 91,
             "end": 155,
-            "accessibility": "private",
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
               "start": 99,
@@ -112,10 +121,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 104,
@@ -130,74 +135,15 @@ __ESTREE_TEST__:PASS:
               "type": "ConditionalExpression",
               "start": 115,
               "end": 154,
-              "alternate": {
-                "type": "Literal",
-                "start": 153,
-                "end": 154,
-                "raw": "0",
-                "value": 0
-              },
-              "consequent": {
-                "type": "BinaryExpression",
-                "start": 129,
-                "end": 150,
-                "operator": "+",
-                "left": {
-                  "type": "MemberExpression",
-                  "start": 129,
-                  "end": 146,
-                  "computed": false,
-                  "object": {
-                    "type": "MemberExpression",
-                    "start": 129,
-                    "end": 140,
-                    "computed": false,
-                    "object": {
-                      "type": "ThisExpression",
-                      "start": 129,
-                      "end": 133
-                    },
-                    "optional": false,
-                    "property": {
-                      "type": "Identifier",
-                      "start": 134,
-                      "end": 140,
-                      "decorators": [],
-                      "name": "parent",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 141,
-                    "end": 146,
-                    "decorators": [],
-                    "name": "depth",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "right": {
-                  "type": "Literal",
-                  "start": 149,
-                  "end": 150,
-                  "raw": "1",
-                  "value": 1
-                }
-              },
               "test": {
                 "type": "MemberExpression",
                 "start": 115,
                 "end": 126,
-                "computed": false,
                 "object": {
                   "type": "ThisExpression",
                   "start": 115,
                   "end": 119
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 120,
@@ -206,33 +152,100 @@ __ESTREE_TEST__:PASS:
                   "name": "parent",
                   "optional": false,
                   "typeAnnotation": null
+                },
+                "optional": false,
+                "computed": false
+              },
+              "consequent": {
+                "type": "BinaryExpression",
+                "start": 129,
+                "end": 150,
+                "left": {
+                  "type": "MemberExpression",
+                  "start": 129,
+                  "end": 146,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 129,
+                    "end": 140,
+                    "object": {
+                      "type": "ThisExpression",
+                      "start": 129,
+                      "end": 133
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 134,
+                      "end": 140,
+                      "decorators": [],
+                      "name": "parent",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "optional": false,
+                    "computed": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 141,
+                    "end": 146,
+                    "decorators": [],
+                    "name": "depth",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "operator": "+",
+                "right": {
+                  "type": "Literal",
+                  "start": 149,
+                  "end": 150,
+                  "value": 1,
+                  "raw": "1"
                 }
+              },
+              "alternate": {
+                "type": "Literal",
+                "start": 153,
+                "end": 154,
+                "value": 0,
+                "raw": "0"
               }
-            }
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": "private"
           }
         ]
       },
-      "declare": false,
-      "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 17,
-        "end": 27,
-        "decorators": [],
-        "name": "Recursive1",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 159,
       "end": 243,
-      "abstract": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 165,
+        "end": 175,
+        "decorators": [],
+        "name": "Recursive2",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
       "body": {
         "type": "ClassBody",
         "start": 176,
@@ -242,11 +255,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 182,
             "end": 202,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": true,
             "key": {
               "type": "Identifier",
               "start": 182,
@@ -256,10 +265,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 189,
@@ -268,7 +273,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 191,
                 "end": 201,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 191,
@@ -277,20 +281,25 @@ __ESTREE_TEST__:PASS:
                   "name": "Recursive2",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             },
-            "value": null
+            "value": null,
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": true,
+            "readonly": false,
+            "accessibility": null
           },
           {
             "type": "PropertyDefinition",
             "start": 207,
             "end": 241,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
               "start": 207,
@@ -300,10 +309,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 212,
@@ -318,18 +323,15 @@ __ESTREE_TEST__:PASS:
               "type": "MemberExpression",
               "start": 223,
               "end": 240,
-              "computed": false,
               "object": {
                 "type": "MemberExpression",
                 "start": 223,
                 "end": 234,
-                "computed": false,
                 "object": {
                   "type": "ThisExpression",
                   "start": 223,
                   "end": 227
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 228,
@@ -338,9 +340,10 @@ __ESTREE_TEST__:PASS:
                   "name": "parent",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 235,
@@ -349,32 +352,42 @@ __ESTREE_TEST__:PASS:
                 "name": "depth",
                 "optional": false,
                 "typeAnnotation": null
-              }
-            }
+              },
+              "optional": false,
+              "computed": false
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
-      "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 165,
-        "end": 175,
-        "decorators": [],
-        "name": "Recursive2",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 245,
       "end": 344,
-      "abstract": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 251,
+        "end": 261,
+        "decorators": [],
+        "name": "Recursive3",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
       "body": {
         "type": "ClassBody",
         "start": 262,
@@ -384,11 +397,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 268,
             "end": 288,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": true,
             "key": {
               "type": "Identifier",
               "start": 268,
@@ -398,10 +407,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 275,
@@ -410,7 +415,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 277,
                 "end": 287,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 277,
@@ -419,20 +423,25 @@ __ESTREE_TEST__:PASS:
                   "name": "Recursive3",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             },
-            "value": null
+            "value": null,
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": true,
+            "readonly": false,
+            "accessibility": null
           },
           {
             "type": "PropertyDefinition",
             "start": 293,
             "end": 327,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
               "start": 293,
@@ -442,10 +451,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 298,
@@ -460,18 +465,15 @@ __ESTREE_TEST__:PASS:
               "type": "MemberExpression",
               "start": 309,
               "end": 326,
-              "computed": false,
               "object": {
                 "type": "MemberExpression",
                 "start": 309,
                 "end": 320,
-                "computed": false,
                 "object": {
                   "type": "ThisExpression",
                   "start": 309,
                   "end": 313
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 314,
@@ -480,9 +482,10 @@ __ESTREE_TEST__:PASS:
                   "name": "parent",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 321,
@@ -491,18 +494,24 @@ __ESTREE_TEST__:PASS:
                 "name": "alpha",
                 "optional": false,
                 "typeAnnotation": null
-              }
-            }
+              },
+              "optional": false,
+              "computed": false
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
           },
           {
             "type": "PropertyDefinition",
             "start": 332,
             "end": 342,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
               "start": 332,
@@ -512,36 +521,27 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 340,
               "end": 341,
-              "raw": "0",
-              "value": 0
-            }
+              "value": 0,
+              "raw": "0"
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
-      "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 251,
-        "end": 261,
-        "decorators": [],
-        "name": "Recursive3",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

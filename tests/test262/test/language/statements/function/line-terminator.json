@@ -13,7 +13,6 @@
         "end": 292,
         "name": "x"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -22,7 +21,8 @@
         "start": 297,
         "end": 300,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",
@@ -57,7 +57,6 @@
         "end": 371,
         "name": "y"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -66,7 +65,8 @@
         "start": 496,
         "end": 498,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",
@@ -101,7 +101,6 @@
         "end": 518,
         "name": "z"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -110,7 +109,8 @@
         "start": 526,
         "end": 534,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",
@@ -145,7 +145,6 @@
         "end": 782,
         "name": "w"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -154,7 +153,8 @@
         "start": 786,
         "end": 789,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

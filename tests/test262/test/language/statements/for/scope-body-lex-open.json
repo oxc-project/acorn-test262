@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1013,
       "end": 1062,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -56,13 +57,13 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1063,
       "end": 1078,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -82,8 +83,7 @@
             "raw": "true"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForStatement",
@@ -93,6 +93,7 @@
         "type": "VariableDeclaration",
         "start": 1090,
         "end": 1151,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -138,7 +139,6 @@
                 "start": 1127,
                 "end": 1151,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -159,12 +159,12 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               }
             }
           }
-        ],
-        "kind": "let"
+        ]
       },
       "test": {
         "type": "LogicalExpression",
@@ -221,7 +221,6 @@
                   "start": 1191,
                   "end": 1215,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -242,7 +241,8 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 }
               }
             ]
@@ -265,7 +265,6 @@
           "start": 1234,
           "end": 1258,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -286,7 +285,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       },
       "body": {
@@ -314,7 +314,6 @@
                 "start": 1277,
                 "end": 1301,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -335,7 +334,8 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               }
             },
             {
@@ -385,8 +385,8 @@
             "end": 1333,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -437,8 +437,8 @@
             "end": 1377,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -496,8 +496,8 @@
             "end": 1452,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -555,8 +555,8 @@
             "end": 1526,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

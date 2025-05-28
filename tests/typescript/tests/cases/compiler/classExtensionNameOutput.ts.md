@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 10,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 8,
-        "end": 10,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -27,16 +19,30 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 8,
+        "end": 10,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 11,
       "end": 93,
-      "alternate": null,
+      "test": {
+        "type": "Literal",
+        "start": 15,
+        "end": 19,
+        "value": true,
+        "raw": "true"
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 21,
@@ -46,14 +52,6 @@ __ESTREE_TEST__:PASS:
             "type": "ClassDeclaration",
             "start": 25,
             "end": 45,
-            "abstract": false,
-            "body": {
-              "type": "ClassBody",
-              "start": 43,
-              "end": 45,
-              "body": []
-            },
-            "declare": false,
             "decorators": [],
             "id": {
               "type": "Identifier",
@@ -64,7 +62,7 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "implements": [],
+            "typeParameters": null,
             "superClass": {
               "type": "Identifier",
               "start": 41,
@@ -75,18 +73,26 @@ __ESTREE_TEST__:PASS:
               "typeAnnotation": null
             },
             "superTypeArguments": null,
-            "typeParameters": null
+            "implements": [],
+            "body": {
+              "type": "ClassBody",
+              "start": 43,
+              "end": 45,
+              "body": []
+            },
+            "abstract": false,
+            "declare": false
           },
           {
             "type": "VariableDeclaration",
             "start": 49,
             "end": 91,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 55,
                 "end": 91,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 55,
@@ -100,7 +106,13 @@ __ESTREE_TEST__:PASS:
                   "type": "FunctionExpression",
                   "start": 61,
                   "end": 91,
+                  "id": null,
+                  "generator": false,
                   "async": false,
+                  "declare": false,
+                  "typeParameters": null,
+                  "params": [],
+                  "returnType": null,
                   "body": {
                     "type": "BlockStatement",
                     "start": 73,
@@ -110,12 +122,10 @@ __ESTREE_TEST__:PASS:
                         "type": "ExpressionStatement",
                         "start": 79,
                         "end": 87,
-                        "directive": null,
                         "expression": {
                           "type": "NewExpression",
                           "start": 79,
                           "end": 86,
-                          "arguments": [],
                           "callee": {
                             "type": "Identifier",
                             "start": 83,
@@ -125,33 +135,23 @@ __ESTREE_TEST__:PASS:
                             "optional": false,
                             "typeAnnotation": null
                           },
-                          "typeArguments": null
-                        }
+                          "typeArguments": null,
+                          "arguments": []
+                        },
+                        "directive": null
                       }
                     ]
                   },
-                  "declare": false,
-                  "expression": false,
-                  "generator": false,
-                  "id": null,
-                  "params": [],
-                  "returnType": null,
-                  "typeParameters": null
-                }
+                  "expression": false
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "const"
+            "declare": false
           }
         ]
       },
-      "test": {
-        "type": "Literal",
-        "start": 15,
-        "end": 19,
-        "raw": "true",
-        "value": true
-      }
+      "alternate": null
     }
   ],
   "sourceType": "script",

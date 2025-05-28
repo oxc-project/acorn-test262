@@ -37,7 +37,6 @@
         "end": 380,
         "name": "__func"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -50,6 +49,7 @@
             "type": "VariableDeclaration",
             "start": 388,
             "end": 415,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -68,8 +68,7 @@
                   "name": "THE_ANSWER"
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ReturnStatement",
@@ -83,7 +82,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",

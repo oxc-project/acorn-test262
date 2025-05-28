@@ -27,8 +27,8 @@
             "end": 345,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -51,8 +51,8 @@
                 "end": 355,
                 "name": "ceil"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -60,14 +60,14 @@
                 "start": 356,
                 "end": 374,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 357,
                   "end": 374,
                   "value": 1e-15,
                   "raw": "0.000000000000001"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -77,14 +77,14 @@
             "start": 377,
             "end": 379,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 378,
               "end": 379,
               "value": 0,
               "raw": "0"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -121,8 +121,8 @@
             "end": 420,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -145,8 +145,8 @@
                 "end": 430,
                 "name": "ceil"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -154,14 +154,14 @@
                 "start": 431,
                 "end": 449,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 432,
                   "end": 449,
                   "value": 0.999999999999999,
                   "raw": "0.999999999999999"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -171,14 +171,14 @@
             "start": 452,
             "end": 454,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 453,
               "end": 454,
               "value": 0,
               "raw": "0"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -215,8 +215,8 @@
             "end": 495,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -239,8 +239,8 @@
                 "end": 505,
                 "name": "ceil"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -248,14 +248,14 @@
                 "start": 506,
                 "end": 510,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 507,
                   "end": 510,
                   "value": 0.5,
                   "raw": "0.5"
-                }
+                },
+                "prefix": true
               }
             ],
             "optional": false
@@ -265,14 +265,14 @@
             "start": 513,
             "end": 515,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 514,
               "end": 515,
               "value": 0,
               "raw": "0"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

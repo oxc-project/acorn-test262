@@ -16,7 +16,6 @@
           "start": 366,
           "end": 378,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 372,
@@ -28,7 +27,8 @@
               "value": true,
               "raw": "true"
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -86,7 +86,6 @@
           "start": 619,
           "end": 631,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 625,
@@ -98,7 +97,8 @@
               "value": true,
               "raw": "true"
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!=",
         "right": {
@@ -156,7 +156,6 @@
           "start": 870,
           "end": 883,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 876,
@@ -168,7 +167,8 @@
               "value": false,
               "raw": "false"
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -226,7 +226,6 @@
           "start": 1125,
           "end": 1138,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 1131,
@@ -238,7 +237,8 @@
               "value": false,
               "raw": "false"
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!=",
         "right": {

@@ -20,13 +20,13 @@
             "start": 278,
             "end": 281,
             "operator": "!",
-            "prefix": true,
             "argument": {
               "type": "ObjectExpression",
               "start": 279,
               "end": 281,
               "properties": []
-            }
+            },
+            "prefix": true
           }
         },
         "operator": "!==",
@@ -85,7 +85,6 @@
           "start": 364,
           "end": 387,
           "operator": "!",
-          "prefix": true,
           "argument": {
             "type": "ParenthesizedExpression",
             "start": 365,
@@ -95,7 +94,6 @@
               "start": 366,
               "end": 386,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -117,9 +115,11 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {

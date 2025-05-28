@@ -17,7 +17,6 @@
           "end": 478,
           "name": "G"
         },
-        "expression": false,
         "generator": true,
         "async": false,
         "params": [],
@@ -26,7 +25,8 @@
           "start": 481,
           "end": 483,
           "body": []
-        }
+        },
+        "expression": false
       }
     },
     {
@@ -54,8 +54,8 @@
             "end": 489,
             "name": "foo"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",

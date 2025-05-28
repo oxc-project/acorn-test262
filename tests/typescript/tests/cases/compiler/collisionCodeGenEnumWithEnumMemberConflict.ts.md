@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSEnumDeclaration",
       "start": 0,
       "end": 43,
+      "id": {
+        "type": "Identifier",
+        "start": 5,
+        "end": 10,
+        "decorators": [],
+        "name": "Color",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSEnumBody",
         "start": 11,
@@ -18,7 +27,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 17,
             "end": 22,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 17,
@@ -28,13 +36,13 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 28,
             "end": 41,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 28,
@@ -52,21 +60,13 @@ __ESTREE_TEST__:PASS:
               "name": "Color",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "computed": false
           }
         ]
       },
       "const": false,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 5,
-        "end": 10,
-        "decorators": [],
-        "name": "Color",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      "declare": false
     }
   ],
   "sourceType": "script",

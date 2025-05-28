@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 9,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 5,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -24,13 +24,13 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "init": null
+          "init": null,
+          "definite": false
         },
         {
           "type": "VariableDeclarator",
           "start": 7,
           "end": 8,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 7,
@@ -40,34 +40,27 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ForInStatement",
       "start": 10,
       "end": 32,
-      "body": {
-        "type": "BlockStatement",
-        "start": 29,
-        "end": 32,
-        "body": []
-      },
       "left": {
         "type": "ObjectPattern",
         "start": 15,
         "end": 21,
         "decorators": [],
-        "optional": false,
         "properties": [
           {
             "type": "Property",
             "start": 16,
             "end": 17,
-            "computed": false,
+            "kind": "init",
             "key": {
               "type": "Identifier",
               "start": 16,
@@ -77,10 +70,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "init",
-            "method": false,
-            "optional": false,
-            "shorthand": true,
             "value": {
               "type": "Identifier",
               "start": 16,
@@ -89,13 +78,17 @@ __ESTREE_TEST__:PASS:
               "name": "a",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "method": false,
+            "shorthand": true,
+            "computed": false,
+            "optional": false
           },
           {
             "type": "Property",
             "start": 19,
             "end": 20,
-            "computed": false,
+            "kind": "init",
             "key": {
               "type": "Identifier",
               "start": 19,
@@ -105,10 +98,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "init",
-            "method": false,
-            "optional": false,
-            "shorthand": true,
             "value": {
               "type": "Identifier",
               "start": 19,
@@ -117,9 +106,14 @@ __ESTREE_TEST__:PASS:
               "name": "b",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "method": false,
+            "shorthand": true,
+            "computed": false,
+            "optional": false
           }
         ],
+        "optional": false,
         "typeAnnotation": null
       },
       "right": {
@@ -127,6 +121,12 @@ __ESTREE_TEST__:PASS:
         "start": 25,
         "end": 27,
         "elements": []
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 29,
+        "end": 32,
+        "body": []
       }
     }
   ],

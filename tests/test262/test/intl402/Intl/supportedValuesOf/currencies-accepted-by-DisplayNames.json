@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1014,
       "end": 1068,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 1055,
                 "name": "supportedValuesOf"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -53,13 +54,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1070,
       "end": 1148,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -91,8 +92,8 @@
                 "end": 1103,
                 "name": "DisplayNames"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -111,9 +112,7 @@
                     "type": "Property",
                     "start": 1111,
                     "end": 1127,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1111,
@@ -127,15 +126,15 @@
                       "value": "currency",
                       "raw": "\"currency\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   },
                   {
                     "type": "Property",
                     "start": 1129,
                     "end": 1145,
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1129,
@@ -149,15 +148,16 @@
                       "value": "none",
                       "raw": "\"none\""
                     },
-                    "kind": "init"
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -168,6 +168,7 @@
         "type": "VariableDeclaration",
         "start": 1155,
         "end": 1167,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -181,8 +182,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -219,8 +219,8 @@
                   "end": 1203,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -228,7 +228,6 @@
                   "start": 1204,
                   "end": 1227,
                   "operator": "typeof",
-                  "prefix": true,
                   "argument": {
                     "type": "CallExpression",
                     "start": 1211,
@@ -249,8 +248,8 @@
                         "end": 1217,
                         "name": "of"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -261,7 +260,8 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "prefix": true
                 },
                 {
                   "type": "Literal",
@@ -274,14 +274,6 @@
                   "type": "TemplateLiteral",
                   "start": 1258,
                   "end": 1300,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1261,
-                      "end": 1269,
-                      "name": "currency"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -303,6 +295,14 @@
                       },
                       "tail": true
                     }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1261,
+                      "end": 1269,
+                      "name": "currency"
+                    }
                   ]
                 }
               ],
@@ -320,6 +320,7 @@
         "type": "VariableDeclaration",
         "start": 1311,
         "end": 1323,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -339,8 +340,7 @@
               "raw": "0x41"
             }
           }
-        ],
-        "kind": "let"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -387,6 +387,7 @@
               "type": "VariableDeclaration",
               "start": 1350,
               "end": 1362,
+              "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -406,8 +407,7 @@
                     "raw": "0x41"
                   }
                 }
-              ],
-              "kind": "let"
+              ]
             },
             "test": {
               "type": "BinaryExpression",
@@ -454,6 +454,7 @@
                     "type": "VariableDeclaration",
                     "start": 1391,
                     "end": 1403,
+                    "kind": "let",
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
@@ -473,8 +474,7 @@
                           "raw": "0x41"
                         }
                       }
-                    ],
-                    "kind": "let"
+                    ]
                   },
                   "test": {
                     "type": "BinaryExpression",
@@ -517,6 +517,7 @@
                         "type": "VariableDeclaration",
                         "start": 1429,
                         "end": 1473,
+                        "kind": "let",
                         "declarations": [
                           {
                             "type": "VariableDeclarator",
@@ -548,8 +549,8 @@
                                   "end": 1463,
                                   "name": "fromCharCode"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "arguments": [
                                 {
@@ -574,8 +575,7 @@
                               "optional": false
                             }
                           }
-                        ],
-                        "kind": "let"
+                        ]
                       },
                       {
                         "type": "IfStatement",
@@ -590,7 +590,6 @@
                             "start": 1484,
                             "end": 1507,
                             "operator": "typeof",
-                            "prefix": true,
                             "argument": {
                               "type": "CallExpression",
                               "start": 1491,
@@ -611,8 +610,8 @@
                                   "end": 1497,
                                   "name": "of"
                                 },
-                                "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "computed": false
                               },
                               "arguments": [
                                 {
@@ -623,7 +622,8 @@
                                 }
                               ],
                               "optional": false
-                            }
+                            },
+                            "prefix": true
                           },
                           "operator": "===",
                           "right": {
@@ -674,8 +674,8 @@
                                         "end": 1558,
                                         "name": "includes"
                                       },
-                                      "computed": false,
-                                      "optional": false
+                                      "optional": false,
+                                      "computed": false
                                     },
                                     "arguments": [
                                       {
@@ -691,14 +691,6 @@
                                     "type": "TemplateLiteral",
                                     "start": 1585,
                                     "end": 1646,
-                                    "expressions": [
-                                      {
-                                        "type": "Identifier",
-                                        "start": 1588,
-                                        "end": 1596,
-                                        "name": "currency"
-                                      }
-                                    ],
                                     "quasis": [
                                       {
                                         "type": "TemplateElement",
@@ -719,6 +711,14 @@
                                           "cooked": " supported but not returned by supportedValuesOf"
                                         },
                                         "tail": true
+                                      }
+                                    ],
+                                    "expressions": [
+                                      {
+                                        "type": "Identifier",
+                                        "start": 1588,
+                                        "end": 1596,
+                                        "name": "currency"
                                       }
                                     ]
                                   }
@@ -753,7 +753,6 @@
                                     "start": 1679,
                                     "end": 1709,
                                     "operator": "!",
-                                    "prefix": true,
                                     "argument": {
                                       "type": "CallExpression",
                                       "start": 1680,
@@ -774,8 +773,8 @@
                                           "end": 1699,
                                           "name": "includes"
                                         },
-                                        "computed": false,
-                                        "optional": false
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "arguments": [
                                         {
@@ -786,20 +785,13 @@
                                         }
                                       ],
                                       "optional": false
-                                    }
+                                    },
+                                    "prefix": true
                                   },
                                   {
                                     "type": "TemplateLiteral",
                                     "start": 1726,
                                     "end": 1787,
-                                    "expressions": [
-                                      {
-                                        "type": "Identifier",
-                                        "start": 1729,
-                                        "end": 1737,
-                                        "name": "currency"
-                                      }
-                                    ],
                                     "quasis": [
                                       {
                                         "type": "TemplateElement",
@@ -820,6 +812,14 @@
                                           "cooked": " not supported but returned by supportedValuesOf"
                                         },
                                         "tail": true
+                                      }
+                                    ],
+                                    "expressions": [
+                                      {
+                                        "type": "Identifier",
+                                        "start": 1729,
+                                        "end": 1737,
+                                        "name": "currency"
                                       }
                                     ]
                                   }

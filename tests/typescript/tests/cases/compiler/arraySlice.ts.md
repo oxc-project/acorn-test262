@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 29,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 28,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -55,42 +55,24 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 30,
       "end": 47,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 30,
         "end": 46,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 41,
-            "end": 42,
-            "raw": "1",
-            "value": 1
-          },
-          {
-            "type": "Literal",
-            "start": 44,
-            "end": 45,
-            "raw": "1",
-            "value": 1
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 30,
           "end": 40,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 30,
@@ -100,7 +82,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 34,
@@ -109,11 +90,30 @@ __ESTREE_TEST__:PASS:
             "name": "splice",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 41,
+            "end": 42,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 44,
+            "end": 45,
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

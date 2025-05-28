@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 281,
       "end": 295,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -23,23 +24,23 @@
             "start": 292,
             "end": 294,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 293,
               "end": 294,
               "value": 0,
               "raw": "0"
-            }
+            },
+            "prefix": true
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 296,
       "end": 323,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -64,8 +65,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -93,22 +93,22 @@
             "value": 4,
             "raw": "4"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "UnaryExpression",
           "start": 338,
           "end": 356,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 339,
             "end": 356,
             "value": 1e-15,
             "raw": "0.000000000000001"
-          }
+          },
+          "prefix": true
         }
       }
     },
@@ -138,22 +138,22 @@
             "value": 3,
             "raw": "3"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "UnaryExpression",
           "start": 372,
           "end": 374,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 373,
             "end": 374,
             "value": 2,
             "raw": "2"
-          }
+          },
+          "prefix": true
         }
       }
     },
@@ -183,15 +183,14 @@
             "value": 2,
             "raw": "2"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "UnaryExpression",
           "start": 390,
           "end": 398,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "MemberExpression",
             "start": 391,
@@ -208,9 +207,10 @@
               "end": 398,
               "name": "PI"
             },
-            "computed": false,
-            "optional": false
-          }
+            "optional": false,
+            "computed": false
+          },
+          "prefix": true
         }
       }
     },
@@ -240,22 +240,22 @@
             "value": 1,
             "raw": "1"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "UnaryExpression",
           "start": 414,
           "end": 437,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Literal",
             "start": 415,
             "end": 437,
             "value": 1.7976931348623157e+308,
             "raw": "1.7976931348623157E308"
-          }
+          },
+          "prefix": true
         }
       }
     },
@@ -285,21 +285,21 @@
             "value": 0,
             "raw": "0"
           },
-          "computed": true,
-          "optional": false
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "UnaryExpression",
           "start": 489,
           "end": 498,
           "operator": "-",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 490,
             "end": 498,
             "name": "Infinity"
-          }
+          },
+          "prefix": true
         }
       }
     },
@@ -307,6 +307,7 @@
       "type": "VariableDeclaration",
       "start": 500,
       "end": 520,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -326,8 +327,7 @@
             "raw": "5"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForStatement",
@@ -337,6 +337,7 @@
         "type": "VariableDeclaration",
         "start": 527,
         "end": 536,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -356,8 +357,7 @@
               "raw": "0"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -423,8 +423,8 @@
                     "end": 576,
                     "name": "pow"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -449,8 +449,8 @@
                       "end": 593,
                       "name": "i"
                     },
-                    "computed": true,
-                    "optional": false
+                    "optional": false,
+                    "computed": true
                   }
                 ],
                 "optional": false
@@ -461,13 +461,13 @@
                 "start": 600,
                 "end": 609,
                 "operator": "+",
-                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 601,
                   "end": 609,
                   "name": "Infinity"
-                }
+                },
+                "prefix": true
               }
             },
             "consequent": {
@@ -547,8 +547,8 @@
                               "end": 682,
                               "name": "i"
                             },
-                            "computed": true,
-                            "optional": false
+                            "optional": false,
+                            "computed": true
                           }
                         },
                         "operator": "+",

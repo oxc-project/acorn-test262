@@ -45,8 +45,8 @@
               "end": 485,
               "name": "charAt"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -58,7 +58,6 @@
                 "start": 486,
                 "end": 499,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -67,7 +66,8 @@
                   "start": 497,
                   "end": 499,
                   "body": []
-                }
+                },
+                "expression": false
               },
               "arguments": [],
               "optional": false
@@ -150,8 +150,8 @@
                         "end": 665,
                         "name": "charAt"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -163,7 +163,6 @@
                           "start": 666,
                           "end": 679,
                           "id": null,
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [],
@@ -172,7 +171,8 @@
                             "start": 677,
                             "end": 679,
                             "body": []
-                          }
+                          },
+                          "expression": false
                         },
                         "arguments": [],
                         "optional": false

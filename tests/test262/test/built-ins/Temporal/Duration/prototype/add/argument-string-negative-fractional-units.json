@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 321,
       "end": 362,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,19 +39,19 @@
                 "end": 359,
                 "name": "Duration"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": []
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 364,
       "end": 417,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -82,8 +83,8 @@
                 "end": 396,
                 "name": "add"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -97,8 +98,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -124,8 +124,8 @@
             "end": 448,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -167,84 +167,84 @@
             "start": 474,
             "end": 477,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 475,
               "end": 477,
               "value": 24,
               "raw": "24"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 479,
             "end": 482,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 480,
               "end": 482,
               "value": 34,
               "raw": "34"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 484,
             "end": 486,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 485,
               "end": 486,
               "value": 4,
               "raw": "4"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 488,
             "end": 492,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 489,
               "end": 492,
               "value": 404,
               "raw": "404"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 494,
             "end": 498,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 495,
               "end": 498,
               "value": 442,
               "raw": "442"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 500,
             "end": 504,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 501,
               "end": 504,
               "value": 800,
               "raw": "800"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -261,6 +261,7 @@
       "type": "VariableDeclaration",
       "start": 537,
       "end": 594,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -292,8 +293,8 @@
                 "end": 571,
                 "name": "add"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -307,8 +308,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -334,8 +334,8 @@
             "end": 625,
             "name": "assertDuration"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -384,70 +384,70 @@
             "start": 656,
             "end": 661,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 657,
               "end": 661,
               "value": 1440,
               "raw": "1440"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 663,
             "end": 666,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 664,
               "end": 666,
               "value": 34,
               "raw": "34"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 668,
             "end": 671,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 669,
               "end": 671,
               "value": 73,
               "raw": "73"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 673,
             "end": 677,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 674,
               "end": 677,
               "value": 407,
               "raw": "407"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 679,
             "end": 683,
             "operator": "-",
-            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 680,
               "end": 683,
               "value": 380,
               "raw": "380"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",

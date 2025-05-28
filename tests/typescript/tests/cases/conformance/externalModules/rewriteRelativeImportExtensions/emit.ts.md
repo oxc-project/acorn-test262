@@ -9,11 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 0,
       "end": 46,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 17,
@@ -23,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -53,7 +52,8 @@ __ESTREE_TEST__:PASS:
           "end": 45
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     }
   ],
   "sourceType": "module",
@@ -71,65 +71,65 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 11,
       "end": 37,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 26,
         "end": 36,
-        "raw": "\"./foo.ts\"",
-        "value": "./foo.ts"
+        "value": "./foo.ts",
+        "raw": "\"./foo.ts\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 38,
       "end": 66,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 53,
         "end": 65,
-        "raw": "\"../foo.mts\"",
-        "value": "../foo.mts"
+        "value": "../foo.mts",
+        "raw": "\"../foo.mts\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 67,
       "end": 98,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 82,
         "end": 97,
-        "raw": "\"../../foo.cts\"",
-        "value": "../../foo.cts"
+        "value": "../../foo.cts",
+        "raw": "\"../../foo.cts\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 99,
       "end": 126,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 114,
         "end": 125,
-        "raw": "\"./foo.tsx\"",
-        "value": "./foo.tsx"
+        "value": "./foo.tsx",
+        "raw": "\"./foo.tsx\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -144,7 +144,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 140,
@@ -153,111 +152,89 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 148,
           "end": 158,
-          "raw": "\"./foo.ts\"",
-          "value": "./foo.ts"
+          "value": "./foo.ts",
+          "raw": "\"./foo.ts\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 161,
       "end": 179,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 168,
         "end": 178,
-        "raw": "\"./foo.ts\"",
-        "value": "./foo.ts"
+        "value": "./foo.ts",
+        "raw": "\"./foo.ts\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportAllDeclaration",
       "start": 180,
       "end": 205,
-      "attributes": [],
       "exported": null,
-      "exportKind": "value",
       "source": {
         "type": "Literal",
         "start": 194,
         "end": 204,
-        "raw": "\"./foo.ts\"",
-        "value": "./foo.ts"
-      }
+        "value": "./foo.ts",
+        "raw": "\"./foo.ts\""
+      },
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 213,
       "end": 232,
-      "directive": null,
       "expression": {
         "type": "ImportExpression",
         "start": 213,
         "end": 231,
-        "options": null,
         "source": {
           "type": "Literal",
           "start": 220,
           "end": 230,
-          "raw": "\"./foo.ts\"",
-          "value": "./foo.ts"
+          "value": "./foo.ts",
+          "raw": "\"./foo.ts\""
         },
+        "options": null,
         "phase": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 233,
       "end": 267,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 233,
         "end": 266,
-        "arguments": [
-          {
-            "type": "ArrowFunctionExpression",
-            "start": 257,
-            "end": 265,
-            "async": false,
-            "body": {
-              "type": "BlockStatement",
-              "start": 263,
-              "end": 265,
-              "body": []
-            },
-            "expression": false,
-            "generator": false,
-            "id": null,
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 233,
           "end": 256,
-          "computed": false,
           "object": {
             "type": "ImportExpression",
             "start": 233,
             "end": 251,
-            "options": null,
             "source": {
               "type": "Literal",
               "start": 240,
               "end": 250,
-              "raw": "\"./foo.ts\"",
-              "value": "./foo.ts"
+              "value": "./foo.ts",
+              "raw": "\"./foo.ts\""
             },
+            "options": null,
             "phase": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 252,
@@ -266,26 +243,39 @@ __ESTREE_TEST__:PASS:
             "name": "then",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 257,
+            "end": 265,
+            "expression": false,
+            "async": false,
+            "typeParameters": null,
+            "params": [],
+            "returnType": null,
+            "body": {
+              "type": "BlockStatement",
+              "start": 263,
+              "end": 265,
+              "body": []
+            },
+            "id": null,
+            "generator": false
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "FunctionDeclaration",
       "start": 268,
       "end": 299,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 297,
-        "end": 299,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 277,
@@ -295,6 +285,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -316,33 +310,22 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 297,
+        "end": 299,
+        "body": []
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
       "start": 300,
       "end": 330,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 300,
         "end": 329,
-        "arguments": [
-          {
-            "type": "ImportExpression",
-            "start": 310,
-            "end": 328,
-            "options": null,
-            "source": {
-              "type": "Literal",
-              "start": 317,
-              "end": 327,
-              "raw": "\"./foo.ts\"",
-              "value": "./foo.ts"
-            },
-            "phase": null
-          }
-        ],
         "callee": {
           "type": "Identifier",
           "start": 300,
@@ -352,19 +335,42 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "ImportExpression",
+            "start": 310,
+            "end": 328,
+            "source": {
+              "type": "Literal",
+              "start": 317,
+              "end": 327,
+              "value": "./foo.ts",
+              "raw": "\"./foo.ts\""
+            },
+            "options": null,
+            "phase": null
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 331,
       "end": 379,
-      "directive": null,
       "expression": {
         "type": "ImportExpression",
         "start": 331,
         "end": 378,
+        "source": {
+          "type": "Literal",
+          "start": 338,
+          "end": 348,
+          "value": "./foo.ts",
+          "raw": "\"./foo.ts\""
+        },
         "options": {
           "type": "ObjectExpression",
           "start": 350,
@@ -374,7 +380,7 @@ __ESTREE_TEST__:PASS:
               "type": "Property",
               "start": 352,
               "end": 375,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 352,
@@ -384,10 +390,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "kind": "init",
-              "method": false,
-              "optional": false,
-              "shorthand": false,
               "value": {
                 "type": "ObjectExpression",
                 "start": 358,
@@ -397,7 +399,7 @@ __ESTREE_TEST__:PASS:
                     "type": "Property",
                     "start": 360,
                     "end": 373,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 360,
@@ -407,65 +409,63 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "kind": "init",
-                    "method": false,
-                    "optional": false,
-                    "shorthand": false,
                     "value": {
                       "type": "Literal",
                       "start": 366,
                       "end": 373,
-                      "raw": "\"value\"",
-                      "value": "value"
-                    }
+                      "value": "value",
+                      "raw": "\"value\""
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "optional": false
                   }
                 ]
-              }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "optional": false
             }
           ]
         },
-        "source": {
-          "type": "Literal",
-          "start": 338,
-          "end": 348,
-          "raw": "\"./foo.ts\"",
-          "value": "./foo.ts"
-        },
         "phase": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 380,
       "end": 404,
-      "directive": null,
       "expression": {
         "type": "ImportExpression",
         "start": 380,
         "end": 403,
-        "options": null,
         "source": {
           "type": "BinaryExpression",
           "start": 387,
           "end": 402,
-          "operator": "+",
           "left": {
             "type": "Literal",
             "start": 387,
             "end": 389,
-            "raw": "\"\"",
-            "value": ""
+            "value": "",
+            "raw": "\"\""
           },
+          "operator": "+",
           "right": {
             "type": "Literal",
             "start": 392,
             "end": 402,
-            "raw": "\"./foo.ts\"",
-            "value": "./foo.ts"
+            "value": "./foo.ts",
+            "raw": "\"./foo.ts\""
           }
         },
+        "options": null,
         "phase": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",
@@ -483,126 +483,132 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 11,
       "end": 37,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 26,
         "end": 36,
-        "raw": "\"./foo.ts\"",
-        "value": "./foo.ts"
+        "value": "./foo.ts",
+        "raw": "\"./foo.ts\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 38,
       "end": 66,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 53,
         "end": 65,
-        "raw": "\"../foo.mts\"",
-        "value": "../foo.mts"
+        "value": "../foo.mts",
+        "raw": "\"../foo.mts\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 67,
       "end": 98,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 82,
         "end": 97,
-        "raw": "\"../../foo.cts\"",
-        "value": "../../foo.cts"
+        "value": "../../foo.cts",
+        "raw": "\"../../foo.cts\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 99,
       "end": 126,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 114,
         "end": 125,
-        "raw": "\"./foo.tsx\"",
-        "value": "./foo.tsx"
+        "value": "./foo.tsx",
+        "raw": "\"./foo.tsx\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 127,
       "end": 145,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 134,
         "end": 144,
-        "raw": "\"./foo.ts\"",
-        "value": "./foo.ts"
+        "value": "./foo.ts",
+        "raw": "\"./foo.ts\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportAllDeclaration",
       "start": 146,
       "end": 171,
-      "attributes": [],
       "exported": null,
-      "exportKind": "value",
       "source": {
         "type": "Literal",
         "start": 160,
         "end": 170,
-        "raw": "\"./foo.ts\"",
-        "value": "./foo.ts"
-      }
+        "value": "./foo.ts",
+        "raw": "\"./foo.ts\""
+      },
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 180,
       "end": 199,
-      "directive": null,
       "expression": {
         "type": "ImportExpression",
         "start": 180,
         "end": 198,
-        "options": null,
         "source": {
           "type": "Literal",
           "start": 187,
           "end": 197,
-          "raw": "\"./foo.ts\"",
-          "value": "./foo.ts"
+          "value": "./foo.ts",
+          "raw": "\"./foo.ts\""
         },
+        "options": null,
         "phase": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 200,
       "end": 248,
-      "directive": null,
       "expression": {
         "type": "ImportExpression",
         "start": 200,
         "end": 247,
+        "source": {
+          "type": "Literal",
+          "start": 207,
+          "end": 217,
+          "value": "./foo.ts",
+          "raw": "\"./foo.ts\""
+        },
         "options": {
           "type": "ObjectExpression",
           "start": 219,
@@ -612,7 +618,7 @@ __ESTREE_TEST__:PASS:
               "type": "Property",
               "start": 221,
               "end": 244,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 221,
@@ -622,10 +628,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "kind": "init",
-              "method": false,
-              "optional": false,
-              "shorthand": false,
               "value": {
                 "type": "ObjectExpression",
                 "start": 227,
@@ -635,7 +637,7 @@ __ESTREE_TEST__:PASS:
                     "type": "Property",
                     "start": 229,
                     "end": 242,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 229,
@@ -645,51 +647,39 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "kind": "init",
-                    "method": false,
-                    "optional": false,
-                    "shorthand": false,
                     "value": {
                       "type": "Literal",
                       "start": 235,
                       "end": 242,
-                      "raw": "\"value\"",
-                      "value": "value"
-                    }
+                      "value": "value",
+                      "raw": "\"value\""
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "optional": false
                   }
                 ]
-              }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "optional": false
             }
           ]
         },
-        "source": {
-          "type": "Literal",
-          "start": 207,
-          "end": 217,
-          "raw": "\"./foo.ts\"",
-          "value": "./foo.ts"
-        },
         "phase": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 249,
       "end": 269,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 249,
         "end": 268,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 257,
-            "end": 267,
-            "raw": "\"./foo.ts\"",
-            "value": "./foo.ts"
-          }
-        ],
         "callee": {
           "type": "Identifier",
           "start": 249,
@@ -699,9 +689,19 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 257,
+            "end": 267,
+            "value": "./foo.ts",
+            "raw": "\"./foo.ts\""
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "BlockStatement",
@@ -712,20 +712,10 @@ __ESTREE_TEST__:PASS:
           "type": "ExpressionStatement",
           "start": 274,
           "end": 294,
-          "directive": null,
           "expression": {
             "type": "CallExpression",
             "start": 274,
             "end": 293,
-            "arguments": [
-              {
-                "type": "Literal",
-                "start": 282,
-                "end": 292,
-                "raw": "\"./foo.ts\"",
-                "value": "./foo.ts"
-              }
-            ],
             "callee": {
               "type": "Identifier",
               "start": 274,
@@ -735,38 +725,28 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 282,
+                "end": 292,
+                "value": "./foo.ts",
+                "raw": "\"./foo.ts\""
+              }
+            ],
+            "optional": false
+          },
+          "directive": null
         },
         {
           "type": "ExpressionStatement",
           "start": 297,
           "end": 316,
-          "directive": null,
           "expression": {
             "type": "CallExpression",
             "start": 297,
             "end": 315,
-            "arguments": [
-              {
-                "type": "CallExpression",
-                "start": 305,
-                "end": 314,
-                "arguments": [],
-                "callee": {
-                  "type": "Identifier",
-                  "start": 305,
-                  "end": 312,
-                  "decorators": [],
-                  "name": "getPath",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            ],
             "callee": {
               "type": "Identifier",
               "start": 297,
@@ -776,9 +756,29 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [
+              {
+                "type": "CallExpression",
+                "start": 305,
+                "end": 314,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 305,
+                  "end": 312,
+                  "decorators": [],
+                  "name": "getPath",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null,
+                "arguments": [],
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          "directive": null
         }
       ]
     }
@@ -798,164 +798,154 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 33,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 15,
         "end": 32,
-        "raw": "\"./foo.ts/foo.js\"",
-        "value": "./foo.ts/foo.js"
+        "value": "./foo.ts/foo.js",
+        "raw": "\"./foo.ts/foo.js\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 34,
       "end": 58,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 49,
         "end": 57,
-        "raw": "\"foo.ts\"",
-        "value": "foo.ts"
+        "value": "foo.ts",
+        "raw": "\"foo.ts\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 59,
       "end": 87,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 74,
         "end": 86,
-        "raw": "\"pkg/foo.ts\"",
-        "value": "pkg/foo.ts"
+        "value": "pkg/foo.ts",
+        "raw": "\"pkg/foo.ts\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 88,
       "end": 113,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 103,
         "end": 112,
-        "raw": "\".foo.ts\"",
-        "value": ".foo.ts"
+        "value": ".foo.ts",
+        "raw": "\".foo.ts\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 114,
       "end": 142,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 129,
         "end": 141,
-        "raw": "\"./foo.d.ts\"",
-        "value": "./foo.d.ts"
+        "value": "./foo.d.ts",
+        "raw": "\"./foo.d.ts\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 143,
       "end": 172,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 158,
         "end": 171,
-        "raw": "\"./foo.d.mts\"",
-        "value": "./foo.d.mts"
+        "value": "./foo.d.mts",
+        "raw": "\"./foo.d.mts\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 173,
       "end": 205,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 188,
         "end": 204,
-        "raw": "\"./foo.d.css.ts\"",
-        "value": "./foo.d.css.ts"
+        "value": "./foo.d.css.ts",
+        "raw": "\"./foo.d.css.ts\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 206,
       "end": 240,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 221,
         "end": 239,
-        "raw": "\"#internal/foo.ts\"",
-        "value": "#internal/foo.ts"
+        "value": "#internal/foo.ts",
+        "raw": "\"#internal/foo.ts\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 241,
       "end": 270,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 256,
         "end": 269,
-        "raw": "\"node:foo.ts\"",
-        "value": "node:foo.ts"
+        "value": "node:foo.ts",
+        "raw": "\"node:foo.ts\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 271,
       "end": 293,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 271,
         "end": 292,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 281,
-            "end": 291,
-            "raw": "\"./foo.ts\"",
-            "value": "./foo.ts"
-          }
-        ],
         "callee": {
           "type": "Identifier",
           "start": 272,
@@ -965,48 +955,48 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 281,
+            "end": 291,
+            "value": "./foo.ts",
+            "raw": "\"./foo.ts\""
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 294,
       "end": 314,
-      "directive": null,
       "expression": {
         "type": "ImportExpression",
         "start": 294,
         "end": 313,
-        "options": null,
         "source": {
           "type": "Literal",
           "start": 301,
           "end": 312,
-          "raw": "\"node:path\"",
-          "value": "node:path"
+          "value": "node:path",
+          "raw": "\"node:path\""
         },
+        "options": null,
         "phase": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 315,
       "end": 336,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 315,
         "end": 335,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 323,
-            "end": 334,
-            "raw": "\"node:path\"",
-            "value": "node:path"
-          }
-        ],
         "callee": {
           "type": "Identifier",
           "start": 315,
@@ -1016,9 +1006,19 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 323,
+            "end": 334,
+            "value": "node:path",
+            "raw": "\"node:path\""
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

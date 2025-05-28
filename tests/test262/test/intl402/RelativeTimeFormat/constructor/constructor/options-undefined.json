@@ -27,8 +27,8 @@
             "end": 409,
             "name": "defineProperties"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -47,8 +47,8 @@
               "end": 426,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "ObjectExpression",
@@ -59,9 +59,7 @@
                 "type": "Property",
                 "start": 432,
                 "end": 517,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 432,
@@ -77,9 +75,7 @@
                       "type": "Property",
                       "start": 445,
                       "end": 513,
-                      "method": true,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 445,
@@ -91,7 +87,6 @@
                         "start": 448,
                         "end": 513,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -126,21 +121,24 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       },
-                      "kind": "init"
+                      "method": true,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               },
               {
                 "type": "Property",
                 "start": 521,
                 "end": 610,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 521,
@@ -156,9 +154,7 @@
                       "type": "Property",
                       "start": 536,
                       "end": 606,
-                      "method": true,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 536,
@@ -170,7 +166,6 @@
                         "start": 539,
                         "end": 606,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -205,13 +200,18 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       },
-                      "kind": "init"
+                      "method": true,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
@@ -223,6 +223,7 @@
       "type": "VariableDeclaration",
       "start": 616,
       "end": 678,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -280,8 +281,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -292,6 +292,7 @@
         "type": "VariableDeclaration",
         "start": 685,
         "end": 695,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -305,8 +306,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -323,6 +323,7 @@
             "type": "VariableDeclaration",
             "start": 721,
             "end": 770,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -354,8 +355,8 @@
                       "end": 760,
                       "name": "RelativeTimeFormat"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -372,13 +373,13 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 773,
             "end": 819,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -410,15 +411,14 @@
                       "end": 816,
                       "name": "resolvedOptions"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -444,8 +444,8 @@
                   "end": 838,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -464,8 +464,8 @@
                     "end": 860,
                     "name": "style"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -478,27 +478,6 @@
                   "type": "TemplateLiteral",
                   "start": 874,
                   "end": 963,
-                  "expressions": [
-                    {
-                      "type": "MemberExpression",
-                      "start": 890,
-                      "end": 901,
-                      "object": {
-                        "type": "Identifier",
-                        "start": 890,
-                        "end": 894,
-                        "name": "args"
-                      },
-                      "property": {
-                        "type": "Identifier",
-                        "start": 895,
-                        "end": 901,
-                        "name": "length"
-                      },
-                      "computed": false,
-                      "optional": false
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -519,6 +498,27 @@
                         "cooked": " empty arguments should yield the fallback value for \"style\""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "MemberExpression",
+                      "start": 890,
+                      "end": 901,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 890,
+                        "end": 894,
+                        "name": "args"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 895,
+                        "end": 901,
+                        "name": "length"
+                      },
+                      "optional": false,
+                      "computed": false
                     }
                   ]
                 }
@@ -550,8 +550,8 @@
                   "end": 984,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -570,8 +570,8 @@
                     "end": 1008,
                     "name": "numeric"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -584,27 +584,6 @@
                   "type": "TemplateLiteral",
                   "start": 1024,
                   "end": 1115,
-                  "expressions": [
-                    {
-                      "type": "MemberExpression",
-                      "start": 1040,
-                      "end": 1051,
-                      "object": {
-                        "type": "Identifier",
-                        "start": 1040,
-                        "end": 1044,
-                        "name": "args"
-                      },
-                      "property": {
-                        "type": "Identifier",
-                        "start": 1045,
-                        "end": 1051,
-                        "name": "length"
-                      },
-                      "computed": false,
-                      "optional": false
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -625,6 +604,27 @@
                         "cooked": " empty arguments should yield the fallback value for \"numeric\""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "MemberExpression",
+                      "start": 1040,
+                      "end": 1051,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 1040,
+                        "end": 1044,
+                        "name": "args"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 1045,
+                        "end": 1051,
+                        "name": "length"
+                      },
+                      "optional": false,
+                      "computed": false
                     }
                   ]
                 }

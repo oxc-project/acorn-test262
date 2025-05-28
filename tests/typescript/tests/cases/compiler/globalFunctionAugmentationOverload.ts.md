@@ -9,11 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 0,
       "end": 45,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 17,
@@ -23,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -39,7 +38,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 29,
               "end": 37,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 29,
@@ -48,7 +46,8 @@ __ESTREE_TEST__:PASS:
                 "name": "Function",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "typeArguments": null
             }
           }
         }
@@ -63,13 +62,20 @@ __ESTREE_TEST__:PASS:
           "end": 44
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 46,
       "end": 105,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 61,
+        "end": 66,
+        "value": "mod",
+        "raw": "\"mod\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 67,
@@ -79,14 +85,6 @@ __ESTREE_TEST__:PASS:
             "type": "ClassDeclaration",
             "start": 73,
             "end": 85,
-            "abstract": false,
-            "body": {
-              "type": "ClassBody",
-              "start": 83,
-              "end": 85,
-              "body": []
-            },
-            "declare": false,
             "decorators": [],
             "id": {
               "type": "Identifier",
@@ -97,10 +95,18 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "implements": [],
+            "typeParameters": null,
             "superClass": null,
             "superTypeArguments": null,
-            "typeParameters": null
+            "implements": [],
+            "body": {
+              "type": "ClassBody",
+              "start": 83,
+              "end": 85,
+              "body": []
+            },
+            "abstract": false,
+            "declare": false
           },
           {
             "type": "TSExportAssignment",
@@ -118,15 +124,9 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 61,
-        "end": 66,
-        "raw": "\"mod\"",
-        "value": "mod"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -144,22 +144,31 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 13,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 7,
         "end": 12,
-        "raw": "\"mod\"",
-        "value": "mod"
+        "value": "mod",
+        "raw": "\"mod\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "TSModuleDeclaration",
       "start": 15,
       "end": 77,
+      "id": {
+        "type": "Identifier",
+        "start": 23,
+        "end": 29,
+        "decorators": [],
+        "name": "global",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 30,
@@ -169,11 +178,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSDeclareFunction",
             "start": 36,
             "end": 75,
-            "async": false,
-            "body": null,
-            "declare": false,
-            "expression": false,
-            "generator": false,
             "id": {
               "type": "Identifier",
               "start": 45,
@@ -183,6 +187,10 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
+            "generator": false,
+            "async": false,
+            "declare": false,
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -213,22 +221,14 @@ __ESTREE_TEST__:PASS:
                 "end": 74
               }
             },
-            "typeParameters": null
+            "body": null,
+            "expression": false
           }
         ]
       },
+      "kind": "global",
       "declare": true,
-      "global": true,
-      "id": {
-        "type": "Identifier",
-        "start": 23,
-        "end": 29,
-        "decorators": [],
-        "name": "global",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "global"
+      "global": true
     }
   ],
   "sourceType": "module",

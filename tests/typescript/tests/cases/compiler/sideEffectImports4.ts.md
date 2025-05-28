@@ -13,7 +13,6 @@ __ESTREE_TEST__:PASS:
         "type": "NewExpression",
         "start": 6,
         "end": 17,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 10,
@@ -23,7 +22,8 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "typeArguments": null
+        "typeArguments": null,
+        "arguments": []
       }
     }
   ],
@@ -53,17 +53,17 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 21,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 7,
         "end": 20,
-        "raw": "\"server-only\"",
-        "value": "server-only"
+        "value": "server-only",
+        "raw": "\"server-only\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

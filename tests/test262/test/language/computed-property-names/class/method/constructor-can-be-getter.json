@@ -23,8 +23,6 @@
             "type": "MethodDefinition",
             "start": 255,
             "end": 279,
-            "static": false,
-            "computed": true,
             "key": {
               "type": "Literal",
               "start": 260,
@@ -32,13 +30,11 @@
               "value": "constructor",
               "raw": "'constructor'"
             },
-            "kind": "get",
             "value": {
               "type": "FunctionExpression",
               "start": 274,
               "end": 279,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -47,8 +43,12 @@
                 "start": 277,
                 "end": 279,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "get",
+            "computed": true,
+            "static": false
           }
         ]
       }

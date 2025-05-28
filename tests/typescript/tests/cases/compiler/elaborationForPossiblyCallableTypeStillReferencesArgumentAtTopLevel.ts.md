@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 35,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 12,
           "end": 34,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
@@ -31,6 +31,7 @@ __ESTREE_TEST__:PASS:
                 "start": 18,
                 "end": 34,
                 "abstract": false,
+                "typeParameters": null,
                 "params": [],
                 "returnType": {
                   "type": "TSTypeAnnotation",
@@ -41,26 +42,20 @@ __ESTREE_TEST__:PASS:
                     "start": 28,
                     "end": 34
                   }
-                },
-                "typeParameters": null
+                }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "TSDeclareFunction",
       "start": 36,
       "end": 73,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 53,
@@ -70,6 +65,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -100,17 +99,27 @@ __ESTREE_TEST__:PASS:
           "end": 72
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
       "start": 74,
       "end": 82,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 74,
         "end": 82,
+        "callee": {
+          "type": "Identifier",
+          "start": 74,
+          "end": 76,
+          "decorators": [],
+          "name": "ff",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null,
         "arguments": [
           {
             "type": "Identifier",
@@ -122,18 +131,9 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         ],
-        "callee": {
-          "type": "Identifier",
-          "start": 74,
-          "end": 76,
-          "decorators": [],
-          "name": "ff",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "optional": false,
-        "typeArguments": null
-      }
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

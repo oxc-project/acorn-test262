@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 19,
       "end": 53,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 48,
-        "end": 52,
-        "raw": "\"fs\"",
-        "value": "fs"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -31,7 +23,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 38,
@@ -40,22 +31,29 @@ __ESTREE_TEST__:PASS:
             "name": "_fs",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 48,
+        "end": 52,
+        "value": "fs",
+        "raw": "\"fs\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 54,
       "end": 67,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 54,
         "end": 66,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 54,
@@ -65,7 +63,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 58,
@@ -74,21 +71,16 @@ __ESTREE_TEST__:PASS:
           "name": "readFile",
           "optional": false,
           "typeAnnotation": null
-        }
-      }
+        },
+        "optional": false,
+        "computed": false
+      },
+      "directive": null
     },
     {
       "type": "ImportDeclaration",
       "start": 68,
       "end": 93,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 88,
-        "end": 92,
-        "raw": "\"fs\"",
-        "value": "fs"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -105,19 +97,25 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 88,
+        "end": 92,
+        "value": "fs",
+        "raw": "\"fs\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 94,
       "end": 106,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 94,
         "end": 105,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 94,
@@ -127,7 +125,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 97,
@@ -136,8 +133,11 @@ __ESTREE_TEST__:PASS:
           "name": "readFile",
           "optional": false,
           "typeAnnotation": null
-        }
-      }
+        },
+        "optional": false,
+        "computed": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",
@@ -155,14 +155,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 19,
       "end": 53,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 48,
-        "end": 52,
-        "raw": "\"fs\"",
-        "value": "fs"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -177,7 +169,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 38,
@@ -186,22 +177,29 @@ __ESTREE_TEST__:PASS:
             "name": "_fs",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 48,
+        "end": 52,
+        "value": "fs",
+        "raw": "\"fs\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 54,
       "end": 67,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 54,
         "end": 66,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 54,
@@ -211,7 +209,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 58,
@@ -220,21 +217,16 @@ __ESTREE_TEST__:PASS:
           "name": "readFile",
           "optional": false,
           "typeAnnotation": null
-        }
-      }
+        },
+        "optional": false,
+        "computed": false
+      },
+      "directive": null
     },
     {
       "type": "ImportDeclaration",
       "start": 68,
       "end": 93,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 88,
-        "end": 92,
-        "raw": "\"fs\"",
-        "value": "fs"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -251,19 +243,25 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 88,
+        "end": 92,
+        "value": "fs",
+        "raw": "\"fs\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 94,
       "end": 106,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 94,
         "end": 105,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 94,
@@ -273,7 +271,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 97,
@@ -282,8 +279,11 @@ __ESTREE_TEST__:PASS:
           "name": "readFile",
           "optional": false,
           "typeAnnotation": null
-        }
-      }
+        },
+        "optional": false,
+        "computed": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",
@@ -301,22 +301,28 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 20,
-      "kind": "module",
-      "declare": true,
-      "global": false,
       "id": {
         "type": "Literal",
         "start": 15,
         "end": 19,
-        "raw": "\"fs\"",
-        "value": "fs"
-      }
+        "value": "fs",
+        "raw": "\"fs\""
+      },
+      "kind": "module",
+      "declare": true,
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 21,
       "end": 103,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 36,
+        "end": 43,
+        "value": "tslib",
+        "raw": "\"tslib\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 44,
@@ -326,23 +332,17 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 50,
             "end": 60,
-            "attributes": [],
             "declaration": null,
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 36,
-        "end": 43,
-        "raw": "\"tslib\"",
-        "value": "tslib"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",

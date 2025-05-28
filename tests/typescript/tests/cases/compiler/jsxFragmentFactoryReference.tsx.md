@@ -9,72 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 68,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 7,
         "end": 68,
-        "abstract": false,
-        "body": {
-          "type": "ClassBody",
-          "start": 23,
-          "end": 68,
-          "body": [
-            {
-              "type": "PropertyDefinition",
-              "start": 29,
-              "end": 66,
-              "accessibility": null,
-              "computed": false,
-              "declare": false,
-              "decorators": [],
-              "definite": false,
-              "key": {
-                "type": "Identifier",
-                "start": 29,
-                "end": 36,
-                "decorators": [],
-                "name": "content",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "override": false,
-              "readonly": false,
-              "static": false,
-              "typeAnnotation": null,
-              "value": {
-                "type": "ArrowFunctionExpression",
-                "start": 39,
-                "end": 66,
-                "async": false,
-                "body": {
-                  "type": "JSXFragment",
-                  "start": 55,
-                  "end": 60,
-                  "children": [],
-                  "closingFragment": {
-                    "type": "JSXClosingFragment",
-                    "start": 57,
-                    "end": 60
-                  },
-                  "openingFragment": {
-                    "type": "JSXOpeningFragment",
-                    "start": 55,
-                    "end": 57
-                  }
-                },
-                "expression": true,
-                "generator": false,
-                "id": null,
-                "params": [],
-                "returnType": null,
-                "typeParameters": null
-              }
-            }
-          ]
-        },
-        "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
@@ -85,14 +23,76 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "implements": [],
+        "typeParameters": null,
         "superClass": null,
         "superTypeArguments": null,
-        "typeParameters": null
+        "implements": [],
+        "body": {
+          "type": "ClassBody",
+          "start": 23,
+          "end": 68,
+          "body": [
+            {
+              "type": "PropertyDefinition",
+              "start": 29,
+              "end": 66,
+              "decorators": [],
+              "key": {
+                "type": "Identifier",
+                "start": 29,
+                "end": 36,
+                "decorators": [],
+                "name": "content",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeAnnotation": null,
+              "value": {
+                "type": "ArrowFunctionExpression",
+                "start": 39,
+                "end": 66,
+                "expression": true,
+                "async": false,
+                "typeParameters": null,
+                "params": [],
+                "returnType": null,
+                "body": {
+                  "type": "JSXFragment",
+                  "start": 55,
+                  "end": 60,
+                  "openingFragment": {
+                    "type": "JSXOpeningFragment",
+                    "start": 55,
+                    "end": 57
+                  },
+                  "children": [],
+                  "closingFragment": {
+                    "type": "JSXClosingFragment",
+                    "start": 57,
+                    "end": 60
+                  }
+                },
+                "id": null,
+                "generator": false
+              },
+              "computed": false,
+              "static": false,
+              "declare": false,
+              "override": false,
+              "optional": false,
+              "definite": false,
+              "readonly": false,
+              "accessibility": null
+            }
+          ]
+        },
+        "abstract": false,
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

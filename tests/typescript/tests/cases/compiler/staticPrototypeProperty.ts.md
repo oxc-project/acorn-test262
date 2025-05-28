@@ -9,55 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 37,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 8,
-        "end": 37,
-        "body": [
-          {
-            "type": "MethodDefinition",
-            "start": 13,
-            "end": 35,
-            "accessibility": null,
-            "computed": false,
-            "decorators": [],
-            "key": {
-              "type": "Identifier",
-              "start": 20,
-              "end": 29,
-              "decorators": [],
-              "name": "prototype",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": true,
-            "value": {
-              "type": "FunctionExpression",
-              "start": 29,
-              "end": 35,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 32,
-                "end": 35,
-                "body": []
-              },
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
-          }
-        ]
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -68,49 +19,64 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
-    },
-    {
-      "type": "ClassDeclaration",
-      "start": 40,
-      "end": 73,
-      "abstract": false,
+      "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 49,
-        "end": 73,
+        "start": 8,
+        "end": 37,
         "body": [
           {
-            "type": "PropertyDefinition",
-            "start": 54,
-            "end": 71,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
+            "type": "MethodDefinition",
+            "start": 13,
+            "end": 35,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 61,
-              "end": 70,
+              "start": 20,
+              "end": 29,
               "decorators": [],
               "name": "prototype",
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
+            "value": {
+              "type": "FunctionExpression",
+              "start": 29,
+              "end": 35,
+              "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
+              "body": {
+                "type": "BlockStatement",
+                "start": 32,
+                "end": 35,
+                "body": []
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
             "static": true,
-            "typeAnnotation": null,
-            "value": null
+            "override": false,
+            "optional": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
+      "abstract": false,
+      "declare": false
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 40,
+      "end": 73,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -121,10 +87,44 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 49,
+        "end": 73,
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "start": 54,
+            "end": 71,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 61,
+              "end": 70,
+              "decorators": [],
+              "name": "prototype",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeAnnotation": null,
+            "value": null,
+            "computed": false,
+            "static": true,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
+          }
+        ]
+      },
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

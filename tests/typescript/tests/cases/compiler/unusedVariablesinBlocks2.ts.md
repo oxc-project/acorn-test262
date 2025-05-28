@@ -9,7 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 66,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 11,
+        "decorators": [],
+        "name": "f1",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 15,
@@ -19,12 +33,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 21,
             "end": 32,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 25,
                 "end": 31,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 25,
@@ -38,13 +52,13 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 29,
                   "end": 31,
-                  "raw": "10",
-                  "value": 10
-                }
+                  "value": 10,
+                  "raw": "10"
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "declare": false
           },
           {
             "type": "BlockStatement",
@@ -55,12 +69,12 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclaration",
                 "start": 47,
                 "end": 58,
+                "kind": "let",
                 "declarations": [
                   {
                     "type": "VariableDeclarator",
                     "start": 51,
                     "end": 57,
-                    "definite": false,
                     "id": {
                       "type": "Identifier",
                       "start": 51,
@@ -74,33 +88,19 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 55,
                       "end": 57,
-                      "raw": "11",
-                      "value": 11
-                    }
+                      "value": 11,
+                      "raw": "11"
+                    },
+                    "definite": false
                   }
                 ],
-                "declare": false,
-                "kind": "let"
+                "declare": false
               }
             ]
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 11,
-        "decorators": [],
-        "name": "f1",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

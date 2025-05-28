@@ -31,8 +31,8 @@
                 "end": 318,
                 "name": "z"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           },
           {

@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 30,
       "end": 50,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 42,
           "end": 49,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 42,
@@ -33,17 +33,23 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "TSModuleDeclaration",
       "start": 52,
       "end": 102,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 67,
+        "end": 75,
+        "value": "module",
+        "raw": "'module'"
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 76,
@@ -66,15 +72,9 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 67,
-        "end": 75,
-        "raw": "'module'",
-        "value": "module"
-      }
+      "global": false
     }
   ],
   "sourceType": "script",

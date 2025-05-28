@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 275,
       "end": 467,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -56,14 +57,14 @@
                 "start": 328,
                 "end": 334,
                 "operator": "-",
-                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 329,
                   "end": 334,
                   "value": 42.42,
                   "raw": "42.42"
-                }
+                },
+                "prefix": true
               },
               {
                 "type": "Identifier",
@@ -148,7 +149,6 @@
                 "start": 419,
                 "end": 432,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -157,7 +157,8 @@
                   "start": 430,
                   "end": 432,
                   "body": []
-                }
+                },
+                "expression": false
               },
               {
                 "type": "ObjectExpression",
@@ -168,9 +169,7 @@
                     "type": "Property",
                     "start": 438,
                     "end": 462,
-                    "method": true,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 438,
@@ -182,7 +181,6 @@
                       "start": 445,
                       "end": 462,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -204,17 +202,19 @@
                             }
                           }
                         ]
-                      }
+                      },
+                      "expression": false
                     },
-                    "kind": "init"
+                    "method": true,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -225,6 +225,7 @@
         "type": "VariableDeclaration",
         "start": 474,
         "end": 481,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -238,8 +239,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -276,8 +276,8 @@
                   "end": 510,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -290,9 +290,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 522,
                   "end": 549,
-                  "id": null,
                   "expression": false,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -324,8 +322,8 @@
                               "end": 543,
                               "name": "pause"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -339,12 +337,36 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 567,
                   "end": 622,
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 568,
+                      "end": 568,
+                      "value": {
+                        "raw": "",
+                        "cooked": ""
+                      },
+                      "tail": false
+                    },
+                    {
+                      "type": "TemplateElement",
+                      "start": 591,
+                      "end": 621,
+                      "value": {
+                        "raw": " is an illegal iterationNumber",
+                        "cooked": " is an illegal iterationNumber"
+                      },
+                      "tail": true
+                    }
+                  ],
                   "expressions": [
                     {
                       "type": "ConditionalExpression",
@@ -376,8 +398,8 @@
                             "end": 584,
                             "name": "toString"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [],
                         "optional": false
@@ -388,28 +410,6 @@
                         "end": 590,
                         "name": "v"
                       }
-                    }
-                  ],
-                  "quasis": [
-                    {
-                      "type": "TemplateElement",
-                      "start": 568,
-                      "end": 568,
-                      "value": {
-                        "raw": "",
-                        "cooked": ""
-                      },
-                      "tail": false
-                    },
-                    {
-                      "type": "TemplateElement",
-                      "start": 591,
-                      "end": 621,
-                      "value": {
-                        "raw": " is an illegal iterationNumber",
-                        "cooked": " is an illegal iterationNumber"
-                      },
-                      "tail": true
                     }
                   ]
                 }

@@ -9,44 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 30,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 12,
-        "end": 30,
-        "body": [
-          {
-            "type": "PropertyDefinition",
-            "start": 16,
-            "end": 28,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
-            "key": {
-              "type": "Literal",
-              "start": 16,
-              "end": 23,
-              "raw": "\"prop1\"",
-              "value": "prop1"
-            },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": null,
-            "value": {
-              "type": "Literal",
-              "start": 26,
-              "end": 27,
-              "raw": "0",
-              "value": 0
-            }
-          }
-        ]
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -57,10 +19,48 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 12,
+        "end": 30,
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "start": 16,
+            "end": 28,
+            "decorators": [],
+            "key": {
+              "type": "Literal",
+              "start": 16,
+              "end": 23,
+              "value": "prop1",
+              "raw": "\"prop1\""
+            },
+            "typeAnnotation": null,
+            "value": {
+              "type": "Literal",
+              "start": 26,
+              "end": 27,
+              "value": 0,
+              "raw": "0"
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
+          }
+        ]
+      },
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

@@ -14,12 +14,12 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclaration",
           "start": 6,
           "end": 21,
+          "kind": "using",
           "declarations": [
             {
               "type": "VariableDeclarator",
               "start": 12,
               "end": 20,
-              "definite": false,
               "id": {
                 "type": "Identifier",
                 "start": 12,
@@ -33,13 +33,13 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 16,
                 "end": 20,
-                "raw": "null",
-                "value": null
-              }
+                "value": null,
+                "raw": "null"
+              },
+              "definite": false
             }
           ],
-          "declare": false,
-          "kind": "using"
+          "declare": false
         }
       ]
     }

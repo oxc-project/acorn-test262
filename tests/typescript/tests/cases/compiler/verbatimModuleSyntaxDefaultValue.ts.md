@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 13,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 11,
-        "end": 13,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -27,16 +19,57 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 11,
+        "end": 13,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 15,
       "end": 59,
+      "id": {
+        "type": "Identifier",
+        "start": 24,
+        "end": 28,
+        "decorators": [],
+        "name": "task",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": {
+        "type": "TSTypeAnnotation",
+        "start": 30,
+        "end": 36,
+        "typeAnnotation": {
+          "type": "TSTypeReference",
+          "start": 32,
+          "end": 36,
+          "typeName": {
+            "type": "Identifier",
+            "start": 32,
+            "end": 36,
+            "decorators": [],
+            "name": "Task",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
+        }
+      },
       "body": {
         "type": "BlockStatement",
         "start": 37,
@@ -50,7 +83,6 @@ __ESTREE_TEST__:PASS:
               "type": "NewExpression",
               "start": 46,
               "end": 56,
-              "arguments": [],
               "callee": {
                 "type": "Identifier",
                 "start": 50,
@@ -60,61 +92,28 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "typeArguments": null
+              "typeArguments": null,
+              "arguments": []
             }
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 24,
-        "end": 28,
-        "decorators": [],
-        "name": "task",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": {
-        "type": "TSTypeAnnotation",
-        "start": 30,
-        "end": 36,
-        "typeAnnotation": {
-          "type": "TSTypeReference",
-          "start": 32,
-          "end": 36,
-          "typeArguments": null,
-          "typeName": {
-            "type": "Identifier",
-            "start": 32,
-            "end": 36,
-            "decorators": [],
-            "name": "Task",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        }
-      },
-      "typeParameters": null
+      "expression": false
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 61,
       "end": 89,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 68,
         "end": 89,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 74,
             "end": 88,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 74,
@@ -128,7 +127,6 @@ __ESTREE_TEST__:PASS:
               "type": "CallExpression",
               "start": 82,
               "end": 88,
-              "arguments": [],
               "callee": {
                 "type": "Identifier",
                 "start": 82,
@@ -138,17 +136,19 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [],
+              "optional": false
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportDefaultDeclaration",

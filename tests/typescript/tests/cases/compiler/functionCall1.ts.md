@@ -9,7 +9,30 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 29,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 12,
+        "decorators": [],
+        "name": "foo",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": {
+        "type": "TSTypeAnnotation",
+        "start": 14,
+        "end": 18,
+        "typeAnnotation": {
+          "type": "TSAnyKeyword",
+          "start": 15,
+          "end": 18
+        }
+      },
       "body": {
         "type": "BlockStatement",
         "start": 18,
@@ -23,36 +46,13 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 26,
               "end": 28,
-              "raw": "\"\"",
-              "value": ""
+              "value": "",
+              "raw": "\"\""
             }
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 12,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": {
-        "type": "TSTypeAnnotation",
-        "start": 14,
-        "end": 18,
-        "typeAnnotation": {
-          "type": "TSAnyKeyword",
-          "start": 15,
-          "end": 18
-        }
-      },
-      "typeParameters": null
+      "expression": false
     },
     {
       "type": "EmptyStatement",
@@ -63,12 +63,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 31,
       "end": 45,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 35,
           "end": 44,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 35,
@@ -82,7 +82,6 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 39,
             "end": 44,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 39,
@@ -92,13 +91,14 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

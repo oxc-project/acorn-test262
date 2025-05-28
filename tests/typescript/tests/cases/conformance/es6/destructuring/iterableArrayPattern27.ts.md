@@ -9,16 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 77,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 74,
-        "end": 77,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -28,11 +18,16 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "RestElement",
           "start": 29,
           "end": 72,
+          "decorators": [],
           "argument": {
             "type": "ArrayPattern",
             "start": 32,
@@ -99,7 +94,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "decorators": [],
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
@@ -132,17 +126,32 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 74,
+        "end": 77,
+        "body": []
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
       "start": 78,
       "end": 135,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 78,
         "end": 134,
+        "callee": {
+          "type": "Identifier",
+          "start": 78,
+          "end": 97,
+          "decorators": [],
+          "name": "takeFirstTwoEntries",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null,
         "arguments": [
           {
             "type": "SpreadElement",
@@ -152,6 +161,16 @@ __ESTREE_TEST__:PASS:
               "type": "NewExpression",
               "start": 101,
               "end": 133,
+              "callee": {
+                "type": "Identifier",
+                "start": 105,
+                "end": 108,
+                "decorators": [],
+                "name": "Map",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeArguments": null,
               "arguments": [
                 {
                   "type": "ArrayExpression",
@@ -167,15 +186,15 @@ __ESTREE_TEST__:PASS:
                           "type": "Literal",
                           "start": 111,
                           "end": 113,
-                          "raw": "\"\"",
-                          "value": ""
+                          "value": "",
+                          "raw": "\"\""
                         },
                         {
                           "type": "Literal",
                           "start": 115,
                           "end": 116,
-                          "raw": "0",
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         }
                       ]
                     },
@@ -188,46 +207,27 @@ __ESTREE_TEST__:PASS:
                           "type": "Literal",
                           "start": 120,
                           "end": 127,
-                          "raw": "\"hello\"",
-                          "value": "hello"
+                          "value": "hello",
+                          "raw": "\"hello\""
                         },
                         {
                           "type": "Literal",
                           "start": 129,
                           "end": 130,
-                          "raw": "1",
-                          "value": 1
+                          "value": 1,
+                          "raw": "1"
                         }
                       ]
                     }
                   ]
                 }
-              ],
-              "callee": {
-                "type": "Identifier",
-                "start": 105,
-                "end": 108,
-                "decorators": [],
-                "name": "Map",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "typeArguments": null
+              ]
             }
           }
         ],
-        "callee": {
-          "type": "Identifier",
-          "start": 78,
-          "end": 97,
-          "decorators": [],
-          "name": "takeFirstTwoEntries",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "optional": false,
-        "typeArguments": null
-      }
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

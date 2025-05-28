@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 65,
       "end": 83,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 71,
           "end": 83,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 71,
@@ -28,24 +28,24 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 78,
             "end": 83,
-            "raw": "'add'",
-            "value": "add"
-          }
+            "value": "add",
+            "raw": "'add'"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 125,
       "end": 146,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 131,
           "end": 146,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 131,
@@ -59,13 +59,13 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 138,
             "end": 146,
-            "raw": "'remove'",
-            "value": "remove"
-          }
+            "value": "remove",
+            "raw": "'remove'"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "module",
@@ -83,14 +83,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 33,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 25,
-        "end": 33,
-        "raw": "\"./mod1\"",
-        "value": "./mod1"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -105,7 +97,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
@@ -114,22 +105,31 @@ __ESTREE_TEST__:PASS:
             "name": "TestEnum",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 25,
+        "end": 33,
+        "value": "./mod1",
+        "raw": "\"./mod1\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 58,
       "end": 83,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 64,
           "end": 83,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 64,
@@ -143,7 +143,6 @@ __ESTREE_TEST__:PASS:
             "type": "MemberExpression",
             "start": 71,
             "end": 83,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 71,
@@ -153,7 +152,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 80,
@@ -162,12 +160,14 @@ __ESTREE_TEST__:PASS:
               "name": "ADD",
               "optional": false,
               "typeAnnotation": null
-            }
-          }
+            },
+            "optional": false,
+            "computed": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "module",
@@ -185,17 +185,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 22,
       "end": 86,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 29,
         "end": 86,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 35,
             "end": 86,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 35,
@@ -214,7 +213,7 @@ __ESTREE_TEST__:PASS:
                   "type": "Property",
                   "start": 52,
                   "end": 62,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 52,
@@ -224,23 +223,23 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "kind": "init",
-                  "method": false,
-                  "optional": false,
-                  "shorthand": false,
                   "value": {
                     "type": "Literal",
                     "start": 57,
                     "end": 62,
-                    "raw": "'add'",
-                    "value": "add"
-                  }
+                    "value": "add",
+                    "raw": "'add'"
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "optional": false
                 },
                 {
                   "type": "Property",
                   "start": 68,
                   "end": 84,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 68,
@@ -250,28 +249,29 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "kind": "init",
-                  "method": false,
-                  "optional": false,
-                  "shorthand": false,
                   "value": {
                     "type": "Literal",
                     "start": 76,
                     "end": 84,
-                    "raw": "'remove'",
-                    "value": "remove"
-                  }
+                    "value": "remove",
+                    "raw": "'remove'"
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "optional": false
                 }
               ]
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

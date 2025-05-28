@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 440,
       "end": 630,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -271,8 +272,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForStatement",
@@ -282,6 +282,7 @@
         "type": "VariableDeclaration",
         "start": 636,
         "end": 645,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -301,8 +302,7 @@
               "raw": "2"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -365,8 +365,8 @@
                   "end": 681,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -413,8 +413,8 @@
                             "raw": "2"
                           }
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       "operator": "+",
                       "right": {

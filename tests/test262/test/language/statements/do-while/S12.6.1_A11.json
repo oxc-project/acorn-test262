@@ -16,6 +16,7 @@
             "type": "VariableDeclaration",
             "start": 301,
             "end": 316,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -35,8 +36,7 @@
                   "raw": "1"
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "IfStatement",

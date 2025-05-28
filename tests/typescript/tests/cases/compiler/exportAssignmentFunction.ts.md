@@ -9,7 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 28,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 12,
+        "decorators": [],
+        "name": "foo",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 15,
@@ -23,27 +37,13 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 24,
               "end": 25,
-              "raw": "0",
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 12,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     },
     {
       "type": "TSExportAssignment",
@@ -84,7 +84,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 17,
@@ -93,21 +92,22 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 25,
           "end": 53,
-          "raw": "\"exportAssignmentFunction_A\"",
-          "value": "exportAssignmentFunction_A"
+          "value": "exportAssignmentFunction_A",
+          "raw": "\"exportAssignmentFunction_A\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 57,
       "end": 83,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 61,
           "end": 82,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 61,
@@ -130,7 +130,6 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 73,
             "end": 82,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 73,
@@ -140,13 +139,14 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "module",

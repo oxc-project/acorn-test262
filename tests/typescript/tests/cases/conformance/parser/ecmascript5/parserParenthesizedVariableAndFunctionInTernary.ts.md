@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 11,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 10,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -33,22 +33,22 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 12,
       "end": 49,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 18,
           "end": 48,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 18,
@@ -62,24 +62,12 @@ __ESTREE_TEST__:PASS:
             "type": "ConditionalExpression",
             "start": 22,
             "end": 48,
-            "alternate": {
-              "type": "FunctionExpression",
-              "start": 35,
-              "end": 48,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 46,
-                "end": 48,
-                "body": []
-              },
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
+            "test": {
+              "type": "Literal",
+              "start": 22,
+              "end": 26,
+              "value": true,
+              "raw": "true"
             },
             "consequent": {
               "type": "Identifier",
@@ -90,18 +78,30 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "test": {
-              "type": "Literal",
-              "start": 22,
-              "end": 26,
-              "raw": "true",
-              "value": true
+            "alternate": {
+              "type": "FunctionExpression",
+              "start": 35,
+              "end": 48,
+              "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
+              "body": {
+                "type": "BlockStatement",
+                "start": 46,
+                "end": 48,
+                "body": []
+              },
+              "expression": false
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "script",

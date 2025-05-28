@@ -13,7 +13,6 @@
         "end": 513,
         "name": "fn"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -29,7 +28,8 @@
         "start": 518,
         "end": 520,
         "body": []
-      }
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

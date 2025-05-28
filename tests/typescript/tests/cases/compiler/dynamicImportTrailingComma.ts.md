@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 21,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 6,
           "end": 20,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
@@ -28,24 +28,22 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 13,
             "end": 20,
-            "raw": "'./foo'",
-            "value": "./foo"
-          }
+            "value": "./foo",
+            "raw": "'./foo'"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 22,
       "end": 36,
-      "directive": null,
       "expression": {
         "type": "ImportExpression",
         "start": 22,
         "end": 35,
-        "options": null,
         "source": {
           "type": "Identifier",
           "start": 29,
@@ -55,8 +53,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "options": null,
         "phase": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

@@ -125,6 +125,7 @@
       "type": "VariableDeclaration",
       "start": 392,
       "end": 401,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -144,13 +145,13 @@
             "raw": "10"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 402,
       "end": 410,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -170,8 +171,7 @@
             "raw": "3"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "TryStatement",
@@ -595,13 +595,13 @@
                   "start": 898,
                   "end": 907,
                   "operator": "+",
-                  "prefix": true,
                   "argument": {
                     "type": "Identifier",
                     "start": 899,
                     "end": 907,
                     "name": "Infinity"
-                  }
+                  },
+                  "prefix": true
                 }
               },
               "consequent": {
@@ -718,13 +718,13 @@
                   "start": 1063,
                   "end": 1072,
                   "operator": "-",
-                  "prefix": true,
                   "argument": {
                     "type": "Identifier",
                     "start": 1064,
                     "end": 1072,
                     "name": "Infinity"
-                  }
+                  },
+                  "prefix": true
                 }
               },
               "consequent": {

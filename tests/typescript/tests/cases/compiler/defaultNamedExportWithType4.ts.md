@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 16,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 14,
-        "end": 16,
-        "body": []
-      },
-      "declare": false,
-      "extends": [],
       "id": {
         "type": "Identifier",
         "start": 10,
@@ -26,18 +18,26 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "typeParameters": null
+      "typeParameters": null,
+      "extends": [],
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 14,
+        "end": 16,
+        "body": []
+      },
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 17,
       "end": 32,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 23,
           "end": 31,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 23,
@@ -52,11 +52,11 @@ __ESTREE_TEST__:PASS:
             "start": 29,
             "end": 31,
             "properties": []
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ExportDefaultDeclaration",

@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 58,
       "end": 80,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 64,
           "end": 70,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 64,
@@ -28,15 +28,15 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 68,
             "end": 70,
-            "raw": "50",
-            "value": 50
-          }
+            "value": 50,
+            "raw": "50"
+          },
+          "definite": false
         },
         {
           "type": "VariableDeclarator",
           "start": 72,
           "end": 79,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 72,
@@ -50,13 +50,13 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 78,
             "end": 79,
-            "raw": "5",
-            "value": 5
-          }
+            "value": 5,
+            "raw": "5"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "BlockStatement",
@@ -67,12 +67,12 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclaration",
           "start": 88,
           "end": 111,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
               "start": 94,
               "end": 100,
-              "definite": false,
               "id": {
                 "type": "Identifier",
                 "start": 94,
@@ -86,15 +86,15 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 98,
                 "end": 100,
-                "raw": "10",
-                "value": 10
-              }
+                "value": 10,
+                "raw": "10"
+              },
+              "definite": false
             },
             {
               "type": "VariableDeclarator",
               "start": 102,
               "end": 110,
-              "definite": false,
               "id": {
                 "type": "Identifier",
                 "start": 102,
@@ -108,13 +108,13 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 108,
                 "end": 110,
-                "raw": "20",
-                "value": 20
-              }
+                "value": 20,
+                "raw": "20"
+              },
+              "definite": false
             }
           ],
-          "declare": false,
-          "kind": "const"
+          "declare": false
         }
       ]
     }

@@ -20,7 +20,6 @@
             "start": 781,
             "end": 1383,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -53,8 +52,8 @@
                         "end": 809,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -68,7 +67,6 @@
                         "start": 826,
                         "end": 849,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -89,7 +87,8 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       },
                       {
                         "type": "Literal",
@@ -126,8 +125,8 @@
                         "end": 931,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -135,13 +134,13 @@
                         "start": 937,
                         "end": 945,
                         "operator": "typeof",
-                        "prefix": true,
                         "argument": {
                           "type": "Identifier",
                           "start": 944,
                           "end": 945,
                           "name": "f"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "Literal",
@@ -177,11 +176,13 @@
                       "type": "SwitchCase",
                       "start": 1055,
                       "end": 1132,
+                      "test": null,
                       "consequent": [
                         {
                           "type": "VariableDeclaration",
                           "start": 1070,
                           "end": 1076,
+                          "kind": "let",
                           "declarations": [
                             {
                               "type": "VariableDeclarator",
@@ -195,8 +196,7 @@
                               },
                               "init": null
                             }
-                          ],
-                          "kind": "let"
+                          ]
                         },
                         {
                           "type": "SwitchStatement",
@@ -214,6 +214,13 @@
                               "type": "SwitchCase",
                               "start": 1097,
                               "end": 1128,
+                              "test": {
+                                "type": "Literal",
+                                "start": 1102,
+                                "end": 1103,
+                                "value": 1,
+                                "raw": "1"
+                              },
                               "consequent": [
                                 {
                                   "type": "FunctionDeclaration",
@@ -225,7 +232,6 @@
                                     "end": 1121,
                                     "name": "f"
                                   },
-                                  "expression": false,
                                   "generator": false,
                                   "async": false,
                                   "params": [],
@@ -234,21 +240,14 @@
                                     "start": 1124,
                                     "end": 1128,
                                     "body": []
-                                  }
+                                  },
+                                  "expression": false
                                 }
-                              ],
-                              "test": {
-                                "type": "Literal",
-                                "start": 1102,
-                                "end": 1103,
-                                "value": 1,
-                                "raw": "1"
-                              }
+                              ]
                             }
                           ]
                         }
-                      ],
-                      "test": null
+                      ]
                     }
                   ]
                 },
@@ -276,8 +275,8 @@
                         "end": 1154,
                         "name": "throws"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -291,7 +290,6 @@
                         "start": 1171,
                         "end": 1194,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -312,7 +310,8 @@
                               }
                             }
                           ]
-                        }
+                        },
+                        "expression": false
                       },
                       {
                         "type": "Literal",
@@ -349,8 +348,8 @@
                         "end": 1277,
                         "name": "sameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -358,13 +357,13 @@
                         "start": 1283,
                         "end": 1291,
                         "operator": "typeof",
-                        "prefix": true,
                         "argument": {
                           "type": "Identifier",
                           "start": 1290,
                           "end": 1291,
                           "name": "f"
-                        }
+                        },
+                        "prefix": true
                       },
                       {
                         "type": "Literal",
@@ -385,7 +384,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           "arguments": [],
           "optional": false

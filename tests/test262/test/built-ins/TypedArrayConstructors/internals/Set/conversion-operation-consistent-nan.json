@@ -23,7 +23,6 @@
             "start": 3345,
             "end": 4030,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -43,6 +42,7 @@
                   "type": "VariableDeclaration",
                   "start": 3362,
                   "end": 3418,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -75,13 +75,13 @@
                         "optional": false
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "VariableDeclaration",
                   "start": 3421,
                   "end": 3445,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -114,13 +114,13 @@
                         ]
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "VariableDeclaration",
                   "start": 3448,
                   "end": 3472,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -158,8 +158,7 @@
                       },
                       "init": null
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ForStatement",
@@ -211,8 +210,8 @@
                         "end": 3507,
                         "name": "length"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   },
                   "update": {
@@ -264,8 +263,8 @@
                               "end": 3537,
                               "name": "idx"
                             },
-                            "computed": true,
-                            "optional": false
+                            "optional": false,
+                            "computed": true
                           }
                         }
                       },
@@ -350,8 +349,8 @@
                               "value": 0,
                               "raw": "0"
                             },
-                            "computed": true,
-                            "optional": false
+                            "optional": false,
+                            "computed": true
                           },
                           "right": {
                             "type": "Identifier",
@@ -369,6 +368,7 @@
                           "type": "VariableDeclaration",
                           "start": 3617,
                           "end": 3626,
+                          "kind": "var",
                           "declarations": [
                             {
                               "type": "VariableDeclarator",
@@ -388,8 +388,7 @@
                                 "raw": "0"
                               }
                             }
-                          ],
-                          "kind": "var"
+                          ]
                         },
                         "test": {
                           "type": "BinaryExpression",
@@ -418,8 +417,8 @@
                               "end": 3646,
                               "name": "length"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           }
                         },
                         "update": {
@@ -444,6 +443,7 @@
                               "type": "VariableDeclaration",
                               "start": 3661,
                               "end": 3685,
+                              "kind": "var",
                               "declarations": [
                                 {
                                   "type": "VariableDeclarator",
@@ -471,17 +471,17 @@
                                       "end": 3683,
                                       "name": "i"
                                     },
-                                    "computed": true,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": true
                                   }
                                 }
-                              ],
-                              "kind": "var"
+                              ]
                             },
                             {
                               "type": "VariableDeclaration",
                               "start": 3692,
                               "end": 3718,
+                              "kind": "var",
                               "declarations": [
                                 {
                                   "type": "VariableDeclarator",
@@ -509,12 +509,11 @@
                                       "end": 3716,
                                       "name": "i"
                                     },
-                                    "computed": true,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": true
                                   }
                                 }
-                              ],
-                              "kind": "var"
+                              ]
                             },
                             {
                               "type": "ExpressionStatement",
@@ -551,8 +550,8 @@
                                         "end": 3751,
                                         "name": "i"
                                       },
-                                      "computed": true,
-                                      "optional": false
+                                      "optional": false,
+                                      "computed": true
                                     },
                                     "operator": "!==",
                                     "right": {
@@ -571,22 +570,14 @@
                                         "end": 3766,
                                         "name": "i"
                                       },
-                                      "computed": true,
-                                      "optional": false
+                                      "optional": false,
+                                      "computed": true
                                     }
                                   },
                                   {
                                     "type": "TemplateLiteral",
                                     "start": 3777,
                                     "end": 3857,
-                                    "expressions": [
-                                      {
-                                        "type": "Identifier",
-                                        "start": 3835,
-                                        "end": 3844,
-                                        "name": "precision"
-                                      }
-                                    ],
                                     "quasis": [
                                       {
                                         "type": "TemplateElement",
@@ -607,6 +598,14 @@
                                           "cooked": " precision)"
                                         },
                                         "tail": true
+                                      }
+                                    ],
+                                    "expressions": [
+                                      {
+                                        "type": "Identifier",
+                                        "start": 3835,
+                                        "end": 3844,
+                                        "name": "precision"
                                       }
                                     ]
                                   }
@@ -649,8 +648,8 @@
                                         "end": 3900,
                                         "name": "i"
                                       },
-                                      "computed": true,
-                                      "optional": false
+                                      "optional": false,
+                                      "computed": true
                                     },
                                     "operator": "!==",
                                     "right": {
@@ -669,22 +668,14 @@
                                         "end": 3916,
                                         "name": "i"
                                       },
-                                      "computed": true,
-                                      "optional": false
+                                      "optional": false,
+                                      "computed": true
                                     }
                                   },
                                   {
                                     "type": "TemplateLiteral",
                                     "start": 3927,
                                     "end": 4009,
-                                    "expressions": [
-                                      {
-                                        "type": "Identifier",
-                                        "start": 3987,
-                                        "end": 3996,
-                                        "name": "precision"
-                                      }
-                                    ],
                                     "quasis": [
                                       {
                                         "type": "TemplateElement",
@@ -706,6 +697,14 @@
                                         },
                                         "tail": true
                                       }
+                                    ],
+                                    "expressions": [
+                                      {
+                                        "type": "Identifier",
+                                        "start": 3987,
+                                        "end": 3996,
+                                        "name": "precision"
+                                      }
                                     ]
                                   }
                                 ],
@@ -719,7 +718,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "Identifier",

@@ -27,7 +27,6 @@
               "start": 2514,
               "end": 2544,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -76,7 +75,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
           ]
         }
@@ -101,7 +101,6 @@
               "start": 2566,
               "end": 2596,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -150,7 +149,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
           ]
         }
@@ -175,7 +175,6 @@
               "start": 2617,
               "end": 2647,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -224,7 +223,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
           ]
         }
@@ -258,7 +258,6 @@
                     "start": 2673,
                     "end": 2703,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [
@@ -307,7 +306,8 @@
                           }
                         }
                       ]
-                    }
+                    },
+                    "expression": false
                   }
                 ]
               }
@@ -330,6 +330,7 @@
         "type": "VariableDeclaration",
         "start": 2893,
         "end": 2904,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -343,8 +344,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "AwaitExpression",
@@ -366,7 +366,6 @@
               "start": 2924,
               "end": 2954,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -415,7 +414,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
           ]
         }
@@ -440,7 +440,6 @@
               "start": 2975,
               "end": 3005,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -489,7 +488,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
           ]
         }
@@ -523,7 +523,6 @@
                     "start": 3031,
                     "end": 3061,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [
@@ -572,7 +571,8 @@
                           }
                         }
                       ]
-                    }
+                    },
+                    "expression": false
                   }
                 ]
               }
@@ -595,6 +595,7 @@
         "type": "VariableDeclaration",
         "start": 3240,
         "end": 3251,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -608,8 +609,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "test": {
         "type": "AwaitExpression",
@@ -631,7 +631,6 @@
               "start": 3271,
               "end": 3301,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -680,7 +679,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
           ]
         }
@@ -705,7 +705,6 @@
               "start": 3322,
               "end": 3352,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -754,7 +753,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
           ]
         }
@@ -788,7 +788,6 @@
                     "start": 3378,
                     "end": 3408,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [
@@ -837,7 +836,8 @@
                           }
                         }
                       ]
-                    }
+                    },
+                    "expression": false
                   }
                 ]
               }

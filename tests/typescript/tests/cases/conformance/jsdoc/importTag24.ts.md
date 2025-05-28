@@ -9,12 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 25,
-      "attributes": [],
       "declaration": {
         "type": "TSTypeAliasDeclaration",
         "start": 7,
         "end": 25,
-        "declare": false,
         "id": {
           "type": "Identifier",
           "start": 12,
@@ -24,16 +22,18 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "typeParameters": null,
         "typeAnnotation": {
           "type": "TSStringKeyword",
           "start": 18,
           "end": 24
         },
-        "typeParameters": null
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -51,7 +51,21 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 44,
       "end": 79,
+      "id": {
+        "type": "Identifier",
+        "start": 53,
+        "end": 55,
+        "decorators": [],
+        "name": "f1",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 58,
@@ -73,32 +87,31 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 53,
-        "end": 55,
-        "decorators": [],
-        "name": "f1",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 81,
       "end": 188,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 88,
         "end": 188,
+        "id": {
+          "type": "Identifier",
+          "start": 97,
+          "end": 99,
+          "decorators": [],
+          "name": "f2",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "generator": false,
         "async": false,
+        "declare": false,
+        "typeParameters": null,
+        "params": [],
+        "returnType": null,
         "body": {
           "type": "BlockStatement",
           "start": 102,
@@ -108,12 +121,12 @@ __ESTREE_TEST__:PASS:
               "type": "VariableDeclaration",
               "start": 136,
               "end": 170,
+              "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 142,
                   "end": 169,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 142,
@@ -127,6 +140,16 @@ __ESTREE_TEST__:PASS:
                     "type": "NewExpression",
                     "start": 148,
                     "end": 169,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 152,
+                      "end": 155,
+                      "decorators": [],
+                      "name": "Set",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeArguments": null,
                     "arguments": [
                       {
                         "type": "ArrayExpression",
@@ -137,34 +160,24 @@ __ESTREE_TEST__:PASS:
                             "type": "Literal",
                             "start": 158,
                             "end": 161,
-                            "raw": "'a'",
-                            "value": "a"
+                            "value": "a",
+                            "raw": "'a'"
                           },
                           {
                             "type": "Literal",
                             "start": 163,
                             "end": 166,
-                            "raw": "'b'",
-                            "value": "b"
+                            "value": "b",
+                            "raw": "'b'"
                           }
                         ]
                       }
-                    ],
-                    "callee": {
-                      "type": "Identifier",
-                      "start": 152,
-                      "end": 155,
-                      "decorators": [],
-                      "name": "Set",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "typeArguments": null
-                  }
+                    ]
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "const"
+              "declare": false
             },
             {
               "type": "ReturnStatement",
@@ -182,31 +195,32 @@ __ESTREE_TEST__:PASS:
             }
           ]
         },
-        "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 97,
-          "end": 99,
-          "decorators": [],
-          "name": "f2",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "FunctionDeclaration",
       "start": 190,
       "end": 225,
+      "id": {
+        "type": "Identifier",
+        "start": 199,
+        "end": 201,
+        "decorators": [],
+        "name": "f3",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 204,
@@ -228,37 +242,22 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 199,
-        "end": 201,
-        "decorators": [],
-        "name": "f3",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 251,
       "end": 292,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 258,
         "end": 292,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 264,
             "end": 291,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 264,
@@ -272,6 +271,16 @@ __ESTREE_TEST__:PASS:
               "type": "NewExpression",
               "start": 270,
               "end": 291,
+              "callee": {
+                "type": "Identifier",
+                "start": 274,
+                "end": 277,
+                "decorators": [],
+                "name": "Set",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeArguments": null,
               "arguments": [
                 {
                   "type": "ArrayExpression",
@@ -282,44 +291,49 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 280,
                       "end": 283,
-                      "raw": "'a'",
-                      "value": "a"
+                      "value": "a",
+                      "raw": "'a'"
                     },
                     {
                       "type": "Literal",
                       "start": 285,
                       "end": 288,
-                      "raw": "'b'",
-                      "value": "b"
+                      "value": "b",
+                      "raw": "'b'"
                     }
                   ]
                 }
-              ],
-              "callee": {
-                "type": "Identifier",
-                "start": 274,
-                "end": 277,
-                "decorators": [],
-                "name": "Set",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "typeArguments": null
-            }
+              ]
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "FunctionDeclaration",
       "start": 320,
       "end": 347,
+      "id": {
+        "type": "Identifier",
+        "start": 329,
+        "end": 331,
+        "decorators": [],
+        "name": "f4",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 334,
@@ -333,27 +347,13 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 343,
               "end": 344,
-              "raw": "1",
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 329,
-        "end": 331,
-        "decorators": [],
-        "name": "f4",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "module",

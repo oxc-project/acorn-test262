@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 21,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 17,
-        "end": 21,
-        "body": []
-      },
-      "declare": false,
-      "extends": [],
       "id": {
         "type": "Identifier",
         "start": 10,
@@ -26,7 +18,15 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "typeParameters": null
+      "typeParameters": null,
+      "extends": [],
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 17,
+        "end": 21,
+        "body": []
+      },
+      "declare": false
     }
   ],
   "sourceType": "module",
@@ -44,6 +44,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 49,
       "end": 93,
+      "id": {
+        "type": "Identifier",
+        "start": 59,
+        "end": 63,
+        "decorators": [],
+        "name": "Test",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 64,
@@ -53,17 +62,16 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 70,
             "end": 91,
-            "attributes": [],
             "declaration": {
               "type": "VariableDeclaration",
               "start": 77,
               "end": 91,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 81,
                   "end": 90,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 81,
@@ -79,7 +87,6 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 84,
                         "end": 90,
-                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 84,
@@ -88,34 +95,27 @@ __ESTREE_TEST__:PASS:
                           "name": "JQuery",
                           "optional": false,
                           "typeAnnotation": null
-                        }
+                        },
+                        "typeArguments": null
                       }
                     }
                   },
-                  "init": null
+                  "init": null,
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "var"
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           }
         ]
       },
+      "kind": "namespace",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 59,
-        "end": 63,
-        "decorators": [],
-        "name": "Test",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "namespace"
+      "global": false
     }
   ],
   "sourceType": "module",

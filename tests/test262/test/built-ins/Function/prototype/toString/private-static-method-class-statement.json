@@ -23,21 +23,17 @@
             "type": "MethodDefinition",
             "start": 330,
             "end": 379,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 337,
               "end": 339,
               "name": "f"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 348,
               "end": 379,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -46,28 +42,28 @@
                 "start": 368,
                 "end": 379,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true
           },
           {
             "type": "MethodDefinition",
             "start": 393,
             "end": 477,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 400,
               "end": 406,
               "name": "assert"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 406,
               "end": 477,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -113,8 +109,8 @@
                             "end": 461,
                             "name": "f"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         {
                           "type": "Identifier",
@@ -127,8 +123,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true
           }
         ]
       }
@@ -157,8 +157,8 @@
             "end": 489,
             "name": "assert"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

@@ -112,6 +112,7 @@
       "type": "VariableDeclaration",
       "start": 482,
       "end": 503,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -131,8 +132,7 @@
             "raw": "\"exception #1\""
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "TryStatement",

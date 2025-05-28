@@ -9,76 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 120,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 67,
-        "end": 120,
-        "body": [
-          {
-            "type": "VariableDeclaration",
-            "start": 73,
-            "end": 89,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 77,
-                "end": 88,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 77,
-                  "end": 83,
-                  "decorators": [],
-                  "name": "unused",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "init": {
-                  "type": "Literal",
-                  "start": 86,
-                  "end": 88,
-                  "raw": "20",
-                  "value": 20
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "var"
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 94,
-            "end": 118,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 94,
-              "end": 117,
-              "operator": "=",
-              "left": {
-                "type": "Identifier",
-                "start": 94,
-                "end": 101,
-                "decorators": [],
-                "name": "person2",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "right": {
-                "type": "Literal",
-                "start": 104,
-                "end": 117,
-                "raw": "\"dummy value\"",
-                "value": "dummy value"
-              }
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -88,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -145,7 +79,73 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 67,
+        "end": 120,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 73,
+            "end": 89,
+            "kind": "var",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 77,
+                "end": 88,
+                "id": {
+                  "type": "Identifier",
+                  "start": 77,
+                  "end": 83,
+                  "decorators": [],
+                  "name": "unused",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "init": {
+                  "type": "Literal",
+                  "start": 86,
+                  "end": 88,
+                  "value": 20,
+                  "raw": "20"
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 94,
+            "end": 118,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 94,
+              "end": 117,
+              "operator": "=",
+              "left": {
+                "type": "Identifier",
+                "start": 94,
+                "end": 101,
+                "decorators": [],
+                "name": "person2",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "right": {
+                "type": "Literal",
+                "start": 104,
+                "end": 117,
+                "value": "dummy value",
+                "raw": "\"dummy value\""
+              }
+            },
+            "directive": null
+          }
+        ]
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

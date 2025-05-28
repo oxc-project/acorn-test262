@@ -9,16 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 61,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 58,
-        "end": 61,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -28,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -44,7 +38,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 14,
               "end": 34,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 14,
@@ -53,7 +46,8 @@ __ESTREE_TEST__:PASS:
                 "name": "TemplateStringsArray",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "typeArguments": null
             }
           }
         },
@@ -95,17 +89,32 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 58,
+        "end": 61,
+        "body": []
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
       "start": 63,
       "end": 77,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 63,
         "end": 76,
+        "callee": {
+          "type": "Identifier",
+          "start": 63,
+          "end": 64,
+          "decorators": [],
+          "name": "f",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null,
         "arguments": [
           {
             "type": "ObjectExpression",
@@ -117,92 +126,29 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 69,
             "end": 71,
-            "raw": "10",
-            "value": 10
+            "value": 10,
+            "raw": "10"
           },
           {
             "type": "Literal",
             "start": 73,
             "end": 75,
-            "raw": "10",
-            "value": 10
+            "value": 10,
+            "raw": "10"
           }
         ],
-        "callee": {
-          "type": "Identifier",
-          "start": 63,
-          "end": 64,
-          "decorators": [],
-          "name": "f",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "optional": false,
-        "typeArguments": null
-      }
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 79,
       "end": 114,
-      "directive": null,
       "expression": {
         "type": "TaggedTemplateExpression",
         "start": 79,
         "end": 113,
-        "quasi": {
-          "type": "TemplateLiteral",
-          "start": 81,
-          "end": 113,
-          "expressions": [
-            {
-              "type": "Literal",
-              "start": 91,
-              "end": 95,
-              "raw": "1234",
-              "value": 1234
-            },
-            {
-              "type": "Literal",
-              "start": 100,
-              "end": 104,
-              "raw": "5678",
-              "value": 5678
-            }
-          ],
-          "quasis": [
-            {
-              "type": "TemplateElement",
-              "start": 81,
-              "end": 90,
-              "tail": false,
-              "value": {
-                "cooked": "abcdef",
-                "raw": "abcdef"
-              }
-            },
-            {
-              "type": "TemplateElement",
-              "start": 96,
-              "end": 99,
-              "tail": false,
-              "value": {
-                "cooked": "",
-                "raw": ""
-              }
-            },
-            {
-              "type": "TemplateElement",
-              "start": 105,
-              "end": 113,
-              "tail": true,
-              "value": {
-                "cooked": "ghijkl",
-                "raw": "ghijkl"
-              }
-            }
-          ]
-        },
         "tag": {
           "type": "Identifier",
           "start": 79,
@@ -212,8 +158,62 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "quasi": {
+          "type": "TemplateLiteral",
+          "start": 81,
+          "end": 113,
+          "quasis": [
+            {
+              "type": "TemplateElement",
+              "start": 81,
+              "end": 90,
+              "value": {
+                "cooked": "abcdef",
+                "raw": "abcdef"
+              },
+              "tail": false
+            },
+            {
+              "type": "TemplateElement",
+              "start": 96,
+              "end": 99,
+              "value": {
+                "cooked": "",
+                "raw": ""
+              },
+              "tail": false
+            },
+            {
+              "type": "TemplateElement",
+              "start": 105,
+              "end": 113,
+              "value": {
+                "cooked": "ghijkl",
+                "raw": "ghijkl"
+              },
+              "tail": true
+            }
+          ],
+          "expressions": [
+            {
+              "type": "Literal",
+              "start": 91,
+              "end": 95,
+              "value": 1234,
+              "raw": "1234"
+            },
+            {
+              "type": "Literal",
+              "start": 100,
+              "end": 104,
+              "value": 5678,
+              "raw": "5678"
+            }
+          ]
+        }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

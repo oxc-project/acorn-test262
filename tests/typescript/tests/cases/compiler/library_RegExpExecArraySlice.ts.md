@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 62,
       "end": 104,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 66,
           "end": 103,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 66,
@@ -30,7 +30,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 88,
                 "end": 103,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 88,
@@ -39,31 +38,29 @@ __ESTREE_TEST__:PASS:
                   "name": "RegExpExecArray",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 105,
       "end": 134,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 105,
         "end": 133,
-        "arguments": [],
         "callee": {
           "type": "MemberExpression",
           "start": 105,
           "end": 131,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 105,
@@ -73,7 +70,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 126,
@@ -82,35 +78,28 @@ __ESTREE_TEST__:PASS:
             "name": "slice",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 135,
       "end": 165,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 135,
         "end": 164,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 162,
-            "end": 163,
-            "raw": "0",
-            "value": 0
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 135,
           "end": 161,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 135,
@@ -120,7 +109,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 156,
@@ -129,42 +117,36 @@ __ESTREE_TEST__:PASS:
             "name": "slice",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 162,
+            "end": 163,
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 166,
       "end": 198,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 166,
         "end": 197,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 193,
-            "end": 194,
-            "raw": "0",
-            "value": 0
-          },
-          {
-            "type": "Literal",
-            "start": 195,
-            "end": 196,
-            "raw": "1",
-            "value": 1
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 166,
           "end": 192,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 166,
@@ -174,7 +156,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 187,
@@ -183,11 +164,30 @@ __ESTREE_TEST__:PASS:
             "name": "slice",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 193,
+            "end": 194,
+            "value": 0,
+            "raw": "0"
+          },
+          {
+            "type": "Literal",
+            "start": 195,
+            "end": 196,
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

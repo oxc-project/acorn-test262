@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSEnumDeclaration",
       "start": 0,
       "end": 62,
+      "id": {
+        "type": "Identifier",
+        "start": 13,
+        "end": 14,
+        "decorators": [],
+        "name": "E",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSEnumBody",
         "start": 15,
@@ -18,7 +27,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 21,
             "end": 27,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 21,
@@ -32,15 +40,15 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 25,
               "end": 27,
-              "raw": "10",
-              "value": 10
-            }
+              "value": 10,
+              "raw": "10"
+            },
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 33,
             "end": 38,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 33,
@@ -58,13 +66,13 @@ __ESTREE_TEST__:PASS:
               "name": "a",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 44,
             "end": 59,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 44,
@@ -78,49 +86,41 @@ __ESTREE_TEST__:PASS:
               "type": "BinaryExpression",
               "start": 48,
               "end": 59,
-              "operator": "<<",
               "left": {
                 "type": "Literal",
                 "start": 48,
                 "end": 50,
-                "raw": "10",
-                "value": 10
+                "value": 10,
+                "raw": "10"
               },
+              "operator": "<<",
               "right": {
                 "type": "BinaryExpression",
                 "start": 54,
                 "end": 59,
-                "operator": "*",
                 "left": {
                   "type": "Literal",
                   "start": 54,
                   "end": 55,
-                  "raw": "2",
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 },
+                "operator": "*",
                 "right": {
                   "type": "Literal",
                   "start": 58,
                   "end": 59,
-                  "raw": "8",
-                  "value": 8
+                  "value": 8,
+                  "raw": "8"
                 }
               }
-            }
+            },
+            "computed": false
           }
         ]
       },
       "const": false,
-      "declare": true,
-      "id": {
-        "type": "Identifier",
-        "start": 13,
-        "end": 14,
-        "decorators": [],
-        "name": "E",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      "declare": true
     }
   ],
   "sourceType": "script",

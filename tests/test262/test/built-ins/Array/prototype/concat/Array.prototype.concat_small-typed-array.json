@@ -13,7 +13,6 @@
         "end": 363,
         "name": "concatTypedArray"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -45,6 +44,7 @@
             "type": "VariableDeclaration",
             "start": 389,
             "end": 418,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -76,13 +76,13 @@
                   ]
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 421,
             "end": 453,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -114,8 +114,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ForStatement",
@@ -125,6 +124,7 @@
               "type": "VariableDeclaration",
               "start": 461,
               "end": 470,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -144,8 +144,7 @@
                     "raw": "0"
                   }
                 }
-              ],
-              "kind": "var"
+              ]
             },
             "test": {
               "type": "BinaryExpression",
@@ -208,8 +207,8 @@
                         "end": 505,
                         "name": "i"
                       },
-                      "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "computed": true
                     },
                     "right": {
                       "type": "AssignmentExpression",
@@ -232,8 +231,8 @@
                           "end": 516,
                           "name": "i"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       },
                       "right": {
                         "type": "ConditionalExpression",
@@ -293,6 +292,7 @@
             "type": "VariableDeclaration",
             "start": 565,
             "end": 590,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -324,8 +324,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -351,8 +350,8 @@
                   "end": 612,
                   "name": "compareArray"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -375,8 +374,8 @@
                       "end": 622,
                       "name": "concat"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -452,11 +451,11 @@
                     "end": 673,
                     "name": "isConcatSpreadable"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "Literal",
@@ -491,8 +490,8 @@
                   "end": 704,
                   "name": "compareArray"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -515,8 +514,8 @@
                       "end": 714,
                       "name": "concat"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -562,8 +561,8 @@
                   "end": 750,
                   "name": "compareArray"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -586,8 +585,8 @@
                       "end": 760,
                       "name": "concat"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -663,11 +662,11 @@
                     "end": 846,
                     "name": "isConcatSpreadable"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "Literal",
@@ -702,8 +701,8 @@
                   "end": 877,
                   "name": "compareArray"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -726,8 +725,8 @@
                       "end": 887,
                       "name": "concat"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -790,6 +789,7 @@
             "type": "VariableDeclaration",
             "start": 967,
             "end": 988,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -818,17 +818,17 @@
                     "value": 0,
                     "raw": "0"
                   },
-                  "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "computed": true
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 991,
             "end": 1022,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -861,8 +861,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -890,8 +889,8 @@
                   "value": 0,
                   "raw": "0"
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "Identifier",
@@ -925,8 +924,8 @@
                   "end": 1073,
                   "name": "defineProperty"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -951,9 +950,7 @@
                       "type": "Property",
                       "start": 1094,
                       "end": 1105,
-                      "method": false,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1094,
@@ -967,7 +964,9 @@
                         "value": 4000,
                         "raw": "4000"
                       },
-                      "kind": "init"
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
@@ -1010,11 +1009,11 @@
                     "end": 1142,
                     "name": "isConcatSpreadable"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "Literal",
@@ -1049,8 +1048,8 @@
                   "end": 1173,
                   "name": "compareArray"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1073,8 +1072,8 @@
                       "end": 1183,
                       "name": "concat"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -1097,12 +1096,14 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 1202,
       "end": 1277,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1139,8 +1140,8 @@
                     "end": 1221,
                     "name": "pow"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -1180,8 +1181,8 @@
                     "end": 1237,
                     "name": "pow"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -1221,8 +1222,8 @@
                     "end": 1254,
                     "name": "pow"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -1259,13 +1260,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1278,
       "end": 1367,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -1315,8 +1316,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -1331,13 +1331,13 @@
           "start": 1372,
           "end": 1391,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 1379,
             "end": 1391,
             "name": "Float16Array"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -1377,8 +1377,8 @@
                   "end": 1421,
                   "name": "push"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1416,8 +1416,8 @@
                   "end": 1440,
                   "name": "push"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -1458,8 +1458,8 @@
             "end": 1470,
             "name": "forEach"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -1467,7 +1467,6 @@
             "start": 1471,
             "end": 1529,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -1533,15 +1532,16 @@
                           "end": 1524,
                           "name": "i"
                         },
-                        "computed": true,
-                        "optional": false
+                        "optional": false,
+                        "computed": true
                       }
                     ],
                     "optional": false
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

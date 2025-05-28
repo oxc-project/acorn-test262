@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 322,
       "end": 330,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -38,7 +38,6 @@
         "start": 423,
         "end": 439,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 424,
@@ -63,7 +62,8 @@
               }
             ]
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "ThrowStatement",
@@ -168,7 +168,6 @@
         "start": 772,
         "end": 792,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 773,
@@ -193,7 +192,8 @@
               }
             ]
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "ThrowStatement",
@@ -298,7 +298,6 @@
         "start": 1128,
         "end": 1146,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 1129,
@@ -323,7 +322,8 @@
               }
             ]
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "ThrowStatement",
@@ -428,7 +428,6 @@
         "start": 1481,
         "end": 1499,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 1482,
@@ -453,7 +452,8 @@
               }
             ]
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "ThrowStatement",
@@ -558,7 +558,6 @@
         "start": 1834,
         "end": 1855,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 1835,
@@ -583,7 +582,8 @@
               }
             ]
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "ThrowStatement",
@@ -688,7 +688,6 @@
         "start": 2196,
         "end": 2214,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 2197,
@@ -712,7 +711,8 @@
               }
             ]
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "ThrowStatement",
@@ -817,7 +817,6 @@
         "start": 2553,
         "end": 2572,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 2554,
@@ -842,7 +841,8 @@
               }
             ]
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "ThrowStatement",
@@ -947,7 +947,6 @@
         "start": 2910,
         "end": 2934,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 2911,
@@ -971,7 +970,8 @@
               }
             ]
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "ThrowStatement",
@@ -1076,7 +1076,6 @@
         "start": 3277,
         "end": 3294,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 3278,
@@ -1101,7 +1100,8 @@
               }
             ]
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "ThrowStatement",

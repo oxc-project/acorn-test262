@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 99,
+      "id": {
+        "type": "Identifier",
+        "start": 15,
+        "end": 18,
+        "decorators": [],
+        "name": "JSX",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 19,
@@ -18,14 +27,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSInterfaceDeclaration",
             "start": 22,
             "end": 43,
-            "body": {
-              "type": "TSInterfaceBody",
-              "start": 40,
-              "end": 43,
-              "body": []
-            },
-            "declare": false,
-            "extends": [],
             "id": {
               "type": "Identifier",
               "start": 32,
@@ -35,12 +36,31 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "typeParameters": null
+            "typeParameters": null,
+            "extends": [],
+            "body": {
+              "type": "TSInterfaceBody",
+              "start": 40,
+              "end": 43,
+              "body": []
+            },
+            "declare": false
           },
           {
             "type": "TSInterfaceDeclaration",
             "start": 45,
             "end": 97,
+            "id": {
+              "type": "Identifier",
+              "start": 55,
+              "end": 72,
+              "decorators": [],
+              "name": "IntrinsicElements",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null,
+            "extends": [],
             "body": {
               "type": "TSInterfaceBody",
               "start": 73,
@@ -50,7 +70,6 @@ __ESTREE_TEST__:PASS:
                   "type": "TSIndexSignature",
                   "start": 77,
                   "end": 94,
-                  "accessibility": null,
                   "parameters": [
                     {
                       "type": "Identifier",
@@ -71,8 +90,6 @@ __ESTREE_TEST__:PASS:
                       }
                     }
                   ],
-                  "readonly": false,
-                  "static": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 88,
@@ -82,48 +99,31 @@ __ESTREE_TEST__:PASS:
                       "start": 90,
                       "end": 93
                     }
-                  }
+                  },
+                  "readonly": false,
+                  "static": false,
+                  "accessibility": null
                 }
               ]
             },
-            "declare": false,
-            "extends": [],
-            "id": {
-              "type": "Identifier",
-              "start": 55,
-              "end": 72,
-              "decorators": [],
-              "name": "IntrinsicElements",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeParameters": null
+            "declare": false
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 15,
-        "end": 18,
-        "decorators": [],
-        "name": "JSX",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     },
     {
       "type": "VariableDeclaration",
       "start": 100,
       "end": 123,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 112,
           "end": 122,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 112,
@@ -142,83 +142,16 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 125,
       "end": 181,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 144,
-        "end": 181,
-        "body": [
-          {
-            "type": "TSPropertySignature",
-            "start": 150,
-            "end": 161,
-            "accessibility": null,
-            "computed": false,
-            "key": {
-              "type": "Identifier",
-              "start": 150,
-              "end": 152,
-              "decorators": [],
-              "name": "id",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 152,
-              "end": 160,
-              "typeAnnotation": {
-                "type": "TSNumberKeyword",
-                "start": 154,
-                "end": 160
-              }
-            }
-          },
-          {
-            "type": "TSPropertySignature",
-            "start": 166,
-            "end": 179,
-            "accessibility": null,
-            "computed": false,
-            "key": {
-              "type": "Identifier",
-              "start": 166,
-              "end": 170,
-              "decorators": [],
-              "name": "todo",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 170,
-              "end": 178,
-              "typeAnnotation": {
-                "type": "TSStringKeyword",
-                "start": 172,
-                "end": 178
-              }
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "extends": [],
       "id": {
         "type": "Identifier",
         "start": 135,
@@ -228,12 +161,90 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "typeParameters": null
+      "typeParameters": null,
+      "extends": [],
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 144,
+        "end": 181,
+        "body": [
+          {
+            "type": "TSPropertySignature",
+            "start": 150,
+            "end": 161,
+            "computed": false,
+            "optional": false,
+            "readonly": false,
+            "key": {
+              "type": "Identifier",
+              "start": 150,
+              "end": 152,
+              "decorators": [],
+              "name": "id",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 152,
+              "end": 160,
+              "typeAnnotation": {
+                "type": "TSNumberKeyword",
+                "start": 154,
+                "end": 160
+              }
+            },
+            "accessibility": null,
+            "static": false
+          },
+          {
+            "type": "TSPropertySignature",
+            "start": 166,
+            "end": 179,
+            "computed": false,
+            "optional": false,
+            "readonly": false,
+            "key": {
+              "type": "Identifier",
+              "start": 166,
+              "end": 170,
+              "decorators": [],
+              "name": "todo",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 170,
+              "end": 178,
+              "typeAnnotation": {
+                "type": "TSStringKeyword",
+                "start": 172,
+                "end": 178
+              }
+            },
+            "accessibility": null,
+            "static": false
+          }
+        ]
+      },
+      "declare": false
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 182,
       "end": 232,
+      "id": {
+        "type": "Identifier",
+        "start": 192,
+        "end": 205,
+        "decorators": [],
+        "name": "TodoListProps",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "extends": [],
       "body": {
         "type": "TSInterfaceBody",
         "start": 206,
@@ -243,8 +254,9 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 212,
             "end": 230,
-            "accessibility": null,
             "computed": false,
+            "optional": false,
+            "readonly": false,
             "key": {
               "type": "Identifier",
               "start": 212,
@@ -254,9 +266,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 217,
@@ -269,7 +278,6 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 219,
                   "end": 227,
-                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 219,
@@ -278,163 +286,22 @@ __ESTREE_TEST__:PASS:
                     "name": "TodoProp",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "typeArguments": null
                 }
               }
-            }
+            },
+            "accessibility": null,
+            "static": false
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 192,
-        "end": 205,
-        "decorators": [],
-        "name": "TodoListProps",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 233,
       "end": 344,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 284,
-        "end": 344,
-        "body": [
-          {
-            "type": "ReturnStatement",
-            "start": 290,
-            "end": 342,
-            "argument": {
-              "type": "JSXElement",
-              "start": 297,
-              "end": 341,
-              "children": [
-                {
-                  "type": "JSXExpressionContainer",
-                  "start": 302,
-                  "end": 335,
-                  "expression": {
-                    "type": "BinaryExpression",
-                    "start": 303,
-                    "end": 334,
-                    "operator": "+",
-                    "left": {
-                      "type": "CallExpression",
-                      "start": 303,
-                      "end": 322,
-                      "arguments": [],
-                      "callee": {
-                        "type": "MemberExpression",
-                        "start": 303,
-                        "end": 320,
-                        "computed": false,
-                        "object": {
-                          "type": "MemberExpression",
-                          "start": 303,
-                          "end": 311,
-                          "computed": false,
-                          "object": {
-                            "type": "Identifier",
-                            "start": 303,
-                            "end": 307,
-                            "decorators": [],
-                            "name": "prop",
-                            "optional": false,
-                            "typeAnnotation": null
-                          },
-                          "optional": false,
-                          "property": {
-                            "type": "Identifier",
-                            "start": 308,
-                            "end": 311,
-                            "decorators": [],
-                            "name": "key",
-                            "optional": false,
-                            "typeAnnotation": null
-                          }
-                        },
-                        "optional": false,
-                        "property": {
-                          "type": "Identifier",
-                          "start": 312,
-                          "end": 320,
-                          "decorators": [],
-                          "name": "toString",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
-                      },
-                      "optional": false,
-                      "typeArguments": null
-                    },
-                    "right": {
-                      "type": "MemberExpression",
-                      "start": 325,
-                      "end": 334,
-                      "computed": false,
-                      "object": {
-                        "type": "Identifier",
-                        "start": 325,
-                        "end": 329,
-                        "decorators": [],
-                        "name": "prop",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "optional": false,
-                      "property": {
-                        "type": "Identifier",
-                        "start": 330,
-                        "end": 334,
-                        "decorators": [],
-                        "name": "todo",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    }
-                  }
-                }
-              ],
-              "closingElement": {
-                "type": "JSXClosingElement",
-                "start": 335,
-                "end": 341,
-                "name": {
-                  "type": "JSXIdentifier",
-                  "start": 337,
-                  "end": 340,
-                  "name": "div"
-                }
-              },
-              "openingElement": {
-                "type": "JSXOpeningElement",
-                "start": 297,
-                "end": 302,
-                "attributes": [],
-                "name": {
-                  "type": "JSXIdentifier",
-                  "start": 298,
-                  "end": 301,
-                  "name": "div"
-                },
-                "selfClosing": false,
-                "typeArguments": null
-              }
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 242,
@@ -444,6 +311,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -465,8 +336,9 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 255,
                   "end": 267,
-                  "accessibility": null,
                   "computed": false,
+                  "optional": false,
+                  "readonly": false,
                   "key": {
                     "type": "Identifier",
                     "start": 255,
@@ -476,9 +348,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
-                  "readonly": false,
-                  "static": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 258,
@@ -488,14 +357,17 @@ __ESTREE_TEST__:PASS:
                       "start": 260,
                       "end": 266
                     }
-                  }
+                  },
+                  "accessibility": null,
+                  "static": false
                 },
                 {
                   "type": "TSPropertySignature",
                   "start": 268,
                   "end": 280,
-                  "accessibility": null,
                   "computed": false,
+                  "optional": false,
+                  "readonly": false,
                   "key": {
                     "type": "Identifier",
                     "start": 268,
@@ -505,9 +377,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
-                  "readonly": false,
-                  "static": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 272,
@@ -517,7 +386,9 @@ __ESTREE_TEST__:PASS:
                       "start": 274,
                       "end": 280
                     }
-                  }
+                  },
+                  "accessibility": null,
+                  "static": false
                 }
               ]
             }
@@ -525,13 +396,214 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 284,
+        "end": 344,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 290,
+            "end": 342,
+            "argument": {
+              "type": "JSXElement",
+              "start": 297,
+              "end": 341,
+              "openingElement": {
+                "type": "JSXOpeningElement",
+                "start": 297,
+                "end": 302,
+                "name": {
+                  "type": "JSXIdentifier",
+                  "start": 298,
+                  "end": 301,
+                  "name": "div"
+                },
+                "typeArguments": null,
+                "attributes": [],
+                "selfClosing": false
+              },
+              "children": [
+                {
+                  "type": "JSXExpressionContainer",
+                  "start": 302,
+                  "end": 335,
+                  "expression": {
+                    "type": "BinaryExpression",
+                    "start": 303,
+                    "end": 334,
+                    "left": {
+                      "type": "CallExpression",
+                      "start": 303,
+                      "end": 322,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 303,
+                        "end": 320,
+                        "object": {
+                          "type": "MemberExpression",
+                          "start": 303,
+                          "end": 311,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 303,
+                            "end": 307,
+                            "decorators": [],
+                            "name": "prop",
+                            "optional": false,
+                            "typeAnnotation": null
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 308,
+                            "end": 311,
+                            "decorators": [],
+                            "name": "key",
+                            "optional": false,
+                            "typeAnnotation": null
+                          },
+                          "optional": false,
+                          "computed": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 312,
+                          "end": 320,
+                          "decorators": [],
+                          "name": "toString",
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
+                        "optional": false,
+                        "computed": false
+                      },
+                      "typeArguments": null,
+                      "arguments": [],
+                      "optional": false
+                    },
+                    "operator": "+",
+                    "right": {
+                      "type": "MemberExpression",
+                      "start": 325,
+                      "end": 334,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 325,
+                        "end": 329,
+                        "decorators": [],
+                        "name": "prop",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 330,
+                        "end": 334,
+                        "decorators": [],
+                        "name": "todo",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "optional": false,
+                      "computed": false
+                    }
+                  }
+                }
+              ],
+              "closingElement": {
+                "type": "JSXClosingElement",
+                "start": 335,
+                "end": 341,
+                "name": {
+                  "type": "JSXIdentifier",
+                  "start": 337,
+                  "end": 340,
+                  "name": "div"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 345,
       "end": 492,
+      "id": {
+        "type": "Identifier",
+        "start": 354,
+        "end": 362,
+        "decorators": [],
+        "name": "TodoList",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [
+        {
+          "type": "ObjectPattern",
+          "start": 363,
+          "end": 387,
+          "decorators": [],
+          "properties": [
+            {
+              "type": "Property",
+              "start": 365,
+              "end": 370,
+              "kind": "init",
+              "key": {
+                "type": "Identifier",
+                "start": 365,
+                "end": 370,
+                "decorators": [],
+                "name": "todos",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "value": {
+                "type": "Identifier",
+                "start": 365,
+                "end": 370,
+                "decorators": [],
+                "name": "todos",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "method": false,
+              "shorthand": true,
+              "computed": false,
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "typeAnnotation": {
+            "type": "TSTypeAnnotation",
+            "start": 372,
+            "end": 387,
+            "typeAnnotation": {
+              "type": "TSTypeReference",
+              "start": 374,
+              "end": 387,
+              "typeName": {
+                "type": "Identifier",
+                "start": 374,
+                "end": 387,
+                "decorators": [],
+                "name": "TodoListProps",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeArguments": null
+            }
+          }
+        }
+      ],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 389,
@@ -545,13 +617,27 @@ __ESTREE_TEST__:PASS:
               "type": "JSXElement",
               "start": 402,
               "end": 489,
+              "openingElement": {
+                "type": "JSXOpeningElement",
+                "start": 402,
+                "end": 407,
+                "name": {
+                  "type": "JSXIdentifier",
+                  "start": 403,
+                  "end": 406,
+                  "name": "div"
+                },
+                "typeArguments": null,
+                "attributes": [],
+                "selfClosing": false
+              },
               "children": [
                 {
                   "type": "JSXText",
                   "start": 407,
                   "end": 416,
-                  "raw": "\n        ",
-                  "value": "\n        "
+                  "value": "\n        ",
+                  "raw": "\n        "
                 },
                 {
                   "type": "JSXSpreadChild",
@@ -561,22 +647,67 @@ __ESTREE_TEST__:PASS:
                     "type": "CallExpression",
                     "start": 420,
                     "end": 477,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 420,
+                      "end": 429,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 420,
+                        "end": 425,
+                        "decorators": [],
+                        "name": "todos",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 426,
+                        "end": 429,
+                        "decorators": [],
+                        "name": "map",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "optional": false,
+                      "computed": false
+                    },
+                    "typeArguments": null,
                     "arguments": [
                       {
                         "type": "ArrowFunctionExpression",
                         "start": 430,
                         "end": 476,
+                        "expression": true,
                         "async": false,
+                        "typeParameters": null,
+                        "params": [
+                          {
+                            "type": "Identifier",
+                            "start": 430,
+                            "end": 434,
+                            "decorators": [],
+                            "name": "todo",
+                            "optional": false,
+                            "typeAnnotation": null
+                          }
+                        ],
+                        "returnType": null,
                         "body": {
                           "type": "JSXElement",
                           "start": 438,
                           "end": 476,
-                          "children": [],
-                          "closingElement": null,
                           "openingElement": {
                             "type": "JSXOpeningElement",
                             "start": 438,
                             "end": 476,
+                            "name": {
+                              "type": "JSXIdentifier",
+                              "start": 439,
+                              "end": 443,
+                              "name": "Todo"
+                            },
+                            "typeArguments": null,
                             "attributes": [
                               {
                                 "type": "JSXAttribute",
@@ -596,7 +727,6 @@ __ESTREE_TEST__:PASS:
                                     "type": "MemberExpression",
                                     "start": 449,
                                     "end": 456,
-                                    "computed": false,
                                     "object": {
                                       "type": "Identifier",
                                       "start": 449,
@@ -606,7 +736,6 @@ __ESTREE_TEST__:PASS:
                                       "optional": false,
                                       "typeAnnotation": null
                                     },
-                                    "optional": false,
                                     "property": {
                                       "type": "Identifier",
                                       "start": 454,
@@ -615,7 +744,9 @@ __ESTREE_TEST__:PASS:
                                       "name": "id",
                                       "optional": false,
                                       "typeAnnotation": null
-                                    }
+                                    },
+                                    "optional": false,
+                                    "computed": false
                                   }
                                 }
                               },
@@ -637,7 +768,6 @@ __ESTREE_TEST__:PASS:
                                     "type": "MemberExpression",
                                     "start": 464,
                                     "end": 473,
-                                    "computed": false,
                                     "object": {
                                       "type": "Identifier",
                                       "start": 464,
@@ -647,7 +777,6 @@ __ESTREE_TEST__:PASS:
                                       "optional": false,
                                       "typeAnnotation": null
                                     },
-                                    "optional": false,
                                     "property": {
                                       "type": "Identifier",
                                       "start": 469,
@@ -656,74 +785,31 @@ __ESTREE_TEST__:PASS:
                                       "name": "todo",
                                       "optional": false,
                                       "typeAnnotation": null
-                                    }
+                                    },
+                                    "optional": false,
+                                    "computed": false
                                   }
                                 }
                               }
                             ],
-                            "name": {
-                              "type": "JSXIdentifier",
-                              "start": 439,
-                              "end": 443,
-                              "name": "Todo"
-                            },
-                            "selfClosing": true,
-                            "typeArguments": null
-                          }
+                            "selfClosing": true
+                          },
+                          "children": [],
+                          "closingElement": null
                         },
-                        "expression": true,
-                        "generator": false,
                         "id": null,
-                        "params": [
-                          {
-                            "type": "Identifier",
-                            "start": 430,
-                            "end": 434,
-                            "decorators": [],
-                            "name": "todo",
-                            "optional": false,
-                            "typeAnnotation": null
-                          }
-                        ],
-                        "returnType": null,
-                        "typeParameters": null
+                        "generator": false
                       }
                     ],
-                    "callee": {
-                      "type": "MemberExpression",
-                      "start": 420,
-                      "end": 429,
-                      "computed": false,
-                      "object": {
-                        "type": "Identifier",
-                        "start": 420,
-                        "end": 425,
-                        "decorators": [],
-                        "name": "todos",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "optional": false,
-                      "property": {
-                        "type": "Identifier",
-                        "start": 426,
-                        "end": 429,
-                        "decorators": [],
-                        "name": "map",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    },
-                    "optional": false,
-                    "typeArguments": null
+                    "optional": false
                   }
                 },
                 {
                   "type": "JSXText",
                   "start": 478,
                   "end": 483,
-                  "raw": "\n    ",
-                  "value": "\n    "
+                  "value": "\n    ",
+                  "raw": "\n    "
                 }
               ],
               "closingElement": {
@@ -736,109 +822,23 @@ __ESTREE_TEST__:PASS:
                   "end": 488,
                   "name": "div"
                 }
-              },
-              "openingElement": {
-                "type": "JSXOpeningElement",
-                "start": 402,
-                "end": 407,
-                "attributes": [],
-                "name": {
-                  "type": "JSXIdentifier",
-                  "start": 403,
-                  "end": 406,
-                  "name": "div"
-                },
-                "selfClosing": false,
-                "typeArguments": null
               }
             }
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 354,
-        "end": 362,
-        "decorators": [],
-        "name": "TodoList",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [
-        {
-          "type": "ObjectPattern",
-          "start": 363,
-          "end": 387,
-          "decorators": [],
-          "optional": false,
-          "properties": [
-            {
-              "type": "Property",
-              "start": 365,
-              "end": 370,
-              "computed": false,
-              "key": {
-                "type": "Identifier",
-                "start": 365,
-                "end": 370,
-                "decorators": [],
-                "name": "todos",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "kind": "init",
-              "method": false,
-              "optional": false,
-              "shorthand": true,
-              "value": {
-                "type": "Identifier",
-                "start": 365,
-                "end": 370,
-                "decorators": [],
-                "name": "todos",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            }
-          ],
-          "typeAnnotation": {
-            "type": "TSTypeAnnotation",
-            "start": 372,
-            "end": 387,
-            "typeAnnotation": {
-              "type": "TSTypeReference",
-              "start": 374,
-              "end": 387,
-              "typeArguments": null,
-              "typeName": {
-                "type": "Identifier",
-                "start": 374,
-                "end": 387,
-                "decorators": [],
-                "name": "TodoListProps",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            }
-          }
-        }
-      ],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 493,
       "end": 514,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 497,
           "end": 513,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 497,
@@ -854,7 +854,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 500,
                 "end": 513,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 500,
@@ -863,31 +862,36 @@ __ESTREE_TEST__:PASS:
                   "name": "TodoListProps",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 519,
       "end": 537,
-      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 519,
         "end": 537,
-        "children": [],
-        "closingElement": null,
         "openingElement": {
           "type": "JSXOpeningElement",
           "start": 519,
           "end": 537,
+          "name": {
+            "type": "JSXIdentifier",
+            "start": 520,
+            "end": 528,
+            "name": "TodoList"
+          },
+          "typeArguments": null,
           "attributes": [
             {
               "type": "JSXSpreadAttribute",
@@ -904,16 +908,12 @@ __ESTREE_TEST__:PASS:
               }
             }
           ],
-          "name": {
-            "type": "JSXIdentifier",
-            "start": 520,
-            "end": 528,
-            "name": "TodoList"
-          },
-          "selfClosing": true,
-          "typeArguments": null
-        }
-      }
+          "selfClosing": true
+        },
+        "children": [],
+        "closingElement": null
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

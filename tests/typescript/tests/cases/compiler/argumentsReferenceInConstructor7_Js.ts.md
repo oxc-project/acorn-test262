@@ -9,114 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 97,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 8,
-        "end": 97,
-        "body": [
-          {
-            "type": "MethodDefinition",
-            "start": 11,
-            "end": 95,
-            "accessibility": null,
-            "computed": false,
-            "decorators": [],
-            "key": {
-              "type": "Identifier",
-              "start": 11,
-              "end": 22,
-              "decorators": [],
-              "name": "constructor",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "kind": "constructor",
-            "optional": false,
-            "override": false,
-            "static": false,
-            "value": {
-              "type": "FunctionExpression",
-              "start": 22,
-              "end": 95,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 25,
-                "end": 95,
-                "body": [
-                  {
-                    "type": "ExpressionStatement",
-                    "start": 61,
-                    "end": 92,
-                    "directive": null,
-                    "expression": {
-                      "type": "AssignmentExpression",
-                      "start": 61,
-                      "end": 91,
-                      "operator": "=",
-                      "left": {
-                        "type": "MemberExpression",
-                        "start": 61,
-                        "end": 72,
-                        "computed": false,
-                        "object": {
-                          "type": "ThisExpression",
-                          "start": 61,
-                          "end": 65
-                        },
-                        "optional": false,
-                        "property": {
-                          "type": "Identifier",
-                          "start": 66,
-                          "end": 72,
-                          "decorators": [],
-                          "name": "callee",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
-                      },
-                      "right": {
-                        "type": "MemberExpression",
-                        "start": 75,
-                        "end": 91,
-                        "computed": false,
-                        "object": {
-                          "type": "Identifier",
-                          "start": 75,
-                          "end": 84,
-                          "decorators": [],
-                          "name": "arguments",
-                          "optional": false,
-                          "typeAnnotation": null
-                        },
-                        "optional": false,
-                        "property": {
-                          "type": "Identifier",
-                          "start": 85,
-                          "end": 91,
-                          "decorators": [],
-                          "name": "callee",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
-                      }
-                    }
-                  }
-                ]
-              },
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
-          }
-        ]
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -127,10 +19,118 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 8,
+        "end": 97,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 11,
+            "end": 95,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 11,
+              "end": 22,
+              "decorators": [],
+              "name": "constructor",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "value": {
+              "type": "FunctionExpression",
+              "start": 22,
+              "end": 95,
+              "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
+              "body": {
+                "type": "BlockStatement",
+                "start": 25,
+                "end": 95,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 61,
+                    "end": 92,
+                    "expression": {
+                      "type": "AssignmentExpression",
+                      "start": 61,
+                      "end": 91,
+                      "operator": "=",
+                      "left": {
+                        "type": "MemberExpression",
+                        "start": 61,
+                        "end": 72,
+                        "object": {
+                          "type": "ThisExpression",
+                          "start": 61,
+                          "end": 65
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 66,
+                          "end": 72,
+                          "decorators": [],
+                          "name": "callee",
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
+                        "optional": false,
+                        "computed": false
+                      },
+                      "right": {
+                        "type": "MemberExpression",
+                        "start": 75,
+                        "end": 91,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 75,
+                          "end": 84,
+                          "decorators": [],
+                          "name": "arguments",
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 85,
+                          "end": 91,
+                          "decorators": [],
+                          "name": "callee",
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
+                        "optional": false,
+                        "computed": false
+                      }
+                    },
+                    "directive": null
+                  }
+                ]
+              },
+              "expression": false
+            },
+            "kind": "constructor",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null
+          }
+        ]
+      },
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 232,
       "end": 259,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "\"str\""
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -39,7 +39,6 @@
         "end": 277,
         "name": "testcase"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -52,6 +51,7 @@
             "type": "VariableDeclaration",
             "start": 286,
             "end": 314,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -71,8 +71,7 @@
                   "raw": "\"str1\""
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -122,7 +121,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

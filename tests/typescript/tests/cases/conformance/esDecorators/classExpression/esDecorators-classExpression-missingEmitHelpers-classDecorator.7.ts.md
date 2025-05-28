@@ -9,22 +9,22 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 10,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "VariableDeclaration",
       "start": 11,
       "end": 32,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 23,
           "end": 31,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 23,
@@ -43,22 +43,22 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
       "start": 34,
       "end": 40,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 38,
           "end": 39,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 38,
@@ -68,17 +68,16 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 101,
       "end": 133,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 102,
@@ -89,13 +88,12 @@ __ESTREE_TEST__:PASS:
           "start": 102,
           "end": 126,
           "decorators": [],
-          "optional": false,
           "properties": [
             {
               "type": "Property",
               "start": 104,
               "end": 124,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 104,
@@ -105,10 +103,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "kind": "init",
-              "method": false,
-              "optional": false,
-              "shorthand": false,
               "value": {
                 "type": "AssignmentPattern",
                 "start": 107,
@@ -123,19 +117,10 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "right": {
                   "type": "ClassExpression",
                   "start": 111,
                   "end": 124,
-                  "abstract": false,
-                  "body": {
-                    "type": "ClassBody",
-                    "start": 122,
-                    "end": 124,
-                    "body": []
-                  },
-                  "declare": false,
                   "decorators": [
                     {
                       "type": "Decorator",
@@ -153,15 +138,29 @@ __ESTREE_TEST__:PASS:
                     }
                   ],
                   "id": null,
-                  "implements": [],
+                  "typeParameters": null,
                   "superClass": null,
                   "superTypeArguments": null,
-                  "typeParameters": null
+                  "implements": [],
+                  "body": {
+                    "type": "ClassBody",
+                    "start": 122,
+                    "end": 124,
+                    "body": []
+                  },
+                  "abstract": false,
+                  "declare": false
                 },
+                "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "optional": false
             }
           ],
+          "optional": false,
           "typeAnnotation": null
         },
         "right": {
@@ -170,7 +169,8 @@ __ESTREE_TEST__:PASS:
           "end": 131,
           "properties": []
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",
@@ -188,11 +188,11 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 9,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

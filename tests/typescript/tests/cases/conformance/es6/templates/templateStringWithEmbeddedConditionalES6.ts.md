@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 40,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 39,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,61 +28,61 @@ __ESTREE_TEST__:PASS:
             "type": "TemplateLiteral",
             "start": 8,
             "end": 39,
-            "expressions": [
-              {
-                "type": "ConditionalExpression",
-                "start": 15,
-                "end": 33,
-                "alternate": {
-                  "type": "Literal",
-                  "start": 30,
-                  "end": 33,
-                  "raw": "\" \"",
-                  "value": " "
-                },
-                "consequent": {
-                  "type": "Literal",
-                  "start": 22,
-                  "end": 27,
-                  "raw": "false",
-                  "value": false
-                },
-                "test": {
-                  "type": "Literal",
-                  "start": 15,
-                  "end": 19,
-                  "raw": "true",
-                  "value": true
-                }
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
                 "start": 8,
                 "end": 14,
-                "tail": false,
                 "value": {
                   "cooked": "abc",
                   "raw": "abc"
-                }
+                },
+                "tail": false
               },
               {
                 "type": "TemplateElement",
                 "start": 34,
                 "end": 39,
-                "tail": true,
                 "value": {
                   "cooked": "def",
                   "raw": "def"
+                },
+                "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "ConditionalExpression",
+                "start": 15,
+                "end": 33,
+                "test": {
+                  "type": "Literal",
+                  "start": 15,
+                  "end": 19,
+                  "value": true,
+                  "raw": "true"
+                },
+                "consequent": {
+                  "type": "Literal",
+                  "start": 22,
+                  "end": 27,
+                  "value": false,
+                  "raw": "false"
+                },
+                "alternate": {
+                  "type": "Literal",
+                  "start": 30,
+                  "end": 33,
+                  "value": " ",
+                  "raw": "\" \""
                 }
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

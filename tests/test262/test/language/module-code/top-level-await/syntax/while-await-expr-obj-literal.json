@@ -20,9 +20,7 @@
               "type": "Property",
               "start": 1249,
               "end": 1262,
-              "method": true,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 1249,
@@ -34,7 +32,6 @@
                 "start": 1257,
                 "end": 1262,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -43,9 +40,12 @@
                   "start": 1260,
                   "end": 1262,
                   "body": []
-                }
+                },
+                "expression": false
               },
-              "kind": "init"
+              "method": true,
+              "shorthand": false,
+              "computed": false
             }
           ]
         }

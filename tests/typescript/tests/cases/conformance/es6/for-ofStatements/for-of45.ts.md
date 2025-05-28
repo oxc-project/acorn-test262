@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 26,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 13,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -33,13 +33,13 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         },
         {
           "type": "VariableDeclarator",
           "start": 15,
           "end": 25,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 15,
@@ -58,22 +58,22 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 27,
       "end": 59,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 31,
           "end": 58,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 31,
@@ -87,6 +87,16 @@ __ESTREE_TEST__:PASS:
             "type": "NewExpression",
             "start": 37,
             "end": 58,
+            "callee": {
+              "type": "Identifier",
+              "start": 41,
+              "end": 44,
+              "decorators": [],
+              "name": "Map",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null,
             "arguments": [
               {
                 "type": "ArrayExpression",
@@ -102,79 +112,32 @@ __ESTREE_TEST__:PASS:
                         "type": "Literal",
                         "start": 47,
                         "end": 49,
-                        "raw": "\"\"",
-                        "value": ""
+                        "value": "",
+                        "raw": "\"\""
                       },
                       {
                         "type": "Literal",
                         "start": 51,
                         "end": 55,
-                        "raw": "true",
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       }
                     ]
                   }
                 ]
               }
-            ],
-            "callee": {
-              "type": "Identifier",
-              "start": 41,
-              "end": 44,
-              "decorators": [],
-              "name": "Map",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeArguments": null
-          }
+            ]
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ForOfStatement",
       "start": 60,
       "end": 110,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 93,
-        "end": 110,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 99,
-            "end": 101,
-            "directive": null,
-            "expression": {
-              "type": "Identifier",
-              "start": 99,
-              "end": 100,
-              "decorators": [],
-              "name": "k",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 106,
-            "end": 108,
-            "directive": null,
-            "expression": {
-              "type": "Identifier",
-              "start": 106,
-              "end": 107,
-              "decorators": [],
-              "name": "v",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
-        ]
-      },
       "left": {
         "type": "ArrayPattern",
         "start": 65,
@@ -195,14 +158,14 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "right": {
               "type": "Literal",
               "start": 70,
               "end": 72,
-              "raw": "\"\"",
-              "value": ""
+              "value": "",
+              "raw": "\"\""
             },
+            "optional": false,
             "typeAnnotation": null
           },
           {
@@ -219,14 +182,14 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "right": {
               "type": "Literal",
               "start": 78,
               "end": 83,
-              "raw": "false",
-              "value": false
+              "value": false,
+              "raw": "false"
             },
+            "optional": false,
             "typeAnnotation": null
           }
         ],
@@ -241,6 +204,43 @@ __ESTREE_TEST__:PASS:
         "name": "map",
         "optional": false,
         "typeAnnotation": null
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 93,
+        "end": 110,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 99,
+            "end": 101,
+            "expression": {
+              "type": "Identifier",
+              "start": 99,
+              "end": 100,
+              "decorators": [],
+              "name": "k",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 106,
+            "end": 108,
+            "expression": {
+              "type": "Identifier",
+              "start": 106,
+              "end": 107,
+              "decorators": [],
+              "name": "v",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "directive": null
+          }
+        ]
       }
     }
   ],

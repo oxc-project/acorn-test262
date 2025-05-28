@@ -9,16 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 40,
-      "attributes": [],
       "declaration": {
         "type": "TSDeclareFunction",
         "start": 7,
         "end": 40,
-        "async": false,
-        "body": null,
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 16,
@@ -28,6 +22,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [
           {
             "type": "Identifier",
@@ -58,11 +56,13 @@ __ESTREE_TEST__:PASS:
             "end": 39
           }
         },
-        "typeParameters": null
+        "body": null,
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -80,12 +80,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 27,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 14,
           "end": 26,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
@@ -105,11 +105,11 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -142,14 +142,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 32,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 21,
-        "end": 31,
-        "raw": "\"not.json\"",
-        "value": "not.json"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -164,7 +156,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
@@ -173,24 +164,25 @@ __ESTREE_TEST__:PASS:
             "name": "oops",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 21,
+        "end": 31,
+        "value": "not.json",
+        "raw": "\"not.json\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 39,
       "end": 76,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 60,
-        "end": 75,
-        "raw": "\"actually-json\"",
-        "value": "actually-json"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -207,21 +199,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 60,
+        "end": 75,
+        "value": "actually-json",
+        "raw": "\"actually-json\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 98,
       "end": 138,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 116,
-        "end": 137,
-        "raw": "\"actually-json/typed\"",
-        "value": "actually-json/typed"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -238,21 +230,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 116,
+        "end": 137,
+        "value": "actually-json/typed",
+        "raw": "\"actually-json/typed\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 161,
       "end": 218,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 180,
-        "end": 195,
-        "raw": "\"./config.json\"",
-        "value": "./config.json"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -269,6 +261,13 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 180,
+        "end": 195,
+        "value": "./config.json",
+        "raw": "\"./config.json\""
+      },
       "phase": null,
       "attributes": [
         {
@@ -288,24 +287,17 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 209,
             "end": 215,
-            "raw": "\"json\"",
-            "value": "json"
+            "value": "json",
+            "raw": "\"json\""
           }
         }
-      ]
+      ],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 225,
       "end": 298,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 260,
-        "end": 275,
-        "raw": "\"./config.json\"",
-        "value": "./config.json"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -320,7 +312,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 245,
@@ -329,9 +320,17 @@ __ESTREE_TEST__:PASS:
             "name": "config1",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 260,
+        "end": 275,
+        "value": "./config.json",
+        "raw": "\"./config.json\""
+      },
       "phase": null,
       "attributes": [
         {
@@ -351,24 +350,17 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 289,
             "end": 295,
-            "raw": "\"json\"",
-            "value": "json"
+            "value": "json",
+            "raw": "\"json\""
           }
         }
-      ]
+      ],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 305,
       "end": 341,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 325,
-        "end": 340,
-        "raw": "\"./config.json\"",
-        "value": "./config.json"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -385,21 +377,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 325,
+        "end": 340,
+        "value": "./config.json",
+        "raw": "\"./config.json\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 377,
       "end": 422,
-      "importKind": "type",
-      "source": {
-        "type": "Literal",
-        "start": 406,
-        "end": 421,
-        "raw": "\"./config.json\"",
-        "value": "./config.json"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -416,21 +408,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 406,
+        "end": 421,
+        "value": "./config.json",
+        "raw": "\"./config.json\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "type"
     },
     {
       "type": "ImportDeclaration",
       "start": 440,
       "end": 508,
-      "importKind": "type",
-      "source": {
-        "type": "Literal",
-        "start": 470,
-        "end": 485,
-        "raw": "\"./config.json\"",
-        "value": "./config.json"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -447,6 +439,13 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 470,
+        "end": 485,
+        "value": "./config.json",
+        "raw": "\"./config.json\""
+      },
       "phase": null,
       "attributes": [
         {
@@ -466,24 +465,17 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 499,
             "end": 505,
-            "raw": "\"json\"",
-            "value": "json"
+            "value": "json",
+            "raw": "\"json\""
           }
         }
-      ]
+      ],
+      "importKind": "type"
     },
     {
       "type": "ImportDeclaration",
       "start": 570,
       "end": 632,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 594,
-        "end": 609,
-        "raw": "\"./config.json\"",
-        "value": "./config.json"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -498,7 +490,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 579,
@@ -507,9 +498,17 @@ __ESTREE_TEST__:PASS:
             "name": "version",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 594,
+        "end": 609,
+        "value": "./config.json",
+        "raw": "\"./config.json\""
+      },
       "phase": null,
       "attributes": [
         {
@@ -529,24 +528,17 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 623,
             "end": 629,
-            "raw": "\"json\"",
-            "value": "json"
+            "value": "json",
+            "raw": "\"json\""
           }
         }
-      ]
+      ],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 656,
       "end": 719,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 681,
-        "end": 696,
-        "raw": "\"./config.json\"",
-        "value": "./config.json"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -563,6 +555,13 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 681,
+        "end": 696,
+        "value": "./config.json",
+        "raw": "\"./config.json\""
+      },
       "phase": null,
       "attributes": [
         {
@@ -582,22 +581,21 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 710,
             "end": 716,
-            "raw": "\"json\"",
-            "value": "json"
+            "value": "json",
+            "raw": "\"json\""
           }
         }
-      ]
+      ],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 720,
       "end": 736,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 720,
         "end": 735,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 720,
@@ -607,7 +605,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 728,
@@ -616,19 +613,20 @@ __ESTREE_TEST__:PASS:
           "name": "version",
           "optional": false,
           "typeAnnotation": null
-        }
-      }
+        },
+        "optional": false,
+        "computed": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 746,
       "end": 762,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 746,
         "end": 761,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 746,
@@ -638,7 +636,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 754,
@@ -647,8 +644,11 @@ __ESTREE_TEST__:PASS:
           "name": "default",
           "optional": false,
           "typeAnnotation": null
-        }
-      }
+        },
+        "optional": false,
+        "computed": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",
@@ -666,14 +666,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 57,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 19,
-        "end": 34,
-        "raw": "\"./config.json\"",
-        "value": "./config.json"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -690,6 +682,13 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 19,
+        "end": 34,
+        "value": "./config.json",
+        "raw": "\"./config.json\""
+      },
       "phase": null,
       "attributes": [
         {
@@ -709,24 +708,17 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 48,
             "end": 54,
-            "raw": "\"json\"",
-            "value": "json"
+            "value": "json",
+            "raw": "\"json\""
           }
         }
-      ]
+      ],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 67,
       "end": 103,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 87,
-        "end": 102,
-        "raw": "\"./config.json\"",
-        "value": "./config.json"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -743,21 +735,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 87,
+        "end": 102,
+        "value": "./config.json",
+        "raw": "\"./config.json\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 110,
       "end": 150,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 134,
-        "end": 149,
-        "raw": "\"./config.json\"",
-        "value": "./config.json"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -772,7 +764,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 119,
@@ -781,24 +772,25 @@ __ESTREE_TEST__:PASS:
             "name": "version",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 134,
+        "end": 149,
+        "value": "./config.json",
+        "raw": "\"./config.json\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 157,
       "end": 198,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 182,
-        "end": 197,
-        "raw": "\"./config.json\"",
-        "value": "./config.json"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -815,19 +807,25 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 182,
+        "end": 197,
+        "value": "./config.json",
+        "raw": "\"./config.json\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 199,
       "end": 215,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 199,
         "end": 214,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 199,
@@ -837,7 +835,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 207,
@@ -846,19 +843,20 @@ __ESTREE_TEST__:PASS:
           "name": "version",
           "optional": false,
           "typeAnnotation": null
-        }
-      }
+        },
+        "optional": false,
+        "computed": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 222,
       "end": 238,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 222,
         "end": 237,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 222,
@@ -868,7 +866,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 230,
@@ -877,8 +874,11 @@ __ESTREE_TEST__:PASS:
           "name": "default",
           "optional": false,
           "typeAnnotation": null
-        }
-      }
+        },
+        "optional": false,
+        "computed": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

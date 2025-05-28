@@ -13,7 +13,6 @@
         "end": 291,
         "name": "CustomError"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -22,12 +21,14 @@
         "start": 294,
         "end": 296,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 298,
       "end": 491,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -145,8 +146,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -157,6 +157,7 @@
         "type": "VariableDeclaration",
         "start": 498,
         "end": 510,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -170,8 +171,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -208,8 +208,8 @@
                   "end": 540,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -222,9 +222,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 554,
                   "end": 673,
-                  "id": null,
                   "expression": false,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -256,8 +254,8 @@
                               "end": 589,
                               "name": "DateTimeFormat"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -276,9 +274,7 @@
                                   "type": "Property",
                                   "start": 604,
                                   "end": 661,
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": true,
+                                  "kind": "get",
                                   "key": {
                                     "type": "Identifier",
                                     "start": 609,
@@ -290,7 +286,6 @@
                                     "start": 616,
                                     "end": 661,
                                     "id": null,
-                                    "expression": false,
                                     "generator": false,
                                     "async": false,
                                     "params": [],
@@ -317,9 +312,12 @@
                                           }
                                         }
                                       ]
-                                    }
+                                    },
+                                    "expression": false
                                   },
-                                  "kind": "get"
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": true
                                 }
                               ]
                             }
@@ -327,20 +325,14 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 675,
                   "end": 729,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 693,
-                      "end": 699,
-                      "name": "option"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -361,6 +353,14 @@
                         "cooked": " getter should be propagated"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 693,
+                      "end": 699,
+                      "name": "option"
                     }
                   ]
                 }

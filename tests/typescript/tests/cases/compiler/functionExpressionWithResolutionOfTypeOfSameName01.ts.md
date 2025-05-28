@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 15,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 12,
-        "end": 15,
-        "body": []
-      },
-      "declare": false,
-      "extends": [],
       "id": {
         "type": "Identifier",
         "start": 10,
@@ -26,18 +18,26 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "typeParameters": null
+      "typeParameters": null,
+      "extends": [],
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 12,
+        "end": 15,
+        "body": []
+      },
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 17,
       "end": 51,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 21,
           "end": 51,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 21,
@@ -51,52 +51,6 @@ __ESTREE_TEST__:PASS:
             "type": "FunctionExpression",
             "start": 25,
             "end": 51,
-            "async": false,
-            "body": {
-              "type": "BlockStatement",
-              "start": 38,
-              "end": 51,
-              "body": [
-                {
-                  "type": "ExpressionStatement",
-                  "start": 44,
-                  "end": 49,
-                  "directive": null,
-                  "expression": {
-                    "type": "TSTypeAssertion",
-                    "start": 44,
-                    "end": 48,
-                    "expression": {
-                      "type": "Identifier",
-                      "start": 47,
-                      "end": 48,
-                      "decorators": [],
-                      "name": "f",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "typeAnnotation": {
-                      "type": "TSTypeReference",
-                      "start": 45,
-                      "end": 46,
-                      "typeArguments": null,
-                      "typeName": {
-                        "type": "Identifier",
-                        "start": 45,
-                        "end": 46,
-                        "decorators": [],
-                        "name": "f",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    }
-                  }
-                }
-              ]
-            },
-            "declare": false,
-            "expression": false,
-            "generator": false,
             "id": {
               "type": "Identifier",
               "start": 34,
@@ -106,14 +60,60 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
+            "generator": false,
+            "async": false,
+            "declare": false,
+            "typeParameters": null,
             "params": [],
             "returnType": null,
-            "typeParameters": null
-          }
+            "body": {
+              "type": "BlockStatement",
+              "start": 38,
+              "end": 51,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 44,
+                  "end": 49,
+                  "expression": {
+                    "type": "TSTypeAssertion",
+                    "start": 44,
+                    "end": 48,
+                    "typeAnnotation": {
+                      "type": "TSTypeReference",
+                      "start": 45,
+                      "end": 46,
+                      "typeName": {
+                        "type": "Identifier",
+                        "start": 45,
+                        "end": 46,
+                        "decorators": [],
+                        "name": "f",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "typeArguments": null
+                    },
+                    "expression": {
+                      "type": "Identifier",
+                      "start": 47,
+                      "end": 48,
+                      "decorators": [],
+                      "name": "f",
+                      "optional": false,
+                      "typeAnnotation": null
+                    }
+                  },
+                  "directive": null
+                }
+              ]
+            },
+            "expression": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

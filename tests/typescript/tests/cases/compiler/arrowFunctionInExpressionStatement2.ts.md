@@ -9,40 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 25,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 9,
-        "end": 25,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 15,
-            "end": 23,
-            "directive": null,
-            "expression": {
-              "type": "ArrowFunctionExpression",
-              "start": 15,
-              "end": 22,
-              "async": false,
-              "body": {
-                "type": "Literal",
-                "start": 21,
-                "end": 22,
-                "raw": "0",
-                "value": 0
-              },
-              "expression": true,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "global": false,
       "id": {
         "type": "Identifier",
         "start": 7,
@@ -52,7 +18,41 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "module"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 9,
+        "end": 25,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 15,
+            "end": 23,
+            "expression": {
+              "type": "ArrowFunctionExpression",
+              "start": 15,
+              "end": 22,
+              "expression": true,
+              "async": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
+              "body": {
+                "type": "Literal",
+                "start": 21,
+                "end": 22,
+                "value": 0,
+                "raw": "0"
+              },
+              "id": null,
+              "generator": false
+            },
+            "directive": null
+          }
+        ]
+      },
+      "kind": "module",
+      "declare": false,
+      "global": false
     }
   ],
   "sourceType": "script",

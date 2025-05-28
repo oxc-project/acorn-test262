@@ -27,8 +27,8 @@
             "end": 661,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 674,
             "end": 744,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -75,8 +74,8 @@
                         "end": 704,
                         "name": "Locale"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -95,9 +94,7 @@
                             "type": "Property",
                             "start": 717,
                             "end": 735,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 717,
@@ -111,7 +108,9 @@
                               "value": "no-bok",
                               "raw": "\"no-bok\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -119,13 +118,13 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "TemplateLiteral",
             "start": 746,
             "end": 809,
-            "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -137,7 +136,8 @@
                 },
                 "tail": true
               }
-            ]
+            ],
+            "expressions": []
           }
         ],
         "optional": false
@@ -167,8 +167,8 @@
             "end": 826,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -182,7 +182,6 @@
             "start": 839,
             "end": 927,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -215,8 +214,8 @@
                         "end": 869,
                         "name": "Locale"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -235,9 +234,7 @@
                             "type": "Property",
                             "start": 882,
                             "end": 900,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 882,
@@ -251,15 +248,15 @@
                               "value": "no-bok",
                               "raw": "\"no-bok\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           },
                           {
                             "type": "Property",
                             "start": 906,
                             "end": 918,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 906,
@@ -273,7 +270,9 @@
                               "value": "NO",
                               "raw": "\"NO\""
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -281,13 +280,13 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "TemplateLiteral",
             "start": 929,
             "end": 1006,
-            "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
@@ -299,7 +298,8 @@
                 },
                 "tail": true
               }
-            ]
+            ],
+            "expressions": []
           }
         ],
         "optional": false

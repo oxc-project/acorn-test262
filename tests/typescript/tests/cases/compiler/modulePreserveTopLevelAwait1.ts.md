@@ -10,22 +10,16 @@ __ESTREE_TEST__:PASS:
       "start": 0,
       "end": 28,
       "await": true,
-      "body": {
-        "type": "BlockStatement",
-        "start": 26,
-        "end": 28,
-        "body": []
-      },
       "left": {
         "type": "VariableDeclaration",
         "start": 11,
         "end": 18,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 17,
             "end": 18,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 17,
@@ -35,24 +29,29 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
       "right": {
         "type": "ArrayExpression",
         "start": 22,
         "end": 24,
         "elements": []
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 26,
+        "end": 28,
+        "body": []
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 29,
       "end": 53,
-      "directive": null,
       "expression": {
         "type": "AwaitExpression",
         "start": 29,
@@ -61,12 +60,10 @@ __ESTREE_TEST__:PASS:
           "type": "CallExpression",
           "start": 35,
           "end": 52,
-          "arguments": [],
           "callee": {
             "type": "MemberExpression",
             "start": 35,
             "end": 50,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 35,
@@ -76,7 +73,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 43,
@@ -85,22 +81,26 @@ __ESTREE_TEST__:PASS:
               "name": "resolve",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "optional": false,
+            "computed": false
           },
-          "optional": false,
-          "typeArguments": null
+          "typeArguments": null,
+          "arguments": [],
+          "optional": false
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 55,
       "end": 65,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

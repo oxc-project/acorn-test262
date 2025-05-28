@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 142,
+      "id": {
+        "type": "Identifier",
+        "start": 7,
+        "end": 8,
+        "decorators": [],
+        "name": "M",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 9,
@@ -18,12 +27,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 15,
             "end": 37,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 35,
                 "end": 36,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 35,
@@ -33,21 +42,16 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": true,
-            "kind": "var"
+            "declare": true
           },
           {
             "type": "TSDeclareFunction",
             "start": 42,
             "end": 71,
-            "async": false,
-            "body": null,
-            "declare": true,
-            "expression": false,
-            "generator": false,
             "id": {
               "type": "Identifier",
               "start": 67,
@@ -57,22 +61,19 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
+            "generator": false,
+            "async": false,
+            "declare": true,
+            "typeParameters": null,
             "params": [],
             "returnType": null,
-            "typeParameters": null
+            "body": null,
+            "expression": false
           },
           {
             "type": "TSModuleDeclaration",
             "start": 77,
             "end": 105,
-            "body": {
-              "type": "TSModuleBlock",
-              "start": 102,
-              "end": 105,
-              "body": []
-            },
-            "declare": true,
-            "global": false,
             "id": {
               "type": "Identifier",
               "start": 100,
@@ -82,20 +83,20 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "module"
+            "body": {
+              "type": "TSModuleBlock",
+              "start": 102,
+              "end": 105,
+              "body": []
+            },
+            "kind": "module",
+            "declare": true,
+            "global": false
           },
           {
             "type": "ClassDeclaration",
             "start": 113,
             "end": 140,
-            "abstract": false,
-            "body": {
-              "type": "ClassBody",
-              "start": 137,
-              "end": 140,
-              "body": []
-            },
-            "declare": true,
             "decorators": [],
             "id": {
               "type": "Identifier",
@@ -106,25 +107,24 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "implements": [],
+            "typeParameters": null,
             "superClass": null,
             "superTypeArguments": null,
-            "typeParameters": null
+            "implements": [],
+            "body": {
+              "type": "ClassBody",
+              "start": 137,
+              "end": 140,
+              "body": []
+            },
+            "abstract": false,
+            "declare": true
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 7,
-        "end": 8,
-        "decorators": [],
-        "name": "M",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "script",

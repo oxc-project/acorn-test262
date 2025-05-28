@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 17,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 14,
-        "end": 17,
-        "body": []
-      },
-      "declare": false,
-      "extends": [],
       "id": {
         "type": "Identifier",
         "start": 10,
@@ -26,18 +18,26 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "typeParameters": null
+      "typeParameters": null,
+      "extends": [],
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 14,
+        "end": 17,
+        "body": []
+      },
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 18,
       "end": 46,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 22,
           "end": 45,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 22,
@@ -51,11 +51,25 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeAssertion",
             "start": 27,
             "end": 45,
+            "typeAnnotation": {
+              "type": "TSTypeReference",
+              "start": 28,
+              "end": 31,
+              "typeName": {
+                "type": "Identifier",
+                "start": 28,
+                "end": 31,
+                "decorators": [],
+                "name": "Foo",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeArguments": null
+            },
             "expression": {
               "type": "NewExpression",
               "start": 33,
               "end": 45,
-              "arguments": [],
               "callee": {
                 "type": "Identifier",
                 "start": 37,
@@ -65,28 +79,14 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "typeArguments": null
-            },
-            "typeAnnotation": {
-              "type": "TSTypeReference",
-              "start": 28,
-              "end": 31,
               "typeArguments": null,
-              "typeName": {
-                "type": "Identifier",
-                "start": 28,
-                "end": 31,
-                "decorators": [],
-                "name": "Foo",
-                "optional": false,
-                "typeAnnotation": null
-              }
+              "arguments": []
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

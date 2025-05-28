@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 32,
       "end": 72,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 70,
-        "end": 72,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -27,12 +19,11 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": {
         "type": "CallExpression",
         "start": 54,
         "end": 69,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 54,
@@ -42,17 +33,40 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
       },
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 70,
+        "end": 72,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 74,
       "end": 128,
+      "id": {
+        "type": "Identifier",
+        "start": 83,
+        "end": 96,
+        "decorators": [],
+        "name": "makeBaseClass",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 99,
@@ -66,14 +80,6 @@ __ESTREE_TEST__:PASS:
               "type": "ClassExpression",
               "start": 112,
               "end": 125,
-              "abstract": false,
-              "body": {
-                "type": "ClassBody",
-                "start": 123,
-                "end": 125,
-                "body": []
-              },
-              "declare": false,
               "decorators": [],
               "id": {
                 "type": "Identifier",
@@ -84,29 +90,23 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "implements": [],
+              "typeParameters": null,
               "superClass": null,
               "superTypeArguments": null,
-              "typeParameters": null
+              "implements": [],
+              "body": {
+                "type": "ClassBody",
+                "start": 123,
+                "end": 125,
+                "body": []
+              },
+              "abstract": false,
+              "declare": false
             }
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 83,
-        "end": 96,
-        "decorators": [],
-        "name": "makeBaseClass",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

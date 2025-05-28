@@ -23,8 +23,6 @@
             "type": "PropertyDefinition",
             "start": 881,
             "end": 902,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 881,
@@ -35,9 +33,7 @@
               "type": "ArrowFunctionExpression",
               "start": 886,
               "end": 901,
-              "id": null,
               "expression": true,
-              "generator": false,
               "async": false,
               "params": [],
               "body": {
@@ -46,28 +42,28 @@
                 "end": 901,
                 "value": "test262",
                 "raw": "'test262'"
-              }
-            }
+              },
+              "id": null,
+              "generator": false
+            },
+            "computed": false,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 906,
             "end": 942,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 906,
               "end": 912,
               "name": "method"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 912,
               "end": 942,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -99,16 +95,20 @@
                           "end": 935,
                           "name": "m"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [],
                       "optional": false
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -117,6 +117,7 @@
       "type": "VariableDeclaration",
       "start": 946,
       "end": 962,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -141,8 +142,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -168,8 +168,8 @@
             "end": 979,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -192,8 +192,8 @@
                 "end": 988,
                 "name": "method"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [],
             "optional": false

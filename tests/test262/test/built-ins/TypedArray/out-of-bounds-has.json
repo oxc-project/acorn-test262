@@ -12,6 +12,7 @@
         "type": "VariableDeclaration",
         "start": 569,
         "end": 577,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -25,8 +26,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -43,6 +43,7 @@
             "type": "VariableDeclaration",
             "start": 592,
             "end": 688,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -93,8 +94,8 @@
                           "end": 657,
                           "name": "BYTES_PER_ELEMENT"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     },
                     {
@@ -125,21 +126,21 @@
                           "end": 686,
                           "name": "BYTES_PER_ELEMENT"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     }
                   ],
                   "optional": false
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 691,
             "end": 725,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -185,8 +186,7 @@
                   ]
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ForStatement",
@@ -196,6 +196,7 @@
               "type": "VariableDeclaration",
               "start": 757,
               "end": 766,
+              "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -215,8 +216,7 @@
                     "raw": "0"
                   }
                 }
-              ],
-              "kind": "let"
+              ]
             },
             "test": {
               "type": "BinaryExpression",
@@ -319,8 +319,8 @@
                   "end": 822,
                   "name": "resize"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -351,8 +351,8 @@
                       "end": 849,
                       "name": "BYTES_PER_ELEMENT"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ],
@@ -367,6 +367,7 @@
               "type": "VariableDeclaration",
               "start": 985,
               "end": 994,
+              "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -386,8 +387,7 @@
                     "raw": "0"
                   }
                 }
-              ],
-              "kind": "let"
+              ]
             },
             "test": {
               "type": "BinaryExpression",
@@ -446,7 +446,6 @@
                         "start": 1021,
                         "end": 1034,
                         "operator": "!",
-                        "prefix": true,
                         "argument": {
                           "type": "ParenthesizedExpression",
                           "start": 1022,
@@ -469,7 +468,8 @@
                               "name": "array"
                             }
                           }
-                        }
+                        },
+                        "prefix": true
                       }
                     ],
                     "optional": false
@@ -502,8 +502,8 @@
                   "end": 1053,
                   "name": "resize"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -534,8 +534,8 @@
                       "end": 1080,
                       "name": "BYTES_PER_ELEMENT"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ],
@@ -550,6 +550,7 @@
               "type": "VariableDeclaration",
               "start": 1114,
               "end": 1123,
+              "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -569,8 +570,7 @@
                     "raw": "0"
                   }
                 }
-              ],
-              "kind": "let"
+              ]
             },
             "test": {
               "type": "BinaryExpression",
@@ -673,8 +673,8 @@
                   "end": 1179,
                   "name": "resize"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -705,8 +705,8 @@
                       "end": 1207,
                       "name": "BYTES_PER_ELEMENT"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ],
@@ -721,6 +721,7 @@
               "type": "VariableDeclaration",
               "start": 1241,
               "end": 1250,
+              "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -740,8 +741,7 @@
                     "raw": "0"
                   }
                 }
-              ],
-              "kind": "let"
+              ]
             },
             "test": {
               "type": "BinaryExpression",

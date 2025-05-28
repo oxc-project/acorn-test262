@@ -27,8 +27,8 @@
             "end": 293,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 310,
             "end": 351,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -60,6 +59,7 @@
                       "type": "VariableDeclaration",
                       "start": 331,
                       "end": 345,
+                      "kind": "let",
                       "declarations": [
                         {
                           "type": "VariableDeclarator",
@@ -91,13 +91,13 @@
                             }
                           }
                         }
-                      ],
-                      "kind": "let"
+                      ]
                     }
                   ]
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

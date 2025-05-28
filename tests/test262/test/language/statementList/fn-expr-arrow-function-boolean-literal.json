@@ -13,7 +13,6 @@
         "end": 1326,
         "name": "fn"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -22,7 +21,8 @@
         "start": 1329,
         "end": 1331,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -37,9 +37,7 @@
             "type": "ArrowFunctionExpression",
             "start": 1331,
             "end": 1338,
-            "id": null,
             "expression": true,
-            "generator": false,
             "async": false,
             "params": [],
             "body": {
@@ -48,7 +46,9 @@
               "end": 1338,
               "value": 1,
               "raw": "1"
-            }
+            },
+            "id": null,
+            "generator": false
           },
           {
             "type": "Literal",

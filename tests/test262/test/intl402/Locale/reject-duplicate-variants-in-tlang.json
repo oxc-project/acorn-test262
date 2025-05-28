@@ -27,8 +27,8 @@
             "end": 706,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,7 +36,6 @@
             "start": 707,
             "end": 725,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "MemberExpression",
               "start": 714,
@@ -53,9 +52,10 @@
                 "end": 725,
                 "name": "Locale"
               },
-              "computed": false,
-              "optional": false
-            }
+              "optional": false,
+              "computed": false
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -78,7 +78,6 @@
         "end": 760,
         "name": "mustReject"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -118,8 +117,8 @@
                   "end": 783,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -132,9 +131,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 796,
                   "end": 869,
-                  "id": null,
                   "expression": false,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -166,8 +163,8 @@
                               "end": 859,
                               "name": "Locale"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -180,20 +177,14 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 871,
                   "end": 925,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 879,
-                      "end": 882,
-                      "name": "tag"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -215,6 +206,14 @@
                       },
                       "tail": true
                     }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 879,
+                      "end": 882,
+                      "name": "tag"
+                    }
                   ]
                 }
               ],
@@ -222,7 +221,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 77,
+      "id": {
+        "type": "Identifier",
+        "start": 7,
+        "end": 16,
+        "decorators": [],
+        "name": "Variables",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 16,
@@ -18,12 +27,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 22,
             "end": 59,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 26,
                 "end": 59,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 26,
@@ -37,16 +46,6 @@ __ESTREE_TEST__:PASS:
                   "type": "FunctionExpression",
                   "start": 30,
                   "end": 59,
-                  "async": false,
-                  "body": {
-                    "type": "BlockStatement",
-                    "start": 52,
-                    "end": 59,
-                    "body": []
-                  },
-                  "declare": false,
-                  "expression": false,
-                  "generator": false,
                   "id": {
                     "type": "Identifier",
                     "start": 39,
@@ -56,6 +55,10 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
+                  "generator": false,
+                  "async": false,
+                  "declare": false,
+                  "typeParameters": null,
                   "params": [
                     {
                       "type": "Identifier",
@@ -86,45 +89,27 @@ __ESTREE_TEST__:PASS:
                     }
                   ],
                   "returnType": null,
-                  "typeParameters": null
-                }
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 52,
+                    "end": 59,
+                    "body": []
+                  },
+                  "expression": false
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           },
           {
             "type": "ExpressionStatement",
             "start": 64,
             "end": 75,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 64,
               "end": 74,
-              "arguments": [
-                {
-                  "type": "Literal",
-                  "start": 66,
-                  "end": 67,
-                  "raw": "1",
-                  "value": 1
-                },
-                {
-                  "type": "Literal",
-                  "start": 69,
-                  "end": 70,
-                  "raw": "2",
-                  "value": 2
-                },
-                {
-                  "type": "Literal",
-                  "start": 72,
-                  "end": 73,
-                  "raw": "3",
-                  "value": 3
-                }
-              ],
               "callee": {
                 "type": "Identifier",
                 "start": 64,
@@ -134,24 +119,39 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 66,
+                  "end": 67,
+                  "value": 1,
+                  "raw": "1"
+                },
+                {
+                  "type": "Literal",
+                  "start": 69,
+                  "end": 70,
+                  "value": 2,
+                  "raw": "2"
+                },
+                {
+                  "type": "Literal",
+                  "start": 72,
+                  "end": 73,
+                  "value": 3,
+                  "raw": "3"
+                }
+              ],
+              "optional": false
+            },
+            "directive": null
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 7,
-        "end": 16,
-        "decorators": [],
-        "name": "Variables",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "script",

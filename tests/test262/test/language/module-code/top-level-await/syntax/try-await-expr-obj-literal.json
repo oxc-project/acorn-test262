@@ -29,9 +29,7 @@
                     "type": "Property",
                     "start": 1401,
                     "end": 1414,
-                    "method": true,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1401,
@@ -43,7 +41,6 @@
                       "start": 1409,
                       "end": 1414,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -52,9 +49,12 @@
                         "start": 1412,
                         "end": 1414,
                         "body": []
-                      }
+                      },
+                      "expression": false
                     },
-                    "kind": "init"
+                    "method": true,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -94,9 +94,7 @@
                       "type": "Property",
                       "start": 1441,
                       "end": 1454,
-                      "method": true,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1441,
@@ -108,7 +106,6 @@
                         "start": 1449,
                         "end": 1454,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -117,9 +114,12 @@
                           "start": 1452,
                           "end": 1454,
                           "body": []
-                        }
+                        },
+                        "expression": false
                       },
-                      "kind": "init"
+                      "method": true,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
@@ -156,9 +156,7 @@
                     "type": "Property",
                     "start": 1477,
                     "end": 1490,
-                    "method": true,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1477,
@@ -170,7 +168,6 @@
                       "start": 1485,
                       "end": 1490,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -179,9 +176,12 @@
                         "start": 1488,
                         "end": 1490,
                         "body": []
-                      }
+                      },
+                      "expression": false
                     },
-                    "kind": "init"
+                    "method": true,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -212,9 +212,7 @@
                     "type": "Property",
                     "start": 1516,
                     "end": 1529,
-                    "method": true,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1516,
@@ -226,7 +224,6 @@
                       "start": 1524,
                       "end": 1529,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -235,9 +232,12 @@
                         "start": 1527,
                         "end": 1529,
                         "body": []
-                      }
+                      },
+                      "expression": false
                     },
-                    "kind": "init"
+                    "method": true,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -272,9 +272,7 @@
                     "type": "Property",
                     "start": 1552,
                     "end": 1565,
-                    "method": true,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1552,
@@ -286,7 +284,6 @@
                       "start": 1560,
                       "end": 1565,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -295,9 +292,12 @@
                         "start": 1563,
                         "end": 1565,
                         "body": []
-                      }
+                      },
+                      "expression": false
                     },
-                    "kind": "init"
+                    "method": true,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }
@@ -337,9 +337,7 @@
                       "type": "Property",
                       "start": 1592,
                       "end": 1605,
-                      "method": true,
-                      "shorthand": false,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 1592,
@@ -351,7 +349,6 @@
                         "start": 1600,
                         "end": 1605,
                         "id": null,
-                        "expression": false,
                         "generator": false,
                         "async": false,
                         "params": [],
@@ -360,9 +357,12 @@
                           "start": 1603,
                           "end": 1605,
                           "body": []
-                        }
+                        },
+                        "expression": false
                       },
-                      "kind": "init"
+                      "method": true,
+                      "shorthand": false,
+                      "computed": false
                     }
                   ]
                 }
@@ -393,9 +393,7 @@
                     "type": "Property",
                     "start": 1631,
                     "end": 1644,
-                    "method": true,
-                    "shorthand": false,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 1631,
@@ -407,7 +405,6 @@
                       "start": 1639,
                       "end": 1644,
                       "id": null,
-                      "expression": false,
                       "generator": false,
                       "async": false,
                       "params": [],
@@ -416,9 +413,12 @@
                         "start": 1642,
                         "end": 1644,
                         "body": []
-                      }
+                      },
+                      "expression": false
                     },
-                    "kind": "init"
+                    "method": true,
+                    "shorthand": false,
+                    "computed": false
                   }
                 ]
               }

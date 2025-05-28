@@ -9,18 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "IfStatement",
       "start": 0,
       "end": 28,
-      "alternate": null,
-      "consequent": {
-        "type": "BlockStatement",
-        "start": 25,
-        "end": 28,
-        "body": []
-      },
       "test": {
         "type": "BinaryExpression",
         "start": 4,
         "end": 23,
-        "operator": "instanceof",
         "left": {
           "type": "Identifier",
           "start": 4,
@@ -30,6 +22,7 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "operator": "instanceof",
         "right": {
           "type": "Identifier",
           "start": 17,
@@ -39,18 +32,25 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 25,
+        "end": 28,
+        "body": []
+      },
+      "alternate": null
     },
     {
       "type": "VariableDeclaration",
       "start": 30,
       "end": 41,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 34,
           "end": 40,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 34,
@@ -69,28 +69,20 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 42,
       "end": 75,
-      "alternate": null,
-      "consequent": {
-        "type": "BlockStatement",
-        "start": 72,
-        "end": 75,
-        "body": []
-      },
       "test": {
         "type": "BinaryExpression",
         "start": 46,
         "end": 70,
-        "operator": "instanceof",
         "left": {
           "type": "Identifier",
           "start": 46,
@@ -100,6 +92,7 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "operator": "instanceof",
         "right": {
           "type": "Identifier",
           "start": 59,
@@ -109,7 +102,14 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 72,
+        "end": 75,
+        "body": []
+      },
+      "alternate": null
     }
   ],
   "sourceType": "script",

@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSTypeAliasDeclaration",
       "start": 0,
       "end": 46,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 5,
@@ -19,6 +18,7 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTypeLiteral",
         "start": 13,
@@ -28,13 +28,10 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 19,
             "end": 43,
-            "accessibility": null,
-            "computed": true,
             "key": {
               "type": "BinaryExpression",
               "start": 24,
               "end": 32,
-              "operator": "in",
               "left": {
                 "type": "Identifier",
                 "start": 24,
@@ -44,6 +41,7 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
+              "operator": "in",
               "right": {
                 "type": "Identifier",
                 "start": 29,
@@ -54,10 +52,11 @@ __ESTREE_TEST__:PASS:
                 "typeAnnotation": null
               }
             },
-            "kind": "get",
+            "computed": true,
             "optional": false,
+            "kind": "get",
+            "typeParameters": null,
             "params": [],
-            "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 35,
@@ -68,12 +67,13 @@ __ESTREE_TEST__:PASS:
                 "end": 43
               }
             },
-            "static": false,
-            "typeParameters": null
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           }
         ]
       },
-      "typeParameters": null
+      "declare": false
     }
   ],
   "sourceType": "script",

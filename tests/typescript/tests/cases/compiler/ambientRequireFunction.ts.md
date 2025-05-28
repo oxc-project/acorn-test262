@@ -9,11 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 0,
       "end": 50,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 17,
@@ -23,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -53,13 +52,20 @@ __ESTREE_TEST__:PASS:
           "end": 49
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 52,
       "end": 128,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 67,
+        "end": 71,
+        "value": "fs",
+        "raw": "\"fs\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 72,
@@ -69,16 +75,10 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 78,
             "end": 126,
-            "attributes": [],
             "declaration": {
               "type": "TSDeclareFunction",
               "start": 85,
               "end": 126,
-              "async": false,
-              "body": null,
-              "declare": false,
-              "expression": false,
-              "generator": false,
               "id": {
                 "type": "Identifier",
                 "start": 94,
@@ -88,6 +88,10 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -118,23 +122,19 @@ __ESTREE_TEST__:PASS:
                   "end": 125
                 }
               },
-              "typeParameters": null
+              "body": null,
+              "expression": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 67,
-        "end": 71,
-        "raw": "\"fs\"",
-        "value": "fs"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -152,12 +152,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 35,
       "end": 60,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 41,
           "end": 59,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 41,
@@ -171,15 +171,6 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 46,
             "end": 59,
-            "arguments": [
-              {
-                "type": "Literal",
-                "start": 54,
-                "end": 58,
-                "raw": "\"fs\"",
-                "value": "fs"
-              }
-            ],
             "callee": {
               "type": "Identifier",
               "start": 46,
@@ -189,24 +180,33 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 54,
+                "end": 58,
+                "value": "fs",
+                "raw": "\"fs\""
+              }
+            ],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 61,
       "end": 100,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 67,
           "end": 99,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 67,
@@ -220,20 +220,10 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 74,
             "end": 99,
-            "arguments": [
-              {
-                "type": "Literal",
-                "start": 90,
-                "end": 98,
-                "raw": "\"/a/b/c\"",
-                "value": "/a/b/c"
-              }
-            ],
             "callee": {
               "type": "MemberExpression",
               "start": 74,
               "end": 89,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 74,
@@ -243,7 +233,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 77,
@@ -252,15 +241,26 @@ __ESTREE_TEST__:PASS:
                 "name": "readFileSync",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 90,
+                "end": 98,
+                "value": "/a/b/c",
+                "raw": "\"/a/b/c\""
+              }
+            ],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "module",

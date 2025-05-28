@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSEnumDeclaration",
       "start": 21,
       "end": 141,
+      "id": {
+        "type": "Identifier",
+        "start": 26,
+        "end": 32,
+        "decorators": [],
+        "name": "Colors",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSEnumBody",
         "start": 33,
@@ -18,7 +27,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 71,
             "end": 81,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 71,
@@ -28,13 +36,13 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 130,
             "end": 139,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 130,
@@ -44,32 +52,24 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           }
         ]
       },
       "const": false,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 26,
-        "end": 32,
-        "decorators": [],
-        "name": "Colors",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 162,
       "end": 188,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 166,
           "end": 187,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 166,
@@ -83,7 +83,6 @@ __ESTREE_TEST__:PASS:
             "type": "MemberExpression",
             "start": 170,
             "end": 187,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 170,
@@ -93,7 +92,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 177,
@@ -102,18 +100,19 @@ __ESTREE_TEST__:PASS:
               "name": "Cornflower",
               "optional": false,
               "typeAnnotation": null
-            }
-          }
+            },
+            "optional": false,
+            "computed": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 189,
       "end": 210,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 189,
@@ -132,7 +131,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 193,
           "end": 209,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 193,
@@ -142,7 +140,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 200,
@@ -151,9 +148,12 @@ __ESTREE_TEST__:PASS:
             "name": "FancyPink",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

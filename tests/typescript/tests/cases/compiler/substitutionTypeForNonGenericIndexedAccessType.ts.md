@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 14,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 12,
-        "end": 14,
-        "body": []
-      },
-      "declare": false,
-      "extends": [],
       "id": {
         "type": "Identifier",
         "start": 10,
@@ -26,13 +18,20 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "typeParameters": null
+      "typeParameters": null,
+      "extends": [],
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 12,
+        "end": 14,
+        "body": []
+      },
+      "declare": false
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 16,
       "end": 77,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 21,
@@ -42,6 +41,7 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSConditionalType",
         "start": 25,
@@ -50,7 +50,6 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 25,
           "end": 26,
-          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 25,
@@ -59,12 +58,22 @@ __ESTREE_TEST__:PASS:
             "name": "A",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "typeArguments": null
         },
         "extendsType": {
           "type": "TSTypeReference",
           "start": 35,
           "end": 56,
+          "typeName": {
+            "type": "Identifier",
+            "start": 35,
+            "end": 41,
+            "decorators": [],
+            "name": "Record",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
             "start": 41,
@@ -78,8 +87,8 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 42,
                   "end": 47,
-                  "raw": "'foo'",
-                  "value": "foo"
+                  "value": "foo",
+                  "raw": "'foo'"
                 }
               },
               {
@@ -88,43 +97,16 @@ __ESTREE_TEST__:PASS:
                 "end": 55
               }
             ]
-          },
-          "typeName": {
-            "type": "Identifier",
-            "start": 35,
-            "end": 41,
-            "decorators": [],
-            "name": "Record",
-            "optional": false,
-            "typeAnnotation": null
           }
-        },
-        "falseType": {
-          "type": "TSStringKeyword",
-          "start": 70,
-          "end": 76
         },
         "trueType": {
           "type": "TSIndexedAccessType",
           "start": 59,
           "end": 67,
-          "indexType": {
-            "type": "TSLiteralType",
-            "start": 61,
-            "end": 66,
-            "literal": {
-              "type": "Literal",
-              "start": 61,
-              "end": 66,
-              "raw": "'foo'",
-              "value": "foo"
-            }
-          },
           "objectType": {
             "type": "TSTypeReference",
             "start": 59,
             "end": 60,
-            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 59,
@@ -133,11 +115,29 @@ __ESTREE_TEST__:PASS:
               "name": "A",
               "optional": false,
               "typeAnnotation": null
+            },
+            "typeArguments": null
+          },
+          "indexType": {
+            "type": "TSLiteralType",
+            "start": 61,
+            "end": 66,
+            "literal": {
+              "type": "Literal",
+              "start": 61,
+              "end": 66,
+              "value": "foo",
+              "raw": "'foo'"
             }
           }
+        },
+        "falseType": {
+          "type": "TSStringKeyword",
+          "start": 70,
+          "end": 76
         }
       },
-      "typeParameters": null
+      "declare": false
     }
   ],
   "sourceType": "script",

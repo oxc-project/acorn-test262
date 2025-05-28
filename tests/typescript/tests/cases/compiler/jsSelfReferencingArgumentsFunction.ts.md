@@ -9,53 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 15,
       "end": 70,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 30,
-        "end": 70,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 36,
-            "end": 46,
-            "directive": null,
-            "expression": {
-              "type": "Identifier",
-              "start": 36,
-              "end": 45,
-              "decorators": [],
-              "name": "arguments",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          },
-          {
-            "type": "ReturnStatement",
-            "start": 51,
-            "end": 68,
-            "argument": {
-              "type": "NewExpression",
-              "start": 58,
-              "end": 67,
-              "arguments": [],
-              "callee": {
-                "type": "Identifier",
-                "start": 62,
-                "end": 65,
-                "decorators": [],
-                "name": "Foo",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "typeArguments": null
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 24,
@@ -65,9 +18,56 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 30,
+        "end": 70,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 36,
+            "end": 46,
+            "expression": {
+              "type": "Identifier",
+              "start": 36,
+              "end": 45,
+              "decorators": [],
+              "name": "arguments",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "directive": null
+          },
+          {
+            "type": "ReturnStatement",
+            "start": 51,
+            "end": 68,
+            "argument": {
+              "type": "NewExpression",
+              "start": 58,
+              "end": 67,
+              "callee": {
+                "type": "Identifier",
+                "start": 62,
+                "end": 65,
+                "decorators": [],
+                "name": "Foo",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeArguments": null,
+              "arguments": []
+            }
+          }
+        ]
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

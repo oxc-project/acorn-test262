@@ -9,81 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 56,
       "end": 108,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 65,
-        "end": 108,
-        "body": [
-          {
-            "type": "PropertyDefinition",
-            "start": 71,
-            "end": 88,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
-            "key": {
-              "type": "PrivateIdentifier",
-              "start": 78,
-              "end": 82,
-              "name": "qux"
-            },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": true,
-            "typeAnnotation": null,
-            "value": {
-              "type": "Literal",
-              "start": 85,
-              "end": 87,
-              "raw": "42",
-              "value": 42
-            }
-          },
-          {
-            "type": "MethodDefinition",
-            "start": 93,
-            "end": 106,
-            "accessibility": null,
-            "computed": true,
-            "decorators": [],
-            "key": {
-              "type": "Literal",
-              "start": 94,
-              "end": 99,
-              "raw": "\"bar\"",
-              "value": "bar"
-            },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
-            "value": {
-              "type": "FunctionExpression",
-              "start": 101,
-              "end": 106,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 104,
-                "end": 106,
-                "body": []
-              },
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
-          }
-        ]
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -94,90 +19,90 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 65,
+        "end": 108,
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "start": 71,
+            "end": 88,
+            "decorators": [],
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 78,
+              "end": 82,
+              "name": "qux"
+            },
+            "typeAnnotation": null,
+            "value": {
+              "type": "Literal",
+              "start": 85,
+              "end": 87,
+              "value": 42,
+              "raw": "42"
+            },
+            "computed": false,
+            "static": true,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
+          },
+          {
+            "type": "MethodDefinition",
+            "start": 93,
+            "end": 106,
+            "decorators": [],
+            "key": {
+              "type": "Literal",
+              "start": 94,
+              "end": 99,
+              "value": "bar",
+              "raw": "\"bar\""
+            },
+            "value": {
+              "type": "FunctionExpression",
+              "start": 101,
+              "end": 106,
+              "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
+              "body": {
+                "type": "BlockStatement",
+                "start": 104,
+                "end": 106,
+                "body": []
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": true,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null
+          }
+        ]
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 109,
       "end": 168,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 118,
-        "end": 168,
-        "body": [
-          {
-            "type": "PropertyDefinition",
-            "start": 124,
-            "end": 141,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
-            "key": {
-              "type": "PrivateIdentifier",
-              "start": 131,
-              "end": 135,
-              "name": "qux"
-            },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": true,
-            "typeAnnotation": null,
-            "value": {
-              "type": "Literal",
-              "start": 138,
-              "end": 140,
-              "raw": "42",
-              "value": 42
-            }
-          },
-          {
-            "type": "MethodDefinition",
-            "start": 146,
-            "end": 166,
-            "accessibility": null,
-            "computed": true,
-            "decorators": [],
-            "key": {
-              "type": "Literal",
-              "start": 154,
-              "end": 159,
-              "raw": "\"bar\"",
-              "value": "bar"
-            },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": true,
-            "value": {
-              "type": "FunctionExpression",
-              "start": 161,
-              "end": 166,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 164,
-                "end": 166,
-                "body": []
-              },
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
-          }
-        ]
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -188,81 +113,90 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 118,
+        "end": 168,
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "start": 124,
+            "end": 141,
+            "decorators": [],
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 131,
+              "end": 135,
+              "name": "qux"
+            },
+            "typeAnnotation": null,
+            "value": {
+              "type": "Literal",
+              "start": 138,
+              "end": 140,
+              "value": 42,
+              "raw": "42"
+            },
+            "computed": false,
+            "static": true,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
+          },
+          {
+            "type": "MethodDefinition",
+            "start": 146,
+            "end": 166,
+            "decorators": [],
+            "key": {
+              "type": "Literal",
+              "start": 154,
+              "end": 159,
+              "value": "bar",
+              "raw": "\"bar\""
+            },
+            "value": {
+              "type": "FunctionExpression",
+              "start": 161,
+              "end": 166,
+              "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
+              "body": {
+                "type": "BlockStatement",
+                "start": 164,
+                "end": 166,
+                "body": []
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": true,
+            "static": true,
+            "override": false,
+            "optional": false,
+            "accessibility": null
+          }
+        ]
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 169,
       "end": 232,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 178,
-        "end": 232,
-        "body": [
-          {
-            "type": "PropertyDefinition",
-            "start": 184,
-            "end": 201,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
-            "key": {
-              "type": "PrivateIdentifier",
-              "start": 191,
-              "end": 195,
-              "name": "qux"
-            },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": true,
-            "typeAnnotation": null,
-            "value": {
-              "type": "Literal",
-              "start": 198,
-              "end": 200,
-              "raw": "42",
-              "value": 42
-            }
-          },
-          {
-            "type": "PropertyDefinition",
-            "start": 206,
-            "end": 230,
-            "accessibility": null,
-            "computed": true,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
-            "key": {
-              "type": "Literal",
-              "start": 214,
-              "end": 219,
-              "raw": "\"bar\"",
-              "value": "bar"
-            },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": true,
-            "typeAnnotation": null,
-            "value": {
-              "type": "Literal",
-              "start": 223,
-              "end": 229,
-              "raw": "\"test\"",
-              "value": "test"
-            }
-          }
-        ]
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -273,10 +207,76 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 178,
+        "end": 232,
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "start": 184,
+            "end": 201,
+            "decorators": [],
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 191,
+              "end": 195,
+              "name": "qux"
+            },
+            "typeAnnotation": null,
+            "value": {
+              "type": "Literal",
+              "start": 198,
+              "end": 200,
+              "value": 42,
+              "raw": "42"
+            },
+            "computed": false,
+            "static": true,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 206,
+            "end": 230,
+            "decorators": [],
+            "key": {
+              "type": "Literal",
+              "start": 214,
+              "end": 219,
+              "value": "bar",
+              "raw": "\"bar\""
+            },
+            "typeAnnotation": null,
+            "value": {
+              "type": "Literal",
+              "start": 223,
+              "end": 229,
+              "value": "test",
+              "raw": "\"test\""
+            },
+            "computed": true,
+            "static": true,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
+          }
+        ]
+      },
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

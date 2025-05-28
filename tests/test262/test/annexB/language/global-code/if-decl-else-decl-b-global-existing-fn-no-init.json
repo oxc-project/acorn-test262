@@ -27,8 +27,8 @@
             "end": 1067,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -76,7 +76,6 @@
           "end": 1118,
           "name": "_f"
         },
-        "expression": false,
         "generator": false,
         "async": false,
         "params": [],
@@ -85,7 +84,8 @@
           "start": 1121,
           "end": 1123,
           "body": []
-        }
+        },
+        "expression": false
       },
       "alternate": {
         "type": "FunctionDeclaration",
@@ -97,7 +97,6 @@
           "end": 1139,
           "name": "f"
         },
-        "expression": false,
         "generator": false,
         "async": false,
         "params": [],
@@ -119,7 +118,8 @@
               }
             }
           ]
-        }
+        },
+        "expression": false
       }
     },
     {
@@ -132,7 +132,6 @@
         "end": 1185,
         "name": "f"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -154,7 +153,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

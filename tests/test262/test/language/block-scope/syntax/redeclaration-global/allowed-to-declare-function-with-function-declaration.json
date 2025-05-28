@@ -13,7 +13,6 @@
         "end": 274,
         "name": "f"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -22,7 +21,8 @@
         "start": 277,
         "end": 279,
         "body": []
-      }
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

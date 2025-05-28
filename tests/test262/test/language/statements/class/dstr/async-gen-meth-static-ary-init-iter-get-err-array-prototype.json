@@ -12,7 +12,6 @@
         "start": 1985,
         "end": 2024,
         "operator": "delete",
-        "prefix": true,
         "argument": {
           "type": "MemberExpression",
           "start": 1992,
@@ -33,8 +32,8 @@
               "end": 2007,
               "name": "prototype"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "MemberExpression",
@@ -52,12 +51,13 @@
               "end": 2023,
               "name": "iterator"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
-          "computed": true,
-          "optional": false
-        }
+          "optional": false,
+          "computed": true
+        },
+        "prefix": true
       }
     },
     {
@@ -80,21 +80,17 @@
             "type": "MethodDefinition",
             "start": 2040,
             "end": 2082,
-            "static": true,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 2054,
               "end": 2060,
               "name": "method"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 2060,
               "end": 2082,
               "id": null,
-              "expression": false,
               "generator": true,
               "async": true,
               "params": [
@@ -129,8 +125,12 @@
                 "start": 2072,
                 "end": 2082,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true
           }
         ]
       }
@@ -144,6 +144,7 @@
       "type": "VariableDeclaration",
       "start": 2087,
       "end": 2109,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -171,12 +172,11 @@
               "end": 2108,
               "name": "method"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -202,8 +202,8 @@
             "end": 2124,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -217,7 +217,6 @@
             "start": 2136,
             "end": 2171,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -274,7 +273,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

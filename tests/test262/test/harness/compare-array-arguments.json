@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 218,
       "end": 254,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -46,8 +47,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -59,7 +59,6 @@
         "end": 294,
         "name": "checkFormatOfAssertionMessage"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -85,6 +84,7 @@
             "type": "VariableDeclaration",
             "start": 319,
             "end": 338,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -104,8 +104,7 @@
                   "raw": "false"
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "TryStatement",
@@ -199,8 +198,8 @@
                           "end": 424,
                           "name": "sameValue"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -219,8 +218,8 @@
                             "end": 442,
                             "name": "constructor"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         {
                           "type": "Identifier",
@@ -256,8 +255,8 @@
                           "end": 481,
                           "name": "sameValue"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -276,8 +275,8 @@
                             "end": 495,
                             "name": "message"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         {
                           "type": "Identifier",
@@ -319,14 +318,6 @@
                   "type": "TemplateLiteral",
                   "start": 534,
                   "end": 577,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 546,
-                      "end": 550,
-                      "name": "func"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -348,6 +339,14 @@
                       },
                       "tail": true
                     }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 546,
+                      "end": 550,
+                      "name": "func"
+                    }
                   ]
                 }
               ],
@@ -355,7 +354,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -367,7 +367,6 @@
         "end": 593,
         "name": "f"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -400,8 +399,8 @@
                   "end": 619,
                   "name": "compareArray"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -444,8 +443,8 @@
                   "end": 662,
                   "name": "compareArray"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -483,9 +482,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 717,
                   "end": 788,
-                  "id": null,
                   "expression": false,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -517,8 +514,8 @@
                               "end": 748,
                               "name": "compareArray"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -545,7 +542,9 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "Literal",
@@ -577,9 +576,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 916,
                   "end": 987,
-                  "id": null,
                   "expression": false,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -611,8 +608,8 @@
                               "end": 947,
                               "name": "compareArray"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -639,7 +636,9 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "Literal",
@@ -653,7 +652,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

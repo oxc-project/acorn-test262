@@ -9,22 +9,22 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 61,
       "end": 71,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "VariableDeclaration",
       "start": 72,
       "end": 97,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 86,
           "end": 96,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 86,
@@ -43,24 +43,16 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     },
     {
       "type": "ClassDeclaration",
       "start": 98,
       "end": 130,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 128,
-        "end": 130,
-        "body": []
-      },
-      "declare": true,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -71,7 +63,7 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": {
         "type": "Identifier",
         "start": 122,
@@ -82,7 +74,15 @@ __ESTREE_TEST__:PASS:
         "typeAnnotation": null
       },
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 128,
+        "end": 130,
+        "body": []
+      },
+      "abstract": false,
+      "declare": true
     }
   ],
   "sourceType": "module",

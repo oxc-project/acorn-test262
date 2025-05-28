@@ -13,7 +13,6 @@
         "end": 759,
         "name": "TestWithRegExpExec"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -58,8 +57,8 @@
                     "end": 786,
                     "name": "prototype"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "property": {
                   "type": "Identifier",
@@ -67,8 +66,8 @@
                   "end": 791,
                   "name": "exec"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "Identifier",
@@ -82,6 +81,7 @@
             "type": "VariableDeclaration",
             "start": 803,
             "end": 822,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -105,13 +105,13 @@
                   }
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "VariableDeclaration",
             "start": 825,
             "end": 841,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -131,8 +131,7 @@
                   "raw": "'a*b'"
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -158,8 +157,8 @@
                   "end": 867,
                   "name": "compareIterator"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -192,11 +191,11 @@
                         "end": 890,
                         "name": "matchAll"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
-                    "computed": true,
-                    "optional": false
+                    "optional": false,
+                    "computed": true
                   },
                   "arguments": [
                     {
@@ -302,7 +301,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

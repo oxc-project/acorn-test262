@@ -9,19 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 26,
-      "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
         "start": 7,
         "end": 26,
-        "body": {
-          "type": "TSInterfaceBody",
-          "start": 24,
-          "end": 26,
-          "body": []
-        },
-        "declare": false,
-        "extends": [],
         "id": {
           "type": "Identifier",
           "start": 17,
@@ -31,21 +22,38 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "typeParameters": null
+        "typeParameters": null,
+        "extends": [],
+        "body": {
+          "type": "TSInterfaceBody",
+          "start": 24,
+          "end": 26,
+          "body": []
+        },
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 28,
       "end": 98,
-      "attributes": [],
       "declaration": {
         "type": "TSModuleDeclaration",
         "start": 35,
         "end": 98,
+        "id": {
+          "type": "Identifier",
+          "start": 42,
+          "end": 48,
+          "decorators": [],
+          "name": "Shapes",
+          "optional": false,
+          "typeAnnotation": null
+        },
         "body": {
           "type": "TSModuleBlock",
           "start": 49,
@@ -55,19 +63,10 @@ __ESTREE_TEST__:PASS:
               "type": "ExportNamedDeclaration",
               "start": 56,
               "end": 95,
-              "attributes": [],
               "declaration": {
                 "type": "ClassDeclaration",
                 "start": 63,
                 "end": 95,
-                "abstract": false,
-                "body": {
-                  "type": "ClassBody",
-                  "start": 93,
-                  "end": 95,
-                  "body": []
-                },
-                "declare": false,
                 "decorators": [],
                 "id": {
                   "type": "Identifier",
@@ -78,6 +77,9 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
+                "typeParameters": null,
+                "superClass": null,
+                "superTypeArguments": null,
                 "implements": [
                   {
                     "type": "TSClassImplements",
@@ -95,32 +97,30 @@ __ESTREE_TEST__:PASS:
                     "typeArguments": null
                   }
                 ],
-                "superClass": null,
-                "superTypeArguments": null,
-                "typeParameters": null
+                "body": {
+                  "type": "ClassBody",
+                  "start": 93,
+                  "end": 95,
+                  "body": []
+                },
+                "abstract": false,
+                "declare": false
               },
-              "exportKind": "value",
+              "specifiers": [],
               "source": null,
-              "specifiers": []
+              "exportKind": "value",
+              "attributes": []
             }
           ]
         },
+        "kind": "module",
         "declare": false,
-        "global": false,
-        "id": {
-          "type": "Identifier",
-          "start": 42,
-          "end": 48,
-          "decorators": [],
-          "name": "Shapes",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "kind": "module"
+        "global": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

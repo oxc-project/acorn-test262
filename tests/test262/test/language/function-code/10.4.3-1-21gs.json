@@ -13,7 +13,6 @@
         "end": 336,
         "name": "f"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -33,7 +32,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "IfStatement",
@@ -90,7 +90,6 @@
               "start": 389,
               "end": 405,
               "operator": "typeof",
-              "prefix": true,
               "argument": {
                 "type": "ParenthesizedExpression",
                 "start": 396,
@@ -107,7 +106,8 @@
                   },
                   "arguments": []
                 }
-              }
+              },
+              "prefix": true
             },
             "operator": "===",
             "right": {

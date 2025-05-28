@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 358,
       "end": 408,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 401,
                 "name": "PlainMonthDay"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -59,13 +60,13 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 410,
       "end": 606,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -211,8 +212,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -223,6 +223,7 @@
         "type": "VariableDeclaration",
         "start": 613,
         "end": 637,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -249,8 +250,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -287,8 +287,8 @@
                   "end": 674,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -304,13 +304,13 @@
                       "start": 680,
                       "end": 690,
                       "operator": "typeof",
-                      "prefix": true,
                       "argument": {
                         "type": "Identifier",
                         "start": 687,
                         "end": 690,
                         "name": "arg"
-                      }
+                      },
+                      "prefix": true
                     },
                     "operator": "===",
                     "right": {
@@ -338,9 +338,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 734,
                   "end": 760,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -363,8 +361,8 @@
                         "end": 755,
                         "name": "equals"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -375,20 +373,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 766,
                   "end": 821,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 769,
-                      "end": 780,
-                      "name": "description"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -410,6 +402,14 @@
                       },
                       "tail": true
                     }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 769,
+                      "end": 780,
+                      "name": "description"
+                    }
                   ]
                 }
               ],
@@ -423,6 +423,7 @@
       "type": "VariableDeclaration",
       "start": 830,
       "end": 1049,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -507,8 +508,8 @@
                       "end": 928,
                       "name": "PlainMonthDay"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   {
                     "type": "Literal",
@@ -544,8 +545,8 @@
                         "end": 990,
                         "name": "PlainMonthDay"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -553,8 +554,8 @@
                       "end": 1000,
                       "name": "prototype"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   {
                     "type": "Literal",
@@ -568,8 +569,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -580,6 +580,7 @@
         "type": "VariableDeclaration",
         "start": 1056,
         "end": 1080,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -606,8 +607,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -644,8 +644,8 @@
                   "end": 1117,
                   "name": "throws"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -658,9 +658,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 1129,
                   "end": 1155,
-                  "id": null,
                   "expression": true,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -683,8 +681,8 @@
                         "end": 1150,
                         "name": "equals"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -695,20 +693,14 @@
                       }
                     ],
                     "optional": false
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "TemplateLiteral",
                   "start": 1157,
                   "end": 1234,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1160,
-                      "end": 1171,
-                      "name": "description"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -729,6 +721,14 @@
                         "cooked": " is not a valid property bag and does not convert to a string"
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1160,
+                      "end": 1171,
+                      "name": "description"
                     }
                   ]
                 }

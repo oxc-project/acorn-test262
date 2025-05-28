@@ -23,7 +23,6 @@
             "start": 387,
             "end": 1206,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -70,8 +69,8 @@
                         "end": 453,
                         "name": "NumberFormat"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   },
                   "consequent": {
@@ -86,6 +85,7 @@
                   "type": "VariableDeclaration",
                   "start": 476,
                   "end": 492,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -111,8 +111,7 @@
                       },
                       "init": null
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -182,8 +181,8 @@
                             "end": 609,
                             "name": "NumberFormat"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -191,8 +190,8 @@
                           "end": 614,
                           "name": "call"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -230,8 +229,8 @@
                         "end": 644,
                         "name": "notSameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -296,8 +295,8 @@
                             "end": 820,
                             "name": "Collator"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         }
                       },
                       "operator": "&&",
@@ -328,8 +327,8 @@
                             "end": 865,
                             "name": "NumberFormat"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         }
                       }
                     },
@@ -361,8 +360,8 @@
                           "end": 912,
                           "name": "DateTimeFormat"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     }
                   },
@@ -450,8 +449,8 @@
                             "end": 1064,
                             "name": "NumberFormat"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "property": {
                           "type": "Identifier",
@@ -459,8 +458,8 @@
                           "end": 1069,
                           "name": "call"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -498,8 +497,8 @@
                         "end": 1099,
                         "name": "notSameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -526,7 +525,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

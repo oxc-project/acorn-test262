@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1332,
       "end": 1674,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -215,8 +216,7 @@
             ]
           }
         }
-      ],
-      "kind": "const"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -227,6 +227,7 @@
         "type": "VariableDeclaration",
         "start": 1680,
         "end": 1707,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -253,8 +254,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "const"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -291,8 +291,8 @@
                   "end": 1754,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -323,8 +323,8 @@
                           "end": 1775,
                           "name": "Locale"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -343,9 +343,7 @@
                               "type": "Property",
                               "start": 1783,
                               "end": 1792,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 1783,
@@ -358,7 +356,9 @@
                                 "end": 1792,
                                 "name": "collation"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -370,8 +370,8 @@
                       "end": 1803,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
@@ -386,20 +386,6 @@
                   "type": "TemplateLiteral",
                   "start": 1825,
                   "end": 1910,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 1863,
-                      "end": 1872,
-                      "name": "collation"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 1899,
-                      "end": 1907,
-                      "name": "expected"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -431,6 +417,20 @@
                       },
                       "tail": true
                     }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 1863,
+                      "end": 1872,
+                      "name": "collation"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 1899,
+                      "end": 1907,
+                      "name": "expected"
+                    }
                   ]
                 }
               ],
@@ -461,8 +461,8 @@
                   "end": 1935,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -493,8 +493,8 @@
                           "end": 1956,
                           "name": "Locale"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -513,9 +513,7 @@
                               "type": "Property",
                               "start": 1977,
                               "end": 1986,
-                              "method": false,
-                              "shorthand": true,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 1977,
@@ -528,7 +526,9 @@
                                 "end": 1986,
                                 "name": "collation"
                               },
-                              "kind": "init"
+                              "method": false,
+                              "shorthand": true,
+                              "computed": false
                             }
                           ]
                         }
@@ -540,8 +540,8 @@
                       "end": 1997,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [],
                   "optional": false
@@ -556,20 +556,6 @@
                   "type": "TemplateLiteral",
                   "start": 2019,
                   "end": 2117,
-                  "expressions": [
-                    {
-                      "type": "Identifier",
-                      "start": 2070,
-                      "end": 2079,
-                      "name": "collation"
-                    },
-                    {
-                      "type": "Identifier",
-                      "start": 2106,
-                      "end": 2114,
-                      "name": "expected"
-                    }
-                  ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
@@ -600,6 +586,20 @@
                         "cooked": "\""
                       },
                       "tail": true
+                    }
+                  ],
+                  "expressions": [
+                    {
+                      "type": "Identifier",
+                      "start": 2070,
+                      "end": 2079,
+                      "name": "collation"
+                    },
+                    {
+                      "type": "Identifier",
+                      "start": 2106,
+                      "end": 2114,
+                      "name": "expected"
                     }
                   ]
                 }

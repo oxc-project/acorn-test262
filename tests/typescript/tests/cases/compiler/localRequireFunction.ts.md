@@ -9,7 +9,31 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 37,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 16,
+        "decorators": [],
+        "name": "require",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 17,
+          "end": 18,
+          "decorators": [],
+          "name": "a",
+          "optional": false,
+          "typeAnnotation": null
+        }
+      ],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 20,
@@ -31,42 +55,18 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 16,
-        "decorators": [],
-        "name": "require",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [
-        {
-          "type": "Identifier",
-          "start": 17,
-          "end": 18,
-          "decorators": [],
-          "name": "a",
-          "optional": false,
-          "typeAnnotation": null
-        }
-      ],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 39,
       "end": 64,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 45,
           "end": 63,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 45,
@@ -80,15 +80,6 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 50,
             "end": 63,
-            "arguments": [
-              {
-                "type": "Literal",
-                "start": 58,
-                "end": 62,
-                "raw": "\"fs\"",
-                "value": "fs"
-              }
-            ],
             "callee": {
               "type": "Identifier",
               "start": 50,
@@ -98,24 +89,33 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 58,
+                "end": 62,
+                "value": "fs",
+                "raw": "\"fs\""
+              }
+            ],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 65,
       "end": 104,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 71,
           "end": 103,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 71,
@@ -129,20 +129,10 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 78,
             "end": 103,
-            "arguments": [
-              {
-                "type": "Literal",
-                "start": 94,
-                "end": 102,
-                "raw": "\"/a/b/c\"",
-                "value": "/a/b/c"
-              }
-            ],
             "callee": {
               "type": "MemberExpression",
               "start": 78,
               "end": 93,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 78,
@@ -152,7 +142,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 81,
@@ -161,15 +150,26 @@ __ESTREE_TEST__:PASS:
                 "name": "readFileSync",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 94,
+                "end": 102,
+                "value": "/a/b/c",
+                "raw": "\"/a/b/c\""
+              }
+            ],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "script",

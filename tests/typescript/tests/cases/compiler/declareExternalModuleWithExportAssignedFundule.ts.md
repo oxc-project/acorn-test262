@@ -9,7 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 362,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 24,
+        "value": "express",
+        "raw": "\"express\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 25,
@@ -33,11 +39,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSDeclareFunction",
             "start": 55,
             "end": 97,
-            "async": false,
-            "body": null,
-            "declare": false,
-            "expression": false,
-            "generator": false,
             "id": {
               "type": "Identifier",
               "start": 64,
@@ -47,6 +48,10 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
+            "generator": false,
+            "async": false,
+            "declare": false,
+            "typeParameters": null,
             "params": [],
             "returnType": {
               "type": "TSTypeAnnotation",
@@ -56,7 +61,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 75,
                 "end": 96,
-                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 75,
@@ -79,15 +83,26 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   }
-                }
+                },
+                "typeArguments": null
               }
             },
-            "typeParameters": null
+            "body": null,
+            "expression": false
           },
           {
             "type": "TSModuleDeclaration",
             "start": 103,
             "end": 359,
+            "id": {
+              "type": "Identifier",
+              "start": 110,
+              "end": 117,
+              "decorators": [],
+              "name": "express",
+              "optional": false,
+              "typeAnnotation": null
+            },
             "body": {
               "type": "TSModuleBlock",
               "start": 118,
@@ -97,11 +112,21 @@ __ESTREE_TEST__:PASS:
                   "type": "ExportNamedDeclaration",
                   "start": 129,
                   "end": 296,
-                  "attributes": [],
                   "declaration": {
                     "type": "TSInterfaceDeclaration",
                     "start": 136,
                     "end": 296,
+                    "id": {
+                      "type": "Identifier",
+                      "start": 146,
+                      "end": 159,
+                      "decorators": [],
+                      "name": "ExpressServer",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeParameters": null,
+                    "extends": [],
                     "body": {
                       "type": "TSInterfaceBody",
                       "start": 160,
@@ -111,8 +136,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSMethodSignature",
                           "start": 175,
                           "end": 211,
-                          "accessibility": null,
-                          "computed": false,
                           "key": {
                             "type": "Identifier",
                             "start": 175,
@@ -122,8 +145,10 @@ __ESTREE_TEST__:PASS:
                             "optional": false,
                             "typeAnnotation": null
                           },
-                          "kind": "method",
+                          "computed": false,
                           "optional": false,
+                          "kind": "method",
+                          "typeParameters": null,
                           "params": [
                             {
                               "type": "Identifier",
@@ -144,7 +169,6 @@ __ESTREE_TEST__:PASS:
                               }
                             }
                           ],
-                          "readonly": false,
                           "returnType": {
                             "type": "TSTypeAnnotation",
                             "start": 195,
@@ -153,7 +177,6 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 197,
                               "end": 210,
-                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 197,
@@ -162,18 +185,18 @@ __ESTREE_TEST__:PASS:
                                 "name": "ExpressServer",
                                 "optional": false,
                                 "typeAnnotation": null
-                              }
+                              },
+                              "typeArguments": null
                             }
                           },
-                          "static": false,
-                          "typeParameters": null
+                          "accessibility": null,
+                          "readonly": false,
+                          "static": false
                         },
                         {
                           "type": "TSMethodSignature",
                           "start": 225,
                           "end": 285,
-                          "accessibility": null,
-                          "computed": false,
                           "key": {
                             "type": "Identifier",
                             "start": 225,
@@ -183,8 +206,10 @@ __ESTREE_TEST__:PASS:
                             "optional": false,
                             "typeAnnotation": null
                           },
-                          "kind": "method",
+                          "computed": false,
                           "optional": false,
+                          "kind": "method",
+                          "typeParameters": null,
                           "params": [
                             {
                               "type": "Identifier",
@@ -201,7 +226,6 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 236,
                                   "end": 242,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 236,
@@ -210,7 +234,8 @@ __ESTREE_TEST__:PASS:
                                     "name": "RegExp",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 }
                               }
                             },
@@ -229,6 +254,7 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSFunctionType",
                                   "start": 253,
                                   "end": 276,
+                                  "typeParameters": null,
                                   "params": [
                                     {
                                       "type": "Identifier",
@@ -245,7 +271,6 @@ __ESTREE_TEST__:PASS:
                                           "type": "TSTypeReference",
                                           "start": 259,
                                           "end": 267,
-                                          "typeArguments": null,
                                           "typeName": {
                                             "type": "Identifier",
                                             "start": 259,
@@ -254,7 +279,8 @@ __ESTREE_TEST__:PASS:
                                             "name": "Function",
                                             "optional": false,
                                             "typeAnnotation": null
-                                          }
+                                          },
+                                          "typeArguments": null
                                         }
                                       }
                                     }
@@ -268,13 +294,11 @@ __ESTREE_TEST__:PASS:
                                       "start": 272,
                                       "end": 276
                                     }
-                                  },
-                                  "typeParameters": null
+                                  }
                                 }
                               }
                             }
                           ],
-                          "readonly": false,
                           "returnType": {
                             "type": "TSTypeAnnotation",
                             "start": 278,
@@ -285,45 +309,27 @@ __ESTREE_TEST__:PASS:
                               "end": 284
                             }
                           },
-                          "static": false,
-                          "typeParameters": null
+                          "accessibility": null,
+                          "readonly": false,
+                          "static": false
                         }
                       ]
                     },
-                    "declare": false,
-                    "extends": [],
-                    "id": {
-                      "type": "Identifier",
-                      "start": 146,
-                      "end": 159,
-                      "decorators": [],
-                      "name": "ExpressServer",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "typeParameters": null
+                    "declare": false
                   },
-                  "exportKind": "type",
+                  "specifiers": [],
                   "source": null,
-                  "specifiers": []
+                  "exportKind": "type",
+                  "attributes": []
                 },
                 {
                   "type": "ExportNamedDeclaration",
                   "start": 306,
                   "end": 352,
-                  "attributes": [],
                   "declaration": {
                     "type": "ClassDeclaration",
                     "start": 313,
                     "end": 352,
-                    "abstract": false,
-                    "body": {
-                      "type": "ClassBody",
-                      "start": 340,
-                      "end": 352,
-                      "body": []
-                    },
-                    "declare": false,
                     "decorators": [],
                     "id": {
                       "type": "Identifier",
@@ -334,41 +340,35 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "implements": [],
+                    "typeParameters": null,
                     "superClass": null,
                     "superTypeArguments": null,
-                    "typeParameters": null
+                    "implements": [],
+                    "body": {
+                      "type": "ClassBody",
+                      "start": 340,
+                      "end": 352,
+                      "body": []
+                    },
+                    "abstract": false,
+                    "declare": false
                   },
-                  "exportKind": "value",
+                  "specifiers": [],
                   "source": null,
-                  "specifiers": []
+                  "exportKind": "value",
+                  "attributes": []
                 }
               ]
             },
+            "kind": "module",
             "declare": false,
-            "global": false,
-            "id": {
-              "type": "Identifier",
-              "start": 110,
-              "end": 117,
-              "decorators": [],
-              "name": "express",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "kind": "module"
+            "global": false
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 24,
-        "raw": "\"express\"",
-        "value": "express"
-      }
+      "global": false
     }
   ],
   "sourceType": "script",

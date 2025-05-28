@@ -13,7 +13,6 @@
         "end": 11,
         "name": "it"
       },
-      "expression": false,
       "generator": true,
       "async": false,
       "params": [],
@@ -39,15 +38,16 @@
                   "type": "JSXOpeningElement",
                   "start": 20,
                   "end": 23,
-                  "attributes": [],
                   "name": {
                     "type": "JSXIdentifier",
                     "start": 21,
                     "end": 22,
                     "name": "a"
                   },
+                  "attributes": [],
                   "selfClosing": false
                 },
+                "children": [],
                 "closingElement": {
                   "type": "JSXClosingElement",
                   "start": 23,
@@ -58,13 +58,13 @@
                     "end": 26,
                     "name": "a"
                   }
-                },
-                "children": []
+                }
               }
             }
           }
         ]
-      }
+      },
+      "expression": false
     }
   ],
   "sourceType": "module",

@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 11,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 10,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,13 +28,13 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 8,
             "end": 10,
-            "raw": "10",
-            "value": 10
-          }
+            "value": 10,
+            "raw": "10"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "TSExportAssignment",
@@ -66,14 +66,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 59,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 18,
-        "end": 58,
-        "raw": "\"./es6ImportNamedImportNoNamedExports_0\"",
-        "value": "./es6ImportNamedImportNoNamedExports_0"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -88,7 +80,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
@@ -97,24 +88,25 @@ __ESTREE_TEST__:PASS:
             "name": "a",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 18,
+        "end": 58,
+        "value": "./es6ImportNamedImportNoNamedExports_0",
+        "raw": "\"./es6ImportNamedImportNoNamedExports_0\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 60,
       "end": 124,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 83,
-        "end": 123,
-        "raw": "\"./es6ImportNamedImportNoNamedExports_0\"",
-        "value": "./es6ImportNamedImportNoNamedExports_0"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -129,7 +121,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 74,
@@ -138,11 +129,20 @@ __ESTREE_TEST__:PASS:
             "name": "x",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 83,
+        "end": 123,
+        "value": "./es6ImportNamedImportNoNamedExports_0",
+        "raw": "\"./es6ImportNamedImportNoNamedExports_0\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

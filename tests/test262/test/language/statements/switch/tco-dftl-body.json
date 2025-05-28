@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 363,
       "end": 381,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -51,7 +51,6 @@
               "end": 393,
               "name": "f"
             },
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -145,6 +144,7 @@
                       "type": "SwitchCase",
                       "start": 465,
                       "end": 490,
+                      "test": null,
                       "consequent": [
                         {
                           "type": "ReturnStatement",
@@ -184,13 +184,13 @@
                             "optional": false
                           }
                         }
-                      ],
-                      "test": null
+                      ]
                     }
                   ]
                 }
               ]
-            }
+            },
+            "expression": false
           },
           "arguments": [
             {
@@ -228,8 +228,8 @@
             "end": 530,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

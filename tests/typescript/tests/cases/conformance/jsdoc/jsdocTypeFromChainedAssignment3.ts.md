@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 1927,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 0,
@@ -19,7 +18,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 0,
           "end": 16,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 0,
@@ -29,7 +27,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 8,
@@ -38,7 +35,9 @@ __ESTREE_TEST__:PASS:
             "name": "wrapSync",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "AssignmentExpression",
@@ -49,7 +48,6 @@ __ESTREE_TEST__:PASS:
             "type": "MemberExpression",
             "start": 19,
             "end": 39,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 19,
@@ -59,7 +57,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 27,
@@ -68,7 +65,9 @@ __ESTREE_TEST__:PASS:
               "name": "selectSeries",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "optional": false,
+            "computed": false
           },
           "right": {
             "type": "AssignmentExpression",
@@ -79,7 +78,6 @@ __ESTREE_TEST__:PASS:
               "type": "MemberExpression",
               "start": 42,
               "end": 61,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 42,
@@ -89,7 +87,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 50,
@@ -98,7 +95,9 @@ __ESTREE_TEST__:PASS:
                 "name": "selectLimit",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             },
             "right": {
               "type": "AssignmentExpression",
@@ -109,7 +108,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 64,
                 "end": 78,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 64,
@@ -119,7 +117,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 72,
@@ -128,7 +125,9 @@ __ESTREE_TEST__:PASS:
                   "name": "select",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "AssignmentExpression",
@@ -139,7 +138,6 @@ __ESTREE_TEST__:PASS:
                   "type": "MemberExpression",
                   "start": 81,
                   "end": 94,
-                  "computed": false,
                   "object": {
                     "type": "Identifier",
                     "start": 81,
@@ -149,7 +147,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 89,
@@ -158,7 +155,9 @@ __ESTREE_TEST__:PASS:
                     "name": "foldr",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "optional": false,
+                  "computed": false
                 },
                 "right": {
                   "type": "AssignmentExpression",
@@ -169,7 +168,6 @@ __ESTREE_TEST__:PASS:
                     "type": "MemberExpression",
                     "start": 97,
                     "end": 110,
-                    "computed": false,
                     "object": {
                       "type": "Identifier",
                       "start": 97,
@@ -179,7 +177,6 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "optional": false,
                     "property": {
                       "type": "Identifier",
                       "start": 105,
@@ -188,7 +185,9 @@ __ESTREE_TEST__:PASS:
                       "name": "foldl",
                       "optional": false,
                       "typeAnnotation": null
-                    }
+                    },
+                    "optional": false,
+                    "computed": false
                   },
                   "right": {
                     "type": "AssignmentExpression",
@@ -199,7 +198,6 @@ __ESTREE_TEST__:PASS:
                       "type": "MemberExpression",
                       "start": 113,
                       "end": 127,
-                      "computed": false,
                       "object": {
                         "type": "Identifier",
                         "start": 113,
@@ -209,7 +207,6 @@ __ESTREE_TEST__:PASS:
                         "optional": false,
                         "typeAnnotation": null
                       },
-                      "optional": false,
                       "property": {
                         "type": "Identifier",
                         "start": 121,
@@ -218,7 +215,9 @@ __ESTREE_TEST__:PASS:
                         "name": "inject",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "optional": false,
+                      "computed": false
                     },
                     "right": {
                       "type": "AssignmentExpression",
@@ -229,7 +228,6 @@ __ESTREE_TEST__:PASS:
                         "type": "MemberExpression",
                         "start": 130,
                         "end": 152,
-                        "computed": false,
                         "object": {
                           "type": "Identifier",
                           "start": 130,
@@ -239,7 +237,6 @@ __ESTREE_TEST__:PASS:
                           "optional": false,
                           "typeAnnotation": null
                         },
-                        "optional": false,
                         "property": {
                           "type": "Identifier",
                           "start": 138,
@@ -248,7 +245,9 @@ __ESTREE_TEST__:PASS:
                           "name": "forEachOfLimit",
                           "optional": false,
                           "typeAnnotation": null
-                        }
+                        },
+                        "optional": false,
+                        "computed": false
                       },
                       "right": {
                         "type": "AssignmentExpression",
@@ -259,7 +258,6 @@ __ESTREE_TEST__:PASS:
                           "type": "MemberExpression",
                           "start": 155,
                           "end": 178,
-                          "computed": false,
                           "object": {
                             "type": "Identifier",
                             "start": 155,
@@ -269,7 +267,6 @@ __ESTREE_TEST__:PASS:
                             "optional": false,
                             "typeAnnotation": null
                           },
-                          "optional": false,
                           "property": {
                             "type": "Identifier",
                             "start": 163,
@@ -278,7 +275,9 @@ __ESTREE_TEST__:PASS:
                             "name": "forEachOfSeries",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "optional": false,
+                          "computed": false
                         },
                         "right": {
                           "type": "AssignmentExpression",
@@ -289,7 +288,6 @@ __ESTREE_TEST__:PASS:
                             "type": "MemberExpression",
                             "start": 181,
                             "end": 198,
-                            "computed": false,
                             "object": {
                               "type": "Identifier",
                               "start": 181,
@@ -299,7 +297,6 @@ __ESTREE_TEST__:PASS:
                               "optional": false,
                               "typeAnnotation": null
                             },
-                            "optional": false,
                             "property": {
                               "type": "Identifier",
                               "start": 189,
@@ -308,7 +305,9 @@ __ESTREE_TEST__:PASS:
                               "name": "forEachOf",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "optional": false,
+                            "computed": false
                           },
                           "right": {
                             "type": "AssignmentExpression",
@@ -319,7 +318,6 @@ __ESTREE_TEST__:PASS:
                               "type": "MemberExpression",
                               "start": 201,
                               "end": 221,
-                              "computed": false,
                               "object": {
                                 "type": "Identifier",
                                 "start": 201,
@@ -329,7 +327,6 @@ __ESTREE_TEST__:PASS:
                                 "optional": false,
                                 "typeAnnotation": null
                               },
-                              "optional": false,
                               "property": {
                                 "type": "Identifier",
                                 "start": 209,
@@ -338,7 +335,9 @@ __ESTREE_TEST__:PASS:
                                 "name": "forEachLimit",
                                 "optional": false,
                                 "typeAnnotation": null
-                              }
+                              },
+                              "optional": false,
+                              "computed": false
                             },
                             "right": {
                               "type": "AssignmentExpression",
@@ -349,7 +348,6 @@ __ESTREE_TEST__:PASS:
                                 "type": "MemberExpression",
                                 "start": 224,
                                 "end": 245,
-                                "computed": false,
                                 "object": {
                                   "type": "Identifier",
                                   "start": 224,
@@ -359,7 +357,6 @@ __ESTREE_TEST__:PASS:
                                   "optional": false,
                                   "typeAnnotation": null
                                 },
-                                "optional": false,
                                 "property": {
                                   "type": "Identifier",
                                   "start": 232,
@@ -368,7 +365,9 @@ __ESTREE_TEST__:PASS:
                                   "name": "forEachSeries",
                                   "optional": false,
                                   "typeAnnotation": null
-                                }
+                                },
+                                "optional": false,
+                                "computed": false
                               },
                               "right": {
                                 "type": "AssignmentExpression",
@@ -379,7 +378,6 @@ __ESTREE_TEST__:PASS:
                                   "type": "MemberExpression",
                                   "start": 248,
                                   "end": 263,
-                                  "computed": false,
                                   "object": {
                                     "type": "Identifier",
                                     "start": 248,
@@ -389,7 +387,6 @@ __ESTREE_TEST__:PASS:
                                     "optional": false,
                                     "typeAnnotation": null
                                   },
-                                  "optional": false,
                                   "property": {
                                     "type": "Identifier",
                                     "start": 256,
@@ -398,7 +395,9 @@ __ESTREE_TEST__:PASS:
                                     "name": "forEach",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "optional": false,
+                                  "computed": false
                                 },
                                 "right": {
                                   "type": "AssignmentExpression",
@@ -409,7 +408,6 @@ __ESTREE_TEST__:PASS:
                                     "type": "MemberExpression",
                                     "start": 266,
                                     "end": 284,
-                                    "computed": false,
                                     "object": {
                                       "type": "Identifier",
                                       "start": 266,
@@ -419,7 +417,6 @@ __ESTREE_TEST__:PASS:
                                       "optional": false,
                                       "typeAnnotation": null
                                     },
-                                    "optional": false,
                                     "property": {
                                       "type": "Identifier",
                                       "start": 274,
@@ -428,7 +425,9 @@ __ESTREE_TEST__:PASS:
                                       "name": "findSeries",
                                       "optional": false,
                                       "typeAnnotation": null
-                                    }
+                                    },
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   "right": {
                                     "type": "AssignmentExpression",
@@ -439,7 +438,6 @@ __ESTREE_TEST__:PASS:
                                       "type": "MemberExpression",
                                       "start": 287,
                                       "end": 304,
-                                      "computed": false,
                                       "object": {
                                         "type": "Identifier",
                                         "start": 287,
@@ -449,7 +447,6 @@ __ESTREE_TEST__:PASS:
                                         "optional": false,
                                         "typeAnnotation": null
                                       },
-                                      "optional": false,
                                       "property": {
                                         "type": "Identifier",
                                         "start": 295,
@@ -458,7 +455,9 @@ __ESTREE_TEST__:PASS:
                                         "name": "findLimit",
                                         "optional": false,
                                         "typeAnnotation": null
-                                      }
+                                      },
+                                      "optional": false,
+                                      "computed": false
                                     },
                                     "right": {
                                       "type": "AssignmentExpression",
@@ -469,7 +468,6 @@ __ESTREE_TEST__:PASS:
                                         "type": "MemberExpression",
                                         "start": 307,
                                         "end": 319,
-                                        "computed": false,
                                         "object": {
                                           "type": "Identifier",
                                           "start": 307,
@@ -479,7 +477,6 @@ __ESTREE_TEST__:PASS:
                                           "optional": false,
                                           "typeAnnotation": null
                                         },
-                                        "optional": false,
                                         "property": {
                                           "type": "Identifier",
                                           "start": 315,
@@ -488,7 +485,9 @@ __ESTREE_TEST__:PASS:
                                           "name": "find",
                                           "optional": false,
                                           "typeAnnotation": null
-                                        }
+                                        },
+                                        "optional": false,
+                                        "computed": false
                                       },
                                       "right": {
                                         "type": "AssignmentExpression",
@@ -499,7 +498,6 @@ __ESTREE_TEST__:PASS:
                                           "type": "MemberExpression",
                                           "start": 322,
                                           "end": 339,
-                                          "computed": false,
                                           "object": {
                                             "type": "Identifier",
                                             "start": 322,
@@ -509,7 +507,6 @@ __ESTREE_TEST__:PASS:
                                             "optional": false,
                                             "typeAnnotation": null
                                           },
-                                          "optional": false,
                                           "property": {
                                             "type": "Identifier",
                                             "start": 330,
@@ -518,7 +515,9 @@ __ESTREE_TEST__:PASS:
                                             "name": "anySeries",
                                             "optional": false,
                                             "typeAnnotation": null
-                                          }
+                                          },
+                                          "optional": false,
+                                          "computed": false
                                         },
                                         "right": {
                                           "type": "AssignmentExpression",
@@ -529,7 +528,6 @@ __ESTREE_TEST__:PASS:
                                             "type": "MemberExpression",
                                             "start": 342,
                                             "end": 358,
-                                            "computed": false,
                                             "object": {
                                               "type": "Identifier",
                                               "start": 342,
@@ -539,7 +537,6 @@ __ESTREE_TEST__:PASS:
                                               "optional": false,
                                               "typeAnnotation": null
                                             },
-                                            "optional": false,
                                             "property": {
                                               "type": "Identifier",
                                               "start": 350,
@@ -548,7 +545,9 @@ __ESTREE_TEST__:PASS:
                                               "name": "anyLimit",
                                               "optional": false,
                                               "typeAnnotation": null
-                                            }
+                                            },
+                                            "optional": false,
+                                            "computed": false
                                           },
                                           "right": {
                                             "type": "AssignmentExpression",
@@ -559,7 +558,6 @@ __ESTREE_TEST__:PASS:
                                               "type": "MemberExpression",
                                               "start": 361,
                                               "end": 372,
-                                              "computed": false,
                                               "object": {
                                                 "type": "Identifier",
                                                 "start": 361,
@@ -569,7 +567,6 @@ __ESTREE_TEST__:PASS:
                                                 "optional": false,
                                                 "typeAnnotation": null
                                               },
-                                              "optional": false,
                                               "property": {
                                                 "type": "Identifier",
                                                 "start": 369,
@@ -578,7 +575,9 @@ __ESTREE_TEST__:PASS:
                                                 "name": "any",
                                                 "optional": false,
                                                 "typeAnnotation": null
-                                              }
+                                              },
+                                              "optional": false,
+                                              "computed": false
                                             },
                                             "right": {
                                               "type": "AssignmentExpression",
@@ -589,7 +588,6 @@ __ESTREE_TEST__:PASS:
                                                 "type": "MemberExpression",
                                                 "start": 375,
                                                 "end": 392,
-                                                "computed": false,
                                                 "object": {
                                                   "type": "Identifier",
                                                   "start": 375,
@@ -599,7 +597,6 @@ __ESTREE_TEST__:PASS:
                                                   "optional": false,
                                                   "typeAnnotation": null
                                                 },
-                                                "optional": false,
                                                 "property": {
                                                   "type": "Identifier",
                                                   "start": 383,
@@ -608,7 +605,9 @@ __ESTREE_TEST__:PASS:
                                                   "name": "allSeries",
                                                   "optional": false,
                                                   "typeAnnotation": null
-                                                }
+                                                },
+                                                "optional": false,
+                                                "computed": false
                                               },
                                               "right": {
                                                 "type": "AssignmentExpression",
@@ -619,7 +618,6 @@ __ESTREE_TEST__:PASS:
                                                   "type": "MemberExpression",
                                                   "start": 395,
                                                   "end": 411,
-                                                  "computed": false,
                                                   "object": {
                                                     "type": "Identifier",
                                                     "start": 395,
@@ -629,7 +627,6 @@ __ESTREE_TEST__:PASS:
                                                     "optional": false,
                                                     "typeAnnotation": null
                                                   },
-                                                  "optional": false,
                                                   "property": {
                                                     "type": "Identifier",
                                                     "start": 403,
@@ -638,7 +635,9 @@ __ESTREE_TEST__:PASS:
                                                     "name": "allLimit",
                                                     "optional": false,
                                                     "typeAnnotation": null
-                                                  }
+                                                  },
+                                                  "optional": false,
+                                                  "computed": false
                                                 },
                                                 "right": {
                                                   "type": "AssignmentExpression",
@@ -649,7 +648,6 @@ __ESTREE_TEST__:PASS:
                                                     "type": "MemberExpression",
                                                     "start": 414,
                                                     "end": 425,
-                                                    "computed": false,
                                                     "object": {
                                                       "type": "Identifier",
                                                       "start": 414,
@@ -659,7 +657,6 @@ __ESTREE_TEST__:PASS:
                                                       "optional": false,
                                                       "typeAnnotation": null
                                                     },
-                                                    "optional": false,
                                                     "property": {
                                                       "type": "Identifier",
                                                       "start": 422,
@@ -668,7 +665,9 @@ __ESTREE_TEST__:PASS:
                                                       "name": "all",
                                                       "optional": false,
                                                       "typeAnnotation": null
-                                                    }
+                                                    },
+                                                    "optional": false,
+                                                    "computed": false
                                                   },
                                                   "right": {
                                                     "type": "AssignmentExpression",
@@ -679,7 +678,6 @@ __ESTREE_TEST__:PASS:
                                                       "type": "MemberExpression",
                                                       "start": 428,
                                                       "end": 442,
-                                                      "computed": false,
                                                       "object": {
                                                         "type": "Identifier",
                                                         "start": 428,
@@ -689,7 +687,6 @@ __ESTREE_TEST__:PASS:
                                                         "optional": false,
                                                         "typeAnnotation": null
                                                       },
-                                                      "optional": false,
                                                       "property": {
                                                         "type": "Identifier",
                                                         "start": 436,
@@ -698,7 +695,9 @@ __ESTREE_TEST__:PASS:
                                                         "name": "whilst",
                                                         "optional": false,
                                                         "typeAnnotation": null
-                                                      }
+                                                      },
+                                                      "optional": false,
+                                                      "computed": false
                                                     },
                                                     "right": {
                                                       "type": "AssignmentExpression",
@@ -709,7 +708,6 @@ __ESTREE_TEST__:PASS:
                                                         "type": "MemberExpression",
                                                         "start": 445,
                                                         "end": 462,
-                                                        "computed": false,
                                                         "object": {
                                                           "type": "Identifier",
                                                           "start": 445,
@@ -719,7 +717,6 @@ __ESTREE_TEST__:PASS:
                                                           "optional": false,
                                                           "typeAnnotation": null
                                                         },
-                                                        "optional": false,
                                                         "property": {
                                                           "type": "Identifier",
                                                           "start": 453,
@@ -728,7 +725,9 @@ __ESTREE_TEST__:PASS:
                                                           "name": "waterfall",
                                                           "optional": false,
                                                           "typeAnnotation": null
-                                                        }
+                                                        },
+                                                        "optional": false,
+                                                        "computed": false
                                                       },
                                                       "right": {
                                                         "type": "AssignmentExpression",
@@ -739,7 +738,6 @@ __ESTREE_TEST__:PASS:
                                                           "type": "MemberExpression",
                                                           "start": 465,
                                                           "end": 478,
-                                                          "computed": false,
                                                           "object": {
                                                             "type": "Identifier",
                                                             "start": 465,
@@ -749,7 +747,6 @@ __ESTREE_TEST__:PASS:
                                                             "optional": false,
                                                             "typeAnnotation": null
                                                           },
-                                                          "optional": false,
                                                           "property": {
                                                             "type": "Identifier",
                                                             "start": 473,
@@ -758,7 +755,9 @@ __ESTREE_TEST__:PASS:
                                                             "name": "until",
                                                             "optional": false,
                                                             "typeAnnotation": null
-                                                          }
+                                                          },
+                                                          "optional": false,
+                                                          "computed": false
                                                         },
                                                         "right": {
                                                           "type": "AssignmentExpression",
@@ -769,7 +768,6 @@ __ESTREE_TEST__:PASS:
                                                             "type": "MemberExpression",
                                                             "start": 481,
                                                             "end": 498,
-                                                            "computed": false,
                                                             "object": {
                                                               "type": "Identifier",
                                                               "start": 481,
@@ -779,7 +777,6 @@ __ESTREE_TEST__:PASS:
                                                               "optional": false,
                                                               "typeAnnotation": null
                                                             },
-                                                            "optional": false,
                                                             "property": {
                                                               "type": "Identifier",
                                                               "start": 489,
@@ -788,7 +785,9 @@ __ESTREE_TEST__:PASS:
                                                               "name": "unmemoize",
                                                               "optional": false,
                                                               "typeAnnotation": null
-                                                            }
+                                                            },
+                                                            "optional": false,
+                                                            "computed": false
                                                           },
                                                           "right": {
                                                             "type": "AssignmentExpression",
@@ -799,7 +798,6 @@ __ESTREE_TEST__:PASS:
                                                               "type": "MemberExpression",
                                                               "start": 501,
                                                               "end": 516,
-                                                              "computed": false,
                                                               "object": {
                                                                 "type": "Identifier",
                                                                 "start": 501,
@@ -809,7 +807,6 @@ __ESTREE_TEST__:PASS:
                                                                 "optional": false,
                                                                 "typeAnnotation": null
                                                               },
-                                                              "optional": false,
                                                               "property": {
                                                                 "type": "Identifier",
                                                                 "start": 509,
@@ -818,7 +815,9 @@ __ESTREE_TEST__:PASS:
                                                                 "name": "tryEach",
                                                                 "optional": false,
                                                                 "typeAnnotation": null
-                                                              }
+                                                              },
+                                                              "optional": false,
+                                                              "computed": false
                                                             },
                                                             "right": {
                                                               "type": "AssignmentExpression",
@@ -829,7 +828,6 @@ __ESTREE_TEST__:PASS:
                                                                 "type": "MemberExpression",
                                                                 "start": 519,
                                                                 "end": 536,
-                                                                "computed": false,
                                                                 "object": {
                                                                   "type": "Identifier",
                                                                   "start": 519,
@@ -839,7 +837,6 @@ __ESTREE_TEST__:PASS:
                                                                   "optional": false,
                                                                   "typeAnnotation": null
                                                                 },
-                                                                "optional": false,
                                                                 "property": {
                                                                   "type": "Identifier",
                                                                   "start": 527,
@@ -848,7 +845,9 @@ __ESTREE_TEST__:PASS:
                                                                   "name": "transform",
                                                                   "optional": false,
                                                                   "typeAnnotation": null
-                                                                }
+                                                                },
+                                                                "optional": false,
+                                                                "computed": false
                                                               },
                                                               "right": {
                                                                 "type": "AssignmentExpression",
@@ -859,7 +858,6 @@ __ESTREE_TEST__:PASS:
                                                                   "type": "MemberExpression",
                                                                   "start": 539,
                                                                   "end": 558,
-                                                                  "computed": false,
                                                                   "object": {
                                                                     "type": "Identifier",
                                                                     "start": 539,
@@ -869,7 +867,6 @@ __ESTREE_TEST__:PASS:
                                                                     "optional": false,
                                                                     "typeAnnotation": null
                                                                   },
-                                                                  "optional": false,
                                                                   "property": {
                                                                     "type": "Identifier",
                                                                     "start": 547,
@@ -878,7 +875,9 @@ __ESTREE_TEST__:PASS:
                                                                     "name": "timesSeries",
                                                                     "optional": false,
                                                                     "typeAnnotation": null
-                                                                  }
+                                                                  },
+                                                                  "optional": false,
+                                                                  "computed": false
                                                                 },
                                                                 "right": {
                                                                   "type": "AssignmentExpression",
@@ -889,7 +888,6 @@ __ESTREE_TEST__:PASS:
                                                                     "type": "MemberExpression",
                                                                     "start": 561,
                                                                     "end": 579,
-                                                                    "computed": false,
                                                                     "object": {
                                                                       "type": "Identifier",
                                                                       "start": 561,
@@ -899,7 +897,6 @@ __ESTREE_TEST__:PASS:
                                                                       "optional": false,
                                                                       "typeAnnotation": null
                                                                     },
-                                                                    "optional": false,
                                                                     "property": {
                                                                       "type": "Identifier",
                                                                       "start": 569,
@@ -908,7 +905,9 @@ __ESTREE_TEST__:PASS:
                                                                       "name": "timesLimit",
                                                                       "optional": false,
                                                                       "typeAnnotation": null
-                                                                    }
+                                                                    },
+                                                                    "optional": false,
+                                                                    "computed": false
                                                                   },
                                                                   "right": {
                                                                     "type": "AssignmentExpression",
@@ -919,7 +918,6 @@ __ESTREE_TEST__:PASS:
                                                                       "type": "MemberExpression",
                                                                       "start": 582,
                                                                       "end": 595,
-                                                                      "computed": false,
                                                                       "object": {
                                                                         "type": "Identifier",
                                                                         "start": 582,
@@ -929,7 +927,6 @@ __ESTREE_TEST__:PASS:
                                                                         "optional": false,
                                                                         "typeAnnotation": null
                                                                       },
-                                                                      "optional": false,
                                                                       "property": {
                                                                         "type": "Identifier",
                                                                         "start": 590,
@@ -938,7 +935,9 @@ __ESTREE_TEST__:PASS:
                                                                         "name": "times",
                                                                         "optional": false,
                                                                         "typeAnnotation": null
-                                                                      }
+                                                                      },
+                                                                      "optional": false,
+                                                                      "computed": false
                                                                     },
                                                                     "right": {
                                                                       "type": "AssignmentExpression",
@@ -949,7 +948,6 @@ __ESTREE_TEST__:PASS:
                                                                         "type": "MemberExpression",
                                                                         "start": 598,
                                                                         "end": 613,
-                                                                        "computed": false,
                                                                         "object": {
                                                                           "type": "Identifier",
                                                                           "start": 598,
@@ -959,7 +957,6 @@ __ESTREE_TEST__:PASS:
                                                                           "optional": false,
                                                                           "typeAnnotation": null
                                                                         },
-                                                                        "optional": false,
                                                                         "property": {
                                                                           "type": "Identifier",
                                                                           "start": 606,
@@ -968,7 +965,9 @@ __ESTREE_TEST__:PASS:
                                                                           "name": "timeout",
                                                                           "optional": false,
                                                                           "typeAnnotation": null
-                                                                        }
+                                                                        },
+                                                                        "optional": false,
+                                                                        "computed": false
                                                                       },
                                                                       "right": {
                                                                         "type": "AssignmentExpression",
@@ -979,7 +978,6 @@ __ESTREE_TEST__:PASS:
                                                                           "type": "MemberExpression",
                                                                           "start": 616,
                                                                           "end": 630,
-                                                                          "computed": false,
                                                                           "object": {
                                                                             "type": "Identifier",
                                                                             "start": 616,
@@ -989,7 +987,6 @@ __ESTREE_TEST__:PASS:
                                                                             "optional": false,
                                                                             "typeAnnotation": null
                                                                           },
-                                                                          "optional": false,
                                                                           "property": {
                                                                             "type": "Identifier",
                                                                             "start": 624,
@@ -998,7 +995,9 @@ __ESTREE_TEST__:PASS:
                                                                             "name": "sortBy",
                                                                             "optional": false,
                                                                             "typeAnnotation": null
-                                                                          }
+                                                                          },
+                                                                          "optional": false,
+                                                                          "computed": false
                                                                         },
                                                                         "right": {
                                                                           "type": "AssignmentExpression",
@@ -1009,7 +1008,6 @@ __ESTREE_TEST__:PASS:
                                                                             "type": "MemberExpression",
                                                                             "start": 633,
                                                                             "end": 651,
-                                                                            "computed": false,
                                                                             "object": {
                                                                               "type": "Identifier",
                                                                               "start": 633,
@@ -1019,7 +1017,6 @@ __ESTREE_TEST__:PASS:
                                                                               "optional": false,
                                                                               "typeAnnotation": null
                                                                             },
-                                                                            "optional": false,
                                                                             "property": {
                                                                               "type": "Identifier",
                                                                               "start": 641,
@@ -1028,7 +1025,9 @@ __ESTREE_TEST__:PASS:
                                                                               "name": "someSeries",
                                                                               "optional": false,
                                                                               "typeAnnotation": null
-                                                                            }
+                                                                            },
+                                                                            "optional": false,
+                                                                            "computed": false
                                                                           },
                                                                           "right": {
                                                                             "type": "AssignmentExpression",
@@ -1039,7 +1038,6 @@ __ESTREE_TEST__:PASS:
                                                                               "type": "MemberExpression",
                                                                               "start": 654,
                                                                               "end": 671,
-                                                                              "computed": false,
                                                                               "object": {
                                                                                 "type": "Identifier",
                                                                                 "start": 654,
@@ -1049,7 +1047,6 @@ __ESTREE_TEST__:PASS:
                                                                                 "optional": false,
                                                                                 "typeAnnotation": null
                                                                               },
-                                                                              "optional": false,
                                                                               "property": {
                                                                                 "type": "Identifier",
                                                                                 "start": 662,
@@ -1058,7 +1055,9 @@ __ESTREE_TEST__:PASS:
                                                                                 "name": "someLimit",
                                                                                 "optional": false,
                                                                                 "typeAnnotation": null
-                                                                              }
+                                                                              },
+                                                                              "optional": false,
+                                                                              "computed": false
                                                                             },
                                                                             "right": {
                                                                               "type": "AssignmentExpression",
@@ -1069,7 +1068,6 @@ __ESTREE_TEST__:PASS:
                                                                                 "type": "MemberExpression",
                                                                                 "start": 674,
                                                                                 "end": 686,
-                                                                                "computed": false,
                                                                                 "object": {
                                                                                   "type": "Identifier",
                                                                                   "start": 674,
@@ -1079,7 +1077,6 @@ __ESTREE_TEST__:PASS:
                                                                                   "optional": false,
                                                                                   "typeAnnotation": null
                                                                                 },
-                                                                                "optional": false,
                                                                                 "property": {
                                                                                   "type": "Identifier",
                                                                                   "start": 682,
@@ -1088,7 +1085,9 @@ __ESTREE_TEST__:PASS:
                                                                                   "name": "some",
                                                                                   "optional": false,
                                                                                   "typeAnnotation": null
-                                                                                }
+                                                                                },
+                                                                                "optional": false,
+                                                                                "computed": false
                                                                               },
                                                                               "right": {
                                                                                 "type": "AssignmentExpression",
@@ -1099,7 +1098,6 @@ __ESTREE_TEST__:PASS:
                                                                                   "type": "MemberExpression",
                                                                                   "start": 689,
                                                                                   "end": 709,
-                                                                                  "computed": false,
                                                                                   "object": {
                                                                                     "type": "Identifier",
                                                                                     "start": 689,
@@ -1109,7 +1107,6 @@ __ESTREE_TEST__:PASS:
                                                                                     "optional": false,
                                                                                     "typeAnnotation": null
                                                                                   },
-                                                                                  "optional": false,
                                                                                   "property": {
                                                                                     "type": "Identifier",
                                                                                     "start": 697,
@@ -1118,7 +1115,9 @@ __ESTREE_TEST__:PASS:
                                                                                     "name": "setImmediate",
                                                                                     "optional": false,
                                                                                     "typeAnnotation": null
-                                                                                  }
+                                                                                  },
+                                                                                  "optional": false,
+                                                                                  "computed": false
                                                                                 },
                                                                                 "right": {
                                                                                   "type": "AssignmentExpression",
@@ -1129,7 +1128,6 @@ __ESTREE_TEST__:PASS:
                                                                                     "type": "MemberExpression",
                                                                                     "start": 712,
                                                                                     "end": 726,
-                                                                                    "computed": false,
                                                                                     "object": {
                                                                                       "type": "Identifier",
                                                                                       "start": 712,
@@ -1139,7 +1137,6 @@ __ESTREE_TEST__:PASS:
                                                                                       "optional": false,
                                                                                       "typeAnnotation": null
                                                                                     },
-                                                                                    "optional": false,
                                                                                     "property": {
                                                                                       "type": "Identifier",
                                                                                       "start": 720,
@@ -1148,7 +1145,9 @@ __ESTREE_TEST__:PASS:
                                                                                       "name": "series",
                                                                                       "optional": false,
                                                                                       "typeAnnotation": null
-                                                                                    }
+                                                                                    },
+                                                                                    "optional": false,
+                                                                                    "computed": false
                                                                                   },
                                                                                   "right": {
                                                                                     "type": "AssignmentExpression",
@@ -1159,7 +1158,6 @@ __ESTREE_TEST__:PASS:
                                                                                       "type": "MemberExpression",
                                                                                       "start": 729,
                                                                                       "end": 740,
-                                                                                      "computed": false,
                                                                                       "object": {
                                                                                         "type": "Identifier",
                                                                                         "start": 729,
@@ -1169,7 +1167,6 @@ __ESTREE_TEST__:PASS:
                                                                                         "optional": false,
                                                                                         "typeAnnotation": null
                                                                                       },
-                                                                                      "optional": false,
                                                                                       "property": {
                                                                                         "type": "Identifier",
                                                                                         "start": 737,
@@ -1178,7 +1175,9 @@ __ESTREE_TEST__:PASS:
                                                                                         "name": "seq",
                                                                                         "optional": false,
                                                                                         "typeAnnotation": null
-                                                                                      }
+                                                                                      },
+                                                                                      "optional": false,
+                                                                                      "computed": false
                                                                                     },
                                                                                     "right": {
                                                                                       "type": "AssignmentExpression",
@@ -1189,7 +1188,6 @@ __ESTREE_TEST__:PASS:
                                                                                         "type": "MemberExpression",
                                                                                         "start": 743,
                                                                                         "end": 760,
-                                                                                        "computed": false,
                                                                                         "object": {
                                                                                           "type": "Identifier",
                                                                                           "start": 743,
@@ -1199,7 +1197,6 @@ __ESTREE_TEST__:PASS:
                                                                                           "optional": false,
                                                                                           "typeAnnotation": null
                                                                                         },
-                                                                                        "optional": false,
                                                                                         "property": {
                                                                                           "type": "Identifier",
                                                                                           "start": 751,
@@ -1208,7 +1205,9 @@ __ESTREE_TEST__:PASS:
                                                                                           "name": "retryable",
                                                                                           "optional": false,
                                                                                           "typeAnnotation": null
-                                                                                        }
+                                                                                        },
+                                                                                        "optional": false,
+                                                                                        "computed": false
                                                                                       },
                                                                                       "right": {
                                                                                         "type": "AssignmentExpression",
@@ -1219,7 +1218,6 @@ __ESTREE_TEST__:PASS:
                                                                                           "type": "MemberExpression",
                                                                                           "start": 763,
                                                                                           "end": 776,
-                                                                                          "computed": false,
                                                                                           "object": {
                                                                                             "type": "Identifier",
                                                                                             "start": 763,
@@ -1229,7 +1227,6 @@ __ESTREE_TEST__:PASS:
                                                                                             "optional": false,
                                                                                             "typeAnnotation": null
                                                                                           },
-                                                                                          "optional": false,
                                                                                           "property": {
                                                                                             "type": "Identifier",
                                                                                             "start": 771,
@@ -1238,7 +1235,9 @@ __ESTREE_TEST__:PASS:
                                                                                             "name": "retry",
                                                                                             "optional": false,
                                                                                             "typeAnnotation": null
-                                                                                          }
+                                                                                          },
+                                                                                          "optional": false,
+                                                                                          "computed": false
                                                                                         },
                                                                                         "right": {
                                                                                           "type": "AssignmentExpression",
@@ -1249,7 +1248,6 @@ __ESTREE_TEST__:PASS:
                                                                                             "type": "MemberExpression",
                                                                                             "start": 779,
                                                                                             "end": 799,
-                                                                                            "computed": false,
                                                                                             "object": {
                                                                                               "type": "Identifier",
                                                                                               "start": 779,
@@ -1259,7 +1257,6 @@ __ESTREE_TEST__:PASS:
                                                                                               "optional": false,
                                                                                               "typeAnnotation": null
                                                                                             },
-                                                                                            "optional": false,
                                                                                             "property": {
                                                                                               "type": "Identifier",
                                                                                               "start": 787,
@@ -1268,7 +1265,9 @@ __ESTREE_TEST__:PASS:
                                                                                               "name": "rejectSeries",
                                                                                               "optional": false,
                                                                                               "typeAnnotation": null
-                                                                                            }
+                                                                                            },
+                                                                                            "optional": false,
+                                                                                            "computed": false
                                                                                           },
                                                                                           "right": {
                                                                                             "type": "AssignmentExpression",
@@ -1279,7 +1278,6 @@ __ESTREE_TEST__:PASS:
                                                                                               "type": "MemberExpression",
                                                                                               "start": 802,
                                                                                               "end": 821,
-                                                                                              "computed": false,
                                                                                               "object": {
                                                                                                 "type": "Identifier",
                                                                                                 "start": 802,
@@ -1289,7 +1287,6 @@ __ESTREE_TEST__:PASS:
                                                                                                 "optional": false,
                                                                                                 "typeAnnotation": null
                                                                                               },
-                                                                                              "optional": false,
                                                                                               "property": {
                                                                                                 "type": "Identifier",
                                                                                                 "start": 810,
@@ -1298,7 +1295,9 @@ __ESTREE_TEST__:PASS:
                                                                                                 "name": "rejectLimit",
                                                                                                 "optional": false,
                                                                                                 "typeAnnotation": null
-                                                                                              }
+                                                                                              },
+                                                                                              "optional": false,
+                                                                                              "computed": false
                                                                                             },
                                                                                             "right": {
                                                                                               "type": "AssignmentExpression",
@@ -1309,7 +1308,6 @@ __ESTREE_TEST__:PASS:
                                                                                                 "type": "MemberExpression",
                                                                                                 "start": 824,
                                                                                                 "end": 838,
-                                                                                                "computed": false,
                                                                                                 "object": {
                                                                                                   "type": "Identifier",
                                                                                                   "start": 824,
@@ -1319,7 +1317,6 @@ __ESTREE_TEST__:PASS:
                                                                                                   "optional": false,
                                                                                                   "typeAnnotation": null
                                                                                                 },
-                                                                                                "optional": false,
                                                                                                 "property": {
                                                                                                   "type": "Identifier",
                                                                                                   "start": 832,
@@ -1328,7 +1325,9 @@ __ESTREE_TEST__:PASS:
                                                                                                   "name": "reject",
                                                                                                   "optional": false,
                                                                                                   "typeAnnotation": null
-                                                                                                }
+                                                                                                },
+                                                                                                "optional": false,
+                                                                                                "computed": false
                                                                                               },
                                                                                               "right": {
                                                                                                 "type": "AssignmentExpression",
@@ -1339,7 +1338,6 @@ __ESTREE_TEST__:PASS:
                                                                                                   "type": "MemberExpression",
                                                                                                   "start": 841,
                                                                                                   "end": 859,
-                                                                                                  "computed": false,
                                                                                                   "object": {
                                                                                                     "type": "Identifier",
                                                                                                     "start": 841,
@@ -1349,7 +1347,6 @@ __ESTREE_TEST__:PASS:
                                                                                                     "optional": false,
                                                                                                     "typeAnnotation": null
                                                                                                   },
-                                                                                                  "optional": false,
                                                                                                   "property": {
                                                                                                     "type": "Identifier",
                                                                                                     "start": 849,
@@ -1358,7 +1355,9 @@ __ESTREE_TEST__:PASS:
                                                                                                     "name": "reflectAll",
                                                                                                     "optional": false,
                                                                                                     "typeAnnotation": null
-                                                                                                  }
+                                                                                                  },
+                                                                                                  "optional": false,
+                                                                                                  "computed": false
                                                                                                 },
                                                                                                 "right": {
                                                                                                   "type": "AssignmentExpression",
@@ -1369,7 +1368,6 @@ __ESTREE_TEST__:PASS:
                                                                                                     "type": "MemberExpression",
                                                                                                     "start": 862,
                                                                                                     "end": 877,
-                                                                                                    "computed": false,
                                                                                                     "object": {
                                                                                                       "type": "Identifier",
                                                                                                       "start": 862,
@@ -1379,7 +1377,6 @@ __ESTREE_TEST__:PASS:
                                                                                                       "optional": false,
                                                                                                       "typeAnnotation": null
                                                                                                     },
-                                                                                                    "optional": false,
                                                                                                     "property": {
                                                                                                       "type": "Identifier",
                                                                                                       "start": 870,
@@ -1388,7 +1385,9 @@ __ESTREE_TEST__:PASS:
                                                                                                       "name": "reflect",
                                                                                                       "optional": false,
                                                                                                       "typeAnnotation": null
-                                                                                                    }
+                                                                                                    },
+                                                                                                    "optional": false,
+                                                                                                    "computed": false
                                                                                                   },
                                                                                                   "right": {
                                                                                                     "type": "AssignmentExpression",
@@ -1399,7 +1398,6 @@ __ESTREE_TEST__:PASS:
                                                                                                       "type": "MemberExpression",
                                                                                                       "start": 880,
                                                                                                       "end": 899,
-                                                                                                      "computed": false,
                                                                                                       "object": {
                                                                                                         "type": "Identifier",
                                                                                                         "start": 880,
@@ -1409,7 +1407,6 @@ __ESTREE_TEST__:PASS:
                                                                                                         "optional": false,
                                                                                                         "typeAnnotation": null
                                                                                                       },
-                                                                                                      "optional": false,
                                                                                                       "property": {
                                                                                                         "type": "Identifier",
                                                                                                         "start": 888,
@@ -1418,7 +1415,9 @@ __ESTREE_TEST__:PASS:
                                                                                                         "name": "reduceRight",
                                                                                                         "optional": false,
                                                                                                         "typeAnnotation": null
-                                                                                                      }
+                                                                                                      },
+                                                                                                      "optional": false,
+                                                                                                      "computed": false
                                                                                                     },
                                                                                                     "right": {
                                                                                                       "type": "AssignmentExpression",
@@ -1429,7 +1428,6 @@ __ESTREE_TEST__:PASS:
                                                                                                         "type": "MemberExpression",
                                                                                                         "start": 902,
                                                                                                         "end": 916,
-                                                                                                        "computed": false,
                                                                                                         "object": {
                                                                                                           "type": "Identifier",
                                                                                                           "start": 902,
@@ -1439,7 +1437,6 @@ __ESTREE_TEST__:PASS:
                                                                                                           "optional": false,
                                                                                                           "typeAnnotation": null
                                                                                                         },
-                                                                                                        "optional": false,
                                                                                                         "property": {
                                                                                                           "type": "Identifier",
                                                                                                           "start": 910,
@@ -1448,7 +1445,9 @@ __ESTREE_TEST__:PASS:
                                                                                                           "name": "reduce",
                                                                                                           "optional": false,
                                                                                                           "typeAnnotation": null
-                                                                                                        }
+                                                                                                        },
+                                                                                                        "optional": false,
+                                                                                                        "computed": false
                                                                                                       },
                                                                                                       "right": {
                                                                                                         "type": "AssignmentExpression",
@@ -1459,7 +1458,6 @@ __ESTREE_TEST__:PASS:
                                                                                                           "type": "MemberExpression",
                                                                                                           "start": 919,
                                                                                                           "end": 931,
-                                                                                                          "computed": false,
                                                                                                           "object": {
                                                                                                             "type": "Identifier",
                                                                                                             "start": 919,
@@ -1469,7 +1467,6 @@ __ESTREE_TEST__:PASS:
                                                                                                             "optional": false,
                                                                                                             "typeAnnotation": null
                                                                                                           },
-                                                                                                          "optional": false,
                                                                                                           "property": {
                                                                                                             "type": "Identifier",
                                                                                                             "start": 927,
@@ -1478,7 +1475,9 @@ __ESTREE_TEST__:PASS:
                                                                                                             "name": "race",
                                                                                                             "optional": false,
                                                                                                             "typeAnnotation": null
-                                                                                                          }
+                                                                                                          },
+                                                                                                          "optional": false,
+                                                                                                          "computed": false
                                                                                                         },
                                                                                                         "right": {
                                                                                                           "type": "AssignmentExpression",
@@ -1489,7 +1488,6 @@ __ESTREE_TEST__:PASS:
                                                                                                             "type": "MemberExpression",
                                                                                                             "start": 934,
                                                                                                             "end": 947,
-                                                                                                            "computed": false,
                                                                                                             "object": {
                                                                                                               "type": "Identifier",
                                                                                                               "start": 934,
@@ -1499,7 +1497,6 @@ __ESTREE_TEST__:PASS:
                                                                                                               "optional": false,
                                                                                                               "typeAnnotation": null
                                                                                                             },
-                                                                                                            "optional": false,
                                                                                                             "property": {
                                                                                                               "type": "Identifier",
                                                                                                               "start": 942,
@@ -1508,7 +1505,9 @@ __ESTREE_TEST__:PASS:
                                                                                                               "name": "queue",
                                                                                                               "optional": false,
                                                                                                               "typeAnnotation": null
-                                                                                                            }
+                                                                                                            },
+                                                                                                            "optional": false,
+                                                                                                            "computed": false
                                                                                                           },
                                                                                                           "right": {
                                                                                                             "type": "AssignmentExpression",
@@ -1519,7 +1518,6 @@ __ESTREE_TEST__:PASS:
                                                                                                               "type": "MemberExpression",
                                                                                                               "start": 950,
                                                                                                               "end": 971,
-                                                                                                              "computed": false,
                                                                                                               "object": {
                                                                                                                 "type": "Identifier",
                                                                                                                 "start": 950,
@@ -1529,7 +1527,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                 "optional": false,
                                                                                                                 "typeAnnotation": null
                                                                                                               },
-                                                                                                              "optional": false,
                                                                                                               "property": {
                                                                                                                 "type": "Identifier",
                                                                                                                 "start": 958,
@@ -1538,7 +1535,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                 "name": "priorityQueue",
                                                                                                                 "optional": false,
                                                                                                                 "typeAnnotation": null
-                                                                                                              }
+                                                                                                              },
+                                                                                                              "optional": false,
+                                                                                                              "computed": false
                                                                                                             },
                                                                                                             "right": {
                                                                                                               "type": "AssignmentExpression",
@@ -1549,7 +1548,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                 "type": "MemberExpression",
                                                                                                                 "start": 974,
                                                                                                                 "end": 995,
-                                                                                                                "computed": false,
                                                                                                                 "object": {
                                                                                                                   "type": "Identifier",
                                                                                                                   "start": 974,
@@ -1559,7 +1557,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                   "optional": false,
                                                                                                                   "typeAnnotation": null
                                                                                                                 },
-                                                                                                                "optional": false,
                                                                                                                 "property": {
                                                                                                                   "type": "Identifier",
                                                                                                                   "start": 982,
@@ -1568,7 +1565,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                   "name": "parallelLimit",
                                                                                                                   "optional": false,
                                                                                                                   "typeAnnotation": null
-                                                                                                                }
+                                                                                                                },
+                                                                                                                "optional": false,
+                                                                                                                "computed": false
                                                                                                               },
                                                                                                               "right": {
                                                                                                                 "type": "AssignmentExpression",
@@ -1579,7 +1578,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                   "type": "MemberExpression",
                                                                                                                   "start": 998,
                                                                                                                   "end": 1014,
-                                                                                                                  "computed": false,
                                                                                                                   "object": {
                                                                                                                     "type": "Identifier",
                                                                                                                     "start": 998,
@@ -1589,7 +1587,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                     "optional": false,
                                                                                                                     "typeAnnotation": null
                                                                                                                   },
-                                                                                                                  "optional": false,
                                                                                                                   "property": {
                                                                                                                     "type": "Identifier",
                                                                                                                     "start": 1006,
@@ -1598,7 +1595,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                     "name": "parallel",
                                                                                                                     "optional": false,
                                                                                                                     "typeAnnotation": null
-                                                                                                                  }
+                                                                                                                  },
+                                                                                                                  "optional": false,
+                                                                                                                  "computed": false
                                                                                                                 },
                                                                                                                 "right": {
                                                                                                                   "type": "AssignmentExpression",
@@ -1609,7 +1608,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                     "type": "MemberExpression",
                                                                                                                     "start": 1017,
                                                                                                                     "end": 1033,
-                                                                                                                    "computed": false,
                                                                                                                     "object": {
                                                                                                                       "type": "Identifier",
                                                                                                                       "start": 1017,
@@ -1619,7 +1617,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                       "optional": false,
                                                                                                                       "typeAnnotation": null
                                                                                                                     },
-                                                                                                                    "optional": false,
                                                                                                                     "property": {
                                                                                                                       "type": "Identifier",
                                                                                                                       "start": 1025,
@@ -1628,7 +1625,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                       "name": "nextTick",
                                                                                                                       "optional": false,
                                                                                                                       "typeAnnotation": null
-                                                                                                                    }
+                                                                                                                    },
+                                                                                                                    "optional": false,
+                                                                                                                    "computed": false
                                                                                                                   },
                                                                                                                   "right": {
                                                                                                                     "type": "AssignmentExpression",
@@ -1639,7 +1638,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                       "type": "MemberExpression",
                                                                                                                       "start": 1036,
                                                                                                                       "end": 1051,
-                                                                                                                      "computed": false,
                                                                                                                       "object": {
                                                                                                                         "type": "Identifier",
                                                                                                                         "start": 1036,
@@ -1649,7 +1647,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                         "optional": false,
                                                                                                                         "typeAnnotation": null
                                                                                                                       },
-                                                                                                                      "optional": false,
                                                                                                                       "property": {
                                                                                                                         "type": "Identifier",
                                                                                                                         "start": 1044,
@@ -1658,7 +1655,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                         "name": "memoize",
                                                                                                                         "optional": false,
                                                                                                                         "typeAnnotation": null
-                                                                                                                      }
+                                                                                                                      },
+                                                                                                                      "optional": false,
+                                                                                                                      "computed": false
                                                                                                                     },
                                                                                                                     "right": {
                                                                                                                       "type": "AssignmentExpression",
@@ -1669,7 +1668,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                         "type": "MemberExpression",
                                                                                                                         "start": 1054,
                                                                                                                         "end": 1077,
-                                                                                                                        "computed": false,
                                                                                                                         "object": {
                                                                                                                           "type": "Identifier",
                                                                                                                           "start": 1054,
@@ -1679,7 +1677,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                           "optional": false,
                                                                                                                           "typeAnnotation": null
                                                                                                                         },
-                                                                                                                        "optional": false,
                                                                                                                         "property": {
                                                                                                                           "type": "Identifier",
                                                                                                                           "start": 1062,
@@ -1688,7 +1685,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                           "name": "mapValuesSeries",
                                                                                                                           "optional": false,
                                                                                                                           "typeAnnotation": null
-                                                                                                                        }
+                                                                                                                        },
+                                                                                                                        "optional": false,
+                                                                                                                        "computed": false
                                                                                                                       },
                                                                                                                       "right": {
                                                                                                                         "type": "AssignmentExpression",
@@ -1699,7 +1698,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                           "type": "MemberExpression",
                                                                                                                           "start": 1080,
                                                                                                                           "end": 1102,
-                                                                                                                          "computed": false,
                                                                                                                           "object": {
                                                                                                                             "type": "Identifier",
                                                                                                                             "start": 1080,
@@ -1709,7 +1707,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                             "optional": false,
                                                                                                                             "typeAnnotation": null
                                                                                                                           },
-                                                                                                                          "optional": false,
                                                                                                                           "property": {
                                                                                                                             "type": "Identifier",
                                                                                                                             "start": 1088,
@@ -1718,7 +1715,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                             "name": "mapValuesLimit",
                                                                                                                             "optional": false,
                                                                                                                             "typeAnnotation": null
-                                                                                                                          }
+                                                                                                                          },
+                                                                                                                          "optional": false,
+                                                                                                                          "computed": false
                                                                                                                         },
                                                                                                                         "right": {
                                                                                                                           "type": "AssignmentExpression",
@@ -1729,7 +1728,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                             "type": "MemberExpression",
                                                                                                                             "start": 1105,
                                                                                                                             "end": 1122,
-                                                                                                                            "computed": false,
                                                                                                                             "object": {
                                                                                                                               "type": "Identifier",
                                                                                                                               "start": 1105,
@@ -1739,7 +1737,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                               "optional": false,
                                                                                                                               "typeAnnotation": null
                                                                                                                             },
-                                                                                                                            "optional": false,
                                                                                                                             "property": {
                                                                                                                               "type": "Identifier",
                                                                                                                               "start": 1113,
@@ -1748,7 +1745,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                               "name": "mapValues",
                                                                                                                               "optional": false,
                                                                                                                               "typeAnnotation": null
-                                                                                                                            }
+                                                                                                                            },
+                                                                                                                            "optional": false,
+                                                                                                                            "computed": false
                                                                                                                           },
                                                                                                                           "right": {
                                                                                                                             "type": "AssignmentExpression",
@@ -1759,7 +1758,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                               "type": "MemberExpression",
                                                                                                                               "start": 1125,
                                                                                                                               "end": 1142,
-                                                                                                                              "computed": false,
                                                                                                                               "object": {
                                                                                                                                 "type": "Identifier",
                                                                                                                                 "start": 1125,
@@ -1769,7 +1767,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                 "optional": false,
                                                                                                                                 "typeAnnotation": null
                                                                                                                               },
-                                                                                                                              "optional": false,
                                                                                                                               "property": {
                                                                                                                                 "type": "Identifier",
                                                                                                                                 "start": 1133,
@@ -1778,7 +1775,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                 "name": "mapSeries",
                                                                                                                                 "optional": false,
                                                                                                                                 "typeAnnotation": null
-                                                                                                                              }
+                                                                                                                              },
+                                                                                                                              "optional": false,
+                                                                                                                              "computed": false
                                                                                                                             },
                                                                                                                             "right": {
                                                                                                                               "type": "AssignmentExpression",
@@ -1789,7 +1788,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                 "type": "MemberExpression",
                                                                                                                                 "start": 1145,
                                                                                                                                 "end": 1161,
-                                                                                                                                "computed": false,
                                                                                                                                 "object": {
                                                                                                                                   "type": "Identifier",
                                                                                                                                   "start": 1145,
@@ -1799,7 +1797,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                   "optional": false,
                                                                                                                                   "typeAnnotation": null
                                                                                                                                 },
-                                                                                                                                "optional": false,
                                                                                                                                 "property": {
                                                                                                                                   "type": "Identifier",
                                                                                                                                   "start": 1153,
@@ -1808,7 +1805,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                   "name": "mapLimit",
                                                                                                                                   "optional": false,
                                                                                                                                   "typeAnnotation": null
-                                                                                                                                }
+                                                                                                                                },
+                                                                                                                                "optional": false,
+                                                                                                                                "computed": false
                                                                                                                               },
                                                                                                                               "right": {
                                                                                                                                 "type": "AssignmentExpression",
@@ -1819,7 +1818,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                   "type": "MemberExpression",
                                                                                                                                   "start": 1164,
                                                                                                                                   "end": 1175,
-                                                                                                                                  "computed": false,
                                                                                                                                   "object": {
                                                                                                                                     "type": "Identifier",
                                                                                                                                     "start": 1164,
@@ -1829,7 +1827,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                     "optional": false,
                                                                                                                                     "typeAnnotation": null
                                                                                                                                   },
-                                                                                                                                  "optional": false,
                                                                                                                                   "property": {
                                                                                                                                     "type": "Identifier",
                                                                                                                                     "start": 1172,
@@ -1838,7 +1835,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                     "name": "map",
                                                                                                                                     "optional": false,
                                                                                                                                     "typeAnnotation": null
-                                                                                                                                  }
+                                                                                                                                  },
+                                                                                                                                  "optional": false,
+                                                                                                                                  "computed": false
                                                                                                                                 },
                                                                                                                                 "right": {
                                                                                                                                   "type": "AssignmentExpression",
@@ -1849,7 +1848,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                     "type": "MemberExpression",
                                                                                                                                     "start": 1178,
                                                                                                                                     "end": 1189,
-                                                                                                                                    "computed": false,
                                                                                                                                     "object": {
                                                                                                                                       "type": "Identifier",
                                                                                                                                       "start": 1178,
@@ -1859,7 +1857,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                       "optional": false,
                                                                                                                                       "typeAnnotation": null
                                                                                                                                     },
-                                                                                                                                    "optional": false,
                                                                                                                                     "property": {
                                                                                                                                       "type": "Identifier",
                                                                                                                                       "start": 1186,
@@ -1868,7 +1865,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                       "name": "log",
                                                                                                                                       "optional": false,
                                                                                                                                       "typeAnnotation": null
-                                                                                                                                    }
+                                                                                                                                    },
+                                                                                                                                    "optional": false,
+                                                                                                                                    "computed": false
                                                                                                                                   },
                                                                                                                                   "right": {
                                                                                                                                     "type": "AssignmentExpression",
@@ -1879,7 +1878,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                       "type": "MemberExpression",
                                                                                                                                       "start": 1192,
                                                                                                                                       "end": 1213,
-                                                                                                                                      "computed": false,
                                                                                                                                       "object": {
                                                                                                                                         "type": "Identifier",
                                                                                                                                         "start": 1192,
@@ -1889,7 +1887,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                         "optional": false,
                                                                                                                                         "typeAnnotation": null
                                                                                                                                       },
-                                                                                                                                      "optional": false,
                                                                                                                                       "property": {
                                                                                                                                         "type": "Identifier",
                                                                                                                                         "start": 1200,
@@ -1898,7 +1895,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                         "name": "groupBySeries",
                                                                                                                                         "optional": false,
                                                                                                                                         "typeAnnotation": null
-                                                                                                                                      }
+                                                                                                                                      },
+                                                                                                                                      "optional": false,
+                                                                                                                                      "computed": false
                                                                                                                                     },
                                                                                                                                     "right": {
                                                                                                                                       "type": "AssignmentExpression",
@@ -1909,7 +1908,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                         "type": "MemberExpression",
                                                                                                                                         "start": 1216,
                                                                                                                                         "end": 1236,
-                                                                                                                                        "computed": false,
                                                                                                                                         "object": {
                                                                                                                                           "type": "Identifier",
                                                                                                                                           "start": 1216,
@@ -1919,7 +1917,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                           "optional": false,
                                                                                                                                           "typeAnnotation": null
                                                                                                                                         },
-                                                                                                                                        "optional": false,
                                                                                                                                         "property": {
                                                                                                                                           "type": "Identifier",
                                                                                                                                           "start": 1224,
@@ -1928,7 +1925,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                           "name": "groupByLimit",
                                                                                                                                           "optional": false,
                                                                                                                                           "typeAnnotation": null
-                                                                                                                                        }
+                                                                                                                                        },
+                                                                                                                                        "optional": false,
+                                                                                                                                        "computed": false
                                                                                                                                       },
                                                                                                                                       "right": {
                                                                                                                                         "type": "AssignmentExpression",
@@ -1939,7 +1938,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                           "type": "MemberExpression",
                                                                                                                                           "start": 1239,
                                                                                                                                           "end": 1254,
-                                                                                                                                          "computed": false,
                                                                                                                                           "object": {
                                                                                                                                             "type": "Identifier",
                                                                                                                                             "start": 1239,
@@ -1949,7 +1947,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                             "optional": false,
                                                                                                                                             "typeAnnotation": null
                                                                                                                                           },
-                                                                                                                                          "optional": false,
                                                                                                                                           "property": {
                                                                                                                                             "type": "Identifier",
                                                                                                                                             "start": 1247,
@@ -1958,7 +1955,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                             "name": "groupBy",
                                                                                                                                             "optional": false,
                                                                                                                                             "typeAnnotation": null
-                                                                                                                                          }
+                                                                                                                                          },
+                                                                                                                                          "optional": false,
+                                                                                                                                          "computed": false
                                                                                                                                         },
                                                                                                                                         "right": {
                                                                                                                                           "type": "AssignmentExpression",
@@ -1969,7 +1968,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                             "type": "MemberExpression",
                                                                                                                                             "start": 1257,
                                                                                                                                             "end": 1272,
-                                                                                                                                            "computed": false,
                                                                                                                                             "object": {
                                                                                                                                               "type": "Identifier",
                                                                                                                                               "start": 1257,
@@ -1979,7 +1977,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                               "optional": false,
                                                                                                                                               "typeAnnotation": null
                                                                                                                                             },
-                                                                                                                                            "optional": false,
                                                                                                                                             "property": {
                                                                                                                                               "type": "Identifier",
                                                                                                                                               "start": 1265,
@@ -1988,7 +1985,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                               "name": "forever",
                                                                                                                                               "optional": false,
                                                                                                                                               "typeAnnotation": null
-                                                                                                                                            }
+                                                                                                                                            },
+                                                                                                                                            "optional": false,
+                                                                                                                                            "computed": false
                                                                                                                                           },
                                                                                                                                           "right": {
                                                                                                                                             "type": "AssignmentExpression",
@@ -1999,7 +1998,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                               "type": "MemberExpression",
                                                                                                                                               "start": 1275,
                                                                                                                                               "end": 1295,
-                                                                                                                                              "computed": false,
                                                                                                                                               "object": {
                                                                                                                                                 "type": "Identifier",
                                                                                                                                                 "start": 1275,
@@ -2009,7 +2007,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                 "optional": false,
                                                                                                                                                 "typeAnnotation": null
                                                                                                                                               },
-                                                                                                                                              "optional": false,
                                                                                                                                               "property": {
                                                                                                                                                 "type": "Identifier",
                                                                                                                                                 "start": 1283,
@@ -2018,7 +2015,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                 "name": "filterSeries",
                                                                                                                                                 "optional": false,
                                                                                                                                                 "typeAnnotation": null
-                                                                                                                                              }
+                                                                                                                                              },
+                                                                                                                                              "optional": false,
+                                                                                                                                              "computed": false
                                                                                                                                             },
                                                                                                                                             "right": {
                                                                                                                                               "type": "AssignmentExpression",
@@ -2029,7 +2028,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                 "type": "MemberExpression",
                                                                                                                                                 "start": 1298,
                                                                                                                                                 "end": 1317,
-                                                                                                                                                "computed": false,
                                                                                                                                                 "object": {
                                                                                                                                                   "type": "Identifier",
                                                                                                                                                   "start": 1298,
@@ -2039,7 +2037,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                   "optional": false,
                                                                                                                                                   "typeAnnotation": null
                                                                                                                                                 },
-                                                                                                                                                "optional": false,
                                                                                                                                                 "property": {
                                                                                                                                                   "type": "Identifier",
                                                                                                                                                   "start": 1306,
@@ -2048,7 +2045,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                   "name": "filterLimit",
                                                                                                                                                   "optional": false,
                                                                                                                                                   "typeAnnotation": null
-                                                                                                                                                }
+                                                                                                                                                },
+                                                                                                                                                "optional": false,
+                                                                                                                                                "computed": false
                                                                                                                                               },
                                                                                                                                               "right": {
                                                                                                                                                 "type": "AssignmentExpression",
@@ -2059,7 +2058,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                   "type": "MemberExpression",
                                                                                                                                                   "start": 1320,
                                                                                                                                                   "end": 1334,
-                                                                                                                                                  "computed": false,
                                                                                                                                                   "object": {
                                                                                                                                                     "type": "Identifier",
                                                                                                                                                     "start": 1320,
@@ -2069,7 +2067,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                     "optional": false,
                                                                                                                                                     "typeAnnotation": null
                                                                                                                                                   },
-                                                                                                                                                  "optional": false,
                                                                                                                                                   "property": {
                                                                                                                                                     "type": "Identifier",
                                                                                                                                                     "start": 1328,
@@ -2078,7 +2075,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                     "name": "filter",
                                                                                                                                                     "optional": false,
                                                                                                                                                     "typeAnnotation": null
-                                                                                                                                                  }
+                                                                                                                                                  },
+                                                                                                                                                  "optional": false,
+                                                                                                                                                  "computed": false
                                                                                                                                                 },
                                                                                                                                                 "right": {
                                                                                                                                                   "type": "AssignmentExpression",
@@ -2089,7 +2088,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                     "type": "MemberExpression",
                                                                                                                                                     "start": 1337,
                                                                                                                                                     "end": 1356,
-                                                                                                                                                    "computed": false,
                                                                                                                                                     "object": {
                                                                                                                                                       "type": "Identifier",
                                                                                                                                                       "start": 1337,
@@ -2099,7 +2097,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                       "optional": false,
                                                                                                                                                       "typeAnnotation": null
                                                                                                                                                     },
-                                                                                                                                                    "optional": false,
                                                                                                                                                     "property": {
                                                                                                                                                       "type": "Identifier",
                                                                                                                                                       "start": 1345,
@@ -2108,7 +2105,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                       "name": "everySeries",
                                                                                                                                                       "optional": false,
                                                                                                                                                       "typeAnnotation": null
-                                                                                                                                                    }
+                                                                                                                                                    },
+                                                                                                                                                    "optional": false,
+                                                                                                                                                    "computed": false
                                                                                                                                                   },
                                                                                                                                                   "right": {
                                                                                                                                                     "type": "AssignmentExpression",
@@ -2119,7 +2118,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                       "type": "MemberExpression",
                                                                                                                                                       "start": 1359,
                                                                                                                                                       "end": 1377,
-                                                                                                                                                      "computed": false,
                                                                                                                                                       "object": {
                                                                                                                                                         "type": "Identifier",
                                                                                                                                                         "start": 1359,
@@ -2129,7 +2127,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                         "optional": false,
                                                                                                                                                         "typeAnnotation": null
                                                                                                                                                       },
-                                                                                                                                                      "optional": false,
                                                                                                                                                       "property": {
                                                                                                                                                         "type": "Identifier",
                                                                                                                                                         "start": 1367,
@@ -2138,7 +2135,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                         "name": "everyLimit",
                                                                                                                                                         "optional": false,
                                                                                                                                                         "typeAnnotation": null
-                                                                                                                                                      }
+                                                                                                                                                      },
+                                                                                                                                                      "optional": false,
+                                                                                                                                                      "computed": false
                                                                                                                                                     },
                                                                                                                                                     "right": {
                                                                                                                                                       "type": "AssignmentExpression",
@@ -2149,7 +2148,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                         "type": "MemberExpression",
                                                                                                                                                         "start": 1380,
                                                                                                                                                         "end": 1393,
-                                                                                                                                                        "computed": false,
                                                                                                                                                         "object": {
                                                                                                                                                           "type": "Identifier",
                                                                                                                                                           "start": 1380,
@@ -2159,7 +2157,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                           "optional": false,
                                                                                                                                                           "typeAnnotation": null
                                                                                                                                                         },
-                                                                                                                                                        "optional": false,
                                                                                                                                                         "property": {
                                                                                                                                                           "type": "Identifier",
                                                                                                                                                           "start": 1388,
@@ -2168,7 +2165,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                           "name": "every",
                                                                                                                                                           "optional": false,
                                                                                                                                                           "typeAnnotation": null
-                                                                                                                                                        }
+                                                                                                                                                        },
+                                                                                                                                                        "optional": false,
+                                                                                                                                                        "computed": false
                                                                                                                                                       },
                                                                                                                                                       "right": {
                                                                                                                                                         "type": "AssignmentExpression",
@@ -2179,7 +2178,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                           "type": "MemberExpression",
                                                                                                                                                           "start": 1396,
                                                                                                                                                           "end": 1415,
-                                                                                                                                                          "computed": false,
                                                                                                                                                           "object": {
                                                                                                                                                             "type": "Identifier",
                                                                                                                                                             "start": 1396,
@@ -2189,7 +2187,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                             "optional": false,
                                                                                                                                                             "typeAnnotation": null
                                                                                                                                                           },
-                                                                                                                                                          "optional": false,
                                                                                                                                                           "property": {
                                                                                                                                                             "type": "Identifier",
                                                                                                                                                             "start": 1404,
@@ -2198,7 +2195,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                             "name": "ensureAsync",
                                                                                                                                                             "optional": false,
                                                                                                                                                             "typeAnnotation": null
-                                                                                                                                                          }
+                                                                                                                                                          },
+                                                                                                                                                          "optional": false,
+                                                                                                                                                          "computed": false
                                                                                                                                                         },
                                                                                                                                                         "right": {
                                                                                                                                                           "type": "AssignmentExpression",
@@ -2209,7 +2208,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                             "type": "MemberExpression",
                                                                                                                                                             "start": 1418,
                                                                                                                                                             "end": 1436,
-                                                                                                                                                            "computed": false,
                                                                                                                                                             "object": {
                                                                                                                                                               "type": "Identifier",
                                                                                                                                                               "start": 1418,
@@ -2219,7 +2217,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                               "optional": false,
                                                                                                                                                               "typeAnnotation": null
                                                                                                                                                             },
-                                                                                                                                                            "optional": false,
                                                                                                                                                             "property": {
                                                                                                                                                               "type": "Identifier",
                                                                                                                                                               "start": 1426,
@@ -2228,7 +2225,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                               "name": "eachSeries",
                                                                                                                                                               "optional": false,
                                                                                                                                                               "typeAnnotation": null
-                                                                                                                                                            }
+                                                                                                                                                            },
+                                                                                                                                                            "optional": false,
+                                                                                                                                                            "computed": false
                                                                                                                                                           },
                                                                                                                                                           "right": {
                                                                                                                                                             "type": "AssignmentExpression",
@@ -2239,7 +2238,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                               "type": "MemberExpression",
                                                                                                                                                               "start": 1439,
                                                                                                                                                               "end": 1459,
-                                                                                                                                                              "computed": false,
                                                                                                                                                               "object": {
                                                                                                                                                                 "type": "Identifier",
                                                                                                                                                                 "start": 1439,
@@ -2249,7 +2247,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                 "optional": false,
                                                                                                                                                                 "typeAnnotation": null
                                                                                                                                                               },
-                                                                                                                                                              "optional": false,
                                                                                                                                                               "property": {
                                                                                                                                                                 "type": "Identifier",
                                                                                                                                                                 "start": 1447,
@@ -2258,7 +2255,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                 "name": "eachOfSeries",
                                                                                                                                                                 "optional": false,
                                                                                                                                                                 "typeAnnotation": null
-                                                                                                                                                              }
+                                                                                                                                                              },
+                                                                                                                                                              "optional": false,
+                                                                                                                                                              "computed": false
                                                                                                                                                             },
                                                                                                                                                             "right": {
                                                                                                                                                               "type": "AssignmentExpression",
@@ -2269,7 +2268,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                 "type": "MemberExpression",
                                                                                                                                                                 "start": 1462,
                                                                                                                                                                 "end": 1481,
-                                                                                                                                                                "computed": false,
                                                                                                                                                                 "object": {
                                                                                                                                                                   "type": "Identifier",
                                                                                                                                                                   "start": 1462,
@@ -2279,7 +2277,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                   "optional": false,
                                                                                                                                                                   "typeAnnotation": null
                                                                                                                                                                 },
-                                                                                                                                                                "optional": false,
                                                                                                                                                                 "property": {
                                                                                                                                                                   "type": "Identifier",
                                                                                                                                                                   "start": 1470,
@@ -2288,7 +2285,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                   "name": "eachOfLimit",
                                                                                                                                                                   "optional": false,
                                                                                                                                                                   "typeAnnotation": null
-                                                                                                                                                                }
+                                                                                                                                                                },
+                                                                                                                                                                "optional": false,
+                                                                                                                                                                "computed": false
                                                                                                                                                               },
                                                                                                                                                               "right": {
                                                                                                                                                                 "type": "AssignmentExpression",
@@ -2299,7 +2298,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                   "type": "MemberExpression",
                                                                                                                                                                   "start": 1484,
                                                                                                                                                                   "end": 1498,
-                                                                                                                                                                  "computed": false,
                                                                                                                                                                   "object": {
                                                                                                                                                                     "type": "Identifier",
                                                                                                                                                                     "start": 1484,
@@ -2309,7 +2307,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                     "optional": false,
                                                                                                                                                                     "typeAnnotation": null
                                                                                                                                                                   },
-                                                                                                                                                                  "optional": false,
                                                                                                                                                                   "property": {
                                                                                                                                                                     "type": "Identifier",
                                                                                                                                                                     "start": 1492,
@@ -2318,7 +2315,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                     "name": "eachOf",
                                                                                                                                                                     "optional": false,
                                                                                                                                                                     "typeAnnotation": null
-                                                                                                                                                                  }
+                                                                                                                                                                  },
+                                                                                                                                                                  "optional": false,
+                                                                                                                                                                  "computed": false
                                                                                                                                                                 },
                                                                                                                                                                 "right": {
                                                                                                                                                                   "type": "AssignmentExpression",
@@ -2329,7 +2328,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                     "type": "MemberExpression",
                                                                                                                                                                     "start": 1501,
                                                                                                                                                                     "end": 1518,
-                                                                                                                                                                    "computed": false,
                                                                                                                                                                     "object": {
                                                                                                                                                                       "type": "Identifier",
                                                                                                                                                                       "start": 1501,
@@ -2339,7 +2337,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                       "optional": false,
                                                                                                                                                                       "typeAnnotation": null
                                                                                                                                                                     },
-                                                                                                                                                                    "optional": false,
                                                                                                                                                                     "property": {
                                                                                                                                                                       "type": "Identifier",
                                                                                                                                                                       "start": 1509,
@@ -2348,7 +2345,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                       "name": "eachLimit",
                                                                                                                                                                       "optional": false,
                                                                                                                                                                       "typeAnnotation": null
-                                                                                                                                                                    }
+                                                                                                                                                                    },
+                                                                                                                                                                    "optional": false,
+                                                                                                                                                                    "computed": false
                                                                                                                                                                   },
                                                                                                                                                                   "right": {
                                                                                                                                                                     "type": "AssignmentExpression",
@@ -2359,7 +2358,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                       "type": "MemberExpression",
                                                                                                                                                                       "start": 1521,
                                                                                                                                                                       "end": 1533,
-                                                                                                                                                                      "computed": false,
                                                                                                                                                                       "object": {
                                                                                                                                                                         "type": "Identifier",
                                                                                                                                                                         "start": 1521,
@@ -2369,7 +2367,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                         "optional": false,
                                                                                                                                                                         "typeAnnotation": null
                                                                                                                                                                       },
-                                                                                                                                                                      "optional": false,
                                                                                                                                                                       "property": {
                                                                                                                                                                         "type": "Identifier",
                                                                                                                                                                         "start": 1529,
@@ -2378,7 +2375,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                         "name": "each",
                                                                                                                                                                         "optional": false,
                                                                                                                                                                         "typeAnnotation": null
-                                                                                                                                                                      }
+                                                                                                                                                                      },
+                                                                                                                                                                      "optional": false,
+                                                                                                                                                                      "computed": false
                                                                                                                                                                     },
                                                                                                                                                                     "right": {
                                                                                                                                                                       "type": "AssignmentExpression",
@@ -2389,7 +2388,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                         "type": "MemberExpression",
                                                                                                                                                                         "start": 1536,
                                                                                                                                                                         "end": 1550,
-                                                                                                                                                                        "computed": false,
                                                                                                                                                                         "object": {
                                                                                                                                                                           "type": "Identifier",
                                                                                                                                                                           "start": 1536,
@@ -2399,7 +2397,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                           "optional": false,
                                                                                                                                                                           "typeAnnotation": null
                                                                                                                                                                         },
-                                                                                                                                                                        "optional": false,
                                                                                                                                                                         "property": {
                                                                                                                                                                           "type": "Identifier",
                                                                                                                                                                           "start": 1544,
@@ -2408,7 +2405,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                           "name": "during",
                                                                                                                                                                           "optional": false,
                                                                                                                                                                           "typeAnnotation": null
-                                                                                                                                                                        }
+                                                                                                                                                                        },
+                                                                                                                                                                        "optional": false,
+                                                                                                                                                                        "computed": false
                                                                                                                                                                       },
                                                                                                                                                                       "right": {
                                                                                                                                                                         "type": "AssignmentExpression",
@@ -2419,7 +2418,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                           "type": "MemberExpression",
                                                                                                                                                                           "start": 1553,
                                                                                                                                                                           "end": 1569,
-                                                                                                                                                                          "computed": false,
                                                                                                                                                                           "object": {
                                                                                                                                                                             "type": "Identifier",
                                                                                                                                                                             "start": 1553,
@@ -2429,7 +2427,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                             "optional": false,
                                                                                                                                                                             "typeAnnotation": null
                                                                                                                                                                           },
-                                                                                                                                                                          "optional": false,
                                                                                                                                                                           "property": {
                                                                                                                                                                             "type": "Identifier",
                                                                                                                                                                             "start": 1561,
@@ -2438,7 +2435,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                             "name": "doWhilst",
                                                                                                                                                                             "optional": false,
                                                                                                                                                                             "typeAnnotation": null
-                                                                                                                                                                          }
+                                                                                                                                                                          },
+                                                                                                                                                                          "optional": false,
+                                                                                                                                                                          "computed": false
                                                                                                                                                                         },
                                                                                                                                                                         "right": {
                                                                                                                                                                           "type": "AssignmentExpression",
@@ -2449,7 +2448,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                             "type": "MemberExpression",
                                                                                                                                                                             "start": 1572,
                                                                                                                                                                             "end": 1587,
-                                                                                                                                                                            "computed": false,
                                                                                                                                                                             "object": {
                                                                                                                                                                               "type": "Identifier",
                                                                                                                                                                               "start": 1572,
@@ -2459,7 +2457,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                               "optional": false,
                                                                                                                                                                               "typeAnnotation": null
                                                                                                                                                                             },
-                                                                                                                                                                            "optional": false,
                                                                                                                                                                             "property": {
                                                                                                                                                                               "type": "Identifier",
                                                                                                                                                                               "start": 1580,
@@ -2468,7 +2465,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                               "name": "doUntil",
                                                                                                                                                                               "optional": false,
                                                                                                                                                                               "typeAnnotation": null
-                                                                                                                                                                            }
+                                                                                                                                                                            },
+                                                                                                                                                                            "optional": false,
+                                                                                                                                                                            "computed": false
                                                                                                                                                                           },
                                                                                                                                                                           "right": {
                                                                                                                                                                             "type": "AssignmentExpression",
@@ -2479,7 +2478,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                               "type": "MemberExpression",
                                                                                                                                                                               "start": 1590,
                                                                                                                                                                               "end": 1606,
-                                                                                                                                                                              "computed": false,
                                                                                                                                                                               "object": {
                                                                                                                                                                                 "type": "Identifier",
                                                                                                                                                                                 "start": 1590,
@@ -2489,7 +2487,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                 "optional": false,
                                                                                                                                                                                 "typeAnnotation": null
                                                                                                                                                                               },
-                                                                                                                                                                              "optional": false,
                                                                                                                                                                               "property": {
                                                                                                                                                                                 "type": "Identifier",
                                                                                                                                                                                 "start": 1598,
@@ -2498,7 +2495,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                 "name": "doDuring",
                                                                                                                                                                                 "optional": false,
                                                                                                                                                                                 "typeAnnotation": null
-                                                                                                                                                                              }
+                                                                                                                                                                              },
+                                                                                                                                                                              "optional": false,
+                                                                                                                                                                              "computed": false
                                                                                                                                                                             },
                                                                                                                                                                             "right": {
                                                                                                                                                                               "type": "AssignmentExpression",
@@ -2509,7 +2508,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                 "type": "MemberExpression",
                                                                                                                                                                                 "start": 1609,
                                                                                                                                                                                 "end": 1620,
-                                                                                                                                                                                "computed": false,
                                                                                                                                                                                 "object": {
                                                                                                                                                                                   "type": "Identifier",
                                                                                                                                                                                   "start": 1609,
@@ -2519,7 +2517,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                   "optional": false,
                                                                                                                                                                                   "typeAnnotation": null
                                                                                                                                                                                 },
-                                                                                                                                                                                "optional": false,
                                                                                                                                                                                 "property": {
                                                                                                                                                                                   "type": "Identifier",
                                                                                                                                                                                   "start": 1617,
@@ -2528,7 +2525,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                   "name": "dir",
                                                                                                                                                                                   "optional": false,
                                                                                                                                                                                   "typeAnnotation": null
-                                                                                                                                                                                }
+                                                                                                                                                                                },
+                                                                                                                                                                                "optional": false,
+                                                                                                                                                                                "computed": false
                                                                                                                                                                               },
                                                                                                                                                                               "right": {
                                                                                                                                                                                 "type": "AssignmentExpression",
@@ -2539,7 +2538,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                   "type": "MemberExpression",
                                                                                                                                                                                   "start": 1623,
                                                                                                                                                                                   "end": 1643,
-                                                                                                                                                                                  "computed": false,
                                                                                                                                                                                   "object": {
                                                                                                                                                                                     "type": "Identifier",
                                                                                                                                                                                     "start": 1623,
@@ -2549,7 +2547,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                     "optional": false,
                                                                                                                                                                                     "typeAnnotation": null
                                                                                                                                                                                   },
-                                                                                                                                                                                  "optional": false,
                                                                                                                                                                                   "property": {
                                                                                                                                                                                     "type": "Identifier",
                                                                                                                                                                                     "start": 1631,
@@ -2558,7 +2555,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                     "name": "detectSeries",
                                                                                                                                                                                     "optional": false,
                                                                                                                                                                                     "typeAnnotation": null
-                                                                                                                                                                                  }
+                                                                                                                                                                                  },
+                                                                                                                                                                                  "optional": false,
+                                                                                                                                                                                  "computed": false
                                                                                                                                                                                 },
                                                                                                                                                                                 "right": {
                                                                                                                                                                                   "type": "AssignmentExpression",
@@ -2569,7 +2568,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                     "type": "MemberExpression",
                                                                                                                                                                                     "start": 1646,
                                                                                                                                                                                     "end": 1665,
-                                                                                                                                                                                    "computed": false,
                                                                                                                                                                                     "object": {
                                                                                                                                                                                       "type": "Identifier",
                                                                                                                                                                                       "start": 1646,
@@ -2579,7 +2577,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                       "optional": false,
                                                                                                                                                                                       "typeAnnotation": null
                                                                                                                                                                                     },
-                                                                                                                                                                                    "optional": false,
                                                                                                                                                                                     "property": {
                                                                                                                                                                                       "type": "Identifier",
                                                                                                                                                                                       "start": 1654,
@@ -2588,7 +2585,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                       "name": "detectLimit",
                                                                                                                                                                                       "optional": false,
                                                                                                                                                                                       "typeAnnotation": null
-                                                                                                                                                                                    }
+                                                                                                                                                                                    },
+                                                                                                                                                                                    "optional": false,
+                                                                                                                                                                                    "computed": false
                                                                                                                                                                                   },
                                                                                                                                                                                   "right": {
                                                                                                                                                                                     "type": "AssignmentExpression",
@@ -2599,7 +2598,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                       "type": "MemberExpression",
                                                                                                                                                                                       "start": 1668,
                                                                                                                                                                                       "end": 1682,
-                                                                                                                                                                                      "computed": false,
                                                                                                                                                                                       "object": {
                                                                                                                                                                                         "type": "Identifier",
                                                                                                                                                                                         "start": 1668,
@@ -2609,7 +2607,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                         "optional": false,
                                                                                                                                                                                         "typeAnnotation": null
                                                                                                                                                                                       },
-                                                                                                                                                                                      "optional": false,
                                                                                                                                                                                       "property": {
                                                                                                                                                                                         "type": "Identifier",
                                                                                                                                                                                         "start": 1676,
@@ -2618,7 +2615,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                         "name": "detect",
                                                                                                                                                                                         "optional": false,
                                                                                                                                                                                         "typeAnnotation": null
-                                                                                                                                                                                      }
+                                                                                                                                                                                      },
+                                                                                                                                                                                      "optional": false,
+                                                                                                                                                                                      "computed": false
                                                                                                                                                                                     },
                                                                                                                                                                                     "right": {
                                                                                                                                                                                       "type": "AssignmentExpression",
@@ -2629,7 +2628,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                         "type": "MemberExpression",
                                                                                                                                                                                         "start": 1685,
                                                                                                                                                                                         "end": 1701,
-                                                                                                                                                                                        "computed": false,
                                                                                                                                                                                         "object": {
                                                                                                                                                                                           "type": "Identifier",
                                                                                                                                                                                           "start": 1685,
@@ -2639,7 +2637,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                           "optional": false,
                                                                                                                                                                                           "typeAnnotation": null
                                                                                                                                                                                         },
-                                                                                                                                                                                        "optional": false,
                                                                                                                                                                                         "property": {
                                                                                                                                                                                           "type": "Identifier",
                                                                                                                                                                                           "start": 1693,
@@ -2648,7 +2645,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                           "name": "constant",
                                                                                                                                                                                           "optional": false,
                                                                                                                                                                                           "typeAnnotation": null
-                                                                                                                                                                                        }
+                                                                                                                                                                                        },
+                                                                                                                                                                                        "optional": false,
+                                                                                                                                                                                        "computed": false
                                                                                                                                                                                       },
                                                                                                                                                                                       "right": {
                                                                                                                                                                                         "type": "AssignmentExpression",
@@ -2659,7 +2658,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                           "type": "MemberExpression",
                                                                                                                                                                                           "start": 1704,
                                                                                                                                                                                           "end": 1724,
-                                                                                                                                                                                          "computed": false,
                                                                                                                                                                                           "object": {
                                                                                                                                                                                             "type": "Identifier",
                                                                                                                                                                                             "start": 1704,
@@ -2669,7 +2667,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                             "optional": false,
                                                                                                                                                                                             "typeAnnotation": null
                                                                                                                                                                                           },
-                                                                                                                                                                                          "optional": false,
                                                                                                                                                                                           "property": {
                                                                                                                                                                                             "type": "Identifier",
                                                                                                                                                                                             "start": 1712,
@@ -2678,7 +2675,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                             "name": "concatSeries",
                                                                                                                                                                                             "optional": false,
                                                                                                                                                                                             "typeAnnotation": null
-                                                                                                                                                                                          }
+                                                                                                                                                                                          },
+                                                                                                                                                                                          "optional": false,
+                                                                                                                                                                                          "computed": false
                                                                                                                                                                                         },
                                                                                                                                                                                         "right": {
                                                                                                                                                                                           "type": "AssignmentExpression",
@@ -2689,7 +2688,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                             "type": "MemberExpression",
                                                                                                                                                                                             "start": 1727,
                                                                                                                                                                                             "end": 1746,
-                                                                                                                                                                                            "computed": false,
                                                                                                                                                                                             "object": {
                                                                                                                                                                                               "type": "Identifier",
                                                                                                                                                                                               "start": 1727,
@@ -2699,7 +2697,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                               "optional": false,
                                                                                                                                                                                               "typeAnnotation": null
                                                                                                                                                                                             },
-                                                                                                                                                                                            "optional": false,
                                                                                                                                                                                             "property": {
                                                                                                                                                                                               "type": "Identifier",
                                                                                                                                                                                               "start": 1735,
@@ -2708,7 +2705,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                               "name": "concatLimit",
                                                                                                                                                                                               "optional": false,
                                                                                                                                                                                               "typeAnnotation": null
-                                                                                                                                                                                            }
+                                                                                                                                                                                            },
+                                                                                                                                                                                            "optional": false,
+                                                                                                                                                                                            "computed": false
                                                                                                                                                                                           },
                                                                                                                                                                                           "right": {
                                                                                                                                                                                             "type": "AssignmentExpression",
@@ -2719,7 +2718,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                               "type": "MemberExpression",
                                                                                                                                                                                               "start": 1749,
                                                                                                                                                                                               "end": 1763,
-                                                                                                                                                                                              "computed": false,
                                                                                                                                                                                               "object": {
                                                                                                                                                                                                 "type": "Identifier",
                                                                                                                                                                                                 "start": 1749,
@@ -2729,7 +2727,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                                 "optional": false,
                                                                                                                                                                                                 "typeAnnotation": null
                                                                                                                                                                                               },
-                                                                                                                                                                                              "optional": false,
                                                                                                                                                                                               "property": {
                                                                                                                                                                                                 "type": "Identifier",
                                                                                                                                                                                                 "start": 1757,
@@ -2738,7 +2735,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                                 "name": "concat",
                                                                                                                                                                                                 "optional": false,
                                                                                                                                                                                                 "typeAnnotation": null
-                                                                                                                                                                                              }
+                                                                                                                                                                                              },
+                                                                                                                                                                                              "optional": false,
+                                                                                                                                                                                              "computed": false
                                                                                                                                                                                             },
                                                                                                                                                                                             "right": {
                                                                                                                                                                                               "type": "AssignmentExpression",
@@ -2749,7 +2748,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                                 "type": "MemberExpression",
                                                                                                                                                                                                 "start": 1766,
                                                                                                                                                                                                 "end": 1781,
-                                                                                                                                                                                                "computed": false,
                                                                                                                                                                                                 "object": {
                                                                                                                                                                                                   "type": "Identifier",
                                                                                                                                                                                                   "start": 1766,
@@ -2759,7 +2757,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                                   "optional": false,
                                                                                                                                                                                                   "typeAnnotation": null
                                                                                                                                                                                                 },
-                                                                                                                                                                                                "optional": false,
                                                                                                                                                                                                 "property": {
                                                                                                                                                                                                   "type": "Identifier",
                                                                                                                                                                                                   "start": 1774,
@@ -2768,7 +2765,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                                   "name": "compose",
                                                                                                                                                                                                   "optional": false,
                                                                                                                                                                                                   "typeAnnotation": null
-                                                                                                                                                                                                }
+                                                                                                                                                                                                },
+                                                                                                                                                                                                "optional": false,
+                                                                                                                                                                                                "computed": false
                                                                                                                                                                                               },
                                                                                                                                                                                               "right": {
                                                                                                                                                                                                 "type": "AssignmentExpression",
@@ -2779,7 +2778,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                                   "type": "MemberExpression",
                                                                                                                                                                                                   "start": 1784,
                                                                                                                                                                                                   "end": 1797,
-                                                                                                                                                                                                  "computed": false,
                                                                                                                                                                                                   "object": {
                                                                                                                                                                                                     "type": "Identifier",
                                                                                                                                                                                                     "start": 1784,
@@ -2789,7 +2787,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                                     "optional": false,
                                                                                                                                                                                                     "typeAnnotation": null
                                                                                                                                                                                                   },
-                                                                                                                                                                                                  "optional": false,
                                                                                                                                                                                                   "property": {
                                                                                                                                                                                                     "type": "Identifier",
                                                                                                                                                                                                     "start": 1792,
@@ -2798,7 +2795,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                                     "name": "cargo",
                                                                                                                                                                                                     "optional": false,
                                                                                                                                                                                                     "typeAnnotation": null
-                                                                                                                                                                                                  }
+                                                                                                                                                                                                  },
+                                                                                                                                                                                                  "optional": false,
+                                                                                                                                                                                                  "computed": false
                                                                                                                                                                                                 },
                                                                                                                                                                                                 "right": {
                                                                                                                                                                                                   "type": "AssignmentExpression",
@@ -2809,7 +2808,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                                     "type": "MemberExpression",
                                                                                                                                                                                                     "start": 1800,
                                                                                                                                                                                                     "end": 1818,
-                                                                                                                                                                                                    "computed": false,
                                                                                                                                                                                                     "object": {
                                                                                                                                                                                                       "type": "Identifier",
                                                                                                                                                                                                       "start": 1800,
@@ -2819,7 +2817,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                                       "optional": false,
                                                                                                                                                                                                       "typeAnnotation": null
                                                                                                                                                                                                     },
-                                                                                                                                                                                                    "optional": false,
                                                                                                                                                                                                     "property": {
                                                                                                                                                                                                       "type": "Identifier",
                                                                                                                                                                                                       "start": 1808,
@@ -2828,7 +2825,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                                       "name": "autoInject",
                                                                                                                                                                                                       "optional": false,
                                                                                                                                                                                                       "typeAnnotation": null
-                                                                                                                                                                                                    }
+                                                                                                                                                                                                    },
+                                                                                                                                                                                                    "optional": false,
+                                                                                                                                                                                                    "computed": false
                                                                                                                                                                                                   },
                                                                                                                                                                                                   "right": {
                                                                                                                                                                                                     "type": "AssignmentExpression",
@@ -2839,7 +2838,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                                       "type": "MemberExpression",
                                                                                                                                                                                                       "start": 1821,
                                                                                                                                                                                                       "end": 1833,
-                                                                                                                                                                                                      "computed": false,
                                                                                                                                                                                                       "object": {
                                                                                                                                                                                                         "type": "Identifier",
                                                                                                                                                                                                         "start": 1821,
@@ -2849,7 +2847,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                                         "optional": false,
                                                                                                                                                                                                         "typeAnnotation": null
                                                                                                                                                                                                       },
-                                                                                                                                                                                                      "optional": false,
                                                                                                                                                                                                       "property": {
                                                                                                                                                                                                         "type": "Identifier",
                                                                                                                                                                                                         "start": 1829,
@@ -2858,7 +2855,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                                         "name": "auto",
                                                                                                                                                                                                         "optional": false,
                                                                                                                                                                                                         "typeAnnotation": null
-                                                                                                                                                                                                      }
+                                                                                                                                                                                                      },
+                                                                                                                                                                                                      "optional": false,
+                                                                                                                                                                                                      "computed": false
                                                                                                                                                                                                     },
                                                                                                                                                                                                     "right": {
                                                                                                                                                                                                       "type": "AssignmentExpression",
@@ -2869,7 +2868,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                                         "type": "MemberExpression",
                                                                                                                                                                                                         "start": 1836,
                                                                                                                                                                                                         "end": 1852,
-                                                                                                                                                                                                        "computed": false,
                                                                                                                                                                                                         "object": {
                                                                                                                                                                                                           "type": "Identifier",
                                                                                                                                                                                                           "start": 1836,
@@ -2879,7 +2877,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                                           "optional": false,
                                                                                                                                                                                                           "typeAnnotation": null
                                                                                                                                                                                                         },
-                                                                                                                                                                                                        "optional": false,
                                                                                                                                                                                                         "property": {
                                                                                                                                                                                                           "type": "Identifier",
                                                                                                                                                                                                           "start": 1844,
@@ -2888,7 +2885,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                                           "name": "asyncify",
                                                                                                                                                                                                           "optional": false,
                                                                                                                                                                                                           "typeAnnotation": null
-                                                                                                                                                                                                        }
+                                                                                                                                                                                                        },
+                                                                                                                                                                                                        "optional": false,
+                                                                                                                                                                                                        "computed": false
                                                                                                                                                                                                       },
                                                                                                                                                                                                       "right": {
                                                                                                                                                                                                         "type": "AssignmentExpression",
@@ -2899,7 +2898,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                                           "type": "MemberExpression",
                                                                                                                                                                                                           "start": 1855,
                                                                                                                                                                                                           "end": 1878,
-                                                                                                                                                                                                          "computed": false,
                                                                                                                                                                                                           "object": {
                                                                                                                                                                                                             "type": "Identifier",
                                                                                                                                                                                                             "start": 1855,
@@ -2909,7 +2907,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                                             "optional": false,
                                                                                                                                                                                                             "typeAnnotation": null
                                                                                                                                                                                                           },
-                                                                                                                                                                                                          "optional": false,
                                                                                                                                                                                                           "property": {
                                                                                                                                                                                                             "type": "Identifier",
                                                                                                                                                                                                             "start": 1863,
@@ -2918,7 +2915,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                                             "name": "applyEachSeries",
                                                                                                                                                                                                             "optional": false,
                                                                                                                                                                                                             "typeAnnotation": null
-                                                                                                                                                                                                          }
+                                                                                                                                                                                                          },
+                                                                                                                                                                                                          "optional": false,
+                                                                                                                                                                                                          "computed": false
                                                                                                                                                                                                         },
                                                                                                                                                                                                         "right": {
                                                                                                                                                                                                           "type": "AssignmentExpression",
@@ -2929,7 +2928,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                                             "type": "MemberExpression",
                                                                                                                                                                                                             "start": 1881,
                                                                                                                                                                                                             "end": 1898,
-                                                                                                                                                                                                            "computed": false,
                                                                                                                                                                                                             "object": {
                                                                                                                                                                                                               "type": "Identifier",
                                                                                                                                                                                                               "start": 1881,
@@ -2939,7 +2937,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                                               "optional": false,
                                                                                                                                                                                                               "typeAnnotation": null
                                                                                                                                                                                                             },
-                                                                                                                                                                                                            "optional": false,
                                                                                                                                                                                                             "property": {
                                                                                                                                                                                                               "type": "Identifier",
                                                                                                                                                                                                               "start": 1889,
@@ -2948,7 +2945,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                                               "name": "applyEach",
                                                                                                                                                                                                               "optional": false,
                                                                                                                                                                                                               "typeAnnotation": null
-                                                                                                                                                                                                            }
+                                                                                                                                                                                                            },
+                                                                                                                                                                                                            "optional": false,
+                                                                                                                                                                                                            "computed": false
                                                                                                                                                                                                           },
                                                                                                                                                                                                           "right": {
                                                                                                                                                                                                             "type": "AssignmentExpression",
@@ -2959,7 +2958,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                                               "type": "MemberExpression",
                                                                                                                                                                                                               "start": 1901,
                                                                                                                                                                                                               "end": 1914,
-                                                                                                                                                                                                              "computed": false,
                                                                                                                                                                                                               "object": {
                                                                                                                                                                                                                 "type": "Identifier",
                                                                                                                                                                                                                 "start": 1901,
@@ -2969,7 +2967,6 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                                                 "optional": false,
                                                                                                                                                                                                                 "typeAnnotation": null
                                                                                                                                                                                                               },
-                                                                                                                                                                                                              "optional": false,
                                                                                                                                                                                                               "property": {
                                                                                                                                                                                                                 "type": "Identifier",
                                                                                                                                                                                                                 "start": 1909,
@@ -2978,7 +2975,9 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                                                 "name": "apply",
                                                                                                                                                                                                                 "optional": false,
                                                                                                                                                                                                                 "typeAnnotation": null
-                                                                                                                                                                                                              }
+                                                                                                                                                                                                              },
+                                                                                                                                                                                                              "optional": false,
+                                                                                                                                                                                                              "computed": false
                                                                                                                                                                                                             },
                                                                                                                                                                                                             "right": {
                                                                                                                                                                                                               "type": "Identifier",
@@ -3087,7 +3086,8 @@ __ESTREE_TEST__:PASS:
             }
           }
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

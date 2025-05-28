@@ -9,19 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 17,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 7,
         "end": 17,
-        "abstract": false,
-        "body": {
-          "type": "ClassBody",
-          "start": 15,
-          "end": 17,
-          "body": []
-        },
-        "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
@@ -32,14 +23,23 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "implements": [],
+        "typeParameters": null,
         "superClass": null,
         "superTypeArguments": null,
-        "typeParameters": null
+        "implements": [],
+        "body": {
+          "type": "ClassBody",
+          "start": 15,
+          "end": 17,
+          "body": []
+        },
+        "abstract": false,
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -57,54 +57,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 27,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 7,
         "end": 27,
-        "abstract": false,
-        "body": {
-          "type": "ClassBody",
-          "start": 15,
-          "end": 27,
-          "body": [
-            {
-              "type": "PropertyDefinition",
-              "start": 16,
-              "end": 26,
-              "accessibility": null,
-              "computed": false,
-              "declare": false,
-              "decorators": [],
-              "definite": false,
-              "key": {
-                "type": "Identifier",
-                "start": 16,
-                "end": 17,
-                "decorators": [],
-                "name": "x",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "override": false,
-              "readonly": false,
-              "static": false,
-              "typeAnnotation": {
-                "type": "TSTypeAnnotation",
-                "start": 17,
-                "end": 25,
-                "typeAnnotation": {
-                  "type": "TSNumberKeyword",
-                  "start": 19,
-                  "end": 25
-                }
-              },
-              "value": null
-            }
-          ]
-        },
-        "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
@@ -115,14 +71,58 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "implements": [],
+        "typeParameters": null,
         "superClass": null,
         "superTypeArguments": null,
-        "typeParameters": null
+        "implements": [],
+        "body": {
+          "type": "ClassBody",
+          "start": 15,
+          "end": 27,
+          "body": [
+            {
+              "type": "PropertyDefinition",
+              "start": 16,
+              "end": 26,
+              "decorators": [],
+              "key": {
+                "type": "Identifier",
+                "start": 16,
+                "end": 17,
+                "decorators": [],
+                "name": "x",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeAnnotation": {
+                "type": "TSTypeAnnotation",
+                "start": 17,
+                "end": 25,
+                "typeAnnotation": {
+                  "type": "TSNumberKeyword",
+                  "start": 19,
+                  "end": 25
+                }
+              },
+              "value": null,
+              "computed": false,
+              "static": false,
+              "declare": false,
+              "override": false,
+              "optional": false,
+              "definite": false,
+              "readonly": false,
+              "accessibility": null
+            }
+          ]
+        },
+        "abstract": false,
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -140,7 +140,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 50,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 18,
+        "value": "C",
+        "raw": "\"C\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 19,
@@ -150,49 +156,6 @@ __ESTREE_TEST__:PASS:
             "type": "ClassDeclaration",
             "start": 25,
             "end": 48,
-            "abstract": false,
-            "body": {
-              "type": "ClassBody",
-              "start": 35,
-              "end": 48,
-              "body": [
-                {
-                  "type": "PropertyDefinition",
-                  "start": 36,
-                  "end": 46,
-                  "accessibility": null,
-                  "computed": false,
-                  "declare": false,
-                  "decorators": [],
-                  "definite": false,
-                  "key": {
-                    "type": "Identifier",
-                    "start": 36,
-                    "end": 37,
-                    "decorators": [],
-                    "name": "y",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "override": false,
-                  "readonly": false,
-                  "static": false,
-                  "typeAnnotation": {
-                    "type": "TSTypeAnnotation",
-                    "start": 37,
-                    "end": 45,
-                    "typeAnnotation": {
-                      "type": "TSStringKeyword",
-                      "start": 39,
-                      "end": 45
-                    }
-                  },
-                  "value": null
-                }
-              ]
-            },
-            "declare": false,
             "decorators": [],
             "id": {
               "type": "Identifier",
@@ -203,22 +166,59 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "implements": [],
+            "typeParameters": null,
             "superClass": null,
             "superTypeArguments": null,
-            "typeParameters": null
+            "implements": [],
+            "body": {
+              "type": "ClassBody",
+              "start": 35,
+              "end": 48,
+              "body": [
+                {
+                  "type": "PropertyDefinition",
+                  "start": 36,
+                  "end": 46,
+                  "decorators": [],
+                  "key": {
+                    "type": "Identifier",
+                    "start": 36,
+                    "end": 37,
+                    "decorators": [],
+                    "name": "y",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeAnnotation": {
+                    "type": "TSTypeAnnotation",
+                    "start": 37,
+                    "end": 45,
+                    "typeAnnotation": {
+                      "type": "TSStringKeyword",
+                      "start": 39,
+                      "end": 45
+                    }
+                  },
+                  "value": null,
+                  "computed": false,
+                  "static": false,
+                  "declare": false,
+                  "override": false,
+                  "optional": false,
+                  "definite": false,
+                  "readonly": false,
+                  "accessibility": null
+                }
+              ]
+            },
+            "abstract": false,
+            "declare": false
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 18,
-        "raw": "\"C\"",
-        "value": "C"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -236,14 +236,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 32,
       "end": 54,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 48,
-        "end": 53,
-        "raw": "\"./a\"",
-        "value": "./a"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -258,7 +250,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 40,
@@ -267,24 +258,25 @@ __ESTREE_TEST__:PASS:
             "name": "A",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 48,
+        "end": 53,
+        "value": "./a",
+        "raw": "\"./a\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 55,
       "end": 77,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 71,
-        "end": 76,
-        "raw": "\"./b\"",
-        "value": "./b"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -299,7 +291,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 63,
@@ -308,17 +299,25 @@ __ESTREE_TEST__:PASS:
             "name": "B",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 71,
+        "end": 76,
+        "value": "./b",
+        "raw": "\"./b\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 79,
       "end": 131,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 79,
@@ -328,12 +327,10 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 79,
           "end": 95,
-          "computed": false,
           "object": {
             "type": "MemberExpression",
             "start": 79,
             "end": 90,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 79,
@@ -343,7 +340,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 81,
@@ -352,9 +348,10 @@ __ESTREE_TEST__:PASS:
               "name": "prototype",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "optional": false,
+            "computed": false
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 91,
@@ -363,13 +360,21 @@ __ESTREE_TEST__:PASS:
             "name": "getB",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "FunctionExpression",
           "start": 98,
           "end": 131,
+          "id": null,
+          "generator": false,
           "async": false,
+          "declare": false,
+          "typeParameters": null,
+          "params": [],
+          "returnType": null,
           "body": {
             "type": "BlockStatement",
             "start": 110,
@@ -391,21 +396,22 @@ __ESTREE_TEST__:PASS:
               }
             ]
           },
-          "declare": false,
-          "expression": false,
-          "generator": false,
-          "id": null,
-          "params": [],
-          "returnType": null,
-          "typeParameters": null
+          "expression": false
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "TSModuleDeclaration",
       "start": 133,
       "end": 200,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 148,
+        "end": 153,
+        "value": "./a",
+        "raw": "\"./a\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 154,
@@ -415,57 +421,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSInterfaceDeclaration",
             "start": 160,
             "end": 198,
-            "body": {
-              "type": "TSInterfaceBody",
-              "start": 172,
-              "end": 198,
-              "body": [
-                {
-                  "type": "TSMethodSignature",
-                  "start": 182,
-                  "end": 192,
-                  "accessibility": null,
-                  "computed": false,
-                  "key": {
-                    "type": "Identifier",
-                    "start": 182,
-                    "end": 186,
-                    "decorators": [],
-                    "name": "getB",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "kind": "method",
-                  "optional": false,
-                  "params": [],
-                  "readonly": false,
-                  "returnType": {
-                    "type": "TSTypeAnnotation",
-                    "start": 188,
-                    "end": 191,
-                    "typeAnnotation": {
-                      "type": "TSTypeReference",
-                      "start": 190,
-                      "end": 191,
-                      "typeArguments": null,
-                      "typeName": {
-                        "type": "Identifier",
-                        "start": 190,
-                        "end": 191,
-                        "decorators": [],
-                        "name": "B",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    }
-                  },
-                  "static": false,
-                  "typeParameters": null
-                }
-              ]
-            },
-            "declare": false,
-            "extends": [],
             "id": {
               "type": "Identifier",
               "start": 170,
@@ -475,19 +430,64 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "typeParameters": null
+            "typeParameters": null,
+            "extends": [],
+            "body": {
+              "type": "TSInterfaceBody",
+              "start": 172,
+              "end": 198,
+              "body": [
+                {
+                  "type": "TSMethodSignature",
+                  "start": 182,
+                  "end": 192,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 182,
+                    "end": 186,
+                    "decorators": [],
+                    "name": "getB",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "computed": false,
+                  "optional": false,
+                  "kind": "method",
+                  "typeParameters": null,
+                  "params": [],
+                  "returnType": {
+                    "type": "TSTypeAnnotation",
+                    "start": 188,
+                    "end": 191,
+                    "typeAnnotation": {
+                      "type": "TSTypeReference",
+                      "start": 190,
+                      "end": 191,
+                      "typeName": {
+                        "type": "Identifier",
+                        "start": 190,
+                        "end": 191,
+                        "decorators": [],
+                        "name": "B",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "typeArguments": null
+                    }
+                  },
+                  "accessibility": null,
+                  "readonly": false,
+                  "static": false
+                }
+              ]
+            },
+            "declare": false
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 148,
-        "end": 153,
-        "raw": "\"./a\"",
-        "value": "./a"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -505,14 +505,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 22,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 16,
-        "end": 21,
-        "raw": "\"./a\"",
-        "value": "./a"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -527,7 +519,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 8,
@@ -536,24 +527,25 @@ __ESTREE_TEST__:PASS:
             "name": "A",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 16,
+        "end": 21,
+        "value": "./a",
+        "raw": "\"./a\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 23,
       "end": 45,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 41,
-        "end": 44,
-        "raw": "\"C\"",
-        "value": "C"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -568,7 +560,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 31,
@@ -577,17 +568,25 @@ __ESTREE_TEST__:PASS:
             "name": "Cls",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 41,
+        "end": 44,
+        "value": "C",
+        "raw": "\"C\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 47,
       "end": 101,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 47,
@@ -597,12 +596,10 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 47,
           "end": 65,
-          "computed": false,
           "object": {
             "type": "MemberExpression",
             "start": 47,
             "end": 58,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 47,
@@ -612,7 +609,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 49,
@@ -621,9 +617,10 @@ __ESTREE_TEST__:PASS:
               "name": "prototype",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "optional": false,
+            "computed": false
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 59,
@@ -632,13 +629,21 @@ __ESTREE_TEST__:PASS:
             "name": "getCls",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "FunctionExpression",
           "start": 68,
           "end": 101,
+          "id": null,
+          "generator": false,
           "async": false,
+          "declare": false,
+          "typeParameters": null,
+          "params": [],
+          "returnType": null,
           "body": {
             "type": "BlockStatement",
             "start": 80,
@@ -660,21 +665,22 @@ __ESTREE_TEST__:PASS:
               }
             ]
           },
-          "declare": false,
-          "expression": false,
-          "generator": false,
-          "id": null,
-          "params": [],
-          "returnType": null,
-          "typeParameters": null
+          "expression": false
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "TSModuleDeclaration",
       "start": 103,
       "end": 174,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 118,
+        "end": 123,
+        "value": "./a",
+        "raw": "\"./a\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 124,
@@ -684,57 +690,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSInterfaceDeclaration",
             "start": 130,
             "end": 172,
-            "body": {
-              "type": "TSInterfaceBody",
-              "start": 142,
-              "end": 172,
-              "body": [
-                {
-                  "type": "TSMethodSignature",
-                  "start": 152,
-                  "end": 166,
-                  "accessibility": null,
-                  "computed": false,
-                  "key": {
-                    "type": "Identifier",
-                    "start": 152,
-                    "end": 158,
-                    "decorators": [],
-                    "name": "getCls",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "kind": "method",
-                  "optional": false,
-                  "params": [],
-                  "readonly": false,
-                  "returnType": {
-                    "type": "TSTypeAnnotation",
-                    "start": 160,
-                    "end": 165,
-                    "typeAnnotation": {
-                      "type": "TSTypeReference",
-                      "start": 162,
-                      "end": 165,
-                      "typeArguments": null,
-                      "typeName": {
-                        "type": "Identifier",
-                        "start": 162,
-                        "end": 165,
-                        "decorators": [],
-                        "name": "Cls",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    }
-                  },
-                  "static": false,
-                  "typeParameters": null
-                }
-              ]
-            },
-            "declare": false,
-            "extends": [],
             "id": {
               "type": "Identifier",
               "start": 140,
@@ -744,19 +699,64 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "typeParameters": null
+            "typeParameters": null,
+            "extends": [],
+            "body": {
+              "type": "TSInterfaceBody",
+              "start": 142,
+              "end": 172,
+              "body": [
+                {
+                  "type": "TSMethodSignature",
+                  "start": 152,
+                  "end": 166,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 152,
+                    "end": 158,
+                    "decorators": [],
+                    "name": "getCls",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "computed": false,
+                  "optional": false,
+                  "kind": "method",
+                  "typeParameters": null,
+                  "params": [],
+                  "returnType": {
+                    "type": "TSTypeAnnotation",
+                    "start": 160,
+                    "end": 165,
+                    "typeAnnotation": {
+                      "type": "TSTypeReference",
+                      "start": 162,
+                      "end": 165,
+                      "typeName": {
+                        "type": "Identifier",
+                        "start": 162,
+                        "end": 165,
+                        "decorators": [],
+                        "name": "Cls",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "typeArguments": null
+                    }
+                  },
+                  "accessibility": null,
+                  "readonly": false,
+                  "static": false
+                }
+              ]
+            },
+            "declare": false
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 118,
-        "end": 123,
-        "raw": "\"./a\"",
-        "value": "./a"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -774,14 +774,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 22,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 16,
-        "end": 21,
-        "raw": "\"./a\"",
-        "value": "./a"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -796,7 +788,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 8,
@@ -805,54 +796,63 @@ __ESTREE_TEST__:PASS:
             "name": "A",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 16,
+        "end": 21,
+        "value": "./a",
+        "raw": "\"./a\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 23,
       "end": 34,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 30,
         "end": 33,
-        "raw": "\"d\"",
-        "value": "d"
+        "value": "d",
+        "raw": "\"d\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 35,
       "end": 46,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 42,
         "end": 45,
-        "raw": "\"e\"",
-        "value": "e"
+        "value": "e",
+        "raw": "\"e\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 48,
       "end": 57,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 52,
           "end": 56,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 52,
@@ -868,7 +868,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 55,
                 "end": 56,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 55,
@@ -877,26 +876,27 @@ __ESTREE_TEST__:PASS:
                   "name": "A",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 58,
       "end": 87,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 62,
           "end": 86,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 62,
@@ -910,27 +910,22 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 66,
             "end": 86,
-            "arguments": [],
             "callee": {
               "type": "MemberExpression",
               "start": 66,
               "end": 84,
-              "computed": false,
               "object": {
                 "type": "MemberExpression",
                 "start": 66,
                 "end": 76,
-                "computed": false,
                 "object": {
                   "type": "CallExpression",
                   "start": 66,
                   "end": 74,
-                  "arguments": [],
                   "callee": {
                     "type": "MemberExpression",
                     "start": 66,
                     "end": 72,
-                    "computed": false,
                     "object": {
                       "type": "Identifier",
                       "start": 66,
@@ -940,7 +935,6 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "optional": false,
                     "property": {
                       "type": "Identifier",
                       "start": 68,
@@ -949,12 +943,14 @@ __ESTREE_TEST__:PASS:
                       "name": "getB",
                       "optional": false,
                       "typeAnnotation": null
-                    }
+                    },
+                    "optional": false,
+                    "computed": false
                   },
-                  "optional": false,
-                  "typeArguments": null
+                  "typeArguments": null,
+                  "arguments": [],
+                  "optional": false
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 75,
@@ -963,9 +959,10 @@ __ESTREE_TEST__:PASS:
                   "name": "x",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 77,
@@ -974,26 +971,29 @@ __ESTREE_TEST__:PASS:
                 "name": "toFixed",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 88,
       "end": 123,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 92,
           "end": 122,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 92,
@@ -1007,27 +1007,22 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 96,
             "end": 122,
-            "arguments": [],
             "callee": {
               "type": "MemberExpression",
               "start": 96,
               "end": 120,
-              "computed": false,
               "object": {
                 "type": "MemberExpression",
                 "start": 96,
                 "end": 108,
-                "computed": false,
                 "object": {
                   "type": "CallExpression",
                   "start": 96,
                   "end": 106,
-                  "arguments": [],
                   "callee": {
                     "type": "MemberExpression",
                     "start": 96,
                     "end": 104,
-                    "computed": false,
                     "object": {
                       "type": "Identifier",
                       "start": 96,
@@ -1037,7 +1032,6 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "optional": false,
                     "property": {
                       "type": "Identifier",
                       "start": 98,
@@ -1046,12 +1040,14 @@ __ESTREE_TEST__:PASS:
                       "name": "getCls",
                       "optional": false,
                       "typeAnnotation": null
-                    }
+                    },
+                    "optional": false,
+                    "computed": false
                   },
-                  "optional": false,
-                  "typeArguments": null
+                  "typeArguments": null,
+                  "arguments": [],
+                  "optional": false
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 107,
@@ -1060,9 +1056,10 @@ __ESTREE_TEST__:PASS:
                   "name": "y",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 109,
@@ -1071,15 +1068,18 @@ __ESTREE_TEST__:PASS:
                 "name": "toLowerCase",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     }
   ],
   "sourceType": "module",

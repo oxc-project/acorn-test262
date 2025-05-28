@@ -30,6 +30,12 @@
           "type": "LabeledStatement",
           "start": 861,
           "end": 866,
+          "label": {
+            "type": "Identifier",
+            "start": 861,
+            "end": 862,
+            "name": "x"
+          },
           "body": {
             "type": "ExpressionStatement",
             "start": 864,
@@ -41,12 +47,6 @@
               "value": 42,
               "raw": "42"
             }
-          },
-          "label": {
-            "type": "Identifier",
-            "start": 861,
-            "end": 862,
-            "name": "x"
           }
         }
       ]

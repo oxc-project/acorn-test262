@@ -9,95 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 108,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 22,
-        "end": 108,
-        "body": [
-          {
-            "type": "MethodDefinition",
-            "start": 28,
-            "end": 106,
-            "accessibility": "public",
-            "computed": false,
-            "decorators": [],
-            "key": {
-              "type": "Identifier",
-              "start": 35,
-              "end": 53,
-              "decorators": [],
-              "name": "onToolbarItemClick",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
-            "value": {
-              "type": "FunctionExpression",
-              "start": 53,
-              "end": 106,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 56,
-                "end": 106,
-                "body": [
-                  {
-                    "type": "ExpressionStatement",
-                    "start": 66,
-                    "end": 100,
-                    "directive": null,
-                    "expression": {
-                      "type": "CallExpression",
-                      "start": 66,
-                      "end": 99,
-                      "arguments": [],
-                      "callee": {
-                        "type": "MemberExpression",
-                        "start": 66,
-                        "end": 97,
-                        "computed": false,
-                        "object": {
-                          "type": "Identifier",
-                          "start": 66,
-                          "end": 76,
-                          "decorators": [],
-                          "name": "WITDialogs",
-                          "optional": false,
-                          "typeAnnotation": null
-                        },
-                        "optional": false,
-                        "property": {
-                          "type": "Identifier",
-                          "start": 77,
-                          "end": 97,
-                          "decorators": [],
-                          "name": "createCopyOfWorkItem",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
-                      },
-                      "optional": false,
-                      "typeArguments": null
-                    }
-                  }
-                ]
-              },
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
-          }
-        ]
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -108,16 +19,118 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 22,
+        "end": 108,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 28,
+            "end": 106,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 35,
+              "end": 53,
+              "decorators": [],
+              "name": "onToolbarItemClick",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "value": {
+              "type": "FunctionExpression",
+              "start": 53,
+              "end": 106,
+              "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
+              "body": {
+                "type": "BlockStatement",
+                "start": 56,
+                "end": 106,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 66,
+                    "end": 100,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 66,
+                      "end": 99,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 66,
+                        "end": 97,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 66,
+                          "end": 76,
+                          "decorators": [],
+                          "name": "WITDialogs",
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 77,
+                          "end": 97,
+                          "decorators": [],
+                          "name": "createCopyOfWorkItem",
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
+                        "optional": false,
+                        "computed": false
+                      },
+                      "typeArguments": null,
+                      "arguments": [],
+                      "optional": false
+                    },
+                    "directive": null
+                  }
+                ]
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": "public"
+          }
+        ]
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 109,
       "end": 203,
-      "abstract": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 115,
+        "end": 141,
+        "decorators": [],
+        "name": "CreateCopyOfWorkItemDialog",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
       "body": {
         "type": "ClassBody",
         "start": 142,
@@ -127,8 +140,6 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 148,
             "end": 201,
-            "accessibility": "public",
-            "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
@@ -139,15 +150,17 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "FunctionExpression",
               "start": 170,
               "end": 201,
+              "id": null,
+              "generator": false,
               "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
               "body": {
                 "type": "BlockStatement",
                 "start": 173,
@@ -161,53 +174,30 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 190,
                       "end": 194,
-                      "raw": "null",
-                      "value": null
+                      "value": null,
+                      "raw": "null"
                     }
                   }
                 ]
               },
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": "public"
           }
         ]
       },
-      "declare": false,
-      "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 115,
-        "end": 141,
-        "decorators": [],
-        "name": "CreateCopyOfWorkItemDialog",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 204,
       "end": 257,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 254,
-        "end": 257,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 213,
@@ -216,6 +206,35 @@ __ESTREE_TEST__:PASS:
         "name": "createWorkItemDialog",
         "optional": false,
         "typeAnnotation": null
+      },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": {
+        "type": "TSTypeParameterDeclaration",
+        "start": 233,
+        "end": 237,
+        "params": [
+          {
+            "type": "TSTypeParameter",
+            "start": 234,
+            "end": 236,
+            "name": {
+              "type": "Identifier",
+              "start": 234,
+              "end": 236,
+              "decorators": [],
+              "name": "P0",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          }
+        ]
       },
       "params": [
         {
@@ -233,7 +252,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 250,
               "end": 252,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 250,
@@ -242,44 +260,39 @@ __ESTREE_TEST__:PASS:
                 "name": "P0",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "typeArguments": null
             }
           }
         }
       ],
       "returnType": null,
-      "typeParameters": {
-        "type": "TSTypeParameterDeclaration",
-        "start": 233,
-        "end": 237,
-        "params": [
-          {
-            "type": "TSTypeParameter",
-            "start": 234,
-            "end": 236,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 234,
-              "end": 236,
-              "decorators": [],
-              "name": "P0",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          }
-        ]
-      }
+      "body": {
+        "type": "BlockStatement",
+        "start": 254,
+        "end": 257,
+        "body": []
+      },
+      "expression": false
     },
     {
       "type": "ClassDeclaration",
       "start": 258,
       "end": 385,
-      "abstract": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 264,
+        "end": 274,
+        "decorators": [],
+        "name": "WITDialogs",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
       "body": {
         "type": "ClassBody",
         "start": 275,
@@ -289,8 +302,6 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 281,
             "end": 383,
-            "accessibility": "public",
-            "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
@@ -301,15 +312,17 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": true,
             "value": {
               "type": "FunctionExpression",
               "start": 315,
               "end": 383,
+              "id": null,
+              "generator": false,
               "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
               "body": {
                 "type": "BlockStatement",
                 "start": 318,
@@ -319,11 +332,20 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 328,
                     "end": 377,
-                    "directive": null,
                     "expression": {
                       "type": "CallExpression",
                       "start": 328,
                       "end": 376,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 328,
+                        "end": 348,
+                        "decorators": [],
+                        "name": "createWorkItemDialog",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "typeArguments": null,
                       "arguments": [
                         {
                           "type": "Identifier",
@@ -335,47 +357,25 @@ __ESTREE_TEST__:PASS:
                           "typeAnnotation": null
                         }
                       ],
-                      "callee": {
-                        "type": "Identifier",
-                        "start": 328,
-                        "end": 348,
-                        "decorators": [],
-                        "name": "createWorkItemDialog",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "optional": false,
-                      "typeArguments": null
-                    }
+                      "optional": false
+                    },
+                    "directive": null
                   }
                 ]
               },
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true,
+            "override": false,
+            "optional": false,
+            "accessibility": "public"
           }
         ]
       },
-      "declare": false,
-      "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 264,
-        "end": 274,
-        "decorators": [],
-        "name": "WITDialogs",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

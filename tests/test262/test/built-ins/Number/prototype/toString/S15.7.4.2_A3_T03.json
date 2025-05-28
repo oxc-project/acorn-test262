@@ -16,6 +16,7 @@
             "type": "VariableDeclaration",
             "start": 272,
             "end": 312,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -51,8 +52,8 @@
                         "end": 296,
                         "name": "prototype"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -60,8 +61,8 @@
                       "end": 305,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -75,8 +76,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ThrowStatement",
@@ -137,6 +137,7 @@
             "type": "VariableDeclaration",
             "start": 424,
             "end": 462,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -179,8 +180,8 @@
                       "end": 455,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -194,8 +195,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ThrowStatement",
@@ -256,6 +256,7 @@
             "type": "VariableDeclaration",
             "start": 572,
             "end": 611,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -306,8 +307,8 @@
                       "end": 604,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -321,8 +322,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ThrowStatement",
@@ -383,6 +383,7 @@
             "type": "VariableDeclaration",
             "start": 722,
             "end": 762,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -422,14 +423,14 @@
                             "start": 742,
                             "end": 744,
                             "operator": "-",
-                            "prefix": true,
                             "argument": {
                               "type": "Literal",
                               "start": 743,
                               "end": 744,
                               "value": 1,
                               "raw": "1"
-                            }
+                            },
+                            "prefix": true
                           }
                         ]
                       }
@@ -440,8 +441,8 @@
                       "end": 755,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -455,8 +456,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ThrowStatement",
@@ -517,6 +517,7 @@
             "type": "VariableDeclaration",
             "start": 874,
             "end": 913,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -567,8 +568,8 @@
                       "end": 906,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -582,8 +583,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ThrowStatement",
@@ -644,6 +644,7 @@
             "type": "VariableDeclaration",
             "start": 1024,
             "end": 1072,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -694,8 +695,8 @@
                               "end": 1054,
                               "name": "NaN"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -706,8 +707,8 @@
                       "end": 1065,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -721,8 +722,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ThrowStatement",
@@ -783,6 +783,7 @@
             "type": "VariableDeclaration",
             "start": 1192,
             "end": 1254,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -833,8 +834,8 @@
                               "end": 1236,
                               "name": "POSITIVE_INFINITY"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -845,8 +846,8 @@
                       "end": 1247,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -860,8 +861,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ThrowStatement",
@@ -922,6 +922,7 @@
             "type": "VariableDeclaration",
             "start": 1388,
             "end": 1450,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -972,8 +973,8 @@
                               "end": 1432,
                               "name": "NEGATIVE_INFINITY"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           }
                         ]
                       }
@@ -984,8 +985,8 @@
                       "end": 1443,
                       "name": "toString"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "arguments": [
                     {
@@ -999,8 +1000,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ThrowStatement",

@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 16,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 15,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -30,7 +30,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 9,
                 "end": 15,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 9,
@@ -39,21 +38,64 @@ __ESTREE_TEST__:PASS:
                   "name": "Object",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 17,
       "end": 154,
-      "alternate": null,
+      "test": {
+        "type": "CallExpression",
+        "start": 21,
+        "end": 44,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 21,
+          "end": 39,
+          "object": {
+            "type": "Identifier",
+            "start": 21,
+            "end": 32,
+            "decorators": [],
+            "name": "ArrayBuffer",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 33,
+            "end": 39,
+            "decorators": [],
+            "name": "isView",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "computed": false
+        },
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 40,
+            "end": 43,
+            "decorators": [],
+            "name": "obj",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        ],
+        "optional": false
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 46,
@@ -63,12 +105,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 122,
             "end": 152,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 126,
                 "end": 151,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 126,
@@ -84,7 +126,6 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 130,
                       "end": 145,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 130,
@@ -93,7 +134,8 @@ __ESTREE_TEST__:PASS:
                         "name": "ArrayBufferView",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     }
                   }
                 },
@@ -105,57 +147,15 @@ __ESTREE_TEST__:PASS:
                   "name": "obj",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           }
         ]
       },
-      "test": {
-        "type": "CallExpression",
-        "start": 21,
-        "end": 44,
-        "arguments": [
-          {
-            "type": "Identifier",
-            "start": 40,
-            "end": 43,
-            "decorators": [],
-            "name": "obj",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        ],
-        "callee": {
-          "type": "MemberExpression",
-          "start": 21,
-          "end": 39,
-          "computed": false,
-          "object": {
-            "type": "Identifier",
-            "start": 21,
-            "end": 32,
-            "decorators": [],
-            "name": "ArrayBuffer",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "optional": false,
-          "property": {
-            "type": "Identifier",
-            "start": 33,
-            "end": 39,
-            "decorators": [],
-            "name": "isView",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
-        "optional": false,
-        "typeArguments": null
-      }
+      "alternate": null
     }
   ],
   "sourceType": "script",

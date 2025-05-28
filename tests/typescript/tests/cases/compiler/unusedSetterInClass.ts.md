@@ -9,7 +9,20 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 134,
-      "abstract": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 6,
+        "end": 14,
+        "decorators": [],
+        "name": "Employee",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
       "body": {
         "type": "ClassBody",
         "start": 15,
@@ -19,11 +32,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 21,
             "end": 47,
-            "accessibility": "private",
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
               "start": 29,
@@ -33,10 +42,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 38,
@@ -47,14 +52,20 @@ __ESTREE_TEST__:PASS:
                 "end": 46
               }
             },
-            "value": null
+            "value": null,
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": "private"
           },
           {
             "type": "MethodDefinition",
             "start": 53,
             "end": 132,
-            "accessibility": "private",
-            "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
@@ -65,68 +76,15 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "set",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "FunctionExpression",
               "start": 73,
               "end": 132,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 91,
-                "end": 132,
-                "body": [
-                  {
-                    "type": "ExpressionStatement",
-                    "start": 101,
-                    "end": 126,
-                    "directive": null,
-                    "expression": {
-                      "type": "AssignmentExpression",
-                      "start": 101,
-                      "end": 125,
-                      "operator": "=",
-                      "left": {
-                        "type": "MemberExpression",
-                        "start": 101,
-                        "end": 115,
-                        "computed": false,
-                        "object": {
-                          "type": "ThisExpression",
-                          "start": 101,
-                          "end": 105
-                        },
-                        "optional": false,
-                        "property": {
-                          "type": "Identifier",
-                          "start": 106,
-                          "end": 115,
-                          "decorators": [],
-                          "name": "_fullName",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
-                      },
-                      "right": {
-                        "type": "Identifier",
-                        "start": 118,
-                        "end": 125,
-                        "decorators": [],
-                        "name": "newName",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    }
-                  }
-                ]
-              },
-              "declare": false,
-              "expression": false,
-              "generator": false,
               "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -148,26 +106,68 @@ __ESTREE_TEST__:PASS:
                 }
               ],
               "returnType": null,
-              "typeParameters": null
-            }
+              "body": {
+                "type": "BlockStatement",
+                "start": 91,
+                "end": 132,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 101,
+                    "end": 126,
+                    "expression": {
+                      "type": "AssignmentExpression",
+                      "start": 101,
+                      "end": 125,
+                      "operator": "=",
+                      "left": {
+                        "type": "MemberExpression",
+                        "start": 101,
+                        "end": 115,
+                        "object": {
+                          "type": "ThisExpression",
+                          "start": 101,
+                          "end": 105
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 106,
+                          "end": 115,
+                          "decorators": [],
+                          "name": "_fullName",
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
+                        "optional": false,
+                        "computed": false
+                      },
+                      "right": {
+                        "type": "Identifier",
+                        "start": 118,
+                        "end": 125,
+                        "decorators": [],
+                        "name": "newName",
+                        "optional": false,
+                        "typeAnnotation": null
+                      }
+                    },
+                    "directive": null
+                  }
+                ]
+              },
+              "expression": false
+            },
+            "kind": "set",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": "private"
           }
         ]
       },
-      "declare": false,
-      "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 6,
-        "end": 14,
-        "decorators": [],
-        "name": "Employee",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

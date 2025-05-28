@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 86,
+      "id": {
+        "type": "Identifier",
+        "start": 18,
+        "end": 21,
+        "decorators": [],
+        "name": "JSX",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 22,
@@ -18,13 +27,16 @@ __ESTREE_TEST__:PASS:
             "type": "TSInterfaceDeclaration",
             "start": 26,
             "end": 84,
-            "body": {
-              "type": "TSInterfaceBody",
-              "start": 82,
-              "end": 84,
-              "body": []
+            "id": {
+              "type": "Identifier",
+              "start": 36,
+              "end": 53,
+              "decorators": [],
+              "name": "IntrinsicElements",
+              "optional": false,
+              "typeAnnotation": null
             },
-            "declare": false,
+            "typeParameters": null,
             "extends": [
               {
                 "type": "TSInterfaceHeritage",
@@ -58,58 +70,46 @@ __ESTREE_TEST__:PASS:
                 }
               }
             ],
-            "id": {
-              "type": "Identifier",
-              "start": 36,
-              "end": 53,
-              "decorators": [],
-              "name": "IntrinsicElements",
-              "optional": false,
-              "typeAnnotation": null
+            "body": {
+              "type": "TSInterfaceBody",
+              "start": 82,
+              "end": 84,
+              "body": []
             },
-            "typeParameters": null
+            "declare": false
           }
         ]
       },
+      "kind": "namespace",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 18,
-        "end": 21,
-        "decorators": [],
-        "name": "JSX",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "namespace"
+      "global": false
     },
     {
       "type": "ExpressionStatement",
       "start": 88,
       "end": 94,
-      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 88,
         "end": 93,
-        "children": [],
-        "closingElement": null,
         "openingElement": {
           "type": "JSXOpeningElement",
           "start": 88,
           "end": 93,
-          "attributes": [],
           "name": {
             "type": "JSXIdentifier",
             "start": 89,
             "end": 90,
             "name": "a"
           },
-          "selfClosing": true,
-          "typeArguments": null
-        }
-      }
+          "typeArguments": null,
+          "attributes": [],
+          "selfClosing": true
+        },
+        "children": [],
+        "closingElement": null
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

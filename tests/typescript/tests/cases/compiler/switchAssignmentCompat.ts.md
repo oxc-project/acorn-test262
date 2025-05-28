@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 13,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 10,
-        "end": 13,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -27,28 +19,35 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 10,
+        "end": 13,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "SwitchStatement",
       "start": 15,
       "end": 68,
+      "discriminant": {
+        "type": "Literal",
+        "start": 23,
+        "end": 24,
+        "value": 0,
+        "raw": "0"
+      },
       "cases": [
         {
           "type": "SwitchCase",
           "start": 32,
           "end": 48,
-          "consequent": [
-            {
-              "type": "BreakStatement",
-              "start": 42,
-              "end": 48,
-              "label": null
-            }
-          ],
           "test": {
             "type": "Identifier",
             "start": 37,
@@ -57,16 +56,17 @@ __ESTREE_TEST__:PASS:
             "name": "Foo",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "consequent": [
+            {
+              "type": "BreakStatement",
+              "start": 42,
+              "end": 48,
+              "label": null
+            }
+          ]
         }
-      ],
-      "discriminant": {
-        "type": "Literal",
-        "start": 23,
-        "end": 24,
-        "raw": "0",
-        "value": 0
-      }
+      ]
     }
   ],
   "sourceType": "script",

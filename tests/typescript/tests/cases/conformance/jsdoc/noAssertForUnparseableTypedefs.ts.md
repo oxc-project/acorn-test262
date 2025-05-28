@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 35,
       "end": 63,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 56,
-        "end": 62,
-        "raw": "'nope'",
-        "value": "nope"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -31,7 +23,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 44,
@@ -40,11 +31,20 @@ __ESTREE_TEST__:PASS:
             "name": "nope",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 56,
+        "end": 62,
+        "value": "nope",
+        "raw": "'nope'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

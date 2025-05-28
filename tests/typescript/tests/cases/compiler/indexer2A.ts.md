@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 29,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 26,
-        "end": 29,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -27,16 +19,37 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 26,
+        "end": 29,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 30,
       "end": 207,
-      "abstract": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 36,
+        "end": 54,
+        "decorators": [],
+        "name": "IDirectChildrenMap",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
       "body": {
         "type": "ClassBody",
         "start": 55,
@@ -46,8 +59,6 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 118,
             "end": 159,
-            "accessibility": null,
-            "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
@@ -58,20 +69,15 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
               "start": 132,
               "end": 159,
-              "async": false,
-              "body": null,
-              "declare": false,
-              "expression": false,
-              "generator": false,
               "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -102,14 +108,20 @@ __ESTREE_TEST__:PASS:
                   "end": 159
                 }
               },
-              "typeParameters": null
-            }
+              "body": null,
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null
           },
           {
             "type": "TSIndexSignature",
             "start": 164,
             "end": 205,
-            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -130,8 +142,6 @@ __ESTREE_TEST__:PASS:
                 }
               }
             ],
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 182,
@@ -144,7 +154,6 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 184,
                   "end": 203,
-                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 184,
@@ -153,39 +162,30 @@ __ESTREE_TEST__:PASS:
                     "name": "IHeapObjectProperty",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "typeArguments": null
                 }
               }
-            }
+            },
+            "readonly": false,
+            "static": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
-      "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 36,
-        "end": 54,
-        "decorators": [],
-        "name": "IDirectChildrenMap",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 208,
       "end": 255,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 212,
           "end": 254,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 212,
@@ -199,17 +199,10 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeAssertion",
             "start": 232,
             "end": 254,
-            "expression": {
-              "type": "ObjectExpression",
-              "start": 252,
-              "end": 254,
-              "properties": []
-            },
             "typeAnnotation": {
               "type": "TSTypeReference",
               "start": 233,
               "end": 251,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 233,
@@ -218,13 +211,20 @@ __ESTREE_TEST__:PASS:
                 "name": "IDirectChildrenMap",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "typeArguments": null
+            },
+            "expression": {
+              "type": "ObjectExpression",
+              "start": 252,
+              "end": 254,
+              "properties": []
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

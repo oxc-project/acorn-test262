@@ -9,17 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 43,
       "end": 73,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 50,
         "end": 73,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 56,
             "end": 72,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 56,
@@ -33,16 +32,9 @@ __ESTREE_TEST__:PASS:
               "type": "ArrowFunctionExpression",
               "start": 62,
               "end": 72,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 70,
-                "end": 72,
-                "body": []
-              },
               "expression": false,
-              "generator": false,
-              "id": null,
+              "async": false,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -55,32 +47,39 @@ __ESTREE_TEST__:PASS:
                 }
               ],
               "returnType": null,
-              "typeParameters": null
-            }
+              "body": {
+                "type": "BlockStatement",
+                "start": 70,
+                "end": 72,
+                "body": []
+              },
+              "id": null,
+              "generator": false
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 138,
       "end": 164,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 145,
         "end": 164,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 151,
             "end": 163,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 151,
@@ -99,35 +98,35 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 157,
                   "end": 162,
-                  "raw": "'abc'",
-                  "value": "abc"
+                  "value": "abc",
+                  "raw": "'abc'"
                 }
               ]
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 182,
       "end": 206,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 189,
         "end": 206,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 195,
             "end": 205,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 195,
@@ -146,35 +145,35 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 201,
                   "end": 204,
-                  "raw": "123",
-                  "value": 123
+                  "value": 123,
+                  "raw": "123"
                 }
               ]
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 273,
       "end": 305,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 280,
         "end": 305,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 286,
             "end": 304,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 286,
@@ -188,16 +187,9 @@ __ESTREE_TEST__:PASS:
               "type": "ArrowFunctionExpression",
               "start": 292,
               "end": 304,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 302,
-                "end": 304,
-                "body": []
-              },
               "expression": false,
-              "generator": false,
-              "id": null,
+              "async": false,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -219,32 +211,39 @@ __ESTREE_TEST__:PASS:
                 }
               ],
               "returnType": null,
-              "typeParameters": null
-            }
+              "body": {
+                "type": "BlockStatement",
+                "start": 302,
+                "end": 304,
+                "body": []
+              },
+              "id": null,
+              "generator": false
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 389,
       "end": 421,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 396,
         "end": 421,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 402,
             "end": 420,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 402,
@@ -258,16 +257,9 @@ __ESTREE_TEST__:PASS:
               "type": "ArrowFunctionExpression",
               "start": 408,
               "end": 420,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 418,
-                "end": 420,
-                "body": []
-              },
               "expression": false,
-              "generator": false,
-              "id": null,
+              "async": false,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -289,32 +281,39 @@ __ESTREE_TEST__:PASS:
                 }
               ],
               "returnType": null,
-              "typeParameters": null
-            }
+              "body": {
+                "type": "BlockStatement",
+                "start": 418,
+                "end": 420,
+                "body": []
+              },
+              "id": null,
+              "generator": false
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 526,
       "end": 558,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 533,
         "end": 558,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 539,
             "end": 557,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 539,
@@ -328,16 +327,9 @@ __ESTREE_TEST__:PASS:
               "type": "ArrowFunctionExpression",
               "start": 545,
               "end": 557,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 555,
-                "end": 557,
-                "body": []
-              },
               "expression": false,
-              "generator": false,
-              "id": null,
+              "async": false,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -359,32 +351,39 @@ __ESTREE_TEST__:PASS:
                 }
               ],
               "returnType": null,
-              "typeParameters": null
-            }
+              "body": {
+                "type": "BlockStatement",
+                "start": 555,
+                "end": 557,
+                "body": []
+              },
+              "id": null,
+              "generator": false
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 666,
       "end": 698,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 673,
         "end": 698,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 679,
             "end": 697,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 679,
@@ -398,16 +397,9 @@ __ESTREE_TEST__:PASS:
               "type": "ArrowFunctionExpression",
               "start": 685,
               "end": 697,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 695,
-                "end": 697,
-                "body": []
-              },
               "expression": false,
-              "generator": false,
-              "id": null,
+              "async": false,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -429,32 +421,39 @@ __ESTREE_TEST__:PASS:
                 }
               ],
               "returnType": null,
-              "typeParameters": null
-            }
+              "body": {
+                "type": "BlockStatement",
+                "start": 695,
+                "end": 697,
+                "body": []
+              },
+              "id": null,
+              "generator": false
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 815,
       "end": 847,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 822,
         "end": 847,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 828,
             "end": 846,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 828,
@@ -468,16 +467,9 @@ __ESTREE_TEST__:PASS:
               "type": "ArrowFunctionExpression",
               "start": 834,
               "end": 846,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 844,
-                "end": 846,
-                "body": []
-              },
               "expression": false,
-              "generator": false,
-              "id": null,
+              "async": false,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -499,36 +491,33 @@ __ESTREE_TEST__:PASS:
                 }
               ],
               "returnType": null,
-              "typeParameters": null
-            }
+              "body": {
+                "type": "BlockStatement",
+                "start": 844,
+                "end": 846,
+                "body": []
+              },
+              "id": null,
+              "generator": false
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 892,
       "end": 920,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 899,
         "end": 920,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 918,
-          "end": 920,
-          "body": []
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 908,
@@ -538,6 +527,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [
           {
             "type": "Identifier",
@@ -550,11 +543,18 @@ __ESTREE_TEST__:PASS:
           }
         ],
         "returnType": null,
-        "typeParameters": null
+        "body": {
+          "type": "BlockStatement",
+          "start": 918,
+          "end": 920,
+          "body": []
+        },
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

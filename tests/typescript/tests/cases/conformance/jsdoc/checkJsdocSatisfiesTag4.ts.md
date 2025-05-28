@@ -42,7 +42,7 @@ __ESTREE_TEST__:PASS:
             "type": "Property",
             "start": 100,
             "end": 104,
-            "computed": false,
+            "kind": "init",
             "key": {
               "type": "Identifier",
               "start": 100,
@@ -52,17 +52,17 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "init",
-            "method": false,
-            "optional": false,
-            "shorthand": false,
             "value": {
               "type": "Literal",
               "start": 103,
               "end": 104,
-              "raw": "1",
-              "value": 1
-            }
+              "value": 1,
+              "raw": "1"
+            },
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "optional": false
           }
         ]
       },

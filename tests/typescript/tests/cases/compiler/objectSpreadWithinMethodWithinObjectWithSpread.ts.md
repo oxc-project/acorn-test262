@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 15,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 6,
           "end": 14,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
@@ -29,22 +29,22 @@ __ESTREE_TEST__:PASS:
             "start": 12,
             "end": 14,
             "properties": []
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 16,
       "end": 135,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 22,
           "end": 134,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 22,
@@ -77,7 +77,7 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 44,
                 "end": 132,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 44,
@@ -87,15 +87,17 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": true,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "FunctionExpression",
                   "start": 48,
                   "end": 132,
+                  "id": null,
+                  "generator": false,
                   "async": false,
+                  "declare": false,
+                  "typeParameters": null,
+                  "params": [],
+                  "returnType": null,
                   "body": {
                     "type": "BlockStatement",
                     "start": 51,
@@ -128,7 +130,7 @@ __ESTREE_TEST__:PASS:
                               "type": "Property",
                               "start": 102,
                               "end": 115,
-                              "computed": false,
+                              "kind": "init",
                               "key": {
                                 "type": "Identifier",
                                 "start": 102,
@@ -138,38 +140,36 @@ __ESTREE_TEST__:PASS:
                                 "optional": false,
                                 "typeAnnotation": null
                               },
-                              "kind": "init",
-                              "method": false,
-                              "optional": false,
-                              "shorthand": false,
                               "value": {
                                 "type": "Literal",
                                 "start": 112,
                                 "end": 115,
-                                "raw": "213",
-                                "value": 213
-                              }
+                                "value": 213,
+                                "raw": "213"
+                              },
+                              "method": false,
+                              "shorthand": false,
+                              "computed": false,
+                              "optional": false
                             }
                           ]
                         }
                       }
                     ]
                   },
-                  "declare": false,
-                  "expression": false,
-                  "generator": false,
-                  "id": null,
-                  "params": [],
-                  "returnType": null,
-                  "typeParameters": null
-                }
+                  "expression": false
+                },
+                "method": true,
+                "shorthand": false,
+                "computed": false,
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "script",

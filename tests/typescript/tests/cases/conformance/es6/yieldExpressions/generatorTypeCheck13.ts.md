@@ -9,48 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 79,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 48,
-        "end": 79,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 54,
-            "end": 62,
-            "directive": null,
-            "expression": {
-              "type": "YieldExpression",
-              "start": 54,
-              "end": 61,
-              "argument": {
-                "type": "Literal",
-                "start": 60,
-                "end": 61,
-                "raw": "0",
-                "value": 0
-              },
-              "delegate": false
-            }
-          },
-          {
-            "type": "ReturnStatement",
-            "start": 67,
-            "end": 77,
-            "argument": {
-              "type": "Literal",
-              "start": 74,
-              "end": 76,
-              "raw": "\"\"",
-              "value": ""
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": true,
       "id": {
         "type": "Identifier",
         "start": 10,
@@ -60,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": true,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
@@ -69,6 +31,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 15,
           "end": 47,
+          "typeName": {
+            "type": "Identifier",
+            "start": 15,
+            "end": 31,
+            "decorators": [],
+            "name": "IterableIterator",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
             "start": 31,
@@ -85,19 +56,48 @@ __ESTREE_TEST__:PASS:
                 "end": 46
               }
             ]
-          },
-          "typeName": {
-            "type": "Identifier",
-            "start": 15,
-            "end": 31,
-            "decorators": [],
-            "name": "IterableIterator",
-            "optional": false,
-            "typeAnnotation": null
           }
         }
       },
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 48,
+        "end": 79,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 54,
+            "end": 62,
+            "expression": {
+              "type": "YieldExpression",
+              "start": 54,
+              "end": 61,
+              "delegate": false,
+              "argument": {
+                "type": "Literal",
+                "start": 60,
+                "end": 61,
+                "value": 0,
+                "raw": "0"
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ReturnStatement",
+            "start": 67,
+            "end": 77,
+            "argument": {
+              "type": "Literal",
+              "start": 74,
+              "end": 76,
+              "value": "",
+              "raw": "\"\""
+            }
+          }
+        ]
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

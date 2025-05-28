@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 29,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 28,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,48 +28,16 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 10,
             "end": 28,
-            "arguments": [
-              {
-                "type": "Literal",
-                "start": 20,
-                "end": 21,
-                "raw": "0",
-                "value": 0
-              },
-              {
-                "type": "Literal",
-                "start": 22,
-                "end": 23,
-                "raw": "3",
-                "value": 3
-              },
-              {
-                "type": "Literal",
-                "start": 24,
-                "end": 25,
-                "raw": "4",
-                "value": 4
-              },
-              {
-                "type": "Literal",
-                "start": 26,
-                "end": 27,
-                "raw": "5",
-                "value": 5
-              }
-            ],
             "callee": {
               "type": "MemberExpression",
               "start": 10,
               "end": 19,
-              "computed": false,
               "object": {
                 "type": "ArrayExpression",
                 "start": 10,
                 "end": 12,
                 "elements": []
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 13,
@@ -78,15 +46,47 @@ __ESTREE_TEST__:PASS:
                 "name": "splice",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 20,
+                "end": 21,
+                "value": 0,
+                "raw": "0"
+              },
+              {
+                "type": "Literal",
+                "start": 22,
+                "end": 23,
+                "value": 3,
+                "raw": "3"
+              },
+              {
+                "type": "Literal",
+                "start": 24,
+                "end": 25,
+                "value": 4,
+                "raw": "4"
+              },
+              {
+                "type": "Literal",
+                "start": 26,
+                "end": 27,
+                "value": 5,
+                "raw": "5"
+              }
+            ],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

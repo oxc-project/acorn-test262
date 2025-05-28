@@ -19,20 +19,20 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "start": 14,
         "end": 19,
-        "raw": "false",
-        "value": false
+        "value": false,
+        "raw": "false"
       }
     },
     {
       "type": "VariableDeclaration",
       "start": 22,
       "end": 28,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 26,
           "end": 27,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 26,
@@ -42,11 +42,11 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

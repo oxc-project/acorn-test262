@@ -23,21 +23,17 @@
             "type": "MethodDefinition",
             "start": 404,
             "end": 420,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 404,
               "end": 415,
               "name": "constructor"
             },
-            "kind": "constructor",
             "value": {
               "type": "FunctionExpression",
               "start": 415,
               "end": 420,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -46,8 +42,12 @@
                 "start": 418,
                 "end": 420,
                 "body": []
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "constructor",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -77,21 +77,17 @@
             "type": "MethodDefinition",
             "start": 454,
             "end": 502,
-            "static": false,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 454,
               "end": 465,
               "name": "constructor"
             },
-            "kind": "constructor",
             "value": {
               "type": "FunctionExpression",
               "start": 465,
               "end": 502,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -130,8 +126,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "constructor",
+            "computed": false,
+            "static": false
           }
         ]
       }
@@ -160,8 +160,8 @@
             "end": 519,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -175,7 +175,6 @@
             "start": 531,
             "end": 562,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -202,7 +201,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

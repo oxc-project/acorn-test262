@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 2453,
       "end": 2465,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -47,7 +47,6 @@
               "type": "TemplateLiteral",
               "start": 2638,
               "end": 2640,
-              "expressions": [],
               "quasis": [
                 {
                   "type": "TemplateElement",
@@ -59,7 +58,8 @@
                   },
                   "tail": true
                 }
-              ]
+              ],
+              "expressions": []
             }
           }
         ]
@@ -81,7 +81,6 @@
                 "type": "TemplateLiteral",
                 "start": 2653,
                 "end": 2655,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
@@ -93,7 +92,8 @@
                     },
                     "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               }
             }
           },
@@ -115,6 +115,7 @@
         "type": "VariableDeclaration",
         "start": 2796,
         "end": 2807,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -128,8 +129,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "right": {
         "type": "ArrayExpression",
@@ -144,7 +144,6 @@
               "type": "TemplateLiteral",
               "start": 2818,
               "end": 2820,
-              "expressions": [],
               "quasis": [
                 {
                   "type": "TemplateElement",
@@ -156,7 +155,8 @@
                   },
                   "tail": true
                 }
-              ]
+              ],
+              "expressions": []
             }
           }
         ]
@@ -178,7 +178,6 @@
                 "type": "TemplateLiteral",
                 "start": 2833,
                 "end": 2835,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
@@ -190,7 +189,8 @@
                     },
                     "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               }
             }
           },
@@ -212,6 +212,7 @@
         "type": "VariableDeclaration",
         "start": 2976,
         "end": 2987,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -225,8 +226,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "let"
+        ]
       },
       "right": {
         "type": "ArrayExpression",
@@ -241,7 +241,6 @@
               "type": "TemplateLiteral",
               "start": 2998,
               "end": 3000,
-              "expressions": [],
               "quasis": [
                 {
                   "type": "TemplateElement",
@@ -253,7 +252,8 @@
                   },
                   "tail": true
                 }
-              ]
+              ],
+              "expressions": []
             }
           }
         ]
@@ -275,7 +275,6 @@
                 "type": "TemplateLiteral",
                 "start": 3013,
                 "end": 3015,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
@@ -287,7 +286,8 @@
                     },
                     "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               }
             }
           },

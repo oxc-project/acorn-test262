@@ -13,7 +13,6 @@
         "end": 851,
         "name": "ctor"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -52,7 +51,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -79,16 +79,14 @@
             "end": 941,
             "name": "toString"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "ArrowFunctionExpression",
           "start": 944,
           "end": 976,
-          "id": null,
           "expression": true,
-          "generator": false,
           "async": false,
           "params": [],
           "body": {
@@ -97,7 +95,9 @@
             "end": 976,
             "value": "./module-code_FIXTURE.js",
             "raw": "'./module-code_FIXTURE.js'"
-          }
+          },
+          "id": null,
+          "generator": false
         }
       }
     },
@@ -111,7 +111,6 @@
         "end": 996,
         "name": "fn"
       },
-      "expression": false,
       "generator": false,
       "async": true,
       "params": [],
@@ -124,6 +123,7 @@
             "type": "VariableDeclaration",
             "start": 1005,
             "end": 1033,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -153,8 +153,7 @@
                   }
                 }
               }
-            ],
-            "kind": "const"
+            ]
           },
           {
             "type": "ExpressionStatement",
@@ -180,8 +179,8 @@
                   "end": 1055,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -200,8 +199,8 @@
                     "end": 1065,
                     "name": "local1"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -238,8 +237,8 @@
                   "end": 1099,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -258,8 +257,8 @@
                     "end": 1110,
                     "name": "default"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -273,7 +272,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

@@ -9,53 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 9,
       "end": 70,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 16,
         "end": 70,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 47,
-          "end": 70,
-          "body": [
-            {
-              "type": "VariableDeclaration",
-              "start": 53,
-              "end": 68,
-              "declarations": [
-                {
-                  "type": "VariableDeclarator",
-                  "start": 57,
-                  "end": 67,
-                  "definite": false,
-                  "id": {
-                    "type": "Identifier",
-                    "start": 57,
-                    "end": 60,
-                    "decorators": [],
-                    "name": "foo",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "init": {
-                    "type": "Literal",
-                    "start": 63,
-                    "end": 67,
-                    "raw": "\"in\"",
-                    "value": "in"
-                  }
-                }
-              ],
-              "declare": false,
-              "kind": "let"
-            }
-          ]
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 25,
@@ -65,6 +22,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [
           {
             "type": "AssignmentPattern",
@@ -80,12 +41,15 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "right": {
               "type": "ArrowFunctionExpression",
               "start": 36,
               "end": 45,
+              "expression": true,
               "async": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
               "body": {
                 "type": "Identifier",
                 "start": 42,
@@ -95,52 +59,33 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "expression": true,
-              "generator": false,
               "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
+              "generator": false
             },
+            "optional": false,
             "typeAnnotation": null
           }
         ],
         "returnType": null,
-        "typeParameters": null
-      },
-      "exportKind": "value",
-      "source": null,
-      "specifiers": []
-    },
-    {
-      "type": "ExportNamedDeclaration",
-      "start": 80,
-      "end": 155,
-      "attributes": [],
-      "declaration": {
-        "type": "FunctionDeclaration",
-        "start": 87,
-        "end": 155,
-        "async": false,
         "body": {
           "type": "BlockStatement",
-          "start": 132,
-          "end": 155,
+          "start": 47,
+          "end": 70,
           "body": [
             {
               "type": "VariableDeclaration",
-              "start": 138,
-              "end": 153,
+              "start": 53,
+              "end": 68,
+              "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 142,
-                  "end": 152,
-                  "definite": false,
+                  "start": 57,
+                  "end": 67,
                   "id": {
                     "type": "Identifier",
-                    "start": 142,
-                    "end": 145,
+                    "start": 57,
+                    "end": 60,
                     "decorators": [],
                     "name": "foo",
                     "optional": false,
@@ -148,21 +93,33 @@ __ESTREE_TEST__:PASS:
                   },
                   "init": {
                     "type": "Literal",
-                    "start": 148,
-                    "end": 152,
-                    "raw": "\"in\"",
-                    "value": "in"
-                  }
+                    "start": 63,
+                    "end": 67,
+                    "value": "in",
+                    "raw": "\"in\""
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "let"
+              "declare": false
             }
           ]
         },
-        "declare": false,
-        "expression": false,
-        "generator": false,
+        "expression": false
+      },
+      "specifiers": [],
+      "source": null,
+      "exportKind": "value",
+      "attributes": []
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 80,
+      "end": 155,
+      "declaration": {
+        "type": "FunctionDeclaration",
+        "start": 87,
+        "end": 155,
         "id": {
           "type": "Identifier",
           "start": 96,
@@ -172,6 +129,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [
           {
             "type": "AssignmentPattern",
@@ -187,7 +148,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "right": {
               "type": "ObjectExpression",
               "start": 108,
@@ -197,7 +157,7 @@ __ESTREE_TEST__:PASS:
                   "type": "Property",
                   "start": 110,
                   "end": 128,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 110,
@@ -207,15 +167,17 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "kind": "init",
-                  "method": true,
-                  "optional": false,
-                  "shorthand": false,
                   "value": {
                     "type": "FunctionExpression",
                     "start": 111,
                     "end": 128,
+                    "id": null,
+                    "generator": false,
                     "async": false,
+                    "declare": false,
+                    "typeParameters": null,
+                    "params": [],
+                    "returnType": null,
                     "body": {
                       "type": "BlockStatement",
                       "start": 114,
@@ -237,56 +199,39 @@ __ESTREE_TEST__:PASS:
                         }
                       ]
                     },
-                    "declare": false,
-                    "expression": false,
-                    "generator": false,
-                    "id": null,
-                    "params": [],
-                    "returnType": null,
-                    "typeParameters": null
-                  }
+                    "expression": false
+                  },
+                  "method": true,
+                  "shorthand": false,
+                  "computed": false,
+                  "optional": false
                 }
               ]
             },
+            "optional": false,
             "typeAnnotation": null
           }
         ],
         "returnType": null,
-        "typeParameters": null
-      },
-      "exportKind": "value",
-      "source": null,
-      "specifiers": []
-    },
-    {
-      "type": "ExportNamedDeclaration",
-      "start": 166,
-      "end": 245,
-      "attributes": [],
-      "declaration": {
-        "type": "FunctionDeclaration",
-        "start": 173,
-        "end": 245,
-        "async": false,
         "body": {
           "type": "BlockStatement",
-          "start": 222,
-          "end": 245,
+          "start": 132,
+          "end": 155,
           "body": [
             {
               "type": "VariableDeclaration",
-              "start": 228,
-              "end": 243,
+              "start": 138,
+              "end": 153,
+              "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 232,
-                  "end": 242,
-                  "definite": false,
+                  "start": 142,
+                  "end": 152,
                   "id": {
                     "type": "Identifier",
-                    "start": 232,
-                    "end": 235,
+                    "start": 142,
+                    "end": 145,
                     "decorators": [],
                     "name": "foo",
                     "optional": false,
@@ -294,21 +239,33 @@ __ESTREE_TEST__:PASS:
                   },
                   "init": {
                     "type": "Literal",
-                    "start": 238,
-                    "end": 242,
-                    "raw": "\"in\"",
-                    "value": "in"
-                  }
+                    "start": 148,
+                    "end": 152,
+                    "value": "in",
+                    "raw": "\"in\""
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "let"
+              "declare": false
             }
           ]
         },
-        "declare": false,
-        "expression": false,
-        "generator": false,
+        "expression": false
+      },
+      "specifiers": [],
+      "source": null,
+      "exportKind": "value",
+      "attributes": []
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 166,
+      "end": 245,
+      "declaration": {
+        "type": "FunctionDeclaration",
+        "start": 173,
+        "end": 245,
         "id": {
           "type": "Identifier",
           "start": 182,
@@ -318,6 +275,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [
           {
             "type": "AssignmentPattern",
@@ -333,12 +294,17 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "right": {
               "type": "FunctionExpression",
               "start": 194,
               "end": 220,
+              "id": null,
+              "generator": false,
               "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
               "body": {
                 "type": "BlockStatement",
                 "start": 206,
@@ -360,53 +326,32 @@ __ESTREE_TEST__:PASS:
                   }
                 ]
               },
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
+              "expression": false
             },
+            "optional": false,
             "typeAnnotation": null
           }
         ],
         "returnType": null,
-        "typeParameters": null
-      },
-      "exportKind": "value",
-      "source": null,
-      "specifiers": []
-    },
-    {
-      "type": "ExportNamedDeclaration",
-      "start": 256,
-      "end": 326,
-      "attributes": [],
-      "declaration": {
-        "type": "FunctionDeclaration",
-        "start": 263,
-        "end": 326,
-        "async": false,
         "body": {
           "type": "BlockStatement",
-          "start": 303,
-          "end": 326,
+          "start": 222,
+          "end": 245,
           "body": [
             {
               "type": "VariableDeclaration",
-              "start": 309,
-              "end": 324,
+              "start": 228,
+              "end": 243,
+              "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 313,
-                  "end": 323,
-                  "definite": false,
+                  "start": 232,
+                  "end": 242,
                   "id": {
                     "type": "Identifier",
-                    "start": 313,
-                    "end": 316,
+                    "start": 232,
+                    "end": 235,
                     "decorators": [],
                     "name": "foo",
                     "optional": false,
@@ -414,21 +359,33 @@ __ESTREE_TEST__:PASS:
                   },
                   "init": {
                     "type": "Literal",
-                    "start": 319,
-                    "end": 323,
-                    "raw": "\"in\"",
-                    "value": "in"
-                  }
+                    "start": 238,
+                    "end": 242,
+                    "value": "in",
+                    "raw": "\"in\""
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "let"
+              "declare": false
             }
           ]
         },
-        "declare": false,
-        "expression": false,
-        "generator": false,
+        "expression": false
+      },
+      "specifiers": [],
+      "source": null,
+      "exportKind": "value",
+      "attributes": []
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 256,
+      "end": 326,
+      "declaration": {
+        "type": "FunctionDeclaration",
+        "start": 263,
+        "end": 326,
         "id": {
           "type": "Identifier",
           "start": 272,
@@ -438,6 +395,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [
           {
             "type": "AssignmentPattern",
@@ -453,12 +414,16 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "right": {
               "type": "ClassExpression",
               "start": 284,
               "end": 301,
-              "abstract": false,
+              "decorators": [],
+              "id": null,
+              "typeParameters": null,
+              "superClass": null,
+              "superTypeArguments": null,
+              "implements": [],
               "body": {
                 "type": "ClassBody",
                 "start": 290,
@@ -468,11 +433,7 @@ __ESTREE_TEST__:PASS:
                     "type": "PropertyDefinition",
                     "start": 292,
                     "end": 299,
-                    "accessibility": null,
-                    "computed": false,
-                    "declare": false,
                     "decorators": [],
-                    "definite": false,
                     "key": {
                       "type": "Identifier",
                       "start": 292,
@@ -482,10 +443,6 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "optional": false,
-                    "override": false,
-                    "readonly": false,
-                    "static": false,
                     "typeAnnotation": null,
                     "value": {
                       "type": "Identifier",
@@ -495,27 +452,70 @@ __ESTREE_TEST__:PASS:
                       "name": "foo",
                       "optional": false,
                       "typeAnnotation": null
-                    }
+                    },
+                    "computed": false,
+                    "static": false,
+                    "declare": false,
+                    "override": false,
+                    "optional": false,
+                    "definite": false,
+                    "readonly": false,
+                    "accessibility": null
                   }
                 ]
               },
-              "declare": false,
-              "decorators": [],
-              "id": null,
-              "implements": [],
-              "superClass": null,
-              "superTypeArguments": null,
-              "typeParameters": null
+              "abstract": false,
+              "declare": false
             },
+            "optional": false,
             "typeAnnotation": null
           }
         ],
         "returnType": null,
-        "typeParameters": null
+        "body": {
+          "type": "BlockStatement",
+          "start": 303,
+          "end": 326,
+          "body": [
+            {
+              "type": "VariableDeclaration",
+              "start": 309,
+              "end": 324,
+              "kind": "let",
+              "declarations": [
+                {
+                  "type": "VariableDeclarator",
+                  "start": 313,
+                  "end": 323,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 313,
+                    "end": 316,
+                    "decorators": [],
+                    "name": "foo",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "init": {
+                    "type": "Literal",
+                    "start": 319,
+                    "end": 323,
+                    "value": "in",
+                    "raw": "\"in\""
+                  },
+                  "definite": false
+                }
+              ],
+              "declare": false
+            }
+          ]
+        },
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

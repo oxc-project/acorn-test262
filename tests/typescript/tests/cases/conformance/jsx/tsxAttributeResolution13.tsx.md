@@ -9,16 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 19,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 16,
-        "end": 19,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -28,19 +18,42 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 16,
+        "end": 19,
+        "body": []
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
       "start": 20,
       "end": 33,
-      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 20,
         "end": 33,
+        "openingElement": {
+          "type": "JSXOpeningElement",
+          "start": 20,
+          "end": 26,
+          "name": {
+            "type": "JSXIdentifier",
+            "start": 21,
+            "end": 25,
+            "name": "Test"
+          },
+          "typeArguments": null,
+          "attributes": [],
+          "selfClosing": false
+        },
         "children": [],
         "closingElement": {
           "type": "JSXClosingElement",
@@ -52,22 +65,9 @@ __ESTREE_TEST__:PASS:
             "end": 32,
             "name": "Test"
           }
-        },
-        "openingElement": {
-          "type": "JSXOpeningElement",
-          "start": 20,
-          "end": 26,
-          "attributes": [],
-          "name": {
-            "type": "JSXIdentifier",
-            "start": 21,
-            "end": 25,
-            "name": "Test"
-          },
-          "selfClosing": false,
-          "typeArguments": null
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

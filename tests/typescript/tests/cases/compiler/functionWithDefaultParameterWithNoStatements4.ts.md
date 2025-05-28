@@ -9,16 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 24,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 21,
-        "end": 24,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -28,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "AssignmentPattern",
@@ -43,45 +37,41 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "right": {
             "type": "TemplateLiteral",
             "start": 17,
             "end": 19,
-            "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
                 "start": 17,
                 "end": 19,
-                "tail": true,
                 "value": {
                   "cooked": "",
                   "raw": ""
-                }
+                },
+                "tail": true
               }
-            ]
+            ],
+            "expressions": []
           },
+          "optional": false,
           "typeAnnotation": null
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 21,
+        "end": 24,
+        "body": []
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 26,
       "end": 50,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 47,
-        "end": 50,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 35,
@@ -91,6 +81,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "AssignmentPattern",
@@ -106,30 +100,36 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "right": {
             "type": "TemplateLiteral",
             "start": 43,
             "end": 45,
-            "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
                 "start": 43,
                 "end": 45,
-                "tail": true,
                 "value": {
                   "cooked": "",
                   "raw": ""
-                }
+                },
+                "tail": true
               }
-            ]
+            ],
+            "expressions": []
           },
+          "optional": false,
           "typeAnnotation": null
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 47,
+        "end": 50,
+        "body": []
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

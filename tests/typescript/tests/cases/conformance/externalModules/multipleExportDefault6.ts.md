@@ -18,7 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "Property",
             "start": 21,
             "end": 27,
-            "computed": false,
+            "kind": "init",
             "key": {
               "type": "Identifier",
               "start": 21,
@@ -28,17 +28,17 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "init",
-            "method": false,
-            "optional": false,
-            "shorthand": false,
             "value": {
               "type": "Literal",
               "start": 26,
               "end": 27,
-              "raw": "1",
-              "value": 1
-            }
+              "value": 1,
+              "raw": "1"
+            },
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "optional": false
           }
         ]
       },
@@ -57,7 +57,7 @@ __ESTREE_TEST__:PASS:
             "type": "Property",
             "start": 52,
             "end": 58,
-            "computed": false,
+            "kind": "init",
             "key": {
               "type": "Identifier",
               "start": 52,
@@ -67,17 +67,17 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "init",
-            "method": false,
-            "optional": false,
-            "shorthand": false,
             "value": {
               "type": "Literal",
               "start": 57,
               "end": 58,
-              "raw": "2",
-              "value": 2
-            }
+              "value": 2,
+              "raw": "2"
+            },
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "optional": false
           }
         ]
       },

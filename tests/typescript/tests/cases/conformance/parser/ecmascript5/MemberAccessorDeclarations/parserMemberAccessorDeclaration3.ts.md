@@ -9,53 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 25,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 8,
-        "end": 25,
-        "body": [
-          {
-            "type": "MethodDefinition",
-            "start": 12,
-            "end": 23,
-            "accessibility": null,
-            "computed": false,
-            "decorators": [],
-            "key": {
-              "type": "Literal",
-              "start": 16,
-              "end": 17,
-              "raw": "0",
-              "value": 0
-            },
-            "kind": "get",
-            "optional": false,
-            "override": false,
-            "static": false,
-            "value": {
-              "type": "FunctionExpression",
-              "start": 17,
-              "end": 23,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 20,
-                "end": 23,
-                "body": []
-              },
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
-          }
-        ]
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -66,10 +19,57 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 8,
+        "end": 25,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 12,
+            "end": 23,
+            "decorators": [],
+            "key": {
+              "type": "Literal",
+              "start": 16,
+              "end": 17,
+              "value": 0,
+              "raw": "0"
+            },
+            "value": {
+              "type": "FunctionExpression",
+              "start": 17,
+              "end": 23,
+              "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
+              "body": {
+                "type": "BlockStatement",
+                "start": 20,
+                "end": 23,
+                "body": []
+              },
+              "expression": false
+            },
+            "kind": "get",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null
+          }
+        ]
+      },
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

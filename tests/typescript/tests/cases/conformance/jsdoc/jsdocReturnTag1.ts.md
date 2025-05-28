@@ -9,7 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 67,
       "end": 97,
+      "id": {
+        "type": "Identifier",
+        "start": 76,
+        "end": 77,
+        "decorators": [],
+        "name": "f",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 80,
@@ -23,33 +37,33 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 93,
               "end": 94,
-              "raw": "5",
-              "value": 5
+              "value": 5,
+              "raw": "5"
             }
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 76,
-        "end": 77,
-        "decorators": [],
-        "name": "f",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 167,
       "end": 198,
+      "id": {
+        "type": "Identifier",
+        "start": 176,
+        "end": 178,
+        "decorators": [],
+        "name": "f1",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 181,
@@ -63,33 +77,33 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 194,
               "end": 195,
-              "raw": "5",
-              "value": 5
+              "value": 5,
+              "raw": "5"
             }
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 176,
-        "end": 178,
-        "decorators": [],
-        "name": "f1",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 274,
       "end": 316,
+      "id": {
+        "type": "Identifier",
+        "start": 283,
+        "end": 285,
+        "decorators": [],
+        "name": "f2",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 288,
@@ -103,40 +117,26 @@ __ESTREE_TEST__:PASS:
               "type": "LogicalExpression",
               "start": 301,
               "end": 313,
-              "operator": "||",
               "left": {
                 "type": "Literal",
                 "start": 301,
                 "end": 302,
-                "raw": "5",
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
+              "operator": "||",
               "right": {
                 "type": "Literal",
                 "start": 306,
                 "end": 313,
-                "raw": "\"hello\"",
-                "value": "hello"
+                "value": "hello",
+                "raw": "\"hello\""
               }
             }
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 283,
-        "end": 285,
-        "decorators": [],
-        "name": "f2",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

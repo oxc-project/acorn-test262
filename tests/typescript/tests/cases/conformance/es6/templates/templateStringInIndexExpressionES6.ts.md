@@ -9,68 +9,68 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 18,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 0,
         "end": 17,
-        "computed": true,
         "object": {
           "type": "TemplateLiteral",
           "start": 0,
           "end": 12,
-          "expressions": [
-            {
-              "type": "Literal",
-              "start": 6,
-              "end": 7,
-              "raw": "0",
-              "value": 0
-            }
-          ],
           "quasis": [
             {
               "type": "TemplateElement",
               "start": 0,
               "end": 6,
-              "tail": false,
               "value": {
                 "cooked": "abc",
                 "raw": "abc"
-              }
+              },
+              "tail": false
             },
             {
               "type": "TemplateElement",
               "start": 7,
               "end": 12,
-              "tail": true,
               "value": {
                 "cooked": "abc",
                 "raw": "abc"
-              }
+              },
+              "tail": true
+            }
+          ],
+          "expressions": [
+            {
+              "type": "Literal",
+              "start": 6,
+              "end": 7,
+              "value": 0,
+              "raw": "0"
             }
           ]
         },
-        "optional": false,
         "property": {
           "type": "TemplateLiteral",
           "start": 13,
           "end": 16,
-          "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
               "start": 13,
               "end": 16,
-              "tail": true,
               "value": {
                 "cooked": "0",
                 "raw": "0"
-              }
+              },
+              "tail": true
             }
-          ]
-        }
-      }
+          ],
+          "expressions": []
+        },
+        "optional": false,
+        "computed": true
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

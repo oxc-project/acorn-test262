@@ -19,8 +19,8 @@
           "type": "SwitchCase",
           "start": 837,
           "end": 845,
-          "consequent": [],
-          "test": null
+          "test": null,
+          "consequent": []
         }
       ]
     },

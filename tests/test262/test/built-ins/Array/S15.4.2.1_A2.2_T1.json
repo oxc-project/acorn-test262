@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 589,
       "end": 1019,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -732,8 +733,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForStatement",
@@ -743,6 +743,7 @@
         "type": "VariableDeclaration",
         "start": 1026,
         "end": 1035,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -762,8 +763,7 @@
               "raw": "0"
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "test": {
         "type": "BinaryExpression",
@@ -806,6 +806,7 @@
             "type": "VariableDeclaration",
             "start": 1055,
             "end": 1073,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -825,8 +826,7 @@
                   "raw": "true"
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "IfStatement",
@@ -852,8 +852,8 @@
                   "end": 1083,
                   "name": "i"
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               },
               "operator": "!==",
               "right": {
@@ -923,8 +923,8 @@
             "end": 1137,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

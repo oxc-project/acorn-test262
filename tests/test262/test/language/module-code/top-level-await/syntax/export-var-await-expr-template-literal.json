@@ -11,6 +11,7 @@
         "type": "VariableDeclaration",
         "start": 2078,
         "end": 2099,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -30,7 +31,6 @@
                 "type": "TemplateLiteral",
                 "start": 2096,
                 "end": 2098,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
@@ -42,12 +42,12 @@
                     },
                     "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               }
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "specifiers": [],
       "source": null,
@@ -61,6 +61,7 @@
         "type": "VariableDeclaration",
         "start": 2107,
         "end": 2133,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -75,9 +76,7 @@
                   "type": "Property",
                   "start": 2113,
                   "end": 2125,
-                  "method": false,
-                  "shorthand": true,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 2113,
@@ -102,7 +101,6 @@
                         "type": "TemplateLiteral",
                         "start": 2123,
                         "end": 2125,
-                        "expressions": [],
                         "quasis": [
                           {
                             "type": "TemplateElement",
@@ -114,11 +112,14 @@
                             },
                             "tail": true
                           }
-                        ]
+                        ],
+                        "expressions": []
                       }
                     }
                   },
-                  "kind": "init"
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false
                 }
               ]
             },
@@ -129,8 +130,7 @@
               "properties": []
             }
           }
-        ],
-        "kind": "var"
+        ]
       },
       "specifiers": [],
       "source": null,

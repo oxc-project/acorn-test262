@@ -31,7 +31,6 @@
                 "start": 633,
                 "end": 646,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -40,7 +39,8 @@
                   "start": 644,
                   "end": 646,
                   "body": []
-                }
+                },
+                "expression": false
               },
               "property": {
                 "type": "Identifier",
@@ -48,8 +48,8 @@
                 "end": 651,
                 "name": "bind"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {

@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSEnumDeclaration",
       "start": 0,
       "end": 69,
+      "id": {
+        "type": "Identifier",
+        "start": 5,
+        "end": 6,
+        "decorators": [],
+        "name": "E",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSEnumBody",
         "start": 7,
@@ -18,7 +27,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 43,
             "end": 53,
-            "computed": true,
             "id": {
               "type": "Identifier",
               "start": 44,
@@ -32,6 +40,8 @@ __ESTREE_TEST__:PASS:
               "type": "UpdateExpression",
               "start": 49,
               "end": 53,
+              "operator": "++",
+              "prefix": false,
               "argument": {
                 "type": "Identifier",
                 "start": 49,
@@ -40,16 +50,14 @@ __ESTREE_TEST__:PASS:
                 "name": "id",
                 "optional": false,
                 "typeAnnotation": null
-              },
-              "operator": "++",
-              "prefix": false
-            }
+              }
+            },
+            "computed": true
           },
           {
             "type": "TSEnumMember",
             "start": 59,
             "end": 67,
-            "computed": true,
             "id": {
               "type": "Identifier",
               "start": 60,
@@ -63,23 +71,15 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 66,
               "end": 67,
-              "raw": "1",
-              "value": 1
-            }
+              "value": 1,
+              "raw": "1"
+            },
+            "computed": true
           }
         ]
       },
       "const": false,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 5,
-        "end": 6,
-        "decorators": [],
-        "name": "E",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      "declare": false
     }
   ],
   "sourceType": "script",

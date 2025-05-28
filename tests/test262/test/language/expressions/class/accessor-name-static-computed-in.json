@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 780,
       "end": 812,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,8 +39,8 @@
                 "end": 805,
                 "name": "create"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             },
             "arguments": [
               {
@@ -53,13 +54,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 813,
       "end": 826,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -85,8 +86,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForStatement",
@@ -118,8 +118,6 @@
                 "type": "MethodDefinition",
                 "start": 845,
                 "end": 894,
-                "static": true,
-                "computed": true,
                 "key": {
                   "type": "BinaryExpression",
                   "start": 857,
@@ -139,13 +137,11 @@
                     "name": "empty"
                   }
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 870,
                   "end": 894,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -167,8 +163,12 @@
                         }
                       }
                     ]
-                  }
-                }
+                  },
+                  "expression": false
+                },
+                "kind": "get",
+                "computed": true,
+                "static": true
               }
             ]
           }
@@ -212,8 +212,8 @@
                   "end": 921,
                   "name": "false"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               }
             }
           },
@@ -250,8 +250,8 @@
             "end": 951,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -301,8 +301,6 @@
                 "type": "MethodDefinition",
                 "start": 989,
                 "end": 1040,
-                "static": true,
-                "computed": true,
                 "key": {
                   "type": "BinaryExpression",
                   "start": 1001,
@@ -322,13 +320,11 @@
                     "name": "empty"
                   }
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1014,
                   "end": 1040,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [
@@ -368,8 +364,12 @@
                         }
                       }
                     ]
-                  }
-                }
+                  },
+                  "expression": false
+                },
+                "kind": "set",
+                "computed": true,
+                "static": true
               }
             ]
           }
@@ -407,8 +407,8 @@
                   "end": 1059,
                   "name": "false"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "Literal",
@@ -452,8 +452,8 @@
             "end": 1101,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

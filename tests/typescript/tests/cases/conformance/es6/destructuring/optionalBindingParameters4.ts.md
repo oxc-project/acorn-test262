@@ -9,7 +9,74 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 50,
       "end": 100,
+      "id": {
+        "type": "Identifier",
+        "start": 59,
+        "end": 62,
+        "decorators": [],
+        "name": "foo",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [
+        {
+          "type": "AssignmentPattern",
+          "start": 63,
+          "end": 77,
+          "decorators": [],
+          "left": {
+            "type": "ObjectPattern",
+            "start": 63,
+            "end": 72,
+            "decorators": [],
+            "properties": [
+              {
+                "type": "Property",
+                "start": 65,
+                "end": 70,
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "start": 65,
+                  "end": 70,
+                  "decorators": [],
+                  "name": "cause",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "value": {
+                  "type": "Identifier",
+                  "start": 65,
+                  "end": 70,
+                  "decorators": [],
+                  "name": "cause",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "method": false,
+                "shorthand": true,
+                "computed": false,
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "right": {
+            "type": "ObjectExpression",
+            "start": 75,
+            "end": 77,
+            "properties": []
+          },
+          "optional": false,
+          "typeAnnotation": null
+        }
+      ],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 79,
@@ -31,74 +98,7 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 59,
-        "end": 62,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [
-        {
-          "type": "AssignmentPattern",
-          "start": 63,
-          "end": 77,
-          "decorators": [],
-          "left": {
-            "type": "ObjectPattern",
-            "start": 63,
-            "end": 72,
-            "decorators": [],
-            "optional": false,
-            "properties": [
-              {
-                "type": "Property",
-                "start": 65,
-                "end": 70,
-                "computed": false,
-                "key": {
-                  "type": "Identifier",
-                  "start": 65,
-                  "end": 70,
-                  "decorators": [],
-                  "name": "cause",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": true,
-                "value": {
-                  "type": "Identifier",
-                  "start": 65,
-                  "end": 70,
-                  "decorators": [],
-                  "name": "cause",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            ],
-            "typeAnnotation": null
-          },
-          "optional": false,
-          "right": {
-            "type": "ObjectExpression",
-            "start": 75,
-            "end": 77,
-            "properties": []
-          },
-          "typeAnnotation": null
-        }
-      ],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

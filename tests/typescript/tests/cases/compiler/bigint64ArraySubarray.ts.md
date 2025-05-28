@@ -9,7 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 139,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 30,
+        "decorators": [],
+        "name": "bigInt64ArraySubarray",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 33,
@@ -19,12 +33,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 39,
             "end": 71,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 43,
                 "end": 70,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 43,
@@ -38,15 +52,6 @@ __ESTREE_TEST__:PASS:
                   "type": "NewExpression",
                   "start": 49,
                   "end": 70,
-                  "arguments": [
-                    {
-                      "type": "Literal",
-                      "start": 67,
-                      "end": 69,
-                      "raw": "10",
-                      "value": 10
-                    }
-                  ],
                   "callee": {
                     "type": "Identifier",
                     "start": 53,
@@ -56,28 +61,34 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "typeArguments": null
-                }
+                  "typeArguments": null,
+                  "arguments": [
+                    {
+                      "type": "Literal",
+                      "start": 67,
+                      "end": 69,
+                      "value": 10,
+                      "raw": "10"
+                    }
+                  ]
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           },
           {
             "type": "ExpressionStatement",
             "start": 76,
             "end": 91,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 76,
               "end": 90,
-              "arguments": [],
               "callee": {
                 "type": "MemberExpression",
                 "start": 76,
                 "end": 88,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 76,
@@ -87,7 +98,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 80,
@@ -96,35 +106,28 @@ __ESTREE_TEST__:PASS:
                   "name": "subarray",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [],
+              "optional": false
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 96,
             "end": 112,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 96,
               "end": 111,
-              "arguments": [
-                {
-                  "type": "Literal",
-                  "start": 109,
-                  "end": 110,
-                  "raw": "0",
-                  "value": 0
-                }
-              ],
               "callee": {
                 "type": "MemberExpression",
                 "start": 96,
                 "end": 108,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 96,
@@ -134,7 +137,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 100,
@@ -143,42 +145,36 @@ __ESTREE_TEST__:PASS:
                   "name": "subarray",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 109,
+                  "end": 110,
+                  "value": 0,
+                  "raw": "0"
+                }
+              ],
+              "optional": false
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 117,
             "end": 137,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 117,
               "end": 136,
-              "arguments": [
-                {
-                  "type": "Literal",
-                  "start": 130,
-                  "end": 131,
-                  "raw": "0",
-                  "value": 0
-                },
-                {
-                  "type": "Literal",
-                  "start": 133,
-                  "end": 135,
-                  "raw": "10",
-                  "value": 10
-                }
-              ],
               "callee": {
                 "type": "MemberExpression",
                 "start": 117,
                 "end": 129,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 117,
@@ -188,7 +184,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 121,
@@ -197,29 +192,34 @@ __ESTREE_TEST__:PASS:
                   "name": "subarray",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 130,
+                  "end": 131,
+                  "value": 0,
+                  "raw": "0"
+                },
+                {
+                  "type": "Literal",
+                  "start": 133,
+                  "end": 135,
+                  "value": 10,
+                  "raw": "10"
+                }
+              ],
+              "optional": false
+            },
+            "directive": null
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 30,
-        "decorators": [],
-        "name": "bigInt64ArraySubarray",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 10,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 9,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,13 +28,13 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 8,
             "end": 9,
-            "raw": "0",
-            "value": 0
-          }
+            "value": 0,
+            "raw": "0"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "DoWhileStatement",
@@ -49,11 +49,12 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 20,
             "end": 24,
-            "directive": null,
             "expression": {
               "type": "UpdateExpression",
               "start": 20,
               "end": 23,
+              "operator": "++",
+              "prefix": false,
               "argument": {
                 "type": "Identifier",
                 "start": 20,
@@ -62,10 +63,9 @@ __ESTREE_TEST__:PASS:
                 "name": "i",
                 "optional": false,
                 "typeAnnotation": null
-              },
-              "operator": "++",
-              "prefix": false
-            }
+              }
+            },
+            "directive": null
           }
         ]
       },
@@ -73,7 +73,6 @@ __ESTREE_TEST__:PASS:
         "type": "BinaryExpression",
         "start": 34,
         "end": 40,
-        "operator": "<",
         "left": {
           "type": "Identifier",
           "start": 34,
@@ -83,12 +82,13 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "operator": "<",
         "right": {
           "type": "Literal",
           "start": 38,
           "end": 40,
-          "raw": "10",
-          "value": 10
+          "value": 10,
+          "raw": "10"
         }
       }
     },
@@ -105,11 +105,12 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 52,
             "end": 56,
-            "directive": null,
             "expression": {
               "type": "UpdateExpression",
               "start": 52,
               "end": 55,
+              "operator": "++",
+              "prefix": false,
               "argument": {
                 "type": "Identifier",
                 "start": 52,
@@ -118,10 +119,9 @@ __ESTREE_TEST__:PASS:
                 "name": "i",
                 "optional": false,
                 "typeAnnotation": null
-              },
-              "operator": "++",
-              "prefix": false
-            }
+              }
+            },
+            "directive": null
           }
         ]
       },
@@ -129,7 +129,6 @@ __ESTREE_TEST__:PASS:
         "type": "BinaryExpression",
         "start": 66,
         "end": 72,
-        "operator": "<",
         "left": {
           "type": "Identifier",
           "start": 66,
@@ -139,12 +138,13 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "operator": "<",
         "right": {
           "type": "Literal",
           "start": 70,
           "end": 72,
-          "raw": "20",
-          "value": 20
+          "value": 20,
+          "raw": "20"
         }
       }
     }

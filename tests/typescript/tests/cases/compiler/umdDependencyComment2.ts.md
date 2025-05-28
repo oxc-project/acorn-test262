@@ -18,7 +18,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 45,
@@ -27,26 +26,24 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 53,
           "end": 57,
-          "raw": "\"m2\"",
-          "value": "m2"
+          "value": "m2",
+          "raw": "\"m2\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 59,
       "end": 66,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 59,
         "end": 65,
-        "arguments": [],
         "callee": {
           "type": "MemberExpression",
           "start": 59,
           "end": 63,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 59,
@@ -56,7 +53,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 62,
@@ -65,11 +61,15 @@ __ESTREE_TEST__:PASS:
             "name": "f",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

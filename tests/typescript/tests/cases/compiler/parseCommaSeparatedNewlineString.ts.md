@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 7,
-      "directive": null,
       "expression": {
         "type": "SequenceExpression",
         "start": 1,
@@ -28,11 +27,12 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 4,
             "end": 6,
-            "raw": "''",
-            "value": ""
+            "value": "",
+            "raw": "''"
           }
         ]
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

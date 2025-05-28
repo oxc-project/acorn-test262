@@ -23,8 +23,6 @@
             "type": "MethodDefinition",
             "start": 889,
             "end": 918,
-            "static": false,
-            "computed": true,
             "key": {
               "type": "Literal",
               "start": 890,
@@ -32,13 +30,11 @@
               "value": "1",
               "raw": "'1'"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 894,
               "end": 918,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -60,15 +56,17 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": true,
+            "static": false
           },
           {
             "type": "MethodDefinition",
             "start": 921,
             "end": 957,
-            "static": true,
-            "computed": true,
             "key": {
               "type": "Literal",
               "start": 929,
@@ -76,13 +74,11 @@
               "value": "1",
               "raw": "'1'"
             },
-            "kind": "method",
             "value": {
               "type": "FunctionExpression",
               "start": 933,
               "end": 957,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -104,8 +100,12 @@
                     }
                   }
                 ]
-              }
-            }
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": true,
+            "static": true
           }
         ]
       }
@@ -119,6 +119,7 @@
       "type": "VariableDeclaration",
       "start": 962,
       "end": 978,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -143,8 +144,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -170,8 +170,8 @@
             "end": 996,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -195,8 +195,8 @@
                 "value": "1",
                 "raw": "'1'"
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "arguments": [],
             "optional": false
@@ -236,8 +236,8 @@
             "end": 1035,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -261,8 +261,8 @@
                 "value": "1",
                 "raw": "'1'"
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "arguments": [],
             "optional": false
@@ -302,8 +302,8 @@
             "end": 1074,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -341,8 +341,8 @@
                 ],
                 "optional": false
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "arguments": [],
             "optional": false
@@ -382,8 +382,8 @@
             "end": 1121,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -421,8 +421,8 @@
                 ],
                 "optional": false
               },
-              "computed": true,
-              "optional": false
+              "optional": false,
+              "computed": true
             },
             "arguments": [],
             "optional": false

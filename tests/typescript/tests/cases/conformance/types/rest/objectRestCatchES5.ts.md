@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 17,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 9,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,15 +28,15 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 8,
             "end": 9,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         },
         {
           "type": "VariableDeclarator",
           "start": 11,
           "end": 16,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 11,
@@ -50,13 +50,13 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 15,
             "end": 16,
-            "raw": "2",
-            "value": 2
-          }
+            "value": 2,
+            "raw": "2"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "TryStatement",
@@ -68,29 +68,21 @@ __ESTREE_TEST__:PASS:
         "end": 24,
         "body": []
       },
-      "finalizer": null,
       "handler": {
         "type": "CatchClause",
         "start": 25,
         "end": 47,
-        "body": {
-          "type": "BlockStatement",
-          "start": 45,
-          "end": 47,
-          "body": []
-        },
         "param": {
           "type": "ObjectPattern",
           "start": 32,
           "end": 43,
           "decorators": [],
-          "optional": false,
           "properties": [
             {
               "type": "Property",
               "start": 34,
               "end": 35,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 34,
@@ -100,10 +92,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "kind": "init",
-              "method": false,
-              "optional": false,
-              "shorthand": true,
               "value": {
                 "type": "Identifier",
                 "start": 34,
@@ -112,12 +100,17 @@ __ESTREE_TEST__:PASS:
                 "name": "a",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "method": false,
+              "shorthand": true,
+              "computed": false,
+              "optional": false
             },
             {
               "type": "RestElement",
               "start": 37,
               "end": 41,
+              "decorators": [],
               "argument": {
                 "type": "Identifier",
                 "start": 40,
@@ -127,15 +120,22 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "decorators": [],
               "optional": false,
               "typeAnnotation": null,
               "value": null
             }
           ],
+          "optional": false,
           "typeAnnotation": null
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 45,
+          "end": 47,
+          "body": []
         }
-      }
+      },
+      "finalizer": null
     }
   ],
   "sourceType": "script",

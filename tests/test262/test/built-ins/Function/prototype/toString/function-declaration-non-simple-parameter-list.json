@@ -13,7 +13,6 @@
         "end": 375,
         "name": "f"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -44,9 +43,7 @@
               "type": "Property",
               "start": 444,
               "end": 465,
-              "method": false,
-              "shorthand": true,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 444,
@@ -71,7 +68,9 @@
                   "raw": "0"
                 }
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": true,
+              "computed": false
             }
           ]
         }
@@ -81,7 +80,8 @@
         "start": 494,
         "end": 505,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",

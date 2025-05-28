@@ -9,38 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 33,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 15,
-        "end": 33,
-        "body": [
-          {
-            "type": "TSModuleDeclaration",
-            "start": 17,
-            "end": 31,
-            "body": {
-              "type": "TSModuleBlock",
-              "start": 29,
-              "end": 31,
-              "body": []
-            },
-            "declare": false,
-            "global": false,
-            "id": {
-              "type": "Identifier",
-              "start": 27,
-              "end": 28,
-              "decorators": [],
-              "name": "N",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "kind": "namespace"
-          }
-        ]
-      },
-      "declare": true,
-      "global": true,
       "id": {
         "type": "Identifier",
         "start": 8,
@@ -50,7 +18,39 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "global"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 15,
+        "end": 33,
+        "body": [
+          {
+            "type": "TSModuleDeclaration",
+            "start": 17,
+            "end": 31,
+            "id": {
+              "type": "Identifier",
+              "start": 27,
+              "end": 28,
+              "decorators": [],
+              "name": "N",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "body": {
+              "type": "TSModuleBlock",
+              "start": 29,
+              "end": 31,
+              "body": []
+            },
+            "kind": "namespace",
+            "declare": false,
+            "global": false
+          }
+        ]
+      },
+      "kind": "global",
+      "declare": true,
+      "global": true
     },
     {
       "type": "TSExportAssignment",
