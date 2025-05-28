@@ -9,33 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 41,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 21,
-        "end": 41,
-        "body": [
-          {
-            "type": "ImportDeclaration",
-            "start": 27,
-            "end": 39,
-            "importKind": "value",
-            "source": {
-              "type": "Literal",
-              "start": 34,
-              "end": 38,
-              "raw": "\"fs\"",
-              "value": "fs"
-            },
-            "specifiers": [],
-            "phase": null,
-            "attributes": []
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -45,9 +18,36 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 21,
+        "end": 41,
+        "body": [
+          {
+            "type": "ImportDeclaration",
+            "start": 27,
+            "end": 39,
+            "specifiers": [],
+            "source": {
+              "type": "Literal",
+              "start": 34,
+              "end": 38,
+              "value": "fs",
+              "raw": "\"fs\""
+            },
+            "phase": null,
+            "attributes": [],
+            "importKind": "value"
+          }
+        ]
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

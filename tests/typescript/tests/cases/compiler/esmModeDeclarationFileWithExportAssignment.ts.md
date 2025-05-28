@@ -9,11 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 0,
       "end": 30,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 17,
@@ -23,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": null,
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
@@ -36,12 +35,13 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 28,
             "end": 29,
-            "raw": "5",
-            "value": 5
+            "value": 5,
+            "raw": "5"
           }
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "TSExportAssignment",
@@ -73,14 +73,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 34,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 20,
-        "end": 33,
-        "raw": "\"./other.mjs\"",
-        "value": "./other.mjs"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -97,19 +89,25 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 20,
+        "end": 33,
+        "value": "./other.mjs",
+        "raw": "\"./other.mjs\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 35,
       "end": 45,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 35,
         "end": 44,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 35,
@@ -119,9 +117,11 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

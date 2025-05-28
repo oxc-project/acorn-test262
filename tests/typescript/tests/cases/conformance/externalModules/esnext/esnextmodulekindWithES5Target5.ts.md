@@ -9,11 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 29,
-      "attributes": [],
       "declaration": {
         "type": "TSEnumDeclaration",
         "start": 7,
         "end": 29,
+        "id": {
+          "type": "Identifier",
+          "start": 12,
+          "end": 14,
+          "decorators": [],
+          "name": "E1",
+          "optional": false,
+          "typeAnnotation": null
+        },
         "body": {
           "type": "TSEnumBody",
           "start": 15,
@@ -23,7 +31,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSEnumMember",
               "start": 21,
               "end": 27,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 21,
@@ -33,35 +40,36 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "initializer": null
+              "initializer": null,
+              "computed": false
             }
           ]
         },
         "const": false,
-        "declare": false,
-        "id": {
-          "type": "Identifier",
-          "start": 12,
-          "end": 14,
-          "decorators": [],
-          "name": "E1",
-          "optional": false,
-          "typeAnnotation": null
-        }
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 31,
       "end": 66,
-      "attributes": [],
       "declaration": {
         "type": "TSEnumDeclaration",
         "start": 38,
         "end": 66,
+        "id": {
+          "type": "Identifier",
+          "start": 49,
+          "end": 51,
+          "decorators": [],
+          "name": "E2",
+          "optional": false,
+          "typeAnnotation": null
+        },
         "body": {
           "type": "TSEnumBody",
           "start": 52,
@@ -71,7 +79,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSEnumMember",
               "start": 58,
               "end": 64,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 58,
@@ -81,25 +88,18 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "initializer": null
+              "initializer": null,
+              "computed": false
             }
           ]
         },
         "const": true,
-        "declare": false,
-        "id": {
-          "type": "Identifier",
-          "start": 49,
-          "end": 51,
-          "decorators": [],
-          "name": "E2",
-          "optional": false,
-          "typeAnnotation": null
-        }
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

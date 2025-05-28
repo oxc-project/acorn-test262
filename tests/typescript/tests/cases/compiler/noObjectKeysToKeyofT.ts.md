@@ -9,29 +9,44 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 102,
       "end": 134,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 102,
         "end": 133,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 129,
-            "end": 132,
-            "raw": "\"b\"",
-            "value": "b"
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 102,
           "end": 128,
-          "computed": false,
           "object": {
             "type": "CallExpression",
             "start": 102,
             "end": 123,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 102,
+              "end": 113,
+              "object": {
+                "type": "Identifier",
+                "start": 102,
+                "end": 108,
+                "decorators": [],
+                "name": "Object",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 109,
+                "end": 113,
+                "decorators": [],
+                "name": "keys",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "optional": false,
+              "computed": false
+            },
+            "typeArguments": null,
             "arguments": [
               {
                 "type": "ObjectExpression",
@@ -42,7 +57,7 @@ __ESTREE_TEST__:PASS:
                     "type": "Property",
                     "start": 116,
                     "end": 120,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 116,
@@ -52,50 +67,23 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "kind": "init",
-                    "method": false,
-                    "optional": false,
-                    "shorthand": false,
                     "value": {
                       "type": "Literal",
                       "start": 119,
                       "end": 120,
-                      "raw": "0",
-                      "value": 0
-                    }
+                      "value": 0,
+                      "raw": "0"
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "optional": false
                   }
                 ]
               }
             ],
-            "callee": {
-              "type": "MemberExpression",
-              "start": 102,
-              "end": 113,
-              "computed": false,
-              "object": {
-                "type": "Identifier",
-                "start": 102,
-                "end": 108,
-                "decorators": [],
-                "name": "Object",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "property": {
-                "type": "Identifier",
-                "start": 109,
-                "end": 113,
-                "decorators": [],
-                "name": "keys",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            },
-            "optional": false,
-            "typeArguments": null
+            "optional": false
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 124,
@@ -104,11 +92,23 @@ __ESTREE_TEST__:PASS:
             "name": "push",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 129,
+            "end": 132,
+            "value": "b",
+            "raw": "\"b\""
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

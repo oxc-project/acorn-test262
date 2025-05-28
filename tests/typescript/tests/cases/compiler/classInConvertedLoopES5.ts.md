@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 48,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 6,
           "end": 47,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
@@ -30,6 +30,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 20,
                 "end": 42,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 20,
+                  "end": 26,
+                  "decorators": [],
+                  "name": "Record",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 26,
@@ -46,15 +55,6 @@ __ESTREE_TEST__:PASS:
                       "end": 41
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 20,
-                  "end": 26,
-                  "decorators": [],
-                  "name": "Record",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             }
@@ -64,193 +64,27 @@ __ESTREE_TEST__:PASS:
             "start": 45,
             "end": 47,
             "properties": []
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ForOfStatement",
       "start": 49,
       "end": 211,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 94,
-        "end": 211,
-        "body": [
-          {
-            "type": "ClassDeclaration",
-            "start": 98,
-            "end": 176,
-            "abstract": false,
-            "body": {
-              "type": "ClassBody",
-              "start": 113,
-              "end": 176,
-              "body": [
-                {
-                  "type": "PropertyDefinition",
-                  "start": 119,
-                  "end": 129,
-                  "accessibility": null,
-                  "computed": false,
-                  "declare": false,
-                  "decorators": [],
-                  "definite": false,
-                  "key": {
-                    "type": "Identifier",
-                    "start": 119,
-                    "end": 122,
-                    "decorators": [],
-                    "name": "row",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "override": false,
-                  "readonly": false,
-                  "static": false,
-                  "typeAnnotation": null,
-                  "value": {
-                    "type": "Identifier",
-                    "start": 125,
-                    "end": 128,
-                    "decorators": [],
-                    "name": "row",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                {
-                  "type": "PropertyDefinition",
-                  "start": 134,
-                  "end": 172,
-                  "accessibility": null,
-                  "computed": false,
-                  "declare": false,
-                  "decorators": [],
-                  "definite": false,
-                  "key": {
-                    "type": "Identifier",
-                    "start": 141,
-                    "end": 148,
-                    "decorators": [],
-                    "name": "factory",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "override": false,
-                  "readonly": false,
-                  "static": true,
-                  "typeAnnotation": null,
-                  "value": {
-                    "type": "ArrowFunctionExpression",
-                    "start": 151,
-                    "end": 171,
-                    "async": false,
-                    "body": {
-                      "type": "NewExpression",
-                      "start": 157,
-                      "end": 171,
-                      "arguments": [],
-                      "callee": {
-                        "type": "Identifier",
-                        "start": 161,
-                        "end": 169,
-                        "decorators": [],
-                        "name": "RowClass",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "typeArguments": null
-                    },
-                    "expression": true,
-                    "generator": false,
-                    "id": null,
-                    "params": [],
-                    "returnType": null,
-                    "typeParameters": null
-                  }
-                }
-              ]
-            },
-            "declare": false,
-            "decorators": [],
-            "id": {
-              "type": "Identifier",
-              "start": 104,
-              "end": 112,
-              "decorators": [],
-              "name": "RowClass",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "implements": [],
-            "superClass": null,
-            "superTypeArguments": null,
-            "typeParameters": null
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 180,
-            "end": 209,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 180,
-              "end": 208,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 180,
-                "end": 197,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 180,
-                  "end": 192,
-                  "decorators": [],
-                  "name": "classesByRow",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Identifier",
-                  "start": 193,
-                  "end": 196,
-                  "decorators": [],
-                  "name": "row",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              },
-              "right": {
-                "type": "Identifier",
-                "start": 200,
-                "end": 208,
-                "decorators": [],
-                "name": "RowClass",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            }
-          }
-        ]
-      },
       "left": {
         "type": "VariableDeclaration",
         "start": 54,
         "end": 63,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 60,
             "end": 63,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 60,
@@ -260,11 +94,11 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
       "right": {
         "type": "ArrayExpression",
@@ -275,36 +109,202 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 68,
             "end": 71,
-            "raw": "'1'",
-            "value": "1"
+            "value": "1",
+            "raw": "'1'"
           },
           {
             "type": "Literal",
             "start": 73,
             "end": 76,
-            "raw": "'2'",
-            "value": "2"
+            "value": "2",
+            "raw": "'2'"
           },
           {
             "type": "Literal",
             "start": 78,
             "end": 81,
-            "raw": "'3'",
-            "value": "3"
+            "value": "3",
+            "raw": "'3'"
           },
           {
             "type": "Literal",
             "start": 83,
             "end": 86,
-            "raw": "'4'",
-            "value": "4"
+            "value": "4",
+            "raw": "'4'"
           },
           {
             "type": "Literal",
             "start": 88,
             "end": 91,
-            "raw": "'5'",
-            "value": "5"
+            "value": "5",
+            "raw": "'5'"
+          }
+        ]
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 94,
+        "end": 211,
+        "body": [
+          {
+            "type": "ClassDeclaration",
+            "start": 98,
+            "end": 176,
+            "decorators": [],
+            "id": {
+              "type": "Identifier",
+              "start": 104,
+              "end": 112,
+              "decorators": [],
+              "name": "RowClass",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null,
+            "superClass": null,
+            "superTypeArguments": null,
+            "implements": [],
+            "body": {
+              "type": "ClassBody",
+              "start": 113,
+              "end": 176,
+              "body": [
+                {
+                  "type": "PropertyDefinition",
+                  "start": 119,
+                  "end": 129,
+                  "decorators": [],
+                  "key": {
+                    "type": "Identifier",
+                    "start": 119,
+                    "end": 122,
+                    "decorators": [],
+                    "name": "row",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeAnnotation": null,
+                  "value": {
+                    "type": "Identifier",
+                    "start": 125,
+                    "end": 128,
+                    "decorators": [],
+                    "name": "row",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "computed": false,
+                  "static": false,
+                  "declare": false,
+                  "override": false,
+                  "optional": false,
+                  "definite": false,
+                  "readonly": false,
+                  "accessibility": null
+                },
+                {
+                  "type": "PropertyDefinition",
+                  "start": 134,
+                  "end": 172,
+                  "decorators": [],
+                  "key": {
+                    "type": "Identifier",
+                    "start": 141,
+                    "end": 148,
+                    "decorators": [],
+                    "name": "factory",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeAnnotation": null,
+                  "value": {
+                    "type": "ArrowFunctionExpression",
+                    "start": 151,
+                    "end": 171,
+                    "expression": true,
+                    "async": false,
+                    "typeParameters": null,
+                    "params": [],
+                    "returnType": null,
+                    "body": {
+                      "type": "NewExpression",
+                      "start": 157,
+                      "end": 171,
+                      "callee": {
+                        "type": "Identifier",
+                        "start": 161,
+                        "end": 169,
+                        "decorators": [],
+                        "name": "RowClass",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "typeArguments": null,
+                      "arguments": []
+                    },
+                    "id": null,
+                    "generator": false
+                  },
+                  "computed": false,
+                  "static": true,
+                  "declare": false,
+                  "override": false,
+                  "optional": false,
+                  "definite": false,
+                  "readonly": false,
+                  "accessibility": null
+                }
+              ]
+            },
+            "abstract": false,
+            "declare": false
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 180,
+            "end": 209,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 180,
+              "end": 208,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 180,
+                "end": 197,
+                "object": {
+                  "type": "Identifier",
+                  "start": 180,
+                  "end": 192,
+                  "decorators": [],
+                  "name": "classesByRow",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 193,
+                  "end": 196,
+                  "decorators": [],
+                  "name": "row",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "Identifier",
+                "start": 200,
+                "end": 208,
+                "decorators": [],
+                "name": "RowClass",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            },
+            "directive": null
           }
         ]
       }

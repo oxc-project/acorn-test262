@@ -9,16 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 53,
-      "attributes": [],
       "declaration": {
         "type": "TSDeclareFunction",
         "start": 7,
         "end": 53,
-        "async": false,
-        "body": null,
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 16,
@@ -28,6 +22,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [
           {
             "type": "Identifier",
@@ -58,11 +56,13 @@ __ESTREE_TEST__:PASS:
             "end": 52
           }
         },
-        "typeParameters": null
+        "body": null,
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -89,7 +89,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 13,
@@ -98,34 +97,24 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 21,
           "end": 40,
-          "raw": "\"./dir/native.node\"",
-          "value": "./dir/native.node"
+          "value": "./dir/native.node",
+          "raw": "\"./dir/native.node\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 43,
       "end": 69,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 43,
         "end": 68,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 61,
-            "end": 67,
-            "raw": "\"good\"",
-            "value": "good"
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 43,
           "end": 60,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 43,
@@ -135,7 +124,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 47,
@@ -144,11 +132,23 @@ __ESTREE_TEST__:PASS:
             "name": "doNativeThing",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 61,
+            "end": 67,
+            "value": "good",
+            "raw": "\"good\""
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

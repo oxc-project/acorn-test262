@@ -9,37 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 43,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 17,
-        "end": 43,
-        "body": [
-          {
-            "type": "TSEnumDeclaration",
-            "start": 21,
-            "end": 41,
-            "body": {
-              "type": "TSEnumBody",
-              "start": 36,
-              "end": 41,
-              "members": []
-            },
-            "const": false,
-            "declare": true,
-            "id": {
-              "type": "Identifier",
-              "start": 34,
-              "end": 35,
-              "decorators": [],
-              "name": "E",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
-        ]
-      },
-      "declare": true,
-      "global": false,
       "id": {
         "type": "Identifier",
         "start": 15,
@@ -49,7 +18,38 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "module"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 17,
+        "end": 43,
+        "body": [
+          {
+            "type": "TSEnumDeclaration",
+            "start": 21,
+            "end": 41,
+            "id": {
+              "type": "Identifier",
+              "start": 34,
+              "end": 35,
+              "decorators": [],
+              "name": "E",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "body": {
+              "type": "TSEnumBody",
+              "start": 36,
+              "end": 41,
+              "members": []
+            },
+            "const": false,
+            "declare": true
+          }
+        ]
+      },
+      "kind": "module",
+      "declare": true,
+      "global": false
     }
   ],
   "sourceType": "script",

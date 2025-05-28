@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 30,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 6,
           "end": 29,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
@@ -28,20 +28,10 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 12,
             "end": 29,
-            "arguments": [
-              {
-                "type": "Literal",
-                "start": 23,
-                "end": 28,
-                "raw": "\"foo\"",
-                "value": "foo"
-              }
-            ],
             "callee": {
               "type": "MemberExpression",
               "start": 12,
               "end": 22,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 12,
@@ -51,7 +41,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 19,
@@ -60,26 +49,37 @@ __ESTREE_TEST__:PASS:
                 "name": "for",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 23,
+                "end": 28,
+                "value": "foo",
+                "raw": "\"foo\""
+              }
+            ],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 31,
       "end": 62,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 37,
           "end": 61,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 37,
@@ -98,7 +98,7 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 43,
                 "end": 59,
-                "computed": true,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 44,
@@ -108,10 +108,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Identifier",
                   "start": 50,
@@ -120,14 +116,18 @@ __ESTREE_TEST__:PASS:
                   "name": "undefined",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": true,
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "script",

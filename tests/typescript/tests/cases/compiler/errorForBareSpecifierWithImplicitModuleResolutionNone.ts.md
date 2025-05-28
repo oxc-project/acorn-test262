@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 59,
       "end": 103,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 81,
-        "end": 102,
-        "raw": "\"non-existent-module\"",
-        "value": "non-existent-module"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -31,7 +23,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 68,
@@ -40,22 +31,29 @@ __ESTREE_TEST__:PASS:
             "name": "thing",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 81,
+        "end": 102,
+        "value": "non-existent-module",
+        "raw": "\"non-existent-module\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 104,
       "end": 111,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 104,
         "end": 111,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 104,
@@ -65,9 +63,11 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

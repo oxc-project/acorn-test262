@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 25,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 25,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,36 +28,9 @@ __ESTREE_TEST__:PASS:
             "type": "ArrowFunctionExpression",
             "start": 8,
             "end": 25,
-            "async": false,
-            "body": {
-              "type": "TSTypeAssertion",
-              "start": 13,
-              "end": 25,
-              "expression": {
-                "type": "TSTypeAssertion",
-                "start": 18,
-                "end": 25,
-                "expression": {
-                  "type": "ObjectExpression",
-                  "start": 23,
-                  "end": 25,
-                  "properties": []
-                },
-                "typeAnnotation": {
-                  "type": "TSAnyKeyword",
-                  "start": 19,
-                  "end": 22
-                }
-              },
-              "typeAnnotation": {
-                "type": "TSAnyKeyword",
-                "start": 14,
-                "end": 17
-              }
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -70,12 +43,39 @@ __ESTREE_TEST__:PASS:
               }
             ],
             "returnType": null,
-            "typeParameters": null
-          }
+            "body": {
+              "type": "TSTypeAssertion",
+              "start": 13,
+              "end": 25,
+              "typeAnnotation": {
+                "type": "TSAnyKeyword",
+                "start": 14,
+                "end": 17
+              },
+              "expression": {
+                "type": "TSTypeAssertion",
+                "start": 18,
+                "end": 25,
+                "typeAnnotation": {
+                  "type": "TSAnyKeyword",
+                  "start": 19,
+                  "end": 22
+                },
+                "expression": {
+                  "type": "ObjectExpression",
+                  "start": 23,
+                  "end": 25,
+                  "properties": []
+                }
+              }
+            },
+            "id": null,
+            "generator": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

@@ -9,16 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 21,
       "end": 76,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 73,
-        "end": 76,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 30,
@@ -28,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "AssignmentPattern",
@@ -64,17 +58,31 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "optional": false,
           "right": {
             "type": "ConditionalExpression",
             "start": 58,
             "end": 71,
-            "alternate": {
-              "type": "Literal",
-              "start": 70,
-              "end": 71,
-              "raw": "0",
-              "value": 0
+            "test": {
+              "type": "BinaryExpression",
+              "start": 58,
+              "end": 63,
+              "left": {
+                "type": "Identifier",
+                "start": 58,
+                "end": 59,
+                "decorators": [],
+                "name": "x",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "operator": ">",
+              "right": {
+                "type": "Literal",
+                "start": 62,
+                "end": 63,
+                "value": 0,
+                "raw": "0"
+              }
             },
             "consequent": {
               "type": "Identifier",
@@ -85,49 +93,31 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "test": {
-              "type": "BinaryExpression",
-              "start": 58,
-              "end": 63,
-              "operator": ">",
-              "left": {
-                "type": "Identifier",
-                "start": 58,
-                "end": 59,
-                "decorators": [],
-                "name": "x",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "right": {
-                "type": "Literal",
-                "start": 62,
-                "end": 63,
-                "raw": "0",
-                "value": 0
-              }
+            "alternate": {
+              "type": "Literal",
+              "start": 70,
+              "end": 71,
+              "value": 0,
+              "raw": "0"
             }
           },
+          "optional": false,
           "typeAnnotation": null
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 73,
+        "end": 76,
+        "body": []
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 98,
       "end": 157,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 154,
-        "end": 157,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 107,
@@ -137,6 +127,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "AssignmentPattern",
@@ -161,27 +155,10 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "optional": false,
           "right": {
             "type": "ConditionalExpression",
             "start": 124,
             "end": 152,
-            "alternate": {
-              "type": "Identifier",
-              "start": 151,
-              "end": 152,
-              "decorators": [],
-              "name": "x",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "consequent": {
-              "type": "Literal",
-              "start": 140,
-              "end": 148,
-              "raw": "'value1'",
-              "value": "value1"
-            },
             "test": {
               "type": "Identifier",
               "start": 124,
@@ -190,13 +167,36 @@ __ESTREE_TEST__:PASS:
               "name": "someCondition",
               "optional": false,
               "typeAnnotation": null
+            },
+            "consequent": {
+              "type": "Literal",
+              "start": 140,
+              "end": 148,
+              "value": "value1",
+              "raw": "'value1'"
+            },
+            "alternate": {
+              "type": "Identifier",
+              "start": 151,
+              "end": 152,
+              "decorators": [],
+              "name": "x",
+              "optional": false,
+              "typeAnnotation": null
             }
           },
+          "optional": false,
           "typeAnnotation": null
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 154,
+        "end": 157,
+        "body": []
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 119,
       "end": 141,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 123,
           "end": 140,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 123,
@@ -33,7 +33,7 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 129,
                 "end": 138,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 129,
@@ -43,30 +43,29 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Literal",
                   "start": 134,
                   "end": 138,
-                  "raw": "\"no\"",
-                  "value": "no"
-                }
+                  "value": "no",
+                  "raw": "\"no\""
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 142,
       "end": 143,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 142,
@@ -75,13 +74,13 @@ __ESTREE_TEST__:PASS:
         "name": "y",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 144,
       "end": 201,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 144,
@@ -91,7 +90,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 144,
           "end": 154,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 144,
@@ -101,7 +99,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 146,
@@ -110,22 +107,24 @@ __ESTREE_TEST__:PASS:
             "name": "ignoreMe",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
           "start": 157,
           "end": 201,
-          "raw": "\"ok but just because of the index signature\"",
-          "value": "ok but just because of the index signature"
+          "value": "ok but just because of the index signature",
+          "raw": "\"ok but just because of the index signature\""
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 202,
       "end": 217,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 202,
@@ -135,7 +134,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 202,
           "end": 209,
-          "computed": true,
           "object": {
             "type": "Identifier",
             "start": 202,
@@ -145,23 +143,25 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Literal",
             "start": 204,
             "end": 208,
-            "raw": "'hi'",
-            "value": "hi"
-          }
+            "value": "hi",
+            "raw": "'hi'"
+          },
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
           "start": 212,
           "end": 217,
-          "raw": "\"yes\"",
-          "value": "yes"
+          "value": "yes",
+          "raw": "\"yes\""
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 34,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 33,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -50,104 +50,46 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 37,
       "end": 141,
-      "alternate": {
-        "type": "BlockStatement",
-        "start": 106,
-        "end": 141,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 112,
-            "end": 133,
-            "directive": null,
-            "expression": {
-              "type": "CallExpression",
-              "start": 112,
-              "end": 132,
-              "arguments": [],
-              "callee": {
-                "type": "MemberExpression",
-                "start": 112,
-                "end": 130,
-                "computed": false,
-                "object": {
-                  "type": "Identifier",
-                  "start": 112,
-                  "end": 122,
-                  "decorators": [],
-                  "name": "maybeArray",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Identifier",
-                  "start": 123,
-                  "end": 130,
-                  "decorators": [],
-                  "name": "toFixed",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              },
-              "optional": false,
-              "typeArguments": null
-            }
-          }
-        ]
-      },
-      "consequent": {
-        "type": "BlockStatement",
-        "start": 68,
-        "end": 100,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 74,
-            "end": 92,
-            "directive": null,
-            "expression": {
-              "type": "MemberExpression",
-              "start": 74,
-              "end": 91,
-              "computed": false,
-              "object": {
-                "type": "Identifier",
-                "start": 74,
-                "end": 84,
-                "decorators": [],
-                "name": "maybeArray",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "property": {
-                "type": "Identifier",
-                "start": 85,
-                "end": 91,
-                "decorators": [],
-                "name": "length",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            }
-          }
-        ]
-      },
       "test": {
         "type": "CallExpression",
         "start": 41,
         "end": 66,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 41,
+          "end": 54,
+          "object": {
+            "type": "Identifier",
+            "start": 41,
+            "end": 46,
+            "decorators": [],
+            "name": "Array",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 47,
+            "end": 54,
+            "decorators": [],
+            "name": "isArray",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "computed": false
+        },
+        "typeArguments": null,
         "arguments": [
           {
             "type": "Identifier",
@@ -159,33 +101,91 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         ],
-        "callee": {
-          "type": "MemberExpression",
-          "start": 41,
-          "end": 54,
-          "computed": false,
-          "object": {
-            "type": "Identifier",
-            "start": 41,
-            "end": 46,
-            "decorators": [],
-            "name": "Array",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "optional": false,
-          "property": {
-            "type": "Identifier",
-            "start": 47,
-            "end": 54,
-            "decorators": [],
-            "name": "isArray",
-            "optional": false,
-            "typeAnnotation": null
+        "optional": false
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 68,
+        "end": 100,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 74,
+            "end": 92,
+            "expression": {
+              "type": "MemberExpression",
+              "start": 74,
+              "end": 91,
+              "object": {
+                "type": "Identifier",
+                "start": 74,
+                "end": 84,
+                "decorators": [],
+                "name": "maybeArray",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 85,
+                "end": 91,
+                "decorators": [],
+                "name": "length",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "optional": false,
+              "computed": false
+            },
+            "directive": null
           }
-        },
-        "optional": false,
-        "typeArguments": null
+        ]
+      },
+      "alternate": {
+        "type": "BlockStatement",
+        "start": 106,
+        "end": 141,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 112,
+            "end": 133,
+            "expression": {
+              "type": "CallExpression",
+              "start": 112,
+              "end": 132,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 112,
+                "end": 130,
+                "object": {
+                  "type": "Identifier",
+                  "start": 112,
+                  "end": 122,
+                  "decorators": [],
+                  "name": "maybeArray",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 123,
+                  "end": 130,
+                  "decorators": [],
+                  "name": "toFixed",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "optional": false,
+                "computed": false
+              },
+              "typeArguments": null,
+              "arguments": [],
+              "optional": false
+            },
+            "directive": null
+          }
+        ]
       }
     }
   ],

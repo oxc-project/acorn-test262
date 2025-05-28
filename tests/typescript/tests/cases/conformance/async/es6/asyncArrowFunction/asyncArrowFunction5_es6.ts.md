@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 45,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 45,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,16 +28,9 @@ __ESTREE_TEST__:PASS:
             "type": "ArrowFunctionExpression",
             "start": 10,
             "end": 45,
-            "async": true,
-            "body": {
-              "type": "BlockStatement",
-              "start": 42,
-              "end": 45,
-              "body": []
-            },
             "expression": false,
-            "generator": false,
-            "id": null,
+            "async": true,
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -57,6 +50,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 25,
                 "end": 38,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 25,
+                  "end": 32,
+                  "decorators": [],
+                  "name": "Promise",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 32,
@@ -68,24 +70,22 @@ __ESTREE_TEST__:PASS:
                       "end": 37
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 25,
-                  "end": 32,
-                  "decorators": [],
-                  "name": "Promise",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             },
-            "typeParameters": null
-          }
+            "body": {
+              "type": "BlockStatement",
+              "start": 42,
+              "end": 45,
+              "body": []
+            },
+            "id": null,
+            "generator": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

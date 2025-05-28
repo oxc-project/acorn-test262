@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 110,
+      "id": {
+        "type": "Identifier",
+        "start": 7,
+        "end": 12,
+        "decorators": [],
+        "name": "Outer",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 13,
@@ -18,6 +27,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSModuleDeclaration",
             "start": 19,
             "end": 75,
+            "id": {
+              "type": "Identifier",
+              "start": 26,
+              "end": 31,
+              "decorators": [],
+              "name": "Inner",
+              "optional": false,
+              "typeAnnotation": null
+            },
             "body": {
               "type": "TSModuleBlock",
               "start": 32,
@@ -27,17 +45,16 @@ __ESTREE_TEST__:PASS:
                   "type": "ExportNamedDeclaration",
                   "start": 42,
                   "end": 69,
-                  "attributes": [],
                   "declaration": {
                     "type": "VariableDeclaration",
                     "start": 49,
                     "end": 69,
+                    "kind": "var",
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
                         "start": 53,
                         "end": 68,
-                        "definite": false,
                         "id": {
                           "type": "Identifier",
                           "start": 53,
@@ -66,46 +83,37 @@ __ESTREE_TEST__:PASS:
                             }
                           }
                         },
-                        "init": null
+                        "init": null,
+                        "definite": false
                       }
                     ],
-                    "declare": false,
-                    "kind": "var"
+                    "declare": false
                   },
-                  "exportKind": "value",
+                  "specifiers": [],
                   "source": null,
-                  "specifiers": []
+                  "exportKind": "value",
+                  "attributes": []
                 }
               ]
             },
+            "kind": "module",
             "declare": false,
-            "global": false,
-            "id": {
-              "type": "Identifier",
-              "start": 26,
-              "end": 31,
-              "decorators": [],
-              "name": "Inner",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "kind": "module"
+            "global": false
           },
           {
             "type": "ExportNamedDeclaration",
             "start": 81,
             "end": 108,
-            "attributes": [],
             "declaration": {
               "type": "VariableDeclaration",
               "start": 88,
               "end": 108,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 92,
                   "end": 107,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 92,
@@ -134,30 +142,22 @@ __ESTREE_TEST__:PASS:
                       }
                     }
                   },
-                  "init": null
+                  "init": null,
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "var"
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 7,
-        "end": 12,
-        "decorators": [],
-        "name": "Outer",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "script",

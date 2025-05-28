@@ -9,7 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 198,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 23,
+        "value": "events",
+        "raw": "\"events\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 24,
@@ -19,44 +25,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSInterfaceDeclaration",
             "start": 28,
             "end": 96,
-            "body": {
-              "type": "TSInterfaceBody",
-              "start": 58,
-              "end": 96,
-              "body": [
-                {
-                  "type": "TSPropertySignature",
-                  "start": 64,
-                  "end": 92,
-                  "accessibility": null,
-                  "computed": false,
-                  "key": {
-                    "type": "Identifier",
-                    "start": 64,
-                    "end": 81,
-                    "decorators": [],
-                    "name": "captureRejections",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": true,
-                  "readonly": false,
-                  "static": false,
-                  "typeAnnotation": {
-                    "type": "TSTypeAnnotation",
-                    "start": 82,
-                    "end": 91,
-                    "typeAnnotation": {
-                      "type": "TSBooleanKeyword",
-                      "start": 84,
-                      "end": 91
-                    }
-                  }
-                }
-              ]
-            },
-            "declare": false,
-            "extends": [],
             "id": {
               "type": "Identifier",
               "start": 38,
@@ -66,13 +34,64 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "typeParameters": null
+            "typeParameters": null,
+            "extends": [],
+            "body": {
+              "type": "TSInterfaceBody",
+              "start": 58,
+              "end": 96,
+              "body": [
+                {
+                  "type": "TSPropertySignature",
+                  "start": 64,
+                  "end": 92,
+                  "computed": false,
+                  "optional": true,
+                  "readonly": false,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 64,
+                    "end": 81,
+                    "decorators": [],
+                    "name": "captureRejections",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeAnnotation": {
+                    "type": "TSTypeAnnotation",
+                    "start": 82,
+                    "end": 91,
+                    "typeAnnotation": {
+                      "type": "TSBooleanKeyword",
+                      "start": 84,
+                      "end": 91
+                    }
+                  },
+                  "accessibility": null,
+                  "static": false
+                }
+              ]
+            },
+            "declare": false
           },
           {
             "type": "ClassDeclaration",
             "start": 99,
             "end": 171,
-            "abstract": false,
+            "decorators": [],
+            "id": {
+              "type": "Identifier",
+              "start": 105,
+              "end": 117,
+              "decorators": [],
+              "name": "EventEmitter",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null,
+            "superClass": null,
+            "superTypeArguments": null,
+            "implements": [],
             "body": {
               "type": "ClassBody",
               "start": 118,
@@ -82,8 +101,6 @@ __ESTREE_TEST__:PASS:
                   "type": "MethodDefinition",
                   "start": 124,
                   "end": 167,
-                  "accessibility": null,
-                  "computed": false,
                   "decorators": [],
                   "key": {
                     "type": "Identifier",
@@ -94,20 +111,15 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "kind": "constructor",
-                  "optional": false,
-                  "override": false,
-                  "static": false,
                   "value": {
                     "type": "TSEmptyBodyFunctionExpression",
                     "start": 135,
                     "end": 167,
-                    "async": false,
-                    "body": null,
-                    "declare": false,
-                    "expression": false,
-                    "generator": false,
                     "id": null,
+                    "generator": false,
+                    "async": false,
+                    "declare": false,
+                    "typeParameters": null,
                     "params": [
                       {
                         "type": "Identifier",
@@ -124,7 +136,6 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 146,
                             "end": 165,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 146,
@@ -133,32 +144,27 @@ __ESTREE_TEST__:PASS:
                               "name": "EventEmitterOptions",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         }
                       }
                     ],
                     "returnType": null,
-                    "typeParameters": null
-                  }
+                    "body": null,
+                    "expression": false
+                  },
+                  "kind": "constructor",
+                  "computed": false,
+                  "static": false,
+                  "override": false,
+                  "optional": false,
+                  "accessibility": null
                 }
               ]
             },
-            "declare": false,
-            "decorators": [],
-            "id": {
-              "type": "Identifier",
-              "start": 105,
-              "end": 117,
-              "decorators": [],
-              "name": "EventEmitter",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "implements": [],
-            "superClass": null,
-            "superTypeArguments": null,
-            "typeParameters": null
+            "abstract": false,
+            "declare": false
           },
           {
             "type": "TSExportAssignment",
@@ -176,21 +182,21 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 23,
-        "raw": "\"events\"",
-        "value": "events"
-      }
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 199,
       "end": 287,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 214,
+        "end": 227,
+        "value": "node:events",
+        "raw": "\"node:events\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 228,
@@ -209,7 +215,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "importKind": "value",
             "moduleReference": {
               "type": "TSExternalModuleReference",
               "start": 248,
@@ -218,10 +223,11 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 256,
                 "end": 264,
-                "raw": "\"events\"",
-                "value": "events"
+                "value": "events",
+                "raw": "\"events\""
               }
-            }
+            },
+            "importKind": "value"
           },
           {
             "type": "TSExportAssignment",
@@ -239,15 +245,9 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 214,
-        "end": 227,
-        "raw": "\"node:events\"",
-        "value": "node:events"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -274,7 +274,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 16,
@@ -283,10 +282,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 24,
           "end": 32,
-          "raw": "\"events\"",
-          "value": "events"
+          "value": "events",
+          "raw": "\"events\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSExportAssignment",

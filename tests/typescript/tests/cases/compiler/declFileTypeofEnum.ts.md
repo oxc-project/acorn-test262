@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSEnumDeclaration",
       "start": 0,
       "end": 104,
+      "id": {
+        "type": "Identifier",
+        "start": 5,
+        "end": 9,
+        "decorators": [],
+        "name": "days",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSEnumBody",
         "start": 10,
@@ -18,7 +27,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 16,
             "end": 22,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 16,
@@ -28,13 +36,13 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 28,
             "end": 35,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 28,
@@ -44,13 +52,13 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 41,
             "end": 50,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 41,
@@ -60,13 +68,13 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 56,
             "end": 64,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 56,
@@ -76,13 +84,13 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 70,
             "end": 76,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 70,
@@ -92,13 +100,13 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 82,
             "end": 90,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 82,
@@ -108,13 +116,13 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 96,
             "end": 102,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 96,
@@ -124,32 +132,24 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           }
         ]
       },
       "const": false,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 5,
-        "end": 9,
-        "decorators": [],
-        "name": "days",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 106,
       "end": 137,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 110,
           "end": 136,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 110,
@@ -163,7 +163,6 @@ __ESTREE_TEST__:PASS:
             "type": "MemberExpression",
             "start": 123,
             "end": 136,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 123,
@@ -173,7 +172,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 128,
@@ -182,23 +180,25 @@ __ESTREE_TEST__:PASS:
               "name": "saturday",
               "optional": false,
               "typeAnnotation": null
-            }
-          }
+            },
+            "optional": false,
+            "computed": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 138,
       "end": 161,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 142,
           "end": 160,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 142,
@@ -216,22 +216,22 @@ __ESTREE_TEST__:PASS:
             "name": "days",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 162,
       "end": 190,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 166,
           "end": 189,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 166,
@@ -260,11 +260,11 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

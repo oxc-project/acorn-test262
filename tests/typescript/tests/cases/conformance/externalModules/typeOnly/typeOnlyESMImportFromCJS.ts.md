@@ -9,11 +9,11 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 10,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -31,31 +31,30 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 35,
-      "importKind": "type",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 20,
         "end": 34,
-        "raw": "\"./module.mts\"",
-        "value": "./module.mts"
+        "value": "./module.mts",
+        "raw": "\"./module.mts\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "type"
     },
     {
       "type": "ImportDeclaration",
       "start": 36,
       "end": 108,
-      "importKind": "type",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 56,
         "end": 70,
-        "raw": "\"./module.mts\"",
-        "value": "./module.mts"
+        "value": "./module.mts",
+        "raw": "\"./module.mts\""
       },
-      "specifiers": [],
       "phase": null,
       "attributes": [
         {
@@ -66,32 +65,32 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 78,
             "end": 95,
-            "raw": "\"resolution-mode\"",
-            "value": "resolution-mode"
+            "value": "resolution-mode",
+            "raw": "\"resolution-mode\""
           },
           "value": {
             "type": "Literal",
             "start": 97,
             "end": 105,
-            "raw": "\"import\"",
-            "value": "import"
+            "value": "import",
+            "raw": "\"import\""
           }
         }
-      ]
+      ],
+      "importKind": "type"
     },
     {
       "type": "ImportDeclaration",
       "start": 109,
       "end": 182,
-      "importKind": "type",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 129,
         "end": 143,
-        "raw": "\"./module.mts\"",
-        "value": "./module.mts"
+        "value": "./module.mts",
+        "raw": "\"./module.mts\""
       },
-      "specifiers": [],
       "phase": null,
       "attributes": [
         {
@@ -102,24 +101,24 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 151,
             "end": 168,
-            "raw": "\"resolution-mode\"",
-            "value": "resolution-mode"
+            "value": "resolution-mode",
+            "raw": "\"resolution-mode\""
           },
           "value": {
             "type": "Literal",
             "start": 170,
             "end": 179,
-            "raw": "\"require\"",
-            "value": "require"
+            "value": "require",
+            "raw": "\"require\""
           }
         }
-      ]
+      ],
+      "importKind": "type"
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 183,
       "end": 223,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 188,
@@ -129,6 +128,7 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTypeQuery",
         "start": 193,
@@ -145,8 +145,8 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 207,
               "end": 221,
-              "raw": "\"./module.mts\"",
-              "value": "./module.mts"
+              "value": "./module.mts",
+              "raw": "\"./module.mts\""
             }
           },
           "options": null,
@@ -155,13 +155,12 @@ __ESTREE_TEST__:PASS:
         },
         "typeArguments": null
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 224,
       "end": 307,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 229,
@@ -171,6 +170,7 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTypeQuery",
         "start": 234,
@@ -187,8 +187,8 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 248,
               "end": 262,
-              "raw": "\"./module.mts\"",
-              "value": "./module.mts"
+              "value": "./module.mts",
+              "raw": "\"./module.mts\""
             }
           },
           "options": {
@@ -200,7 +200,7 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 266,
                 "end": 303,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 266,
@@ -210,10 +210,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "ObjectExpression",
                   "start": 272,
@@ -223,28 +219,32 @@ __ESTREE_TEST__:PASS:
                       "type": "Property",
                       "start": 274,
                       "end": 301,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Literal",
                         "start": 274,
                         "end": 291,
-                        "raw": "\"resolution-mode\"",
-                        "value": "resolution-mode"
+                        "value": "resolution-mode",
+                        "raw": "\"resolution-mode\""
                       },
-                      "kind": "init",
-                      "method": false,
-                      "optional": false,
-                      "shorthand": false,
                       "value": {
                         "type": "Literal",
                         "start": 293,
                         "end": 301,
-                        "raw": "\"import\"",
-                        "value": "import"
-                      }
+                        "value": "import",
+                        "raw": "\"import\""
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "optional": false
                     }
                   ]
-                }
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "optional": false
               }
             ]
           },
@@ -253,13 +253,12 @@ __ESTREE_TEST__:PASS:
         },
         "typeArguments": null
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 308,
       "end": 392,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 313,
@@ -269,6 +268,7 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTypeQuery",
         "start": 318,
@@ -285,8 +285,8 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 332,
               "end": 346,
-              "raw": "\"./module.mts\"",
-              "value": "./module.mts"
+              "value": "./module.mts",
+              "raw": "\"./module.mts\""
             }
           },
           "options": {
@@ -298,7 +298,7 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 350,
                 "end": 388,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 350,
@@ -308,10 +308,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "ObjectExpression",
                   "start": 356,
@@ -321,28 +317,32 @@ __ESTREE_TEST__:PASS:
                       "type": "Property",
                       "start": 358,
                       "end": 386,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Literal",
                         "start": 358,
                         "end": 375,
-                        "raw": "\"resolution-mode\"",
-                        "value": "resolution-mode"
+                        "value": "resolution-mode",
+                        "raw": "\"resolution-mode\""
                       },
-                      "kind": "init",
-                      "method": false,
-                      "optional": false,
-                      "shorthand": false,
                       "value": {
                         "type": "Literal",
                         "start": 377,
                         "end": 386,
-                        "raw": "\"require\"",
-                        "value": "require"
-                      }
+                        "value": "require",
+                        "raw": "\"require\""
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "optional": false
                     }
                   ]
-                }
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "optional": false
               }
             ]
           },
@@ -351,7 +351,7 @@ __ESTREE_TEST__:PASS:
         },
         "typeArguments": null
       },
-      "typeParameters": null
+      "declare": false
     }
   ],
   "sourceType": "module",

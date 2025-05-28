@@ -9,36 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 24,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 12,
-        "end": 24,
-        "body": [
-          {
-            "type": "TSMethodSignature",
-            "start": 16,
-            "end": 22,
-            "accessibility": null,
-            "computed": false,
-            "key": {
-              "type": "Literal",
-              "start": 16,
-              "end": 19,
-              "raw": "\"E\"",
-              "value": "E"
-            },
-            "kind": "method",
-            "optional": false,
-            "params": [],
-            "readonly": false,
-            "returnType": null,
-            "static": false,
-            "typeParameters": null
-          }
-        ]
-      },
-      "declare": false,
-      "extends": [],
       "id": {
         "type": "Identifier",
         "start": 10,
@@ -48,7 +18,37 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "typeParameters": null
+      "typeParameters": null,
+      "extends": [],
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 12,
+        "end": 24,
+        "body": [
+          {
+            "type": "TSMethodSignature",
+            "start": 16,
+            "end": 22,
+            "key": {
+              "type": "Literal",
+              "start": 16,
+              "end": 19,
+              "value": "E",
+              "raw": "\"E\""
+            },
+            "computed": false,
+            "optional": false,
+            "kind": "method",
+            "typeParameters": null,
+            "params": [],
+            "returnType": null,
+            "accessibility": null,
+            "readonly": false,
+            "static": false
+          }
+        ]
+      },
+      "declare": false
     }
   ],
   "sourceType": "script",

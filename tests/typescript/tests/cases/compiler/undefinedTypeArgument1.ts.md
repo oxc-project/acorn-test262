@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 29,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 28,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,7 +28,6 @@ __ESTREE_TEST__:PASS:
             "type": "NewExpression",
             "start": 11,
             "end": 28,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 15,
@@ -47,7 +46,6 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 21,
                   "end": 25,
-                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 21,
@@ -56,15 +54,17 @@ __ESTREE_TEST__:PASS:
                     "name": "WAWA",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "typeArguments": null
                 }
               ]
-            }
-          }
+            },
+            "arguments": []
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

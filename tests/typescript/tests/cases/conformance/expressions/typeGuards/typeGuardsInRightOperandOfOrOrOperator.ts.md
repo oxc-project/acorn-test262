@@ -9,95 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 230,
       "end": 329,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 263,
-        "end": 329,
-        "body": [
-          {
-            "type": "ReturnStatement",
-            "start": 269,
-            "end": 317,
-            "argument": {
-              "type": "LogicalExpression",
-              "start": 276,
-              "end": 316,
-              "operator": "||",
-              "left": {
-                "type": "BinaryExpression",
-                "start": 276,
-                "end": 297,
-                "operator": "!==",
-                "left": {
-                  "type": "UnaryExpression",
-                  "start": 276,
-                  "end": 284,
-                  "argument": {
-                    "type": "Identifier",
-                    "start": 283,
-                    "end": 284,
-                    "decorators": [],
-                    "name": "x",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "operator": "typeof",
-                  "prefix": true
-                },
-                "right": {
-                  "type": "Literal",
-                  "start": 289,
-                  "end": 297,
-                  "raw": "\"string\"",
-                  "value": "string"
-                }
-              },
-              "right": {
-                "type": "BinaryExpression",
-                "start": 301,
-                "end": 316,
-                "operator": "===",
-                "left": {
-                  "type": "MemberExpression",
-                  "start": 301,
-                  "end": 309,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 301,
-                    "end": 302,
-                    "decorators": [],
-                    "name": "x",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 303,
-                    "end": 309,
-                    "decorators": [],
-                    "name": "length",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "right": {
-                  "type": "Literal",
-                  "start": 314,
-                  "end": 316,
-                  "raw": "10",
-                  "value": 10
-                }
-              }
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 239,
@@ -107,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -140,100 +55,97 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
-    },
-    {
-      "type": "FunctionDeclaration",
-      "start": 330,
-      "end": 477,
-      "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 364,
-        "end": 477,
+        "start": 263,
+        "end": 329,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 408,
-            "end": 456,
+            "start": 269,
+            "end": 317,
             "argument": {
               "type": "LogicalExpression",
-              "start": 415,
-              "end": 455,
-              "operator": "||",
+              "start": 276,
+              "end": 316,
               "left": {
                 "type": "BinaryExpression",
-                "start": 415,
-                "end": 436,
-                "operator": "!==",
+                "start": 276,
+                "end": 297,
                 "left": {
                   "type": "UnaryExpression",
-                  "start": 415,
-                  "end": 423,
+                  "start": 276,
+                  "end": 284,
+                  "operator": "typeof",
                   "argument": {
                     "type": "Identifier",
-                    "start": 422,
-                    "end": 423,
+                    "start": 283,
+                    "end": 284,
                     "decorators": [],
                     "name": "x",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "operator": "typeof",
                   "prefix": true
                 },
+                "operator": "!==",
                 "right": {
                   "type": "Literal",
-                  "start": 428,
-                  "end": 436,
-                  "raw": "\"string\"",
-                  "value": "string"
+                  "start": 289,
+                  "end": 297,
+                  "value": "string",
+                  "raw": "\"string\""
                 }
               },
+              "operator": "||",
               "right": {
-                "type": "LogicalExpression",
-                "start": 441,
-                "end": 454,
-                "operator": "||",
+                "type": "BinaryExpression",
+                "start": 301,
+                "end": 316,
                 "left": {
-                  "type": "AssignmentExpression",
-                  "start": 442,
-                  "end": 448,
-                  "operator": "=",
-                  "left": {
+                  "type": "MemberExpression",
+                  "start": 301,
+                  "end": 309,
+                  "object": {
                     "type": "Identifier",
-                    "start": 442,
-                    "end": 443,
+                    "start": 301,
+                    "end": 302,
                     "decorators": [],
                     "name": "x",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "right": {
-                    "type": "Literal",
-                    "start": 446,
-                    "end": 448,
-                    "raw": "10",
-                    "value": 10
-                  }
-                },
-                "right": {
-                  "type": "Identifier",
-                  "start": 453,
-                  "end": 454,
-                  "decorators": [],
-                  "name": "x",
+                  "property": {
+                    "type": "Identifier",
+                    "start": 303,
+                    "end": 309,
+                    "decorators": [],
+                    "name": "length",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
                   "optional": false,
-                  "typeAnnotation": null
+                  "computed": false
+                },
+                "operator": "===",
+                "right": {
+                  "type": "Literal",
+                  "start": 314,
+                  "end": 316,
+                  "value": 10,
+                  "raw": "10"
                 }
               }
             }
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
+      "expression": false
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 330,
+      "end": 477,
       "id": {
         "type": "Identifier",
         "start": 339,
@@ -243,6 +155,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -276,70 +192,62 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
-    },
-    {
-      "type": "FunctionDeclaration",
-      "start": 478,
-      "end": 654,
-      "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 512,
-        "end": 654,
+        "start": 364,
+        "end": 477,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 580,
-            "end": 633,
+            "start": 408,
+            "end": 456,
             "argument": {
               "type": "LogicalExpression",
-              "start": 587,
-              "end": 632,
-              "operator": "||",
+              "start": 415,
+              "end": 455,
               "left": {
                 "type": "BinaryExpression",
-                "start": 587,
-                "end": 608,
-                "operator": "!==",
+                "start": 415,
+                "end": 436,
                 "left": {
                   "type": "UnaryExpression",
-                  "start": 587,
-                  "end": 595,
+                  "start": 415,
+                  "end": 423,
+                  "operator": "typeof",
                   "argument": {
                     "type": "Identifier",
-                    "start": 594,
-                    "end": 595,
+                    "start": 422,
+                    "end": 423,
                     "decorators": [],
                     "name": "x",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "operator": "typeof",
                   "prefix": true
                 },
+                "operator": "!==",
                 "right": {
                   "type": "Literal",
-                  "start": 600,
-                  "end": 608,
-                  "raw": "\"string\"",
-                  "value": "string"
+                  "start": 428,
+                  "end": 436,
+                  "value": "string",
+                  "raw": "\"string\""
                 }
               },
+              "operator": "||",
               "right": {
                 "type": "LogicalExpression",
-                "start": 613,
-                "end": 631,
-                "operator": "||",
+                "start": 441,
+                "end": 454,
                 "left": {
                   "type": "AssignmentExpression",
-                  "start": 614,
-                  "end": 625,
+                  "start": 442,
+                  "end": 448,
                   "operator": "=",
                   "left": {
                     "type": "Identifier",
-                    "start": 614,
-                    "end": 615,
+                    "start": 442,
+                    "end": 443,
                     "decorators": [],
                     "name": "x",
                     "optional": false,
@@ -347,16 +255,17 @@ __ESTREE_TEST__:PASS:
                   },
                   "right": {
                     "type": "Literal",
-                    "start": 618,
-                    "end": 625,
-                    "raw": "\"hello\"",
-                    "value": "hello"
+                    "start": 446,
+                    "end": 448,
+                    "value": 10,
+                    "raw": "10"
                   }
                 },
+                "operator": "||",
                 "right": {
                   "type": "Identifier",
-                  "start": 630,
-                  "end": 631,
+                  "start": 453,
+                  "end": 454,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
@@ -367,9 +276,12 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
+      "expression": false
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 478,
+      "end": 654,
       "id": {
         "type": "Identifier",
         "start": 487,
@@ -379,6 +291,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -412,107 +328,96 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
-    },
-    {
-      "type": "FunctionDeclaration",
-      "start": 655,
-      "end": 845,
-      "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 699,
-        "end": 845,
+        "start": 512,
+        "end": 654,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 705,
-            "end": 830,
+            "start": 580,
+            "end": 633,
             "argument": {
               "type": "LogicalExpression",
-              "start": 712,
-              "end": 829,
-              "operator": "||",
+              "start": 587,
+              "end": 632,
               "left": {
-                "type": "LogicalExpression",
-                "start": 712,
-                "end": 795,
-                "operator": "||",
+                "type": "BinaryExpression",
+                "start": 587,
+                "end": 608,
                 "left": {
-                  "type": "BinaryExpression",
-                  "start": 712,
-                  "end": 733,
-                  "operator": "===",
-                  "left": {
-                    "type": "UnaryExpression",
-                    "start": 712,
-                    "end": 720,
-                    "argument": {
-                      "type": "Identifier",
-                      "start": 719,
-                      "end": 720,
-                      "decorators": [],
-                      "name": "x",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "operator": "typeof",
-                    "prefix": true
+                  "type": "UnaryExpression",
+                  "start": 587,
+                  "end": 595,
+                  "operator": "typeof",
+                  "argument": {
+                    "type": "Identifier",
+                    "start": 594,
+                    "end": 595,
+                    "decorators": [],
+                    "name": "x",
+                    "optional": false,
+                    "typeAnnotation": null
                   },
-                  "right": {
-                    "type": "Literal",
-                    "start": 725,
-                    "end": 733,
-                    "raw": "\"string\"",
-                    "value": "string"
-                  }
+                  "prefix": true
                 },
+                "operator": "!==",
                 "right": {
-                  "type": "BinaryExpression",
-                  "start": 774,
-                  "end": 795,
-                  "operator": "===",
-                  "left": {
-                    "type": "UnaryExpression",
-                    "start": 774,
-                    "end": 782,
-                    "argument": {
-                      "type": "Identifier",
-                      "start": 781,
-                      "end": 782,
-                      "decorators": [],
-                      "name": "x",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "operator": "typeof",
-                    "prefix": true
-                  },
-                  "right": {
-                    "type": "Literal",
-                    "start": 787,
-                    "end": 795,
-                    "raw": "\"number\"",
-                    "value": "number"
-                  }
+                  "type": "Literal",
+                  "start": 600,
+                  "end": 608,
+                  "value": "string",
+                  "raw": "\"string\""
                 }
               },
+              "operator": "||",
               "right": {
-                "type": "Identifier",
-                "start": 828,
-                "end": 829,
-                "decorators": [],
-                "name": "x",
-                "optional": false,
-                "typeAnnotation": null
+                "type": "LogicalExpression",
+                "start": 613,
+                "end": 631,
+                "left": {
+                  "type": "AssignmentExpression",
+                  "start": 614,
+                  "end": 625,
+                  "operator": "=",
+                  "left": {
+                    "type": "Identifier",
+                    "start": 614,
+                    "end": 615,
+                    "decorators": [],
+                    "name": "x",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "right": {
+                    "type": "Literal",
+                    "start": 618,
+                    "end": 625,
+                    "value": "hello",
+                    "raw": "\"hello\""
+                  }
+                },
+                "operator": "||",
+                "right": {
+                  "type": "Identifier",
+                  "start": 630,
+                  "end": 631,
+                  "decorators": [],
+                  "name": "x",
+                  "optional": false,
+                  "typeAnnotation": null
+                }
               }
             }
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
+      "expression": false
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 655,
+      "end": 845,
       "id": {
         "type": "Identifier",
         "start": 664,
@@ -522,6 +427,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -560,183 +469,103 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
-    },
-    {
-      "type": "FunctionDeclaration",
-      "start": 846,
-      "end": 1175,
-      "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 890,
-        "end": 1175,
+        "start": 699,
+        "end": 845,
         "body": [
           {
-            "type": "VariableDeclaration",
-            "start": 991,
-            "end": 1015,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 995,
-                "end": 1014,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 995,
-                  "end": 1014,
-                  "decorators": [],
-                  "name": "b",
-                  "optional": false,
-                  "typeAnnotation": {
-                    "type": "TSTypeAnnotation",
-                    "start": 996,
-                    "end": 1014,
-                    "typeAnnotation": {
-                      "type": "TSUnionType",
-                      "start": 998,
-                      "end": 1014,
-                      "types": [
-                        {
-                          "type": "TSNumberKeyword",
-                          "start": 998,
-                          "end": 1004
-                        },
-                        {
-                          "type": "TSBooleanKeyword",
-                          "start": 1007,
-                          "end": 1014
-                        }
-                      ]
-                    }
-                  }
-                },
-                "init": null
-              }
-            ],
-            "declare": false,
-            "kind": "var"
-          },
-          {
             "type": "ReturnStatement",
-            "start": 1020,
-            "end": 1160,
+            "start": 705,
+            "end": 830,
             "argument": {
               "type": "LogicalExpression",
-              "start": 1027,
-              "end": 1159,
-              "operator": "||",
+              "start": 712,
+              "end": 829,
               "left": {
-                "type": "BinaryExpression",
-                "start": 1027,
-                "end": 1048,
-                "operator": "===",
+                "type": "LogicalExpression",
+                "start": 712,
+                "end": 795,
                 "left": {
-                  "type": "UnaryExpression",
-                  "start": 1027,
-                  "end": 1035,
-                  "argument": {
-                    "type": "Identifier",
-                    "start": 1034,
-                    "end": 1035,
-                    "decorators": [],
-                    "name": "x",
-                    "optional": false,
-                    "typeAnnotation": null
+                  "type": "BinaryExpression",
+                  "start": 712,
+                  "end": 733,
+                  "left": {
+                    "type": "UnaryExpression",
+                    "start": 712,
+                    "end": 720,
+                    "operator": "typeof",
+                    "argument": {
+                      "type": "Identifier",
+                      "start": 719,
+                      "end": 720,
+                      "decorators": [],
+                      "name": "x",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "prefix": true
                   },
-                  "operator": "typeof",
-                  "prefix": true
+                  "operator": "===",
+                  "right": {
+                    "type": "Literal",
+                    "start": 725,
+                    "end": 733,
+                    "value": "string",
+                    "raw": "\"string\""
+                  }
                 },
+                "operator": "||",
                 "right": {
-                  "type": "Literal",
-                  "start": 1040,
-                  "end": 1048,
-                  "raw": "\"string\"",
-                  "value": "string"
+                  "type": "BinaryExpression",
+                  "start": 774,
+                  "end": 795,
+                  "left": {
+                    "type": "UnaryExpression",
+                    "start": 774,
+                    "end": 782,
+                    "operator": "typeof",
+                    "argument": {
+                      "type": "Identifier",
+                      "start": 781,
+                      "end": 782,
+                      "decorators": [],
+                      "name": "x",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "prefix": true
+                  },
+                  "operator": "===",
+                  "right": {
+                    "type": "Literal",
+                    "start": 787,
+                    "end": 795,
+                    "value": "number",
+                    "raw": "\"number\""
+                  }
                 }
               },
+              "operator": "||",
               "right": {
-                "type": "LogicalExpression",
-                "start": 1090,
-                "end": 1158,
-                "operator": "||",
-                "left": {
-                  "type": "AssignmentExpression",
-                  "start": 1091,
-                  "end": 1096,
-                  "operator": "=",
-                  "left": {
-                    "type": "Identifier",
-                    "start": 1091,
-                    "end": 1092,
-                    "decorators": [],
-                    "name": "b",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "right": {
-                    "type": "Identifier",
-                    "start": 1095,
-                    "end": 1096,
-                    "decorators": [],
-                    "name": "x",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "right": {
-                  "type": "LogicalExpression",
-                  "start": 1102,
-                  "end": 1157,
-                  "operator": "||",
-                  "left": {
-                    "type": "BinaryExpression",
-                    "start": 1102,
-                    "end": 1123,
-                    "operator": "===",
-                    "left": {
-                      "type": "UnaryExpression",
-                      "start": 1102,
-                      "end": 1110,
-                      "argument": {
-                        "type": "Identifier",
-                        "start": 1109,
-                        "end": 1110,
-                        "decorators": [],
-                        "name": "x",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "operator": "typeof",
-                      "prefix": true
-                    },
-                    "right": {
-                      "type": "Literal",
-                      "start": 1115,
-                      "end": 1123,
-                      "raw": "\"number\"",
-                      "value": "number"
-                    }
-                  },
-                  "right": {
-                    "type": "Identifier",
-                    "start": 1156,
-                    "end": 1157,
-                    "decorators": [],
-                    "name": "x",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                }
+                "type": "Identifier",
+                "start": 828,
+                "end": 829,
+                "decorators": [],
+                "name": "x",
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
+      "expression": false
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 846,
+      "end": 1175,
       "id": {
         "type": "Identifier",
         "start": 855,
@@ -746,6 +575,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -784,118 +617,166 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
-    },
-    {
-      "type": "FunctionDeclaration",
-      "start": 1176,
-      "end": 1417,
-      "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 1220,
-        "end": 1417,
+        "start": 890,
+        "end": 1175,
         "body": [
           {
-            "type": "ReturnStatement",
-            "start": 1250,
-            "end": 1404,
-            "argument": {
-              "type": "LogicalExpression",
-              "start": 1257,
-              "end": 1404,
-              "operator": "||",
-              "left": {
-                "type": "BinaryExpression",
-                "start": 1257,
-                "end": 1278,
-                "operator": "===",
-                "left": {
-                  "type": "UnaryExpression",
-                  "start": 1257,
-                  "end": 1265,
-                  "argument": {
-                    "type": "Identifier",
-                    "start": 1264,
-                    "end": 1265,
-                    "decorators": [],
-                    "name": "x",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "operator": "typeof",
-                  "prefix": true
-                },
-                "right": {
-                  "type": "Literal",
-                  "start": 1270,
-                  "end": 1278,
-                  "raw": "\"string\"",
-                  "value": "string"
-                }
-              },
-              "right": {
-                "type": "ConditionalExpression",
-                "start": 1320,
-                "end": 1403,
-                "alternate": {
-                  "type": "BinaryExpression",
-                  "start": 1395,
-                  "end": 1403,
-                  "operator": "===",
-                  "left": {
-                    "type": "Identifier",
-                    "start": 1395,
-                    "end": 1396,
-                    "decorators": [],
-                    "name": "x",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "right": {
-                    "type": "Literal",
-                    "start": 1401,
-                    "end": 1403,
-                    "raw": "10",
-                    "value": 10
+            "type": "VariableDeclaration",
+            "start": 991,
+            "end": 1015,
+            "kind": "var",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 995,
+                "end": 1014,
+                "id": {
+                  "type": "Identifier",
+                  "start": 995,
+                  "end": 1014,
+                  "decorators": [],
+                  "name": "b",
+                  "optional": false,
+                  "typeAnnotation": {
+                    "type": "TSTypeAnnotation",
+                    "start": 996,
+                    "end": 1014,
+                    "typeAnnotation": {
+                      "type": "TSUnionType",
+                      "start": 998,
+                      "end": 1014,
+                      "types": [
+                        {
+                          "type": "TSNumberKeyword",
+                          "start": 998,
+                          "end": 1004
+                        },
+                        {
+                          "type": "TSBooleanKeyword",
+                          "start": 1007,
+                          "end": 1014
+                        }
+                      ]
+                    }
                   }
                 },
-                "consequent": {
-                  "type": "Identifier",
-                  "start": 1372,
-                  "end": 1373,
-                  "decorators": [],
-                  "name": "x",
-                  "optional": false,
-                  "typeAnnotation": null
+                "init": null,
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "ReturnStatement",
+            "start": 1020,
+            "end": 1160,
+            "argument": {
+              "type": "LogicalExpression",
+              "start": 1027,
+              "end": 1159,
+              "left": {
+                "type": "BinaryExpression",
+                "start": 1027,
+                "end": 1048,
+                "left": {
+                  "type": "UnaryExpression",
+                  "start": 1027,
+                  "end": 1035,
+                  "operator": "typeof",
+                  "argument": {
+                    "type": "Identifier",
+                    "start": 1034,
+                    "end": 1035,
+                    "decorators": [],
+                    "name": "x",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "prefix": true
                 },
-                "test": {
-                  "type": "BinaryExpression",
-                  "start": 1320,
-                  "end": 1341,
-                  "operator": "!==",
+                "operator": "===",
+                "right": {
+                  "type": "Literal",
+                  "start": 1040,
+                  "end": 1048,
+                  "value": "string",
+                  "raw": "\"string\""
+                }
+              },
+              "operator": "||",
+              "right": {
+                "type": "LogicalExpression",
+                "start": 1090,
+                "end": 1158,
+                "left": {
+                  "type": "AssignmentExpression",
+                  "start": 1091,
+                  "end": 1096,
+                  "operator": "=",
                   "left": {
-                    "type": "UnaryExpression",
-                    "start": 1320,
-                    "end": 1328,
-                    "argument": {
-                      "type": "Identifier",
-                      "start": 1327,
-                      "end": 1328,
-                      "decorators": [],
-                      "name": "x",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "operator": "typeof",
-                    "prefix": true
+                    "type": "Identifier",
+                    "start": 1091,
+                    "end": 1092,
+                    "decorators": [],
+                    "name": "b",
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
-                    "type": "Literal",
-                    "start": 1333,
-                    "end": 1341,
-                    "raw": "\"number\"",
-                    "value": "number"
+                    "type": "Identifier",
+                    "start": 1095,
+                    "end": 1096,
+                    "decorators": [],
+                    "name": "x",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                },
+                "operator": "||",
+                "right": {
+                  "type": "LogicalExpression",
+                  "start": 1102,
+                  "end": 1157,
+                  "left": {
+                    "type": "BinaryExpression",
+                    "start": 1102,
+                    "end": 1123,
+                    "left": {
+                      "type": "UnaryExpression",
+                      "start": 1102,
+                      "end": 1110,
+                      "operator": "typeof",
+                      "argument": {
+                        "type": "Identifier",
+                        "start": 1109,
+                        "end": 1110,
+                        "decorators": [],
+                        "name": "x",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "prefix": true
+                    },
+                    "operator": "===",
+                    "right": {
+                      "type": "Literal",
+                      "start": 1115,
+                      "end": 1123,
+                      "value": "number",
+                      "raw": "\"number\""
+                    }
+                  },
+                  "operator": "||",
+                  "right": {
+                    "type": "Identifier",
+                    "start": 1156,
+                    "end": 1157,
+                    "decorators": [],
+                    "name": "x",
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -903,9 +784,12 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
+      "expression": false
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 1176,
+      "end": 1417,
       "id": {
         "type": "Identifier",
         "start": 1185,
@@ -915,6 +799,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -953,343 +841,111 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
-    },
-    {
-      "type": "FunctionDeclaration",
-      "start": 1418,
-      "end": 1874,
-      "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 1462,
-        "end": 1874,
+        "start": 1220,
+        "end": 1417,
         "body": [
           {
-            "type": "VariableDeclaration",
-            "start": 1468,
-            "end": 1500,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 1472,
-                "end": 1499,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 1472,
-                  "end": 1499,
-                  "decorators": [],
-                  "name": "y",
-                  "optional": false,
-                  "typeAnnotation": {
-                    "type": "TSTypeAnnotation",
-                    "start": 1473,
-                    "end": 1499,
-                    "typeAnnotation": {
-                      "type": "TSUnionType",
-                      "start": 1475,
-                      "end": 1499,
-                      "types": [
-                        {
-                          "type": "TSNumberKeyword",
-                          "start": 1475,
-                          "end": 1481
-                        },
-                        {
-                          "type": "TSBooleanKeyword",
-                          "start": 1483,
-                          "end": 1490
-                        },
-                        {
-                          "type": "TSStringKeyword",
-                          "start": 1493,
-                          "end": 1499
-                        }
-                      ]
-                    }
-                  }
-                },
-                "init": null
-              }
-            ],
-            "declare": false,
-            "kind": "var"
-          },
-          {
-            "type": "VariableDeclaration",
-            "start": 1505,
-            "end": 1537,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 1509,
-                "end": 1536,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 1509,
-                  "end": 1536,
-                  "decorators": [],
-                  "name": "z",
-                  "optional": false,
-                  "typeAnnotation": {
-                    "type": "TSTypeAnnotation",
-                    "start": 1510,
-                    "end": 1536,
-                    "typeAnnotation": {
-                      "type": "TSUnionType",
-                      "start": 1512,
-                      "end": 1536,
-                      "types": [
-                        {
-                          "type": "TSNumberKeyword",
-                          "start": 1512,
-                          "end": 1518
-                        },
-                        {
-                          "type": "TSBooleanKeyword",
-                          "start": 1520,
-                          "end": 1527
-                        },
-                        {
-                          "type": "TSStringKeyword",
-                          "start": 1530,
-                          "end": 1536
-                        }
-                      ]
-                    }
-                  }
-                },
-                "init": null
-              }
-            ],
-            "declare": false,
-            "kind": "var"
-          },
-          {
             "type": "ReturnStatement",
-            "start": 1576,
-            "end": 1843,
+            "start": 1250,
+            "end": 1404,
             "argument": {
               "type": "LogicalExpression",
-              "start": 1583,
-              "end": 1842,
-              "operator": "||",
+              "start": 1257,
+              "end": 1404,
               "left": {
                 "type": "BinaryExpression",
-                "start": 1583,
-                "end": 1604,
-                "operator": "===",
+                "start": 1257,
+                "end": 1278,
                 "left": {
                   "type": "UnaryExpression",
-                  "start": 1583,
-                  "end": 1591,
+                  "start": 1257,
+                  "end": 1265,
+                  "operator": "typeof",
                   "argument": {
                     "type": "Identifier",
-                    "start": 1590,
-                    "end": 1591,
+                    "start": 1264,
+                    "end": 1265,
                     "decorators": [],
                     "name": "x",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "operator": "typeof",
                   "prefix": true
                 },
+                "operator": "===",
                 "right": {
                   "type": "Literal",
-                  "start": 1596,
-                  "end": 1604,
-                  "raw": "\"string\"",
-                  "value": "string"
+                  "start": 1270,
+                  "end": 1278,
+                  "value": "string",
+                  "raw": "\"string\""
                 }
               },
+              "operator": "||",
               "right": {
-                "type": "LogicalExpression",
-                "start": 1617,
-                "end": 1841,
-                "operator": "||",
-                "left": {
-                  "type": "AssignmentExpression",
-                  "start": 1618,
-                  "end": 1623,
-                  "operator": "=",
+                "type": "ConditionalExpression",
+                "start": 1320,
+                "end": 1403,
+                "test": {
+                  "type": "BinaryExpression",
+                  "start": 1320,
+                  "end": 1341,
+                  "left": {
+                    "type": "UnaryExpression",
+                    "start": 1320,
+                    "end": 1328,
+                    "operator": "typeof",
+                    "argument": {
+                      "type": "Identifier",
+                      "start": 1327,
+                      "end": 1328,
+                      "decorators": [],
+                      "name": "x",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "prefix": true
+                  },
+                  "operator": "!==",
+                  "right": {
+                    "type": "Literal",
+                    "start": 1333,
+                    "end": 1341,
+                    "value": "number",
+                    "raw": "\"number\""
+                  }
+                },
+                "consequent": {
+                  "type": "Identifier",
+                  "start": 1372,
+                  "end": 1373,
+                  "decorators": [],
+                  "name": "x",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "alternate": {
+                  "type": "BinaryExpression",
+                  "start": 1395,
+                  "end": 1403,
                   "left": {
                     "type": "Identifier",
-                    "start": 1618,
-                    "end": 1619,
-                    "decorators": [],
-                    "name": "z",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "right": {
-                    "type": "Identifier",
-                    "start": 1622,
-                    "end": 1623,
+                    "start": 1395,
+                    "end": 1396,
                     "decorators": [],
                     "name": "x",
                     "optional": false,
                     "typeAnnotation": null
-                  }
-                },
-                "right": {
-                  "type": "ConditionalExpression",
-                  "start": 1657,
-                  "end": 1840,
-                  "alternate": {
-                    "type": "LogicalExpression",
-                    "start": 1816,
-                    "end": 1839,
-                    "operator": "&&",
-                    "left": {
-                      "type": "AssignmentExpression",
-                      "start": 1817,
-                      "end": 1822,
-                      "operator": "=",
-                      "left": {
-                        "type": "Identifier",
-                        "start": 1817,
-                        "end": 1818,
-                        "decorators": [],
-                        "name": "y",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "right": {
-                        "type": "Identifier",
-                        "start": 1821,
-                        "end": 1822,
-                        "decorators": [],
-                        "name": "x",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    },
-                    "right": {
-                      "type": "CallExpression",
-                      "start": 1827,
-                      "end": 1839,
-                      "arguments": [],
-                      "callee": {
-                        "type": "MemberExpression",
-                        "start": 1827,
-                        "end": 1837,
-                        "computed": false,
-                        "object": {
-                          "type": "Identifier",
-                          "start": 1827,
-                          "end": 1828,
-                          "decorators": [],
-                          "name": "x",
-                          "optional": false,
-                          "typeAnnotation": null
-                        },
-                        "optional": false,
-                        "property": {
-                          "type": "Identifier",
-                          "start": 1829,
-                          "end": 1837,
-                          "decorators": [],
-                          "name": "toString",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
-                      },
-                      "optional": false,
-                      "typeArguments": null
-                    }
                   },
-                  "consequent": {
-                    "type": "LogicalExpression",
-                    "start": 1719,
-                    "end": 1743,
-                    "operator": "&&",
-                    "left": {
-                      "type": "AssignmentExpression",
-                      "start": 1720,
-                      "end": 1726,
-                      "operator": "=",
-                      "left": {
-                        "type": "Identifier",
-                        "start": 1720,
-                        "end": 1721,
-                        "decorators": [],
-                        "name": "x",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "right": {
-                        "type": "Literal",
-                        "start": 1724,
-                        "end": 1726,
-                        "raw": "10",
-                        "value": 10
-                      }
-                    },
-                    "right": {
-                      "type": "CallExpression",
-                      "start": 1731,
-                      "end": 1743,
-                      "arguments": [],
-                      "callee": {
-                        "type": "MemberExpression",
-                        "start": 1731,
-                        "end": 1741,
-                        "computed": false,
-                        "object": {
-                          "type": "Identifier",
-                          "start": 1731,
-                          "end": 1732,
-                          "decorators": [],
-                          "name": "x",
-                          "optional": false,
-                          "typeAnnotation": null
-                        },
-                        "optional": false,
-                        "property": {
-                          "type": "Identifier",
-                          "start": 1733,
-                          "end": 1741,
-                          "decorators": [],
-                          "name": "toString",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
-                      },
-                      "optional": false,
-                      "typeArguments": null
-                    }
-                  },
-                  "test": {
-                    "type": "BinaryExpression",
-                    "start": 1657,
-                    "end": 1678,
-                    "operator": "===",
-                    "left": {
-                      "type": "UnaryExpression",
-                      "start": 1657,
-                      "end": 1665,
-                      "argument": {
-                        "type": "Identifier",
-                        "start": 1664,
-                        "end": 1665,
-                        "decorators": [],
-                        "name": "x",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "operator": "typeof",
-                      "prefix": true
-                    },
-                    "right": {
-                      "type": "Literal",
-                      "start": 1670,
-                      "end": 1678,
-                      "raw": "\"number\"",
-                      "value": "number"
-                    }
+                  "operator": "===",
+                  "right": {
+                    "type": "Literal",
+                    "start": 1401,
+                    "end": 1403,
+                    "value": 10,
+                    "raw": "10"
                   }
                 }
               }
@@ -1297,9 +953,12 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
+      "expression": false
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 1418,
+      "end": 1874,
       "id": {
         "type": "Identifier",
         "start": 1427,
@@ -1309,6 +968,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -1347,7 +1010,344 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 1462,
+        "end": 1874,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 1468,
+            "end": 1500,
+            "kind": "var",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 1472,
+                "end": 1499,
+                "id": {
+                  "type": "Identifier",
+                  "start": 1472,
+                  "end": 1499,
+                  "decorators": [],
+                  "name": "y",
+                  "optional": false,
+                  "typeAnnotation": {
+                    "type": "TSTypeAnnotation",
+                    "start": 1473,
+                    "end": 1499,
+                    "typeAnnotation": {
+                      "type": "TSUnionType",
+                      "start": 1475,
+                      "end": 1499,
+                      "types": [
+                        {
+                          "type": "TSNumberKeyword",
+                          "start": 1475,
+                          "end": 1481
+                        },
+                        {
+                          "type": "TSBooleanKeyword",
+                          "start": 1483,
+                          "end": 1490
+                        },
+                        {
+                          "type": "TSStringKeyword",
+                          "start": 1493,
+                          "end": 1499
+                        }
+                      ]
+                    }
+                  }
+                },
+                "init": null,
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 1505,
+            "end": 1537,
+            "kind": "var",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 1509,
+                "end": 1536,
+                "id": {
+                  "type": "Identifier",
+                  "start": 1509,
+                  "end": 1536,
+                  "decorators": [],
+                  "name": "z",
+                  "optional": false,
+                  "typeAnnotation": {
+                    "type": "TSTypeAnnotation",
+                    "start": 1510,
+                    "end": 1536,
+                    "typeAnnotation": {
+                      "type": "TSUnionType",
+                      "start": 1512,
+                      "end": 1536,
+                      "types": [
+                        {
+                          "type": "TSNumberKeyword",
+                          "start": 1512,
+                          "end": 1518
+                        },
+                        {
+                          "type": "TSBooleanKeyword",
+                          "start": 1520,
+                          "end": 1527
+                        },
+                        {
+                          "type": "TSStringKeyword",
+                          "start": 1530,
+                          "end": 1536
+                        }
+                      ]
+                    }
+                  }
+                },
+                "init": null,
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "ReturnStatement",
+            "start": 1576,
+            "end": 1843,
+            "argument": {
+              "type": "LogicalExpression",
+              "start": 1583,
+              "end": 1842,
+              "left": {
+                "type": "BinaryExpression",
+                "start": 1583,
+                "end": 1604,
+                "left": {
+                  "type": "UnaryExpression",
+                  "start": 1583,
+                  "end": 1591,
+                  "operator": "typeof",
+                  "argument": {
+                    "type": "Identifier",
+                    "start": 1590,
+                    "end": 1591,
+                    "decorators": [],
+                    "name": "x",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "prefix": true
+                },
+                "operator": "===",
+                "right": {
+                  "type": "Literal",
+                  "start": 1596,
+                  "end": 1604,
+                  "value": "string",
+                  "raw": "\"string\""
+                }
+              },
+              "operator": "||",
+              "right": {
+                "type": "LogicalExpression",
+                "start": 1617,
+                "end": 1841,
+                "left": {
+                  "type": "AssignmentExpression",
+                  "start": 1618,
+                  "end": 1623,
+                  "operator": "=",
+                  "left": {
+                    "type": "Identifier",
+                    "start": 1618,
+                    "end": 1619,
+                    "decorators": [],
+                    "name": "z",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "right": {
+                    "type": "Identifier",
+                    "start": 1622,
+                    "end": 1623,
+                    "decorators": [],
+                    "name": "x",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                },
+                "operator": "||",
+                "right": {
+                  "type": "ConditionalExpression",
+                  "start": 1657,
+                  "end": 1840,
+                  "test": {
+                    "type": "BinaryExpression",
+                    "start": 1657,
+                    "end": 1678,
+                    "left": {
+                      "type": "UnaryExpression",
+                      "start": 1657,
+                      "end": 1665,
+                      "operator": "typeof",
+                      "argument": {
+                        "type": "Identifier",
+                        "start": 1664,
+                        "end": 1665,
+                        "decorators": [],
+                        "name": "x",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "prefix": true
+                    },
+                    "operator": "===",
+                    "right": {
+                      "type": "Literal",
+                      "start": 1670,
+                      "end": 1678,
+                      "value": "number",
+                      "raw": "\"number\""
+                    }
+                  },
+                  "consequent": {
+                    "type": "LogicalExpression",
+                    "start": 1719,
+                    "end": 1743,
+                    "left": {
+                      "type": "AssignmentExpression",
+                      "start": 1720,
+                      "end": 1726,
+                      "operator": "=",
+                      "left": {
+                        "type": "Identifier",
+                        "start": 1720,
+                        "end": 1721,
+                        "decorators": [],
+                        "name": "x",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "right": {
+                        "type": "Literal",
+                        "start": 1724,
+                        "end": 1726,
+                        "value": 10,
+                        "raw": "10"
+                      }
+                    },
+                    "operator": "&&",
+                    "right": {
+                      "type": "CallExpression",
+                      "start": 1731,
+                      "end": 1743,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 1731,
+                        "end": 1741,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 1731,
+                          "end": 1732,
+                          "decorators": [],
+                          "name": "x",
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1733,
+                          "end": 1741,
+                          "decorators": [],
+                          "name": "toString",
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
+                        "optional": false,
+                        "computed": false
+                      },
+                      "typeArguments": null,
+                      "arguments": [],
+                      "optional": false
+                    }
+                  },
+                  "alternate": {
+                    "type": "LogicalExpression",
+                    "start": 1816,
+                    "end": 1839,
+                    "left": {
+                      "type": "AssignmentExpression",
+                      "start": 1817,
+                      "end": 1822,
+                      "operator": "=",
+                      "left": {
+                        "type": "Identifier",
+                        "start": 1817,
+                        "end": 1818,
+                        "decorators": [],
+                        "name": "y",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "right": {
+                        "type": "Identifier",
+                        "start": 1821,
+                        "end": 1822,
+                        "decorators": [],
+                        "name": "x",
+                        "optional": false,
+                        "typeAnnotation": null
+                      }
+                    },
+                    "operator": "&&",
+                    "right": {
+                      "type": "CallExpression",
+                      "start": 1827,
+                      "end": 1839,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 1827,
+                        "end": 1837,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 1827,
+                          "end": 1828,
+                          "decorators": [],
+                          "name": "x",
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 1829,
+                          "end": 1837,
+                          "decorators": [],
+                          "name": "toString",
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
+                        "optional": false,
+                        "computed": false
+                      },
+                      "typeArguments": null,
+                      "arguments": [],
+                      "optional": false
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

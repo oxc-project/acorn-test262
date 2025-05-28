@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 60,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 59,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,7 +28,12 @@ __ESTREE_TEST__:PASS:
             "type": "ClassExpression",
             "start": 8,
             "end": 59,
-            "abstract": false,
+            "decorators": [],
+            "id": null,
+            "typeParameters": null,
+            "superClass": null,
+            "superTypeArguments": null,
+            "implements": [],
             "body": {
               "type": "ClassBody",
               "start": 14,
@@ -38,8 +43,6 @@ __ESTREE_TEST__:PASS:
                   "type": "MethodDefinition",
                   "start": 20,
                   "end": 57,
-                  "accessibility": null,
-                  "computed": false,
                   "decorators": [],
                   "key": {
                     "type": "Identifier",
@@ -50,15 +53,17 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "kind": "method",
-                  "optional": false,
-                  "override": false,
-                  "static": false,
                   "value": {
                     "type": "FunctionExpression",
                     "start": 23,
                     "end": 57,
+                    "id": null,
+                    "generator": false,
                     "async": false,
+                    "declare": false,
+                    "typeParameters": null,
+                    "params": [],
+                    "returnType": null,
                     "body": {
                       "type": "BlockStatement",
                       "start": 26,
@@ -72,7 +77,6 @@ __ESTREE_TEST__:PASS:
                             "type": "NewExpression",
                             "start": 43,
                             "end": 50,
-                            "arguments": [],
                             "callee": {
                               "type": "Identifier",
                               "start": 47,
@@ -82,45 +86,41 @@ __ESTREE_TEST__:PASS:
                               "optional": false,
                               "typeAnnotation": null
                             },
-                            "typeArguments": null
+                            "typeArguments": null,
+                            "arguments": []
                           }
                         }
                       ]
                     },
-                    "declare": false,
-                    "expression": false,
-                    "generator": false,
-                    "id": null,
-                    "params": [],
-                    "returnType": null,
-                    "typeParameters": null
-                  }
+                    "expression": false
+                  },
+                  "kind": "method",
+                  "computed": false,
+                  "static": false,
+                  "override": false,
+                  "optional": false,
+                  "accessibility": null
                 }
               ]
             },
-            "declare": false,
-            "decorators": [],
-            "id": null,
-            "implements": [],
-            "superClass": null,
-            "superTypeArguments": null,
-            "typeParameters": null
-          }
+            "abstract": false,
+            "declare": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 61,
       "end": 83,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 65,
           "end": 82,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 65,
@@ -134,17 +134,14 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 69,
             "end": 82,
-            "arguments": [],
             "callee": {
               "type": "MemberExpression",
               "start": 69,
               "end": 80,
-              "computed": false,
               "object": {
                 "type": "NewExpression",
                 "start": 70,
                 "end": 75,
-                "arguments": [],
                 "callee": {
                   "type": "Identifier",
                   "start": 74,
@@ -154,9 +151,9 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "typeArguments": null
+                "typeArguments": null,
+                "arguments": []
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 77,
@@ -165,15 +162,18 @@ __ESTREE_TEST__:PASS:
                 "name": "foo",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     }
   ],
   "sourceType": "script",

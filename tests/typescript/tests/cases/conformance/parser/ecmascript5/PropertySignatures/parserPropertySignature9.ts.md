@@ -9,33 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 20,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 12,
-        "end": 20,
-        "body": [
-          {
-            "type": "TSPropertySignature",
-            "start": 16,
-            "end": 18,
-            "accessibility": null,
-            "computed": false,
-            "key": {
-              "type": "Literal",
-              "start": 16,
-              "end": 17,
-              "raw": "0",
-              "value": 0
-            },
-            "optional": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": null
-          }
-        ]
-      },
-      "declare": false,
-      "extends": [],
       "id": {
         "type": "Identifier",
         "start": 10,
@@ -45,7 +18,34 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "typeParameters": null
+      "typeParameters": null,
+      "extends": [],
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 12,
+        "end": 20,
+        "body": [
+          {
+            "type": "TSPropertySignature",
+            "start": 16,
+            "end": 18,
+            "computed": false,
+            "optional": false,
+            "readonly": false,
+            "key": {
+              "type": "Literal",
+              "start": 16,
+              "end": 17,
+              "value": 0,
+              "raw": "0"
+            },
+            "typeAnnotation": null,
+            "accessibility": null,
+            "static": false
+          }
+        ]
+      },
+      "declare": false
     }
   ],
   "sourceType": "script",

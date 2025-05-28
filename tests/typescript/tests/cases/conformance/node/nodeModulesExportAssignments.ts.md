@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 19,
       "end": 32,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 25,
           "end": 31,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 25,
@@ -29,11 +29,11 @@ __ESTREE_TEST__:PASS:
             "start": 29,
             "end": 31,
             "properties": []
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "TSExportAssignment",
@@ -65,12 +65,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 19,
       "end": 32,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 25,
           "end": 31,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 25,
@@ -85,11 +85,11 @@ __ESTREE_TEST__:PASS:
             "start": 29,
             "end": 31,
             "properties": []
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "TSExportAssignment",

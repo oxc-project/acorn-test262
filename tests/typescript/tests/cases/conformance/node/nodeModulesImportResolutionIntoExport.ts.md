@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 19,
       "end": 49,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 41,
-        "end": 48,
-        "raw": "\"#type\"",
-        "value": "#type"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -33,14 +25,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 41,
+        "end": 48,
+        "value": "#type",
+        "raw": "\"#type\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 50,
       "end": 55,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 50,
@@ -49,7 +48,8 @@ __ESTREE_TEST__:PASS:
         "name": "type",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",
@@ -67,14 +67,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 19,
       "end": 49,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 41,
-        "end": 48,
-        "raw": "\"#type\"",
-        "value": "#type"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -91,14 +83,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 41,
+        "end": 48,
+        "value": "#type",
+        "raw": "\"#type\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 50,
       "end": 55,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 50,
@@ -107,7 +106,8 @@ __ESTREE_TEST__:PASS:
         "name": "type",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",
@@ -125,14 +125,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 19,
       "end": 49,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 41,
-        "end": 48,
-        "raw": "\"#type\"",
-        "value": "#type"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -149,14 +141,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 41,
+        "end": 48,
+        "value": "#type",
+        "raw": "\"#type\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 50,
       "end": 55,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 50,
@@ -165,7 +164,8 @@ __ESTREE_TEST__:PASS:
         "name": "type",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

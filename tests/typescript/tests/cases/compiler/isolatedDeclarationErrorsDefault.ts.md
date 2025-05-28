@@ -13,20 +13,20 @@ __ESTREE_TEST__:PASS:
         "type": "BinaryExpression",
         "start": 15,
         "end": 20,
-        "operator": "+",
         "left": {
           "type": "Literal",
           "start": 15,
           "end": 16,
-          "raw": "1",
-          "value": 1
+          "value": 1,
+          "raw": "1"
         },
+        "operator": "+",
         "right": {
           "type": "Literal",
           "start": 19,
           "end": 20,
-          "raw": "1",
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
       },
       "exportKind": "value"
@@ -56,7 +56,7 @@ __ESTREE_TEST__:PASS:
             "type": "Property",
             "start": 17,
             "end": 27,
-            "computed": false,
+            "kind": "init",
             "key": {
               "type": "Identifier",
               "start": 17,
@@ -66,30 +66,30 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "init",
-            "method": false,
-            "optional": false,
-            "shorthand": false,
             "value": {
               "type": "BinaryExpression",
               "start": 22,
               "end": 27,
-              "operator": "+",
               "left": {
                 "type": "Literal",
                 "start": 22,
                 "end": 23,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
+              "operator": "+",
               "right": {
                 "type": "Literal",
                 "start": 26,
                 "end": 27,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
-            }
+            },
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "optional": false
           }
         ]
       },
@@ -125,7 +125,7 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 18,
                 "end": 28,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 18,
@@ -135,30 +135,30 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "BinaryExpression",
                   "start": 23,
                   "end": 28,
-                  "operator": "+",
                   "left": {
                     "type": "Literal",
                     "start": 23,
                     "end": 24,
-                    "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
+                  "operator": "+",
                   "right": {
                     "type": "Literal",
                     "start": 27,
                     "end": 28,
-                    "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
-                }
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "optional": false
               }
             ]
           }
@@ -200,7 +200,7 @@ __ESTREE_TEST__:PASS:
                   "type": "Property",
                   "start": 18,
                   "end": 28,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 18,
@@ -210,30 +210,30 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "kind": "init",
-                  "method": false,
-                  "optional": false,
-                  "shorthand": false,
                   "value": {
                     "type": "BinaryExpression",
                     "start": 23,
                     "end": 28,
-                    "operator": "+",
                     "left": {
                       "type": "Literal",
                       "start": 23,
                       "end": 24,
-                      "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     },
+                    "operator": "+",
                     "right": {
                       "type": "Literal",
                       "start": 27,
                       "end": 28,
-                      "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
-                  }
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "optional": false
                 }
               ]
             }
@@ -243,7 +243,6 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 35,
           "end": 40,
-          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 35,
@@ -252,7 +251,8 @@ __ESTREE_TEST__:PASS:
             "name": "const",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "typeArguments": null
         }
       },
       "exportKind": "value"
@@ -291,7 +291,7 @@ __ESTREE_TEST__:PASS:
                   "type": "Property",
                   "start": 18,
                   "end": 28,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 18,
@@ -301,30 +301,30 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "kind": "init",
-                  "method": false,
-                  "optional": false,
-                  "shorthand": false,
                   "value": {
                     "type": "BinaryExpression",
                     "start": 23,
                     "end": 28,
-                    "operator": "+",
                     "left": {
                       "type": "Literal",
                       "start": 23,
                       "end": 24,
-                      "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     },
+                    "operator": "+",
                     "right": {
                       "type": "Literal",
                       "start": 27,
                       "end": 28,
-                      "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
-                  }
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "optional": false
                 }
               ]
             }
@@ -334,7 +334,6 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 35,
           "end": 40,
-          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 35,
@@ -343,7 +342,8 @@ __ESTREE_TEST__:PASS:
             "name": "const",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "typeArguments": null
         }
       },
       "exportKind": "value"
@@ -364,12 +364,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 21,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 6,
           "end": 20,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
@@ -388,7 +388,7 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 12,
                 "end": 18,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 12,
@@ -398,24 +398,24 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Literal",
                   "start": 17,
                   "end": 18,
-                  "raw": "1",
-                  "value": 1
-                }
+                  "value": 1,
+                  "raw": "1"
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ExportDefaultDeclaration",

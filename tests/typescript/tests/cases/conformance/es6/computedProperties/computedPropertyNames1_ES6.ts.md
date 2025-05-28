@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 85,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 85,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -33,36 +33,38 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 14,
                 "end": 40,
-                "computed": true,
+                "kind": "get",
                 "key": {
                   "type": "BinaryExpression",
                   "start": 19,
                   "end": 24,
-                  "operator": "+",
                   "left": {
                     "type": "Literal",
                     "start": 19,
                     "end": 20,
-                    "raw": "0",
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
+                  "operator": "+",
                   "right": {
                     "type": "Literal",
                     "start": 23,
                     "end": 24,
-                    "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
                 },
-                "kind": "get",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "FunctionExpression",
                   "start": 25,
                   "end": 40,
+                  "id": null,
+                  "generator": false,
                   "async": false,
+                  "declare": false,
+                  "typeParameters": null,
+                  "params": [],
+                  "returnType": null,
                   "body": {
                     "type": "BlockStatement",
                     "start": 28,
@@ -76,65 +78,53 @@ __ESTREE_TEST__:PASS:
                           "type": "Literal",
                           "start": 37,
                           "end": 38,
-                          "raw": "0",
-                          "value": 0
+                          "value": 0,
+                          "raw": "0"
                         }
                       }
                     ]
                   },
-                  "declare": false,
-                  "expression": false,
-                  "generator": false,
-                  "id": null,
-                  "params": [],
-                  "returnType": null,
-                  "typeParameters": null
-                }
+                  "expression": false
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": true,
+                "optional": false
               },
               {
                 "type": "Property",
                 "start": 46,
                 "end": 72,
-                "computed": true,
+                "kind": "set",
                 "key": {
                   "type": "BinaryExpression",
                   "start": 51,
                   "end": 56,
-                  "operator": "+",
                   "left": {
                     "type": "Literal",
                     "start": 51,
                     "end": 52,
-                    "raw": "0",
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
+                  "operator": "+",
                   "right": {
                     "type": "Literal",
                     "start": 55,
                     "end": 56,
-                    "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
                 },
-                "kind": "set",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "FunctionExpression",
                   "start": 57,
                   "end": 72,
-                  "async": false,
-                  "body": {
-                    "type": "BlockStatement",
-                    "start": 69,
-                    "end": 72,
-                    "body": []
-                  },
-                  "declare": false,
-                  "expression": false,
-                  "generator": false,
                   "id": null,
+                  "generator": false,
+                  "async": false,
+                  "declare": false,
+                  "typeParameters": null,
                   "params": [
                     {
                       "type": "Identifier",
@@ -156,15 +146,25 @@ __ESTREE_TEST__:PASS:
                     }
                   ],
                   "returnType": null,
-                  "typeParameters": null
-                }
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 69,
+                    "end": 72,
+                    "body": []
+                  },
+                  "expression": false
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": true,
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

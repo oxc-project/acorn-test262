@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 23,
       "end": 36,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 33,
-        "end": 36,
-        "body": []
-      },
-      "declare": false,
-      "global": false,
       "id": {
         "type": "Identifier",
         "start": 30,
@@ -26,20 +18,20 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "module"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 33,
+        "end": 36,
+        "body": []
+      },
+      "kind": "module",
+      "declare": false,
+      "global": false
     },
     {
       "type": "ClassDeclaration",
       "start": 37,
       "end": 49,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 46,
-        "end": 49,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -50,15 +42,32 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 46,
+        "end": 49,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 94,
       "end": 119,
+      "id": {
+        "type": "Identifier",
+        "start": 101,
+        "end": 104,
+        "decorators": [],
+        "name": "m3a",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 105,
@@ -68,12 +77,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 107,
             "end": 117,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 111,
                 "end": 116,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 111,
@@ -87,82 +96,24 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 115,
                   "end": 116,
-                  "raw": "2",
-                  "value": 2
-                }
+                  "value": 2,
+                  "raw": "2"
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 101,
-        "end": 104,
-        "decorators": [],
-        "name": "m3a",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     },
     {
       "type": "ClassDeclaration",
       "start": 120,
       "end": 143,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 130,
-        "end": 143,
-        "body": [
-          {
-            "type": "MethodDefinition",
-            "start": 132,
-            "end": 141,
-            "accessibility": null,
-            "computed": false,
-            "decorators": [],
-            "key": {
-              "type": "Identifier",
-              "start": 132,
-              "end": 135,
-              "decorators": [],
-              "name": "foo",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
-            "value": {
-              "type": "FunctionExpression",
-              "start": 135,
-              "end": 141,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 138,
-                "end": 141,
-                "body": []
-              },
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
-          }
-        ]
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -173,10 +124,59 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 130,
+        "end": 143,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 132,
+            "end": 141,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 132,
+              "end": 135,
+              "decorators": [],
+              "name": "foo",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "value": {
+              "type": "FunctionExpression",
+              "start": 135,
+              "end": 141,
+              "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
+              "body": {
+                "type": "BlockStatement",
+                "start": 138,
+                "end": 141,
+                "body": []
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null
+          }
+        ]
+      },
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

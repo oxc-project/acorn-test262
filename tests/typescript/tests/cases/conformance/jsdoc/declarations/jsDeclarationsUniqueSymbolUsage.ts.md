@@ -9,17 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 43,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 43,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 13,
             "end": 42,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 13,
@@ -33,15 +32,6 @@ __ESTREE_TEST__:PASS:
               "type": "CallExpression",
               "start": 23,
               "end": 42,
-              "arguments": [
-                {
-                  "type": "Literal",
-                  "start": 30,
-                  "end": 41,
-                  "raw": "\"my-symbol\"",
-                  "value": "my-symbol"
-                }
-              ],
               "callee": {
                 "type": "Identifier",
                 "start": 23,
@@ -51,17 +41,27 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 30,
+                  "end": 41,
+                  "value": "my-symbol",
+                  "raw": "\"my-symbol\""
+                }
+              ],
+              "optional": false
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -79,12 +79,35 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 92,
       "end": 138,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 99,
         "end": 138,
+        "id": {
+          "type": "Identifier",
+          "start": 108,
+          "end": 109,
+          "decorators": [],
+          "name": "b",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "generator": false,
         "async": false,
+        "declare": false,
+        "typeParameters": null,
+        "params": [
+          {
+            "type": "Identifier",
+            "start": 110,
+            "end": 115,
+            "decorators": [],
+            "name": "value",
+            "optional": false,
+            "typeAnnotation": null
+          }
+        ],
+        "returnType": null,
         "body": {
           "type": "BlockStatement",
           "start": 117,
@@ -106,35 +129,12 @@ __ESTREE_TEST__:PASS:
             }
           ]
         },
-        "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 108,
-          "end": 109,
-          "decorators": [],
-          "name": "b",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [
-          {
-            "type": "Identifier",
-            "start": 110,
-            "end": 115,
-            "decorators": [],
-            "name": "value",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        ],
-        "returnType": null,
-        "typeParameters": null
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

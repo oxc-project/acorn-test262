@@ -9,122 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 421,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 8,
-        "end": 421,
-        "body": [
-          {
-            "type": "MethodDefinition",
-            "start": 388,
-            "end": 419,
-            "accessibility": null,
-            "computed": false,
-            "decorators": [],
-            "key": {
-              "type": "Identifier",
-              "start": 394,
-              "end": 400,
-              "decorators": [],
-              "name": "cancel",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
-            "value": {
-              "type": "FunctionExpression",
-              "start": 400,
-              "end": 419,
-              "async": true,
-              "body": {
-                "type": "BlockStatement",
-                "start": 417,
-                "end": 419,
-                "body": []
-              },
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [
-                {
-                  "type": "ObjectPattern",
-                  "start": 401,
-                  "end": 415,
-                  "decorators": [],
-                  "optional": false,
-                  "properties": [
-                    {
-                      "type": "Property",
-                      "start": 402,
-                      "end": 408,
-                      "computed": false,
-                      "key": {
-                        "type": "Identifier",
-                        "start": 402,
-                        "end": 408,
-                        "decorators": [],
-                        "name": "reason",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "kind": "init",
-                      "method": false,
-                      "optional": false,
-                      "shorthand": true,
-                      "value": {
-                        "type": "Identifier",
-                        "start": 402,
-                        "end": 408,
-                        "decorators": [],
-                        "name": "reason",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    },
-                    {
-                      "type": "Property",
-                      "start": 410,
-                      "end": 414,
-                      "computed": false,
-                      "key": {
-                        "type": "Identifier",
-                        "start": 410,
-                        "end": 414,
-                        "decorators": [],
-                        "name": "code",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "kind": "init",
-                      "method": false,
-                      "optional": false,
-                      "shorthand": true,
-                      "value": {
-                        "type": "Identifier",
-                        "start": 410,
-                        "end": 414,
-                        "decorators": [],
-                        "name": "code",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    }
-                  ],
-                  "typeAnnotation": null
-                }
-              ],
-              "returnType": null,
-              "typeParameters": null
-            }
-          }
-        ]
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -135,131 +19,131 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
-    },
-    {
-      "type": "ClassDeclaration",
-      "start": 423,
-      "end": 982,
-      "abstract": false,
+      "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 431,
-        "end": 982,
+        "start": 8,
+        "end": 421,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 947,
-            "end": 980,
-            "accessibility": null,
-            "computed": false,
+            "start": 388,
+            "end": 419,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 953,
-              "end": 959,
+              "start": 394,
+              "end": 400,
               "decorators": [],
               "name": "cancel",
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 959,
-              "end": 980,
-              "async": true,
-              "body": {
-                "type": "BlockStatement",
-                "start": 978,
-                "end": 980,
-                "body": []
-              },
-              "declare": false,
-              "expression": false,
-              "generator": false,
+              "start": 400,
+              "end": 419,
               "id": null,
+              "generator": false,
+              "async": true,
+              "declare": false,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "ObjectPattern",
-                  "start": 960,
-                  "end": 976,
+                  "start": 401,
+                  "end": 415,
                   "decorators": [],
-                  "optional": false,
                   "properties": [
                     {
                       "type": "Property",
-                      "start": 961,
-                      "end": 967,
-                      "computed": false,
+                      "start": 402,
+                      "end": 408,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
-                        "start": 961,
-                        "end": 967,
+                        "start": 402,
+                        "end": 408,
                         "decorators": [],
                         "name": "reason",
                         "optional": false,
                         "typeAnnotation": null
                       },
-                      "kind": "init",
-                      "method": false,
-                      "optional": false,
-                      "shorthand": true,
                       "value": {
                         "type": "Identifier",
-                        "start": 961,
-                        "end": 967,
+                        "start": 402,
+                        "end": 408,
                         "decorators": [],
                         "name": "reason",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "method": false,
+                      "shorthand": true,
+                      "computed": false,
+                      "optional": false
                     },
                     {
                       "type": "Property",
-                      "start": 969,
-                      "end": 975,
-                      "computed": false,
+                      "start": 410,
+                      "end": 414,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
-                        "start": 969,
-                        "end": 975,
+                        "start": 410,
+                        "end": 414,
                         "decorators": [],
-                        "name": "suberr",
+                        "name": "code",
                         "optional": false,
                         "typeAnnotation": null
                       },
-                      "kind": "init",
-                      "method": false,
-                      "optional": false,
-                      "shorthand": true,
                       "value": {
                         "type": "Identifier",
-                        "start": 969,
-                        "end": 975,
+                        "start": 410,
+                        "end": 414,
                         "decorators": [],
-                        "name": "suberr",
+                        "name": "code",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "method": false,
+                      "shorthand": true,
+                      "computed": false,
+                      "optional": false
                     }
                   ],
+                  "optional": false,
                   "typeAnnotation": null
                 }
               ],
               "returnType": null,
-              "typeParameters": null
-            }
+              "body": {
+                "type": "BlockStatement",
+                "start": 417,
+                "end": 419,
+                "body": []
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
+      "abstract": false,
+      "declare": false
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 423,
+      "end": 982,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -270,10 +154,126 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 431,
+        "end": 982,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 947,
+            "end": 980,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 953,
+              "end": 959,
+              "decorators": [],
+              "name": "cancel",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "value": {
+              "type": "FunctionExpression",
+              "start": 959,
+              "end": 980,
+              "id": null,
+              "generator": false,
+              "async": true,
+              "declare": false,
+              "typeParameters": null,
+              "params": [
+                {
+                  "type": "ObjectPattern",
+                  "start": 960,
+                  "end": 976,
+                  "decorators": [],
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 961,
+                      "end": 967,
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "start": 961,
+                        "end": 967,
+                        "decorators": [],
+                        "name": "reason",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "value": {
+                        "type": "Identifier",
+                        "start": 961,
+                        "end": 967,
+                        "decorators": [],
+                        "name": "reason",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "method": false,
+                      "shorthand": true,
+                      "computed": false,
+                      "optional": false
+                    },
+                    {
+                      "type": "Property",
+                      "start": 969,
+                      "end": 975,
+                      "kind": "init",
+                      "key": {
+                        "type": "Identifier",
+                        "start": 969,
+                        "end": 975,
+                        "decorators": [],
+                        "name": "suberr",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "value": {
+                        "type": "Identifier",
+                        "start": 969,
+                        "end": 975,
+                        "decorators": [],
+                        "name": "suberr",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "method": false,
+                      "shorthand": true,
+                      "computed": false,
+                      "optional": false
+                    }
+                  ],
+                  "optional": false,
+                  "typeAnnotation": null
+                }
+              ],
+              "returnType": null,
+              "body": {
+                "type": "BlockStatement",
+                "start": 978,
+                "end": 980,
+                "body": []
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null
+          }
+        ]
+      },
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

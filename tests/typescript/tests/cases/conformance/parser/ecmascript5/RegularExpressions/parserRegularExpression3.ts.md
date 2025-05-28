@@ -9,31 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 22,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
         "end": 21,
-        "arguments": [
-          {
-            "type": "UnaryExpression",
-            "start": 4,
-            "end": 20,
-            "argument": {
-              "type": "Literal",
-              "start": 5,
-              "end": 20,
-              "raw": "/(\\\\?|&)adurl=/",
-              "regex": {
-                "flags": "",
-                "pattern": "(\\\\?|&)adurl="
-              },
-              "value": null
-            },
-            "operator": "!",
-            "prefix": true
-          }
-        ],
         "callee": {
           "type": "Identifier",
           "start": 0,
@@ -43,9 +22,30 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "UnaryExpression",
+            "start": 4,
+            "end": 20,
+            "operator": "!",
+            "argument": {
+              "type": "Literal",
+              "start": 5,
+              "end": 20,
+              "value": null,
+              "raw": "/(\\\\?|&)adurl=/",
+              "regex": {
+                "flags": "",
+                "pattern": "(\\\\?|&)adurl="
+              }
+            },
+            "prefix": true
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

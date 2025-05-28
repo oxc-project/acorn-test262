@@ -9,7 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 396,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 30,
+        "decorators": [],
+        "name": "CreateTypedArrayTypes",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 33,
@@ -19,12 +33,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 39,
             "end": 60,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 43,
                 "end": 59,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 43,
@@ -39,17 +53,16 @@ __ESTREE_TEST__:PASS:
                   "start": 57,
                   "end": 59,
                   "elements": []
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           },
           {
             "type": "ExpressionStatement",
             "start": 65,
             "end": 92,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 65,
@@ -59,7 +72,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 65,
                 "end": 79,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 65,
@@ -69,14 +81,15 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 77,
                   "end": 78,
-                  "raw": "0",
-                  "value": 0
-                }
+                  "value": 0,
+                  "raw": "0"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "Identifier",
@@ -87,13 +100,13 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 97,
             "end": 125,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 97,
@@ -103,7 +116,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 97,
                 "end": 111,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 97,
@@ -113,14 +125,15 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 109,
                   "end": 110,
-                  "raw": "1",
-                  "value": 1
-                }
+                  "value": 1,
+                  "raw": "1"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "Identifier",
@@ -131,13 +144,13 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 130,
             "end": 158,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 130,
@@ -147,7 +160,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 130,
                 "end": 144,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 130,
@@ -157,14 +169,15 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 142,
                   "end": 143,
-                  "raw": "2",
-                  "value": 2
-                }
+                  "value": 2,
+                  "raw": "2"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "Identifier",
@@ -175,13 +188,13 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 163,
             "end": 192,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 163,
@@ -191,7 +204,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 163,
                 "end": 177,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 163,
@@ -201,14 +213,15 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 175,
                   "end": 176,
-                  "raw": "3",
-                  "value": 3
-                }
+                  "value": 3,
+                  "raw": "3"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "Identifier",
@@ -219,13 +232,13 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 197,
             "end": 225,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 197,
@@ -235,7 +248,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 197,
                 "end": 211,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 197,
@@ -245,14 +257,15 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 209,
                   "end": 210,
-                  "raw": "4",
-                  "value": 4
-                }
+                  "value": 4,
+                  "raw": "4"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "Identifier",
@@ -263,13 +276,13 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 230,
             "end": 259,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 230,
@@ -279,7 +292,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 230,
                 "end": 244,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 230,
@@ -289,14 +301,15 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 242,
                   "end": 243,
-                  "raw": "5",
-                  "value": 5
-                }
+                  "value": 5,
+                  "raw": "5"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "Identifier",
@@ -307,13 +320,13 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 264,
             "end": 294,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 264,
@@ -323,7 +336,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 264,
                 "end": 278,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 264,
@@ -333,14 +345,15 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 276,
                   "end": 277,
-                  "raw": "6",
-                  "value": 6
-                }
+                  "value": 6,
+                  "raw": "6"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "Identifier",
@@ -351,13 +364,13 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 299,
             "end": 329,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 299,
@@ -367,7 +380,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 299,
                 "end": 313,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 299,
@@ -377,14 +389,15 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 311,
                   "end": 312,
-                  "raw": "7",
-                  "value": 7
-                }
+                  "value": 7,
+                  "raw": "7"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "Identifier",
@@ -395,13 +408,13 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 334,
             "end": 369,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 334,
@@ -411,7 +424,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 334,
                 "end": 348,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 334,
@@ -421,14 +433,15 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 346,
                   "end": 347,
-                  "raw": "8",
-                  "value": 8
-                }
+                  "value": 8,
+                  "raw": "8"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "Identifier",
@@ -439,7 +452,8 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ReturnStatement",
@@ -457,630 +471,12 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 30,
-        "decorators": [],
-        "name": "CreateTypedArrayTypes",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 398,
       "end": 900,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 456,
-        "end": 900,
-        "body": [
-          {
-            "type": "VariableDeclaration",
-            "start": 462,
-            "end": 483,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 466,
-                "end": 482,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 466,
-                  "end": 477,
-                  "decorators": [],
-                  "name": "typedArrays",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "init": {
-                  "type": "ArrayExpression",
-                  "start": 480,
-                  "end": 482,
-                  "elements": []
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "var"
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 488,
-            "end": 524,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 488,
-              "end": 523,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 488,
-                "end": 502,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 488,
-                  "end": 499,
-                  "decorators": [],
-                  "name": "typedArrays",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 500,
-                  "end": 501,
-                  "raw": "0",
-                  "value": 0
-                }
-              },
-              "right": {
-                "type": "NewExpression",
-                "start": 505,
-                "end": 523,
-                "arguments": [
-                  {
-                    "type": "Identifier",
-                    "start": 519,
-                    "end": 522,
-                    "decorators": [],
-                    "name": "obj",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                ],
-                "callee": {
-                  "type": "Identifier",
-                  "start": 509,
-                  "end": 518,
-                  "decorators": [],
-                  "name": "Int8Array",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 529,
-            "end": 566,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 529,
-              "end": 565,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 529,
-                "end": 543,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 529,
-                  "end": 540,
-                  "decorators": [],
-                  "name": "typedArrays",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 541,
-                  "end": 542,
-                  "raw": "1",
-                  "value": 1
-                }
-              },
-              "right": {
-                "type": "NewExpression",
-                "start": 546,
-                "end": 565,
-                "arguments": [
-                  {
-                    "type": "Identifier",
-                    "start": 561,
-                    "end": 564,
-                    "decorators": [],
-                    "name": "obj",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                ],
-                "callee": {
-                  "type": "Identifier",
-                  "start": 550,
-                  "end": 560,
-                  "decorators": [],
-                  "name": "Uint8Array",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 571,
-            "end": 608,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 571,
-              "end": 607,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 571,
-                "end": 585,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 571,
-                  "end": 582,
-                  "decorators": [],
-                  "name": "typedArrays",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 583,
-                  "end": 584,
-                  "raw": "2",
-                  "value": 2
-                }
-              },
-              "right": {
-                "type": "NewExpression",
-                "start": 588,
-                "end": 607,
-                "arguments": [
-                  {
-                    "type": "Identifier",
-                    "start": 603,
-                    "end": 606,
-                    "decorators": [],
-                    "name": "obj",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                ],
-                "callee": {
-                  "type": "Identifier",
-                  "start": 592,
-                  "end": 602,
-                  "decorators": [],
-                  "name": "Int16Array",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 613,
-            "end": 651,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 613,
-              "end": 650,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 613,
-                "end": 627,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 613,
-                  "end": 624,
-                  "decorators": [],
-                  "name": "typedArrays",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 625,
-                  "end": 626,
-                  "raw": "3",
-                  "value": 3
-                }
-              },
-              "right": {
-                "type": "NewExpression",
-                "start": 630,
-                "end": 650,
-                "arguments": [
-                  {
-                    "type": "Identifier",
-                    "start": 646,
-                    "end": 649,
-                    "decorators": [],
-                    "name": "obj",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                ],
-                "callee": {
-                  "type": "Identifier",
-                  "start": 634,
-                  "end": 645,
-                  "decorators": [],
-                  "name": "Uint16Array",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 656,
-            "end": 693,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 656,
-              "end": 692,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 656,
-                "end": 670,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 656,
-                  "end": 667,
-                  "decorators": [],
-                  "name": "typedArrays",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 668,
-                  "end": 669,
-                  "raw": "4",
-                  "value": 4
-                }
-              },
-              "right": {
-                "type": "NewExpression",
-                "start": 673,
-                "end": 692,
-                "arguments": [
-                  {
-                    "type": "Identifier",
-                    "start": 688,
-                    "end": 691,
-                    "decorators": [],
-                    "name": "obj",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                ],
-                "callee": {
-                  "type": "Identifier",
-                  "start": 677,
-                  "end": 687,
-                  "decorators": [],
-                  "name": "Int32Array",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 698,
-            "end": 736,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 698,
-              "end": 735,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 698,
-                "end": 712,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 698,
-                  "end": 709,
-                  "decorators": [],
-                  "name": "typedArrays",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 710,
-                  "end": 711,
-                  "raw": "5",
-                  "value": 5
-                }
-              },
-              "right": {
-                "type": "NewExpression",
-                "start": 715,
-                "end": 735,
-                "arguments": [
-                  {
-                    "type": "Identifier",
-                    "start": 731,
-                    "end": 734,
-                    "decorators": [],
-                    "name": "obj",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                ],
-                "callee": {
-                  "type": "Identifier",
-                  "start": 719,
-                  "end": 730,
-                  "decorators": [],
-                  "name": "Uint32Array",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 741,
-            "end": 780,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 741,
-              "end": 779,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 741,
-                "end": 755,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 741,
-                  "end": 752,
-                  "decorators": [],
-                  "name": "typedArrays",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 753,
-                  "end": 754,
-                  "raw": "6",
-                  "value": 6
-                }
-              },
-              "right": {
-                "type": "NewExpression",
-                "start": 758,
-                "end": 779,
-                "arguments": [
-                  {
-                    "type": "Identifier",
-                    "start": 775,
-                    "end": 778,
-                    "decorators": [],
-                    "name": "obj",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                ],
-                "callee": {
-                  "type": "Identifier",
-                  "start": 762,
-                  "end": 774,
-                  "decorators": [],
-                  "name": "Float32Array",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 785,
-            "end": 824,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 785,
-              "end": 823,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 785,
-                "end": 799,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 785,
-                  "end": 796,
-                  "decorators": [],
-                  "name": "typedArrays",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 797,
-                  "end": 798,
-                  "raw": "7",
-                  "value": 7
-                }
-              },
-              "right": {
-                "type": "NewExpression",
-                "start": 802,
-                "end": 823,
-                "arguments": [
-                  {
-                    "type": "Identifier",
-                    "start": 819,
-                    "end": 822,
-                    "decorators": [],
-                    "name": "obj",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                ],
-                "callee": {
-                  "type": "Identifier",
-                  "start": 806,
-                  "end": 818,
-                  "decorators": [],
-                  "name": "Float64Array",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 829,
-            "end": 873,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 829,
-              "end": 872,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 829,
-                "end": 843,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 829,
-                  "end": 840,
-                  "decorators": [],
-                  "name": "typedArrays",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 841,
-                  "end": 842,
-                  "raw": "8",
-                  "value": 8
-                }
-              },
-              "right": {
-                "type": "NewExpression",
-                "start": 846,
-                "end": 872,
-                "arguments": [
-                  {
-                    "type": "Identifier",
-                    "start": 868,
-                    "end": 871,
-                    "decorators": [],
-                    "name": "obj",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                ],
-                "callee": {
-                  "type": "Identifier",
-                  "start": 850,
-                  "end": 867,
-                  "decorators": [],
-                  "name": "Uint8ClampedArray",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ReturnStatement",
-            "start": 879,
-            "end": 898,
-            "argument": {
-              "type": "Identifier",
-              "start": 886,
-              "end": 897,
-              "decorators": [],
-              "name": "typedArrays",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 407,
@@ -1090,6 +486,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -1111,32 +511,25 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
-    },
-    {
-      "type": "FunctionDeclaration",
-      "start": 902,
-      "end": 1405,
-      "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 961,
-        "end": 1405,
+        "start": 456,
+        "end": 900,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 967,
-            "end": 988,
+            "start": 462,
+            "end": 483,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 971,
-                "end": 987,
-                "definite": false,
+                "start": 466,
+                "end": 482,
                 "id": {
                   "type": "Identifier",
-                  "start": 971,
-                  "end": 982,
+                  "start": 466,
+                  "end": 477,
                   "decorators": [],
                   "name": "typedArrays",
                   "optional": false,
@@ -1144,572 +537,572 @@ __ESTREE_TEST__:PASS:
                 },
                 "init": {
                   "type": "ArrayExpression",
-                  "start": 985,
-                  "end": 987,
+                  "start": 480,
+                  "end": 482,
                   "elements": []
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           },
           {
             "type": "ExpressionStatement",
-            "start": 993,
-            "end": 1029,
-            "directive": null,
+            "start": 488,
+            "end": 524,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 993,
-              "end": 1028,
+              "start": 488,
+              "end": 523,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 993,
-                "end": 1007,
-                "computed": true,
+                "start": 488,
+                "end": 502,
                 "object": {
                   "type": "Identifier",
-                  "start": 993,
-                  "end": 1004,
+                  "start": 488,
+                  "end": 499,
                   "decorators": [],
                   "name": "typedArrays",
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
-                  "start": 1005,
-                  "end": 1006,
-                  "raw": "0",
-                  "value": 0
-                }
+                  "start": 500,
+                  "end": 501,
+                  "value": 0,
+                  "raw": "0"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "NewExpression",
-                "start": 1010,
-                "end": 1028,
-                "arguments": [
-                  {
-                    "type": "Identifier",
-                    "start": 1024,
-                    "end": 1027,
-                    "decorators": [],
-                    "name": "obj",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                ],
+                "start": 505,
+                "end": 523,
                 "callee": {
                   "type": "Identifier",
-                  "start": 1014,
-                  "end": 1023,
+                  "start": 509,
+                  "end": 518,
                   "decorators": [],
                   "name": "Int8Array",
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 1034,
-            "end": 1071,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 1034,
-              "end": 1070,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 1034,
-                "end": 1048,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 1034,
-                  "end": 1045,
-                  "decorators": [],
-                  "name": "typedArrays",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 1046,
-                  "end": 1047,
-                  "raw": "1",
-                  "value": 1
-                }
-              },
-              "right": {
-                "type": "NewExpression",
-                "start": 1051,
-                "end": 1070,
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 1066,
-                    "end": 1069,
+                    "start": 519,
+                    "end": 522,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
                     "typeAnnotation": null
                   }
-                ],
+                ]
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 529,
+            "end": 566,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 529,
+              "end": 565,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 529,
+                "end": 543,
+                "object": {
+                  "type": "Identifier",
+                  "start": 529,
+                  "end": 540,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 541,
+                  "end": 542,
+                  "value": 1,
+                  "raw": "1"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "NewExpression",
+                "start": 546,
+                "end": 565,
                 "callee": {
                   "type": "Identifier",
-                  "start": 1055,
-                  "end": 1065,
+                  "start": 550,
+                  "end": 560,
                   "decorators": [],
                   "name": "Uint8Array",
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 1076,
-            "end": 1113,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 1076,
-              "end": 1112,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 1076,
-                "end": 1090,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 1076,
-                  "end": 1087,
-                  "decorators": [],
-                  "name": "typedArrays",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 1088,
-                  "end": 1089,
-                  "raw": "2",
-                  "value": 2
-                }
-              },
-              "right": {
-                "type": "NewExpression",
-                "start": 1093,
-                "end": 1112,
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 1108,
-                    "end": 1111,
+                    "start": 561,
+                    "end": 564,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
                     "typeAnnotation": null
                   }
-                ],
+                ]
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 571,
+            "end": 608,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 571,
+              "end": 607,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 571,
+                "end": 585,
+                "object": {
+                  "type": "Identifier",
+                  "start": 571,
+                  "end": 582,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 583,
+                  "end": 584,
+                  "value": 2,
+                  "raw": "2"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "NewExpression",
+                "start": 588,
+                "end": 607,
                 "callee": {
                   "type": "Identifier",
-                  "start": 1097,
-                  "end": 1107,
+                  "start": 592,
+                  "end": 602,
                   "decorators": [],
                   "name": "Int16Array",
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 1118,
-            "end": 1156,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 1118,
-              "end": 1155,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 1118,
-                "end": 1132,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 1118,
-                  "end": 1129,
-                  "decorators": [],
-                  "name": "typedArrays",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 1130,
-                  "end": 1131,
-                  "raw": "3",
-                  "value": 3
-                }
-              },
-              "right": {
-                "type": "NewExpression",
-                "start": 1135,
-                "end": 1155,
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 1151,
-                    "end": 1154,
+                    "start": 603,
+                    "end": 606,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
                     "typeAnnotation": null
                   }
-                ],
+                ]
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 613,
+            "end": 651,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 613,
+              "end": 650,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 613,
+                "end": 627,
+                "object": {
+                  "type": "Identifier",
+                  "start": 613,
+                  "end": 624,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 625,
+                  "end": 626,
+                  "value": 3,
+                  "raw": "3"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "NewExpression",
+                "start": 630,
+                "end": 650,
                 "callee": {
                   "type": "Identifier",
-                  "start": 1139,
-                  "end": 1150,
+                  "start": 634,
+                  "end": 645,
                   "decorators": [],
                   "name": "Uint16Array",
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 1161,
-            "end": 1198,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 1161,
-              "end": 1197,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 1161,
-                "end": 1175,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 1161,
-                  "end": 1172,
-                  "decorators": [],
-                  "name": "typedArrays",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 1173,
-                  "end": 1174,
-                  "raw": "4",
-                  "value": 4
-                }
-              },
-              "right": {
-                "type": "NewExpression",
-                "start": 1178,
-                "end": 1197,
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 1193,
-                    "end": 1196,
+                    "start": 646,
+                    "end": 649,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
                     "typeAnnotation": null
                   }
-                ],
+                ]
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 656,
+            "end": 693,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 656,
+              "end": 692,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 656,
+                "end": 670,
+                "object": {
+                  "type": "Identifier",
+                  "start": 656,
+                  "end": 667,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 668,
+                  "end": 669,
+                  "value": 4,
+                  "raw": "4"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "NewExpression",
+                "start": 673,
+                "end": 692,
                 "callee": {
                   "type": "Identifier",
-                  "start": 1182,
-                  "end": 1192,
+                  "start": 677,
+                  "end": 687,
                   "decorators": [],
                   "name": "Int32Array",
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 1203,
-            "end": 1241,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 1203,
-              "end": 1240,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 1203,
-                "end": 1217,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 1203,
-                  "end": 1214,
-                  "decorators": [],
-                  "name": "typedArrays",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 1215,
-                  "end": 1216,
-                  "raw": "5",
-                  "value": 5
-                }
-              },
-              "right": {
-                "type": "NewExpression",
-                "start": 1220,
-                "end": 1240,
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 1236,
-                    "end": 1239,
+                    "start": 688,
+                    "end": 691,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
                     "typeAnnotation": null
                   }
-                ],
+                ]
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 698,
+            "end": 736,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 698,
+              "end": 735,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 698,
+                "end": 712,
+                "object": {
+                  "type": "Identifier",
+                  "start": 698,
+                  "end": 709,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 710,
+                  "end": 711,
+                  "value": 5,
+                  "raw": "5"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "NewExpression",
+                "start": 715,
+                "end": 735,
                 "callee": {
                   "type": "Identifier",
-                  "start": 1224,
-                  "end": 1235,
+                  "start": 719,
+                  "end": 730,
                   "decorators": [],
                   "name": "Uint32Array",
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 1246,
-            "end": 1285,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 1246,
-              "end": 1284,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 1246,
-                "end": 1260,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 1246,
-                  "end": 1257,
-                  "decorators": [],
-                  "name": "typedArrays",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 1258,
-                  "end": 1259,
-                  "raw": "6",
-                  "value": 6
-                }
-              },
-              "right": {
-                "type": "NewExpression",
-                "start": 1263,
-                "end": 1284,
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 1280,
-                    "end": 1283,
+                    "start": 731,
+                    "end": 734,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
                     "typeAnnotation": null
                   }
-                ],
+                ]
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 741,
+            "end": 780,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 741,
+              "end": 779,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 741,
+                "end": 755,
+                "object": {
+                  "type": "Identifier",
+                  "start": 741,
+                  "end": 752,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 753,
+                  "end": 754,
+                  "value": 6,
+                  "raw": "6"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "NewExpression",
+                "start": 758,
+                "end": 779,
                 "callee": {
                   "type": "Identifier",
-                  "start": 1267,
-                  "end": 1279,
+                  "start": 762,
+                  "end": 774,
                   "decorators": [],
                   "name": "Float32Array",
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 1290,
-            "end": 1329,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 1290,
-              "end": 1328,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 1290,
-                "end": 1304,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 1290,
-                  "end": 1301,
-                  "decorators": [],
-                  "name": "typedArrays",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 1302,
-                  "end": 1303,
-                  "raw": "7",
-                  "value": 7
-                }
-              },
-              "right": {
-                "type": "NewExpression",
-                "start": 1307,
-                "end": 1328,
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 1324,
-                    "end": 1327,
+                    "start": 775,
+                    "end": 778,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
                     "typeAnnotation": null
                   }
-                ],
+                ]
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 785,
+            "end": 824,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 785,
+              "end": 823,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 785,
+                "end": 799,
+                "object": {
+                  "type": "Identifier",
+                  "start": 785,
+                  "end": 796,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 797,
+                  "end": 798,
+                  "value": 7,
+                  "raw": "7"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "NewExpression",
+                "start": 802,
+                "end": 823,
                 "callee": {
                   "type": "Identifier",
-                  "start": 1311,
-                  "end": 1323,
+                  "start": 806,
+                  "end": 818,
                   "decorators": [],
                   "name": "Float64Array",
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 1334,
-            "end": 1378,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 1334,
-              "end": 1377,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 1334,
-                "end": 1348,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 1334,
-                  "end": 1345,
-                  "decorators": [],
-                  "name": "typedArrays",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 1346,
-                  "end": 1347,
-                  "raw": "8",
-                  "value": 8
-                }
-              },
-              "right": {
-                "type": "NewExpression",
-                "start": 1351,
-                "end": 1377,
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 1373,
-                    "end": 1376,
+                    "start": 819,
+                    "end": 822,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
                     "typeAnnotation": null
                   }
-                ],
+                ]
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 829,
+            "end": 873,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 829,
+              "end": 872,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 829,
+                "end": 843,
+                "object": {
+                  "type": "Identifier",
+                  "start": 829,
+                  "end": 840,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 841,
+                  "end": 842,
+                  "value": 8,
+                  "raw": "8"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "NewExpression",
+                "start": 846,
+                "end": 872,
                 "callee": {
                   "type": "Identifier",
-                  "start": 1355,
-                  "end": 1372,
+                  "start": 850,
+                  "end": 867,
                   "decorators": [],
                   "name": "Uint8ClampedArray",
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "typeArguments": null
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 868,
+                    "end": 871,
+                    "decorators": [],
+                    "name": "obj",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                ]
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ReturnStatement",
-            "start": 1384,
-            "end": 1403,
+            "start": 879,
+            "end": 898,
             "argument": {
               "type": "Identifier",
-              "start": 1391,
-              "end": 1402,
+              "start": 886,
+              "end": 897,
               "decorators": [],
               "name": "typedArrays",
               "optional": false,
@@ -1718,9 +1111,12 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
+      "expression": false
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 902,
+      "end": 1405,
       "id": {
         "type": "Identifier",
         "start": 911,
@@ -1730,6 +1126,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -1756,32 +1156,25 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
-    },
-    {
-      "type": "FunctionDeclaration",
-      "start": 1407,
-      "end": 1918,
-      "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 1465,
-        "end": 1918,
+        "start": 961,
+        "end": 1405,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 1471,
-            "end": 1492,
+            "start": 967,
+            "end": 988,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 1475,
-                "end": 1491,
-                "definite": false,
+                "start": 971,
+                "end": 987,
                 "id": {
                   "type": "Identifier",
-                  "start": 1475,
-                  "end": 1486,
+                  "start": 971,
+                  "end": 982,
                   "decorators": [],
                   "name": "typedArrays",
                   "optional": false,
@@ -1789,725 +1182,572 @@ __ESTREE_TEST__:PASS:
                 },
                 "init": {
                   "type": "ArrayExpression",
-                  "start": 1489,
-                  "end": 1491,
+                  "start": 985,
+                  "end": 987,
                   "elements": []
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           },
           {
             "type": "ExpressionStatement",
-            "start": 1497,
-            "end": 1534,
-            "directive": null,
+            "start": 993,
+            "end": 1029,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 1497,
-              "end": 1533,
+              "start": 993,
+              "end": 1028,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 1497,
-                "end": 1511,
-                "computed": true,
+                "start": 993,
+                "end": 1007,
                 "object": {
                   "type": "Identifier",
-                  "start": 1497,
-                  "end": 1508,
+                  "start": 993,
+                  "end": 1004,
                   "decorators": [],
                   "name": "typedArrays",
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
-                  "start": 1509,
-                  "end": 1510,
-                  "raw": "0",
-                  "value": 0
-                }
+                  "start": 1005,
+                  "end": 1006,
+                  "value": 0,
+                  "raw": "0"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
-                "type": "CallExpression",
-                "start": 1514,
-                "end": 1533,
+                "type": "NewExpression",
+                "start": 1010,
+                "end": 1028,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 1014,
+                  "end": 1023,
+                  "decorators": [],
+                  "name": "Int8Array",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 1529,
-                    "end": 1532,
+                    "start": 1024,
+                    "end": 1027,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
                     "typeAnnotation": null
                   }
-                ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 1514,
-                  "end": 1528,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 1514,
-                    "end": 1523,
-                    "decorators": [],
-                    "name": "Int8Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 1524,
-                    "end": 1528,
-                    "decorators": [],
-                    "name": "from",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
+                ]
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
-            "start": 1539,
-            "end": 1577,
-            "directive": null,
+            "start": 1034,
+            "end": 1071,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 1539,
-              "end": 1576,
+              "start": 1034,
+              "end": 1070,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 1539,
-                "end": 1553,
-                "computed": true,
+                "start": 1034,
+                "end": 1048,
                 "object": {
                   "type": "Identifier",
-                  "start": 1539,
-                  "end": 1550,
+                  "start": 1034,
+                  "end": 1045,
                   "decorators": [],
                   "name": "typedArrays",
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
-                  "start": 1551,
-                  "end": 1552,
-                  "raw": "1",
-                  "value": 1
-                }
+                  "start": 1046,
+                  "end": 1047,
+                  "value": 1,
+                  "raw": "1"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
-                "type": "CallExpression",
-                "start": 1556,
-                "end": 1576,
+                "type": "NewExpression",
+                "start": 1051,
+                "end": 1070,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 1055,
+                  "end": 1065,
+                  "decorators": [],
+                  "name": "Uint8Array",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 1572,
-                    "end": 1575,
+                    "start": 1066,
+                    "end": 1069,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
                     "typeAnnotation": null
                   }
-                ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 1556,
-                  "end": 1571,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 1556,
-                    "end": 1566,
-                    "decorators": [],
-                    "name": "Uint8Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 1567,
-                    "end": 1571,
-                    "decorators": [],
-                    "name": "from",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
+                ]
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
-            "start": 1582,
-            "end": 1620,
-            "directive": null,
+            "start": 1076,
+            "end": 1113,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 1582,
-              "end": 1619,
+              "start": 1076,
+              "end": 1112,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 1582,
-                "end": 1596,
-                "computed": true,
+                "start": 1076,
+                "end": 1090,
                 "object": {
                   "type": "Identifier",
-                  "start": 1582,
-                  "end": 1593,
+                  "start": 1076,
+                  "end": 1087,
                   "decorators": [],
                   "name": "typedArrays",
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
-                  "start": 1594,
-                  "end": 1595,
-                  "raw": "2",
-                  "value": 2
-                }
+                  "start": 1088,
+                  "end": 1089,
+                  "value": 2,
+                  "raw": "2"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
-                "type": "CallExpression",
-                "start": 1599,
-                "end": 1619,
+                "type": "NewExpression",
+                "start": 1093,
+                "end": 1112,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 1097,
+                  "end": 1107,
+                  "decorators": [],
+                  "name": "Int16Array",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 1615,
-                    "end": 1618,
+                    "start": 1108,
+                    "end": 1111,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
                     "typeAnnotation": null
                   }
-                ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 1599,
-                  "end": 1614,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 1599,
-                    "end": 1609,
-                    "decorators": [],
-                    "name": "Int16Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 1610,
-                    "end": 1614,
-                    "decorators": [],
-                    "name": "from",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
+                ]
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
-            "start": 1625,
-            "end": 1664,
-            "directive": null,
+            "start": 1118,
+            "end": 1156,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 1625,
-              "end": 1663,
+              "start": 1118,
+              "end": 1155,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 1625,
-                "end": 1639,
-                "computed": true,
+                "start": 1118,
+                "end": 1132,
                 "object": {
                   "type": "Identifier",
-                  "start": 1625,
-                  "end": 1636,
+                  "start": 1118,
+                  "end": 1129,
                   "decorators": [],
                   "name": "typedArrays",
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
-                  "start": 1637,
-                  "end": 1638,
-                  "raw": "3",
-                  "value": 3
-                }
+                  "start": 1130,
+                  "end": 1131,
+                  "value": 3,
+                  "raw": "3"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
-                "type": "CallExpression",
-                "start": 1642,
-                "end": 1663,
+                "type": "NewExpression",
+                "start": 1135,
+                "end": 1155,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 1139,
+                  "end": 1150,
+                  "decorators": [],
+                  "name": "Uint16Array",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 1659,
-                    "end": 1662,
+                    "start": 1151,
+                    "end": 1154,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
                     "typeAnnotation": null
                   }
-                ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 1642,
-                  "end": 1658,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 1642,
-                    "end": 1653,
-                    "decorators": [],
-                    "name": "Uint16Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 1654,
-                    "end": 1658,
-                    "decorators": [],
-                    "name": "from",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
+                ]
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
-            "start": 1669,
-            "end": 1707,
-            "directive": null,
+            "start": 1161,
+            "end": 1198,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 1669,
-              "end": 1706,
+              "start": 1161,
+              "end": 1197,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 1669,
-                "end": 1683,
-                "computed": true,
+                "start": 1161,
+                "end": 1175,
                 "object": {
                   "type": "Identifier",
-                  "start": 1669,
-                  "end": 1680,
+                  "start": 1161,
+                  "end": 1172,
                   "decorators": [],
                   "name": "typedArrays",
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
-                  "start": 1681,
-                  "end": 1682,
-                  "raw": "4",
-                  "value": 4
-                }
+                  "start": 1173,
+                  "end": 1174,
+                  "value": 4,
+                  "raw": "4"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
-                "type": "CallExpression",
-                "start": 1686,
-                "end": 1706,
+                "type": "NewExpression",
+                "start": 1178,
+                "end": 1197,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 1182,
+                  "end": 1192,
+                  "decorators": [],
+                  "name": "Int32Array",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 1702,
-                    "end": 1705,
+                    "start": 1193,
+                    "end": 1196,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
                     "typeAnnotation": null
                   }
-                ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 1686,
-                  "end": 1701,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 1686,
-                    "end": 1696,
-                    "decorators": [],
-                    "name": "Int32Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 1697,
-                    "end": 1701,
-                    "decorators": [],
-                    "name": "from",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
+                ]
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
-            "start": 1712,
-            "end": 1751,
-            "directive": null,
+            "start": 1203,
+            "end": 1241,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 1712,
-              "end": 1750,
+              "start": 1203,
+              "end": 1240,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 1712,
-                "end": 1726,
-                "computed": true,
+                "start": 1203,
+                "end": 1217,
                 "object": {
                   "type": "Identifier",
-                  "start": 1712,
-                  "end": 1723,
+                  "start": 1203,
+                  "end": 1214,
                   "decorators": [],
                   "name": "typedArrays",
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
-                  "start": 1724,
-                  "end": 1725,
-                  "raw": "5",
-                  "value": 5
-                }
+                  "start": 1215,
+                  "end": 1216,
+                  "value": 5,
+                  "raw": "5"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
-                "type": "CallExpression",
-                "start": 1729,
-                "end": 1750,
+                "type": "NewExpression",
+                "start": 1220,
+                "end": 1240,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 1224,
+                  "end": 1235,
+                  "decorators": [],
+                  "name": "Uint32Array",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 1746,
-                    "end": 1749,
+                    "start": 1236,
+                    "end": 1239,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
                     "typeAnnotation": null
                   }
-                ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 1729,
-                  "end": 1745,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 1729,
-                    "end": 1740,
-                    "decorators": [],
-                    "name": "Uint32Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 1741,
-                    "end": 1745,
-                    "decorators": [],
-                    "name": "from",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
+                ]
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
-            "start": 1756,
-            "end": 1796,
-            "directive": null,
+            "start": 1246,
+            "end": 1285,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 1756,
-              "end": 1795,
+              "start": 1246,
+              "end": 1284,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 1756,
-                "end": 1770,
-                "computed": true,
+                "start": 1246,
+                "end": 1260,
                 "object": {
                   "type": "Identifier",
-                  "start": 1756,
-                  "end": 1767,
+                  "start": 1246,
+                  "end": 1257,
                   "decorators": [],
                   "name": "typedArrays",
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
-                  "start": 1768,
-                  "end": 1769,
-                  "raw": "6",
-                  "value": 6
-                }
+                  "start": 1258,
+                  "end": 1259,
+                  "value": 6,
+                  "raw": "6"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
-                "type": "CallExpression",
-                "start": 1773,
-                "end": 1795,
+                "type": "NewExpression",
+                "start": 1263,
+                "end": 1284,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 1267,
+                  "end": 1279,
+                  "decorators": [],
+                  "name": "Float32Array",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 1791,
-                    "end": 1794,
+                    "start": 1280,
+                    "end": 1283,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
                     "typeAnnotation": null
                   }
-                ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 1773,
-                  "end": 1790,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 1773,
-                    "end": 1785,
-                    "decorators": [],
-                    "name": "Float32Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 1786,
-                    "end": 1790,
-                    "decorators": [],
-                    "name": "from",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
+                ]
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
-            "start": 1801,
-            "end": 1841,
-            "directive": null,
+            "start": 1290,
+            "end": 1329,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 1801,
-              "end": 1840,
+              "start": 1290,
+              "end": 1328,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 1801,
-                "end": 1815,
-                "computed": true,
+                "start": 1290,
+                "end": 1304,
                 "object": {
                   "type": "Identifier",
-                  "start": 1801,
-                  "end": 1812,
+                  "start": 1290,
+                  "end": 1301,
                   "decorators": [],
                   "name": "typedArrays",
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
-                  "start": 1813,
-                  "end": 1814,
-                  "raw": "7",
-                  "value": 7
-                }
+                  "start": 1302,
+                  "end": 1303,
+                  "value": 7,
+                  "raw": "7"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
-                "type": "CallExpression",
-                "start": 1818,
-                "end": 1840,
+                "type": "NewExpression",
+                "start": 1307,
+                "end": 1328,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 1311,
+                  "end": 1323,
+                  "decorators": [],
+                  "name": "Float64Array",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 1836,
-                    "end": 1839,
+                    "start": 1324,
+                    "end": 1327,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
                     "typeAnnotation": null
                   }
-                ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 1818,
-                  "end": 1835,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 1818,
-                    "end": 1830,
-                    "decorators": [],
-                    "name": "Float64Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 1831,
-                    "end": 1835,
-                    "decorators": [],
-                    "name": "from",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
+                ]
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
-            "start": 1846,
-            "end": 1891,
-            "directive": null,
+            "start": 1334,
+            "end": 1378,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 1846,
-              "end": 1890,
+              "start": 1334,
+              "end": 1377,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 1846,
-                "end": 1860,
-                "computed": true,
+                "start": 1334,
+                "end": 1348,
                 "object": {
                   "type": "Identifier",
-                  "start": 1846,
-                  "end": 1857,
+                  "start": 1334,
+                  "end": 1345,
                   "decorators": [],
                   "name": "typedArrays",
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
-                  "start": 1858,
-                  "end": 1859,
-                  "raw": "8",
-                  "value": 8
-                }
+                  "start": 1346,
+                  "end": 1347,
+                  "value": 8,
+                  "raw": "8"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
-                "type": "CallExpression",
-                "start": 1863,
-                "end": 1890,
+                "type": "NewExpression",
+                "start": 1351,
+                "end": 1377,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 1355,
+                  "end": 1372,
+                  "decorators": [],
+                  "name": "Uint8ClampedArray",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 1886,
-                    "end": 1889,
+                    "start": 1373,
+                    "end": 1376,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
                     "typeAnnotation": null
                   }
-                ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 1863,
-                  "end": 1885,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 1863,
-                    "end": 1880,
-                    "decorators": [],
-                    "name": "Uint8ClampedArray",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 1881,
-                    "end": 1885,
-                    "decorators": [],
-                    "name": "from",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
+                ]
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ReturnStatement",
-            "start": 1897,
-            "end": 1916,
+            "start": 1384,
+            "end": 1403,
             "argument": {
               "type": "Identifier",
-              "start": 1904,
-              "end": 1915,
+              "start": 1391,
+              "end": 1402,
               "decorators": [],
               "name": "typedArrays",
               "optional": false,
@@ -2516,9 +1756,12 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
+      "expression": false
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 1407,
+      "end": 1918,
       "id": {
         "type": "Identifier",
         "start": 1416,
@@ -2528,6 +1771,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -2554,13 +1801,820 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 1465,
+        "end": 1918,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 1471,
+            "end": 1492,
+            "kind": "var",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 1475,
+                "end": 1491,
+                "id": {
+                  "type": "Identifier",
+                  "start": 1475,
+                  "end": 1486,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "init": {
+                  "type": "ArrayExpression",
+                  "start": 1489,
+                  "end": 1491,
+                  "elements": []
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 1497,
+            "end": 1534,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 1497,
+              "end": 1533,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 1497,
+                "end": 1511,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1497,
+                  "end": 1508,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 1509,
+                  "end": 1510,
+                  "value": 0,
+                  "raw": "0"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 1514,
+                "end": 1533,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1514,
+                  "end": 1528,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1514,
+                    "end": 1523,
+                    "decorators": [],
+                    "name": "Int8Array",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1524,
+                    "end": 1528,
+                    "decorators": [],
+                    "name": "from",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 1529,
+                    "end": 1532,
+                    "decorators": [],
+                    "name": "obj",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 1539,
+            "end": 1577,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 1539,
+              "end": 1576,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 1539,
+                "end": 1553,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1539,
+                  "end": 1550,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 1551,
+                  "end": 1552,
+                  "value": 1,
+                  "raw": "1"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 1556,
+                "end": 1576,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1556,
+                  "end": 1571,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1556,
+                    "end": 1566,
+                    "decorators": [],
+                    "name": "Uint8Array",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1567,
+                    "end": 1571,
+                    "decorators": [],
+                    "name": "from",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 1572,
+                    "end": 1575,
+                    "decorators": [],
+                    "name": "obj",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 1582,
+            "end": 1620,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 1582,
+              "end": 1619,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 1582,
+                "end": 1596,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1582,
+                  "end": 1593,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 1594,
+                  "end": 1595,
+                  "value": 2,
+                  "raw": "2"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 1599,
+                "end": 1619,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1599,
+                  "end": 1614,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1599,
+                    "end": 1609,
+                    "decorators": [],
+                    "name": "Int16Array",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1610,
+                    "end": 1614,
+                    "decorators": [],
+                    "name": "from",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 1615,
+                    "end": 1618,
+                    "decorators": [],
+                    "name": "obj",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 1625,
+            "end": 1664,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 1625,
+              "end": 1663,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 1625,
+                "end": 1639,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1625,
+                  "end": 1636,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 1637,
+                  "end": 1638,
+                  "value": 3,
+                  "raw": "3"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 1642,
+                "end": 1663,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1642,
+                  "end": 1658,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1642,
+                    "end": 1653,
+                    "decorators": [],
+                    "name": "Uint16Array",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1654,
+                    "end": 1658,
+                    "decorators": [],
+                    "name": "from",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 1659,
+                    "end": 1662,
+                    "decorators": [],
+                    "name": "obj",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 1669,
+            "end": 1707,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 1669,
+              "end": 1706,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 1669,
+                "end": 1683,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1669,
+                  "end": 1680,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 1681,
+                  "end": 1682,
+                  "value": 4,
+                  "raw": "4"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 1686,
+                "end": 1706,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1686,
+                  "end": 1701,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1686,
+                    "end": 1696,
+                    "decorators": [],
+                    "name": "Int32Array",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1697,
+                    "end": 1701,
+                    "decorators": [],
+                    "name": "from",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 1702,
+                    "end": 1705,
+                    "decorators": [],
+                    "name": "obj",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 1712,
+            "end": 1751,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 1712,
+              "end": 1750,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 1712,
+                "end": 1726,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1712,
+                  "end": 1723,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 1724,
+                  "end": 1725,
+                  "value": 5,
+                  "raw": "5"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 1729,
+                "end": 1750,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1729,
+                  "end": 1745,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1729,
+                    "end": 1740,
+                    "decorators": [],
+                    "name": "Uint32Array",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1741,
+                    "end": 1745,
+                    "decorators": [],
+                    "name": "from",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 1746,
+                    "end": 1749,
+                    "decorators": [],
+                    "name": "obj",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 1756,
+            "end": 1796,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 1756,
+              "end": 1795,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 1756,
+                "end": 1770,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1756,
+                  "end": 1767,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 1768,
+                  "end": 1769,
+                  "value": 6,
+                  "raw": "6"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 1773,
+                "end": 1795,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1773,
+                  "end": 1790,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1773,
+                    "end": 1785,
+                    "decorators": [],
+                    "name": "Float32Array",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1786,
+                    "end": 1790,
+                    "decorators": [],
+                    "name": "from",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 1791,
+                    "end": 1794,
+                    "decorators": [],
+                    "name": "obj",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 1801,
+            "end": 1841,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 1801,
+              "end": 1840,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 1801,
+                "end": 1815,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1801,
+                  "end": 1812,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 1813,
+                  "end": 1814,
+                  "value": 7,
+                  "raw": "7"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 1818,
+                "end": 1840,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1818,
+                  "end": 1835,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1818,
+                    "end": 1830,
+                    "decorators": [],
+                    "name": "Float64Array",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1831,
+                    "end": 1835,
+                    "decorators": [],
+                    "name": "from",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 1836,
+                    "end": 1839,
+                    "decorators": [],
+                    "name": "obj",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 1846,
+            "end": 1891,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 1846,
+              "end": 1890,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 1846,
+                "end": 1860,
+                "object": {
+                  "type": "Identifier",
+                  "start": 1846,
+                  "end": 1857,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 1858,
+                  "end": 1859,
+                  "value": 8,
+                  "raw": "8"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 1863,
+                "end": 1890,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 1863,
+                  "end": 1885,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1863,
+                    "end": 1880,
+                    "decorators": [],
+                    "name": "Uint8ClampedArray",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1881,
+                    "end": 1885,
+                    "decorators": [],
+                    "name": "from",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 1886,
+                    "end": 1889,
+                    "decorators": [],
+                    "name": "obj",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ReturnStatement",
+            "start": 1897,
+            "end": 1916,
+            "argument": {
+              "type": "Identifier",
+              "start": 1904,
+              "end": 1915,
+              "decorators": [],
+              "name": "typedArrays",
+              "optional": false,
+              "typeAnnotation": null
+            }
+          }
+        ]
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 1920,
       "end": 2443,
+      "id": {
+        "type": "Identifier",
+        "start": 1929,
+        "end": 1966,
+        "decorators": [],
+        "name": "CreateIntegerTypedArraysFromArrayLike",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 1967,
+          "end": 1988,
+          "decorators": [],
+          "name": "obj",
+          "optional": false,
+          "typeAnnotation": {
+            "type": "TSTypeAnnotation",
+            "start": 1970,
+            "end": 1988,
+            "typeAnnotation": {
+              "type": "TSTypeReference",
+              "start": 1971,
+              "end": 1988,
+              "typeName": {
+                "type": "Identifier",
+                "start": 1971,
+                "end": 1980,
+                "decorators": [],
+                "name": "ArrayLike",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeArguments": {
+                "type": "TSTypeParameterInstantiation",
+                "start": 1980,
+                "end": 1988,
+                "params": [
+                  {
+                    "type": "TSNumberKeyword",
+                    "start": 1981,
+                    "end": 1987
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 1990,
@@ -2570,12 +2624,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 1996,
             "end": 2017,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 2000,
                 "end": 2016,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 2000,
@@ -2590,17 +2644,16 @@ __ESTREE_TEST__:PASS:
                   "start": 2014,
                   "end": 2016,
                   "elements": []
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           },
           {
             "type": "ExpressionStatement",
             "start": 2022,
             "end": 2059,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2022,
@@ -2610,7 +2663,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 2022,
                 "end": 2036,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 2022,
@@ -2620,19 +2672,46 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 2034,
                   "end": 2035,
-                  "raw": "0",
-                  "value": 0
-                }
+                  "value": 0,
+                  "raw": "0"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "CallExpression",
                 "start": 2039,
                 "end": 2058,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 2039,
+                  "end": 2053,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 2039,
+                    "end": 2048,
+                    "decorators": [],
+                    "name": "Int8Array",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2049,
+                    "end": 2053,
+                    "decorators": [],
+                    "name": "from",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
@@ -2644,41 +2723,15 @@ __ESTREE_TEST__:PASS:
                     "typeAnnotation": null
                   }
                 ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 2039,
-                  "end": 2053,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 2039,
-                    "end": 2048,
-                    "decorators": [],
-                    "name": "Int8Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 2049,
-                    "end": 2053,
-                    "decorators": [],
-                    "name": "from",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2064,
             "end": 2102,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2064,
@@ -2688,7 +2741,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 2064,
                 "end": 2078,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 2064,
@@ -2698,19 +2750,46 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 2076,
                   "end": 2077,
-                  "raw": "1",
-                  "value": 1
-                }
+                  "value": 1,
+                  "raw": "1"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "CallExpression",
                 "start": 2081,
                 "end": 2101,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 2081,
+                  "end": 2096,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 2081,
+                    "end": 2091,
+                    "decorators": [],
+                    "name": "Uint8Array",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2092,
+                    "end": 2096,
+                    "decorators": [],
+                    "name": "from",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
@@ -2722,41 +2801,15 @@ __ESTREE_TEST__:PASS:
                     "typeAnnotation": null
                   }
                 ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 2081,
-                  "end": 2096,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 2081,
-                    "end": 2091,
-                    "decorators": [],
-                    "name": "Uint8Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 2092,
-                    "end": 2096,
-                    "decorators": [],
-                    "name": "from",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2107,
             "end": 2145,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2107,
@@ -2766,7 +2819,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 2107,
                 "end": 2121,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 2107,
@@ -2776,19 +2828,46 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 2119,
                   "end": 2120,
-                  "raw": "2",
-                  "value": 2
-                }
+                  "value": 2,
+                  "raw": "2"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "CallExpression",
                 "start": 2124,
                 "end": 2144,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 2124,
+                  "end": 2139,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 2124,
+                    "end": 2134,
+                    "decorators": [],
+                    "name": "Int16Array",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2135,
+                    "end": 2139,
+                    "decorators": [],
+                    "name": "from",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
@@ -2800,41 +2879,15 @@ __ESTREE_TEST__:PASS:
                     "typeAnnotation": null
                   }
                 ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 2124,
-                  "end": 2139,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 2124,
-                    "end": 2134,
-                    "decorators": [],
-                    "name": "Int16Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 2135,
-                    "end": 2139,
-                    "decorators": [],
-                    "name": "from",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2150,
             "end": 2189,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2150,
@@ -2844,7 +2897,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 2150,
                 "end": 2164,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 2150,
@@ -2854,19 +2906,46 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 2162,
                   "end": 2163,
-                  "raw": "3",
-                  "value": 3
-                }
+                  "value": 3,
+                  "raw": "3"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "CallExpression",
                 "start": 2167,
                 "end": 2188,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 2167,
+                  "end": 2183,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 2167,
+                    "end": 2178,
+                    "decorators": [],
+                    "name": "Uint16Array",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2179,
+                    "end": 2183,
+                    "decorators": [],
+                    "name": "from",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
@@ -2878,41 +2957,15 @@ __ESTREE_TEST__:PASS:
                     "typeAnnotation": null
                   }
                 ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 2167,
-                  "end": 2183,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 2167,
-                    "end": 2178,
-                    "decorators": [],
-                    "name": "Uint16Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 2179,
-                    "end": 2183,
-                    "decorators": [],
-                    "name": "from",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2194,
             "end": 2232,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2194,
@@ -2922,7 +2975,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 2194,
                 "end": 2208,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 2194,
@@ -2932,19 +2984,46 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 2206,
                   "end": 2207,
-                  "raw": "4",
-                  "value": 4
-                }
+                  "value": 4,
+                  "raw": "4"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "CallExpression",
                 "start": 2211,
                 "end": 2231,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 2211,
+                  "end": 2226,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 2211,
+                    "end": 2221,
+                    "decorators": [],
+                    "name": "Int32Array",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2222,
+                    "end": 2226,
+                    "decorators": [],
+                    "name": "from",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
@@ -2956,41 +3035,15 @@ __ESTREE_TEST__:PASS:
                     "typeAnnotation": null
                   }
                 ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 2211,
-                  "end": 2226,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 2211,
-                    "end": 2221,
-                    "decorators": [],
-                    "name": "Int32Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 2222,
-                    "end": 2226,
-                    "decorators": [],
-                    "name": "from",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2237,
             "end": 2276,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2237,
@@ -3000,7 +3053,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 2237,
                 "end": 2251,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 2237,
@@ -3010,19 +3062,46 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 2249,
                   "end": 2250,
-                  "raw": "5",
-                  "value": 5
-                }
+                  "value": 5,
+                  "raw": "5"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "CallExpression",
                 "start": 2254,
                 "end": 2275,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 2254,
+                  "end": 2270,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 2254,
+                    "end": 2265,
+                    "decorators": [],
+                    "name": "Uint32Array",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2266,
+                    "end": 2270,
+                    "decorators": [],
+                    "name": "from",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
@@ -3034,41 +3113,15 @@ __ESTREE_TEST__:PASS:
                     "typeAnnotation": null
                   }
                 ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 2254,
-                  "end": 2270,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 2254,
-                    "end": 2265,
-                    "decorators": [],
-                    "name": "Uint32Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 2266,
-                    "end": 2270,
-                    "decorators": [],
-                    "name": "from",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2281,
             "end": 2321,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2281,
@@ -3078,7 +3131,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 2281,
                 "end": 2295,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 2281,
@@ -3088,19 +3140,46 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 2293,
                   "end": 2294,
-                  "raw": "6",
-                  "value": 6
-                }
+                  "value": 6,
+                  "raw": "6"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "CallExpression",
                 "start": 2298,
                 "end": 2320,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 2298,
+                  "end": 2315,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 2298,
+                    "end": 2310,
+                    "decorators": [],
+                    "name": "Float32Array",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2311,
+                    "end": 2315,
+                    "decorators": [],
+                    "name": "from",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
@@ -3112,41 +3191,15 @@ __ESTREE_TEST__:PASS:
                     "typeAnnotation": null
                   }
                 ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 2298,
-                  "end": 2315,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 2298,
-                    "end": 2310,
-                    "decorators": [],
-                    "name": "Float32Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 2311,
-                    "end": 2315,
-                    "decorators": [],
-                    "name": "from",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2326,
             "end": 2366,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2326,
@@ -3156,7 +3209,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 2326,
                 "end": 2340,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 2326,
@@ -3166,19 +3218,46 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 2338,
                   "end": 2339,
-                  "raw": "7",
-                  "value": 7
-                }
+                  "value": 7,
+                  "raw": "7"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "CallExpression",
                 "start": 2343,
                 "end": 2365,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 2343,
+                  "end": 2360,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 2343,
+                    "end": 2355,
+                    "decorators": [],
+                    "name": "Float64Array",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2356,
+                    "end": 2360,
+                    "decorators": [],
+                    "name": "from",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
@@ -3190,41 +3269,15 @@ __ESTREE_TEST__:PASS:
                     "typeAnnotation": null
                   }
                 ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 2343,
-                  "end": 2360,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 2343,
-                    "end": 2355,
-                    "decorators": [],
-                    "name": "Float64Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 2356,
-                    "end": 2360,
-                    "decorators": [],
-                    "name": "from",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2371,
             "end": 2416,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2371,
@@ -3234,7 +3287,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 2371,
                 "end": 2385,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 2371,
@@ -3244,19 +3296,46 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 2383,
                   "end": 2384,
-                  "raw": "8",
-                  "value": 8
-                }
+                  "value": 8,
+                  "raw": "8"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "CallExpression",
                 "start": 2388,
                 "end": 2415,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 2388,
+                  "end": 2410,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 2388,
+                    "end": 2405,
+                    "decorators": [],
+                    "name": "Uint8ClampedArray",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2406,
+                    "end": 2410,
+                    "decorators": [],
+                    "name": "from",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
@@ -3268,35 +3347,10 @@ __ESTREE_TEST__:PASS:
                     "typeAnnotation": null
                   }
                 ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 2388,
-                  "end": 2410,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 2388,
-                    "end": 2405,
-                    "decorators": [],
-                    "name": "Uint8ClampedArray",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 2406,
-                    "end": 2410,
-                    "decorators": [],
-                    "name": "from",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ReturnStatement",
@@ -3314,67 +3368,37 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 1929,
-        "end": 1966,
-        "decorators": [],
-        "name": "CreateIntegerTypedArraysFromArrayLike",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [
-        {
-          "type": "Identifier",
-          "start": 1967,
-          "end": 1988,
-          "decorators": [],
-          "name": "obj",
-          "optional": false,
-          "typeAnnotation": {
-            "type": "TSTypeAnnotation",
-            "start": 1970,
-            "end": 1988,
-            "typeAnnotation": {
-              "type": "TSTypeReference",
-              "start": 1971,
-              "end": 1988,
-              "typeArguments": {
-                "type": "TSTypeParameterInstantiation",
-                "start": 1980,
-                "end": 1988,
-                "params": [
-                  {
-                    "type": "TSNumberKeyword",
-                    "start": 1981,
-                    "end": 1987
-                  }
-                ]
-              },
-              "typeName": {
-                "type": "Identifier",
-                "start": 1971,
-                "end": 1980,
-                "decorators": [],
-                "name": "ArrayLike",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            }
-          }
-        }
-      ],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 2445,
       "end": 2941,
+      "id": {
+        "type": "Identifier",
+        "start": 2454,
+        "end": 2473,
+        "decorators": [],
+        "name": "CreateTypedArraysOf",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 2474,
+          "end": 2477,
+          "decorators": [],
+          "name": "obj",
+          "optional": false,
+          "typeAnnotation": null
+        }
+      ],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 2479,
@@ -3384,12 +3408,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 2485,
             "end": 2506,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 2489,
                 "end": 2505,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 2489,
@@ -3404,17 +3428,16 @@ __ESTREE_TEST__:PASS:
                   "start": 2503,
                   "end": 2505,
                   "elements": []
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           },
           {
             "type": "ExpressionStatement",
             "start": 2511,
             "end": 2549,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2511,
@@ -3424,7 +3447,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 2511,
                 "end": 2525,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 2511,
@@ -3434,19 +3456,46 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 2523,
                   "end": 2524,
-                  "raw": "0",
-                  "value": 0
-                }
+                  "value": 0,
+                  "raw": "0"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "CallExpression",
                 "start": 2528,
                 "end": 2548,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 2528,
+                  "end": 2540,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 2528,
+                    "end": 2537,
+                    "decorators": [],
+                    "name": "Int8Array",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2538,
+                    "end": 2540,
+                    "decorators": [],
+                    "name": "of",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "SpreadElement",
@@ -3463,41 +3512,15 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 2528,
-                  "end": 2540,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 2528,
-                    "end": 2537,
-                    "decorators": [],
-                    "name": "Int8Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 2538,
-                    "end": 2540,
-                    "decorators": [],
-                    "name": "of",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2554,
             "end": 2593,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2554,
@@ -3507,7 +3530,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 2554,
                 "end": 2568,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 2554,
@@ -3517,19 +3539,46 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 2566,
                   "end": 2567,
-                  "raw": "1",
-                  "value": 1
-                }
+                  "value": 1,
+                  "raw": "1"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "CallExpression",
                 "start": 2571,
                 "end": 2592,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 2571,
+                  "end": 2584,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 2571,
+                    "end": 2581,
+                    "decorators": [],
+                    "name": "Uint8Array",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2582,
+                    "end": 2584,
+                    "decorators": [],
+                    "name": "of",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "SpreadElement",
@@ -3546,41 +3595,15 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 2571,
-                  "end": 2584,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 2571,
-                    "end": 2581,
-                    "decorators": [],
-                    "name": "Uint8Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 2582,
-                    "end": 2584,
-                    "decorators": [],
-                    "name": "of",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2598,
             "end": 2637,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2598,
@@ -3590,7 +3613,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 2598,
                 "end": 2612,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 2598,
@@ -3600,19 +3622,46 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 2610,
                   "end": 2611,
-                  "raw": "2",
-                  "value": 2
-                }
+                  "value": 2,
+                  "raw": "2"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "CallExpression",
                 "start": 2615,
                 "end": 2636,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 2615,
+                  "end": 2628,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 2615,
+                    "end": 2625,
+                    "decorators": [],
+                    "name": "Int16Array",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2626,
+                    "end": 2628,
+                    "decorators": [],
+                    "name": "of",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "SpreadElement",
@@ -3629,41 +3678,15 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 2615,
-                  "end": 2628,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 2615,
-                    "end": 2625,
-                    "decorators": [],
-                    "name": "Int16Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 2626,
-                    "end": 2628,
-                    "decorators": [],
-                    "name": "of",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2642,
             "end": 2682,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2642,
@@ -3673,7 +3696,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 2642,
                 "end": 2656,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 2642,
@@ -3683,19 +3705,46 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 2654,
                   "end": 2655,
-                  "raw": "3",
-                  "value": 3
-                }
+                  "value": 3,
+                  "raw": "3"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "CallExpression",
                 "start": 2659,
                 "end": 2681,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 2659,
+                  "end": 2673,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 2659,
+                    "end": 2670,
+                    "decorators": [],
+                    "name": "Uint16Array",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2671,
+                    "end": 2673,
+                    "decorators": [],
+                    "name": "of",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "SpreadElement",
@@ -3712,41 +3761,15 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 2659,
-                  "end": 2673,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 2659,
-                    "end": 2670,
-                    "decorators": [],
-                    "name": "Uint16Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 2671,
-                    "end": 2673,
-                    "decorators": [],
-                    "name": "of",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2687,
             "end": 2726,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2687,
@@ -3756,7 +3779,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 2687,
                 "end": 2701,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 2687,
@@ -3766,19 +3788,46 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 2699,
                   "end": 2700,
-                  "raw": "4",
-                  "value": 4
-                }
+                  "value": 4,
+                  "raw": "4"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "CallExpression",
                 "start": 2704,
                 "end": 2725,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 2704,
+                  "end": 2717,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 2704,
+                    "end": 2714,
+                    "decorators": [],
+                    "name": "Int32Array",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2715,
+                    "end": 2717,
+                    "decorators": [],
+                    "name": "of",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "SpreadElement",
@@ -3795,41 +3844,15 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 2704,
-                  "end": 2717,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 2704,
-                    "end": 2714,
-                    "decorators": [],
-                    "name": "Int32Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 2715,
-                    "end": 2717,
-                    "decorators": [],
-                    "name": "of",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2731,
             "end": 2771,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2731,
@@ -3839,7 +3862,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 2731,
                 "end": 2745,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 2731,
@@ -3849,19 +3871,46 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 2743,
                   "end": 2744,
-                  "raw": "5",
-                  "value": 5
-                }
+                  "value": 5,
+                  "raw": "5"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "CallExpression",
                 "start": 2748,
                 "end": 2770,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 2748,
+                  "end": 2762,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 2748,
+                    "end": 2759,
+                    "decorators": [],
+                    "name": "Uint32Array",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2760,
+                    "end": 2762,
+                    "decorators": [],
+                    "name": "of",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "SpreadElement",
@@ -3878,41 +3927,15 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 2748,
-                  "end": 2762,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 2748,
-                    "end": 2759,
-                    "decorators": [],
-                    "name": "Uint32Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 2760,
-                    "end": 2762,
-                    "decorators": [],
-                    "name": "of",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2776,
             "end": 2817,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2776,
@@ -3922,7 +3945,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 2776,
                 "end": 2790,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 2776,
@@ -3932,19 +3954,46 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 2788,
                   "end": 2789,
-                  "raw": "6",
-                  "value": 6
-                }
+                  "value": 6,
+                  "raw": "6"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "CallExpression",
                 "start": 2793,
                 "end": 2816,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 2793,
+                  "end": 2808,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 2793,
+                    "end": 2805,
+                    "decorators": [],
+                    "name": "Float32Array",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2806,
+                    "end": 2808,
+                    "decorators": [],
+                    "name": "of",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "SpreadElement",
@@ -3961,41 +4010,15 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 2793,
-                  "end": 2808,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 2793,
-                    "end": 2805,
-                    "decorators": [],
-                    "name": "Float32Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 2806,
-                    "end": 2808,
-                    "decorators": [],
-                    "name": "of",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2822,
             "end": 2863,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2822,
@@ -4005,7 +4028,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 2822,
                 "end": 2836,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 2822,
@@ -4015,19 +4037,46 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 2834,
                   "end": 2835,
-                  "raw": "7",
-                  "value": 7
-                }
+                  "value": 7,
+                  "raw": "7"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "CallExpression",
                 "start": 2839,
                 "end": 2862,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 2839,
+                  "end": 2854,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 2839,
+                    "end": 2851,
+                    "decorators": [],
+                    "name": "Float64Array",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2852,
+                    "end": 2854,
+                    "decorators": [],
+                    "name": "of",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "SpreadElement",
@@ -4044,41 +4093,15 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 2839,
-                  "end": 2854,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 2839,
-                    "end": 2851,
-                    "decorators": [],
-                    "name": "Float64Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 2852,
-                    "end": 2854,
-                    "decorators": [],
-                    "name": "of",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2868,
             "end": 2914,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2868,
@@ -4088,7 +4111,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 2868,
                 "end": 2882,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 2868,
@@ -4098,19 +4120,46 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 2880,
                   "end": 2881,
-                  "raw": "8",
-                  "value": 8
-                }
+                  "value": 8,
+                  "raw": "8"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "CallExpression",
                 "start": 2885,
                 "end": 2913,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 2885,
+                  "end": 2905,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 2885,
+                    "end": 2902,
+                    "decorators": [],
+                    "name": "Uint8ClampedArray",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 2903,
+                    "end": 2905,
+                    "decorators": [],
+                    "name": "of",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "SpreadElement",
@@ -4127,35 +4176,10 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 2885,
-                  "end": 2905,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 2885,
-                    "end": 2902,
-                    "decorators": [],
-                    "name": "Uint8ClampedArray",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 2903,
-                    "end": 2905,
-                    "decorators": [],
-                    "name": "of",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ReturnStatement",
@@ -4173,37 +4197,27 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 2454,
-        "end": 2473,
-        "decorators": [],
-        "name": "CreateTypedArraysOf",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [
-        {
-          "type": "Identifier",
-          "start": 2474,
-          "end": 2477,
-          "decorators": [],
-          "name": "obj",
-          "optional": false,
-          "typeAnnotation": null
-        }
-      ],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 2943,
       "end": 3446,
+      "id": {
+        "type": "Identifier",
+        "start": 2952,
+        "end": 2972,
+        "decorators": [],
+        "name": "CreateTypedArraysOf2",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 2975,
@@ -4213,12 +4227,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 2981,
             "end": 3002,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 2985,
                 "end": 3001,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 2985,
@@ -4233,17 +4247,16 @@ __ESTREE_TEST__:PASS:
                   "start": 2999,
                   "end": 3001,
                   "elements": []
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           },
           {
             "type": "ExpressionStatement",
             "start": 3007,
             "end": 3046,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 3007,
@@ -4253,7 +4266,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 3007,
                 "end": 3021,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 3007,
@@ -4263,54 +4275,24 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 3019,
                   "end": 3020,
-                  "raw": "0",
-                  "value": 0
-                }
+                  "value": 0,
+                  "raw": "0"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "CallExpression",
                 "start": 3024,
                 "end": 3045,
-                "arguments": [
-                  {
-                    "type": "Literal",
-                    "start": 3037,
-                    "end": 3038,
-                    "raw": "1",
-                    "value": 1
-                  },
-                  {
-                    "type": "Literal",
-                    "start": 3039,
-                    "end": 3040,
-                    "raw": "2",
-                    "value": 2
-                  },
-                  {
-                    "type": "Literal",
-                    "start": 3041,
-                    "end": 3042,
-                    "raw": "3",
-                    "value": 3
-                  },
-                  {
-                    "type": "Literal",
-                    "start": 3043,
-                    "end": 3044,
-                    "raw": "4",
-                    "value": 4
-                  }
-                ],
                 "callee": {
                   "type": "MemberExpression",
                   "start": 3024,
                   "end": 3036,
-                  "computed": false,
                   "object": {
                     "type": "Identifier",
                     "start": 3024,
@@ -4320,7 +4302,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 3034,
@@ -4329,18 +4310,50 @@ __ESTREE_TEST__:PASS:
                     "name": "of",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "optional": false,
+                  "computed": false
                 },
-                "optional": false,
-                "typeArguments": null
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 3037,
+                    "end": 3038,
+                    "value": 1,
+                    "raw": "1"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 3039,
+                    "end": 3040,
+                    "value": 2,
+                    "raw": "2"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 3041,
+                    "end": 3042,
+                    "value": 3,
+                    "raw": "3"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 3043,
+                    "end": 3044,
+                    "value": 4,
+                    "raw": "4"
+                  }
+                ],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 3051,
             "end": 3091,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 3051,
@@ -4350,7 +4363,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 3051,
                 "end": 3065,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 3051,
@@ -4360,54 +4372,24 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 3063,
                   "end": 3064,
-                  "raw": "1",
-                  "value": 1
-                }
+                  "value": 1,
+                  "raw": "1"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "CallExpression",
                 "start": 3068,
                 "end": 3090,
-                "arguments": [
-                  {
-                    "type": "Literal",
-                    "start": 3082,
-                    "end": 3083,
-                    "raw": "1",
-                    "value": 1
-                  },
-                  {
-                    "type": "Literal",
-                    "start": 3084,
-                    "end": 3085,
-                    "raw": "2",
-                    "value": 2
-                  },
-                  {
-                    "type": "Literal",
-                    "start": 3086,
-                    "end": 3087,
-                    "raw": "3",
-                    "value": 3
-                  },
-                  {
-                    "type": "Literal",
-                    "start": 3088,
-                    "end": 3089,
-                    "raw": "4",
-                    "value": 4
-                  }
-                ],
                 "callee": {
                   "type": "MemberExpression",
                   "start": 3068,
                   "end": 3081,
-                  "computed": false,
                   "object": {
                     "type": "Identifier",
                     "start": 3068,
@@ -4417,7 +4399,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 3079,
@@ -4426,18 +4407,50 @@ __ESTREE_TEST__:PASS:
                     "name": "of",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "optional": false,
+                  "computed": false
                 },
-                "optional": false,
-                "typeArguments": null
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 3082,
+                    "end": 3083,
+                    "value": 1,
+                    "raw": "1"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 3084,
+                    "end": 3085,
+                    "value": 2,
+                    "raw": "2"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 3086,
+                    "end": 3087,
+                    "value": 3,
+                    "raw": "3"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 3088,
+                    "end": 3089,
+                    "value": 4,
+                    "raw": "4"
+                  }
+                ],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 3096,
             "end": 3136,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 3096,
@@ -4447,7 +4460,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 3096,
                 "end": 3110,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 3096,
@@ -4457,54 +4469,24 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 3108,
                   "end": 3109,
-                  "raw": "2",
-                  "value": 2
-                }
+                  "value": 2,
+                  "raw": "2"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "CallExpression",
                 "start": 3113,
                 "end": 3135,
-                "arguments": [
-                  {
-                    "type": "Literal",
-                    "start": 3127,
-                    "end": 3128,
-                    "raw": "1",
-                    "value": 1
-                  },
-                  {
-                    "type": "Literal",
-                    "start": 3129,
-                    "end": 3130,
-                    "raw": "2",
-                    "value": 2
-                  },
-                  {
-                    "type": "Literal",
-                    "start": 3131,
-                    "end": 3132,
-                    "raw": "3",
-                    "value": 3
-                  },
-                  {
-                    "type": "Literal",
-                    "start": 3133,
-                    "end": 3134,
-                    "raw": "4",
-                    "value": 4
-                  }
-                ],
                 "callee": {
                   "type": "MemberExpression",
                   "start": 3113,
                   "end": 3126,
-                  "computed": false,
                   "object": {
                     "type": "Identifier",
                     "start": 3113,
@@ -4514,7 +4496,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 3124,
@@ -4523,18 +4504,50 @@ __ESTREE_TEST__:PASS:
                     "name": "of",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "optional": false,
+                  "computed": false
                 },
-                "optional": false,
-                "typeArguments": null
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 3127,
+                    "end": 3128,
+                    "value": 1,
+                    "raw": "1"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 3129,
+                    "end": 3130,
+                    "value": 2,
+                    "raw": "2"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 3131,
+                    "end": 3132,
+                    "value": 3,
+                    "raw": "3"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 3133,
+                    "end": 3134,
+                    "value": 4,
+                    "raw": "4"
+                  }
+                ],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 3141,
             "end": 3182,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 3141,
@@ -4544,7 +4557,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 3141,
                 "end": 3155,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 3141,
@@ -4554,54 +4566,24 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 3153,
                   "end": 3154,
-                  "raw": "3",
-                  "value": 3
-                }
+                  "value": 3,
+                  "raw": "3"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "CallExpression",
                 "start": 3158,
                 "end": 3181,
-                "arguments": [
-                  {
-                    "type": "Literal",
-                    "start": 3173,
-                    "end": 3174,
-                    "raw": "1",
-                    "value": 1
-                  },
-                  {
-                    "type": "Literal",
-                    "start": 3175,
-                    "end": 3176,
-                    "raw": "2",
-                    "value": 2
-                  },
-                  {
-                    "type": "Literal",
-                    "start": 3177,
-                    "end": 3178,
-                    "raw": "3",
-                    "value": 3
-                  },
-                  {
-                    "type": "Literal",
-                    "start": 3179,
-                    "end": 3180,
-                    "raw": "4",
-                    "value": 4
-                  }
-                ],
                 "callee": {
                   "type": "MemberExpression",
                   "start": 3158,
                   "end": 3172,
-                  "computed": false,
                   "object": {
                     "type": "Identifier",
                     "start": 3158,
@@ -4611,7 +4593,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 3170,
@@ -4620,18 +4601,50 @@ __ESTREE_TEST__:PASS:
                     "name": "of",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "optional": false,
+                  "computed": false
                 },
-                "optional": false,
-                "typeArguments": null
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 3173,
+                    "end": 3174,
+                    "value": 1,
+                    "raw": "1"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 3175,
+                    "end": 3176,
+                    "value": 2,
+                    "raw": "2"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 3177,
+                    "end": 3178,
+                    "value": 3,
+                    "raw": "3"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 3179,
+                    "end": 3180,
+                    "value": 4,
+                    "raw": "4"
+                  }
+                ],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 3187,
             "end": 3227,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 3187,
@@ -4641,7 +4654,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 3187,
                 "end": 3201,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 3187,
@@ -4651,54 +4663,24 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 3199,
                   "end": 3200,
-                  "raw": "4",
-                  "value": 4
-                }
+                  "value": 4,
+                  "raw": "4"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "CallExpression",
                 "start": 3204,
                 "end": 3226,
-                "arguments": [
-                  {
-                    "type": "Literal",
-                    "start": 3218,
-                    "end": 3219,
-                    "raw": "1",
-                    "value": 1
-                  },
-                  {
-                    "type": "Literal",
-                    "start": 3220,
-                    "end": 3221,
-                    "raw": "2",
-                    "value": 2
-                  },
-                  {
-                    "type": "Literal",
-                    "start": 3222,
-                    "end": 3223,
-                    "raw": "3",
-                    "value": 3
-                  },
-                  {
-                    "type": "Literal",
-                    "start": 3224,
-                    "end": 3225,
-                    "raw": "4",
-                    "value": 4
-                  }
-                ],
                 "callee": {
                   "type": "MemberExpression",
                   "start": 3204,
                   "end": 3217,
-                  "computed": false,
                   "object": {
                     "type": "Identifier",
                     "start": 3204,
@@ -4708,7 +4690,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 3215,
@@ -4717,18 +4698,50 @@ __ESTREE_TEST__:PASS:
                     "name": "of",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "optional": false,
+                  "computed": false
                 },
-                "optional": false,
-                "typeArguments": null
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 3218,
+                    "end": 3219,
+                    "value": 1,
+                    "raw": "1"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 3220,
+                    "end": 3221,
+                    "value": 2,
+                    "raw": "2"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 3222,
+                    "end": 3223,
+                    "value": 3,
+                    "raw": "3"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 3224,
+                    "end": 3225,
+                    "value": 4,
+                    "raw": "4"
+                  }
+                ],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 3232,
             "end": 3273,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 3232,
@@ -4738,7 +4751,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 3232,
                 "end": 3246,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 3232,
@@ -4748,54 +4760,24 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 3244,
                   "end": 3245,
-                  "raw": "5",
-                  "value": 5
-                }
+                  "value": 5,
+                  "raw": "5"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "CallExpression",
                 "start": 3249,
                 "end": 3272,
-                "arguments": [
-                  {
-                    "type": "Literal",
-                    "start": 3264,
-                    "end": 3265,
-                    "raw": "1",
-                    "value": 1
-                  },
-                  {
-                    "type": "Literal",
-                    "start": 3266,
-                    "end": 3267,
-                    "raw": "2",
-                    "value": 2
-                  },
-                  {
-                    "type": "Literal",
-                    "start": 3268,
-                    "end": 3269,
-                    "raw": "3",
-                    "value": 3
-                  },
-                  {
-                    "type": "Literal",
-                    "start": 3270,
-                    "end": 3271,
-                    "raw": "4",
-                    "value": 4
-                  }
-                ],
                 "callee": {
                   "type": "MemberExpression",
                   "start": 3249,
                   "end": 3263,
-                  "computed": false,
                   "object": {
                     "type": "Identifier",
                     "start": 3249,
@@ -4805,7 +4787,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 3261,
@@ -4814,18 +4795,50 @@ __ESTREE_TEST__:PASS:
                     "name": "of",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "optional": false,
+                  "computed": false
                 },
-                "optional": false,
-                "typeArguments": null
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 3264,
+                    "end": 3265,
+                    "value": 1,
+                    "raw": "1"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 3266,
+                    "end": 3267,
+                    "value": 2,
+                    "raw": "2"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 3268,
+                    "end": 3269,
+                    "value": 3,
+                    "raw": "3"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 3270,
+                    "end": 3271,
+                    "value": 4,
+                    "raw": "4"
+                  }
+                ],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 3278,
             "end": 3320,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 3278,
@@ -4835,7 +4848,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 3278,
                 "end": 3292,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 3278,
@@ -4845,54 +4857,24 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 3290,
                   "end": 3291,
-                  "raw": "6",
-                  "value": 6
-                }
+                  "value": 6,
+                  "raw": "6"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "CallExpression",
                 "start": 3295,
                 "end": 3319,
-                "arguments": [
-                  {
-                    "type": "Literal",
-                    "start": 3311,
-                    "end": 3312,
-                    "raw": "1",
-                    "value": 1
-                  },
-                  {
-                    "type": "Literal",
-                    "start": 3313,
-                    "end": 3314,
-                    "raw": "2",
-                    "value": 2
-                  },
-                  {
-                    "type": "Literal",
-                    "start": 3315,
-                    "end": 3316,
-                    "raw": "3",
-                    "value": 3
-                  },
-                  {
-                    "type": "Literal",
-                    "start": 3317,
-                    "end": 3318,
-                    "raw": "4",
-                    "value": 4
-                  }
-                ],
                 "callee": {
                   "type": "MemberExpression",
                   "start": 3295,
                   "end": 3310,
-                  "computed": false,
                   "object": {
                     "type": "Identifier",
                     "start": 3295,
@@ -4902,7 +4884,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 3308,
@@ -4911,18 +4892,50 @@ __ESTREE_TEST__:PASS:
                     "name": "of",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "optional": false,
+                  "computed": false
                 },
-                "optional": false,
-                "typeArguments": null
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 3311,
+                    "end": 3312,
+                    "value": 1,
+                    "raw": "1"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 3313,
+                    "end": 3314,
+                    "value": 2,
+                    "raw": "2"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 3315,
+                    "end": 3316,
+                    "value": 3,
+                    "raw": "3"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 3317,
+                    "end": 3318,
+                    "value": 4,
+                    "raw": "4"
+                  }
+                ],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 3325,
             "end": 3367,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 3325,
@@ -4932,7 +4945,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 3325,
                 "end": 3339,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 3325,
@@ -4942,54 +4954,24 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 3337,
                   "end": 3338,
-                  "raw": "7",
-                  "value": 7
-                }
+                  "value": 7,
+                  "raw": "7"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "CallExpression",
                 "start": 3342,
                 "end": 3366,
-                "arguments": [
-                  {
-                    "type": "Literal",
-                    "start": 3358,
-                    "end": 3359,
-                    "raw": "1",
-                    "value": 1
-                  },
-                  {
-                    "type": "Literal",
-                    "start": 3360,
-                    "end": 3361,
-                    "raw": "2",
-                    "value": 2
-                  },
-                  {
-                    "type": "Literal",
-                    "start": 3362,
-                    "end": 3363,
-                    "raw": "3",
-                    "value": 3
-                  },
-                  {
-                    "type": "Literal",
-                    "start": 3364,
-                    "end": 3365,
-                    "raw": "4",
-                    "value": 4
-                  }
-                ],
                 "callee": {
                   "type": "MemberExpression",
                   "start": 3342,
                   "end": 3357,
-                  "computed": false,
                   "object": {
                     "type": "Identifier",
                     "start": 3342,
@@ -4999,7 +4981,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 3355,
@@ -5008,18 +4989,50 @@ __ESTREE_TEST__:PASS:
                     "name": "of",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "optional": false,
+                  "computed": false
                 },
-                "optional": false,
-                "typeArguments": null
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 3358,
+                    "end": 3359,
+                    "value": 1,
+                    "raw": "1"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 3360,
+                    "end": 3361,
+                    "value": 2,
+                    "raw": "2"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 3362,
+                    "end": 3363,
+                    "value": 3,
+                    "raw": "3"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 3364,
+                    "end": 3365,
+                    "value": 4,
+                    "raw": "4"
+                  }
+                ],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 3372,
             "end": 3419,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 3372,
@@ -5029,7 +5042,6 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 3372,
                 "end": 3386,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 3372,
@@ -5039,54 +5051,24 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 3384,
                   "end": 3385,
-                  "raw": "8",
-                  "value": 8
-                }
+                  "value": 8,
+                  "raw": "8"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "CallExpression",
                 "start": 3389,
                 "end": 3418,
-                "arguments": [
-                  {
-                    "type": "Literal",
-                    "start": 3410,
-                    "end": 3411,
-                    "raw": "1",
-                    "value": 1
-                  },
-                  {
-                    "type": "Literal",
-                    "start": 3412,
-                    "end": 3413,
-                    "raw": "2",
-                    "value": 2
-                  },
-                  {
-                    "type": "Literal",
-                    "start": 3414,
-                    "end": 3415,
-                    "raw": "3",
-                    "value": 3
-                  },
-                  {
-                    "type": "Literal",
-                    "start": 3416,
-                    "end": 3417,
-                    "raw": "4",
-                    "value": 4
-                  }
-                ],
                 "callee": {
                   "type": "MemberExpression",
                   "start": 3389,
                   "end": 3409,
-                  "computed": false,
                   "object": {
                     "type": "Identifier",
                     "start": 3389,
@@ -5096,7 +5078,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 3407,
@@ -5105,12 +5086,45 @@ __ESTREE_TEST__:PASS:
                     "name": "of",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "optional": false,
+                  "computed": false
                 },
-                "optional": false,
-                "typeArguments": null
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Literal",
+                    "start": 3410,
+                    "end": 3411,
+                    "value": 1,
+                    "raw": "1"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 3412,
+                    "end": 3413,
+                    "value": 2,
+                    "raw": "2"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 3414,
+                    "end": 3415,
+                    "value": 3,
+                    "raw": "3"
+                  },
+                  {
+                    "type": "Literal",
+                    "start": 3416,
+                    "end": 3417,
+                    "value": 4,
+                    "raw": "4"
+                  }
+                ],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ReturnStatement",
@@ -5128,864 +5142,12 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 2952,
-        "end": 2972,
-        "decorators": [],
-        "name": "CreateTypedArraysOf2",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 3448,
       "end": 4055,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 3539,
-        "end": 4055,
-        "body": [
-          {
-            "type": "VariableDeclaration",
-            "start": 3545,
-            "end": 3566,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 3549,
-                "end": 3565,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 3549,
-                  "end": 3560,
-                  "decorators": [],
-                  "name": "typedArrays",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "init": {
-                  "type": "ArrayExpression",
-                  "start": 3563,
-                  "end": 3565,
-                  "elements": []
-                }
-              }
-            ],
-            "declare": false,
-            "kind": "var"
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 3571,
-            "end": 3615,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 3571,
-              "end": 3614,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 3571,
-                "end": 3585,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 3571,
-                  "end": 3582,
-                  "decorators": [],
-                  "name": "typedArrays",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 3583,
-                  "end": 3584,
-                  "raw": "0",
-                  "value": 0
-                }
-              },
-              "right": {
-                "type": "CallExpression",
-                "start": 3588,
-                "end": 3614,
-                "arguments": [
-                  {
-                    "type": "Identifier",
-                    "start": 3603,
-                    "end": 3606,
-                    "decorators": [],
-                    "name": "obj",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  {
-                    "type": "Identifier",
-                    "start": 3608,
-                    "end": 3613,
-                    "decorators": [],
-                    "name": "mapFn",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 3588,
-                  "end": 3602,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 3588,
-                    "end": 3597,
-                    "decorators": [],
-                    "name": "Int8Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 3598,
-                    "end": 3602,
-                    "decorators": [],
-                    "name": "from",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 3620,
-            "end": 3665,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 3620,
-              "end": 3664,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 3620,
-                "end": 3634,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 3620,
-                  "end": 3631,
-                  "decorators": [],
-                  "name": "typedArrays",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 3632,
-                  "end": 3633,
-                  "raw": "1",
-                  "value": 1
-                }
-              },
-              "right": {
-                "type": "CallExpression",
-                "start": 3637,
-                "end": 3664,
-                "arguments": [
-                  {
-                    "type": "Identifier",
-                    "start": 3653,
-                    "end": 3656,
-                    "decorators": [],
-                    "name": "obj",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  {
-                    "type": "Identifier",
-                    "start": 3658,
-                    "end": 3663,
-                    "decorators": [],
-                    "name": "mapFn",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 3637,
-                  "end": 3652,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 3637,
-                    "end": 3647,
-                    "decorators": [],
-                    "name": "Uint8Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 3648,
-                    "end": 3652,
-                    "decorators": [],
-                    "name": "from",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 3670,
-            "end": 3715,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 3670,
-              "end": 3714,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 3670,
-                "end": 3684,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 3670,
-                  "end": 3681,
-                  "decorators": [],
-                  "name": "typedArrays",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 3682,
-                  "end": 3683,
-                  "raw": "2",
-                  "value": 2
-                }
-              },
-              "right": {
-                "type": "CallExpression",
-                "start": 3687,
-                "end": 3714,
-                "arguments": [
-                  {
-                    "type": "Identifier",
-                    "start": 3703,
-                    "end": 3706,
-                    "decorators": [],
-                    "name": "obj",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  {
-                    "type": "Identifier",
-                    "start": 3708,
-                    "end": 3713,
-                    "decorators": [],
-                    "name": "mapFn",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 3687,
-                  "end": 3702,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 3687,
-                    "end": 3697,
-                    "decorators": [],
-                    "name": "Int16Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 3698,
-                    "end": 3702,
-                    "decorators": [],
-                    "name": "from",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 3720,
-            "end": 3766,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 3720,
-              "end": 3765,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 3720,
-                "end": 3734,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 3720,
-                  "end": 3731,
-                  "decorators": [],
-                  "name": "typedArrays",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 3732,
-                  "end": 3733,
-                  "raw": "3",
-                  "value": 3
-                }
-              },
-              "right": {
-                "type": "CallExpression",
-                "start": 3737,
-                "end": 3765,
-                "arguments": [
-                  {
-                    "type": "Identifier",
-                    "start": 3754,
-                    "end": 3757,
-                    "decorators": [],
-                    "name": "obj",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  {
-                    "type": "Identifier",
-                    "start": 3759,
-                    "end": 3764,
-                    "decorators": [],
-                    "name": "mapFn",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 3737,
-                  "end": 3753,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 3737,
-                    "end": 3748,
-                    "decorators": [],
-                    "name": "Uint16Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 3749,
-                    "end": 3753,
-                    "decorators": [],
-                    "name": "from",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 3771,
-            "end": 3816,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 3771,
-              "end": 3815,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 3771,
-                "end": 3785,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 3771,
-                  "end": 3782,
-                  "decorators": [],
-                  "name": "typedArrays",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 3783,
-                  "end": 3784,
-                  "raw": "4",
-                  "value": 4
-                }
-              },
-              "right": {
-                "type": "CallExpression",
-                "start": 3788,
-                "end": 3815,
-                "arguments": [
-                  {
-                    "type": "Identifier",
-                    "start": 3804,
-                    "end": 3807,
-                    "decorators": [],
-                    "name": "obj",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  {
-                    "type": "Identifier",
-                    "start": 3809,
-                    "end": 3814,
-                    "decorators": [],
-                    "name": "mapFn",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 3788,
-                  "end": 3803,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 3788,
-                    "end": 3798,
-                    "decorators": [],
-                    "name": "Int32Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 3799,
-                    "end": 3803,
-                    "decorators": [],
-                    "name": "from",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 3821,
-            "end": 3867,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 3821,
-              "end": 3866,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 3821,
-                "end": 3835,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 3821,
-                  "end": 3832,
-                  "decorators": [],
-                  "name": "typedArrays",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 3833,
-                  "end": 3834,
-                  "raw": "5",
-                  "value": 5
-                }
-              },
-              "right": {
-                "type": "CallExpression",
-                "start": 3838,
-                "end": 3866,
-                "arguments": [
-                  {
-                    "type": "Identifier",
-                    "start": 3855,
-                    "end": 3858,
-                    "decorators": [],
-                    "name": "obj",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  {
-                    "type": "Identifier",
-                    "start": 3860,
-                    "end": 3865,
-                    "decorators": [],
-                    "name": "mapFn",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 3838,
-                  "end": 3854,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 3838,
-                    "end": 3849,
-                    "decorators": [],
-                    "name": "Uint32Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 3850,
-                    "end": 3854,
-                    "decorators": [],
-                    "name": "from",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 3872,
-            "end": 3919,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 3872,
-              "end": 3918,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 3872,
-                "end": 3886,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 3872,
-                  "end": 3883,
-                  "decorators": [],
-                  "name": "typedArrays",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 3884,
-                  "end": 3885,
-                  "raw": "6",
-                  "value": 6
-                }
-              },
-              "right": {
-                "type": "CallExpression",
-                "start": 3889,
-                "end": 3918,
-                "arguments": [
-                  {
-                    "type": "Identifier",
-                    "start": 3907,
-                    "end": 3910,
-                    "decorators": [],
-                    "name": "obj",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  {
-                    "type": "Identifier",
-                    "start": 3912,
-                    "end": 3917,
-                    "decorators": [],
-                    "name": "mapFn",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 3889,
-                  "end": 3906,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 3889,
-                    "end": 3901,
-                    "decorators": [],
-                    "name": "Float32Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 3902,
-                    "end": 3906,
-                    "decorators": [],
-                    "name": "from",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 3924,
-            "end": 3971,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 3924,
-              "end": 3970,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 3924,
-                "end": 3938,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 3924,
-                  "end": 3935,
-                  "decorators": [],
-                  "name": "typedArrays",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 3936,
-                  "end": 3937,
-                  "raw": "7",
-                  "value": 7
-                }
-              },
-              "right": {
-                "type": "CallExpression",
-                "start": 3941,
-                "end": 3970,
-                "arguments": [
-                  {
-                    "type": "Identifier",
-                    "start": 3959,
-                    "end": 3962,
-                    "decorators": [],
-                    "name": "obj",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  {
-                    "type": "Identifier",
-                    "start": 3964,
-                    "end": 3969,
-                    "decorators": [],
-                    "name": "mapFn",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 3941,
-                  "end": 3958,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 3941,
-                    "end": 3953,
-                    "decorators": [],
-                    "name": "Float64Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 3954,
-                    "end": 3958,
-                    "decorators": [],
-                    "name": "from",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 3976,
-            "end": 4028,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 3976,
-              "end": 4027,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 3976,
-                "end": 3990,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 3976,
-                  "end": 3987,
-                  "decorators": [],
-                  "name": "typedArrays",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 3988,
-                  "end": 3989,
-                  "raw": "8",
-                  "value": 8
-                }
-              },
-              "right": {
-                "type": "CallExpression",
-                "start": 3993,
-                "end": 4027,
-                "arguments": [
-                  {
-                    "type": "Identifier",
-                    "start": 4016,
-                    "end": 4019,
-                    "decorators": [],
-                    "name": "obj",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  {
-                    "type": "Identifier",
-                    "start": 4021,
-                    "end": 4026,
-                    "decorators": [],
-                    "name": "mapFn",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 3993,
-                  "end": 4015,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 3993,
-                    "end": 4010,
-                    "decorators": [],
-                    "name": "Uint8ClampedArray",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 4011,
-                    "end": 4015,
-                    "decorators": [],
-                    "name": "from",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ReturnStatement",
-            "start": 4034,
-            "end": 4053,
-            "argument": {
-              "type": "Identifier",
-              "start": 4041,
-              "end": 4052,
-              "decorators": [],
-              "name": "typedArrays",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 3457,
@@ -5994,6 +5156,35 @@ __ESTREE_TEST__:PASS:
         "name": "CreateTypedArraysFromMapFn2",
         "optional": false,
         "typeAnnotation": null
+      },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": {
+        "type": "TSTypeParameterDeclaration",
+        "start": 3484,
+        "end": 3487,
+        "params": [
+          {
+            "type": "TSTypeParameter",
+            "start": 3485,
+            "end": 3486,
+            "name": {
+              "type": "Identifier",
+              "start": 3485,
+              "end": 3486,
+              "decorators": [],
+              "name": "T",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          }
+        ]
       },
       "params": [
         {
@@ -6011,6 +5202,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 3492,
               "end": 3504,
+              "typeName": {
+                "type": "Identifier",
+                "start": 3492,
+                "end": 3501,
+                "decorators": [],
+                "name": "ArrayLike",
+                "optional": false,
+                "typeAnnotation": null
+              },
               "typeArguments": {
                 "type": "TSTypeParameterInstantiation",
                 "start": 3501,
@@ -6020,7 +5220,6 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 3502,
                     "end": 3503,
-                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 3502,
@@ -6029,18 +5228,10 @@ __ESTREE_TEST__:PASS:
                       "name": "T",
                       "optional": false,
                       "typeAnnotation": null
-                    }
+                    },
+                    "typeArguments": null
                   }
                 ]
-              },
-              "typeName": {
-                "type": "Identifier",
-                "start": 3492,
-                "end": 3501,
-                "decorators": [],
-                "name": "ArrayLike",
-                "optional": false,
-                "typeAnnotation": null
               }
             }
           }
@@ -6060,6 +5251,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSFunctionType",
               "start": 3513,
               "end": 3537,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -6076,7 +5268,6 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 3516,
                       "end": 3517,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 3516,
@@ -6085,7 +5276,8 @@ __ESTREE_TEST__:PASS:
                         "name": "T",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     }
                   }
                 },
@@ -6117,64 +5309,31 @@ __ESTREE_TEST__:PASS:
                   "start": 3531,
                   "end": 3537
                 }
-              },
-              "typeParameters": null
+              }
             }
           }
         }
       ],
       "returnType": null,
-      "typeParameters": {
-        "type": "TSTypeParameterDeclaration",
-        "start": 3484,
-        "end": 3487,
-        "params": [
-          {
-            "type": "TSTypeParameter",
-            "start": 3485,
-            "end": 3486,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 3485,
-              "end": 3486,
-              "decorators": [],
-              "name": "T",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          }
-        ]
-      }
-    },
-    {
-      "type": "FunctionDeclaration",
-      "start": 4057,
-      "end": 4670,
-      "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 4154,
-        "end": 4670,
+        "start": 3539,
+        "end": 4055,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 4160,
-            "end": 4181,
+            "start": 3545,
+            "end": 3566,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 4164,
-                "end": 4180,
-                "definite": false,
+                "start": 3549,
+                "end": 3565,
                 "id": {
                   "type": "Identifier",
-                  "start": 4164,
-                  "end": 4175,
+                  "start": 3549,
+                  "end": 3560,
                   "decorators": [],
                   "name": "typedArrays",
                   "optional": false,
@@ -6182,144 +5341,82 @@ __ESTREE_TEST__:PASS:
                 },
                 "init": {
                   "type": "ArrayExpression",
-                  "start": 4178,
-                  "end": 4180,
+                  "start": 3563,
+                  "end": 3565,
                   "elements": []
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           },
           {
             "type": "ExpressionStatement",
-            "start": 4186,
-            "end": 4230,
-            "directive": null,
+            "start": 3571,
+            "end": 3615,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 4186,
-              "end": 4229,
+              "start": 3571,
+              "end": 3614,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 4186,
-                "end": 4200,
-                "computed": true,
+                "start": 3571,
+                "end": 3585,
                 "object": {
                   "type": "Identifier",
-                  "start": 4186,
-                  "end": 4197,
+                  "start": 3571,
+                  "end": 3582,
                   "decorators": [],
                   "name": "typedArrays",
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
-                  "start": 4198,
-                  "end": 4199,
-                  "raw": "0",
-                  "value": 0
-                }
+                  "start": 3583,
+                  "end": 3584,
+                  "value": 0,
+                  "raw": "0"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "CallExpression",
-                "start": 4203,
-                "end": 4229,
-                "arguments": [
-                  {
-                    "type": "Identifier",
-                    "start": 4218,
-                    "end": 4221,
-                    "decorators": [],
-                    "name": "obj",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  {
-                    "type": "Identifier",
-                    "start": 4223,
-                    "end": 4228,
-                    "decorators": [],
-                    "name": "mapFn",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                ],
+                "start": 3588,
+                "end": 3614,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 4203,
-                  "end": 4217,
-                  "computed": false,
+                  "start": 3588,
+                  "end": 3602,
                   "object": {
                     "type": "Identifier",
-                    "start": 4203,
-                    "end": 4212,
+                    "start": 3588,
+                    "end": 3597,
                     "decorators": [],
                     "name": "Int8Array",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 4213,
-                    "end": 4217,
+                    "start": 3598,
+                    "end": 3602,
                     "decorators": [],
                     "name": "from",
                     "optional": false,
                     "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 4235,
-            "end": 4280,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 4235,
-              "end": 4279,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 4235,
-                "end": 4249,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 4235,
-                  "end": 4246,
-                  "decorators": [],
-                  "name": "typedArrays",
+                  },
                   "optional": false,
-                  "typeAnnotation": null
+                  "computed": false
                 },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 4247,
-                  "end": 4248,
-                  "raw": "1",
-                  "value": 1
-                }
-              },
-              "right": {
-                "type": "CallExpression",
-                "start": 4252,
-                "end": 4279,
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 4268,
-                    "end": 4271,
+                    "start": 3603,
+                    "end": 3606,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
@@ -6327,86 +5424,86 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "Identifier",
-                    "start": 4273,
-                    "end": 4278,
+                    "start": 3608,
+                    "end": 3613,
                     "decorators": [],
                     "name": "mapFn",
                     "optional": false,
                     "typeAnnotation": null
                   }
                 ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 3620,
+            "end": 3665,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 3620,
+              "end": 3664,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 3620,
+                "end": 3634,
+                "object": {
+                  "type": "Identifier",
+                  "start": 3620,
+                  "end": 3631,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 3632,
+                  "end": 3633,
+                  "value": 1,
+                  "raw": "1"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 3637,
+                "end": 3664,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 4252,
-                  "end": 4267,
-                  "computed": false,
+                  "start": 3637,
+                  "end": 3652,
                   "object": {
                     "type": "Identifier",
-                    "start": 4252,
-                    "end": 4262,
+                    "start": 3637,
+                    "end": 3647,
                     "decorators": [],
                     "name": "Uint8Array",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 4263,
-                    "end": 4267,
+                    "start": 3648,
+                    "end": 3652,
                     "decorators": [],
                     "name": "from",
                     "optional": false,
                     "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 4285,
-            "end": 4330,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 4285,
-              "end": 4329,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 4285,
-                "end": 4299,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 4285,
-                  "end": 4296,
-                  "decorators": [],
-                  "name": "typedArrays",
+                  },
                   "optional": false,
-                  "typeAnnotation": null
+                  "computed": false
                 },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 4297,
-                  "end": 4298,
-                  "raw": "2",
-                  "value": 2
-                }
-              },
-              "right": {
-                "type": "CallExpression",
-                "start": 4302,
-                "end": 4329,
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 4318,
-                    "end": 4321,
+                    "start": 3653,
+                    "end": 3656,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
@@ -6414,86 +5511,86 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "Identifier",
-                    "start": 4323,
-                    "end": 4328,
+                    "start": 3658,
+                    "end": 3663,
                     "decorators": [],
                     "name": "mapFn",
                     "optional": false,
                     "typeAnnotation": null
                   }
                 ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 3670,
+            "end": 3715,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 3670,
+              "end": 3714,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 3670,
+                "end": 3684,
+                "object": {
+                  "type": "Identifier",
+                  "start": 3670,
+                  "end": 3681,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 3682,
+                  "end": 3683,
+                  "value": 2,
+                  "raw": "2"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 3687,
+                "end": 3714,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 4302,
-                  "end": 4317,
-                  "computed": false,
+                  "start": 3687,
+                  "end": 3702,
                   "object": {
                     "type": "Identifier",
-                    "start": 4302,
-                    "end": 4312,
+                    "start": 3687,
+                    "end": 3697,
                     "decorators": [],
                     "name": "Int16Array",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 4313,
-                    "end": 4317,
+                    "start": 3698,
+                    "end": 3702,
                     "decorators": [],
                     "name": "from",
                     "optional": false,
                     "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 4335,
-            "end": 4381,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 4335,
-              "end": 4380,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 4335,
-                "end": 4349,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 4335,
-                  "end": 4346,
-                  "decorators": [],
-                  "name": "typedArrays",
+                  },
                   "optional": false,
-                  "typeAnnotation": null
+                  "computed": false
                 },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 4347,
-                  "end": 4348,
-                  "raw": "3",
-                  "value": 3
-                }
-              },
-              "right": {
-                "type": "CallExpression",
-                "start": 4352,
-                "end": 4380,
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 4369,
-                    "end": 4372,
+                    "start": 3703,
+                    "end": 3706,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
@@ -6501,86 +5598,86 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "Identifier",
-                    "start": 4374,
-                    "end": 4379,
+                    "start": 3708,
+                    "end": 3713,
                     "decorators": [],
                     "name": "mapFn",
                     "optional": false,
                     "typeAnnotation": null
                   }
                 ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 3720,
+            "end": 3766,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 3720,
+              "end": 3765,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 3720,
+                "end": 3734,
+                "object": {
+                  "type": "Identifier",
+                  "start": 3720,
+                  "end": 3731,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 3732,
+                  "end": 3733,
+                  "value": 3,
+                  "raw": "3"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 3737,
+                "end": 3765,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 4352,
-                  "end": 4368,
-                  "computed": false,
+                  "start": 3737,
+                  "end": 3753,
                   "object": {
                     "type": "Identifier",
-                    "start": 4352,
-                    "end": 4363,
+                    "start": 3737,
+                    "end": 3748,
                     "decorators": [],
                     "name": "Uint16Array",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 4364,
-                    "end": 4368,
+                    "start": 3749,
+                    "end": 3753,
                     "decorators": [],
                     "name": "from",
                     "optional": false,
                     "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 4386,
-            "end": 4431,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 4386,
-              "end": 4430,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 4386,
-                "end": 4400,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 4386,
-                  "end": 4397,
-                  "decorators": [],
-                  "name": "typedArrays",
+                  },
                   "optional": false,
-                  "typeAnnotation": null
+                  "computed": false
                 },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 4398,
-                  "end": 4399,
-                  "raw": "4",
-                  "value": 4
-                }
-              },
-              "right": {
-                "type": "CallExpression",
-                "start": 4403,
-                "end": 4430,
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 4419,
-                    "end": 4422,
+                    "start": 3754,
+                    "end": 3757,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
@@ -6588,86 +5685,86 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "Identifier",
-                    "start": 4424,
-                    "end": 4429,
+                    "start": 3759,
+                    "end": 3764,
                     "decorators": [],
                     "name": "mapFn",
                     "optional": false,
                     "typeAnnotation": null
                   }
                 ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 3771,
+            "end": 3816,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 3771,
+              "end": 3815,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 3771,
+                "end": 3785,
+                "object": {
+                  "type": "Identifier",
+                  "start": 3771,
+                  "end": 3782,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 3783,
+                  "end": 3784,
+                  "value": 4,
+                  "raw": "4"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 3788,
+                "end": 3815,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 4403,
-                  "end": 4418,
-                  "computed": false,
+                  "start": 3788,
+                  "end": 3803,
                   "object": {
                     "type": "Identifier",
-                    "start": 4403,
-                    "end": 4413,
+                    "start": 3788,
+                    "end": 3798,
                     "decorators": [],
                     "name": "Int32Array",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 4414,
-                    "end": 4418,
+                    "start": 3799,
+                    "end": 3803,
                     "decorators": [],
                     "name": "from",
                     "optional": false,
                     "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 4436,
-            "end": 4482,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 4436,
-              "end": 4481,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 4436,
-                "end": 4450,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 4436,
-                  "end": 4447,
-                  "decorators": [],
-                  "name": "typedArrays",
+                  },
                   "optional": false,
-                  "typeAnnotation": null
+                  "computed": false
                 },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 4448,
-                  "end": 4449,
-                  "raw": "5",
-                  "value": 5
-                }
-              },
-              "right": {
-                "type": "CallExpression",
-                "start": 4453,
-                "end": 4481,
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 4470,
-                    "end": 4473,
+                    "start": 3804,
+                    "end": 3807,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
@@ -6675,86 +5772,86 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "Identifier",
-                    "start": 4475,
-                    "end": 4480,
+                    "start": 3809,
+                    "end": 3814,
                     "decorators": [],
                     "name": "mapFn",
                     "optional": false,
                     "typeAnnotation": null
                   }
                 ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 3821,
+            "end": 3867,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 3821,
+              "end": 3866,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 3821,
+                "end": 3835,
+                "object": {
+                  "type": "Identifier",
+                  "start": 3821,
+                  "end": 3832,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 3833,
+                  "end": 3834,
+                  "value": 5,
+                  "raw": "5"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 3838,
+                "end": 3866,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 4453,
-                  "end": 4469,
-                  "computed": false,
+                  "start": 3838,
+                  "end": 3854,
                   "object": {
                     "type": "Identifier",
-                    "start": 4453,
-                    "end": 4464,
+                    "start": 3838,
+                    "end": 3849,
                     "decorators": [],
                     "name": "Uint32Array",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 4465,
-                    "end": 4469,
+                    "start": 3850,
+                    "end": 3854,
                     "decorators": [],
                     "name": "from",
                     "optional": false,
                     "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 4487,
-            "end": 4534,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 4487,
-              "end": 4533,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 4487,
-                "end": 4501,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 4487,
-                  "end": 4498,
-                  "decorators": [],
-                  "name": "typedArrays",
+                  },
                   "optional": false,
-                  "typeAnnotation": null
+                  "computed": false
                 },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 4499,
-                  "end": 4500,
-                  "raw": "6",
-                  "value": 6
-                }
-              },
-              "right": {
-                "type": "CallExpression",
-                "start": 4504,
-                "end": 4533,
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 4522,
-                    "end": 4525,
+                    "start": 3855,
+                    "end": 3858,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
@@ -6762,86 +5859,86 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "Identifier",
-                    "start": 4527,
-                    "end": 4532,
+                    "start": 3860,
+                    "end": 3865,
                     "decorators": [],
                     "name": "mapFn",
                     "optional": false,
                     "typeAnnotation": null
                   }
                 ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 3872,
+            "end": 3919,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 3872,
+              "end": 3918,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 3872,
+                "end": 3886,
+                "object": {
+                  "type": "Identifier",
+                  "start": 3872,
+                  "end": 3883,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 3884,
+                  "end": 3885,
+                  "value": 6,
+                  "raw": "6"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 3889,
+                "end": 3918,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 4504,
-                  "end": 4521,
-                  "computed": false,
+                  "start": 3889,
+                  "end": 3906,
                   "object": {
                     "type": "Identifier",
-                    "start": 4504,
-                    "end": 4516,
+                    "start": 3889,
+                    "end": 3901,
                     "decorators": [],
                     "name": "Float32Array",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 4517,
-                    "end": 4521,
+                    "start": 3902,
+                    "end": 3906,
                     "decorators": [],
                     "name": "from",
                     "optional": false,
                     "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 4539,
-            "end": 4586,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 4539,
-              "end": 4585,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 4539,
-                "end": 4553,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 4539,
-                  "end": 4550,
-                  "decorators": [],
-                  "name": "typedArrays",
+                  },
                   "optional": false,
-                  "typeAnnotation": null
+                  "computed": false
                 },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 4551,
-                  "end": 4552,
-                  "raw": "7",
-                  "value": 7
-                }
-              },
-              "right": {
-                "type": "CallExpression",
-                "start": 4556,
-                "end": 4585,
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 4574,
-                    "end": 4577,
+                    "start": 3907,
+                    "end": 3910,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
@@ -6849,86 +5946,86 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "Identifier",
-                    "start": 4579,
-                    "end": 4584,
+                    "start": 3912,
+                    "end": 3917,
                     "decorators": [],
                     "name": "mapFn",
                     "optional": false,
                     "typeAnnotation": null
                   }
                 ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 3924,
+            "end": 3971,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 3924,
+              "end": 3970,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 3924,
+                "end": 3938,
+                "object": {
+                  "type": "Identifier",
+                  "start": 3924,
+                  "end": 3935,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 3936,
+                  "end": 3937,
+                  "value": 7,
+                  "raw": "7"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 3941,
+                "end": 3970,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 4556,
-                  "end": 4573,
-                  "computed": false,
+                  "start": 3941,
+                  "end": 3958,
                   "object": {
                     "type": "Identifier",
-                    "start": 4556,
-                    "end": 4568,
+                    "start": 3941,
+                    "end": 3953,
                     "decorators": [],
                     "name": "Float64Array",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 4569,
-                    "end": 4573,
+                    "start": 3954,
+                    "end": 3958,
                     "decorators": [],
                     "name": "from",
                     "optional": false,
                     "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 4591,
-            "end": 4643,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 4591,
-              "end": 4642,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 4591,
-                "end": 4605,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 4591,
-                  "end": 4602,
-                  "decorators": [],
-                  "name": "typedArrays",
+                  },
                   "optional": false,
-                  "typeAnnotation": null
+                  "computed": false
                 },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 4603,
-                  "end": 4604,
-                  "raw": "8",
-                  "value": 8
-                }
-              },
-              "right": {
-                "type": "CallExpression",
-                "start": 4608,
-                "end": 4642,
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 4631,
-                    "end": 4634,
+                    "start": 3959,
+                    "end": 3962,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
@@ -6936,52 +6033,114 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "Identifier",
-                    "start": 4636,
-                    "end": 4641,
+                    "start": 3964,
+                    "end": 3969,
                     "decorators": [],
                     "name": "mapFn",
                     "optional": false,
                     "typeAnnotation": null
                   }
                 ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 3976,
+            "end": 4028,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 3976,
+              "end": 4027,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 3976,
+                "end": 3990,
+                "object": {
+                  "type": "Identifier",
+                  "start": 3976,
+                  "end": 3987,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 3988,
+                  "end": 3989,
+                  "value": 8,
+                  "raw": "8"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 3993,
+                "end": 4027,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 4608,
-                  "end": 4630,
-                  "computed": false,
+                  "start": 3993,
+                  "end": 4015,
                   "object": {
                     "type": "Identifier",
-                    "start": 4608,
-                    "end": 4625,
+                    "start": 3993,
+                    "end": 4010,
                     "decorators": [],
                     "name": "Uint8ClampedArray",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 4626,
-                    "end": 4630,
+                    "start": 4011,
+                    "end": 4015,
                     "decorators": [],
                     "name": "from",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "optional": false,
+                  "computed": false
                 },
-                "optional": false,
-                "typeArguments": null
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 4016,
+                    "end": 4019,
+                    "decorators": [],
+                    "name": "obj",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 4021,
+                    "end": 4026,
+                    "decorators": [],
+                    "name": "mapFn",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                ],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ReturnStatement",
-            "start": 4649,
-            "end": 4668,
+            "start": 4034,
+            "end": 4053,
             "argument": {
               "type": "Identifier",
-              "start": 4656,
-              "end": 4667,
+              "start": 4041,
+              "end": 4052,
               "decorators": [],
               "name": "typedArrays",
               "optional": false,
@@ -6990,9 +6149,12 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
+      "expression": false
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 4057,
+      "end": 4670,
       "id": {
         "type": "Identifier",
         "start": 4066,
@@ -7002,6 +6164,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -7018,6 +6184,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 4097,
               "end": 4114,
+              "typeName": {
+                "type": "Identifier",
+                "start": 4097,
+                "end": 4106,
+                "decorators": [],
+                "name": "ArrayLike",
+                "optional": false,
+                "typeAnnotation": null
+              },
               "typeArguments": {
                 "type": "TSTypeParameterInstantiation",
                 "start": 4106,
@@ -7029,15 +6204,6 @@ __ESTREE_TEST__:PASS:
                     "end": 4113
                   }
                 ]
-              },
-              "typeName": {
-                "type": "Identifier",
-                "start": 4097,
-                "end": 4106,
-                "decorators": [],
-                "name": "ArrayLike",
-                "optional": false,
-                "typeAnnotation": null
               }
             }
           }
@@ -7057,6 +6223,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSFunctionType",
               "start": 4123,
               "end": 4152,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -7104,39 +6271,31 @@ __ESTREE_TEST__:PASS:
                   "start": 4146,
                   "end": 4152
                 }
-              },
-              "typeParameters": null
+              }
             }
           }
         }
       ],
       "returnType": null,
-      "typeParameters": null
-    },
-    {
-      "type": "FunctionDeclaration",
-      "start": 4672,
-      "end": 5381,
-      "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 4784,
-        "end": 5381,
+        "start": 4154,
+        "end": 4670,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 4790,
-            "end": 4811,
+            "start": 4160,
+            "end": 4181,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 4794,
-                "end": 4810,
-                "definite": false,
+                "start": 4164,
+                "end": 4180,
                 "id": {
                   "type": "Identifier",
-                  "start": 4794,
-                  "end": 4805,
+                  "start": 4164,
+                  "end": 4175,
                   "decorators": [],
                   "name": "typedArrays",
                   "optional": false,
@@ -7144,153 +6303,82 @@ __ESTREE_TEST__:PASS:
                 },
                 "init": {
                   "type": "ArrayExpression",
-                  "start": 4808,
-                  "end": 4810,
+                  "start": 4178,
+                  "end": 4180,
                   "elements": []
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           },
           {
             "type": "ExpressionStatement",
-            "start": 4816,
-            "end": 4869,
-            "directive": null,
+            "start": 4186,
+            "end": 4230,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 4816,
-              "end": 4868,
+              "start": 4186,
+              "end": 4229,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 4816,
-                "end": 4830,
-                "computed": true,
+                "start": 4186,
+                "end": 4200,
                 "object": {
                   "type": "Identifier",
-                  "start": 4816,
-                  "end": 4827,
+                  "start": 4186,
+                  "end": 4197,
                   "decorators": [],
                   "name": "typedArrays",
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
-                  "start": 4828,
-                  "end": 4829,
-                  "raw": "0",
-                  "value": 0
-                }
+                  "start": 4198,
+                  "end": 4199,
+                  "value": 0,
+                  "raw": "0"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "CallExpression",
-                "start": 4833,
-                "end": 4868,
-                "arguments": [
-                  {
-                    "type": "Identifier",
-                    "start": 4848,
-                    "end": 4851,
-                    "decorators": [],
-                    "name": "obj",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  {
-                    "type": "Identifier",
-                    "start": 4853,
-                    "end": 4858,
-                    "decorators": [],
-                    "name": "mapFn",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  {
-                    "type": "Identifier",
-                    "start": 4860,
-                    "end": 4867,
-                    "decorators": [],
-                    "name": "thisArg",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                ],
+                "start": 4203,
+                "end": 4229,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 4833,
-                  "end": 4847,
-                  "computed": false,
+                  "start": 4203,
+                  "end": 4217,
                   "object": {
                     "type": "Identifier",
-                    "start": 4833,
-                    "end": 4842,
+                    "start": 4203,
+                    "end": 4212,
                     "decorators": [],
                     "name": "Int8Array",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 4843,
-                    "end": 4847,
+                    "start": 4213,
+                    "end": 4217,
                     "decorators": [],
                     "name": "from",
                     "optional": false,
                     "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 4874,
-            "end": 4928,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 4874,
-              "end": 4927,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 4874,
-                "end": 4888,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 4874,
-                  "end": 4885,
-                  "decorators": [],
-                  "name": "typedArrays",
+                  },
                   "optional": false,
-                  "typeAnnotation": null
+                  "computed": false
                 },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 4886,
-                  "end": 4887,
-                  "raw": "1",
-                  "value": 1
-                }
-              },
-              "right": {
-                "type": "CallExpression",
-                "start": 4891,
-                "end": 4927,
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 4907,
-                    "end": 4910,
+                    "start": 4218,
+                    "end": 4221,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
@@ -7298,95 +6386,86 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "Identifier",
-                    "start": 4912,
-                    "end": 4917,
+                    "start": 4223,
+                    "end": 4228,
                     "decorators": [],
                     "name": "mapFn",
                     "optional": false,
                     "typeAnnotation": null
-                  },
-                  {
-                    "type": "Identifier",
-                    "start": 4919,
-                    "end": 4926,
-                    "decorators": [],
-                    "name": "thisArg",
-                    "optional": false,
-                    "typeAnnotation": null
                   }
                 ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 4235,
+            "end": 4280,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 4235,
+              "end": 4279,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 4235,
+                "end": 4249,
+                "object": {
+                  "type": "Identifier",
+                  "start": 4235,
+                  "end": 4246,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 4247,
+                  "end": 4248,
+                  "value": 1,
+                  "raw": "1"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 4252,
+                "end": 4279,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 4891,
-                  "end": 4906,
-                  "computed": false,
+                  "start": 4252,
+                  "end": 4267,
                   "object": {
                     "type": "Identifier",
-                    "start": 4891,
-                    "end": 4901,
+                    "start": 4252,
+                    "end": 4262,
                     "decorators": [],
                     "name": "Uint8Array",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 4902,
-                    "end": 4906,
+                    "start": 4263,
+                    "end": 4267,
                     "decorators": [],
                     "name": "from",
                     "optional": false,
                     "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 4933,
-            "end": 4987,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 4933,
-              "end": 4986,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 4933,
-                "end": 4947,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 4933,
-                  "end": 4944,
-                  "decorators": [],
-                  "name": "typedArrays",
+                  },
                   "optional": false,
-                  "typeAnnotation": null
+                  "computed": false
                 },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 4945,
-                  "end": 4946,
-                  "raw": "2",
-                  "value": 2
-                }
-              },
-              "right": {
-                "type": "CallExpression",
-                "start": 4950,
-                "end": 4986,
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 4966,
-                    "end": 4969,
+                    "start": 4268,
+                    "end": 4271,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
@@ -7394,95 +6473,86 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "Identifier",
-                    "start": 4971,
-                    "end": 4976,
+                    "start": 4273,
+                    "end": 4278,
                     "decorators": [],
                     "name": "mapFn",
                     "optional": false,
                     "typeAnnotation": null
-                  },
-                  {
-                    "type": "Identifier",
-                    "start": 4978,
-                    "end": 4985,
-                    "decorators": [],
-                    "name": "thisArg",
-                    "optional": false,
-                    "typeAnnotation": null
                   }
                 ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 4285,
+            "end": 4330,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 4285,
+              "end": 4329,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 4285,
+                "end": 4299,
+                "object": {
+                  "type": "Identifier",
+                  "start": 4285,
+                  "end": 4296,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 4297,
+                  "end": 4298,
+                  "value": 2,
+                  "raw": "2"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 4302,
+                "end": 4329,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 4950,
-                  "end": 4965,
-                  "computed": false,
+                  "start": 4302,
+                  "end": 4317,
                   "object": {
                     "type": "Identifier",
-                    "start": 4950,
-                    "end": 4960,
+                    "start": 4302,
+                    "end": 4312,
                     "decorators": [],
                     "name": "Int16Array",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 4961,
-                    "end": 4965,
+                    "start": 4313,
+                    "end": 4317,
                     "decorators": [],
                     "name": "from",
                     "optional": false,
                     "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 4992,
-            "end": 5047,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 4992,
-              "end": 5046,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 4992,
-                "end": 5006,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 4992,
-                  "end": 5003,
-                  "decorators": [],
-                  "name": "typedArrays",
+                  },
                   "optional": false,
-                  "typeAnnotation": null
+                  "computed": false
                 },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 5004,
-                  "end": 5005,
-                  "raw": "3",
-                  "value": 3
-                }
-              },
-              "right": {
-                "type": "CallExpression",
-                "start": 5009,
-                "end": 5046,
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 5026,
-                    "end": 5029,
+                    "start": 4318,
+                    "end": 4321,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
@@ -7490,95 +6560,86 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "Identifier",
-                    "start": 5031,
-                    "end": 5036,
+                    "start": 4323,
+                    "end": 4328,
                     "decorators": [],
                     "name": "mapFn",
                     "optional": false,
                     "typeAnnotation": null
-                  },
-                  {
-                    "type": "Identifier",
-                    "start": 5038,
-                    "end": 5045,
-                    "decorators": [],
-                    "name": "thisArg",
-                    "optional": false,
-                    "typeAnnotation": null
                   }
                 ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 4335,
+            "end": 4381,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 4335,
+              "end": 4380,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 4335,
+                "end": 4349,
+                "object": {
+                  "type": "Identifier",
+                  "start": 4335,
+                  "end": 4346,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 4347,
+                  "end": 4348,
+                  "value": 3,
+                  "raw": "3"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 4352,
+                "end": 4380,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 5009,
-                  "end": 5025,
-                  "computed": false,
+                  "start": 4352,
+                  "end": 4368,
                   "object": {
                     "type": "Identifier",
-                    "start": 5009,
-                    "end": 5020,
+                    "start": 4352,
+                    "end": 4363,
                     "decorators": [],
                     "name": "Uint16Array",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 5021,
-                    "end": 5025,
+                    "start": 4364,
+                    "end": 4368,
                     "decorators": [],
                     "name": "from",
                     "optional": false,
                     "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 5052,
-            "end": 5106,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 5052,
-              "end": 5105,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 5052,
-                "end": 5066,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 5052,
-                  "end": 5063,
-                  "decorators": [],
-                  "name": "typedArrays",
+                  },
                   "optional": false,
-                  "typeAnnotation": null
+                  "computed": false
                 },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 5064,
-                  "end": 5065,
-                  "raw": "4",
-                  "value": 4
-                }
-              },
-              "right": {
-                "type": "CallExpression",
-                "start": 5069,
-                "end": 5105,
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 5085,
-                    "end": 5088,
+                    "start": 4369,
+                    "end": 4372,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
@@ -7586,95 +6647,86 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "Identifier",
-                    "start": 5090,
-                    "end": 5095,
+                    "start": 4374,
+                    "end": 4379,
                     "decorators": [],
                     "name": "mapFn",
                     "optional": false,
                     "typeAnnotation": null
-                  },
-                  {
-                    "type": "Identifier",
-                    "start": 5097,
-                    "end": 5104,
-                    "decorators": [],
-                    "name": "thisArg",
-                    "optional": false,
-                    "typeAnnotation": null
                   }
                 ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 4386,
+            "end": 4431,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 4386,
+              "end": 4430,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 4386,
+                "end": 4400,
+                "object": {
+                  "type": "Identifier",
+                  "start": 4386,
+                  "end": 4397,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 4398,
+                  "end": 4399,
+                  "value": 4,
+                  "raw": "4"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 4403,
+                "end": 4430,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 5069,
-                  "end": 5084,
-                  "computed": false,
+                  "start": 4403,
+                  "end": 4418,
                   "object": {
                     "type": "Identifier",
-                    "start": 5069,
-                    "end": 5079,
+                    "start": 4403,
+                    "end": 4413,
                     "decorators": [],
                     "name": "Int32Array",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 5080,
-                    "end": 5084,
+                    "start": 4414,
+                    "end": 4418,
                     "decorators": [],
                     "name": "from",
                     "optional": false,
                     "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 5111,
-            "end": 5166,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 5111,
-              "end": 5165,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 5111,
-                "end": 5125,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 5111,
-                  "end": 5122,
-                  "decorators": [],
-                  "name": "typedArrays",
+                  },
                   "optional": false,
-                  "typeAnnotation": null
+                  "computed": false
                 },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 5123,
-                  "end": 5124,
-                  "raw": "5",
-                  "value": 5
-                }
-              },
-              "right": {
-                "type": "CallExpression",
-                "start": 5128,
-                "end": 5165,
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 5145,
-                    "end": 5148,
+                    "start": 4419,
+                    "end": 4422,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
@@ -7682,95 +6734,86 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "Identifier",
-                    "start": 5150,
-                    "end": 5155,
+                    "start": 4424,
+                    "end": 4429,
                     "decorators": [],
                     "name": "mapFn",
                     "optional": false,
                     "typeAnnotation": null
-                  },
-                  {
-                    "type": "Identifier",
-                    "start": 5157,
-                    "end": 5164,
-                    "decorators": [],
-                    "name": "thisArg",
-                    "optional": false,
-                    "typeAnnotation": null
                   }
                 ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 4436,
+            "end": 4482,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 4436,
+              "end": 4481,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 4436,
+                "end": 4450,
+                "object": {
+                  "type": "Identifier",
+                  "start": 4436,
+                  "end": 4447,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 4448,
+                  "end": 4449,
+                  "value": 5,
+                  "raw": "5"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 4453,
+                "end": 4481,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 5128,
-                  "end": 5144,
-                  "computed": false,
+                  "start": 4453,
+                  "end": 4469,
                   "object": {
                     "type": "Identifier",
-                    "start": 5128,
-                    "end": 5139,
+                    "start": 4453,
+                    "end": 4464,
                     "decorators": [],
                     "name": "Uint32Array",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 5140,
-                    "end": 5144,
+                    "start": 4465,
+                    "end": 4469,
                     "decorators": [],
                     "name": "from",
                     "optional": false,
                     "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 5171,
-            "end": 5227,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 5171,
-              "end": 5226,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 5171,
-                "end": 5185,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 5171,
-                  "end": 5182,
-                  "decorators": [],
-                  "name": "typedArrays",
+                  },
                   "optional": false,
-                  "typeAnnotation": null
+                  "computed": false
                 },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 5183,
-                  "end": 5184,
-                  "raw": "6",
-                  "value": 6
-                }
-              },
-              "right": {
-                "type": "CallExpression",
-                "start": 5188,
-                "end": 5226,
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 5206,
-                    "end": 5209,
+                    "start": 4470,
+                    "end": 4473,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
@@ -7778,95 +6821,86 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "Identifier",
-                    "start": 5211,
-                    "end": 5216,
+                    "start": 4475,
+                    "end": 4480,
                     "decorators": [],
                     "name": "mapFn",
                     "optional": false,
                     "typeAnnotation": null
-                  },
-                  {
-                    "type": "Identifier",
-                    "start": 5218,
-                    "end": 5225,
-                    "decorators": [],
-                    "name": "thisArg",
-                    "optional": false,
-                    "typeAnnotation": null
                   }
                 ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 4487,
+            "end": 4534,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 4487,
+              "end": 4533,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 4487,
+                "end": 4501,
+                "object": {
+                  "type": "Identifier",
+                  "start": 4487,
+                  "end": 4498,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 4499,
+                  "end": 4500,
+                  "value": 6,
+                  "raw": "6"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 4504,
+                "end": 4533,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 5188,
-                  "end": 5205,
-                  "computed": false,
+                  "start": 4504,
+                  "end": 4521,
                   "object": {
                     "type": "Identifier",
-                    "start": 5188,
-                    "end": 5200,
+                    "start": 4504,
+                    "end": 4516,
                     "decorators": [],
                     "name": "Float32Array",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 5201,
-                    "end": 5205,
+                    "start": 4517,
+                    "end": 4521,
                     "decorators": [],
                     "name": "from",
                     "optional": false,
                     "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 5232,
-            "end": 5288,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 5232,
-              "end": 5287,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 5232,
-                "end": 5246,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 5232,
-                  "end": 5243,
-                  "decorators": [],
-                  "name": "typedArrays",
+                  },
                   "optional": false,
-                  "typeAnnotation": null
+                  "computed": false
                 },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 5244,
-                  "end": 5245,
-                  "raw": "7",
-                  "value": 7
-                }
-              },
-              "right": {
-                "type": "CallExpression",
-                "start": 5249,
-                "end": 5287,
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 5267,
-                    "end": 5270,
+                    "start": 4522,
+                    "end": 4525,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
@@ -7874,95 +6908,86 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "Identifier",
-                    "start": 5272,
-                    "end": 5277,
+                    "start": 4527,
+                    "end": 4532,
                     "decorators": [],
                     "name": "mapFn",
                     "optional": false,
                     "typeAnnotation": null
-                  },
-                  {
-                    "type": "Identifier",
-                    "start": 5279,
-                    "end": 5286,
-                    "decorators": [],
-                    "name": "thisArg",
-                    "optional": false,
-                    "typeAnnotation": null
                   }
                 ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 4539,
+            "end": 4586,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 4539,
+              "end": 4585,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 4539,
+                "end": 4553,
+                "object": {
+                  "type": "Identifier",
+                  "start": 4539,
+                  "end": 4550,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 4551,
+                  "end": 4552,
+                  "value": 7,
+                  "raw": "7"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 4556,
+                "end": 4585,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 5249,
-                  "end": 5266,
-                  "computed": false,
+                  "start": 4556,
+                  "end": 4573,
                   "object": {
                     "type": "Identifier",
-                    "start": 5249,
-                    "end": 5261,
+                    "start": 4556,
+                    "end": 4568,
                     "decorators": [],
                     "name": "Float64Array",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 5262,
-                    "end": 5266,
+                    "start": 4569,
+                    "end": 4573,
                     "decorators": [],
                     "name": "from",
                     "optional": false,
                     "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 5293,
-            "end": 5354,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 5293,
-              "end": 5353,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 5293,
-                "end": 5307,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 5293,
-                  "end": 5304,
-                  "decorators": [],
-                  "name": "typedArrays",
+                  },
                   "optional": false,
-                  "typeAnnotation": null
+                  "computed": false
                 },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 5305,
-                  "end": 5306,
-                  "raw": "8",
-                  "value": 8
-                }
-              },
-              "right": {
-                "type": "CallExpression",
-                "start": 5310,
-                "end": 5353,
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 5333,
-                    "end": 5336,
+                    "start": 4574,
+                    "end": 4577,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
@@ -7970,61 +6995,114 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "Identifier",
-                    "start": 5338,
-                    "end": 5343,
+                    "start": 4579,
+                    "end": 4584,
                     "decorators": [],
                     "name": "mapFn",
                     "optional": false,
                     "typeAnnotation": null
-                  },
-                  {
-                    "type": "Identifier",
-                    "start": 5345,
-                    "end": 5352,
-                    "decorators": [],
-                    "name": "thisArg",
-                    "optional": false,
-                    "typeAnnotation": null
                   }
                 ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 4591,
+            "end": 4643,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 4591,
+              "end": 4642,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 4591,
+                "end": 4605,
+                "object": {
+                  "type": "Identifier",
+                  "start": 4591,
+                  "end": 4602,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 4603,
+                  "end": 4604,
+                  "value": 8,
+                  "raw": "8"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 4608,
+                "end": 4642,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 5310,
-                  "end": 5332,
-                  "computed": false,
+                  "start": 4608,
+                  "end": 4630,
                   "object": {
                     "type": "Identifier",
-                    "start": 5310,
-                    "end": 5327,
+                    "start": 4608,
+                    "end": 4625,
                     "decorators": [],
                     "name": "Uint8ClampedArray",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 5328,
-                    "end": 5332,
+                    "start": 4626,
+                    "end": 4630,
                     "decorators": [],
                     "name": "from",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "optional": false,
+                  "computed": false
                 },
-                "optional": false,
-                "typeArguments": null
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 4631,
+                    "end": 4634,
+                    "decorators": [],
+                    "name": "obj",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 4636,
+                    "end": 4641,
+                    "decorators": [],
+                    "name": "mapFn",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                ],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ReturnStatement",
-            "start": 5360,
-            "end": 5379,
+            "start": 4649,
+            "end": 4668,
             "argument": {
               "type": "Identifier",
-              "start": 5367,
-              "end": 5378,
+              "start": 4656,
+              "end": 4667,
               "decorators": [],
               "name": "typedArrays",
               "optional": false,
@@ -8033,9 +7111,12 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
+      "expression": false
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 4672,
+      "end": 5381,
       "id": {
         "type": "Identifier",
         "start": 4681,
@@ -8045,6 +7126,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -8061,6 +7146,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 4714,
               "end": 4731,
+              "typeName": {
+                "type": "Identifier",
+                "start": 4714,
+                "end": 4723,
+                "decorators": [],
+                "name": "ArrayLike",
+                "optional": false,
+                "typeAnnotation": null
+              },
               "typeArguments": {
                 "type": "TSTypeParameterInstantiation",
                 "start": 4723,
@@ -8072,15 +7166,6 @@ __ESTREE_TEST__:PASS:
                     "end": 4730
                   }
                 ]
-              },
-              "typeName": {
-                "type": "Identifier",
-                "start": 4714,
-                "end": 4723,
-                "decorators": [],
-                "name": "ArrayLike",
-                "optional": false,
-                "typeAnnotation": null
               }
             }
           }
@@ -8100,6 +7185,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSFunctionType",
               "start": 4740,
               "end": 4769,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -8147,8 +7233,7 @@ __ESTREE_TEST__:PASS:
                   "start": 4763,
                   "end": 4769
                 }
-              },
-              "typeParameters": null
+              }
             }
           }
         },
@@ -8173,32 +7258,25 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
-    },
-    {
-      "type": "FunctionDeclaration",
-      "start": 5383,
-      "end": 6086,
-      "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 5489,
-        "end": 6086,
+        "start": 4784,
+        "end": 5381,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 5495,
-            "end": 5516,
+            "start": 4790,
+            "end": 4811,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 5499,
-                "end": 5515,
-                "definite": false,
+                "start": 4794,
+                "end": 4810,
                 "id": {
                   "type": "Identifier",
-                  "start": 5499,
-                  "end": 5510,
+                  "start": 4794,
+                  "end": 4805,
                   "decorators": [],
                   "name": "typedArrays",
                   "optional": false,
@@ -8206,153 +7284,82 @@ __ESTREE_TEST__:PASS:
                 },
                 "init": {
                   "type": "ArrayExpression",
-                  "start": 5513,
-                  "end": 5515,
+                  "start": 4808,
+                  "end": 4810,
                   "elements": []
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           },
           {
             "type": "ExpressionStatement",
-            "start": 5521,
-            "end": 5574,
-            "directive": null,
+            "start": 4816,
+            "end": 4869,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 5521,
-              "end": 5573,
+              "start": 4816,
+              "end": 4868,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 5521,
-                "end": 5535,
-                "computed": true,
+                "start": 4816,
+                "end": 4830,
                 "object": {
                   "type": "Identifier",
-                  "start": 5521,
-                  "end": 5532,
+                  "start": 4816,
+                  "end": 4827,
                   "decorators": [],
                   "name": "typedArrays",
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
-                  "start": 5533,
-                  "end": 5534,
-                  "raw": "0",
-                  "value": 0
-                }
+                  "start": 4828,
+                  "end": 4829,
+                  "value": 0,
+                  "raw": "0"
+                },
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "CallExpression",
-                "start": 5538,
-                "end": 5573,
-                "arguments": [
-                  {
-                    "type": "Identifier",
-                    "start": 5553,
-                    "end": 5556,
-                    "decorators": [],
-                    "name": "obj",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  {
-                    "type": "Identifier",
-                    "start": 5558,
-                    "end": 5563,
-                    "decorators": [],
-                    "name": "mapFn",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  {
-                    "type": "Identifier",
-                    "start": 5565,
-                    "end": 5572,
-                    "decorators": [],
-                    "name": "thisArg",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                ],
+                "start": 4833,
+                "end": 4868,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 5538,
-                  "end": 5552,
-                  "computed": false,
+                  "start": 4833,
+                  "end": 4847,
                   "object": {
                     "type": "Identifier",
-                    "start": 5538,
-                    "end": 5547,
+                    "start": 4833,
+                    "end": 4842,
                     "decorators": [],
                     "name": "Int8Array",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 5548,
-                    "end": 5552,
+                    "start": 4843,
+                    "end": 4847,
                     "decorators": [],
                     "name": "from",
                     "optional": false,
                     "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 5579,
-            "end": 5633,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 5579,
-              "end": 5632,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 5579,
-                "end": 5593,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 5579,
-                  "end": 5590,
-                  "decorators": [],
-                  "name": "typedArrays",
+                  },
                   "optional": false,
-                  "typeAnnotation": null
+                  "computed": false
                 },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 5591,
-                  "end": 5592,
-                  "raw": "1",
-                  "value": 1
-                }
-              },
-              "right": {
-                "type": "CallExpression",
-                "start": 5596,
-                "end": 5632,
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 5612,
-                    "end": 5615,
+                    "start": 4848,
+                    "end": 4851,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
@@ -8360,8 +7367,8 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "Identifier",
-                    "start": 5617,
-                    "end": 5622,
+                    "start": 4853,
+                    "end": 4858,
                     "decorators": [],
                     "name": "mapFn",
                     "optional": false,
@@ -8369,86 +7376,86 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "Identifier",
-                    "start": 5624,
-                    "end": 5631,
+                    "start": 4860,
+                    "end": 4867,
                     "decorators": [],
                     "name": "thisArg",
                     "optional": false,
                     "typeAnnotation": null
                   }
                 ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 4874,
+            "end": 4928,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 4874,
+              "end": 4927,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 4874,
+                "end": 4888,
+                "object": {
+                  "type": "Identifier",
+                  "start": 4874,
+                  "end": 4885,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 4886,
+                  "end": 4887,
+                  "value": 1,
+                  "raw": "1"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 4891,
+                "end": 4927,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 5596,
-                  "end": 5611,
-                  "computed": false,
+                  "start": 4891,
+                  "end": 4906,
                   "object": {
                     "type": "Identifier",
-                    "start": 5596,
-                    "end": 5606,
+                    "start": 4891,
+                    "end": 4901,
                     "decorators": [],
                     "name": "Uint8Array",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 5607,
-                    "end": 5611,
+                    "start": 4902,
+                    "end": 4906,
                     "decorators": [],
                     "name": "from",
                     "optional": false,
                     "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 5638,
-            "end": 5692,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 5638,
-              "end": 5691,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 5638,
-                "end": 5652,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 5638,
-                  "end": 5649,
-                  "decorators": [],
-                  "name": "typedArrays",
+                  },
                   "optional": false,
-                  "typeAnnotation": null
+                  "computed": false
                 },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 5650,
-                  "end": 5651,
-                  "raw": "2",
-                  "value": 2
-                }
-              },
-              "right": {
-                "type": "CallExpression",
-                "start": 5655,
-                "end": 5691,
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 5671,
-                    "end": 5674,
+                    "start": 4907,
+                    "end": 4910,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
@@ -8456,8 +7463,8 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "Identifier",
-                    "start": 5676,
-                    "end": 5681,
+                    "start": 4912,
+                    "end": 4917,
                     "decorators": [],
                     "name": "mapFn",
                     "optional": false,
@@ -8465,86 +7472,86 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "Identifier",
-                    "start": 5683,
-                    "end": 5690,
+                    "start": 4919,
+                    "end": 4926,
                     "decorators": [],
                     "name": "thisArg",
                     "optional": false,
                     "typeAnnotation": null
                   }
                 ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 4933,
+            "end": 4987,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 4933,
+              "end": 4986,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 4933,
+                "end": 4947,
+                "object": {
+                  "type": "Identifier",
+                  "start": 4933,
+                  "end": 4944,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 4945,
+                  "end": 4946,
+                  "value": 2,
+                  "raw": "2"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 4950,
+                "end": 4986,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 5655,
-                  "end": 5670,
-                  "computed": false,
+                  "start": 4950,
+                  "end": 4965,
                   "object": {
                     "type": "Identifier",
-                    "start": 5655,
-                    "end": 5665,
+                    "start": 4950,
+                    "end": 4960,
                     "decorators": [],
                     "name": "Int16Array",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 5666,
-                    "end": 5670,
+                    "start": 4961,
+                    "end": 4965,
                     "decorators": [],
                     "name": "from",
                     "optional": false,
                     "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 5697,
-            "end": 5752,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 5697,
-              "end": 5751,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 5697,
-                "end": 5711,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 5697,
-                  "end": 5708,
-                  "decorators": [],
-                  "name": "typedArrays",
+                  },
                   "optional": false,
-                  "typeAnnotation": null
+                  "computed": false
                 },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 5709,
-                  "end": 5710,
-                  "raw": "3",
-                  "value": 3
-                }
-              },
-              "right": {
-                "type": "CallExpression",
-                "start": 5714,
-                "end": 5751,
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 5731,
-                    "end": 5734,
+                    "start": 4966,
+                    "end": 4969,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
@@ -8552,8 +7559,8 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "Identifier",
-                    "start": 5736,
-                    "end": 5741,
+                    "start": 4971,
+                    "end": 4976,
                     "decorators": [],
                     "name": "mapFn",
                     "optional": false,
@@ -8561,86 +7568,86 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "Identifier",
-                    "start": 5743,
-                    "end": 5750,
+                    "start": 4978,
+                    "end": 4985,
                     "decorators": [],
                     "name": "thisArg",
                     "optional": false,
                     "typeAnnotation": null
                   }
                 ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 4992,
+            "end": 5047,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 4992,
+              "end": 5046,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 4992,
+                "end": 5006,
+                "object": {
+                  "type": "Identifier",
+                  "start": 4992,
+                  "end": 5003,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 5004,
+                  "end": 5005,
+                  "value": 3,
+                  "raw": "3"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 5009,
+                "end": 5046,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 5714,
-                  "end": 5730,
-                  "computed": false,
+                  "start": 5009,
+                  "end": 5025,
                   "object": {
                     "type": "Identifier",
-                    "start": 5714,
-                    "end": 5725,
+                    "start": 5009,
+                    "end": 5020,
                     "decorators": [],
                     "name": "Uint16Array",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 5726,
-                    "end": 5730,
+                    "start": 5021,
+                    "end": 5025,
                     "decorators": [],
                     "name": "from",
                     "optional": false,
                     "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 5757,
-            "end": 5811,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 5757,
-              "end": 5810,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 5757,
-                "end": 5771,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 5757,
-                  "end": 5768,
-                  "decorators": [],
-                  "name": "typedArrays",
+                  },
                   "optional": false,
-                  "typeAnnotation": null
+                  "computed": false
                 },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 5769,
-                  "end": 5770,
-                  "raw": "4",
-                  "value": 4
-                }
-              },
-              "right": {
-                "type": "CallExpression",
-                "start": 5774,
-                "end": 5810,
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 5790,
-                    "end": 5793,
+                    "start": 5026,
+                    "end": 5029,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
@@ -8648,8 +7655,8 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "Identifier",
-                    "start": 5795,
-                    "end": 5800,
+                    "start": 5031,
+                    "end": 5036,
                     "decorators": [],
                     "name": "mapFn",
                     "optional": false,
@@ -8657,86 +7664,86 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "Identifier",
-                    "start": 5802,
-                    "end": 5809,
+                    "start": 5038,
+                    "end": 5045,
                     "decorators": [],
                     "name": "thisArg",
                     "optional": false,
                     "typeAnnotation": null
                   }
                 ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 5052,
+            "end": 5106,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 5052,
+              "end": 5105,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 5052,
+                "end": 5066,
+                "object": {
+                  "type": "Identifier",
+                  "start": 5052,
+                  "end": 5063,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 5064,
+                  "end": 5065,
+                  "value": 4,
+                  "raw": "4"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 5069,
+                "end": 5105,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 5774,
-                  "end": 5789,
-                  "computed": false,
+                  "start": 5069,
+                  "end": 5084,
                   "object": {
                     "type": "Identifier",
-                    "start": 5774,
-                    "end": 5784,
+                    "start": 5069,
+                    "end": 5079,
                     "decorators": [],
                     "name": "Int32Array",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 5785,
-                    "end": 5789,
+                    "start": 5080,
+                    "end": 5084,
                     "decorators": [],
                     "name": "from",
                     "optional": false,
                     "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 5816,
-            "end": 5871,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 5816,
-              "end": 5870,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 5816,
-                "end": 5830,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 5816,
-                  "end": 5827,
-                  "decorators": [],
-                  "name": "typedArrays",
+                  },
                   "optional": false,
-                  "typeAnnotation": null
+                  "computed": false
                 },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 5828,
-                  "end": 5829,
-                  "raw": "5",
-                  "value": 5
-                }
-              },
-              "right": {
-                "type": "CallExpression",
-                "start": 5833,
-                "end": 5870,
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 5850,
-                    "end": 5853,
+                    "start": 5085,
+                    "end": 5088,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
@@ -8744,8 +7751,8 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "Identifier",
-                    "start": 5855,
-                    "end": 5860,
+                    "start": 5090,
+                    "end": 5095,
                     "decorators": [],
                     "name": "mapFn",
                     "optional": false,
@@ -8753,86 +7760,86 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "Identifier",
-                    "start": 5862,
-                    "end": 5869,
+                    "start": 5097,
+                    "end": 5104,
                     "decorators": [],
                     "name": "thisArg",
                     "optional": false,
                     "typeAnnotation": null
                   }
                 ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 5111,
+            "end": 5166,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 5111,
+              "end": 5165,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 5111,
+                "end": 5125,
+                "object": {
+                  "type": "Identifier",
+                  "start": 5111,
+                  "end": 5122,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 5123,
+                  "end": 5124,
+                  "value": 5,
+                  "raw": "5"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 5128,
+                "end": 5165,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 5833,
-                  "end": 5849,
-                  "computed": false,
+                  "start": 5128,
+                  "end": 5144,
                   "object": {
                     "type": "Identifier",
-                    "start": 5833,
-                    "end": 5844,
+                    "start": 5128,
+                    "end": 5139,
                     "decorators": [],
                     "name": "Uint32Array",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 5845,
-                    "end": 5849,
+                    "start": 5140,
+                    "end": 5144,
                     "decorators": [],
                     "name": "from",
                     "optional": false,
                     "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 5876,
-            "end": 5932,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 5876,
-              "end": 5931,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 5876,
-                "end": 5890,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 5876,
-                  "end": 5887,
-                  "decorators": [],
-                  "name": "typedArrays",
+                  },
                   "optional": false,
-                  "typeAnnotation": null
+                  "computed": false
                 },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 5888,
-                  "end": 5889,
-                  "raw": "6",
-                  "value": 6
-                }
-              },
-              "right": {
-                "type": "CallExpression",
-                "start": 5893,
-                "end": 5931,
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 5911,
-                    "end": 5914,
+                    "start": 5145,
+                    "end": 5148,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
@@ -8840,8 +7847,8 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "Identifier",
-                    "start": 5916,
-                    "end": 5921,
+                    "start": 5150,
+                    "end": 5155,
                     "decorators": [],
                     "name": "mapFn",
                     "optional": false,
@@ -8849,86 +7856,86 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "Identifier",
-                    "start": 5923,
-                    "end": 5930,
+                    "start": 5157,
+                    "end": 5164,
                     "decorators": [],
                     "name": "thisArg",
                     "optional": false,
                     "typeAnnotation": null
                   }
                 ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 5171,
+            "end": 5227,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 5171,
+              "end": 5226,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 5171,
+                "end": 5185,
+                "object": {
+                  "type": "Identifier",
+                  "start": 5171,
+                  "end": 5182,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 5183,
+                  "end": 5184,
+                  "value": 6,
+                  "raw": "6"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 5188,
+                "end": 5226,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 5893,
-                  "end": 5910,
-                  "computed": false,
+                  "start": 5188,
+                  "end": 5205,
                   "object": {
                     "type": "Identifier",
-                    "start": 5893,
-                    "end": 5905,
+                    "start": 5188,
+                    "end": 5200,
                     "decorators": [],
                     "name": "Float32Array",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 5906,
-                    "end": 5910,
+                    "start": 5201,
+                    "end": 5205,
                     "decorators": [],
                     "name": "from",
                     "optional": false,
                     "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 5937,
-            "end": 5993,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 5937,
-              "end": 5992,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 5937,
-                "end": 5951,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 5937,
-                  "end": 5948,
-                  "decorators": [],
-                  "name": "typedArrays",
+                  },
                   "optional": false,
-                  "typeAnnotation": null
+                  "computed": false
                 },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 5949,
-                  "end": 5950,
-                  "raw": "7",
-                  "value": 7
-                }
-              },
-              "right": {
-                "type": "CallExpression",
-                "start": 5954,
-                "end": 5992,
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 5972,
-                    "end": 5975,
+                    "start": 5206,
+                    "end": 5209,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
@@ -8936,8 +7943,8 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "Identifier",
-                    "start": 5977,
-                    "end": 5982,
+                    "start": 5211,
+                    "end": 5216,
                     "decorators": [],
                     "name": "mapFn",
                     "optional": false,
@@ -8945,86 +7952,86 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "Identifier",
-                    "start": 5984,
-                    "end": 5991,
+                    "start": 5218,
+                    "end": 5225,
                     "decorators": [],
                     "name": "thisArg",
                     "optional": false,
                     "typeAnnotation": null
                   }
                 ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 5232,
+            "end": 5288,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 5232,
+              "end": 5287,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 5232,
+                "end": 5246,
+                "object": {
+                  "type": "Identifier",
+                  "start": 5232,
+                  "end": 5243,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 5244,
+                  "end": 5245,
+                  "value": 7,
+                  "raw": "7"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 5249,
+                "end": 5287,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 5954,
-                  "end": 5971,
-                  "computed": false,
+                  "start": 5249,
+                  "end": 5266,
                   "object": {
                     "type": "Identifier",
-                    "start": 5954,
-                    "end": 5966,
+                    "start": 5249,
+                    "end": 5261,
                     "decorators": [],
                     "name": "Float64Array",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 5967,
-                    "end": 5971,
+                    "start": 5262,
+                    "end": 5266,
                     "decorators": [],
                     "name": "from",
                     "optional": false,
                     "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 5998,
-            "end": 6059,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 5998,
-              "end": 6058,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 5998,
-                "end": 6012,
-                "computed": true,
-                "object": {
-                  "type": "Identifier",
-                  "start": 5998,
-                  "end": 6009,
-                  "decorators": [],
-                  "name": "typedArrays",
+                  },
                   "optional": false,
-                  "typeAnnotation": null
+                  "computed": false
                 },
-                "optional": false,
-                "property": {
-                  "type": "Literal",
-                  "start": 6010,
-                  "end": 6011,
-                  "raw": "8",
-                  "value": 8
-                }
-              },
-              "right": {
-                "type": "CallExpression",
-                "start": 6015,
-                "end": 6058,
+                "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 6038,
-                    "end": 6041,
+                    "start": 5267,
+                    "end": 5270,
                     "decorators": [],
                     "name": "obj",
                     "optional": false,
@@ -9032,8 +8039,8 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "Identifier",
-                    "start": 6043,
-                    "end": 6048,
+                    "start": 5272,
+                    "end": 5277,
                     "decorators": [],
                     "name": "mapFn",
                     "optional": false,
@@ -9041,52 +8048,123 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "Identifier",
-                    "start": 6050,
-                    "end": 6057,
+                    "start": 5279,
+                    "end": 5286,
                     "decorators": [],
                     "name": "thisArg",
                     "optional": false,
                     "typeAnnotation": null
                   }
                 ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 5293,
+            "end": 5354,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 5293,
+              "end": 5353,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 5293,
+                "end": 5307,
+                "object": {
+                  "type": "Identifier",
+                  "start": 5293,
+                  "end": 5304,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 5305,
+                  "end": 5306,
+                  "value": 8,
+                  "raw": "8"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 5310,
+                "end": 5353,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 6015,
-                  "end": 6037,
-                  "computed": false,
+                  "start": 5310,
+                  "end": 5332,
                   "object": {
                     "type": "Identifier",
-                    "start": 6015,
-                    "end": 6032,
+                    "start": 5310,
+                    "end": 5327,
                     "decorators": [],
                     "name": "Uint8ClampedArray",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 6033,
-                    "end": 6037,
+                    "start": 5328,
+                    "end": 5332,
                     "decorators": [],
                     "name": "from",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "optional": false,
+                  "computed": false
                 },
-                "optional": false,
-                "typeArguments": null
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 5333,
+                    "end": 5336,
+                    "decorators": [],
+                    "name": "obj",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 5338,
+                    "end": 5343,
+                    "decorators": [],
+                    "name": "mapFn",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 5345,
+                    "end": 5352,
+                    "decorators": [],
+                    "name": "thisArg",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                ],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ReturnStatement",
-            "start": 6065,
-            "end": 6084,
+            "start": 5360,
+            "end": 5379,
             "argument": {
               "type": "Identifier",
-              "start": 6072,
-              "end": 6083,
+              "start": 5367,
+              "end": 5378,
               "decorators": [],
               "name": "typedArrays",
               "optional": false,
@@ -9095,9 +8173,12 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
+      "expression": false
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 5383,
+      "end": 6086,
       "id": {
         "type": "Identifier",
         "start": 5392,
@@ -9106,6 +8187,35 @@ __ESTREE_TEST__:PASS:
         "name": "CreateTypedArraysFromThisObj2",
         "optional": false,
         "typeAnnotation": null
+      },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": {
+        "type": "TSTypeParameterDeclaration",
+        "start": 5421,
+        "end": 5424,
+        "params": [
+          {
+            "type": "TSTypeParameter",
+            "start": 5422,
+            "end": 5423,
+            "name": {
+              "type": "Identifier",
+              "start": 5422,
+              "end": 5423,
+              "decorators": [],
+              "name": "T",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          }
+        ]
       },
       "params": [
         {
@@ -9123,6 +8233,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 5429,
               "end": 5441,
+              "typeName": {
+                "type": "Identifier",
+                "start": 5429,
+                "end": 5438,
+                "decorators": [],
+                "name": "ArrayLike",
+                "optional": false,
+                "typeAnnotation": null
+              },
               "typeArguments": {
                 "type": "TSTypeParameterInstantiation",
                 "start": 5438,
@@ -9132,7 +8251,6 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 5439,
                     "end": 5440,
-                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 5439,
@@ -9141,18 +8259,10 @@ __ESTREE_TEST__:PASS:
                       "name": "T",
                       "optional": false,
                       "typeAnnotation": null
-                    }
+                    },
+                    "typeArguments": null
                   }
                 ]
-              },
-              "typeName": {
-                "type": "Identifier",
-                "start": 5429,
-                "end": 5438,
-                "decorators": [],
-                "name": "ArrayLike",
-                "optional": false,
-                "typeAnnotation": null
               }
             }
           }
@@ -9172,6 +8282,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSFunctionType",
               "start": 5450,
               "end": 5474,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -9188,7 +8299,6 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 5453,
                       "end": 5454,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 5453,
@@ -9197,7 +8307,8 @@ __ESTREE_TEST__:PASS:
                         "name": "T",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     }
                   }
                 },
@@ -9229,8 +8340,7 @@ __ESTREE_TEST__:PASS:
                   "start": 5468,
                   "end": 5474
                 }
-              },
-              "typeParameters": null
+              }
             }
           }
         },
@@ -9255,32 +8365,922 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": {
-        "type": "TSTypeParameterDeclaration",
-        "start": 5421,
-        "end": 5424,
-        "params": [
+      "body": {
+        "type": "BlockStatement",
+        "start": 5489,
+        "end": 6086,
+        "body": [
           {
-            "type": "TSTypeParameter",
-            "start": 5422,
-            "end": 5423,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
+            "type": "VariableDeclaration",
+            "start": 5495,
+            "end": 5516,
+            "kind": "var",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 5499,
+                "end": 5515,
+                "id": {
+                  "type": "Identifier",
+                  "start": 5499,
+                  "end": 5510,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "init": {
+                  "type": "ArrayExpression",
+                  "start": 5513,
+                  "end": 5515,
+                  "elements": []
+                },
+                "definite": false
+              }
+            ],
+            "declare": false
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 5521,
+            "end": 5574,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 5521,
+              "end": 5573,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 5521,
+                "end": 5535,
+                "object": {
+                  "type": "Identifier",
+                  "start": 5521,
+                  "end": 5532,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 5533,
+                  "end": 5534,
+                  "value": 0,
+                  "raw": "0"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 5538,
+                "end": 5573,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 5538,
+                  "end": 5552,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 5538,
+                    "end": 5547,
+                    "decorators": [],
+                    "name": "Int8Array",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 5548,
+                    "end": 5552,
+                    "decorators": [],
+                    "name": "from",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 5553,
+                    "end": 5556,
+                    "decorators": [],
+                    "name": "obj",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 5558,
+                    "end": 5563,
+                    "decorators": [],
+                    "name": "mapFn",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 5565,
+                    "end": 5572,
+                    "decorators": [],
+                    "name": "thisArg",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 5579,
+            "end": 5633,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 5579,
+              "end": 5632,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 5579,
+                "end": 5593,
+                "object": {
+                  "type": "Identifier",
+                  "start": 5579,
+                  "end": 5590,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 5591,
+                  "end": 5592,
+                  "value": 1,
+                  "raw": "1"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 5596,
+                "end": 5632,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 5596,
+                  "end": 5611,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 5596,
+                    "end": 5606,
+                    "decorators": [],
+                    "name": "Uint8Array",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 5607,
+                    "end": 5611,
+                    "decorators": [],
+                    "name": "from",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 5612,
+                    "end": 5615,
+                    "decorators": [],
+                    "name": "obj",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 5617,
+                    "end": 5622,
+                    "decorators": [],
+                    "name": "mapFn",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 5624,
+                    "end": 5631,
+                    "decorators": [],
+                    "name": "thisArg",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 5638,
+            "end": 5692,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 5638,
+              "end": 5691,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 5638,
+                "end": 5652,
+                "object": {
+                  "type": "Identifier",
+                  "start": 5638,
+                  "end": 5649,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 5650,
+                  "end": 5651,
+                  "value": 2,
+                  "raw": "2"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 5655,
+                "end": 5691,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 5655,
+                  "end": 5670,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 5655,
+                    "end": 5665,
+                    "decorators": [],
+                    "name": "Int16Array",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 5666,
+                    "end": 5670,
+                    "decorators": [],
+                    "name": "from",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 5671,
+                    "end": 5674,
+                    "decorators": [],
+                    "name": "obj",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 5676,
+                    "end": 5681,
+                    "decorators": [],
+                    "name": "mapFn",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 5683,
+                    "end": 5690,
+                    "decorators": [],
+                    "name": "thisArg",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 5697,
+            "end": 5752,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 5697,
+              "end": 5751,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 5697,
+                "end": 5711,
+                "object": {
+                  "type": "Identifier",
+                  "start": 5697,
+                  "end": 5708,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 5709,
+                  "end": 5710,
+                  "value": 3,
+                  "raw": "3"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 5714,
+                "end": 5751,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 5714,
+                  "end": 5730,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 5714,
+                    "end": 5725,
+                    "decorators": [],
+                    "name": "Uint16Array",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 5726,
+                    "end": 5730,
+                    "decorators": [],
+                    "name": "from",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 5731,
+                    "end": 5734,
+                    "decorators": [],
+                    "name": "obj",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 5736,
+                    "end": 5741,
+                    "decorators": [],
+                    "name": "mapFn",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 5743,
+                    "end": 5750,
+                    "decorators": [],
+                    "name": "thisArg",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 5757,
+            "end": 5811,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 5757,
+              "end": 5810,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 5757,
+                "end": 5771,
+                "object": {
+                  "type": "Identifier",
+                  "start": 5757,
+                  "end": 5768,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 5769,
+                  "end": 5770,
+                  "value": 4,
+                  "raw": "4"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 5774,
+                "end": 5810,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 5774,
+                  "end": 5789,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 5774,
+                    "end": 5784,
+                    "decorators": [],
+                    "name": "Int32Array",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 5785,
+                    "end": 5789,
+                    "decorators": [],
+                    "name": "from",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 5790,
+                    "end": 5793,
+                    "decorators": [],
+                    "name": "obj",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 5795,
+                    "end": 5800,
+                    "decorators": [],
+                    "name": "mapFn",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 5802,
+                    "end": 5809,
+                    "decorators": [],
+                    "name": "thisArg",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 5816,
+            "end": 5871,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 5816,
+              "end": 5870,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 5816,
+                "end": 5830,
+                "object": {
+                  "type": "Identifier",
+                  "start": 5816,
+                  "end": 5827,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 5828,
+                  "end": 5829,
+                  "value": 5,
+                  "raw": "5"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 5833,
+                "end": 5870,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 5833,
+                  "end": 5849,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 5833,
+                    "end": 5844,
+                    "decorators": [],
+                    "name": "Uint32Array",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 5845,
+                    "end": 5849,
+                    "decorators": [],
+                    "name": "from",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 5850,
+                    "end": 5853,
+                    "decorators": [],
+                    "name": "obj",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 5855,
+                    "end": 5860,
+                    "decorators": [],
+                    "name": "mapFn",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 5862,
+                    "end": 5869,
+                    "decorators": [],
+                    "name": "thisArg",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 5876,
+            "end": 5932,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 5876,
+              "end": 5931,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 5876,
+                "end": 5890,
+                "object": {
+                  "type": "Identifier",
+                  "start": 5876,
+                  "end": 5887,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 5888,
+                  "end": 5889,
+                  "value": 6,
+                  "raw": "6"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 5893,
+                "end": 5931,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 5893,
+                  "end": 5910,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 5893,
+                    "end": 5905,
+                    "decorators": [],
+                    "name": "Float32Array",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 5906,
+                    "end": 5910,
+                    "decorators": [],
+                    "name": "from",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 5911,
+                    "end": 5914,
+                    "decorators": [],
+                    "name": "obj",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 5916,
+                    "end": 5921,
+                    "decorators": [],
+                    "name": "mapFn",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 5923,
+                    "end": 5930,
+                    "decorators": [],
+                    "name": "thisArg",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 5937,
+            "end": 5993,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 5937,
+              "end": 5992,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 5937,
+                "end": 5951,
+                "object": {
+                  "type": "Identifier",
+                  "start": 5937,
+                  "end": 5948,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 5949,
+                  "end": 5950,
+                  "value": 7,
+                  "raw": "7"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 5954,
+                "end": 5992,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 5954,
+                  "end": 5971,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 5954,
+                    "end": 5966,
+                    "decorators": [],
+                    "name": "Float64Array",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 5967,
+                    "end": 5971,
+                    "decorators": [],
+                    "name": "from",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 5972,
+                    "end": 5975,
+                    "decorators": [],
+                    "name": "obj",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 5977,
+                    "end": 5982,
+                    "decorators": [],
+                    "name": "mapFn",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 5984,
+                    "end": 5991,
+                    "decorators": [],
+                    "name": "thisArg",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 5998,
+            "end": 6059,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 5998,
+              "end": 6058,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 5998,
+                "end": 6012,
+                "object": {
+                  "type": "Identifier",
+                  "start": 5998,
+                  "end": 6009,
+                  "decorators": [],
+                  "name": "typedArrays",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Literal",
+                  "start": 6010,
+                  "end": 6011,
+                  "value": 8,
+                  "raw": "8"
+                },
+                "optional": false,
+                "computed": true
+              },
+              "right": {
+                "type": "CallExpression",
+                "start": 6015,
+                "end": 6058,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 6015,
+                  "end": 6037,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 6015,
+                    "end": 6032,
+                    "decorators": [],
+                    "name": "Uint8ClampedArray",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 6033,
+                    "end": 6037,
+                    "decorators": [],
+                    "name": "from",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 6038,
+                    "end": 6041,
+                    "decorators": [],
+                    "name": "obj",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 6043,
+                    "end": 6048,
+                    "decorators": [],
+                    "name": "mapFn",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  {
+                    "type": "Identifier",
+                    "start": 6050,
+                    "end": 6057,
+                    "decorators": [],
+                    "name": "thisArg",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                ],
+                "optional": false
+              }
+            },
+            "directive": null
+          },
+          {
+            "type": "ReturnStatement",
+            "start": 6065,
+            "end": 6084,
+            "argument": {
               "type": "Identifier",
-              "start": 5422,
-              "end": 5423,
+              "start": 6072,
+              "end": 6083,
               "decorators": [],
-              "name": "T",
+              "name": "typedArrays",
               "optional": false,
               "typeAnnotation": null
-            },
-            "out": false
+            }
           }
         ]
-      }
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

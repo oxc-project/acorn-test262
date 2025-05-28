@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 22,
-      "directive": null,
       "expression": {
         "type": "SequenceExpression",
         "start": 0,
@@ -19,25 +18,10 @@ __ESTREE_TEST__:PASS:
             "type": "ConditionalExpression",
             "start": 0,
             "end": 13,
-            "alternate": {
-              "type": "Literal",
-              "start": 12,
-              "end": 13,
-              "raw": "2",
-              "value": 2
-            },
-            "consequent": {
-              "type": "Literal",
-              "start": 8,
-              "end": 9,
-              "raw": "1",
-              "value": 1
-            },
             "test": {
               "type": "MemberExpression",
               "start": 0,
               "end": 5,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 0,
@@ -47,7 +31,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 2,
@@ -56,14 +39,29 @@ __ESTREE_TEST__:PASS:
                 "name": "src",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
+            },
+            "consequent": {
+              "type": "Literal",
+              "start": 8,
+              "end": 9,
+              "value": 1,
+              "raw": "1"
+            },
+            "alternate": {
+              "type": "Literal",
+              "start": 12,
+              "end": 13,
+              "value": 2,
+              "raw": "2"
             }
           },
           {
             "type": "LogicalExpression",
             "start": 15,
             "end": 21,
-            "operator": "&&",
             "left": {
               "type": "Identifier",
               "start": 15,
@@ -73,6 +71,7 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
+            "operator": "&&",
             "right": {
               "type": "Identifier",
               "start": 20,
@@ -84,7 +83,8 @@ __ESTREE_TEST__:PASS:
             }
           }
         ]
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

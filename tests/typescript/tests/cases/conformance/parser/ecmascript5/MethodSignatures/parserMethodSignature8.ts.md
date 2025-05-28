@@ -9,61 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 28,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 12,
-        "end": 28,
-        "body": [
-          {
-            "type": "TSMethodSignature",
-            "start": 16,
-            "end": 26,
-            "accessibility": null,
-            "computed": false,
-            "key": {
-              "type": "Literal",
-              "start": 16,
-              "end": 19,
-              "raw": "\"H\"",
-              "value": "H"
-            },
-            "kind": "method",
-            "optional": true,
-            "params": [],
-            "readonly": false,
-            "returnType": null,
-            "static": false,
-            "typeParameters": {
-              "type": "TSTypeParameterDeclaration",
-              "start": 20,
-              "end": 23,
-              "params": [
-                {
-                  "type": "TSTypeParameter",
-                  "start": 21,
-                  "end": 22,
-                  "const": false,
-                  "constraint": null,
-                  "default": null,
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 21,
-                    "end": 22,
-                    "decorators": [],
-                    "name": "T",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                }
-              ]
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "extends": [],
       "id": {
         "type": "Identifier",
         "start": 10,
@@ -73,7 +18,62 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "typeParameters": null
+      "typeParameters": null,
+      "extends": [],
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 12,
+        "end": 28,
+        "body": [
+          {
+            "type": "TSMethodSignature",
+            "start": 16,
+            "end": 26,
+            "key": {
+              "type": "Literal",
+              "start": 16,
+              "end": 19,
+              "value": "H",
+              "raw": "\"H\""
+            },
+            "computed": false,
+            "optional": true,
+            "kind": "method",
+            "typeParameters": {
+              "type": "TSTypeParameterDeclaration",
+              "start": 20,
+              "end": 23,
+              "params": [
+                {
+                  "type": "TSTypeParameter",
+                  "start": 21,
+                  "end": 22,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 21,
+                    "end": 22,
+                    "decorators": [],
+                    "name": "T",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": null,
+                  "in": false,
+                  "out": false,
+                  "const": false
+                }
+              ]
+            },
+            "params": [],
+            "returnType": null,
+            "accessibility": null,
+            "readonly": false,
+            "static": false
+          }
+        ]
+      },
+      "declare": false
     }
   ],
   "sourceType": "script",

@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 21,
       "end": 31,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 29,
-        "end": 31,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -27,26 +19,33 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 29,
+        "end": 31,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 80,
       "end": 101,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 87,
         "end": 101,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 91,
             "end": 100,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 91,
@@ -60,17 +59,18 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 96,
               "end": 100,
-              "raw": "null",
-              "value": null
-            }
+              "value": null,
+              "raw": "null"
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "let"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportDefaultDeclaration",

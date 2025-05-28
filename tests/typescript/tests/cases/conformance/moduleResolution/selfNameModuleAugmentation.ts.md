@@ -9,17 +9,23 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 10,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "TSModuleDeclaration",
       "start": 11,
       "end": 124,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 26,
+        "end": 38,
+        "value": "acorn-walk",
+        "raw": "'acorn-walk'"
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 39,
@@ -29,16 +35,10 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 43,
             "end": 122,
-            "attributes": [],
             "declaration": {
               "type": "TSDeclareFunction",
               "start": 50,
               "end": 122,
-              "async": false,
-              "body": null,
-              "declare": false,
-              "expression": false,
-              "generator": false,
               "id": {
                 "type": "Identifier",
                 "start": 59,
@@ -48,6 +48,10 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -132,23 +136,19 @@ __ESTREE_TEST__:PASS:
                   "end": 121
                 }
               },
-              "typeParameters": null
+              "body": null,
+              "expression": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 26,
-        "end": 38,
-        "raw": "'acorn-walk'",
-        "value": "acorn-walk"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -166,11 +166,11 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 10,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -188,14 +188,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 36,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 23,
-        "end": 35,
-        "raw": "'acorn-walk'",
-        "value": "acorn-walk"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -210,7 +202,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
@@ -219,11 +210,20 @@ __ESTREE_TEST__:PASS:
             "name": "simple",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 23,
+        "end": 35,
+        "value": "acorn-walk",
+        "raw": "'acorn-walk'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

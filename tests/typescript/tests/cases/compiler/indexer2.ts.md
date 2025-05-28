@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 32,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 30,
-        "end": 32,
-        "body": []
-      },
-      "declare": false,
-      "extends": [],
       "id": {
         "type": "Identifier",
         "start": 10,
@@ -26,12 +18,31 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "typeParameters": null
+      "typeParameters": null,
+      "extends": [],
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 30,
+        "end": 32,
+        "body": []
+      },
+      "declare": false
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 33,
       "end": 172,
+      "id": {
+        "type": "Identifier",
+        "start": 43,
+        "end": 61,
+        "decorators": [],
+        "name": "IDirectChildrenMap",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "extends": [],
       "body": {
         "type": "TSInterfaceBody",
         "start": 62,
@@ -41,8 +52,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 73,
             "end": 116,
-            "accessibility": null,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 73,
@@ -52,8 +61,10 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
+            "computed": false,
             "optional": false,
+            "kind": "method",
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -74,7 +85,6 @@ __ESTREE_TEST__:PASS:
                 }
               }
             ],
-            "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 106,
@@ -85,14 +95,14 @@ __ESTREE_TEST__:PASS:
                 "end": 115
               }
             },
-            "static": false,
-            "typeParameters": null
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           },
           {
             "type": "TSIndexSignature",
             "start": 126,
             "end": 169,
-            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -113,8 +123,6 @@ __ESTREE_TEST__:PASS:
                 }
               }
             ],
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 145,
@@ -127,7 +135,6 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 147,
                   "end": 166,
-                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 147,
@@ -136,36 +143,29 @@ __ESTREE_TEST__:PASS:
                     "name": "IHeapObjectProperty",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "typeArguments": null
                 }
               }
-            }
+            },
+            "readonly": false,
+            "static": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 43,
-        "end": 61,
-        "decorators": [],
-        "name": "IDirectChildrenMap",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 177,
       "end": 224,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 181,
           "end": 223,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 181,
@@ -179,17 +179,10 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeAssertion",
             "start": 201,
             "end": 223,
-            "expression": {
-              "type": "ObjectExpression",
-              "start": 221,
-              "end": 223,
-              "properties": []
-            },
             "typeAnnotation": {
               "type": "TSTypeReference",
               "start": 202,
               "end": 220,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 202,
@@ -198,13 +191,20 @@ __ESTREE_TEST__:PASS:
                 "name": "IDirectChildrenMap",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "typeArguments": null
+            },
+            "expression": {
+              "type": "ObjectExpression",
+              "start": 221,
+              "end": 223,
+              "properties": []
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

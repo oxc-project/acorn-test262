@@ -9,17 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 18,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 18,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 11,
             "end": 17,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 11,
@@ -33,17 +32,18 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 15,
               "end": 17,
-              "raw": "10",
-              "value": 10
-            }
+              "value": 10,
+              "raw": "10"
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -61,14 +61,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 66,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 34,
-        "end": 65,
-        "raw": "\"es6ImportNameSpaceImportAmd_0\"",
-        "value": "es6ImportNameSpaceImportAmd_0"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -85,19 +77,27 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 34,
+        "end": 65,
+        "value": "es6ImportNameSpaceImportAmd_0",
+        "raw": "\"es6ImportNameSpaceImportAmd_0\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 67,
       "end": 94,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 71,
           "end": 93,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 71,
@@ -111,7 +111,6 @@ __ESTREE_TEST__:PASS:
             "type": "MemberExpression",
             "start": 75,
             "end": 93,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 75,
@@ -121,7 +120,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 92,
@@ -130,25 +128,19 @@ __ESTREE_TEST__:PASS:
               "name": "a",
               "optional": false,
               "typeAnnotation": null
-            }
-          }
+            },
+            "optional": false,
+            "computed": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ImportDeclaration",
       "start": 95,
       "end": 162,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 130,
-        "end": 161,
-        "raw": "\"es6ImportNameSpaceImportAmd_0\"",
-        "value": "es6ImportNameSpaceImportAmd_0"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -165,8 +157,16 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 130,
+        "end": 161,
+        "value": "es6ImportNameSpaceImportAmd_0",
+        "raw": "\"es6ImportNameSpaceImportAmd_0\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

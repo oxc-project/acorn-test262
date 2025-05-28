@@ -9,11 +9,11 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 10,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "BlockStatement",
@@ -24,12 +24,12 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclaration",
           "start": 18,
           "end": 33,
+          "kind": "using",
           "declarations": [
             {
               "type": "VariableDeclarator",
               "start": 24,
               "end": 32,
-              "definite": false,
               "id": {
                 "type": "Identifier",
                 "start": 24,
@@ -43,13 +43,13 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 28,
                 "end": 32,
-                "raw": "null",
-                "value": null
-              }
+                "value": null,
+                "raw": "null"
+              },
+              "definite": false
             }
           ],
-          "declare": false,
-          "kind": "using"
+          "declare": false
         }
       ]
     }

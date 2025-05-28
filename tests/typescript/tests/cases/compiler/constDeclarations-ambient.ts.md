@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 12,
       "end": 38,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 26,
           "end": 37,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 26,
@@ -33,22 +33,22 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
       "start": 39,
       "end": 64,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 53,
           "end": 63,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 53,
@@ -67,22 +67,22 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
       "start": 65,
       "end": 103,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 79,
           "end": 81,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 79,
@@ -92,13 +92,13 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "init": null
+          "init": null,
+          "definite": false
         },
         {
           "type": "VariableDeclarator",
           "start": 83,
           "end": 93,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 83,
@@ -117,13 +117,13 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         },
         {
           "type": "VariableDeclarator",
           "start": 95,
           "end": 102,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 95,
@@ -142,16 +142,25 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     },
     {
       "type": "TSModuleDeclaration",
       "start": 105,
       "end": 161,
+      "id": {
+        "type": "Identifier",
+        "start": 120,
+        "end": 121,
+        "decorators": [],
+        "name": "M",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 122,
@@ -161,12 +170,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 128,
             "end": 137,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 134,
                 "end": 136,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 134,
@@ -176,22 +185,22 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "const"
+            "declare": false
           },
           {
             "type": "VariableDeclaration",
             "start": 142,
             "end": 159,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 148,
                 "end": 158,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 148,
@@ -210,26 +219,17 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "const"
+            "declare": false
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 120,
-        "end": 121,
-        "decorators": [],
-        "name": "M",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "script",

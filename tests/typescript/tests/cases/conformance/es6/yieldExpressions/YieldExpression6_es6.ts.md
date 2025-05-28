@@ -9,38 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 31,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 16,
-        "end": 31,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 20,
-            "end": 29,
-            "directive": null,
-            "expression": {
-              "type": "YieldExpression",
-              "start": 20,
-              "end": 29,
-              "argument": {
-                "type": "Identifier",
-                "start": 26,
-                "end": 29,
-                "decorators": [],
-                "name": "foo",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "delegate": true
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": true,
       "id": {
         "type": "Identifier",
         "start": 10,
@@ -50,9 +18,41 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": true,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 16,
+        "end": 31,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 20,
+            "end": 29,
+            "expression": {
+              "type": "YieldExpression",
+              "start": 20,
+              "end": 29,
+              "delegate": true,
+              "argument": {
+                "type": "Identifier",
+                "start": 26,
+                "end": 29,
+                "decorators": [],
+                "name": "foo",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            },
+            "directive": null
+          }
+        ]
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

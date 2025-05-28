@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 11,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 10,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,19 +28,18 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 8,
             "end": 10,
-            "raw": "30",
-            "value": 30
-          }
+            "value": 30,
+            "raw": "30"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 12,
       "end": 19,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 12,
@@ -59,10 +58,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 16,
           "end": 18,
-          "raw": "10",
-          "value": 10
+          "value": 10,
+          "raw": "10"
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",
@@ -80,12 +80,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 11,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 10,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -99,19 +99,18 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 8,
             "end": 10,
-            "raw": "10",
-            "value": 10
-          }
+            "value": 10,
+            "raw": "10"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 12,
       "end": 19,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 12,
@@ -130,10 +129,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 16,
           "end": 18,
-          "raw": "30",
-          "value": 30
+          "value": 30,
+          "raw": "30"
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

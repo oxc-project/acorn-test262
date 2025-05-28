@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 21,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 20,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -43,42 +43,24 @@ __ESTREE_TEST__:PASS:
             "start": 18,
             "end": 20,
             "elements": []
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 22,
       "end": 49,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 22,
         "end": 48,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 31,
-            "end": 38,
-            "raw": "\"hello\"",
-            "value": "hello"
-          },
-          {
-            "type": "Literal",
-            "start": 40,
-            "end": 47,
-            "raw": "'world'",
-            "value": "world"
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 22,
           "end": 30,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 22,
@@ -88,7 +70,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 24,
@@ -97,35 +78,43 @@ __ESTREE_TEST__:PASS:
             "name": "concat",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 31,
+            "end": 38,
+            "value": "hello",
+            "raw": "\"hello\""
+          },
+          {
+            "type": "Literal",
+            "start": 40,
+            "end": 47,
+            "value": "world",
+            "raw": "'world'"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 51,
       "end": 69,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 51,
         "end": 68,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 60,
-            "end": 67,
-            "raw": "'Hello'",
-            "value": "Hello"
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 51,
           "end": 59,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 51,
@@ -135,7 +124,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 53,
@@ -144,22 +132,34 @@ __ESTREE_TEST__:PASS:
             "name": "concat",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 60,
+            "end": 67,
+            "value": "Hello",
+            "raw": "'Hello'"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "VariableDeclaration",
       "start": 71,
       "end": 99,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 75,
           "end": 98,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 75,
@@ -173,7 +173,6 @@ __ESTREE_TEST__:PASS:
             "type": "NewExpression",
             "start": 79,
             "end": 98,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 83,
@@ -194,36 +193,26 @@ __ESTREE_TEST__:PASS:
                   "end": 95
                 }
               ]
-            }
-          }
+            },
+            "arguments": []
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 100,
       "end": 118,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 100,
         "end": 117,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 109,
-            "end": 116,
-            "raw": "'hello'",
-            "value": "hello"
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 100,
           "end": 108,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 100,
@@ -233,7 +222,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 102,
@@ -242,11 +230,23 @@ __ESTREE_TEST__:PASS:
             "name": "concat",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 109,
+            "end": 116,
+            "value": "hello",
+            "raw": "'hello'"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

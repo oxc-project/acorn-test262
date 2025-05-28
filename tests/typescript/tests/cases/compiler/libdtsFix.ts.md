@@ -9,44 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 43,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 22,
-        "end": 43,
-        "body": [
-          {
-            "type": "TSPropertySignature",
-            "start": 28,
-            "end": 41,
-            "accessibility": null,
-            "computed": false,
-            "key": {
-              "type": "Identifier",
-              "start": 28,
-              "end": 32,
-              "decorators": [],
-              "name": "type",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 32,
-              "end": 40,
-              "typeAnnotation": {
-                "type": "TSStringKeyword",
-                "start": 34,
-                "end": 40
-              }
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "extends": [],
       "id": {
         "type": "Identifier",
         "start": 10,
@@ -56,7 +18,45 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "typeParameters": null
+      "typeParameters": null,
+      "extends": [],
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 22,
+        "end": 43,
+        "body": [
+          {
+            "type": "TSPropertySignature",
+            "start": 28,
+            "end": 41,
+            "computed": false,
+            "optional": false,
+            "readonly": false,
+            "key": {
+              "type": "Identifier",
+              "start": 28,
+              "end": 32,
+              "decorators": [],
+              "name": "type",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 32,
+              "end": 40,
+              "typeAnnotation": {
+                "type": "TSStringKeyword",
+                "start": 34,
+                "end": 40
+              }
+            },
+            "accessibility": null,
+            "static": false
+          }
+        ]
+      },
+      "declare": false
     }
   ],
   "sourceType": "script",

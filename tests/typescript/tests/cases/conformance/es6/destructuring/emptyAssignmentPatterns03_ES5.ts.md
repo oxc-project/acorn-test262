@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 11,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 10,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -33,17 +33,16 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 13,
       "end": 27,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 14,
@@ -54,8 +53,8 @@ __ESTREE_TEST__:PASS:
           "start": 14,
           "end": 16,
           "decorators": [],
-          "optional": false,
           "properties": [],
+          "optional": false,
           "typeAnnotation": null
         },
         "right": {
@@ -68,8 +67,8 @@ __ESTREE_TEST__:PASS:
             "start": 19,
             "end": 21,
             "decorators": [],
-            "optional": false,
             "properties": [],
+            "optional": false,
             "typeAnnotation": null
           },
           "right": {
@@ -82,13 +81,13 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 28,
       "end": 42,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 29,
@@ -127,7 +126,8 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

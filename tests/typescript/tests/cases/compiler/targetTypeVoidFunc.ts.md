@@ -9,48 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 73,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 35,
-        "end": 73,
-        "body": [
-          {
-            "type": "ReturnStatement",
-            "start": 41,
-            "end": 71,
-            "argument": {
-              "type": "FunctionExpression",
-              "start": 48,
-              "end": 71,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 60,
-                "end": 71,
-                "body": [
-                  {
-                    "type": "ReturnStatement",
-                    "start": 62,
-                    "end": 69,
-                    "argument": null
-                  }
-                ]
-              },
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -60,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
@@ -74,6 +36,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSConstructSignatureDeclaration",
               "start": 17,
               "end": 32,
+              "typeParameters": null,
               "params": [],
               "returnType": {
                 "type": "TSTypeAnnotation",
@@ -84,13 +47,50 @@ __ESTREE_TEST__:PASS:
                   "start": 25,
                   "end": 31
                 }
-              },
-              "typeParameters": null
+              }
             }
           ]
         }
       },
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 35,
+        "end": 73,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 41,
+            "end": 71,
+            "argument": {
+              "type": "FunctionExpression",
+              "start": 48,
+              "end": 71,
+              "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
+              "body": {
+                "type": "BlockStatement",
+                "start": 60,
+                "end": 71,
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "start": 62,
+                    "end": 69,
+                    "argument": null
+                  }
+                ]
+              },
+              "expression": false
+            }
+          }
+        ]
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",
@@ -101,12 +101,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 77,
       "end": 90,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 81,
           "end": 89,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 81,
@@ -120,7 +120,6 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 85,
             "end": 89,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 85,
@@ -130,24 +129,25 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 91,
       "end": 107,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 95,
           "end": 106,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 95,
@@ -161,7 +161,6 @@ __ESTREE_TEST__:PASS:
             "type": "NewExpression",
             "start": 99,
             "end": 106,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 103,
@@ -171,23 +170,24 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": []
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 108,
       "end": 129,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 112,
           "end": 128,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 112,
@@ -201,12 +201,10 @@ __ESTREE_TEST__:PASS:
             "type": "NewExpression",
             "start": 116,
             "end": 128,
-            "arguments": [],
             "callee": {
               "type": "CallExpression",
               "start": 121,
               "end": 125,
-              "arguments": [],
               "callee": {
                 "type": "Identifier",
                 "start": 121,
@@ -216,15 +214,17 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
-              "typeArguments": null
+              "typeArguments": null,
+              "arguments": [],
+              "optional": false
             },
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": []
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

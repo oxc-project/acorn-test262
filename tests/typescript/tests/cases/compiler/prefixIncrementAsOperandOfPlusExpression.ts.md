@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 10,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 9,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,24 +28,24 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 8,
             "end": 9,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 11,
       "end": 21,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 15,
           "end": 20,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 15,
@@ -59,27 +59,29 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 19,
             "end": 20,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 22,
       "end": 28,
-      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 22,
         "end": 27,
+        "operator": "+",
         "argument": {
           "type": "UpdateExpression",
           "start": 24,
           "end": 27,
+          "operator": "++",
+          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 26,
@@ -88,27 +90,27 @@ __ESTREE_TEST__:PASS:
             "name": "x",
             "optional": false,
             "typeAnnotation": null
-          },
-          "operator": "++",
-          "prefix": true
+          }
         },
-        "operator": "+",
         "prefix": true
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 29,
       "end": 35,
-      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 29,
         "end": 34,
+        "operator": "+",
         "argument": {
           "type": "UpdateExpression",
           "start": 31,
           "end": 34,
+          "operator": "++",
+          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 33,
@@ -117,13 +119,11 @@ __ESTREE_TEST__:PASS:
             "name": "y",
             "optional": false,
             "typeAnnotation": null
-          },
-          "operator": "++",
-          "prefix": true
+          }
         },
-        "operator": "+",
         "prefix": true
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

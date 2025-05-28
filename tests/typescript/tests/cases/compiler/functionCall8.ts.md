@@ -9,16 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 25,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 23,
-        "end": 25,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -28,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -49,26 +43,22 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 23,
+        "end": 25,
+        "body": []
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
       "start": 26,
       "end": 37,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 26,
         "end": 36,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 30,
-            "end": 35,
-            "raw": "'foo'",
-            "value": "foo"
-          }
-        ],
         "callee": {
           "type": "Identifier",
           "start": 26,
@@ -78,35 +68,28 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 30,
+            "end": 35,
+            "value": "foo",
+            "raw": "'foo'"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 39,
       "end": 57,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 39,
         "end": 56,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 43,
-            "end": 48,
-            "raw": "'foo'",
-            "value": "foo"
-          },
-          {
-            "type": "Literal",
-            "start": 50,
-            "end": 55,
-            "raw": "'bar'",
-            "value": "bar"
-          }
-        ],
         "callee": {
           "type": "Identifier",
           "start": 39,
@@ -116,28 +99,35 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 43,
+            "end": 48,
+            "value": "foo",
+            "raw": "'foo'"
+          },
+          {
+            "type": "Literal",
+            "start": 50,
+            "end": 55,
+            "value": "bar",
+            "raw": "'bar'"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 59,
       "end": 66,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 59,
         "end": 65,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 63,
-            "end": 64,
-            "raw": "4",
-            "value": 4
-          }
-        ],
         "callee": {
           "type": "Identifier",
           "start": 59,
@@ -147,20 +137,28 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 63,
+            "end": 64,
+            "value": 4,
+            "raw": "4"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 67,
       "end": 73,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 67,
         "end": 72,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 67,
@@ -170,9 +168,11 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

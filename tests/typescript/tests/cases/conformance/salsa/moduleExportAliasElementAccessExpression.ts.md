@@ -9,16 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 17,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 14,
-        "end": 17,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -28,15 +18,24 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 14,
+        "end": 17,
+        "body": []
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
       "start": 18,
       "end": 35,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 18,
@@ -46,7 +45,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 18,
           "end": 30,
-          "computed": true,
           "object": {
             "type": "Identifier",
             "start": 18,
@@ -56,14 +54,15 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Literal",
             "start": 26,
             "end": 29,
-            "raw": "\"D\"",
-            "value": "D"
-          }
+            "value": "D",
+            "raw": "\"D\""
+          },
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Identifier",
@@ -74,13 +73,13 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 126,
       "end": 159,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 126,
@@ -90,7 +89,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 126,
           "end": 154,
-          "computed": true,
           "object": {
             "type": "Identifier",
             "start": 126,
@@ -100,14 +98,15 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Literal",
             "start": 134,
             "end": 153,
-            "raw": "\"Does not work yet\"",
-            "value": "Does not work yet"
-          }
+            "value": "Does not work yet",
+            "raw": "\"Does not work yet\""
+          },
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Identifier",
@@ -118,7 +117,8 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

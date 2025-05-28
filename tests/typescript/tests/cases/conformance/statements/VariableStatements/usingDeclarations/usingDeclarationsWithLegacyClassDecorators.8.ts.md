@@ -9,22 +9,22 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 10,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "VariableDeclaration",
       "start": 12,
       "end": 33,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 24,
           "end": 32,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 24,
@@ -43,29 +43,20 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 40,
       "end": 58,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 47,
         "end": 58,
-        "abstract": false,
-        "body": {
-          "type": "ClassBody",
-          "start": 55,
-          "end": 58,
-          "body": []
-        },
-        "declare": false,
         "decorators": [
           {
             "type": "Decorator",
@@ -91,25 +82,34 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "implements": [],
+        "typeParameters": null,
         "superClass": null,
         "superTypeArguments": null,
-        "typeParameters": null
+        "implements": [],
+        "body": {
+          "type": "ClassBody",
+          "start": 55,
+          "end": 58,
+          "body": []
+        },
+        "abstract": false,
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "VariableDeclaration",
       "start": 60,
       "end": 79,
+      "kind": "using",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 66,
           "end": 78,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 66,
@@ -123,13 +123,13 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 74,
             "end": 78,
-            "raw": "null",
-            "value": null
-          }
+            "value": null,
+            "raw": "null"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "using"
+      "declare": false
     }
   ],
   "sourceType": "module",

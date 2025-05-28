@@ -9,46 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 25,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 8,
-        "end": 25,
-        "body": [
-          {
-            "type": "PropertyDefinition",
-            "start": 14,
-            "end": 23,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
-            "key": {
-              "type": "Identifier",
-              "start": 14,
-              "end": 18,
-              "decorators": [],
-              "name": "blub",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": null,
-            "value": {
-              "type": "Literal",
-              "start": 21,
-              "end": 22,
-              "raw": "6",
-              "value": 6
-            }
-          }
-        ]
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -59,128 +19,55 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
-    },
-    {
-      "type": "ClassDeclaration",
-      "start": 28,
-      "end": 143,
-      "abstract": false,
+      "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 46,
-        "end": 143,
+        "start": 8,
+        "end": 25,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 53,
-            "end": 63,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
+            "start": 14,
+            "end": 23,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 53,
-              "end": 57,
+              "start": 14,
+              "end": 18,
               "decorators": [],
               "name": "blub",
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": null,
             "value": {
               "type": "Literal",
-              "start": 60,
-              "end": 62,
-              "raw": "12",
-              "value": 12
-            }
-          },
-          {
-            "type": "MethodDefinition",
-            "start": 69,
-            "end": 141,
-            "accessibility": null,
-            "computed": false,
-            "decorators": [],
-            "key": {
-              "type": "Identifier",
-              "start": 69,
-              "end": 80,
-              "decorators": [],
-              "name": "constructor",
-              "optional": false,
-              "typeAnnotation": null
+              "start": 21,
+              "end": 22,
+              "value": 6,
+              "raw": "6"
             },
-            "kind": "constructor",
-            "optional": false,
-            "override": false,
+            "computed": false,
             "static": false,
-            "value": {
-              "type": "FunctionExpression",
-              "start": 80,
-              "end": 141,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 83,
-                "end": 141,
-                "body": [
-                  {
-                    "type": "ExpressionStatement",
-                    "start": 93,
-                    "end": 119,
-                    "directive": "someStringForEgngInject",
-                    "expression": {
-                      "type": "Literal",
-                      "start": 93,
-                      "end": 118,
-                      "raw": "'someStringForEgngInject'",
-                      "value": "someStringForEgngInject"
-                    }
-                  },
-                  {
-                    "type": "ExpressionStatement",
-                    "start": 128,
-                    "end": 135,
-                    "directive": null,
-                    "expression": {
-                      "type": "CallExpression",
-                      "start": 128,
-                      "end": 135,
-                      "arguments": [],
-                      "callee": {
-                        "type": "Super",
-                        "start": 128,
-                        "end": 133
-                      },
-                      "optional": false,
-                      "typeArguments": null
-                    }
-                  }
-                ]
-              },
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
+      "abstract": false,
+      "declare": false
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 28,
+      "end": 143,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -191,7 +78,7 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": {
         "type": "Identifier",
         "start": 44,
@@ -202,7 +89,120 @@ __ESTREE_TEST__:PASS:
         "typeAnnotation": null
       },
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 46,
+        "end": 143,
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "start": 53,
+            "end": 63,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 53,
+              "end": 57,
+              "decorators": [],
+              "name": "blub",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeAnnotation": null,
+            "value": {
+              "type": "Literal",
+              "start": 60,
+              "end": 62,
+              "value": 12,
+              "raw": "12"
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
+          },
+          {
+            "type": "MethodDefinition",
+            "start": 69,
+            "end": 141,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 69,
+              "end": 80,
+              "decorators": [],
+              "name": "constructor",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "value": {
+              "type": "FunctionExpression",
+              "start": 80,
+              "end": 141,
+              "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
+              "body": {
+                "type": "BlockStatement",
+                "start": 83,
+                "end": 141,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 93,
+                    "end": 119,
+                    "expression": {
+                      "type": "Literal",
+                      "start": 93,
+                      "end": 118,
+                      "value": "someStringForEgngInject",
+                      "raw": "'someStringForEgngInject'"
+                    },
+                    "directive": "someStringForEgngInject"
+                  },
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 128,
+                    "end": 135,
+                    "expression": {
+                      "type": "CallExpression",
+                      "start": 128,
+                      "end": 135,
+                      "callee": {
+                        "type": "Super",
+                        "start": 128,
+                        "end": 133
+                      },
+                      "typeArguments": null,
+                      "arguments": [],
+                      "optional": false
+                    },
+                    "directive": null
+                  }
+                ]
+              },
+              "expression": false
+            },
+            "kind": "constructor",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null
+          }
+        ]
+      },
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

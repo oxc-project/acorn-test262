@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 30,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 30,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -33,7 +33,6 @@ __ESTREE_TEST__:PASS:
               "type": "MemberExpression",
               "start": 15,
               "end": 25,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 15,
@@ -43,7 +42,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 17,
@@ -52,7 +50,9 @@ __ESTREE_TEST__:PASS:
                 "name": "GLOBSTAR",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             },
             "right": {
               "type": "ObjectExpression",
@@ -60,26 +60,16 @@ __ESTREE_TEST__:PASS:
               "end": 30,
               "properties": []
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 31,
       "end": 47,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 44,
-        "end": 47,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 40,
@@ -89,15 +79,24 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 44,
+        "end": 47,
+        "body": []
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
       "start": 48,
       "end": 62,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 48,
@@ -107,7 +106,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 48,
           "end": 58,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 48,
@@ -117,7 +115,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 57,
@@ -126,22 +123,24 @@ __ESTREE_TEST__:PASS:
             "name": "p",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
           "start": 61,
           "end": 62,
-          "raw": "1",
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 63,
       "end": 79,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 63,
@@ -151,12 +150,10 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 63,
           "end": 75,
-          "computed": false,
           "object": {
             "type": "MemberExpression",
             "start": 63,
             "end": 73,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 63,
@@ -166,7 +163,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 65,
@@ -175,9 +171,10 @@ __ESTREE_TEST__:PASS:
               "name": "GLOBSTAR",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "optional": false,
+            "computed": false
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 74,
@@ -186,27 +183,28 @@ __ESTREE_TEST__:PASS:
             "name": "q",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
           "start": 78,
           "end": 79,
-          "raw": "2",
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 81,
       "end": 91,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 81,
         "end": 91,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 81,
@@ -216,7 +214,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 90,
@@ -225,19 +222,20 @@ __ESTREE_TEST__:PASS:
           "name": "p",
           "optional": false,
           "typeAnnotation": null
-        }
-      }
+        },
+        "optional": false,
+        "computed": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 92,
       "end": 102,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 92,
         "end": 102,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 92,
@@ -247,7 +245,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 101,
@@ -256,24 +253,24 @@ __ESTREE_TEST__:PASS:
           "name": "q",
           "optional": false,
           "typeAnnotation": null
-        }
-      }
+        },
+        "optional": false,
+        "computed": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 103,
       "end": 115,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 103,
         "end": 115,
-        "computed": false,
         "object": {
           "type": "MemberExpression",
           "start": 103,
           "end": 113,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 103,
@@ -283,7 +280,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 105,
@@ -292,9 +288,10 @@ __ESTREE_TEST__:PASS:
             "name": "GLOBSTAR",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 114,
@@ -303,24 +300,24 @@ __ESTREE_TEST__:PASS:
           "name": "p",
           "optional": false,
           "typeAnnotation": null
-        }
-      }
+        },
+        "optional": false,
+        "computed": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 116,
       "end": 128,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 116,
         "end": 128,
-        "computed": false,
         "object": {
           "type": "MemberExpression",
           "start": 116,
           "end": 126,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 116,
@@ -330,7 +327,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 118,
@@ -339,9 +335,10 @@ __ESTREE_TEST__:PASS:
             "name": "GLOBSTAR",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 127,
@@ -350,8 +347,11 @@ __ESTREE_TEST__:PASS:
           "name": "q",
           "optional": false,
           "typeAnnotation": null
-        }
-      }
+        },
+        "optional": false,
+        "computed": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

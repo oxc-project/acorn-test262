@@ -10,6 +10,37 @@ __ESTREE_TEST__:PASS:
       "start": 0,
       "end": 38,
       "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 5,
+        "end": 11,
+        "kind": "var",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 9,
+            "end": 11,
+            "id": {
+              "type": "Identifier",
+              "start": 9,
+              "end": 11,
+              "decorators": [],
+              "name": "_a",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "init": null,
+            "definite": false
+          }
+        ],
+        "declare": false
+      },
+      "right": {
+        "type": "ArrayExpression",
+        "start": 15,
+        "end": 17,
+        "elements": []
+      },
       "body": {
         "type": "BlockStatement",
         "start": 19,
@@ -19,12 +50,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 25,
             "end": 36,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 29,
                 "end": 35,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 29,
@@ -42,44 +73,13 @@ __ESTREE_TEST__:PASS:
                   "name": "_a",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           }
         ]
-      },
-      "left": {
-        "type": "VariableDeclaration",
-        "start": 5,
-        "end": 11,
-        "declarations": [
-          {
-            "type": "VariableDeclarator",
-            "start": 9,
-            "end": 11,
-            "definite": false,
-            "id": {
-              "type": "Identifier",
-              "start": 9,
-              "end": 11,
-              "decorators": [],
-              "name": "_a",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "init": null
-          }
-        ],
-        "declare": false,
-        "kind": "var"
-      },
-      "right": {
-        "type": "ArrayExpression",
-        "start": 15,
-        "end": 17,
-        "elements": []
       }
     }
   ],

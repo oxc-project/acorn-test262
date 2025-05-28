@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 41,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 40,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,6 +28,16 @@ __ESTREE_TEST__:PASS:
             "type": "NewExpression",
             "start": 10,
             "end": 40,
+            "callee": {
+              "type": "Identifier",
+              "start": 14,
+              "end": 17,
+              "decorators": [],
+              "name": "Map",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null,
             "arguments": [
               {
                 "type": "ArrayExpression",
@@ -43,15 +53,15 @@ __ESTREE_TEST__:PASS:
                         "type": "Literal",
                         "start": 20,
                         "end": 22,
-                        "raw": "\"\"",
-                        "value": ""
+                        "value": "",
+                        "raw": "\"\""
                       },
                       {
                         "type": "Literal",
                         "start": 24,
                         "end": 28,
-                        "raw": "true",
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       }
                     ]
                   },
@@ -64,89 +74,42 @@ __ESTREE_TEST__:PASS:
                         "type": "Literal",
                         "start": 32,
                         "end": 34,
-                        "raw": "\"\"",
-                        "value": ""
+                        "value": "",
+                        "raw": "\"\""
                       },
                       {
                         "type": "Literal",
                         "start": 36,
                         "end": 37,
-                        "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "raw": "0"
                       }
                     ]
                   }
                 ]
               }
-            ],
-            "callee": {
-              "type": "Identifier",
-              "start": 14,
-              "end": 17,
-              "decorators": [],
-              "name": "Map",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeArguments": null
-          }
+            ]
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ForOfStatement",
       "start": 42,
       "end": 83,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 66,
-        "end": 83,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 72,
-            "end": 74,
-            "directive": null,
-            "expression": {
-              "type": "Identifier",
-              "start": 72,
-              "end": 73,
-              "decorators": [],
-              "name": "k",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 79,
-            "end": 81,
-            "directive": null,
-            "expression": {
-              "type": "Identifier",
-              "start": 79,
-              "end": 80,
-              "decorators": [],
-              "name": "v",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
-        ]
-      },
       "left": {
         "type": "VariableDeclaration",
         "start": 47,
         "end": 57,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 51,
             "end": 57,
-            "definite": false,
             "id": {
               "type": "ArrayPattern",
               "start": 51,
@@ -175,11 +138,11 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
       "right": {
         "type": "Identifier",
@@ -189,6 +152,43 @@ __ESTREE_TEST__:PASS:
         "name": "map",
         "optional": false,
         "typeAnnotation": null
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 66,
+        "end": 83,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 72,
+            "end": 74,
+            "expression": {
+              "type": "Identifier",
+              "start": 72,
+              "end": 73,
+              "decorators": [],
+              "name": "k",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 79,
+            "end": 81,
+            "expression": {
+              "type": "Identifier",
+              "start": 79,
+              "end": 80,
+              "decorators": [],
+              "name": "v",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "directive": null
+          }
+        ]
       }
     }
   ],

@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSEnumDeclaration",
       "start": 0,
       "end": 32,
+      "id": {
+        "type": "Identifier",
+        "start": 5,
+        "end": 15,
+        "decorators": [],
+        "name": "MyEnumType",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSEnumBody",
         "start": 16,
@@ -18,7 +27,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 22,
             "end": 25,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 22,
@@ -28,13 +36,13 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 27,
             "end": 30,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 27,
@@ -44,32 +52,24 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           }
         ]
       },
       "const": false,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 5,
-        "end": 15,
-        "decorators": [],
-        "name": "MyEnumType",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 33,
       "end": 76,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 37,
           "end": 76,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 37,
@@ -93,7 +93,7 @@ __ESTREE_TEST__:PASS:
                     "type": "Property",
                     "start": 47,
                     "end": 57,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 47,
@@ -103,17 +103,17 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "kind": "init",
-                    "method": false,
-                    "optional": false,
-                    "shorthand": false,
                     "value": {
                       "type": "Literal",
                       "start": 52,
                       "end": 57,
-                      "raw": "'foo'",
-                      "value": "foo"
-                    }
+                      "value": "foo",
+                      "raw": "'foo'"
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "optional": false
                   }
                 ]
               },
@@ -126,7 +126,7 @@ __ESTREE_TEST__:PASS:
                     "type": "Property",
                     "start": 63,
                     "end": 73,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 63,
@@ -136,37 +136,37 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "kind": "init",
-                    "method": false,
-                    "optional": false,
-                    "shorthand": false,
                     "value": {
                       "type": "Literal",
                       "start": 68,
                       "end": 73,
-                      "raw": "'bar'",
-                      "value": "bar"
-                    }
+                      "value": "bar",
+                      "raw": "'bar'"
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "optional": false
                   }
                 ]
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 77,
       "end": 108,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 81,
           "end": 107,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 81,
@@ -180,7 +180,6 @@ __ESTREE_TEST__:PASS:
             "type": "MemberExpression",
             "start": 93,
             "end": 107,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 93,
@@ -190,7 +189,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 104,
@@ -199,23 +197,25 @@ __ESTREE_TEST__:PASS:
               "name": "foo",
               "optional": false,
               "typeAnnotation": null
-            }
-          }
+            },
+            "optional": false,
+            "computed": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 109,
       "end": 164,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 113,
           "end": 163,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 113,
@@ -229,71 +229,40 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 117,
             "end": 163,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 117,
+              "end": 125,
+              "object": {
+                "type": "Identifier",
+                "start": 117,
+                "end": 121,
+                "decorators": [],
+                "name": "_arr",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 122,
+                "end": 125,
+                "decorators": [],
+                "name": "map",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "optional": false,
+              "computed": false
+            },
+            "typeArguments": null,
             "arguments": [
               {
                 "type": "ArrowFunctionExpression",
                 "start": 126,
                 "end": 162,
-                "async": false,
-                "body": {
-                  "type": "BinaryExpression",
-                  "start": 131,
-                  "end": 162,
-                  "operator": "===",
-                  "left": {
-                    "type": "MemberExpression",
-                    "start": 131,
-                    "end": 148,
-                    "computed": true,
-                    "object": {
-                      "type": "Identifier",
-                      "start": 131,
-                      "end": 141,
-                      "decorators": [],
-                      "name": "MyEnumType",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "optional": false,
-                    "property": {
-                      "type": "MemberExpression",
-                      "start": 142,
-                      "end": 147,
-                      "computed": false,
-                      "object": {
-                        "type": "Identifier",
-                        "start": 142,
-                        "end": 143,
-                        "decorators": [],
-                        "name": "o",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "optional": false,
-                      "property": {
-                        "type": "Identifier",
-                        "start": 144,
-                        "end": 147,
-                        "decorators": [],
-                        "name": "key",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    }
-                  },
-                  "right": {
-                    "type": "Identifier",
-                    "start": 153,
-                    "end": 162,
-                    "decorators": [],
-                    "name": "enumValue",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
                 "expression": true,
-                "generator": false,
-                "id": null,
+                "async": false,
+                "typeParameters": null,
                 "params": [
                   {
                     "type": "Identifier",
@@ -306,41 +275,72 @@ __ESTREE_TEST__:PASS:
                   }
                 ],
                 "returnType": null,
-                "typeParameters": null
+                "body": {
+                  "type": "BinaryExpression",
+                  "start": 131,
+                  "end": 162,
+                  "left": {
+                    "type": "MemberExpression",
+                    "start": 131,
+                    "end": 148,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 131,
+                      "end": 141,
+                      "decorators": [],
+                      "name": "MyEnumType",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "property": {
+                      "type": "MemberExpression",
+                      "start": 142,
+                      "end": 147,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 142,
+                        "end": 143,
+                        "decorators": [],
+                        "name": "o",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 144,
+                        "end": 147,
+                        "decorators": [],
+                        "name": "key",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "optional": false,
+                      "computed": false
+                    },
+                    "optional": false,
+                    "computed": true
+                  },
+                  "operator": "===",
+                  "right": {
+                    "type": "Identifier",
+                    "start": 153,
+                    "end": 162,
+                    "decorators": [],
+                    "name": "enumValue",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                },
+                "id": null,
+                "generator": false
               }
             ],
-            "callee": {
-              "type": "MemberExpression",
-              "start": 117,
-              "end": 125,
-              "computed": false,
-              "object": {
-                "type": "Identifier",
-                "start": 117,
-                "end": 121,
-                "decorators": [],
-                "name": "_arr",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "property": {
-                "type": "Identifier",
-                "start": 122,
-                "end": 125,
-                "decorators": [],
-                "name": "map",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            },
-            "optional": false,
-            "typeArguments": null
-          }
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

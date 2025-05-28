@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 25,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 24,
-          "definite": false,
           "id": {
             "type": "ArrayPattern",
             "start": 4,
@@ -35,14 +35,14 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "right": {
                   "type": "Literal",
                   "start": 9,
                   "end": 11,
-                  "raw": "20",
-                  "value": 20
+                  "value": 20,
+                  "raw": "20"
                 },
+                "optional": false,
                 "typeAnnotation": null
               },
               {
@@ -67,22 +67,22 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 19,
                 "end": 20,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 22,
                 "end": 23,
-                "raw": "2",
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

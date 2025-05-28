@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 54,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 18,
-        "end": 31,
-        "raw": "\"./data.json\"",
-        "value": "./data.json"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -33,6 +25,13 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 18,
+        "end": 31,
+        "value": "./data.json",
+        "raw": "\"./data.json\""
+      },
       "phase": null,
       "attributes": [
         {
@@ -52,22 +51,23 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 45,
             "end": 51,
-            "raw": "\"json\"",
-            "value": "json"
+            "value": "json",
+            "raw": "\"json\""
           }
         }
-      ]
+      ],
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 55,
       "end": 125,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 61,
           "end": 124,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 61,
@@ -85,6 +85,13 @@ __ESTREE_TEST__:PASS:
               "type": "ImportExpression",
               "start": 75,
               "end": 124,
+              "source": {
+                "type": "Literal",
+                "start": 82,
+                "end": 95,
+                "value": "./data.json",
+                "raw": "\"./data.json\""
+              },
               "options": {
                 "type": "ObjectExpression",
                 "start": 97,
@@ -94,7 +101,7 @@ __ESTREE_TEST__:PASS:
                     "type": "Property",
                     "start": 99,
                     "end": 121,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 99,
@@ -104,10 +111,6 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "kind": "init",
-                    "method": false,
-                    "optional": false,
-                    "shorthand": false,
                     "value": {
                       "type": "ObjectExpression",
                       "start": 105,
@@ -117,7 +120,7 @@ __ESTREE_TEST__:PASS:
                           "type": "Property",
                           "start": 107,
                           "end": 119,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Identifier",
                             "start": 107,
@@ -127,37 +130,34 @@ __ESTREE_TEST__:PASS:
                             "optional": false,
                             "typeAnnotation": null
                           },
-                          "kind": "init",
-                          "method": false,
-                          "optional": false,
-                          "shorthand": false,
                           "value": {
                             "type": "Literal",
                             "start": 113,
                             "end": 119,
-                            "raw": "\"json\"",
-                            "value": "json"
-                          }
+                            "value": "json",
+                            "raw": "\"json\""
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "optional": false
                         }
                       ]
-                    }
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "optional": false
                   }
                 ]
               },
-              "source": {
-                "type": "Literal",
-                "start": 82,
-                "end": 95,
-                "raw": "\"./data.json\"",
-                "value": "./data.json"
-              },
               "phase": null
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "module",

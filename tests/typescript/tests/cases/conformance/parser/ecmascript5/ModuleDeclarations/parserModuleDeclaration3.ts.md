@@ -9,38 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 46,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 17,
-        "end": 46,
-        "body": [
-          {
-            "type": "TSModuleDeclaration",
-            "start": 21,
-            "end": 44,
-            "body": {
-              "type": "TSModuleBlock",
-              "start": 39,
-              "end": 44,
-              "body": []
-            },
-            "declare": true,
-            "global": false,
-            "id": {
-              "type": "Identifier",
-              "start": 36,
-              "end": 38,
-              "decorators": [],
-              "name": "M2",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "kind": "module"
-          }
-        ]
-      },
-      "declare": true,
-      "global": false,
       "id": {
         "type": "Identifier",
         "start": 15,
@@ -50,7 +18,39 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "module"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 17,
+        "end": 46,
+        "body": [
+          {
+            "type": "TSModuleDeclaration",
+            "start": 21,
+            "end": 44,
+            "id": {
+              "type": "Identifier",
+              "start": 36,
+              "end": 38,
+              "decorators": [],
+              "name": "M2",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "body": {
+              "type": "TSModuleBlock",
+              "start": 39,
+              "end": 44,
+              "body": []
+            },
+            "kind": "module",
+            "declare": true,
+            "global": false
+          }
+        ]
+      },
+      "kind": "module",
+      "declare": true,
+      "global": false
     }
   ],
   "sourceType": "script",

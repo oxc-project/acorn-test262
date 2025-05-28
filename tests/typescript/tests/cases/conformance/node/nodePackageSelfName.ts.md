@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 19,
       "end": 51,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 41,
-        "end": 50,
-        "raw": "\"package\"",
-        "value": "package"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -33,14 +25,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 41,
+        "end": 50,
+        "value": "package",
+        "raw": "\"package\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 52,
       "end": 57,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 52,
@@ -49,7 +48,8 @@ __ESTREE_TEST__:PASS:
         "name": "self",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",
@@ -67,14 +67,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 19,
       "end": 51,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 41,
-        "end": 50,
-        "raw": "\"package\"",
-        "value": "package"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -91,14 +83,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 41,
+        "end": 50,
+        "value": "package",
+        "raw": "\"package\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 52,
       "end": 57,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 52,
@@ -107,7 +106,8 @@ __ESTREE_TEST__:PASS:
         "name": "self",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",
@@ -125,14 +125,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 19,
       "end": 51,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 41,
-        "end": 50,
-        "raw": "\"package\"",
-        "value": "package"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -149,14 +141,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 41,
+        "end": 50,
+        "value": "package",
+        "raw": "\"package\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 52,
       "end": 57,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 52,
@@ -165,7 +164,8 @@ __ESTREE_TEST__:PASS:
         "name": "self",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

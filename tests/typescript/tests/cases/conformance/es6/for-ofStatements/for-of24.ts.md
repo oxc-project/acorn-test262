@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 11,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 10,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -33,33 +33,27 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ForOfStatement",
       "start": 12,
       "end": 32,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 29,
-        "end": 32,
-        "body": []
-      },
       "left": {
         "type": "VariableDeclaration",
         "start": 17,
         "end": 22,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 21,
             "end": 22,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 21,
@@ -69,11 +63,11 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
       "right": {
         "type": "Identifier",
@@ -83,6 +77,12 @@ __ESTREE_TEST__:PASS:
         "name": "x",
         "optional": false,
         "typeAnnotation": null
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 29,
+        "end": 32,
+        "body": []
       }
     }
   ],

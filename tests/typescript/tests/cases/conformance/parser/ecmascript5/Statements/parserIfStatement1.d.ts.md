@@ -9,13 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "IfStatement",
       "start": 0,
       "end": 12,
-      "alternate": null,
-      "consequent": {
-        "type": "BlockStatement",
-        "start": 9,
-        "end": 12,
-        "body": []
-      },
       "test": {
         "type": "Identifier",
         "start": 4,
@@ -24,7 +17,14 @@ __ESTREE_TEST__:PASS:
         "name": "foo",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 9,
+        "end": 12,
+        "body": []
+      },
+      "alternate": null
     }
   ],
   "sourceType": "script",

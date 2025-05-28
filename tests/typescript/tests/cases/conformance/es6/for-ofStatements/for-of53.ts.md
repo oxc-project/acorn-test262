@@ -10,48 +10,16 @@ __ESTREE_TEST__:PASS:
       "start": 0,
       "end": 32,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 18,
-        "end": 32,
-        "body": [
-          {
-            "type": "VariableDeclaration",
-            "start": 24,
-            "end": 30,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 28,
-                "end": 29,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 28,
-                  "end": 29,
-                  "decorators": [],
-                  "name": "v",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "init": null
-              }
-            ],
-            "declare": false,
-            "kind": "var"
-          }
-        ]
-      },
       "left": {
         "type": "VariableDeclaration",
         "start": 5,
         "end": 10,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 9,
             "end": 10,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 9,
@@ -61,17 +29,49 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "let"
+        "declare": false
       },
       "right": {
         "type": "ArrayExpression",
         "start": 14,
         "end": 16,
         "elements": []
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 18,
+        "end": 32,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 24,
+            "end": 30,
+            "kind": "var",
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 28,
+                "end": 29,
+                "id": {
+                  "type": "Identifier",
+                  "start": 28,
+                  "end": 29,
+                  "decorators": [],
+                  "name": "v",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "init": null,
+                "definite": false
+              }
+            ],
+            "declare": false
+          }
+        ]
       }
     }
   ],

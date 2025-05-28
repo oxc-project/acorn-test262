@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 21,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 12,
           "end": 20,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
@@ -33,17 +33,30 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "ClassDeclaration",
       "start": 23,
       "end": 86,
-      "abstract": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 37,
+        "end": 41,
+        "decorators": [],
+        "name": "Base",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
       "body": {
         "type": "ClassBody",
         "start": 42,
@@ -53,8 +66,6 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 48,
             "end": 84,
-            "accessibility": null,
-            "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
@@ -65,25 +76,21 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": true,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
               "start": 61,
               "end": 84,
-              "async": false,
-              "body": null,
-              "declare": false,
-              "expression": false,
-              "generator": false,
               "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "RestElement",
                   "start": 62,
                   "end": 76,
+                  "decorators": [],
                   "argument": {
                     "type": "Identifier",
                     "start": 65,
@@ -93,7 +100,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "decorators": [],
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
@@ -123,37 +129,31 @@ __ESTREE_TEST__:PASS:
                   "end": 83
                 }
               },
-              "typeParameters": null
-            }
+              "body": null,
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true,
+            "override": false,
+            "optional": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": true,
-      "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 37,
-        "end": 41,
-        "decorators": [],
-        "name": "Base",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
       "start": 88,
       "end": 112,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 94,
           "end": 111,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 94,
@@ -167,288 +167,18 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 103,
             "end": 111,
-            "raw": "\"method\"",
-            "value": "method"
-          }
+            "value": "method",
+            "raw": "\"method\""
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 114,
       "end": 315,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 140,
-        "end": 315,
-        "body": [
-          {
-            "type": "StaticBlock",
-            "start": 146,
-            "end": 313,
-            "body": [
-              {
-                "type": "ExpressionStatement",
-                "start": 163,
-                "end": 178,
-                "directive": null,
-                "expression": {
-                  "type": "CallExpression",
-                  "start": 163,
-                  "end": 177,
-                  "arguments": [],
-                  "callee": {
-                    "type": "MemberExpression",
-                    "start": 163,
-                    "end": 175,
-                    "computed": false,
-                    "object": {
-                      "type": "Super",
-                      "start": 163,
-                      "end": 168
-                    },
-                    "optional": false,
-                    "property": {
-                      "type": "Identifier",
-                      "start": 169,
-                      "end": 175,
-                      "decorators": [],
-                      "name": "method",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  },
-                  "optional": false,
-                  "typeArguments": null
-                }
-              },
-              {
-                "type": "ExpressionStatement",
-                "start": 187,
-                "end": 205,
-                "directive": null,
-                "expression": {
-                  "type": "CallExpression",
-                  "start": 187,
-                  "end": 204,
-                  "arguments": [],
-                  "callee": {
-                    "type": "MemberExpression",
-                    "start": 187,
-                    "end": 202,
-                    "computed": true,
-                    "object": {
-                      "type": "Super",
-                      "start": 187,
-                      "end": 192
-                    },
-                    "optional": false,
-                    "property": {
-                      "type": "Literal",
-                      "start": 193,
-                      "end": 201,
-                      "raw": "\"method\"",
-                      "value": "method"
-                    }
-                  },
-                  "optional": false,
-                  "typeArguments": null
-                }
-              },
-              {
-                "type": "ExpressionStatement",
-                "start": 214,
-                "end": 230,
-                "directive": null,
-                "expression": {
-                  "type": "CallExpression",
-                  "start": 214,
-                  "end": 229,
-                  "arguments": [],
-                  "callee": {
-                    "type": "MemberExpression",
-                    "start": 214,
-                    "end": 227,
-                    "computed": true,
-                    "object": {
-                      "type": "Super",
-                      "start": 214,
-                      "end": 219
-                    },
-                    "optional": false,
-                    "property": {
-                      "type": "Identifier",
-                      "start": 220,
-                      "end": 226,
-                      "decorators": [],
-                      "name": "method",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  },
-                  "optional": false,
-                  "typeArguments": null
-                }
-              },
-              {
-                "type": "ExpressionStatement",
-                "start": 240,
-                "end": 255,
-                "directive": null,
-                "expression": {
-                  "type": "TaggedTemplateExpression",
-                  "start": 240,
-                  "end": 254,
-                  "quasi": {
-                    "type": "TemplateLiteral",
-                    "start": 252,
-                    "end": 254,
-                    "expressions": [],
-                    "quasis": [
-                      {
-                        "type": "TemplateElement",
-                        "start": 252,
-                        "end": 254,
-                        "tail": true,
-                        "value": {
-                          "cooked": "",
-                          "raw": ""
-                        }
-                      }
-                    ]
-                  },
-                  "tag": {
-                    "type": "MemberExpression",
-                    "start": 240,
-                    "end": 252,
-                    "computed": false,
-                    "object": {
-                      "type": "Super",
-                      "start": 240,
-                      "end": 245
-                    },
-                    "optional": false,
-                    "property": {
-                      "type": "Identifier",
-                      "start": 246,
-                      "end": 252,
-                      "decorators": [],
-                      "name": "method",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  },
-                  "typeArguments": null
-                }
-              },
-              {
-                "type": "ExpressionStatement",
-                "start": 264,
-                "end": 282,
-                "directive": null,
-                "expression": {
-                  "type": "TaggedTemplateExpression",
-                  "start": 264,
-                  "end": 281,
-                  "quasi": {
-                    "type": "TemplateLiteral",
-                    "start": 279,
-                    "end": 281,
-                    "expressions": [],
-                    "quasis": [
-                      {
-                        "type": "TemplateElement",
-                        "start": 279,
-                        "end": 281,
-                        "tail": true,
-                        "value": {
-                          "cooked": "",
-                          "raw": ""
-                        }
-                      }
-                    ]
-                  },
-                  "tag": {
-                    "type": "MemberExpression",
-                    "start": 264,
-                    "end": 279,
-                    "computed": true,
-                    "object": {
-                      "type": "Super",
-                      "start": 264,
-                      "end": 269
-                    },
-                    "optional": false,
-                    "property": {
-                      "type": "Literal",
-                      "start": 270,
-                      "end": 278,
-                      "raw": "\"method\"",
-                      "value": "method"
-                    }
-                  },
-                  "typeArguments": null
-                }
-              },
-              {
-                "type": "ExpressionStatement",
-                "start": 291,
-                "end": 307,
-                "directive": null,
-                "expression": {
-                  "type": "TaggedTemplateExpression",
-                  "start": 291,
-                  "end": 306,
-                  "quasi": {
-                    "type": "TemplateLiteral",
-                    "start": 304,
-                    "end": 306,
-                    "expressions": [],
-                    "quasis": [
-                      {
-                        "type": "TemplateElement",
-                        "start": 304,
-                        "end": 306,
-                        "tail": true,
-                        "value": {
-                          "cooked": "",
-                          "raw": ""
-                        }
-                      }
-                    ]
-                  },
-                  "tag": {
-                    "type": "MemberExpression",
-                    "start": 291,
-                    "end": 304,
-                    "computed": true,
-                    "object": {
-                      "type": "Super",
-                      "start": 291,
-                      "end": 296
-                    },
-                    "optional": false,
-                    "property": {
-                      "type": "Identifier",
-                      "start": 297,
-                      "end": 303,
-                      "decorators": [],
-                      "name": "method",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  },
-                  "typeArguments": null
-                }
-              }
-            ]
-          }
-        ]
-      },
-      "declare": false,
       "decorators": [
         {
           "type": "Decorator",
@@ -474,7 +204,7 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": {
         "type": "Identifier",
         "start": 135,
@@ -485,7 +215,277 @@ __ESTREE_TEST__:PASS:
         "typeAnnotation": null
       },
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 140,
+        "end": 315,
+        "body": [
+          {
+            "type": "StaticBlock",
+            "start": 146,
+            "end": 313,
+            "body": [
+              {
+                "type": "ExpressionStatement",
+                "start": 163,
+                "end": 178,
+                "expression": {
+                  "type": "CallExpression",
+                  "start": 163,
+                  "end": 177,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 163,
+                    "end": 175,
+                    "object": {
+                      "type": "Super",
+                      "start": 163,
+                      "end": 168
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 169,
+                      "end": 175,
+                      "decorators": [],
+                      "name": "method",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "optional": false,
+                    "computed": false
+                  },
+                  "typeArguments": null,
+                  "arguments": [],
+                  "optional": false
+                },
+                "directive": null
+              },
+              {
+                "type": "ExpressionStatement",
+                "start": 187,
+                "end": 205,
+                "expression": {
+                  "type": "CallExpression",
+                  "start": 187,
+                  "end": 204,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 187,
+                    "end": 202,
+                    "object": {
+                      "type": "Super",
+                      "start": 187,
+                      "end": 192
+                    },
+                    "property": {
+                      "type": "Literal",
+                      "start": 193,
+                      "end": 201,
+                      "value": "method",
+                      "raw": "\"method\""
+                    },
+                    "optional": false,
+                    "computed": true
+                  },
+                  "typeArguments": null,
+                  "arguments": [],
+                  "optional": false
+                },
+                "directive": null
+              },
+              {
+                "type": "ExpressionStatement",
+                "start": 214,
+                "end": 230,
+                "expression": {
+                  "type": "CallExpression",
+                  "start": 214,
+                  "end": 229,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 214,
+                    "end": 227,
+                    "object": {
+                      "type": "Super",
+                      "start": 214,
+                      "end": 219
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 220,
+                      "end": 226,
+                      "decorators": [],
+                      "name": "method",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "optional": false,
+                    "computed": true
+                  },
+                  "typeArguments": null,
+                  "arguments": [],
+                  "optional": false
+                },
+                "directive": null
+              },
+              {
+                "type": "ExpressionStatement",
+                "start": 240,
+                "end": 255,
+                "expression": {
+                  "type": "TaggedTemplateExpression",
+                  "start": 240,
+                  "end": 254,
+                  "tag": {
+                    "type": "MemberExpression",
+                    "start": 240,
+                    "end": 252,
+                    "object": {
+                      "type": "Super",
+                      "start": 240,
+                      "end": 245
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 246,
+                      "end": 252,
+                      "decorators": [],
+                      "name": "method",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "optional": false,
+                    "computed": false
+                  },
+                  "typeArguments": null,
+                  "quasi": {
+                    "type": "TemplateLiteral",
+                    "start": 252,
+                    "end": 254,
+                    "quasis": [
+                      {
+                        "type": "TemplateElement",
+                        "start": 252,
+                        "end": 254,
+                        "value": {
+                          "cooked": "",
+                          "raw": ""
+                        },
+                        "tail": true
+                      }
+                    ],
+                    "expressions": []
+                  }
+                },
+                "directive": null
+              },
+              {
+                "type": "ExpressionStatement",
+                "start": 264,
+                "end": 282,
+                "expression": {
+                  "type": "TaggedTemplateExpression",
+                  "start": 264,
+                  "end": 281,
+                  "tag": {
+                    "type": "MemberExpression",
+                    "start": 264,
+                    "end": 279,
+                    "object": {
+                      "type": "Super",
+                      "start": 264,
+                      "end": 269
+                    },
+                    "property": {
+                      "type": "Literal",
+                      "start": 270,
+                      "end": 278,
+                      "value": "method",
+                      "raw": "\"method\""
+                    },
+                    "optional": false,
+                    "computed": true
+                  },
+                  "typeArguments": null,
+                  "quasi": {
+                    "type": "TemplateLiteral",
+                    "start": 279,
+                    "end": 281,
+                    "quasis": [
+                      {
+                        "type": "TemplateElement",
+                        "start": 279,
+                        "end": 281,
+                        "value": {
+                          "cooked": "",
+                          "raw": ""
+                        },
+                        "tail": true
+                      }
+                    ],
+                    "expressions": []
+                  }
+                },
+                "directive": null
+              },
+              {
+                "type": "ExpressionStatement",
+                "start": 291,
+                "end": 307,
+                "expression": {
+                  "type": "TaggedTemplateExpression",
+                  "start": 291,
+                  "end": 306,
+                  "tag": {
+                    "type": "MemberExpression",
+                    "start": 291,
+                    "end": 304,
+                    "object": {
+                      "type": "Super",
+                      "start": 291,
+                      "end": 296
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 297,
+                      "end": 303,
+                      "decorators": [],
+                      "name": "method",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "optional": false,
+                    "computed": true
+                  },
+                  "typeArguments": null,
+                  "quasi": {
+                    "type": "TemplateLiteral",
+                    "start": 304,
+                    "end": 306,
+                    "quasis": [
+                      {
+                        "type": "TemplateElement",
+                        "start": 304,
+                        "end": 306,
+                        "value": {
+                          "cooked": "",
+                          "raw": ""
+                        },
+                        "tail": true
+                      }
+                    ],
+                    "expressions": []
+                  }
+                },
+                "directive": null
+              }
+            ]
+          }
+        ]
+      },
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

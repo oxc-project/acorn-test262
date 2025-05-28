@@ -10,53 +10,16 @@ __ESTREE_TEST__:PASS:
       "start": 0,
       "end": 52,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 35,
-        "end": 52,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 41,
-            "end": 43,
-            "directive": null,
-            "expression": {
-              "type": "Identifier",
-              "start": 41,
-              "end": 42,
-              "decorators": [],
-              "name": "a",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 48,
-            "end": 50,
-            "directive": null,
-            "expression": {
-              "type": "Identifier",
-              "start": 48,
-              "end": 49,
-              "decorators": [],
-              "name": "b",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
-        ]
-      },
       "left": {
         "type": "VariableDeclaration",
         "start": 5,
         "end": 23,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 9,
             "end": 23,
-            "definite": false,
             "id": {
               "type": "ArrayPattern",
               "start": 9,
@@ -77,14 +40,14 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "right": {
                     "type": "Literal",
                     "start": 14,
                     "end": 15,
-                    "raw": "0",
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
+                  "optional": false,
                   "typeAnnotation": null
                 },
                 {
@@ -101,25 +64,25 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "right": {
                     "type": "Literal",
                     "start": 21,
                     "end": 22,
-                    "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
+                  "optional": false,
                   "typeAnnotation": null
                 }
               ],
               "optional": false,
               "typeAnnotation": null
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
       "right": {
         "type": "ArrayExpression",
@@ -130,15 +93,52 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 28,
             "end": 29,
-            "raw": "2",
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 31,
             "end": 32,
-            "raw": "3",
-            "value": 3
+            "value": 3,
+            "raw": "3"
+          }
+        ]
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 35,
+        "end": 52,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 41,
+            "end": 43,
+            "expression": {
+              "type": "Identifier",
+              "start": 41,
+              "end": 42,
+              "decorators": [],
+              "name": "a",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 48,
+            "end": 50,
+            "expression": {
+              "type": "Identifier",
+              "start": 48,
+              "end": 49,
+              "decorators": [],
+              "name": "b",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "directive": null
           }
         ]
       }

@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 63,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 14,
           "end": 63,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
@@ -40,6 +40,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSCallSignatureDeclaration",
                         "start": 19,
                         "end": 39,
+                        "typeParameters": null,
                         "params": [
                           {
                             "type": "Identifier",
@@ -69,15 +70,15 @@ __ESTREE_TEST__:PASS:
                             "start": 32,
                             "end": 38
                           }
-                        },
-                        "typeParameters": null
+                        }
                       },
                       {
                         "type": "TSPropertySignature",
                         "start": 40,
                         "end": 45,
-                        "accessibility": null,
                         "computed": false,
+                        "optional": false,
+                        "readonly": false,
                         "key": {
                           "type": "Identifier",
                           "start": 40,
@@ -87,9 +88,6 @@ __ESTREE_TEST__:PASS:
                           "optional": false,
                           "typeAnnotation": null
                         },
-                        "optional": false,
-                        "readonly": false,
-                        "static": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
                           "start": 41,
@@ -102,11 +100,13 @@ __ESTREE_TEST__:PASS:
                               "type": "Literal",
                               "start": 43,
                               "end": 45,
-                              "raw": "\"\"",
-                              "value": ""
+                              "value": "",
+                              "raw": "\"\""
                             }
                           }
-                        }
+                        },
+                        "accessibility": null,
+                        "static": false
                       }
                     ]
                   },
@@ -119,8 +119,9 @@ __ESTREE_TEST__:PASS:
                         "type": "TSPropertySignature",
                         "start": 52,
                         "end": 61,
-                        "accessibility": null,
                         "computed": false,
+                        "optional": false,
+                        "readonly": false,
                         "key": {
                           "type": "Identifier",
                           "start": 52,
@@ -130,9 +131,6 @@ __ESTREE_TEST__:PASS:
                           "optional": false,
                           "typeAnnotation": null
                         },
-                        "optional": false,
-                        "readonly": false,
-                        "static": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
                           "start": 53,
@@ -142,7 +140,9 @@ __ESTREE_TEST__:PASS:
                             "start": 55,
                             "end": 61
                           }
-                        }
+                        },
+                        "accessibility": null,
+                        "static": false
                       }
                     ]
                   }
@@ -150,22 +150,20 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     },
     {
       "type": "ExpressionStatement",
       "start": 64,
       "end": 67,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 64,
         "end": 67,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 64,
@@ -175,9 +173,11 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

@@ -9,11 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 45,
-      "attributes": [],
       "declaration": {
         "type": "TSModuleDeclaration",
         "start": 7,
         "end": 45,
+        "id": {
+          "type": "Identifier",
+          "start": 14,
+          "end": 17,
+          "decorators": [],
+          "name": "Baz",
+          "optional": false,
+          "typeAnnotation": null
+        },
         "body": {
           "type": "TSModuleBlock",
           "start": 18,
@@ -23,17 +31,16 @@ __ESTREE_TEST__:PASS:
               "type": "ExportNamedDeclaration",
               "start": 20,
               "end": 43,
-              "attributes": [],
               "declaration": {
                 "type": "VariableDeclaration",
                 "start": 27,
                 "end": 43,
+                "kind": "var",
                 "declarations": [
                   {
                     "type": "VariableDeclarator",
                     "start": 31,
                     "end": 42,
-                    "definite": false,
                     "id": {
                       "type": "Identifier",
                       "start": 31,
@@ -47,42 +54,34 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 35,
                       "end": 42,
-                      "raw": "\"hello\"",
-                      "value": "hello"
-                    }
+                      "value": "hello",
+                      "raw": "\"hello\""
+                    },
+                    "definite": false
                   }
                 ],
-                "declare": false,
-                "kind": "var"
+                "declare": false
               },
-              "exportKind": "value",
+              "specifiers": [],
               "source": null,
-              "specifiers": []
+              "exportKind": "value",
+              "attributes": []
             }
           ]
         },
+        "kind": "module",
         "declare": false,
-        "global": false,
-        "id": {
-          "type": "Identifier",
-          "start": 14,
-          "end": 17,
-          "decorators": [],
-          "name": "Baz",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "kind": "module"
+        "global": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExpressionStatement",
       "start": 47,
       "end": 65,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 47,
@@ -92,7 +91,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 47,
           "end": 52,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 47,
@@ -102,7 +100,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 51,
@@ -111,36 +108,39 @@ __ESTREE_TEST__:PASS:
             "name": "x",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
           "start": 55,
           "end": 64,
-          "raw": "\"goodbye\"",
-          "value": "goodbye"
+          "value": "goodbye",
+          "raw": "\"goodbye\""
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 66,
       "end": 73,
-      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 66,
         "end": 72,
+        "operator": "void",
         "argument": {
           "type": "Literal",
           "start": 71,
           "end": 72,
-          "raw": "0",
-          "value": 0
+          "value": 0,
+          "raw": "0"
         },
-        "operator": "void",
         "prefix": true
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

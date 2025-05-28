@@ -9,56 +9,42 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 42,
-      "directive": null,
       "expression": {
         "type": "TemplateLiteral",
         "start": 0,
         "end": 41,
+        "quasis": [
+          {
+            "type": "TemplateElement",
+            "start": 0,
+            "end": 3,
+            "value": {
+              "cooked": "",
+              "raw": ""
+            },
+            "tail": false
+          },
+          {
+            "type": "TemplateElement",
+            "start": 39,
+            "end": 41,
+            "value": {
+              "cooked": "",
+              "raw": ""
+            },
+            "tail": true
+          }
+        ],
         "expressions": [
           {
             "type": "FunctionExpression",
             "start": 3,
             "end": 38,
-            "async": false,
-            "body": {
-              "type": "BlockStatement",
-              "start": 24,
-              "end": 38,
-              "body": [
-                {
-                  "type": "ExpressionStatement",
-                  "start": 26,
-                  "end": 36,
-                  "directive": null,
-                  "expression": {
-                    "type": "AssignmentExpression",
-                    "start": 26,
-                    "end": 35,
-                    "operator": "=",
-                    "left": {
-                      "type": "Identifier",
-                      "start": 26,
-                      "end": 27,
-                      "decorators": [],
-                      "name": "x",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "right": {
-                      "type": "Literal",
-                      "start": 30,
-                      "end": 35,
-                      "raw": "\"bad\"",
-                      "value": "bad"
-                    }
-                  }
-                }
-              ]
-            },
-            "declare": false,
-            "expression": false,
-            "generator": false,
             "id": null,
+            "generator": false,
+            "async": false,
+            "declare": false,
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -80,32 +66,46 @@ __ESTREE_TEST__:PASS:
               }
             ],
             "returnType": null,
-            "typeParameters": null
-          }
-        ],
-        "quasis": [
-          {
-            "type": "TemplateElement",
-            "start": 0,
-            "end": 3,
-            "tail": false,
-            "value": {
-              "cooked": "",
-              "raw": ""
-            }
-          },
-          {
-            "type": "TemplateElement",
-            "start": 39,
-            "end": 41,
-            "tail": true,
-            "value": {
-              "cooked": "",
-              "raw": ""
-            }
+            "body": {
+              "type": "BlockStatement",
+              "start": 24,
+              "end": 38,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 26,
+                  "end": 36,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 26,
+                    "end": 35,
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "start": 26,
+                      "end": 27,
+                      "decorators": [],
+                      "name": "x",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 30,
+                      "end": 35,
+                      "value": "bad",
+                      "raw": "\"bad\""
+                    }
+                  },
+                  "directive": null
+                }
+              ]
+            },
+            "expression": false
           }
         ]
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

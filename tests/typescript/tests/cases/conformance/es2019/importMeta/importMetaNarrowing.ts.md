@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 58,
+      "id": {
+        "type": "Identifier",
+        "start": 8,
+        "end": 14,
+        "decorators": [],
+        "name": "global",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 15,
@@ -18,6 +27,17 @@ __ESTREE_TEST__:PASS:
             "type": "TSInterfaceDeclaration",
             "start": 17,
             "end": 56,
+            "id": {
+              "type": "Identifier",
+              "start": 27,
+              "end": 37,
+              "decorators": [],
+              "name": "ImportMeta",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null,
+            "extends": [],
             "body": {
               "type": "TSInterfaceBody",
               "start": 38,
@@ -27,8 +47,9 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 39,
                   "end": 55,
-                  "accessibility": null,
                   "computed": false,
+                  "optional": true,
+                  "readonly": false,
                   "key": {
                     "type": "Identifier",
                     "start": 39,
@@ -38,9 +59,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": true,
-                  "readonly": false,
-                  "static": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 43,
@@ -49,6 +67,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSFunctionType",
                       "start": 45,
                       "end": 55,
+                      "typeParameters": null,
                       "params": [],
                       "returnType": {
                         "type": "TSTypeAnnotation",
@@ -59,40 +78,21 @@ __ESTREE_TEST__:PASS:
                           "start": 51,
                           "end": 55
                         }
-                      },
-                      "typeParameters": null
+                      }
                     }
-                  }
+                  },
+                  "accessibility": null,
+                  "static": false
                 }
               ]
             },
-            "declare": false,
-            "extends": [],
-            "id": {
-              "type": "Identifier",
-              "start": 27,
-              "end": 37,
-              "decorators": [],
-              "name": "ImportMeta",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeParameters": null
+            "declare": false
           }
         ]
       },
+      "kind": "global",
       "declare": true,
-      "global": true,
-      "id": {
-        "type": "Identifier",
-        "start": 8,
-        "end": 14,
-        "decorators": [],
-        "name": "global",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "global"
+      "global": true
     },
     {
       "type": "EmptyStatement",
@@ -103,72 +103,10 @@ __ESTREE_TEST__:PASS:
       "type": "IfStatement",
       "start": 61,
       "end": 106,
-      "alternate": null,
-      "consequent": {
-        "type": "BlockStatement",
-        "start": 82,
-        "end": 106,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 86,
-            "end": 104,
-            "directive": null,
-            "expression": {
-              "type": "CallExpression",
-              "start": 86,
-              "end": 103,
-              "arguments": [],
-              "callee": {
-                "type": "MemberExpression",
-                "start": 86,
-                "end": 101,
-                "computed": false,
-                "object": {
-                  "type": "MetaProperty",
-                  "start": 86,
-                  "end": 97,
-                  "meta": {
-                    "type": "Identifier",
-                    "start": 86,
-                    "end": 92,
-                    "decorators": [],
-                    "name": "import",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "property": {
-                    "type": "Identifier",
-                    "start": 93,
-                    "end": 97,
-                    "decorators": [],
-                    "name": "meta",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "property": {
-                  "type": "Identifier",
-                  "start": 98,
-                  "end": 101,
-                  "decorators": [],
-                  "name": "foo",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              },
-              "optional": false,
-              "typeArguments": null
-            }
-          }
-        ]
-      },
       "test": {
         "type": "MemberExpression",
         "start": 65,
         "end": 80,
-        "computed": false,
         "object": {
           "type": "MetaProperty",
           "start": 65,
@@ -192,7 +130,6 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 77,
@@ -201,8 +138,71 @@ __ESTREE_TEST__:PASS:
           "name": "foo",
           "optional": false,
           "typeAnnotation": null
-        }
-      }
+        },
+        "optional": false,
+        "computed": false
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 82,
+        "end": 106,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 86,
+            "end": 104,
+            "expression": {
+              "type": "CallExpression",
+              "start": 86,
+              "end": 103,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 86,
+                "end": 101,
+                "object": {
+                  "type": "MetaProperty",
+                  "start": 86,
+                  "end": 97,
+                  "meta": {
+                    "type": "Identifier",
+                    "start": 86,
+                    "end": 92,
+                    "decorators": [],
+                    "name": "import",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 93,
+                    "end": 97,
+                    "decorators": [],
+                    "name": "meta",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 98,
+                  "end": 101,
+                  "decorators": [],
+                  "name": "foo",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "optional": false,
+                "computed": false
+              },
+              "typeArguments": null,
+              "arguments": [],
+              "optional": false
+            },
+            "directive": null
+          }
+        ]
+      },
+      "alternate": null
     }
   ],
   "sourceType": "module",

@@ -9,19 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 35,
-      "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
         "start": 7,
         "end": 35,
-        "body": {
-          "type": "TSInterfaceBody",
-          "start": 33,
-          "end": 35,
-          "body": []
-        },
-        "declare": false,
-        "extends": [],
         "id": {
           "type": "Identifier",
           "start": 17,
@@ -31,11 +22,20 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "typeParameters": null
+        "typeParameters": null,
+        "extends": [],
+        "body": {
+          "type": "TSInterfaceBody",
+          "start": 33,
+          "end": 35,
+          "body": []
+        },
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -53,19 +53,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 36,
-      "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
         "start": 7,
         "end": 36,
-        "body": {
-          "type": "TSInterfaceBody",
-          "start": 34,
-          "end": 36,
-          "body": []
-        },
-        "declare": false,
-        "extends": [],
         "id": {
           "type": "Identifier",
           "start": 17,
@@ -75,11 +66,20 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "typeParameters": null
+        "typeParameters": null,
+        "extends": [],
+        "body": {
+          "type": "TSInterfaceBody",
+          "start": 34,
+          "end": 36,
+          "body": []
+        },
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -97,12 +97,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 185,
-      "attributes": [],
       "declaration": {
         "type": "TSTypeAliasDeclaration",
         "start": 7,
         "end": 185,
-        "declare": false,
         "id": {
           "type": "Identifier",
           "start": 12,
@@ -112,6 +110,7 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "typeParameters": null,
         "typeAnnotation": {
           "type": "TSIntersectionType",
           "start": 33,
@@ -129,8 +128,8 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 42,
                   "end": 47,
-                  "raw": "\"pkg\"",
-                  "value": "pkg"
+                  "value": "pkg",
+                  "raw": "\"pkg\""
                 }
               },
               "options": {
@@ -142,7 +141,7 @@ __ESTREE_TEST__:PASS:
                     "type": "Property",
                     "start": 51,
                     "end": 87,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 51,
@@ -152,10 +151,6 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "kind": "init",
-                    "method": false,
-                    "optional": false,
-                    "shorthand": false,
                     "value": {
                       "type": "ObjectExpression",
                       "start": 57,
@@ -165,28 +160,32 @@ __ESTREE_TEST__:PASS:
                           "type": "Property",
                           "start": 58,
                           "end": 86,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Literal",
                             "start": 58,
                             "end": 75,
-                            "raw": "\"resolution-mode\"",
-                            "value": "resolution-mode"
+                            "value": "resolution-mode",
+                            "raw": "\"resolution-mode\""
                           },
-                          "kind": "init",
-                          "method": false,
-                          "optional": false,
-                          "shorthand": false,
                           "value": {
                             "type": "Literal",
                             "start": 77,
                             "end": 86,
-                            "raw": "\"require\"",
-                            "value": "require"
-                          }
+                            "value": "require",
+                            "raw": "\"require\""
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "optional": false
                         }
                       ]
-                    }
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "optional": false
                   }
                 ]
               },
@@ -213,8 +212,8 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 121,
                   "end": 126,
-                  "raw": "\"pkg\"",
-                  "value": "pkg"
+                  "value": "pkg",
+                  "raw": "\"pkg\""
                 }
               },
               "options": {
@@ -226,7 +225,7 @@ __ESTREE_TEST__:PASS:
                     "type": "Property",
                     "start": 130,
                     "end": 165,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 130,
@@ -236,10 +235,6 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "kind": "init",
-                    "method": false,
-                    "optional": false,
-                    "shorthand": false,
                     "value": {
                       "type": "ObjectExpression",
                       "start": 136,
@@ -249,28 +244,32 @@ __ESTREE_TEST__:PASS:
                           "type": "Property",
                           "start": 137,
                           "end": 164,
-                          "computed": false,
+                          "kind": "init",
                           "key": {
                             "type": "Literal",
                             "start": 137,
                             "end": 154,
-                            "raw": "\"resolution-mode\"",
-                            "value": "resolution-mode"
+                            "value": "resolution-mode",
+                            "raw": "\"resolution-mode\""
                           },
-                          "kind": "init",
-                          "method": false,
-                          "optional": false,
-                          "shorthand": false,
                           "value": {
                             "type": "Literal",
                             "start": 156,
                             "end": 164,
-                            "raw": "\"import\"",
-                            "value": "import"
-                          }
+                            "value": "import",
+                            "raw": "\"import\""
+                          },
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "optional": false
                         }
                       ]
-                    }
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "optional": false
                   }
                 ]
               },
@@ -287,27 +286,27 @@ __ESTREE_TEST__:PASS:
             }
           ]
         },
-        "typeParameters": null
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 187,
       "end": 294,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 194,
         "end": 294,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 200,
             "end": 293,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 200,
@@ -329,8 +328,8 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 205,
                   "end": 209,
-                  "raw": "null",
-                  "value": null
+                  "value": null,
+                  "raw": "null"
                 },
                 "typeAnnotation": {
                   "type": "TSAnyKeyword",
@@ -350,8 +349,8 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 227,
                     "end": 232,
-                    "raw": "\"pkg\"",
-                    "value": "pkg"
+                    "value": "pkg",
+                    "raw": "\"pkg\""
                   }
                 },
                 "options": {
@@ -363,7 +362,7 @@ __ESTREE_TEST__:PASS:
                       "type": "Property",
                       "start": 236,
                       "end": 272,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 236,
@@ -373,10 +372,6 @@ __ESTREE_TEST__:PASS:
                         "optional": false,
                         "typeAnnotation": null
                       },
-                      "kind": "init",
-                      "method": false,
-                      "optional": false,
-                      "shorthand": false,
                       "value": {
                         "type": "ObjectExpression",
                         "start": 242,
@@ -386,28 +381,32 @@ __ESTREE_TEST__:PASS:
                             "type": "Property",
                             "start": 243,
                             "end": 271,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 243,
                               "end": 260,
-                              "raw": "\"resolution-mode\"",
-                              "value": "resolution-mode"
+                              "value": "resolution-mode",
+                              "raw": "\"resolution-mode\""
                             },
-                            "kind": "init",
-                            "method": false,
-                            "optional": false,
-                            "shorthand": false,
                             "value": {
                               "type": "Literal",
                               "start": 262,
                               "end": 271,
-                              "raw": "\"require\"",
-                              "value": "require"
-                            }
+                              "value": "require",
+                              "raw": "\"require\""
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "optional": false
                           }
                         ]
-                      }
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "optional": false
                     }
                   ]
                 },
@@ -422,31 +421,31 @@ __ESTREE_TEST__:PASS:
                 },
                 "typeArguments": null
               }
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 295,
       "end": 400,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 302,
         "end": 400,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 308,
             "end": 399,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 308,
@@ -468,8 +467,8 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 313,
                   "end": 317,
-                  "raw": "null",
-                  "value": null
+                  "value": null,
+                  "raw": "null"
                 },
                 "typeAnnotation": {
                   "type": "TSAnyKeyword",
@@ -489,8 +488,8 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 335,
                     "end": 340,
-                    "raw": "\"pkg\"",
-                    "value": "pkg"
+                    "value": "pkg",
+                    "raw": "\"pkg\""
                   }
                 },
                 "options": {
@@ -502,7 +501,7 @@ __ESTREE_TEST__:PASS:
                       "type": "Property",
                       "start": 344,
                       "end": 379,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 344,
@@ -512,10 +511,6 @@ __ESTREE_TEST__:PASS:
                         "optional": false,
                         "typeAnnotation": null
                       },
-                      "kind": "init",
-                      "method": false,
-                      "optional": false,
-                      "shorthand": false,
                       "value": {
                         "type": "ObjectExpression",
                         "start": 350,
@@ -525,28 +520,32 @@ __ESTREE_TEST__:PASS:
                             "type": "Property",
                             "start": 351,
                             "end": 378,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Literal",
                               "start": 351,
                               "end": 368,
-                              "raw": "\"resolution-mode\"",
-                              "value": "resolution-mode"
+                              "value": "resolution-mode",
+                              "raw": "\"resolution-mode\""
                             },
-                            "kind": "init",
-                            "method": false,
-                            "optional": false,
-                            "shorthand": false,
                             "value": {
                               "type": "Literal",
                               "start": 370,
                               "end": 378,
-                              "raw": "\"import\"",
-                              "value": "import"
-                            }
+                              "value": "import",
+                              "raw": "\"import\""
+                            },
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "optional": false
                           }
                         ]
-                      }
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "optional": false
                     }
                   ]
                 },
@@ -561,15 +560,16 @@ __ESTREE_TEST__:PASS:
                 },
                 "typeArguments": null
               }
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

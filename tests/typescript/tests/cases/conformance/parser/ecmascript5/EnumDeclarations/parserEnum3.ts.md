@@ -9,19 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 4,
       "end": 38,
-      "attributes": [],
       "declaration": {
         "type": "TSEnumDeclaration",
         "start": 11,
         "end": 38,
-        "body": {
-          "type": "TSEnumBody",
-          "start": 31,
-          "end": 38,
-          "members": []
-        },
-        "const": false,
-        "declare": false,
         "id": {
           "type": "Identifier",
           "start": 16,
@@ -30,11 +21,20 @@ __ESTREE_TEST__:PASS:
           "name": "SignatureFlags",
           "optional": false,
           "typeAnnotation": null
-        }
+        },
+        "body": {
+          "type": "TSEnumBody",
+          "start": 31,
+          "end": 38,
+          "members": []
+        },
+        "const": false,
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

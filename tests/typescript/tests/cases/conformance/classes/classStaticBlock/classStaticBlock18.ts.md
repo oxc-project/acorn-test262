@@ -9,7 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 178,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 12,
+        "decorators": [],
+        "name": "foo",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 16,
@@ -23,7 +37,12 @@ __ESTREE_TEST__:PASS:
               "type": "ClassExpression",
               "start": 27,
               "end": 176,
-              "abstract": false,
+              "decorators": [],
+              "id": null,
+              "typeParameters": null,
+              "superClass": null,
+              "superTypeArguments": null,
+              "implements": [],
               "body": {
                 "type": "ClassBody",
                 "start": 33,
@@ -33,11 +52,7 @@ __ESTREE_TEST__:PASS:
                     "type": "PropertyDefinition",
                     "start": 39,
                     "end": 54,
-                    "accessibility": null,
-                    "computed": false,
-                    "declare": false,
                     "decorators": [],
-                    "definite": false,
                     "key": {
                       "type": "Identifier",
                       "start": 46,
@@ -47,18 +62,22 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "optional": false,
-                    "override": false,
-                    "readonly": false,
-                    "static": true,
                     "typeAnnotation": null,
                     "value": {
                       "type": "Literal",
                       "start": 52,
                       "end": 53,
-                      "raw": "1",
-                      "value": 1
-                    }
+                      "value": 1,
+                      "raw": "1"
+                    },
+                    "computed": false,
+                    "static": true,
+                    "declare": false,
+                    "override": false,
+                    "optional": false,
+                    "definite": false,
+                    "readonly": false,
+                    "accessibility": null
                   },
                   {
                     "type": "StaticBlock",
@@ -69,12 +88,12 @@ __ESTREE_TEST__:PASS:
                         "type": "VariableDeclaration",
                         "start": 74,
                         "end": 166,
+                        "kind": "const",
                         "declarations": [
                           {
                             "type": "VariableDeclarator",
                             "start": 80,
                             "end": 166,
-                            "definite": false,
                             "id": {
                               "type": "Identifier",
                               "start": 80,
@@ -88,7 +107,12 @@ __ESTREE_TEST__:PASS:
                               "type": "ClassExpression",
                               "start": 84,
                               "end": 166,
-                              "abstract": false,
+                              "decorators": [],
+                              "id": null,
+                              "typeParameters": null,
+                              "superClass": null,
+                              "superTypeArguments": null,
+                              "implements": [],
                               "body": {
                                 "type": "ClassBody",
                                 "start": 90,
@@ -98,11 +122,7 @@ __ESTREE_TEST__:PASS:
                                     "type": "PropertyDefinition",
                                     "start": 100,
                                     "end": 115,
-                                    "accessibility": null,
-                                    "computed": false,
-                                    "declare": false,
                                     "decorators": [],
-                                    "definite": false,
                                     "key": {
                                       "type": "Identifier",
                                       "start": 107,
@@ -112,18 +132,22 @@ __ESTREE_TEST__:PASS:
                                       "optional": false,
                                       "typeAnnotation": null
                                     },
-                                    "optional": false,
-                                    "override": false,
-                                    "readonly": false,
-                                    "static": true,
                                     "typeAnnotation": null,
                                     "value": {
                                       "type": "Literal",
                                       "start": 113,
                                       "end": 114,
-                                      "raw": "2",
-                                      "value": 2
-                                    }
+                                      "value": 2,
+                                      "raw": "2"
+                                    },
+                                    "computed": false,
+                                    "static": true,
+                                    "declare": false,
+                                    "override": false,
+                                    "optional": false,
+                                    "definite": false,
+                                    "readonly": false,
+                                    "accessibility": null
                                   },
                                   {
                                     "type": "StaticBlock",
@@ -133,49 +157,25 @@ __ESTREE_TEST__:PASS:
                                   }
                                 ]
                               },
-                              "declare": false,
-                              "decorators": [],
-                              "id": null,
-                              "implements": [],
-                              "superClass": null,
-                              "superTypeArguments": null,
-                              "typeParameters": null
-                            }
+                              "abstract": false,
+                              "declare": false
+                            },
+                            "definite": false
                           }
                         ],
-                        "declare": false,
-                        "kind": "const"
+                        "declare": false
                       }
                     ]
                   }
                 ]
               },
-              "declare": false,
-              "decorators": [],
-              "id": null,
-              "implements": [],
-              "superClass": null,
-              "superTypeArguments": null,
-              "typeParameters": null
+              "abstract": false,
+              "declare": false
             }
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 12,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

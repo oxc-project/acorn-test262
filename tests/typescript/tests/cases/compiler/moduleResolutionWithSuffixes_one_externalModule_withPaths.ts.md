@@ -9,20 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 13,
-      "directive": "use strict",
       "expression": {
         "type": "Literal",
         "start": 0,
         "end": 12,
-        "raw": "\"use strict\"",
-        "value": "use strict"
-      }
+        "value": "use strict",
+        "raw": "\"use strict\""
+      },
+      "directive": "use strict"
     },
     {
       "type": "ExpressionStatement",
       "start": 14,
       "end": 40,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 14,
@@ -32,7 +31,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 14,
           "end": 32,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 14,
@@ -42,7 +40,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 22,
@@ -51,31 +48,24 @@ __ESTREE_TEST__:PASS:
             "name": "__esModule",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
           "start": 35,
           "end": 39,
-          "raw": "true",
-          "value": true
+          "value": true,
+          "raw": "true"
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "FunctionDeclaration",
       "start": 41,
       "end": 58,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 56,
-        "end": 58,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 50,
@@ -85,15 +75,24 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 56,
+        "end": 58,
+        "body": []
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
       "start": 59,
       "end": 77,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 59,
@@ -103,7 +102,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 59,
           "end": 70,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 59,
@@ -113,7 +111,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 67,
@@ -122,7 +119,9 @@ __ESTREE_TEST__:PASS:
             "name": "ios",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Identifier",
@@ -133,7 +132,8 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",
@@ -151,16 +151,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 36,
-      "attributes": [],
       "declaration": {
         "type": "TSDeclareFunction",
         "start": 7,
         "end": 36,
-        "async": false,
-        "body": null,
-        "declare": true,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 24,
@@ -170,6 +164,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": true,
+        "typeParameters": null,
         "params": [],
         "returnType": {
           "type": "TSTypeAnnotation",
@@ -181,11 +179,13 @@ __ESTREE_TEST__:PASS:
             "end": 35
           }
         },
-        "typeParameters": null
+        "body": null,
+        "expression": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -203,20 +203,19 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 13,
-      "directive": "use strict",
       "expression": {
         "type": "Literal",
         "start": 0,
         "end": 12,
-        "raw": "\"use strict\"",
-        "value": "use strict"
-      }
+        "value": "use strict",
+        "raw": "\"use strict\""
+      },
+      "directive": "use strict"
     },
     {
       "type": "ExpressionStatement",
       "start": 14,
       "end": 40,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 14,
@@ -226,7 +225,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 14,
           "end": 32,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 14,
@@ -236,7 +234,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 22,
@@ -245,31 +242,24 @@ __ESTREE_TEST__:PASS:
             "name": "__esModule",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
           "start": 35,
           "end": 39,
-          "raw": "true",
-          "value": true
+          "value": true,
+          "raw": "true"
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "FunctionDeclaration",
       "start": 41,
       "end": 59,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 57,
-        "end": 59,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 50,
@@ -279,15 +269,24 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 57,
+        "end": 59,
+        "body": []
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
       "start": 60,
       "end": 80,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 60,
@@ -297,7 +296,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 60,
           "end": 72,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 60,
@@ -307,7 +305,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 68,
@@ -316,7 +313,9 @@ __ESTREE_TEST__:PASS:
             "name": "base",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Identifier",
@@ -327,7 +326,8 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",
@@ -345,16 +345,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 37,
-      "attributes": [],
       "declaration": {
         "type": "TSDeclareFunction",
         "start": 7,
         "end": 37,
-        "async": false,
-        "body": null,
-        "declare": true,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 24,
@@ -364,6 +358,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": true,
+        "typeParameters": null,
         "params": [],
         "returnType": {
           "type": "TSTypeAnnotation",
@@ -375,11 +373,13 @@ __ESTREE_TEST__:PASS:
             "end": 36
           }
         },
-        "typeParameters": null
+        "body": null,
+        "expression": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -397,14 +397,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 35,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 20,
-        "end": 34,
-        "raw": "\"some-library\"",
-        "value": "some-library"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -419,7 +411,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
@@ -428,24 +419,25 @@ __ESTREE_TEST__:PASS:
             "name": "ios",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 20,
+        "end": 34,
+        "value": "some-library",
+        "raw": "\"some-library\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 36,
       "end": 85,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 64,
-        "end": 84,
-        "raw": "\"some-library/index\"",
-        "value": "some-library/index"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -460,7 +452,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 52,
@@ -469,24 +460,25 @@ __ESTREE_TEST__:PASS:
             "name": "ios2",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 64,
+        "end": 84,
+        "value": "some-library/index",
+        "raw": "\"some-library/index\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 86,
       "end": 138,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 114,
-        "end": 137,
-        "raw": "\"some-library/index.js\"",
-        "value": "some-library/index.js"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -501,7 +493,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 102,
@@ -510,11 +501,20 @@ __ESTREE_TEST__:PASS:
             "name": "ios3",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 114,
+        "end": 137,
+        "value": "some-library/index.js",
+        "raw": "\"some-library/index.js\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

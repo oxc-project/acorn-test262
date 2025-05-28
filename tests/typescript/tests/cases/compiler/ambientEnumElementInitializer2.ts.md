@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSEnumDeclaration",
       "start": 0,
       "end": 38,
+      "id": {
+        "type": "Identifier",
+        "start": 13,
+        "end": 14,
+        "decorators": [],
+        "name": "E",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSEnumBody",
         "start": 15,
@@ -18,7 +27,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 18,
             "end": 24,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 18,
@@ -32,30 +40,22 @@ __ESTREE_TEST__:PASS:
               "type": "UnaryExpression",
               "start": 22,
               "end": 24,
+              "operator": "-",
               "argument": {
                 "type": "Literal",
                 "start": 23,
                 "end": 24,
-                "raw": "3",
-                "value": 3
+                "value": 3,
+                "raw": "3"
               },
-              "operator": "-",
               "prefix": true
-            }
+            },
+            "computed": false
           }
         ]
       },
       "const": false,
-      "declare": true,
-      "id": {
-        "type": "Identifier",
-        "start": 13,
-        "end": 14,
-        "decorators": [],
-        "name": "E",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      "declare": true
     }
   ],
   "sourceType": "script",

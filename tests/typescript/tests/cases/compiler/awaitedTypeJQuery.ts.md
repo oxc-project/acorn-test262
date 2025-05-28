@@ -9,13 +9,41 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 29,
       "end": 77,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 74,
-        "end": 77,
-        "body": []
+      "id": {
+        "type": "Identifier",
+        "start": 39,
+        "end": 47,
+        "decorators": [],
+        "name": "Thenable",
+        "optional": false,
+        "typeAnnotation": null
       },
-      "declare": false,
+      "typeParameters": {
+        "type": "TSTypeParameterDeclaration",
+        "start": 47,
+        "end": 50,
+        "params": [
+          {
+            "type": "TSTypeParameter",
+            "start": 48,
+            "end": 49,
+            "name": {
+              "type": "Identifier",
+              "start": 48,
+              "end": 49,
+              "decorators": [],
+              "name": "T",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          }
+        ]
+      },
       "extends": [
         {
           "type": "TSInterfaceHeritage",
@@ -39,7 +67,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 71,
                 "end": 72,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 71,
@@ -48,52 +75,270 @@ __ESTREE_TEST__:PASS:
                   "name": "T",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             ]
           }
         }
       ],
-      "id": {
-        "type": "Identifier",
-        "start": 39,
-        "end": 47,
-        "decorators": [],
-        "name": "Thenable",
-        "optional": false,
-        "typeAnnotation": null
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 74,
+        "end": 77,
+        "body": []
       },
-      "typeParameters": {
-        "type": "TSTypeParameterDeclaration",
-        "start": 47,
-        "end": 50,
-        "params": [
-          {
-            "type": "TSTypeParameter",
-            "start": 48,
-            "end": 49,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 48,
-              "end": 49,
-              "decorators": [],
-              "name": "T",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          }
-        ]
-      }
+      "declare": false
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 104,
       "end": 5266,
+      "id": {
+        "type": "Identifier",
+        "start": 114,
+        "end": 125,
+        "decorators": [],
+        "name": "PromiseBase",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": {
+        "type": "TSTypeParameterDeclaration",
+        "start": 125,
+        "end": 185,
+        "params": [
+          {
+            "type": "TSTypeParameter",
+            "start": 126,
+            "end": 128,
+            "name": {
+              "type": "Identifier",
+              "start": 126,
+              "end": 128,
+              "decorators": [],
+              "name": "TR",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          },
+          {
+            "type": "TSTypeParameter",
+            "start": 130,
+            "end": 132,
+            "name": {
+              "type": "Identifier",
+              "start": 130,
+              "end": 132,
+              "decorators": [],
+              "name": "TJ",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          },
+          {
+            "type": "TSTypeParameter",
+            "start": 134,
+            "end": 136,
+            "name": {
+              "type": "Identifier",
+              "start": 134,
+              "end": 136,
+              "decorators": [],
+              "name": "TN",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          },
+          {
+            "type": "TSTypeParameter",
+            "start": 142,
+            "end": 144,
+            "name": {
+              "type": "Identifier",
+              "start": 142,
+              "end": 144,
+              "decorators": [],
+              "name": "UR",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          },
+          {
+            "type": "TSTypeParameter",
+            "start": 146,
+            "end": 148,
+            "name": {
+              "type": "Identifier",
+              "start": 146,
+              "end": 148,
+              "decorators": [],
+              "name": "UJ",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          },
+          {
+            "type": "TSTypeParameter",
+            "start": 150,
+            "end": 152,
+            "name": {
+              "type": "Identifier",
+              "start": 150,
+              "end": 152,
+              "decorators": [],
+              "name": "UN",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          },
+          {
+            "type": "TSTypeParameter",
+            "start": 158,
+            "end": 160,
+            "name": {
+              "type": "Identifier",
+              "start": 158,
+              "end": 160,
+              "decorators": [],
+              "name": "VR",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          },
+          {
+            "type": "TSTypeParameter",
+            "start": 162,
+            "end": 164,
+            "name": {
+              "type": "Identifier",
+              "start": 162,
+              "end": 164,
+              "decorators": [],
+              "name": "VJ",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          },
+          {
+            "type": "TSTypeParameter",
+            "start": 166,
+            "end": 168,
+            "name": {
+              "type": "Identifier",
+              "start": 166,
+              "end": 168,
+              "decorators": [],
+              "name": "VN",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          },
+          {
+            "type": "TSTypeParameter",
+            "start": 174,
+            "end": 176,
+            "name": {
+              "type": "Identifier",
+              "start": 174,
+              "end": 176,
+              "decorators": [],
+              "name": "SR",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          },
+          {
+            "type": "TSTypeParameter",
+            "start": 178,
+            "end": 180,
+            "name": {
+              "type": "Identifier",
+              "start": 178,
+              "end": 180,
+              "decorators": [],
+              "name": "SJ",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          },
+          {
+            "type": "TSTypeParameter",
+            "start": 182,
+            "end": 184,
+            "name": {
+              "type": "Identifier",
+              "start": 182,
+              "end": 184,
+              "decorators": [],
+              "name": "SN",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          }
+        ]
+      },
+      "extends": [],
       "body": {
         "type": "TSInterfaceBody",
         "start": 186,
@@ -103,8 +348,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 192,
             "end": 1611,
-            "accessibility": null,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 192,
@@ -114,8 +357,844 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
+            "computed": false,
             "optional": false,
+            "kind": "method",
+            "typeParameters": {
+              "type": "TSTypeParameterDeclaration",
+              "start": 196,
+              "end": 752,
+              "params": [
+                {
+                  "type": "TSTypeParameter",
+                  "start": 197,
+                  "end": 208,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 197,
+                    "end": 200,
+                    "decorators": [],
+                    "name": "ARD",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 203,
+                    "end": 208
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 210,
+                  "end": 221,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 210,
+                    "end": 213,
+                    "decorators": [],
+                    "name": "AJD",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 216,
+                    "end": 221
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 223,
+                  "end": 234,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 223,
+                    "end": 226,
+                    "decorators": [],
+                    "name": "AND",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 229,
+                    "end": 234
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 244,
+                  "end": 255,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 244,
+                    "end": 247,
+                    "decorators": [],
+                    "name": "BRD",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 250,
+                    "end": 255
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 257,
+                  "end": 268,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 257,
+                    "end": 260,
+                    "decorators": [],
+                    "name": "BJD",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 263,
+                    "end": 268
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 270,
+                  "end": 281,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 270,
+                    "end": 273,
+                    "decorators": [],
+                    "name": "BND",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 276,
+                    "end": 281
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 291,
+                  "end": 302,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 291,
+                    "end": 294,
+                    "decorators": [],
+                    "name": "CRD",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 297,
+                    "end": 302
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 304,
+                  "end": 315,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 304,
+                    "end": 307,
+                    "decorators": [],
+                    "name": "CJD",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 310,
+                    "end": 315
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 317,
+                  "end": 328,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 317,
+                    "end": 320,
+                    "decorators": [],
+                    "name": "CND",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 323,
+                    "end": 328
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 338,
+                  "end": 349,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 338,
+                    "end": 341,
+                    "decorators": [],
+                    "name": "RRD",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 344,
+                    "end": 349
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 351,
+                  "end": 362,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 351,
+                    "end": 354,
+                    "decorators": [],
+                    "name": "RJD",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 357,
+                    "end": 362
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 364,
+                  "end": 375,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 364,
+                    "end": 367,
+                    "decorators": [],
+                    "name": "RND",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 370,
+                    "end": 375
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 385,
+                  "end": 396,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 385,
+                    "end": 388,
+                    "decorators": [],
+                    "name": "ARF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 391,
+                    "end": 396
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 398,
+                  "end": 409,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 398,
+                    "end": 401,
+                    "decorators": [],
+                    "name": "AJF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 404,
+                    "end": 409
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 411,
+                  "end": 422,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 411,
+                    "end": 414,
+                    "decorators": [],
+                    "name": "ANF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 417,
+                    "end": 422
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 432,
+                  "end": 443,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 432,
+                    "end": 435,
+                    "decorators": [],
+                    "name": "BRF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 438,
+                    "end": 443
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 445,
+                  "end": 456,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 445,
+                    "end": 448,
+                    "decorators": [],
+                    "name": "BJF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 451,
+                    "end": 456
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 458,
+                  "end": 469,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 458,
+                    "end": 461,
+                    "decorators": [],
+                    "name": "BNF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 464,
+                    "end": 469
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 479,
+                  "end": 490,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 479,
+                    "end": 482,
+                    "decorators": [],
+                    "name": "CRF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 485,
+                    "end": 490
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 492,
+                  "end": 503,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 492,
+                    "end": 495,
+                    "decorators": [],
+                    "name": "CJF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 498,
+                    "end": 503
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 505,
+                  "end": 516,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 505,
+                    "end": 508,
+                    "decorators": [],
+                    "name": "CNF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 511,
+                    "end": 516
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 526,
+                  "end": 537,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 526,
+                    "end": 529,
+                    "decorators": [],
+                    "name": "RRF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 532,
+                    "end": 537
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 539,
+                  "end": 550,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 539,
+                    "end": 542,
+                    "decorators": [],
+                    "name": "RJF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 545,
+                    "end": 550
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 552,
+                  "end": 563,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 552,
+                    "end": 555,
+                    "decorators": [],
+                    "name": "RNF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 558,
+                    "end": 563
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 573,
+                  "end": 584,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 573,
+                    "end": 576,
+                    "decorators": [],
+                    "name": "ARP",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 579,
+                    "end": 584
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 586,
+                  "end": 597,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 586,
+                    "end": 589,
+                    "decorators": [],
+                    "name": "AJP",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 592,
+                    "end": 597
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 599,
+                  "end": 610,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 599,
+                    "end": 602,
+                    "decorators": [],
+                    "name": "ANP",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 605,
+                    "end": 610
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 620,
+                  "end": 631,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 620,
+                    "end": 623,
+                    "decorators": [],
+                    "name": "BRP",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 626,
+                    "end": 631
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 633,
+                  "end": 644,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 633,
+                    "end": 636,
+                    "decorators": [],
+                    "name": "BJP",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 639,
+                    "end": 644
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 646,
+                  "end": 657,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 646,
+                    "end": 649,
+                    "decorators": [],
+                    "name": "BNP",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 652,
+                    "end": 657
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 667,
+                  "end": 678,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 667,
+                    "end": 670,
+                    "decorators": [],
+                    "name": "CRP",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 673,
+                    "end": 678
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 680,
+                  "end": 691,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 680,
+                    "end": 683,
+                    "decorators": [],
+                    "name": "CJP",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 686,
+                    "end": 691
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 693,
+                  "end": 704,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 693,
+                    "end": 696,
+                    "decorators": [],
+                    "name": "CNP",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 699,
+                    "end": 704
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 714,
+                  "end": 725,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 714,
+                    "end": 717,
+                    "decorators": [],
+                    "name": "RRP",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 720,
+                    "end": 725
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 727,
+                  "end": 738,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 727,
+                    "end": 730,
+                    "decorators": [],
+                    "name": "RJP",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 733,
+                    "end": 738
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 740,
+                  "end": 751,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 740,
+                    "end": 743,
+                    "decorators": [],
+                    "name": "RNP",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 746,
+                    "end": 751
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                }
+              ]
+            },
             "params": [
               {
                 "type": "Identifier",
@@ -132,6 +1211,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSFunctionType",
                     "start": 778,
                     "end": 956,
+                    "typeParameters": null,
                     "params": [
                       {
                         "type": "Identifier",
@@ -148,7 +1228,6 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 782,
                             "end": 784,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 782,
@@ -157,7 +1236,8 @@ __ESTREE_TEST__:PASS:
                               "name": "TR",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         }
                       },
@@ -176,7 +1256,6 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 789,
                             "end": 791,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 789,
@@ -185,7 +1264,8 @@ __ESTREE_TEST__:PASS:
                               "name": "UR",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         }
                       },
@@ -204,7 +1284,6 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 796,
                             "end": 798,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 796,
@@ -213,7 +1292,8 @@ __ESTREE_TEST__:PASS:
                               "name": "VR",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         }
                       },
@@ -221,6 +1301,7 @@ __ESTREE_TEST__:PASS:
                         "type": "RestElement",
                         "start": 800,
                         "end": 810,
+                        "decorators": [],
                         "argument": {
                           "type": "Identifier",
                           "start": 803,
@@ -230,7 +1311,6 @@ __ESTREE_TEST__:PASS:
                           "optional": false,
                           "typeAnnotation": null
                         },
-                        "decorators": [],
                         "optional": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
@@ -244,7 +1324,6 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 806,
                               "end": 808,
-                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 806,
@@ -253,7 +1332,8 @@ __ESTREE_TEST__:PASS:
                                 "name": "SR",
                                 "optional": false,
                                 "typeAnnotation": null
-                              }
+                              },
+                              "typeArguments": null
                             }
                           }
                         },
@@ -273,6 +1353,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 815,
                             "end": 934,
+                            "typeName": {
+                              "type": "Identifier",
+                              "start": 815,
+                              "end": 826,
+                              "decorators": [],
+                              "name": "PromiseBase",
+                              "optional": false,
+                              "typeAnnotation": null
+                            },
                             "typeArguments": {
                               "type": "TSTypeParameterInstantiation",
                               "start": 826,
@@ -282,7 +1371,6 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 827,
                                   "end": 830,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 827,
@@ -291,13 +1379,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "ARD",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 832,
                                   "end": 835,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 832,
@@ -306,13 +1394,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "AJD",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 837,
                                   "end": 840,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 837,
@@ -321,13 +1409,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "AND",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 858,
                                   "end": 861,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 858,
@@ -336,13 +1424,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "BRD",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 863,
                                   "end": 866,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 863,
@@ -351,13 +1439,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "BJD",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 868,
                                   "end": 871,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 868,
@@ -366,13 +1454,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "BND",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 889,
                                   "end": 892,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 889,
@@ -381,13 +1469,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "CRD",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 894,
                                   "end": 897,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 894,
@@ -396,13 +1484,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "CJD",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 899,
                                   "end": 902,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 899,
@@ -411,13 +1499,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "CND",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 920,
                                   "end": 923,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 920,
@@ -426,13 +1514,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "RRD",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 925,
                                   "end": 928,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 925,
@@ -441,13 +1529,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "RJD",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 930,
                                   "end": 933,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 930,
@@ -456,24 +1544,25 @@ __ESTREE_TEST__:PASS:
                                     "name": "RND",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 }
                               ]
-                            },
-                            "typeName": {
-                              "type": "Identifier",
-                              "start": 815,
-                              "end": 826,
-                              "decorators": [],
-                              "name": "PromiseBase",
-                              "optional": false,
-                              "typeAnnotation": null
                             }
                           },
                           {
                             "type": "TSTypeReference",
                             "start": 937,
                             "end": 950,
+                            "typeName": {
+                              "type": "Identifier",
+                              "start": 937,
+                              "end": 945,
+                              "decorators": [],
+                              "name": "Thenable",
+                              "optional": false,
+                              "typeAnnotation": null
+                            },
                             "typeArguments": {
                               "type": "TSTypeParameterInstantiation",
                               "start": 945,
@@ -483,7 +1572,6 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 946,
                                   "end": 949,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 946,
@@ -492,25 +1580,16 @@ __ESTREE_TEST__:PASS:
                                     "name": "ARD",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 }
                               ]
-                            },
-                            "typeName": {
-                              "type": "Identifier",
-                              "start": 937,
-                              "end": 945,
-                              "decorators": [],
-                              "name": "Thenable",
-                              "optional": false,
-                              "typeAnnotation": null
                             }
                           },
                           {
                             "type": "TSTypeReference",
                             "start": 953,
                             "end": 956,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 953,
@@ -519,12 +1598,12 @@ __ESTREE_TEST__:PASS:
                               "name": "ARD",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         ]
                       }
-                    },
-                    "typeParameters": null
+                    }
                   }
                 }
               },
@@ -543,6 +1622,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSFunctionType",
                     "start": 982,
                     "end": 1160,
+                    "typeParameters": null,
                     "params": [
                       {
                         "type": "Identifier",
@@ -559,7 +1639,6 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 986,
                             "end": 988,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 986,
@@ -568,7 +1647,8 @@ __ESTREE_TEST__:PASS:
                               "name": "TJ",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         }
                       },
@@ -587,7 +1667,6 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 993,
                             "end": 995,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 993,
@@ -596,7 +1675,8 @@ __ESTREE_TEST__:PASS:
                               "name": "UJ",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         }
                       },
@@ -615,7 +1695,6 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 1000,
                             "end": 1002,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 1000,
@@ -624,7 +1703,8 @@ __ESTREE_TEST__:PASS:
                               "name": "VJ",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         }
                       },
@@ -632,6 +1712,7 @@ __ESTREE_TEST__:PASS:
                         "type": "RestElement",
                         "start": 1004,
                         "end": 1014,
+                        "decorators": [],
                         "argument": {
                           "type": "Identifier",
                           "start": 1007,
@@ -641,7 +1722,6 @@ __ESTREE_TEST__:PASS:
                           "optional": false,
                           "typeAnnotation": null
                         },
-                        "decorators": [],
                         "optional": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
@@ -655,7 +1735,6 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 1010,
                               "end": 1012,
-                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 1010,
@@ -664,7 +1743,8 @@ __ESTREE_TEST__:PASS:
                                 "name": "SJ",
                                 "optional": false,
                                 "typeAnnotation": null
-                              }
+                              },
+                              "typeArguments": null
                             }
                           }
                         },
@@ -684,6 +1764,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 1019,
                             "end": 1138,
+                            "typeName": {
+                              "type": "Identifier",
+                              "start": 1019,
+                              "end": 1030,
+                              "decorators": [],
+                              "name": "PromiseBase",
+                              "optional": false,
+                              "typeAnnotation": null
+                            },
                             "typeArguments": {
                               "type": "TSTypeParameterInstantiation",
                               "start": 1030,
@@ -693,7 +1782,6 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 1031,
                                   "end": 1034,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1031,
@@ -702,13 +1790,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "ARF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1036,
                                   "end": 1039,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1036,
@@ -717,13 +1805,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "AJF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1041,
                                   "end": 1044,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1041,
@@ -732,13 +1820,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "ANF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1062,
                                   "end": 1065,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1062,
@@ -747,13 +1835,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "BRF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1067,
                                   "end": 1070,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1067,
@@ -762,13 +1850,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "BJF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1072,
                                   "end": 1075,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1072,
@@ -777,13 +1865,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "BNF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1093,
                                   "end": 1096,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1093,
@@ -792,13 +1880,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "CRF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1098,
                                   "end": 1101,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1098,
@@ -807,13 +1895,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "CJF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1103,
                                   "end": 1106,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1103,
@@ -822,13 +1910,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "CNF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1124,
                                   "end": 1127,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1124,
@@ -837,13 +1925,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "RRF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1129,
                                   "end": 1132,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1129,
@@ -852,13 +1940,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "RJF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1134,
                                   "end": 1137,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1134,
@@ -867,24 +1955,25 @@ __ESTREE_TEST__:PASS:
                                     "name": "RNF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 }
                               ]
-                            },
-                            "typeName": {
-                              "type": "Identifier",
-                              "start": 1019,
-                              "end": 1030,
-                              "decorators": [],
-                              "name": "PromiseBase",
-                              "optional": false,
-                              "typeAnnotation": null
                             }
                           },
                           {
                             "type": "TSTypeReference",
                             "start": 1141,
                             "end": 1154,
+                            "typeName": {
+                              "type": "Identifier",
+                              "start": 1141,
+                              "end": 1149,
+                              "decorators": [],
+                              "name": "Thenable",
+                              "optional": false,
+                              "typeAnnotation": null
+                            },
                             "typeArguments": {
                               "type": "TSTypeParameterInstantiation",
                               "start": 1149,
@@ -894,7 +1983,6 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 1150,
                                   "end": 1153,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1150,
@@ -903,25 +1991,16 @@ __ESTREE_TEST__:PASS:
                                     "name": "ARF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 }
                               ]
-                            },
-                            "typeName": {
-                              "type": "Identifier",
-                              "start": 1141,
-                              "end": 1149,
-                              "decorators": [],
-                              "name": "Thenable",
-                              "optional": false,
-                              "typeAnnotation": null
                             }
                           },
                           {
                             "type": "TSTypeReference",
                             "start": 1157,
                             "end": 1160,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 1157,
@@ -930,12 +2009,12 @@ __ESTREE_TEST__:PASS:
                               "name": "ARF",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         ]
                       }
-                    },
-                    "typeParameters": null
+                    }
                   }
                 }
               },
@@ -954,6 +2033,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSFunctionType",
                     "start": 1190,
                     "end": 1368,
+                    "typeParameters": null,
                     "params": [
                       {
                         "type": "Identifier",
@@ -970,7 +2050,6 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 1194,
                             "end": 1196,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 1194,
@@ -979,7 +2058,8 @@ __ESTREE_TEST__:PASS:
                               "name": "TN",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         }
                       },
@@ -998,7 +2078,6 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 1201,
                             "end": 1203,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 1201,
@@ -1007,7 +2086,8 @@ __ESTREE_TEST__:PASS:
                               "name": "UN",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         }
                       },
@@ -1026,7 +2106,6 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 1208,
                             "end": 1210,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 1208,
@@ -1035,7 +2114,8 @@ __ESTREE_TEST__:PASS:
                               "name": "VN",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         }
                       },
@@ -1043,6 +2123,7 @@ __ESTREE_TEST__:PASS:
                         "type": "RestElement",
                         "start": 1212,
                         "end": 1222,
+                        "decorators": [],
                         "argument": {
                           "type": "Identifier",
                           "start": 1215,
@@ -1052,7 +2133,6 @@ __ESTREE_TEST__:PASS:
                           "optional": false,
                           "typeAnnotation": null
                         },
-                        "decorators": [],
                         "optional": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
@@ -1066,7 +2146,6 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 1218,
                               "end": 1220,
-                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 1218,
@@ -1075,7 +2154,8 @@ __ESTREE_TEST__:PASS:
                                 "name": "SN",
                                 "optional": false,
                                 "typeAnnotation": null
-                              }
+                              },
+                              "typeArguments": null
                             }
                           }
                         },
@@ -1095,6 +2175,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 1227,
                             "end": 1346,
+                            "typeName": {
+                              "type": "Identifier",
+                              "start": 1227,
+                              "end": 1238,
+                              "decorators": [],
+                              "name": "PromiseBase",
+                              "optional": false,
+                              "typeAnnotation": null
+                            },
                             "typeArguments": {
                               "type": "TSTypeParameterInstantiation",
                               "start": 1238,
@@ -1104,7 +2193,6 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 1239,
                                   "end": 1242,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1239,
@@ -1113,13 +2201,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "ARP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1244,
                                   "end": 1247,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1244,
@@ -1128,13 +2216,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "AJP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1249,
                                   "end": 1252,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1249,
@@ -1143,13 +2231,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "ANP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1270,
                                   "end": 1273,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1270,
@@ -1158,13 +2246,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "BRP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1275,
                                   "end": 1278,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1275,
@@ -1173,13 +2261,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "BJP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1280,
                                   "end": 1283,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1280,
@@ -1188,13 +2276,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "BNP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1301,
                                   "end": 1304,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1301,
@@ -1203,13 +2291,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "CRP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1306,
                                   "end": 1309,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1306,
@@ -1218,13 +2306,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "CJP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1311,
                                   "end": 1314,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1311,
@@ -1233,13 +2321,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "CNP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1332,
                                   "end": 1335,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1332,
@@ -1248,13 +2336,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "RRP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1337,
                                   "end": 1340,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1337,
@@ -1263,13 +2351,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "RJP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1342,
                                   "end": 1345,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1342,
@@ -1278,24 +2366,25 @@ __ESTREE_TEST__:PASS:
                                     "name": "RNP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 }
                               ]
-                            },
-                            "typeName": {
-                              "type": "Identifier",
-                              "start": 1227,
-                              "end": 1238,
-                              "decorators": [],
-                              "name": "PromiseBase",
-                              "optional": false,
-                              "typeAnnotation": null
                             }
                           },
                           {
                             "type": "TSTypeReference",
                             "start": 1349,
                             "end": 1362,
+                            "typeName": {
+                              "type": "Identifier",
+                              "start": 1349,
+                              "end": 1357,
+                              "decorators": [],
+                              "name": "Thenable",
+                              "optional": false,
+                              "typeAnnotation": null
+                            },
                             "typeArguments": {
                               "type": "TSTypeParameterInstantiation",
                               "start": 1357,
@@ -1305,7 +2394,6 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 1358,
                                   "end": 1361,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1358,
@@ -1314,25 +2402,16 @@ __ESTREE_TEST__:PASS:
                                     "name": "ANP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 }
                               ]
-                            },
-                            "typeName": {
-                              "type": "Identifier",
-                              "start": 1349,
-                              "end": 1357,
-                              "decorators": [],
-                              "name": "Thenable",
-                              "optional": false,
-                              "typeAnnotation": null
                             }
                           },
                           {
                             "type": "TSTypeReference",
                             "start": 1365,
                             "end": 1368,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 1365,
@@ -1341,17 +2420,16 @@ __ESTREE_TEST__:PASS:
                               "name": "ANP",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         ]
                       }
-                    },
-                    "typeParameters": null
+                    }
                   }
                 }
               }
             ],
-            "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 1369,
@@ -1360,6 +2438,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 1371,
                 "end": 1610,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 1371,
+                  "end": 1382,
+                  "decorators": [],
+                  "name": "PromiseBase",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 1382,
@@ -1374,7 +2461,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 1383,
                           "end": 1386,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1383,
@@ -1383,13 +2469,13 @@ __ESTREE_TEST__:PASS:
                             "name": "ARD",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1389,
                           "end": 1392,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1389,
@@ -1398,13 +2484,13 @@ __ESTREE_TEST__:PASS:
                             "name": "ARF",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1395,
                           "end": 1398,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1395,
@@ -1413,7 +2499,8 @@ __ESTREE_TEST__:PASS:
                             "name": "ARP",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       ]
                     },
@@ -1426,7 +2513,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 1400,
                           "end": 1403,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1400,
@@ -1435,13 +2521,13 @@ __ESTREE_TEST__:PASS:
                             "name": "AJD",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1406,
                           "end": 1409,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1406,
@@ -1450,13 +2536,13 @@ __ESTREE_TEST__:PASS:
                             "name": "AJF",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1412,
                           "end": 1415,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1412,
@@ -1465,7 +2551,8 @@ __ESTREE_TEST__:PASS:
                             "name": "AJP",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       ]
                     },
@@ -1478,7 +2565,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 1417,
                           "end": 1420,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1417,
@@ -1487,13 +2573,13 @@ __ESTREE_TEST__:PASS:
                             "name": "AND",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1423,
                           "end": 1426,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1423,
@@ -1502,13 +2588,13 @@ __ESTREE_TEST__:PASS:
                             "name": "ANF",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1429,
                           "end": 1432,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1429,
@@ -1517,7 +2603,8 @@ __ESTREE_TEST__:PASS:
                             "name": "ANP",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       ]
                     },
@@ -1530,7 +2617,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 1442,
                           "end": 1445,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1442,
@@ -1539,13 +2625,13 @@ __ESTREE_TEST__:PASS:
                             "name": "BRD",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1448,
                           "end": 1451,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1448,
@@ -1554,13 +2640,13 @@ __ESTREE_TEST__:PASS:
                             "name": "BRF",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1454,
                           "end": 1457,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1454,
@@ -1569,7 +2655,8 @@ __ESTREE_TEST__:PASS:
                             "name": "BRP",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       ]
                     },
@@ -1582,7 +2669,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 1459,
                           "end": 1462,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1459,
@@ -1591,13 +2677,13 @@ __ESTREE_TEST__:PASS:
                             "name": "BJD",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1465,
                           "end": 1468,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1465,
@@ -1606,13 +2692,13 @@ __ESTREE_TEST__:PASS:
                             "name": "BJF",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1471,
                           "end": 1474,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1471,
@@ -1621,7 +2707,8 @@ __ESTREE_TEST__:PASS:
                             "name": "BJP",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       ]
                     },
@@ -1634,7 +2721,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 1476,
                           "end": 1479,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1476,
@@ -1643,13 +2729,13 @@ __ESTREE_TEST__:PASS:
                             "name": "BND",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1482,
                           "end": 1485,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1482,
@@ -1658,13 +2744,13 @@ __ESTREE_TEST__:PASS:
                             "name": "BNF",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1488,
                           "end": 1491,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1488,
@@ -1673,7 +2759,8 @@ __ESTREE_TEST__:PASS:
                             "name": "BNP",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       ]
                     },
@@ -1686,7 +2773,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 1501,
                           "end": 1504,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1501,
@@ -1695,13 +2781,13 @@ __ESTREE_TEST__:PASS:
                             "name": "CRD",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1507,
                           "end": 1510,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1507,
@@ -1710,13 +2796,13 @@ __ESTREE_TEST__:PASS:
                             "name": "CRF",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1513,
                           "end": 1516,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1513,
@@ -1725,7 +2811,8 @@ __ESTREE_TEST__:PASS:
                             "name": "CRP",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       ]
                     },
@@ -1738,7 +2825,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 1518,
                           "end": 1521,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1518,
@@ -1747,13 +2833,13 @@ __ESTREE_TEST__:PASS:
                             "name": "CJD",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1524,
                           "end": 1527,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1524,
@@ -1762,13 +2848,13 @@ __ESTREE_TEST__:PASS:
                             "name": "CJF",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1530,
                           "end": 1533,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1530,
@@ -1777,7 +2863,8 @@ __ESTREE_TEST__:PASS:
                             "name": "CJP",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       ]
                     },
@@ -1790,7 +2877,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 1535,
                           "end": 1538,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1535,
@@ -1799,13 +2885,13 @@ __ESTREE_TEST__:PASS:
                             "name": "CND",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1541,
                           "end": 1544,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1541,
@@ -1814,13 +2900,13 @@ __ESTREE_TEST__:PASS:
                             "name": "CNF",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1547,
                           "end": 1550,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1547,
@@ -1829,7 +2915,8 @@ __ESTREE_TEST__:PASS:
                             "name": "CNP",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       ]
                     },
@@ -1842,7 +2929,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 1560,
                           "end": 1563,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1560,
@@ -1851,13 +2937,13 @@ __ESTREE_TEST__:PASS:
                             "name": "RRD",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1566,
                           "end": 1569,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1566,
@@ -1866,13 +2952,13 @@ __ESTREE_TEST__:PASS:
                             "name": "RRF",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1572,
                           "end": 1575,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1572,
@@ -1881,7 +2967,8 @@ __ESTREE_TEST__:PASS:
                             "name": "RRP",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       ]
                     },
@@ -1894,7 +2981,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 1577,
                           "end": 1580,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1577,
@@ -1903,13 +2989,13 @@ __ESTREE_TEST__:PASS:
                             "name": "RJD",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1583,
                           "end": 1586,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1583,
@@ -1918,13 +3004,13 @@ __ESTREE_TEST__:PASS:
                             "name": "RJF",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1589,
                           "end": 1592,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1589,
@@ -1933,7 +3019,8 @@ __ESTREE_TEST__:PASS:
                             "name": "RJP",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       ]
                     },
@@ -1946,7 +3033,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 1594,
                           "end": 1597,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1594,
@@ -1955,13 +3041,13 @@ __ESTREE_TEST__:PASS:
                             "name": "RND",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1600,
                           "end": 1603,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1600,
@@ -1970,13 +3056,13 @@ __ESTREE_TEST__:PASS:
                             "name": "RNF",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1606,
                           "end": 1609,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1606,
@@ -1985,866 +3071,23 @@ __ESTREE_TEST__:PASS:
                             "name": "RNP",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       ]
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 1371,
-                  "end": 1382,
-                  "decorators": [],
-                  "name": "PromiseBase",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             },
-            "static": false,
-            "typeParameters": {
-              "type": "TSTypeParameterDeclaration",
-              "start": 196,
-              "end": 752,
-              "params": [
-                {
-                  "type": "TSTypeParameter",
-                  "start": 197,
-                  "end": 208,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 203,
-                    "end": 208
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 197,
-                    "end": 200,
-                    "decorators": [],
-                    "name": "ARD",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 210,
-                  "end": 221,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 216,
-                    "end": 221
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 210,
-                    "end": 213,
-                    "decorators": [],
-                    "name": "AJD",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 223,
-                  "end": 234,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 229,
-                    "end": 234
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 223,
-                    "end": 226,
-                    "decorators": [],
-                    "name": "AND",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 244,
-                  "end": 255,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 250,
-                    "end": 255
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 244,
-                    "end": 247,
-                    "decorators": [],
-                    "name": "BRD",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 257,
-                  "end": 268,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 263,
-                    "end": 268
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 257,
-                    "end": 260,
-                    "decorators": [],
-                    "name": "BJD",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 270,
-                  "end": 281,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 276,
-                    "end": 281
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 270,
-                    "end": 273,
-                    "decorators": [],
-                    "name": "BND",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 291,
-                  "end": 302,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 297,
-                    "end": 302
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 291,
-                    "end": 294,
-                    "decorators": [],
-                    "name": "CRD",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 304,
-                  "end": 315,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 310,
-                    "end": 315
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 304,
-                    "end": 307,
-                    "decorators": [],
-                    "name": "CJD",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 317,
-                  "end": 328,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 323,
-                    "end": 328
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 317,
-                    "end": 320,
-                    "decorators": [],
-                    "name": "CND",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 338,
-                  "end": 349,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 344,
-                    "end": 349
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 338,
-                    "end": 341,
-                    "decorators": [],
-                    "name": "RRD",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 351,
-                  "end": 362,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 357,
-                    "end": 362
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 351,
-                    "end": 354,
-                    "decorators": [],
-                    "name": "RJD",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 364,
-                  "end": 375,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 370,
-                    "end": 375
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 364,
-                    "end": 367,
-                    "decorators": [],
-                    "name": "RND",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 385,
-                  "end": 396,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 391,
-                    "end": 396
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 385,
-                    "end": 388,
-                    "decorators": [],
-                    "name": "ARF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 398,
-                  "end": 409,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 404,
-                    "end": 409
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 398,
-                    "end": 401,
-                    "decorators": [],
-                    "name": "AJF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 411,
-                  "end": 422,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 417,
-                    "end": 422
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 411,
-                    "end": 414,
-                    "decorators": [],
-                    "name": "ANF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 432,
-                  "end": 443,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 438,
-                    "end": 443
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 432,
-                    "end": 435,
-                    "decorators": [],
-                    "name": "BRF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 445,
-                  "end": 456,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 451,
-                    "end": 456
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 445,
-                    "end": 448,
-                    "decorators": [],
-                    "name": "BJF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 458,
-                  "end": 469,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 464,
-                    "end": 469
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 458,
-                    "end": 461,
-                    "decorators": [],
-                    "name": "BNF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 479,
-                  "end": 490,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 485,
-                    "end": 490
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 479,
-                    "end": 482,
-                    "decorators": [],
-                    "name": "CRF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 492,
-                  "end": 503,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 498,
-                    "end": 503
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 492,
-                    "end": 495,
-                    "decorators": [],
-                    "name": "CJF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 505,
-                  "end": 516,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 511,
-                    "end": 516
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 505,
-                    "end": 508,
-                    "decorators": [],
-                    "name": "CNF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 526,
-                  "end": 537,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 532,
-                    "end": 537
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 526,
-                    "end": 529,
-                    "decorators": [],
-                    "name": "RRF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 539,
-                  "end": 550,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 545,
-                    "end": 550
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 539,
-                    "end": 542,
-                    "decorators": [],
-                    "name": "RJF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 552,
-                  "end": 563,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 558,
-                    "end": 563
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 552,
-                    "end": 555,
-                    "decorators": [],
-                    "name": "RNF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 573,
-                  "end": 584,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 579,
-                    "end": 584
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 573,
-                    "end": 576,
-                    "decorators": [],
-                    "name": "ARP",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 586,
-                  "end": 597,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 592,
-                    "end": 597
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 586,
-                    "end": 589,
-                    "decorators": [],
-                    "name": "AJP",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 599,
-                  "end": 610,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 605,
-                    "end": 610
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 599,
-                    "end": 602,
-                    "decorators": [],
-                    "name": "ANP",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 620,
-                  "end": 631,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 626,
-                    "end": 631
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 620,
-                    "end": 623,
-                    "decorators": [],
-                    "name": "BRP",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 633,
-                  "end": 644,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 639,
-                    "end": 644
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 633,
-                    "end": 636,
-                    "decorators": [],
-                    "name": "BJP",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 646,
-                  "end": 657,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 652,
-                    "end": 657
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 646,
-                    "end": 649,
-                    "decorators": [],
-                    "name": "BNP",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 667,
-                  "end": 678,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 673,
-                    "end": 678
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 667,
-                    "end": 670,
-                    "decorators": [],
-                    "name": "CRP",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 680,
-                  "end": 691,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 686,
-                    "end": 691
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 680,
-                    "end": 683,
-                    "decorators": [],
-                    "name": "CJP",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 693,
-                  "end": 704,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 699,
-                    "end": 704
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 693,
-                    "end": 696,
-                    "decorators": [],
-                    "name": "CNP",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 714,
-                  "end": 725,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 720,
-                    "end": 725
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 714,
-                    "end": 717,
-                    "decorators": [],
-                    "name": "RRP",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 727,
-                  "end": 738,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 733,
-                    "end": 738
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 727,
-                    "end": 730,
-                    "decorators": [],
-                    "name": "RJP",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 740,
-                  "end": 751,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 746,
-                    "end": 751
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 740,
-                    "end": 743,
-                    "decorators": [],
-                    "name": "RNP",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                }
-              ]
-            }
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           },
           {
             "type": "TSMethodSignature",
             "start": 1616,
             "end": 2601,
-            "accessibility": null,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 1616,
@@ -2854,8 +3097,568 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
+            "computed": false,
             "optional": false,
+            "kind": "method",
+            "typeParameters": {
+              "type": "TSTypeParameterDeclaration",
+              "start": 1620,
+              "end": 1988,
+              "params": [
+                {
+                  "type": "TSTypeParameter",
+                  "start": 1621,
+                  "end": 1632,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 1621,
+                    "end": 1624,
+                    "decorators": [],
+                    "name": "ARF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 1627,
+                    "end": 1632
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 1634,
+                  "end": 1645,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 1634,
+                    "end": 1637,
+                    "decorators": [],
+                    "name": "AJF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 1640,
+                    "end": 1645
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 1647,
+                  "end": 1658,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 1647,
+                    "end": 1650,
+                    "decorators": [],
+                    "name": "ANF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 1653,
+                    "end": 1658
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 1668,
+                  "end": 1679,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 1668,
+                    "end": 1671,
+                    "decorators": [],
+                    "name": "BRF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 1674,
+                    "end": 1679
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 1681,
+                  "end": 1692,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 1681,
+                    "end": 1684,
+                    "decorators": [],
+                    "name": "BJF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 1687,
+                    "end": 1692
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 1694,
+                  "end": 1705,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 1694,
+                    "end": 1697,
+                    "decorators": [],
+                    "name": "BNF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 1700,
+                    "end": 1705
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 1715,
+                  "end": 1726,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 1715,
+                    "end": 1718,
+                    "decorators": [],
+                    "name": "CRF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 1721,
+                    "end": 1726
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 1728,
+                  "end": 1739,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 1728,
+                    "end": 1731,
+                    "decorators": [],
+                    "name": "CJF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 1734,
+                    "end": 1739
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 1741,
+                  "end": 1752,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 1741,
+                    "end": 1744,
+                    "decorators": [],
+                    "name": "CNF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 1747,
+                    "end": 1752
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 1762,
+                  "end": 1773,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 1762,
+                    "end": 1765,
+                    "decorators": [],
+                    "name": "RRF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 1768,
+                    "end": 1773
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 1775,
+                  "end": 1786,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 1775,
+                    "end": 1778,
+                    "decorators": [],
+                    "name": "RJF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 1781,
+                    "end": 1786
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 1788,
+                  "end": 1799,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 1788,
+                    "end": 1791,
+                    "decorators": [],
+                    "name": "RNF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 1794,
+                    "end": 1799
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 1809,
+                  "end": 1820,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 1809,
+                    "end": 1812,
+                    "decorators": [],
+                    "name": "ARP",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 1815,
+                    "end": 1820
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 1822,
+                  "end": 1833,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 1822,
+                    "end": 1825,
+                    "decorators": [],
+                    "name": "AJP",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 1828,
+                    "end": 1833
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 1835,
+                  "end": 1846,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 1835,
+                    "end": 1838,
+                    "decorators": [],
+                    "name": "ANP",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 1841,
+                    "end": 1846
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 1856,
+                  "end": 1867,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 1856,
+                    "end": 1859,
+                    "decorators": [],
+                    "name": "BRP",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 1862,
+                    "end": 1867
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 1869,
+                  "end": 1880,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 1869,
+                    "end": 1872,
+                    "decorators": [],
+                    "name": "BJP",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 1875,
+                    "end": 1880
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 1882,
+                  "end": 1893,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 1882,
+                    "end": 1885,
+                    "decorators": [],
+                    "name": "BNP",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 1888,
+                    "end": 1893
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 1903,
+                  "end": 1914,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 1903,
+                    "end": 1906,
+                    "decorators": [],
+                    "name": "CRP",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 1909,
+                    "end": 1914
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 1916,
+                  "end": 1927,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 1916,
+                    "end": 1919,
+                    "decorators": [],
+                    "name": "CJP",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 1922,
+                    "end": 1927
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 1929,
+                  "end": 1940,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 1929,
+                    "end": 1932,
+                    "decorators": [],
+                    "name": "CNP",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 1935,
+                    "end": 1940
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 1950,
+                  "end": 1961,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 1950,
+                    "end": 1953,
+                    "decorators": [],
+                    "name": "RRP",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 1956,
+                    "end": 1961
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 1963,
+                  "end": 1974,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 1963,
+                    "end": 1966,
+                    "decorators": [],
+                    "name": "RJP",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 1969,
+                    "end": 1974
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 1976,
+                  "end": 1987,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 1976,
+                    "end": 1979,
+                    "decorators": [],
+                    "name": "RNP",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 1982,
+                    "end": 1987
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                }
+              ]
+            },
             "params": [
               {
                 "type": "Identifier",
@@ -2890,6 +3693,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSFunctionType",
                     "start": 2044,
                     "end": 2222,
+                    "typeParameters": null,
                     "params": [
                       {
                         "type": "Identifier",
@@ -2906,7 +3710,6 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 2048,
                             "end": 2050,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 2048,
@@ -2915,7 +3718,8 @@ __ESTREE_TEST__:PASS:
                               "name": "TJ",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         }
                       },
@@ -2934,7 +3738,6 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 2055,
                             "end": 2057,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 2055,
@@ -2943,7 +3746,8 @@ __ESTREE_TEST__:PASS:
                               "name": "UJ",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         }
                       },
@@ -2962,7 +3766,6 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 2062,
                             "end": 2064,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 2062,
@@ -2971,7 +3774,8 @@ __ESTREE_TEST__:PASS:
                               "name": "VJ",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         }
                       },
@@ -2979,6 +3783,7 @@ __ESTREE_TEST__:PASS:
                         "type": "RestElement",
                         "start": 2066,
                         "end": 2076,
+                        "decorators": [],
                         "argument": {
                           "type": "Identifier",
                           "start": 2069,
@@ -2988,7 +3793,6 @@ __ESTREE_TEST__:PASS:
                           "optional": false,
                           "typeAnnotation": null
                         },
-                        "decorators": [],
                         "optional": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
@@ -3002,7 +3806,6 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 2072,
                               "end": 2074,
-                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 2072,
@@ -3011,7 +3814,8 @@ __ESTREE_TEST__:PASS:
                                 "name": "SJ",
                                 "optional": false,
                                 "typeAnnotation": null
-                              }
+                              },
+                              "typeArguments": null
                             }
                           }
                         },
@@ -3031,6 +3835,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 2081,
                             "end": 2200,
+                            "typeName": {
+                              "type": "Identifier",
+                              "start": 2081,
+                              "end": 2092,
+                              "decorators": [],
+                              "name": "PromiseBase",
+                              "optional": false,
+                              "typeAnnotation": null
+                            },
                             "typeArguments": {
                               "type": "TSTypeParameterInstantiation",
                               "start": 2092,
@@ -3040,7 +3853,6 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 2093,
                                   "end": 2096,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2093,
@@ -3049,13 +3861,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "ARF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2098,
                                   "end": 2101,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2098,
@@ -3064,13 +3876,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "AJF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2103,
                                   "end": 2106,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2103,
@@ -3079,13 +3891,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "ANF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2124,
                                   "end": 2127,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2124,
@@ -3094,13 +3906,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "BRF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2129,
                                   "end": 2132,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2129,
@@ -3109,13 +3921,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "BJF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2134,
                                   "end": 2137,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2134,
@@ -3124,13 +3936,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "BNF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2155,
                                   "end": 2158,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2155,
@@ -3139,13 +3951,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "CRF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2160,
                                   "end": 2163,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2160,
@@ -3154,13 +3966,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "CJF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2165,
                                   "end": 2168,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2165,
@@ -3169,13 +3981,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "CNF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2186,
                                   "end": 2189,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2186,
@@ -3184,13 +3996,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "RRF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2191,
                                   "end": 2194,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2191,
@@ -3199,13 +4011,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "RJF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2196,
                                   "end": 2199,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2196,
@@ -3214,24 +4026,25 @@ __ESTREE_TEST__:PASS:
                                     "name": "RNF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 }
                               ]
-                            },
-                            "typeName": {
-                              "type": "Identifier",
-                              "start": 2081,
-                              "end": 2092,
-                              "decorators": [],
-                              "name": "PromiseBase",
-                              "optional": false,
-                              "typeAnnotation": null
                             }
                           },
                           {
                             "type": "TSTypeReference",
                             "start": 2203,
                             "end": 2216,
+                            "typeName": {
+                              "type": "Identifier",
+                              "start": 2203,
+                              "end": 2211,
+                              "decorators": [],
+                              "name": "Thenable",
+                              "optional": false,
+                              "typeAnnotation": null
+                            },
                             "typeArguments": {
                               "type": "TSTypeParameterInstantiation",
                               "start": 2211,
@@ -3241,7 +4054,6 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 2212,
                                   "end": 2215,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2212,
@@ -3250,25 +4062,16 @@ __ESTREE_TEST__:PASS:
                                     "name": "ARF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 }
                               ]
-                            },
-                            "typeName": {
-                              "type": "Identifier",
-                              "start": 2203,
-                              "end": 2211,
-                              "decorators": [],
-                              "name": "Thenable",
-                              "optional": false,
-                              "typeAnnotation": null
                             }
                           },
                           {
                             "type": "TSTypeReference",
                             "start": 2219,
                             "end": 2222,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 2219,
@@ -3277,12 +4080,12 @@ __ESTREE_TEST__:PASS:
                               "name": "ARF",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         ]
                       }
-                    },
-                    "typeParameters": null
+                    }
                   }
                 }
               },
@@ -3301,6 +4104,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSFunctionType",
                     "start": 2252,
                     "end": 2430,
+                    "typeParameters": null,
                     "params": [
                       {
                         "type": "Identifier",
@@ -3317,7 +4121,6 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 2256,
                             "end": 2258,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 2256,
@@ -3326,7 +4129,8 @@ __ESTREE_TEST__:PASS:
                               "name": "TN",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         }
                       },
@@ -3345,7 +4149,6 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 2263,
                             "end": 2265,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 2263,
@@ -3354,7 +4157,8 @@ __ESTREE_TEST__:PASS:
                               "name": "UN",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         }
                       },
@@ -3373,7 +4177,6 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 2270,
                             "end": 2272,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 2270,
@@ -3382,7 +4185,8 @@ __ESTREE_TEST__:PASS:
                               "name": "VN",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         }
                       },
@@ -3390,6 +4194,7 @@ __ESTREE_TEST__:PASS:
                         "type": "RestElement",
                         "start": 2274,
                         "end": 2284,
+                        "decorators": [],
                         "argument": {
                           "type": "Identifier",
                           "start": 2277,
@@ -3399,7 +4204,6 @@ __ESTREE_TEST__:PASS:
                           "optional": false,
                           "typeAnnotation": null
                         },
-                        "decorators": [],
                         "optional": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
@@ -3413,7 +4217,6 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 2280,
                               "end": 2282,
-                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 2280,
@@ -3422,7 +4225,8 @@ __ESTREE_TEST__:PASS:
                                 "name": "SN",
                                 "optional": false,
                                 "typeAnnotation": null
-                              }
+                              },
+                              "typeArguments": null
                             }
                           }
                         },
@@ -3442,6 +4246,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 2289,
                             "end": 2408,
+                            "typeName": {
+                              "type": "Identifier",
+                              "start": 2289,
+                              "end": 2300,
+                              "decorators": [],
+                              "name": "PromiseBase",
+                              "optional": false,
+                              "typeAnnotation": null
+                            },
                             "typeArguments": {
                               "type": "TSTypeParameterInstantiation",
                               "start": 2300,
@@ -3451,7 +4264,6 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 2301,
                                   "end": 2304,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2301,
@@ -3460,13 +4272,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "ARP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2306,
                                   "end": 2309,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2306,
@@ -3475,13 +4287,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "AJP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2311,
                                   "end": 2314,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2311,
@@ -3490,13 +4302,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "ANP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2332,
                                   "end": 2335,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2332,
@@ -3505,13 +4317,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "BRP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2337,
                                   "end": 2340,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2337,
@@ -3520,13 +4332,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "BJP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2342,
                                   "end": 2345,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2342,
@@ -3535,13 +4347,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "BNP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2363,
                                   "end": 2366,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2363,
@@ -3550,13 +4362,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "CRP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2368,
                                   "end": 2371,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2368,
@@ -3565,13 +4377,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "CJP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2373,
                                   "end": 2376,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2373,
@@ -3580,13 +4392,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "CNP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2394,
                                   "end": 2397,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2394,
@@ -3595,13 +4407,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "RRP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2399,
                                   "end": 2402,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2399,
@@ -3610,13 +4422,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "RJP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2404,
                                   "end": 2407,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2404,
@@ -3625,24 +4437,25 @@ __ESTREE_TEST__:PASS:
                                     "name": "RNP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 }
                               ]
-                            },
-                            "typeName": {
-                              "type": "Identifier",
-                              "start": 2289,
-                              "end": 2300,
-                              "decorators": [],
-                              "name": "PromiseBase",
-                              "optional": false,
-                              "typeAnnotation": null
                             }
                           },
                           {
                             "type": "TSTypeReference",
                             "start": 2411,
                             "end": 2424,
+                            "typeName": {
+                              "type": "Identifier",
+                              "start": 2411,
+                              "end": 2419,
+                              "decorators": [],
+                              "name": "Thenable",
+                              "optional": false,
+                              "typeAnnotation": null
+                            },
                             "typeArguments": {
                               "type": "TSTypeParameterInstantiation",
                               "start": 2419,
@@ -3652,7 +4465,6 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 2420,
                                   "end": 2423,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2420,
@@ -3661,25 +4473,16 @@ __ESTREE_TEST__:PASS:
                                     "name": "ANP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 }
                               ]
-                            },
-                            "typeName": {
-                              "type": "Identifier",
-                              "start": 2411,
-                              "end": 2419,
-                              "decorators": [],
-                              "name": "Thenable",
-                              "optional": false,
-                              "typeAnnotation": null
                             }
                           },
                           {
                             "type": "TSTypeReference",
                             "start": 2427,
                             "end": 2430,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 2427,
@@ -3688,17 +4491,16 @@ __ESTREE_TEST__:PASS:
                               "name": "ANP",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         ]
                       }
-                    },
-                    "typeParameters": null
+                    }
                   }
                 }
               }
             ],
-            "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 2431,
@@ -3707,6 +4509,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 2433,
                 "end": 2600,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 2433,
+                  "end": 2444,
+                  "decorators": [],
+                  "name": "PromiseBase",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 2444,
@@ -3721,7 +4532,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 2445,
                           "end": 2448,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2445,
@@ -3730,13 +4540,13 @@ __ESTREE_TEST__:PASS:
                             "name": "ARF",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 2451,
                           "end": 2454,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2451,
@@ -3745,7 +4555,8 @@ __ESTREE_TEST__:PASS:
                             "name": "ARP",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       ]
                     },
@@ -3758,7 +4569,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 2456,
                           "end": 2459,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2456,
@@ -3767,13 +4577,13 @@ __ESTREE_TEST__:PASS:
                             "name": "AJF",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 2462,
                           "end": 2465,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2462,
@@ -3782,7 +4592,8 @@ __ESTREE_TEST__:PASS:
                             "name": "AJP",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       ]
                     },
@@ -3795,7 +4606,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 2467,
                           "end": 2470,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2467,
@@ -3804,13 +4614,13 @@ __ESTREE_TEST__:PASS:
                             "name": "ANF",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 2473,
                           "end": 2476,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2473,
@@ -3819,7 +4629,8 @@ __ESTREE_TEST__:PASS:
                             "name": "ANP",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       ]
                     },
@@ -3832,7 +4643,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 2486,
                           "end": 2489,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2486,
@@ -3841,13 +4651,13 @@ __ESTREE_TEST__:PASS:
                             "name": "BRF",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 2492,
                           "end": 2495,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2492,
@@ -3856,7 +4666,8 @@ __ESTREE_TEST__:PASS:
                             "name": "BRP",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       ]
                     },
@@ -3869,7 +4680,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 2497,
                           "end": 2500,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2497,
@@ -3878,13 +4688,13 @@ __ESTREE_TEST__:PASS:
                             "name": "BJF",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 2503,
                           "end": 2506,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2503,
@@ -3893,7 +4703,8 @@ __ESTREE_TEST__:PASS:
                             "name": "BJP",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       ]
                     },
@@ -3906,7 +4717,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 2508,
                           "end": 2511,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2508,
@@ -3915,13 +4725,13 @@ __ESTREE_TEST__:PASS:
                             "name": "BNF",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 2514,
                           "end": 2517,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2514,
@@ -3930,7 +4740,8 @@ __ESTREE_TEST__:PASS:
                             "name": "BNP",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       ]
                     },
@@ -3943,7 +4754,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 2527,
                           "end": 2530,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2527,
@@ -3952,13 +4762,13 @@ __ESTREE_TEST__:PASS:
                             "name": "CRF",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 2533,
                           "end": 2536,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2533,
@@ -3967,7 +4777,8 @@ __ESTREE_TEST__:PASS:
                             "name": "CRP",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       ]
                     },
@@ -3980,7 +4791,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 2538,
                           "end": 2541,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2538,
@@ -3989,13 +4799,13 @@ __ESTREE_TEST__:PASS:
                             "name": "CJF",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 2544,
                           "end": 2547,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2544,
@@ -4004,7 +4814,8 @@ __ESTREE_TEST__:PASS:
                             "name": "CJP",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       ]
                     },
@@ -4017,7 +4828,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 2549,
                           "end": 2552,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2549,
@@ -4026,13 +4836,13 @@ __ESTREE_TEST__:PASS:
                             "name": "CNF",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 2555,
                           "end": 2558,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2555,
@@ -4041,7 +4851,8 @@ __ESTREE_TEST__:PASS:
                             "name": "CNP",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       ]
                     },
@@ -4054,7 +4865,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 2568,
                           "end": 2571,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2568,
@@ -4063,13 +4873,13 @@ __ESTREE_TEST__:PASS:
                             "name": "RRF",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 2574,
                           "end": 2577,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2574,
@@ -4078,7 +4888,8 @@ __ESTREE_TEST__:PASS:
                             "name": "RRP",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       ]
                     },
@@ -4091,7 +4902,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 2579,
                           "end": 2582,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2579,
@@ -4100,13 +4910,13 @@ __ESTREE_TEST__:PASS:
                             "name": "RJF",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 2585,
                           "end": 2588,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2585,
@@ -4115,7 +4925,8 @@ __ESTREE_TEST__:PASS:
                             "name": "RJP",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       ]
                     },
@@ -4128,7 +4939,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 2590,
                           "end": 2593,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2590,
@@ -4137,13 +4947,13 @@ __ESTREE_TEST__:PASS:
                             "name": "RNF",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 2596,
                           "end": 2599,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2596,
@@ -4152,590 +4962,23 @@ __ESTREE_TEST__:PASS:
                             "name": "RNP",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       ]
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 2433,
-                  "end": 2444,
-                  "decorators": [],
-                  "name": "PromiseBase",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             },
-            "static": false,
-            "typeParameters": {
-              "type": "TSTypeParameterDeclaration",
-              "start": 1620,
-              "end": 1988,
-              "params": [
-                {
-                  "type": "TSTypeParameter",
-                  "start": 1621,
-                  "end": 1632,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 1627,
-                    "end": 1632
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 1621,
-                    "end": 1624,
-                    "decorators": [],
-                    "name": "ARF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 1634,
-                  "end": 1645,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 1640,
-                    "end": 1645
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 1634,
-                    "end": 1637,
-                    "decorators": [],
-                    "name": "AJF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 1647,
-                  "end": 1658,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 1653,
-                    "end": 1658
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 1647,
-                    "end": 1650,
-                    "decorators": [],
-                    "name": "ANF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 1668,
-                  "end": 1679,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 1674,
-                    "end": 1679
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 1668,
-                    "end": 1671,
-                    "decorators": [],
-                    "name": "BRF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 1681,
-                  "end": 1692,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 1687,
-                    "end": 1692
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 1681,
-                    "end": 1684,
-                    "decorators": [],
-                    "name": "BJF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 1694,
-                  "end": 1705,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 1700,
-                    "end": 1705
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 1694,
-                    "end": 1697,
-                    "decorators": [],
-                    "name": "BNF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 1715,
-                  "end": 1726,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 1721,
-                    "end": 1726
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 1715,
-                    "end": 1718,
-                    "decorators": [],
-                    "name": "CRF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 1728,
-                  "end": 1739,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 1734,
-                    "end": 1739
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 1728,
-                    "end": 1731,
-                    "decorators": [],
-                    "name": "CJF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 1741,
-                  "end": 1752,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 1747,
-                    "end": 1752
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 1741,
-                    "end": 1744,
-                    "decorators": [],
-                    "name": "CNF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 1762,
-                  "end": 1773,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 1768,
-                    "end": 1773
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 1762,
-                    "end": 1765,
-                    "decorators": [],
-                    "name": "RRF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 1775,
-                  "end": 1786,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 1781,
-                    "end": 1786
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 1775,
-                    "end": 1778,
-                    "decorators": [],
-                    "name": "RJF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 1788,
-                  "end": 1799,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 1794,
-                    "end": 1799
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 1788,
-                    "end": 1791,
-                    "decorators": [],
-                    "name": "RNF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 1809,
-                  "end": 1820,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 1815,
-                    "end": 1820
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 1809,
-                    "end": 1812,
-                    "decorators": [],
-                    "name": "ARP",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 1822,
-                  "end": 1833,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 1828,
-                    "end": 1833
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 1822,
-                    "end": 1825,
-                    "decorators": [],
-                    "name": "AJP",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 1835,
-                  "end": 1846,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 1841,
-                    "end": 1846
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 1835,
-                    "end": 1838,
-                    "decorators": [],
-                    "name": "ANP",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 1856,
-                  "end": 1867,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 1862,
-                    "end": 1867
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 1856,
-                    "end": 1859,
-                    "decorators": [],
-                    "name": "BRP",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 1869,
-                  "end": 1880,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 1875,
-                    "end": 1880
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 1869,
-                    "end": 1872,
-                    "decorators": [],
-                    "name": "BJP",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 1882,
-                  "end": 1893,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 1888,
-                    "end": 1893
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 1882,
-                    "end": 1885,
-                    "decorators": [],
-                    "name": "BNP",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 1903,
-                  "end": 1914,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 1909,
-                    "end": 1914
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 1903,
-                    "end": 1906,
-                    "decorators": [],
-                    "name": "CRP",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 1916,
-                  "end": 1927,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 1922,
-                    "end": 1927
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 1916,
-                    "end": 1919,
-                    "decorators": [],
-                    "name": "CJP",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 1929,
-                  "end": 1940,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 1935,
-                    "end": 1940
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 1929,
-                    "end": 1932,
-                    "decorators": [],
-                    "name": "CNP",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 1950,
-                  "end": 1961,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 1956,
-                    "end": 1961
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 1950,
-                    "end": 1953,
-                    "decorators": [],
-                    "name": "RRP",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 1963,
-                  "end": 1974,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 1969,
-                    "end": 1974
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 1963,
-                    "end": 1966,
-                    "decorators": [],
-                    "name": "RJP",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 1976,
-                  "end": 1987,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 1982,
-                    "end": 1987
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 1976,
-                    "end": 1979,
-                    "decorators": [],
-                    "name": "RNP",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                }
-              ]
-            }
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           },
           {
             "type": "TSMethodSignature",
             "start": 2606,
             "end": 3158,
-            "accessibility": null,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 2606,
@@ -4745,8 +4988,292 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
+            "computed": false,
             "optional": false,
+            "kind": "method",
+            "typeParameters": {
+              "type": "TSTypeParameterDeclaration",
+              "start": 2610,
+              "end": 2790,
+              "params": [
+                {
+                  "type": "TSTypeParameter",
+                  "start": 2611,
+                  "end": 2622,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 2611,
+                    "end": 2614,
+                    "decorators": [],
+                    "name": "ARP",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 2617,
+                    "end": 2622
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 2624,
+                  "end": 2635,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 2624,
+                    "end": 2627,
+                    "decorators": [],
+                    "name": "AJP",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 2630,
+                    "end": 2635
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 2637,
+                  "end": 2648,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 2637,
+                    "end": 2640,
+                    "decorators": [],
+                    "name": "ANP",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 2643,
+                    "end": 2648
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 2658,
+                  "end": 2669,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 2658,
+                    "end": 2661,
+                    "decorators": [],
+                    "name": "BRP",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 2664,
+                    "end": 2669
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 2671,
+                  "end": 2682,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 2671,
+                    "end": 2674,
+                    "decorators": [],
+                    "name": "BJP",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 2677,
+                    "end": 2682
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 2684,
+                  "end": 2695,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 2684,
+                    "end": 2687,
+                    "decorators": [],
+                    "name": "BNP",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 2690,
+                    "end": 2695
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 2705,
+                  "end": 2716,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 2705,
+                    "end": 2708,
+                    "decorators": [],
+                    "name": "CRP",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 2711,
+                    "end": 2716
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 2718,
+                  "end": 2729,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 2718,
+                    "end": 2721,
+                    "decorators": [],
+                    "name": "CJP",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 2724,
+                    "end": 2729
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 2731,
+                  "end": 2742,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 2731,
+                    "end": 2734,
+                    "decorators": [],
+                    "name": "CNP",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 2737,
+                    "end": 2742
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 2752,
+                  "end": 2763,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 2752,
+                    "end": 2755,
+                    "decorators": [],
+                    "name": "RRP",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 2758,
+                    "end": 2763
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 2765,
+                  "end": 2776,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 2765,
+                    "end": 2768,
+                    "decorators": [],
+                    "name": "RJP",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 2771,
+                    "end": 2776
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 2778,
+                  "end": 2789,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 2778,
+                    "end": 2781,
+                    "decorators": [],
+                    "name": "RNP",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 2784,
+                    "end": 2789
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                }
+              ]
+            },
             "params": [
               {
                 "type": "Identifier",
@@ -4799,6 +5326,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSFunctionType",
                     "start": 2881,
                     "end": 3059,
+                    "typeParameters": null,
                     "params": [
                       {
                         "type": "Identifier",
@@ -4815,7 +5343,6 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 2885,
                             "end": 2887,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 2885,
@@ -4824,7 +5351,8 @@ __ESTREE_TEST__:PASS:
                               "name": "TN",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         }
                       },
@@ -4843,7 +5371,6 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 2892,
                             "end": 2894,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 2892,
@@ -4852,7 +5379,8 @@ __ESTREE_TEST__:PASS:
                               "name": "UN",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         }
                       },
@@ -4871,7 +5399,6 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 2899,
                             "end": 2901,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 2899,
@@ -4880,7 +5407,8 @@ __ESTREE_TEST__:PASS:
                               "name": "VN",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         }
                       },
@@ -4888,6 +5416,7 @@ __ESTREE_TEST__:PASS:
                         "type": "RestElement",
                         "start": 2903,
                         "end": 2913,
+                        "decorators": [],
                         "argument": {
                           "type": "Identifier",
                           "start": 2906,
@@ -4897,7 +5426,6 @@ __ESTREE_TEST__:PASS:
                           "optional": false,
                           "typeAnnotation": null
                         },
-                        "decorators": [],
                         "optional": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
@@ -4911,7 +5439,6 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 2909,
                               "end": 2911,
-                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 2909,
@@ -4920,7 +5447,8 @@ __ESTREE_TEST__:PASS:
                                 "name": "SN",
                                 "optional": false,
                                 "typeAnnotation": null
-                              }
+                              },
+                              "typeArguments": null
                             }
                           }
                         },
@@ -4940,6 +5468,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 2918,
                             "end": 3037,
+                            "typeName": {
+                              "type": "Identifier",
+                              "start": 2918,
+                              "end": 2929,
+                              "decorators": [],
+                              "name": "PromiseBase",
+                              "optional": false,
+                              "typeAnnotation": null
+                            },
                             "typeArguments": {
                               "type": "TSTypeParameterInstantiation",
                               "start": 2929,
@@ -4949,7 +5486,6 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 2930,
                                   "end": 2933,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2930,
@@ -4958,13 +5494,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "ARP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2935,
                                   "end": 2938,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2935,
@@ -4973,13 +5509,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "AJP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2940,
                                   "end": 2943,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2940,
@@ -4988,13 +5524,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "ANP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2961,
                                   "end": 2964,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2961,
@@ -5003,13 +5539,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "BRP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2966,
                                   "end": 2969,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2966,
@@ -5018,13 +5554,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "BJP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2971,
                                   "end": 2974,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2971,
@@ -5033,13 +5569,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "BNP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2992,
                                   "end": 2995,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2992,
@@ -5048,13 +5584,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "CRP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2997,
                                   "end": 3000,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2997,
@@ -5063,13 +5599,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "CJP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3002,
                                   "end": 3005,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3002,
@@ -5078,13 +5614,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "CNP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3023,
                                   "end": 3026,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3023,
@@ -5093,13 +5629,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "RRP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3028,
                                   "end": 3031,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3028,
@@ -5108,13 +5644,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "RJP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3033,
                                   "end": 3036,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3033,
@@ -5123,24 +5659,25 @@ __ESTREE_TEST__:PASS:
                                     "name": "RNP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 }
                               ]
-                            },
-                            "typeName": {
-                              "type": "Identifier",
-                              "start": 2918,
-                              "end": 2929,
-                              "decorators": [],
-                              "name": "PromiseBase",
-                              "optional": false,
-                              "typeAnnotation": null
                             }
                           },
                           {
                             "type": "TSTypeReference",
                             "start": 3040,
                             "end": 3053,
+                            "typeName": {
+                              "type": "Identifier",
+                              "start": 3040,
+                              "end": 3048,
+                              "decorators": [],
+                              "name": "Thenable",
+                              "optional": false,
+                              "typeAnnotation": null
+                            },
                             "typeArguments": {
                               "type": "TSTypeParameterInstantiation",
                               "start": 3048,
@@ -5150,7 +5687,6 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 3049,
                                   "end": 3052,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3049,
@@ -5159,25 +5695,16 @@ __ESTREE_TEST__:PASS:
                                     "name": "ANP",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 }
                               ]
-                            },
-                            "typeName": {
-                              "type": "Identifier",
-                              "start": 3040,
-                              "end": 3048,
-                              "decorators": [],
-                              "name": "Thenable",
-                              "optional": false,
-                              "typeAnnotation": null
                             }
                           },
                           {
                             "type": "TSTypeReference",
                             "start": 3056,
                             "end": 3059,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 3056,
@@ -5186,17 +5713,16 @@ __ESTREE_TEST__:PASS:
                               "name": "ANP",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         ]
                       }
-                    },
-                    "typeParameters": null
+                    }
                   }
                 }
               }
             ],
-            "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 3060,
@@ -5205,6 +5731,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 3062,
                 "end": 3157,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 3062,
+                  "end": 3073,
+                  "decorators": [],
+                  "name": "PromiseBase",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 3073,
@@ -5214,7 +5749,6 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 3074,
                       "end": 3077,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 3074,
@@ -5223,13 +5757,13 @@ __ESTREE_TEST__:PASS:
                         "name": "ARP",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 3079,
                       "end": 3082,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 3079,
@@ -5238,13 +5772,13 @@ __ESTREE_TEST__:PASS:
                         "name": "AJP",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 3084,
                       "end": 3087,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 3084,
@@ -5253,13 +5787,13 @@ __ESTREE_TEST__:PASS:
                         "name": "ANP",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 3097,
                       "end": 3100,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 3097,
@@ -5268,13 +5802,13 @@ __ESTREE_TEST__:PASS:
                         "name": "BRP",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 3102,
                       "end": 3105,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 3102,
@@ -5283,13 +5817,13 @@ __ESTREE_TEST__:PASS:
                         "name": "BJP",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 3107,
                       "end": 3110,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 3107,
@@ -5298,13 +5832,13 @@ __ESTREE_TEST__:PASS:
                         "name": "BNP",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 3120,
                       "end": 3123,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 3120,
@@ -5313,13 +5847,13 @@ __ESTREE_TEST__:PASS:
                         "name": "CRP",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 3125,
                       "end": 3128,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 3125,
@@ -5328,13 +5862,13 @@ __ESTREE_TEST__:PASS:
                         "name": "CJP",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 3130,
                       "end": 3133,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 3130,
@@ -5343,13 +5877,13 @@ __ESTREE_TEST__:PASS:
                         "name": "CNP",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 3143,
                       "end": 3146,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 3143,
@@ -5358,13 +5892,13 @@ __ESTREE_TEST__:PASS:
                         "name": "RRP",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 3148,
                       "end": 3151,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 3148,
@@ -5373,13 +5907,13 @@ __ESTREE_TEST__:PASS:
                         "name": "RJP",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 3153,
                       "end": 3156,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 3153,
@@ -5388,312 +5922,21 @@ __ESTREE_TEST__:PASS:
                         "name": "RNP",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 3062,
-                  "end": 3073,
-                  "decorators": [],
-                  "name": "PromiseBase",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             },
-            "static": false,
-            "typeParameters": {
-              "type": "TSTypeParameterDeclaration",
-              "start": 2610,
-              "end": 2790,
-              "params": [
-                {
-                  "type": "TSTypeParameter",
-                  "start": 2611,
-                  "end": 2622,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 2617,
-                    "end": 2622
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 2611,
-                    "end": 2614,
-                    "decorators": [],
-                    "name": "ARP",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 2624,
-                  "end": 2635,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 2630,
-                    "end": 2635
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 2624,
-                    "end": 2627,
-                    "decorators": [],
-                    "name": "AJP",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 2637,
-                  "end": 2648,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 2643,
-                    "end": 2648
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 2637,
-                    "end": 2640,
-                    "decorators": [],
-                    "name": "ANP",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 2658,
-                  "end": 2669,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 2664,
-                    "end": 2669
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 2658,
-                    "end": 2661,
-                    "decorators": [],
-                    "name": "BRP",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 2671,
-                  "end": 2682,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 2677,
-                    "end": 2682
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 2671,
-                    "end": 2674,
-                    "decorators": [],
-                    "name": "BJP",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 2684,
-                  "end": 2695,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 2690,
-                    "end": 2695
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 2684,
-                    "end": 2687,
-                    "decorators": [],
-                    "name": "BNP",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 2705,
-                  "end": 2716,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 2711,
-                    "end": 2716
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 2705,
-                    "end": 2708,
-                    "decorators": [],
-                    "name": "CRP",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 2718,
-                  "end": 2729,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 2724,
-                    "end": 2729
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 2718,
-                    "end": 2721,
-                    "decorators": [],
-                    "name": "CJP",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 2731,
-                  "end": 2742,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 2737,
-                    "end": 2742
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 2731,
-                    "end": 2734,
-                    "decorators": [],
-                    "name": "CNP",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 2752,
-                  "end": 2763,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 2758,
-                    "end": 2763
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 2752,
-                    "end": 2755,
-                    "decorators": [],
-                    "name": "RRP",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 2765,
-                  "end": 2776,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 2771,
-                    "end": 2776
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 2765,
-                    "end": 2768,
-                    "decorators": [],
-                    "name": "RJP",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 2778,
-                  "end": 2789,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 2784,
-                    "end": 2789
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 2778,
-                    "end": 2781,
-                    "decorators": [],
-                    "name": "RNP",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                }
-              ]
-            }
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           },
           {
             "type": "TSMethodSignature",
             "start": 3163,
             "end": 4149,
-            "accessibility": null,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 3163,
@@ -5703,8 +5946,568 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
+            "computed": false,
             "optional": false,
+            "kind": "method",
+            "typeParameters": {
+              "type": "TSTypeParameterDeclaration",
+              "start": 3167,
+              "end": 3535,
+              "params": [
+                {
+                  "type": "TSTypeParameter",
+                  "start": 3168,
+                  "end": 3179,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 3168,
+                    "end": 3171,
+                    "decorators": [],
+                    "name": "ARD",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 3174,
+                    "end": 3179
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 3181,
+                  "end": 3192,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 3181,
+                    "end": 3184,
+                    "decorators": [],
+                    "name": "AJD",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 3187,
+                    "end": 3192
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 3194,
+                  "end": 3205,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 3194,
+                    "end": 3197,
+                    "decorators": [],
+                    "name": "AND",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 3200,
+                    "end": 3205
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 3215,
+                  "end": 3226,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 3215,
+                    "end": 3218,
+                    "decorators": [],
+                    "name": "BRD",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 3221,
+                    "end": 3226
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 3228,
+                  "end": 3239,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 3228,
+                    "end": 3231,
+                    "decorators": [],
+                    "name": "BJD",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 3234,
+                    "end": 3239
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 3241,
+                  "end": 3252,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 3241,
+                    "end": 3244,
+                    "decorators": [],
+                    "name": "BND",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 3247,
+                    "end": 3252
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 3262,
+                  "end": 3273,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 3262,
+                    "end": 3265,
+                    "decorators": [],
+                    "name": "CRD",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 3268,
+                    "end": 3273
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 3275,
+                  "end": 3286,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 3275,
+                    "end": 3278,
+                    "decorators": [],
+                    "name": "CJD",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 3281,
+                    "end": 3286
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 3288,
+                  "end": 3299,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 3288,
+                    "end": 3291,
+                    "decorators": [],
+                    "name": "CND",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 3294,
+                    "end": 3299
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 3309,
+                  "end": 3320,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 3309,
+                    "end": 3312,
+                    "decorators": [],
+                    "name": "RRD",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 3315,
+                    "end": 3320
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 3322,
+                  "end": 3333,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 3322,
+                    "end": 3325,
+                    "decorators": [],
+                    "name": "RJD",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 3328,
+                    "end": 3333
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 3335,
+                  "end": 3346,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 3335,
+                    "end": 3338,
+                    "decorators": [],
+                    "name": "RND",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 3341,
+                    "end": 3346
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 3356,
+                  "end": 3367,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 3356,
+                    "end": 3359,
+                    "decorators": [],
+                    "name": "ARF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 3362,
+                    "end": 3367
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 3369,
+                  "end": 3380,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 3369,
+                    "end": 3372,
+                    "decorators": [],
+                    "name": "AJF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 3375,
+                    "end": 3380
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 3382,
+                  "end": 3393,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 3382,
+                    "end": 3385,
+                    "decorators": [],
+                    "name": "ANF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 3388,
+                    "end": 3393
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 3403,
+                  "end": 3414,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 3403,
+                    "end": 3406,
+                    "decorators": [],
+                    "name": "BRF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 3409,
+                    "end": 3414
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 3416,
+                  "end": 3427,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 3416,
+                    "end": 3419,
+                    "decorators": [],
+                    "name": "BJF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 3422,
+                    "end": 3427
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 3429,
+                  "end": 3440,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 3429,
+                    "end": 3432,
+                    "decorators": [],
+                    "name": "BNF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 3435,
+                    "end": 3440
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 3450,
+                  "end": 3461,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 3450,
+                    "end": 3453,
+                    "decorators": [],
+                    "name": "CRF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 3456,
+                    "end": 3461
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 3463,
+                  "end": 3474,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 3463,
+                    "end": 3466,
+                    "decorators": [],
+                    "name": "CJF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 3469,
+                    "end": 3474
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 3476,
+                  "end": 3487,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 3476,
+                    "end": 3479,
+                    "decorators": [],
+                    "name": "CNF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 3482,
+                    "end": 3487
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 3497,
+                  "end": 3508,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 3497,
+                    "end": 3500,
+                    "decorators": [],
+                    "name": "RRF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 3503,
+                    "end": 3508
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 3510,
+                  "end": 3521,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 3510,
+                    "end": 3513,
+                    "decorators": [],
+                    "name": "RJF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 3516,
+                    "end": 3521
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 3523,
+                  "end": 3534,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 3523,
+                    "end": 3526,
+                    "decorators": [],
+                    "name": "RNF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 3529,
+                    "end": 3534
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                }
+              ]
+            },
             "params": [
               {
                 "type": "Identifier",
@@ -5721,6 +6524,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSFunctionType",
                     "start": 3561,
                     "end": 3739,
+                    "typeParameters": null,
                     "params": [
                       {
                         "type": "Identifier",
@@ -5737,7 +6541,6 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 3565,
                             "end": 3567,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 3565,
@@ -5746,7 +6549,8 @@ __ESTREE_TEST__:PASS:
                               "name": "TR",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         }
                       },
@@ -5765,7 +6569,6 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 3572,
                             "end": 3574,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 3572,
@@ -5774,7 +6577,8 @@ __ESTREE_TEST__:PASS:
                               "name": "UR",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         }
                       },
@@ -5793,7 +6597,6 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 3579,
                             "end": 3581,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 3579,
@@ -5802,7 +6605,8 @@ __ESTREE_TEST__:PASS:
                               "name": "VR",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         }
                       },
@@ -5810,6 +6614,7 @@ __ESTREE_TEST__:PASS:
                         "type": "RestElement",
                         "start": 3583,
                         "end": 3593,
+                        "decorators": [],
                         "argument": {
                           "type": "Identifier",
                           "start": 3586,
@@ -5819,7 +6624,6 @@ __ESTREE_TEST__:PASS:
                           "optional": false,
                           "typeAnnotation": null
                         },
-                        "decorators": [],
                         "optional": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
@@ -5833,7 +6637,6 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 3589,
                               "end": 3591,
-                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 3589,
@@ -5842,7 +6645,8 @@ __ESTREE_TEST__:PASS:
                                 "name": "SR",
                                 "optional": false,
                                 "typeAnnotation": null
-                              }
+                              },
+                              "typeArguments": null
                             }
                           }
                         },
@@ -5862,6 +6666,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 3598,
                             "end": 3717,
+                            "typeName": {
+                              "type": "Identifier",
+                              "start": 3598,
+                              "end": 3609,
+                              "decorators": [],
+                              "name": "PromiseBase",
+                              "optional": false,
+                              "typeAnnotation": null
+                            },
                             "typeArguments": {
                               "type": "TSTypeParameterInstantiation",
                               "start": 3609,
@@ -5871,7 +6684,6 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 3610,
                                   "end": 3613,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3610,
@@ -5880,13 +6692,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "ARD",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3615,
                                   "end": 3618,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3615,
@@ -5895,13 +6707,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "AJD",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3620,
                                   "end": 3623,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3620,
@@ -5910,13 +6722,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "AND",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3641,
                                   "end": 3644,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3641,
@@ -5925,13 +6737,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "BRD",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3646,
                                   "end": 3649,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3646,
@@ -5940,13 +6752,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "BJD",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3651,
                                   "end": 3654,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3651,
@@ -5955,13 +6767,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "BND",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3672,
                                   "end": 3675,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3672,
@@ -5970,13 +6782,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "CRD",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3677,
                                   "end": 3680,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3677,
@@ -5985,13 +6797,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "CJD",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3682,
                                   "end": 3685,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3682,
@@ -6000,13 +6812,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "CND",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3703,
                                   "end": 3706,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3703,
@@ -6015,13 +6827,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "RRD",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3708,
                                   "end": 3711,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3708,
@@ -6030,13 +6842,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "RJD",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3713,
                                   "end": 3716,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3713,
@@ -6045,24 +6857,25 @@ __ESTREE_TEST__:PASS:
                                     "name": "RND",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 }
                               ]
-                            },
-                            "typeName": {
-                              "type": "Identifier",
-                              "start": 3598,
-                              "end": 3609,
-                              "decorators": [],
-                              "name": "PromiseBase",
-                              "optional": false,
-                              "typeAnnotation": null
                             }
                           },
                           {
                             "type": "TSTypeReference",
                             "start": 3720,
                             "end": 3733,
+                            "typeName": {
+                              "type": "Identifier",
+                              "start": 3720,
+                              "end": 3728,
+                              "decorators": [],
+                              "name": "Thenable",
+                              "optional": false,
+                              "typeAnnotation": null
+                            },
                             "typeArguments": {
                               "type": "TSTypeParameterInstantiation",
                               "start": 3728,
@@ -6072,7 +6885,6 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 3729,
                                   "end": 3732,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3729,
@@ -6081,25 +6893,16 @@ __ESTREE_TEST__:PASS:
                                     "name": "ARD",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 }
                               ]
-                            },
-                            "typeName": {
-                              "type": "Identifier",
-                              "start": 3720,
-                              "end": 3728,
-                              "decorators": [],
-                              "name": "Thenable",
-                              "optional": false,
-                              "typeAnnotation": null
                             }
                           },
                           {
                             "type": "TSTypeReference",
                             "start": 3736,
                             "end": 3739,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 3736,
@@ -6108,12 +6911,12 @@ __ESTREE_TEST__:PASS:
                               "name": "ARD",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         ]
                       }
-                    },
-                    "typeParameters": null
+                    }
                   }
                 }
               },
@@ -6132,6 +6935,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSFunctionType",
                     "start": 3765,
                     "end": 3943,
+                    "typeParameters": null,
                     "params": [
                       {
                         "type": "Identifier",
@@ -6148,7 +6952,6 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 3769,
                             "end": 3771,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 3769,
@@ -6157,7 +6960,8 @@ __ESTREE_TEST__:PASS:
                               "name": "TJ",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         }
                       },
@@ -6176,7 +6980,6 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 3776,
                             "end": 3778,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 3776,
@@ -6185,7 +6988,8 @@ __ESTREE_TEST__:PASS:
                               "name": "UJ",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         }
                       },
@@ -6204,7 +7008,6 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 3783,
                             "end": 3785,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 3783,
@@ -6213,7 +7016,8 @@ __ESTREE_TEST__:PASS:
                               "name": "VJ",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         }
                       },
@@ -6221,6 +7025,7 @@ __ESTREE_TEST__:PASS:
                         "type": "RestElement",
                         "start": 3787,
                         "end": 3797,
+                        "decorators": [],
                         "argument": {
                           "type": "Identifier",
                           "start": 3790,
@@ -6230,7 +7035,6 @@ __ESTREE_TEST__:PASS:
                           "optional": false,
                           "typeAnnotation": null
                         },
-                        "decorators": [],
                         "optional": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
@@ -6244,7 +7048,6 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 3793,
                               "end": 3795,
-                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 3793,
@@ -6253,7 +7056,8 @@ __ESTREE_TEST__:PASS:
                                 "name": "SJ",
                                 "optional": false,
                                 "typeAnnotation": null
-                              }
+                              },
+                              "typeArguments": null
                             }
                           }
                         },
@@ -6273,6 +7077,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 3802,
                             "end": 3921,
+                            "typeName": {
+                              "type": "Identifier",
+                              "start": 3802,
+                              "end": 3813,
+                              "decorators": [],
+                              "name": "PromiseBase",
+                              "optional": false,
+                              "typeAnnotation": null
+                            },
                             "typeArguments": {
                               "type": "TSTypeParameterInstantiation",
                               "start": 3813,
@@ -6282,7 +7095,6 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 3814,
                                   "end": 3817,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3814,
@@ -6291,13 +7103,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "ARF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3819,
                                   "end": 3822,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3819,
@@ -6306,13 +7118,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "AJF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3824,
                                   "end": 3827,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3824,
@@ -6321,13 +7133,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "ANF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3845,
                                   "end": 3848,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3845,
@@ -6336,13 +7148,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "BRF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3850,
                                   "end": 3853,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3850,
@@ -6351,13 +7163,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "BJF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3855,
                                   "end": 3858,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3855,
@@ -6366,13 +7178,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "BNF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3876,
                                   "end": 3879,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3876,
@@ -6381,13 +7193,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "CRF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3881,
                                   "end": 3884,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3881,
@@ -6396,13 +7208,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "CJF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3886,
                                   "end": 3889,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3886,
@@ -6411,13 +7223,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "CNF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3907,
                                   "end": 3910,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3907,
@@ -6426,13 +7238,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "RRF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3912,
                                   "end": 3915,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3912,
@@ -6441,13 +7253,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "RJF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3917,
                                   "end": 3920,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3917,
@@ -6456,24 +7268,25 @@ __ESTREE_TEST__:PASS:
                                     "name": "RNF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 }
                               ]
-                            },
-                            "typeName": {
-                              "type": "Identifier",
-                              "start": 3802,
-                              "end": 3813,
-                              "decorators": [],
-                              "name": "PromiseBase",
-                              "optional": false,
-                              "typeAnnotation": null
                             }
                           },
                           {
                             "type": "TSTypeReference",
                             "start": 3924,
                             "end": 3937,
+                            "typeName": {
+                              "type": "Identifier",
+                              "start": 3924,
+                              "end": 3932,
+                              "decorators": [],
+                              "name": "Thenable",
+                              "optional": false,
+                              "typeAnnotation": null
+                            },
                             "typeArguments": {
                               "type": "TSTypeParameterInstantiation",
                               "start": 3932,
@@ -6483,7 +7296,6 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 3933,
                                   "end": 3936,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3933,
@@ -6492,25 +7304,16 @@ __ESTREE_TEST__:PASS:
                                     "name": "ARF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 }
                               ]
-                            },
-                            "typeName": {
-                              "type": "Identifier",
-                              "start": 3924,
-                              "end": 3932,
-                              "decorators": [],
-                              "name": "Thenable",
-                              "optional": false,
-                              "typeAnnotation": null
                             }
                           },
                           {
                             "type": "TSTypeReference",
                             "start": 3940,
                             "end": 3943,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 3940,
@@ -6519,12 +7322,12 @@ __ESTREE_TEST__:PASS:
                               "name": "ARF",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         ]
                       }
-                    },
-                    "typeParameters": null
+                    }
                   }
                 }
               },
@@ -6547,7 +7350,6 @@ __ESTREE_TEST__:PASS:
                 }
               }
             ],
-            "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 3979,
@@ -6556,6 +7358,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 3981,
                 "end": 4148,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 3981,
+                  "end": 3992,
+                  "decorators": [],
+                  "name": "PromiseBase",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 3992,
@@ -6570,7 +7381,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 3993,
                           "end": 3996,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 3993,
@@ -6579,13 +7389,13 @@ __ESTREE_TEST__:PASS:
                             "name": "ARD",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 3999,
                           "end": 4002,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 3999,
@@ -6594,7 +7404,8 @@ __ESTREE_TEST__:PASS:
                             "name": "ARF",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       ]
                     },
@@ -6607,7 +7418,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 4004,
                           "end": 4007,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4004,
@@ -6616,13 +7426,13 @@ __ESTREE_TEST__:PASS:
                             "name": "AJD",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 4010,
                           "end": 4013,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4010,
@@ -6631,7 +7441,8 @@ __ESTREE_TEST__:PASS:
                             "name": "AJF",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       ]
                     },
@@ -6644,7 +7455,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 4015,
                           "end": 4018,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4015,
@@ -6653,13 +7463,13 @@ __ESTREE_TEST__:PASS:
                             "name": "AND",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 4021,
                           "end": 4024,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4021,
@@ -6668,7 +7478,8 @@ __ESTREE_TEST__:PASS:
                             "name": "ANF",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       ]
                     },
@@ -6681,7 +7492,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 4034,
                           "end": 4037,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4034,
@@ -6690,13 +7500,13 @@ __ESTREE_TEST__:PASS:
                             "name": "BRD",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 4040,
                           "end": 4043,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4040,
@@ -6705,7 +7515,8 @@ __ESTREE_TEST__:PASS:
                             "name": "BRF",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       ]
                     },
@@ -6718,7 +7529,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 4045,
                           "end": 4048,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4045,
@@ -6727,13 +7537,13 @@ __ESTREE_TEST__:PASS:
                             "name": "BJD",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 4051,
                           "end": 4054,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4051,
@@ -6742,7 +7552,8 @@ __ESTREE_TEST__:PASS:
                             "name": "BJF",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       ]
                     },
@@ -6755,7 +7566,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 4056,
                           "end": 4059,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4056,
@@ -6764,13 +7574,13 @@ __ESTREE_TEST__:PASS:
                             "name": "BND",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 4062,
                           "end": 4065,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4062,
@@ -6779,7 +7589,8 @@ __ESTREE_TEST__:PASS:
                             "name": "BNF",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       ]
                     },
@@ -6792,7 +7603,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 4075,
                           "end": 4078,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4075,
@@ -6801,13 +7611,13 @@ __ESTREE_TEST__:PASS:
                             "name": "CRD",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 4081,
                           "end": 4084,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4081,
@@ -6816,7 +7626,8 @@ __ESTREE_TEST__:PASS:
                             "name": "CRF",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       ]
                     },
@@ -6829,7 +7640,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 4086,
                           "end": 4089,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4086,
@@ -6838,13 +7648,13 @@ __ESTREE_TEST__:PASS:
                             "name": "CJD",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 4092,
                           "end": 4095,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4092,
@@ -6853,7 +7663,8 @@ __ESTREE_TEST__:PASS:
                             "name": "CJF",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       ]
                     },
@@ -6866,7 +7677,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 4097,
                           "end": 4100,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4097,
@@ -6875,13 +7685,13 @@ __ESTREE_TEST__:PASS:
                             "name": "CND",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 4103,
                           "end": 4106,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4103,
@@ -6890,7 +7700,8 @@ __ESTREE_TEST__:PASS:
                             "name": "CNF",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       ]
                     },
@@ -6903,7 +7714,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 4116,
                           "end": 4119,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4116,
@@ -6912,13 +7722,13 @@ __ESTREE_TEST__:PASS:
                             "name": "RRD",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 4122,
                           "end": 4125,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4122,
@@ -6927,7 +7737,8 @@ __ESTREE_TEST__:PASS:
                             "name": "RRF",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       ]
                     },
@@ -6940,7 +7751,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 4127,
                           "end": 4130,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4127,
@@ -6949,13 +7759,13 @@ __ESTREE_TEST__:PASS:
                             "name": "RJD",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 4133,
                           "end": 4136,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4133,
@@ -6964,7 +7774,8 @@ __ESTREE_TEST__:PASS:
                             "name": "RJF",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       ]
                     },
@@ -6977,7 +7788,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 4138,
                           "end": 4141,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4138,
@@ -6986,13 +7796,13 @@ __ESTREE_TEST__:PASS:
                             "name": "RND",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 4144,
                           "end": 4147,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4144,
@@ -7001,590 +7811,23 @@ __ESTREE_TEST__:PASS:
                             "name": "RNF",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "typeArguments": null
                         }
                       ]
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 3981,
-                  "end": 3992,
-                  "decorators": [],
-                  "name": "PromiseBase",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             },
-            "static": false,
-            "typeParameters": {
-              "type": "TSTypeParameterDeclaration",
-              "start": 3167,
-              "end": 3535,
-              "params": [
-                {
-                  "type": "TSTypeParameter",
-                  "start": 3168,
-                  "end": 3179,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 3174,
-                    "end": 3179
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 3168,
-                    "end": 3171,
-                    "decorators": [],
-                    "name": "ARD",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 3181,
-                  "end": 3192,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 3187,
-                    "end": 3192
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 3181,
-                    "end": 3184,
-                    "decorators": [],
-                    "name": "AJD",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 3194,
-                  "end": 3205,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 3200,
-                    "end": 3205
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 3194,
-                    "end": 3197,
-                    "decorators": [],
-                    "name": "AND",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 3215,
-                  "end": 3226,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 3221,
-                    "end": 3226
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 3215,
-                    "end": 3218,
-                    "decorators": [],
-                    "name": "BRD",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 3228,
-                  "end": 3239,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 3234,
-                    "end": 3239
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 3228,
-                    "end": 3231,
-                    "decorators": [],
-                    "name": "BJD",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 3241,
-                  "end": 3252,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 3247,
-                    "end": 3252
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 3241,
-                    "end": 3244,
-                    "decorators": [],
-                    "name": "BND",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 3262,
-                  "end": 3273,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 3268,
-                    "end": 3273
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 3262,
-                    "end": 3265,
-                    "decorators": [],
-                    "name": "CRD",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 3275,
-                  "end": 3286,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 3281,
-                    "end": 3286
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 3275,
-                    "end": 3278,
-                    "decorators": [],
-                    "name": "CJD",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 3288,
-                  "end": 3299,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 3294,
-                    "end": 3299
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 3288,
-                    "end": 3291,
-                    "decorators": [],
-                    "name": "CND",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 3309,
-                  "end": 3320,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 3315,
-                    "end": 3320
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 3309,
-                    "end": 3312,
-                    "decorators": [],
-                    "name": "RRD",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 3322,
-                  "end": 3333,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 3328,
-                    "end": 3333
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 3322,
-                    "end": 3325,
-                    "decorators": [],
-                    "name": "RJD",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 3335,
-                  "end": 3346,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 3341,
-                    "end": 3346
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 3335,
-                    "end": 3338,
-                    "decorators": [],
-                    "name": "RND",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 3356,
-                  "end": 3367,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 3362,
-                    "end": 3367
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 3356,
-                    "end": 3359,
-                    "decorators": [],
-                    "name": "ARF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 3369,
-                  "end": 3380,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 3375,
-                    "end": 3380
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 3369,
-                    "end": 3372,
-                    "decorators": [],
-                    "name": "AJF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 3382,
-                  "end": 3393,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 3388,
-                    "end": 3393
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 3382,
-                    "end": 3385,
-                    "decorators": [],
-                    "name": "ANF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 3403,
-                  "end": 3414,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 3409,
-                    "end": 3414
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 3403,
-                    "end": 3406,
-                    "decorators": [],
-                    "name": "BRF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 3416,
-                  "end": 3427,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 3422,
-                    "end": 3427
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 3416,
-                    "end": 3419,
-                    "decorators": [],
-                    "name": "BJF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 3429,
-                  "end": 3440,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 3435,
-                    "end": 3440
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 3429,
-                    "end": 3432,
-                    "decorators": [],
-                    "name": "BNF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 3450,
-                  "end": 3461,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 3456,
-                    "end": 3461
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 3450,
-                    "end": 3453,
-                    "decorators": [],
-                    "name": "CRF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 3463,
-                  "end": 3474,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 3469,
-                    "end": 3474
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 3463,
-                    "end": 3466,
-                    "decorators": [],
-                    "name": "CJF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 3476,
-                  "end": 3487,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 3482,
-                    "end": 3487
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 3476,
-                    "end": 3479,
-                    "decorators": [],
-                    "name": "CNF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 3497,
-                  "end": 3508,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 3503,
-                    "end": 3508
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 3497,
-                    "end": 3500,
-                    "decorators": [],
-                    "name": "RRF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 3510,
-                  "end": 3521,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 3516,
-                    "end": 3521
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 3510,
-                    "end": 3513,
-                    "decorators": [],
-                    "name": "RJF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 3523,
-                  "end": 3534,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 3529,
-                    "end": 3534
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 3523,
-                    "end": 3526,
-                    "decorators": [],
-                    "name": "RNF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                }
-              ]
-            }
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           },
           {
             "type": "TSMethodSignature",
             "start": 4154,
             "end": 4706,
-            "accessibility": null,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 4154,
@@ -7594,8 +7837,292 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
+            "computed": false,
             "optional": false,
+            "kind": "method",
+            "typeParameters": {
+              "type": "TSTypeParameterDeclaration",
+              "start": 4158,
+              "end": 4338,
+              "params": [
+                {
+                  "type": "TSTypeParameter",
+                  "start": 4159,
+                  "end": 4170,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 4159,
+                    "end": 4162,
+                    "decorators": [],
+                    "name": "ARF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 4165,
+                    "end": 4170
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 4172,
+                  "end": 4183,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 4172,
+                    "end": 4175,
+                    "decorators": [],
+                    "name": "AJF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 4178,
+                    "end": 4183
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 4185,
+                  "end": 4196,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 4185,
+                    "end": 4188,
+                    "decorators": [],
+                    "name": "ANF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 4191,
+                    "end": 4196
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 4206,
+                  "end": 4217,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 4206,
+                    "end": 4209,
+                    "decorators": [],
+                    "name": "BRF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 4212,
+                    "end": 4217
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 4219,
+                  "end": 4230,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 4219,
+                    "end": 4222,
+                    "decorators": [],
+                    "name": "BJF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 4225,
+                    "end": 4230
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 4232,
+                  "end": 4243,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 4232,
+                    "end": 4235,
+                    "decorators": [],
+                    "name": "BNF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 4238,
+                    "end": 4243
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 4253,
+                  "end": 4264,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 4253,
+                    "end": 4256,
+                    "decorators": [],
+                    "name": "CRF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 4259,
+                    "end": 4264
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 4266,
+                  "end": 4277,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 4266,
+                    "end": 4269,
+                    "decorators": [],
+                    "name": "CJF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 4272,
+                    "end": 4277
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 4279,
+                  "end": 4290,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 4279,
+                    "end": 4282,
+                    "decorators": [],
+                    "name": "CNF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 4285,
+                    "end": 4290
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 4300,
+                  "end": 4311,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 4300,
+                    "end": 4303,
+                    "decorators": [],
+                    "name": "RRF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 4306,
+                    "end": 4311
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 4313,
+                  "end": 4324,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 4313,
+                    "end": 4316,
+                    "decorators": [],
+                    "name": "RJF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 4319,
+                    "end": 4324
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 4326,
+                  "end": 4337,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 4326,
+                    "end": 4329,
+                    "decorators": [],
+                    "name": "RNF",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 4332,
+                    "end": 4337
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                }
+              ]
+            },
             "params": [
               {
                 "type": "Identifier",
@@ -7630,6 +8157,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSFunctionType",
                     "start": 4394,
                     "end": 4572,
+                    "typeParameters": null,
                     "params": [
                       {
                         "type": "Identifier",
@@ -7646,7 +8174,6 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 4398,
                             "end": 4400,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 4398,
@@ -7655,7 +8182,8 @@ __ESTREE_TEST__:PASS:
                               "name": "TJ",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         }
                       },
@@ -7674,7 +8202,6 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 4405,
                             "end": 4407,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 4405,
@@ -7683,7 +8210,8 @@ __ESTREE_TEST__:PASS:
                               "name": "UJ",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         }
                       },
@@ -7702,7 +8230,6 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 4412,
                             "end": 4414,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 4412,
@@ -7711,7 +8238,8 @@ __ESTREE_TEST__:PASS:
                               "name": "VJ",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         }
                       },
@@ -7719,6 +8247,7 @@ __ESTREE_TEST__:PASS:
                         "type": "RestElement",
                         "start": 4416,
                         "end": 4426,
+                        "decorators": [],
                         "argument": {
                           "type": "Identifier",
                           "start": 4419,
@@ -7728,7 +8257,6 @@ __ESTREE_TEST__:PASS:
                           "optional": false,
                           "typeAnnotation": null
                         },
-                        "decorators": [],
                         "optional": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
@@ -7742,7 +8270,6 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 4422,
                               "end": 4424,
-                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 4422,
@@ -7751,7 +8278,8 @@ __ESTREE_TEST__:PASS:
                                 "name": "SJ",
                                 "optional": false,
                                 "typeAnnotation": null
-                              }
+                              },
+                              "typeArguments": null
                             }
                           }
                         },
@@ -7771,6 +8299,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 4431,
                             "end": 4550,
+                            "typeName": {
+                              "type": "Identifier",
+                              "start": 4431,
+                              "end": 4442,
+                              "decorators": [],
+                              "name": "PromiseBase",
+                              "optional": false,
+                              "typeAnnotation": null
+                            },
                             "typeArguments": {
                               "type": "TSTypeParameterInstantiation",
                               "start": 4442,
@@ -7780,7 +8317,6 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 4443,
                                   "end": 4446,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 4443,
@@ -7789,13 +8325,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "ARF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 4448,
                                   "end": 4451,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 4448,
@@ -7804,13 +8340,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "AJF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 4453,
                                   "end": 4456,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 4453,
@@ -7819,13 +8355,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "ANF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 4474,
                                   "end": 4477,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 4474,
@@ -7834,13 +8370,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "BRF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 4479,
                                   "end": 4482,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 4479,
@@ -7849,13 +8385,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "BJF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 4484,
                                   "end": 4487,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 4484,
@@ -7864,13 +8400,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "BNF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 4505,
                                   "end": 4508,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 4505,
@@ -7879,13 +8415,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "CRF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 4510,
                                   "end": 4513,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 4510,
@@ -7894,13 +8430,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "CJF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 4515,
                                   "end": 4518,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 4515,
@@ -7909,13 +8445,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "CNF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 4536,
                                   "end": 4539,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 4536,
@@ -7924,13 +8460,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "RRF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 4541,
                                   "end": 4544,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 4541,
@@ -7939,13 +8475,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "RJF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 4546,
                                   "end": 4549,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 4546,
@@ -7954,24 +8490,25 @@ __ESTREE_TEST__:PASS:
                                     "name": "RNF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 }
                               ]
-                            },
-                            "typeName": {
-                              "type": "Identifier",
-                              "start": 4431,
-                              "end": 4442,
-                              "decorators": [],
-                              "name": "PromiseBase",
-                              "optional": false,
-                              "typeAnnotation": null
                             }
                           },
                           {
                             "type": "TSTypeReference",
                             "start": 4553,
                             "end": 4566,
+                            "typeName": {
+                              "type": "Identifier",
+                              "start": 4553,
+                              "end": 4561,
+                              "decorators": [],
+                              "name": "Thenable",
+                              "optional": false,
+                              "typeAnnotation": null
+                            },
                             "typeArguments": {
                               "type": "TSTypeParameterInstantiation",
                               "start": 4561,
@@ -7981,7 +8518,6 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 4562,
                                   "end": 4565,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 4562,
@@ -7990,25 +8526,16 @@ __ESTREE_TEST__:PASS:
                                     "name": "ARF",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 }
                               ]
-                            },
-                            "typeName": {
-                              "type": "Identifier",
-                              "start": 4553,
-                              "end": 4561,
-                              "decorators": [],
-                              "name": "Thenable",
-                              "optional": false,
-                              "typeAnnotation": null
                             }
                           },
                           {
                             "type": "TSTypeReference",
                             "start": 4569,
                             "end": 4572,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 4569,
@@ -8017,12 +8544,12 @@ __ESTREE_TEST__:PASS:
                               "name": "ARF",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         ]
                       }
-                    },
-                    "typeParameters": null
+                    }
                   }
                 }
               },
@@ -8045,7 +8572,6 @@ __ESTREE_TEST__:PASS:
                 }
               }
             ],
-            "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 4608,
@@ -8054,6 +8580,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 4610,
                 "end": 4705,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 4610,
+                  "end": 4621,
+                  "decorators": [],
+                  "name": "PromiseBase",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 4621,
@@ -8063,7 +8598,6 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 4622,
                       "end": 4625,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 4622,
@@ -8072,13 +8606,13 @@ __ESTREE_TEST__:PASS:
                         "name": "ARF",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 4627,
                       "end": 4630,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 4627,
@@ -8087,13 +8621,13 @@ __ESTREE_TEST__:PASS:
                         "name": "AJF",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 4632,
                       "end": 4635,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 4632,
@@ -8102,13 +8636,13 @@ __ESTREE_TEST__:PASS:
                         "name": "ANF",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 4645,
                       "end": 4648,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 4645,
@@ -8117,13 +8651,13 @@ __ESTREE_TEST__:PASS:
                         "name": "BRF",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 4650,
                       "end": 4653,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 4650,
@@ -8132,13 +8666,13 @@ __ESTREE_TEST__:PASS:
                         "name": "BJF",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 4655,
                       "end": 4658,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 4655,
@@ -8147,13 +8681,13 @@ __ESTREE_TEST__:PASS:
                         "name": "BNF",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 4668,
                       "end": 4671,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 4668,
@@ -8162,13 +8696,13 @@ __ESTREE_TEST__:PASS:
                         "name": "CRF",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 4673,
                       "end": 4676,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 4673,
@@ -8177,13 +8711,13 @@ __ESTREE_TEST__:PASS:
                         "name": "CJF",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 4678,
                       "end": 4681,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 4678,
@@ -8192,13 +8726,13 @@ __ESTREE_TEST__:PASS:
                         "name": "CNF",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 4691,
                       "end": 4694,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 4691,
@@ -8207,13 +8741,13 @@ __ESTREE_TEST__:PASS:
                         "name": "RRF",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 4696,
                       "end": 4699,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 4696,
@@ -8222,13 +8756,13 @@ __ESTREE_TEST__:PASS:
                         "name": "RJF",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 4701,
                       "end": 4704,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 4701,
@@ -8237,312 +8771,21 @@ __ESTREE_TEST__:PASS:
                         "name": "RNF",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 4610,
-                  "end": 4621,
-                  "decorators": [],
-                  "name": "PromiseBase",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             },
-            "static": false,
-            "typeParameters": {
-              "type": "TSTypeParameterDeclaration",
-              "start": 4158,
-              "end": 4338,
-              "params": [
-                {
-                  "type": "TSTypeParameter",
-                  "start": 4159,
-                  "end": 4170,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 4165,
-                    "end": 4170
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 4159,
-                    "end": 4162,
-                    "decorators": [],
-                    "name": "ARF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 4172,
-                  "end": 4183,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 4178,
-                    "end": 4183
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 4172,
-                    "end": 4175,
-                    "decorators": [],
-                    "name": "AJF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 4185,
-                  "end": 4196,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 4191,
-                    "end": 4196
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 4185,
-                    "end": 4188,
-                    "decorators": [],
-                    "name": "ANF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 4206,
-                  "end": 4217,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 4212,
-                    "end": 4217
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 4206,
-                    "end": 4209,
-                    "decorators": [],
-                    "name": "BRF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 4219,
-                  "end": 4230,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 4225,
-                    "end": 4230
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 4219,
-                    "end": 4222,
-                    "decorators": [],
-                    "name": "BJF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 4232,
-                  "end": 4243,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 4238,
-                    "end": 4243
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 4232,
-                    "end": 4235,
-                    "decorators": [],
-                    "name": "BNF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 4253,
-                  "end": 4264,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 4259,
-                    "end": 4264
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 4253,
-                    "end": 4256,
-                    "decorators": [],
-                    "name": "CRF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 4266,
-                  "end": 4277,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 4272,
-                    "end": 4277
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 4266,
-                    "end": 4269,
-                    "decorators": [],
-                    "name": "CJF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 4279,
-                  "end": 4290,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 4285,
-                    "end": 4290
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 4279,
-                    "end": 4282,
-                    "decorators": [],
-                    "name": "CNF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 4300,
-                  "end": 4311,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 4306,
-                    "end": 4311
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 4300,
-                    "end": 4303,
-                    "decorators": [],
-                    "name": "RRF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 4313,
-                  "end": 4324,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 4319,
-                    "end": 4324
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 4313,
-                    "end": 4316,
-                    "decorators": [],
-                    "name": "RJF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 4326,
-                  "end": 4337,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 4332,
-                    "end": 4337
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 4326,
-                    "end": 4329,
-                    "decorators": [],
-                    "name": "RNF",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                }
-              ]
-            }
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           },
           {
             "type": "TSMethodSignature",
             "start": 4711,
             "end": 5264,
-            "accessibility": null,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 4711,
@@ -8552,8 +8795,292 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
+            "computed": false,
             "optional": false,
+            "kind": "method",
+            "typeParameters": {
+              "type": "TSTypeParameterDeclaration",
+              "start": 4715,
+              "end": 4895,
+              "params": [
+                {
+                  "type": "TSTypeParameter",
+                  "start": 4716,
+                  "end": 4727,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 4716,
+                    "end": 4719,
+                    "decorators": [],
+                    "name": "ARD",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 4722,
+                    "end": 4727
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 4729,
+                  "end": 4740,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 4729,
+                    "end": 4732,
+                    "decorators": [],
+                    "name": "AJD",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 4735,
+                    "end": 4740
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 4742,
+                  "end": 4753,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 4742,
+                    "end": 4745,
+                    "decorators": [],
+                    "name": "AND",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 4748,
+                    "end": 4753
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 4763,
+                  "end": 4774,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 4763,
+                    "end": 4766,
+                    "decorators": [],
+                    "name": "BRD",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 4769,
+                    "end": 4774
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 4776,
+                  "end": 4787,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 4776,
+                    "end": 4779,
+                    "decorators": [],
+                    "name": "BJD",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 4782,
+                    "end": 4787
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 4789,
+                  "end": 4800,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 4789,
+                    "end": 4792,
+                    "decorators": [],
+                    "name": "BND",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 4795,
+                    "end": 4800
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 4810,
+                  "end": 4821,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 4810,
+                    "end": 4813,
+                    "decorators": [],
+                    "name": "CRD",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 4816,
+                    "end": 4821
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 4823,
+                  "end": 4834,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 4823,
+                    "end": 4826,
+                    "decorators": [],
+                    "name": "CJD",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 4829,
+                    "end": 4834
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 4836,
+                  "end": 4847,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 4836,
+                    "end": 4839,
+                    "decorators": [],
+                    "name": "CND",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 4842,
+                    "end": 4847
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 4857,
+                  "end": 4868,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 4857,
+                    "end": 4860,
+                    "decorators": [],
+                    "name": "RRD",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 4863,
+                    "end": 4868
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 4870,
+                  "end": 4881,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 4870,
+                    "end": 4873,
+                    "decorators": [],
+                    "name": "RJD",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 4876,
+                    "end": 4881
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                },
+                {
+                  "type": "TSTypeParameter",
+                  "start": 4883,
+                  "end": 4894,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 4883,
+                    "end": 4886,
+                    "decorators": [],
+                    "name": "RND",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": {
+                    "type": "TSNeverKeyword",
+                    "start": 4889,
+                    "end": 4894
+                  },
+                  "in": false,
+                  "out": false,
+                  "const": false
+                }
+              ]
+            },
             "params": [
               {
                 "type": "Identifier",
@@ -8570,6 +9097,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSFunctionType",
                     "start": 4921,
                     "end": 5099,
+                    "typeParameters": null,
                     "params": [
                       {
                         "type": "Identifier",
@@ -8586,7 +9114,6 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 4925,
                             "end": 4927,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 4925,
@@ -8595,7 +9122,8 @@ __ESTREE_TEST__:PASS:
                               "name": "TR",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         }
                       },
@@ -8614,7 +9142,6 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 4932,
                             "end": 4934,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 4932,
@@ -8623,7 +9150,8 @@ __ESTREE_TEST__:PASS:
                               "name": "UR",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         }
                       },
@@ -8642,7 +9170,6 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 4939,
                             "end": 4941,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 4939,
@@ -8651,7 +9178,8 @@ __ESTREE_TEST__:PASS:
                               "name": "VR",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         }
                       },
@@ -8659,6 +9187,7 @@ __ESTREE_TEST__:PASS:
                         "type": "RestElement",
                         "start": 4943,
                         "end": 4953,
+                        "decorators": [],
                         "argument": {
                           "type": "Identifier",
                           "start": 4946,
@@ -8668,7 +9197,6 @@ __ESTREE_TEST__:PASS:
                           "optional": false,
                           "typeAnnotation": null
                         },
-                        "decorators": [],
                         "optional": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
@@ -8682,7 +9210,6 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 4949,
                               "end": 4951,
-                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 4949,
@@ -8691,7 +9218,8 @@ __ESTREE_TEST__:PASS:
                                 "name": "SR",
                                 "optional": false,
                                 "typeAnnotation": null
-                              }
+                              },
+                              "typeArguments": null
                             }
                           }
                         },
@@ -8711,6 +9239,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 4958,
                             "end": 5077,
+                            "typeName": {
+                              "type": "Identifier",
+                              "start": 4958,
+                              "end": 4969,
+                              "decorators": [],
+                              "name": "PromiseBase",
+                              "optional": false,
+                              "typeAnnotation": null
+                            },
                             "typeArguments": {
                               "type": "TSTypeParameterInstantiation",
                               "start": 4969,
@@ -8720,7 +9257,6 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 4970,
                                   "end": 4973,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 4970,
@@ -8729,13 +9265,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "ARD",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 4975,
                                   "end": 4978,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 4975,
@@ -8744,13 +9280,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "AJD",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 4980,
                                   "end": 4983,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 4980,
@@ -8759,13 +9295,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "AND",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 5001,
                                   "end": 5004,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 5001,
@@ -8774,13 +9310,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "BRD",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 5006,
                                   "end": 5009,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 5006,
@@ -8789,13 +9325,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "BJD",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 5011,
                                   "end": 5014,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 5011,
@@ -8804,13 +9340,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "BND",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 5032,
                                   "end": 5035,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 5032,
@@ -8819,13 +9355,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "CRD",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 5037,
                                   "end": 5040,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 5037,
@@ -8834,13 +9370,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "CJD",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 5042,
                                   "end": 5045,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 5042,
@@ -8849,13 +9385,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "CND",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 5063,
                                   "end": 5066,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 5063,
@@ -8864,13 +9400,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "RRD",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 5068,
                                   "end": 5071,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 5068,
@@ -8879,13 +9415,13 @@ __ESTREE_TEST__:PASS:
                                     "name": "RJD",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 5073,
                                   "end": 5076,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 5073,
@@ -8894,24 +9430,25 @@ __ESTREE_TEST__:PASS:
                                     "name": "RND",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 }
                               ]
-                            },
-                            "typeName": {
-                              "type": "Identifier",
-                              "start": 4958,
-                              "end": 4969,
-                              "decorators": [],
-                              "name": "PromiseBase",
-                              "optional": false,
-                              "typeAnnotation": null
                             }
                           },
                           {
                             "type": "TSTypeReference",
                             "start": 5080,
                             "end": 5093,
+                            "typeName": {
+                              "type": "Identifier",
+                              "start": 5080,
+                              "end": 5088,
+                              "decorators": [],
+                              "name": "Thenable",
+                              "optional": false,
+                              "typeAnnotation": null
+                            },
                             "typeArguments": {
                               "type": "TSTypeParameterInstantiation",
                               "start": 5088,
@@ -8921,7 +9458,6 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 5089,
                                   "end": 5092,
-                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 5089,
@@ -8930,25 +9466,16 @@ __ESTREE_TEST__:PASS:
                                     "name": "ARD",
                                     "optional": false,
                                     "typeAnnotation": null
-                                  }
+                                  },
+                                  "typeArguments": null
                                 }
                               ]
-                            },
-                            "typeName": {
-                              "type": "Identifier",
-                              "start": 5080,
-                              "end": 5088,
-                              "decorators": [],
-                              "name": "Thenable",
-                              "optional": false,
-                              "typeAnnotation": null
                             }
                           },
                           {
                             "type": "TSTypeReference",
                             "start": 5096,
                             "end": 5099,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 5096,
@@ -8957,12 +9484,12 @@ __ESTREE_TEST__:PASS:
                               "name": "ARD",
                               "optional": false,
                               "typeAnnotation": null
-                            }
+                            },
+                            "typeArguments": null
                           }
                         ]
                       }
-                    },
-                    "typeParameters": null
+                    }
                   }
                 }
               },
@@ -9003,7 +9530,6 @@ __ESTREE_TEST__:PASS:
                 }
               }
             ],
-            "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 5166,
@@ -9012,6 +9538,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 5168,
                 "end": 5263,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 5168,
+                  "end": 5179,
+                  "decorators": [],
+                  "name": "PromiseBase",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 5179,
@@ -9021,7 +9556,6 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 5180,
                       "end": 5183,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 5180,
@@ -9030,13 +9564,13 @@ __ESTREE_TEST__:PASS:
                         "name": "ARD",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 5185,
                       "end": 5188,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 5185,
@@ -9045,13 +9579,13 @@ __ESTREE_TEST__:PASS:
                         "name": "AJD",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 5190,
                       "end": 5193,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 5190,
@@ -9060,13 +9594,13 @@ __ESTREE_TEST__:PASS:
                         "name": "AND",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 5203,
                       "end": 5206,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 5203,
@@ -9075,13 +9609,13 @@ __ESTREE_TEST__:PASS:
                         "name": "BRD",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 5208,
                       "end": 5211,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 5208,
@@ -9090,13 +9624,13 @@ __ESTREE_TEST__:PASS:
                         "name": "BJD",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 5213,
                       "end": 5216,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 5213,
@@ -9105,13 +9639,13 @@ __ESTREE_TEST__:PASS:
                         "name": "BND",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 5226,
                       "end": 5229,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 5226,
@@ -9120,13 +9654,13 @@ __ESTREE_TEST__:PASS:
                         "name": "CRD",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 5231,
                       "end": 5234,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 5231,
@@ -9135,13 +9669,13 @@ __ESTREE_TEST__:PASS:
                         "name": "CJD",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 5236,
                       "end": 5239,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 5236,
@@ -9150,13 +9684,13 @@ __ESTREE_TEST__:PASS:
                         "name": "CND",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 5249,
                       "end": 5252,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 5249,
@@ -9165,13 +9699,13 @@ __ESTREE_TEST__:PASS:
                         "name": "RRD",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 5254,
                       "end": 5257,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 5254,
@@ -9180,13 +9714,13 @@ __ESTREE_TEST__:PASS:
                         "name": "RJD",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 5259,
                       "end": 5262,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 5259,
@@ -9195,566 +9729,212 @@ __ESTREE_TEST__:PASS:
                         "name": "RND",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 5168,
-                  "end": 5179,
-                  "decorators": [],
-                  "name": "PromiseBase",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             },
-            "static": false,
-            "typeParameters": {
-              "type": "TSTypeParameterDeclaration",
-              "start": 4715,
-              "end": 4895,
-              "params": [
-                {
-                  "type": "TSTypeParameter",
-                  "start": 4716,
-                  "end": 4727,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 4722,
-                    "end": 4727
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 4716,
-                    "end": 4719,
-                    "decorators": [],
-                    "name": "ARD",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 4729,
-                  "end": 4740,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 4735,
-                    "end": 4740
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 4729,
-                    "end": 4732,
-                    "decorators": [],
-                    "name": "AJD",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 4742,
-                  "end": 4753,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 4748,
-                    "end": 4753
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 4742,
-                    "end": 4745,
-                    "decorators": [],
-                    "name": "AND",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 4763,
-                  "end": 4774,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 4769,
-                    "end": 4774
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 4763,
-                    "end": 4766,
-                    "decorators": [],
-                    "name": "BRD",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 4776,
-                  "end": 4787,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 4782,
-                    "end": 4787
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 4776,
-                    "end": 4779,
-                    "decorators": [],
-                    "name": "BJD",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 4789,
-                  "end": 4800,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 4795,
-                    "end": 4800
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 4789,
-                    "end": 4792,
-                    "decorators": [],
-                    "name": "BND",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 4810,
-                  "end": 4821,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 4816,
-                    "end": 4821
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 4810,
-                    "end": 4813,
-                    "decorators": [],
-                    "name": "CRD",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 4823,
-                  "end": 4834,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 4829,
-                    "end": 4834
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 4823,
-                    "end": 4826,
-                    "decorators": [],
-                    "name": "CJD",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 4836,
-                  "end": 4847,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 4842,
-                    "end": 4847
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 4836,
-                    "end": 4839,
-                    "decorators": [],
-                    "name": "CND",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 4857,
-                  "end": 4868,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 4863,
-                    "end": 4868
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 4857,
-                    "end": 4860,
-                    "decorators": [],
-                    "name": "RRD",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 4870,
-                  "end": 4881,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 4876,
-                    "end": 4881
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 4870,
-                    "end": 4873,
-                    "decorators": [],
-                    "name": "RJD",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                },
-                {
-                  "type": "TSTypeParameter",
-                  "start": 4883,
-                  "end": 4894,
-                  "const": false,
-                  "constraint": null,
-                  "default": {
-                    "type": "TSNeverKeyword",
-                    "start": 4889,
-                    "end": 4894
-                  },
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 4883,
-                    "end": 4886,
-                    "decorators": [],
-                    "name": "RND",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                }
-              ]
-            }
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 114,
-        "end": 125,
-        "decorators": [],
-        "name": "PromiseBase",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": {
-        "type": "TSTypeParameterDeclaration",
-        "start": 125,
-        "end": 185,
-        "params": [
-          {
-            "type": "TSTypeParameter",
-            "start": 126,
-            "end": 128,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 126,
-              "end": 128,
-              "decorators": [],
-              "name": "TR",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          },
-          {
-            "type": "TSTypeParameter",
-            "start": 130,
-            "end": 132,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 130,
-              "end": 132,
-              "decorators": [],
-              "name": "TJ",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          },
-          {
-            "type": "TSTypeParameter",
-            "start": 134,
-            "end": 136,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 134,
-              "end": 136,
-              "decorators": [],
-              "name": "TN",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          },
-          {
-            "type": "TSTypeParameter",
-            "start": 142,
-            "end": 144,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 142,
-              "end": 144,
-              "decorators": [],
-              "name": "UR",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          },
-          {
-            "type": "TSTypeParameter",
-            "start": 146,
-            "end": 148,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 146,
-              "end": 148,
-              "decorators": [],
-              "name": "UJ",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          },
-          {
-            "type": "TSTypeParameter",
-            "start": 150,
-            "end": 152,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 150,
-              "end": 152,
-              "decorators": [],
-              "name": "UN",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          },
-          {
-            "type": "TSTypeParameter",
-            "start": 158,
-            "end": 160,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 158,
-              "end": 160,
-              "decorators": [],
-              "name": "VR",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          },
-          {
-            "type": "TSTypeParameter",
-            "start": 162,
-            "end": 164,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 162,
-              "end": 164,
-              "decorators": [],
-              "name": "VJ",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          },
-          {
-            "type": "TSTypeParameter",
-            "start": 166,
-            "end": 168,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 166,
-              "end": 168,
-              "decorators": [],
-              "name": "VN",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          },
-          {
-            "type": "TSTypeParameter",
-            "start": 174,
-            "end": 176,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 174,
-              "end": 176,
-              "decorators": [],
-              "name": "SR",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          },
-          {
-            "type": "TSTypeParameter",
-            "start": 178,
-            "end": 180,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 178,
-              "end": 180,
-              "decorators": [],
-              "name": "SJ",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          },
-          {
-            "type": "TSTypeParameter",
-            "start": 182,
-            "end": 184,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 182,
-              "end": 184,
-              "decorators": [],
-              "name": "SN",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          }
-        ]
-      }
+      "declare": false
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 5268,
       "end": 5423,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 5420,
-        "end": 5423,
-        "body": []
+      "id": {
+        "type": "Identifier",
+        "start": 5278,
+        "end": 5286,
+        "decorators": [],
+        "name": "Promise3",
+        "optional": false,
+        "typeAnnotation": null
       },
-      "declare": false,
+      "typeParameters": {
+        "type": "TSTypeParameterDeclaration",
+        "start": 5286,
+        "end": 5330,
+        "params": [
+          {
+            "type": "TSTypeParameter",
+            "start": 5287,
+            "end": 5289,
+            "name": {
+              "type": "Identifier",
+              "start": 5287,
+              "end": 5289,
+              "decorators": [],
+              "name": "TR",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          },
+          {
+            "type": "TSTypeParameter",
+            "start": 5291,
+            "end": 5293,
+            "name": {
+              "type": "Identifier",
+              "start": 5291,
+              "end": 5293,
+              "decorators": [],
+              "name": "TJ",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          },
+          {
+            "type": "TSTypeParameter",
+            "start": 5295,
+            "end": 5297,
+            "name": {
+              "type": "Identifier",
+              "start": 5295,
+              "end": 5297,
+              "decorators": [],
+              "name": "TN",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          },
+          {
+            "type": "TSTypeParameter",
+            "start": 5303,
+            "end": 5305,
+            "name": {
+              "type": "Identifier",
+              "start": 5303,
+              "end": 5305,
+              "decorators": [],
+              "name": "UR",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          },
+          {
+            "type": "TSTypeParameter",
+            "start": 5307,
+            "end": 5309,
+            "name": {
+              "type": "Identifier",
+              "start": 5307,
+              "end": 5309,
+              "decorators": [],
+              "name": "UJ",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          },
+          {
+            "type": "TSTypeParameter",
+            "start": 5311,
+            "end": 5313,
+            "name": {
+              "type": "Identifier",
+              "start": 5311,
+              "end": 5313,
+              "decorators": [],
+              "name": "UN",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          },
+          {
+            "type": "TSTypeParameter",
+            "start": 5319,
+            "end": 5321,
+            "name": {
+              "type": "Identifier",
+              "start": 5319,
+              "end": 5321,
+              "decorators": [],
+              "name": "VR",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          },
+          {
+            "type": "TSTypeParameter",
+            "start": 5323,
+            "end": 5325,
+            "name": {
+              "type": "Identifier",
+              "start": 5323,
+              "end": 5325,
+              "decorators": [],
+              "name": "VJ",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          },
+          {
+            "type": "TSTypeParameter",
+            "start": 5327,
+            "end": 5329,
+            "name": {
+              "type": "Identifier",
+              "start": 5327,
+              "end": 5329,
+              "decorators": [],
+              "name": "VN",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          }
+        ]
+      },
       "extends": [
         {
           "type": "TSInterfaceHeritage",
@@ -9778,7 +9958,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 5351,
                 "end": 5353,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 5351,
@@ -9787,13 +9966,13 @@ __ESTREE_TEST__:PASS:
                   "name": "TR",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               },
               {
                 "type": "TSTypeReference",
                 "start": 5355,
                 "end": 5357,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 5355,
@@ -9802,13 +9981,13 @@ __ESTREE_TEST__:PASS:
                   "name": "TJ",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               },
               {
                 "type": "TSTypeReference",
                 "start": 5359,
                 "end": 5361,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 5359,
@@ -9817,13 +9996,13 @@ __ESTREE_TEST__:PASS:
                   "name": "TN",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               },
               {
                 "type": "TSTypeReference",
                 "start": 5367,
                 "end": 5369,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 5367,
@@ -9832,13 +10011,13 @@ __ESTREE_TEST__:PASS:
                   "name": "UR",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               },
               {
                 "type": "TSTypeReference",
                 "start": 5371,
                 "end": 5373,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 5371,
@@ -9847,13 +10026,13 @@ __ESTREE_TEST__:PASS:
                   "name": "UJ",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               },
               {
                 "type": "TSTypeReference",
                 "start": 5375,
                 "end": 5377,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 5375,
@@ -9862,13 +10041,13 @@ __ESTREE_TEST__:PASS:
                   "name": "UN",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               },
               {
                 "type": "TSTypeReference",
                 "start": 5383,
                 "end": 5385,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 5383,
@@ -9877,13 +10056,13 @@ __ESTREE_TEST__:PASS:
                   "name": "VR",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               },
               {
                 "type": "TSTypeReference",
                 "start": 5387,
                 "end": 5389,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 5387,
@@ -9892,13 +10071,13 @@ __ESTREE_TEST__:PASS:
                   "name": "VJ",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               },
               {
                 "type": "TSTypeReference",
                 "start": 5391,
                 "end": 5393,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 5391,
@@ -9907,7 +10086,8 @@ __ESTREE_TEST__:PASS:
                   "name": "VN",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               },
               {
                 "type": "TSNeverKeyword",
@@ -9928,199 +10108,18 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
-      "id": {
-        "type": "Identifier",
-        "start": 5278,
-        "end": 5286,
-        "decorators": [],
-        "name": "Promise3",
-        "optional": false,
-        "typeAnnotation": null
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 5420,
+        "end": 5423,
+        "body": []
       },
-      "typeParameters": {
-        "type": "TSTypeParameterDeclaration",
-        "start": 5286,
-        "end": 5330,
-        "params": [
-          {
-            "type": "TSTypeParameter",
-            "start": 5287,
-            "end": 5289,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 5287,
-              "end": 5289,
-              "decorators": [],
-              "name": "TR",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          },
-          {
-            "type": "TSTypeParameter",
-            "start": 5291,
-            "end": 5293,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 5291,
-              "end": 5293,
-              "decorators": [],
-              "name": "TJ",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          },
-          {
-            "type": "TSTypeParameter",
-            "start": 5295,
-            "end": 5297,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 5295,
-              "end": 5297,
-              "decorators": [],
-              "name": "TN",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          },
-          {
-            "type": "TSTypeParameter",
-            "start": 5303,
-            "end": 5305,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 5303,
-              "end": 5305,
-              "decorators": [],
-              "name": "UR",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          },
-          {
-            "type": "TSTypeParameter",
-            "start": 5307,
-            "end": 5309,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 5307,
-              "end": 5309,
-              "decorators": [],
-              "name": "UJ",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          },
-          {
-            "type": "TSTypeParameter",
-            "start": 5311,
-            "end": 5313,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 5311,
-              "end": 5313,
-              "decorators": [],
-              "name": "UN",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          },
-          {
-            "type": "TSTypeParameter",
-            "start": 5319,
-            "end": 5321,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 5319,
-              "end": 5321,
-              "decorators": [],
-              "name": "VR",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          },
-          {
-            "type": "TSTypeParameter",
-            "start": 5323,
-            "end": 5325,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 5323,
-              "end": 5325,
-              "decorators": [],
-              "name": "VJ",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          },
-          {
-            "type": "TSTypeParameter",
-            "start": 5327,
-            "end": 5329,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 5327,
-              "end": 5329,
-              "decorators": [],
-              "name": "VN",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          }
-        ]
-      }
+      "declare": false
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 5425,
       "end": 5517,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 5430,
@@ -10130,10 +10129,20 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTypeReference",
         "start": 5434,
         "end": 5516,
+        "typeName": {
+          "type": "Identifier",
+          "start": 5434,
+          "end": 5441,
+          "decorators": [],
+          "name": "Awaited",
+          "optional": false,
+          "typeAnnotation": null
+        },
         "typeArguments": {
           "type": "TSTypeParameterInstantiation",
           "start": 5441,
@@ -10143,6 +10152,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 5442,
               "end": 5515,
+              "typeName": {
+                "type": "Identifier",
+                "start": 5442,
+                "end": 5450,
+                "decorators": [],
+                "name": "Promise3",
+                "optional": false,
+                "typeAnnotation": null
+              },
               "typeArguments": {
                 "type": "TSTypeParameterInstantiation",
                 "start": 5450,
@@ -10157,7 +10175,6 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 5459,
                     "end": 5464,
-                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 5459,
@@ -10166,7 +10183,8 @@ __ESTREE_TEST__:PASS:
                       "name": "Error",
                       "optional": false,
                       "typeAnnotation": null
-                    }
+                    },
+                    "typeArguments": null
                   },
                   {
                     "type": "TSNumberKeyword",
@@ -10198,7 +10216,6 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 5500,
                     "end": 5507,
-                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 5500,
@@ -10207,7 +10224,8 @@ __ESTREE_TEST__:PASS:
                       "name": "Element",
                       "optional": false,
                       "typeAnnotation": null
-                    }
+                    },
+                    "typeArguments": null
                   },
                   {
                     "type": "TSNeverKeyword",
@@ -10215,30 +10233,12 @@ __ESTREE_TEST__:PASS:
                     "end": 5514
                   }
                 ]
-              },
-              "typeName": {
-                "type": "Identifier",
-                "start": 5442,
-                "end": 5450,
-                "decorators": [],
-                "name": "Promise3",
-                "optional": false,
-                "typeAnnotation": null
               }
             }
           ]
-        },
-        "typeName": {
-          "type": "Identifier",
-          "start": 5434,
-          "end": 5441,
-          "decorators": [],
-          "name": "Awaited",
-          "optional": false,
-          "typeAnnotation": null
         }
       },
-      "typeParameters": null
+      "declare": false
     }
   ],
   "sourceType": "script",

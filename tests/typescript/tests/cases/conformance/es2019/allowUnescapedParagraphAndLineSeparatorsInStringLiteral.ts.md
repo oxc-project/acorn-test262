@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 126,
       "end": 191,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 130,
           "end": 190,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 130,
@@ -28,24 +28,24 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 172,
             "end": 190,
-            "raw": "\" STRING_CONTENT \"",
-            "value": " STRING_CONTENT "
-          }
+            "value": " STRING_CONTENT ",
+            "raw": "\" STRING_CONTENT \""
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 192,
       "end": 262,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 196,
           "end": 261,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 196,
@@ -59,24 +59,24 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 243,
             "end": 261,
-            "raw": "\" STRING_CONTENT \"",
-            "value": " STRING_CONTENT "
-          }
+            "value": " STRING_CONTENT ",
+            "raw": "\" STRING_CONTENT \""
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 265,
       "end": 330,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 269,
           "end": 329,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 269,
@@ -90,24 +90,24 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 311,
             "end": 329,
-            "raw": "' STRING_CONTENT '",
-            "value": " STRING_CONTENT "
-          }
+            "value": " STRING_CONTENT ",
+            "raw": "' STRING_CONTENT '"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 331,
       "end": 401,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 335,
           "end": 400,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 335,
@@ -121,24 +121,24 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 382,
             "end": 400,
-            "raw": "' STRING_CONTENT '",
-            "value": " STRING_CONTENT "
-          }
+            "value": " STRING_CONTENT ",
+            "raw": "' STRING_CONTENT '"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 404,
       "end": 469,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 408,
           "end": 468,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 408,
@@ -152,35 +152,35 @@ __ESTREE_TEST__:PASS:
             "type": "TemplateLiteral",
             "start": 450,
             "end": 468,
-            "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
                 "start": 450,
                 "end": 468,
-                "tail": true,
                 "value": {
                   "cooked": " STRING_CONTENT ",
                   "raw": " STRING_CONTENT "
-                }
+                },
+                "tail": true
               }
-            ]
-          }
+            ],
+            "expressions": []
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 470,
       "end": 540,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 474,
           "end": 539,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 474,
@@ -194,35 +194,35 @@ __ESTREE_TEST__:PASS:
             "type": "TemplateLiteral",
             "start": 521,
             "end": 539,
-            "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
                 "start": 521,
                 "end": 539,
-                "tail": true,
                 "value": {
                   "cooked": " STRING_CONTENT ",
                   "raw": " STRING_CONTENT "
-                }
+                },
+                "tail": true
               }
-            ]
-          }
+            ],
+            "expressions": []
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 593,
       "end": 725,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 597,
           "end": 724,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 597,
@@ -241,61 +241,61 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 609,
                 "end": 629,
-                "raw": "\"  STRING_CONTENT  \"",
-                "value": "  STRING_CONTENT  "
+                "value": "  STRING_CONTENT  ",
+                "raw": "\"  STRING_CONTENT  \""
               },
               {
                 "type": "Literal",
                 "start": 635,
                 "end": 657,
-                "raw": "\"   STRING_CONTENT   \"",
-                "value": "   STRING_CONTENT   "
+                "value": "   STRING_CONTENT   ",
+                "raw": "\"   STRING_CONTENT   \""
               },
               {
                 "type": "Literal",
                 "start": 663,
                 "end": 680,
-                "raw": "\"STRING_CONTENT \"",
-                "value": "STRING_CONTENT "
+                "value": "STRING_CONTENT ",
+                "raw": "\"STRING_CONTENT \""
               },
               {
                 "type": "Literal",
                 "start": 686,
                 "end": 703,
-                "raw": "\" STRING_CONTENT\"",
-                "value": " STRING_CONTENT"
+                "value": " STRING_CONTENT",
+                "raw": "\" STRING_CONTENT\""
               },
               {
                 "type": "TemplateLiteral",
                 "start": 709,
                 "end": 713,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
                     "start": 709,
                     "end": 713,
-                    "tail": true,
                     "value": {
                       "cooked": "",
                       "raw": "\\ "
-                    }
+                    },
+                    "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               },
               {
                 "type": "Literal",
                 "start": 719,
                 "end": 722,
-                "raw": "' '",
-                "value": " "
+                "value": " ",
+                "raw": "' '"
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

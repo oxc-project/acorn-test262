@@ -9,21 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 19,
       "end": 46,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 41,
-        "end": 45,
-        "raw": "\"fs\"",
-        "value": "fs"
-      },
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 27,
           "end": 34,
+          "local": {
+            "type": "Identifier",
+            "start": 27,
+            "end": 34,
+            "decorators": [],
+            "name": "default",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 27,
@@ -33,38 +33,38 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 27,
-            "end": 34,
-            "decorators": [],
-            "name": "default",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 41,
+        "end": 45,
+        "value": "fs",
+        "raw": "\"fs\""
+      },
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 47,
       "end": 81,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 76,
-        "end": 80,
-        "raw": "\"fs\"",
-        "value": "fs"
-      },
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 55,
           "end": 69,
+          "local": {
+            "type": "Identifier",
+            "start": 55,
+            "end": 62,
+            "decorators": [],
+            "name": "default",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 66,
@@ -74,38 +74,38 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 55,
-            "end": 62,
-            "decorators": [],
-            "name": "default",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 76,
+        "end": 80,
+        "value": "fs",
+        "raw": "\"fs\""
+      },
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 82,
       "end": 112,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 107,
-        "end": 111,
-        "raw": "\"fs\"",
-        "value": "fs"
-      },
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 90,
           "end": 100,
+          "local": {
+            "type": "Identifier",
+            "start": 90,
+            "end": 93,
+            "decorators": [],
+            "name": "bar",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 97,
@@ -115,18 +115,18 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 90,
-            "end": 93,
-            "decorators": [],
-            "name": "bar",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 107,
+        "end": 111,
+        "value": "fs",
+        "raw": "\"fs\""
+      },
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -144,21 +144,21 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 19,
       "end": 46,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 41,
-        "end": 45,
-        "raw": "\"fs\"",
-        "value": "fs"
-      },
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 27,
           "end": 34,
+          "local": {
+            "type": "Identifier",
+            "start": 27,
+            "end": 34,
+            "decorators": [],
+            "name": "default",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 27,
@@ -168,38 +168,38 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 27,
-            "end": 34,
-            "decorators": [],
-            "name": "default",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 41,
+        "end": 45,
+        "value": "fs",
+        "raw": "\"fs\""
+      },
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 47,
       "end": 81,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 76,
-        "end": 80,
-        "raw": "\"fs\"",
-        "value": "fs"
-      },
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 55,
           "end": 69,
+          "local": {
+            "type": "Identifier",
+            "start": 55,
+            "end": 62,
+            "decorators": [],
+            "name": "default",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 66,
@@ -209,38 +209,38 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 55,
-            "end": 62,
-            "decorators": [],
-            "name": "default",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 76,
+        "end": 80,
+        "value": "fs",
+        "raw": "\"fs\""
+      },
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 82,
       "end": 112,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 107,
-        "end": 111,
-        "raw": "\"fs\"",
-        "value": "fs"
-      },
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 90,
           "end": 100,
+          "local": {
+            "type": "Identifier",
+            "start": 90,
+            "end": 93,
+            "decorators": [],
+            "name": "bar",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 97,
@@ -250,18 +250,18 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 90,
-            "end": 93,
-            "decorators": [],
-            "name": "bar",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 107,
+        "end": 111,
+        "value": "fs",
+        "raw": "\"fs\""
+      },
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -279,22 +279,28 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 20,
-      "kind": "module",
-      "declare": true,
-      "global": false,
       "id": {
         "type": "Literal",
         "start": 15,
         "end": 19,
-        "raw": "\"fs\"",
-        "value": "fs"
-      }
+        "value": "fs",
+        "raw": "\"fs\""
+      },
+      "kind": "module",
+      "declare": true,
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 21,
       "end": 103,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 36,
+        "end": 43,
+        "value": "tslib",
+        "raw": "\"tslib\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 44,
@@ -304,23 +310,17 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 50,
             "end": 60,
-            "attributes": [],
             "declaration": null,
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 36,
-        "end": 43,
-        "raw": "\"tslib\"",
-        "value": "tslib"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",

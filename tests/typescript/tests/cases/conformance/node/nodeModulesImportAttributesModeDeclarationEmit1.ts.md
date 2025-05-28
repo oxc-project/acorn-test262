@@ -9,19 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 35,
-      "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
         "start": 7,
         "end": 35,
-        "body": {
-          "type": "TSInterfaceBody",
-          "start": 33,
-          "end": 35,
-          "body": []
-        },
-        "declare": false,
-        "extends": [],
         "id": {
           "type": "Identifier",
           "start": 17,
@@ -31,11 +22,20 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "typeParameters": null
+        "typeParameters": null,
+        "extends": [],
+        "body": {
+          "type": "TSInterfaceBody",
+          "start": 33,
+          "end": 35,
+          "body": []
+        },
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -53,19 +53,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 36,
-      "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
         "start": 7,
         "end": 36,
-        "body": {
-          "type": "TSInterfaceBody",
-          "start": 34,
-          "end": 36,
-          "body": []
-        },
-        "declare": false,
-        "extends": [],
         "id": {
           "type": "Identifier",
           "start": 17,
@@ -75,11 +66,20 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "typeParameters": null
+        "typeParameters": null,
+        "extends": [],
+        "body": {
+          "type": "TSInterfaceBody",
+          "start": 34,
+          "end": 36,
+          "body": []
+        },
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -97,14 +97,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 82,
-      "importKind": "type",
-      "source": {
-        "type": "Literal",
-        "start": 38,
-        "end": 43,
-        "raw": "\"pkg\"",
-        "value": "pkg"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -119,7 +111,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 14,
@@ -128,9 +119,17 @@ __ESTREE_TEST__:PASS:
             "name": "RequireInterface",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 38,
+        "end": 43,
+        "value": "pkg",
+        "raw": "\"pkg\""
+      },
       "phase": null,
       "attributes": [
         {
@@ -141,31 +140,24 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 51,
             "end": 68,
-            "raw": "\"resolution-mode\"",
-            "value": "resolution-mode"
+            "value": "resolution-mode",
+            "raw": "\"resolution-mode\""
           },
           "value": {
             "type": "Literal",
             "start": 70,
             "end": 79,
-            "raw": "\"require\"",
-            "value": "require"
+            "value": "require",
+            "raw": "\"require\""
           }
         }
-      ]
+      ],
+      "importKind": "type"
     },
     {
       "type": "ImportDeclaration",
       "start": 83,
       "end": 163,
-      "importKind": "type",
-      "source": {
-        "type": "Literal",
-        "start": 120,
-        "end": 125,
-        "raw": "\"pkg\"",
-        "value": "pkg"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -180,7 +172,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 97,
@@ -189,9 +180,17 @@ __ESTREE_TEST__:PASS:
             "name": "ImportInterface",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 120,
+        "end": 125,
+        "value": "pkg",
+        "raw": "\"pkg\""
+      },
       "phase": null,
       "attributes": [
         {
@@ -202,35 +201,38 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 133,
             "end": 150,
-            "raw": "\"resolution-mode\"",
-            "value": "resolution-mode"
+            "value": "resolution-mode",
+            "raw": "\"resolution-mode\""
           },
           "value": {
             "type": "Literal",
             "start": 152,
             "end": 160,
-            "raw": "\"import\"",
-            "value": "import"
+            "value": "import",
+            "raw": "\"import\""
           }
         }
-      ]
+      ],
+      "importKind": "type"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 165,
       "end": 241,
-      "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
         "start": 172,
         "end": 241,
-        "body": {
-          "type": "TSInterfaceBody",
-          "start": 239,
-          "end": 241,
-          "body": []
+        "id": {
+          "type": "Identifier",
+          "start": 182,
+          "end": 196,
+          "decorators": [],
+          "name": "LocalInterface",
+          "optional": false,
+          "typeAnnotation": null
         },
-        "declare": false,
+        "typeParameters": null,
         "extends": [
           {
             "type": "TSInterfaceHeritage",
@@ -263,33 +265,23 @@ __ESTREE_TEST__:PASS:
             "typeArguments": null
           }
         ],
-        "id": {
-          "type": "Identifier",
-          "start": 182,
-          "end": 196,
-          "decorators": [],
-          "name": "LocalInterface",
-          "optional": false,
-          "typeAnnotation": null
+        "body": {
+          "type": "TSInterfaceBody",
+          "start": 239,
+          "end": 241,
+          "body": []
         },
-        "typeParameters": null
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     },
     {
       "type": "ImportDeclaration",
       "start": 243,
       "end": 330,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 286,
-        "end": 291,
-        "raw": "\"pkg\"",
-        "value": "pkg"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -304,7 +296,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "type",
           "local": {
             "type": "Identifier",
             "start": 276,
@@ -313,9 +304,17 @@ __ESTREE_TEST__:PASS:
             "name": "Req",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "type"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 286,
+        "end": 291,
+        "value": "pkg",
+        "raw": "\"pkg\""
+      },
       "phase": null,
       "attributes": [
         {
@@ -326,31 +325,24 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 299,
             "end": 316,
-            "raw": "\"resolution-mode\"",
-            "value": "resolution-mode"
+            "value": "resolution-mode",
+            "raw": "\"resolution-mode\""
           },
           "value": {
             "type": "Literal",
             "start": 318,
             "end": 327,
-            "raw": "\"require\"",
-            "value": "require"
+            "value": "require",
+            "raw": "\"require\""
           }
         }
-      ]
+      ],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 331,
       "end": 416,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 373,
-        "end": 378,
-        "raw": "\"pkg\"",
-        "value": "pkg"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -365,7 +357,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "type",
           "local": {
             "type": "Identifier",
             "start": 363,
@@ -374,9 +365,17 @@ __ESTREE_TEST__:PASS:
             "name": "Imp",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "type"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 373,
+        "end": 378,
+        "value": "pkg",
+        "raw": "\"pkg\""
+      },
       "phase": null,
       "attributes": [
         {
@@ -387,35 +386,38 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 386,
             "end": 403,
-            "raw": "\"resolution-mode\"",
-            "value": "resolution-mode"
+            "value": "resolution-mode",
+            "raw": "\"resolution-mode\""
           },
           "value": {
             "type": "Literal",
             "start": 405,
             "end": 413,
-            "raw": "\"import\"",
-            "value": "import"
+            "value": "import",
+            "raw": "\"import\""
           }
         }
-      ]
+      ],
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 417,
       "end": 457,
-      "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
         "start": 424,
         "end": 457,
-        "body": {
-          "type": "TSInterfaceBody",
-          "start": 455,
-          "end": 457,
-          "body": []
+        "id": {
+          "type": "Identifier",
+          "start": 434,
+          "end": 437,
+          "decorators": [],
+          "name": "Loc",
+          "optional": false,
+          "typeAnnotation": null
         },
-        "declare": false,
+        "typeParameters": null,
         "extends": [
           {
             "type": "TSInterfaceHeritage",
@@ -448,25 +450,58 @@ __ESTREE_TEST__:PASS:
             "typeArguments": null
           }
         ],
-        "id": {
-          "type": "Identifier",
-          "start": 434,
-          "end": 437,
-          "decorators": [],
-          "name": "Loc",
-          "optional": false,
-          "typeAnnotation": null
+        "body": {
+          "type": "TSInterfaceBody",
+          "start": 455,
+          "end": 457,
+          "body": []
         },
-        "typeParameters": null
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 459,
       "end": 541,
+      "declaration": null,
+      "specifiers": [
+        {
+          "type": "ExportSpecifier",
+          "start": 473,
+          "end": 489,
+          "local": {
+            "type": "Identifier",
+            "start": 473,
+            "end": 489,
+            "decorators": [],
+            "name": "RequireInterface",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "exported": {
+            "type": "Identifier",
+            "start": 473,
+            "end": 489,
+            "decorators": [],
+            "name": "RequireInterface",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "exportKind": "value"
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 497,
+        "end": 502,
+        "value": "pkg",
+        "raw": "\"pkg\""
+      },
+      "exportKind": "type",
       "attributes": [
         {
           "type": "ImportAttribute",
@@ -476,50 +511,15 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 510,
             "end": 527,
-            "raw": "\"resolution-mode\"",
-            "value": "resolution-mode"
+            "value": "resolution-mode",
+            "raw": "\"resolution-mode\""
           },
           "value": {
             "type": "Literal",
             "start": 529,
             "end": 538,
-            "raw": "\"require\"",
-            "value": "require"
-          }
-        }
-      ],
-      "declaration": null,
-      "exportKind": "type",
-      "source": {
-        "type": "Literal",
-        "start": 497,
-        "end": 502,
-        "raw": "\"pkg\"",
-        "value": "pkg"
-      },
-      "specifiers": [
-        {
-          "type": "ExportSpecifier",
-          "start": 473,
-          "end": 489,
-          "exported": {
-            "type": "Identifier",
-            "start": 473,
-            "end": 489,
-            "decorators": [],
-            "name": "RequireInterface",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 473,
-            "end": 489,
-            "decorators": [],
-            "name": "RequireInterface",
-            "optional": false,
-            "typeAnnotation": null
+            "value": "require",
+            "raw": "\"require\""
           }
         }
       ]
@@ -528,6 +528,41 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 542,
       "end": 622,
+      "declaration": null,
+      "specifiers": [
+        {
+          "type": "ExportSpecifier",
+          "start": 556,
+          "end": 571,
+          "local": {
+            "type": "Identifier",
+            "start": 556,
+            "end": 571,
+            "decorators": [],
+            "name": "ImportInterface",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "exported": {
+            "type": "Identifier",
+            "start": 556,
+            "end": 571,
+            "decorators": [],
+            "name": "ImportInterface",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "exportKind": "value"
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 579,
+        "end": 584,
+        "value": "pkg",
+        "raw": "\"pkg\""
+      },
+      "exportKind": "type",
       "attributes": [
         {
           "type": "ImportAttribute",
@@ -537,50 +572,15 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 592,
             "end": 609,
-            "raw": "\"resolution-mode\"",
-            "value": "resolution-mode"
+            "value": "resolution-mode",
+            "raw": "\"resolution-mode\""
           },
           "value": {
             "type": "Literal",
             "start": 611,
             "end": 619,
-            "raw": "\"import\"",
-            "value": "import"
-          }
-        }
-      ],
-      "declaration": null,
-      "exportKind": "type",
-      "source": {
-        "type": "Literal",
-        "start": 579,
-        "end": 584,
-        "raw": "\"pkg\"",
-        "value": "pkg"
-      },
-      "specifiers": [
-        {
-          "type": "ExportSpecifier",
-          "start": 556,
-          "end": 571,
-          "exported": {
-            "type": "Identifier",
-            "start": 556,
-            "end": 571,
-            "decorators": [],
-            "name": "ImportInterface",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 556,
-            "end": 571,
-            "decorators": [],
-            "name": "ImportInterface",
-            "optional": false,
-            "typeAnnotation": null
+            "value": "import",
+            "raw": "\"import\""
           }
         }
       ]

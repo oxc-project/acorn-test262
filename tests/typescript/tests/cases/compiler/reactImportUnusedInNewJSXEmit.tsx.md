@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 45,
       "end": 71,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 63,
-        "end": 70,
-        "raw": "\"react\"",
-        "value": "react"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -33,14 +25,36 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 63,
+        "end": 70,
+        "value": "react",
+        "raw": "\"react\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "FunctionDeclaration",
       "start": 73,
       "end": 109,
+      "id": {
+        "type": "Identifier",
+        "start": 82,
+        "end": 85,
+        "decorators": [],
+        "name": "Bar",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 88,
@@ -54,52 +68,51 @@ __ESTREE_TEST__:PASS:
               "type": "JSXElement",
               "start": 99,
               "end": 106,
-              "children": [],
-              "closingElement": null,
               "openingElement": {
                 "type": "JSXOpeningElement",
                 "start": 99,
                 "end": 106,
-                "attributes": [],
                 "name": {
                   "type": "JSXIdentifier",
                   "start": 100,
                   "end": 103,
                   "name": "div"
                 },
-                "selfClosing": true,
-                "typeArguments": null
-              }
+                "typeArguments": null,
+                "attributes": [],
+                "selfClosing": true
+              },
+              "children": [],
+              "closingElement": null
             }
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 82,
-        "end": 85,
-        "decorators": [],
-        "name": "Bar",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 111,
       "end": 154,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 118,
         "end": 154,
+        "id": {
+          "type": "Identifier",
+          "start": 127,
+          "end": 130,
+          "decorators": [],
+          "name": "Foo",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "generator": false,
         "async": false,
+        "declare": false,
+        "typeParameters": null,
+        "params": [],
+        "returnType": null,
         "body": {
           "type": "BlockStatement",
           "start": 133,
@@ -113,45 +126,32 @@ __ESTREE_TEST__:PASS:
                 "type": "JSXElement",
                 "start": 144,
                 "end": 151,
-                "children": [],
-                "closingElement": null,
                 "openingElement": {
                   "type": "JSXOpeningElement",
                   "start": 144,
                   "end": 151,
-                  "attributes": [],
                   "name": {
                     "type": "JSXIdentifier",
                     "start": 145,
                     "end": 148,
                     "name": "Bar"
                   },
-                  "selfClosing": true,
-                  "typeArguments": null
-                }
+                  "typeArguments": null,
+                  "attributes": [],
+                  "selfClosing": true
+                },
+                "children": [],
+                "closingElement": null
               }
             }
           ]
         },
-        "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 127,
-          "end": 130,
-          "decorators": [],
-          "name": "Foo",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

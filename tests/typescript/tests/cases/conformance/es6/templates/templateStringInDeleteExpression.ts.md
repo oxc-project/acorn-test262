@@ -9,50 +9,50 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 20,
-      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 0,
         "end": 19,
+        "operator": "delete",
         "argument": {
           "type": "TemplateLiteral",
           "start": 7,
           "end": 19,
-          "expressions": [
-            {
-              "type": "Literal",
-              "start": 13,
-              "end": 14,
-              "raw": "0",
-              "value": 0
-            }
-          ],
           "quasis": [
             {
               "type": "TemplateElement",
               "start": 7,
               "end": 13,
-              "tail": false,
               "value": {
                 "cooked": "abc",
                 "raw": "abc"
-              }
+              },
+              "tail": false
             },
             {
               "type": "TemplateElement",
               "start": 14,
               "end": 19,
-              "tail": true,
               "value": {
                 "cooked": "abc",
                 "raw": "abc"
-              }
+              },
+              "tail": true
+            }
+          ],
+          "expressions": [
+            {
+              "type": "Literal",
+              "start": 13,
+              "end": 14,
+              "value": 0,
+              "raw": "0"
             }
           ]
         },
-        "operator": "delete",
         "prefix": true
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

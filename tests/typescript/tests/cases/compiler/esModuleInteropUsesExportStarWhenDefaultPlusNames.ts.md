@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 35,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 27,
-        "end": 34,
-        "raw": "'./dep'",
-        "value": "./dep"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -45,7 +37,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 15,
@@ -54,21 +45,30 @@ __ESTREE_TEST__:PASS:
             "name": "var2",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 27,
+        "end": 34,
+        "value": "./dep",
+        "raw": "'./dep'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 36,
       "end": 46,
-      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 36,
         "end": 45,
+        "operator": "void",
         "argument": {
           "type": "Identifier",
           "start": 41,
@@ -78,19 +78,19 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "operator": "void",
         "prefix": true
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 47,
       "end": 57,
-      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 47,
         "end": 56,
+        "operator": "void",
         "argument": {
           "type": "Identifier",
           "start": 52,
@@ -100,9 +100,9 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "operator": "void",
         "prefix": true
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

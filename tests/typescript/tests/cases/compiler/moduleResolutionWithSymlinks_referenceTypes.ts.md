@@ -9,49 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 329,
       "end": 373,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 351,
-        "end": 373,
-        "body": [
-          {
-            "type": "PropertyDefinition",
-            "start": 353,
-            "end": 371,
-            "accessibility": "private",
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
-            "key": {
-              "type": "Identifier",
-              "start": 361,
-              "end": 362,
-              "decorators": [],
-              "name": "x",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 362,
-              "end": 370,
-              "typeAnnotation": {
-                "type": "TSNumberKeyword",
-                "start": 364,
-                "end": 370
-              }
-            },
-            "value": null
-          }
-        ]
-      },
-      "declare": true,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -62,10 +19,53 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 351,
+        "end": 373,
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "start": 353,
+            "end": 371,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 361,
+              "end": 362,
+              "decorators": [],
+              "name": "x",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 362,
+              "end": 370,
+              "typeAnnotation": {
+                "type": "TSNumberKeyword",
+                "start": 364,
+                "end": 370
+              }
+            },
+            "value": null,
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": "private"
+          }
+        ]
+      },
+      "abstract": false,
+      "declare": true
     }
   ],
   "sourceType": "module",

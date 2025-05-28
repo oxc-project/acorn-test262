@@ -9,33 +9,31 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 7,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
         "end": 6,
-        "arguments": [],
         "callee": {
           "type": "Literal",
           "start": 0,
           "end": 4,
-          "raw": "null",
-          "value": null
+          "value": null,
+          "raw": "null"
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 8,
       "end": 20,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 8,
         "end": 19,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 8,
@@ -45,20 +43,22 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "VariableDeclaration",
       "start": 21,
       "end": 45,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 25,
           "end": 44,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 25,
@@ -89,22 +89,20 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 46,
       "end": 50,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 46,
         "end": 49,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 46,
@@ -114,9 +112,11 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

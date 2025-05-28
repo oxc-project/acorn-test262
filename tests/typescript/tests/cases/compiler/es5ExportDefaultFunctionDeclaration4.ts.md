@@ -9,7 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 132,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 20,
+        "value": "bar",
+        "raw": "\"bar\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 21,
@@ -19,12 +25,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 27,
             "end": 51,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 31,
                 "end": 50,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 31,
@@ -53,11 +59,11 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           },
           {
             "type": "ExportDefaultDeclaration",
@@ -67,11 +73,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSDeclareFunction",
               "start": 72,
               "end": 101,
-              "async": false,
-              "body": null,
-              "declare": false,
-              "expression": false,
-              "generator": false,
               "id": {
                 "type": "Identifier",
                 "start": 81,
@@ -81,6 +82,10 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
               "params": [],
               "returnType": {
                 "type": "TSTypeAnnotation",
@@ -102,7 +107,8 @@ __ESTREE_TEST__:PASS:
                   "typeArguments": null
                 }
               },
-              "typeParameters": null
+              "body": null,
+              "expression": false
             },
             "exportKind": "value"
           },
@@ -110,12 +116,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 107,
             "end": 130,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 111,
                 "end": 129,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 111,
@@ -144,23 +150,17 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 20,
-        "raw": "\"bar\"",
-        "value": "bar"
-      }
+      "global": false
     }
   ],
   "sourceType": "script",

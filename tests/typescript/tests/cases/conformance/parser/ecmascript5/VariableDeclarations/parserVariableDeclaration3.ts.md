@@ -9,7 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 244,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 17,
+        "decorators": [],
+        "name": "runTests",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 20,
@@ -19,12 +33,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 26,
             "end": 242,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 30,
                 "end": 79,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 30,
@@ -38,17 +52,14 @@ __ESTREE_TEST__:PASS:
                   "type": "NewExpression",
                   "start": 40,
                   "end": 79,
-                  "arguments": [],
                   "callee": {
                     "type": "MemberExpression",
                     "start": 44,
                     "end": 77,
-                    "computed": false,
                     "object": {
                       "type": "MemberExpression",
                       "start": 44,
                       "end": 60,
-                      "computed": false,
                       "object": {
                         "type": "Identifier",
                         "start": 44,
@@ -58,7 +69,6 @@ __ESTREE_TEST__:PASS:
                         "optional": false,
                         "typeAnnotation": null
                       },
-                      "optional": false,
                       "property": {
                         "type": "Identifier",
                         "start": 52,
@@ -67,9 +77,10 @@ __ESTREE_TEST__:PASS:
                         "name": "Compiler",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "optional": false,
+                      "computed": false
                     },
-                    "optional": false,
                     "property": {
                       "type": "Identifier",
                       "start": 61,
@@ -78,16 +89,19 @@ __ESTREE_TEST__:PASS:
                       "name": "WriterAggregator",
                       "optional": false,
                       "typeAnnotation": null
-                    }
+                    },
+                    "optional": false,
+                    "computed": false
                   },
-                  "typeArguments": null
-                }
+                  "typeArguments": null,
+                  "arguments": []
+                },
+                "definite": false
               },
               {
                 "type": "VariableDeclarator",
                 "start": 88,
                 "end": 136,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 88,
@@ -101,17 +115,14 @@ __ESTREE_TEST__:PASS:
                   "type": "NewExpression",
                   "start": 97,
                   "end": 136,
-                  "arguments": [],
                   "callee": {
                     "type": "MemberExpression",
                     "start": 101,
                     "end": 134,
-                    "computed": false,
                     "object": {
                       "type": "MemberExpression",
                       "start": 101,
                       "end": 117,
-                      "computed": false,
                       "object": {
                         "type": "Identifier",
                         "start": 101,
@@ -121,7 +132,6 @@ __ESTREE_TEST__:PASS:
                         "optional": false,
                         "typeAnnotation": null
                       },
-                      "optional": false,
                       "property": {
                         "type": "Identifier",
                         "start": 109,
@@ -130,9 +140,10 @@ __ESTREE_TEST__:PASS:
                         "name": "Compiler",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "optional": false,
+                      "computed": false
                     },
-                    "optional": false,
                     "property": {
                       "type": "Identifier",
                       "start": 118,
@@ -141,16 +152,19 @@ __ESTREE_TEST__:PASS:
                       "name": "WriterAggregator",
                       "optional": false,
                       "typeAnnotation": null
-                    }
+                    },
+                    "optional": false,
+                    "computed": false
                   },
-                  "typeArguments": null
-                }
+                  "typeArguments": null,
+                  "arguments": []
+                },
+                "definite": false
               },
               {
                 "type": "VariableDeclarator",
                 "start": 145,
                 "end": 228,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 145,
@@ -164,53 +178,10 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeAssertion",
                   "start": 156,
                   "end": 228,
-                  "expression": {
-                    "type": "NewExpression",
-                    "start": 187,
-                    "end": 228,
-                    "arguments": [
-                      {
-                        "type": "Identifier",
-                        "start": 221,
-                        "end": 227,
-                        "decorators": [],
-                        "name": "outerr",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    ],
-                    "callee": {
-                      "type": "MemberExpression",
-                      "start": 191,
-                      "end": 220,
-                      "computed": false,
-                      "object": {
-                        "type": "Identifier",
-                        "start": 191,
-                        "end": 201,
-                        "decorators": [],
-                        "name": "TypeScript",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "optional": false,
-                      "property": {
-                        "type": "Identifier",
-                        "start": 202,
-                        "end": 220,
-                        "decorators": [],
-                        "name": "TypeScriptCompiler",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    },
-                    "typeArguments": null
-                  },
                   "typeAnnotation": {
                     "type": "TSTypeReference",
                     "start": 157,
                     "end": 186,
-                    "typeArguments": null,
                     "typeName": {
                       "type": "TSQualifiedName",
                       "start": 157,
@@ -233,15 +204,58 @@ __ESTREE_TEST__:PASS:
                         "optional": false,
                         "typeAnnotation": null
                       }
-                    }
+                    },
+                    "typeArguments": null
+                  },
+                  "expression": {
+                    "type": "NewExpression",
+                    "start": 187,
+                    "end": 228,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 191,
+                      "end": 220,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 191,
+                        "end": 201,
+                        "decorators": [],
+                        "name": "TypeScript",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 202,
+                        "end": 220,
+                        "decorators": [],
+                        "name": "TypeScriptCompiler",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "optional": false,
+                      "computed": false
+                    },
+                    "typeArguments": null,
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 221,
+                        "end": 227,
+                        "decorators": [],
+                        "name": "outerr",
+                        "optional": false,
+                        "typeAnnotation": null
+                      }
+                    ]
                   }
-                }
+                },
+                "definite": false
               },
               {
                 "type": "VariableDeclarator",
                 "start": 237,
                 "end": 241,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 237,
@@ -251,29 +265,15 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 17,
-        "decorators": [],
-        "name": "runTests",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

@@ -9,24 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 29,
-      "directive": null,
       "expression": {
         "type": "ArrowFunctionExpression",
         "start": 1,
         "end": 27,
-        "async": false,
-        "body": {
-          "type": "Identifier",
-          "start": 23,
-          "end": 27,
-          "decorators": [],
-          "name": "item",
-          "optional": false,
-          "typeAnnotation": null
-        },
         "expression": true,
-        "generator": false,
-        "id": null,
+        "async": false,
+        "typeParameters": null,
         "params": [
           {
             "type": "Identifier",
@@ -48,8 +37,19 @@ __ESTREE_TEST__:PASS:
           }
         ],
         "returnType": null,
-        "typeParameters": null
-      }
+        "body": {
+          "type": "Identifier",
+          "start": 23,
+          "end": 27,
+          "decorators": [],
+          "name": "item",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "id": null,
+        "generator": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

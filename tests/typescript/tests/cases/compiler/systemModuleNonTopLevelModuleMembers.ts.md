@@ -9,19 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 29,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 7,
         "end": 29,
-        "abstract": false,
-        "body": {
-          "type": "ClassBody",
-          "start": 27,
-          "end": 29,
-          "body": []
-        },
-        "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
@@ -32,58 +23,32 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "implements": [],
+        "typeParameters": null,
         "superClass": null,
         "superTypeArguments": null,
-        "typeParameters": null
+        "implements": [],
+        "body": {
+          "type": "ClassBody",
+          "start": 27,
+          "end": 29,
+          "body": []
+        },
+        "abstract": false,
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 30,
       "end": 67,
-      "attributes": [],
       "declaration": {
         "type": "TSModuleDeclaration",
         "start": 37,
         "end": 67,
-        "body": {
-          "type": "TSModuleBlock",
-          "start": 59,
-          "end": 67,
-          "body": [
-            {
-              "type": "VariableDeclaration",
-              "start": 60,
-              "end": 66,
-              "declarations": [
-                {
-                  "type": "VariableDeclarator",
-                  "start": 64,
-                  "end": 65,
-                  "definite": false,
-                  "id": {
-                    "type": "Identifier",
-                    "start": 64,
-                    "end": 65,
-                    "decorators": [],
-                    "name": "v",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "init": null
-                }
-              ],
-              "declare": false,
-              "kind": "var"
-            }
-          ]
-        },
-        "declare": false,
-        "global": false,
         "id": {
           "type": "Identifier",
           "start": 44,
@@ -93,31 +58,55 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "kind": "module"
+        "body": {
+          "type": "TSModuleBlock",
+          "start": 59,
+          "end": 67,
+          "body": [
+            {
+              "type": "VariableDeclaration",
+              "start": 60,
+              "end": 66,
+              "kind": "var",
+              "declarations": [
+                {
+                  "type": "VariableDeclarator",
+                  "start": 64,
+                  "end": 65,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 64,
+                    "end": 65,
+                    "decorators": [],
+                    "name": "v",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "init": null,
+                  "definite": false
+                }
+              ],
+              "declare": false
+            }
+          ]
+        },
+        "kind": "module",
+        "declare": false,
+        "global": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 68,
       "end": 111,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 75,
         "end": 111,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 109,
-          "end": 111,
-          "body": []
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 84,
@@ -127,6 +116,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [],
         "returnType": {
           "type": "TSTypeAnnotation",
@@ -138,21 +131,36 @@ __ESTREE_TEST__:PASS:
             "end": 108
           }
         },
-        "typeParameters": null
+        "body": {
+          "type": "BlockStatement",
+          "start": 109,
+          "end": 111,
+          "body": []
+        },
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 112,
       "end": 140,
-      "attributes": [],
       "declaration": {
         "type": "TSEnumDeclaration",
         "start": 119,
         "end": 140,
+        "id": {
+          "type": "Identifier",
+          "start": 124,
+          "end": 136,
+          "decorators": [],
+          "name": "TopLevelEnum",
+          "optional": false,
+          "typeAnnotation": null
+        },
         "body": {
           "type": "TSEnumBody",
           "start": 137,
@@ -162,7 +170,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSEnumMember",
               "start": 138,
               "end": 139,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 138,
@@ -172,35 +179,36 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "initializer": null
+              "initializer": null,
+              "computed": false
             }
           ]
         },
         "const": false,
-        "declare": false,
-        "id": {
-          "type": "Identifier",
-          "start": 124,
-          "end": 136,
-          "decorators": [],
-          "name": "TopLevelEnum",
-          "optional": false,
-          "typeAnnotation": null
-        }
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 142,
       "end": 344,
-      "attributes": [],
       "declaration": {
         "type": "TSModuleDeclaration",
         "start": 149,
         "end": 344,
+        "id": {
+          "type": "Identifier",
+          "start": 156,
+          "end": 171,
+          "decorators": [],
+          "name": "TopLevelModule2",
+          "optional": false,
+          "typeAnnotation": null
+        },
         "body": {
           "type": "TSModuleBlock",
           "start": 172,
@@ -210,19 +218,10 @@ __ESTREE_TEST__:PASS:
               "type": "ExportNamedDeclaration",
               "start": 178,
               "end": 210,
-              "attributes": [],
               "declaration": {
                 "type": "ClassDeclaration",
                 "start": 185,
                 "end": 210,
-                "abstract": false,
-                "body": {
-                  "type": "ClassBody",
-                  "start": 208,
-                  "end": 210,
-                  "body": []
-                },
-                "declare": false,
                 "decorators": [],
                 "id": {
                   "type": "Identifier",
@@ -233,58 +232,32 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "implements": [],
+                "typeParameters": null,
                 "superClass": null,
                 "superTypeArguments": null,
-                "typeParameters": null
+                "implements": [],
+                "body": {
+                  "type": "ClassBody",
+                  "start": 208,
+                  "end": 210,
+                  "body": []
+                },
+                "abstract": false,
+                "declare": false
               },
-              "exportKind": "value",
+              "specifiers": [],
               "source": null,
-              "specifiers": []
+              "exportKind": "value",
+              "attributes": []
             },
             {
               "type": "ExportNamedDeclaration",
               "start": 215,
               "end": 255,
-              "attributes": [],
               "declaration": {
                 "type": "TSModuleDeclaration",
                 "start": 222,
                 "end": 255,
-                "body": {
-                  "type": "TSModuleBlock",
-                  "start": 247,
-                  "end": 255,
-                  "body": [
-                    {
-                      "type": "VariableDeclaration",
-                      "start": 248,
-                      "end": 254,
-                      "declarations": [
-                        {
-                          "type": "VariableDeclarator",
-                          "start": 252,
-                          "end": 253,
-                          "definite": false,
-                          "id": {
-                            "type": "Identifier",
-                            "start": 252,
-                            "end": 253,
-                            "decorators": [],
-                            "name": "v",
-                            "optional": false,
-                            "typeAnnotation": null
-                          },
-                          "init": null
-                        }
-                      ],
-                      "declare": false,
-                      "kind": "var"
-                    }
-                  ]
-                },
-                "declare": false,
-                "global": false,
                 "id": {
                   "type": "Identifier",
                   "start": 229,
@@ -294,31 +267,55 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "module"
+                "body": {
+                  "type": "TSModuleBlock",
+                  "start": 247,
+                  "end": 255,
+                  "body": [
+                    {
+                      "type": "VariableDeclaration",
+                      "start": 248,
+                      "end": 254,
+                      "kind": "var",
+                      "declarations": [
+                        {
+                          "type": "VariableDeclarator",
+                          "start": 252,
+                          "end": 253,
+                          "id": {
+                            "type": "Identifier",
+                            "start": 252,
+                            "end": 253,
+                            "decorators": [],
+                            "name": "v",
+                            "optional": false,
+                            "typeAnnotation": null
+                          },
+                          "init": null,
+                          "definite": false
+                        }
+                      ],
+                      "declare": false
+                    }
+                  ]
+                },
+                "kind": "module",
+                "declare": false,
+                "global": false
               },
-              "exportKind": "value",
+              "specifiers": [],
               "source": null,
-              "specifiers": []
+              "exportKind": "value",
+              "attributes": []
             },
             {
               "type": "ExportNamedDeclaration",
               "start": 260,
               "end": 306,
-              "attributes": [],
               "declaration": {
                 "type": "FunctionDeclaration",
                 "start": 267,
                 "end": 306,
-                "async": false,
-                "body": {
-                  "type": "BlockStatement",
-                  "start": 304,
-                  "end": 306,
-                  "body": []
-                },
-                "declare": false,
-                "expression": false,
-                "generator": false,
                 "id": {
                   "type": "Identifier",
                   "start": 276,
@@ -328,6 +325,10 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
+                "generator": false,
+                "async": false,
+                "declare": false,
+                "typeParameters": null,
                 "params": [],
                 "returnType": {
                   "type": "TSTypeAnnotation",
@@ -339,21 +340,36 @@ __ESTREE_TEST__:PASS:
                     "end": 303
                   }
                 },
-                "typeParameters": null
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 304,
+                  "end": 306,
+                  "body": []
+                },
+                "expression": false
               },
-              "exportKind": "value",
+              "specifiers": [],
               "source": null,
-              "specifiers": []
+              "exportKind": "value",
+              "attributes": []
             },
             {
               "type": "ExportNamedDeclaration",
               "start": 311,
               "end": 342,
-              "attributes": [],
               "declaration": {
                 "type": "TSEnumDeclaration",
                 "start": 318,
                 "end": 342,
+                "id": {
+                  "type": "Identifier",
+                  "start": 323,
+                  "end": 338,
+                  "decorators": [],
+                  "name": "NonTopLevelEnum",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "body": {
                   "type": "TSEnumBody",
                   "start": 339,
@@ -363,7 +379,6 @@ __ESTREE_TEST__:PASS:
                       "type": "TSEnumMember",
                       "start": 340,
                       "end": 341,
-                      "computed": false,
                       "id": {
                         "type": "Identifier",
                         "start": 340,
@@ -373,44 +388,29 @@ __ESTREE_TEST__:PASS:
                         "optional": false,
                         "typeAnnotation": null
                       },
-                      "initializer": null
+                      "initializer": null,
+                      "computed": false
                     }
                   ]
                 },
                 "const": false,
-                "declare": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 323,
-                  "end": 338,
-                  "decorators": [],
-                  "name": "NonTopLevelEnum",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                "declare": false
               },
-              "exportKind": "value",
+              "specifiers": [],
               "source": null,
-              "specifiers": []
+              "exportKind": "value",
+              "attributes": []
             }
           ]
         },
+        "kind": "module",
         "declare": false,
-        "global": false,
-        "id": {
-          "type": "Identifier",
-          "start": 156,
-          "end": 171,
-          "decorators": [],
-          "name": "TopLevelModule2",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "kind": "module"
+        "global": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

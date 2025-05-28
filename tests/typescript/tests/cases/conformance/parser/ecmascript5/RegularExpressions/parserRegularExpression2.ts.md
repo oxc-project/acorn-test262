@@ -9,34 +9,18 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 31,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 0,
         "end": 30,
-        "computed": true,
         "object": {
           "type": "CallExpression",
           "start": 0,
           "end": 27,
-          "arguments": [
-            {
-              "type": "Literal",
-              "start": 11,
-              "end": 26,
-              "raw": "/:\\/\\/(.[^/]+)/",
-              "regex": {
-                "flags": "",
-                "pattern": ":\\/\\/(.[^/]+)"
-              },
-              "value": null
-            }
-          ],
           "callee": {
             "type": "MemberExpression",
             "start": 0,
             "end": 10,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 0,
@@ -46,7 +30,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 5,
@@ -55,20 +38,37 @@ __ESTREE_TEST__:PASS:
               "name": "match",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "optional": false,
+            "computed": false
           },
-          "optional": false,
-          "typeArguments": null
+          "typeArguments": null,
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 11,
+              "end": 26,
+              "value": null,
+              "raw": "/:\\/\\/(.[^/]+)/",
+              "regex": {
+                "flags": "",
+                "pattern": ":\\/\\/(.[^/]+)"
+              }
+            }
+          ],
+          "optional": false
         },
-        "optional": false,
         "property": {
           "type": "Literal",
           "start": 28,
           "end": 29,
-          "raw": "1",
-          "value": 1
-        }
-      }
+          "value": 1,
+          "raw": "1"
+        },
+        "optional": false,
+        "computed": true
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

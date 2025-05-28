@@ -9,11 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 0,
       "end": 41,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 17,
@@ -23,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": null,
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
@@ -46,18 +45,19 @@ __ESTREE_TEST__:PASS:
           ]
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 43,
       "end": 64,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 47,
           "end": 64,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 47,
@@ -71,12 +71,10 @@ __ESTREE_TEST__:PASS:
             "type": "LogicalExpression",
             "start": 52,
             "end": 64,
-            "operator": "??",
             "left": {
               "type": "CallExpression",
               "start": 52,
               "end": 55,
-              "arguments": [],
               "callee": {
                 "type": "Identifier",
                 "start": 52,
@@ -86,21 +84,23 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
-              "typeArguments": null
+              "typeArguments": null,
+              "arguments": [],
+              "optional": false
             },
+            "operator": "??",
             "right": {
               "type": "Literal",
               "start": 59,
               "end": 64,
-              "raw": "'foo'",
-              "value": "foo"
+              "value": "foo",
+              "raw": "'foo'"
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     }
   ],
   "sourceType": "script",

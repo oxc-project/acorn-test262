@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 33,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 14,
           "end": 32,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
@@ -33,11 +33,11 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     }
   ],
   "sourceType": "module",
@@ -55,12 +55,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 35,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 14,
           "end": 34,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
@@ -79,11 +79,11 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     }
   ],
   "sourceType": "module",
@@ -101,12 +101,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 39,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 14,
           "end": 38,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
@@ -125,11 +125,11 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     }
   ],
   "sourceType": "module",
@@ -147,12 +147,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 41,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 14,
           "end": 40,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
@@ -171,11 +171,11 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     }
   ],
   "sourceType": "module",
@@ -193,12 +193,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 35,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 14,
           "end": 34,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
@@ -217,11 +217,11 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     }
   ],
   "sourceType": "module",
@@ -239,12 +239,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 42,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 14,
           "end": 41,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
@@ -263,11 +263,11 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     }
   ],
   "sourceType": "module",
@@ -285,7 +285,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 11,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 0,
@@ -294,13 +293,13 @@ __ESTREE_TEST__:PASS:
         "name": "typesCache",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 12,
       "end": 32,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 12,
@@ -309,13 +308,13 @@ __ESTREE_TEST__:PASS:
         "name": "mangledAtTypesCache",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 33,
       "end": 50,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 33,
@@ -324,13 +323,13 @@ __ESTREE_TEST__:PASS:
         "name": "nodeModulesCache",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 51,
       "end": 70,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 51,
@@ -339,13 +338,13 @@ __ESTREE_TEST__:PASS:
         "name": "mangledNodeModules",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 71,
       "end": 84,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 71,
@@ -354,13 +353,13 @@ __ESTREE_TEST__:PASS:
         "name": "atTypesCache",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 85,
       "end": 105,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 85,
@@ -369,7 +368,8 @@ __ESTREE_TEST__:PASS:
         "name": "mangledAtTypesCache",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

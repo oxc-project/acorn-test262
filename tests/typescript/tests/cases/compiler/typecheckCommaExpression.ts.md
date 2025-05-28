@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 6,
-      "directive": null,
       "expression": {
         "type": "SequenceExpression",
         "start": 1,
@@ -34,7 +33,8 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         ]
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

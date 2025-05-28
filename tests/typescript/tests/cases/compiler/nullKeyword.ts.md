@@ -9,20 +9,17 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 9,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 0,
         "end": 8,
-        "computed": false,
         "object": {
           "type": "Literal",
           "start": 0,
           "end": 4,
-          "raw": "null",
-          "value": null
+          "value": null,
+          "raw": "null"
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 5,
@@ -31,8 +28,11 @@ __ESTREE_TEST__:PASS:
           "name": "foo",
           "optional": false,
           "typeAnnotation": null
-        }
-      }
+        },
+        "optional": false,
+        "computed": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

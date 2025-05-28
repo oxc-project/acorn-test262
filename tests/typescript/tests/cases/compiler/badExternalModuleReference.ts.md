@@ -18,7 +18,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 12,
@@ -27,26 +26,26 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 20,
           "end": 29,
-          "raw": "\"garbage\"",
-          "value": "garbage"
+          "value": "garbage",
+          "raw": "\"garbage\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 32,
       "end": 113,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 39,
         "end": 113,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 51,
             "end": 112,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 51,
@@ -67,8 +66,9 @@ __ESTREE_TEST__:PASS:
                       "type": "TSPropertySignature",
                       "start": 60,
                       "end": 84,
-                      "accessibility": null,
                       "computed": false,
+                      "optional": false,
+                      "readonly": false,
                       "key": {
                         "type": "Identifier",
                         "start": 60,
@@ -78,9 +78,6 @@ __ESTREE_TEST__:PASS:
                         "optional": false,
                         "typeAnnotation": null
                       },
-                      "optional": false,
-                      "readonly": false,
-                      "static": false,
                       "typeAnnotation": {
                         "type": "TSTypeAnnotation",
                         "start": 65,
@@ -89,7 +86,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 67,
                           "end": 83,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "TSQualifiedName",
                             "start": 67,
@@ -112,14 +108,18 @@ __ESTREE_TEST__:PASS:
                               "optional": false,
                               "typeAnnotation": null
                             }
-                          }
+                          },
+                          "typeArguments": null
                         }
-                      }
+                      },
+                      "accessibility": null,
+                      "static": false
                     },
                     {
                       "type": "TSCallSignatureDeclaration",
                       "start": 89,
                       "end": 110,
+                      "typeParameters": null,
                       "params": [],
                       "returnType": {
                         "type": "TSTypeAnnotation",
@@ -129,7 +129,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 93,
                           "end": 109,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "TSQualifiedName",
                             "start": 93,
@@ -152,24 +151,25 @@ __ESTREE_TEST__:PASS:
                               "optional": false,
                               "typeAnnotation": null
                             }
-                          }
+                          },
+                          "typeArguments": null
                         }
-                      },
-                      "typeParameters": null
+                      }
                     }
                   ]
                 }
               }
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": true,
-        "kind": "var"
+        "declare": true
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     }
   ],
   "sourceType": "module",

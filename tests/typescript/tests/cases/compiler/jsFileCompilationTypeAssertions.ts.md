@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 12,
-      "directive": null,
       "expression": {
         "type": "TSAsExpression",
         "start": 0,
@@ -18,26 +17,27 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 0,
           "end": 1,
-          "raw": "0",
-          "value": 0
+          "value": 0,
+          "raw": "0"
         },
         "typeAnnotation": {
           "type": "TSNumberKeyword",
           "start": 5,
           "end": 11
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "VariableDeclaration",
       "start": 13,
       "end": 39,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 17,
           "end": 38,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 17,
@@ -51,6 +51,11 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeAssertion",
             "start": 21,
             "end": 38,
+            "typeAnnotation": {
+              "type": "TSStringKeyword",
+              "start": 22,
+              "end": 28
+            },
             "expression": {
               "type": "Identifier",
               "start": 29,
@@ -59,17 +64,12 @@ __ESTREE_TEST__:PASS:
               "name": "undefined",
               "optional": false,
               "typeAnnotation": null
-            },
-            "typeAnnotation": {
-              "type": "TSStringKeyword",
-              "start": 22,
-              "end": 28
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

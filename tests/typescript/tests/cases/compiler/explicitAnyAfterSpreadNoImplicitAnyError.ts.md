@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 30,
-      "directive": null,
       "expression": {
         "type": "ObjectExpression",
         "start": 1,
@@ -19,7 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "Property",
             "start": 3,
             "end": 8,
-            "computed": false,
+            "kind": "init",
             "key": {
               "type": "Identifier",
               "start": 3,
@@ -29,16 +28,16 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "init",
-            "method": false,
-            "optional": false,
-            "shorthand": false,
             "value": {
               "type": "ArrayExpression",
               "start": 6,
               "end": 8,
               "elements": []
-            }
+            },
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "optional": false
           },
           {
             "type": "SpreadElement",
@@ -52,8 +51,8 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 14,
                 "end": 18,
-                "raw": "null",
-                "value": null
+                "value": null,
+                "raw": "null"
               },
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
@@ -63,18 +62,19 @@ __ESTREE_TEST__:PASS:
             }
           }
         ]
-      }
+      },
+      "directive": null
     },
     {
       "type": "VariableDeclaration",
       "start": 31,
       "end": 42,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 35,
           "end": 41,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 35,
@@ -93,11 +93,11 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     }
   ],
   "sourceType": "script",

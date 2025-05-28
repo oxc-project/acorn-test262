@@ -9,7 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 66,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 11,
+        "decorators": [],
+        "name": "g",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": true,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 14,
@@ -19,52 +33,6 @@ __ESTREE_TEST__:PASS:
             "type": "ClassDeclaration",
             "start": 20,
             "end": 63,
-            "abstract": false,
-            "body": {
-              "type": "ClassBody",
-              "start": 28,
-              "end": 63,
-              "body": [
-                {
-                  "type": "PropertyDefinition",
-                  "start": 38,
-                  "end": 57,
-                  "accessibility": null,
-                  "computed": false,
-                  "declare": false,
-                  "decorators": [],
-                  "definite": false,
-                  "key": {
-                    "type": "Identifier",
-                    "start": 45,
-                    "end": 46,
-                    "decorators": [],
-                    "name": "x",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "override": false,
-                  "readonly": false,
-                  "static": true,
-                  "typeAnnotation": null,
-                  "value": {
-                    "type": "YieldExpression",
-                    "start": 49,
-                    "end": 56,
-                    "argument": {
-                      "type": "Literal",
-                      "start": 55,
-                      "end": 56,
-                      "raw": "0",
-                      "value": 0
-                    },
-                    "delegate": false
-                  }
-                }
-              ]
-            },
-            "declare": false,
             "decorators": [],
             "id": {
               "type": "Identifier",
@@ -75,10 +43,56 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "implements": [],
+            "typeParameters": null,
             "superClass": null,
             "superTypeArguments": null,
-            "typeParameters": null
+            "implements": [],
+            "body": {
+              "type": "ClassBody",
+              "start": 28,
+              "end": 63,
+              "body": [
+                {
+                  "type": "PropertyDefinition",
+                  "start": 38,
+                  "end": 57,
+                  "decorators": [],
+                  "key": {
+                    "type": "Identifier",
+                    "start": 45,
+                    "end": 46,
+                    "decorators": [],
+                    "name": "x",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeAnnotation": null,
+                  "value": {
+                    "type": "YieldExpression",
+                    "start": 49,
+                    "end": 56,
+                    "delegate": false,
+                    "argument": {
+                      "type": "Literal",
+                      "start": 55,
+                      "end": 56,
+                      "value": 0,
+                      "raw": "0"
+                    }
+                  },
+                  "computed": false,
+                  "static": true,
+                  "declare": false,
+                  "override": false,
+                  "optional": false,
+                  "definite": false,
+                  "readonly": false,
+                  "accessibility": null
+                }
+              ]
+            },
+            "abstract": false,
+            "declare": false
           },
           {
             "type": "EmptyStatement",
@@ -87,21 +101,7 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": true,
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 11,
-        "decorators": [],
-        "name": "g",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

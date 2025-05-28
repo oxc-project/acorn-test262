@@ -9,66 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 96,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 7,
         "end": 96,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 51,
-          "end": 96,
-          "body": [
-            {
-              "type": "ThrowStatement",
-              "start": 57,
-              "end": 94,
-              "argument": {
-                "type": "NewExpression",
-                "start": 63,
-                "end": 93,
-                "arguments": [
-                  {
-                    "type": "BinaryExpression",
-                    "start": 73,
-                    "end": 92,
-                    "operator": "+",
-                    "left": {
-                      "type": "Literal",
-                      "start": 73,
-                      "end": 86,
-                      "raw": "\"Unexpected \"",
-                      "value": "Unexpected "
-                    },
-                    "right": {
-                      "type": "Identifier",
-                      "start": 89,
-                      "end": 92,
-                      "decorators": [],
-                      "name": "msg",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  }
-                ],
-                "callee": {
-                  "type": "Identifier",
-                  "start": 67,
-                  "end": 72,
-                  "decorators": [],
-                  "name": "Error",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "typeArguments": null
-              }
-            }
-          ]
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 16,
@@ -78,6 +22,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [
           {
             "type": "Identifier",
@@ -117,11 +65,63 @@ __ESTREE_TEST__:PASS:
           }
         ],
         "returnType": null,
-        "typeParameters": null
+        "body": {
+          "type": "BlockStatement",
+          "start": 51,
+          "end": 96,
+          "body": [
+            {
+              "type": "ThrowStatement",
+              "start": 57,
+              "end": 94,
+              "argument": {
+                "type": "NewExpression",
+                "start": 63,
+                "end": 93,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 67,
+                  "end": 72,
+                  "decorators": [],
+                  "name": "Error",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "BinaryExpression",
+                    "start": 73,
+                    "end": 92,
+                    "left": {
+                      "type": "Literal",
+                      "start": 73,
+                      "end": 86,
+                      "value": "Unexpected ",
+                      "raw": "\"Unexpected \""
+                    },
+                    "operator": "+",
+                    "right": {
+                      "type": "Identifier",
+                      "start": 89,
+                      "end": 92,
+                      "decorators": [],
+                      "name": "msg",
+                      "optional": false,
+                      "typeAnnotation": null
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -139,14 +139,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 34,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 28,
-        "end": 33,
-        "raw": "\"./a\"",
-        "value": "./a"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -161,7 +153,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
@@ -170,11 +161,20 @@ __ESTREE_TEST__:PASS:
             "name": "assertNevar",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 28,
+        "end": 33,
+        "value": "./a",
+        "raw": "\"./a\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

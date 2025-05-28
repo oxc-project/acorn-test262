@@ -9,36 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 130,
       "end": 186,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 170,
-        "end": 186,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 176,
-            "end": 184,
-            "directive": null,
-            "expression": {
-              "type": "YieldExpression",
-              "start": 176,
-              "end": 183,
-              "argument": {
-                "type": "Literal",
-                "start": 182,
-                "end": 183,
-                "raw": "1",
-                "value": 1
-              },
-              "delegate": false
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": true,
       "id": {
         "type": "Identifier",
         "start": 140,
@@ -48,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": true,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
@@ -57,6 +31,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 145,
           "end": 169,
+          "typeName": {
+            "type": "Identifier",
+            "start": 145,
+            "end": 161,
+            "decorators": [],
+            "name": "IterableIterator",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
             "start": 161,
@@ -68,19 +51,36 @@ __ESTREE_TEST__:PASS:
                 "end": 168
               }
             ]
-          },
-          "typeName": {
-            "type": "Identifier",
-            "start": 145,
-            "end": 161,
-            "decorators": [],
-            "name": "IterableIterator",
-            "optional": false,
-            "typeAnnotation": null
           }
         }
       },
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 170,
+        "end": 186,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 176,
+            "end": 184,
+            "expression": {
+              "type": "YieldExpression",
+              "start": 176,
+              "end": 183,
+              "delegate": false,
+              "argument": {
+                "type": "Literal",
+                "start": 182,
+                "end": 183,
+                "value": 1,
+                "raw": "1"
+              }
+            },
+            "directive": null
+          }
+        ]
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

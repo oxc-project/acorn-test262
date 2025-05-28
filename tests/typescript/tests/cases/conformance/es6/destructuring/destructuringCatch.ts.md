@@ -27,63 +27,25 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 17,
                   "end": 18,
-                  "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 },
                 {
                   "type": "Literal",
                   "start": 20,
                   "end": 21,
-                  "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               ]
             }
           }
         ]
       },
-      "finalizer": null,
       "handler": {
         "type": "CatchClause",
         "start": 26,
         "end": 55,
-        "body": {
-          "type": "BlockStatement",
-          "start": 41,
-          "end": 55,
-          "body": [
-            {
-              "type": "ExpressionStatement",
-              "start": 47,
-              "end": 53,
-              "directive": null,
-              "expression": {
-                "type": "BinaryExpression",
-                "start": 47,
-                "end": 52,
-                "operator": "+",
-                "left": {
-                  "type": "Identifier",
-                  "start": 47,
-                  "end": 48,
-                  "decorators": [],
-                  "name": "a",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "right": {
-                  "type": "Identifier",
-                  "start": 51,
-                  "end": 52,
-                  "decorators": [],
-                  "name": "b",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            }
-          ]
-        },
         "param": {
           "type": "ArrayPattern",
           "start": 33,
@@ -111,8 +73,46 @@ __ESTREE_TEST__:PASS:
           ],
           "optional": false,
           "typeAnnotation": null
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 41,
+          "end": 55,
+          "body": [
+            {
+              "type": "ExpressionStatement",
+              "start": 47,
+              "end": 53,
+              "expression": {
+                "type": "BinaryExpression",
+                "start": 47,
+                "end": 52,
+                "left": {
+                  "type": "Identifier",
+                  "start": 47,
+                  "end": 48,
+                  "decorators": [],
+                  "name": "a",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "operator": "+",
+                "right": {
+                  "type": "Identifier",
+                  "start": 51,
+                  "end": 52,
+                  "decorators": [],
+                  "name": "b",
+                  "optional": false,
+                  "typeAnnotation": null
+                }
+              },
+              "directive": null
+            }
+          ]
         }
-      }
+      },
+      "finalizer": null
     },
     {
       "type": "TryStatement",
@@ -136,7 +136,7 @@ __ESTREE_TEST__:PASS:
                   "type": "Property",
                   "start": 75,
                   "end": 79,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 75,
@@ -146,23 +146,23 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "kind": "init",
-                  "method": false,
-                  "optional": false,
-                  "shorthand": false,
                   "value": {
                     "type": "Literal",
                     "start": 78,
                     "end": 79,
-                    "raw": "0",
-                    "value": 0
-                  }
+                    "value": 0,
+                    "raw": "0"
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "optional": false
                 },
                 {
                   "type": "Property",
                   "start": 81,
                   "end": 85,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 81,
@@ -172,28 +172,93 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "kind": "init",
-                  "method": false,
-                  "optional": false,
-                  "shorthand": false,
                   "value": {
                     "type": "Literal",
                     "start": 84,
                     "end": 85,
-                    "raw": "1",
-                    "value": 1
-                  }
+                    "value": 1,
+                    "raw": "1"
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "optional": false
                 }
               ]
             }
           }
         ]
       },
-      "finalizer": null,
       "handler": {
         "type": "CatchClause",
         "start": 91,
         "end": 120,
+        "param": {
+          "type": "ObjectPattern",
+          "start": 98,
+          "end": 104,
+          "decorators": [],
+          "properties": [
+            {
+              "type": "Property",
+              "start": 99,
+              "end": 100,
+              "kind": "init",
+              "key": {
+                "type": "Identifier",
+                "start": 99,
+                "end": 100,
+                "decorators": [],
+                "name": "a",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "value": {
+                "type": "Identifier",
+                "start": 99,
+                "end": 100,
+                "decorators": [],
+                "name": "a",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "method": false,
+              "shorthand": true,
+              "computed": false,
+              "optional": false
+            },
+            {
+              "type": "Property",
+              "start": 102,
+              "end": 103,
+              "kind": "init",
+              "key": {
+                "type": "Identifier",
+                "start": 102,
+                "end": 103,
+                "decorators": [],
+                "name": "b",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "value": {
+                "type": "Identifier",
+                "start": 102,
+                "end": 103,
+                "decorators": [],
+                "name": "b",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "method": false,
+              "shorthand": true,
+              "computed": false,
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "typeAnnotation": null
+        },
         "body": {
           "type": "BlockStatement",
           "start": 106,
@@ -203,12 +268,10 @@ __ESTREE_TEST__:PASS:
               "type": "ExpressionStatement",
               "start": 112,
               "end": 118,
-              "directive": null,
               "expression": {
                 "type": "BinaryExpression",
                 "start": 112,
                 "end": 117,
-                "operator": "+",
                 "left": {
                   "type": "Identifier",
                   "start": 112,
@@ -218,6 +281,7 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
+                "operator": "+",
                 "right": {
                   "type": "Identifier",
                   "start": 116,
@@ -227,77 +291,13 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 }
-              }
+              },
+              "directive": null
             }
           ]
-        },
-        "param": {
-          "type": "ObjectPattern",
-          "start": 98,
-          "end": 104,
-          "decorators": [],
-          "optional": false,
-          "properties": [
-            {
-              "type": "Property",
-              "start": 99,
-              "end": 100,
-              "computed": false,
-              "key": {
-                "type": "Identifier",
-                "start": 99,
-                "end": 100,
-                "decorators": [],
-                "name": "a",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "kind": "init",
-              "method": false,
-              "optional": false,
-              "shorthand": true,
-              "value": {
-                "type": "Identifier",
-                "start": 99,
-                "end": 100,
-                "decorators": [],
-                "name": "a",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            },
-            {
-              "type": "Property",
-              "start": 102,
-              "end": 103,
-              "computed": false,
-              "key": {
-                "type": "Identifier",
-                "start": 102,
-                "end": 103,
-                "decorators": [],
-                "name": "b",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "kind": "init",
-              "method": false,
-              "optional": false,
-              "shorthand": true,
-              "value": {
-                "type": "Identifier",
-                "start": 102,
-                "end": 103,
-                "decorators": [],
-                "name": "b",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            }
-          ],
-          "typeAnnotation": null
         }
-      }
+      },
+      "finalizer": null
     },
     {
       "type": "TryStatement",
@@ -326,7 +326,7 @@ __ESTREE_TEST__:PASS:
                       "type": "Property",
                       "start": 141,
                       "end": 147,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 141,
@@ -336,10 +336,6 @@ __ESTREE_TEST__:PASS:
                         "optional": false,
                         "typeAnnotation": null
                       },
-                      "kind": "init",
-                      "method": false,
-                      "optional": false,
-                      "shorthand": false,
                       "value": {
                         "type": "ArrayExpression",
                         "start": 144,
@@ -349,17 +345,21 @@ __ESTREE_TEST__:PASS:
                             "type": "Literal",
                             "start": 145,
                             "end": 146,
-                            "raw": "0",
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           }
                         ]
-                      }
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "optional": false
                     },
                     {
                       "type": "Property",
                       "start": 149,
                       "end": 153,
-                      "computed": false,
+                      "kind": "init",
                       "key": {
                         "type": "Identifier",
                         "start": 149,
@@ -369,17 +369,17 @@ __ESTREE_TEST__:PASS:
                         "optional": false,
                         "typeAnnotation": null
                       },
-                      "kind": "init",
-                      "method": false,
-                      "optional": false,
-                      "shorthand": false,
                       "value": {
                         "type": "Literal",
                         "start": 152,
                         "end": 153,
-                        "raw": "1",
-                        "value": 1
-                      }
+                        "value": 1,
+                        "raw": "1"
+                      },
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "optional": false
                     }
                   ]
                 }
@@ -388,48 +388,10 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "finalizer": null,
       "handler": {
         "type": "CatchClause",
         "start": 160,
         "end": 196,
-        "body": {
-          "type": "BlockStatement",
-          "start": 182,
-          "end": 196,
-          "body": [
-            {
-              "type": "ExpressionStatement",
-              "start": 188,
-              "end": 194,
-              "directive": null,
-              "expression": {
-                "type": "BinaryExpression",
-                "start": 188,
-                "end": 193,
-                "operator": "+",
-                "left": {
-                  "type": "Identifier",
-                  "start": 188,
-                  "end": 189,
-                  "decorators": [],
-                  "name": "y",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "right": {
-                  "type": "Identifier",
-                  "start": 192,
-                  "end": 193,
-                  "decorators": [],
-                  "name": "z",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            }
-          ]
-        },
         "param": {
           "type": "ArrayPattern",
           "start": 167,
@@ -441,13 +403,12 @@ __ESTREE_TEST__:PASS:
               "start": 168,
               "end": 179,
               "decorators": [],
-              "optional": false,
               "properties": [
                 {
                   "type": "Property",
                   "start": 169,
                   "end": 175,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 169,
@@ -457,10 +418,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "kind": "init",
-                  "method": false,
-                  "optional": false,
-                  "shorthand": false,
                   "value": {
                     "type": "ArrayPattern",
                     "start": 172,
@@ -479,13 +436,17 @@ __ESTREE_TEST__:PASS:
                     ],
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "optional": false
                 },
                 {
                   "type": "Property",
                   "start": 177,
                   "end": 178,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 177,
@@ -495,10 +456,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "kind": "init",
-                  "method": false,
-                  "optional": false,
-                  "shorthand": true,
                   "value": {
                     "type": "Identifier",
                     "start": 177,
@@ -507,16 +464,59 @@ __ESTREE_TEST__:PASS:
                     "name": "z",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "method": false,
+                  "shorthand": true,
+                  "computed": false,
+                  "optional": false
                 }
               ],
+              "optional": false,
               "typeAnnotation": null
             }
           ],
           "optional": false,
           "typeAnnotation": null
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 182,
+          "end": 196,
+          "body": [
+            {
+              "type": "ExpressionStatement",
+              "start": 188,
+              "end": 194,
+              "expression": {
+                "type": "BinaryExpression",
+                "start": 188,
+                "end": 193,
+                "left": {
+                  "type": "Identifier",
+                  "start": 188,
+                  "end": 189,
+                  "decorators": [],
+                  "name": "y",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "operator": "+",
+                "right": {
+                  "type": "Identifier",
+                  "start": 192,
+                  "end": 193,
+                  "decorators": [],
+                  "name": "z",
+                  "optional": false,
+                  "typeAnnotation": null
+                }
+              },
+              "directive": null
+            }
+          ]
         }
-      }
+      },
+      "finalizer": null
     },
     {
       "type": "TryStatement",
@@ -528,17 +528,10 @@ __ESTREE_TEST__:PASS:
         "end": 270,
         "body": []
       },
-      "finalizer": null,
       "handler": {
         "type": "CatchClause",
         "start": 271,
         "end": 315,
-        "body": {
-          "type": "BlockStatement",
-          "start": 311,
-          "end": 315,
-          "body": []
-        },
         "param": {
           "type": "ArrayPattern",
           "start": 301,
@@ -557,8 +550,15 @@ __ESTREE_TEST__:PASS:
           ],
           "optional": false,
           "typeAnnotation": null
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 311,
+          "end": 315,
+          "body": []
         }
-      }
+      },
+      "finalizer": null
     }
   ],
   "sourceType": "script",

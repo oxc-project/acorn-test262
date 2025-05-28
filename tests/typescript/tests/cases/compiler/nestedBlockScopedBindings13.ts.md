@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "ForStatement",
       "start": 0,
       "end": 42,
+      "init": null,
+      "test": {
+        "type": "Literal",
+        "start": 7,
+        "end": 12,
+        "value": false,
+        "raw": "false"
+      },
+      "update": null,
       "body": {
         "type": "BlockStatement",
         "start": 15,
@@ -18,12 +27,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 21,
             "end": 27,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 25,
                 "end": 26,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 25,
@@ -33,22 +42,25 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "declare": false
           },
           {
             "type": "ExpressionStatement",
             "start": 32,
             "end": 40,
-            "directive": null,
             "expression": {
               "type": "ArrowFunctionExpression",
               "start": 32,
               "end": 39,
+              "expression": true,
               "async": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
               "body": {
                 "type": "Identifier",
                 "start": 38,
@@ -58,30 +70,27 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "expression": true,
-              "generator": false,
               "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
+              "generator": false
+            },
+            "directive": null
           }
         ]
-      },
-      "init": null,
-      "test": {
-        "type": "Literal",
-        "start": 7,
-        "end": 12,
-        "raw": "false",
-        "value": false
-      },
-      "update": null
+      }
     },
     {
       "type": "ForStatement",
       "start": 44,
       "end": 84,
+      "init": null,
+      "test": {
+        "type": "Literal",
+        "start": 51,
+        "end": 56,
+        "value": false,
+        "raw": "false"
+      },
+      "update": null,
       "body": {
         "type": "BlockStatement",
         "start": 59,
@@ -91,12 +100,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 65,
             "end": 71,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 69,
                 "end": 70,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 69,
@@ -106,17 +115,16 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "declare": false
           },
           {
             "type": "ExpressionStatement",
             "start": 76,
             "end": 82,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 76,
@@ -135,22 +143,14 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 80,
                 "end": 81,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
-            }
+            },
+            "directive": null
           }
         ]
-      },
-      "init": null,
-      "test": {
-        "type": "Literal",
-        "start": 51,
-        "end": 56,
-        "raw": "false",
-        "value": false
-      },
-      "update": null
+      }
     }
   ],
   "sourceType": "script",

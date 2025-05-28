@@ -9,7 +9,31 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 96,
       "end": 142,
+      "id": {
+        "type": "Identifier",
+        "start": 105,
+        "end": 119,
+        "decorators": [],
+        "name": "isLessThanFive",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 120,
+          "end": 121,
+          "decorators": [],
+          "name": "n",
+          "optional": false,
+          "typeAnnotation": null
+        }
+      ],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 123,
@@ -23,7 +47,6 @@ __ESTREE_TEST__:PASS:
               "type": "BinaryExpression",
               "start": 134,
               "end": 139,
-              "operator": "<",
               "left": {
                 "type": "Identifier",
                 "start": 134,
@@ -33,42 +56,19 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
+              "operator": "<",
               "right": {
                 "type": "Literal",
                 "start": 138,
                 "end": 139,
-                "raw": "5",
-                "value": 5
+                "value": 5,
+                "raw": "5"
               }
             }
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 105,
-        "end": 119,
-        "decorators": [],
-        "name": "isLessThanFive",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [
-        {
-          "type": "Identifier",
-          "start": 120,
-          "end": 121,
-          "decorators": [],
-          "name": "n",
-          "optional": false,
-          "typeAnnotation": null
-        }
-      ],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

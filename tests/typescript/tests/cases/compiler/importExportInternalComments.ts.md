@@ -9,16 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 21,
-      "kind": "module",
-      "declare": true,
-      "global": false,
       "id": {
         "type": "Literal",
         "start": 15,
         "end": 20,
-        "raw": "\"foo\"",
-        "value": "foo"
-      }
+        "value": "foo",
+        "raw": "\"foo\""
+      },
+      "kind": "module",
+      "declare": true,
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -63,14 +63,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 6,
       "end": 110,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 104,
-        "end": 109,
-        "raw": "\"foo\"",
-        "value": "foo"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -99,7 +91,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 42,
@@ -108,7 +99,8 @@ __ESTREE_TEST__:PASS:
             "name": "A",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         },
         {
           "type": "ImportSpecifier",
@@ -123,7 +115,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 74,
@@ -132,24 +123,25 @@ __ESTREE_TEST__:PASS:
             "name": "C",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 104,
+        "end": 109,
+        "value": "foo",
+        "raw": "\"foo\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 117,
       "end": 174,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 168,
-        "end": 173,
-        "raw": "\"foo\"",
-        "value": "foo"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -166,14 +158,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 168,
+        "end": 173,
+        "value": "foo",
+        "raw": "\"foo\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 176,
       "end": 194,
-      "directive": null,
       "expression": {
         "type": "SequenceExpression",
         "start": 176,
@@ -183,6 +182,7 @@ __ESTREE_TEST__:PASS:
             "type": "UnaryExpression",
             "start": 176,
             "end": 182,
+            "operator": "void",
             "argument": {
               "type": "Identifier",
               "start": 181,
@@ -192,7 +192,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "operator": "void",
             "prefix": true
           },
           {
@@ -223,27 +222,28 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         ]
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 243,
       "end": 330,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 324,
-        "end": 329,
-        "raw": "\"foo\"",
-        "value": "foo"
-      },
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 264,
           "end": 265,
+          "local": {
+            "type": "Identifier",
+            "start": 264,
+            "end": 265,
+            "decorators": [],
+            "name": "A",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 264,
@@ -253,21 +253,21 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 264,
-            "end": 265,
-            "decorators": [],
-            "name": "A",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         },
         {
           "type": "ExportSpecifier",
           "start": 279,
           "end": 297,
+          "local": {
+            "type": "Identifier",
+            "start": 279,
+            "end": 280,
+            "decorators": [],
+            "name": "B",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 296,
@@ -277,33 +277,33 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 279,
-            "end": 280,
-            "decorators": [],
-            "name": "B",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 324,
+        "end": 329,
+        "value": "foo",
+        "raw": "\"foo\""
+      },
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportAllDeclaration",
       "start": 337,
       "end": 374,
-      "attributes": [],
       "exported": null,
-      "exportKind": "value",
       "source": {
         "type": "Literal",
         "start": 369,
         "end": 374,
-        "raw": "\"foo\"",
-        "value": "foo"
-      }
+        "value": "foo",
+        "raw": "\"foo\""
+      },
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",

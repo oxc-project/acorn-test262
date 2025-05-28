@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 139,
       "end": 256,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 204,
-        "end": 255,
-        "raw": "\"./arbitraryModuleNamespaceIdentifiers_importEmpty\"",
-        "value": "./arbitraryModuleNamespaceIdentifiers_importEmpty"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -26,10 +18,9 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 150,
             "end": 159,
-            "raw": "\"missing\"",
-            "value": "missing"
+            "value": "missing",
+            "raw": "\"missing\""
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 163,
@@ -38,7 +29,8 @@ __ESTREE_TEST__:PASS:
             "name": "x",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         },
         {
           "type": "ImportSpecifier",
@@ -48,10 +40,9 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 168,
             "end": 179,
-            "raw": "\"(missing)\"",
-            "value": "(missing)"
+            "value": "(missing)",
+            "raw": "\"(missing)\""
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 183,
@@ -60,7 +51,8 @@ __ESTREE_TEST__:PASS:
             "name": "y",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         },
         {
           "type": "ImportSpecifier",
@@ -70,10 +62,9 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 188,
             "end": 190,
-            "raw": "\"\"",
-            "value": ""
+            "value": "",
+            "raw": "\"\""
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 194,
@@ -82,22 +73,31 @@ __ESTREE_TEST__:PASS:
             "name": "z",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 204,
+        "end": 255,
+        "value": "./arbitraryModuleNamespaceIdentifiers_importEmpty",
+        "raw": "\"./arbitraryModuleNamespaceIdentifiers_importEmpty\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 257,
       "end": 279,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 263,
           "end": 278,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 263,
@@ -140,11 +140,11 @@ __ESTREE_TEST__:PASS:
                 "typeAnnotation": null
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "module",

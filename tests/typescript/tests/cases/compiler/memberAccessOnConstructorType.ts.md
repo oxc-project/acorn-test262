@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 22,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 21,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -31,6 +31,7 @@ __ESTREE_TEST__:PASS:
                 "start": 7,
                 "end": 21,
                 "abstract": false,
+                "typeParameters": null,
                 "params": [],
                 "returnType": {
                   "type": "TSTypeAnnotation",
@@ -41,32 +42,28 @@ __ESTREE_TEST__:PASS:
                     "start": 17,
                     "end": 21
                   }
-                },
-                "typeParameters": null
+                }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 23,
       "end": 40,
-      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 23,
         "end": 39,
-        "operator": "==",
         "left": {
           "type": "MemberExpression",
           "start": 23,
           "end": 34,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 23,
@@ -76,7 +73,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 25,
@@ -85,16 +81,20 @@ __ESTREE_TEST__:PASS:
             "name": "arguments",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
+        "operator": "==",
         "right": {
           "type": "Literal",
           "start": 38,
           "end": 39,
-          "raw": "0",
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

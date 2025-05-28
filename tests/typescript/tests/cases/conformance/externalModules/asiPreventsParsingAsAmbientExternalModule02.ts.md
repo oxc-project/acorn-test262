@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 20,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 19,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -33,22 +33,22 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 21,
       "end": 40,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 25,
           "end": 39,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 25,
@@ -67,74 +67,16 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 42,
       "end": 290,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 59,
-        "end": 290,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 65,
-            "end": 72,
-            "directive": null,
-            "expression": {
-              "type": "Identifier",
-              "start": 65,
-              "end": 72,
-              "decorators": [],
-              "name": "declare",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 128,
-            "end": 134,
-            "directive": null,
-            "expression": {
-              "type": "Identifier",
-              "start": 128,
-              "end": 134,
-              "decorators": [],
-              "name": "module",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 190,
-            "end": 210,
-            "directive": null,
-            "expression": {
-              "type": "Literal",
-              "start": 190,
-              "end": 210,
-              "raw": "\"my external module\"",
-              "value": "my external module"
-            }
-          },
-          {
-            "type": "BlockStatement",
-            "start": 242,
-            "end": 245,
-            "body": []
-          }
-        ]
-      },
-      "declare": false,
-      "global": false,
       "id": {
         "type": "Identifier",
         "start": 49,
@@ -144,7 +86,65 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "module"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 59,
+        "end": 290,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 65,
+            "end": 72,
+            "expression": {
+              "type": "Identifier",
+              "start": 65,
+              "end": 72,
+              "decorators": [],
+              "name": "declare",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 128,
+            "end": 134,
+            "expression": {
+              "type": "Identifier",
+              "start": 128,
+              "end": 134,
+              "decorators": [],
+              "name": "module",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 190,
+            "end": 210,
+            "expression": {
+              "type": "Literal",
+              "start": 190,
+              "end": 210,
+              "value": "my external module",
+              "raw": "\"my external module\""
+            },
+            "directive": null
+          },
+          {
+            "type": "BlockStatement",
+            "start": 242,
+            "end": 245,
+            "body": []
+          }
+        ]
+      },
+      "kind": "module",
+      "declare": false,
+      "global": false
     }
   ],
   "sourceType": "script",

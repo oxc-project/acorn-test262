@@ -9,17 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 57,
       "end": 81,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 64,
         "end": 81,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 70,
             "end": 81,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 70,
@@ -38,35 +37,44 @@ __ESTREE_TEST__:PASS:
                 }
               }
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "LabeledStatement",
       "start": 82,
       "end": 118,
+      "label": {
+        "type": "Identifier",
+        "start": 82,
+        "end": 90,
+        "decorators": [],
+        "name": "subTitle",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "ExportNamedDeclaration",
         "start": 92,
         "end": 118,
-        "attributes": [],
         "declaration": {
           "type": "VariableDeclaration",
           "start": 99,
           "end": 118,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
               "start": 105,
               "end": 118,
-              "definite": false,
               "id": {
                 "type": "Identifier",
                 "start": 105,
@@ -85,24 +93,16 @@ __ESTREE_TEST__:PASS:
                   }
                 }
               },
-              "init": null
+              "init": null,
+              "definite": false
             }
           ],
-          "declare": false,
-          "kind": "const"
+          "declare": false
         },
-        "exportKind": "value",
+        "specifiers": [],
         "source": null,
-        "specifiers": []
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 82,
-        "end": 90,
-        "decorators": [],
-        "name": "subTitle",
-        "optional": false,
-        "typeAnnotation": null
+        "exportKind": "value",
+        "attributes": []
       }
     }
   ],

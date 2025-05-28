@@ -9,7 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 53,
       "end": 174,
+      "id": {
+        "type": "Identifier",
+        "start": 62,
+        "end": 71,
+        "decorators": [],
+        "name": "myWrapper",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 74,
@@ -19,60 +33,15 @@ __ESTREE_TEST__:PASS:
             "type": "IfStatement",
             "start": 80,
             "end": 121,
-            "alternate": null,
-            "consequent": {
-              "type": "ExpressionStatement",
-              "start": 101,
-              "end": 121,
-              "directive": null,
-              "expression": {
-                "type": "AssignmentExpression",
-                "start": 101,
-                "end": 120,
-                "operator": "=",
-                "left": {
-                  "type": "MemberExpression",
-                  "start": 101,
-                  "end": 115,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 101,
-                    "end": 107,
-                    "decorators": [],
-                    "name": "module",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 108,
-                    "end": 115,
-                    "decorators": [],
-                    "name": "exports",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "right": {
-                  "type": "Literal",
-                  "start": 118,
-                  "end": 120,
-                  "raw": "\"\"",
-                  "value": ""
-                }
-              }
-            },
             "test": {
               "type": "UnaryExpression",
               "start": 84,
               "end": 99,
+              "operator": "!",
               "argument": {
                 "type": "MemberExpression",
                 "start": 85,
                 "end": 99,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 85,
@@ -82,7 +51,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 92,
@@ -91,22 +59,68 @@ __ESTREE_TEST__:PASS:
                   "name": "exports",
                   "optional": false,
                   "typeAnnotation": null
+                },
+                "optional": false,
+                "computed": false
+              },
+              "prefix": true
+            },
+            "consequent": {
+              "type": "ExpressionStatement",
+              "start": 101,
+              "end": 121,
+              "expression": {
+                "type": "AssignmentExpression",
+                "start": 101,
+                "end": 120,
+                "operator": "=",
+                "left": {
+                  "type": "MemberExpression",
+                  "start": 101,
+                  "end": 115,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 101,
+                    "end": 107,
+                    "decorators": [],
+                    "name": "module",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 108,
+                    "end": 115,
+                    "decorators": [],
+                    "name": "exports",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "right": {
+                  "type": "Literal",
+                  "start": 118,
+                  "end": 120,
+                  "value": "",
+                  "raw": "\"\""
                 }
               },
-              "operator": "!",
-              "prefix": true
-            }
+              "directive": null
+            },
+            "alternate": null
           },
           {
             "type": "VariableDeclaration",
             "start": 126,
             "end": 139,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 130,
                 "end": 138,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 130,
@@ -120,31 +134,17 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 134,
                   "end": 138,
-                  "raw": "null",
-                  "value": null
-                }
+                  "value": null,
+                  "raw": "null"
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 62,
-        "end": 71,
-        "decorators": [],
-        "name": "myWrapper",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

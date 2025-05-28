@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 46,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 45,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -39,8 +39,9 @@ __ESTREE_TEST__:PASS:
                       "type": "TSPropertySignature",
                       "start": 9,
                       "end": 19,
-                      "accessibility": null,
                       "computed": false,
+                      "optional": false,
+                      "readonly": false,
                       "key": {
                         "type": "Identifier",
                         "start": 9,
@@ -50,9 +51,6 @@ __ESTREE_TEST__:PASS:
                         "optional": false,
                         "typeAnnotation": null
                       },
-                      "optional": false,
-                      "readonly": false,
-                      "static": false,
                       "typeAnnotation": {
                         "type": "TSTypeAnnotation",
                         "start": 11,
@@ -62,7 +60,9 @@ __ESTREE_TEST__:PASS:
                           "start": 12,
                           "end": 18
                         }
-                      }
+                      },
+                      "accessibility": null,
+                      "static": false
                     }
                   ]
                 }
@@ -78,12 +78,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeAssertion",
                 "start": 26,
                 "end": 44,
-                "expression": {
-                  "type": "ObjectExpression",
-                  "start": 41,
-                  "end": 43,
-                  "properties": []
-                },
                 "typeAnnotation": {
                   "type": "TSTypeLiteral",
                   "start": 27,
@@ -93,8 +87,9 @@ __ESTREE_TEST__:PASS:
                       "type": "TSPropertySignature",
                       "start": 28,
                       "end": 38,
-                      "accessibility": null,
                       "computed": false,
+                      "optional": false,
+                      "readonly": false,
                       "key": {
                         "type": "Identifier",
                         "start": 28,
@@ -104,9 +99,6 @@ __ESTREE_TEST__:PASS:
                         "optional": false,
                         "typeAnnotation": null
                       },
-                      "optional": false,
-                      "readonly": false,
-                      "static": false,
                       "typeAnnotation": {
                         "type": "TSTypeAnnotation",
                         "start": 30,
@@ -116,17 +108,25 @@ __ESTREE_TEST__:PASS:
                           "start": 31,
                           "end": 37
                         }
-                      }
+                      },
+                      "accessibility": null,
+                      "static": false
                     }
                   ]
+                },
+                "expression": {
+                  "type": "ObjectExpression",
+                  "start": 41,
+                  "end": 43,
+                  "properties": []
                 }
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 345,
+      "id": {
+        "type": "Identifier",
+        "start": 18,
+        "end": 23,
+        "decorators": [],
+        "name": "dojox",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 24,
@@ -18,6 +27,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSModuleDeclaration",
             "start": 30,
             "end": 343,
+            "id": {
+              "type": "Identifier",
+              "start": 40,
+              "end": 48,
+              "decorators": [],
+              "name": "charting",
+              "optional": false,
+              "typeAnnotation": null
+            },
             "body": {
               "type": "TSModuleBlock",
               "start": 49,
@@ -27,6 +45,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSModuleDeclaration",
                   "start": 59,
                   "end": 337,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 69,
+                    "end": 75,
+                    "decorators": [],
+                    "name": "axis2d",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
                   "body": {
                     "type": "TSModuleBlock",
                     "start": 76,
@@ -36,19 +63,10 @@ __ESTREE_TEST__:PASS:
                         "type": "ExportNamedDeclaration",
                         "start": 90,
                         "end": 110,
-                        "attributes": [],
                         "declaration": {
                           "type": "ClassDeclaration",
                           "start": 97,
                           "end": 110,
-                          "abstract": false,
-                          "body": {
-                            "type": "ClassBody",
-                            "start": 107,
-                            "end": 110,
-                            "body": []
-                          },
-                          "declare": false,
                           "decorators": [],
                           "id": {
                             "type": "Identifier",
@@ -59,57 +77,28 @@ __ESTREE_TEST__:PASS:
                             "optional": false,
                             "typeAnnotation": null
                           },
-                          "implements": [],
+                          "typeParameters": null,
                           "superClass": null,
                           "superTypeArguments": null,
-                          "typeParameters": null
+                          "implements": [],
+                          "body": {
+                            "type": "ClassBody",
+                            "start": 107,
+                            "end": 110,
+                            "body": []
+                          },
+                          "abstract": false,
+                          "declare": false
                         },
-                        "exportKind": "value",
+                        "specifiers": [],
                         "source": null,
-                        "specifiers": []
+                        "exportKind": "value",
+                        "attributes": []
                       },
                       {
                         "type": "TSInterfaceDeclaration",
                         "start": 123,
                         "end": 191,
-                        "body": {
-                          "type": "TSInterfaceBody",
-                          "start": 140,
-                          "end": 191,
-                          "body": [
-                            {
-                              "type": "TSPropertySignature",
-                              "start": 158,
-                              "end": 177,
-                              "accessibility": null,
-                              "computed": false,
-                              "key": {
-                                "type": "Identifier",
-                                "start": 158,
-                                "end": 168,
-                                "decorators": [],
-                                "name": "createText",
-                                "optional": false,
-                                "typeAnnotation": null
-                              },
-                              "optional": false,
-                              "readonly": false,
-                              "static": false,
-                              "typeAnnotation": {
-                                "type": "TSTypeAnnotation",
-                                "start": 168,
-                                "end": 176,
-                                "typeAnnotation": {
-                                  "type": "TSObjectKeyword",
-                                  "start": 170,
-                                  "end": 176
-                                }
-                              }
-                            }
-                          ]
-                        },
-                        "declare": false,
-                        "extends": [],
                         "id": {
                           "type": "Identifier",
                           "start": 133,
@@ -119,12 +108,59 @@ __ESTREE_TEST__:PASS:
                           "optional": false,
                           "typeAnnotation": null
                         },
-                        "typeParameters": null
+                        "typeParameters": null,
+                        "extends": [],
+                        "body": {
+                          "type": "TSInterfaceBody",
+                          "start": 140,
+                          "end": 191,
+                          "body": [
+                            {
+                              "type": "TSPropertySignature",
+                              "start": 158,
+                              "end": 177,
+                              "computed": false,
+                              "optional": false,
+                              "readonly": false,
+                              "key": {
+                                "type": "Identifier",
+                                "start": 158,
+                                "end": 168,
+                                "decorators": [],
+                                "name": "createText",
+                                "optional": false,
+                                "typeAnnotation": null
+                              },
+                              "typeAnnotation": {
+                                "type": "TSTypeAnnotation",
+                                "start": 168,
+                                "end": 176,
+                                "typeAnnotation": {
+                                  "type": "TSObjectKeyword",
+                                  "start": 170,
+                                  "end": 176
+                                }
+                              },
+                              "accessibility": null,
+                              "static": false
+                            }
+                          ]
+                        },
+                        "declare": false
                       },
                       {
                         "type": "TSModuleDeclaration",
                         "start": 204,
                         "end": 327,
+                        "id": {
+                          "type": "Identifier",
+                          "start": 214,
+                          "end": 220,
+                          "decorators": [],
+                          "name": "common",
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
                         "body": {
                           "type": "TSModuleBlock",
                           "start": 221,
@@ -134,6 +170,17 @@ __ESTREE_TEST__:PASS:
                               "type": "TSInterfaceDeclaration",
                               "start": 239,
                               "end": 313,
+                              "id": {
+                                "type": "Identifier",
+                                "start": 249,
+                                "end": 259,
+                                "decorators": [],
+                                "name": "createText",
+                                "optional": false,
+                                "typeAnnotation": null
+                              },
+                              "typeParameters": null,
+                              "extends": [],
                               "body": {
                                 "type": "TSInterfaceBody",
                                 "start": 260,
@@ -143,8 +190,6 @@ __ESTREE_TEST__:PASS:
                                     "type": "TSMethodSignature",
                                     "start": 282,
                                     "end": 295,
-                                    "accessibility": null,
-                                    "computed": false,
                                     "key": {
                                       "type": "Identifier",
                                       "start": 282,
@@ -154,10 +199,11 @@ __ESTREE_TEST__:PASS:
                                       "optional": false,
                                       "typeAnnotation": null
                                     },
-                                    "kind": "method",
+                                    "computed": false,
                                     "optional": false,
+                                    "kind": "method",
+                                    "typeParameters": null,
                                     "params": [],
-                                    "readonly": false,
                                     "returnType": {
                                       "type": "TSTypeAnnotation",
                                       "start": 287,
@@ -168,89 +214,49 @@ __ESTREE_TEST__:PASS:
                                         "end": 295
                                       }
                                     },
-                                    "static": false,
-                                    "typeParameters": null
+                                    "accessibility": null,
+                                    "readonly": false,
+                                    "static": false
                                   }
                                 ]
                               },
-                              "declare": false,
-                              "extends": [],
-                              "id": {
-                                "type": "Identifier",
-                                "start": 249,
-                                "end": 259,
-                                "decorators": [],
-                                "name": "createText",
-                                "optional": false,
-                                "typeAnnotation": null
-                              },
-                              "typeParameters": null
+                              "declare": false
                             }
                           ]
                         },
+                        "kind": "namespace",
                         "declare": false,
-                        "global": false,
-                        "id": {
-                          "type": "Identifier",
-                          "start": 214,
-                          "end": 220,
-                          "decorators": [],
-                          "name": "common",
-                          "optional": false,
-                          "typeAnnotation": null
-                        },
-                        "kind": "namespace"
+                        "global": false
                       }
                     ]
                   },
+                  "kind": "namespace",
                   "declare": false,
-                  "global": false,
-                  "id": {
-                    "type": "Identifier",
-                    "start": 69,
-                    "end": 75,
-                    "decorators": [],
-                    "name": "axis2d",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "kind": "namespace"
+                  "global": false
                 }
               ]
             },
+            "kind": "namespace",
             "declare": false,
-            "global": false,
-            "id": {
-              "type": "Identifier",
-              "start": 40,
-              "end": 48,
-              "decorators": [],
-              "name": "charting",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "kind": "namespace"
+            "global": false
           }
         ]
       },
+      "kind": "namespace",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 18,
-        "end": 23,
-        "decorators": [],
-        "name": "dojox",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "namespace"
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 346,
       "end": 470,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 361,
+        "end": 402,
+        "value": "dojox/charting/axis2d/common.createText",
+        "raw": "\"dojox/charting/axis2d/common.createText\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 403,
@@ -269,7 +275,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "importKind": "value",
             "moduleReference": {
               "type": "TSQualifiedName",
               "start": 422,
@@ -320,7 +325,8 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               }
-            }
+            },
+            "importKind": "value"
           },
           {
             "type": "TSExportAssignment",
@@ -338,15 +344,9 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 361,
-        "end": 402,
-        "raw": "\"dojox/charting/axis2d/common.createText\"",
-        "value": "dojox/charting/axis2d/common.createText"
-      }
+      "global": false
     }
   ],
   "sourceType": "script",

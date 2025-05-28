@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSTypeAliasDeclaration",
       "start": 0,
       "end": 26,
-      "declare": true,
       "id": {
         "type": "Identifier",
         "start": 13,
@@ -19,18 +18,18 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSStringKeyword",
         "start": 19,
         "end": 25
       },
-      "typeParameters": null
+      "declare": true
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 27,
       "end": 45,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 32,
@@ -40,18 +39,18 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSNumberKeyword",
         "start": 38,
         "end": 44
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 46,
       "end": 69,
-      "declare": true,
       "id": {
         "type": "Identifier",
         "start": 59,
@@ -61,11 +60,11 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTypeReference",
         "start": 65,
         "end": 68,
-        "typeArguments": null,
         "typeName": {
           "type": "Identifier",
           "start": 65,
@@ -74,9 +73,10 @@ __ESTREE_TEST__:PASS:
           "name": "Bar",
           "optional": false,
           "typeAnnotation": null
-        }
+        },
+        "typeArguments": null
       },
-      "typeParameters": null
+      "declare": true
     }
   ],
   "sourceType": "script",

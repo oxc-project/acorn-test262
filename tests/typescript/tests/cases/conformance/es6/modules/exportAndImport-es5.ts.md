@@ -13,16 +13,6 @@ __ESTREE_TEST__:PASS:
         "type": "FunctionDeclaration",
         "start": 15,
         "end": 32,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 29,
-          "end": 32,
-          "body": []
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 24,
@@ -32,9 +22,19 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [],
         "returnType": null,
-        "typeParameters": null
+        "body": {
+          "type": "BlockStatement",
+          "start": 29,
+          "end": 32,
+          "body": []
+        },
+        "expression": false
       },
       "exportKind": "value"
     }
@@ -54,14 +54,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 22,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 15,
-        "end": 21,
-        "raw": "\"./m1\"",
-        "value": "./m1"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -78,8 +70,16 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 15,
+        "end": 21,
+        "value": "./m1",
+        "raw": "\"./m1\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -89,40 +89,6 @@ __ESTREE_TEST__:PASS:
         "type": "FunctionDeclaration",
         "start": 38,
         "end": 65,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 52,
-          "end": 65,
-          "body": [
-            {
-              "type": "ExpressionStatement",
-              "start": 58,
-              "end": 63,
-              "directive": null,
-              "expression": {
-                "type": "CallExpression",
-                "start": 58,
-                "end": 62,
-                "arguments": [],
-                "callee": {
-                  "type": "Identifier",
-                  "start": 58,
-                  "end": 60,
-                  "decorators": [],
-                  "name": "f1",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            }
-          ]
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 47,
@@ -132,9 +98,43 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [],
         "returnType": null,
-        "typeParameters": null
+        "body": {
+          "type": "BlockStatement",
+          "start": 52,
+          "end": 65,
+          "body": [
+            {
+              "type": "ExpressionStatement",
+              "start": 58,
+              "end": 63,
+              "expression": {
+                "type": "CallExpression",
+                "start": 58,
+                "end": 62,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 58,
+                  "end": 60,
+                  "decorators": [],
+                  "name": "f1",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null,
+                "arguments": [],
+                "optional": false
+              },
+              "directive": null
+            }
+          ]
+        },
+        "expression": false
       },
       "exportKind": "value"
     }

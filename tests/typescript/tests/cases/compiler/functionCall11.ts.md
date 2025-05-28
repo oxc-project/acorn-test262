@@ -9,16 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 35,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 33,
-        "end": 35,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -28,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -67,33 +61,22 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 33,
+        "end": 35,
+        "body": []
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
       "start": 37,
       "end": 51,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 37,
         "end": 50,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 41,
-            "end": 46,
-            "raw": "'foo'",
-            "value": "foo"
-          },
-          {
-            "type": "Literal",
-            "start": 48,
-            "end": 49,
-            "raw": "1",
-            "value": 1
-          }
-        ],
         "callee": {
           "type": "Identifier",
           "start": 37,
@@ -103,28 +86,35 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 41,
+            "end": 46,
+            "value": "foo",
+            "raw": "'foo'"
+          },
+          {
+            "type": "Literal",
+            "start": 48,
+            "end": 49,
+            "value": 1,
+            "raw": "1"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 53,
       "end": 64,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 53,
         "end": 63,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 57,
-            "end": 62,
-            "raw": "'foo'",
-            "value": "foo"
-          }
-        ],
         "callee": {
           "type": "Identifier",
           "start": 53,
@@ -134,20 +124,28 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 57,
+            "end": 62,
+            "value": "foo",
+            "raw": "'foo'"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 66,
       "end": 72,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 66,
         "end": 71,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 66,
@@ -157,35 +155,20 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 73,
       "end": 87,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 73,
         "end": 86,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 77,
-            "end": 78,
-            "raw": "1",
-            "value": 1
-          },
-          {
-            "type": "Literal",
-            "start": 80,
-            "end": 85,
-            "raw": "'bar'",
-            "value": "bar"
-          }
-        ],
         "callee": {
           "type": "Identifier",
           "start": 73,
@@ -195,42 +178,35 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 77,
+            "end": 78,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 80,
+            "end": 85,
+            "value": "bar",
+            "raw": "'bar'"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 88,
       "end": 109,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 88,
         "end": 108,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 92,
-            "end": 97,
-            "raw": "'foo'",
-            "value": "foo"
-          },
-          {
-            "type": "Literal",
-            "start": 99,
-            "end": 100,
-            "raw": "1",
-            "value": 1
-          },
-          {
-            "type": "Literal",
-            "start": 102,
-            "end": 107,
-            "raw": "'bar'",
-            "value": "bar"
-          }
-        ],
         "callee": {
           "type": "Identifier",
           "start": 88,
@@ -240,9 +216,33 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 92,
+            "end": 97,
+            "value": "foo",
+            "raw": "'foo'"
+          },
+          {
+            "type": "Literal",
+            "start": 99,
+            "end": 100,
+            "value": 1,
+            "raw": "1"
+          },
+          {
+            "type": "Literal",
+            "start": 102,
+            "end": 107,
+            "value": "bar",
+            "raw": "'bar'"
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

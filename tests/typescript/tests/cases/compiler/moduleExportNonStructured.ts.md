@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 45,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 27,
-        "end": 44,
-        "raw": "\"./exportAny.cjs\"",
-        "value": "./exportAny.cjs"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -33,21 +25,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 27,
+        "end": 44,
+        "value": "./exportAny.cjs",
+        "raw": "\"./exportAny.cjs\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 46,
       "end": 99,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 77,
-        "end": 98,
-        "raw": "\"./exportUnknown.cjs\"",
-        "value": "./exportUnknown.cjs"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -64,21 +56,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 77,
+        "end": 98,
+        "value": "./exportUnknown.cjs",
+        "raw": "\"./exportUnknown.cjs\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 100,
       "end": 151,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 130,
-        "end": 150,
-        "raw": "\"./exportSymbol.cjs\"",
-        "value": "./exportSymbol.cjs"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -95,21 +87,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 130,
+        "end": 150,
+        "value": "./exportSymbol.cjs",
+        "raw": "\"./exportSymbol.cjs\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 153,
       "end": 207,
-      "importKind": "type",
-      "source": {
-        "type": "Literal",
-        "start": 189,
-        "end": 206,
-        "raw": "\"./exportAny.cjs\"",
-        "value": "./exportAny.cjs"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -126,21 +118,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 189,
+        "end": 206,
+        "value": "./exportAny.cjs",
+        "raw": "\"./exportAny.cjs\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "type"
     },
     {
       "type": "ImportDeclaration",
       "start": 208,
       "end": 270,
-      "importKind": "type",
-      "source": {
-        "type": "Literal",
-        "start": 248,
-        "end": 269,
-        "raw": "\"./exportUnknown.cjs\"",
-        "value": "./exportUnknown.cjs"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -157,21 +149,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 248,
+        "end": 269,
+        "value": "./exportUnknown.cjs",
+        "raw": "\"./exportUnknown.cjs\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "type"
     },
     {
       "type": "ImportDeclaration",
       "start": 271,
       "end": 331,
-      "importKind": "type",
-      "source": {
-        "type": "Literal",
-        "start": 310,
-        "end": 330,
-        "raw": "\"./exportSymbol.cjs\"",
-        "value": "./exportSymbol.cjs"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -188,8 +180,16 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 310,
+        "end": 330,
+        "value": "./exportSymbol.cjs",
+        "raw": "\"./exportSymbol.cjs\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "type"
     }
   ],
   "sourceType": "module",
@@ -207,12 +207,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 22,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 14,
           "end": 21,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
@@ -231,11 +231,11 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     },
     {
       "type": "TSExportAssignment",
@@ -267,12 +267,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 26,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 14,
           "end": 25,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
@@ -291,11 +291,11 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     },
     {
       "type": "TSExportAssignment",
@@ -327,12 +327,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 25,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 14,
           "end": 24,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
@@ -351,11 +351,11 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     },
     {
       "type": "TSExportAssignment",

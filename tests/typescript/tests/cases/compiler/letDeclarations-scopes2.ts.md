@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 15,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 14,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,13 +28,13 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 13,
             "end": 14,
-            "raw": "0",
-            "value": 0
-          }
+            "value": 0,
+            "raw": "0"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "BlockStatement",
@@ -45,12 +45,12 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclaration",
           "start": 24,
           "end": 38,
+          "kind": "let",
           "declarations": [
             {
               "type": "VariableDeclarator",
               "start": 28,
               "end": 37,
-              "definite": false,
               "id": {
                 "type": "Identifier",
                 "start": 28,
@@ -64,19 +64,18 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 36,
                 "end": 37,
-                "raw": "0",
-                "value": 0
-              }
+                "value": 0,
+                "raw": "0"
+              },
+              "definite": false
             }
           ],
-          "declare": false,
-          "kind": "let"
+          "declare": false
         },
         {
           "type": "ExpressionStatement",
           "start": 44,
           "end": 50,
-          "directive": null,
           "expression": {
             "type": "Identifier",
             "start": 44,
@@ -85,13 +84,13 @@ __ESTREE_TEST__:PASS:
             "name": "local",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "directive": null
         },
         {
           "type": "ExpressionStatement",
           "start": 62,
           "end": 69,
-          "directive": null,
           "expression": {
             "type": "Identifier",
             "start": 62,
@@ -100,13 +99,13 @@ __ESTREE_TEST__:PASS:
             "name": "global",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "directive": null
         },
         {
           "type": "ExpressionStatement",
           "start": 80,
           "end": 87,
-          "directive": null,
           "expression": {
             "type": "Identifier",
             "start": 80,
@@ -115,7 +114,8 @@ __ESTREE_TEST__:PASS:
             "name": "local2",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "directive": null
         },
         {
           "type": "BlockStatement",
@@ -126,12 +126,12 @@ __ESTREE_TEST__:PASS:
               "type": "VariableDeclaration",
               "start": 112,
               "end": 127,
+              "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 116,
                   "end": 126,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 116,
@@ -145,19 +145,18 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 125,
                     "end": 126,
-                    "raw": "0",
-                    "value": 0
-                  }
+                    "value": 0,
+                    "raw": "0"
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "let"
+              "declare": false
             },
             {
               "type": "ExpressionStatement",
               "start": 137,
               "end": 143,
-              "directive": null,
               "expression": {
                 "type": "Identifier",
                 "start": 137,
@@ -166,13 +165,13 @@ __ESTREE_TEST__:PASS:
                 "name": "local",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "directive": null
             },
             {
               "type": "ExpressionStatement",
               "start": 159,
               "end": 166,
-              "directive": null,
               "expression": {
                 "type": "Identifier",
                 "start": 159,
@@ -181,13 +180,13 @@ __ESTREE_TEST__:PASS:
                 "name": "global",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "directive": null
             },
             {
               "type": "ExpressionStatement",
               "start": 181,
               "end": 188,
-              "directive": null,
               "expression": {
                 "type": "Identifier",
                 "start": 181,
@@ -196,7 +195,8 @@ __ESTREE_TEST__:PASS:
                 "name": "local2",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "directive": null
             }
           ]
         },
@@ -204,7 +204,6 @@ __ESTREE_TEST__:PASS:
           "type": "ExpressionStatement",
           "start": 207,
           "end": 213,
-          "directive": null,
           "expression": {
             "type": "Identifier",
             "start": 207,
@@ -213,13 +212,13 @@ __ESTREE_TEST__:PASS:
             "name": "local",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "directive": null
         },
         {
           "type": "ExpressionStatement",
           "start": 225,
           "end": 232,
-          "directive": null,
           "expression": {
             "type": "Identifier",
             "start": 225,
@@ -228,13 +227,13 @@ __ESTREE_TEST__:PASS:
             "name": "global",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "directive": null
         },
         {
           "type": "ExpressionStatement",
           "start": 243,
           "end": 250,
-          "directive": null,
           "expression": {
             "type": "Identifier",
             "start": 243,
@@ -243,7 +242,8 @@ __ESTREE_TEST__:PASS:
             "name": "local2",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "directive": null
         }
       ]
     },
@@ -251,7 +251,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 263,
       "end": 269,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 263,
@@ -260,13 +259,13 @@ __ESTREE_TEST__:PASS:
         "name": "local",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 280,
       "end": 287,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 280,
@@ -275,13 +274,13 @@ __ESTREE_TEST__:PASS:
         "name": "global",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 294,
       "end": 301,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 294,
@@ -290,7 +289,8 @@ __ESTREE_TEST__:PASS:
         "name": "local2",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

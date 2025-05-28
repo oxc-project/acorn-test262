@@ -9,7 +9,20 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 222,
-      "abstract": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 6,
+        "end": 9,
+        "decorators": [],
+        "name": "Foo",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
       "body": {
         "type": "ClassBody",
         "start": 10,
@@ -19,21 +32,13 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 16,
             "end": 35,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 16,
               "end": 23,
               "name": "unused"
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 23,
@@ -44,27 +49,27 @@ __ESTREE_TEST__:PASS:
                 "end": 34
               }
             },
-            "value": null
+            "value": null,
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
           },
           {
             "type": "PropertyDefinition",
             "start": 63,
             "end": 81,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 63,
               "end": 69,
               "name": "brand"
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 69,
@@ -75,14 +80,20 @@ __ESTREE_TEST__:PASS:
                 "end": 80
               }
             },
-            "value": null
+            "value": null,
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
           },
           {
             "type": "MethodDefinition",
             "start": 106,
             "end": 220,
-            "accessibility": null,
-            "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
@@ -93,52 +104,15 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "FunctionExpression",
               "start": 111,
               "end": 220,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 130,
-                "end": 220,
-                "body": [
-                  {
-                    "type": "ReturnStatement",
-                    "start": 195,
-                    "end": 214,
-                    "argument": {
-                      "type": "BinaryExpression",
-                      "start": 202,
-                      "end": 213,
-                      "operator": "in",
-                      "left": {
-                        "type": "PrivateIdentifier",
-                        "start": 202,
-                        "end": 208,
-                        "name": "brand"
-                      },
-                      "right": {
-                        "type": "Identifier",
-                        "start": 212,
-                        "end": 213,
-                        "decorators": [],
-                        "name": "v",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    }
-                  }
-                ]
-              },
-              "declare": false,
-              "expression": false,
-              "generator": false,
               "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -167,7 +141,6 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypePredicate",
                   "start": 121,
                   "end": 129,
-                  "asserts": false,
                   "parameterName": {
                     "type": "Identifier",
                     "start": 121,
@@ -177,6 +150,7 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
+                  "asserts": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 126,
@@ -185,7 +159,6 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 126,
                       "end": 129,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 126,
@@ -194,31 +167,58 @@ __ESTREE_TEST__:PASS:
                         "name": "Foo",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     }
                   }
                 }
               },
-              "typeParameters": null
-            }
+              "body": {
+                "type": "BlockStatement",
+                "start": 130,
+                "end": 220,
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "start": 195,
+                    "end": 214,
+                    "argument": {
+                      "type": "BinaryExpression",
+                      "start": 202,
+                      "end": 213,
+                      "left": {
+                        "type": "PrivateIdentifier",
+                        "start": 202,
+                        "end": 208,
+                        "name": "brand"
+                      },
+                      "operator": "in",
+                      "right": {
+                        "type": "Identifier",
+                        "start": 212,
+                        "end": 213,
+                        "decorators": [],
+                        "name": "v",
+                        "optional": false,
+                        "typeAnnotation": null
+                      }
+                    }
+                  }
+                ]
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
-      "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 6,
-        "end": 9,
-        "decorators": [],
-        "name": "Foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

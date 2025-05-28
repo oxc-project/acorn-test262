@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 19,
-      "abstract": true,
-      "body": {
-        "type": "ClassBody",
-        "start": 17,
-        "end": 19,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -27,16 +19,23 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 17,
+        "end": 19,
+        "body": []
+      },
+      "abstract": true,
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 21,
       "end": 29,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 21,
@@ -45,20 +44,13 @@ __ESTREE_TEST__:PASS:
         "name": "abstract",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ClassDeclaration",
       "start": 30,
       "end": 40,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 38,
-        "end": 40,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -69,16 +61,23 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 38,
+        "end": 40,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 42,
       "end": 50,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 42,
@@ -87,20 +86,13 @@ __ESTREE_TEST__:PASS:
         "name": "abstract",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ClassDeclaration",
       "start": 52,
       "end": 62,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 60,
-        "end": 62,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -111,21 +103,27 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 60,
+        "end": 62,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 64,
       "end": 70,
-      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 64,
         "end": 69,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 68,
@@ -135,19 +133,19 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": []
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 71,
       "end": 77,
-      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 71,
         "end": 76,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 75,
@@ -157,19 +155,19 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": []
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 78,
       "end": 84,
-      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 78,
         "end": 83,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 82,
@@ -179,8 +177,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": []
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

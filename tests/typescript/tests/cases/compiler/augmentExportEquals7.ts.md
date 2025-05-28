@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 28,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 12,
           "end": 27,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
@@ -30,6 +30,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSFunctionType",
                 "start": 17,
                 "end": 27,
+                "typeParameters": null,
                 "params": [],
                 "returnType": {
                   "type": "TSTypeAnnotation",
@@ -40,29 +41,20 @@ __ESTREE_TEST__:PASS:
                     "start": 23,
                     "end": 27
                   }
-                },
-                "typeParameters": null
+                }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "TSModuleDeclaration",
       "start": 29,
       "end": 53,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 51,
-        "end": 53,
-        "body": []
-      },
-      "declare": true,
-      "global": false,
       "id": {
         "type": "Identifier",
         "start": 47,
@@ -72,7 +64,15 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "namespace"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 51,
+        "end": 53,
+        "body": []
+      },
+      "kind": "namespace",
+      "declare": true,
+      "global": false
     },
     {
       "type": "TSExportAssignment",
@@ -104,14 +104,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 27,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 21,
-        "end": 26,
-        "raw": "\"lib\"",
-        "value": "lib"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -128,14 +120,28 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 21,
+        "end": 26,
+        "value": "lib",
+        "raw": "\"lib\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "TSModuleDeclaration",
       "start": 28,
       "end": 84,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 43,
+        "end": 48,
+        "value": "lib",
+        "raw": "\"lib\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 49,
@@ -145,16 +151,10 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 55,
             "end": 82,
-            "attributes": [],
             "declaration": {
               "type": "TSDeclareFunction",
               "start": 62,
               "end": 82,
-              "async": false,
-              "body": null,
-              "declare": false,
-              "expression": false,
-              "generator": false,
               "id": {
                 "type": "Identifier",
                 "start": 71,
@@ -164,6 +164,10 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
               "params": [],
               "returnType": {
                 "type": "TSTypeAnnotation",
@@ -175,23 +179,19 @@ __ESTREE_TEST__:PASS:
                   "end": 81
                 }
               },
-              "typeParameters": null
+              "body": null,
+              "expression": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 43,
-        "end": 48,
-        "raw": "\"lib\"",
-        "value": "lib"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",

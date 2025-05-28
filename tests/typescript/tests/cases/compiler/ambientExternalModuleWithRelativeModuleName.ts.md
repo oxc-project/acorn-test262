@@ -9,7 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 56,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 33,
+        "value": "./relativeModule",
+        "raw": "\"./relativeModule\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 34,
@@ -19,12 +25,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 40,
             "end": 54,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 44,
                 "end": 53,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 44,
@@ -43,29 +49,29 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 33,
-        "raw": "\"./relativeModule\"",
-        "value": "./relativeModule"
-      }
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 58,
       "end": 115,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 73,
+        "end": 92,
+        "value": ".\\relativeModule",
+        "raw": "\".\\\\relativeModule\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 93,
@@ -75,12 +81,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 99,
             "end": 113,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 103,
                 "end": 112,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 103,
@@ -99,23 +105,17 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 73,
-        "end": 92,
-        "raw": "\".\\\\relativeModule\"",
-        "value": ".\\relativeModule"
-      }
+      "global": false
     }
   ],
   "sourceType": "script",

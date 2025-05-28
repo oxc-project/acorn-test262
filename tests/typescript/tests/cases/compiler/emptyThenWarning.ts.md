@@ -9,30 +9,30 @@ __ESTREE_TEST__:PASS:
       "type": "IfStatement",
       "start": 0,
       "end": 6,
-      "alternate": null,
+      "test": {
+        "type": "Literal",
+        "start": 3,
+        "end": 4,
+        "value": 1,
+        "raw": "1"
+      },
       "consequent": {
         "type": "EmptyStatement",
         "start": 5,
         "end": 6
       },
-      "test": {
-        "type": "Literal",
-        "start": 3,
-        "end": 4,
-        "raw": "1",
-        "value": 1
-      }
+      "alternate": null
     },
     {
       "type": "VariableDeclaration",
       "start": 8,
       "end": 18,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 12,
           "end": 17,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
@@ -46,44 +46,44 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 16,
             "end": 17,
-            "raw": "0",
-            "value": 0
-          }
+            "value": 0,
+            "raw": "0"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 19,
       "end": 38,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 23,
+        "end": 36,
+        "left": {
+          "type": "Literal",
+          "start": 23,
+          "end": 27,
+          "value": true,
+          "raw": "true"
+        },
+        "operator": "===",
+        "right": {
+          "type": "Literal",
+          "start": 32,
+          "end": 36,
+          "value": true,
+          "raw": "true"
+        }
+      },
       "consequent": {
         "type": "EmptyStatement",
         "start": 37,
         "end": 38
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 23,
-        "end": 36,
-        "operator": "===",
-        "left": {
-          "type": "Literal",
-          "start": 23,
-          "end": 27,
-          "raw": "true",
-          "value": true
-        },
-        "right": {
-          "type": "Literal",
-          "start": 32,
-          "end": 36,
-          "raw": "true",
-          "value": true
-        }
-      }
+      "alternate": null
     },
     {
       "type": "BlockStatement",
@@ -94,7 +94,6 @@ __ESTREE_TEST__:PASS:
           "type": "ExpressionStatement",
           "start": 47,
           "end": 53,
-          "directive": null,
           "expression": {
             "type": "AssignmentExpression",
             "start": 47,
@@ -113,10 +112,11 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 51,
               "end": 52,
-              "raw": "1",
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
-          }
+          },
+          "directive": null
         }
       ]
     }

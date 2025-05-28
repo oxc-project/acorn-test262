@@ -9,59 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 46,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 15,
-        "end": 46,
-        "body": [
-          {
-            "type": "TSInterfaceDeclaration",
-            "start": 21,
-            "end": 44,
-            "body": {
-              "type": "TSInterfaceBody",
-              "start": 41,
-              "end": 44,
-              "body": [
-                {
-                  "type": "TSPropertySignature",
-                  "start": 42,
-                  "end": 43,
-                  "accessibility": null,
-                  "computed": false,
-                  "key": {
-                    "type": "Identifier",
-                    "start": 42,
-                    "end": 43,
-                    "decorators": [],
-                    "name": "x",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "readonly": false,
-                  "static": false,
-                  "typeAnnotation": null
-                }
-              ]
-            },
-            "declare": false,
-            "extends": [],
-            "id": {
-              "type": "Identifier",
-              "start": 31,
-              "end": 40,
-              "decorators": [],
-              "name": "Something",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeParameters": null
-          }
-        ]
-      },
-      "declare": true,
-      "global": true,
       "id": {
         "type": "Identifier",
         "start": 8,
@@ -71,17 +18,70 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "global"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 15,
+        "end": 46,
+        "body": [
+          {
+            "type": "TSInterfaceDeclaration",
+            "start": 21,
+            "end": 44,
+            "id": {
+              "type": "Identifier",
+              "start": 31,
+              "end": 40,
+              "decorators": [],
+              "name": "Something",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null,
+            "extends": [],
+            "body": {
+              "type": "TSInterfaceBody",
+              "start": 41,
+              "end": 44,
+              "body": [
+                {
+                  "type": "TSPropertySignature",
+                  "start": 42,
+                  "end": 43,
+                  "computed": false,
+                  "optional": false,
+                  "readonly": false,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 42,
+                    "end": 43,
+                    "decorators": [],
+                    "name": "x",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeAnnotation": null,
+                  "accessibility": null,
+                  "static": false
+                }
+              ]
+            },
+            "declare": false
+          }
+        ]
+      },
+      "kind": "global",
+      "declare": true,
+      "global": true
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 47,
       "end": 57,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -99,59 +99,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 46,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 15,
-        "end": 46,
-        "body": [
-          {
-            "type": "TSInterfaceDeclaration",
-            "start": 21,
-            "end": 44,
-            "body": {
-              "type": "TSInterfaceBody",
-              "start": 41,
-              "end": 44,
-              "body": [
-                {
-                  "type": "TSPropertySignature",
-                  "start": 42,
-                  "end": 43,
-                  "accessibility": null,
-                  "computed": false,
-                  "key": {
-                    "type": "Identifier",
-                    "start": 42,
-                    "end": 43,
-                    "decorators": [],
-                    "name": "y",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "readonly": false,
-                  "static": false,
-                  "typeAnnotation": null
-                }
-              ]
-            },
-            "declare": false,
-            "extends": [],
-            "id": {
-              "type": "Identifier",
-              "start": 31,
-              "end": 40,
-              "decorators": [],
-              "name": "Something",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeParameters": null
-          }
-        ]
-      },
-      "declare": true,
-      "global": true,
       "id": {
         "type": "Identifier",
         "start": 8,
@@ -161,17 +108,70 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "global"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 15,
+        "end": 46,
+        "body": [
+          {
+            "type": "TSInterfaceDeclaration",
+            "start": 21,
+            "end": 44,
+            "id": {
+              "type": "Identifier",
+              "start": 31,
+              "end": 40,
+              "decorators": [],
+              "name": "Something",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null,
+            "extends": [],
+            "body": {
+              "type": "TSInterfaceBody",
+              "start": 41,
+              "end": 44,
+              "body": [
+                {
+                  "type": "TSPropertySignature",
+                  "start": 42,
+                  "end": 43,
+                  "computed": false,
+                  "optional": false,
+                  "readonly": false,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 42,
+                    "end": 43,
+                    "decorators": [],
+                    "name": "y",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeAnnotation": null,
+                  "accessibility": null,
+                  "static": false
+                }
+              ]
+            },
+            "declare": false
+          }
+        ]
+      },
+      "kind": "global",
+      "declare": true,
+      "global": true
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 47,
       "end": 57,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -189,33 +189,33 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 14,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 7,
         "end": 13,
-        "raw": "\"./f1\"",
-        "value": "./f1"
+        "value": "./f1",
+        "raw": "\"./f1\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 15,
       "end": 29,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 22,
         "end": 28,
-        "raw": "\"./f2\"",
-        "value": "./f2"
+        "value": "./f2",
+        "raw": "\"./f2\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

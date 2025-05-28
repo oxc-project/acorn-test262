@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 15,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 12,
-        "end": 15,
-        "body": []
-      },
-      "declare": false,
-      "extends": [],
       "id": {
         "type": "Identifier",
         "start": 10,
@@ -26,20 +18,20 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "typeParameters": null
+      "typeParameters": null,
+      "extends": [],
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 12,
+        "end": 15,
+        "body": []
+      },
+      "declare": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 16,
       "end": 30,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 28,
-        "end": 30,
-        "body": []
-      },
-      "declare": false,
-      "global": false,
       "id": {
         "type": "Identifier",
         "start": 26,
@@ -49,7 +41,15 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "namespace"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 28,
+        "end": 30,
+        "body": []
+      },
+      "kind": "namespace",
+      "declare": false,
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -67,7 +67,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSTypeAliasDeclaration",
       "start": 0,
       "end": 11,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 5,
@@ -77,13 +76,14 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTypeLiteral",
         "start": 9,
         "end": 11,
         "members": []
       },
-      "typeParameters": null
+      "declare": false
     }
   ],
   "sourceType": "module",

@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 26,
       "end": 97,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 30,
           "end": 96,
-          "definite": false,
           "id": {
             "type": "ArrayPattern",
             "start": 30,
@@ -70,42 +70,41 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 63,
                 "end": 70,
-                "raw": "\"Hello\"",
-                "value": "Hello"
+                "value": "Hello",
+                "raw": "\"Hello\""
               },
               {
                 "type": "Literal",
                 "start": 72,
                 "end": 79,
-                "raw": "\"Brave\"",
-                "value": "Brave"
+                "value": "Brave",
+                "raw": "\"Brave\""
               },
               {
                 "type": "Literal",
                 "start": 81,
                 "end": 86,
-                "raw": "\"New\"",
-                "value": "New"
+                "value": "New",
+                "raw": "\"New\""
               },
               {
                 "type": "Literal",
                 "start": 88,
                 "end": 95,
-                "raw": "\"World\"",
-                "value": "World"
+                "value": "World",
+                "raw": "\"World\""
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 99,
       "end": 136,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 104,
@@ -115,6 +114,7 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSUnionType",
         "start": 118,
@@ -128,8 +128,8 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 118,
               "end": 125,
-              "raw": "\"t-rex\"",
-              "value": "t-rex"
+              "value": "t-rex",
+              "raw": "\"t-rex\""
             }
           },
           {
@@ -140,24 +140,24 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 128,
               "end": 136,
-              "raw": "\"raptor\"",
-              "value": "raptor"
+              "value": "raptor",
+              "raw": "\"raptor\""
             }
           }
         ]
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 137,
       "end": 211,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 141,
           "end": 210,
-          "definite": false,
           "id": {
             "type": "ArrayPattern",
             "start": 141,
@@ -210,8 +210,8 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 161,
                       "end": 166,
-                      "raw": "\"I'm\"",
-                      "value": "I'm"
+                      "value": "I'm",
+                      "raw": "\"I'm\""
                     }
                   },
                   {
@@ -222,15 +222,14 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 168,
                       "end": 171,
-                      "raw": "\"a\"",
-                      "value": "a"
+                      "value": "a",
+                      "raw": "\"a\""
                     }
                   },
                   {
                     "type": "TSTypeReference",
                     "start": 173,
                     "end": 184,
-                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 173,
@@ -239,7 +238,8 @@ __ESTREE_TEST__:PASS:
                       "name": "RexOrRaptor",
                       "optional": false,
                       "typeAnnotation": null
-                    }
+                    },
+                    "typeArguments": null
                   }
                 ]
               }
@@ -254,39 +254,48 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 189,
                 "end": 195,
-                "raw": "'I\\'m'",
-                "value": "I'm"
+                "value": "I'm",
+                "raw": "'I\\'m'"
               },
               {
                 "type": "Literal",
                 "start": 197,
                 "end": 200,
-                "raw": "'a'",
-                "value": "a"
+                "value": "a",
+                "raw": "'a'"
               },
               {
                 "type": "Literal",
                 "start": 202,
                 "end": 209,
-                "raw": "'t-rex'",
-                "value": "t-rex"
+                "value": "t-rex",
+                "raw": "'t-rex'"
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 213,
       "end": 228,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 213,
         "end": 227,
+        "callee": {
+          "type": "Identifier",
+          "start": 213,
+          "end": 217,
+          "decorators": [],
+          "name": "rawr",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null,
         "arguments": [
           {
             "type": "Identifier",
@@ -298,155 +307,14 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         ],
-        "callee": {
-          "type": "Identifier",
-          "start": 213,
-          "end": 217,
-          "decorators": [],
-          "name": "rawr",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "optional": false,
-        "typeArguments": null
-      }
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "FunctionDeclaration",
       "start": 230,
       "end": 422,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 263,
-        "end": 422,
-        "body": [
-          {
-            "type": "IfStatement",
-            "start": 269,
-            "end": 325,
-            "alternate": null,
-            "consequent": {
-              "type": "BlockStatement",
-              "start": 291,
-              "end": 325,
-              "body": [
-                {
-                  "type": "ReturnStatement",
-                  "start": 301,
-                  "end": 319,
-                  "argument": {
-                    "type": "Literal",
-                    "start": 308,
-                    "end": 318,
-                    "raw": "\"ROAAAAR!\"",
-                    "value": "ROAAAAR!"
-                  }
-                }
-              ]
-            },
-            "test": {
-              "type": "BinaryExpression",
-              "start": 273,
-              "end": 289,
-              "operator": "===",
-              "left": {
-                "type": "Identifier",
-                "start": 273,
-                "end": 277,
-                "decorators": [],
-                "name": "dino",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "right": {
-                "type": "Literal",
-                "start": 282,
-                "end": 289,
-                "raw": "\"t-rex\"",
-                "value": "t-rex"
-              }
-            }
-          },
-          {
-            "type": "IfStatement",
-            "start": 330,
-            "end": 387,
-            "alternate": null,
-            "consequent": {
-              "type": "BlockStatement",
-              "start": 353,
-              "end": 387,
-              "body": [
-                {
-                  "type": "ReturnStatement",
-                  "start": 363,
-                  "end": 381,
-                  "argument": {
-                    "type": "Literal",
-                    "start": 370,
-                    "end": 380,
-                    "raw": "\"yip yip!\"",
-                    "value": "yip yip!"
-                  }
-                }
-              ]
-            },
-            "test": {
-              "type": "BinaryExpression",
-              "start": 334,
-              "end": 351,
-              "operator": "===",
-              "left": {
-                "type": "Identifier",
-                "start": 334,
-                "end": 338,
-                "decorators": [],
-                "name": "dino",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "right": {
-                "type": "Literal",
-                "start": 343,
-                "end": 351,
-                "raw": "\"raptor\"",
-                "value": "raptor"
-              }
-            }
-          },
-          {
-            "type": "ThrowStatement",
-            "start": 393,
-            "end": 420,
-            "argument": {
-              "type": "BinaryExpression",
-              "start": 399,
-              "end": 419,
-              "operator": "+",
-              "left": {
-                "type": "Literal",
-                "start": 399,
-                "end": 412,
-                "raw": "\"Unexpected \"",
-                "value": "Unexpected "
-              },
-              "right": {
-                "type": "Identifier",
-                "start": 415,
-                "end": 419,
-                "decorators": [],
-                "name": "dino",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 239,
@@ -456,6 +324,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -472,7 +344,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 250,
               "end": 261,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 250,
@@ -481,13 +352,142 @@ __ESTREE_TEST__:PASS:
                 "name": "RexOrRaptor",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "typeArguments": null
             }
           }
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 263,
+        "end": 422,
+        "body": [
+          {
+            "type": "IfStatement",
+            "start": 269,
+            "end": 325,
+            "test": {
+              "type": "BinaryExpression",
+              "start": 273,
+              "end": 289,
+              "left": {
+                "type": "Identifier",
+                "start": 273,
+                "end": 277,
+                "decorators": [],
+                "name": "dino",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "operator": "===",
+              "right": {
+                "type": "Literal",
+                "start": 282,
+                "end": 289,
+                "value": "t-rex",
+                "raw": "\"t-rex\""
+              }
+            },
+            "consequent": {
+              "type": "BlockStatement",
+              "start": 291,
+              "end": 325,
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 301,
+                  "end": 319,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 308,
+                    "end": 318,
+                    "value": "ROAAAAR!",
+                    "raw": "\"ROAAAAR!\""
+                  }
+                }
+              ]
+            },
+            "alternate": null
+          },
+          {
+            "type": "IfStatement",
+            "start": 330,
+            "end": 387,
+            "test": {
+              "type": "BinaryExpression",
+              "start": 334,
+              "end": 351,
+              "left": {
+                "type": "Identifier",
+                "start": 334,
+                "end": 338,
+                "decorators": [],
+                "name": "dino",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "operator": "===",
+              "right": {
+                "type": "Literal",
+                "start": 343,
+                "end": 351,
+                "value": "raptor",
+                "raw": "\"raptor\""
+              }
+            },
+            "consequent": {
+              "type": "BlockStatement",
+              "start": 353,
+              "end": 387,
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 363,
+                  "end": 381,
+                  "argument": {
+                    "type": "Literal",
+                    "start": 370,
+                    "end": 380,
+                    "value": "yip yip!",
+                    "raw": "\"yip yip!\""
+                  }
+                }
+              ]
+            },
+            "alternate": null
+          },
+          {
+            "type": "ThrowStatement",
+            "start": 393,
+            "end": 420,
+            "argument": {
+              "type": "BinaryExpression",
+              "start": 399,
+              "end": 419,
+              "left": {
+                "type": "Literal",
+                "start": 399,
+                "end": 412,
+                "value": "Unexpected ",
+                "raw": "\"Unexpected \""
+              },
+              "operator": "+",
+              "right": {
+                "type": "Identifier",
+                "start": 415,
+                "end": 419,
+                "decorators": [],
+                "name": "dino",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            }
+          }
+        ]
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

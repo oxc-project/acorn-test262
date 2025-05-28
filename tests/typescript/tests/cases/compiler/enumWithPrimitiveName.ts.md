@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSEnumDeclaration",
       "start": 0,
       "end": 15,
-      "body": {
-        "type": "TSEnumBody",
-        "start": 12,
-        "end": 15,
-        "members": []
-      },
-      "const": false,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 5,
@@ -25,20 +17,20 @@ __ESTREE_TEST__:PASS:
         "name": "string",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "body": {
+        "type": "TSEnumBody",
+        "start": 12,
+        "end": 15,
+        "members": []
+      },
+      "const": false,
+      "declare": false
     },
     {
       "type": "TSEnumDeclaration",
       "start": 16,
       "end": 31,
-      "body": {
-        "type": "TSEnumBody",
-        "start": 28,
-        "end": 31,
-        "members": []
-      },
-      "const": false,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 21,
@@ -47,20 +39,20 @@ __ESTREE_TEST__:PASS:
         "name": "number",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "body": {
+        "type": "TSEnumBody",
+        "start": 28,
+        "end": 31,
+        "members": []
+      },
+      "const": false,
+      "declare": false
     },
     {
       "type": "TSEnumDeclaration",
       "start": 32,
       "end": 44,
-      "body": {
-        "type": "TSEnumBody",
-        "start": 41,
-        "end": 44,
-        "members": []
-      },
-      "const": false,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 37,
@@ -69,7 +61,15 @@ __ESTREE_TEST__:PASS:
         "name": "any",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "body": {
+        "type": "TSEnumBody",
+        "start": 41,
+        "end": 44,
+        "members": []
+      },
+      "const": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

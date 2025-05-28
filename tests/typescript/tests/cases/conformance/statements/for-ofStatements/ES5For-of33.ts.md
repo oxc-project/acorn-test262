@@ -10,6 +10,59 @@ __ESTREE_TEST__:PASS:
       "start": 0,
       "end": 54,
       "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 5,
+        "end": 10,
+        "kind": "var",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 9,
+            "end": 10,
+            "id": {
+              "type": "Identifier",
+              "start": 9,
+              "end": 10,
+              "decorators": [],
+              "name": "v",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "init": null,
+            "definite": false
+          }
+        ],
+        "declare": false
+      },
+      "right": {
+        "type": "ArrayExpression",
+        "start": 14,
+        "end": 29,
+        "elements": [
+          {
+            "type": "Literal",
+            "start": 15,
+            "end": 18,
+            "value": "a",
+            "raw": "'a'"
+          },
+          {
+            "type": "Literal",
+            "start": 20,
+            "end": 23,
+            "value": "b",
+            "raw": "'b'"
+          },
+          {
+            "type": "Literal",
+            "start": 25,
+            "end": 28,
+            "value": "c",
+            "raw": "'c'"
+          }
+        ]
+      },
       "body": {
         "type": "BlockStatement",
         "start": 31,
@@ -19,11 +72,36 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 37,
             "end": 52,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 37,
               "end": 51,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 37,
+                "end": 48,
+                "object": {
+                  "type": "Identifier",
+                  "start": 37,
+                  "end": 44,
+                  "decorators": [],
+                  "name": "console",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 45,
+                  "end": 48,
+                  "decorators": [],
+                  "name": "log",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "optional": false,
+                "computed": false
+              },
+              "typeArguments": null,
               "arguments": [
                 {
                   "type": "Identifier",
@@ -35,87 +113,9 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               ],
-              "callee": {
-                "type": "MemberExpression",
-                "start": 37,
-                "end": 48,
-                "computed": false,
-                "object": {
-                  "type": "Identifier",
-                  "start": 37,
-                  "end": 44,
-                  "decorators": [],
-                  "name": "console",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Identifier",
-                  "start": 45,
-                  "end": 48,
-                  "decorators": [],
-                  "name": "log",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              },
-              "optional": false,
-              "typeArguments": null
-            }
-          }
-        ]
-      },
-      "left": {
-        "type": "VariableDeclaration",
-        "start": 5,
-        "end": 10,
-        "declarations": [
-          {
-            "type": "VariableDeclarator",
-            "start": 9,
-            "end": 10,
-            "definite": false,
-            "id": {
-              "type": "Identifier",
-              "start": 9,
-              "end": 10,
-              "decorators": [],
-              "name": "v",
-              "optional": false,
-              "typeAnnotation": null
+              "optional": false
             },
-            "init": null
-          }
-        ],
-        "declare": false,
-        "kind": "var"
-      },
-      "right": {
-        "type": "ArrayExpression",
-        "start": 14,
-        "end": 29,
-        "elements": [
-          {
-            "type": "Literal",
-            "start": 15,
-            "end": 18,
-            "raw": "'a'",
-            "value": "a"
-          },
-          {
-            "type": "Literal",
-            "start": 20,
-            "end": 23,
-            "raw": "'b'",
-            "value": "b"
-          },
-          {
-            "type": "Literal",
-            "start": 25,
-            "end": 28,
-            "raw": "'c'",
-            "value": "c"
+            "directive": null
           }
         ]
       }

@@ -9,7 +9,20 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 130,
-      "abstract": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 6,
+        "end": 13,
+        "decorators": [],
+        "name": "greeter",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
       "body": {
         "type": "ClassBody",
         "start": 14,
@@ -19,8 +32,6 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 20,
             "end": 128,
-            "accessibility": null,
-            "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
@@ -31,69 +42,15 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "constructor",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "FunctionExpression",
               "start": 31,
               "end": 128,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 80,
-                "end": 128,
-                "body": [
-                  {
-                    "type": "ExpressionStatement",
-                    "start": 90,
-                    "end": 122,
-                    "directive": null,
-                    "expression": {
-                      "type": "AssignmentExpression",
-                      "start": 90,
-                      "end": 121,
-                      "operator": "=",
-                      "left": {
-                        "type": "Identifier",
-                        "start": 90,
-                        "end": 96,
-                        "decorators": [],
-                        "name": "param2",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "right": {
-                        "type": "BinaryExpression",
-                        "start": 99,
-                        "end": 121,
-                        "operator": "+",
-                        "left": {
-                          "type": "Identifier",
-                          "start": 99,
-                          "end": 105,
-                          "decorators": [],
-                          "name": "param2",
-                          "optional": false,
-                          "typeAnnotation": null
-                        },
-                        "right": {
-                          "type": "Literal",
-                          "start": 108,
-                          "end": 121,
-                          "raw": "\"dummy value\"",
-                          "value": "dummy value"
-                        }
-                      }
-                    }
-                  }
-                ]
-              },
-              "declare": false,
-              "expression": false,
-              "generator": false,
               "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -151,26 +108,69 @@ __ESTREE_TEST__:PASS:
                 }
               ],
               "returnType": null,
-              "typeParameters": null
-            }
+              "body": {
+                "type": "BlockStatement",
+                "start": 80,
+                "end": 128,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 90,
+                    "end": 122,
+                    "expression": {
+                      "type": "AssignmentExpression",
+                      "start": 90,
+                      "end": 121,
+                      "operator": "=",
+                      "left": {
+                        "type": "Identifier",
+                        "start": 90,
+                        "end": 96,
+                        "decorators": [],
+                        "name": "param2",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "right": {
+                        "type": "BinaryExpression",
+                        "start": 99,
+                        "end": 121,
+                        "left": {
+                          "type": "Identifier",
+                          "start": 99,
+                          "end": 105,
+                          "decorators": [],
+                          "name": "param2",
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
+                        "operator": "+",
+                        "right": {
+                          "type": "Literal",
+                          "start": 108,
+                          "end": 121,
+                          "value": "dummy value",
+                          "raw": "\"dummy value\""
+                        }
+                      }
+                    },
+                    "directive": null
+                  }
+                ]
+              },
+              "expression": false
+            },
+            "kind": "constructor",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
-      "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 6,
-        "end": 13,
-        "decorators": [],
-        "name": "greeter",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

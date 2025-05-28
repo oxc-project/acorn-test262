@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSEnumDeclaration",
       "start": 0,
       "end": 28,
+      "id": {
+        "type": "Identifier",
+        "start": 11,
+        "end": 12,
+        "decorators": [],
+        "name": "E",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSEnumBody",
         "start": 13,
@@ -18,7 +27,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 19,
             "end": 26,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 19,
@@ -32,23 +40,15 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 23,
               "end": 26,
-              "raw": "100",
-              "value": 100
-            }
+              "value": 100,
+              "raw": "100"
+            },
+            "computed": false
           }
         ]
       },
       "const": true,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 11,
-        "end": 12,
-        "decorators": [],
-        "name": "E",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      "declare": false
     },
     {
       "type": "TSExportAssignment",
@@ -89,7 +89,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 11,
@@ -98,21 +97,22 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 19,
           "end": 23,
-          "raw": "'m1'",
-          "value": "m1"
+          "value": "m1",
+          "raw": "'m1'"
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 25,
       "end": 37,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 29,
           "end": 36,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 29,
@@ -126,7 +126,6 @@ __ESTREE_TEST__:PASS:
             "type": "MemberExpression",
             "start": 33,
             "end": 36,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 33,
@@ -136,7 +135,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 35,
@@ -145,12 +143,14 @@ __ESTREE_TEST__:PASS:
               "name": "V",
               "optional": false,
               "typeAnnotation": null
-            }
-          }
+            },
+            "optional": false,
+            "computed": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "module",

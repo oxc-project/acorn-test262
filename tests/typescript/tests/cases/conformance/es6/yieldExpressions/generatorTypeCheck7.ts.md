@@ -9,43 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 75,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 53,
-        "end": 75,
-        "body": [
-          {
-            "type": "TSPropertySignature",
-            "start": 59,
-            "end": 73,
-            "accessibility": null,
-            "computed": false,
-            "key": {
-              "type": "Identifier",
-              "start": 59,
-              "end": 64,
-              "decorators": [],
-              "name": "hello",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 64,
-              "end": 72,
-              "typeAnnotation": {
-                "type": "TSStringKeyword",
-                "start": 66,
-                "end": 72
-              }
-            }
-          }
-        ]
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 19,
+        "decorators": [],
+        "name": "WeirdIter",
+        "optional": false,
+        "typeAnnotation": null
       },
-      "declare": false,
+      "typeParameters": null,
       "extends": [
         {
           "type": "TSInterfaceHeritage",
@@ -74,31 +47,48 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 19,
-        "decorators": [],
-        "name": "WeirdIter",
-        "optional": false,
-        "typeAnnotation": null
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 53,
+        "end": 75,
+        "body": [
+          {
+            "type": "TSPropertySignature",
+            "start": 59,
+            "end": 73,
+            "computed": false,
+            "optional": false,
+            "readonly": false,
+            "key": {
+              "type": "Identifier",
+              "start": 59,
+              "end": 64,
+              "decorators": [],
+              "name": "hello",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 64,
+              "end": 72,
+              "typeAnnotation": {
+                "type": "TSStringKeyword",
+                "start": 66,
+                "end": 72
+              }
+            },
+            "accessibility": null,
+            "static": false
+          }
+        ]
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 76,
       "end": 105,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 102,
-        "end": 105,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": true,
       "id": {
         "type": "Identifier",
         "start": 86,
@@ -108,6 +98,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": true,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
@@ -117,7 +111,6 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 92,
           "end": 101,
-          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 92,
@@ -126,10 +119,17 @@ __ESTREE_TEST__:PASS:
             "name": "WeirdIter",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "typeArguments": null
         }
       },
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 102,
+        "end": 105,
+        "body": []
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

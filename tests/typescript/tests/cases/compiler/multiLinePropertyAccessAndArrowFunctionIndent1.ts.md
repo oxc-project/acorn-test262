@@ -13,50 +13,185 @@ __ESTREE_TEST__:PASS:
         "type": "CallExpression",
         "start": 7,
         "end": 157,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 7,
+          "end": 32,
+          "object": {
+            "type": "CallExpression",
+            "start": 7,
+            "end": 22,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 7,
+              "end": 16,
+              "object": {
+                "type": "ThisExpression",
+                "start": 7,
+                "end": 11
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 12,
+                "end": 16,
+                "decorators": [],
+                "name": "edit",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "optional": false,
+              "computed": false
+            },
+            "typeArguments": null,
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 17,
+                "end": 21,
+                "decorators": [],
+                "name": "role",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            ],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 28,
+            "end": 32,
+            "decorators": [],
+            "name": "then",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "computed": false
+        },
+        "typeArguments": null,
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 33,
             "end": 156,
+            "expression": true,
             "async": false,
+            "typeParameters": null,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 34,
+                "end": 44,
+                "decorators": [],
+                "name": "role",
+                "optional": false,
+                "typeAnnotation": {
+                  "type": "TSTypeAnnotation",
+                  "start": 38,
+                  "end": 44,
+                  "typeAnnotation": {
+                    "type": "TSTypeReference",
+                    "start": 40,
+                    "end": 44,
+                    "typeName": {
+                      "type": "Identifier",
+                      "start": 40,
+                      "end": 44,
+                      "decorators": [],
+                      "name": "Role",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeArguments": null
+                  }
+                }
+              }
+            ],
+            "returnType": null,
             "body": {
               "type": "CallExpression",
               "start": 57,
               "end": 156,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 57,
+                "end": 101,
+                "object": {
+                  "type": "CallExpression",
+                  "start": 57,
+                  "end": 83,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 57,
+                    "end": 77,
+                    "object": {
+                      "type": "MemberExpression",
+                      "start": 57,
+                      "end": 73,
+                      "object": {
+                        "type": "ThisExpression",
+                        "start": 57,
+                        "end": 61
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 62,
+                        "end": 73,
+                        "decorators": [],
+                        "name": "roleService",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "optional": false,
+                      "computed": false
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 74,
+                      "end": 77,
+                      "decorators": [],
+                      "name": "add",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "optional": false,
+                    "computed": false
+                  },
+                  "typeArguments": null,
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "start": 78,
+                      "end": 82,
+                      "decorators": [],
+                      "name": "role",
+                      "optional": false,
+                      "typeAnnotation": null
+                    }
+                  ],
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 97,
+                  "end": 101,
+                  "decorators": [],
+                  "name": "then",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "optional": false,
+                "computed": false
+              },
+              "typeArguments": null,
               "arguments": [
                 {
                   "type": "ArrowFunctionExpression",
                   "start": 102,
                   "end": 155,
-                  "async": false,
-                  "body": {
-                    "type": "MemberExpression",
-                    "start": 146,
-                    "end": 155,
-                    "computed": false,
-                    "object": {
-                      "type": "Identifier",
-                      "start": 146,
-                      "end": 150,
-                      "decorators": [],
-                      "name": "data",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "optional": false,
-                    "property": {
-                      "type": "Identifier",
-                      "start": 151,
-                      "end": 155,
-                      "decorators": [],
-                      "name": "data",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  },
                   "expression": true,
-                  "generator": false,
-                  "id": null,
+                  "async": false,
+                  "typeParameters": null,
                   "params": [
                     {
                       "type": "Identifier",
@@ -73,28 +208,6 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 109,
                           "end": 141,
-                          "typeArguments": {
-                            "type": "TSTypeParameterInstantiation",
-                            "start": 135,
-                            "end": 141,
-                            "params": [
-                              {
-                                "type": "TSTypeReference",
-                                "start": 136,
-                                "end": 140,
-                                "typeArguments": null,
-                                "typeName": {
-                                  "type": "Identifier",
-                                  "start": 136,
-                                  "end": 140,
-                                  "decorators": [],
-                                  "name": "Role",
-                                  "optional": false,
-                                  "typeAnnotation": null
-                                }
-                              }
-                            ]
-                          },
                           "typeName": {
                             "type": "TSQualifiedName",
                             "start": 109,
@@ -117,183 +230,70 @@ __ESTREE_TEST__:PASS:
                               "optional": false,
                               "typeAnnotation": null
                             }
+                          },
+                          "typeArguments": {
+                            "type": "TSTypeParameterInstantiation",
+                            "start": 135,
+                            "end": 141,
+                            "params": [
+                              {
+                                "type": "TSTypeReference",
+                                "start": 136,
+                                "end": 140,
+                                "typeName": {
+                                  "type": "Identifier",
+                                  "start": 136,
+                                  "end": 140,
+                                  "decorators": [],
+                                  "name": "Role",
+                                  "optional": false,
+                                  "typeAnnotation": null
+                                },
+                                "typeArguments": null
+                              }
+                            ]
                           }
                         }
                       }
                     }
                   ],
                   "returnType": null,
-                  "typeParameters": null
-                }
-              ],
-              "callee": {
-                "type": "MemberExpression",
-                "start": 57,
-                "end": 101,
-                "computed": false,
-                "object": {
-                  "type": "CallExpression",
-                  "start": 57,
-                  "end": 83,
-                  "arguments": [
-                    {
+                  "body": {
+                    "type": "MemberExpression",
+                    "start": 146,
+                    "end": 155,
+                    "object": {
                       "type": "Identifier",
-                      "start": 78,
-                      "end": 82,
+                      "start": 146,
+                      "end": 150,
                       "decorators": [],
-                      "name": "role",
+                      "name": "data",
                       "optional": false,
                       "typeAnnotation": null
-                    }
-                  ],
-                  "callee": {
-                    "type": "MemberExpression",
-                    "start": 57,
-                    "end": 77,
-                    "computed": false,
-                    "object": {
-                      "type": "MemberExpression",
-                      "start": 57,
-                      "end": 73,
-                      "computed": false,
-                      "object": {
-                        "type": "ThisExpression",
-                        "start": 57,
-                        "end": 61
-                      },
-                      "optional": false,
-                      "property": {
-                        "type": "Identifier",
-                        "start": 62,
-                        "end": 73,
-                        "decorators": [],
-                        "name": "roleService",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
                     },
-                    "optional": false,
                     "property": {
                       "type": "Identifier",
-                      "start": 74,
-                      "end": 77,
+                      "start": 151,
+                      "end": 155,
                       "decorators": [],
-                      "name": "add",
+                      "name": "data",
                       "optional": false,
                       "typeAnnotation": null
-                    }
+                    },
+                    "optional": false,
+                    "computed": false
                   },
-                  "optional": false,
-                  "typeArguments": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Identifier",
-                  "start": 97,
-                  "end": 101,
-                  "decorators": [],
-                  "name": "then",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "id": null,
+                  "generator": false
                 }
-              },
-              "optional": false,
-              "typeArguments": null
+              ],
+              "optional": false
             },
-            "expression": true,
-            "generator": false,
             "id": null,
-            "params": [
-              {
-                "type": "Identifier",
-                "start": 34,
-                "end": 44,
-                "decorators": [],
-                "name": "role",
-                "optional": false,
-                "typeAnnotation": {
-                  "type": "TSTypeAnnotation",
-                  "start": 38,
-                  "end": 44,
-                  "typeAnnotation": {
-                    "type": "TSTypeReference",
-                    "start": 40,
-                    "end": 44,
-                    "typeArguments": null,
-                    "typeName": {
-                      "type": "Identifier",
-                      "start": 40,
-                      "end": 44,
-                      "decorators": [],
-                      "name": "Role",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  }
-                }
-              }
-            ],
-            "returnType": null,
-            "typeParameters": null
+            "generator": false
           }
         ],
-        "callee": {
-          "type": "MemberExpression",
-          "start": 7,
-          "end": 32,
-          "computed": false,
-          "object": {
-            "type": "CallExpression",
-            "start": 7,
-            "end": 22,
-            "arguments": [
-              {
-                "type": "Identifier",
-                "start": 17,
-                "end": 21,
-                "decorators": [],
-                "name": "role",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            ],
-            "callee": {
-              "type": "MemberExpression",
-              "start": 7,
-              "end": 16,
-              "computed": false,
-              "object": {
-                "type": "ThisExpression",
-                "start": 7,
-                "end": 11
-              },
-              "optional": false,
-              "property": {
-                "type": "Identifier",
-                "start": 12,
-                "end": 16,
-                "decorators": [],
-                "name": "edit",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            },
-            "optional": false,
-            "typeArguments": null
-          },
-          "optional": false,
-          "property": {
-            "type": "Identifier",
-            "start": 28,
-            "end": 32,
-            "decorators": [],
-            "name": "then",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
-        "optional": false,
-        "typeArguments": null
+        "optional": false
       }
     }
   ],

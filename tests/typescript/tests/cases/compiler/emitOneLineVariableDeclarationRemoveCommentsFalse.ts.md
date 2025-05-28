@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 32,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 31,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -29,22 +29,22 @@ __ESTREE_TEST__:PASS:
             "start": 29,
             "end": 31,
             "properties": []
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 33,
       "end": 70,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 37,
           "end": 69,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 37,
@@ -68,22 +68,22 @@ __ESTREE_TEST__:PASS:
             "start": 67,
             "end": 69,
             "properties": []
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 71,
       "end": 134,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 75,
           "end": 133,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 75,
@@ -104,8 +104,9 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 80,
                     "end": 93,
-                    "accessibility": null,
                     "computed": false,
+                    "optional": false,
+                    "readonly": false,
                     "key": {
                       "type": "Identifier",
                       "start": 80,
@@ -115,9 +116,6 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "optional": false,
-                    "readonly": false,
-                    "static": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "start": 84,
@@ -127,7 +125,9 @@ __ESTREE_TEST__:PASS:
                         "start": 86,
                         "end": 93
                       }
-                    }
+                    },
+                    "accessibility": null,
+                    "static": false
                   }
                 ]
               }
@@ -142,7 +142,7 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 121,
                 "end": 131,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 121,
@@ -152,35 +152,35 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Literal",
                   "start": 127,
                   "end": 131,
-                  "raw": "true",
-                  "value": true
-                }
+                  "value": true,
+                  "raw": "true"
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 135,
       "end": 173,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 139,
           "end": 172,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 139,
@@ -204,22 +204,22 @@ __ESTREE_TEST__:PASS:
             "start": 170,
             "end": 172,
             "properties": []
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 174,
       "end": 212,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 178,
           "end": 211,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 178,
@@ -243,22 +243,22 @@ __ESTREE_TEST__:PASS:
             "start": 209,
             "end": 211,
             "properties": []
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 213,
       "end": 241,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 217,
           "end": 240,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 217,
@@ -272,6 +272,16 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 236,
             "end": 240,
+            "callee": {
+              "type": "Identifier",
+              "start": 236,
+              "end": 237,
+              "decorators": [],
+              "name": "d",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null,
             "arguments": [
               {
                 "type": "Identifier",
@@ -283,33 +293,23 @@ __ESTREE_TEST__:PASS:
                 "typeAnnotation": null
               }
             ],
-            "callee": {
-              "type": "Identifier",
-              "start": 236,
-              "end": 237,
-              "decorators": [],
-              "name": "d",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "typeArguments": null
-          }
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 242,
       "end": 275,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 246,
           "end": 274,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 246,
@@ -332,6 +332,16 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 270,
             "end": 274,
+            "callee": {
+              "type": "Identifier",
+              "start": 270,
+              "end": 271,
+              "decorators": [],
+              "name": "d",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null,
             "arguments": [
               {
                 "type": "Identifier",
@@ -343,22 +353,12 @@ __ESTREE_TEST__:PASS:
                 "typeAnnotation": null
               }
             ],
-            "callee": {
-              "type": "Identifier",
-              "start": 270,
-              "end": 271,
-              "decorators": [],
-              "name": "d",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "typeArguments": null
-          }
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     }
   ],
   "sourceType": "script",

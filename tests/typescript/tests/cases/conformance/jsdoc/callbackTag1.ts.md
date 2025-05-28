@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 88,
       "end": 97,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 92,
           "end": 97,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 92,
@@ -28,24 +28,24 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 96,
             "end": 97,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 126,
       "end": 149,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 130,
           "end": 148,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 130,
@@ -59,32 +59,9 @@ __ESTREE_TEST__:PASS:
             "type": "ArrowFunctionExpression",
             "start": 136,
             "end": 148,
-            "async": false,
-            "body": {
-              "type": "BinaryExpression",
-              "start": 141,
-              "end": 148,
-              "operator": "+",
-              "left": {
-                "type": "Identifier",
-                "start": 141,
-                "end": 142,
-                "decorators": [],
-                "name": "s",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "right": {
-                "type": "Literal",
-                "start": 145,
-                "end": 148,
-                "raw": "\"!\"",
-                "value": "!"
-              }
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -97,23 +74,46 @@ __ESTREE_TEST__:PASS:
               }
             ],
             "returnType": null,
-            "typeParameters": null
-          }
+            "body": {
+              "type": "BinaryExpression",
+              "start": 141,
+              "end": 148,
+              "left": {
+                "type": "Identifier",
+                "start": 141,
+                "end": 142,
+                "decorators": [],
+                "name": "s",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "operator": "+",
+              "right": {
+                "type": "Literal",
+                "start": 145,
+                "end": 148,
+                "value": "!",
+                "raw": "\"!\""
+              }
+            },
+            "id": null,
+            "generator": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 176,
       "end": 212,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 180,
           "end": 212,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 180,
@@ -127,42 +127,9 @@ __ESTREE_TEST__:PASS:
             "type": "ArrowFunctionExpression",
             "start": 191,
             "end": 212,
-            "async": false,
-            "body": {
-              "type": "UnaryExpression",
-              "start": 198,
-              "end": 212,
-              "argument": {
-                "type": "MemberExpression",
-                "start": 203,
-                "end": 212,
-                "computed": false,
-                "object": {
-                  "type": "Identifier",
-                  "start": 203,
-                  "end": 206,
-                  "decorators": [],
-                  "name": "obj",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Identifier",
-                  "start": 207,
-                  "end": 212,
-                  "decorators": [],
-                  "name": "title",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              },
-              "operator": "void",
-              "prefix": true
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -175,12 +142,45 @@ __ESTREE_TEST__:PASS:
               }
             ],
             "returnType": null,
-            "typeParameters": null
-          }
+            "body": {
+              "type": "UnaryExpression",
+              "start": 198,
+              "end": 212,
+              "operator": "void",
+              "argument": {
+                "type": "MemberExpression",
+                "start": 203,
+                "end": 212,
+                "object": {
+                  "type": "Identifier",
+                  "start": 203,
+                  "end": 206,
+                  "decorators": [],
+                  "name": "obj",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 207,
+                  "end": 212,
+                  "decorators": [],
+                  "name": "title",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "optional": false,
+                "computed": false
+              },
+              "prefix": true
+            },
+            "id": null,
+            "generator": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

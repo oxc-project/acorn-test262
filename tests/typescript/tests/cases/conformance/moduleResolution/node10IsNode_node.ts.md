@@ -9,17 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 36,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 36,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 21,
             "end": 35,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 21,
@@ -39,21 +38,22 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 28,
                     "end": 35,
-                    "raw": "\"feast\"",
-                    "value": "feast"
+                    "value": "feast",
+                    "raw": "\"feast\""
                   }
                 }
               }
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": true,
-        "kind": "const"
+        "declare": true
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -71,17 +71,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 38,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 38,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 21,
             "end": 37,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 21,
@@ -101,21 +100,22 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 28,
                     "end": 37,
-                    "raw": "\"ketchup\"",
-                    "value": "ketchup"
+                    "value": "ketchup",
+                    "raw": "\"ketchup\""
                   }
                 }
               }
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": true,
-        "kind": "const"
+        "declare": true
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -133,14 +133,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 34,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 22,
-        "end": 33,
-        "raw": "\"fancy-lib\"",
-        "value": "fancy-lib"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -155,7 +147,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
@@ -164,17 +155,25 @@ __ESTREE_TEST__:PASS:
             "name": "fancy",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 22,
+        "end": 33,
+        "value": "fancy-lib",
+        "raw": "\"fancy-lib\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 35,
       "end": 41,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 35,
@@ -183,7 +182,8 @@ __ESTREE_TEST__:PASS:
         "name": "fancy",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

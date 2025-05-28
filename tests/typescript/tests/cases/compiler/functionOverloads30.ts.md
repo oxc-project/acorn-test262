@@ -9,11 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 0,
       "end": 32,
-      "async": false,
-      "body": null,
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -23,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -53,17 +52,13 @@ __ESTREE_TEST__:PASS:
           "end": 31
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "TSDeclareFunction",
       "start": 33,
       "end": 65,
-      "async": false,
-      "body": null,
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 42,
@@ -73,6 +68,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -103,37 +102,13 @@ __ESTREE_TEST__:PASS:
           "end": 64
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 66,
       "end": 105,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 91,
-        "end": 105,
-        "body": [
-          {
-            "type": "ReturnStatement",
-            "start": 93,
-            "end": 103,
-            "argument": {
-              "type": "Identifier",
-              "start": 100,
-              "end": 103,
-              "decorators": [],
-              "name": "bar",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 75,
@@ -143,6 +118,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -173,18 +152,39 @@ __ESTREE_TEST__:PASS:
           "end": 91
         }
       },
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 91,
+        "end": 105,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 93,
+            "end": 103,
+            "argument": {
+              "type": "Identifier",
+              "start": 100,
+              "end": 103,
+              "decorators": [],
+              "name": "bar",
+              "optional": false,
+              "typeAnnotation": null
+            }
+          }
+        ]
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 106,
       "end": 125,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 110,
           "end": 124,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 110,
@@ -198,15 +198,6 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 114,
             "end": 124,
-            "arguments": [
-              {
-                "type": "Literal",
-                "start": 118,
-                "end": 123,
-                "raw": "'bar'",
-                "value": "bar"
-              }
-            ],
             "callee": {
               "type": "Identifier",
               "start": 114,
@@ -216,13 +207,22 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 118,
+                "end": 123,
+                "value": "bar",
+                "raw": "'bar'"
+              }
+            ],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

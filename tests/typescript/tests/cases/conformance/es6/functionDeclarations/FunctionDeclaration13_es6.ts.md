@@ -9,7 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 83,
+      "id": {
+        "type": "Identifier",
+        "start": 11,
+        "end": 14,
+        "decorators": [],
+        "name": "foo",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": true,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 17,
@@ -19,12 +33,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 68,
             "end": 81,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 72,
                 "end": 80,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 72,
@@ -40,7 +54,6 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 75,
                       "end": 80,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 75,
@@ -49,33 +62,20 @@ __ESTREE_TEST__:PASS:
                         "name": "yield",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     }
                   }
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": true,
-      "id": {
-        "type": "Identifier",
-        "start": 11,
-        "end": 14,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

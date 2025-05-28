@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 77,
       "end": 105,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 89,
           "end": 105,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 89,
@@ -35,8 +35,9 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 94,
                     "end": 103,
-                    "accessibility": null,
                     "computed": false,
+                    "optional": false,
+                    "readonly": false,
                     "key": {
                       "type": "Identifier",
                       "start": 94,
@@ -46,9 +47,6 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "optional": false,
-                    "readonly": false,
-                    "static": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "start": 95,
@@ -58,17 +56,19 @@ __ESTREE_TEST__:PASS:
                         "start": 97,
                         "end": 103
                       }
-                    }
+                    },
+                    "accessibility": null,
+                    "static": false
                   }
                 ]
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "let"
+      "declare": true
     }
   ],
   "sourceType": "module",
@@ -86,17 +86,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 30,
       "end": 47,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 37,
         "end": 47,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 41,
             "end": 46,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 41,
@@ -110,33 +109,33 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 45,
               "end": 46,
-              "raw": "1",
-              "value": 1
-            }
+              "value": 1,
+              "raw": "1"
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "let"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 49,
       "end": 72,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 56,
         "end": 72,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 60,
             "end": 71,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 60,
@@ -165,31 +164,31 @@ __ESTREE_TEST__:PASS:
                 }
               }
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "let"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 73,
       "end": 95,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 80,
         "end": 95,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 84,
             "end": 95,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 84,
@@ -203,7 +202,11 @@ __ESTREE_TEST__:PASS:
               "type": "ArrowFunctionExpression",
               "start": 88,
               "end": 95,
+              "expression": true,
               "async": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
               "body": {
                 "type": "Identifier",
                 "start": 94,
@@ -213,21 +216,18 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "expression": true,
-              "generator": false,
               "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
+              "generator": false
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "let"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

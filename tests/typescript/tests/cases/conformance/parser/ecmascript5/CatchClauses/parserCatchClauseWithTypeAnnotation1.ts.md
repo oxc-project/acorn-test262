@@ -15,17 +15,10 @@ __ESTREE_TEST__:PASS:
         "end": 7,
         "body": []
       },
-      "finalizer": null,
       "handler": {
         "type": "CatchClause",
         "start": 8,
         "end": 28,
-        "body": {
-          "type": "BlockStatement",
-          "start": 25,
-          "end": 28,
-          "body": []
-        },
         "param": {
           "type": "Identifier",
           "start": 15,
@@ -41,7 +34,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 18,
               "end": 23,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 18,
@@ -50,11 +42,19 @@ __ESTREE_TEST__:PASS:
                 "name": "Error",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "typeArguments": null
             }
           }
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 25,
+          "end": 28,
+          "body": []
         }
-      }
+      },
+      "finalizer": null
     }
   ],
   "sourceType": "script",

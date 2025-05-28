@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 70,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 69,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -30,7 +30,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 11,
                 "end": 25,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 11,
@@ -39,7 +38,8 @@ __ESTREE_TEST__:PASS:
                   "name": "SVGRectElement",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             }
           },
@@ -51,20 +51,10 @@ __ESTREE_TEST__:PASS:
               "type": "CallExpression",
               "start": 28,
               "end": 68,
-              "arguments": [
-                {
-                  "type": "Literal",
-                  "start": 51,
-                  "end": 67,
-                  "raw": "'.svg-rectangle'",
-                  "value": ".svg-rectangle"
-                }
-              ],
               "callee": {
                 "type": "MemberExpression",
                 "start": 28,
                 "end": 50,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 28,
@@ -74,7 +64,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 37,
@@ -83,16 +72,27 @@ __ESTREE_TEST__:PASS:
                   "name": "querySelector",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
-              "typeArguments": null
+              "typeArguments": null,
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 51,
+                  "end": 67,
+                  "value": ".svg-rectangle",
+                  "raw": "'.svg-rectangle'"
+                }
+              ],
+              "optional": false
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     }
   ],
   "sourceType": "script",

@@ -18,7 +18,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 12,
@@ -27,21 +26,22 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 20,
           "end": 25,
-          "raw": "'./b'",
-          "value": "./b"
+          "value": "./b",
+          "raw": "'./b'"
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 55,
       "end": 68,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 59,
           "end": 67,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 59,
@@ -55,7 +55,6 @@ __ESTREE_TEST__:PASS:
             "type": "MemberExpression",
             "start": 63,
             "end": 67,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 63,
@@ -65,7 +64,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 66,
@@ -74,12 +72,14 @@ __ESTREE_TEST__:PASS:
               "name": "a",
               "optional": false,
               "typeAnnotation": null
-            }
-          }
+            },
+            "optional": false,
+            "computed": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -94,7 +94,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 81,
@@ -103,16 +102,25 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 89,
           "end": 99,
-          "raw": "'./b.json'",
-          "value": "./b.json"
+          "value": "./b.json",
+          "raw": "'./b.json'"
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "IfStatement",
       "start": 102,
       "end": 152,
-      "alternate": null,
+      "test": {
+        "type": "Identifier",
+        "start": 106,
+        "end": 107,
+        "decorators": [],
+        "name": "x",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 109,
@@ -122,12 +130,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 115,
             "end": 128,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 119,
                 "end": 127,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 119,
@@ -141,7 +149,6 @@ __ESTREE_TEST__:PASS:
                   "type": "MemberExpression",
                   "start": 123,
                   "end": 127,
-                  "computed": false,
                   "object": {
                     "type": "Identifier",
                     "start": 123,
@@ -151,7 +158,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 126,
@@ -160,18 +166,19 @@ __ESTREE_TEST__:PASS:
                     "name": "b",
                     "optional": false,
                     "typeAnnotation": null
-                  }
-                }
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "declare": false
           },
           {
             "type": "ExpressionStatement",
             "start": 133,
             "end": 150,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 133,
@@ -190,12 +197,10 @@ __ESTREE_TEST__:PASS:
                 "type": "BinaryExpression",
                 "start": 138,
                 "end": 148,
-                "operator": "===",
                 "left": {
                   "type": "MemberExpression",
                   "start": 138,
                   "end": 142,
-                  "computed": false,
                   "object": {
                     "type": "Identifier",
                     "start": 138,
@@ -205,7 +210,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 141,
@@ -214,8 +218,11 @@ __ESTREE_TEST__:PASS:
                     "name": "b",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "optional": false,
+                  "computed": false
                 },
+                "operator": "===",
                 "right": {
                   "type": "Identifier",
                   "start": 147,
@@ -226,19 +233,12 @@ __ESTREE_TEST__:PASS:
                   "typeAnnotation": null
                 }
               }
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "Identifier",
-        "start": 106,
-        "end": 107,
-        "decorators": [],
-        "name": "x",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      "alternate": null
     }
   ],
   "sourceType": "module",

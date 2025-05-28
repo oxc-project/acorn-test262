@@ -9,17 +9,14 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 27,
-      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 0,
         "end": 26,
-        "operator": "instanceof",
         "left": {
           "type": "CallExpression",
           "start": 0,
           "end": 8,
-          "arguments": [],
           "callee": {
             "type": "Identifier",
             "start": 0,
@@ -29,9 +26,11 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
-          "typeArguments": null
+          "typeArguments": null,
+          "arguments": [],
+          "optional": false
         },
+        "operator": "instanceof",
         "right": {
           "type": "Identifier",
           "start": 20,
@@ -41,18 +40,17 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 28,
       "end": 55,
-      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 28,
         "end": 54,
-        "operator": "instanceof",
         "left": {
           "type": "Identifier",
           "start": 28,
@@ -62,11 +60,11 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "operator": "instanceof",
         "right": {
           "type": "CallExpression",
           "start": 46,
           "end": 54,
-          "arguments": [],
           "callee": {
             "type": "Identifier",
             "start": 46,
@@ -76,31 +74,29 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
-          "typeArguments": null
+          "typeArguments": null,
+          "arguments": [],
+          "optional": false
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 56,
       "end": 91,
-      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 56,
         "end": 90,
-        "operator": "instanceof",
         "left": {
           "type": "LogicalExpression",
           "start": 57,
           "end": 71,
-          "operator": "||",
           "left": {
             "type": "CallExpression",
             "start": 57,
             "end": 65,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 57,
@@ -110,9 +106,11 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "typeArguments": null
+            "typeArguments": null,
+            "arguments": [],
+            "optional": false
           },
+          "operator": "||",
           "right": {
             "type": "ObjectExpression",
             "start": 69,
@@ -120,6 +118,7 @@ __ESTREE_TEST__:PASS:
             "properties": []
           }
         },
+        "operator": "instanceof",
         "right": {
           "type": "Identifier",
           "start": 84,
@@ -129,18 +128,17 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 161,
       "end": 196,
-      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 161,
         "end": 195,
-        "operator": "instanceof",
         "left": {
           "type": "Identifier",
           "start": 161,
@@ -150,16 +148,15 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "operator": "instanceof",
         "right": {
           "type": "LogicalExpression",
           "start": 180,
           "end": 194,
-          "operator": "||",
           "left": {
             "type": "CallExpression",
             "start": 180,
             "end": 188,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 180,
@@ -169,9 +166,11 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "typeArguments": null
+            "typeArguments": null,
+            "arguments": [],
+            "optional": false
           },
+          "operator": "||",
           "right": {
             "type": "ObjectExpression",
             "start": 192,
@@ -179,7 +178,8 @@ __ESTREE_TEST__:PASS:
             "properties": []
           }
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

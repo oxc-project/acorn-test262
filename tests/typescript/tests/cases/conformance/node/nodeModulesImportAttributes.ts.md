@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 56,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 17,
-        "end": 33,
-        "raw": "\"./package.json\"",
-        "value": "./package.json"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -33,6 +25,13 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 17,
+        "end": 33,
+        "value": "./package.json",
+        "raw": "\"./package.json\""
+      },
       "phase": null,
       "attributes": [
         {
@@ -52,11 +51,12 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 47,
             "end": 53,
-            "raw": "\"json\"",
-            "value": "json"
+            "value": "json",
+            "raw": "\"json\""
           }
         }
-      ]
+      ],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",
@@ -74,14 +74,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 56,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 17,
-        "end": 33,
-        "raw": "\"./package.json\"",
-        "value": "./package.json"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -98,6 +90,13 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 17,
+        "end": 33,
+        "value": "./package.json",
+        "raw": "\"./package.json\""
+      },
       "phase": null,
       "attributes": [
         {
@@ -117,22 +116,23 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 47,
             "end": 53,
-            "raw": "\"json\"",
-            "value": "json"
+            "value": "json",
+            "raw": "\"json\""
           }
         }
-      ]
+      ],
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 116,
       "end": 183,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 122,
           "end": 182,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 122,
@@ -146,6 +146,13 @@ __ESTREE_TEST__:PASS:
             "type": "ImportExpression",
             "start": 130,
             "end": 182,
+            "source": {
+              "type": "Literal",
+              "start": 137,
+              "end": 153,
+              "value": "./package.json",
+              "raw": "\"./package.json\""
+            },
             "options": {
               "type": "ObjectExpression",
               "start": 155,
@@ -155,7 +162,7 @@ __ESTREE_TEST__:PASS:
                   "type": "Property",
                   "start": 157,
                   "end": 179,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 157,
@@ -165,10 +172,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "kind": "init",
-                  "method": false,
-                  "optional": false,
-                  "shorthand": false,
                   "value": {
                     "type": "ObjectExpression",
                     "start": 163,
@@ -178,7 +181,7 @@ __ESTREE_TEST__:PASS:
                         "type": "Property",
                         "start": 165,
                         "end": 177,
-                        "computed": false,
+                        "kind": "init",
                         "key": {
                           "type": "Identifier",
                           "start": 165,
@@ -188,36 +191,33 @@ __ESTREE_TEST__:PASS:
                           "optional": false,
                           "typeAnnotation": null
                         },
-                        "kind": "init",
-                        "method": false,
-                        "optional": false,
-                        "shorthand": false,
                         "value": {
                           "type": "Literal",
                           "start": 171,
                           "end": 177,
-                          "raw": "\"json\"",
-                          "value": "json"
-                        }
+                          "value": "json",
+                          "raw": "\"json\""
+                        },
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false,
+                        "optional": false
                       }
                     ]
-                  }
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "optional": false
                 }
               ]
             },
-            "source": {
-              "type": "Literal",
-              "start": 137,
-              "end": 153,
-              "raw": "\"./package.json\"",
-              "value": "./package.json"
-            },
             "phase": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "module",

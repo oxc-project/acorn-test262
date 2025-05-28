@@ -9,7 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 296,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 11,
+        "decorators": [],
+        "name": "fn",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 14,
@@ -25,19 +39,19 @@ __ESTREE_TEST__:PASS:
               "end": 27,
               "body": []
             },
-            "finalizer": null,
             "handler": {
               "type": "CatchClause",
               "start": 28,
               "end": 37,
+              "param": null,
               "body": {
                 "type": "BlockStatement",
                 "start": 34,
                 "end": 37,
                 "body": []
-              },
-              "param": null
-            }
+              }
+            },
+            "finalizer": null
           },
           {
             "type": "TryStatement",
@@ -49,11 +63,11 @@ __ESTREE_TEST__:PASS:
               "end": 50,
               "body": []
             },
-            "finalizer": null,
             "handler": {
               "type": "CatchClause",
               "start": 51,
               "end": 156,
+              "param": null,
               "body": {
                 "type": "BlockStatement",
                 "start": 57,
@@ -69,11 +83,11 @@ __ESTREE_TEST__:PASS:
                       "end": 75,
                       "body": []
                     },
-                    "finalizer": null,
                     "handler": {
                       "type": "CatchClause",
                       "start": 76,
                       "end": 124,
+                      "param": null,
                       "body": {
                         "type": "BlockStatement",
                         "start": 82,
@@ -89,24 +103,24 @@ __ESTREE_TEST__:PASS:
                               "end": 104,
                               "body": []
                             },
-                            "finalizer": null,
                             "handler": {
                               "type": "CatchClause",
                               "start": 105,
                               "end": 114,
+                              "param": null,
                               "body": {
                                 "type": "BlockStatement",
                                 "start": 111,
                                 "end": 114,
                                 "body": []
-                              },
-                              "param": null
-                            }
+                              }
+                            },
+                            "finalizer": null
                           }
                         ]
-                      },
-                      "param": null
-                    }
+                      }
+                    },
+                    "finalizer": null
                   },
                   {
                     "type": "TryStatement",
@@ -118,24 +132,24 @@ __ESTREE_TEST__:PASS:
                       "end": 140,
                       "body": []
                     },
-                    "finalizer": null,
                     "handler": {
                       "type": "CatchClause",
                       "start": 141,
                       "end": 150,
+                      "param": null,
                       "body": {
                         "type": "BlockStatement",
                         "start": 147,
                         "end": 150,
                         "body": []
-                      },
-                      "param": null
-                    }
+                      }
+                    },
+                    "finalizer": null
                   }
                 ]
-              },
-              "param": null
-            }
+              }
+            },
+            "finalizer": null
           },
           {
             "type": "TryStatement",
@@ -147,11 +161,19 @@ __ESTREE_TEST__:PASS:
               "end": 169,
               "body": []
             },
-            "finalizer": null,
             "handler": {
               "type": "CatchClause",
               "start": 170,
               "end": 195,
+              "param": {
+                "type": "Identifier",
+                "start": 177,
+                "end": 178,
+                "decorators": [],
+                "name": "x",
+                "optional": false,
+                "typeAnnotation": null
+              },
               "body": {
                 "type": "BlockStatement",
                 "start": 180,
@@ -161,12 +183,12 @@ __ESTREE_TEST__:PASS:
                     "type": "VariableDeclaration",
                     "start": 182,
                     "end": 193,
+                    "kind": "var",
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
                         "start": 186,
                         "end": 192,
-                        "definite": false,
                         "id": {
                           "type": "Identifier",
                           "start": 186,
@@ -185,24 +207,16 @@ __ESTREE_TEST__:PASS:
                             }
                           }
                         },
-                        "init": null
+                        "init": null,
+                        "definite": false
                       }
                     ],
-                    "declare": false,
-                    "kind": "var"
+                    "declare": false
                   }
                 ]
-              },
-              "param": {
-                "type": "Identifier",
-                "start": 177,
-                "end": 178,
-                "decorators": [],
-                "name": "x",
-                "optional": false,
-                "typeAnnotation": null
               }
-            }
+            },
+            "finalizer": null
           },
           {
             "type": "TryStatement",
@@ -214,13 +228,13 @@ __ESTREE_TEST__:PASS:
               "end": 208,
               "body": []
             },
+            "handler": null,
             "finalizer": {
               "type": "BlockStatement",
               "start": 217,
               "end": 220,
               "body": []
-            },
-            "handler": null
+            }
           },
           {
             "type": "TryStatement",
@@ -232,23 +246,23 @@ __ESTREE_TEST__:PASS:
               "end": 233,
               "body": []
             },
-            "finalizer": {
-              "type": "BlockStatement",
-              "start": 252,
-              "end": 255,
-              "body": []
-            },
             "handler": {
               "type": "CatchClause",
               "start": 234,
               "end": 243,
+              "param": null,
               "body": {
                 "type": "BlockStatement",
                 "start": 240,
                 "end": 243,
                 "body": []
-              },
-              "param": null
+              }
+            },
+            "finalizer": {
+              "type": "BlockStatement",
+              "start": 252,
+              "end": 255,
+              "body": []
             }
           },
           {
@@ -261,22 +275,10 @@ __ESTREE_TEST__:PASS:
               "end": 268,
               "body": []
             },
-            "finalizer": {
-              "type": "BlockStatement",
-              "start": 291,
-              "end": 294,
-              "body": []
-            },
             "handler": {
               "type": "CatchClause",
               "start": 269,
               "end": 282,
-              "body": {
-                "type": "BlockStatement",
-                "start": 279,
-                "end": 282,
-                "body": []
-              },
               "param": {
                 "type": "Identifier",
                 "start": 276,
@@ -285,26 +287,24 @@ __ESTREE_TEST__:PASS:
                 "name": "z",
                 "optional": false,
                 "typeAnnotation": null
+              },
+              "body": {
+                "type": "BlockStatement",
+                "start": 279,
+                "end": 282,
+                "body": []
               }
+            },
+            "finalizer": {
+              "type": "BlockStatement",
+              "start": 291,
+              "end": 294,
+              "body": []
             }
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 11,
-        "decorators": [],
-        "name": "fn",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

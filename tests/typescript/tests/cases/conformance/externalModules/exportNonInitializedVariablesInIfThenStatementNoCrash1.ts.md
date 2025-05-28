@@ -9,22 +9,27 @@ __ESTREE_TEST__:PASS:
       "type": "IfStatement",
       "start": 57,
       "end": 103,
-      "alternate": null,
+      "test": {
+        "type": "Literal",
+        "start": 61,
+        "end": 65,
+        "value": true,
+        "raw": "true"
+      },
       "consequent": {
         "type": "ExportNamedDeclaration",
         "start": 67,
         "end": 103,
-        "attributes": [],
         "declaration": {
           "type": "VariableDeclaration",
           "start": 74,
           "end": 103,
+          "kind": "const",
           "declarations": [
             {
               "type": "VariableDeclarator",
               "start": 80,
               "end": 102,
-              "definite": false,
               "id": {
                 "type": "Identifier",
                 "start": 80,
@@ -40,7 +45,6 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 92,
                     "end": 102,
-                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 92,
@@ -49,27 +53,23 @@ __ESTREE_TEST__:PASS:
                       "name": "CssExports",
                       "optional": false,
                       "typeAnnotation": null
-                    }
+                    },
+                    "typeArguments": null
                   }
                 }
               },
-              "init": null
+              "init": null,
+              "definite": false
             }
           ],
-          "declare": false,
-          "kind": "const"
+          "declare": false
         },
-        "exportKind": "value",
+        "specifiers": [],
         "source": null,
-        "specifiers": []
+        "exportKind": "value",
+        "attributes": []
       },
-      "test": {
-        "type": "Literal",
-        "start": 61,
-        "end": 65,
-        "raw": "true",
-        "value": true
-      }
+      "alternate": null
     },
     {
       "type": "ExportDefaultDeclaration",

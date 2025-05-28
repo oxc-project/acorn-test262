@@ -9,17 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 18,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 18,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 11,
             "end": 17,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 11,
@@ -33,17 +32,18 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 15,
               "end": 17,
-              "raw": "10",
-              "value": 10
-            }
+              "value": 10,
+              "raw": "10"
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -61,14 +61,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 76,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 34,
-        "end": 75,
-        "raw": "\"./es6ImportNameSpaceImportMergeErrors_0\"",
-        "value": "./es6ImportNameSpaceImportMergeErrors_0"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -85,21 +77,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 34,
+        "end": 75,
+        "value": "./es6ImportNameSpaceImportMergeErrors_0",
+        "raw": "\"./es6ImportNameSpaceImportMergeErrors_0\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 78,
       "end": 108,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 105,
-        "end": 108,
-        "body": []
-      },
-      "declare": false,
-      "extends": [],
       "id": {
         "type": "Identifier",
         "start": 88,
@@ -109,20 +101,20 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "typeParameters": null
+      "typeParameters": null,
+      "extends": [],
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 105,
+        "end": 108,
+        "body": []
+      },
+      "declare": false
     },
     {
       "type": "ImportDeclaration",
       "start": 131,
       "end": 208,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 166,
-        "end": 207,
-        "raw": "\"./es6ImportNameSpaceImportMergeErrors_0\"",
-        "value": "./es6ImportNameSpaceImportMergeErrors_0"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -139,21 +131,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 166,
+        "end": 207,
+        "value": "./es6ImportNameSpaceImportMergeErrors_0",
+        "raw": "\"./es6ImportNameSpaceImportMergeErrors_0\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 228,
       "end": 305,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 263,
-        "end": 304,
-        "raw": "\"./es6ImportNameSpaceImportMergeErrors_0\"",
-        "value": "./es6ImportNameSpaceImportMergeErrors_0"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -170,21 +162,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 263,
+        "end": 304,
+        "value": "./es6ImportNameSpaceImportMergeErrors_0",
+        "raw": "\"./es6ImportNameSpaceImportMergeErrors_0\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 326,
       "end": 403,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 361,
-        "end": 402,
-        "raw": "\"./es6ImportNameSpaceImportMergeErrors_0\"",
-        "value": "./es6ImportNameSpaceImportMergeErrors_0"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -201,19 +193,27 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 361,
+        "end": 402,
+        "value": "./es6ImportNameSpaceImportMergeErrors_0",
+        "raw": "\"./es6ImportNameSpaceImportMergeErrors_0\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 423,
       "end": 450,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 427,
           "end": 449,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 427,
@@ -227,13 +227,13 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 447,
             "end": 449,
-            "raw": "10",
-            "value": 10
-          }
+            "value": 10,
+            "raw": "10"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "module",

@@ -18,7 +18,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 12,
@@ -27,21 +26,22 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 20,
           "end": 30,
-          "raw": "'./b.json'",
-          "value": "./b.json"
+          "value": "./b.json",
+          "raw": "'./b.json'"
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 33,
       "end": 44,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 37,
           "end": 43,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 37,
@@ -59,11 +59,11 @@ __ESTREE_TEST__:PASS:
             "name": "b1",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -78,7 +78,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 57,
@@ -87,16 +86,25 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 65,
           "end": 75,
-          "raw": "'./b.json'",
-          "value": "./b.json"
+          "value": "./b.json",
+          "raw": "'./b.json'"
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "IfStatement",
       "start": 78,
       "end": 100,
-      "alternate": null,
+      "test": {
+        "type": "Identifier",
+        "start": 82,
+        "end": 83,
+        "decorators": [],
+        "name": "x",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 85,
@@ -106,7 +114,6 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 91,
             "end": 98,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 91,
@@ -130,19 +137,12 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               }
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "Identifier",
-        "start": 82,
-        "end": 83,
-        "decorators": [],
-        "name": "x",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      "alternate": null
     }
   ],
   "sourceType": "module",

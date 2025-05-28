@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 22,
       "end": 64,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 34,
           "end": 63,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 34,
@@ -30,11 +30,13 @@ __ESTREE_TEST__:PASS:
                 "type": "TSFunctionType",
                 "start": 39,
                 "end": 63,
+                "typeParameters": null,
                 "params": [
                   {
                     "type": "RestElement",
                     "start": 40,
                     "end": 54,
+                    "decorators": [],
                     "argument": {
                       "type": "Identifier",
                       "start": 43,
@@ -44,7 +46,6 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "decorators": [],
                     "optional": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
@@ -68,27 +69,24 @@ __ESTREE_TEST__:PASS:
                     "start": 59,
                     "end": 63
                   }
-                },
-                "typeParameters": null
+                }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "let"
+      "declare": true
     },
     {
       "type": "ExpressionStatement",
       "start": 65,
       "end": 71,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 65,
         "end": 70,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 65,
@@ -98,9 +96,11 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

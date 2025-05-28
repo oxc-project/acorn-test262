@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 66,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 65,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -33,50 +33,50 @@ __ESTREE_TEST__:PASS:
                 "type": "TaggedTemplateExpression",
                 "start": 18,
                 "end": 61,
-                "quasi": {
-                  "type": "TemplateLiteral",
-                  "start": 42,
-                  "end": 61,
-                  "expressions": [],
-                  "quasis": [
-                    {
-                      "type": "TemplateElement",
-                      "start": 42,
-                      "end": 61,
-                      "tail": true,
-                      "value": {
-                        "cooked": "template string 2",
-                        "raw": "template string 2"
-                      }
-                    }
-                  ]
-                },
                 "tag": {
                   "type": "TemplateLiteral",
                   "start": 18,
                   "end": 37,
-                  "expressions": [],
                   "quasis": [
                     {
                       "type": "TemplateElement",
                       "start": 18,
                       "end": 37,
-                      "tail": true,
                       "value": {
                         "cooked": "template string 1",
                         "raw": "template string 1"
-                      }
+                      },
+                      "tail": true
                     }
-                  ]
+                  ],
+                  "expressions": []
                 },
-                "typeArguments": null
+                "typeArguments": null,
+                "quasi": {
+                  "type": "TemplateLiteral",
+                  "start": 42,
+                  "end": 61,
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 42,
+                      "end": 61,
+                      "value": {
+                        "cooked": "template string 2",
+                        "raw": "template string 2"
+                      },
+                      "tail": true
+                    }
+                  ],
+                  "expressions": []
+                }
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

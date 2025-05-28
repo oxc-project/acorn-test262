@@ -41,7 +41,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 13,
@@ -50,10 +49,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 21,
           "end": 31,
-          "raw": "\"./foo.ts\"",
-          "value": "./foo.ts"
+          "value": "./foo.ts",
+          "raw": "\"./foo.ts\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -68,7 +68,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "type",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 62,
@@ -77,10 +76,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 70,
           "end": 80,
-          "raw": "\"./foo.ts\"",
-          "value": "./foo.ts"
+          "value": "./foo.ts",
+          "raw": "\"./foo.ts\""
         }
-      }
+      },
+      "importKind": "type"
     }
   ],
   "sourceType": "module",

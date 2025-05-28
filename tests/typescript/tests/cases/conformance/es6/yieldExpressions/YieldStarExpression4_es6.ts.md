@@ -9,35 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 33,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 14,
-        "end": 33,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 20,
-            "end": 31,
-            "directive": null,
-            "expression": {
-              "type": "YieldExpression",
-              "start": 20,
-              "end": 30,
-              "argument": {
-                "type": "ArrayExpression",
-                "start": 28,
-                "end": 30,
-                "elements": []
-              },
-              "delegate": true
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": true,
       "id": {
         "type": "Identifier",
         "start": 10,
@@ -47,9 +18,38 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": true,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 14,
+        "end": 33,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 20,
+            "end": 31,
+            "expression": {
+              "type": "YieldExpression",
+              "start": 20,
+              "end": 30,
+              "delegate": true,
+              "argument": {
+                "type": "ArrayExpression",
+                "start": 28,
+                "end": 30,
+                "elements": []
+              }
+            },
+            "directive": null
+          }
+        ]
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

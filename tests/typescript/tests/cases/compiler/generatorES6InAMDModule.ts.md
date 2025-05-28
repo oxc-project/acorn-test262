@@ -9,35 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 36,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 7,
         "end": 36,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 23,
-          "end": 36,
-          "body": [
-            {
-              "type": "ExpressionStatement",
-              "start": 29,
-              "end": 34,
-              "directive": null,
-              "expression": {
-                "type": "YieldExpression",
-                "start": 29,
-                "end": 34,
-                "argument": null,
-                "delegate": false
-              }
-            }
-          ]
-        },
-        "declare": false,
-        "expression": false,
-        "generator": true,
         "id": {
           "type": "Identifier",
           "start": 17,
@@ -47,13 +22,38 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": true,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [],
         "returnType": null,
-        "typeParameters": null
+        "body": {
+          "type": "BlockStatement",
+          "start": 23,
+          "end": 36,
+          "body": [
+            {
+              "type": "ExpressionStatement",
+              "start": 29,
+              "end": 34,
+              "expression": {
+                "type": "YieldExpression",
+                "start": 29,
+                "end": 34,
+                "delegate": false,
+                "argument": null
+              },
+              "directive": null
+            }
+          ]
+        },
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

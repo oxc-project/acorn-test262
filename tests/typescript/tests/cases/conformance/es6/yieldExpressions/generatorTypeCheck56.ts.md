@@ -9,7 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 100,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 11,
+        "decorators": [],
+        "name": "g",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": true,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 14,
@@ -19,12 +33,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 20,
             "end": 98,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 24,
                 "end": 97,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 24,
@@ -38,79 +52,6 @@ __ESTREE_TEST__:PASS:
                   "type": "ClassExpression",
                   "start": 28,
                   "end": 97,
-                  "abstract": false,
-                  "body": {
-                    "type": "ClassBody",
-                    "start": 36,
-                    "end": 97,
-                    "body": [
-                      {
-                        "type": "MethodDefinition",
-                        "start": 46,
-                        "end": 91,
-                        "accessibility": null,
-                        "computed": true,
-                        "decorators": [],
-                        "key": {
-                          "type": "YieldExpression",
-                          "start": 48,
-                          "end": 55,
-                          "argument": {
-                            "type": "Literal",
-                            "start": 54,
-                            "end": 55,
-                            "raw": "0",
-                            "value": 0
-                          },
-                          "delegate": false
-                        },
-                        "kind": "method",
-                        "optional": false,
-                        "override": false,
-                        "static": false,
-                        "value": {
-                          "type": "FunctionExpression",
-                          "start": 56,
-                          "end": 91,
-                          "async": false,
-                          "body": {
-                            "type": "BlockStatement",
-                            "start": 59,
-                            "end": 91,
-                            "body": [
-                              {
-                                "type": "ExpressionStatement",
-                                "start": 73,
-                                "end": 81,
-                                "directive": null,
-                                "expression": {
-                                  "type": "YieldExpression",
-                                  "start": 73,
-                                  "end": 80,
-                                  "argument": {
-                                    "type": "Literal",
-                                    "start": 79,
-                                    "end": 80,
-                                    "raw": "0",
-                                    "value": 0
-                                  },
-                                  "delegate": false
-                                }
-                              }
-                            ]
-                          },
-                          "declare": false,
-                          "expression": false,
-                          "generator": true,
-                          "id": null,
-                          "params": [],
-                          "returnType": null,
-                          "typeParameters": null
-                        }
-                      }
-                    ]
-                  },
-                  "declare": false,
                   "decorators": [],
                   "id": {
                     "type": "Identifier",
@@ -121,33 +62,92 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "implements": [],
+                  "typeParameters": null,
                   "superClass": null,
                   "superTypeArguments": null,
-                  "typeParameters": null
-                }
+                  "implements": [],
+                  "body": {
+                    "type": "ClassBody",
+                    "start": 36,
+                    "end": 97,
+                    "body": [
+                      {
+                        "type": "MethodDefinition",
+                        "start": 46,
+                        "end": 91,
+                        "decorators": [],
+                        "key": {
+                          "type": "YieldExpression",
+                          "start": 48,
+                          "end": 55,
+                          "delegate": false,
+                          "argument": {
+                            "type": "Literal",
+                            "start": 54,
+                            "end": 55,
+                            "value": 0,
+                            "raw": "0"
+                          }
+                        },
+                        "value": {
+                          "type": "FunctionExpression",
+                          "start": 56,
+                          "end": 91,
+                          "id": null,
+                          "generator": true,
+                          "async": false,
+                          "declare": false,
+                          "typeParameters": null,
+                          "params": [],
+                          "returnType": null,
+                          "body": {
+                            "type": "BlockStatement",
+                            "start": 59,
+                            "end": 91,
+                            "body": [
+                              {
+                                "type": "ExpressionStatement",
+                                "start": 73,
+                                "end": 81,
+                                "expression": {
+                                  "type": "YieldExpression",
+                                  "start": 73,
+                                  "end": 80,
+                                  "delegate": false,
+                                  "argument": {
+                                    "type": "Literal",
+                                    "start": 79,
+                                    "end": 80,
+                                    "value": 0,
+                                    "raw": "0"
+                                  }
+                                },
+                                "directive": null
+                              }
+                            ]
+                          },
+                          "expression": false
+                        },
+                        "kind": "method",
+                        "computed": true,
+                        "static": false,
+                        "override": false,
+                        "optional": false,
+                        "accessibility": null
+                      }
+                    ]
+                  },
+                  "abstract": false,
+                  "declare": false
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": true,
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 11,
-        "decorators": [],
-        "name": "g",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

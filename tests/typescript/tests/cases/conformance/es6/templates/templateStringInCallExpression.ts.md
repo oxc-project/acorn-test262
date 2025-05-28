@@ -9,45 +9,81 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 50,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
         "end": 49,
+        "callee": {
+          "type": "TemplateLiteral",
+          "start": 0,
+          "end": 12,
+          "quasis": [
+            {
+              "type": "TemplateElement",
+              "start": 0,
+              "end": 6,
+              "value": {
+                "cooked": "abc",
+                "raw": "abc"
+              },
+              "tail": false
+            },
+            {
+              "type": "TemplateElement",
+              "start": 7,
+              "end": 12,
+              "value": {
+                "cooked": "abc",
+                "raw": "abc"
+              },
+              "tail": true
+            }
+          ],
+          "expressions": [
+            {
+              "type": "Literal",
+              "start": 6,
+              "end": 7,
+              "value": 0,
+              "raw": "0"
+            }
+          ]
+        },
+        "typeArguments": null,
         "arguments": [
           {
             "type": "TemplateLiteral",
             "start": 13,
             "end": 31,
-            "expressions": [
-              {
-                "type": "Literal",
-                "start": 22,
-                "end": 23,
-                "raw": "0",
-                "value": 0
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
                 "start": 13,
                 "end": 22,
-                "tail": false,
                 "value": {
                   "cooked": "hello ",
                   "raw": "hello "
-                }
+                },
+                "tail": false
               },
               {
                 "type": "TemplateElement",
                 "start": 23,
                 "end": 31,
-                "tail": true,
                 "value": {
                   "cooked": " world",
                   "raw": " world"
-                }
+                },
+                "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Literal",
+                "start": 22,
+                "end": 23,
+                "value": 0,
+                "raw": "0"
               }
             ]
           },
@@ -55,96 +91,60 @@ __ESTREE_TEST__:PASS:
             "type": "TemplateLiteral",
             "start": 33,
             "end": 38,
-            "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
                 "start": 33,
                 "end": 38,
-                "tail": true,
                 "value": {
                   "cooked": "   ",
                   "raw": "   "
-                }
+                },
+                "tail": true
               }
-            ]
+            ],
+            "expressions": []
           },
           {
             "type": "TemplateLiteral",
             "start": 40,
             "end": 48,
-            "expressions": [
-              {
-                "type": "Literal",
-                "start": 44,
-                "end": 45,
-                "raw": "2",
-                "value": 2
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
                 "start": 40,
                 "end": 44,
-                "tail": false,
                 "value": {
                   "cooked": "1",
                   "raw": "1"
-                }
+                },
+                "tail": false
               },
               {
                 "type": "TemplateElement",
                 "start": 45,
                 "end": 48,
-                "tail": true,
                 "value": {
                   "cooked": "3",
                   "raw": "3"
-                }
+                },
+                "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Literal",
+                "start": 44,
+                "end": 45,
+                "value": 2,
+                "raw": "2"
               }
             ]
           }
         ],
-        "callee": {
-          "type": "TemplateLiteral",
-          "start": 0,
-          "end": 12,
-          "expressions": [
-            {
-              "type": "Literal",
-              "start": 6,
-              "end": 7,
-              "raw": "0",
-              "value": 0
-            }
-          ],
-          "quasis": [
-            {
-              "type": "TemplateElement",
-              "start": 0,
-              "end": 6,
-              "tail": false,
-              "value": {
-                "cooked": "abc",
-                "raw": "abc"
-              }
-            },
-            {
-              "type": "TemplateElement",
-              "start": 7,
-              "end": 12,
-              "tail": true,
-              "value": {
-                "cooked": "abc",
-                "raw": "abc"
-              }
-            }
-          ]
-        },
-        "optional": false,
-        "typeArguments": null
-      }
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

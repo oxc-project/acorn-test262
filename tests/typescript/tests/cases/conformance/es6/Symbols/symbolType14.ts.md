@@ -9,12 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 13,
-      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 0,
         "end": 12,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 4,
@@ -24,8 +22,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": []
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

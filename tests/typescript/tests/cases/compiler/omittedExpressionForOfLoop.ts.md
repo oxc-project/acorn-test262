@@ -10,22 +10,16 @@ __ESTREE_TEST__:PASS:
       "start": 0,
       "end": 35,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 32,
-        "end": 35,
-        "body": []
-      },
       "left": {
         "type": "VariableDeclaration",
         "start": 5,
         "end": 14,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 11,
             "end": 14,
-            "definite": false,
             "id": {
               "type": "ArrayPattern",
               "start": 11,
@@ -37,11 +31,11 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
       "right": {
         "type": "Identifier",
@@ -51,6 +45,12 @@ __ESTREE_TEST__:PASS:
         "name": "doesNotExist",
         "optional": false,
         "typeAnnotation": null
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 32,
+        "end": 35,
+        "body": []
       }
     },
     {
@@ -58,22 +58,16 @@ __ESTREE_TEST__:PASS:
       "start": 37,
       "end": 69,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 66,
-        "end": 69,
-        "body": []
-      },
       "left": {
         "type": "VariableDeclaration",
         "start": 42,
         "end": 51,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 48,
             "end": 51,
-            "definite": false,
             "id": {
               "type": "ArrayPattern",
               "start": 48,
@@ -85,11 +79,11 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
       "right": {
         "type": "Identifier",
@@ -99,6 +93,12 @@ __ESTREE_TEST__:PASS:
         "name": "undefined",
         "optional": false,
         "typeAnnotation": null
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 66,
+        "end": 69,
+        "body": []
       }
     },
     {
@@ -106,22 +106,16 @@ __ESTREE_TEST__:PASS:
       "start": 71,
       "end": 96,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 93,
-        "end": 96,
-        "body": []
-      },
       "left": {
         "type": "VariableDeclaration",
         "start": 76,
         "end": 85,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 82,
             "end": 85,
-            "definite": false,
             "id": {
               "type": "ArrayPattern",
               "start": 82,
@@ -133,17 +127,23 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
       "right": {
         "type": "ArrayExpression",
         "start": 89,
         "end": 91,
         "elements": []
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 93,
+        "end": 96,
+        "body": []
       }
     },
     {
@@ -151,22 +151,16 @@ __ESTREE_TEST__:PASS:
       "start": 98,
       "end": 122,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 119,
-        "end": 122,
-        "body": []
-      },
       "left": {
         "type": "VariableDeclaration",
         "start": 103,
         "end": 111,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 109,
             "end": 111,
-            "definite": false,
             "id": {
               "type": "ArrayPattern",
               "start": 109,
@@ -176,17 +170,23 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
       "right": {
         "type": "ArrayExpression",
         "start": 115,
         "end": 117,
         "elements": []
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 119,
+        "end": 122,
+        "body": []
       }
     }
   ],

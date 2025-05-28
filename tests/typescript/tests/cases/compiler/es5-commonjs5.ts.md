@@ -13,7 +13,13 @@ __ESTREE_TEST__:PASS:
         "type": "FunctionDeclaration",
         "start": 15,
         "end": 46,
+        "id": null,
+        "generator": false,
         "async": false,
+        "declare": false,
+        "typeParameters": null,
+        "params": [],
+        "returnType": null,
         "body": {
           "type": "BlockStatement",
           "start": 27,
@@ -27,19 +33,13 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 37,
                 "end": 43,
-                "raw": "\"test\"",
-                "value": "test"
+                "value": "test",
+                "raw": "\"test\""
               }
             }
           ]
         },
-        "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": null,
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "expression": false
       },
       "exportKind": "value"
     }

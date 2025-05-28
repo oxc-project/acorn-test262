@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 29,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 17,
-        "end": 28,
-        "raw": "\"./file.js\"",
-        "value": "./file.js"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -33,21 +25,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 17,
+        "end": 28,
+        "value": "./file.js",
+        "raw": "\"./file.js\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 30,
       "end": 60,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 47,
-        "end": 59,
-        "raw": "\"./file.jsx\"",
-        "value": "./file.jsx"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -64,21 +56,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 47,
+        "end": 59,
+        "value": "./file.jsx",
+        "raw": "\"./file.jsx\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 61,
       "end": 90,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 78,
-        "end": 89,
-        "raw": "\"./file.ts\"",
-        "value": "./file.ts"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -95,21 +87,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 78,
+        "end": 89,
+        "value": "./file.ts",
+        "raw": "\"./file.ts\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 91,
       "end": 121,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 108,
-        "end": 120,
-        "raw": "\"./file.tsx\"",
-        "value": "./file.tsx"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -126,21 +118,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 108,
+        "end": 120,
+        "value": "./file.tsx",
+        "raw": "\"./file.tsx\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 122,
       "end": 152,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 139,
-        "end": 151,
-        "raw": "\"./file.mjs\"",
-        "value": "./file.mjs"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -157,21 +149,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 139,
+        "end": 151,
+        "value": "./file.mjs",
+        "raw": "\"./file.mjs\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 153,
       "end": 183,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 170,
-        "end": 182,
-        "raw": "\"./file.cjs\"",
-        "value": "./file.cjs"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -188,21 +180,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 170,
+        "end": 182,
+        "value": "./file.cjs",
+        "raw": "\"./file.cjs\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 184,
       "end": 214,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 201,
-        "end": 213,
-        "raw": "\"./file.mts\"",
-        "value": "./file.mts"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -219,21 +211,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 201,
+        "end": 213,
+        "value": "./file.mts",
+        "raw": "\"./file.mts\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 215,
       "end": 245,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 232,
-        "end": 244,
-        "raw": "\"./file.cts\"",
-        "value": "./file.cts"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -250,21 +242,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 232,
+        "end": 244,
+        "value": "./file.cts",
+        "raw": "\"./file.cts\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 246,
       "end": 277,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 263,
-        "end": 276,
-        "raw": "\"./file.d.ts\"",
-        "value": "./file.d.ts"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -281,21 +273,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 263,
+        "end": 276,
+        "value": "./file.d.ts",
+        "raw": "\"./file.d.ts\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 278,
       "end": 311,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 296,
-        "end": 310,
-        "raw": "\"./file.d.cts\"",
-        "value": "./file.d.cts"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -312,21 +304,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 296,
+        "end": 310,
+        "value": "./file.d.cts",
+        "raw": "\"./file.d.cts\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 312,
       "end": 345,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 330,
-        "end": 344,
-        "raw": "\"./file.d.mts\"",
-        "value": "./file.d.mts"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -343,21 +335,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 330,
+        "end": 344,
+        "value": "./file.d.mts",
+        "raw": "\"./file.d.mts\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 346,
       "end": 383,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 364,
-        "end": 382,
-        "raw": "\"./file.d.json.ts\"",
-        "value": "./file.d.json.ts"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -374,8 +366,16 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 364,
+        "end": 382,
+        "value": "./file.d.json.ts",
+        "raw": "\"./file.d.json.ts\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",
@@ -393,12 +393,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 24,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 12,
           "end": 23,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
@@ -418,17 +418,17 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 17,
                   "end": 23,
-                  "raw": "\"bad1\"",
-                  "value": "bad1"
+                  "value": "bad1",
+                  "raw": "\"bad1\""
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -461,12 +461,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 24,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 12,
           "end": 23,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
@@ -486,17 +486,17 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 17,
                   "end": 23,
-                  "raw": "\"bad2\"",
-                  "value": "bad2"
+                  "value": "bad2",
+                  "raw": "\"bad2\""
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -529,12 +529,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 24,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 12,
           "end": 23,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
@@ -554,17 +554,17 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 17,
                   "end": 23,
-                  "raw": "\"bad3\"",
-                  "value": "bad3"
+                  "value": "bad3",
+                  "raw": "\"bad3\""
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -597,12 +597,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 24,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 12,
           "end": 23,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
@@ -622,17 +622,17 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 17,
                   "end": 23,
-                  "raw": "\"bad4\"",
-                  "value": "bad4"
+                  "value": "bad4",
+                  "raw": "\"bad4\""
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -665,12 +665,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 24,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 12,
           "end": 23,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
@@ -690,17 +690,17 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 17,
                   "end": 23,
-                  "raw": "\"bad5\"",
-                  "value": "bad5"
+                  "value": "bad5",
+                  "raw": "\"bad5\""
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -733,12 +733,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 24,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 12,
           "end": 23,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
@@ -758,17 +758,17 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 17,
                   "end": 23,
-                  "raw": "\"bad6\"",
-                  "value": "bad6"
+                  "value": "bad6",
+                  "raw": "\"bad6\""
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -801,12 +801,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 24,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 12,
           "end": 23,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
@@ -826,17 +826,17 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 17,
                   "end": 23,
-                  "raw": "\"bad7\"",
-                  "value": "bad7"
+                  "value": "bad7",
+                  "raw": "\"bad7\""
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -869,12 +869,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 24,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 12,
           "end": 23,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
@@ -894,17 +894,17 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 17,
                   "end": 23,
-                  "raw": "\"bad8\"",
-                  "value": "bad8"
+                  "value": "bad8",
+                  "raw": "\"bad8\""
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -937,12 +937,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 24,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 12,
           "end": 23,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
@@ -962,17 +962,17 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 17,
                   "end": 23,
-                  "raw": "\"bad9\"",
-                  "value": "bad9"
+                  "value": "bad9",
+                  "raw": "\"bad9\""
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -1005,12 +1005,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 25,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 12,
           "end": 24,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
@@ -1030,17 +1030,17 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 17,
                   "end": 24,
-                  "raw": "\"bad10\"",
-                  "value": "bad10"
+                  "value": "bad10",
+                  "raw": "\"bad10\""
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -1073,12 +1073,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 25,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 12,
           "end": 24,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
@@ -1098,17 +1098,17 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 17,
                   "end": 24,
-                  "raw": "\"bad11\"",
-                  "value": "bad11"
+                  "value": "bad11",
+                  "raw": "\"bad11\""
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -1141,12 +1141,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 25,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 12,
           "end": 24,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
@@ -1166,17 +1166,17 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 17,
                   "end": 24,
-                  "raw": "\"bad12\"",
-                  "value": "bad12"
+                  "value": "bad12",
+                  "raw": "\"bad12\""
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "ExportDefaultDeclaration",

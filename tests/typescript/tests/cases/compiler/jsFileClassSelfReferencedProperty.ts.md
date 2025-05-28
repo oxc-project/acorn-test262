@@ -9,145 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 120,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 7,
         "end": 120,
-        "abstract": false,
-        "body": {
-          "type": "ClassBody",
-          "start": 31,
-          "end": 120,
-          "body": [
-            {
-              "type": "MethodDefinition",
-              "start": 35,
-              "end": 118,
-              "accessibility": null,
-              "computed": false,
-              "decorators": [],
-              "key": {
-                "type": "Identifier",
-                "start": 35,
-                "end": 46,
-                "decorators": [],
-                "name": "constructor",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "kind": "constructor",
-              "optional": false,
-              "override": false,
-              "static": false,
-              "value": {
-                "type": "FunctionExpression",
-                "start": 47,
-                "end": 118,
-                "async": false,
-                "body": {
-                  "type": "BlockStatement",
-                  "start": 50,
-                  "end": 118,
-                  "body": [
-                    {
-                      "type": "ExpressionStatement",
-                      "start": 56,
-                      "end": 114,
-                      "directive": null,
-                      "expression": {
-                        "type": "AssignmentExpression",
-                        "start": 56,
-                        "end": 114,
-                        "operator": "=",
-                        "left": {
-                          "type": "MemberExpression",
-                          "start": 56,
-                          "end": 78,
-                          "computed": false,
-                          "object": {
-                            "type": "ThisExpression",
-                            "start": 56,
-                            "end": 60
-                          },
-                          "optional": false,
-                          "property": {
-                            "type": "Identifier",
-                            "start": 61,
-                            "end": 78,
-                            "decorators": [],
-                            "name": "testStackOverflow",
-                            "optional": false,
-                            "typeAnnotation": null
-                          }
-                        },
-                        "right": {
-                          "type": "CallExpression",
-                          "start": 81,
-                          "end": 114,
-                          "arguments": [
-                            {
-                              "type": "ThisExpression",
-                              "start": 109,
-                              "end": 113
-                            }
-                          ],
-                          "callee": {
-                            "type": "MemberExpression",
-                            "start": 81,
-                            "end": 108,
-                            "computed": false,
-                            "object": {
-                              "type": "MemberExpression",
-                              "start": 81,
-                              "end": 103,
-                              "computed": false,
-                              "object": {
-                                "type": "ThisExpression",
-                                "start": 81,
-                                "end": 85
-                              },
-                              "optional": false,
-                              "property": {
-                                "type": "Identifier",
-                                "start": 86,
-                                "end": 103,
-                                "decorators": [],
-                                "name": "testStackOverflow",
-                                "optional": false,
-                                "typeAnnotation": null
-                              }
-                            },
-                            "optional": false,
-                            "property": {
-                              "type": "Identifier",
-                              "start": 104,
-                              "end": 108,
-                              "decorators": [],
-                              "name": "bind",
-                              "optional": false,
-                              "typeAnnotation": null
-                            }
-                          },
-                          "optional": false,
-                          "typeArguments": null
-                        }
-                      }
-                    }
-                  ]
-                },
-                "declare": false,
-                "expression": false,
-                "generator": false,
-                "id": null,
-                "params": [],
-                "returnType": null,
-                "typeParameters": null
-              }
-            }
-          ]
-        },
-        "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
@@ -158,14 +23,149 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "implements": [],
+        "typeParameters": null,
         "superClass": null,
         "superTypeArguments": null,
-        "typeParameters": null
+        "implements": [],
+        "body": {
+          "type": "ClassBody",
+          "start": 31,
+          "end": 120,
+          "body": [
+            {
+              "type": "MethodDefinition",
+              "start": 35,
+              "end": 118,
+              "decorators": [],
+              "key": {
+                "type": "Identifier",
+                "start": 35,
+                "end": 46,
+                "decorators": [],
+                "name": "constructor",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "value": {
+                "type": "FunctionExpression",
+                "start": 47,
+                "end": 118,
+                "id": null,
+                "generator": false,
+                "async": false,
+                "declare": false,
+                "typeParameters": null,
+                "params": [],
+                "returnType": null,
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 50,
+                  "end": 118,
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "start": 56,
+                      "end": 114,
+                      "expression": {
+                        "type": "AssignmentExpression",
+                        "start": 56,
+                        "end": 114,
+                        "operator": "=",
+                        "left": {
+                          "type": "MemberExpression",
+                          "start": 56,
+                          "end": 78,
+                          "object": {
+                            "type": "ThisExpression",
+                            "start": 56,
+                            "end": 60
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 61,
+                            "end": 78,
+                            "decorators": [],
+                            "name": "testStackOverflow",
+                            "optional": false,
+                            "typeAnnotation": null
+                          },
+                          "optional": false,
+                          "computed": false
+                        },
+                        "right": {
+                          "type": "CallExpression",
+                          "start": 81,
+                          "end": 114,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 81,
+                            "end": 108,
+                            "object": {
+                              "type": "MemberExpression",
+                              "start": 81,
+                              "end": 103,
+                              "object": {
+                                "type": "ThisExpression",
+                                "start": 81,
+                                "end": 85
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 86,
+                                "end": 103,
+                                "decorators": [],
+                                "name": "testStackOverflow",
+                                "optional": false,
+                                "typeAnnotation": null
+                              },
+                              "optional": false,
+                              "computed": false
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 104,
+                              "end": 108,
+                              "decorators": [],
+                              "name": "bind",
+                              "optional": false,
+                              "typeAnnotation": null
+                            },
+                            "optional": false,
+                            "computed": false
+                          },
+                          "typeArguments": null,
+                          "arguments": [
+                            {
+                              "type": "ThisExpression",
+                              "start": 109,
+                              "end": 113
+                            }
+                          ],
+                          "optional": false
+                        }
+                      },
+                      "directive": null
+                    }
+                  ]
+                },
+                "expression": false
+              },
+              "kind": "constructor",
+              "computed": false,
+              "static": false,
+              "override": false,
+              "optional": false,
+              "accessibility": null
+            }
+          ]
+        },
+        "abstract": false,
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

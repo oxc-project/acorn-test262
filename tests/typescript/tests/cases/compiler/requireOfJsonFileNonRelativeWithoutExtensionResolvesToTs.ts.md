@@ -18,7 +18,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 11,
@@ -27,21 +26,22 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 19,
           "end": 22,
-          "raw": "\"f\"",
-          "value": "f"
+          "value": "f",
+          "raw": "\"f\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 48,
       "end": 72,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 52,
           "end": 71,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 52,
@@ -68,11 +68,11 @@ __ESTREE_TEST__:PASS:
             "name": "f",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     }
   ],
   "sourceType": "module",
@@ -94,8 +94,8 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "start": 9,
         "end": 11,
-        "raw": "10",
-        "value": 10
+        "value": 10,
+        "raw": "10"
       }
     }
   ],

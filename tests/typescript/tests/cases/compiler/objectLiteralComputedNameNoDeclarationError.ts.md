@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 49,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 6,
           "end": 49,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
@@ -33,7 +33,7 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 18,
                 "end": 46,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 18,
@@ -43,10 +43,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "TSAsExpression",
                   "start": 26,
@@ -55,8 +51,8 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 26,
                     "end": 34,
-                    "raw": "'banana'",
-                    "value": "banana"
+                    "value": "banana",
+                    "raw": "'banana'"
                   },
                   "typeAnnotation": {
                     "type": "TSLiteralType",
@@ -66,34 +62,37 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 38,
                       "end": 46,
-                      "raw": "'banana'",
-                      "value": "banana"
+                      "value": "banana",
+                      "raw": "'banana'"
                     }
                   }
-                }
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 51,
       "end": 94,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 58,
         "end": 94,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 64,
             "end": 93,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 64,
@@ -112,12 +111,11 @@ __ESTREE_TEST__:PASS:
                   "type": "Property",
                   "start": 76,
                   "end": 91,
-                  "computed": true,
+                  "kind": "init",
                   "key": {
                     "type": "MemberExpression",
                     "start": 77,
                     "end": 87,
-                    "computed": false,
                     "object": {
                       "type": "Identifier",
                       "start": 77,
@@ -127,7 +125,6 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "optional": false,
                     "property": {
                       "type": "Identifier",
                       "start": 81,
@@ -136,30 +133,33 @@ __ESTREE_TEST__:PASS:
                       "name": "BANANA",
                       "optional": false,
                       "typeAnnotation": null
-                    }
+                    },
+                    "optional": false,
+                    "computed": false
                   },
-                  "kind": "init",
-                  "method": false,
-                  "optional": false,
-                  "shorthand": false,
                   "value": {
                     "type": "Literal",
                     "start": 90,
                     "end": 91,
-                    "raw": "1",
-                    "value": 1
-                  }
+                    "value": 1,
+                    "raw": "1"
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": true,
+                  "optional": false
                 }
               ]
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

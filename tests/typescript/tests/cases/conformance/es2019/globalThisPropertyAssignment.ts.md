@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 10,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 0,
@@ -19,13 +18,11 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 0,
           "end": 6,
-          "computed": false,
           "object": {
             "type": "ThisExpression",
             "start": 0,
             "end": 4
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 5,
@@ -34,27 +31,30 @@ __ESTREE_TEST__:PASS:
             "name": "x",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
           "start": 9,
           "end": 10,
-          "raw": "1",
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "VariableDeclaration",
       "start": 11,
       "end": 20,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 15,
           "end": 20,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 15,
@@ -68,19 +68,18 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 19,
             "end": 20,
-            "raw": "2",
-            "value": 2
-          }
+            "value": 2,
+            "raw": "2"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 42,
       "end": 54,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 42,
@@ -90,7 +89,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 42,
           "end": 50,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 42,
@@ -100,7 +98,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 49,
@@ -109,22 +106,24 @@ __ESTREE_TEST__:PASS:
             "name": "z",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
           "start": 53,
           "end": 54,
-          "raw": "3",
-          "value": 3
+          "value": 3,
+          "raw": "3"
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 119,
       "end": 139,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 119,
@@ -134,7 +133,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 119,
           "end": 135,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 119,
@@ -144,7 +142,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 130,
@@ -153,16 +150,19 @@ __ESTREE_TEST__:PASS:
             "name": "alpha",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
           "start": 138,
           "end": 139,
-          "raw": "4",
-          "value": 4
+          "value": 4,
+          "raw": "4"
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

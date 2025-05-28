@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 107,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 6,
           "end": 106,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
@@ -34,7 +34,6 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 15,
                   "end": 21,
-                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 15,
@@ -43,7 +42,8 @@ __ESTREE_TEST__:PASS:
                     "name": "RegExp",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "typeArguments": null
                 }
               }
             }
@@ -57,41 +57,41 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 29,
                 "end": 51,
+                "value": null,
                 "raw": "/\\u{10000}[\\u{10000}]/",
                 "regex": {
                   "flags": "",
                   "pattern": "\\u{10000}[\\u{10000}]"
-                },
-                "value": null
+                }
               },
               {
                 "type": "Literal",
                 "start": 54,
                 "end": 77,
+                "value": null,
                 "raw": "/\\u{10000}[\\u{10000}]/u",
                 "regex": {
                   "flags": "u",
                   "pattern": "\\u{10000}[\\u{10000}]"
-                },
-                "value": null
+                }
               },
               {
                 "type": "Literal",
                 "start": 80,
                 "end": 103,
+                "value": null,
                 "raw": "/\\u{10000}[\\u{10000}]/v",
                 "regex": {
                   "flags": "v",
                   "pattern": "\\u{10000}[\\u{10000}]"
-                },
-                "value": null
+                }
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "script",

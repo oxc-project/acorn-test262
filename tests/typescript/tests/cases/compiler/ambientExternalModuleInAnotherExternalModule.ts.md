@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 11,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 8,
-        "end": 11,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -27,10 +19,18 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 8,
+        "end": 11,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "TSExportAssignment",
@@ -50,7 +50,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 25,
       "end": 72,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 40,
+        "end": 45,
+        "value": "ext",
+        "raw": "\"ext\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 46,
@@ -60,19 +66,10 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 52,
             "end": 70,
-            "attributes": [],
             "declaration": {
               "type": "ClassDeclaration",
               "start": 59,
               "end": 70,
-              "abstract": false,
-              "body": {
-                "type": "ClassBody",
-                "start": 67,
-                "end": 70,
-                "body": []
-              },
-              "declare": false,
               "decorators": [],
               "id": {
                 "type": "Identifier",
@@ -83,26 +80,29 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "implements": [],
+              "typeParameters": null,
               "superClass": null,
               "superTypeArguments": null,
-              "typeParameters": null
+              "implements": [],
+              "body": {
+                "type": "ClassBody",
+                "start": 67,
+                "end": 70,
+                "body": []
+              },
+              "abstract": false,
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 40,
-        "end": 45,
-        "raw": "\"ext\"",
-        "value": "ext"
-      }
+      "global": false
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -117,7 +117,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 131,
@@ -126,21 +125,22 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 139,
           "end": 144,
-          "raw": "\"ext\"",
-          "value": "ext"
+          "value": "ext",
+          "raw": "\"ext\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 147,
       "end": 159,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 151,
           "end": 158,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 151,
@@ -158,11 +158,11 @@ __ESTREE_TEST__:PASS:
             "name": "ext",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "module",

@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 33,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 32,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -47,7 +47,6 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 26,
             "end": 32,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 26,
@@ -57,13 +56,14 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -73,31 +73,6 @@ __ESTREE_TEST__:PASS:
         "type": "FunctionDeclaration",
         "start": 50,
         "end": 99,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 79,
-          "end": 99,
-          "body": [
-            {
-              "type": "ReturnStatement",
-              "start": 85,
-              "end": 97,
-              "argument": {
-                "type": "Identifier",
-                "start": 92,
-                "end": 96,
-                "decorators": [],
-                "name": "func",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            }
-          ]
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 59,
@@ -107,6 +82,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [],
         "returnType": {
           "type": "TSTypeAnnotation",
@@ -128,7 +107,28 @@ __ESTREE_TEST__:PASS:
             "typeArguments": null
           }
         },
-        "typeParameters": null
+        "body": {
+          "type": "BlockStatement",
+          "start": 79,
+          "end": 99,
+          "body": [
+            {
+              "type": "ReturnStatement",
+              "start": 85,
+              "end": 97,
+              "argument": {
+                "type": "Identifier",
+                "start": 92,
+                "end": 96,
+                "decorators": [],
+                "name": "func",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            }
+          ]
+        },
+        "expression": false
       },
       "exportKind": "value"
     },
@@ -136,12 +136,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 101,
       "end": 133,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 105,
           "end": 132,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 105,
@@ -174,7 +174,6 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 126,
             "end": 132,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 126,
@@ -184,13 +183,14 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "module",

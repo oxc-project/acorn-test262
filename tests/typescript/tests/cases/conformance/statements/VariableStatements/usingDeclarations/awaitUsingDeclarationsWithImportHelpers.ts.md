@@ -9,17 +9,31 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 10,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "FunctionDeclaration",
       "start": 12,
       "end": 60,
+      "id": {
+        "type": "Identifier",
+        "start": 27,
+        "end": 28,
+        "decorators": [],
+        "name": "f",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": true,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 31,
@@ -29,12 +43,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 37,
             "end": 58,
+            "kind": "await using",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 49,
                 "end": 57,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 49,
@@ -48,31 +62,17 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 53,
                   "end": 57,
-                  "raw": "null",
-                  "value": null
-                }
+                  "value": null,
+                  "raw": "null"
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "await using"
+            "declare": false
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 27,
-        "end": 28,
-        "decorators": [],
-        "name": "f",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "module",

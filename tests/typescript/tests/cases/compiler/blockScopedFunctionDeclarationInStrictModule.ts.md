@@ -9,7 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "IfStatement",
       "start": 0,
       "end": 53,
-      "alternate": null,
+      "test": {
+        "type": "Literal",
+        "start": 4,
+        "end": 8,
+        "value": true,
+        "raw": "true"
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 10,
@@ -19,16 +25,6 @@ __ESTREE_TEST__:PASS:
             "type": "FunctionDeclaration",
             "start": 16,
             "end": 34,
-            "async": false,
-            "body": {
-              "type": "BlockStatement",
-              "start": 31,
-              "end": 34,
-              "body": []
-            },
-            "declare": false,
-            "expression": false,
-            "generator": false,
             "id": {
               "type": "Identifier",
               "start": 25,
@@ -38,20 +34,28 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
+            "generator": false,
+            "async": false,
+            "declare": false,
+            "typeParameters": null,
             "params": [],
             "returnType": null,
-            "typeParameters": null
+            "body": {
+              "type": "BlockStatement",
+              "start": 31,
+              "end": 34,
+              "body": []
+            },
+            "expression": false
           },
           {
             "type": "ExpressionStatement",
             "start": 39,
             "end": 45,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 39,
               "end": 44,
-              "arguments": [],
               "callee": {
                 "type": "Identifier",
                 "start": 39,
@@ -61,19 +65,15 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": [],
+              "optional": false
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "Literal",
-        "start": 4,
-        "end": 8,
-        "raw": "true",
-        "value": true
-      }
+      "alternate": null
     },
     {
       "type": "TSExportAssignment",

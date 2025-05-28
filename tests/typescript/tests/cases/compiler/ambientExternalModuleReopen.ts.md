@@ -9,7 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 42,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 19,
+        "value": "fs",
+        "raw": "\"fs\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 20,
@@ -19,12 +25,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 26,
             "end": 40,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 30,
                 "end": 39,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 30,
@@ -43,29 +49,29 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 19,
-        "raw": "\"fs\"",
-        "value": "fs"
-      }
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 43,
       "end": 85,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 58,
+        "end": 62,
+        "value": "fs",
+        "raw": "'fs'"
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 63,
@@ -75,12 +81,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 69,
             "end": 83,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 73,
                 "end": 82,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 73,
@@ -99,23 +105,17 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 58,
-        "end": 62,
-        "raw": "'fs'",
-        "value": "fs"
-      }
+      "global": false
     }
   ],
   "sourceType": "script",

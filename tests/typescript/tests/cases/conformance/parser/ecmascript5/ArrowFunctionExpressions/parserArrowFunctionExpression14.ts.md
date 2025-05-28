@@ -9,45 +9,34 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 47,
-      "directive": null,
       "expression": {
         "type": "ConditionalExpression",
         "start": 0,
         "end": 46,
-        "alternate": {
-          "type": "Identifier",
-          "start": 45,
-          "end": 46,
-          "decorators": [],
-          "name": "e",
-          "optional": false,
-          "typeAnnotation": null
+        "test": {
+          "type": "CallExpression",
+          "start": 0,
+          "end": 3,
+          "callee": {
+            "type": "Identifier",
+            "start": 0,
+            "end": 1,
+            "decorators": [],
+            "name": "a",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null,
+          "arguments": [],
+          "optional": false
         },
         "consequent": {
           "type": "ArrowFunctionExpression",
           "start": 6,
           "end": 42,
-          "async": false,
-          "body": {
-            "type": "CallExpression",
-            "start": 39,
-            "end": 42,
-            "arguments": [],
-            "callee": {
-              "type": "Identifier",
-              "start": 39,
-              "end": 40,
-              "decorators": [],
-              "name": "d",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "typeArguments": null
-          },
           "expression": true,
-          "generator": false,
-          "id": null,
+          "async": false,
+          "typeParameters": null,
           "params": [
             {
               "type": "Identifier",
@@ -96,26 +85,37 @@ __ESTREE_TEST__:PASS:
               "end": 35
             }
           },
-          "typeParameters": null
-        },
-        "test": {
-          "type": "CallExpression",
-          "start": 0,
-          "end": 3,
-          "arguments": [],
-          "callee": {
-            "type": "Identifier",
-            "start": 0,
-            "end": 1,
-            "decorators": [],
-            "name": "a",
-            "optional": false,
-            "typeAnnotation": null
+          "body": {
+            "type": "CallExpression",
+            "start": 39,
+            "end": 42,
+            "callee": {
+              "type": "Identifier",
+              "start": 39,
+              "end": 40,
+              "decorators": [],
+              "name": "d",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null,
+            "arguments": [],
+            "optional": false
           },
+          "id": null,
+          "generator": false
+        },
+        "alternate": {
+          "type": "Identifier",
+          "start": 45,
+          "end": 46,
+          "decorators": [],
+          "name": "e",
           "optional": false,
-          "typeArguments": null
+          "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",
@@ -133,45 +133,34 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 47,
-      "directive": null,
       "expression": {
         "type": "ConditionalExpression",
         "start": 0,
         "end": 46,
-        "alternate": {
-          "type": "Identifier",
-          "start": 45,
-          "end": 46,
-          "decorators": [],
-          "name": "e",
-          "optional": false,
-          "typeAnnotation": null
+        "test": {
+          "type": "CallExpression",
+          "start": 0,
+          "end": 3,
+          "callee": {
+            "type": "Identifier",
+            "start": 0,
+            "end": 1,
+            "decorators": [],
+            "name": "a",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null,
+          "arguments": [],
+          "optional": false
         },
         "consequent": {
           "type": "ArrowFunctionExpression",
           "start": 6,
           "end": 42,
-          "async": false,
-          "body": {
-            "type": "CallExpression",
-            "start": 39,
-            "end": 42,
-            "arguments": [],
-            "callee": {
-              "type": "Identifier",
-              "start": 39,
-              "end": 40,
-              "decorators": [],
-              "name": "d",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "typeArguments": null
-          },
           "expression": true,
-          "generator": false,
-          "id": null,
+          "async": false,
+          "typeParameters": null,
           "params": [
             {
               "type": "Identifier",
@@ -220,26 +209,37 @@ __ESTREE_TEST__:PASS:
               "end": 35
             }
           },
-          "typeParameters": null
-        },
-        "test": {
-          "type": "CallExpression",
-          "start": 0,
-          "end": 3,
-          "arguments": [],
-          "callee": {
-            "type": "Identifier",
-            "start": 0,
-            "end": 1,
-            "decorators": [],
-            "name": "a",
-            "optional": false,
-            "typeAnnotation": null
+          "body": {
+            "type": "CallExpression",
+            "start": 39,
+            "end": 42,
+            "callee": {
+              "type": "Identifier",
+              "start": 39,
+              "end": 40,
+              "decorators": [],
+              "name": "d",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null,
+            "arguments": [],
+            "optional": false
           },
+          "id": null,
+          "generator": false
+        },
+        "alternate": {
+          "type": "Identifier",
+          "start": 45,
+          "end": 46,
+          "decorators": [],
+          "name": "e",
           "optional": false,
-          "typeArguments": null
+          "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

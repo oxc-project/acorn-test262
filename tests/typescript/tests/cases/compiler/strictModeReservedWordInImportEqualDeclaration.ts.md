@@ -9,14 +9,14 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 12,
-      "directive": "use strict",
       "expression": {
         "type": "Literal",
         "start": 0,
         "end": 12,
-        "raw": "\"use strict\"",
-        "value": "use strict"
-      }
+        "value": "use strict",
+        "raw": "\"use strict\""
+      },
+      "directive": "use strict"
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -31,7 +31,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 29,
@@ -40,10 +39,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 37,
           "end": 40,
-          "raw": "\"1\"",
-          "value": "1"
+          "value": "1",
+          "raw": "\"1\""
         }
-      }
+      },
+      "importKind": "value"
     }
   ],
   "sourceType": "script",

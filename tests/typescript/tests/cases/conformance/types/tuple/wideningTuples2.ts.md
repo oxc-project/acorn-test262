@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 121,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 120,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -30,6 +30,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSFunctionType",
                 "start": 9,
                 "end": 20,
+                "typeParameters": null,
                 "params": [],
                 "returnType": {
                   "type": "TSTypeAnnotation",
@@ -47,8 +48,7 @@ __ESTREE_TEST__:PASS:
                       }
                     ]
                   }
-                },
-                "typeParameters": null
+                }
               }
             }
           },
@@ -56,7 +56,21 @@ __ESTREE_TEST__:PASS:
             "type": "FunctionExpression",
             "start": 23,
             "end": 120,
+            "id": {
+              "type": "Identifier",
+              "start": 32,
+              "end": 35,
+              "decorators": [],
+              "name": "bar",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "generator": false,
             "async": false,
+            "declare": false,
+            "typeParameters": null,
+            "params": [],
+            "returnType": null,
             "body": {
               "type": "BlockStatement",
               "start": 38,
@@ -66,12 +80,12 @@ __ESTREE_TEST__:PASS:
                   "type": "VariableDeclaration",
                   "start": 44,
                   "end": 69,
+                  "kind": "let",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
                       "start": 48,
                       "end": 68,
-                      "definite": false,
                       "id": {
                         "type": "Identifier",
                         "start": 48,
@@ -85,7 +99,6 @@ __ESTREE_TEST__:PASS:
                         "type": "CallExpression",
                         "start": 63,
                         "end": 68,
-                        "arguments": [],
                         "callee": {
                           "type": "Identifier",
                           "start": 63,
@@ -95,19 +108,19 @@ __ESTREE_TEST__:PASS:
                           "optional": false,
                           "typeAnnotation": null
                         },
-                        "optional": false,
-                        "typeArguments": null
-                      }
+                        "typeArguments": null,
+                        "arguments": [],
+                        "optional": false
+                      },
+                      "definite": false
                     }
                   ],
-                  "declare": false,
-                  "kind": "let"
+                  "declare": false
                 },
                 {
                   "type": "ExpressionStatement",
                   "start": 74,
                   "end": 94,
-                  "directive": null,
                   "expression": {
                     "type": "AssignmentExpression",
                     "start": 74,
@@ -131,12 +144,13 @@ __ESTREE_TEST__:PASS:
                           "type": "Literal",
                           "start": 90,
                           "end": 92,
-                          "raw": "\"\"",
-                          "value": ""
+                          "value": "",
+                          "raw": "\"\""
                         }
                       ]
                     }
-                  }
+                  },
+                  "directive": null
                 },
                 {
                   "type": "ReturnStatement",
@@ -161,26 +175,12 @@ __ESTREE_TEST__:PASS:
                 }
               ]
             },
-            "declare": false,
-            "expression": false,
-            "generator": false,
-            "id": {
-              "type": "Identifier",
-              "start": 32,
-              "end": 35,
-              "decorators": [],
-              "name": "bar",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
+            "expression": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

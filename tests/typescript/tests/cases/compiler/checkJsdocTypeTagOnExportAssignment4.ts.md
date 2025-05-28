@@ -24,8 +24,8 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "start": 68,
         "end": 70,
-        "raw": "\"\"",
-        "value": ""
+        "value": "",
+        "raw": "\"\""
       },
       "exportKind": "value"
     }

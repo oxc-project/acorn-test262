@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSEnumDeclaration",
       "start": 0,
       "end": 18,
-      "body": {
-        "type": "TSEnumBody",
-        "start": 15,
-        "end": 18,
-        "members": []
-      },
-      "const": false,
-      "declare": true,
       "id": {
         "type": "Identifier",
         "start": 13,
@@ -25,7 +17,15 @@ __ESTREE_TEST__:PASS:
         "name": "E",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "body": {
+        "type": "TSEnumBody",
+        "start": 15,
+        "end": 18,
+        "members": []
+      },
+      "const": false,
+      "declare": true
     }
   ],
   "sourceType": "script",

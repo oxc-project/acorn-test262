@@ -20,12 +20,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 25,
       "end": 31,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 29,
           "end": 30,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 29,
@@ -35,22 +35,22 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 53,
       "end": 59,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 57,
           "end": 58,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 57,
@@ -60,11 +60,11 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     }
   ],
   "sourceType": "module",

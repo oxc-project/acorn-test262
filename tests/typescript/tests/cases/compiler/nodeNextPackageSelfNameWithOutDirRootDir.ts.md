@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 36,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 20,
-        "end": 35,
-        "raw": "\"@this/package\"",
-        "value": "@this/package"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -33,24 +25,29 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 20,
+        "end": 35,
+        "value": "@this/package",
+        "raw": "\"@this/package\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 38,
       "end": 49,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 38,
         "end": 48,
-        "arguments": [],
         "callee": {
           "type": "MemberExpression",
           "start": 38,
           "end": 46,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 38,
@@ -60,7 +57,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 41,
@@ -69,31 +65,24 @@ __ESTREE_TEST__:PASS:
             "name": "thing",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 51,
       "end": 83,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 58,
         "end": 83,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 81,
-          "end": 83,
-          "body": []
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 67,
@@ -103,6 +92,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [],
         "returnType": {
           "type": "TSTypeAnnotation",
@@ -114,11 +107,18 @@ __ESTREE_TEST__:PASS:
             "end": 80
           }
         },
-        "typeParameters": null
+        "body": {
+          "type": "BlockStatement",
+          "start": 81,
+          "end": 83,
+          "body": []
+        },
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

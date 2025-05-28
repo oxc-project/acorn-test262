@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 11,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 8,
-        "end": 11,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -27,10 +19,18 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 8,
+        "end": 11,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -63,14 +63,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 59,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 50,
-        "end": 58,
-        "raw": "\"server\"",
-        "value": "server"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -101,24 +93,31 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 50,
+        "end": 58,
+        "value": "server",
+        "raw": "\"server\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 60,
       "end": 96,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 67,
         "end": 96,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 71,
             "end": 95,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 71,
@@ -132,7 +131,6 @@ __ESTREE_TEST__:PASS:
               "type": "NewExpression",
               "start": 75,
               "end": 95,
-              "arguments": [],
               "callee": {
                 "type": "Identifier",
                 "start": 79,
@@ -142,16 +140,18 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "arguments": []
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

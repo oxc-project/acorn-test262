@@ -9,71 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 50,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 8,
-        "end": 50,
-        "body": [
-          {
-            "type": "PropertyDefinition",
-            "start": 12,
-            "end": 28,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
-            "key": {
-              "type": "PrivateIdentifier",
-              "start": 19,
-              "end": 23,
-              "name": "foo"
-            },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": true,
-            "typeAnnotation": null,
-            "value": {
-              "type": "Literal",
-              "start": 26,
-              "end": 27,
-              "raw": "1",
-              "value": 1
-            }
-          },
-          {
-            "type": "PropertyDefinition",
-            "start": 31,
-            "end": 48,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
-            "key": {
-              "type": "PrivateIdentifier",
-              "start": 38,
-              "end": 43,
-              "name": "prop"
-            },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": true,
-            "typeAnnotation": null,
-            "value": {
-              "type": "Literal",
-              "start": 46,
-              "end": 47,
-              "raw": "2",
-              "value": 2
-            }
-          }
-        ]
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -84,10 +19,75 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 8,
+        "end": 50,
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "start": 12,
+            "end": 28,
+            "decorators": [],
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 19,
+              "end": 23,
+              "name": "foo"
+            },
+            "typeAnnotation": null,
+            "value": {
+              "type": "Literal",
+              "start": 26,
+              "end": 27,
+              "value": 1,
+              "raw": "1"
+            },
+            "computed": false,
+            "static": true,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 31,
+            "end": 48,
+            "decorators": [],
+            "key": {
+              "type": "PrivateIdentifier",
+              "start": 38,
+              "end": 43,
+              "name": "prop"
+            },
+            "typeAnnotation": null,
+            "value": {
+              "type": "Literal",
+              "start": 46,
+              "end": 47,
+              "value": 2,
+              "raw": "2"
+            },
+            "computed": false,
+            "static": true,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
+          }
+        ]
+      },
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

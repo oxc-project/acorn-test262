@@ -9,7 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 73,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 13,
+        "decorators": [],
+        "name": "salt",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 16,
@@ -19,7 +33,21 @@ __ESTREE_TEST__:PASS:
             "type": "FunctionDeclaration",
             "start": 20,
             "end": 50,
+            "id": {
+              "type": "Identifier",
+              "start": 29,
+              "end": 35,
+              "decorators": [],
+              "name": "pepper",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "generator": false,
             "async": false,
+            "declare": false,
+            "typeParameters": null,
+            "params": [],
+            "returnType": null,
             "body": {
               "type": "BlockStatement",
               "start": 38,
@@ -33,27 +61,13 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 47,
                     "end": 48,
-                    "raw": "5",
-                    "value": 5
+                    "value": 5,
+                    "raw": "5"
                   }
                 }
               ]
             },
-            "declare": false,
-            "expression": false,
-            "generator": false,
-            "id": {
-              "type": "Identifier",
-              "start": 29,
-              "end": 35,
-              "decorators": [],
-              "name": "pepper",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
+            "expression": false
           },
           {
             "type": "ReturnStatement",
@@ -63,7 +77,6 @@ __ESTREE_TEST__:PASS:
               "type": "CallExpression",
               "start": 60,
               "end": 68,
-              "arguments": [],
               "callee": {
                 "type": "Identifier",
                 "start": 60,
@@ -73,32 +86,28 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
-              "typeArguments": null
+              "typeArguments": null,
+              "arguments": [],
+              "optional": false
             }
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 13,
-        "decorators": [],
-        "name": "salt",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 75,
       "end": 192,
+      "id": {
+        "type": "Identifier",
+        "start": 82,
+        "end": 83,
+        "decorators": [],
+        "name": "M",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 84,
@@ -108,12 +117,25 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 90,
             "end": 190,
-            "attributes": [],
             "declaration": {
               "type": "FunctionDeclaration",
               "start": 97,
               "end": 190,
+              "id": {
+                "type": "Identifier",
+                "start": 106,
+                "end": 114,
+                "decorators": [],
+                "name": "tungsten",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "generator": false,
               "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
               "body": {
                 "type": "BlockStatement",
                 "start": 117,
@@ -123,7 +145,21 @@ __ESTREE_TEST__:PASS:
                     "type": "FunctionDeclaration",
                     "start": 127,
                     "end": 158,
+                    "id": {
+                      "type": "Identifier",
+                      "start": 136,
+                      "end": 142,
+                      "decorators": [],
+                      "name": "oxygen",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "generator": false,
                     "async": false,
+                    "declare": false,
+                    "typeParameters": null,
+                    "params": [],
+                    "returnType": null,
                     "body": {
                       "type": "BlockStatement",
                       "start": 145,
@@ -137,27 +173,13 @@ __ESTREE_TEST__:PASS:
                             "type": "Literal",
                             "start": 154,
                             "end": 155,
-                            "raw": "6",
-                            "value": 6
+                            "value": 6,
+                            "raw": "6"
                           }
                         }
                       ]
                     },
-                    "declare": false,
-                    "expression": false,
-                    "generator": false,
-                    "id": {
-                      "type": "Identifier",
-                      "start": 136,
-                      "end": 142,
-                      "decorators": [],
-                      "name": "oxygen",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "params": [],
-                    "returnType": null,
-                    "typeParameters": null
+                    "expression": false
                   },
                   {
                     "type": "EmptyStatement",
@@ -172,7 +194,6 @@ __ESTREE_TEST__:PASS:
                       "type": "CallExpression",
                       "start": 175,
                       "end": 183,
-                      "arguments": [],
                       "callee": {
                         "type": "Identifier",
                         "start": 175,
@@ -182,46 +203,25 @@ __ESTREE_TEST__:PASS:
                         "optional": false,
                         "typeAnnotation": null
                       },
-                      "optional": false,
-                      "typeArguments": null
+                      "typeArguments": null,
+                      "arguments": [],
+                      "optional": false
                     }
                   }
                 ]
               },
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": {
-                "type": "Identifier",
-                "start": 106,
-                "end": 114,
-                "decorators": [],
-                "name": "tungsten",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
+              "expression": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 82,
-        "end": 83,
-        "decorators": [],
-        "name": "M",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "script",

@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 18,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 12,
           "end": 17,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
@@ -33,22 +33,22 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
       "start": 164,
       "end": 182,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 168,
           "end": 181,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 168,
@@ -67,7 +67,6 @@ __ESTREE_TEST__:PASS:
               "type": "NewExpression",
               "start": 172,
               "end": 177,
-              "arguments": [],
               "callee": {
                 "type": "Identifier",
                 "start": 176,
@@ -77,20 +76,21 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "typeArguments": null
+              "typeArguments": null,
+              "arguments": []
             },
             "right": {
               "type": "Literal",
               "start": 180,
               "end": 181,
-              "raw": "5",
-              "value": 5
+              "value": 5,
+              "raw": "5"
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

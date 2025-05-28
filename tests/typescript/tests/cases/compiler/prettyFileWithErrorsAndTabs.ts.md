@@ -9,7 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 94,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 10,
+        "decorators": [],
+        "name": "f",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 13,
@@ -24,12 +38,12 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclaration",
                 "start": 20,
                 "end": 41,
+                "kind": "const",
                 "declarations": [
                   {
                     "type": "VariableDeclarator",
                     "start": 26,
                     "end": 40,
-                    "definite": false,
                     "id": {
                       "type": "Identifier",
                       "start": 26,
@@ -52,24 +66,24 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 38,
                       "end": 40,
-                      "raw": "12",
-                      "value": 12
-                    }
+                      "value": 12,
+                      "raw": "12"
+                    },
+                    "definite": false
                   }
                 ],
-                "declare": false,
-                "kind": "const"
+                "declare": false
               },
               {
                 "type": "VariableDeclaration",
                 "start": 44,
                 "end": 65,
+                "kind": "const",
                 "declarations": [
                   {
                     "type": "VariableDeclarator",
                     "start": 50,
                     "end": 64,
-                    "definite": false,
                     "id": {
                       "type": "Identifier",
                       "start": 50,
@@ -92,24 +106,24 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 62,
                       "end": 64,
-                      "raw": "12",
-                      "value": 12
-                    }
+                      "value": 12,
+                      "raw": "12"
+                    },
+                    "definite": false
                   }
                 ],
-                "declare": false,
-                "kind": "const"
+                "declare": false
               },
               {
                 "type": "VariableDeclaration",
                 "start": 68,
                 "end": 89,
+                "kind": "const",
                 "declarations": [
                   {
                     "type": "VariableDeclarator",
                     "start": 74,
                     "end": 88,
-                    "definite": false,
                     "id": {
                       "type": "Identifier",
                       "start": 74,
@@ -132,33 +146,19 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 86,
                       "end": 88,
-                      "raw": "12",
-                      "value": 12
-                    }
+                      "value": 12,
+                      "raw": "12"
+                    },
+                    "definite": false
                   }
                 ],
-                "declare": false,
-                "kind": "const"
+                "declare": false
               }
             ]
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 10,
-        "decorators": [],
-        "name": "f",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

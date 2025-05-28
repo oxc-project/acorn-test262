@@ -9,31 +9,31 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 29,
-      "attributes": [],
       "declaration": {
         "type": "TSModuleDeclaration",
         "start": 7,
         "end": 29,
-        "kind": "module",
+        "id": {
+          "type": "Literal",
+          "start": 22,
+          "end": 25,
+          "value": "M",
+          "raw": "\"M\""
+        },
         "body": {
           "type": "TSModuleBlock",
           "start": 26,
           "end": 29,
           "body": []
         },
+        "kind": "module",
         "declare": true,
-        "global": false,
-        "id": {
-          "type": "Literal",
-          "start": 22,
-          "end": 25,
-          "raw": "\"M\"",
-          "value": "M"
-        }
+        "global": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     }
   ],
   "sourceType": "module",

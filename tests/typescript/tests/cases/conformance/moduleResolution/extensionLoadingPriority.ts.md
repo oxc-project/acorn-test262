@@ -13,8 +13,8 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "start": 15,
         "end": 21,
-        "raw": "\"a.js\"",
-        "value": "a.js"
+        "value": "a.js",
+        "raw": "\"a.js\""
       },
       "exportKind": "value"
     }
@@ -38,8 +38,8 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "start": 15,
         "end": 24,
-        "raw": "\"a.js.js\"",
-        "value": "a.js.js"
+        "value": "a.js.js",
+        "raw": "\"a.js.js\""
       },
       "exportKind": "value"
     }
@@ -63,8 +63,8 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "start": 15,
         "end": 29,
-        "raw": "\"dir/index.ts\"",
-        "value": "dir/index.ts"
+        "value": "dir/index.ts",
+        "raw": "\"dir/index.ts\""
       },
       "exportKind": "value"
     }
@@ -88,8 +88,8 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "start": 15,
         "end": 23,
-        "raw": "\"dir.js\"",
-        "value": "dir.js"
+        "value": "dir.js",
+        "raw": "\"dir.js\""
       },
       "exportKind": "value"
     }
@@ -109,14 +109,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 23,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 14,
-        "end": 22,
-        "raw": "\"./a.js\"",
-        "value": "./a.js"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -133,21 +125,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 14,
+        "end": 22,
+        "value": "./a.js",
+        "raw": "\"./a.js\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 24,
       "end": 48,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 40,
-        "end": 47,
-        "raw": "\"./dir\"",
-        "value": "./dir"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -164,8 +156,16 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 40,
+        "end": 47,
+        "value": "./dir",
+        "raw": "\"./dir\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

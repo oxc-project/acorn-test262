@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 2,
       "end": 88,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 15,
+        "decorators": [],
+        "name": "Midori",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 16,
@@ -18,7 +27,13 @@ __ESTREE_TEST__:PASS:
             "type": "IfStatement",
             "start": 22,
             "end": 86,
-            "alternate": null,
+            "test": {
+              "type": "Literal",
+              "start": 26,
+              "end": 31,
+              "value": false,
+              "raw": "false"
+            },
             "consequent": {
               "type": "BlockStatement",
               "start": 33,
@@ -28,16 +43,6 @@ __ESTREE_TEST__:PASS:
                   "type": "FunctionDeclaration",
                   "start": 43,
                   "end": 80,
-                  "async": false,
-                  "body": {
-                    "type": "BlockStatement",
-                    "start": 69,
-                    "end": 80,
-                    "body": []
-                  },
-                  "declare": false,
-                  "expression": false,
-                  "generator": false,
                   "id": {
                     "type": "Identifier",
                     "start": 52,
@@ -47,6 +52,10 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
+                  "generator": false,
+                  "async": false,
+                  "declare": false,
+                  "typeParameters": null,
                   "params": [
                     {
                       "type": "Identifier",
@@ -59,32 +68,23 @@ __ESTREE_TEST__:PASS:
                     }
                   ],
                   "returnType": null,
-                  "typeParameters": null
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 69,
+                    "end": 80,
+                    "body": []
+                  },
+                  "expression": false
                 }
               ]
             },
-            "test": {
-              "type": "Literal",
-              "start": 26,
-              "end": 31,
-              "raw": "false",
-              "value": false
-            }
+            "alternate": null
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 15,
-        "decorators": [],
-        "name": "Midori",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "script",

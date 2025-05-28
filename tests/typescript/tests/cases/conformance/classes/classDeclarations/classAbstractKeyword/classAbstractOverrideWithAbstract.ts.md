@@ -9,55 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 24,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 8,
-        "end": 24,
-        "body": [
-          {
-            "type": "MethodDefinition",
-            "start": 14,
-            "end": 22,
-            "accessibility": null,
-            "computed": false,
-            "decorators": [],
-            "key": {
-              "type": "Identifier",
-              "start": 14,
-              "end": 17,
-              "decorators": [],
-              "name": "foo",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
-            "value": {
-              "type": "FunctionExpression",
-              "start": 17,
-              "end": 22,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 20,
-                "end": 22,
-                "body": []
-              },
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
-          }
-        ]
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -68,59 +19,64 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
-    },
-    {
-      "type": "ClassDeclaration",
-      "start": 26,
-      "end": 76,
-      "abstract": true,
+      "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 53,
-        "end": 76,
+        "start": 8,
+        "end": 24,
         "body": [
           {
-            "type": "TSAbstractMethodDefinition",
-            "start": 59,
-            "end": 74,
-            "accessibility": null,
-            "computed": false,
+            "type": "MethodDefinition",
+            "start": 14,
+            "end": 22,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 68,
-              "end": 71,
+              "start": 14,
+              "end": 17,
               "decorators": [],
               "name": "foo",
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
-              "type": "TSEmptyBodyFunctionExpression",
-              "start": 71,
-              "end": 74,
-              "async": false,
-              "body": null,
-              "declare": false,
-              "expression": false,
-              "generator": false,
+              "type": "FunctionExpression",
+              "start": 17,
+              "end": 22,
               "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
               "params": [],
               "returnType": null,
-              "typeParameters": null
-            }
+              "body": {
+                "type": "BlockStatement",
+                "start": 20,
+                "end": 22,
+                "body": []
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
+      "abstract": false,
+      "declare": false
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 26,
+      "end": 76,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -131,7 +87,7 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": {
         "type": "Identifier",
         "start": 51,
@@ -142,96 +98,56 @@ __ESTREE_TEST__:PASS:
         "typeAnnotation": null
       },
       "superTypeArguments": null,
-      "typeParameters": null
-    },
-    {
-      "type": "ClassDeclaration",
-      "start": 78,
-      "end": 132,
-      "abstract": true,
+      "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 96,
-        "end": 132,
+        "start": 53,
+        "end": 76,
         "body": [
           {
-            "type": "MethodDefinition",
-            "start": 102,
-            "end": 110,
-            "accessibility": null,
-            "computed": false,
+            "type": "TSAbstractMethodDefinition",
+            "start": 59,
+            "end": 74,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 102,
-              "end": 105,
+              "start": 68,
+              "end": 71,
               "decorators": [],
               "name": "foo",
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
-            "value": {
-              "type": "FunctionExpression",
-              "start": 105,
-              "end": 110,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 108,
-                "end": 110,
-                "body": []
-              },
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
-          },
-          {
-            "type": "TSAbstractMethodDefinition",
-            "start": 115,
-            "end": 130,
-            "accessibility": null,
-            "computed": false,
-            "decorators": [],
-            "key": {
-              "type": "Identifier",
-              "start": 124,
-              "end": 127,
-              "decorators": [],
-              "name": "bar",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 127,
-              "end": 130,
-              "async": false,
-              "body": null,
-              "declare": false,
-              "expression": false,
-              "generator": false,
+              "start": 71,
+              "end": 74,
               "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
               "params": [],
               "returnType": null,
-              "typeParameters": null
-            }
+              "body": null,
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
+      "abstract": true,
+      "declare": false
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 78,
+      "end": 132,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -242,99 +158,99 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
-    },
-    {
-      "type": "ClassDeclaration",
-      "start": 134,
-      "end": 200,
-      "abstract": true,
+      "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 163,
-        "end": 200,
+        "start": 96,
+        "end": 132,
         "body": [
           {
-            "type": "TSAbstractMethodDefinition",
-            "start": 169,
-            "end": 184,
-            "accessibility": null,
-            "computed": false,
+            "type": "MethodDefinition",
+            "start": 102,
+            "end": 110,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 178,
-              "end": 181,
+              "start": 102,
+              "end": 105,
               "decorators": [],
               "name": "foo",
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
-              "type": "TSEmptyBodyFunctionExpression",
-              "start": 181,
-              "end": 184,
-              "async": false,
-              "body": null,
-              "declare": false,
-              "expression": false,
-              "generator": false,
+              "type": "FunctionExpression",
+              "start": 105,
+              "end": 110,
               "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
               "params": [],
               "returnType": null,
-              "typeParameters": null
-            }
+              "body": {
+                "type": "BlockStatement",
+                "start": 108,
+                "end": 110,
+                "body": []
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null
           },
           {
-            "type": "MethodDefinition",
-            "start": 189,
-            "end": 198,
-            "accessibility": null,
-            "computed": false,
+            "type": "TSAbstractMethodDefinition",
+            "start": 115,
+            "end": 130,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 189,
-              "end": 192,
+              "start": 124,
+              "end": 127,
               "decorators": [],
               "name": "bar",
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
-              "type": "FunctionExpression",
-              "start": 193,
-              "end": 198,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 196,
-                "end": 198,
-                "body": []
-              },
-              "declare": false,
-              "expression": false,
-              "generator": false,
+              "type": "TSEmptyBodyFunctionExpression",
+              "start": 127,
+              "end": 130,
               "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
               "params": [],
               "returnType": null,
-              "typeParameters": null
-            }
+              "body": null,
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
+      "abstract": true,
+      "declare": false
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 134,
+      "end": 200,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -345,7 +261,7 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": {
         "type": "Identifier",
         "start": 160,
@@ -356,20 +272,96 @@ __ESTREE_TEST__:PASS:
         "typeAnnotation": null
       },
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 163,
+        "end": 200,
+        "body": [
+          {
+            "type": "TSAbstractMethodDefinition",
+            "start": 169,
+            "end": 184,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 178,
+              "end": 181,
+              "decorators": [],
+              "name": "foo",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "value": {
+              "type": "TSEmptyBodyFunctionExpression",
+              "start": 181,
+              "end": 184,
+              "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
+              "body": null,
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null
+          },
+          {
+            "type": "MethodDefinition",
+            "start": 189,
+            "end": 198,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 189,
+              "end": 192,
+              "decorators": [],
+              "name": "bar",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "value": {
+              "type": "FunctionExpression",
+              "start": 193,
+              "end": 198,
+              "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
+              "body": {
+                "type": "BlockStatement",
+                "start": 196,
+                "end": 198,
+                "body": []
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null
+          }
+        ]
+      },
+      "abstract": true,
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 202,
       "end": 224,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 222,
-        "end": 224,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -380,7 +372,7 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": {
         "type": "Identifier",
         "start": 219,
@@ -391,61 +383,20 @@ __ESTREE_TEST__:PASS:
         "typeAnnotation": null
       },
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 222,
+        "end": 224,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 235,
       "end": 271,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 255,
-        "end": 271,
-        "body": [
-          {
-            "type": "MethodDefinition",
-            "start": 261,
-            "end": 269,
-            "accessibility": null,
-            "computed": false,
-            "decorators": [],
-            "key": {
-              "type": "Identifier",
-              "start": 261,
-              "end": 264,
-              "decorators": [],
-              "name": "foo",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
-            "value": {
-              "type": "FunctionExpression",
-              "start": 264,
-              "end": 269,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 267,
-                "end": 269,
-                "body": []
-              },
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
-          }
-        ]
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -456,7 +407,7 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": {
         "type": "Identifier",
         "start": 252,
@@ -467,7 +418,56 @@ __ESTREE_TEST__:PASS:
         "typeAnnotation": null
       },
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 255,
+        "end": 271,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 261,
+            "end": 269,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 261,
+              "end": 264,
+              "decorators": [],
+              "name": "foo",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "value": {
+              "type": "FunctionExpression",
+              "start": 264,
+              "end": 269,
+              "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
+              "body": {
+                "type": "BlockStatement",
+                "start": 267,
+                "end": 269,
+                "body": []
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null
+          }
+        ]
+      },
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

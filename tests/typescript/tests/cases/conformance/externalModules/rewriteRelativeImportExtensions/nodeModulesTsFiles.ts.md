@@ -9,51 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 63,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 7,
         "end": 63,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 42,
-          "end": 63,
-          "body": [
-            {
-              "type": "ReturnStatement",
-              "start": 48,
-              "end": 61,
-              "argument": {
-                "type": "BinaryExpression",
-                "start": 55,
-                "end": 60,
-                "operator": "+",
-                "left": {
-                  "type": "Identifier",
-                  "start": 55,
-                  "end": 56,
-                  "decorators": [],
-                  "name": "a",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "right": {
-                  "type": "Identifier",
-                  "start": 59,
-                  "end": 60,
-                  "decorators": [],
-                  "name": "b",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            }
-          ]
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 16,
@@ -63,6 +22,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [
           {
             "type": "Identifier",
@@ -102,11 +65,48 @@ __ESTREE_TEST__:PASS:
           }
         ],
         "returnType": null,
-        "typeParameters": null
+        "body": {
+          "type": "BlockStatement",
+          "start": 42,
+          "end": 63,
+          "body": [
+            {
+              "type": "ReturnStatement",
+              "start": 48,
+              "end": 61,
+              "argument": {
+                "type": "BinaryExpression",
+                "start": 55,
+                "end": 60,
+                "left": {
+                  "type": "Identifier",
+                  "start": 55,
+                  "end": 56,
+                  "decorators": [],
+                  "name": "a",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "operator": "+",
+                "right": {
+                  "type": "Identifier",
+                  "start": 59,
+                  "end": 60,
+                  "decorators": [],
+                  "name": "b",
+                  "optional": false,
+                  "typeAnnotation": null
+                }
+              }
+            }
+          ]
+        },
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -124,14 +124,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 39,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 20,
-        "end": 38,
-        "raw": "\"lodash-ts/add.ts\"",
-        "value": "lodash-ts/add.ts"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -146,7 +138,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
@@ -155,11 +146,20 @@ __ESTREE_TEST__:PASS:
             "name": "add",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 20,
+        "end": 38,
+        "value": "lodash-ts/add.ts",
+        "raw": "\"lodash-ts/add.ts\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

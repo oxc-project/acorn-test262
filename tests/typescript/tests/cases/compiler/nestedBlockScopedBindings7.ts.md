@@ -9,50 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ForStatement",
       "start": 0,
       "end": 36,
-      "body": {
-        "type": "BlockStatement",
-        "start": 20,
-        "end": 36,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 26,
-            "end": 34,
-            "directive": null,
-            "expression": {
-              "type": "ArrowFunctionExpression",
-              "start": 26,
-              "end": 33,
-              "async": false,
-              "body": {
-                "type": "Identifier",
-                "start": 32,
-                "end": 33,
-                "decorators": [],
-                "name": "x",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "expression": true,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
-          }
-        ]
-      },
       "init": {
         "type": "VariableDeclaration",
         "start": 5,
         "end": 10,
+        "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 9,
             "end": 10,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 9,
@@ -62,25 +28,92 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "let"
+        "declare": false
       },
       "test": {
         "type": "Literal",
         "start": 12,
         "end": 17,
-        "raw": "false",
-        "value": false
+        "value": false,
+        "raw": "false"
       },
-      "update": null
+      "update": null,
+      "body": {
+        "type": "BlockStatement",
+        "start": 20,
+        "end": 36,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 26,
+            "end": 34,
+            "expression": {
+              "type": "ArrowFunctionExpression",
+              "start": 26,
+              "end": 33,
+              "expression": true,
+              "async": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
+              "body": {
+                "type": "Identifier",
+                "start": 32,
+                "end": 33,
+                "decorators": [],
+                "name": "x",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "id": null,
+              "generator": false
+            },
+            "directive": null
+          }
+        ]
+      }
     },
     {
       "type": "ForStatement",
       "start": 38,
       "end": 72,
+      "init": {
+        "type": "VariableDeclaration",
+        "start": 43,
+        "end": 48,
+        "kind": "let",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 47,
+            "end": 48,
+            "id": {
+              "type": "Identifier",
+              "start": 47,
+              "end": 48,
+              "decorators": [],
+              "name": "y",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "init": null,
+            "definite": false
+          }
+        ],
+        "declare": false
+      },
+      "test": {
+        "type": "Literal",
+        "start": 50,
+        "end": 55,
+        "value": false,
+        "raw": "false"
+      },
+      "update": null,
       "body": {
         "type": "BlockStatement",
         "start": 58,
@@ -90,7 +123,6 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 64,
             "end": 70,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 64,
@@ -109,46 +141,14 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 68,
                 "end": 69,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
-            }
+            },
+            "directive": null
           }
         ]
-      },
-      "init": {
-        "type": "VariableDeclaration",
-        "start": 43,
-        "end": 48,
-        "declarations": [
-          {
-            "type": "VariableDeclarator",
-            "start": 47,
-            "end": 48,
-            "definite": false,
-            "id": {
-              "type": "Identifier",
-              "start": 47,
-              "end": 48,
-              "decorators": [],
-              "name": "y",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "init": null
-          }
-        ],
-        "declare": false,
-        "kind": "let"
-      },
-      "test": {
-        "type": "Literal",
-        "start": 50,
-        "end": 55,
-        "raw": "false",
-        "value": false
-      },
-      "update": null
+      }
     }
   ],
   "sourceType": "script",

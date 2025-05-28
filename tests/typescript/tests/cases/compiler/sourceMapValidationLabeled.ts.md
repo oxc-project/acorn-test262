@@ -9,16 +9,25 @@ __ESTREE_TEST__:PASS:
       "type": "LabeledStatement",
       "start": 0,
       "end": 14,
+      "label": {
+        "type": "Identifier",
+        "start": 0,
+        "end": 1,
+        "decorators": [],
+        "name": "x",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "VariableDeclaration",
         "start": 3,
         "end": 14,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 7,
             "end": 13,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 7,
@@ -32,22 +41,13 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 11,
               "end": 13,
-              "raw": "10",
-              "value": 10
-            }
+              "value": 10,
+              "raw": "10"
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 0,
-        "end": 1,
-        "decorators": [],
-        "name": "x",
-        "optional": false,
-        "typeAnnotation": null
+        "declare": false
       }
     }
   ],

@@ -9,7 +9,20 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 289,
-      "abstract": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 6,
+        "end": 16,
+        "decorators": [],
+        "name": "DebugClass",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
       "body": {
         "type": "ClassBody",
         "start": 17,
@@ -19,8 +32,6 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 24,
             "end": 287,
-            "accessibility": "public",
-            "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
@@ -31,15 +42,17 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": true,
             "value": {
               "type": "FunctionExpression",
               "start": 47,
               "end": 287,
+              "id": null,
+              "generator": false,
               "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
               "body": {
                 "type": "BlockStatement",
                 "start": 50,
@@ -49,12 +62,12 @@ __ESTREE_TEST__:PASS:
                     "type": "VariableDeclaration",
                     "start": 97,
                     "end": 107,
+                    "kind": "var",
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
                         "start": 101,
                         "end": 106,
-                        "definite": false,
                         "id": {
                           "type": "Identifier",
                           "start": 101,
@@ -68,23 +81,24 @@ __ESTREE_TEST__:PASS:
                           "type": "Literal",
                           "start": 105,
                           "end": 106,
-                          "raw": "0",
-                          "value": 0
-                        }
+                          "value": 0,
+                          "raw": "0"
+                        },
+                        "definite": false
                       }
                     ],
-                    "declare": false,
-                    "kind": "var"
+                    "declare": false
                   },
                   {
                     "type": "ExpressionStatement",
                     "start": 116,
                     "end": 120,
-                    "directive": null,
                     "expression": {
                       "type": "UpdateExpression",
                       "start": 116,
                       "end": 119,
+                      "operator": "++",
+                      "prefix": false,
                       "argument": {
                         "type": "Identifier",
                         "start": 116,
@@ -93,20 +107,20 @@ __ESTREE_TEST__:PASS:
                         "name": "i",
                         "optional": false,
                         "typeAnnotation": null
-                      },
-                      "operator": "++",
-                      "prefix": false
-                    }
+                      }
+                    },
+                    "directive": null
                   },
                   {
                     "type": "ExpressionStatement",
                     "start": 129,
                     "end": 133,
-                    "directive": null,
                     "expression": {
                       "type": "UpdateExpression",
                       "start": 129,
                       "end": 132,
+                      "operator": "++",
+                      "prefix": false,
                       "argument": {
                         "type": "Identifier",
                         "start": 129,
@@ -115,20 +129,20 @@ __ESTREE_TEST__:PASS:
                         "name": "i",
                         "optional": false,
                         "typeAnnotation": null
-                      },
-                      "operator": "++",
-                      "prefix": false
-                    }
+                      }
+                    },
+                    "directive": null
                   },
                   {
                     "type": "ExpressionStatement",
                     "start": 142,
                     "end": 146,
-                    "directive": null,
                     "expression": {
                       "type": "UpdateExpression",
                       "start": 142,
                       "end": 145,
+                      "operator": "++",
+                      "prefix": false,
                       "argument": {
                         "type": "Identifier",
                         "start": 142,
@@ -137,20 +151,20 @@ __ESTREE_TEST__:PASS:
                         "name": "i",
                         "optional": false,
                         "typeAnnotation": null
-                      },
-                      "operator": "++",
-                      "prefix": false
-                    }
+                      }
+                    },
+                    "directive": null
                   },
                   {
                     "type": "ExpressionStatement",
                     "start": 155,
                     "end": 159,
-                    "directive": null,
                     "expression": {
                       "type": "UpdateExpression",
                       "start": 155,
                       "end": 158,
+                      "operator": "++",
+                      "prefix": false,
                       "argument": {
                         "type": "Identifier",
                         "start": 155,
@@ -159,20 +173,20 @@ __ESTREE_TEST__:PASS:
                         "name": "i",
                         "optional": false,
                         "typeAnnotation": null
-                      },
-                      "operator": "++",
-                      "prefix": false
-                    }
+                      }
+                    },
+                    "directive": null
                   },
                   {
                     "type": "ExpressionStatement",
                     "start": 168,
                     "end": 172,
-                    "directive": null,
                     "expression": {
                       "type": "UpdateExpression",
                       "start": 168,
                       "end": 171,
+                      "operator": "++",
+                      "prefix": false,
                       "argument": {
                         "type": "Identifier",
                         "start": 168,
@@ -181,20 +195,20 @@ __ESTREE_TEST__:PASS:
                         "name": "i",
                         "optional": false,
                         "typeAnnotation": null
-                      },
-                      "operator": "++",
-                      "prefix": false
-                    }
+                      }
+                    },
+                    "directive": null
                   },
                   {
                     "type": "ExpressionStatement",
                     "start": 181,
                     "end": 185,
-                    "directive": null,
                     "expression": {
                       "type": "UpdateExpression",
                       "start": 181,
                       "end": 184,
+                      "operator": "++",
+                      "prefix": false,
                       "argument": {
                         "type": "Identifier",
                         "start": 181,
@@ -203,20 +217,20 @@ __ESTREE_TEST__:PASS:
                         "name": "i",
                         "optional": false,
                         "typeAnnotation": null
-                      },
-                      "operator": "++",
-                      "prefix": false
-                    }
+                      }
+                    },
+                    "directive": null
                   },
                   {
                     "type": "ExpressionStatement",
                     "start": 194,
                     "end": 198,
-                    "directive": null,
                     "expression": {
                       "type": "UpdateExpression",
                       "start": 194,
                       "end": 197,
+                      "operator": "++",
+                      "prefix": false,
                       "argument": {
                         "type": "Identifier",
                         "start": 194,
@@ -225,20 +239,20 @@ __ESTREE_TEST__:PASS:
                         "name": "i",
                         "optional": false,
                         "typeAnnotation": null
-                      },
-                      "operator": "++",
-                      "prefix": false
-                    }
+                      }
+                    },
+                    "directive": null
                   },
                   {
                     "type": "ExpressionStatement",
                     "start": 207,
                     "end": 211,
-                    "directive": null,
                     "expression": {
                       "type": "UpdateExpression",
                       "start": 207,
                       "end": 210,
+                      "operator": "++",
+                      "prefix": false,
                       "argument": {
                         "type": "Identifier",
                         "start": 207,
@@ -247,20 +261,20 @@ __ESTREE_TEST__:PASS:
                         "name": "i",
                         "optional": false,
                         "typeAnnotation": null
-                      },
-                      "operator": "++",
-                      "prefix": false
-                    }
+                      }
+                    },
+                    "directive": null
                   },
                   {
                     "type": "ExpressionStatement",
                     "start": 220,
                     "end": 224,
-                    "directive": null,
                     "expression": {
                       "type": "UpdateExpression",
                       "start": 220,
                       "end": 223,
+                      "operator": "++",
+                      "prefix": false,
                       "argument": {
                         "type": "Identifier",
                         "start": 220,
@@ -269,10 +283,9 @@ __ESTREE_TEST__:PASS:
                         "name": "i",
                         "optional": false,
                         "typeAnnotation": null
-                      },
-                      "operator": "++",
-                      "prefix": false
-                    }
+                      }
+                    },
+                    "directive": null
                   },
                   {
                     "type": "ReturnStatement",
@@ -282,38 +295,25 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 276,
                       "end": 280,
-                      "raw": "true",
-                      "value": true
+                      "value": true,
+                      "raw": "true"
                     }
                   }
                 ]
               },
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": true,
+            "override": false,
+            "optional": false,
+            "accessibility": "public"
           }
         ]
       },
-      "declare": false,
-      "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 6,
-        "end": 16,
-        "decorators": [],
-        "name": "DebugClass",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 13,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 12,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,24 +28,24 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 8,
             "end": 12,
-            "raw": "true",
-            "value": true
-          }
+            "value": true,
+            "raw": "true"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 15,
       "end": 36,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 19,
           "end": 35,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 19,
@@ -59,12 +59,10 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 23,
             "end": 35,
-            "arguments": [],
             "callee": {
               "type": "MemberExpression",
               "start": 23,
               "end": 33,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 23,
@@ -74,7 +72,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 25,
@@ -83,26 +80,29 @@ __ESTREE_TEST__:PASS:
                 "name": "toString",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 37,
       "end": 61,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 41,
           "end": 60,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 41,
@@ -116,12 +116,10 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 45,
             "end": 60,
-            "arguments": [],
             "callee": {
               "type": "MemberExpression",
               "start": 45,
               "end": 58,
-              "computed": true,
               "object": {
                 "type": "Identifier",
                 "start": 45,
@@ -131,22 +129,24 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Literal",
                 "start": 47,
                 "end": 57,
-                "raw": "'toString'",
-                "value": "toString"
-              }
+                "value": "toString",
+                "raw": "'toString'"
+              },
+              "optional": false,
+              "computed": true
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

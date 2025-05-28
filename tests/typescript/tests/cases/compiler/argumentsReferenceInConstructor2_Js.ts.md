@@ -9,7 +9,20 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 155,
-      "abstract": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 6,
+        "end": 7,
+        "decorators": [],
+        "name": "A",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
       "body": {
         "type": "ClassBody",
         "start": 8,
@@ -19,8 +32,6 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 70,
             "end": 153,
-            "accessibility": null,
-            "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
@@ -31,66 +42,15 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "constructor",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "FunctionExpression",
               "start": 81,
               "end": 153,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 92,
-                "end": 153,
-                "body": [
-                  {
-                    "type": "ExpressionStatement",
-                    "start": 126,
-                    "end": 150,
-                    "directive": null,
-                    "expression": {
-                      "type": "AssignmentExpression",
-                      "start": 126,
-                      "end": 149,
-                      "operator": "=",
-                      "left": {
-                        "type": "MemberExpression",
-                        "start": 126,
-                        "end": 143,
-                        "computed": true,
-                        "object": {
-                          "type": "ThisExpression",
-                          "start": 126,
-                          "end": 130
-                        },
-                        "optional": false,
-                        "property": {
-                          "type": "Literal",
-                          "start": 131,
-                          "end": 142,
-                          "raw": "\"arguments\"",
-                          "value": "arguments"
-                        }
-                      },
-                      "right": {
-                        "type": "Identifier",
-                        "start": 146,
-                        "end": 149,
-                        "decorators": [],
-                        "name": "foo",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    }
-                  }
-                ]
-              },
-              "declare": false,
-              "expression": false,
-              "generator": false,
               "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "AssignmentPattern",
@@ -106,37 +66,77 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "right": {
                     "type": "ObjectExpression",
                     "start": 88,
                     "end": 90,
                     "properties": []
                   },
+                  "optional": false,
                   "typeAnnotation": null
                 }
               ],
               "returnType": null,
-              "typeParameters": null
-            }
+              "body": {
+                "type": "BlockStatement",
+                "start": 92,
+                "end": 153,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 126,
+                    "end": 150,
+                    "expression": {
+                      "type": "AssignmentExpression",
+                      "start": 126,
+                      "end": 149,
+                      "operator": "=",
+                      "left": {
+                        "type": "MemberExpression",
+                        "start": 126,
+                        "end": 143,
+                        "object": {
+                          "type": "ThisExpression",
+                          "start": 126,
+                          "end": 130
+                        },
+                        "property": {
+                          "type": "Literal",
+                          "start": 131,
+                          "end": 142,
+                          "value": "arguments",
+                          "raw": "\"arguments\""
+                        },
+                        "optional": false,
+                        "computed": true
+                      },
+                      "right": {
+                        "type": "Identifier",
+                        "start": 146,
+                        "end": 149,
+                        "decorators": [],
+                        "name": "foo",
+                        "optional": false,
+                        "typeAnnotation": null
+                      }
+                    },
+                    "directive": null
+                  }
+                ]
+              },
+              "expression": false
+            },
+            "kind": "constructor",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
-      "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 6,
-        "end": 7,
-        "decorators": [],
-        "name": "A",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

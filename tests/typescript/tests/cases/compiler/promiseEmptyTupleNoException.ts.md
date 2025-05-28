@@ -9,12 +9,56 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 80,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 7,
         "end": 80,
+        "id": {
+          "type": "Identifier",
+          "start": 22,
+          "end": 25,
+          "decorators": [],
+          "name": "get",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "generator": false,
         "async": true,
+        "declare": false,
+        "typeParameters": null,
+        "params": [],
+        "returnType": {
+          "type": "TSTypeAnnotation",
+          "start": 27,
+          "end": 40,
+          "typeAnnotation": {
+            "type": "TSTypeReference",
+            "start": 29,
+            "end": 40,
+            "typeName": {
+              "type": "Identifier",
+              "start": 29,
+              "end": 36,
+              "decorators": [],
+              "name": "Promise",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": {
+              "type": "TSTypeParameterInstantiation",
+              "start": 36,
+              "end": 40,
+              "params": [
+                {
+                  "type": "TSTupleType",
+                  "start": 37,
+                  "end": 39,
+                  "elementTypes": []
+                }
+              ]
+            }
+          }
+        },
         "body": {
           "type": "BlockStatement",
           "start": 41,
@@ -24,12 +68,12 @@ __ESTREE_TEST__:PASS:
               "type": "VariableDeclaration",
               "start": 45,
               "end": 61,
+              "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 49,
                   "end": 60,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 49,
@@ -44,11 +88,11 @@ __ESTREE_TEST__:PASS:
                     "start": 58,
                     "end": 60,
                     "elements": []
-                  }
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "let"
+              "declare": false
             },
             {
               "type": "ReturnStatement",
@@ -66,56 +110,12 @@ __ESTREE_TEST__:PASS:
             }
           ]
         },
-        "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 22,
-          "end": 25,
-          "decorators": [],
-          "name": "get",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [],
-        "returnType": {
-          "type": "TSTypeAnnotation",
-          "start": 27,
-          "end": 40,
-          "typeAnnotation": {
-            "type": "TSTypeReference",
-            "start": 29,
-            "end": 40,
-            "typeArguments": {
-              "type": "TSTypeParameterInstantiation",
-              "start": 36,
-              "end": 40,
-              "params": [
-                {
-                  "type": "TSTupleType",
-                  "start": 37,
-                  "end": 39,
-                  "elementTypes": []
-                }
-              ]
-            },
-            "typeName": {
-              "type": "Identifier",
-              "start": 29,
-              "end": 36,
-              "decorators": [],
-              "name": "Promise",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
-        },
-        "typeParameters": null
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

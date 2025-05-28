@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 39,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 38,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -64,30 +64,29 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 32,
                     "end": 33,
-                    "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 35,
                     "end": 36,
-                    "raw": "2",
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   }
                 ]
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 40,
       "end": 75,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 40,
@@ -106,6 +105,32 @@ __ESTREE_TEST__:PASS:
           "type": "CallExpression",
           "start": 46,
           "end": 74,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 46,
+            "end": 56,
+            "object": {
+              "type": "Identifier",
+              "start": 46,
+              "end": 49,
+              "decorators": [],
+              "name": "ijs",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 50,
+              "end": 56,
+              "decorators": [],
+              "name": "concat",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "optional": false,
+            "computed": false
+          },
+          "typeArguments": null,
           "arguments": [
             {
               "type": "ArrayExpression",
@@ -121,15 +146,15 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 59,
                       "end": 60,
-                      "raw": "3",
-                      "value": 3
+                      "value": 3,
+                      "raw": "3"
                     },
                     {
                       "type": "Literal",
                       "start": 62,
                       "end": 63,
-                      "raw": "4",
-                      "value": 4
+                      "value": 4,
+                      "raw": "4"
                     }
                   ]
                 },
@@ -142,50 +167,25 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 67,
                       "end": 68,
-                      "raw": "5",
-                      "value": 5
+                      "value": 5,
+                      "raw": "5"
                     },
                     {
                       "type": "Literal",
                       "start": 70,
                       "end": 71,
-                      "raw": "6",
-                      "value": 6
+                      "value": 6,
+                      "raw": "6"
                     }
                   ]
                 }
               ]
             }
           ],
-          "callee": {
-            "type": "MemberExpression",
-            "start": 46,
-            "end": 56,
-            "computed": false,
-            "object": {
-              "type": "Identifier",
-              "start": 46,
-              "end": 49,
-              "decorators": [],
-              "name": "ijs",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "property": {
-              "type": "Identifier",
-              "start": 50,
-              "end": 56,
-              "decorators": [],
-              "name": "concat",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          },
-          "optional": false,
-          "typeArguments": null
+          "optional": false
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

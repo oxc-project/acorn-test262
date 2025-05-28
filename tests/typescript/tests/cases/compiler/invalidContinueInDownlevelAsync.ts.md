@@ -9,7 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 99,
+      "id": {
+        "type": "Identifier",
+        "start": 15,
+        "end": 19,
+        "decorators": [],
+        "name": "func",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": true,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 22,
@@ -19,30 +33,12 @@ __ESTREE_TEST__:PASS:
             "type": "IfStatement",
             "start": 28,
             "end": 97,
-            "alternate": {
-              "type": "BlockStatement",
-              "start": 73,
-              "end": 97,
-              "body": [
-                {
-                  "type": "ExpressionStatement",
-                  "start": 83,
-                  "end": 91,
-                  "directive": null,
-                  "expression": {
-                    "type": "AwaitExpression",
-                    "start": 83,
-                    "end": 90,
-                    "argument": {
-                      "type": "Literal",
-                      "start": 89,
-                      "end": 90,
-                      "raw": "1",
-                      "value": 1
-                    }
-                  }
-                }
-              ]
+            "test": {
+              "type": "Literal",
+              "start": 32,
+              "end": 36,
+              "value": true,
+              "raw": "true"
             },
             "consequent": {
               "type": "BlockStatement",
@@ -57,31 +53,35 @@ __ESTREE_TEST__:PASS:
                 }
               ]
             },
-            "test": {
-              "type": "Literal",
-              "start": 32,
-              "end": 36,
-              "raw": "true",
-              "value": true
+            "alternate": {
+              "type": "BlockStatement",
+              "start": 73,
+              "end": 97,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 83,
+                  "end": 91,
+                  "expression": {
+                    "type": "AwaitExpression",
+                    "start": 83,
+                    "end": 90,
+                    "argument": {
+                      "type": "Literal",
+                      "start": 89,
+                      "end": 90,
+                      "value": 1,
+                      "raw": "1"
+                    }
+                  },
+                  "directive": null
+                }
+              ]
             }
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 15,
-        "end": 19,
-        "decorators": [],
-        "name": "func",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

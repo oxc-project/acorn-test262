@@ -9,29 +9,49 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 62,
       "end": 91,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 62,
         "end": 90,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 62,
+          "end": 82,
+          "object": {
+            "type": "ImportExpression",
+            "start": 62,
+            "end": 77,
+            "source": {
+              "type": "Literal",
+              "start": 69,
+              "end": 76,
+              "value": "./foo",
+              "raw": "\"./foo\""
+            },
+            "options": null,
+            "phase": null
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 78,
+            "end": 82,
+            "decorators": [],
+            "name": "then",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "computed": false
+        },
+        "typeArguments": null,
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 83,
             "end": 89,
-            "async": false,
-            "body": {
-              "type": "Identifier",
-              "start": 88,
-              "end": 89,
-              "decorators": [],
-              "name": "x",
-              "optional": false,
-              "typeAnnotation": null
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -44,42 +64,22 @@ __ESTREE_TEST__:PASS:
               }
             ],
             "returnType": null,
-            "typeParameters": null
+            "body": {
+              "type": "Identifier",
+              "start": 88,
+              "end": 89,
+              "decorators": [],
+              "name": "x",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "id": null,
+            "generator": false
           }
         ],
-        "callee": {
-          "type": "MemberExpression",
-          "start": 62,
-          "end": 82,
-          "computed": false,
-          "object": {
-            "type": "ImportExpression",
-            "start": 62,
-            "end": 77,
-            "options": null,
-            "source": {
-              "type": "Literal",
-              "start": 69,
-              "end": 76,
-              "raw": "\"./foo\"",
-              "value": "./foo"
-            },
-            "phase": null
-          },
-          "optional": false,
-          "property": {
-            "type": "Identifier",
-            "start": 78,
-            "end": 82,
-            "decorators": [],
-            "name": "then",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
-        "optional": false,
-        "typeArguments": null
-      }
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

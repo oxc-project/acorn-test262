@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 11,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 10,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,13 +28,13 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 8,
             "end": 10,
-            "raw": "10",
-            "value": 10
-          }
+            "value": 10,
+            "raw": "10"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -67,14 +67,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 114,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 51,
-        "end": 113,
-        "raw": "\"./es6ImportDefaultBindingFollowedWithNamespaceBindingInEs5_0\"",
-        "value": "./es6ImportDefaultBindingFollowedWithNamespaceBindingInEs5_0"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -105,19 +97,27 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 51,
+        "end": 113,
+        "value": "./es6ImportDefaultBindingFollowedWithNamespaceBindingInEs5_0",
+        "raw": "\"./es6ImportDefaultBindingFollowedWithNamespaceBindingInEs5_0\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 115,
       "end": 146,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 119,
           "end": 145,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 119,
@@ -144,11 +144,11 @@ __ESTREE_TEST__:PASS:
             "name": "defaultBinding",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "module",

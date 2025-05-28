@@ -9,44 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 44,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 25,
-        "end": 44,
-        "body": [
-          {
-            "type": "TSPropertySignature",
-            "start": 31,
-            "end": 42,
-            "accessibility": null,
-            "computed": false,
-            "key": {
-              "type": "Identifier",
-              "start": 31,
-              "end": 36,
-              "decorators": [],
-              "name": "world",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 36,
-              "end": 41,
-              "typeAnnotation": {
-                "type": "TSAnyKeyword",
-                "start": 38,
-                "end": 41
-              }
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "extends": [],
       "id": {
         "type": "Identifier",
         "start": 10,
@@ -56,7 +18,45 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "typeParameters": null
+      "typeParameters": null,
+      "extends": [],
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 25,
+        "end": 44,
+        "body": [
+          {
+            "type": "TSPropertySignature",
+            "start": 31,
+            "end": 42,
+            "computed": false,
+            "optional": false,
+            "readonly": false,
+            "key": {
+              "type": "Identifier",
+              "start": 31,
+              "end": 36,
+              "decorators": [],
+              "name": "world",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 36,
+              "end": 41,
+              "typeAnnotation": {
+                "type": "TSAnyKeyword",
+                "start": 38,
+                "end": 41
+              }
+            },
+            "accessibility": null,
+            "static": false
+          }
+        ]
+      },
+      "declare": false
     },
     {
       "type": "TSExportAssignment",
@@ -88,45 +88,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 57,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 25,
-        "end": 57,
-        "body": [
-          {
-            "type": "ExportNamedDeclaration",
-            "start": 31,
-            "end": 55,
-            "attributes": [],
-            "declaration": {
-              "type": "TSTypeAliasDeclaration",
-              "start": 38,
-              "end": 55,
-              "declare": false,
-              "id": {
-                "type": "Identifier",
-                "start": 43,
-                "end": 48,
-                "decorators": [],
-                "name": "world",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "typeAnnotation": {
-                "type": "TSAnyKeyword",
-                "start": 51,
-                "end": 54
-              },
-              "typeParameters": null
-            },
-            "exportKind": "type",
-            "source": null,
-            "specifiers": []
-          }
-        ]
-      },
-      "declare": false,
-      "global": false,
       "id": {
         "type": "Identifier",
         "start": 10,
@@ -136,7 +97,46 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "namespace"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 25,
+        "end": 57,
+        "body": [
+          {
+            "type": "ExportNamedDeclaration",
+            "start": 31,
+            "end": 55,
+            "declaration": {
+              "type": "TSTypeAliasDeclaration",
+              "start": 38,
+              "end": 55,
+              "id": {
+                "type": "Identifier",
+                "start": 43,
+                "end": 48,
+                "decorators": [],
+                "name": "world",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null,
+              "typeAnnotation": {
+                "type": "TSAnyKeyword",
+                "start": 51,
+                "end": 54
+              },
+              "declare": false
+            },
+            "specifiers": [],
+            "source": null,
+            "exportKind": "type",
+            "attributes": []
+          }
+        ]
+      },
+      "kind": "namespace",
+      "declare": false,
+      "global": false
     },
     {
       "type": "TSExportAssignment",
@@ -177,7 +177,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 24,
@@ -186,10 +185,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 32,
           "end": 48,
-          "raw": "\"helloInterface\"",
-          "value": "helloInterface"
+          "value": "helloInterface",
+          "raw": "\"helloInterface\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -204,7 +204,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 75,
@@ -213,21 +212,20 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 83,
           "end": 99,
-          "raw": "\"helloNamespace\"",
-          "value": "helloNamespace"
+          "value": "helloNamespace",
+          "raw": "\"helloNamespace\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 103,
       "end": 124,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 103,
         "end": 123,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 103,
@@ -237,7 +235,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 118,
@@ -246,19 +243,20 @@ __ESTREE_TEST__:PASS:
           "name": "world",
           "optional": false,
           "typeAnnotation": null
-        }
-      }
+        },
+        "optional": false,
+        "computed": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 125,
       "end": 146,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 125,
         "end": 145,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 125,
@@ -268,7 +266,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 140,
@@ -277,8 +274,11 @@ __ESTREE_TEST__:PASS:
           "name": "world",
           "optional": false,
           "typeAnnotation": null
-        }
-      }
+        },
+        "optional": false,
+        "computed": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

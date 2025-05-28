@@ -9,7 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "IfStatement",
       "start": 0,
       "end": 91,
-      "alternate": null,
+      "test": {
+        "type": "Literal",
+        "start": 4,
+        "end": 9,
+        "value": false,
+        "raw": "false"
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 11,
@@ -19,12 +25,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 58,
             "end": 89,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 64,
                 "end": 88,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 64,
@@ -38,17 +44,11 @@ __ESTREE_TEST__:PASS:
                   "type": "FunctionExpression",
                   "start": 68,
                   "end": 88,
-                  "async": false,
-                  "body": {
-                    "type": "BlockStatement",
-                    "start": 81,
-                    "end": 88,
-                    "body": []
-                  },
-                  "declare": false,
-                  "expression": false,
-                  "generator": false,
                   "id": null,
+                  "generator": false,
+                  "async": false,
+                  "declare": false,
+                  "typeParameters": null,
                   "params": [
                     {
                       "type": "Identifier",
@@ -61,22 +61,22 @@ __ESTREE_TEST__:PASS:
                     }
                   ],
                   "returnType": null,
-                  "typeParameters": null
-                }
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 81,
+                    "end": 88,
+                    "body": []
+                  },
+                  "expression": false
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "const"
+            "declare": false
           }
         ]
       },
-      "test": {
-        "type": "Literal",
-        "start": 4,
-        "end": 9,
-        "raw": "false",
-        "value": false
-      }
+      "alternate": null
     }
   ],
   "sourceType": "script",

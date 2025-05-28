@@ -9,19 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 21,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 7,
         "end": 21,
-        "abstract": false,
-        "body": {
-          "type": "ClassBody",
-          "start": 18,
-          "end": 21,
-          "body": []
-        },
-        "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
@@ -32,14 +23,23 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "implements": [],
+        "typeParameters": null,
         "superClass": null,
         "superTypeArguments": null,
-        "typeParameters": null
+        "implements": [],
+        "body": {
+          "type": "ClassBody",
+          "start": 18,
+          "end": 21,
+          "body": []
+        },
+        "abstract": false,
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -66,7 +66,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 14,
@@ -75,21 +74,22 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 22,
           "end": 28,
-          "raw": "\"host\"",
-          "value": "host"
+          "value": "host",
+          "raw": "\"host\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 31,
       "end": 50,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 35,
           "end": 49,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 35,
@@ -107,22 +107,22 @@ __ESTREE_TEST__:PASS:
             "name": "host",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 51,
       "end": 78,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 55,
           "end": 77,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 55,
@@ -136,12 +136,10 @@ __ESTREE_TEST__:PASS:
             "type": "NewExpression",
             "start": 59,
             "end": 77,
-            "arguments": [],
             "callee": {
               "type": "MemberExpression",
               "start": 63,
               "end": 75,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 63,
@@ -151,7 +149,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 71,
@@ -160,14 +157,17 @@ __ESTREE_TEST__:PASS:
                 "name": "Host",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             },
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": []
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "module",

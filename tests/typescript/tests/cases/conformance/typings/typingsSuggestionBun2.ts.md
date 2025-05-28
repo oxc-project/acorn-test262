@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 31,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 6,
           "end": 30,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
@@ -28,20 +28,10 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 13,
             "end": 30,
-            "arguments": [
-              {
-                "type": "Literal",
-                "start": 22,
-                "end": 29,
-                "raw": "\"/a.ts\"",
-                "value": "/a.ts"
-              }
-            ],
             "callee": {
               "type": "MemberExpression",
               "start": 13,
               "end": 21,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 13,
@@ -51,7 +41,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 17,
@@ -60,15 +49,26 @@ __ESTREE_TEST__:PASS:
                 "name": "file",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 22,
+                "end": 29,
+                "value": "/a.ts",
+                "raw": "\"/a.ts\""
+              }
+            ],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "module",

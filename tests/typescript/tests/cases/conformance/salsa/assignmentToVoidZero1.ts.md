@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 10,
       "end": 41,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 10,
@@ -19,7 +18,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 10,
           "end": 19,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 10,
@@ -29,7 +27,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 18,
@@ -38,7 +35,9 @@ __ESTREE_TEST__:PASS:
             "name": "y",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "AssignmentExpression",
@@ -49,7 +48,6 @@ __ESTREE_TEST__:PASS:
             "type": "MemberExpression",
             "start": 22,
             "end": 31,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 22,
@@ -59,7 +57,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 30,
@@ -68,30 +65,32 @@ __ESTREE_TEST__:PASS:
               "name": "x",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "optional": false,
+            "computed": false
           },
           "right": {
             "type": "UnaryExpression",
             "start": 34,
             "end": 40,
+            "operator": "void",
             "argument": {
               "type": "Literal",
               "start": 39,
               "end": 40,
-              "raw": "0",
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
-            "operator": "void",
             "prefix": true
           }
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 42,
       "end": 56,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 42,
@@ -101,7 +100,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 42,
           "end": 51,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 42,
@@ -111,7 +109,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 50,
@@ -120,22 +117,24 @@ __ESTREE_TEST__:PASS:
             "name": "x",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
           "start": 54,
           "end": 55,
-          "raw": "1",
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 57,
       "end": 71,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 57,
@@ -145,7 +144,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 57,
           "end": 66,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 57,
@@ -155,7 +153,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 65,
@@ -164,16 +161,19 @@ __ESTREE_TEST__:PASS:
             "name": "y",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
           "start": 69,
           "end": 70,
-          "raw": "2",
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

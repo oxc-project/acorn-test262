@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 26,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 0,
@@ -19,7 +18,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 0,
           "end": 14,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 0,
@@ -29,7 +27,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 7,
@@ -38,7 +35,9 @@ __ESTREE_TEST__:PASS:
             "name": "exports",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "ObjectExpression",
@@ -49,7 +48,7 @@ __ESTREE_TEST__:PASS:
               "type": "Property",
               "start": 19,
               "end": 23,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 19,
@@ -59,21 +58,22 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "kind": "init",
-              "method": false,
-              "optional": false,
-              "shorthand": false,
               "value": {
                 "type": "Literal",
                 "start": 22,
                 "end": 23,
-                "raw": "0",
-                "value": 0
-              }
+                "value": 0,
+                "raw": "0"
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "optional": false
             }
           ]
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",
@@ -91,12 +91,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 37,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 6,
           "end": 36,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
@@ -110,15 +110,6 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 14,
             "end": 36,
-            "arguments": [
-              {
-                "type": "Literal",
-                "start": 22,
-                "end": 35,
-                "raw": "\"./json.json\"",
-                "value": "./json.json"
-              }
-            ],
             "callee": {
               "type": "Identifier",
               "start": 14,
@@ -128,24 +119,31 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 22,
+                "end": 35,
+                "value": "./json.json",
+                "raw": "\"./json.json\""
+              }
+            ],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 38,
       "end": 46,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 38,
         "end": 45,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 38,
@@ -155,7 +153,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 44,
@@ -164,19 +161,22 @@ __ESTREE_TEST__:PASS:
           "name": "b",
           "optional": false,
           "typeAnnotation": null
-        }
-      }
+        },
+        "optional": false,
+        "computed": false
+      },
+      "directive": null
     },
     {
       "type": "VariableDeclaration",
       "start": 93,
       "end": 130,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 99,
           "end": 129,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 99,
@@ -190,15 +190,6 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 107,
             "end": 129,
-            "arguments": [
-              {
-                "type": "Literal",
-                "start": 115,
-                "end": 128,
-                "raw": "\"./json.json\"",
-                "value": "./json.json"
-              }
-            ],
             "callee": {
               "type": "Identifier",
               "start": 107,
@@ -208,24 +199,31 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 115,
+                "end": 128,
+                "value": "./json.json",
+                "raw": "\"./json.json\""
+              }
+            ],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 149,
       "end": 157,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 149,
         "end": 156,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 149,
@@ -235,7 +233,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 155,
@@ -244,19 +241,22 @@ __ESTREE_TEST__:PASS:
           "name": "b",
           "optional": false,
           "typeAnnotation": null
-        }
-      }
+        },
+        "optional": false,
+        "computed": false
+      },
+      "directive": null
     },
     {
       "type": "VariableDeclaration",
       "start": 209,
       "end": 240,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 215,
           "end": 239,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 215,
@@ -270,15 +270,6 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 221,
             "end": 239,
-            "arguments": [
-              {
-                "type": "Literal",
-                "start": 229,
-                "end": 238,
-                "raw": "\"./js.js\"",
-                "value": "./js.js"
-              }
-            ],
             "callee": {
               "type": "Identifier",
               "start": 221,
@@ -288,24 +279,31 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 229,
+                "end": 238,
+                "value": "./js.js",
+                "raw": "\"./js.js\""
+              }
+            ],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 241,
       "end": 249,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 241,
         "end": 248,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 241,
@@ -315,7 +313,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 247,
@@ -324,19 +321,22 @@ __ESTREE_TEST__:PASS:
           "name": "b",
           "optional": false,
           "typeAnnotation": null
-        }
-      }
+        },
+        "optional": false,
+        "computed": false
+      },
+      "directive": null
     },
     {
       "type": "VariableDeclaration",
       "start": 296,
       "end": 327,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 302,
           "end": 326,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 302,
@@ -350,15 +350,6 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 308,
             "end": 326,
-            "arguments": [
-              {
-                "type": "Literal",
-                "start": 316,
-                "end": 325,
-                "raw": "\"./js.js\"",
-                "value": "./js.js"
-              }
-            ],
             "callee": {
               "type": "Identifier",
               "start": 308,
@@ -368,24 +359,31 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 316,
+                "end": 325,
+                "value": "./js.js",
+                "raw": "\"./js.js\""
+              }
+            ],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 344,
       "end": 350,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 344,
         "end": 349,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 344,
@@ -395,7 +393,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 348,
@@ -404,8 +401,11 @@ __ESTREE_TEST__:PASS:
           "name": "b",
           "optional": false,
           "typeAnnotation": null
-        }
-      }
+        },
+        "optional": false,
+        "computed": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

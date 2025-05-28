@@ -9,56 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 76,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 7,
         "end": 76,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 39,
-          "end": 76,
-          "body": [
-            {
-              "type": "ReturnStatement",
-              "start": 45,
-              "end": 74,
-              "argument": {
-                "type": "BinaryExpression",
-                "start": 52,
-                "end": 73,
-                "operator": "===",
-                "left": {
-                  "type": "UnaryExpression",
-                  "start": 52,
-                  "end": 60,
-                  "argument": {
-                    "type": "Identifier",
-                    "start": 59,
-                    "end": 60,
-                    "decorators": [],
-                    "name": "x",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "operator": "typeof",
-                  "prefix": true
-                },
-                "right": {
-                  "type": "Literal",
-                  "start": 65,
-                  "end": 73,
-                  "raw": "\"number\"",
-                  "value": "number"
-                }
-              }
-            }
-          ]
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 16,
@@ -68,6 +22,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [
           {
             "type": "Identifier",
@@ -96,7 +54,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypePredicate",
             "start": 27,
             "end": 38,
-            "asserts": false,
             "parameterName": {
               "type": "Identifier",
               "start": 27,
@@ -106,6 +63,7 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
+            "asserts": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 32,
@@ -118,11 +76,53 @@ __ESTREE_TEST__:PASS:
             }
           }
         },
-        "typeParameters": null
+        "body": {
+          "type": "BlockStatement",
+          "start": 39,
+          "end": 76,
+          "body": [
+            {
+              "type": "ReturnStatement",
+              "start": 45,
+              "end": 74,
+              "argument": {
+                "type": "BinaryExpression",
+                "start": 52,
+                "end": 73,
+                "left": {
+                  "type": "UnaryExpression",
+                  "start": 52,
+                  "end": 60,
+                  "operator": "typeof",
+                  "argument": {
+                    "type": "Identifier",
+                    "start": 59,
+                    "end": 60,
+                    "decorators": [],
+                    "name": "x",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "prefix": true
+                },
+                "operator": "===",
+                "right": {
+                  "type": "Literal",
+                  "start": 65,
+                  "end": 73,
+                  "value": "number",
+                  "raw": "\"number\""
+                }
+              }
+            }
+          ]
+        },
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

@@ -10,54 +10,16 @@ __ESTREE_TEST__:PASS:
       "start": 0,
       "end": 79,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 58,
-        "end": 79,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 64,
-            "end": 77,
-            "directive": null,
-            "expression": {
-              "type": "MemberExpression",
-              "start": 64,
-              "end": 76,
-              "computed": false,
-              "object": {
-                "type": "Identifier",
-                "start": 64,
-                "end": 71,
-                "decorators": [],
-                "name": "element",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "property": {
-                "type": "Identifier",
-                "start": 72,
-                "end": 76,
-                "decorators": [],
-                "name": "href",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            }
-          }
-        ]
-      },
       "left": {
         "type": "VariableDeclaration",
         "start": 5,
         "end": 18,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 11,
             "end": 18,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 11,
@@ -67,30 +29,20 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
       "right": {
         "type": "CallExpression",
         "start": 22,
         "end": 56,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 52,
-            "end": 55,
-            "raw": "\"a\"",
-            "value": "a"
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 22,
           "end": 51,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 22,
@@ -100,7 +52,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 31,
@@ -109,10 +60,59 @@ __ESTREE_TEST__:PASS:
             "name": "getElementsByTagName",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 52,
+            "end": 55,
+            "value": "a",
+            "raw": "\"a\""
+          }
+        ],
+        "optional": false
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 58,
+        "end": 79,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 64,
+            "end": 77,
+            "expression": {
+              "type": "MemberExpression",
+              "start": 64,
+              "end": 76,
+              "object": {
+                "type": "Identifier",
+                "start": 64,
+                "end": 71,
+                "decorators": [],
+                "name": "element",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 72,
+                "end": 76,
+                "decorators": [],
+                "name": "href",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "optional": false,
+              "computed": false
+            },
+            "directive": null
+          }
+        ]
       }
     }
   ],

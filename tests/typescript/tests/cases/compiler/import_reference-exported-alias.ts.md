@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 189,
+      "id": {
+        "type": "Identifier",
+        "start": 7,
+        "end": 10,
+        "decorators": [],
+        "name": "App",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 11,
@@ -18,11 +27,19 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 17,
             "end": 187,
-            "attributes": [],
             "declaration": {
               "type": "TSModuleDeclaration",
               "start": 24,
               "end": 187,
+              "id": {
+                "type": "Identifier",
+                "start": 31,
+                "end": 39,
+                "decorators": [],
+                "name": "Services",
+                "optional": false,
+                "typeAnnotation": null
+              },
               "body": {
                 "type": "TSModuleBlock",
                 "start": 40,
@@ -32,12 +49,24 @@ __ESTREE_TEST__:PASS:
                     "type": "ExportNamedDeclaration",
                     "start": 50,
                     "end": 181,
-                    "attributes": [],
                     "declaration": {
                       "type": "ClassDeclaration",
                       "start": 57,
                       "end": 181,
-                      "abstract": false,
+                      "decorators": [],
+                      "id": {
+                        "type": "Identifier",
+                        "start": 63,
+                        "end": 75,
+                        "decorators": [],
+                        "name": "UserServices",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "typeParameters": null,
+                      "superClass": null,
+                      "superTypeArguments": null,
+                      "implements": [],
                       "body": {
                         "type": "ClassBody",
                         "start": 76,
@@ -47,8 +76,6 @@ __ESTREE_TEST__:PASS:
                             "type": "MethodDefinition",
                             "start": 90,
                             "end": 171,
-                            "accessibility": "public",
-                            "computed": false,
                             "decorators": [],
                             "key": {
                               "type": "Identifier",
@@ -59,15 +86,26 @@ __ESTREE_TEST__:PASS:
                               "optional": false,
                               "typeAnnotation": null
                             },
-                            "kind": "method",
-                            "optional": false,
-                            "override": false,
-                            "static": false,
                             "value": {
                               "type": "FunctionExpression",
                               "start": 108,
                               "end": 171,
+                              "id": null,
+                              "generator": false,
                               "async": false,
+                              "declare": false,
+                              "typeParameters": null,
+                              "params": [],
+                              "returnType": {
+                                "type": "TSTypeAnnotation",
+                                "start": 110,
+                                "end": 118,
+                                "typeAnnotation": {
+                                  "type": "TSStringKeyword",
+                                  "start": 112,
+                                  "end": 118
+                                }
+                              },
                               "body": {
                                 "type": "BlockStatement",
                                 "start": 119,
@@ -81,85 +119,47 @@ __ESTREE_TEST__:PASS:
                                       "type": "Literal",
                                       "start": 144,
                                       "end": 156,
-                                      "raw": "\"Bill Gates\"",
-                                      "value": "Bill Gates"
+                                      "value": "Bill Gates",
+                                      "raw": "\"Bill Gates\""
                                     }
                                   }
                                 ]
                               },
-                              "declare": false,
-                              "expression": false,
-                              "generator": false,
-                              "id": null,
-                              "params": [],
-                              "returnType": {
-                                "type": "TSTypeAnnotation",
-                                "start": 110,
-                                "end": 118,
-                                "typeAnnotation": {
-                                  "type": "TSStringKeyword",
-                                  "start": 112,
-                                  "end": 118
-                                }
-                              },
-                              "typeParameters": null
-                            }
+                              "expression": false
+                            },
+                            "kind": "method",
+                            "computed": false,
+                            "static": false,
+                            "override": false,
+                            "optional": false,
+                            "accessibility": "public"
                           }
                         ]
                       },
-                      "declare": false,
-                      "decorators": [],
-                      "id": {
-                        "type": "Identifier",
-                        "start": 63,
-                        "end": 75,
-                        "decorators": [],
-                        "name": "UserServices",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "implements": [],
-                      "superClass": null,
-                      "superTypeArguments": null,
-                      "typeParameters": null
+                      "abstract": false,
+                      "declare": false
                     },
-                    "exportKind": "value",
+                    "specifiers": [],
                     "source": null,
-                    "specifiers": []
+                    "exportKind": "value",
+                    "attributes": []
                   }
                 ]
               },
+              "kind": "module",
               "declare": false,
-              "global": false,
-              "id": {
-                "type": "Identifier",
-                "start": 31,
-                "end": 39,
-                "decorators": [],
-                "name": "Services",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "kind": "module"
+              "global": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 7,
-        "end": 10,
-        "decorators": [],
-        "name": "App",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -174,7 +174,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "Identifier",
         "start": 204,
@@ -183,7 +182,8 @@ __ESTREE_TEST__:PASS:
         "name": "App",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSExportAssignment",
@@ -224,7 +224,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 15,
@@ -233,10 +232,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 23,
           "end": 30,
-          "raw": "\"file1\"",
-          "value": "file1"
+          "value": "file1",
+          "raw": "\"file1\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -251,7 +251,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSQualifiedName",
         "start": 51,
@@ -274,7 +273,8 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -289,7 +289,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSQualifiedName",
         "start": 89,
@@ -312,18 +311,19 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 112,
       "end": 153,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 116,
           "end": 152,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 116,
@@ -337,17 +337,14 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 120,
             "end": 152,
-            "arguments": [],
             "callee": {
               "type": "MemberExpression",
               "start": 120,
               "end": 150,
-              "computed": false,
               "object": {
                 "type": "NewExpression",
                 "start": 120,
                 "end": 138,
-                "arguments": [],
                 "callee": {
                   "type": "Identifier",
                   "start": 124,
@@ -357,9 +354,9 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "typeArguments": null
+                "typeArguments": null,
+                "arguments": []
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 139,
@@ -368,15 +365,18 @@ __ESTREE_TEST__:PASS:
                 "name": "getUserName",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "module",

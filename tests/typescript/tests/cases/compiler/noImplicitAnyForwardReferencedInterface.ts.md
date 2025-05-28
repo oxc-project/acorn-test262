@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 21,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 12,
           "end": 20,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
@@ -30,7 +30,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 15,
                 "end": 20,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 15,
@@ -39,37 +38,21 @@ __ESTREE_TEST__:PASS:
                   "name": "Entry",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 23,
       "end": 99,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 39,
-        "end": 99,
-        "body": [
-          {
-            "type": "TSConstructSignatureDeclaration",
-            "start": 90,
-            "end": 97,
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
-        ]
-      },
-      "declare": false,
-      "extends": [],
       "id": {
         "type": "Identifier",
         "start": 33,
@@ -79,7 +62,24 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "typeParameters": null
+      "typeParameters": null,
+      "extends": [],
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 39,
+        "end": 99,
+        "body": [
+          {
+            "type": "TSConstructSignatureDeclaration",
+            "start": 90,
+            "end": 97,
+            "typeParameters": null,
+            "params": [],
+            "returnType": null
+          }
+        ]
+      },
+      "declare": false
     }
   ],
   "sourceType": "script",

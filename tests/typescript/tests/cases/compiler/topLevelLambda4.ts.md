@@ -9,17 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 33,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 33,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 11,
             "end": 32,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 11,
@@ -33,18 +32,20 @@ __ESTREE_TEST__:PASS:
               "type": "ArrowFunctionExpression",
               "start": 15,
               "end": 32,
+              "expression": true,
               "async": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
               "body": {
                 "type": "MemberExpression",
                 "start": 21,
                 "end": 32,
-                "computed": false,
                 "object": {
                   "type": "ThisExpression",
                   "start": 21,
                   "end": 25
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 26,
@@ -53,23 +54,22 @@ __ESTREE_TEST__:PASS:
                   "name": "window",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "expression": true,
-              "generator": false,
               "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
+              "generator": false
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

@@ -9,78 +9,14 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 21,
       "end": 54,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 21,
         "end": 53,
-        "arguments": [
-          {
-            "type": "ArrowFunctionExpression",
-            "start": 39,
-            "end": 51,
-            "async": false,
-            "body": {
-              "type": "Identifier",
-              "start": 50,
-              "end": 51,
-              "decorators": [],
-              "name": "x",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "expression": true,
-            "generator": false,
-            "id": null,
-            "params": [
-              {
-                "type": "ObjectPattern",
-                "start": 40,
-                "end": 45,
-                "decorators": [],
-                "optional": false,
-                "properties": [
-                  {
-                    "type": "Property",
-                    "start": 42,
-                    "end": 43,
-                    "computed": false,
-                    "key": {
-                      "type": "Identifier",
-                      "start": 42,
-                      "end": 43,
-                      "decorators": [],
-                      "name": "x",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "kind": "init",
-                    "method": false,
-                    "optional": false,
-                    "shorthand": true,
-                    "value": {
-                      "type": "Identifier",
-                      "start": 42,
-                      "end": 43,
-                      "decorators": [],
-                      "name": "x",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  }
-                ],
-                "typeAnnotation": null
-              }
-            ],
-            "returnType": null,
-            "typeParameters": null
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 21,
           "end": 35,
-          "computed": false,
           "object": {
             "type": "ArrayExpression",
             "start": 21,
@@ -95,7 +31,7 @@ __ESTREE_TEST__:PASS:
                     "type": "Property",
                     "start": 24,
                     "end": 28,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 24,
@@ -105,23 +41,22 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "kind": "init",
-                    "method": false,
-                    "optional": false,
-                    "shorthand": false,
                     "value": {
                       "type": "Literal",
                       "start": 27,
                       "end": 28,
-                      "raw": "1",
-                      "value": 1
-                    }
+                      "value": 1,
+                      "raw": "1"
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "optional": false
                   }
                 ]
               }
             ]
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 32,
@@ -130,11 +65,76 @@ __ESTREE_TEST__:PASS:
             "name": "map",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 39,
+            "end": 51,
+            "expression": true,
+            "async": false,
+            "typeParameters": null,
+            "params": [
+              {
+                "type": "ObjectPattern",
+                "start": 40,
+                "end": 45,
+                "decorators": [],
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 42,
+                    "end": 43,
+                    "kind": "init",
+                    "key": {
+                      "type": "Identifier",
+                      "start": 42,
+                      "end": 43,
+                      "decorators": [],
+                      "name": "x",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "value": {
+                      "type": "Identifier",
+                      "start": 42,
+                      "end": 43,
+                      "decorators": [],
+                      "name": "x",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "method": false,
+                    "shorthand": true,
+                    "computed": false,
+                    "optional": false
+                  }
+                ],
+                "optional": false,
+                "typeAnnotation": null
+              }
+            ],
+            "returnType": null,
+            "body": {
+              "type": "Identifier",
+              "start": 50,
+              "end": 51,
+              "decorators": [],
+              "name": "x",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "id": null,
+            "generator": false
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

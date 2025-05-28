@@ -9,11 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 0,
       "end": 43,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 17,
@@ -23,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -54,7 +53,8 @@ __ESTREE_TEST__:PASS:
           "members": []
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     }
   ],
   "sourceType": "module",
@@ -72,7 +72,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 76,
       "end": 114,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 76,
@@ -82,7 +81,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 76,
           "end": 92,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 76,
@@ -92,7 +90,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 84,
@@ -101,21 +98,14 @@ __ESTREE_TEST__:PASS:
             "name": "inherits",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "CallExpression",
           "start": 95,
           "end": 114,
-          "arguments": [
-            {
-              "type": "Literal",
-              "start": 103,
-              "end": 113,
-              "raw": "'inherits'",
-              "value": "inherits"
-            }
-          ],
           "callee": {
             "type": "Identifier",
             "start": 95,
@@ -125,10 +115,20 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
-          "typeArguments": null
+          "typeArguments": null,
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 103,
+              "end": 113,
+              "value": "inherits",
+              "raw": "'inherits'"
+            }
+          ],
+          "optional": false
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

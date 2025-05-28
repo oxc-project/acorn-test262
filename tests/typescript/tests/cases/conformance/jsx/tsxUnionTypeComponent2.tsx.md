@@ -18,7 +18,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 15,
@@ -27,16 +26,16 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 23,
           "end": 30,
-          "raw": "'react'",
-          "value": "react"
+          "value": "react",
+          "raw": "'react'"
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 34,
       "end": 85,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 39,
@@ -46,6 +45,7 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSUnionType",
         "start": 50,
@@ -55,18 +55,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 50,
             "end": 75,
-            "typeArguments": {
-              "type": "TSTypeParameterInstantiation",
-              "start": 70,
-              "end": 75,
-              "params": [
-                {
-                  "type": "TSAnyKeyword",
-                  "start": 71,
-                  "end": 74
-                }
-              ]
-            },
             "typeName": {
               "type": "TSQualifiedName",
               "start": 50,
@@ -89,6 +77,18 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               }
+            },
+            "typeArguments": {
+              "type": "TSTypeParameterInstantiation",
+              "start": 70,
+              "end": 75,
+              "params": [
+                {
+                  "type": "TSAnyKeyword",
+                  "start": 71,
+                  "end": 74
+                }
+              ]
             }
           },
           {
@@ -98,18 +98,18 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 87,
       "end": 109,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 93,
           "end": 108,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 93,
@@ -125,7 +125,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 96,
                 "end": 104,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 96,
@@ -134,7 +133,8 @@ __ESTREE_TEST__:PASS:
                   "name": "Invalid1",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             }
           },
@@ -142,40 +142,40 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 107,
             "end": 108,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 111,
       "end": 117,
-      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 111,
         "end": 116,
-        "children": [],
-        "closingElement": null,
         "openingElement": {
           "type": "JSXOpeningElement",
           "start": 111,
           "end": 116,
-          "attributes": [],
           "name": {
             "type": "JSXIdentifier",
             "start": 112,
             "end": 113,
             "name": "X"
           },
-          "selfClosing": true,
-          "typeArguments": null
-        }
-      }
+          "typeArguments": null,
+          "attributes": [],
+          "selfClosing": true
+        },
+        "children": [],
+        "closingElement": null
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

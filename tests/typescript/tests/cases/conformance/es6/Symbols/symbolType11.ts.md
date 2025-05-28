@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 30,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 29,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,20 +28,10 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 8,
             "end": 29,
-            "arguments": [
-              {
-                "type": "Literal",
-                "start": 19,
-                "end": 28,
-                "raw": "\"logical\"",
-                "value": "logical"
-              }
-            ],
             "callee": {
               "type": "MemberExpression",
               "start": 8,
               "end": 18,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 8,
@@ -51,7 +41,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 15,
@@ -60,26 +49,35 @@ __ESTREE_TEST__:PASS:
                 "name": "for",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 19,
+                "end": 28,
+                "value": "logical",
+                "raw": "\"logical\""
+              }
+            ],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 31,
       "end": 38,
-      "directive": null,
       "expression": {
         "type": "LogicalExpression",
         "start": 31,
         "end": 37,
-        "operator": "&&",
         "left": {
           "type": "Identifier",
           "start": 31,
@@ -89,6 +87,7 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "operator": "&&",
         "right": {
           "type": "Identifier",
           "start": 36,
@@ -98,18 +97,17 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 39,
       "end": 47,
-      "directive": null,
       "expression": {
         "type": "LogicalExpression",
         "start": 39,
         "end": 46,
-        "operator": "&&",
         "left": {
           "type": "Identifier",
           "start": 39,
@@ -119,31 +117,32 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "operator": "&&",
         "right": {
           "type": "ArrayExpression",
           "start": 44,
           "end": 46,
           "elements": []
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 48,
       "end": 55,
-      "directive": null,
       "expression": {
         "type": "LogicalExpression",
         "start": 48,
         "end": 54,
-        "operator": "&&",
         "left": {
           "type": "Literal",
           "start": 48,
           "end": 49,
-          "raw": "0",
-          "value": 0
+          "value": 0,
+          "raw": "0"
         },
+        "operator": "&&",
         "right": {
           "type": "Identifier",
           "start": 53,
@@ -153,18 +152,17 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 56,
       "end": 63,
-      "directive": null,
       "expression": {
         "type": "LogicalExpression",
         "start": 56,
         "end": 62,
-        "operator": "||",
         "left": {
           "type": "Identifier",
           "start": 56,
@@ -174,6 +172,7 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "operator": "||",
         "right": {
           "type": "Identifier",
           "start": 61,
@@ -183,18 +182,17 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 64,
       "end": 71,
-      "directive": null,
       "expression": {
         "type": "LogicalExpression",
         "start": 64,
         "end": 70,
-        "operator": "||",
         "left": {
           "type": "Identifier",
           "start": 64,
@@ -204,31 +202,32 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "operator": "||",
         "right": {
           "type": "Literal",
           "start": 69,
           "end": 70,
-          "raw": "1",
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 72,
       "end": 82,
-      "directive": null,
       "expression": {
         "type": "LogicalExpression",
         "start": 72,
         "end": 81,
-        "operator": "||",
         "left": {
           "type": "ObjectExpression",
           "start": 73,
           "end": 75,
           "properties": []
         },
+        "operator": "||",
         "right": {
           "type": "Identifier",
           "start": 80,
@@ -238,7 +237,8 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

@@ -9,7 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 85,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 24,
+        "value": "moduleC",
+        "raw": "\"moduleC\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 25,
@@ -28,7 +34,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "importKind": "value",
             "moduleReference": {
               "type": "TSExternalModuleReference",
               "start": 45,
@@ -37,10 +42,11 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 53,
                 "end": 62,
-                "raw": "\"moduleD\"",
-                "value": "moduleD"
+                "value": "moduleD",
+                "raw": "\"moduleD\""
               }
-            }
+            },
+            "importKind": "value"
           },
           {
             "type": "TSExportAssignment",
@@ -58,21 +64,21 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 24,
-        "raw": "\"moduleC\"",
-        "value": "moduleC"
-      }
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 86,
       "end": 171,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 101,
+        "end": 110,
+        "value": "moduleD",
+        "raw": "\"moduleD\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 111,
@@ -91,7 +97,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "importKind": "value",
             "moduleReference": {
               "type": "TSExternalModuleReference",
               "start": 131,
@@ -100,10 +105,11 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 139,
                 "end": 148,
-                "raw": "\"moduleE\"",
-                "value": "moduleE"
+                "value": "moduleE",
+                "raw": "\"moduleE\""
               }
-            }
+            },
+            "importKind": "value"
           },
           {
             "type": "TSExportAssignment",
@@ -121,21 +127,21 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 101,
-        "end": 110,
-        "raw": "\"moduleD\"",
-        "value": "moduleD"
-      }
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 172,
       "end": 257,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 187,
+        "end": 196,
+        "value": "moduleE",
+        "raw": "\"moduleE\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 197,
@@ -154,7 +160,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "importKind": "value",
             "moduleReference": {
               "type": "TSExternalModuleReference",
               "start": 217,
@@ -163,10 +168,11 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 225,
                 "end": 234,
-                "raw": "\"moduleC\"",
-                "value": "moduleC"
+                "value": "moduleC",
+                "raw": "\"moduleC\""
               }
-            }
+            },
+            "importKind": "value"
           },
           {
             "type": "TSExportAssignment",
@@ -184,15 +190,9 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 187,
-        "end": 196,
-        "raw": "\"moduleE\"",
-        "value": "moduleE"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -210,14 +210,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 16,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 13,
-        "end": 16,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -228,10 +220,18 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 13,
+        "end": 16,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "TSExportAssignment",
@@ -272,7 +272,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 101,
@@ -281,10 +280,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 109,
           "end": 118,
-          "raw": "\"moduleC\"",
-          "value": "moduleC"
+          "value": "moduleC",
+          "raw": "\"moduleC\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -299,7 +299,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 137,
@@ -308,26 +307,26 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 145,
           "end": 199,
-          "raw": "\"recursiveExportAssignmentAndFindAliasedType3_moduleB\"",
-          "value": "recursiveExportAssignmentAndFindAliasedType3_moduleB"
+          "value": "recursiveExportAssignmentAndFindAliasedType3_moduleB",
+          "raw": "\"recursiveExportAssignmentAndFindAliasedType3_moduleB\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 202,
       "end": 223,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 209,
         "end": 223,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 213,
             "end": 222,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 213,
@@ -343,7 +342,6 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 216,
                   "end": 222,
-                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 216,
@@ -352,19 +350,21 @@ __ESTREE_TEST__:PASS:
                     "name": "ClassB",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "typeArguments": null
                 }
               }
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

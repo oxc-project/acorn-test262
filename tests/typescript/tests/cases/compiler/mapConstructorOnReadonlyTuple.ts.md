@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 42,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 6,
           "end": 41,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
@@ -48,8 +48,8 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 20,
                       "end": 21,
-                      "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   ]
                 },
@@ -68,8 +68,8 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 29,
                       "end": 30,
-                      "raw": "2",
-                      "value": 2
+                      "value": 2,
+                      "raw": "2"
                     }
                   ]
                 }
@@ -79,7 +79,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 36,
               "end": 41,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 36,
@@ -88,23 +87,33 @@ __ESTREE_TEST__:PASS:
                 "name": "const",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "typeArguments": null
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 43,
       "end": 58,
-      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 43,
         "end": 57,
+        "callee": {
+          "type": "Identifier",
+          "start": 47,
+          "end": 50,
+          "decorators": [],
+          "name": "Map",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null,
         "arguments": [
           {
             "type": "Identifier",
@@ -115,28 +124,28 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           }
-        ],
-        "callee": {
-          "type": "Identifier",
-          "start": 47,
-          "end": 50,
-          "decorators": [],
-          "name": "Map",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "typeArguments": null
-      }
+        ]
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 59,
       "end": 78,
-      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 59,
         "end": 77,
+        "callee": {
+          "type": "Identifier",
+          "start": 63,
+          "end": 70,
+          "decorators": [],
+          "name": "WeakMap",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null,
         "arguments": [
           {
             "type": "Identifier",
@@ -147,18 +156,9 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           }
-        ],
-        "callee": {
-          "type": "Identifier",
-          "start": 63,
-          "end": 70,
-          "decorators": [],
-          "name": "WeakMap",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "typeArguments": null
-      }
+        ]
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

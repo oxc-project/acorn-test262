@@ -9,12 +9,25 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 584,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 7,
         "end": 584,
+        "id": {
+          "type": "Identifier",
+          "start": 16,
+          "end": 18,
+          "decorators": [],
+          "name": "f1",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "generator": false,
         "async": false,
+        "declare": false,
+        "typeParameters": null,
+        "params": [],
+        "returnType": null,
         "body": {
           "type": "BlockStatement",
           "start": 21,
@@ -24,12 +37,12 @@ __ESTREE_TEST__:PASS:
               "type": "VariableDeclaration",
               "start": 27,
               "end": 89,
+              "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 33,
                   "end": 88,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 33,
@@ -43,35 +56,18 @@ __ESTREE_TEST__:PASS:
                     "type": "ConditionalExpression",
                     "start": 55,
                     "end": 88,
-                    "alternate": {
-                      "type": "Literal",
-                      "start": 84,
-                      "end": 88,
-                      "raw": "\"g2\"",
-                      "value": "g2"
-                    },
-                    "consequent": {
-                      "type": "Literal",
-                      "start": 77,
-                      "end": 81,
-                      "raw": "\"g1\"",
-                      "value": "g1"
-                    },
                     "test": {
                       "type": "BinaryExpression",
                       "start": 55,
                       "end": 74,
-                      "operator": ">",
                       "left": {
                         "type": "CallExpression",
                         "start": 55,
                         "end": 68,
-                        "arguments": [],
                         "callee": {
                           "type": "MemberExpression",
                           "start": 55,
                           "end": 66,
-                          "computed": false,
                           "object": {
                             "type": "Identifier",
                             "start": 55,
@@ -81,7 +77,6 @@ __ESTREE_TEST__:PASS:
                             "optional": false,
                             "typeAnnotation": null
                           },
-                          "optional": false,
                           "property": {
                             "type": "Identifier",
                             "start": 60,
@@ -90,35 +85,53 @@ __ESTREE_TEST__:PASS:
                             "name": "random",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "optional": false,
+                          "computed": false
                         },
-                        "optional": false,
-                        "typeArguments": null
+                        "typeArguments": null,
+                        "arguments": [],
+                        "optional": false
                       },
+                      "operator": ">",
                       "right": {
                         "type": "Literal",
                         "start": 71,
                         "end": 74,
-                        "raw": "0.5",
-                        "value": 0.5
+                        "value": 0.5,
+                        "raw": "0.5"
                       }
+                    },
+                    "consequent": {
+                      "type": "Literal",
+                      "start": 77,
+                      "end": 81,
+                      "value": "g1",
+                      "raw": "\"g1\""
+                    },
+                    "alternate": {
+                      "type": "Literal",
+                      "start": 84,
+                      "end": 88,
+                      "value": "g2",
+                      "raw": "\"g2\""
                     }
-                  }
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "const"
+              "declare": false
             },
             {
               "type": "VariableDeclaration",
               "start": 94,
               "end": 161,
+              "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 100,
                   "end": 160,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 100,
@@ -132,25 +145,10 @@ __ESTREE_TEST__:PASS:
                     "type": "ConditionalExpression",
                     "start": 118,
                     "end": 160,
-                    "alternate": {
-                      "type": "Literal",
-                      "start": 156,
-                      "end": 160,
-                      "raw": "\"g1\"",
-                      "value": "g1"
-                    },
-                    "consequent": {
-                      "type": "Literal",
-                      "start": 149,
-                      "end": 153,
-                      "raw": "\"g2\"",
-                      "value": "g2"
-                    },
                     "test": {
                       "type": "BinaryExpression",
                       "start": 118,
                       "end": 146,
-                      "operator": "===",
                       "left": {
                         "type": "Identifier",
                         "start": 118,
@@ -160,30 +158,45 @@ __ESTREE_TEST__:PASS:
                         "optional": false,
                         "typeAnnotation": null
                       },
+                      "operator": "===",
                       "right": {
                         "type": "Literal",
                         "start": 142,
                         "end": 146,
-                        "raw": "\"g1\"",
-                        "value": "g1"
+                        "value": "g1",
+                        "raw": "\"g1\""
                       }
+                    },
+                    "consequent": {
+                      "type": "Literal",
+                      "start": 149,
+                      "end": 153,
+                      "value": "g2",
+                      "raw": "\"g2\""
+                    },
+                    "alternate": {
+                      "type": "Literal",
+                      "start": 156,
+                      "end": 160,
+                      "value": "g1",
+                      "raw": "\"g1\""
                     }
-                  }
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "const"
+              "declare": false
             },
             {
               "type": "VariableDeclaration",
               "start": 166,
               "end": 225,
+              "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 172,
                   "end": 224,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 172,
@@ -197,35 +210,18 @@ __ESTREE_TEST__:PASS:
                     "type": "ConditionalExpression",
                     "start": 191,
                     "end": 224,
-                    "alternate": {
-                      "type": "Literal",
-                      "start": 220,
-                      "end": 224,
-                      "raw": "\"s2\"",
-                      "value": "s2"
-                    },
-                    "consequent": {
-                      "type": "Literal",
-                      "start": 213,
-                      "end": 217,
-                      "raw": "\"s1\"",
-                      "value": "s1"
-                    },
                     "test": {
                       "type": "BinaryExpression",
                       "start": 191,
                       "end": 210,
-                      "operator": ">",
                       "left": {
                         "type": "CallExpression",
                         "start": 191,
                         "end": 204,
-                        "arguments": [],
                         "callee": {
                           "type": "MemberExpression",
                           "start": 191,
                           "end": 202,
-                          "computed": false,
                           "object": {
                             "type": "Identifier",
                             "start": 191,
@@ -235,7 +231,6 @@ __ESTREE_TEST__:PASS:
                             "optional": false,
                             "typeAnnotation": null
                           },
-                          "optional": false,
                           "property": {
                             "type": "Identifier",
                             "start": 196,
@@ -244,24 +239,42 @@ __ESTREE_TEST__:PASS:
                             "name": "random",
                             "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "optional": false,
+                          "computed": false
                         },
-                        "optional": false,
-                        "typeArguments": null
+                        "typeArguments": null,
+                        "arguments": [],
+                        "optional": false
                       },
+                      "operator": ">",
                       "right": {
                         "type": "Literal",
                         "start": 207,
                         "end": 210,
-                        "raw": "0.5",
-                        "value": 0.5
+                        "value": 0.5,
+                        "raw": "0.5"
                       }
+                    },
+                    "consequent": {
+                      "type": "Literal",
+                      "start": 213,
+                      "end": 217,
+                      "value": "s1",
+                      "raw": "\"s1\""
+                    },
+                    "alternate": {
+                      "type": "Literal",
+                      "start": 220,
+                      "end": 224,
+                      "value": "s2",
+                      "raw": "\"s2\""
                     }
-                  }
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "const"
+              "declare": false
             },
             {
               "type": "ReturnStatement",
@@ -271,7 +284,20 @@ __ESTREE_TEST__:PASS:
                 "type": "ClassExpression",
                 "start": 237,
                 "end": 582,
-                "abstract": false,
+                "decorators": [],
+                "id": {
+                  "type": "Identifier",
+                  "start": 243,
+                  "end": 262,
+                  "decorators": [],
+                  "name": "ParameterizedHolder",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeParameters": null,
+                "superClass": null,
+                "superTypeArguments": null,
+                "implements": [],
                 "body": {
                   "type": "ClassBody",
                   "start": 263,
@@ -281,8 +307,6 @@ __ESTREE_TEST__:PASS:
                       "type": "MethodDefinition",
                       "start": 273,
                       "end": 336,
-                      "accessibility": null,
-                      "computed": true,
                       "decorators": [],
                       "key": {
                         "type": "Identifier",
@@ -293,15 +317,17 @@ __ESTREE_TEST__:PASS:
                         "optional": false,
                         "typeAnnotation": null
                       },
-                      "kind": "method",
-                      "optional": false,
-                      "override": false,
-                      "static": false,
                       "value": {
                         "type": "FunctionExpression",
                         "start": 294,
                         "end": 336,
+                        "id": null,
+                        "generator": false,
                         "async": false,
+                        "declare": false,
+                        "typeParameters": null,
+                        "params": [],
+                        "returnType": null,
                         "body": {
                           "type": "BlockStatement",
                           "start": 297,
@@ -315,27 +341,25 @@ __ESTREE_TEST__:PASS:
                                 "type": "Literal",
                                 "start": 318,
                                 "end": 325,
-                                "raw": "\"value\"",
-                                "value": "value"
+                                "value": "value",
+                                "raw": "\"value\""
                               }
                             }
                           ]
                         },
-                        "declare": false,
-                        "expression": false,
-                        "generator": false,
-                        "id": null,
-                        "params": [],
-                        "returnType": null,
-                        "typeParameters": null
-                      }
+                        "expression": false
+                      },
+                      "kind": "method",
+                      "computed": true,
+                      "static": false,
+                      "override": false,
+                      "optional": false,
+                      "accessibility": null
                     },
                     {
                       "type": "MethodDefinition",
                       "start": 345,
                       "end": 399,
-                      "accessibility": null,
-                      "computed": true,
                       "decorators": [],
                       "key": {
                         "type": "Identifier",
@@ -346,15 +370,17 @@ __ESTREE_TEST__:PASS:
                         "optional": false,
                         "typeAnnotation": null
                       },
-                      "kind": "method",
-                      "optional": false,
-                      "override": false,
-                      "static": false,
                       "value": {
                         "type": "FunctionExpression",
                         "start": 362,
                         "end": 399,
+                        "id": null,
+                        "generator": false,
                         "async": false,
+                        "declare": false,
+                        "typeParameters": null,
+                        "params": [],
+                        "returnType": null,
                         "body": {
                           "type": "BlockStatement",
                           "start": 365,
@@ -368,27 +394,25 @@ __ESTREE_TEST__:PASS:
                                 "type": "Literal",
                                 "start": 386,
                                 "end": 388,
-                                "raw": "42",
-                                "value": 42
+                                "value": 42,
+                                "raw": "42"
                               }
                             }
                           ]
                         },
-                        "declare": false,
-                        "expression": false,
-                        "generator": false,
-                        "id": null,
-                        "params": [],
-                        "returnType": null,
-                        "typeParameters": null
-                      }
+                        "expression": false
+                      },
+                      "kind": "method",
+                      "computed": true,
+                      "static": false,
+                      "override": false,
+                      "optional": false,
+                      "accessibility": null
                     },
                     {
                       "type": "MethodDefinition",
                       "start": 408,
                       "end": 484,
-                      "accessibility": null,
-                      "computed": true,
                       "decorators": [],
                       "key": {
                         "type": "Identifier",
@@ -399,15 +423,17 @@ __ESTREE_TEST__:PASS:
                         "optional": false,
                         "typeAnnotation": null
                       },
-                      "kind": "method",
-                      "optional": false,
-                      "override": false,
-                      "static": true,
                       "value": {
                         "type": "FunctionExpression",
                         "start": 433,
                         "end": 484,
+                        "id": null,
+                        "generator": false,
                         "async": false,
+                        "declare": false,
+                        "typeParameters": null,
+                        "params": [],
+                        "returnType": null,
                         "body": {
                           "type": "BlockStatement",
                           "start": 436,
@@ -426,7 +452,7 @@ __ESTREE_TEST__:PASS:
                                     "type": "Property",
                                     "start": 459,
                                     "end": 471,
-                                    "computed": false,
+                                    "kind": "init",
                                     "key": {
                                       "type": "Identifier",
                                       "start": 459,
@@ -436,38 +462,36 @@ __ESTREE_TEST__:PASS:
                                       "optional": false,
                                       "typeAnnotation": null
                                     },
-                                    "kind": "init",
-                                    "method": false,
-                                    "optional": false,
-                                    "shorthand": false,
                                     "value": {
                                       "type": "Literal",
                                       "start": 467,
                                       "end": 471,
-                                      "raw": "true",
-                                      "value": true
-                                    }
+                                      "value": true,
+                                      "raw": "true"
+                                    },
+                                    "method": false,
+                                    "shorthand": false,
+                                    "computed": false,
+                                    "optional": false
                                   }
                                 ]
                               }
                             }
                           ]
                         },
-                        "declare": false,
-                        "expression": false,
-                        "generator": false,
-                        "id": null,
-                        "params": [],
-                        "returnType": null,
-                        "typeParameters": null
-                      }
+                        "expression": false
+                      },
+                      "kind": "method",
+                      "computed": true,
+                      "static": true,
+                      "override": false,
+                      "optional": false,
+                      "accessibility": null
                     },
                     {
                       "type": "MethodDefinition",
                       "start": 493,
                       "end": 576,
-                      "accessibility": null,
-                      "computed": true,
                       "decorators": [],
                       "key": {
                         "type": "Identifier",
@@ -478,15 +502,17 @@ __ESTREE_TEST__:PASS:
                         "optional": false,
                         "typeAnnotation": null
                       },
-                      "kind": "method",
-                      "optional": false,
-                      "override": false,
-                      "static": true,
                       "value": {
                         "type": "FunctionExpression",
                         "start": 518,
                         "end": 576,
+                        "id": null,
+                        "generator": false,
                         "async": false,
+                        "declare": false,
+                        "typeParameters": null,
+                        "params": [],
+                        "returnType": null,
                         "body": {
                           "type": "BlockStatement",
                           "start": 521,
@@ -505,7 +531,7 @@ __ESTREE_TEST__:PASS:
                                     "type": "Property",
                                     "start": 544,
                                     "end": 563,
-                                    "computed": false,
+                                    "kind": "init",
                                     "key": {
                                       "type": "Identifier",
                                       "start": 544,
@@ -515,72 +541,46 @@ __ESTREE_TEST__:PASS:
                                       "optional": false,
                                       "typeAnnotation": null
                                     },
-                                    "kind": "init",
-                                    "method": false,
-                                    "optional": false,
-                                    "shorthand": false,
                                     "value": {
                                       "type": "Literal",
                                       "start": 552,
                                       "end": 563,
-                                      "raw": "\"sometimes\"",
-                                      "value": "sometimes"
-                                    }
+                                      "value": "sometimes",
+                                      "raw": "\"sometimes\""
+                                    },
+                                    "method": false,
+                                    "shorthand": false,
+                                    "computed": false,
+                                    "optional": false
                                   }
                                 ]
                               }
                             }
                           ]
                         },
-                        "declare": false,
-                        "expression": false,
-                        "generator": false,
-                        "id": null,
-                        "params": [],
-                        "returnType": null,
-                        "typeParameters": null
-                      }
+                        "expression": false
+                      },
+                      "kind": "method",
+                      "computed": true,
+                      "static": true,
+                      "override": false,
+                      "optional": false,
+                      "accessibility": null
                     }
                   ]
                 },
-                "declare": false,
-                "decorators": [],
-                "id": {
-                  "type": "Identifier",
-                  "start": 243,
-                  "end": 262,
-                  "decorators": [],
-                  "name": "ParameterizedHolder",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "implements": [],
-                "superClass": null,
-                "superTypeArguments": null,
-                "typeParameters": null
+                "abstract": false,
+                "declare": false
               }
             }
           ]
         },
-        "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 16,
-          "end": 18,
-          "decorators": [],
-          "name": "f1",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

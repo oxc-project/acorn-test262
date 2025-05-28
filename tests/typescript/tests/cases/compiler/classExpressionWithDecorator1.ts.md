@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 43,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 42,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,46 +28,6 @@ __ESTREE_TEST__:PASS:
             "type": "ClassExpression",
             "start": 8,
             "end": 42,
-            "abstract": false,
-            "body": {
-              "type": "ClassBody",
-              "start": 26,
-              "end": 42,
-              "body": [
-                {
-                  "type": "PropertyDefinition",
-                  "start": 28,
-                  "end": 40,
-                  "accessibility": null,
-                  "computed": false,
-                  "declare": false,
-                  "decorators": [],
-                  "definite": false,
-                  "key": {
-                    "type": "Identifier",
-                    "start": 35,
-                    "end": 36,
-                    "decorators": [],
-                    "name": "p",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "override": false,
-                  "readonly": false,
-                  "static": true,
-                  "typeAnnotation": null,
-                  "value": {
-                    "type": "Literal",
-                    "start": 39,
-                    "end": 40,
-                    "raw": "1",
-                    "value": 1
-                  }
-                }
-              ]
-            },
-            "declare": false,
             "decorators": [
               {
                 "type": "Decorator",
@@ -93,15 +53,55 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "implements": [],
+            "typeParameters": null,
             "superClass": null,
             "superTypeArguments": null,
-            "typeParameters": null
-          }
+            "implements": [],
+            "body": {
+              "type": "ClassBody",
+              "start": 26,
+              "end": 42,
+              "body": [
+                {
+                  "type": "PropertyDefinition",
+                  "start": 28,
+                  "end": 40,
+                  "decorators": [],
+                  "key": {
+                    "type": "Identifier",
+                    "start": 35,
+                    "end": 36,
+                    "decorators": [],
+                    "name": "p",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeAnnotation": null,
+                  "value": {
+                    "type": "Literal",
+                    "start": 39,
+                    "end": 40,
+                    "value": 1,
+                    "raw": "1"
+                  },
+                  "computed": false,
+                  "static": true,
+                  "declare": false,
+                  "override": false,
+                  "optional": false,
+                  "definite": false,
+                  "readonly": false,
+                  "accessibility": null
+                }
+              ]
+            },
+            "abstract": false,
+            "declare": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

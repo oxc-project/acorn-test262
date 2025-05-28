@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 6,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 5,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -24,22 +24,22 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 7,
       "end": 24,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 11,
           "end": 23,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 11,
@@ -55,6 +55,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSFunctionType",
                 "start": 14,
                 "end": 23,
+                "typeParameters": null,
                 "params": [],
                 "returnType": {
                   "type": "TSTypeAnnotation",
@@ -65,26 +66,29 @@ __ESTREE_TEST__:PASS:
                     "start": 20,
                     "end": 23
                   }
-                },
-                "typeParameters": null
+                }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 25,
       "end": 56,
-      "directive": null,
       "expression": {
         "type": "TSTypeAssertion",
         "start": 25,
         "end": 55,
+        "typeAnnotation": {
+          "type": "TSAnyKeyword",
+          "start": 26,
+          "end": 29
+        },
         "expression": {
           "type": "AssignmentExpression",
           "start": 47,
@@ -103,7 +107,6 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 51,
             "end": 54,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 51,
@@ -113,16 +116,13 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "typeArguments": null
+            "typeArguments": null,
+            "arguments": [],
+            "optional": false
           }
-        },
-        "typeAnnotation": {
-          "type": "TSAnyKeyword",
-          "start": 26,
-          "end": 29
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

@@ -9,35 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 10,
       "end": 28,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 22,
-        "end": 28,
-        "body": [
-          {
-            "type": "TSPropertySignature",
-            "start": 24,
-            "end": 26,
-            "accessibility": null,
-            "computed": false,
-            "key": {
-              "type": "Identifier",
-              "start": 24,
-              "end": 25,
-              "decorators": [],
-              "name": "x",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": null
-          }
-        ]
-      },
-      "declare": false,
-      "extends": [],
       "id": {
         "type": "Identifier",
         "start": 20,
@@ -47,41 +18,41 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "typeParameters": null
-    },
-    {
-      "type": "TSInterfaceDeclaration",
-      "start": 29,
-      "end": 48,
+      "typeParameters": null,
+      "extends": [],
       "body": {
         "type": "TSInterfaceBody",
-        "start": 41,
-        "end": 48,
+        "start": 22,
+        "end": 28,
         "body": [
           {
             "type": "TSPropertySignature",
-            "start": 43,
-            "end": 46,
-            "accessibility": null,
+            "start": 24,
+            "end": 26,
             "computed": false,
+            "optional": false,
+            "readonly": false,
             "key": {
               "type": "Identifier",
-              "start": 43,
-              "end": 44,
+              "start": 24,
+              "end": 25,
               "decorators": [],
               "name": "x",
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": true,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "accessibility": null,
+            "static": false
           }
         ]
       },
-      "declare": false,
-      "extends": [],
+      "declare": false
+    },
+    {
+      "type": "TSInterfaceDeclaration",
+      "start": 29,
+      "end": 48,
       "id": {
         "type": "Identifier",
         "start": 39,
@@ -91,55 +62,41 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "typeParameters": null
+      "typeParameters": null,
+      "extends": [],
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 41,
+        "end": 48,
+        "body": [
+          {
+            "type": "TSPropertySignature",
+            "start": 43,
+            "end": 46,
+            "computed": false,
+            "optional": true,
+            "readonly": false,
+            "key": {
+              "type": "Identifier",
+              "start": 43,
+              "end": 44,
+              "decorators": [],
+              "name": "x",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeAnnotation": null,
+            "accessibility": null,
+            "static": false
+          }
+        ]
+      },
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 56,
       "end": 87,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 64,
-        "end": 87,
-        "body": [
-          {
-            "type": "PropertyDefinition",
-            "start": 68,
-            "end": 85,
-            "accessibility": "public",
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
-            "key": {
-              "type": "Identifier",
-              "start": 75,
-              "end": 76,
-              "decorators": [],
-              "name": "y",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 76,
-              "end": 84,
-              "typeAnnotation": {
-                "type": "TSStringKeyword",
-                "start": 78,
-                "end": 84
-              }
-            },
-            "value": null
-          }
-        ]
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -150,53 +107,58 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
-    },
-    {
-      "type": "TSInterfaceDeclaration",
-      "start": 89,
-      "end": 117,
+      "implements": [],
       "body": {
-        "type": "TSInterfaceBody",
-        "start": 101,
-        "end": 117,
+        "type": "ClassBody",
+        "start": 64,
+        "end": 87,
         "body": [
           {
-            "type": "TSPropertySignature",
-            "start": 105,
-            "end": 115,
-            "accessibility": null,
-            "computed": false,
+            "type": "PropertyDefinition",
+            "start": 68,
+            "end": 85,
+            "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 105,
-              "end": 106,
+              "start": 75,
+              "end": 76,
               "decorators": [],
               "name": "y",
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 106,
-              "end": 114,
+              "start": 76,
+              "end": 84,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
-                "start": 108,
-                "end": 114
+                "start": 78,
+                "end": 84
               }
-            }
+            },
+            "value": null,
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": "public"
           }
         ]
       },
-      "declare": false,
-      "extends": [],
+      "abstract": false,
+      "declare": false
+    },
+    {
+      "type": "TSInterfaceDeclaration",
+      "start": 89,
+      "end": 117,
       "id": {
         "type": "Identifier",
         "start": 99,
@@ -206,55 +168,50 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "typeParameters": null
-    },
-    {
-      "type": "ClassDeclaration",
-      "start": 129,
-      "end": 161,
-      "abstract": false,
+      "typeParameters": null,
+      "extends": [],
       "body": {
-        "type": "ClassBody",
-        "start": 137,
-        "end": 161,
+        "type": "TSInterfaceBody",
+        "start": 101,
+        "end": 117,
         "body": [
           {
-            "type": "PropertyDefinition",
-            "start": 141,
-            "end": 159,
-            "accessibility": "private",
+            "type": "TSPropertySignature",
+            "start": 105,
+            "end": 115,
             "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
+            "optional": false,
+            "readonly": false,
             "key": {
               "type": "Identifier",
-              "start": 149,
-              "end": 150,
+              "start": 105,
+              "end": 106,
               "decorators": [],
               "name": "y",
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 150,
-              "end": 158,
+              "start": 106,
+              "end": 114,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
-                "start": 152,
-                "end": 158
+                "start": 108,
+                "end": 114
               }
             },
-            "value": null
+            "accessibility": null,
+            "static": false
           }
         ]
       },
-      "declare": false,
+      "declare": false
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 129,
+      "end": 161,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -265,53 +222,58 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
-    },
-    {
-      "type": "TSInterfaceDeclaration",
-      "start": 163,
-      "end": 191,
+      "implements": [],
       "body": {
-        "type": "TSInterfaceBody",
-        "start": 175,
-        "end": 191,
+        "type": "ClassBody",
+        "start": 137,
+        "end": 161,
         "body": [
           {
-            "type": "TSPropertySignature",
-            "start": 179,
-            "end": 189,
-            "accessibility": null,
-            "computed": false,
+            "type": "PropertyDefinition",
+            "start": 141,
+            "end": 159,
+            "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 179,
-              "end": 180,
+              "start": 149,
+              "end": 150,
               "decorators": [],
               "name": "y",
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 180,
-              "end": 188,
+              "start": 150,
+              "end": 158,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
-                "start": 182,
-                "end": 188
+                "start": 152,
+                "end": 158
               }
-            }
+            },
+            "value": null,
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": "private"
           }
         ]
       },
-      "declare": false,
-      "extends": [],
+      "abstract": false,
+      "declare": false
+    },
+    {
+      "type": "TSInterfaceDeclaration",
+      "start": 163,
+      "end": 191,
       "id": {
         "type": "Identifier",
         "start": 173,
@@ -321,7 +283,45 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "typeParameters": null
+      "typeParameters": null,
+      "extends": [],
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 175,
+        "end": 191,
+        "body": [
+          {
+            "type": "TSPropertySignature",
+            "start": 179,
+            "end": 189,
+            "computed": false,
+            "optional": false,
+            "readonly": false,
+            "key": {
+              "type": "Identifier",
+              "start": 179,
+              "end": 180,
+              "decorators": [],
+              "name": "y",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 180,
+              "end": 188,
+              "typeAnnotation": {
+                "type": "TSStringKeyword",
+                "start": 182,
+                "end": 188
+              }
+            },
+            "accessibility": null,
+            "static": false
+          }
+        ]
+      },
+      "declare": false
     }
   ],
   "sourceType": "script",

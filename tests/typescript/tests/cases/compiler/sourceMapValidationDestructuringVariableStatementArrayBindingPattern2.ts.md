@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 52,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 12,
           "end": 52,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
@@ -35,8 +35,6 @@ __ESTREE_TEST__:PASS:
                     "type": "TSMethodSignature",
                     "start": 27,
                     "end": 50,
-                    "accessibility": null,
-                    "computed": false,
                     "key": {
                       "type": "Identifier",
                       "start": 27,
@@ -46,8 +44,10 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "kind": "method",
+                    "computed": false,
                     "optional": false,
+                    "kind": "method",
+                    "typeParameters": null,
                     "params": [
                       {
                         "type": "Identifier",
@@ -68,7 +68,6 @@ __ESTREE_TEST__:PASS:
                         }
                       }
                     ],
-                    "readonly": false,
                     "returnType": {
                       "type": "TSTypeAnnotation",
                       "start": 43,
@@ -79,24 +78,24 @@ __ESTREE_TEST__:PASS:
                         "end": 49
                       }
                     },
-                    "static": false,
-                    "typeParameters": null
+                    "accessibility": null,
+                    "readonly": false,
+                    "static": false
                   }
                 ]
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 53,
       "end": 105,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 58,
@@ -106,6 +105,7 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTupleType",
         "start": 78,
@@ -135,18 +135,18 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 106,
       "end": 169,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 110,
           "end": 168,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 110,
@@ -162,7 +162,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 123,
                 "end": 140,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 123,
@@ -171,7 +170,8 @@ __ESTREE_TEST__:PASS:
                   "name": "MultiSkilledRobot",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             }
           },
@@ -184,8 +184,8 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 144,
                 "end": 151,
-                "raw": "\"mower\"",
-                "value": "mower"
+                "value": "mower",
+                "raw": "\"mower\""
               },
               {
                 "type": "ArrayExpression",
@@ -196,35 +196,35 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 154,
                     "end": 162,
-                    "raw": "\"mowing\"",
-                    "value": "mowing"
+                    "value": "mowing",
+                    "raw": "\"mowing\""
                   },
                   {
                     "type": "Literal",
                     "start": 164,
                     "end": 166,
-                    "raw": "\"\"",
-                    "value": ""
+                    "value": "",
+                    "raw": "\"\""
                   }
                 ]
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 170,
       "end": 243,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 174,
           "end": 242,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 174,
@@ -240,7 +240,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 187,
                 "end": 204,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 187,
@@ -249,7 +248,8 @@ __ESTREE_TEST__:PASS:
                   "name": "MultiSkilledRobot",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             }
           },
@@ -262,8 +262,8 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 208,
                 "end": 217,
-                "raw": "\"trimmer\"",
-                "value": "trimmer"
+                "value": "trimmer",
+                "raw": "\"trimmer\""
               },
               {
                 "type": "ArrayExpression",
@@ -274,35 +274,35 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 220,
                     "end": 230,
-                    "raw": "\"trimming\"",
-                    "value": "trimming"
+                    "value": "trimming",
+                    "raw": "\"trimming\""
                   },
                   {
                     "type": "Literal",
                     "start": 232,
                     "end": 240,
-                    "raw": "\"edging\"",
-                    "value": "edging"
+                    "value": "edging",
+                    "raw": "\"edging\""
                   }
                 ]
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 245,
       "end": 274,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 249,
           "end": 273,
-          "definite": false,
           "id": {
             "type": "ArrayPattern",
             "start": 249,
@@ -331,22 +331,22 @@ __ESTREE_TEST__:PASS:
             "name": "multiRobotA",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 275,
       "end": 302,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 279,
           "end": 301,
-          "definite": false,
           "id": {
             "type": "ArrayPattern",
             "start": 279,
@@ -374,22 +374,22 @@ __ESTREE_TEST__:PASS:
             "name": "multiRobotB",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 303,
       "end": 364,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 307,
           "end": 363,
-          "definite": false,
           "id": {
             "type": "ArrayPattern",
             "start": 307,
@@ -445,22 +445,22 @@ __ESTREE_TEST__:PASS:
             "name": "multiRobotA",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 366,
       "end": 415,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 370,
           "end": 414,
-          "definite": false,
           "id": {
             "type": "ArrayPattern",
             "start": 370,
@@ -489,8 +489,8 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 382,
                 "end": 390,
-                "raw": "\"roomba\"",
-                "value": "roomba"
+                "value": "roomba",
+                "raw": "\"roomba\""
               },
               {
                 "type": "ArrayExpression",
@@ -501,35 +501,35 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 393,
                     "end": 401,
-                    "raw": "\"vacuum\"",
-                    "value": "vacuum"
+                    "value": "vacuum",
+                    "raw": "\"vacuum\""
                   },
                   {
                     "type": "Literal",
                     "start": 403,
                     "end": 412,
-                    "raw": "\"mopping\"",
-                    "value": "mopping"
+                    "value": "mopping",
+                    "raw": "\"mopping\""
                   }
                 ]
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 416,
       "end": 500,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 420,
           "end": 499,
-          "definite": false,
           "id": {
             "type": "ArrayPattern",
             "start": 420,
@@ -586,8 +586,8 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 467,
                 "end": 475,
-                "raw": "\"roomba\"",
-                "value": "roomba"
+                "value": "roomba",
+                "raw": "\"roomba\""
               },
               {
                 "type": "ArrayExpression",
@@ -598,35 +598,35 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 478,
                     "end": 486,
-                    "raw": "\"vacuum\"",
-                    "value": "vacuum"
+                    "value": "vacuum",
+                    "raw": "\"vacuum\""
                   },
                   {
                     "type": "Literal",
                     "start": 488,
                     "end": 497,
-                    "raw": "\"mopping\"",
-                    "value": "mopping"
+                    "value": "mopping",
+                    "raw": "\"mopping\""
                   }
                 ]
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 502,
       "end": 541,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 506,
           "end": 540,
-          "definite": false,
           "id": {
             "type": "ArrayPattern",
             "start": 506,
@@ -637,6 +637,7 @@ __ESTREE_TEST__:PASS:
                 "type": "RestElement",
                 "start": 507,
                 "end": 525,
+                "decorators": [],
                 "argument": {
                   "type": "Identifier",
                   "start": 510,
@@ -646,7 +647,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "decorators": [],
                 "optional": false,
                 "typeAnnotation": null,
                 "value": null
@@ -663,121 +663,20 @@ __ESTREE_TEST__:PASS:
             "name": "multiRobotA",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 543,
       "end": 608,
-      "alternate": null,
-      "consequent": {
-        "type": "BlockStatement",
-        "start": 565,
-        "end": 608,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 571,
-            "end": 606,
-            "directive": null,
-            "expression": {
-              "type": "CallExpression",
-              "start": 571,
-              "end": 605,
-              "arguments": [
-                {
-                  "type": "BinaryExpression",
-                  "start": 583,
-                  "end": 604,
-                  "operator": "+",
-                  "left": {
-                    "type": "MemberExpression",
-                    "start": 583,
-                    "end": 592,
-                    "computed": true,
-                    "object": {
-                      "type": "Identifier",
-                      "start": 583,
-                      "end": 589,
-                      "decorators": [],
-                      "name": "skillA",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "optional": false,
-                    "property": {
-                      "type": "Literal",
-                      "start": 590,
-                      "end": 591,
-                      "raw": "0",
-                      "value": 0
-                    }
-                  },
-                  "right": {
-                    "type": "MemberExpression",
-                    "start": 595,
-                    "end": 604,
-                    "computed": true,
-                    "object": {
-                      "type": "Identifier",
-                      "start": 595,
-                      "end": 601,
-                      "decorators": [],
-                      "name": "skillA",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "optional": false,
-                    "property": {
-                      "type": "Literal",
-                      "start": 602,
-                      "end": 603,
-                      "raw": "1",
-                      "value": 1
-                    }
-                  }
-                }
-              ],
-              "callee": {
-                "type": "MemberExpression",
-                "start": 571,
-                "end": 582,
-                "computed": false,
-                "object": {
-                  "type": "Identifier",
-                  "start": 571,
-                  "end": 578,
-                  "decorators": [],
-                  "name": "console",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Identifier",
-                  "start": 579,
-                  "end": 582,
-                  "decorators": [],
-                  "name": "log",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              },
-              "optional": false,
-              "typeArguments": null
-            }
-          }
-        ]
-      },
       "test": {
         "type": "BinaryExpression",
         "start": 547,
         "end": 563,
-        "operator": "==",
         "left": {
           "type": "Identifier",
           "start": 547,
@@ -787,6 +686,7 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "operator": "==",
         "right": {
           "type": "Identifier",
           "start": 557,
@@ -796,7 +696,107 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 565,
+        "end": 608,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 571,
+            "end": 606,
+            "expression": {
+              "type": "CallExpression",
+              "start": 571,
+              "end": 605,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 571,
+                "end": 582,
+                "object": {
+                  "type": "Identifier",
+                  "start": 571,
+                  "end": 578,
+                  "decorators": [],
+                  "name": "console",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 579,
+                  "end": 582,
+                  "decorators": [],
+                  "name": "log",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "optional": false,
+                "computed": false
+              },
+              "typeArguments": null,
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 583,
+                  "end": 604,
+                  "left": {
+                    "type": "MemberExpression",
+                    "start": 583,
+                    "end": 592,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 583,
+                      "end": 589,
+                      "decorators": [],
+                      "name": "skillA",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "property": {
+                      "type": "Literal",
+                      "start": 590,
+                      "end": 591,
+                      "value": 0,
+                      "raw": "0"
+                    },
+                    "optional": false,
+                    "computed": true
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "MemberExpression",
+                    "start": 595,
+                    "end": 604,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 595,
+                      "end": 601,
+                      "decorators": [],
+                      "name": "skillA",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "property": {
+                      "type": "Literal",
+                      "start": 602,
+                      "end": 603,
+                      "value": 1,
+                      "raw": "1"
+                    },
+                    "optional": false,
+                    "computed": true
+                  }
+                }
+              ],
+              "optional": false
+            },
+            "directive": null
+          }
+        ]
+      },
+      "alternate": null
     }
   ],
   "sourceType": "script",

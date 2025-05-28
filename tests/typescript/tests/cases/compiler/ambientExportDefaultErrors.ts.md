@@ -13,20 +13,20 @@ __ESTREE_TEST__:PASS:
         "type": "BinaryExpression",
         "start": 15,
         "end": 20,
-        "operator": "+",
         "left": {
           "type": "Literal",
           "start": 15,
           "end": 16,
-          "raw": "2",
-          "value": 2
+          "value": 2,
+          "raw": "2"
         },
+        "operator": "+",
         "right": {
           "type": "Literal",
           "start": 19,
           "end": 20,
-          "raw": "2",
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       },
       "exportKind": "value"
@@ -65,20 +65,20 @@ __ESTREE_TEST__:PASS:
         "type": "BinaryExpression",
         "start": 9,
         "end": 14,
-        "operator": "+",
         "left": {
           "type": "Literal",
           "start": 9,
           "end": 10,
-          "raw": "2",
-          "value": 2
+          "value": 2,
+          "raw": "2"
         },
+        "operator": "+",
         "right": {
           "type": "Literal",
           "start": 13,
           "end": 14,
-          "raw": "2",
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       }
     },
@@ -112,7 +112,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 36,
       "end": 104,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 51,
+        "end": 61,
+        "value": "indirect",
+        "raw": "\"indirect\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 62,
@@ -126,11 +132,11 @@ __ESTREE_TEST__:PASS:
               "type": "UnaryExpression",
               "start": 83,
               "end": 101,
+              "operator": "typeof",
               "argument": {
                 "type": "MemberExpression",
                 "start": 90,
                 "end": 101,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 90,
@@ -140,7 +146,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 94,
@@ -149,24 +154,19 @@ __ESTREE_TEST__:PASS:
                   "name": "default",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "operator": "typeof",
               "prefix": true
             },
             "exportKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 51,
-        "end": 61,
-        "raw": "\"indirect\"",
-        "value": "indirect"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -184,7 +184,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 37,
       "end": 93,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 52,
+        "end": 63,
+        "value": "indirect2",
+        "raw": "\"indirect2\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 64,
@@ -198,6 +204,7 @@ __ESTREE_TEST__:PASS:
               "type": "UnaryExpression",
               "start": 79,
               "end": 90,
+              "operator": "typeof",
               "argument": {
                 "type": "Identifier",
                 "start": 86,
@@ -207,21 +214,14 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "operator": "typeof",
               "prefix": true
             }
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 52,
-        "end": 63,
-        "raw": "\"indirect2\"",
-        "value": "indirect2"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -239,65 +239,65 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 89,
       "end": 107,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 96,
         "end": 106,
-        "raw": "\"indirect\"",
-        "value": "indirect"
+        "value": "indirect",
+        "raw": "\"indirect\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 108,
       "end": 121,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 115,
         "end": 120,
-        "raw": "\"foo\"",
-        "value": "foo"
+        "value": "foo",
+        "raw": "\"foo\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 122,
       "end": 141,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 129,
         "end": 140,
-        "raw": "\"indirect2\"",
-        "value": "indirect2"
+        "value": "indirect2",
+        "raw": "\"indirect2\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 142,
       "end": 156,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 149,
         "end": 155,
-        "raw": "\"foo2\"",
-        "value": "foo2"
+        "value": "foo2",
+        "raw": "\"foo2\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

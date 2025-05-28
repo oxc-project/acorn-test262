@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 32,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 31,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,6 +28,16 @@ __ESTREE_TEST__:PASS:
             "type": "NewExpression",
             "start": 10,
             "end": 31,
+            "callee": {
+              "type": "Identifier",
+              "start": 14,
+              "end": 17,
+              "decorators": [],
+              "name": "Map",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null,
             "arguments": [
               {
                 "type": "ArrayExpression",
@@ -43,89 +53,42 @@ __ESTREE_TEST__:PASS:
                         "type": "Literal",
                         "start": 20,
                         "end": 22,
-                        "raw": "\"\"",
-                        "value": ""
+                        "value": "",
+                        "raw": "\"\""
                       },
                       {
                         "type": "Literal",
                         "start": 24,
                         "end": 28,
-                        "raw": "true",
-                        "value": true
+                        "value": true,
+                        "raw": "true"
                       }
                     ]
                   }
                 ]
               }
-            ],
-            "callee": {
-              "type": "Identifier",
-              "start": 14,
-              "end": 17,
-              "decorators": [],
-              "name": "Map",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeArguments": null
-          }
+            ]
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ForOfStatement",
       "start": 33,
       "end": 74,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 57,
-        "end": 74,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 63,
-            "end": 65,
-            "directive": null,
-            "expression": {
-              "type": "Identifier",
-              "start": 63,
-              "end": 64,
-              "decorators": [],
-              "name": "k",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 70,
-            "end": 72,
-            "directive": null,
-            "expression": {
-              "type": "Identifier",
-              "start": 70,
-              "end": 71,
-              "decorators": [],
-              "name": "v",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
-        ]
-      },
       "left": {
         "type": "VariableDeclaration",
         "start": 38,
         "end": 48,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 42,
             "end": 48,
-            "definite": false,
             "id": {
               "type": "ArrayPattern",
               "start": 42,
@@ -154,11 +117,11 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
       "right": {
         "type": "Identifier",
@@ -168,6 +131,43 @@ __ESTREE_TEST__:PASS:
         "name": "map",
         "optional": false,
         "typeAnnotation": null
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 57,
+        "end": 74,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 63,
+            "end": 65,
+            "expression": {
+              "type": "Identifier",
+              "start": 63,
+              "end": 64,
+              "decorators": [],
+              "name": "k",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 70,
+            "end": 72,
+            "expression": {
+              "type": "Identifier",
+              "start": 70,
+              "end": 71,
+              "decorators": [],
+              "name": "v",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "directive": null
+          }
+        ]
       }
     }
   ],

@@ -9,11 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 45,
-      "attributes": [],
       "declaration": {
         "type": "TSEnumDeclaration",
         "start": 7,
         "end": 45,
+        "id": {
+          "type": "Identifier",
+          "start": 12,
+          "end": 18,
+          "decorators": [],
+          "name": "MyEnum",
+          "optional": false,
+          "typeAnnotation": null
+        },
         "body": {
           "type": "TSEnumBody",
           "start": 19,
@@ -23,7 +31,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSEnumMember",
               "start": 23,
               "end": 28,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 23,
@@ -37,15 +44,15 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 27,
                 "end": 28,
-                "raw": "0",
-                "value": 0
-              }
+                "value": 0,
+                "raw": "0"
+              },
+              "computed": false
             },
             {
               "type": "TSEnumMember",
               "start": 32,
               "end": 33,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 32,
@@ -55,13 +62,13 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "initializer": null
+              "initializer": null,
+              "computed": false
             },
             {
               "type": "TSEnumMember",
               "start": 37,
               "end": 38,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 37,
@@ -71,13 +78,13 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "initializer": null
+              "initializer": null,
+              "computed": false
             },
             {
               "type": "TSEnumMember",
               "start": 42,
               "end": 43,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 42,
@@ -87,25 +94,18 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "initializer": null
+              "initializer": null,
+              "computed": false
             }
           ]
         },
         "const": false,
-        "declare": false,
-        "id": {
-          "type": "Identifier",
-          "start": 12,
-          "end": 18,
-          "decorators": [],
-          "name": "MyEnum",
-          "optional": false,
-          "typeAnnotation": null
-        }
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -123,14 +123,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 52,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 43,
-        "end": 51,
-        "raw": "\"./enum\"",
-        "value": "./enum"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -145,7 +137,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 19,
@@ -154,16 +145,34 @@ __ESTREE_TEST__:PASS:
             "name": "MyEnumFromModule",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 43,
+        "end": 51,
+        "value": "./enum",
+        "raw": "\"./enum\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "TSEnumDeclaration",
       "start": 54,
       "end": 94,
+      "id": {
+        "type": "Identifier",
+        "start": 59,
+        "end": 65,
+        "decorators": [],
+        "name": "MyEnum",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSEnumBody",
         "start": 66,
@@ -173,7 +182,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 70,
             "end": 92,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 70,
@@ -187,7 +195,6 @@ __ESTREE_TEST__:PASS:
               "type": "MemberExpression",
               "start": 74,
               "end": 92,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 74,
@@ -197,7 +204,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 91,
@@ -206,22 +212,16 @@ __ESTREE_TEST__:PASS:
                 "name": "a",
                 "optional": false,
                 "typeAnnotation": null
-              }
-            }
+              },
+              "optional": false,
+              "computed": false
+            },
+            "computed": false
           }
         ]
       },
       "const": false,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 59,
-        "end": 65,
-        "decorators": [],
-        "name": "MyEnum",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      "declare": false
     }
   ],
   "sourceType": "module",

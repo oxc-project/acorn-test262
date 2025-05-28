@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 49,
       "end": 88,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 55,
           "end": 87,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 55,
@@ -33,7 +33,7 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 62,
                 "end": 85,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 62,
@@ -43,51 +43,13 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "ArrowFunctionExpression",
                   "start": 65,
                   "end": 85,
-                  "async": false,
-                  "body": {
-                    "type": "CallExpression",
-                    "start": 70,
-                    "end": 85,
-                    "arguments": [],
-                    "callee": {
-                      "type": "MemberExpression",
-                      "start": 70,
-                      "end": 83,
-                      "computed": false,
-                      "object": {
-                        "type": "Identifier",
-                        "start": 70,
-                        "end": 71,
-                        "decorators": [],
-                        "name": "s",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "optional": false,
-                      "property": {
-                        "type": "Identifier",
-                        "start": 72,
-                        "end": 83,
-                        "decorators": [],
-                        "name": "toLowerCase",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    },
-                    "optional": false,
-                    "typeArguments": null
-                  },
                   "expression": true,
-                  "generator": false,
-                  "id": null,
+                  "async": false,
+                  "typeParameters": null,
                   "params": [
                     {
                       "type": "Identifier",
@@ -100,26 +62,64 @@ __ESTREE_TEST__:PASS:
                     }
                   ],
                   "returnType": null,
-                  "typeParameters": null
-                }
+                  "body": {
+                    "type": "CallExpression",
+                    "start": 70,
+                    "end": 85,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 70,
+                      "end": 83,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 70,
+                        "end": 71,
+                        "decorators": [],
+                        "name": "s",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 72,
+                        "end": 83,
+                        "decorators": [],
+                        "name": "toLowerCase",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "optional": false,
+                      "computed": false
+                    },
+                    "typeArguments": null,
+                    "arguments": [],
+                    "optional": false
+                  },
+                  "id": null,
+                  "generator": false
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 154,
       "end": 179,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 160,
           "end": 178,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 160,
@@ -138,7 +138,7 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 167,
                 "end": 176,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 167,
@@ -148,24 +148,24 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Literal",
                   "start": 170,
                   "end": 176,
-                  "raw": "\"oops\"",
-                  "value": "oops"
-                }
+                  "value": "oops",
+                  "raw": "\"oops\""
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "script",

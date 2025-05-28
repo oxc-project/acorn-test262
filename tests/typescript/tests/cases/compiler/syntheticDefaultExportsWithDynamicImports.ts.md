@@ -9,11 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 0,
       "end": 50,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 17,
@@ -23,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -53,7 +52,8 @@ __ESTREE_TEST__:PASS:
           "end": 49
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "TSExportAssignment",
@@ -85,58 +85,61 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 52,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
         "end": 51,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 0,
+          "end": 22,
+          "object": {
+            "type": "ImportExpression",
+            "start": 0,
+            "end": 17,
+            "source": {
+              "type": "Literal",
+              "start": 7,
+              "end": 16,
+              "value": "package",
+              "raw": "\"package\""
+            },
+            "options": null,
+            "phase": null
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 18,
+            "end": 22,
+            "decorators": [],
+            "name": "then",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "computed": false
+        },
+        "typeArguments": null,
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 23,
             "end": 50,
-            "async": false,
-            "body": {
-              "type": "CallExpression",
-              "start": 43,
-              "end": 50,
-              "arguments": [
-                {
-                  "type": "Literal",
-                  "start": 47,
-                  "end": 49,
-                  "raw": "42",
-                  "value": 42
-                }
-              ],
-              "callee": {
-                "type": "Identifier",
-                "start": 43,
-                "end": 46,
-                "decorators": [],
-                "name": "foo",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "typeArguments": null
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [
               {
                 "type": "ObjectPattern",
                 "start": 24,
                 "end": 38,
                 "decorators": [],
-                "optional": false,
                 "properties": [
                   {
                     "type": "Property",
                     "start": 25,
                     "end": 37,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 25,
@@ -146,10 +149,6 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "kind": "init",
-                    "method": false,
-                    "optional": false,
-                    "shorthand": false,
                     "value": {
                       "type": "Identifier",
                       "start": 34,
@@ -158,49 +157,50 @@ __ESTREE_TEST__:PASS:
                       "name": "foo",
                       "optional": false,
                       "typeAnnotation": null
-                    }
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "optional": false
                   }
                 ],
+                "optional": false,
                 "typeAnnotation": null
               }
             ],
             "returnType": null,
-            "typeParameters": null
+            "body": {
+              "type": "CallExpression",
+              "start": 43,
+              "end": 50,
+              "callee": {
+                "type": "Identifier",
+                "start": 43,
+                "end": 46,
+                "decorators": [],
+                "name": "foo",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeArguments": null,
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 47,
+                  "end": 49,
+                  "value": 42,
+                  "raw": "42"
+                }
+              ],
+              "optional": false
+            },
+            "id": null,
+            "generator": false
           }
         ],
-        "callee": {
-          "type": "MemberExpression",
-          "start": 0,
-          "end": 22,
-          "computed": false,
-          "object": {
-            "type": "ImportExpression",
-            "start": 0,
-            "end": 17,
-            "options": null,
-            "source": {
-              "type": "Literal",
-              "start": 7,
-              "end": 16,
-              "raw": "\"package\"",
-              "value": "package"
-            },
-            "phase": null
-          },
-          "optional": false,
-          "property": {
-            "type": "Identifier",
-            "start": 18,
-            "end": 22,
-            "decorators": [],
-            "name": "then",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
-        "optional": false,
-        "typeArguments": null
-      }
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

@@ -15,11 +15,19 @@ __ESTREE_TEST__:PASS:
         "end": 7,
         "body": []
       },
-      "finalizer": null,
       "handler": {
         "type": "CatchClause",
         "start": 8,
         "end": 35,
+        "param": {
+          "type": "Identifier",
+          "start": 14,
+          "end": 17,
+          "decorators": [],
+          "name": "ex1",
+          "optional": false,
+          "typeAnnotation": null
+        },
         "body": {
           "type": "BlockStatement",
           "start": 19,
@@ -40,17 +48,9 @@ __ESTREE_TEST__:PASS:
               }
             }
           ]
-        },
-        "param": {
-          "type": "Identifier",
-          "start": 14,
-          "end": 17,
-          "decorators": [],
-          "name": "ex1",
-          "optional": false,
-          "typeAnnotation": null
         }
-      }
+      },
+      "finalizer": null
     },
     {
       "type": "TryStatement",
@@ -62,17 +62,10 @@ __ESTREE_TEST__:PASS:
         "end": 44,
         "body": []
       },
-      "finalizer": null,
       "handler": {
         "type": "CatchClause",
         "start": 45,
         "end": 59,
-        "body": {
-          "type": "BlockStatement",
-          "start": 56,
-          "end": 59,
-          "body": []
-        },
         "param": {
           "type": "Identifier",
           "start": 51,
@@ -81,8 +74,15 @@ __ESTREE_TEST__:PASS:
           "name": "ex1",
           "optional": false,
           "typeAnnotation": null
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 56,
+          "end": 59,
+          "body": []
         }
-      }
+      },
+      "finalizer": null
     },
     {
       "type": "TryStatement",
@@ -94,17 +94,10 @@ __ESTREE_TEST__:PASS:
         "end": 88,
         "body": []
       },
-      "finalizer": null,
       "handler": {
         "type": "CatchClause",
         "start": 89,
         "end": 103,
-        "body": {
-          "type": "BlockStatement",
-          "start": 100,
-          "end": 103,
-          "body": []
-        },
         "param": {
           "type": "Identifier",
           "start": 95,
@@ -113,19 +106,26 @@ __ESTREE_TEST__:PASS:
           "name": "ex1",
           "optional": false,
           "typeAnnotation": null
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 100,
+          "end": 103,
+          "body": []
         }
-      }
+      },
+      "finalizer": null
     },
     {
       "type": "VariableDeclaration",
       "start": 125,
       "end": 137,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 129,
           "end": 136,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 129,
@@ -143,11 +143,11 @@ __ESTREE_TEST__:PASS:
             "name": "ex1",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

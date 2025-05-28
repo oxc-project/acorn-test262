@@ -13,8 +13,8 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "start": 15,
         "end": 16,
-        "raw": "0",
-        "value": 0
+        "value": 0,
+        "raw": "0"
       },
       "exportKind": "value"
     }
@@ -38,8 +38,8 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "start": 15,
         "end": 16,
-        "raw": "1",
-        "value": 1
+        "value": 1,
+        "raw": "1"
       },
       "exportKind": "value"
     }
@@ -63,8 +63,8 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "start": 15,
         "end": 25,
-        "raw": "'fallback'",
-        "value": "fallback"
+        "value": "fallback",
+        "raw": "'fallback'"
       },
       "exportKind": "value"
     }
@@ -84,17 +84,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 254,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 254,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 13,
             "end": 253,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 13,
@@ -112,12 +111,15 @@ __ESTREE_TEST__:PASS:
                 "type": "CallExpression",
                 "start": 25,
                 "end": 253,
-                "arguments": [],
                 "callee": {
                   "type": "ArrowFunctionExpression",
                   "start": 26,
                   "end": 250,
+                  "expression": false,
                   "async": true,
+                  "typeParameters": null,
+                  "params": [],
+                  "returnType": null,
                   "body": {
                     "type": "BlockStatement",
                     "start": 38,
@@ -127,12 +129,12 @@ __ESTREE_TEST__:PASS:
                         "type": "VariableDeclaration",
                         "start": 42,
                         "end": 62,
+                        "kind": "const",
                         "declarations": [
                           {
                             "type": "VariableDeclarator",
                             "start": 48,
                             "end": 61,
-                            "definite": false,
                             "id": {
                               "type": "Identifier",
                               "start": 48,
@@ -155,23 +157,39 @@ __ESTREE_TEST__:PASS:
                               "type": "Literal",
                               "start": 60,
                               "end": 61,
-                              "raw": "0",
-                              "value": 0
-                            }
+                              "value": 0,
+                              "raw": "0"
+                            },
+                            "definite": false
                           }
                         ],
-                        "declare": false,
-                        "kind": "const"
+                        "declare": false
                       },
                       {
                         "type": "SwitchStatement",
                         "start": 65,
                         "end": 248,
+                        "discriminant": {
+                          "type": "Identifier",
+                          "start": 73,
+                          "end": 74,
+                          "decorators": [],
+                          "name": "x",
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
                         "cases": [
                           {
                             "type": "SwitchCase",
                             "start": 82,
                             "end": 130,
+                            "test": {
+                              "type": "Literal",
+                              "start": 87,
+                              "end": 88,
+                              "value": 0,
+                              "raw": "0"
+                            },
                             "consequent": [
                               {
                                 "type": "ReturnStatement",
@@ -185,31 +203,31 @@ __ESTREE_TEST__:PASS:
                                     "type": "ImportExpression",
                                     "start": 109,
                                     "end": 129,
-                                    "options": null,
                                     "source": {
                                       "type": "Literal",
                                       "start": 116,
                                       "end": 128,
-                                      "raw": "\"./case0.js\"",
-                                      "value": "./case0.js"
+                                      "value": "./case0.js",
+                                      "raw": "\"./case0.js\""
                                     },
+                                    "options": null,
                                     "phase": null
                                   }
                                 }
                               }
-                            ],
-                            "test": {
-                              "type": "Literal",
-                              "start": 87,
-                              "end": 88,
-                              "raw": "0",
-                              "value": 0
-                            }
+                            ]
                           },
                           {
                             "type": "SwitchCase",
                             "start": 135,
                             "end": 183,
+                            "test": {
+                              "type": "Literal",
+                              "start": 140,
+                              "end": 141,
+                              "value": 1,
+                              "raw": "1"
+                            },
                             "consequent": [
                               {
                                 "type": "ReturnStatement",
@@ -223,31 +241,25 @@ __ESTREE_TEST__:PASS:
                                     "type": "ImportExpression",
                                     "start": 162,
                                     "end": 182,
-                                    "options": null,
                                     "source": {
                                       "type": "Literal",
                                       "start": 169,
                                       "end": 181,
-                                      "raw": "\"./case1.js\"",
-                                      "value": "./case1.js"
+                                      "value": "./case1.js",
+                                      "raw": "\"./case1.js\""
                                     },
+                                    "options": null,
                                     "phase": null
                                   }
                                 }
                               }
-                            ],
-                            "test": {
-                              "type": "Literal",
-                              "start": 140,
-                              "end": 141,
-                              "raw": "1",
-                              "value": 1
-                            }
+                            ]
                           },
                           {
                             "type": "SwitchCase",
                             "start": 188,
                             "end": 244,
+                            "test": null,
                             "consequent": [
                               {
                                 "type": "ReturnStatement",
@@ -261,53 +273,41 @@ __ESTREE_TEST__:PASS:
                                     "type": "ImportExpression",
                                     "start": 216,
                                     "end": 243,
-                                    "options": null,
                                     "source": {
                                       "type": "Literal",
                                       "start": 223,
                                       "end": 242,
-                                      "raw": "\"./caseFallback.js\"",
-                                      "value": "./caseFallback.js"
+                                      "value": "./caseFallback.js",
+                                      "raw": "\"./caseFallback.js\""
                                     },
+                                    "options": null,
                                     "phase": null
                                   }
                                 }
                               }
-                            ],
-                            "test": null
+                            ]
                           }
-                        ],
-                        "discriminant": {
-                          "type": "Identifier",
-                          "start": 73,
-                          "end": 74,
-                          "decorators": [],
-                          "name": "x",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
+                        ]
                       }
                     ]
                   },
-                  "expression": false,
-                  "generator": false,
                   "id": null,
-                  "params": [],
-                  "returnType": null,
-                  "typeParameters": null
+                  "generator": false
                 },
-                "optional": false,
-                "typeArguments": null
+                "typeArguments": null,
+                "arguments": [],
+                "optional": false
               }
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

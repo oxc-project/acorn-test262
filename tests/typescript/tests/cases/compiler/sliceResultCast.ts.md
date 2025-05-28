@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 59,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 12,
           "end": 58,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
@@ -74,17 +74,16 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "ExpressionStatement",
       "start": 61,
       "end": 93,
-      "directive": null,
       "expression": {
         "type": "TSAsExpression",
         "start": 61,
@@ -93,20 +92,10 @@ __ESTREE_TEST__:PASS:
           "type": "CallExpression",
           "start": 61,
           "end": 71,
-          "arguments": [
-            {
-              "type": "Literal",
-              "start": 69,
-              "end": 70,
-              "raw": "1",
-              "value": 1
-            }
-          ],
           "callee": {
             "type": "MemberExpression",
             "start": 61,
             "end": 68,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 61,
@@ -116,7 +105,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 63,
@@ -125,10 +113,21 @@ __ESTREE_TEST__:PASS:
               "name": "slice",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "optional": false,
+            "computed": false
           },
-          "optional": false,
-          "typeArguments": null
+          "typeArguments": null,
+          "arguments": [
+            {
+              "type": "Literal",
+              "start": 69,
+              "end": 70,
+              "value": 1,
+              "raw": "1"
+            }
+          ],
+          "optional": false
         },
         "typeAnnotation": {
           "type": "TSTypeOperator",
@@ -146,7 +145,8 @@ __ESTREE_TEST__:PASS:
             }
           }
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

@@ -9,44 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 31,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 12,
-        "end": 31,
-        "body": [
-          {
-            "type": "TSPropertySignature",
-            "start": 18,
-            "end": 29,
-            "accessibility": null,
-            "computed": false,
-            "key": {
-              "type": "Identifier",
-              "start": 18,
-              "end": 20,
-              "decorators": [],
-              "name": "q3",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 20,
-              "end": 28,
-              "typeAnnotation": {
-                "type": "TSNumberKeyword",
-                "start": 22,
-                "end": 28
-              }
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "extends": [],
       "id": {
         "type": "Identifier",
         "start": 10,
@@ -56,7 +18,45 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "typeParameters": null
+      "typeParameters": null,
+      "extends": [],
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 12,
+        "end": 31,
+        "body": [
+          {
+            "type": "TSPropertySignature",
+            "start": 18,
+            "end": 29,
+            "computed": false,
+            "optional": false,
+            "readonly": false,
+            "key": {
+              "type": "Identifier",
+              "start": 18,
+              "end": 20,
+              "decorators": [],
+              "name": "q3",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 20,
+              "end": 28,
+              "typeAnnotation": {
+                "type": "TSNumberKeyword",
+                "start": 22,
+                "end": 28
+              }
+            },
+            "accessibility": null,
+            "static": false
+          }
+        ]
+      },
+      "declare": false
     },
     {
       "type": "TSExportAssignment",
@@ -97,7 +97,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 17,
@@ -106,21 +105,22 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 25,
           "end": 85,
-          "raw": "\"./aliasWithInterfaceExportAssignmentUsedInVarInitializer_0\"",
-          "value": "./aliasWithInterfaceExportAssignmentUsedInVarInitializer_0"
+          "value": "./aliasWithInterfaceExportAssignmentUsedInVarInitializer_0",
+          "raw": "\"./aliasWithInterfaceExportAssignmentUsedInVarInitializer_0\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 88,
       "end": 101,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 92,
           "end": 100,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 92,
@@ -134,7 +134,6 @@ __ESTREE_TEST__:PASS:
             "type": "MemberExpression",
             "start": 96,
             "end": 100,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 96,
@@ -144,7 +143,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 98,
@@ -153,12 +151,14 @@ __ESTREE_TEST__:PASS:
               "name": "q3",
               "optional": false,
               "typeAnnotation": null
-            }
-          }
+            },
+            "optional": false,
+            "computed": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "module",

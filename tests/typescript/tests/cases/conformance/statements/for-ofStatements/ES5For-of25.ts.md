@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 18,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 17,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -33,82 +33,45 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 9,
                 "end": 10,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 12,
                 "end": 13,
-                "raw": "2",
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 15,
                 "end": 16,
-                "raw": "3",
-                "value": 3
+                "value": 3,
+                "raw": "3"
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ForOfStatement",
       "start": 19,
       "end": 53,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 36,
-        "end": 53,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 42,
-            "end": 44,
-            "directive": null,
-            "expression": {
-              "type": "Identifier",
-              "start": 42,
-              "end": 43,
-              "decorators": [],
-              "name": "v",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 49,
-            "end": 51,
-            "directive": null,
-            "expression": {
-              "type": "Identifier",
-              "start": 49,
-              "end": 50,
-              "decorators": [],
-              "name": "a",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
-        ]
-      },
       "left": {
         "type": "VariableDeclaration",
         "start": 24,
         "end": 29,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 28,
             "end": 29,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 28,
@@ -118,11 +81,11 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "declare": false
       },
       "right": {
         "type": "Identifier",
@@ -132,6 +95,43 @@ __ESTREE_TEST__:PASS:
         "name": "a",
         "optional": false,
         "typeAnnotation": null
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 36,
+        "end": 53,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 42,
+            "end": 44,
+            "expression": {
+              "type": "Identifier",
+              "start": 42,
+              "end": 43,
+              "decorators": [],
+              "name": "v",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 49,
+            "end": 51,
+            "expression": {
+              "type": "Identifier",
+              "start": 49,
+              "end": 50,
+              "decorators": [],
+              "name": "a",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "directive": null
+          }
+        ]
       }
     }
   ],

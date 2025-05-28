@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 14,
       "end": 31,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 18,
           "end": 30,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 18,
@@ -29,22 +29,20 @@ __ESTREE_TEST__:PASS:
             "start": 28,
             "end": 30,
             "properties": []
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 62,
       "end": 79,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 62,
         "end": 78,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 62,
@@ -54,7 +52,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 70,
@@ -63,19 +60,22 @@ __ESTREE_TEST__:PASS:
           "name": "SomeName",
           "optional": false,
           "typeAnnotation": null
-        }
-      }
+        },
+        "optional": false,
+        "computed": false
+      },
+      "directive": null
     },
     {
       "type": "VariableDeclaration",
       "start": 113,
       "end": 136,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 119,
           "end": 135,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 119,
@@ -89,13 +89,13 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 130,
             "end": 135,
-            "raw": "'str'",
-            "value": "str"
-          }
+            "value": "str",
+            "raw": "'str'"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "script",

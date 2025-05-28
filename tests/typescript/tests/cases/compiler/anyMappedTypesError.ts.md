@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSTypeAliasDeclaration",
       "start": 0,
       "end": 26,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 5,
@@ -19,22 +18,11 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSMappedType",
         "start": 11,
         "end": 25,
-        "constraint": {
-          "type": "TSLiteralType",
-          "start": 18,
-          "end": 23,
-          "literal": {
-            "type": "Literal",
-            "start": 18,
-            "end": 23,
-            "raw": "\"bar\"",
-            "value": "bar"
-          }
-        },
         "key": {
           "type": "Identifier",
           "start": 13,
@@ -44,12 +32,24 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "constraint": {
+          "type": "TSLiteralType",
+          "start": 18,
+          "end": 23,
+          "literal": {
+            "type": "Literal",
+            "start": 18,
+            "end": 23,
+            "value": "bar",
+            "raw": "\"bar\""
+          }
+        },
         "nameType": null,
+        "typeAnnotation": null,
         "optional": false,
-        "readonly": null,
-        "typeAnnotation": null
+        "readonly": null
       },
-      "typeParameters": null
+      "declare": false
     }
   ],
   "sourceType": "script",

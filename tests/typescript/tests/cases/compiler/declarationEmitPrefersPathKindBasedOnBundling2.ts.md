@@ -9,11 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 56,
-      "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
         "start": 7,
         "end": 56,
+        "id": {
+          "type": "Identifier",
+          "start": 17,
+          "end": 23,
+          "decorators": [],
+          "name": "Scalar",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null,
+        "extends": [],
         "body": {
           "type": "TSInterfaceBody",
           "start": 24,
@@ -23,6 +33,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSCallSignatureDeclaration",
               "start": 27,
               "end": 38,
+              "typeParameters": null,
               "params": [],
               "returnType": {
                 "type": "TSTypeAnnotation",
@@ -33,15 +44,15 @@ __ESTREE_TEST__:PASS:
                   "start": 31,
                   "end": 37
                 }
-              },
-              "typeParameters": null
+              }
             },
             {
               "type": "TSPropertySignature",
               "start": 40,
               "end": 54,
-              "accessibility": null,
               "computed": false,
+              "optional": false,
+              "readonly": false,
               "key": {
                 "type": "Identifier",
                 "start": 40,
@@ -51,9 +62,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
-              "readonly": false,
-              "static": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
                 "start": 45,
@@ -63,69 +71,27 @@ __ESTREE_TEST__:PASS:
                   "start": 47,
                   "end": 53
                 }
-              }
+              },
+              "accessibility": null,
+              "static": false
             }
           ]
         },
-        "declare": false,
-        "extends": [],
-        "id": {
-          "type": "Identifier",
-          "start": 17,
-          "end": 23,
-          "decorators": [],
-          "name": "Scalar",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "typeParameters": null
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 58,
       "end": 128,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 65,
         "end": 128,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 104,
-          "end": 128,
-          "body": [
-            {
-              "type": "ReturnStatement",
-              "start": 107,
-              "end": 126,
-              "argument": {
-                "type": "TSAsExpression",
-                "start": 114,
-                "end": 125,
-                "expression": {
-                  "type": "Literal",
-                  "start": 114,
-                  "end": 118,
-                  "raw": "null",
-                  "value": null
-                },
-                "typeAnnotation": {
-                  "type": "TSAnyKeyword",
-                  "start": 122,
-                  "end": 125
-                }
-              }
-            }
-          ]
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 74,
@@ -135,6 +101,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [
           {
             "type": "Identifier",
@@ -163,7 +133,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 97,
             "end": 103,
-            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 97,
@@ -172,14 +141,45 @@ __ESTREE_TEST__:PASS:
               "name": "Scalar",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "typeArguments": null
           }
         },
-        "typeParameters": null
+        "body": {
+          "type": "BlockStatement",
+          "start": 104,
+          "end": 128,
+          "body": [
+            {
+              "type": "ReturnStatement",
+              "start": 107,
+              "end": 126,
+              "argument": {
+                "type": "TSAsExpression",
+                "start": 114,
+                "end": 125,
+                "expression": {
+                  "type": "Literal",
+                  "start": 114,
+                  "end": 118,
+                  "value": null,
+                  "raw": "null"
+                },
+                "typeAnnotation": {
+                  "type": "TSAnyKeyword",
+                  "start": 122,
+                  "end": 125
+                }
+              }
+            }
+          ]
+        },
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -197,14 +197,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 49,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 23,
-        "end": 48,
-        "raw": "'../lib/operators/scalar'",
-        "value": "../lib/operators/scalar"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -219,7 +211,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
@@ -228,11 +219,20 @@ __ESTREE_TEST__:PASS:
             "name": "scalar",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 23,
+        "end": 48,
+        "value": "../lib/operators/scalar",
+        "raw": "'../lib/operators/scalar'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -247,7 +247,7 @@ __ESTREE_TEST__:PASS:
             "type": "Property",
             "start": 69,
             "end": 107,
-            "computed": false,
+            "kind": "get",
             "key": {
               "type": "Identifier",
               "start": 73,
@@ -257,15 +257,17 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "get",
-            "method": false,
-            "optional": false,
-            "shorthand": false,
             "value": {
               "type": "FunctionExpression",
               "start": 75,
               "end": 107,
+              "id": null,
+              "generator": false,
               "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
               "body": {
                 "type": "BlockStatement",
                 "start": 78,
@@ -279,15 +281,6 @@ __ESTREE_TEST__:PASS:
                       "type": "CallExpression",
                       "start": 89,
                       "end": 103,
-                      "arguments": [
-                        {
-                          "type": "Literal",
-                          "start": 96,
-                          "end": 102,
-                          "raw": "\"14px\"",
-                          "value": "14px"
-                        }
-                      ],
                       "callee": {
                         "type": "Identifier",
                         "start": 89,
@@ -297,20 +290,27 @@ __ESTREE_TEST__:PASS:
                         "optional": false,
                         "typeAnnotation": null
                       },
-                      "optional": false,
-                      "typeArguments": null
+                      "typeArguments": null,
+                      "arguments": [
+                        {
+                          "type": "Literal",
+                          "start": 96,
+                          "end": 102,
+                          "value": "14px",
+                          "raw": "\"14px\""
+                        }
+                      ],
+                      "optional": false
                     }
                   }
                 ]
               },
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
+              "expression": false
+            },
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "optional": false
           }
         ]
       },

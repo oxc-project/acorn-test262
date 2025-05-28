@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 92,
       "end": 113,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 96,
           "end": 112,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 96,
@@ -28,13 +28,13 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 100,
             "end": 112,
-            "raw": "\"\\u{10FFFF}\"",
-            "value": "􏿿"
-          }
+            "value": "􏿿",
+            "raw": "\"\\u{10FFFF}\""
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

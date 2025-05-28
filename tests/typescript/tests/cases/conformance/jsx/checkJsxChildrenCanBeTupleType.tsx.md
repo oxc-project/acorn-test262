@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 45,
       "end": 70,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 63,
-        "end": 70,
-        "raw": "'react'",
-        "value": "react"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -33,13 +25,32 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 63,
+        "end": 70,
+        "value": "react",
+        "raw": "'react'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 72,
       "end": 152,
+      "id": {
+        "type": "Identifier",
+        "start": 82,
+        "end": 101,
+        "decorators": [],
+        "name": "ResizablePanelProps",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "extends": [],
       "body": {
         "type": "TSInterfaceBody",
         "start": 102,
@@ -49,8 +60,9 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 106,
             "end": 150,
-            "accessibility": null,
             "computed": false,
+            "optional": false,
+            "readonly": false,
             "key": {
               "type": "Identifier",
               "start": 106,
@@ -60,9 +72,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 114,
@@ -76,7 +85,6 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 117,
                     "end": 132,
-                    "typeArguments": null,
                     "typeName": {
                       "type": "TSQualifiedName",
                       "start": 117,
@@ -99,13 +107,13 @@ __ESTREE_TEST__:PASS:
                         "optional": false,
                         "typeAnnotation": null
                       }
-                    }
+                    },
+                    "typeArguments": null
                   },
                   {
                     "type": "TSTypeReference",
                     "start": 134,
                     "end": 149,
-                    "typeArguments": null,
                     "typeName": {
                       "type": "TSQualifiedName",
                       "start": 134,
@@ -128,39 +136,23 @@ __ESTREE_TEST__:PASS:
                         "optional": false,
                         "typeAnnotation": null
                       }
-                    }
+                    },
+                    "typeArguments": null
                   }
                 ]
               }
-            }
+            },
+            "accessibility": null,
+            "static": false
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 82,
-        "end": 101,
-        "decorators": [],
-        "name": "ResizablePanelProps",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 154,
       "end": 230,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 228,
-        "end": 230,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -171,12 +163,11 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": {
         "type": "MemberExpression",
         "start": 183,
         "end": 198,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 183,
@@ -186,7 +177,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 189,
@@ -195,7 +185,9 @@ __ESTREE_TEST__:PASS:
           "name": "Component",
           "optional": false,
           "typeAnnotation": null
-        }
+        },
+        "optional": false,
+        "computed": false
       },
       "superTypeArguments": {
         "type": "TSTypeParameterInstantiation",
@@ -206,7 +198,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 202,
             "end": 221,
-            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 202,
@@ -215,7 +206,8 @@ __ESTREE_TEST__:PASS:
               "name": "ResizablePanelProps",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "typeArguments": null
           },
           {
             "type": "TSAnyKeyword",
@@ -224,18 +216,26 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 228,
+        "end": 230,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 232,
       "end": 299,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 238,
           "end": 299,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 238,
@@ -249,69 +249,83 @@ __ESTREE_TEST__:PASS:
             "type": "JSXElement",
             "start": 245,
             "end": 299,
+            "openingElement": {
+              "type": "JSXOpeningElement",
+              "start": 245,
+              "end": 261,
+              "name": {
+                "type": "JSXIdentifier",
+                "start": 246,
+                "end": 260,
+                "name": "ResizablePanel"
+              },
+              "typeArguments": null,
+              "attributes": [],
+              "selfClosing": false
+            },
             "children": [
               {
                 "type": "JSXText",
                 "start": 261,
                 "end": 264,
-                "raw": "\n  ",
-                "value": "\n  "
+                "value": "\n  ",
+                "raw": "\n  "
               },
               {
                 "type": "JSXElement",
                 "start": 264,
                 "end": 271,
-                "children": [],
-                "closingElement": null,
                 "openingElement": {
                   "type": "JSXOpeningElement",
                   "start": 264,
                   "end": 271,
-                  "attributes": [],
                   "name": {
                     "type": "JSXIdentifier",
                     "start": 265,
                     "end": 268,
                     "name": "div"
                   },
-                  "selfClosing": true,
-                  "typeArguments": null
-                }
+                  "typeArguments": null,
+                  "attributes": [],
+                  "selfClosing": true
+                },
+                "children": [],
+                "closingElement": null
               },
               {
                 "type": "JSXText",
                 "start": 271,
                 "end": 274,
-                "raw": "\n  ",
-                "value": "\n  "
+                "value": "\n  ",
+                "raw": "\n  "
               },
               {
                 "type": "JSXElement",
                 "start": 274,
                 "end": 281,
-                "children": [],
-                "closingElement": null,
                 "openingElement": {
                   "type": "JSXOpeningElement",
                   "start": 274,
                   "end": 281,
-                  "attributes": [],
                   "name": {
                     "type": "JSXIdentifier",
                     "start": 275,
                     "end": 278,
                     "name": "div"
                   },
-                  "selfClosing": true,
-                  "typeArguments": null
-                }
+                  "typeArguments": null,
+                  "attributes": [],
+                  "selfClosing": true
+                },
+                "children": [],
+                "closingElement": null
               },
               {
                 "type": "JSXText",
                 "start": 281,
                 "end": 282,
-                "raw": "\n",
-                "value": "\n"
+                "value": "\n",
+                "raw": "\n"
               }
             ],
             "closingElement": {
@@ -324,37 +338,23 @@ __ESTREE_TEST__:PASS:
                 "end": 298,
                 "name": "ResizablePanel"
               }
-            },
-            "openingElement": {
-              "type": "JSXOpeningElement",
-              "start": 245,
-              "end": 261,
-              "attributes": [],
-              "name": {
-                "type": "JSXIdentifier",
-                "start": 246,
-                "end": 260,
-                "name": "ResizablePanel"
-              },
-              "selfClosing": false,
-              "typeArguments": null
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 301,
       "end": 381,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 307,
           "end": 381,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 307,
@@ -368,97 +368,111 @@ __ESTREE_TEST__:PASS:
             "type": "JSXElement",
             "start": 317,
             "end": 381,
+            "openingElement": {
+              "type": "JSXOpeningElement",
+              "start": 317,
+              "end": 333,
+              "name": {
+                "type": "JSXIdentifier",
+                "start": 318,
+                "end": 332,
+                "name": "ResizablePanel"
+              },
+              "typeArguments": null,
+              "attributes": [],
+              "selfClosing": false
+            },
             "children": [
               {
                 "type": "JSXText",
                 "start": 333,
                 "end": 336,
-                "raw": "\n  ",
-                "value": "\n  "
+                "value": "\n  ",
+                "raw": "\n  "
               },
               {
                 "type": "JSXElement",
                 "start": 336,
                 "end": 343,
-                "children": [],
-                "closingElement": null,
                 "openingElement": {
                   "type": "JSXOpeningElement",
                   "start": 336,
                   "end": 343,
-                  "attributes": [],
                   "name": {
                     "type": "JSXIdentifier",
                     "start": 337,
                     "end": 340,
                     "name": "div"
                   },
-                  "selfClosing": true,
-                  "typeArguments": null
-                }
+                  "typeArguments": null,
+                  "attributes": [],
+                  "selfClosing": true
+                },
+                "children": [],
+                "closingElement": null
               },
               {
                 "type": "JSXText",
                 "start": 343,
                 "end": 346,
-                "raw": "\n  ",
-                "value": "\n  "
+                "value": "\n  ",
+                "raw": "\n  "
               },
               {
                 "type": "JSXElement",
                 "start": 346,
                 "end": 353,
-                "children": [],
-                "closingElement": null,
                 "openingElement": {
                   "type": "JSXOpeningElement",
                   "start": 346,
                   "end": 353,
-                  "attributes": [],
                   "name": {
                     "type": "JSXIdentifier",
                     "start": 347,
                     "end": 350,
                     "name": "div"
                   },
-                  "selfClosing": true,
-                  "typeArguments": null
-                }
+                  "typeArguments": null,
+                  "attributes": [],
+                  "selfClosing": true
+                },
+                "children": [],
+                "closingElement": null
               },
               {
                 "type": "JSXText",
                 "start": 353,
                 "end": 356,
-                "raw": "\n  ",
-                "value": "\n  "
+                "value": "\n  ",
+                "raw": "\n  "
               },
               {
                 "type": "JSXElement",
                 "start": 356,
                 "end": 363,
-                "children": [],
-                "closingElement": null,
                 "openingElement": {
                   "type": "JSXOpeningElement",
                   "start": 356,
                   "end": 363,
-                  "attributes": [],
                   "name": {
                     "type": "JSXIdentifier",
                     "start": 357,
                     "end": 360,
                     "name": "div"
                   },
-                  "selfClosing": true,
-                  "typeArguments": null
-                }
+                  "typeArguments": null,
+                  "attributes": [],
+                  "selfClosing": true
+                },
+                "children": [],
+                "closingElement": null
               },
               {
                 "type": "JSXText",
                 "start": 363,
                 "end": 364,
-                "raw": "\n",
-                "value": "\n"
+                "value": "\n",
+                "raw": "\n"
               }
             ],
             "closingElement": {
@@ -471,26 +485,12 @@ __ESTREE_TEST__:PASS:
                 "end": 380,
                 "name": "ResizablePanel"
               }
-            },
-            "openingElement": {
-              "type": "JSXOpeningElement",
-              "start": 317,
-              "end": 333,
-              "attributes": [],
-              "name": {
-                "type": "JSXIdentifier",
-                "start": 318,
-                "end": 332,
-                "name": "ResizablePanel"
-              },
-              "selfClosing": false,
-              "typeArguments": null
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "module",

@@ -18,7 +18,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 30,
@@ -27,10 +26,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 38,
           "end": 45,
-          "raw": "'./foo'",
-          "value": "./foo"
+          "value": "./foo",
+          "raw": "'./foo'"
         }
-      }
+      },
+      "importKind": "value"
     }
   ],
   "sourceType": "script",

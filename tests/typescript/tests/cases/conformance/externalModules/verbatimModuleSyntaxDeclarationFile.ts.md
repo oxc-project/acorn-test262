@@ -9,36 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 45,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 21,
-        "end": 45,
-        "body": [
-          {
-            "type": "TSTypeAliasDeclaration",
-            "start": 27,
-            "end": 43,
-            "declare": false,
-            "id": {
-              "type": "Identifier",
-              "start": 32,
-              "end": 33,
-              "decorators": [],
-              "name": "A",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeAnnotation": {
-              "type": "TSObjectKeyword",
-              "start": 36,
-              "end": 42
-            },
-            "typeParameters": null
-          }
-        ]
-      },
-      "declare": true,
-      "global": false,
       "id": {
         "type": "Identifier",
         "start": 18,
@@ -48,7 +18,37 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "namespace"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 21,
+        "end": 45,
+        "body": [
+          {
+            "type": "TSTypeAliasDeclaration",
+            "start": 27,
+            "end": 43,
+            "id": {
+              "type": "Identifier",
+              "start": 32,
+              "end": 33,
+              "decorators": [],
+              "name": "A",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null,
+            "typeAnnotation": {
+              "type": "TSObjectKeyword",
+              "start": 36,
+              "end": 42
+            },
+            "declare": false
+          }
+        ]
+      },
+      "kind": "namespace",
+      "declare": true,
+      "global": false
     },
     {
       "type": "TSExportAssignment",
@@ -94,14 +94,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 35,
-      "importKind": "type",
-      "source": {
-        "type": "Literal",
-        "start": 25,
-        "end": 34,
-        "raw": "'./type1'",
-        "value": "./type1"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -118,8 +110,16 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 25,
+        "end": 34,
+        "value": "./type1",
+        "raw": "'./type1'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "type"
     },
     {
       "type": "TSExportAssignment",

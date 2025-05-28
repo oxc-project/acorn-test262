@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSTypeAliasDeclaration",
       "start": 0,
       "end": 98,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 5,
@@ -19,6 +18,7 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSUnionType",
         "start": 17,
@@ -33,8 +33,9 @@ __ESTREE_TEST__:PASS:
                 "type": "TSPropertySignature",
                 "start": 21,
                 "end": 36,
-                "accessibility": null,
                 "computed": false,
+                "optional": false,
+                "readonly": false,
                 "key": {
                   "type": "Identifier",
                   "start": 21,
@@ -44,9 +45,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
-                "readonly": false,
-                "static": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
                   "start": 25,
@@ -59,18 +57,21 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 27,
                       "end": 35,
-                      "raw": "\"circle\"",
-                      "value": "circle"
+                      "value": "circle",
+                      "raw": "\"circle\""
                     }
                   }
-                }
+                },
+                "accessibility": null,
+                "static": false
               },
               {
                 "type": "TSPropertySignature",
                 "start": 37,
                 "end": 51,
-                "accessibility": null,
                 "computed": false,
+                "optional": false,
+                "readonly": false,
                 "key": {
                   "type": "Identifier",
                   "start": 37,
@@ -80,9 +81,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
-                "readonly": false,
-                "static": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
                   "start": 43,
@@ -92,7 +90,9 @@ __ESTREE_TEST__:PASS:
                     "start": 45,
                     "end": 51
                   }
-                }
+                },
+                "accessibility": null,
+                "static": false
               }
             ]
           },
@@ -105,8 +105,9 @@ __ESTREE_TEST__:PASS:
                 "type": "TSPropertySignature",
                 "start": 62,
                 "end": 77,
-                "accessibility": null,
                 "computed": false,
+                "optional": false,
+                "readonly": false,
                 "key": {
                   "type": "Identifier",
                   "start": 62,
@@ -116,9 +117,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
-                "readonly": false,
-                "static": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
                   "start": 66,
@@ -131,18 +129,21 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 68,
                       "end": 76,
-                      "raw": "\"square\"",
-                      "value": "square"
+                      "value": "square",
+                      "raw": "\"square\""
                     }
                   }
-                }
+                },
+                "accessibility": null,
+                "static": false
               },
               {
                 "type": "TSPropertySignature",
                 "start": 78,
                 "end": 96,
-                "accessibility": null,
                 "computed": false,
+                "optional": false,
+                "readonly": false,
                 "key": {
                   "type": "Identifier",
                   "start": 78,
@@ -152,9 +153,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
-                "readonly": false,
-                "static": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
                   "start": 88,
@@ -164,380 +162,20 @@ __ESTREE_TEST__:PASS:
                     "start": 90,
                     "end": 96
                   }
-                }
+                },
+                "accessibility": null,
+                "static": false
               }
             ]
           }
         ]
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 100,
       "end": 511,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 127,
-        "end": 511,
-        "body": [
-          {
-            "type": "SwitchStatement",
-            "start": 133,
-            "end": 294,
-            "cases": [
-              {
-                "type": "SwitchCase",
-                "start": 157,
-                "end": 234,
-                "consequent": [
-                  {
-                    "type": "ReturnStatement",
-                    "start": 199,
-                    "end": 234,
-                    "argument": {
-                      "type": "BinaryExpression",
-                      "start": 206,
-                      "end": 233,
-                      "operator": "*",
-                      "left": {
-                        "type": "MemberExpression",
-                        "start": 206,
-                        "end": 213,
-                        "computed": false,
-                        "object": {
-                          "type": "Identifier",
-                          "start": 206,
-                          "end": 210,
-                          "decorators": [],
-                          "name": "Math",
-                          "optional": false,
-                          "typeAnnotation": null
-                        },
-                        "optional": false,
-                        "property": {
-                          "type": "Identifier",
-                          "start": 211,
-                          "end": 213,
-                          "decorators": [],
-                          "name": "PI",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
-                      },
-                      "right": {
-                        "type": "BinaryExpression",
-                        "start": 216,
-                        "end": 233,
-                        "operator": "**",
-                        "left": {
-                          "type": "MemberExpression",
-                          "start": 216,
-                          "end": 228,
-                          "computed": false,
-                          "object": {
-                            "type": "Identifier",
-                            "start": 216,
-                            "end": 221,
-                            "decorators": [],
-                            "name": "shape",
-                            "optional": false,
-                            "typeAnnotation": null
-                          },
-                          "optional": false,
-                          "property": {
-                            "type": "Identifier",
-                            "start": 222,
-                            "end": 228,
-                            "decorators": [],
-                            "name": "radius",
-                            "optional": false,
-                            "typeAnnotation": null
-                          }
-                        },
-                        "right": {
-                          "type": "Literal",
-                          "start": 232,
-                          "end": 233,
-                          "raw": "2",
-                          "value": 2
-                        }
-                      }
-                    }
-                  }
-                ],
-                "test": {
-                  "type": "BinaryExpression",
-                  "start": 162,
-                  "end": 185,
-                  "operator": "===",
-                  "left": {
-                    "type": "MemberExpression",
-                    "start": 162,
-                    "end": 172,
-                    "computed": false,
-                    "object": {
-                      "type": "Identifier",
-                      "start": 162,
-                      "end": 167,
-                      "decorators": [],
-                      "name": "shape",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "optional": false,
-                    "property": {
-                      "type": "Identifier",
-                      "start": 168,
-                      "end": 172,
-                      "decorators": [],
-                      "name": "kind",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  },
-                  "right": {
-                    "type": "Literal",
-                    "start": 177,
-                    "end": 185,
-                    "raw": "\"circle\"",
-                    "value": "circle"
-                  }
-                }
-              },
-              {
-                "type": "SwitchCase",
-                "start": 243,
-                "end": 272,
-                "consequent": [],
-                "test": {
-                  "type": "BinaryExpression",
-                  "start": 248,
-                  "end": 271,
-                  "operator": "===",
-                  "left": {
-                    "type": "MemberExpression",
-                    "start": 248,
-                    "end": 258,
-                    "computed": false,
-                    "object": {
-                      "type": "Identifier",
-                      "start": 248,
-                      "end": 253,
-                      "decorators": [],
-                      "name": "shape",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "optional": false,
-                    "property": {
-                      "type": "Identifier",
-                      "start": 254,
-                      "end": 258,
-                      "decorators": [],
-                      "name": "kind",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  },
-                  "right": {
-                    "type": "Literal",
-                    "start": 263,
-                    "end": 271,
-                    "raw": "\"circle\"",
-                    "value": "circle"
-                  }
-                }
-              }
-            ],
-            "discriminant": {
-              "type": "Literal",
-              "start": 141,
-              "end": 145,
-              "raw": "true",
-              "value": true
-            }
-          },
-          {
-            "type": "IfStatement",
-            "start": 300,
-            "end": 509,
-            "alternate": {
-              "type": "IfStatement",
-              "start": 390,
-              "end": 509,
-              "alternate": null,
-              "consequent": {
-                "type": "BlockStatement",
-                "start": 419,
-                "end": 509,
-                "body": []
-              },
-              "test": {
-                "type": "BinaryExpression",
-                "start": 394,
-                "end": 417,
-                "operator": "===",
-                "left": {
-                  "type": "MemberExpression",
-                  "start": 394,
-                  "end": 404,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 394,
-                    "end": 399,
-                    "decorators": [],
-                    "name": "shape",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 400,
-                    "end": 404,
-                    "decorators": [],
-                    "name": "kind",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "right": {
-                  "type": "Literal",
-                  "start": 409,
-                  "end": 417,
-                  "raw": "\"circle\"",
-                  "value": "circle"
-                }
-              }
-            },
-            "consequent": {
-              "type": "BlockStatement",
-              "start": 329,
-              "end": 380,
-              "body": [
-                {
-                  "type": "ReturnStatement",
-                  "start": 339,
-                  "end": 374,
-                  "argument": {
-                    "type": "BinaryExpression",
-                    "start": 346,
-                    "end": 373,
-                    "operator": "*",
-                    "left": {
-                      "type": "MemberExpression",
-                      "start": 346,
-                      "end": 353,
-                      "computed": false,
-                      "object": {
-                        "type": "Identifier",
-                        "start": 346,
-                        "end": 350,
-                        "decorators": [],
-                        "name": "Math",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "optional": false,
-                      "property": {
-                        "type": "Identifier",
-                        "start": 351,
-                        "end": 353,
-                        "decorators": [],
-                        "name": "PI",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    },
-                    "right": {
-                      "type": "BinaryExpression",
-                      "start": 356,
-                      "end": 373,
-                      "operator": "**",
-                      "left": {
-                        "type": "MemberExpression",
-                        "start": 356,
-                        "end": 368,
-                        "computed": false,
-                        "object": {
-                          "type": "Identifier",
-                          "start": 356,
-                          "end": 361,
-                          "decorators": [],
-                          "name": "shape",
-                          "optional": false,
-                          "typeAnnotation": null
-                        },
-                        "optional": false,
-                        "property": {
-                          "type": "Identifier",
-                          "start": 362,
-                          "end": 368,
-                          "decorators": [],
-                          "name": "radius",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
-                      },
-                      "right": {
-                        "type": "Literal",
-                        "start": 372,
-                        "end": 373,
-                        "raw": "2",
-                        "value": 2
-                      }
-                    }
-                  }
-                }
-              ]
-            },
-            "test": {
-              "type": "BinaryExpression",
-              "start": 304,
-              "end": 327,
-              "operator": "===",
-              "left": {
-                "type": "MemberExpression",
-                "start": 304,
-                "end": 314,
-                "computed": false,
-                "object": {
-                  "type": "Identifier",
-                  "start": 304,
-                  "end": 309,
-                  "decorators": [],
-                  "name": "shape",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Identifier",
-                  "start": 310,
-                  "end": 314,
-                  "decorators": [],
-                  "name": "kind",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              },
-              "right": {
-                "type": "Literal",
-                "start": 319,
-                "end": 327,
-                "raw": "\"circle\"",
-                "value": "circle"
-              }
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 109,
@@ -547,6 +185,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -563,7 +205,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 120,
               "end": 125,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 120,
@@ -572,13 +213,372 @@ __ESTREE_TEST__:PASS:
                 "name": "Shape",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "typeArguments": null
             }
           }
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 127,
+        "end": 511,
+        "body": [
+          {
+            "type": "SwitchStatement",
+            "start": 133,
+            "end": 294,
+            "discriminant": {
+              "type": "Literal",
+              "start": 141,
+              "end": 145,
+              "value": true,
+              "raw": "true"
+            },
+            "cases": [
+              {
+                "type": "SwitchCase",
+                "start": 157,
+                "end": 234,
+                "test": {
+                  "type": "BinaryExpression",
+                  "start": 162,
+                  "end": 185,
+                  "left": {
+                    "type": "MemberExpression",
+                    "start": 162,
+                    "end": 172,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 162,
+                      "end": 167,
+                      "decorators": [],
+                      "name": "shape",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 168,
+                      "end": 172,
+                      "decorators": [],
+                      "name": "kind",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "optional": false,
+                    "computed": false
+                  },
+                  "operator": "===",
+                  "right": {
+                    "type": "Literal",
+                    "start": 177,
+                    "end": 185,
+                    "value": "circle",
+                    "raw": "\"circle\""
+                  }
+                },
+                "consequent": [
+                  {
+                    "type": "ReturnStatement",
+                    "start": 199,
+                    "end": 234,
+                    "argument": {
+                      "type": "BinaryExpression",
+                      "start": 206,
+                      "end": 233,
+                      "left": {
+                        "type": "MemberExpression",
+                        "start": 206,
+                        "end": 213,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 206,
+                          "end": 210,
+                          "decorators": [],
+                          "name": "Math",
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 211,
+                          "end": 213,
+                          "decorators": [],
+                          "name": "PI",
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
+                        "optional": false,
+                        "computed": false
+                      },
+                      "operator": "*",
+                      "right": {
+                        "type": "BinaryExpression",
+                        "start": 216,
+                        "end": 233,
+                        "left": {
+                          "type": "MemberExpression",
+                          "start": 216,
+                          "end": 228,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 216,
+                            "end": 221,
+                            "decorators": [],
+                            "name": "shape",
+                            "optional": false,
+                            "typeAnnotation": null
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 222,
+                            "end": 228,
+                            "decorators": [],
+                            "name": "radius",
+                            "optional": false,
+                            "typeAnnotation": null
+                          },
+                          "optional": false,
+                          "computed": false
+                        },
+                        "operator": "**",
+                        "right": {
+                          "type": "Literal",
+                          "start": 232,
+                          "end": 233,
+                          "value": 2,
+                          "raw": "2"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "SwitchCase",
+                "start": 243,
+                "end": 272,
+                "test": {
+                  "type": "BinaryExpression",
+                  "start": 248,
+                  "end": 271,
+                  "left": {
+                    "type": "MemberExpression",
+                    "start": 248,
+                    "end": 258,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 248,
+                      "end": 253,
+                      "decorators": [],
+                      "name": "shape",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 254,
+                      "end": 258,
+                      "decorators": [],
+                      "name": "kind",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "optional": false,
+                    "computed": false
+                  },
+                  "operator": "===",
+                  "right": {
+                    "type": "Literal",
+                    "start": 263,
+                    "end": 271,
+                    "value": "circle",
+                    "raw": "\"circle\""
+                  }
+                },
+                "consequent": []
+              }
+            ]
+          },
+          {
+            "type": "IfStatement",
+            "start": 300,
+            "end": 509,
+            "test": {
+              "type": "BinaryExpression",
+              "start": 304,
+              "end": 327,
+              "left": {
+                "type": "MemberExpression",
+                "start": 304,
+                "end": 314,
+                "object": {
+                  "type": "Identifier",
+                  "start": 304,
+                  "end": 309,
+                  "decorators": [],
+                  "name": "shape",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 310,
+                  "end": 314,
+                  "decorators": [],
+                  "name": "kind",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "optional": false,
+                "computed": false
+              },
+              "operator": "===",
+              "right": {
+                "type": "Literal",
+                "start": 319,
+                "end": 327,
+                "value": "circle",
+                "raw": "\"circle\""
+              }
+            },
+            "consequent": {
+              "type": "BlockStatement",
+              "start": 329,
+              "end": 380,
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 339,
+                  "end": 374,
+                  "argument": {
+                    "type": "BinaryExpression",
+                    "start": 346,
+                    "end": 373,
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 346,
+                      "end": 353,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 346,
+                        "end": 350,
+                        "decorators": [],
+                        "name": "Math",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 351,
+                        "end": 353,
+                        "decorators": [],
+                        "name": "PI",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "optional": false,
+                      "computed": false
+                    },
+                    "operator": "*",
+                    "right": {
+                      "type": "BinaryExpression",
+                      "start": 356,
+                      "end": 373,
+                      "left": {
+                        "type": "MemberExpression",
+                        "start": 356,
+                        "end": 368,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 356,
+                          "end": 361,
+                          "decorators": [],
+                          "name": "shape",
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 362,
+                          "end": 368,
+                          "decorators": [],
+                          "name": "radius",
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
+                        "optional": false,
+                        "computed": false
+                      },
+                      "operator": "**",
+                      "right": {
+                        "type": "Literal",
+                        "start": 372,
+                        "end": 373,
+                        "value": 2,
+                        "raw": "2"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            "alternate": {
+              "type": "IfStatement",
+              "start": 390,
+              "end": 509,
+              "test": {
+                "type": "BinaryExpression",
+                "start": 394,
+                "end": 417,
+                "left": {
+                  "type": "MemberExpression",
+                  "start": 394,
+                  "end": 404,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 394,
+                    "end": 399,
+                    "decorators": [],
+                    "name": "shape",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 400,
+                    "end": 404,
+                    "decorators": [],
+                    "name": "kind",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "operator": "===",
+                "right": {
+                  "type": "Literal",
+                  "start": 409,
+                  "end": 417,
+                  "value": "circle",
+                  "raw": "\"circle\""
+                }
+              },
+              "consequent": {
+                "type": "BlockStatement",
+                "start": 419,
+                "end": 509,
+                "body": []
+              },
+              "alternate": null
+            }
+          }
+        ]
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

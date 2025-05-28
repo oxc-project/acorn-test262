@@ -9,11 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 0,
       "end": 22,
-      "async": false,
-      "body": null,
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -23,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
@@ -34,17 +33,13 @@ __ESTREE_TEST__:PASS:
           "end": 21
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "TSDeclareFunction",
       "start": 23,
       "end": 45,
-      "async": false,
-      "body": null,
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 32,
@@ -54,6 +49,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
@@ -65,59 +64,13 @@ __ESTREE_TEST__:PASS:
           "end": 44
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 46,
       "end": 103,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 65,
-        "end": 103,
-        "body": [
-          {
-            "type": "IfStatement",
-            "start": 67,
-            "end": 102,
-            "alternate": {
-              "type": "ReturnStatement",
-              "start": 93,
-              "end": 102,
-              "argument": {
-                "type": "Literal",
-                "start": 100,
-                "end": 101,
-                "raw": "0",
-                "value": 0
-              }
-            },
-            "consequent": {
-              "type": "ReturnStatement",
-              "start": 77,
-              "end": 87,
-              "argument": {
-                "type": "Literal",
-                "start": 84,
-                "end": 86,
-                "raw": "\"\"",
-                "value": ""
-              }
-            },
-            "test": {
-              "type": "Literal",
-              "start": 71,
-              "end": 75,
-              "raw": "true",
-              "value": true
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 55,
@@ -127,6 +80,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
@@ -138,7 +95,50 @@ __ESTREE_TEST__:PASS:
           "end": 64
         }
       },
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 65,
+        "end": 103,
+        "body": [
+          {
+            "type": "IfStatement",
+            "start": 67,
+            "end": 102,
+            "test": {
+              "type": "Literal",
+              "start": 71,
+              "end": 75,
+              "value": true,
+              "raw": "true"
+            },
+            "consequent": {
+              "type": "ReturnStatement",
+              "start": 77,
+              "end": 87,
+              "argument": {
+                "type": "Literal",
+                "start": 84,
+                "end": 86,
+                "value": "",
+                "raw": "\"\""
+              }
+            },
+            "alternate": {
+              "type": "ReturnStatement",
+              "start": 93,
+              "end": 102,
+              "argument": {
+                "type": "Literal",
+                "start": 100,
+                "end": 101,
+                "value": 0,
+                "raw": "0"
+              }
+            }
+          }
+        ]
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

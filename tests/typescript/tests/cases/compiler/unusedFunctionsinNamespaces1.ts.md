@@ -9,42 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 57,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 21,
-        "end": 57,
-        "body": [
-          {
-            "type": "FunctionDeclaration",
-            "start": 27,
-            "end": 55,
-            "async": false,
-            "body": {
-              "type": "BlockStatement",
-              "start": 48,
-              "end": 55,
-              "body": []
-            },
-            "declare": false,
-            "expression": false,
-            "generator": false,
-            "id": {
-              "type": "Identifier",
-              "start": 36,
-              "end": 45,
-              "decorators": [],
-              "name": "function1",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
-        ]
-      },
-      "declare": false,
-      "global": false,
       "id": {
         "type": "Identifier",
         "start": 10,
@@ -54,7 +18,43 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "namespace"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 21,
+        "end": 57,
+        "body": [
+          {
+            "type": "FunctionDeclaration",
+            "start": 27,
+            "end": 55,
+            "id": {
+              "type": "Identifier",
+              "start": 36,
+              "end": 45,
+              "decorators": [],
+              "name": "function1",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "generator": false,
+            "async": false,
+            "declare": false,
+            "typeParameters": null,
+            "params": [],
+            "returnType": null,
+            "body": {
+              "type": "BlockStatement",
+              "start": 48,
+              "end": 55,
+              "body": []
+            },
+            "expression": false
+          }
+        ]
+      },
+      "kind": "namespace",
+      "declare": false,
+      "global": false
     }
   ],
   "sourceType": "script",

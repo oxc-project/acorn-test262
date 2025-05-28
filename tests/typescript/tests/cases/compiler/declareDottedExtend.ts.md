@@ -9,51 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 44,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 19,
-        "end": 44,
-        "body": [
-          {
-            "type": "ExportNamedDeclaration",
-            "start": 25,
-            "end": 42,
-            "attributes": [],
-            "declaration": {
-              "type": "ClassDeclaration",
-              "start": 32,
-              "end": 42,
-              "abstract": false,
-              "body": {
-                "type": "ClassBody",
-                "start": 39,
-                "end": 42,
-                "body": []
-              },
-              "declare": false,
-              "decorators": [],
-              "id": {
-                "type": "Identifier",
-                "start": 38,
-                "end": 39,
-                "decorators": [],
-                "name": "C",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "implements": [],
-              "superClass": null,
-              "superTypeArguments": null,
-              "typeParameters": null
-            },
-            "exportKind": "value",
-            "source": null,
-            "specifiers": []
-          }
-        ]
-      },
-      "declare": true,
-      "global": false,
       "id": {
         "type": "TSQualifiedName",
         "start": 15,
@@ -77,7 +32,52 @@ __ESTREE_TEST__:PASS:
           "typeAnnotation": null
         }
       },
-      "kind": "module"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 19,
+        "end": 44,
+        "body": [
+          {
+            "type": "ExportNamedDeclaration",
+            "start": 25,
+            "end": 42,
+            "declaration": {
+              "type": "ClassDeclaration",
+              "start": 32,
+              "end": 42,
+              "decorators": [],
+              "id": {
+                "type": "Identifier",
+                "start": 38,
+                "end": 39,
+                "decorators": [],
+                "name": "C",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null,
+              "superClass": null,
+              "superTypeArguments": null,
+              "implements": [],
+              "body": {
+                "type": "ClassBody",
+                "start": 39,
+                "end": 42,
+                "body": []
+              },
+              "abstract": false,
+              "declare": false
+            },
+            "specifiers": [],
+            "source": null,
+            "exportKind": "value",
+            "attributes": []
+          }
+        ]
+      },
+      "kind": "module",
+      "declare": true,
+      "global": false
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -92,7 +92,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSQualifiedName",
         "start": 58,
@@ -115,20 +114,13 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "ClassDeclaration",
       "start": 64,
       "end": 87,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 84,
-        "end": 87,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -139,12 +131,11 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": {
         "type": "MemberExpression",
         "start": 80,
         "end": 84,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 80,
@@ -154,7 +145,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 83,
@@ -163,23 +153,25 @@ __ESTREE_TEST__:PASS:
           "name": "C",
           "optional": false,
           "typeAnnotation": null
-        }
+        },
+        "optional": false,
+        "computed": false
       },
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 84,
+        "end": 87,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 89,
       "end": 113,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 110,
-        "end": 113,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -190,17 +182,15 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": {
         "type": "MemberExpression",
         "start": 105,
         "end": 110,
-        "computed": false,
         "object": {
           "type": "MemberExpression",
           "start": 105,
           "end": 108,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 105,
@@ -210,7 +200,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 107,
@@ -219,9 +208,10 @@ __ESTREE_TEST__:PASS:
             "name": "B",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 109,
@@ -230,10 +220,20 @@ __ESTREE_TEST__:PASS:
           "name": "C",
           "optional": false,
           "typeAnnotation": null
-        }
+        },
+        "optional": false,
+        "computed": false
       },
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 110,
+        "end": 113,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

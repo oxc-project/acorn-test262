@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 20,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 19,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,19 +28,33 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 15,
             "end": 19,
-            "raw": "true",
-            "value": true
-          }
+            "value": true,
+            "raw": "true"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 22,
       "end": 83,
+      "id": {
+        "type": "Identifier",
+        "start": 31,
+        "end": 34,
+        "decorators": [],
+        "name": "foo",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 37,
@@ -50,25 +64,25 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 43,
             "end": 56,
-            "directive": "use strict",
             "expression": {
               "type": "Literal",
               "start": 43,
               "end": 55,
-              "raw": "\"use strict\"",
-              "value": "use strict"
-            }
+              "value": "use strict",
+              "raw": "\"use strict\""
+            },
+            "directive": "use strict"
           },
           {
             "type": "VariableDeclaration",
             "start": 61,
             "end": 81,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 65,
                 "end": 80,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 65,
@@ -82,31 +96,17 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 76,
                   "end": 80,
-                  "raw": "true",
-                  "value": true
-                }
+                  "value": true,
+                  "raw": "true"
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 31,
-        "end": 34,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

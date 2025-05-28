@@ -9,16 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 19,
       "end": 40,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 38,
-        "end": 40,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 28,
@@ -28,20 +18,30 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 38,
+        "end": 40,
+        "body": []
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 41,
       "end": 60,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 47,
           "end": 59,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 47,
@@ -56,24 +56,16 @@ __ESTREE_TEST__:PASS:
             "start": 57,
             "end": 59,
             "properties": []
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 61,
       "end": 76,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 74,
-        "end": 76,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -84,26 +76,33 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 74,
+        "end": 76,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 77,
       "end": 109,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 84,
         "end": 109,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 90,
             "end": 108,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 90,
@@ -117,31 +116,38 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 103,
               "end": 108,
-              "raw": "false",
-              "value": false
-            }
+              "value": false,
+              "raw": "false"
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 110,
       "end": 144,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 118,
           "end": 125,
+          "local": {
+            "type": "Identifier",
+            "start": 118,
+            "end": 125,
+            "decorators": [],
+            "name": "require",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 118,
@@ -151,21 +157,21 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 118,
-            "end": 125,
-            "decorators": [],
-            "name": "require",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         },
         {
           "type": "ExportSpecifier",
           "start": 127,
           "end": 134,
+          "local": {
+            "type": "Identifier",
+            "start": 127,
+            "end": 134,
+            "decorators": [],
+            "name": "exports",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 127,
@@ -175,21 +181,21 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 127,
-            "end": 134,
-            "decorators": [],
-            "name": "exports",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         },
         {
           "type": "ExportSpecifier",
           "start": 136,
           "end": 142,
+          "local": {
+            "type": "Identifier",
+            "start": 136,
+            "end": 142,
+            "decorators": [],
+            "name": "Object",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 136,
@@ -199,18 +205,12 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 136,
-            "end": 142,
-            "decorators": [],
-            "name": "Object",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": null,
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -228,16 +228,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 19,
       "end": 40,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 38,
-        "end": 40,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 28,
@@ -247,20 +237,30 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 38,
+        "end": 40,
+        "body": []
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 41,
       "end": 60,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 47,
           "end": 59,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 47,
@@ -275,24 +275,16 @@ __ESTREE_TEST__:PASS:
             "start": 57,
             "end": 59,
             "properties": []
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 61,
       "end": 76,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 74,
-        "end": 76,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -303,26 +295,33 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 74,
+        "end": 76,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 77,
       "end": 109,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 84,
         "end": 109,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 90,
             "end": 108,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 90,
@@ -336,31 +335,38 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 103,
               "end": 108,
-              "raw": "false",
-              "value": false
-            }
+              "value": false,
+              "raw": "false"
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 110,
       "end": 144,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 118,
           "end": 125,
+          "local": {
+            "type": "Identifier",
+            "start": 118,
+            "end": 125,
+            "decorators": [],
+            "name": "require",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 118,
@@ -370,21 +376,21 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 118,
-            "end": 125,
-            "decorators": [],
-            "name": "require",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         },
         {
           "type": "ExportSpecifier",
           "start": 127,
           "end": 134,
+          "local": {
+            "type": "Identifier",
+            "start": 127,
+            "end": 134,
+            "decorators": [],
+            "name": "exports",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 127,
@@ -394,21 +400,21 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 127,
-            "end": 134,
-            "decorators": [],
-            "name": "exports",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         },
         {
           "type": "ExportSpecifier",
           "start": 136,
           "end": 142,
+          "local": {
+            "type": "Identifier",
+            "start": 136,
+            "end": 142,
+            "decorators": [],
+            "name": "Object",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 136,
@@ -418,18 +424,12 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 136,
-            "end": 142,
-            "decorators": [],
-            "name": "Object",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": null,
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 19,
       "end": 63,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 41,
-        "end": 62,
-        "raw": "\"inner/cjs/index.cjs\"",
-        "value": "inner/cjs/index.cjs"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -33,21 +25,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 41,
+        "end": 62,
+        "value": "inner/cjs/index.cjs",
+        "raw": "\"inner/cjs/index.cjs\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 64,
       "end": 108,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 86,
-        "end": 107,
-        "raw": "\"inner/mjs/index.mjs\"",
-        "value": "inner/mjs/index.mjs"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -64,21 +56,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 86,
+        "end": 107,
+        "value": "inner/mjs/index.mjs",
+        "raw": "\"inner/mjs/index.mjs\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 109,
       "end": 152,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 132,
-        "end": 151,
-        "raw": "\"inner/js/index.js\"",
-        "value": "inner/js/index.js"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -95,14 +87,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 132,
+        "end": 151,
+        "value": "inner/js/index.js",
+        "raw": "\"inner/js/index.js\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 153,
       "end": 158,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 153,
@@ -111,13 +110,13 @@ __ESTREE_TEST__:PASS:
         "name": "cjsi",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 159,
       "end": 164,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 159,
@@ -126,13 +125,13 @@ __ESTREE_TEST__:PASS:
         "name": "mjsi",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 165,
       "end": 171,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 165,
@@ -141,7 +140,8 @@ __ESTREE_TEST__:PASS:
         "name": "typei",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",
@@ -159,14 +159,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 19,
       "end": 63,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 41,
-        "end": 62,
-        "raw": "\"inner/cjs/index.cjs\"",
-        "value": "inner/cjs/index.cjs"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -183,21 +175,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 41,
+        "end": 62,
+        "value": "inner/cjs/index.cjs",
+        "raw": "\"inner/cjs/index.cjs\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 64,
       "end": 108,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 86,
-        "end": 107,
-        "raw": "\"inner/mjs/index.mjs\"",
-        "value": "inner/mjs/index.mjs"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -214,21 +206,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 86,
+        "end": 107,
+        "value": "inner/mjs/index.mjs",
+        "raw": "\"inner/mjs/index.mjs\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 109,
       "end": 152,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 132,
-        "end": 151,
-        "raw": "\"inner/js/index.js\"",
-        "value": "inner/js/index.js"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -245,14 +237,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 132,
+        "end": 151,
+        "value": "inner/js/index.js",
+        "raw": "\"inner/js/index.js\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 153,
       "end": 158,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 153,
@@ -261,13 +260,13 @@ __ESTREE_TEST__:PASS:
         "name": "cjsi",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 159,
       "end": 164,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 159,
@@ -276,13 +275,13 @@ __ESTREE_TEST__:PASS:
         "name": "mjsi",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 165,
       "end": 171,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 165,
@@ -291,7 +290,8 @@ __ESTREE_TEST__:PASS:
         "name": "typei",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",
@@ -309,14 +309,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 19,
       "end": 63,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 41,
-        "end": 62,
-        "raw": "\"inner/cjs/index.cjs\"",
-        "value": "inner/cjs/index.cjs"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -333,21 +325,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 41,
+        "end": 62,
+        "value": "inner/cjs/index.cjs",
+        "raw": "\"inner/cjs/index.cjs\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 64,
       "end": 108,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 86,
-        "end": 107,
-        "raw": "\"inner/mjs/index.mjs\"",
-        "value": "inner/mjs/index.mjs"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -364,21 +356,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 86,
+        "end": 107,
+        "value": "inner/mjs/index.mjs",
+        "raw": "\"inner/mjs/index.mjs\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 109,
       "end": 152,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 132,
-        "end": 151,
-        "raw": "\"inner/js/index.js\"",
-        "value": "inner/js/index.js"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -395,14 +387,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 132,
+        "end": 151,
+        "value": "inner/js/index.js",
+        "raw": "\"inner/js/index.js\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 153,
       "end": 158,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 153,
@@ -411,13 +410,13 @@ __ESTREE_TEST__:PASS:
         "name": "cjsi",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 159,
       "end": 164,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 159,
@@ -426,13 +425,13 @@ __ESTREE_TEST__:PASS:
         "name": "mjsi",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 165,
       "end": 171,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 165,
@@ -441,7 +440,8 @@ __ESTREE_TEST__:PASS:
         "name": "typei",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",
@@ -459,14 +459,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 19,
       "end": 62,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 40,
-        "end": 61,
-        "raw": "\"inner/cjs/index.cjs\"",
-        "value": "inner/cjs/index.cjs"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -483,21 +475,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 40,
+        "end": 61,
+        "value": "inner/cjs/index.cjs",
+        "raw": "\"inner/cjs/index.cjs\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 63,
       "end": 106,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 84,
-        "end": 105,
-        "raw": "\"inner/mjs/index.mjs\"",
-        "value": "inner/mjs/index.mjs"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -514,21 +506,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 84,
+        "end": 105,
+        "value": "inner/mjs/index.mjs",
+        "raw": "\"inner/mjs/index.mjs\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 107,
       "end": 149,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 129,
-        "end": 148,
-        "raw": "\"inner/js/index.js\"",
-        "value": "inner/js/index.js"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -545,22 +537,36 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 129,
+        "end": 148,
+        "value": "inner/js/index.js",
+        "raw": "\"inner/js/index.js\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 150,
       "end": 165,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 159,
           "end": 162,
+          "local": {
+            "type": "Identifier",
+            "start": 159,
+            "end": 162,
+            "decorators": [],
+            "name": "cjs",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 159,
@@ -570,32 +576,32 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 159,
-            "end": 162,
-            "decorators": [],
-            "name": "cjs",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": null,
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 166,
       "end": 181,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 175,
           "end": 178,
+          "local": {
+            "type": "Identifier",
+            "start": 175,
+            "end": 178,
+            "decorators": [],
+            "name": "mjs",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 175,
@@ -605,32 +611,32 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 175,
-            "end": 178,
-            "decorators": [],
-            "name": "mjs",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": null,
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 182,
       "end": 198,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 191,
           "end": 195,
+          "local": {
+            "type": "Identifier",
+            "start": 191,
+            "end": 195,
+            "decorators": [],
+            "name": "type",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 191,
@@ -640,18 +646,12 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 191,
-            "end": 195,
-            "decorators": [],
-            "name": "type",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": null,
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -669,14 +669,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 19,
       "end": 62,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 40,
-        "end": 61,
-        "raw": "\"inner/cjs/index.cjs\"",
-        "value": "inner/cjs/index.cjs"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -693,21 +685,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 40,
+        "end": 61,
+        "value": "inner/cjs/index.cjs",
+        "raw": "\"inner/cjs/index.cjs\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 63,
       "end": 106,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 84,
-        "end": 105,
-        "raw": "\"inner/mjs/index.mjs\"",
-        "value": "inner/mjs/index.mjs"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -724,21 +716,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 84,
+        "end": 105,
+        "value": "inner/mjs/index.mjs",
+        "raw": "\"inner/mjs/index.mjs\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 107,
       "end": 149,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 129,
-        "end": 148,
-        "raw": "\"inner/js/index.js\"",
-        "value": "inner/js/index.js"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -755,22 +747,36 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 129,
+        "end": 148,
+        "value": "inner/js/index.js",
+        "raw": "\"inner/js/index.js\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 150,
       "end": 165,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 159,
           "end": 162,
+          "local": {
+            "type": "Identifier",
+            "start": 159,
+            "end": 162,
+            "decorators": [],
+            "name": "cjs",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 159,
@@ -780,32 +786,32 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 159,
-            "end": 162,
-            "decorators": [],
-            "name": "cjs",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": null,
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 166,
       "end": 181,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 175,
           "end": 178,
+          "local": {
+            "type": "Identifier",
+            "start": 175,
+            "end": 178,
+            "decorators": [],
+            "name": "mjs",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 175,
@@ -815,32 +821,32 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 175,
-            "end": 178,
-            "decorators": [],
-            "name": "mjs",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": null,
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 182,
       "end": 198,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 191,
           "end": 195,
+          "local": {
+            "type": "Identifier",
+            "start": 191,
+            "end": 195,
+            "decorators": [],
+            "name": "type",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 191,
@@ -850,18 +856,12 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 191,
-            "end": 195,
-            "decorators": [],
-            "name": "type",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": null,
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -879,14 +879,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 19,
       "end": 62,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 40,
-        "end": 61,
-        "raw": "\"inner/cjs/index.cjs\"",
-        "value": "inner/cjs/index.cjs"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -903,21 +895,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 40,
+        "end": 61,
+        "value": "inner/cjs/index.cjs",
+        "raw": "\"inner/cjs/index.cjs\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 63,
       "end": 106,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 84,
-        "end": 105,
-        "raw": "\"inner/mjs/index.mjs\"",
-        "value": "inner/mjs/index.mjs"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -934,21 +926,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 84,
+        "end": 105,
+        "value": "inner/mjs/index.mjs",
+        "raw": "\"inner/mjs/index.mjs\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 107,
       "end": 149,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 129,
-        "end": 148,
-        "raw": "\"inner/js/index.js\"",
-        "value": "inner/js/index.js"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -965,22 +957,36 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 129,
+        "end": 148,
+        "value": "inner/js/index.js",
+        "raw": "\"inner/js/index.js\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 150,
       "end": 165,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 159,
           "end": 162,
+          "local": {
+            "type": "Identifier",
+            "start": 159,
+            "end": 162,
+            "decorators": [],
+            "name": "cjs",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 159,
@@ -990,32 +996,32 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 159,
-            "end": 162,
-            "decorators": [],
-            "name": "cjs",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": null,
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 166,
       "end": 181,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 175,
           "end": 178,
+          "local": {
+            "type": "Identifier",
+            "start": 175,
+            "end": 178,
+            "decorators": [],
+            "name": "mjs",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 175,
@@ -1025,32 +1031,32 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 175,
-            "end": 178,
-            "decorators": [],
-            "name": "mjs",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": null,
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 182,
       "end": 198,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 191,
           "end": 195,
+          "local": {
+            "type": "Identifier",
+            "start": 191,
+            "end": 195,
+            "decorators": [],
+            "name": "type",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "exported": {
             "type": "Identifier",
             "start": 191,
@@ -1060,18 +1066,12 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "exportKind": "value",
-          "local": {
-            "type": "Identifier",
-            "start": 191,
-            "end": 195,
-            "decorators": [],
-            "name": "type",
-            "optional": false,
-            "typeAnnotation": null
-          }
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": null,
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

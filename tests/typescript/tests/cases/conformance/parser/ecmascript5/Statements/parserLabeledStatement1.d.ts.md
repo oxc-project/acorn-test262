@@ -9,16 +9,23 @@ __ESTREE_TEST__:PASS:
       "type": "LabeledStatement",
       "start": 0,
       "end": 13,
+      "label": {
+        "type": "Identifier",
+        "start": 0,
+        "end": 3,
+        "decorators": [],
+        "name": "foo",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "ExpressionStatement",
         "start": 7,
         "end": 13,
-        "directive": null,
         "expression": {
           "type": "CallExpression",
           "start": 7,
           "end": 12,
-          "arguments": [],
           "callee": {
             "type": "Identifier",
             "start": 7,
@@ -28,18 +35,11 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
-          "typeArguments": null
-        }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 0,
-        "end": 3,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
+          "typeArguments": null,
+          "arguments": [],
+          "optional": false
+        },
+        "directive": null
       }
     }
   ],

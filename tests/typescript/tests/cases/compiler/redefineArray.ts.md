@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 50,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 0,
@@ -28,32 +27,11 @@ __ESTREE_TEST__:PASS:
           "type": "FunctionExpression",
           "start": 8,
           "end": 49,
-          "async": false,
-          "body": {
-            "type": "BlockStatement",
-            "start": 38,
-            "end": 49,
-            "body": [
-              {
-                "type": "ReturnStatement",
-                "start": 39,
-                "end": 48,
-                "argument": {
-                  "type": "Identifier",
-                  "start": 46,
-                  "end": 47,
-                  "decorators": [],
-                  "name": "n",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            ]
-          },
-          "declare": false,
-          "expression": false,
-          "generator": false,
           "id": null,
+          "generator": false,
+          "async": false,
+          "declare": false,
+          "typeParameters": null,
           "params": [
             {
               "type": "Identifier",
@@ -93,9 +71,31 @@ __ESTREE_TEST__:PASS:
             }
           ],
           "returnType": null,
-          "typeParameters": null
+          "body": {
+            "type": "BlockStatement",
+            "start": 38,
+            "end": 49,
+            "body": [
+              {
+                "type": "ReturnStatement",
+                "start": 39,
+                "end": 48,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 46,
+                  "end": 47,
+                  "decorators": [],
+                  "name": "n",
+                  "optional": false,
+                  "typeAnnotation": null
+                }
+              }
+            ]
+          },
+          "expression": false
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

@@ -9,22 +9,18 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 22,
-      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 0,
         "end": 21,
-        "operator": "+",
         "left": {
           "type": "BinaryExpression",
           "start": 0,
           "end": 9,
-          "operator": "+",
           "left": {
             "type": "MemberExpression",
             "start": 0,
             "end": 7,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 0,
@@ -34,7 +30,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 2,
@@ -43,26 +38,28 @@ __ESTREE_TEST__:PASS:
               "name": "index",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "optional": false,
+            "computed": false
           },
+          "operator": "+",
           "right": {
             "type": "Literal",
             "start": 8,
             "end": 9,
-            "raw": "1",
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         },
+        "operator": "+",
         "right": {
           "type": "MemberExpression",
           "start": 10,
           "end": 21,
-          "computed": false,
           "object": {
             "type": "MemberExpression",
             "start": 10,
             "end": 14,
-            "computed": true,
             "object": {
               "type": "Identifier",
               "start": 10,
@@ -72,16 +69,16 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "Literal",
               "start": 12,
               "end": 13,
-              "raw": "0",
-              "value": 0
-            }
+              "value": 0,
+              "raw": "0"
+            },
+            "optional": false,
+            "computed": true
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 15,
@@ -90,9 +87,12 @@ __ESTREE_TEST__:PASS:
             "name": "length",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

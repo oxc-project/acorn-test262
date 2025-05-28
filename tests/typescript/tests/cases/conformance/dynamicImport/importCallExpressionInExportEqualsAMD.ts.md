@@ -13,8 +13,8 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "start": 9,
         "end": 11,
-        "raw": "42",
-        "value": 42
+        "value": 42,
+        "raw": "42"
       }
     }
   ],
@@ -37,7 +37,13 @@ __ESTREE_TEST__:PASS:
         "type": "FunctionExpression",
         "start": 9,
         "end": 80,
+        "id": null,
+        "generator": false,
         "async": true,
+        "declare": false,
+        "typeParameters": null,
+        "params": [],
+        "returnType": null,
         "body": {
           "type": "BlockStatement",
           "start": 26,
@@ -47,12 +53,12 @@ __ESTREE_TEST__:PASS:
               "type": "VariableDeclaration",
               "start": 32,
               "end": 78,
+              "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 38,
                   "end": 77,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 38,
@@ -70,31 +76,25 @@ __ESTREE_TEST__:PASS:
                       "type": "ImportExpression",
                       "start": 56,
                       "end": 77,
-                      "options": null,
                       "source": {
                         "type": "Literal",
                         "start": 63,
                         "end": 76,
-                        "raw": "\"./something\"",
-                        "value": "./something"
+                        "value": "./something",
+                        "raw": "\"./something\""
                       },
+                      "options": null,
                       "phase": null
                     }
-                  }
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "const"
+              "declare": false
             }
           ]
         },
-        "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": null,
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "expression": false
       }
     }
   ],

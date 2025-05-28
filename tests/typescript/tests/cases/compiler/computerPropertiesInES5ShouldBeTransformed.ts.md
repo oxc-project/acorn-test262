@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 44,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 6,
           "end": 43,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
@@ -28,7 +28,59 @@ __ESTREE_TEST__:PASS:
             "type": "ArrowFunctionExpression",
             "start": 10,
             "end": 43,
+            "expression": true,
             "async": false,
+            "typeParameters": null,
+            "params": [
+              {
+                "type": "ObjectPattern",
+                "start": 11,
+                "end": 31,
+                "decorators": [],
+                "properties": [
+                  {
+                    "type": "Property",
+                    "start": 13,
+                    "end": 29,
+                    "kind": "init",
+                    "key": {
+                      "type": "TemplateLiteral",
+                      "start": 14,
+                      "end": 19,
+                      "quasis": [
+                        {
+                          "type": "TemplateElement",
+                          "start": 14,
+                          "end": 19,
+                          "value": {
+                            "cooked": "key",
+                            "raw": "key"
+                          },
+                          "tail": true
+                        }
+                      ],
+                      "expressions": []
+                    },
+                    "value": {
+                      "type": "Identifier",
+                      "start": 22,
+                      "end": 29,
+                      "decorators": [],
+                      "name": "renamed",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": true,
+                    "optional": false
+                  }
+                ],
+                "optional": false,
+                "typeAnnotation": null
+              }
+            ],
+            "returnType": null,
             "body": {
               "type": "Identifier",
               "start": 36,
@@ -38,65 +90,13 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "expression": true,
-            "generator": false,
             "id": null,
-            "params": [
-              {
-                "type": "ObjectPattern",
-                "start": 11,
-                "end": 31,
-                "decorators": [],
-                "optional": false,
-                "properties": [
-                  {
-                    "type": "Property",
-                    "start": 13,
-                    "end": 29,
-                    "computed": true,
-                    "key": {
-                      "type": "TemplateLiteral",
-                      "start": 14,
-                      "end": 19,
-                      "expressions": [],
-                      "quasis": [
-                        {
-                          "type": "TemplateElement",
-                          "start": 14,
-                          "end": 19,
-                          "tail": true,
-                          "value": {
-                            "cooked": "key",
-                            "raw": "key"
-                          }
-                        }
-                      ]
-                    },
-                    "kind": "init",
-                    "method": false,
-                    "optional": false,
-                    "shorthand": false,
-                    "value": {
-                      "type": "Identifier",
-                      "start": 22,
-                      "end": 29,
-                      "decorators": [],
-                      "name": "renamed",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  }
-                ],
-                "typeAnnotation": null
-              }
-            ],
-            "returnType": null,
-            "typeParameters": null
-          }
+            "generator": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "script",

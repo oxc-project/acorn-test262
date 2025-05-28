@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 41,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 6,
           "end": 40,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
@@ -43,15 +43,15 @@ __ESTREE_TEST__:PASS:
                         "type": "Literal",
                         "start": 23,
                         "end": 24,
-                        "raw": "1",
-                        "value": 1
+                        "value": 1,
+                        "raw": "1"
                       },
                       {
                         "type": "Literal",
                         "start": 26,
                         "end": 27,
-                        "raw": "2",
-                        "value": 2
+                        "value": 2,
+                        "raw": "2"
                       }
                     ]
                   }
@@ -71,110 +71,69 @@ __ESTREE_TEST__:PASS:
                         "type": "Literal",
                         "start": 33,
                         "end": 34,
-                        "raw": "3",
-                        "value": 3
+                        "value": 3,
+                        "raw": "3"
                       },
                       {
                         "type": "Literal",
                         "start": 36,
                         "end": 37,
-                        "raw": "4",
-                        "value": 4
+                        "value": 4,
+                        "raw": "4"
                       }
                     ]
                   }
                 ]
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 43,
       "end": 103,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 43,
         "end": 102,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 43,
+          "end": 62,
+          "object": {
+            "type": "Identifier",
+            "start": 43,
+            "end": 54,
+            "decorators": [],
+            "name": "nestedArray",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 55,
+            "end": 62,
+            "decorators": [],
+            "name": "forEach",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "computed": false
+        },
+        "typeArguments": null,
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 63,
             "end": 101,
-            "async": false,
-            "body": {
-              "type": "BlockStatement",
-              "start": 77,
-              "end": 101,
-              "body": [
-                {
-                  "type": "ExpressionStatement",
-                  "start": 81,
-                  "end": 99,
-                  "directive": null,
-                  "expression": {
-                    "type": "CallExpression",
-                    "start": 81,
-                    "end": 98,
-                    "arguments": [
-                      {
-                        "type": "Identifier",
-                        "start": 93,
-                        "end": 94,
-                        "decorators": [],
-                        "name": "a",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      {
-                        "type": "Identifier",
-                        "start": 96,
-                        "end": 97,
-                        "decorators": [],
-                        "name": "b",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    ],
-                    "callee": {
-                      "type": "MemberExpression",
-                      "start": 81,
-                      "end": 92,
-                      "computed": false,
-                      "object": {
-                        "type": "Identifier",
-                        "start": 81,
-                        "end": 88,
-                        "decorators": [],
-                        "name": "console",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "optional": false,
-                      "property": {
-                        "type": "Identifier",
-                        "start": 89,
-                        "end": 92,
-                        "decorators": [],
-                        "name": "log",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    },
-                    "optional": false,
-                    "typeArguments": null
-                  }
-                }
-              ]
-            },
             "expression": false,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [
               {
                 "type": "ArrayPattern",
@@ -216,37 +175,78 @@ __ESTREE_TEST__:PASS:
               }
             ],
             "returnType": null,
-            "typeParameters": null
+            "body": {
+              "type": "BlockStatement",
+              "start": 77,
+              "end": 101,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 81,
+                  "end": 99,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 81,
+                    "end": 98,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 81,
+                      "end": 92,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 81,
+                        "end": 88,
+                        "decorators": [],
+                        "name": "console",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 89,
+                        "end": 92,
+                        "decorators": [],
+                        "name": "log",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "optional": false,
+                      "computed": false
+                    },
+                    "typeArguments": null,
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "start": 93,
+                        "end": 94,
+                        "decorators": [],
+                        "name": "a",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 96,
+                        "end": 97,
+                        "decorators": [],
+                        "name": "b",
+                        "optional": false,
+                        "typeAnnotation": null
+                      }
+                    ],
+                    "optional": false
+                  },
+                  "directive": null
+                }
+              ]
+            },
+            "id": null,
+            "generator": false
           }
         ],
-        "callee": {
-          "type": "MemberExpression",
-          "start": 43,
-          "end": 62,
-          "computed": false,
-          "object": {
-            "type": "Identifier",
-            "start": 43,
-            "end": 54,
-            "decorators": [],
-            "name": "nestedArray",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "optional": false,
-          "property": {
-            "type": "Identifier",
-            "start": 55,
-            "end": 62,
-            "decorators": [],
-            "name": "forEach",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
-        "optional": false,
-        "typeArguments": null
-      }
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

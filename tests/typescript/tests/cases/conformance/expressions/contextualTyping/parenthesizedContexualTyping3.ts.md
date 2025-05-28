@@ -9,11 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 136,
       "end": 213,
-      "async": false,
-      "body": null,
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 145,
@@ -22,6 +17,35 @@ __ESTREE_TEST__:PASS:
         "name": "tempFun",
         "optional": false,
         "typeAnnotation": null
+      },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": {
+        "type": "TSTypeParameterDeclaration",
+        "start": 152,
+        "end": 155,
+        "params": [
+          {
+            "type": "TSTypeParameter",
+            "start": 153,
+            "end": 154,
+            "name": {
+              "type": "Identifier",
+              "start": 153,
+              "end": 154,
+              "decorators": [],
+              "name": "T",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          }
+        ]
       },
       "params": [
         {
@@ -39,7 +63,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 166,
               "end": 186,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 166,
@@ -48,7 +71,8 @@ __ESTREE_TEST__:PASS:
                 "name": "TemplateStringsArray",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "typeArguments": null
             }
           }
         },
@@ -67,6 +91,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSFunctionType",
               "start": 191,
               "end": 202,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -83,7 +108,6 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 195,
                       "end": 196,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 195,
@@ -92,7 +116,8 @@ __ESTREE_TEST__:PASS:
                         "name": "T",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     }
                   }
                 }
@@ -105,7 +130,6 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 201,
                   "end": 202,
-                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 201,
@@ -114,10 +138,10 @@ __ESTREE_TEST__:PASS:
                     "name": "T",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "typeArguments": null
                 }
-              },
-              "typeParameters": null
+              }
             }
           }
         },
@@ -136,7 +160,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 207,
               "end": 208,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 207,
@@ -145,7 +168,8 @@ __ESTREE_TEST__:PASS:
                 "name": "T",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "typeArguments": null
             }
           }
         }
@@ -158,7 +182,6 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 211,
           "end": 212,
-          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 211,
@@ -167,45 +190,17 @@ __ESTREE_TEST__:PASS:
             "name": "T",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "typeArguments": null
         }
       },
-      "typeParameters": {
-        "type": "TSTypeParameterDeclaration",
-        "start": 152,
-        "end": 155,
-        "params": [
-          {
-            "type": "TSTypeParameter",
-            "start": 153,
-            "end": 154,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 153,
-              "end": 154,
-              "decorators": [],
-              "name": "T",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          }
-        ]
-      }
+      "body": null,
+      "expression": false
     },
     {
       "type": "TSDeclareFunction",
       "start": 214,
       "end": 307,
-      "async": false,
-      "body": null,
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 223,
@@ -214,6 +209,35 @@ __ESTREE_TEST__:PASS:
         "name": "tempFun",
         "optional": false,
         "typeAnnotation": null
+      },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": {
+        "type": "TSTypeParameterDeclaration",
+        "start": 230,
+        "end": 233,
+        "params": [
+          {
+            "type": "TSTypeParameter",
+            "start": 231,
+            "end": 232,
+            "name": {
+              "type": "Identifier",
+              "start": 231,
+              "end": 232,
+              "decorators": [],
+              "name": "T",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          }
+        ]
       },
       "params": [
         {
@@ -231,7 +255,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 244,
               "end": 264,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 244,
@@ -240,7 +263,8 @@ __ESTREE_TEST__:PASS:
                 "name": "TemplateStringsArray",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "typeArguments": null
             }
           }
         },
@@ -259,6 +283,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSFunctionType",
               "start": 269,
               "end": 280,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -275,7 +300,6 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 273,
                       "end": 274,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 273,
@@ -284,7 +308,8 @@ __ESTREE_TEST__:PASS:
                         "name": "T",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     }
                   }
                 }
@@ -297,7 +322,6 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 279,
                   "end": 280,
-                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 279,
@@ -306,10 +330,10 @@ __ESTREE_TEST__:PASS:
                     "name": "T",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "typeArguments": null
                 }
-              },
-              "typeParameters": null
+              }
             }
           }
         },
@@ -328,6 +352,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSFunctionType",
               "start": 285,
               "end": 296,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -344,7 +369,6 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 289,
                       "end": 290,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 289,
@@ -353,7 +377,8 @@ __ESTREE_TEST__:PASS:
                         "name": "T",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     }
                   }
                 }
@@ -366,7 +391,6 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 295,
                   "end": 296,
-                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 295,
@@ -375,10 +399,10 @@ __ESTREE_TEST__:PASS:
                     "name": "T",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "typeArguments": null
                 }
-              },
-              "typeParameters": null
+              }
             }
           }
         },
@@ -397,7 +421,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 301,
               "end": 302,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 301,
@@ -406,7 +429,8 @@ __ESTREE_TEST__:PASS:
                 "name": "T",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "typeArguments": null
             }
           }
         }
@@ -419,7 +443,6 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 305,
           "end": 306,
-          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 305,
@@ -428,83 +451,17 @@ __ESTREE_TEST__:PASS:
             "name": "T",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "typeArguments": null
         }
       },
-      "typeParameters": {
-        "type": "TSTypeParameterDeclaration",
-        "start": 230,
-        "end": 233,
-        "params": [
-          {
-            "type": "TSTypeParameter",
-            "start": 231,
-            "end": 232,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 231,
-              "end": 232,
-              "decorators": [],
-              "name": "T",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          }
-        ]
-      }
+      "body": null,
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 308,
       "end": 405,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 385,
-        "end": 405,
-        "body": [
-          {
-            "type": "ReturnStatement",
-            "start": 391,
-            "end": 403,
-            "argument": {
-              "type": "CallExpression",
-              "start": 398,
-              "end": 402,
-              "arguments": [
-                {
-                  "type": "Identifier",
-                  "start": 400,
-                  "end": 401,
-                  "decorators": [],
-                  "name": "x",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              ],
-              "callee": {
-                "type": "Identifier",
-                "start": 398,
-                "end": 399,
-                "decorators": [],
-                "name": "g",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "typeArguments": null
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 317,
@@ -513,6 +470,35 @@ __ESTREE_TEST__:PASS:
         "name": "tempFun",
         "optional": false,
         "typeAnnotation": null
+      },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": {
+        "type": "TSTypeParameterDeclaration",
+        "start": 324,
+        "end": 327,
+        "params": [
+          {
+            "type": "TSTypeParameter",
+            "start": 325,
+            "end": 326,
+            "name": {
+              "type": "Identifier",
+              "start": 325,
+              "end": 326,
+              "decorators": [],
+              "name": "T",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          }
+        ]
       },
       "params": [
         {
@@ -530,7 +516,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 338,
               "end": 358,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 338,
@@ -539,7 +524,8 @@ __ESTREE_TEST__:PASS:
                 "name": "TemplateStringsArray",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "typeArguments": null
             }
           }
         },
@@ -558,6 +544,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSFunctionType",
               "start": 363,
               "end": 374,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -574,7 +561,6 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 367,
                       "end": 368,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 367,
@@ -583,7 +569,8 @@ __ESTREE_TEST__:PASS:
                         "name": "T",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     }
                   }
                 }
@@ -596,7 +583,6 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 373,
                   "end": 374,
-                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 373,
@@ -605,10 +591,10 @@ __ESTREE_TEST__:PASS:
                     "name": "T",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "typeArguments": null
                 }
-              },
-              "typeParameters": null
+              }
             }
           }
         },
@@ -627,7 +613,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 379,
               "end": 380,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 379,
@@ -636,7 +621,8 @@ __ESTREE_TEST__:PASS:
                 "name": "T",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "typeArguments": null
             }
           }
         }
@@ -649,7 +635,6 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 383,
           "end": 384,
-          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 383,
@@ -658,46 +643,61 @@ __ESTREE_TEST__:PASS:
             "name": "T",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "typeArguments": null
         }
       },
-      "typeParameters": {
-        "type": "TSTypeParameterDeclaration",
-        "start": 324,
-        "end": 327,
-        "params": [
+      "body": {
+        "type": "BlockStatement",
+        "start": 385,
+        "end": 405,
+        "body": [
           {
-            "type": "TSTypeParameter",
-            "start": 325,
-            "end": 326,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 325,
-              "end": 326,
-              "decorators": [],
-              "name": "T",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
+            "type": "ReturnStatement",
+            "start": 391,
+            "end": 403,
+            "argument": {
+              "type": "CallExpression",
+              "start": 398,
+              "end": 402,
+              "callee": {
+                "type": "Identifier",
+                "start": 398,
+                "end": 399,
+                "decorators": [],
+                "name": "g",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeArguments": null,
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 400,
+                  "end": 401,
+                  "decorators": [],
+                  "name": "x",
+                  "optional": false,
+                  "typeAnnotation": null
+                }
+              ],
+              "optional": false
+            }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 407,
       "end": 445,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 411,
           "end": 445,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 411,
@@ -711,28 +711,60 @@ __ESTREE_TEST__:PASS:
             "type": "TaggedTemplateExpression",
             "start": 415,
             "end": 445,
+            "tag": {
+              "type": "Identifier",
+              "start": 415,
+              "end": 422,
+              "decorators": [],
+              "name": "tempFun",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null,
             "quasi": {
               "type": "TemplateLiteral",
               "start": 423,
               "end": 445,
+              "quasis": [
+                {
+                  "type": "TemplateElement",
+                  "start": 423,
+                  "end": 426,
+                  "value": {
+                    "cooked": "",
+                    "raw": ""
+                  },
+                  "tail": false
+                },
+                {
+                  "type": "TemplateElement",
+                  "start": 434,
+                  "end": 439,
+                  "value": {
+                    "cooked": "  ",
+                    "raw": "  "
+                  },
+                  "tail": false
+                },
+                {
+                  "type": "TemplateElement",
+                  "start": 443,
+                  "end": 445,
+                  "value": {
+                    "cooked": "",
+                    "raw": ""
+                  },
+                  "tail": true
+                }
+              ],
               "expressions": [
                 {
                   "type": "ArrowFunctionExpression",
                   "start": 427,
                   "end": 433,
-                  "async": false,
-                  "body": {
-                    "type": "Identifier",
-                    "start": 432,
-                    "end": 433,
-                    "decorators": [],
-                    "name": "x",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
                   "expression": true,
-                  "generator": false,
-                  "id": null,
+                  "async": false,
+                  "typeParameters": null,
                   "params": [
                     {
                       "type": "Identifier",
@@ -745,75 +777,43 @@ __ESTREE_TEST__:PASS:
                     }
                   ],
                   "returnType": null,
-                  "typeParameters": null
+                  "body": {
+                    "type": "Identifier",
+                    "start": 432,
+                    "end": 433,
+                    "decorators": [],
+                    "name": "x",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "Literal",
                   "start": 440,
                   "end": 442,
-                  "raw": "10",
-                  "value": 10
-                }
-              ],
-              "quasis": [
-                {
-                  "type": "TemplateElement",
-                  "start": 423,
-                  "end": 426,
-                  "tail": false,
-                  "value": {
-                    "cooked": "",
-                    "raw": ""
-                  }
-                },
-                {
-                  "type": "TemplateElement",
-                  "start": 434,
-                  "end": 439,
-                  "tail": false,
-                  "value": {
-                    "cooked": "  ",
-                    "raw": "  "
-                  }
-                },
-                {
-                  "type": "TemplateElement",
-                  "start": 443,
-                  "end": 445,
-                  "tail": true,
-                  "value": {
-                    "cooked": "",
-                    "raw": ""
-                  }
+                  "value": 10,
+                  "raw": "10"
                 }
               ]
-            },
-            "tag": {
-              "type": "Identifier",
-              "start": 415,
-              "end": 422,
-              "decorators": [],
-              "name": "tempFun",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeArguments": null
-          }
+            }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 446,
       "end": 486,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 450,
           "end": 486,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 450,
@@ -827,28 +827,60 @@ __ESTREE_TEST__:PASS:
             "type": "TaggedTemplateExpression",
             "start": 454,
             "end": 486,
+            "tag": {
+              "type": "Identifier",
+              "start": 454,
+              "end": 461,
+              "decorators": [],
+              "name": "tempFun",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null,
             "quasi": {
               "type": "TemplateLiteral",
               "start": 462,
               "end": 486,
+              "quasis": [
+                {
+                  "type": "TemplateElement",
+                  "start": 462,
+                  "end": 465,
+                  "value": {
+                    "cooked": "",
+                    "raw": ""
+                  },
+                  "tail": false
+                },
+                {
+                  "type": "TemplateElement",
+                  "start": 475,
+                  "end": 480,
+                  "value": {
+                    "cooked": "  ",
+                    "raw": "  "
+                  },
+                  "tail": false
+                },
+                {
+                  "type": "TemplateElement",
+                  "start": 484,
+                  "end": 486,
+                  "value": {
+                    "cooked": "",
+                    "raw": ""
+                  },
+                  "tail": true
+                }
+              ],
               "expressions": [
                 {
                   "type": "ArrowFunctionExpression",
                   "start": 467,
                   "end": 473,
-                  "async": false,
-                  "body": {
-                    "type": "Identifier",
-                    "start": 472,
-                    "end": 473,
-                    "decorators": [],
-                    "name": "x",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
                   "expression": true,
-                  "generator": false,
-                  "id": null,
+                  "async": false,
+                  "typeParameters": null,
                   "params": [
                     {
                       "type": "Identifier",
@@ -861,75 +893,43 @@ __ESTREE_TEST__:PASS:
                     }
                   ],
                   "returnType": null,
-                  "typeParameters": null
+                  "body": {
+                    "type": "Identifier",
+                    "start": 472,
+                    "end": 473,
+                    "decorators": [],
+                    "name": "x",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "Literal",
                   "start": 481,
                   "end": 483,
-                  "raw": "10",
-                  "value": 10
-                }
-              ],
-              "quasis": [
-                {
-                  "type": "TemplateElement",
-                  "start": 462,
-                  "end": 465,
-                  "tail": false,
-                  "value": {
-                    "cooked": "",
-                    "raw": ""
-                  }
-                },
-                {
-                  "type": "TemplateElement",
-                  "start": 475,
-                  "end": 480,
-                  "tail": false,
-                  "value": {
-                    "cooked": "  ",
-                    "raw": "  "
-                  }
-                },
-                {
-                  "type": "TemplateElement",
-                  "start": 484,
-                  "end": 486,
-                  "tail": true,
-                  "value": {
-                    "cooked": "",
-                    "raw": ""
-                  }
+                  "value": 10,
+                  "raw": "10"
                 }
               ]
-            },
-            "tag": {
-              "type": "Identifier",
-              "start": 454,
-              "end": 461,
-              "decorators": [],
-              "name": "tempFun",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeArguments": null
-          }
+            }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 487,
       "end": 528,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 491,
           "end": 528,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 491,
@@ -943,28 +943,60 @@ __ESTREE_TEST__:PASS:
             "type": "TaggedTemplateExpression",
             "start": 495,
             "end": 528,
+            "tag": {
+              "type": "Identifier",
+              "start": 495,
+              "end": 502,
+              "decorators": [],
+              "name": "tempFun",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null,
             "quasi": {
               "type": "TemplateLiteral",
               "start": 503,
               "end": 528,
+              "quasis": [
+                {
+                  "type": "TemplateElement",
+                  "start": 503,
+                  "end": 506,
+                  "value": {
+                    "cooked": "",
+                    "raw": ""
+                  },
+                  "tail": false
+                },
+                {
+                  "type": "TemplateElement",
+                  "start": 518,
+                  "end": 522,
+                  "value": {
+                    "cooked": " ",
+                    "raw": " "
+                  },
+                  "tail": false
+                },
+                {
+                  "type": "TemplateElement",
+                  "start": 526,
+                  "end": 528,
+                  "value": {
+                    "cooked": "",
+                    "raw": ""
+                  },
+                  "tail": true
+                }
+              ],
               "expressions": [
                 {
                   "type": "ArrowFunctionExpression",
                   "start": 509,
                   "end": 515,
-                  "async": false,
-                  "body": {
-                    "type": "Identifier",
-                    "start": 514,
-                    "end": 515,
-                    "decorators": [],
-                    "name": "x",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
                   "expression": true,
-                  "generator": false,
-                  "id": null,
+                  "async": false,
+                  "typeParameters": null,
                   "params": [
                     {
                       "type": "Identifier",
@@ -977,75 +1009,43 @@ __ESTREE_TEST__:PASS:
                     }
                   ],
                   "returnType": null,
-                  "typeParameters": null
+                  "body": {
+                    "type": "Identifier",
+                    "start": 514,
+                    "end": 515,
+                    "decorators": [],
+                    "name": "x",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "Literal",
                   "start": 523,
                   "end": 525,
-                  "raw": "10",
-                  "value": 10
-                }
-              ],
-              "quasis": [
-                {
-                  "type": "TemplateElement",
-                  "start": 503,
-                  "end": 506,
-                  "tail": false,
-                  "value": {
-                    "cooked": "",
-                    "raw": ""
-                  }
-                },
-                {
-                  "type": "TemplateElement",
-                  "start": 518,
-                  "end": 522,
-                  "tail": false,
-                  "value": {
-                    "cooked": " ",
-                    "raw": " "
-                  }
-                },
-                {
-                  "type": "TemplateElement",
-                  "start": 526,
-                  "end": 528,
-                  "tail": true,
-                  "value": {
-                    "cooked": "",
-                    "raw": ""
-                  }
+                  "value": 10,
+                  "raw": "10"
                 }
               ]
-            },
-            "tag": {
-              "type": "Identifier",
-              "start": 495,
-              "end": 502,
-              "decorators": [],
-              "name": "tempFun",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeArguments": null
-          }
+            }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 529,
       "end": 578,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 533,
           "end": 578,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 533,
@@ -1059,28 +1059,70 @@ __ESTREE_TEST__:PASS:
             "type": "TaggedTemplateExpression",
             "start": 537,
             "end": 578,
+            "tag": {
+              "type": "Identifier",
+              "start": 537,
+              "end": 544,
+              "decorators": [],
+              "name": "tempFun",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null,
             "quasi": {
               "type": "TemplateLiteral",
               "start": 545,
               "end": 578,
+              "quasis": [
+                {
+                  "type": "TemplateElement",
+                  "start": 545,
+                  "end": 548,
+                  "value": {
+                    "cooked": "",
+                    "raw": ""
+                  },
+                  "tail": false
+                },
+                {
+                  "type": "TemplateElement",
+                  "start": 556,
+                  "end": 560,
+                  "value": {
+                    "cooked": " ",
+                    "raw": " "
+                  },
+                  "tail": false
+                },
+                {
+                  "type": "TemplateElement",
+                  "start": 568,
+                  "end": 572,
+                  "value": {
+                    "cooked": " ",
+                    "raw": " "
+                  },
+                  "tail": false
+                },
+                {
+                  "type": "TemplateElement",
+                  "start": 576,
+                  "end": 578,
+                  "value": {
+                    "cooked": "",
+                    "raw": ""
+                  },
+                  "tail": true
+                }
+              ],
               "expressions": [
                 {
                   "type": "ArrowFunctionExpression",
                   "start": 549,
                   "end": 555,
-                  "async": false,
-                  "body": {
-                    "type": "Identifier",
-                    "start": 554,
-                    "end": 555,
-                    "decorators": [],
-                    "name": "x",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
                   "expression": true,
-                  "generator": false,
-                  "id": null,
+                  "async": false,
+                  "typeParameters": null,
                   "params": [
                     {
                       "type": "Identifier",
@@ -1093,25 +1135,25 @@ __ESTREE_TEST__:PASS:
                     }
                   ],
                   "returnType": null,
-                  "typeParameters": null
-                },
-                {
-                  "type": "ArrowFunctionExpression",
-                  "start": 561,
-                  "end": 567,
-                  "async": false,
                   "body": {
                     "type": "Identifier",
-                    "start": 566,
-                    "end": 567,
+                    "start": 554,
+                    "end": 555,
                     "decorators": [],
                     "name": "x",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "expression": true,
-                  "generator": false,
                   "id": null,
+                  "generator": false
+                },
+                {
+                  "type": "ArrowFunctionExpression",
+                  "start": 561,
+                  "end": 567,
+                  "expression": true,
+                  "async": false,
+                  "typeParameters": null,
                   "params": [
                     {
                       "type": "Identifier",
@@ -1124,85 +1166,43 @@ __ESTREE_TEST__:PASS:
                     }
                   ],
                   "returnType": null,
-                  "typeParameters": null
+                  "body": {
+                    "type": "Identifier",
+                    "start": 566,
+                    "end": 567,
+                    "decorators": [],
+                    "name": "x",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "Literal",
                   "start": 573,
                   "end": 575,
-                  "raw": "10",
-                  "value": 10
-                }
-              ],
-              "quasis": [
-                {
-                  "type": "TemplateElement",
-                  "start": 545,
-                  "end": 548,
-                  "tail": false,
-                  "value": {
-                    "cooked": "",
-                    "raw": ""
-                  }
-                },
-                {
-                  "type": "TemplateElement",
-                  "start": 556,
-                  "end": 560,
-                  "tail": false,
-                  "value": {
-                    "cooked": " ",
-                    "raw": " "
-                  }
-                },
-                {
-                  "type": "TemplateElement",
-                  "start": 568,
-                  "end": 572,
-                  "tail": false,
-                  "value": {
-                    "cooked": " ",
-                    "raw": " "
-                  }
-                },
-                {
-                  "type": "TemplateElement",
-                  "start": 576,
-                  "end": 578,
-                  "tail": true,
-                  "value": {
-                    "cooked": "",
-                    "raw": ""
-                  }
+                  "value": 10,
+                  "raw": "10"
                 }
               ]
-            },
-            "tag": {
-              "type": "Identifier",
-              "start": 537,
-              "end": 544,
-              "decorators": [],
-              "name": "tempFun",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeArguments": null
-          }
+            }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 579,
       "end": 630,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 583,
           "end": 630,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 583,
@@ -1216,28 +1216,70 @@ __ESTREE_TEST__:PASS:
             "type": "TaggedTemplateExpression",
             "start": 587,
             "end": 630,
+            "tag": {
+              "type": "Identifier",
+              "start": 587,
+              "end": 594,
+              "decorators": [],
+              "name": "tempFun",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null,
             "quasi": {
               "type": "TemplateLiteral",
               "start": 595,
               "end": 630,
+              "quasis": [
+                {
+                  "type": "TemplateElement",
+                  "start": 595,
+                  "end": 598,
+                  "value": {
+                    "cooked": "",
+                    "raw": ""
+                  },
+                  "tail": false
+                },
+                {
+                  "type": "TemplateElement",
+                  "start": 606,
+                  "end": 610,
+                  "value": {
+                    "cooked": " ",
+                    "raw": " "
+                  },
+                  "tail": false
+                },
+                {
+                  "type": "TemplateElement",
+                  "start": 620,
+                  "end": 624,
+                  "value": {
+                    "cooked": " ",
+                    "raw": " "
+                  },
+                  "tail": false
+                },
+                {
+                  "type": "TemplateElement",
+                  "start": 628,
+                  "end": 630,
+                  "value": {
+                    "cooked": "",
+                    "raw": ""
+                  },
+                  "tail": true
+                }
+              ],
               "expressions": [
                 {
                   "type": "ArrowFunctionExpression",
                   "start": 599,
                   "end": 605,
-                  "async": false,
-                  "body": {
-                    "type": "Identifier",
-                    "start": 604,
-                    "end": 605,
-                    "decorators": [],
-                    "name": "x",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
                   "expression": true,
-                  "generator": false,
-                  "id": null,
+                  "async": false,
+                  "typeParameters": null,
                   "params": [
                     {
                       "type": "Identifier",
@@ -1250,25 +1292,25 @@ __ESTREE_TEST__:PASS:
                     }
                   ],
                   "returnType": null,
-                  "typeParameters": null
-                },
-                {
-                  "type": "ArrowFunctionExpression",
-                  "start": 612,
-                  "end": 618,
-                  "async": false,
                   "body": {
                     "type": "Identifier",
-                    "start": 617,
-                    "end": 618,
+                    "start": 604,
+                    "end": 605,
                     "decorators": [],
                     "name": "x",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "expression": true,
-                  "generator": false,
                   "id": null,
+                  "generator": false
+                },
+                {
+                  "type": "ArrowFunctionExpression",
+                  "start": 612,
+                  "end": 618,
+                  "expression": true,
+                  "async": false,
+                  "typeParameters": null,
                   "params": [
                     {
                       "type": "Identifier",
@@ -1281,85 +1323,43 @@ __ESTREE_TEST__:PASS:
                     }
                   ],
                   "returnType": null,
-                  "typeParameters": null
+                  "body": {
+                    "type": "Identifier",
+                    "start": 617,
+                    "end": 618,
+                    "decorators": [],
+                    "name": "x",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "Literal",
                   "start": 625,
                   "end": 627,
-                  "raw": "10",
-                  "value": 10
-                }
-              ],
-              "quasis": [
-                {
-                  "type": "TemplateElement",
-                  "start": 595,
-                  "end": 598,
-                  "tail": false,
-                  "value": {
-                    "cooked": "",
-                    "raw": ""
-                  }
-                },
-                {
-                  "type": "TemplateElement",
-                  "start": 606,
-                  "end": 610,
-                  "tail": false,
-                  "value": {
-                    "cooked": " ",
-                    "raw": " "
-                  }
-                },
-                {
-                  "type": "TemplateElement",
-                  "start": 620,
-                  "end": 624,
-                  "tail": false,
-                  "value": {
-                    "cooked": " ",
-                    "raw": " "
-                  }
-                },
-                {
-                  "type": "TemplateElement",
-                  "start": 628,
-                  "end": 630,
-                  "tail": true,
-                  "value": {
-                    "cooked": "",
-                    "raw": ""
-                  }
+                  "value": 10,
+                  "raw": "10"
                 }
               ]
-            },
-            "tag": {
-              "type": "Identifier",
-              "start": 587,
-              "end": 594,
-              "decorators": [],
-              "name": "tempFun",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeArguments": null
-          }
+            }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 631,
       "end": 684,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 635,
           "end": 684,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 635,
@@ -1373,28 +1373,70 @@ __ESTREE_TEST__:PASS:
             "type": "TaggedTemplateExpression",
             "start": 639,
             "end": 684,
+            "tag": {
+              "type": "Identifier",
+              "start": 639,
+              "end": 646,
+              "decorators": [],
+              "name": "tempFun",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null,
             "quasi": {
               "type": "TemplateLiteral",
               "start": 647,
               "end": 684,
+              "quasis": [
+                {
+                  "type": "TemplateElement",
+                  "start": 647,
+                  "end": 650,
+                  "value": {
+                    "cooked": "",
+                    "raw": ""
+                  },
+                  "tail": false
+                },
+                {
+                  "type": "TemplateElement",
+                  "start": 658,
+                  "end": 662,
+                  "value": {
+                    "cooked": " ",
+                    "raw": " "
+                  },
+                  "tail": false
+                },
+                {
+                  "type": "TemplateElement",
+                  "start": 674,
+                  "end": 678,
+                  "value": {
+                    "cooked": " ",
+                    "raw": " "
+                  },
+                  "tail": false
+                },
+                {
+                  "type": "TemplateElement",
+                  "start": 682,
+                  "end": 684,
+                  "value": {
+                    "cooked": "",
+                    "raw": ""
+                  },
+                  "tail": true
+                }
+              ],
               "expressions": [
                 {
                   "type": "ArrowFunctionExpression",
                   "start": 651,
                   "end": 657,
-                  "async": false,
-                  "body": {
-                    "type": "Identifier",
-                    "start": 656,
-                    "end": 657,
-                    "decorators": [],
-                    "name": "x",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
                   "expression": true,
-                  "generator": false,
-                  "id": null,
+                  "async": false,
+                  "typeParameters": null,
                   "params": [
                     {
                       "type": "Identifier",
@@ -1407,25 +1449,25 @@ __ESTREE_TEST__:PASS:
                     }
                   ],
                   "returnType": null,
-                  "typeParameters": null
-                },
-                {
-                  "type": "ArrowFunctionExpression",
-                  "start": 665,
-                  "end": 671,
-                  "async": false,
                   "body": {
                     "type": "Identifier",
-                    "start": 670,
-                    "end": 671,
+                    "start": 656,
+                    "end": 657,
                     "decorators": [],
                     "name": "x",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "expression": true,
-                  "generator": false,
                   "id": null,
+                  "generator": false
+                },
+                {
+                  "type": "ArrowFunctionExpression",
+                  "start": 665,
+                  "end": 671,
+                  "expression": true,
+                  "async": false,
+                  "typeParameters": null,
                   "params": [
                     {
                       "type": "Identifier",
@@ -1438,85 +1480,43 @@ __ESTREE_TEST__:PASS:
                     }
                   ],
                   "returnType": null,
-                  "typeParameters": null
+                  "body": {
+                    "type": "Identifier",
+                    "start": 670,
+                    "end": 671,
+                    "decorators": [],
+                    "name": "x",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "Literal",
                   "start": 679,
                   "end": 681,
-                  "raw": "10",
-                  "value": 10
-                }
-              ],
-              "quasis": [
-                {
-                  "type": "TemplateElement",
-                  "start": 647,
-                  "end": 650,
-                  "tail": false,
-                  "value": {
-                    "cooked": "",
-                    "raw": ""
-                  }
-                },
-                {
-                  "type": "TemplateElement",
-                  "start": 658,
-                  "end": 662,
-                  "tail": false,
-                  "value": {
-                    "cooked": " ",
-                    "raw": " "
-                  }
-                },
-                {
-                  "type": "TemplateElement",
-                  "start": 674,
-                  "end": 678,
-                  "tail": false,
-                  "value": {
-                    "cooked": " ",
-                    "raw": " "
-                  }
-                },
-                {
-                  "type": "TemplateElement",
-                  "start": 682,
-                  "end": 684,
-                  "tail": true,
-                  "value": {
-                    "cooked": "",
-                    "raw": ""
-                  }
+                  "value": 10,
+                  "raw": "10"
                 }
               ]
-            },
-            "tag": {
-              "type": "Identifier",
-              "start": 639,
-              "end": 646,
-              "decorators": [],
-              "name": "tempFun",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeArguments": null
-          }
+            }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 685,
       "end": 742,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 689,
           "end": 742,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 689,
@@ -1530,28 +1530,70 @@ __ESTREE_TEST__:PASS:
             "type": "TaggedTemplateExpression",
             "start": 693,
             "end": 742,
+            "tag": {
+              "type": "Identifier",
+              "start": 693,
+              "end": 700,
+              "decorators": [],
+              "name": "tempFun",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null,
             "quasi": {
               "type": "TemplateLiteral",
               "start": 701,
               "end": 742,
+              "quasis": [
+                {
+                  "type": "TemplateElement",
+                  "start": 701,
+                  "end": 704,
+                  "value": {
+                    "cooked": "",
+                    "raw": ""
+                  },
+                  "tail": false
+                },
+                {
+                  "type": "TemplateElement",
+                  "start": 714,
+                  "end": 718,
+                  "value": {
+                    "cooked": " ",
+                    "raw": " "
+                  },
+                  "tail": false
+                },
+                {
+                  "type": "TemplateElement",
+                  "start": 732,
+                  "end": 736,
+                  "value": {
+                    "cooked": " ",
+                    "raw": " "
+                  },
+                  "tail": false
+                },
+                {
+                  "type": "TemplateElement",
+                  "start": 740,
+                  "end": 742,
+                  "value": {
+                    "cooked": "",
+                    "raw": ""
+                  },
+                  "tail": true
+                }
+              ],
               "expressions": [
                 {
                   "type": "ArrowFunctionExpression",
                   "start": 706,
                   "end": 712,
-                  "async": false,
-                  "body": {
-                    "type": "Identifier",
-                    "start": 711,
-                    "end": 712,
-                    "decorators": [],
-                    "name": "x",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
                   "expression": true,
-                  "generator": false,
-                  "id": null,
+                  "async": false,
+                  "typeParameters": null,
                   "params": [
                     {
                       "type": "Identifier",
@@ -1564,25 +1606,25 @@ __ESTREE_TEST__:PASS:
                     }
                   ],
                   "returnType": null,
-                  "typeParameters": null
-                },
-                {
-                  "type": "ArrowFunctionExpression",
-                  "start": 722,
-                  "end": 728,
-                  "async": false,
                   "body": {
                     "type": "Identifier",
-                    "start": 727,
-                    "end": 728,
+                    "start": 711,
+                    "end": 712,
                     "decorators": [],
                     "name": "x",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "expression": true,
-                  "generator": false,
                   "id": null,
+                  "generator": false
+                },
+                {
+                  "type": "ArrowFunctionExpression",
+                  "start": 722,
+                  "end": 728,
+                  "expression": true,
+                  "async": false,
+                  "typeParameters": null,
                   "params": [
                     {
                       "type": "Identifier",
@@ -1595,85 +1637,43 @@ __ESTREE_TEST__:PASS:
                     }
                   ],
                   "returnType": null,
-                  "typeParameters": null
+                  "body": {
+                    "type": "Identifier",
+                    "start": 727,
+                    "end": 728,
+                    "decorators": [],
+                    "name": "x",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "Literal",
                   "start": 737,
                   "end": 739,
-                  "raw": "10",
-                  "value": 10
-                }
-              ],
-              "quasis": [
-                {
-                  "type": "TemplateElement",
-                  "start": 701,
-                  "end": 704,
-                  "tail": false,
-                  "value": {
-                    "cooked": "",
-                    "raw": ""
-                  }
-                },
-                {
-                  "type": "TemplateElement",
-                  "start": 714,
-                  "end": 718,
-                  "tail": false,
-                  "value": {
-                    "cooked": " ",
-                    "raw": " "
-                  }
-                },
-                {
-                  "type": "TemplateElement",
-                  "start": 732,
-                  "end": 736,
-                  "tail": false,
-                  "value": {
-                    "cooked": " ",
-                    "raw": " "
-                  }
-                },
-                {
-                  "type": "TemplateElement",
-                  "start": 740,
-                  "end": 742,
-                  "tail": true,
-                  "value": {
-                    "cooked": "",
-                    "raw": ""
-                  }
+                  "value": 10,
+                  "raw": "10"
                 }
               ]
-            },
-            "tag": {
-              "type": "Identifier",
-              "start": 693,
-              "end": 700,
-              "decorators": [],
-              "name": "tempFun",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeArguments": null
-          }
+            }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 743,
       "end": 807,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 747,
           "end": 807,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 747,
@@ -1687,28 +1687,70 @@ __ESTREE_TEST__:PASS:
             "type": "TaggedTemplateExpression",
             "start": 751,
             "end": 807,
+            "tag": {
+              "type": "Identifier",
+              "start": 751,
+              "end": 758,
+              "decorators": [],
+              "name": "tempFun",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null,
             "quasi": {
               "type": "TemplateLiteral",
               "start": 759,
               "end": 807,
+              "quasis": [
+                {
+                  "type": "TemplateElement",
+                  "start": 759,
+                  "end": 762,
+                  "value": {
+                    "cooked": "",
+                    "raw": ""
+                  },
+                  "tail": false
+                },
+                {
+                  "type": "TemplateElement",
+                  "start": 772,
+                  "end": 776,
+                  "value": {
+                    "cooked": " ",
+                    "raw": " "
+                  },
+                  "tail": false
+                },
+                {
+                  "type": "TemplateElement",
+                  "start": 790,
+                  "end": 794,
+                  "value": {
+                    "cooked": " ",
+                    "raw": " "
+                  },
+                  "tail": false
+                },
+                {
+                  "type": "TemplateElement",
+                  "start": 805,
+                  "end": 807,
+                  "value": {
+                    "cooked": "",
+                    "raw": ""
+                  },
+                  "tail": true
+                }
+              ],
               "expressions": [
                 {
                   "type": "ArrowFunctionExpression",
                   "start": 764,
                   "end": 770,
-                  "async": false,
-                  "body": {
-                    "type": "Identifier",
-                    "start": 769,
-                    "end": 770,
-                    "decorators": [],
-                    "name": "x",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
                   "expression": true,
-                  "generator": false,
-                  "id": null,
+                  "async": false,
+                  "typeParameters": null,
                   "params": [
                     {
                       "type": "Identifier",
@@ -1721,25 +1763,25 @@ __ESTREE_TEST__:PASS:
                     }
                   ],
                   "returnType": null,
-                  "typeParameters": null
-                },
-                {
-                  "type": "ArrowFunctionExpression",
-                  "start": 780,
-                  "end": 786,
-                  "async": false,
                   "body": {
                     "type": "Identifier",
-                    "start": 785,
-                    "end": 786,
+                    "start": 769,
+                    "end": 770,
                     "decorators": [],
                     "name": "x",
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "expression": true,
-                  "generator": false,
                   "id": null,
+                  "generator": false
+                },
+                {
+                  "type": "ArrowFunctionExpression",
+                  "start": 780,
+                  "end": 786,
+                  "expression": true,
+                  "async": false,
+                  "typeParameters": null,
                   "params": [
                     {
                       "type": "Identifier",
@@ -1752,7 +1794,17 @@ __ESTREE_TEST__:PASS:
                     }
                   ],
                   "returnType": null,
-                  "typeParameters": null
+                  "body": {
+                    "type": "Identifier",
+                    "start": 785,
+                    "end": 786,
+                    "decorators": [],
+                    "name": "x",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "id": null,
+                  "generator": false
                 },
                 {
                   "type": "Identifier",
@@ -1763,65 +1815,13 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 }
-              ],
-              "quasis": [
-                {
-                  "type": "TemplateElement",
-                  "start": 759,
-                  "end": 762,
-                  "tail": false,
-                  "value": {
-                    "cooked": "",
-                    "raw": ""
-                  }
-                },
-                {
-                  "type": "TemplateElement",
-                  "start": 772,
-                  "end": 776,
-                  "tail": false,
-                  "value": {
-                    "cooked": " ",
-                    "raw": " "
-                  }
-                },
-                {
-                  "type": "TemplateElement",
-                  "start": 790,
-                  "end": 794,
-                  "tail": false,
-                  "value": {
-                    "cooked": " ",
-                    "raw": " "
-                  }
-                },
-                {
-                  "type": "TemplateElement",
-                  "start": 805,
-                  "end": 807,
-                  "tail": true,
-                  "value": {
-                    "cooked": "",
-                    "raw": ""
-                  }
-                }
               ]
-            },
-            "tag": {
-              "type": "Identifier",
-              "start": 751,
-              "end": 758,
-              "decorators": [],
-              "name": "tempFun",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeArguments": null
-          }
+            }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 30,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 29,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -33,42 +33,105 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 22,
                 "end": 24,
-                "raw": "''",
-                "value": ""
+                "value": "",
+                "raw": "''"
               },
               {
                 "type": "Literal",
                 "start": 26,
                 "end": 28,
-                "raw": "''",
-                "value": ""
+                "value": "",
+                "raw": "''"
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 31,
       "end": 86,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 31,
         "end": 85,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 31,
+          "end": 53,
+          "object": {
+            "type": "Identifier",
+            "start": 31,
+            "end": 45,
+            "decorators": [],
+            "name": "regexMatchList",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 46,
+            "end": 53,
+            "decorators": [],
+            "name": "forEach",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "optional": false,
+          "computed": false
+        },
+        "typeArguments": null,
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 54,
             "end": 84,
+            "expression": true,
             "async": false,
+            "typeParameters": null,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 54,
+                "end": 59,
+                "decorators": [],
+                "name": "match",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            ],
+            "returnType": null,
             "body": {
               "type": "CallExpression",
               "start": 63,
               "end": 84,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 63,
+                "end": 73,
+                "object": {
+                  "type": "Literal",
+                  "start": 63,
+                  "end": 65,
+                  "value": "",
+                  "raw": "''"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 66,
+                  "end": 73,
+                  "decorators": [],
+                  "name": "replace",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "optional": false,
+                "computed": false
+              },
+              "typeArguments": null,
               "arguments": [
                 {
                   "type": "Identifier",
@@ -83,82 +146,19 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 81,
                   "end": 83,
-                  "raw": "''",
-                  "value": ""
+                  "value": "",
+                  "raw": "''"
                 }
               ],
-              "callee": {
-                "type": "MemberExpression",
-                "start": 63,
-                "end": 73,
-                "computed": false,
-                "object": {
-                  "type": "Literal",
-                  "start": 63,
-                  "end": 65,
-                  "raw": "''",
-                  "value": ""
-                },
-                "optional": false,
-                "property": {
-                  "type": "Identifier",
-                  "start": 66,
-                  "end": 73,
-                  "decorators": [],
-                  "name": "replace",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              },
-              "optional": false,
-              "typeArguments": null
+              "optional": false
             },
-            "expression": true,
-            "generator": false,
             "id": null,
-            "params": [
-              {
-                "type": "Identifier",
-                "start": 54,
-                "end": 59,
-                "decorators": [],
-                "name": "match",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            ],
-            "returnType": null,
-            "typeParameters": null
+            "generator": false
           }
         ],
-        "callee": {
-          "type": "MemberExpression",
-          "start": 31,
-          "end": 53,
-          "computed": false,
-          "object": {
-            "type": "Identifier",
-            "start": 31,
-            "end": 45,
-            "decorators": [],
-            "name": "regexMatchList",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "optional": false,
-          "property": {
-            "type": "Identifier",
-            "start": 46,
-            "end": 53,
-            "decorators": [],
-            "name": "forEach",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
-        "optional": false,
-        "typeArguments": null
-      }
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

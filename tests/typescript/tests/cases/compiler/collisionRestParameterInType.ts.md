@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 48,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 47,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -30,6 +30,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSFunctionType",
                 "start": 8,
                 "end": 47,
+                "typeParameters": null,
                 "params": [
                   {
                     "type": "Identifier",
@@ -53,6 +54,7 @@ __ESTREE_TEST__:PASS:
                     "type": "RestElement",
                     "start": 21,
                     "end": 38,
+                    "decorators": [],
                     "argument": {
                       "type": "Identifier",
                       "start": 24,
@@ -62,7 +64,6 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "decorators": [],
                     "optional": false,
                     "typeAnnotation": null,
                     "value": null
@@ -77,27 +78,26 @@ __ESTREE_TEST__:PASS:
                     "start": 43,
                     "end": 47
                   }
-                },
-                "typeParameters": null
+                }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 75,
       "end": 359,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 79,
           "end": 359,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 79,
@@ -118,6 +118,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSCallSignatureDeclaration",
                     "start": 89,
                     "end": 121,
+                    "typeParameters": null,
                     "params": [
                       {
                         "type": "Identifier",
@@ -141,6 +142,7 @@ __ESTREE_TEST__:PASS:
                         "type": "RestElement",
                         "start": 102,
                         "end": 119,
+                        "decorators": [],
                         "argument": {
                           "type": "Identifier",
                           "start": 105,
@@ -150,19 +152,18 @@ __ESTREE_TEST__:PASS:
                           "optional": false,
                           "typeAnnotation": null
                         },
-                        "decorators": [],
                         "optional": false,
                         "typeAnnotation": null,
                         "value": null
                       }
                     ],
-                    "returnType": null,
-                    "typeParameters": null
+                    "returnType": null
                   },
                   {
                     "type": "TSConstructSignatureDeclaration",
                     "start": 152,
                     "end": 188,
+                    "typeParameters": null,
                     "params": [
                       {
                         "type": "Identifier",
@@ -186,6 +187,7 @@ __ESTREE_TEST__:PASS:
                         "type": "RestElement",
                         "start": 169,
                         "end": 186,
+                        "decorators": [],
                         "argument": {
                           "type": "Identifier",
                           "start": 172,
@@ -195,21 +197,17 @@ __ESTREE_TEST__:PASS:
                           "optional": false,
                           "typeAnnotation": null
                         },
-                        "decorators": [],
                         "optional": false,
                         "typeAnnotation": null,
                         "value": null
                       }
                     ],
-                    "returnType": null,
-                    "typeParameters": null
+                    "returnType": null
                   },
                   {
                     "type": "TSMethodSignature",
                     "start": 219,
                     "end": 254,
-                    "accessibility": null,
-                    "computed": false,
                     "key": {
                       "type": "Identifier",
                       "start": 219,
@@ -219,8 +217,10 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "kind": "method",
+                    "computed": false,
                     "optional": false,
+                    "kind": "method",
+                    "typeParameters": null,
                     "params": [
                       {
                         "type": "Identifier",
@@ -244,6 +244,7 @@ __ESTREE_TEST__:PASS:
                         "type": "RestElement",
                         "start": 235,
                         "end": 252,
+                        "decorators": [],
                         "argument": {
                           "type": "Identifier",
                           "start": 238,
@@ -253,23 +254,23 @@ __ESTREE_TEST__:PASS:
                           "optional": false,
                           "typeAnnotation": null
                         },
-                        "decorators": [],
                         "optional": false,
                         "typeAnnotation": null,
                         "value": null
                       }
                     ],
-                    "readonly": false,
                     "returnType": null,
-                    "static": false,
-                    "typeParameters": null
+                    "accessibility": null,
+                    "readonly": false,
+                    "static": false
                   },
                   {
                     "type": "TSPropertySignature",
                     "start": 285,
                     "end": 331,
-                    "accessibility": null,
                     "computed": false,
+                    "optional": false,
+                    "readonly": false,
                     "key": {
                       "type": "Identifier",
                       "start": 285,
@@ -279,9 +280,6 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "optional": false,
-                    "readonly": false,
-                    "static": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "start": 289,
@@ -290,6 +288,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSFunctionType",
                         "start": 291,
                         "end": 330,
+                        "typeParameters": null,
                         "params": [
                           {
                             "type": "Identifier",
@@ -313,6 +312,7 @@ __ESTREE_TEST__:PASS:
                             "type": "RestElement",
                             "start": 304,
                             "end": 321,
+                            "decorators": [],
                             "argument": {
                               "type": "Identifier",
                               "start": 307,
@@ -322,7 +322,6 @@ __ESTREE_TEST__:PASS:
                               "optional": false,
                               "typeAnnotation": null
                             },
-                            "decorators": [],
                             "optional": false,
                             "typeAnnotation": null,
                             "value": null
@@ -337,20 +336,21 @@ __ESTREE_TEST__:PASS:
                             "start": 326,
                             "end": 330
                           }
-                        },
-                        "typeParameters": null
+                        }
                       }
-                    }
+                    },
+                    "accessibility": null,
+                    "static": false
                   }
                 ]
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

@@ -9,11 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 57,
-      "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
         "start": 7,
         "end": 57,
+        "id": {
+          "type": "Identifier",
+          "start": 17,
+          "end": 21,
+          "decorators": [],
+          "name": "Test",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null,
+        "extends": [],
         "body": {
           "type": "TSInterfaceBody",
           "start": 22,
@@ -23,7 +33,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSIndexSignature",
               "start": 28,
               "end": 55,
-              "accessibility": null,
               "parameters": [
                 {
                   "type": "Identifier",
@@ -40,7 +49,6 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 36,
                       "end": 48,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 36,
@@ -49,13 +57,12 @@ __ESTREE_TEST__:PASS:
                         "name": "TypeNotFound",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     }
                   }
                 }
               ],
-              "readonly": false,
-              "static": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
                 "start": 49,
@@ -65,26 +72,19 @@ __ESTREE_TEST__:PASS:
                   "start": 51,
                   "end": 54
                 }
-              }
+              },
+              "readonly": false,
+              "static": false,
+              "accessibility": null
             }
           ]
         },
-        "declare": false,
-        "extends": [],
-        "id": {
-          "type": "Identifier",
-          "start": 17,
-          "end": 21,
-          "decorators": [],
-          "name": "Test",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "typeParameters": null
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     }
   ],
   "sourceType": "module",

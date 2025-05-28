@@ -9,84 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 63,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 20,
-        "end": 63,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 26,
-            "end": 36,
-            "directive": null,
-            "expression": {
-              "type": "MemberExpression",
-              "start": 26,
-              "end": 36,
-              "computed": false,
-              "object": {
-                "type": "ThisExpression",
-                "start": 26,
-                "end": 30
-              },
-              "optional": false,
-              "property": {
-                "type": "Identifier",
-                "start": 31,
-                "end": 36,
-                "decorators": [],
-                "name": "yadda",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 41,
-            "end": 61,
-            "directive": null,
-            "expression": {
-              "type": "AssignmentExpression",
-              "start": 41,
-              "end": 60,
-              "operator": "=",
-              "left": {
-                "type": "MemberExpression",
-                "start": 41,
-                "end": 55,
-                "computed": false,
-                "object": {
-                  "type": "ThisExpression",
-                  "start": 41,
-                  "end": 45
-                },
-                "optional": false,
-                "property": {
-                  "type": "Identifier",
-                  "start": 46,
-                  "end": 55,
-                  "decorators": [],
-                  "name": "someValue",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              },
-              "right": {
-                "type": "Literal",
-                "start": 58,
-                "end": 60,
-                "raw": "\"\"",
-                "value": ""
-              }
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -96,9 +18,87 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 20,
+        "end": 63,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 26,
+            "end": 36,
+            "expression": {
+              "type": "MemberExpression",
+              "start": 26,
+              "end": 36,
+              "object": {
+                "type": "ThisExpression",
+                "start": 26,
+                "end": 30
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 31,
+                "end": 36,
+                "decorators": [],
+                "name": "yadda",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "optional": false,
+              "computed": false
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 41,
+            "end": 61,
+            "expression": {
+              "type": "AssignmentExpression",
+              "start": 41,
+              "end": 60,
+              "operator": "=",
+              "left": {
+                "type": "MemberExpression",
+                "start": 41,
+                "end": 55,
+                "object": {
+                  "type": "ThisExpression",
+                  "start": 41,
+                  "end": 45
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 46,
+                  "end": 55,
+                  "decorators": [],
+                  "name": "someValue",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "optional": false,
+                "computed": false
+              },
+              "right": {
+                "type": "Literal",
+                "start": 58,
+                "end": 60,
+                "value": "",
+                "raw": "\"\""
+              }
+            },
+            "directive": null
+          }
+        ]
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

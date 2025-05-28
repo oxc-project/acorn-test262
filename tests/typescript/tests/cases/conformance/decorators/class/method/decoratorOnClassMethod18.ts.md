@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 27,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 12,
           "end": 26,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
@@ -33,98 +33,16 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "ClassDeclaration",
       "start": 29,
       "end": 75,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 39,
-        "end": 75,
-        "body": [
-          {
-            "type": "PropertyDefinition",
-            "start": 45,
-            "end": 47,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
-            "key": {
-              "type": "Identifier",
-              "start": 45,
-              "end": 47,
-              "decorators": [],
-              "name": "p1",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": null,
-            "value": null
-          },
-          {
-            "type": "PropertyDefinition",
-            "start": 53,
-            "end": 73,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [
-              {
-                "type": "Decorator",
-                "start": 53,
-                "end": 65,
-                "expression": {
-                  "type": "CallExpression",
-                  "start": 54,
-                  "end": 65,
-                  "arguments": [],
-                  "callee": {
-                    "type": "Identifier",
-                    "start": 54,
-                    "end": 63,
-                    "decorators": [],
-                    "name": "decorator",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "typeArguments": null
-                }
-              }
-            ],
-            "definite": false,
-            "key": {
-              "type": "Identifier",
-              "start": 70,
-              "end": 72,
-              "decorators": [],
-              "name": "p2",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": null,
-            "value": null
-          }
-        ]
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -135,10 +53,92 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 39,
+        "end": 75,
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "start": 45,
+            "end": 47,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 45,
+              "end": 47,
+              "decorators": [],
+              "name": "p1",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeAnnotation": null,
+            "value": null,
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
+          },
+          {
+            "type": "PropertyDefinition",
+            "start": 53,
+            "end": 73,
+            "decorators": [
+              {
+                "type": "Decorator",
+                "start": 53,
+                "end": 65,
+                "expression": {
+                  "type": "CallExpression",
+                  "start": 54,
+                  "end": 65,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 54,
+                    "end": 63,
+                    "decorators": [],
+                    "name": "decorator",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeArguments": null,
+                  "arguments": [],
+                  "optional": false
+                }
+              }
+            ],
+            "key": {
+              "type": "Identifier",
+              "start": 70,
+              "end": 72,
+              "decorators": [],
+              "name": "p2",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeAnnotation": null,
+            "value": null,
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
+          }
+        ]
+      },
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

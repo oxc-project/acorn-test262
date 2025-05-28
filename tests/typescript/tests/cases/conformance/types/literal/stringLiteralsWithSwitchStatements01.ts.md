@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 13,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 12,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -34,28 +34,28 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 7,
                   "end": 12,
-                  "raw": "\"foo\"",
-                  "value": "foo"
+                  "value": "foo",
+                  "raw": "\"foo\""
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 14,
       "end": 35,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 18,
           "end": 34,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 18,
@@ -80,8 +80,8 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 21,
                       "end": 26,
-                      "raw": "\"foo\"",
-                      "value": "foo"
+                      "value": "foo",
+                      "raw": "\"foo\""
                     }
                   },
                   {
@@ -92,103 +92,24 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 29,
                       "end": 34,
-                      "raw": "\"bar\"",
-                      "value": "bar"
+                      "value": "bar",
+                      "raw": "\"bar\""
                     }
                   }
                 ]
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "SwitchStatement",
       "start": 38,
       "end": 152,
-      "cases": [
-        {
-          "type": "SwitchCase",
-          "start": 55,
-          "end": 81,
-          "consequent": [
-            {
-              "type": "BreakStatement",
-              "start": 75,
-              "end": 81,
-              "label": null
-            }
-          ],
-          "test": {
-            "type": "Literal",
-            "start": 60,
-            "end": 65,
-            "raw": "\"foo\"",
-            "value": "foo"
-          }
-        },
-        {
-          "type": "SwitchCase",
-          "start": 86,
-          "end": 112,
-          "consequent": [
-            {
-              "type": "BreakStatement",
-              "start": 106,
-              "end": 112,
-              "label": null
-            }
-          ],
-          "test": {
-            "type": "Literal",
-            "start": 91,
-            "end": 96,
-            "raw": "\"bar\"",
-            "value": "bar"
-          }
-        },
-        {
-          "type": "SwitchCase",
-          "start": 117,
-          "end": 150,
-          "consequent": [
-            {
-              "type": "ExpressionStatement",
-              "start": 133,
-              "end": 135,
-              "directive": null,
-              "expression": {
-                "type": "Identifier",
-                "start": 133,
-                "end": 134,
-                "decorators": [],
-                "name": "y",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            },
-            {
-              "type": "BreakStatement",
-              "start": 144,
-              "end": 150,
-              "label": null
-            }
-          ],
-          "test": {
-            "type": "Identifier",
-            "start": 122,
-            "end": 123,
-            "decorators": [],
-            "name": "y",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        }
-      ],
       "discriminant": {
         "type": "Identifier",
         "start": 46,
@@ -197,7 +118,86 @@ __ESTREE_TEST__:PASS:
         "name": "x",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "cases": [
+        {
+          "type": "SwitchCase",
+          "start": 55,
+          "end": 81,
+          "test": {
+            "type": "Literal",
+            "start": 60,
+            "end": 65,
+            "value": "foo",
+            "raw": "\"foo\""
+          },
+          "consequent": [
+            {
+              "type": "BreakStatement",
+              "start": 75,
+              "end": 81,
+              "label": null
+            }
+          ]
+        },
+        {
+          "type": "SwitchCase",
+          "start": 86,
+          "end": 112,
+          "test": {
+            "type": "Literal",
+            "start": 91,
+            "end": 96,
+            "value": "bar",
+            "raw": "\"bar\""
+          },
+          "consequent": [
+            {
+              "type": "BreakStatement",
+              "start": 106,
+              "end": 112,
+              "label": null
+            }
+          ]
+        },
+        {
+          "type": "SwitchCase",
+          "start": 117,
+          "end": 150,
+          "test": {
+            "type": "Identifier",
+            "start": 122,
+            "end": 123,
+            "decorators": [],
+            "name": "y",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "consequent": [
+            {
+              "type": "ExpressionStatement",
+              "start": 133,
+              "end": 135,
+              "expression": {
+                "type": "Identifier",
+                "start": 133,
+                "end": 134,
+                "decorators": [],
+                "name": "y",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "directive": null
+            },
+            {
+              "type": "BreakStatement",
+              "start": 144,
+              "end": 150,
+              "label": null
+            }
+          ]
+        }
+      ]
     }
   ],
   "sourceType": "script",

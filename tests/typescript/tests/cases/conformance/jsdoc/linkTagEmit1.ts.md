@@ -9,36 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 44,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 21,
-        "end": 44,
-        "body": [
-          {
-            "type": "TSTypeAliasDeclaration",
-            "start": 27,
-            "end": 42,
-            "declare": false,
-            "id": {
-              "type": "Identifier",
-              "start": 32,
-              "end": 33,
-              "decorators": [],
-              "name": "R",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeAnnotation": {
-              "type": "TSNumberKeyword",
-              "start": 36,
-              "end": 42
-            },
-            "typeParameters": null
-          }
-        ]
-      },
-      "declare": true,
-      "global": false,
       "id": {
         "type": "Identifier",
         "start": 18,
@@ -48,7 +18,37 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "namespace"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 21,
+        "end": 44,
+        "body": [
+          {
+            "type": "TSTypeAliasDeclaration",
+            "start": 27,
+            "end": 42,
+            "id": {
+              "type": "Identifier",
+              "start": 32,
+              "end": 33,
+              "decorators": [],
+              "name": "R",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null,
+            "typeAnnotation": {
+              "type": "TSNumberKeyword",
+              "start": 36,
+              "end": 42
+            },
+            "declare": false
+          }
+        ]
+      },
+      "kind": "namespace",
+      "declare": true,
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -66,7 +66,31 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 267,
       "end": 366,
+      "id": {
+        "type": "Identifier",
+        "start": 276,
+        "end": 315,
+        "decorators": [],
+        "name": "computeCommonSourceDirectoryOfFilenames",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 316,
+          "end": 323,
+          "decorators": [],
+          "name": "integer",
+          "optional": false,
+          "typeAnnotation": null
+        }
+      ],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 325,
@@ -80,7 +104,6 @@ __ESTREE_TEST__:PASS:
               "type": "BinaryExpression",
               "start": 338,
               "end": 349,
-              "operator": "+",
               "left": {
                 "type": "Identifier",
                 "start": 338,
@@ -90,53 +113,30 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
+              "operator": "+",
               "right": {
                 "type": "Literal",
                 "start": 348,
                 "end": 349,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             }
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 276,
-        "end": 315,
-        "decorators": [],
-        "name": "computeCommonSourceDirectoryOfFilenames",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [
-        {
-          "type": "Identifier",
-          "start": 316,
-          "end": 323,
-          "decorators": [],
-          "name": "integer",
-          "optional": false,
-          "typeAnnotation": null
-        }
-      ],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 396,
       "end": 411,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 400,
           "end": 411,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 400,
@@ -150,13 +150,13 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 407,
             "end": 411,
-            "raw": "true",
-            "value": true
-          }
+            "value": true,
+            "raw": "true"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "module",

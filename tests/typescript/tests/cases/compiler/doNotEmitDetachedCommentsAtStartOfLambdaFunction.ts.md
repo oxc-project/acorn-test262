@@ -9,12 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 51,
-      "directive": null,
       "expression": {
         "type": "ArrowFunctionExpression",
         "start": 0,
         "end": 51,
+        "expression": false,
         "async": false,
+        "typeParameters": null,
+        "params": [],
+        "returnType": null,
         "body": {
           "type": "BlockStatement",
           "start": 6,
@@ -28,30 +31,30 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 47,
                 "end": 48,
-                "raw": "0",
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             }
           ]
         },
-        "expression": false,
-        "generator": false,
         "id": null,
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
-      }
+        "generator": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 53,
       "end": 118,
-      "directive": null,
       "expression": {
         "type": "ArrowFunctionExpression",
         "start": 53,
         "end": 118,
+        "expression": false,
         "async": false,
+        "typeParameters": null,
+        "params": [],
+        "returnType": null,
         "body": {
           "type": "BlockStatement",
           "start": 59,
@@ -65,30 +68,30 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 114,
                 "end": 115,
-                "raw": "0",
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             }
           ]
         },
-        "expression": false,
-        "generator": false,
         "id": null,
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
-      }
+        "generator": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 120,
       "end": 202,
-      "directive": null,
       "expression": {
         "type": "ArrowFunctionExpression",
         "start": 120,
         "end": 202,
+        "expression": false,
         "async": false,
+        "typeParameters": null,
+        "params": [],
+        "returnType": null,
         "body": {
           "type": "BlockStatement",
           "start": 126,
@@ -102,30 +105,30 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 198,
                 "end": 199,
-                "raw": "0",
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             }
           ]
         },
-        "expression": false,
-        "generator": false,
         "id": null,
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
-      }
+        "generator": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 204,
       "end": 300,
-      "directive": null,
       "expression": {
         "type": "ArrowFunctionExpression",
         "start": 204,
         "end": 300,
+        "expression": false,
         "async": false,
+        "typeParameters": null,
+        "params": [],
+        "returnType": null,
         "body": {
           "type": "BlockStatement",
           "start": 210,
@@ -139,19 +142,16 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 296,
                 "end": 297,
-                "raw": "0",
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             }
           ]
         },
-        "expression": false,
-        "generator": false,
         "id": null,
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
-      }
+        "generator": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

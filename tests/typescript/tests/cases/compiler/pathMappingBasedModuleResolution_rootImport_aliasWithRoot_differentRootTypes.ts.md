@@ -9,21 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 24,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 7,
         "end": 24,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 22,
-          "end": 24,
-          "body": []
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 16,
@@ -33,13 +22,24 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [],
         "returnType": null,
-        "typeParameters": null
+        "body": {
+          "type": "BlockStatement",
+          "start": 22,
+          "end": 24,
+          "body": []
+        },
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -57,21 +57,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 24,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 7,
         "end": 24,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 22,
-          "end": 24,
-          "body": []
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 16,
@@ -81,13 +70,24 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [],
         "returnType": null,
-        "typeParameters": null
+        "body": {
+          "type": "BlockStatement",
+          "start": 22,
+          "end": 24,
+          "body": []
+        },
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -105,14 +105,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 35,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 28,
-        "end": 34,
-        "raw": "\"/foo\"",
-        "value": "/foo"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -127,7 +119,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 16,
@@ -136,24 +127,25 @@ __ESTREE_TEST__:PASS:
             "name": "foo1",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 28,
+        "end": 34,
+        "value": "/foo",
+        "raw": "\"/foo\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 36,
       "end": 71,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 64,
-        "end": 70,
-        "raw": "\"/bar\"",
-        "value": "/bar"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -168,7 +160,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 52,
@@ -177,24 +168,25 @@ __ESTREE_TEST__:PASS:
             "name": "bar1",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 64,
+        "end": 70,
+        "value": "/bar",
+        "raw": "\"/bar\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 72,
       "end": 109,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 100,
-        "end": 108,
-        "raw": "\"c:/foo\"",
-        "value": "c:/foo"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -209,7 +201,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 88,
@@ -218,24 +209,25 @@ __ESTREE_TEST__:PASS:
             "name": "foo2",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 100,
+        "end": 108,
+        "value": "c:/foo",
+        "raw": "\"c:/foo\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 110,
       "end": 147,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 138,
-        "end": 146,
-        "raw": "\"c:/bar\"",
-        "value": "c:/bar"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -250,7 +242,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 126,
@@ -259,24 +250,25 @@ __ESTREE_TEST__:PASS:
             "name": "bar2",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 138,
+        "end": 146,
+        "value": "c:/bar",
+        "raw": "\"c:/bar\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 148,
       "end": 186,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 176,
-        "end": 185,
-        "raw": "\"c:\\\\foo\"",
-        "value": "c:\\foo"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -291,7 +283,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 164,
@@ -300,24 +291,25 @@ __ESTREE_TEST__:PASS:
             "name": "foo3",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 176,
+        "end": 185,
+        "value": "c:\\foo",
+        "raw": "\"c:\\\\foo\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 187,
       "end": 225,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 215,
-        "end": 224,
-        "raw": "\"c:\\\\bar\"",
-        "value": "c:\\bar"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -332,7 +324,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 203,
@@ -341,24 +332,25 @@ __ESTREE_TEST__:PASS:
             "name": "bar3",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 215,
+        "end": 224,
+        "value": "c:\\bar",
+        "raw": "\"c:\\\\bar\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 226,
       "end": 269,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 254,
-        "end": 268,
-        "raw": "\"//server/foo\"",
-        "value": "//server/foo"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -373,7 +365,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 242,
@@ -382,24 +373,25 @@ __ESTREE_TEST__:PASS:
             "name": "foo4",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 254,
+        "end": 268,
+        "value": "//server/foo",
+        "raw": "\"//server/foo\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 270,
       "end": 313,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 298,
-        "end": 312,
-        "raw": "\"//server/bar\"",
-        "value": "//server/bar"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -414,7 +406,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 286,
@@ -423,24 +414,25 @@ __ESTREE_TEST__:PASS:
             "name": "bar4",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 298,
+        "end": 312,
+        "value": "//server/bar",
+        "raw": "\"//server/bar\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 314,
       "end": 360,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 342,
-        "end": 359,
-        "raw": "\"\\\\\\\\server\\\\foo\"",
-        "value": "\\\\server\\foo"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -455,7 +447,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 330,
@@ -464,24 +455,25 @@ __ESTREE_TEST__:PASS:
             "name": "foo5",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 342,
+        "end": 359,
+        "value": "\\\\server\\foo",
+        "raw": "\"\\\\\\\\server\\\\foo\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 361,
       "end": 407,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 389,
-        "end": 406,
-        "raw": "\"\\\\\\\\server\\\\bar\"",
-        "value": "\\\\server\\bar"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -496,7 +488,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 377,
@@ -505,24 +496,25 @@ __ESTREE_TEST__:PASS:
             "name": "bar5",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 389,
+        "end": 406,
+        "value": "\\\\server\\bar",
+        "raw": "\"\\\\\\\\server\\\\bar\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 408,
       "end": 450,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 436,
-        "end": 449,
-        "raw": "\"file:///foo\"",
-        "value": "file:///foo"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -537,7 +529,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 424,
@@ -546,24 +537,25 @@ __ESTREE_TEST__:PASS:
             "name": "foo6",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 436,
+        "end": 449,
+        "value": "file:///foo",
+        "raw": "\"file:///foo\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 451,
       "end": 493,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 479,
-        "end": 492,
-        "raw": "\"file:///bar\"",
-        "value": "file:///bar"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -578,7 +570,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 467,
@@ -587,24 +578,25 @@ __ESTREE_TEST__:PASS:
             "name": "bar6",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 479,
+        "end": 492,
+        "value": "file:///bar",
+        "raw": "\"file:///bar\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 494,
       "end": 538,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 522,
-        "end": 537,
-        "raw": "\"file://c:/foo\"",
-        "value": "file://c:/foo"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -619,7 +611,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 510,
@@ -628,24 +619,25 @@ __ESTREE_TEST__:PASS:
             "name": "foo7",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 522,
+        "end": 537,
+        "value": "file://c:/foo",
+        "raw": "\"file://c:/foo\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 539,
       "end": 583,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 567,
-        "end": 582,
-        "raw": "\"file://c:/bar\"",
-        "value": "file://c:/bar"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -660,7 +652,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 555,
@@ -669,24 +660,25 @@ __ESTREE_TEST__:PASS:
             "name": "bar7",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 567,
+        "end": 582,
+        "value": "file://c:/bar",
+        "raw": "\"file://c:/bar\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 584,
       "end": 632,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 612,
-        "end": 631,
-        "raw": "\"file://server/foo\"",
-        "value": "file://server/foo"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -701,7 +693,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 600,
@@ -710,24 +701,25 @@ __ESTREE_TEST__:PASS:
             "name": "foo8",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 612,
+        "end": 631,
+        "value": "file://server/foo",
+        "raw": "\"file://server/foo\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 633,
       "end": 681,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 661,
-        "end": 680,
-        "raw": "\"file://server/bar\"",
-        "value": "file://server/bar"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -742,7 +734,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 649,
@@ -751,24 +742,25 @@ __ESTREE_TEST__:PASS:
             "name": "bar8",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 661,
+        "end": 680,
+        "value": "file://server/bar",
+        "raw": "\"file://server/bar\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 682,
       "end": 730,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 710,
-        "end": 729,
-        "raw": "\"http://server/foo\"",
-        "value": "http://server/foo"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -783,7 +775,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 698,
@@ -792,24 +783,25 @@ __ESTREE_TEST__:PASS:
             "name": "foo9",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 710,
+        "end": 729,
+        "value": "http://server/foo",
+        "raw": "\"http://server/foo\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 731,
       "end": 779,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 759,
-        "end": 778,
-        "raw": "\"http://server/bar\"",
-        "value": "http://server/bar"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -824,7 +816,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 747,
@@ -833,11 +824,20 @@ __ESTREE_TEST__:PASS:
             "name": "bar9",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 759,
+        "end": 778,
+        "value": "http://server/bar",
+        "raw": "\"http://server/bar\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

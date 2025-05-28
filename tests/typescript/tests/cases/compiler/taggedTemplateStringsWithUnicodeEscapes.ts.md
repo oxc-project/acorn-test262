@@ -9,16 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 30,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 27,
-        "end": 30,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -28,11 +18,16 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "RestElement",
           "start": 11,
           "end": 25,
+          "decorators": [],
           "argument": {
             "type": "Identifier",
             "start": 14,
@@ -42,7 +37,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "decorators": [],
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
@@ -63,53 +57,22 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 27,
+        "end": 30,
+        "body": []
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
       "start": 32,
       "end": 93,
-      "directive": null,
       "expression": {
         "type": "TaggedTemplateExpression",
         "start": 32,
         "end": 92,
-        "quasi": {
-          "type": "TemplateLiteral",
-          "start": 34,
-          "end": 92,
-          "expressions": [
-            {
-              "type": "Literal",
-              "start": 49,
-              "end": 75,
-              "raw": "\" should be converted to \"",
-              "value": " should be converted to "
-            }
-          ],
-          "quasis": [
-            {
-              "type": "TemplateElement",
-              "start": 34,
-              "end": 48,
-              "tail": false,
-              "value": {
-                "cooked": "'💩'",
-                "raw": "'\\u{1f4a9}'"
-              }
-            },
-            {
-              "type": "TemplateElement",
-              "start": 76,
-              "end": 92,
-              "tail": true,
-              "value": {
-                "cooked": "'💩'",
-                "raw": "'\\uD83D\\uDCA9'"
-              }
-            }
-          ]
-        },
         "tag": {
           "type": "Identifier",
           "start": 32,
@@ -119,8 +82,45 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "quasi": {
+          "type": "TemplateLiteral",
+          "start": 34,
+          "end": 92,
+          "quasis": [
+            {
+              "type": "TemplateElement",
+              "start": 34,
+              "end": 48,
+              "value": {
+                "cooked": "'💩'",
+                "raw": "'\\u{1f4a9}'"
+              },
+              "tail": false
+            },
+            {
+              "type": "TemplateElement",
+              "start": 76,
+              "end": 92,
+              "value": {
+                "cooked": "'💩'",
+                "raw": "'\\uD83D\\uDCA9'"
+              },
+              "tail": true
+            }
+          ],
+          "expressions": [
+            {
+              "type": "Literal",
+              "start": 49,
+              "end": 75,
+              "value": " should be converted to ",
+              "raw": "\" should be converted to \""
+            }
+          ]
+        }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 30,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 29,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -45,22 +45,22 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 31,
       "end": 63,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 35,
           "end": 62,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 35,
@@ -91,22 +91,22 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 64,
       "end": 80,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 68,
           "end": 79,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 68,
@@ -125,22 +125,22 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 81,
       "end": 97,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 85,
           "end": 96,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 85,
@@ -159,22 +159,22 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 98,
       "end": 116,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 102,
           "end": 115,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 102,
@@ -193,121 +193,16 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "SwitchStatement",
       "start": 118,
       "end": 371,
-      "cases": [
-        {
-          "type": "SwitchCase",
-          "start": 159,
-          "end": 188,
-          "consequent": [
-            {
-              "type": "BreakStatement",
-              "start": 182,
-              "end": 188,
-              "label": null
-            }
-          ],
-          "test": {
-            "type": "Identifier",
-            "start": 164,
-            "end": 172,
-            "decorators": [],
-            "name": "strOrNum",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
-        {
-          "type": "SwitchCase",
-          "start": 214,
-          "end": 223,
-          "consequent": [],
-          "test": {
-            "type": "Identifier",
-            "start": 219,
-            "end": 222,
-            "decorators": [],
-            "name": "str",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
-        {
-          "type": "SwitchCase",
-          "start": 228,
-          "end": 252,
-          "consequent": [
-            {
-              "type": "BreakStatement",
-              "start": 246,
-              "end": 252,
-              "label": null
-            }
-          ],
-          "test": {
-            "type": "Identifier",
-            "start": 233,
-            "end": 236,
-            "decorators": [],
-            "name": "num",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
-        {
-          "type": "SwitchCase",
-          "start": 289,
-          "end": 319,
-          "consequent": [
-            {
-              "type": "BreakStatement",
-              "start": 313,
-              "end": 319,
-              "label": null
-            }
-          ],
-          "test": {
-            "type": "Identifier",
-            "start": 294,
-            "end": 303,
-            "decorators": [],
-            "name": "numOrBool",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
-        {
-          "type": "SwitchCase",
-          "start": 344,
-          "end": 369,
-          "consequent": [
-            {
-              "type": "BreakStatement",
-              "start": 363,
-              "end": 369,
-              "label": null
-            }
-          ],
-          "test": {
-            "type": "Identifier",
-            "start": 349,
-            "end": 353,
-            "decorators": [],
-            "name": "bool",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        }
-      ],
       "discriminant": {
         "type": "Identifier",
         "start": 126,
@@ -316,7 +211,112 @@ __ESTREE_TEST__:PASS:
         "name": "strOrNum",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "cases": [
+        {
+          "type": "SwitchCase",
+          "start": 159,
+          "end": 188,
+          "test": {
+            "type": "Identifier",
+            "start": 164,
+            "end": 172,
+            "decorators": [],
+            "name": "strOrNum",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "consequent": [
+            {
+              "type": "BreakStatement",
+              "start": 182,
+              "end": 188,
+              "label": null
+            }
+          ]
+        },
+        {
+          "type": "SwitchCase",
+          "start": 214,
+          "end": 223,
+          "test": {
+            "type": "Identifier",
+            "start": 219,
+            "end": 222,
+            "decorators": [],
+            "name": "str",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "consequent": []
+        },
+        {
+          "type": "SwitchCase",
+          "start": 228,
+          "end": 252,
+          "test": {
+            "type": "Identifier",
+            "start": 233,
+            "end": 236,
+            "decorators": [],
+            "name": "num",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "consequent": [
+            {
+              "type": "BreakStatement",
+              "start": 246,
+              "end": 252,
+              "label": null
+            }
+          ]
+        },
+        {
+          "type": "SwitchCase",
+          "start": 289,
+          "end": 319,
+          "test": {
+            "type": "Identifier",
+            "start": 294,
+            "end": 303,
+            "decorators": [],
+            "name": "numOrBool",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "consequent": [
+            {
+              "type": "BreakStatement",
+              "start": 313,
+              "end": 319,
+              "label": null
+            }
+          ]
+        },
+        {
+          "type": "SwitchCase",
+          "start": 344,
+          "end": 369,
+          "test": {
+            "type": "Identifier",
+            "start": 349,
+            "end": 353,
+            "decorators": [],
+            "name": "bool",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "consequent": [
+            {
+              "type": "BreakStatement",
+              "start": 363,
+              "end": 369,
+              "label": null
+            }
+          ]
+        }
+      ]
     }
   ],
   "sourceType": "script",

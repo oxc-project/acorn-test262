@@ -9,89 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 10,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "TSModuleDeclaration",
       "start": 11,
       "end": 105,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 26,
-        "end": 105,
-        "body": [
-          {
-            "type": "TSInterfaceDeclaration",
-            "start": 32,
-            "end": 60,
-            "body": {
-              "type": "TSInterfaceBody",
-              "start": 58,
-              "end": 60,
-              "body": []
-            },
-            "declare": false,
-            "extends": [],
-            "id": {
-              "type": "Identifier",
-              "start": 42,
-              "end": 57,
-              "decorators": [],
-              "name": "ImportInterface",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeParameters": null
-          },
-          {
-            "type": "TSDeclareFunction",
-            "start": 65,
-            "end": 103,
-            "async": false,
-            "body": null,
-            "declare": false,
-            "expression": false,
-            "generator": false,
-            "id": {
-              "type": "Identifier",
-              "start": 74,
-              "end": 83,
-              "decorators": [],
-              "name": "getInterI",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "params": [],
-            "returnType": {
-              "type": "TSTypeAnnotation",
-              "start": 85,
-              "end": 102,
-              "typeAnnotation": {
-                "type": "TSTypeReference",
-                "start": 87,
-                "end": 102,
-                "typeArguments": null,
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 87,
-                  "end": 102,
-                  "decorators": [],
-                  "name": "ImportInterface",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            },
-            "typeParameters": null
-          }
-        ]
-      },
-      "declare": true,
-      "global": true,
       "id": {
         "type": "Identifier",
         "start": 19,
@@ -101,7 +28,80 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "global"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 26,
+        "end": 105,
+        "body": [
+          {
+            "type": "TSInterfaceDeclaration",
+            "start": 32,
+            "end": 60,
+            "id": {
+              "type": "Identifier",
+              "start": 42,
+              "end": 57,
+              "decorators": [],
+              "name": "ImportInterface",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null,
+            "extends": [],
+            "body": {
+              "type": "TSInterfaceBody",
+              "start": 58,
+              "end": 60,
+              "body": []
+            },
+            "declare": false
+          },
+          {
+            "type": "TSDeclareFunction",
+            "start": 65,
+            "end": 103,
+            "id": {
+              "type": "Identifier",
+              "start": 74,
+              "end": 83,
+              "decorators": [],
+              "name": "getInterI",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "generator": false,
+            "async": false,
+            "declare": false,
+            "typeParameters": null,
+            "params": [],
+            "returnType": {
+              "type": "TSTypeAnnotation",
+              "start": 85,
+              "end": 102,
+              "typeAnnotation": {
+                "type": "TSTypeReference",
+                "start": 87,
+                "end": 102,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 87,
+                  "end": 102,
+                  "decorators": [],
+                  "name": "ImportInterface",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null
+              }
+            },
+            "body": null,
+            "expression": false
+          }
+        ]
+      },
+      "kind": "global",
+      "declare": true,
+      "global": true
     }
   ],
   "sourceType": "module",
@@ -119,89 +119,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 10,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "TSModuleDeclaration",
       "start": 11,
       "end": 107,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 26,
-        "end": 107,
-        "body": [
-          {
-            "type": "TSInterfaceDeclaration",
-            "start": 32,
-            "end": 61,
-            "body": {
-              "type": "TSInterfaceBody",
-              "start": 59,
-              "end": 61,
-              "body": []
-            },
-            "declare": false,
-            "extends": [],
-            "id": {
-              "type": "Identifier",
-              "start": 42,
-              "end": 58,
-              "decorators": [],
-              "name": "RequireInterface",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeParameters": null
-          },
-          {
-            "type": "TSDeclareFunction",
-            "start": 66,
-            "end": 105,
-            "async": false,
-            "body": null,
-            "declare": false,
-            "expression": false,
-            "generator": false,
-            "id": {
-              "type": "Identifier",
-              "start": 75,
-              "end": 84,
-              "decorators": [],
-              "name": "getInterR",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "params": [],
-            "returnType": {
-              "type": "TSTypeAnnotation",
-              "start": 86,
-              "end": 104,
-              "typeAnnotation": {
-                "type": "TSTypeReference",
-                "start": 88,
-                "end": 104,
-                "typeArguments": null,
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 88,
-                  "end": 104,
-                  "decorators": [],
-                  "name": "RequireInterface",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            },
-            "typeParameters": null
-          }
-        ]
-      },
-      "declare": true,
-      "global": true,
       "id": {
         "type": "Identifier",
         "start": 19,
@@ -211,7 +138,80 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "kind": "global"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 26,
+        "end": 107,
+        "body": [
+          {
+            "type": "TSInterfaceDeclaration",
+            "start": 32,
+            "end": 61,
+            "id": {
+              "type": "Identifier",
+              "start": 42,
+              "end": 58,
+              "decorators": [],
+              "name": "RequireInterface",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null,
+            "extends": [],
+            "body": {
+              "type": "TSInterfaceBody",
+              "start": 59,
+              "end": 61,
+              "body": []
+            },
+            "declare": false
+          },
+          {
+            "type": "TSDeclareFunction",
+            "start": 66,
+            "end": 105,
+            "id": {
+              "type": "Identifier",
+              "start": 75,
+              "end": 84,
+              "decorators": [],
+              "name": "getInterR",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "generator": false,
+            "async": false,
+            "declare": false,
+            "typeParameters": null,
+            "params": [],
+            "returnType": {
+              "type": "TSTypeAnnotation",
+              "start": 86,
+              "end": 104,
+              "typeAnnotation": {
+                "type": "TSTypeReference",
+                "start": 88,
+                "end": 104,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 88,
+                  "end": 104,
+                  "decorators": [],
+                  "name": "RequireInterface",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null
+              }
+            },
+            "body": null,
+            "expression": false
+          }
+        ]
+      },
+      "kind": "global",
+      "declare": true,
+      "global": true
     }
   ],
   "sourceType": "module",
@@ -233,7 +233,6 @@ __ESTREE_TEST__:PASS:
         "type": "CallExpression",
         "start": 61,
         "end": 72,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 61,
@@ -243,8 +242,9 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
       },
       "exportKind": "value"
     }
@@ -264,14 +264,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 27,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 16,
-        "end": 27,
-        "raw": "\"./uses.js\"",
-        "value": "./uses.js"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -288,8 +280,16 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 16,
+        "end": 27,
+        "value": "./uses.js",
+        "raw": "\"./uses.js\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportDefaultDeclaration",

@@ -13,7 +13,21 @@ __ESTREE_TEST__:PASS:
         "type": "FunctionDeclaration",
         "start": 15,
         "end": 59,
+        "id": {
+          "type": "Identifier",
+          "start": 24,
+          "end": 32,
+          "decorators": [],
+          "name": "someFunc",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "generator": false,
         "async": false,
+        "declare": false,
+        "typeParameters": null,
+        "params": [],
+        "returnType": null,
         "body": {
           "type": "BlockStatement",
           "start": 35,
@@ -27,27 +41,13 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 48,
                 "end": 56,
-                "raw": "'hello!'",
-                "value": "hello!"
+                "value": "hello!",
+                "raw": "'hello!'"
               }
             }
           ]
         },
-        "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 24,
-          "end": 32,
-          "decorators": [],
-          "name": "someFunc",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "expression": false
       },
       "exportKind": "value"
     },
@@ -55,7 +55,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 61,
       "end": 86,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 61,
@@ -65,7 +64,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 61,
           "end": 78,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 61,
@@ -75,7 +73,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 70,
@@ -84,16 +81,19 @@ __ESTREE_TEST__:PASS:
             "name": "someProp",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
           "start": 81,
           "end": 85,
-          "raw": "'yo'",
-          "value": "yo"
+          "value": "yo",
+          "raw": "'yo'"
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

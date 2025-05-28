@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 22,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 21,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,28 +28,28 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 13,
             "end": 21,
+            "value": null,
             "raw": "/ asdf /",
             "regex": {
               "flags": "",
               "pattern": " asdf "
-            },
-            "value": null
-          }
+            }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 23,
       "end": 49,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 27,
           "end": 48,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 27,
@@ -63,28 +63,28 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 40,
             "end": 48,
+            "value": null,
             "raw": "/ asdf /",
             "regex": {
               "flags": "",
               "pattern": " asdf "
-            },
-            "value": null
-          }
+            }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 50,
       "end": 116,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 54,
           "end": 115,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 54,
@@ -98,24 +98,24 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 114,
             "end": 115,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 117,
       "end": 147,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 121,
           "end": 146,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 121,
@@ -129,45 +129,45 @@ __ESTREE_TEST__:PASS:
             "type": "BinaryExpression",
             "start": 134,
             "end": 146,
-            "operator": "**",
             "left": {
               "type": "Literal",
               "start": 134,
               "end": 137,
+              "value": null,
               "raw": "/ /",
               "regex": {
                 "flags": "",
                 "pattern": " "
-              },
-              "value": null
+              }
             },
+            "operator": "**",
             "right": {
               "type": "Literal",
               "start": 139,
               "end": 146,
+              "value": null,
               "raw": "/asdf /",
               "regex": {
                 "flags": "",
                 "pattern": "asdf "
-              },
-              "value": null
+              }
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 148,
       "end": 178,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 152,
           "end": 177,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 152,
@@ -181,34 +181,34 @@ __ESTREE_TEST__:PASS:
             "type": "BinaryExpression",
             "start": 165,
             "end": 177,
-            "operator": "**",
             "left": {
               "type": "Literal",
               "start": 165,
               "end": 172,
+              "value": null,
               "raw": "/ asdf/",
               "regex": {
                 "flags": "",
                 "pattern": " asdf"
-              },
-              "value": null
+              }
             },
+            "operator": "**",
             "right": {
               "type": "Literal",
               "start": 174,
               "end": 177,
+              "value": null,
               "raw": "/ /",
               "regex": {
                 "flags": "",
                 "pattern": " "
-              },
-              "value": null
+              }
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

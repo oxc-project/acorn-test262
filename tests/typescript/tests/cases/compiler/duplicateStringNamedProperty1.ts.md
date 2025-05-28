@@ -9,76 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 68,
-      "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
         "start": 7,
         "end": 68,
-        "body": {
-          "type": "TSInterfaceBody",
-          "start": 23,
-          "end": 68,
-          "body": [
-            {
-              "type": "TSPropertySignature",
-              "start": 29,
-              "end": 46,
-              "accessibility": null,
-              "computed": false,
-              "key": {
-                "type": "Literal",
-                "start": 29,
-                "end": 37,
-                "raw": "\"artist\"",
-                "value": "artist"
-              },
-              "optional": false,
-              "readonly": false,
-              "static": false,
-              "typeAnnotation": {
-                "type": "TSTypeAnnotation",
-                "start": 37,
-                "end": 45,
-                "typeAnnotation": {
-                  "type": "TSStringKeyword",
-                  "start": 39,
-                  "end": 45
-                }
-              }
-            },
-            {
-              "type": "TSPropertySignature",
-              "start": 51,
-              "end": 66,
-              "accessibility": null,
-              "computed": false,
-              "key": {
-                "type": "Identifier",
-                "start": 51,
-                "end": 57,
-                "decorators": [],
-                "name": "artist",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "readonly": false,
-              "static": false,
-              "typeAnnotation": {
-                "type": "TSTypeAnnotation",
-                "start": 57,
-                "end": 65,
-                "typeAnnotation": {
-                  "type": "TSStringKeyword",
-                  "start": 59,
-                  "end": 65
-                }
-              }
-            }
-          ]
-        },
-        "declare": false,
-        "extends": [],
         "id": {
           "type": "Identifier",
           "start": 17,
@@ -88,11 +22,77 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "typeParameters": null
+        "typeParameters": null,
+        "extends": [],
+        "body": {
+          "type": "TSInterfaceBody",
+          "start": 23,
+          "end": 68,
+          "body": [
+            {
+              "type": "TSPropertySignature",
+              "start": 29,
+              "end": 46,
+              "computed": false,
+              "optional": false,
+              "readonly": false,
+              "key": {
+                "type": "Literal",
+                "start": 29,
+                "end": 37,
+                "value": "artist",
+                "raw": "\"artist\""
+              },
+              "typeAnnotation": {
+                "type": "TSTypeAnnotation",
+                "start": 37,
+                "end": 45,
+                "typeAnnotation": {
+                  "type": "TSStringKeyword",
+                  "start": 39,
+                  "end": 45
+                }
+              },
+              "accessibility": null,
+              "static": false
+            },
+            {
+              "type": "TSPropertySignature",
+              "start": 51,
+              "end": 66,
+              "computed": false,
+              "optional": false,
+              "readonly": false,
+              "key": {
+                "type": "Identifier",
+                "start": 51,
+                "end": 57,
+                "decorators": [],
+                "name": "artist",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeAnnotation": {
+                "type": "TSTypeAnnotation",
+                "start": 57,
+                "end": 65,
+                "typeAnnotation": {
+                  "type": "TSStringKeyword",
+                  "start": 59,
+                  "end": 65
+                }
+              },
+              "accessibility": null,
+              "static": false
+            }
+          ]
+        },
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     }
   ],
   "sourceType": "module",

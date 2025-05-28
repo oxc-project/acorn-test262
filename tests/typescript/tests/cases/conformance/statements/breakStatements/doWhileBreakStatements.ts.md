@@ -26,14 +26,23 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "start": 24,
         "end": 28,
-        "raw": "true",
-        "value": true
+        "value": true,
+        "raw": "true"
       }
     },
     {
       "type": "LabeledStatement",
       "start": 31,
       "end": 70,
+      "label": {
+        "type": "Identifier",
+        "start": 31,
+        "end": 34,
+        "decorators": [],
+        "name": "ONE",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "DoWhileStatement",
         "start": 36,
@@ -63,28 +72,37 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 65,
           "end": 69,
-          "raw": "true",
-          "value": true
+          "value": true,
+          "raw": "true"
         }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 31,
-        "end": 34,
-        "decorators": [],
-        "name": "ONE",
-        "optional": false,
-        "typeAnnotation": null
       }
     },
     {
       "type": "LabeledStatement",
       "start": 72,
       "end": 119,
+      "label": {
+        "type": "Identifier",
+        "start": 72,
+        "end": 75,
+        "decorators": [],
+        "name": "TWO",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "LabeledStatement",
         "start": 77,
         "end": 119,
+        "label": {
+          "type": "Identifier",
+          "start": 77,
+          "end": 82,
+          "decorators": [],
+          "name": "THREE",
+          "optional": false,
+          "typeAnnotation": null
+        },
         "body": {
           "type": "DoWhileStatement",
           "start": 84,
@@ -114,34 +132,25 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 114,
             "end": 118,
-            "raw": "true",
-            "value": true
+            "value": true,
+            "raw": "true"
           }
-        },
-        "label": {
-          "type": "Identifier",
-          "start": 77,
-          "end": 82,
-          "decorators": [],
-          "name": "THREE",
-          "optional": false,
-          "typeAnnotation": null
         }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 72,
-        "end": 75,
-        "decorators": [],
-        "name": "TWO",
-        "optional": false,
-        "typeAnnotation": null
       }
     },
     {
       "type": "LabeledStatement",
       "start": 121,
       "end": 202,
+      "label": {
+        "type": "Identifier",
+        "start": 121,
+        "end": 125,
+        "decorators": [],
+        "name": "FOUR",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "DoWhileStatement",
         "start": 127,
@@ -155,6 +164,15 @@ __ESTREE_TEST__:PASS:
               "type": "LabeledStatement",
               "start": 136,
               "end": 188,
+              "label": {
+                "type": "Identifier",
+                "start": 136,
+                "end": 140,
+                "decorators": [],
+                "name": "FIVE",
+                "optional": false,
+                "typeAnnotation": null
+              },
               "body": {
                 "type": "DoWhileStatement",
                 "start": 146,
@@ -184,18 +202,9 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 183,
                   "end": 187,
-                  "raw": "true",
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
-              },
-              "label": {
-                "type": "Identifier",
-                "start": 136,
-                "end": 140,
-                "decorators": [],
-                "name": "FIVE",
-                "optional": false,
-                "typeAnnotation": null
               }
             }
           ]
@@ -204,18 +213,9 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 197,
           "end": 201,
-          "raw": "true",
-          "value": true
+          "value": true,
+          "raw": "true"
         }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 121,
-        "end": 125,
-        "decorators": [],
-        "name": "FOUR",
-        "optional": false,
-        "typeAnnotation": null
       }
     },
     {
@@ -231,6 +231,15 @@ __ESTREE_TEST__:PASS:
             "type": "LabeledStatement",
             "start": 213,
             "end": 247,
+            "label": {
+              "type": "Identifier",
+              "start": 213,
+              "end": 216,
+              "decorators": [],
+              "name": "SIX",
+              "optional": false,
+              "typeAnnotation": null
+            },
             "body": {
               "type": "DoWhileStatement",
               "start": 222,
@@ -253,18 +262,9 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 242,
                 "end": 246,
-                "raw": "true",
-                "value": true
+                "value": true,
+                "raw": "true"
               }
-            },
-            "label": {
-              "type": "Identifier",
-              "start": 213,
-              "end": 216,
-              "decorators": [],
-              "name": "SIX",
-              "optional": false,
-              "typeAnnotation": null
             }
           }
         ]
@@ -273,14 +273,23 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "start": 256,
         "end": 260,
-        "raw": "true",
-        "value": true
+        "value": true,
+        "raw": "true"
       }
     },
     {
       "type": "LabeledStatement",
       "start": 263,
       "end": 331,
+      "label": {
+        "type": "Identifier",
+        "start": 263,
+        "end": 268,
+        "decorators": [],
+        "name": "SEVEN",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "DoWhileStatement",
         "start": 270,
@@ -311,40 +320,40 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 299,
               "end": 303,
-              "raw": "true",
-              "value": true
+              "value": true,
+              "raw": "true"
             }
           },
           "test": {
             "type": "Literal",
             "start": 312,
             "end": 316,
-            "raw": "true",
-            "value": true
+            "value": true,
+            "raw": "true"
           }
         },
         "test": {
           "type": "Literal",
           "start": 326,
           "end": 330,
-          "raw": "true",
-          "value": true
+          "value": true,
+          "raw": "true"
         }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 263,
-        "end": 268,
-        "decorators": [],
-        "name": "SEVEN",
-        "optional": false,
-        "typeAnnotation": null
       }
     },
     {
       "type": "LabeledStatement",
       "start": 333,
       "end": 402,
+      "label": {
+        "type": "Identifier",
+        "start": 333,
+        "end": 338,
+        "decorators": [],
+        "name": "EIGHT",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "DoWhileStatement",
         "start": 340,
@@ -358,12 +367,12 @@ __ESTREE_TEST__:PASS:
               "type": "VariableDeclaration",
               "start": 348,
               "end": 372,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 352,
                   "end": 372,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 352,
@@ -377,25 +386,25 @@ __ESTREE_TEST__:PASS:
                     "type": "FunctionExpression",
                     "start": 357,
                     "end": 372,
+                    "id": null,
+                    "generator": false,
                     "async": false,
+                    "declare": false,
+                    "typeParameters": null,
+                    "params": [],
+                    "returnType": null,
                     "body": {
                       "type": "BlockStatement",
                       "start": 369,
                       "end": 372,
                       "body": []
                     },
-                    "declare": false,
-                    "expression": false,
-                    "generator": false,
-                    "id": null,
-                    "params": [],
-                    "returnType": null,
-                    "typeParameters": null
-                  }
+                    "expression": false
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "var"
+              "declare": false
             },
             {
               "type": "BreakStatement",
@@ -417,18 +426,9 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 397,
           "end": 401,
-          "raw": "true",
-          "value": true
+          "value": true,
+          "raw": "true"
         }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 333,
-        "end": 338,
-        "decorators": [],
-        "name": "EIGHT",
-        "optional": false,
-        "typeAnnotation": null
       }
     }
   ],

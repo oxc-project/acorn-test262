@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 160,
       "end": 180,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 166,
           "end": 179,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 166,
@@ -33,7 +33,7 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 173,
                 "end": 177,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 173,
@@ -43,35 +43,35 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Literal",
                   "start": 176,
                   "end": 177,
-                  "raw": "1",
-                  "value": 1
-                }
+                  "value": 1,
+                  "raw": "1"
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 213,
       "end": 255,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 219,
           "end": 254,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 219,
@@ -85,13 +85,13 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 252,
             "end": 253,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "script",

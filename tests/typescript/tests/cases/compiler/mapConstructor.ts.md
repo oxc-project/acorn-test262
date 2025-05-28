@@ -9,12 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 10,
-      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 0,
         "end": 9,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 4,
@@ -24,19 +22,21 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": []
+      },
+      "directive": null
     },
     {
       "type": "VariableDeclaration",
       "start": 12,
       "end": 112,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 18,
           "end": 111,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 18,
@@ -64,15 +64,15 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 51,
                       "end": 54,
-                      "raw": "'1'",
-                      "value": "1"
+                      "value": "1",
+                      "raw": "'1'"
                     },
                     {
                       "type": "Literal",
                       "start": 56,
                       "end": 57,
-                      "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   ]
                 },
@@ -85,15 +85,15 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 61,
                       "end": 64,
-                      "raw": "'2'",
-                      "value": "2"
+                      "value": "2",
+                      "raw": "'2'"
                     },
                     {
                       "type": "Literal",
                       "start": 66,
                       "end": 67,
-                      "raw": "2",
-                      "value": 2
+                      "value": 2,
+                      "raw": "2"
                     }
                   ]
                 }
@@ -108,6 +108,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 73,
                   "end": 99,
+                  "typeName": {
+                    "type": "Identifier",
+                    "start": 73,
+                    "end": 81,
+                    "decorators": [],
+                    "name": "Iterable",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
                   "typeArguments": {
                     "type": "TSTypeParameterInstantiation",
                     "start": 81,
@@ -131,15 +140,6 @@ __ESTREE_TEST__:PASS:
                         ]
                       }
                     ]
-                  },
-                  "typeName": {
-                    "type": "Identifier",
-                    "start": 73,
-                    "end": 81,
-                    "decorators": [],
-                    "name": "Iterable",
-                    "optional": false,
-                    "typeAnnotation": null
                   }
                 },
                 {
@@ -149,21 +149,30 @@ __ESTREE_TEST__:PASS:
                 }
               ]
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 113,
       "end": 151,
-      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 113,
         "end": 150,
+        "callee": {
+          "type": "Identifier",
+          "start": 117,
+          "end": 120,
+          "decorators": [],
+          "name": "Map",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null,
         "arguments": [
           {
             "type": "Identifier",
@@ -174,29 +183,20 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           }
-        ],
-        "callee": {
-          "type": "Identifier",
-          "start": 117,
-          "end": 120,
-          "decorators": [],
-          "name": "Map",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "typeArguments": null
-      }
+        ]
+      },
+      "directive": null
     },
     {
       "type": "VariableDeclaration",
       "start": 153,
       "end": 243,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 159,
           "end": 242,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 159,
@@ -224,15 +224,15 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 187,
                       "end": 190,
-                      "raw": "'1'",
-                      "value": "1"
+                      "value": "1",
+                      "raw": "'1'"
                     },
                     {
                       "type": "Literal",
                       "start": 192,
                       "end": 193,
-                      "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   ]
                 },
@@ -245,15 +245,15 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 197,
                       "end": 200,
-                      "raw": "'2'",
-                      "value": "2"
+                      "value": "2",
+                      "raw": "'2'"
                     },
                     {
                       "type": "Literal",
                       "start": 202,
                       "end": 203,
-                      "raw": "2",
-                      "value": 2
+                      "value": 2,
+                      "raw": "2"
                     }
                   ]
                 }
@@ -268,6 +268,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 209,
                   "end": 235,
+                  "typeName": {
+                    "type": "Identifier",
+                    "start": 209,
+                    "end": 217,
+                    "decorators": [],
+                    "name": "Iterable",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
                   "typeArguments": {
                     "type": "TSTypeParameterInstantiation",
                     "start": 217,
@@ -291,15 +300,6 @@ __ESTREE_TEST__:PASS:
                         ]
                       }
                     ]
-                  },
-                  "typeName": {
-                    "type": "Identifier",
-                    "start": 209,
-                    "end": 217,
-                    "decorators": [],
-                    "name": "Iterable",
-                    "optional": false,
-                    "typeAnnotation": null
                   }
                 },
                 {
@@ -309,21 +309,30 @@ __ESTREE_TEST__:PASS:
                 }
               ]
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 244,
       "end": 277,
-      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 244,
         "end": 276,
+        "callee": {
+          "type": "Identifier",
+          "start": 248,
+          "end": 251,
+          "decorators": [],
+          "name": "Map",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null,
         "arguments": [
           {
             "type": "Identifier",
@@ -334,18 +343,9 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           }
-        ],
-        "callee": {
-          "type": "Identifier",
-          "start": 248,
-          "end": 251,
-          "decorators": [],
-          "name": "Map",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "typeArguments": null
-      }
+        ]
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

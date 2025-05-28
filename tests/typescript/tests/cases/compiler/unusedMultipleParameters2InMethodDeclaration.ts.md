@@ -9,7 +9,20 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 150,
-      "abstract": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 6,
+        "end": 11,
+        "decorators": [],
+        "name": "Dummy",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
       "body": {
         "type": "ClassBody",
         "start": 12,
@@ -19,8 +32,6 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 18,
             "end": 148,
-            "accessibility": "public",
-            "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
@@ -31,85 +42,15 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "FunctionExpression",
               "start": 32,
               "end": 148,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 83,
-                "end": 148,
-                "body": [
-                  {
-                    "type": "VariableDeclaration",
-                    "start": 93,
-                    "end": 109,
-                    "declarations": [
-                      {
-                        "type": "VariableDeclarator",
-                        "start": 97,
-                        "end": 108,
-                        "definite": false,
-                        "id": {
-                          "type": "Identifier",
-                          "start": 97,
-                          "end": 103,
-                          "decorators": [],
-                          "name": "unused",
-                          "optional": false,
-                          "typeAnnotation": null
-                        },
-                        "init": {
-                          "type": "Literal",
-                          "start": 106,
-                          "end": 108,
-                          "raw": "20",
-                          "value": 20
-                        }
-                      }
-                    ],
-                    "declare": false,
-                    "kind": "var"
-                  },
-                  {
-                    "type": "ExpressionStatement",
-                    "start": 118,
-                    "end": 142,
-                    "directive": null,
-                    "expression": {
-                      "type": "AssignmentExpression",
-                      "start": 118,
-                      "end": 141,
-                      "operator": "=",
-                      "left": {
-                        "type": "Identifier",
-                        "start": 118,
-                        "end": 125,
-                        "decorators": [],
-                        "name": "person2",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "right": {
-                        "type": "Literal",
-                        "start": 128,
-                        "end": 141,
-                        "raw": "\"dummy value\"",
-                        "value": "dummy value"
-                      }
-                    }
-                  }
-                ]
-              },
-              "declare": false,
-              "expression": false,
-              "generator": false,
               "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -167,26 +108,85 @@ __ESTREE_TEST__:PASS:
                 }
               ],
               "returnType": null,
-              "typeParameters": null
-            }
+              "body": {
+                "type": "BlockStatement",
+                "start": 83,
+                "end": 148,
+                "body": [
+                  {
+                    "type": "VariableDeclaration",
+                    "start": 93,
+                    "end": 109,
+                    "kind": "var",
+                    "declarations": [
+                      {
+                        "type": "VariableDeclarator",
+                        "start": 97,
+                        "end": 108,
+                        "id": {
+                          "type": "Identifier",
+                          "start": 97,
+                          "end": 103,
+                          "decorators": [],
+                          "name": "unused",
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
+                        "init": {
+                          "type": "Literal",
+                          "start": 106,
+                          "end": 108,
+                          "value": 20,
+                          "raw": "20"
+                        },
+                        "definite": false
+                      }
+                    ],
+                    "declare": false
+                  },
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 118,
+                    "end": 142,
+                    "expression": {
+                      "type": "AssignmentExpression",
+                      "start": 118,
+                      "end": 141,
+                      "operator": "=",
+                      "left": {
+                        "type": "Identifier",
+                        "start": 118,
+                        "end": 125,
+                        "decorators": [],
+                        "name": "person2",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "right": {
+                        "type": "Literal",
+                        "start": 128,
+                        "end": 141,
+                        "value": "dummy value",
+                        "raw": "\"dummy value\""
+                      }
+                    },
+                    "directive": null
+                  }
+                ]
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": "public"
           }
         ]
       },
-      "declare": false,
-      "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 6,
-        "end": 11,
-        "decorators": [],
-        "name": "Dummy",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 19,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 16,
-        "end": 19,
-        "body": []
-      },
-      "declare": true,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -27,21 +19,29 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 16,
+        "end": 19,
+        "body": []
+      },
+      "abstract": false,
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
       "start": 20,
       "end": 53,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 32,
           "end": 52,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 32,
@@ -57,6 +57,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 35,
                 "end": 52,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 35,
+                  "end": 42,
+                  "decorators": [],
+                  "name": "Promise",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 42,
@@ -78,30 +87,65 @@ __ESTREE_TEST__:PASS:
                       "typeArguments": null
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 35,
-                  "end": 42,
-                  "decorators": [],
-                  "name": "Promise",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "FunctionDeclaration",
       "start": 55,
       "end": 133,
+      "id": {
+        "type": "Identifier",
+        "start": 70,
+        "end": 74,
+        "decorators": [],
+        "name": "func",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": true,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": {
+        "type": "TSTypeAnnotation",
+        "start": 76,
+        "end": 91,
+        "typeAnnotation": {
+          "type": "TSTypeReference",
+          "start": 78,
+          "end": 91,
+          "typeName": {
+            "type": "Identifier",
+            "start": 78,
+            "end": 85,
+            "decorators": [],
+            "name": "Promise",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": {
+            "type": "TSTypeParameterInstantiation",
+            "start": 85,
+            "end": 91,
+            "params": [
+              {
+                "type": "TSVoidKeyword",
+                "start": 86,
+                "end": 90
+              }
+            ]
+          }
+        }
+      },
       "body": {
         "type": "BlockStatement",
         "start": 92,
@@ -111,14 +155,6 @@ __ESTREE_TEST__:PASS:
             "type": "ClassDeclaration",
             "start": 98,
             "end": 131,
-            "abstract": false,
-            "body": {
-              "type": "ClassBody",
-              "start": 124,
-              "end": 131,
-              "body": []
-            },
-            "declare": false,
             "decorators": [],
             "id": {
               "type": "Identifier",
@@ -129,7 +165,7 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "implements": [],
+            "typeParameters": null,
             "superClass": {
               "type": "AwaitExpression",
               "start": 115,
@@ -145,55 +181,19 @@ __ESTREE_TEST__:PASS:
               }
             },
             "superTypeArguments": null,
-            "typeParameters": null
+            "implements": [],
+            "body": {
+              "type": "ClassBody",
+              "start": 124,
+              "end": 131,
+              "body": []
+            },
+            "abstract": false,
+            "declare": false
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 70,
-        "end": 74,
-        "decorators": [],
-        "name": "func",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": {
-        "type": "TSTypeAnnotation",
-        "start": 76,
-        "end": 91,
-        "typeAnnotation": {
-          "type": "TSTypeReference",
-          "start": 78,
-          "end": 91,
-          "typeArguments": {
-            "type": "TSTypeParameterInstantiation",
-            "start": 85,
-            "end": 91,
-            "params": [
-              {
-                "type": "TSVoidKeyword",
-                "start": 86,
-                "end": 90
-              }
-            ]
-          },
-          "typeName": {
-            "type": "Identifier",
-            "start": 78,
-            "end": 85,
-            "decorators": [],
-            "name": "Promise",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        }
-      },
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

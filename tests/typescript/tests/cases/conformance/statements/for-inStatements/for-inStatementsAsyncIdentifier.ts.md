@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 10,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 9,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -24,22 +24,16 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ForInStatement",
       "start": 11,
       "end": 43,
-      "body": {
-        "type": "BlockStatement",
-        "start": 41,
-        "end": 43,
-        "body": []
-      },
       "left": {
         "type": "Identifier",
         "start": 16,
@@ -58,7 +52,7 @@ __ESTREE_TEST__:PASS:
             "type": "Property",
             "start": 27,
             "end": 31,
-            "computed": false,
+            "kind": "init",
             "key": {
               "type": "Identifier",
               "start": 27,
@@ -68,23 +62,23 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "init",
-            "method": false,
-            "optional": false,
-            "shorthand": false,
             "value": {
               "type": "Literal",
               "start": 30,
               "end": 31,
-              "raw": "1",
-              "value": 1
-            }
+              "value": 1,
+              "raw": "1"
+            },
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "optional": false
           },
           {
             "type": "Property",
             "start": 33,
             "end": 37,
-            "computed": false,
+            "kind": "init",
             "key": {
               "type": "Identifier",
               "start": 33,
@@ -94,19 +88,25 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "init",
-            "method": false,
-            "optional": false,
-            "shorthand": false,
             "value": {
               "type": "Literal",
               "start": 36,
               "end": 37,
-              "raw": "2",
-              "value": 2
-            }
+              "value": 2,
+              "raw": "2"
+            },
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "optional": false
           }
         ]
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 41,
+        "end": 43,
+        "body": []
       }
     }
   ],

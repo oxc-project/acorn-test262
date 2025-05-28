@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 19,
       "end": 49,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 35,
-        "end": 48,
-        "raw": "\"../index.js\"",
-        "value": "../index.js"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -31,7 +23,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 27,
@@ -40,11 +31,20 @@ __ESTREE_TEST__:PASS:
             "name": "h",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 35,
+        "end": 48,
+        "value": "../index.js",
+        "raw": "\"../index.js\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -59,7 +59,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 63,
@@ -68,23 +67,16 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 71,
           "end": 84,
-          "raw": "\"../index.js\"",
-          "value": "../index.js"
+          "value": "../index.js",
+          "raw": "\"../index.js\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 87,
       "end": 122,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 109,
-        "end": 121,
-        "raw": "\"./index.js\"",
-        "value": "./index.js"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -99,7 +91,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 100,
@@ -108,11 +99,20 @@ __ESTREE_TEST__:PASS:
             "name": "_f",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 109,
+        "end": 121,
+        "value": "./index.js",
+        "raw": "\"./index.js\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -127,7 +127,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 137,
@@ -136,21 +135,35 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 145,
           "end": 157,
-          "raw": "\"./index.js\"",
-          "value": "./index.js"
+          "value": "./index.js",
+          "raw": "\"./index.js\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 160,
       "end": 291,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 167,
         "end": 291,
+        "id": {
+          "type": "Identifier",
+          "start": 182,
+          "end": 183,
+          "decorators": [],
+          "name": "f",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "generator": false,
         "async": true,
+        "declare": false,
+        "typeParameters": null,
+        "params": [],
+        "returnType": null,
         "body": {
           "type": "BlockStatement",
           "start": 186,
@@ -160,12 +173,12 @@ __ESTREE_TEST__:PASS:
               "type": "VariableDeclaration",
               "start": 192,
               "end": 234,
+              "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 198,
                   "end": 233,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 198,
@@ -183,32 +196,32 @@ __ESTREE_TEST__:PASS:
                       "type": "ImportExpression",
                       "start": 211,
                       "end": 233,
-                      "options": null,
                       "source": {
                         "type": "Literal",
                         "start": 219,
                         "end": 232,
-                        "raw": "\"../index.js\"",
-                        "value": "../index.js"
+                        "value": "../index.js",
+                        "raw": "\"../index.js\""
                       },
+                      "options": null,
                       "phase": null
                     }
-                  }
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "const"
+              "declare": false
             },
             {
               "type": "VariableDeclaration",
               "start": 239,
               "end": 280,
+              "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 245,
                   "end": 279,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 245,
@@ -226,32 +239,30 @@ __ESTREE_TEST__:PASS:
                       "type": "ImportExpression",
                       "start": 258,
                       "end": 279,
-                      "options": null,
                       "source": {
                         "type": "Literal",
                         "start": 266,
                         "end": 278,
-                        "raw": "\"./index.js\"",
-                        "value": "./index.js"
+                        "value": "./index.js",
+                        "raw": "\"./index.js\""
                       },
+                      "options": null,
                       "phase": null
                     }
-                  }
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "const"
+              "declare": false
             },
             {
               "type": "ExpressionStatement",
               "start": 285,
               "end": 289,
-              "directive": null,
               "expression": {
                 "type": "CallExpression",
                 "start": 285,
                 "end": 288,
-                "arguments": [],
                 "callee": {
                   "type": "Identifier",
                   "start": 285,
@@ -261,31 +272,20 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
-                "typeArguments": null
-              }
+                "typeArguments": null,
+                "arguments": [],
+                "optional": false
+              },
+              "directive": null
             }
           ]
         },
-        "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 182,
-          "end": 183,
-          "decorators": [],
-          "name": "f",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -303,14 +303,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 19,
       "end": 54,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 41,
-        "end": 53,
-        "raw": "\"./index.js\"",
-        "value": "./index.js"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -325,7 +317,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 32,
@@ -334,11 +325,20 @@ __ESTREE_TEST__:PASS:
             "name": "_h",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 41,
+        "end": 53,
+        "value": "./index.js",
+        "raw": "\"./index.js\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -353,7 +353,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 68,
@@ -362,23 +361,16 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 76,
           "end": 88,
-          "raw": "\"./index.js\"",
-          "value": "./index.js"
+          "value": "./index.js",
+          "raw": "\"./index.js\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 91,
       "end": 130,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 107,
-        "end": 129,
-        "raw": "\"./subfolder/index.js\"",
-        "value": "./subfolder/index.js"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -393,7 +385,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 99,
@@ -402,11 +393,20 @@ __ESTREE_TEST__:PASS:
             "name": "f",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 107,
+        "end": 129,
+        "value": "./subfolder/index.js",
+        "raw": "\"./subfolder/index.js\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -421,7 +421,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 145,
@@ -430,21 +429,35 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 153,
           "end": 175,
-          "raw": "\"./subfolder/index.js\"",
-          "value": "./subfolder/index.js"
+          "value": "./subfolder/index.js",
+          "raw": "\"./subfolder/index.js\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 178,
       "end": 318,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 185,
         "end": 318,
+        "id": {
+          "type": "Identifier",
+          "start": 200,
+          "end": 201,
+          "decorators": [],
+          "name": "h",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "generator": false,
         "async": true,
+        "declare": false,
+        "typeParameters": null,
+        "params": [],
+        "returnType": null,
         "body": {
           "type": "BlockStatement",
           "start": 204,
@@ -454,12 +467,12 @@ __ESTREE_TEST__:PASS:
               "type": "VariableDeclaration",
               "start": 210,
               "end": 251,
+              "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 216,
                   "end": 250,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 216,
@@ -477,32 +490,32 @@ __ESTREE_TEST__:PASS:
                       "type": "ImportExpression",
                       "start": 229,
                       "end": 250,
-                      "options": null,
                       "source": {
                         "type": "Literal",
                         "start": 237,
                         "end": 249,
-                        "raw": "\"./index.js\"",
-                        "value": "./index.js"
+                        "value": "./index.js",
+                        "raw": "\"./index.js\""
                       },
+                      "options": null,
                       "phase": null
                     }
-                  }
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "const"
+              "declare": false
             },
             {
               "type": "VariableDeclaration",
               "start": 256,
               "end": 307,
+              "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 262,
                   "end": 306,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 262,
@@ -520,32 +533,30 @@ __ESTREE_TEST__:PASS:
                       "type": "ImportExpression",
                       "start": 275,
                       "end": 306,
-                      "options": null,
                       "source": {
                         "type": "Literal",
                         "start": 283,
                         "end": 305,
-                        "raw": "\"./subfolder/index.js\"",
-                        "value": "./subfolder/index.js"
+                        "value": "./subfolder/index.js",
+                        "raw": "\"./subfolder/index.js\""
                       },
+                      "options": null,
                       "phase": null
                     }
-                  }
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "const"
+              "declare": false
             },
             {
               "type": "ExpressionStatement",
               "start": 312,
               "end": 316,
-              "directive": null,
               "expression": {
                 "type": "CallExpression",
                 "start": 312,
                 "end": 315,
-                "arguments": [],
                 "callee": {
                   "type": "Identifier",
                   "start": 312,
@@ -555,31 +566,20 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
-                "typeArguments": null
-              }
+                "typeArguments": null,
+                "arguments": [],
+                "optional": false
+              },
+              "directive": null
             }
           ]
         },
-        "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 200,
-          "end": 201,
-          "decorators": [],
-          "name": "h",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

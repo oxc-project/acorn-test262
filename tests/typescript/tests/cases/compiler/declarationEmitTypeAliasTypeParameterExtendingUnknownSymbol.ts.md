@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSTypeAliasDeclaration",
       "start": 0,
       "end": 30,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 5,
@@ -18,12 +17,6 @@ __ESTREE_TEST__:PASS:
         "name": "A",
         "optional": false,
         "typeAnnotation": null
-      },
-      "typeAnnotation": {
-        "type": "TSTypeLiteral",
-        "start": 28,
-        "end": 30,
-        "members": []
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
@@ -34,24 +27,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeParameter",
             "start": 7,
             "end": 24,
-            "const": false,
-            "constraint": {
-              "type": "TSTypeReference",
-              "start": 17,
-              "end": 24,
-              "typeArguments": null,
-              "typeName": {
-                "type": "Identifier",
-                "start": 17,
-                "end": 24,
-                "decorators": [],
-                "name": "Unknown",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            },
-            "default": null,
-            "in": false,
             "name": {
               "type": "Identifier",
               "start": 7,
@@ -61,10 +36,35 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "out": false
+            "constraint": {
+              "type": "TSTypeReference",
+              "start": 17,
+              "end": 24,
+              "typeName": {
+                "type": "Identifier",
+                "start": 17,
+                "end": 24,
+                "decorators": [],
+                "name": "Unknown",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeArguments": null
+            },
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
           }
         ]
-      }
+      },
+      "typeAnnotation": {
+        "type": "TSTypeLiteral",
+        "start": 28,
+        "end": 30,
+        "members": []
+      },
+      "declare": false
     }
   ],
   "sourceType": "script",

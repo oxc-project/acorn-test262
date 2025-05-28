@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 12,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 11,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,24 +28,24 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 9,
             "end": 11,
-            "raw": "10",
-            "value": 10
-          }
+            "value": 10,
+            "raw": "10"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 13,
       "end": 25,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 17,
           "end": 24,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 17,
@@ -59,24 +59,24 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 22,
             "end": 24,
-            "raw": "10",
-            "value": 10
-          }
+            "value": 10,
+            "raw": "10"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 26,
       "end": 32,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 30,
           "end": 31,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 30,
@@ -86,27 +86,47 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 55,
       "end": 76,
-      "directive": null,
       "expression": {
         "type": "TemplateLiteral",
         "start": 55,
         "end": 75,
+        "quasis": [
+          {
+            "type": "TemplateElement",
+            "start": 55,
+            "end": 58,
+            "value": {
+              "cooked": "",
+              "raw": ""
+            },
+            "tail": false
+          },
+          {
+            "type": "TemplateElement",
+            "start": 67,
+            "end": 75,
+            "value": {
+              "cooked": " world",
+              "raw": " world"
+            },
+            "tail": true
+          }
+        ],
         "expressions": [
           {
             "type": "BinaryExpression",
             "start": 58,
             "end": 67,
-            "operator": "**",
             "left": {
               "type": "Identifier",
               "start": 58,
@@ -116,10 +136,12 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
+            "operator": "**",
             "right": {
               "type": "UnaryExpression",
               "start": 64,
               "end": 67,
+              "operator": "-",
               "argument": {
                 "type": "Identifier",
                 "start": 65,
@@ -129,59 +151,57 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "operator": "-",
               "prefix": true
             }
           }
-        ],
-        "quasis": [
-          {
-            "type": "TemplateElement",
-            "start": 55,
-            "end": 58,
-            "tail": false,
-            "value": {
-              "cooked": "",
-              "raw": ""
-            }
-          },
-          {
-            "type": "TemplateElement",
-            "start": 67,
-            "end": 75,
-            "tail": true,
-            "value": {
-              "cooked": " world",
-              "raw": " world"
-            }
-          }
         ]
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 77,
       "end": 105,
-      "directive": null,
       "expression": {
         "type": "TemplateLiteral",
         "start": 77,
         "end": 104,
+        "quasis": [
+          {
+            "type": "TemplateElement",
+            "start": 77,
+            "end": 80,
+            "value": {
+              "cooked": "",
+              "raw": ""
+            },
+            "tail": false
+          },
+          {
+            "type": "TemplateElement",
+            "start": 96,
+            "end": 104,
+            "value": {
+              "cooked": " world",
+              "raw": " world"
+            },
+            "tail": true
+          }
+        ],
         "expressions": [
           {
             "type": "BinaryExpression",
             "start": 80,
             "end": 96,
-            "operator": "-",
             "left": {
               "type": "BinaryExpression",
               "start": 80,
               "end": 91,
-              "operator": "**",
               "left": {
                 "type": "UnaryExpression",
                 "start": 81,
                 "end": 84,
+                "operator": "-",
                 "argument": {
                   "type": "Identifier",
                   "start": 82,
@@ -191,9 +211,9 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "operator": "-",
                 "prefix": true
               },
+              "operator": "**",
               "right": {
                 "type": "Identifier",
                 "start": 89,
@@ -204,6 +224,7 @@ __ESTREE_TEST__:PASS:
                 "typeAnnotation": null
               }
             },
+            "operator": "-",
             "right": {
               "type": "Identifier",
               "start": 94,
@@ -214,59 +235,60 @@ __ESTREE_TEST__:PASS:
               "typeAnnotation": null
             }
           }
-        ],
-        "quasis": [
-          {
-            "type": "TemplateElement",
-            "start": 77,
-            "end": 80,
-            "tail": false,
-            "value": {
-              "cooked": "",
-              "raw": ""
-            }
-          },
-          {
-            "type": "TemplateElement",
-            "start": 96,
-            "end": 104,
-            "tail": true,
-            "value": {
-              "cooked": " world",
-              "raw": " world"
-            }
-          }
         ]
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 106,
       "end": 136,
-      "directive": null,
       "expression": {
         "type": "TemplateLiteral",
         "start": 106,
         "end": 135,
+        "quasis": [
+          {
+            "type": "TemplateElement",
+            "start": 106,
+            "end": 109,
+            "value": {
+              "cooked": "",
+              "raw": ""
+            },
+            "tail": false
+          },
+          {
+            "type": "TemplateElement",
+            "start": 127,
+            "end": 135,
+            "value": {
+              "cooked": " world",
+              "raw": " world"
+            },
+            "tail": true
+          }
+        ],
         "expressions": [
           {
             "type": "BinaryExpression",
             "start": 109,
             "end": 127,
-            "operator": "-",
             "left": {
               "type": "BinaryExpression",
               "start": 109,
               "end": 122,
-              "operator": "**",
               "left": {
                 "type": "UnaryExpression",
                 "start": 110,
                 "end": 115,
+                "operator": "-",
                 "argument": {
                   "type": "UpdateExpression",
                   "start": 111,
                   "end": 115,
+                  "operator": "++",
+                  "prefix": true,
                   "argument": {
                     "type": "Identifier",
                     "start": 113,
@@ -275,13 +297,11 @@ __ESTREE_TEST__:PASS:
                     "name": "t1",
                     "optional": false,
                     "typeAnnotation": null
-                  },
-                  "operator": "++",
-                  "prefix": true
+                  }
                 },
-                "operator": "-",
                 "prefix": true
               },
+              "operator": "**",
               "right": {
                 "type": "Identifier",
                 "start": 120,
@@ -292,6 +312,7 @@ __ESTREE_TEST__:PASS:
                 "typeAnnotation": null
               }
             },
+            "operator": "-",
             "right": {
               "type": "Identifier",
               "start": 125,
@@ -302,59 +323,60 @@ __ESTREE_TEST__:PASS:
               "typeAnnotation": null
             }
           }
-        ],
-        "quasis": [
-          {
-            "type": "TemplateElement",
-            "start": 106,
-            "end": 109,
-            "tail": false,
-            "value": {
-              "cooked": "",
-              "raw": ""
-            }
-          },
-          {
-            "type": "TemplateElement",
-            "start": 127,
-            "end": 135,
-            "tail": true,
-            "value": {
-              "cooked": " world",
-              "raw": " world"
-            }
-          }
         ]
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 137,
       "end": 167,
-      "directive": null,
       "expression": {
         "type": "TemplateLiteral",
         "start": 137,
         "end": 166,
+        "quasis": [
+          {
+            "type": "TemplateElement",
+            "start": 137,
+            "end": 140,
+            "value": {
+              "cooked": "",
+              "raw": ""
+            },
+            "tail": false
+          },
+          {
+            "type": "TemplateElement",
+            "start": 158,
+            "end": 166,
+            "value": {
+              "cooked": " world",
+              "raw": " world"
+            },
+            "tail": true
+          }
+        ],
         "expressions": [
           {
             "type": "BinaryExpression",
             "start": 140,
             "end": 158,
-            "operator": "-",
             "left": {
               "type": "BinaryExpression",
               "start": 140,
               "end": 153,
-              "operator": "**",
               "left": {
                 "type": "UnaryExpression",
                 "start": 141,
                 "end": 146,
+                "operator": "-",
                 "argument": {
                   "type": "UpdateExpression",
                   "start": 142,
                   "end": 146,
+                  "operator": "++",
+                  "prefix": false,
                   "argument": {
                     "type": "Identifier",
                     "start": 142,
@@ -363,13 +385,11 @@ __ESTREE_TEST__:PASS:
                     "name": "t1",
                     "optional": false,
                     "typeAnnotation": null
-                  },
-                  "operator": "++",
-                  "prefix": false
+                  }
                 },
-                "operator": "-",
                 "prefix": true
               },
+              "operator": "**",
               "right": {
                 "type": "Identifier",
                 "start": 151,
@@ -380,6 +400,7 @@ __ESTREE_TEST__:PASS:
                 "typeAnnotation": null
               }
             },
+            "operator": "-",
             "right": {
               "type": "Identifier",
               "start": 156,
@@ -390,50 +411,50 @@ __ESTREE_TEST__:PASS:
               "typeAnnotation": null
             }
           }
-        ],
-        "quasis": [
-          {
-            "type": "TemplateElement",
-            "start": 137,
-            "end": 140,
-            "tail": false,
-            "value": {
-              "cooked": "",
-              "raw": ""
-            }
-          },
-          {
-            "type": "TemplateElement",
-            "start": 158,
-            "end": 166,
-            "tail": true,
-            "value": {
-              "cooked": " world",
-              "raw": " world"
-            }
-          }
         ]
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 168,
       "end": 200,
-      "directive": null,
       "expression": {
         "type": "TemplateLiteral",
         "start": 168,
         "end": 199,
+        "quasis": [
+          {
+            "type": "TemplateElement",
+            "start": 168,
+            "end": 171,
+            "value": {
+              "cooked": "",
+              "raw": ""
+            },
+            "tail": false
+          },
+          {
+            "type": "TemplateElement",
+            "start": 191,
+            "end": 199,
+            "value": {
+              "cooked": " world",
+              "raw": " world"
+            },
+            "tail": true
+          }
+        ],
         "expressions": [
           {
             "type": "BinaryExpression",
             "start": 171,
             "end": 190,
-            "operator": "**",
             "left": {
               "type": "UnaryExpression",
               "start": 172,
               "end": 175,
+              "operator": "~",
               "argument": {
                 "type": "Identifier",
                 "start": 173,
@@ -443,14 +464,13 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "operator": "~",
               "prefix": true
             },
+            "operator": "**",
             "right": {
               "type": "BinaryExpression",
               "start": 180,
               "end": 190,
-              "operator": "**",
               "left": {
                 "type": "Identifier",
                 "start": 180,
@@ -460,10 +480,13 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
+              "operator": "**",
               "right": {
                 "type": "UpdateExpression",
                 "start": 186,
                 "end": 190,
+                "operator": "--",
+                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 188,
@@ -472,56 +495,54 @@ __ESTREE_TEST__:PASS:
                   "name": "t1",
                   "optional": false,
                   "typeAnnotation": null
-                },
-                "operator": "--",
-                "prefix": true
+                }
               }
             }
           }
-        ],
-        "quasis": [
-          {
-            "type": "TemplateElement",
-            "start": 168,
-            "end": 171,
-            "tail": false,
-            "value": {
-              "cooked": "",
-              "raw": ""
-            }
-          },
-          {
-            "type": "TemplateElement",
-            "start": 191,
-            "end": 199,
-            "tail": true,
-            "value": {
-              "cooked": " world",
-              "raw": " world"
-            }
-          }
         ]
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 201,
       "end": 237,
-      "directive": null,
       "expression": {
         "type": "TemplateLiteral",
         "start": 201,
         "end": 236,
+        "quasis": [
+          {
+            "type": "TemplateElement",
+            "start": 201,
+            "end": 204,
+            "value": {
+              "cooked": "",
+              "raw": ""
+            },
+            "tail": false
+          },
+          {
+            "type": "TemplateElement",
+            "start": 228,
+            "end": 236,
+            "value": {
+              "cooked": " world",
+              "raw": " world"
+            },
+            "tail": true
+          }
+        ],
         "expressions": [
           {
             "type": "UnaryExpression",
             "start": 204,
             "end": 227,
+            "operator": "typeof",
             "argument": {
               "type": "BinaryExpression",
               "start": 212,
               "end": 226,
-              "operator": "**",
               "left": {
                 "type": "Identifier",
                 "start": 212,
@@ -531,11 +552,11 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
+              "operator": "**",
               "right": {
                 "type": "BinaryExpression",
                 "start": 218,
                 "end": 226,
-                "operator": "**",
                 "left": {
                   "type": "Identifier",
                   "start": 218,
@@ -545,6 +566,7 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
+                "operator": "**",
                 "right": {
                   "type": "Identifier",
                   "start": 224,
@@ -556,49 +578,57 @@ __ESTREE_TEST__:PASS:
                 }
               }
             },
-            "operator": "typeof",
             "prefix": true
           }
-        ],
-        "quasis": [
-          {
-            "type": "TemplateElement",
-            "start": 201,
-            "end": 204,
-            "tail": false,
-            "value": {
-              "cooked": "",
-              "raw": ""
-            }
-          },
-          {
-            "type": "TemplateElement",
-            "start": 228,
-            "end": 236,
-            "tail": true,
-            "value": {
-              "cooked": " world",
-              "raw": " world"
-            }
-          }
         ]
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 278,
       "end": 318,
-      "directive": null,
       "expression": {
         "type": "TemplateLiteral",
         "start": 278,
         "end": 317,
+        "quasis": [
+          {
+            "type": "TemplateElement",
+            "start": 278,
+            "end": 281,
+            "value": {
+              "cooked": "",
+              "raw": ""
+            },
+            "tail": false
+          },
+          {
+            "type": "TemplateElement",
+            "start": 290,
+            "end": 306,
+            "value": {
+              "cooked": " hello world ",
+              "raw": " hello world "
+            },
+            "tail": false
+          },
+          {
+            "type": "TemplateElement",
+            "start": 315,
+            "end": 317,
+            "value": {
+              "cooked": "",
+              "raw": ""
+            },
+            "tail": true
+          }
+        ],
         "expressions": [
           {
             "type": "BinaryExpression",
             "start": 281,
             "end": 290,
-            "operator": "**",
             "left": {
               "type": "Identifier",
               "start": 281,
@@ -608,10 +638,12 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
+            "operator": "**",
             "right": {
               "type": "UnaryExpression",
               "start": 287,
               "end": 290,
+              "operator": "-",
               "argument": {
                 "type": "Identifier",
                 "start": 288,
@@ -621,7 +653,6 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "operator": "-",
               "prefix": true
             }
           },
@@ -629,7 +660,6 @@ __ESTREE_TEST__:PASS:
             "type": "BinaryExpression",
             "start": 306,
             "end": 315,
-            "operator": "**",
             "left": {
               "type": "Identifier",
               "start": 306,
@@ -639,10 +669,12 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
+            "operator": "**",
             "right": {
               "type": "UnaryExpression",
               "start": 312,
               "end": 315,
+              "operator": "-",
               "argument": {
                 "type": "Identifier",
                 "start": 313,
@@ -652,69 +684,67 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "operator": "-",
               "prefix": true
             }
           }
-        ],
-        "quasis": [
-          {
-            "type": "TemplateElement",
-            "start": 278,
-            "end": 281,
-            "tail": false,
-            "value": {
-              "cooked": "",
-              "raw": ""
-            }
-          },
-          {
-            "type": "TemplateElement",
-            "start": 290,
-            "end": 306,
-            "tail": false,
-            "value": {
-              "cooked": " hello world ",
-              "raw": " hello world "
-            }
-          },
-          {
-            "type": "TemplateElement",
-            "start": 315,
-            "end": 317,
-            "tail": true,
-            "value": {
-              "cooked": "",
-              "raw": ""
-            }
-          }
         ]
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 319,
       "end": 373,
-      "directive": null,
       "expression": {
         "type": "TemplateLiteral",
         "start": 319,
         "end": 372,
+        "quasis": [
+          {
+            "type": "TemplateElement",
+            "start": 319,
+            "end": 322,
+            "value": {
+              "cooked": "",
+              "raw": ""
+            },
+            "tail": false
+          },
+          {
+            "type": "TemplateElement",
+            "start": 338,
+            "end": 354,
+            "value": {
+              "cooked": " hello world ",
+              "raw": " hello world "
+            },
+            "tail": false
+          },
+          {
+            "type": "TemplateElement",
+            "start": 370,
+            "end": 372,
+            "value": {
+              "cooked": "",
+              "raw": ""
+            },
+            "tail": true
+          }
+        ],
         "expressions": [
           {
             "type": "BinaryExpression",
             "start": 322,
             "end": 338,
-            "operator": "-",
             "left": {
               "type": "BinaryExpression",
               "start": 322,
               "end": 333,
-              "operator": "**",
               "left": {
                 "type": "UnaryExpression",
                 "start": 323,
                 "end": 326,
+                "operator": "-",
                 "argument": {
                   "type": "Identifier",
                   "start": 324,
@@ -724,9 +754,9 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "operator": "-",
                 "prefix": true
               },
+              "operator": "**",
               "right": {
                 "type": "Identifier",
                 "start": 331,
@@ -737,6 +767,7 @@ __ESTREE_TEST__:PASS:
                 "typeAnnotation": null
               }
             },
+            "operator": "-",
             "right": {
               "type": "Identifier",
               "start": 336,
@@ -751,16 +782,15 @@ __ESTREE_TEST__:PASS:
             "type": "BinaryExpression",
             "start": 354,
             "end": 370,
-            "operator": "-",
             "left": {
               "type": "BinaryExpression",
               "start": 354,
               "end": 365,
-              "operator": "**",
               "left": {
                 "type": "UnaryExpression",
                 "start": 355,
                 "end": 358,
+                "operator": "-",
                 "argument": {
                   "type": "Identifier",
                   "start": 356,
@@ -770,9 +800,9 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "operator": "-",
                 "prefix": true
               },
+              "operator": "**",
               "right": {
                 "type": "Identifier",
                 "start": 363,
@@ -783,6 +813,7 @@ __ESTREE_TEST__:PASS:
                 "typeAnnotation": null
               }
             },
+            "operator": "-",
             "right": {
               "type": "Identifier",
               "start": 368,
@@ -793,69 +824,70 @@ __ESTREE_TEST__:PASS:
               "typeAnnotation": null
             }
           }
-        ],
-        "quasis": [
-          {
-            "type": "TemplateElement",
-            "start": 319,
-            "end": 322,
-            "tail": false,
-            "value": {
-              "cooked": "",
-              "raw": ""
-            }
-          },
-          {
-            "type": "TemplateElement",
-            "start": 338,
-            "end": 354,
-            "tail": false,
-            "value": {
-              "cooked": " hello world ",
-              "raw": " hello world "
-            }
-          },
-          {
-            "type": "TemplateElement",
-            "start": 370,
-            "end": 372,
-            "tail": true,
-            "value": {
-              "cooked": "",
-              "raw": ""
-            }
-          }
         ]
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 374,
       "end": 434,
-      "directive": null,
       "expression": {
         "type": "TemplateLiteral",
         "start": 374,
         "end": 433,
+        "quasis": [
+          {
+            "type": "TemplateElement",
+            "start": 374,
+            "end": 377,
+            "value": {
+              "cooked": "",
+              "raw": ""
+            },
+            "tail": false
+          },
+          {
+            "type": "TemplateElement",
+            "start": 395,
+            "end": 411,
+            "value": {
+              "cooked": " hello world ",
+              "raw": " hello world "
+            },
+            "tail": false
+          },
+          {
+            "type": "TemplateElement",
+            "start": 431,
+            "end": 433,
+            "value": {
+              "cooked": "",
+              "raw": ""
+            },
+            "tail": true
+          }
+        ],
         "expressions": [
           {
             "type": "BinaryExpression",
             "start": 377,
             "end": 395,
-            "operator": "-",
             "left": {
               "type": "BinaryExpression",
               "start": 377,
               "end": 390,
-              "operator": "**",
               "left": {
                 "type": "UnaryExpression",
                 "start": 378,
                 "end": 383,
+                "operator": "-",
                 "argument": {
                   "type": "UpdateExpression",
                   "start": 379,
                   "end": 383,
+                  "operator": "++",
+                  "prefix": true,
                   "argument": {
                     "type": "Identifier",
                     "start": 381,
@@ -864,13 +896,11 @@ __ESTREE_TEST__:PASS:
                     "name": "t1",
                     "optional": false,
                     "typeAnnotation": null
-                  },
-                  "operator": "++",
-                  "prefix": true
+                  }
                 },
-                "operator": "-",
                 "prefix": true
               },
+              "operator": "**",
               "right": {
                 "type": "Identifier",
                 "start": 388,
@@ -881,6 +911,7 @@ __ESTREE_TEST__:PASS:
                 "typeAnnotation": null
               }
             },
+            "operator": "-",
             "right": {
               "type": "Identifier",
               "start": 393,
@@ -895,7 +926,6 @@ __ESTREE_TEST__:PASS:
             "type": "BinaryExpression",
             "start": 411,
             "end": 431,
-            "operator": "**",
             "left": {
               "type": "Identifier",
               "start": 411,
@@ -905,19 +935,22 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
+            "operator": "**",
             "right": {
               "type": "BinaryExpression",
               "start": 417,
               "end": 431,
-              "operator": "**",
               "left": {
                 "type": "UnaryExpression",
                 "start": 418,
                 "end": 423,
+                "operator": "-",
                 "argument": {
                   "type": "UpdateExpression",
                   "start": 419,
                   "end": 423,
+                  "operator": "++",
+                  "prefix": true,
                   "argument": {
                     "type": "Identifier",
                     "start": 421,
@@ -926,17 +959,16 @@ __ESTREE_TEST__:PASS:
                     "name": "t1",
                     "optional": false,
                     "typeAnnotation": null
-                  },
-                  "operator": "++",
-                  "prefix": true
+                  }
                 },
-                "operator": "-",
                 "prefix": true
               },
+              "operator": "**",
               "right": {
                 "type": "UnaryExpression",
                 "start": 427,
                 "end": 431,
+                "operator": "-",
                 "argument": {
                   "type": "Identifier",
                   "start": 429,
@@ -946,74 +978,74 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "operator": "-",
                 "prefix": true
               }
             }
           }
-        ],
-        "quasis": [
-          {
-            "type": "TemplateElement",
-            "start": 374,
-            "end": 377,
-            "tail": false,
-            "value": {
-              "cooked": "",
-              "raw": ""
-            }
-          },
-          {
-            "type": "TemplateElement",
-            "start": 395,
-            "end": 411,
-            "tail": false,
-            "value": {
-              "cooked": " hello world ",
-              "raw": " hello world "
-            }
-          },
-          {
-            "type": "TemplateElement",
-            "start": 431,
-            "end": 433,
-            "tail": true,
-            "value": {
-              "cooked": "",
-              "raw": ""
-            }
-          }
         ]
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 435,
       "end": 497,
-      "directive": null,
       "expression": {
         "type": "TemplateLiteral",
         "start": 435,
         "end": 496,
+        "quasis": [
+          {
+            "type": "TemplateElement",
+            "start": 435,
+            "end": 438,
+            "value": {
+              "cooked": "",
+              "raw": ""
+            },
+            "tail": false
+          },
+          {
+            "type": "TemplateElement",
+            "start": 456,
+            "end": 472,
+            "value": {
+              "cooked": " hello world ",
+              "raw": " hello world "
+            },
+            "tail": false
+          },
+          {
+            "type": "TemplateElement",
+            "start": 494,
+            "end": 496,
+            "value": {
+              "cooked": "",
+              "raw": ""
+            },
+            "tail": true
+          }
+        ],
         "expressions": [
           {
             "type": "BinaryExpression",
             "start": 438,
             "end": 456,
-            "operator": "-",
             "left": {
               "type": "BinaryExpression",
               "start": 438,
               "end": 451,
-              "operator": "**",
               "left": {
                 "type": "UnaryExpression",
                 "start": 439,
                 "end": 444,
+                "operator": "-",
                 "argument": {
                   "type": "UpdateExpression",
                   "start": 440,
                   "end": 444,
+                  "operator": "++",
+                  "prefix": false,
                   "argument": {
                     "type": "Identifier",
                     "start": 440,
@@ -1022,13 +1054,11 @@ __ESTREE_TEST__:PASS:
                     "name": "t1",
                     "optional": false,
                     "typeAnnotation": null
-                  },
-                  "operator": "++",
-                  "prefix": false
+                  }
                 },
-                "operator": "-",
                 "prefix": true
               },
+              "operator": "**",
               "right": {
                 "type": "Identifier",
                 "start": 449,
@@ -1039,6 +1069,7 @@ __ESTREE_TEST__:PASS:
                 "typeAnnotation": null
               }
             },
+            "operator": "-",
             "right": {
               "type": "Identifier",
               "start": 454,
@@ -1053,7 +1084,6 @@ __ESTREE_TEST__:PASS:
             "type": "BinaryExpression",
             "start": 472,
             "end": 494,
-            "operator": "**",
             "left": {
               "type": "Identifier",
               "start": 472,
@@ -1063,19 +1093,22 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
+            "operator": "**",
             "right": {
               "type": "BinaryExpression",
               "start": 478,
               "end": 494,
-              "operator": "**",
               "left": {
                 "type": "UnaryExpression",
                 "start": 479,
                 "end": 484,
+                "operator": "-",
                 "argument": {
                   "type": "UpdateExpression",
                   "start": 480,
                   "end": 484,
+                  "operator": "++",
+                  "prefix": false,
                   "argument": {
                     "type": "Identifier",
                     "start": 480,
@@ -1084,17 +1117,16 @@ __ESTREE_TEST__:PASS:
                     "name": "t1",
                     "optional": false,
                     "typeAnnotation": null
-                  },
-                  "operator": "++",
-                  "prefix": false
+                  }
                 },
-                "operator": "-",
                 "prefix": true
               },
+              "operator": "**",
               "right": {
                 "type": "UnaryExpression",
                 "start": 490,
                 "end": 494,
+                "operator": "-",
                 "argument": {
                   "type": "Identifier",
                   "start": 492,
@@ -1104,65 +1136,64 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "operator": "-",
                 "prefix": true
               }
             }
           }
-        ],
-        "quasis": [
-          {
-            "type": "TemplateElement",
-            "start": 435,
-            "end": 438,
-            "tail": false,
-            "value": {
-              "cooked": "",
-              "raw": ""
-            }
-          },
-          {
-            "type": "TemplateElement",
-            "start": 456,
-            "end": 472,
-            "tail": false,
-            "value": {
-              "cooked": " hello world ",
-              "raw": " hello world "
-            }
-          },
-          {
-            "type": "TemplateElement",
-            "start": 494,
-            "end": 496,
-            "tail": true,
-            "value": {
-              "cooked": "",
-              "raw": ""
-            }
-          }
         ]
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 498,
       "end": 560,
-      "directive": null,
       "expression": {
         "type": "TemplateLiteral",
         "start": 498,
         "end": 559,
+        "quasis": [
+          {
+            "type": "TemplateElement",
+            "start": 498,
+            "end": 501,
+            "value": {
+              "cooked": "",
+              "raw": ""
+            },
+            "tail": false
+          },
+          {
+            "type": "TemplateElement",
+            "start": 521,
+            "end": 537,
+            "value": {
+              "cooked": " hello world ",
+              "raw": " hello world "
+            },
+            "tail": false
+          },
+          {
+            "type": "TemplateElement",
+            "start": 557,
+            "end": 559,
+            "value": {
+              "cooked": "",
+              "raw": ""
+            },
+            "tail": true
+          }
+        ],
         "expressions": [
           {
             "type": "BinaryExpression",
             "start": 501,
             "end": 520,
-            "operator": "**",
             "left": {
               "type": "UnaryExpression",
               "start": 502,
               "end": 505,
+              "operator": "~",
               "argument": {
                 "type": "Identifier",
                 "start": 503,
@@ -1172,14 +1203,13 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "operator": "~",
               "prefix": true
             },
+            "operator": "**",
             "right": {
               "type": "BinaryExpression",
               "start": 510,
               "end": 520,
-              "operator": "**",
               "left": {
                 "type": "Identifier",
                 "start": 510,
@@ -1189,10 +1219,13 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
+              "operator": "**",
               "right": {
                 "type": "UpdateExpression",
                 "start": 516,
                 "end": 520,
+                "operator": "--",
+                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 518,
@@ -1201,9 +1234,7 @@ __ESTREE_TEST__:PASS:
                   "name": "t1",
                   "optional": false,
                   "typeAnnotation": null
-                },
-                "operator": "--",
-                "prefix": true
+                }
               }
             }
           },
@@ -1211,11 +1242,11 @@ __ESTREE_TEST__:PASS:
             "type": "BinaryExpression",
             "start": 537,
             "end": 556,
-            "operator": "**",
             "left": {
               "type": "UnaryExpression",
               "start": 538,
               "end": 541,
+              "operator": "~",
               "argument": {
                 "type": "Identifier",
                 "start": 539,
@@ -1225,14 +1256,13 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "operator": "~",
               "prefix": true
             },
+            "operator": "**",
             "right": {
               "type": "BinaryExpression",
               "start": 546,
               "end": 556,
-              "operator": "**",
               "left": {
                 "type": "Identifier",
                 "start": 546,
@@ -1242,10 +1272,13 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
+              "operator": "**",
               "right": {
                 "type": "UpdateExpression",
                 "start": 552,
                 "end": 556,
+                "operator": "--",
+                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 554,
@@ -1254,66 +1287,64 @@ __ESTREE_TEST__:PASS:
                   "name": "t1",
                   "optional": false,
                   "typeAnnotation": null
-                },
-                "operator": "--",
-                "prefix": true
+                }
               }
             }
           }
-        ],
-        "quasis": [
-          {
-            "type": "TemplateElement",
-            "start": 498,
-            "end": 501,
-            "tail": false,
-            "value": {
-              "cooked": "",
-              "raw": ""
-            }
-          },
-          {
-            "type": "TemplateElement",
-            "start": 521,
-            "end": 537,
-            "tail": false,
-            "value": {
-              "cooked": " hello world ",
-              "raw": " hello world "
-            }
-          },
-          {
-            "type": "TemplateElement",
-            "start": 557,
-            "end": 559,
-            "tail": true,
-            "value": {
-              "cooked": "",
-              "raw": ""
-            }
-          }
         ]
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 561,
       "end": 629,
-      "directive": null,
       "expression": {
         "type": "TemplateLiteral",
         "start": 561,
         "end": 628,
+        "quasis": [
+          {
+            "type": "TemplateElement",
+            "start": 561,
+            "end": 564,
+            "value": {
+              "cooked": "",
+              "raw": ""
+            },
+            "tail": false
+          },
+          {
+            "type": "TemplateElement",
+            "start": 587,
+            "end": 603,
+            "value": {
+              "cooked": " hello world ",
+              "raw": " hello world "
+            },
+            "tail": false
+          },
+          {
+            "type": "TemplateElement",
+            "start": 626,
+            "end": 628,
+            "value": {
+              "cooked": "",
+              "raw": ""
+            },
+            "tail": true
+          }
+        ],
         "expressions": [
           {
             "type": "UnaryExpression",
             "start": 564,
             "end": 587,
+            "operator": "typeof",
             "argument": {
               "type": "BinaryExpression",
               "start": 572,
               "end": 586,
-              "operator": "**",
               "left": {
                 "type": "Identifier",
                 "start": 572,
@@ -1323,11 +1354,11 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
+              "operator": "**",
               "right": {
                 "type": "BinaryExpression",
                 "start": 578,
                 "end": 586,
-                "operator": "**",
                 "left": {
                   "type": "Identifier",
                   "start": 578,
@@ -1337,6 +1368,7 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
+                "operator": "**",
                 "right": {
                   "type": "Identifier",
                   "start": 584,
@@ -1348,18 +1380,17 @@ __ESTREE_TEST__:PASS:
                 }
               }
             },
-            "operator": "typeof",
             "prefix": true
           },
           {
             "type": "UnaryExpression",
             "start": 603,
             "end": 626,
+            "operator": "typeof",
             "argument": {
               "type": "BinaryExpression",
               "start": 611,
               "end": 625,
-              "operator": "**",
               "left": {
                 "type": "Identifier",
                 "start": 611,
@@ -1369,11 +1400,11 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
+              "operator": "**",
               "right": {
                 "type": "BinaryExpression",
                 "start": 617,
                 "end": 625,
-                "operator": "**",
                 "left": {
                   "type": "Identifier",
                   "start": 617,
@@ -1383,6 +1414,7 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
+                "operator": "**",
                 "right": {
                   "type": "Identifier",
                   "start": 623,
@@ -1394,68 +1426,56 @@ __ESTREE_TEST__:PASS:
                 }
               }
             },
-            "operator": "typeof",
             "prefix": true
           }
-        ],
-        "quasis": [
-          {
-            "type": "TemplateElement",
-            "start": 561,
-            "end": 564,
-            "tail": false,
-            "value": {
-              "cooked": "",
-              "raw": ""
-            }
-          },
-          {
-            "type": "TemplateElement",
-            "start": 587,
-            "end": 603,
-            "tail": false,
-            "value": {
-              "cooked": " hello world ",
-              "raw": " hello world "
-            }
-          },
-          {
-            "type": "TemplateElement",
-            "start": 626,
-            "end": 628,
-            "tail": true,
-            "value": {
-              "cooked": "",
-              "raw": ""
-            }
-          }
         ]
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 652,
       "end": 680,
-      "directive": null,
       "expression": {
         "type": "TemplateLiteral",
         "start": 652,
         "end": 679,
+        "quasis": [
+          {
+            "type": "TemplateElement",
+            "start": 652,
+            "end": 661,
+            "value": {
+              "cooked": "hello ",
+              "raw": "hello "
+            },
+            "tail": false
+          },
+          {
+            "type": "TemplateElement",
+            "start": 677,
+            "end": 679,
+            "value": {
+              "cooked": "",
+              "raw": ""
+            },
+            "tail": true
+          }
+        ],
         "expressions": [
           {
             "type": "BinaryExpression",
             "start": 661,
             "end": 677,
-            "operator": "-",
             "left": {
               "type": "BinaryExpression",
               "start": 661,
               "end": 672,
-              "operator": "**",
               "left": {
                 "type": "UnaryExpression",
                 "start": 662,
                 "end": 665,
+                "operator": "-",
                 "argument": {
                   "type": "Identifier",
                   "start": 663,
@@ -1465,9 +1485,9 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "operator": "-",
                 "prefix": true
               },
+              "operator": "**",
               "right": {
                 "type": "Identifier",
                 "start": 670,
@@ -1478,6 +1498,7 @@ __ESTREE_TEST__:PASS:
                 "typeAnnotation": null
               }
             },
+            "operator": "-",
             "right": {
               "type": "Identifier",
               "start": 675,
@@ -1488,59 +1509,60 @@ __ESTREE_TEST__:PASS:
               "typeAnnotation": null
             }
           }
-        ],
-        "quasis": [
-          {
-            "type": "TemplateElement",
-            "start": 652,
-            "end": 661,
-            "tail": false,
-            "value": {
-              "cooked": "hello ",
-              "raw": "hello "
-            }
-          },
-          {
-            "type": "TemplateElement",
-            "start": 677,
-            "end": 679,
-            "tail": true,
-            "value": {
-              "cooked": "",
-              "raw": ""
-            }
-          }
         ]
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 681,
       "end": 711,
-      "directive": null,
       "expression": {
         "type": "TemplateLiteral",
         "start": 681,
         "end": 710,
+        "quasis": [
+          {
+            "type": "TemplateElement",
+            "start": 681,
+            "end": 690,
+            "value": {
+              "cooked": "hello ",
+              "raw": "hello "
+            },
+            "tail": false
+          },
+          {
+            "type": "TemplateElement",
+            "start": 708,
+            "end": 710,
+            "value": {
+              "cooked": "",
+              "raw": ""
+            },
+            "tail": true
+          }
+        ],
         "expressions": [
           {
             "type": "BinaryExpression",
             "start": 690,
             "end": 708,
-            "operator": "-",
             "left": {
               "type": "BinaryExpression",
               "start": 690,
               "end": 703,
-              "operator": "**",
               "left": {
                 "type": "UnaryExpression",
                 "start": 691,
                 "end": 696,
+                "operator": "-",
                 "argument": {
                   "type": "UpdateExpression",
                   "start": 692,
                   "end": 696,
+                  "operator": "++",
+                  "prefix": true,
                   "argument": {
                     "type": "Identifier",
                     "start": 694,
@@ -1549,13 +1571,11 @@ __ESTREE_TEST__:PASS:
                     "name": "t1",
                     "optional": false,
                     "typeAnnotation": null
-                  },
-                  "operator": "++",
-                  "prefix": true
+                  }
                 },
-                "operator": "-",
                 "prefix": true
               },
+              "operator": "**",
               "right": {
                 "type": "Identifier",
                 "start": 701,
@@ -1566,6 +1586,7 @@ __ESTREE_TEST__:PASS:
                 "typeAnnotation": null
               }
             },
+            "operator": "-",
             "right": {
               "type": "Identifier",
               "start": 706,
@@ -1576,59 +1597,60 @@ __ESTREE_TEST__:PASS:
               "typeAnnotation": null
             }
           }
-        ],
-        "quasis": [
-          {
-            "type": "TemplateElement",
-            "start": 681,
-            "end": 690,
-            "tail": false,
-            "value": {
-              "cooked": "hello ",
-              "raw": "hello "
-            }
-          },
-          {
-            "type": "TemplateElement",
-            "start": 708,
-            "end": 710,
-            "tail": true,
-            "value": {
-              "cooked": "",
-              "raw": ""
-            }
-          }
         ]
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 712,
       "end": 742,
-      "directive": null,
       "expression": {
         "type": "TemplateLiteral",
         "start": 712,
         "end": 741,
+        "quasis": [
+          {
+            "type": "TemplateElement",
+            "start": 712,
+            "end": 721,
+            "value": {
+              "cooked": "hello ",
+              "raw": "hello "
+            },
+            "tail": false
+          },
+          {
+            "type": "TemplateElement",
+            "start": 739,
+            "end": 741,
+            "value": {
+              "cooked": "",
+              "raw": ""
+            },
+            "tail": true
+          }
+        ],
         "expressions": [
           {
             "type": "BinaryExpression",
             "start": 721,
             "end": 739,
-            "operator": "-",
             "left": {
               "type": "BinaryExpression",
               "start": 721,
               "end": 734,
-              "operator": "**",
               "left": {
                 "type": "UnaryExpression",
                 "start": 722,
                 "end": 727,
+                "operator": "-",
                 "argument": {
                   "type": "UpdateExpression",
                   "start": 723,
                   "end": 727,
+                  "operator": "++",
+                  "prefix": false,
                   "argument": {
                     "type": "Identifier",
                     "start": 723,
@@ -1637,13 +1659,11 @@ __ESTREE_TEST__:PASS:
                     "name": "t1",
                     "optional": false,
                     "typeAnnotation": null
-                  },
-                  "operator": "++",
-                  "prefix": false
+                  }
                 },
-                "operator": "-",
                 "prefix": true
               },
+              "operator": "**",
               "right": {
                 "type": "Identifier",
                 "start": 732,
@@ -1654,6 +1674,7 @@ __ESTREE_TEST__:PASS:
                 "typeAnnotation": null
               }
             },
+            "operator": "-",
             "right": {
               "type": "Identifier",
               "start": 737,
@@ -1664,50 +1685,50 @@ __ESTREE_TEST__:PASS:
               "typeAnnotation": null
             }
           }
-        ],
-        "quasis": [
-          {
-            "type": "TemplateElement",
-            "start": 712,
-            "end": 721,
-            "tail": false,
-            "value": {
-              "cooked": "hello ",
-              "raw": "hello "
-            }
-          },
-          {
-            "type": "TemplateElement",
-            "start": 739,
-            "end": 741,
-            "tail": true,
-            "value": {
-              "cooked": "",
-              "raw": ""
-            }
-          }
         ]
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 743,
       "end": 775,
-      "directive": null,
       "expression": {
         "type": "TemplateLiteral",
         "start": 743,
         "end": 774,
+        "quasis": [
+          {
+            "type": "TemplateElement",
+            "start": 743,
+            "end": 752,
+            "value": {
+              "cooked": "hello ",
+              "raw": "hello "
+            },
+            "tail": false
+          },
+          {
+            "type": "TemplateElement",
+            "start": 772,
+            "end": 774,
+            "value": {
+              "cooked": "",
+              "raw": ""
+            },
+            "tail": true
+          }
+        ],
         "expressions": [
           {
             "type": "BinaryExpression",
             "start": 752,
             "end": 771,
-            "operator": "**",
             "left": {
               "type": "UnaryExpression",
               "start": 753,
               "end": 756,
+              "operator": "~",
               "argument": {
                 "type": "Identifier",
                 "start": 754,
@@ -1717,14 +1738,13 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "operator": "~",
               "prefix": true
             },
+            "operator": "**",
             "right": {
               "type": "BinaryExpression",
               "start": 761,
               "end": 771,
-              "operator": "**",
               "left": {
                 "type": "Identifier",
                 "start": 761,
@@ -1734,10 +1754,13 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
+              "operator": "**",
               "right": {
                 "type": "UpdateExpression",
                 "start": 767,
                 "end": 771,
+                "operator": "--",
+                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 769,
@@ -1746,56 +1769,54 @@ __ESTREE_TEST__:PASS:
                   "name": "t1",
                   "optional": false,
                   "typeAnnotation": null
-                },
-                "operator": "--",
-                "prefix": true
+                }
               }
             }
           }
-        ],
-        "quasis": [
-          {
-            "type": "TemplateElement",
-            "start": 743,
-            "end": 752,
-            "tail": false,
-            "value": {
-              "cooked": "hello ",
-              "raw": "hello "
-            }
-          },
-          {
-            "type": "TemplateElement",
-            "start": 772,
-            "end": 774,
-            "tail": true,
-            "value": {
-              "cooked": "",
-              "raw": ""
-            }
-          }
         ]
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 776,
       "end": 811,
-      "directive": null,
       "expression": {
         "type": "TemplateLiteral",
         "start": 776,
         "end": 810,
+        "quasis": [
+          {
+            "type": "TemplateElement",
+            "start": 776,
+            "end": 785,
+            "value": {
+              "cooked": "hello ",
+              "raw": "hello "
+            },
+            "tail": false
+          },
+          {
+            "type": "TemplateElement",
+            "start": 808,
+            "end": 810,
+            "value": {
+              "cooked": "",
+              "raw": ""
+            },
+            "tail": true
+          }
+        ],
         "expressions": [
           {
             "type": "UnaryExpression",
             "start": 785,
             "end": 808,
+            "operator": "typeof",
             "argument": {
               "type": "BinaryExpression",
               "start": 793,
               "end": 807,
-              "operator": "**",
               "left": {
                 "type": "Identifier",
                 "start": 793,
@@ -1805,11 +1826,11 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
+              "operator": "**",
               "right": {
                 "type": "BinaryExpression",
                 "start": 799,
                 "end": 807,
-                "operator": "**",
                 "left": {
                   "type": "Identifier",
                   "start": 799,
@@ -1819,6 +1840,7 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
+                "operator": "**",
                 "right": {
                   "type": "Identifier",
                   "start": 805,
@@ -1830,33 +1852,11 @@ __ESTREE_TEST__:PASS:
                 }
               }
             },
-            "operator": "typeof",
             "prefix": true
           }
-        ],
-        "quasis": [
-          {
-            "type": "TemplateElement",
-            "start": 776,
-            "end": 785,
-            "tail": false,
-            "value": {
-              "cooked": "hello ",
-              "raw": "hello "
-            }
-          },
-          {
-            "type": "TemplateElement",
-            "start": 808,
-            "end": 810,
-            "tail": true,
-            "value": {
-              "cooked": "",
-              "raw": ""
-            }
-          }
         ]
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

@@ -9,11 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 19,
       "end": 52,
-      "attributes": [],
       "declaration": {
         "type": "TSEnumDeclaration",
         "start": 26,
         "end": 52,
+        "id": {
+          "type": "Identifier",
+          "start": 31,
+          "end": 36,
+          "decorators": [],
+          "name": "Color",
+          "optional": false,
+          "typeAnnotation": null
+        },
         "body": {
           "type": "TSEnumBody",
           "start": 37,
@@ -23,7 +31,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSEnumMember",
               "start": 43,
               "end": 44,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 43,
@@ -33,13 +40,13 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "initializer": null
+              "initializer": null,
+              "computed": false
             },
             {
               "type": "TSEnumMember",
               "start": 46,
               "end": 47,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 46,
@@ -49,13 +56,13 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "initializer": null
+              "initializer": null,
+              "computed": false
             },
             {
               "type": "TSEnumMember",
               "start": 49,
               "end": 50,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 49,
@@ -65,25 +72,18 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "initializer": null
+              "initializer": null,
+              "computed": false
             }
           ]
         },
         "const": false,
-        "declare": false,
-        "id": {
-          "type": "Identifier",
-          "start": 31,
-          "end": 36,
-          "decorators": [],
-          "name": "Color",
-          "optional": false,
-          "typeAnnotation": null
-        }
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

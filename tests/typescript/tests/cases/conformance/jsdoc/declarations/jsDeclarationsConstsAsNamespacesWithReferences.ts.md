@@ -9,17 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 52,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
         "end": 52,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 13,
             "end": 51,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 13,
@@ -38,7 +37,7 @@ __ESTREE_TEST__:PASS:
                   "type": "Property",
                   "start": 28,
                   "end": 48,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 28,
@@ -48,44 +47,44 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "kind": "init",
-                  "method": false,
-                  "optional": false,
-                  "shorthand": false,
                   "value": {
                     "type": "Literal",
                     "start": 39,
                     "end": 48,
-                    "raw": "\"#6400e4\"",
-                    "value": "#6400e4"
-                  }
+                    "value": "#6400e4",
+                    "raw": "\"#6400e4\""
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "optional": false
                 }
               ]
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 54,
       "end": 115,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 61,
         "end": 115,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 67,
             "end": 114,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 67,
@@ -104,7 +103,7 @@ __ESTREE_TEST__:PASS:
                   "type": "Property",
                   "start": 87,
                   "end": 111,
-                  "computed": false,
+                  "kind": "init",
                   "key": {
                     "type": "Identifier",
                     "start": 87,
@@ -114,15 +113,10 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "kind": "init",
-                  "method": false,
-                  "optional": false,
-                  "shorthand": false,
                   "value": {
                     "type": "MemberExpression",
                     "start": 95,
                     "end": 111,
-                    "computed": false,
                     "object": {
                       "type": "Identifier",
                       "start": 95,
@@ -132,7 +126,6 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "optional": false,
                     "property": {
                       "type": "Identifier",
                       "start": 102,
@@ -141,19 +134,26 @@ __ESTREE_TEST__:PASS:
                       "name": "royalBlue",
                       "optional": false,
                       "typeAnnotation": null
-                    }
-                  }
+                    },
+                    "optional": false,
+                    "computed": false
+                  },
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "optional": false
                 }
               ]
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 19,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 12,
           "end": 18,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
@@ -33,27 +33,35 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "IfStatement",
       "start": 20,
       "end": 42,
-      "alternate": null,
+      "test": {
+        "type": "Identifier",
+        "start": 24,
+        "end": 25,
+        "decorators": [],
+        "name": "x",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "consequent": {
         "type": "VariableDeclaration",
         "start": 27,
         "end": 42,
+        "kind": "using",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 33,
             "end": 41,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 33,
@@ -67,23 +75,15 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 37,
               "end": 41,
-              "raw": "null",
-              "value": null
-            }
+              "value": null,
+              "raw": "null"
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "using"
+        "declare": false
       },
-      "test": {
-        "type": "Identifier",
-        "start": 24,
-        "end": 25,
-        "decorators": [],
-        "name": "x",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      "alternate": null
     }
   ],
   "sourceType": "script",

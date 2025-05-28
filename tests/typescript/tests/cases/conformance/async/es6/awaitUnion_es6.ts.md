@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 31,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 12,
           "end": 30,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
@@ -45,22 +45,22 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "let"
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
       "start": 32,
       "end": 89,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 44,
           "end": 88,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 44,
@@ -81,6 +81,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 47,
                     "end": 66,
+                    "typeName": {
+                      "type": "Identifier",
+                      "start": 47,
+                      "end": 58,
+                      "decorators": [],
+                      "name": "PromiseLike",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
                     "typeArguments": {
                       "type": "TSTypeParameterInstantiation",
                       "start": 58,
@@ -92,21 +101,21 @@ __ESTREE_TEST__:PASS:
                           "end": 65
                         }
                       ]
-                    },
-                    "typeName": {
-                      "type": "Identifier",
-                      "start": 47,
-                      "end": 58,
-                      "decorators": [],
-                      "name": "PromiseLike",
-                      "optional": false,
-                      "typeAnnotation": null
                     }
                   },
                   {
                     "type": "TSTypeReference",
                     "start": 69,
                     "end": 88,
+                    "typeName": {
+                      "type": "Identifier",
+                      "start": 69,
+                      "end": 80,
+                      "decorators": [],
+                      "name": "PromiseLike",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
                     "typeArguments": {
                       "type": "TSTypeParameterInstantiation",
                       "start": 80,
@@ -118,37 +127,28 @@ __ESTREE_TEST__:PASS:
                           "end": 87
                         }
                       ]
-                    },
-                    "typeName": {
-                      "type": "Identifier",
-                      "start": 69,
-                      "end": 80,
-                      "decorators": [],
-                      "name": "PromiseLike",
-                      "optional": false,
-                      "typeAnnotation": null
                     }
                   }
                 ]
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "let"
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
       "start": 90,
       "end": 134,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 102,
           "end": 133,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 102,
@@ -164,6 +164,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 105,
                 "end": 133,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 105,
+                  "end": 116,
+                  "decorators": [],
+                  "name": "PromiseLike",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 116,
@@ -187,35 +196,26 @@ __ESTREE_TEST__:PASS:
                       ]
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 105,
-                  "end": 116,
-                  "decorators": [],
-                  "name": "PromiseLike",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "let"
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
       "start": 135,
       "end": 179,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 147,
           "end": 178,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 147,
@@ -241,6 +241,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 159,
                     "end": 178,
+                    "typeName": {
+                      "type": "Identifier",
+                      "start": 159,
+                      "end": 170,
+                      "decorators": [],
+                      "name": "PromiseLike",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
                     "typeArguments": {
                       "type": "TSTypeParameterInstantiation",
                       "start": 170,
@@ -252,37 +261,28 @@ __ESTREE_TEST__:PASS:
                           "end": 177
                         }
                       ]
-                    },
-                    "typeName": {
-                      "type": "Identifier",
-                      "start": 159,
-                      "end": 170,
-                      "decorators": [],
-                      "name": "PromiseLike",
-                      "optional": false,
-                      "typeAnnotation": null
                     }
                   }
                 ]
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "let"
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
       "start": 180,
       "end": 233,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 192,
           "end": 232,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 192,
@@ -308,6 +308,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 204,
                     "end": 232,
+                    "typeName": {
+                      "type": "Identifier",
+                      "start": 204,
+                      "end": 215,
+                      "decorators": [],
+                      "name": "PromiseLike",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
                     "typeArguments": {
                       "type": "TSTypeParameterInstantiation",
                       "start": 215,
@@ -331,32 +340,37 @@ __ESTREE_TEST__:PASS:
                           ]
                         }
                       ]
-                    },
-                    "typeName": {
-                      "type": "Identifier",
-                      "start": 204,
-                      "end": 215,
-                      "decorators": [],
-                      "name": "PromiseLike",
-                      "optional": false,
-                      "typeAnnotation": null
                     }
                   }
                 ]
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "let"
+      "declare": true
     },
     {
       "type": "FunctionDeclaration",
       "start": 234,
       "end": 376,
+      "id": {
+        "type": "Identifier",
+        "start": 249,
+        "end": 250,
+        "decorators": [],
+        "name": "f",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": true,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 253,
@@ -366,12 +380,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 256,
             "end": 278,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 260,
                 "end": 277,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 260,
@@ -394,22 +408,22 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   }
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "declare": false
           },
           {
             "type": "VariableDeclaration",
             "start": 280,
             "end": 302,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 284,
                 "end": 301,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 284,
@@ -432,22 +446,22 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   }
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "declare": false
           },
           {
             "type": "VariableDeclaration",
             "start": 304,
             "end": 326,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 308,
                 "end": 325,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 308,
@@ -470,22 +484,22 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   }
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "declare": false
           },
           {
             "type": "VariableDeclaration",
             "start": 328,
             "end": 350,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 332,
                 "end": 349,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 332,
@@ -508,22 +522,22 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   }
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "declare": false
           },
           {
             "type": "VariableDeclaration",
             "start": 352,
             "end": 374,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 356,
                 "end": 373,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 356,
@@ -546,29 +560,15 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   }
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "declare": false
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 249,
-        "end": 250,
-        "decorators": [],
-        "name": "f",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

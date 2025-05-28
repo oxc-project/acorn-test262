@@ -18,7 +18,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 11,
@@ -27,10 +26,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 19,
           "end": 29,
-          "raw": "\"./j.json\"",
-          "value": "./j.json"
+          "value": "./j.json",
+          "raw": "\"./j.json\""
         }
-      }
+      },
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

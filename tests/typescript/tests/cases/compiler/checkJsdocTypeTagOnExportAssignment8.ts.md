@@ -29,7 +29,7 @@ __ESTREE_TEST__:PASS:
             "type": "Property",
             "start": 110,
             "end": 116,
-            "computed": false,
+            "kind": "init",
             "key": {
               "type": "Identifier",
               "start": 110,
@@ -39,23 +39,23 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "init",
-            "method": false,
-            "optional": false,
-            "shorthand": false,
             "value": {
               "type": "Literal",
               "start": 113,
               "end": 116,
-              "raw": "'a'",
-              "value": "a"
-            }
+              "value": "a",
+              "raw": "'a'"
+            },
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "optional": false
           },
           {
             "type": "Property",
             "start": 122,
             "end": 128,
-            "computed": false,
+            "kind": "init",
             "key": {
               "type": "Identifier",
               "start": 122,
@@ -65,17 +65,17 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "init",
-            "method": false,
-            "optional": false,
-            "shorthand": false,
             "value": {
               "type": "Literal",
               "start": 125,
               "end": 128,
-              "raw": "'b'",
-              "value": "b"
-            }
+              "value": "b",
+              "raw": "'b'"
+            },
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "optional": false
           }
         ]
       },

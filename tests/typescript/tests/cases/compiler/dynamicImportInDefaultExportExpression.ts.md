@@ -18,7 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "Property",
             "start": 21,
             "end": 86,
-            "computed": false,
+            "kind": "init",
             "key": {
               "type": "Identifier",
               "start": 21,
@@ -28,15 +28,17 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "init",
-            "method": false,
-            "optional": false,
-            "shorthand": false,
             "value": {
               "type": "FunctionExpression",
               "start": 34,
               "end": 86,
+              "id": null,
+              "generator": false,
               "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
               "body": {
                 "type": "BlockStatement",
                 "start": 46,
@@ -50,27 +52,25 @@ __ESTREE_TEST__:PASS:
                       "type": "ImportExpression",
                       "start": 63,
                       "end": 79,
-                      "options": null,
                       "source": {
                         "type": "Literal",
                         "start": 70,
                         "end": 78,
-                        "raw": "'./foo2'",
-                        "value": "./foo2"
+                        "value": "./foo2",
+                        "raw": "'./foo2'"
                       },
+                      "options": null,
                       "phase": null
                     }
                   }
                 ]
               },
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
+              "expression": false
+            },
+            "method": false,
+            "shorthand": false,
+            "computed": false,
+            "optional": false
           }
         ]
       },

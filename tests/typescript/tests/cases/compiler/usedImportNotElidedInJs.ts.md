@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 12,
       "end": 45,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 36,
-        "end": 44,
-        "raw": "'moment'",
-        "value": "moment"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -33,21 +25,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 36,
+        "end": 44,
+        "value": "moment",
+        "raw": "'moment'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 46,
       "end": 89,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 80,
-        "end": 88,
-        "raw": "'moment'",
-        "value": "moment"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -64,24 +56,31 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 80,
+        "end": 88,
+        "value": "moment",
+        "raw": "'moment'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 90,
       "end": 144,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 97,
         "end": 144,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 103,
             "end": 143,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 103,
@@ -95,7 +94,6 @@ __ESTREE_TEST__:PASS:
               "type": "LogicalExpression",
               "start": 112,
               "end": 143,
-              "operator": "||",
               "left": {
                 "type": "Identifier",
                 "start": 112,
@@ -105,6 +103,7 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
+              "operator": "||",
               "right": {
                 "type": "Identifier",
                 "start": 137,
@@ -114,15 +113,16 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               }
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

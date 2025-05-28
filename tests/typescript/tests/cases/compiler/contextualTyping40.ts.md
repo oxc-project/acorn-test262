@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 67,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 66,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,38 +28,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeAssertion",
             "start": 10,
             "end": 66,
-            "expression": {
-              "type": "FunctionExpression",
-              "start": 45,
-              "end": 66,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 55,
-                "end": 66,
-                "body": [
-                  {
-                    "type": "ReturnStatement",
-                    "start": 56,
-                    "end": 65,
-                    "argument": {
-                      "type": "Literal",
-                      "start": 63,
-                      "end": 64,
-                      "raw": "1",
-                      "value": 1
-                    }
-                  }
-                ]
-              },
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            },
             "typeAnnotation": {
               "type": "TSTypeLiteral",
               "start": 11,
@@ -69,6 +37,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSCallSignatureDeclaration",
                   "start": 12,
                   "end": 22,
+                  "typeParameters": null,
                   "params": [],
                   "returnType": {
                     "type": "TSTypeAnnotation",
@@ -79,13 +48,13 @@ __ESTREE_TEST__:PASS:
                       "start": 15,
                       "end": 21
                     }
-                  },
-                  "typeParameters": null
+                  }
                 },
                 {
                   "type": "TSCallSignatureDeclaration",
                   "start": 23,
                   "end": 41,
+                  "typeParameters": null,
                   "params": [
                     {
                       "type": "Identifier",
@@ -115,16 +84,47 @@ __ESTREE_TEST__:PASS:
                       "start": 34,
                       "end": 40
                     }
-                  },
-                  "typeParameters": null
+                  }
                 }
               ]
+            },
+            "expression": {
+              "type": "FunctionExpression",
+              "start": 45,
+              "end": 66,
+              "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
+              "body": {
+                "type": "BlockStatement",
+                "start": 55,
+                "end": 66,
+                "body": [
+                  {
+                    "type": "ReturnStatement",
+                    "start": 56,
+                    "end": 65,
+                    "argument": {
+                      "type": "Literal",
+                      "start": 63,
+                      "end": 64,
+                      "value": 1,
+                      "raw": "1"
+                    }
+                  }
+                ]
+              },
+              "expression": false
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

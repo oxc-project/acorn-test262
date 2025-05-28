@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 28,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 27,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -34,8 +34,8 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 9,
                   "end": 18,
-                  "raw": "\"AB\\r\\nC\"",
-                  "value": "AB\r\nC"
+                  "value": "AB\r\nC",
+                  "raw": "\"AB\\r\\nC\""
                 }
               }
             }
@@ -44,35 +44,35 @@ __ESTREE_TEST__:PASS:
             "type": "TemplateLiteral",
             "start": 21,
             "end": 27,
-            "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
                 "start": 21,
                 "end": 27,
-                "tail": true,
                 "value": {
                   "cooked": "AB\nC",
                   "raw": "AB\nC"
-                }
+                },
+                "tail": true
               }
-            ]
-          }
+            ],
+            "expressions": []
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 29,
       "end": 70,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 33,
           "end": 69,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 33,
@@ -92,8 +92,8 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 47,
                   "end": 54,
-                  "raw": "\"DE\\nF\"",
-                  "value": "DE\nF"
+                  "value": "DE\nF",
+                  "raw": "\"DE\\nF\""
                 }
               }
             }
@@ -102,42 +102,42 @@ __ESTREE_TEST__:PASS:
             "type": "TemplateLiteral",
             "start": 57,
             "end": 69,
-            "expressions": [
-              {
-                "type": "Literal",
-                "start": 62,
-                "end": 66,
-                "raw": "\"\\n\"",
-                "value": "\n"
-              }
-            ],
             "quasis": [
               {
                 "type": "TemplateElement",
                 "start": 57,
                 "end": 62,
-                "tail": false,
                 "value": {
                   "cooked": "DE",
                   "raw": "DE"
-                }
+                },
+                "tail": false
               },
               {
                 "type": "TemplateElement",
                 "start": 66,
                 "end": 69,
-                "tail": true,
                 "value": {
                   "cooked": "F",
                   "raw": "F"
-                }
+                },
+                "tail": true
+              }
+            ],
+            "expressions": [
+              {
+                "type": "Literal",
+                "start": 62,
+                "end": 66,
+                "value": "\n",
+                "raw": "\"\\n\""
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "declare": false
     }
   ],
   "sourceType": "script",

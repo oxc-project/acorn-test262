@@ -9,7 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 76,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 11,
+        "decorators": [],
+        "name": "g",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": true,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 14,
@@ -19,26 +33,40 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 20,
             "end": 28,
-            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 20,
               "end": 27,
+              "delegate": false,
               "argument": {
                 "type": "Literal",
                 "start": 26,
                 "end": 27,
-                "raw": "0",
-                "value": 0
-              },
-              "delegate": false
-            }
+                "value": 0,
+                "raw": "0"
+              }
+            },
+            "directive": null
           },
           {
             "type": "FunctionDeclaration",
             "start": 33,
             "end": 74,
+            "id": {
+              "type": "Identifier",
+              "start": 43,
+              "end": 45,
+              "decorators": [],
+              "name": "g2",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "generator": true,
             "async": false,
+            "declare": false,
+            "typeParameters": null,
+            "params": [],
+            "returnType": null,
             "body": {
               "type": "BlockStatement",
               "start": 48,
@@ -52,45 +80,17 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 65,
                     "end": 67,
-                    "raw": "\"\"",
-                    "value": ""
+                    "value": "",
+                    "raw": "\"\""
                   }
                 }
               ]
             },
-            "declare": false,
-            "expression": false,
-            "generator": true,
-            "id": {
-              "type": "Identifier",
-              "start": 43,
-              "end": 45,
-              "decorators": [],
-              "name": "g2",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
+            "expression": false
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": true,
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 11,
-        "decorators": [],
-        "name": "g",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

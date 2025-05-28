@@ -9,11 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 44,
-      "attributes": [],
       "declaration": {
         "type": "TSEnumDeclaration",
         "start": 7,
         "end": 44,
+        "id": {
+          "type": "Identifier",
+          "start": 12,
+          "end": 16,
+          "decorators": [],
+          "name": "Enum",
+          "optional": false,
+          "typeAnnotation": null
+        },
         "body": {
           "type": "TSEnumBody",
           "start": 17,
@@ -23,7 +31,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSEnumMember",
               "start": 23,
               "end": 29,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 23,
@@ -33,13 +40,13 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "initializer": null
+              "initializer": null,
+              "computed": false
             },
             {
               "type": "TSEnumMember",
               "start": 35,
               "end": 41,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 35,
@@ -49,25 +56,18 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "initializer": null
+              "initializer": null,
+              "computed": false
             }
           ]
         },
         "const": false,
-        "declare": false,
-        "id": {
-          "type": "Identifier",
-          "start": 12,
-          "end": 16,
-          "decorators": [],
-          "name": "Enum",
-          "optional": false,
-          "typeAnnotation": null
-        }
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -94,7 +94,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 18,
@@ -103,26 +102,26 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 26,
           "end": 38,
-          "raw": "'./provider'",
-          "value": "./provider"
+          "value": "./provider",
+          "raw": "'./provider'"
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 42,
       "end": 84,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 49,
         "end": 84,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 55,
             "end": 83,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 55,
@@ -136,12 +135,10 @@ __ESTREE_TEST__:PASS:
               "type": "MemberExpression",
               "start": 63,
               "end": 83,
-              "computed": false,
               "object": {
                 "type": "MemberExpression",
                 "start": 63,
                 "end": 76,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 63,
@@ -151,7 +148,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 72,
@@ -160,9 +156,10 @@ __ESTREE_TEST__:PASS:
                   "name": "Enum",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 77,
@@ -171,16 +168,19 @@ __ESTREE_TEST__:PASS:
                 "name": "Value1",
                 "optional": false,
                 "typeAnnotation": null
-              }
-            }
+              },
+              "optional": false,
+              "computed": false
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

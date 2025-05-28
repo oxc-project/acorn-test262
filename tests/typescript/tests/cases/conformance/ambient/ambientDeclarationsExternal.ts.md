@@ -9,7 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 50,
       "end": 101,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 65,
+        "end": 70,
+        "value": "equ",
+        "raw": "'equ'"
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 71,
@@ -19,12 +25,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 77,
             "end": 83,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 81,
                 "end": 82,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 81,
@@ -34,11 +40,11 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           },
           {
             "type": "TSExportAssignment",
@@ -56,21 +62,21 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 65,
-        "end": 70,
-        "raw": "'equ'",
-        "value": "equ"
-      }
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 103,
       "end": 147,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 118,
+        "end": 124,
+        "value": "equ2",
+        "raw": "'equ2'"
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 125,
@@ -80,12 +86,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 131,
             "end": 145,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 135,
                 "end": 144,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 135,
@@ -104,23 +110,17 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 118,
-        "end": 124,
-        "raw": "'equ2'",
-        "value": "equ2"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -147,7 +147,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 48,
@@ -156,10 +155,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 56,
           "end": 61,
-          "raw": "'equ'",
-          "value": "equ"
+          "value": "equ",
+          "raw": "'equ'"
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -174,7 +174,6 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 202,
@@ -183,21 +182,22 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 210,
           "end": 216,
-          "raw": "'equ2'",
-          "value": "equ2"
+          "value": "equ2",
+          "raw": "'equ2'"
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
       "start": 219,
       "end": 234,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 223,
           "end": 233,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 223,
@@ -211,7 +211,6 @@ __ESTREE_TEST__:PASS:
             "type": "MemberExpression",
             "start": 227,
             "end": 233,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 227,
@@ -221,7 +220,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 232,
@@ -230,23 +228,25 @@ __ESTREE_TEST__:PASS:
               "name": "x",
               "optional": false,
               "typeAnnotation": null
-            }
-          }
+            },
+            "optional": false,
+            "computed": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 235,
       "end": 249,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 239,
           "end": 248,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 239,
@@ -265,11 +265,11 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "module",

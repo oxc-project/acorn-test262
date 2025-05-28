@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 51,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 25,
-        "end": 50,
-        "raw": "'./utilities/positioning'",
-        "value": "./utilities/positioning"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -31,7 +23,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
@@ -40,29 +31,29 @@ __ESTREE_TEST__:PASS:
             "name": "Position",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 25,
+        "end": 50,
+        "value": "./utilities/positioning",
+        "raw": "'./utilities/positioning'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 52,
       "end": 83,
-      "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
         "start": 59,
         "end": 83,
-        "body": {
-          "type": "TSInterfaceBody",
-          "start": 81,
-          "end": 83,
-          "body": []
-        },
-        "declare": false,
-        "extends": [],
         "id": {
           "type": "Identifier",
           "start": 69,
@@ -72,11 +63,20 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "typeParameters": null
+        "typeParameters": null,
+        "extends": [],
+        "body": {
+          "type": "TSInterfaceBody",
+          "start": 81,
+          "end": 83,
+          "body": []
+        },
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -94,16 +94,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExportAllDeclaration",
       "start": 0,
       "end": 36,
-      "attributes": [],
       "exported": null,
-      "exportKind": "value",
       "source": {
         "type": "Literal",
         "start": 14,
         "end": 35,
-        "raw": "'./positioning/index'",
-        "value": "./positioning/index"
-      }
+        "value": "./positioning/index",
+        "raw": "'./positioning/index'"
+      },
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
@@ -121,11 +121,19 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 41,
-      "attributes": [],
       "declaration": {
         "type": "TSEnumDeclaration",
         "start": 7,
         "end": 41,
+        "id": {
+          "type": "Identifier",
+          "start": 20,
+          "end": 28,
+          "decorators": [],
+          "name": "Position",
+          "optional": false,
+          "typeAnnotation": null
+        },
         "body": {
           "type": "TSEnumBody",
           "start": 29,
@@ -135,7 +143,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSEnumMember",
               "start": 35,
               "end": 38,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 35,
@@ -145,25 +152,18 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "initializer": null
+              "initializer": null,
+              "computed": false
             }
           ]
         },
         "const": false,
-        "declare": true,
-        "id": {
-          "type": "Identifier",
-          "start": 20,
-          "end": 28,
-          "decorators": [],
-          "name": "Position",
-          "optional": false,
-          "typeAnnotation": null
-        }
+        "declare": true
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -181,14 +181,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 46,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 28,
-        "end": 45,
-        "raw": "\"troublesome-lib\"",
-        "value": "troublesome-lib"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -203,7 +195,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
@@ -212,11 +203,20 @@ __ESTREE_TEST__:PASS:
             "name": "ISpinButton",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 28,
+        "end": 45,
+        "value": "troublesome-lib",
+        "raw": "\"troublesome-lib\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

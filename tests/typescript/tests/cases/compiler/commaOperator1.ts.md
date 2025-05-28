@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 35,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 34,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -38,22 +38,22 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 11,
                     "end": 12,
-                    "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 14,
                     "end": 15,
-                    "raw": "2",
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   },
                   {
                     "type": "Literal",
                     "start": 17,
                     "end": 18,
-                    "raw": "3",
-                    "value": 3
+                    "value": 3,
+                    "raw": "3"
                   }
                 ]
               },
@@ -61,15 +61,15 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 21,
                 "end": 22,
-                "raw": "4",
-                "value": 4
+                "value": 4,
+                "raw": "4"
               },
               {
                 "type": "Literal",
                 "start": 24,
                 "end": 25,
-                "raw": "5",
-                "value": 5
+                "value": 5,
+                "raw": "5"
               },
               {
                 "type": "SequenceExpression",
@@ -80,30 +80,44 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 28,
                     "end": 29,
-                    "raw": "6",
-                    "value": 6
+                    "value": 6,
+                    "raw": "6"
                   },
                   {
                     "type": "Literal",
                     "start": 31,
                     "end": 32,
-                    "raw": "7",
-                    "value": 7
+                    "value": 7,
+                    "raw": "7"
                   }
                 ]
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 36,
       "end": 89,
+      "id": {
+        "type": "Identifier",
+        "start": 45,
+        "end": 47,
+        "decorators": [],
+        "name": "f1",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 50,
@@ -113,12 +127,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 56,
             "end": 66,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 60,
                 "end": 65,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 60,
@@ -132,13 +146,13 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 64,
                   "end": 65,
-                  "raw": "1",
-                  "value": 1
-                }
+                  "value": 1,
+                  "raw": "1"
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           },
           {
             "type": "ReturnStatement",
@@ -181,21 +195,7 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 45,
-        "end": 47,
-        "decorators": [],
-        "name": "f1",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

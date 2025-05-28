@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSTypeAliasDeclaration",
       "start": 0,
       "end": 36,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 5,
@@ -19,25 +18,40 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "typeParameters": {
+        "type": "TSTypeParameterDeclaration",
+        "start": 6,
+        "end": 24,
+        "params": [
+          {
+            "type": "TSTypeParameter",
+            "start": 7,
+            "end": 23,
+            "name": {
+              "type": "Identifier",
+              "start": 7,
+              "end": 8,
+              "decorators": [],
+              "name": "I",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": {
+              "type": "TSNumberKeyword",
+              "start": 17,
+              "end": 23
+            },
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          }
+        ]
+      },
       "typeAnnotation": {
         "type": "TSIndexedAccessType",
         "start": 27,
         "end": 35,
-        "indexType": {
-          "type": "TSTypeReference",
-          "start": 33,
-          "end": 34,
-          "typeArguments": null,
-          "typeName": {
-            "type": "Identifier",
-            "start": 33,
-            "end": 34,
-            "decorators": [],
-            "name": "I",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
         "objectType": {
           "type": "TSTupleType",
           "start": 27,
@@ -51,43 +65,29 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 28,
                 "end": 31,
-                "raw": "'a'",
-                "value": "a"
+                "value": "a",
+                "raw": "'a'"
               }
             }
           ]
+        },
+        "indexType": {
+          "type": "TSTypeReference",
+          "start": 33,
+          "end": 34,
+          "typeName": {
+            "type": "Identifier",
+            "start": 33,
+            "end": 34,
+            "decorators": [],
+            "name": "I",
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
       },
-      "typeParameters": {
-        "type": "TSTypeParameterDeclaration",
-        "start": 6,
-        "end": 24,
-        "params": [
-          {
-            "type": "TSTypeParameter",
-            "start": 7,
-            "end": 23,
-            "const": false,
-            "constraint": {
-              "type": "TSNumberKeyword",
-              "start": 17,
-              "end": 23
-            },
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 7,
-              "end": 8,
-              "decorators": [],
-              "name": "I",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          }
-        ]
-      }
+      "declare": false
     }
   ],
   "sourceType": "script",

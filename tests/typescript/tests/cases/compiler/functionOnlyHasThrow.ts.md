@@ -9,7 +9,30 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 66,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 14,
+        "decorators": [],
+        "name": "clone",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": {
+        "type": "TSTypeAnnotation",
+        "start": 16,
+        "end": 23,
+        "typeAnnotation": {
+          "type": "TSNumberKeyword",
+          "start": 17,
+          "end": 23
+        }
+      },
       "body": {
         "type": "BlockStatement",
         "start": 24,
@@ -23,15 +46,6 @@ __ESTREE_TEST__:PASS:
               "type": "NewExpression",
               "start": 33,
               "end": 63,
-              "arguments": [
-                {
-                  "type": "Literal",
-                  "start": 43,
-                  "end": 62,
-                  "raw": "\"To be implemented\"",
-                  "value": "To be implemented"
-                }
-              ],
               "callee": {
                 "type": "Identifier",
                 "start": 37,
@@ -41,35 +55,21 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "typeArguments": null
+              "typeArguments": null,
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 43,
+                  "end": 62,
+                  "value": "To be implemented",
+                  "raw": "\"To be implemented\""
+                }
+              ]
             }
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 14,
-        "decorators": [],
-        "name": "clone",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": {
-        "type": "TSTypeAnnotation",
-        "start": 16,
-        "end": 23,
-        "typeAnnotation": {
-          "type": "TSNumberKeyword",
-          "start": 17,
-          "end": 23
-        }
-      },
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

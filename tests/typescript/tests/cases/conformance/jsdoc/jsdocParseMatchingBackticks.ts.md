@@ -9,111 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 386,
       "end": 480,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 393,
         "end": 480,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 433,
-          "end": 480,
-          "body": [
-            {
-              "type": "ReturnStatement",
-              "start": 439,
-              "end": 478,
-              "argument": {
-                "type": "BinaryExpression",
-                "start": 446,
-                "end": 478,
-                "operator": "+",
-                "left": {
-                  "type": "BinaryExpression",
-                  "start": 446,
-                  "end": 470,
-                  "operator": "+",
-                  "left": {
-                    "type": "BinaryExpression",
-                    "start": 446,
-                    "end": 463,
-                    "operator": "+",
-                    "left": {
-                      "type": "BinaryExpression",
-                      "start": 446,
-                      "end": 455,
-                      "operator": "+",
-                      "left": {
-                        "type": "BinaryExpression",
-                        "start": 446,
-                        "end": 451,
-                        "operator": "+",
-                        "left": {
-                          "type": "Identifier",
-                          "start": 446,
-                          "end": 447,
-                          "decorators": [],
-                          "name": "x",
-                          "optional": false,
-                          "typeAnnotation": null
-                        },
-                        "right": {
-                          "type": "Identifier",
-                          "start": 450,
-                          "end": 451,
-                          "decorators": [],
-                          "name": "y",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
-                      },
-                      "right": {
-                        "type": "Identifier",
-                        "start": 454,
-                        "end": 455,
-                        "decorators": [],
-                        "name": "z",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    },
-                    "right": {
-                      "type": "Identifier",
-                      "start": 458,
-                      "end": 463,
-                      "decorators": [],
-                      "name": "alpha",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  },
-                  "right": {
-                    "type": "Identifier",
-                    "start": 466,
-                    "end": 470,
-                    "decorators": [],
-                    "name": "beta",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "right": {
-                  "type": "Identifier",
-                  "start": 473,
-                  "end": 478,
-                  "decorators": [],
-                  "name": "gamma",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            }
-          ]
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 402,
@@ -123,6 +22,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [
           {
             "type": "Identifier",
@@ -180,11 +83,108 @@ __ESTREE_TEST__:PASS:
           }
         ],
         "returnType": null,
-        "typeParameters": null
+        "body": {
+          "type": "BlockStatement",
+          "start": 433,
+          "end": 480,
+          "body": [
+            {
+              "type": "ReturnStatement",
+              "start": 439,
+              "end": 478,
+              "argument": {
+                "type": "BinaryExpression",
+                "start": 446,
+                "end": 478,
+                "left": {
+                  "type": "BinaryExpression",
+                  "start": 446,
+                  "end": 470,
+                  "left": {
+                    "type": "BinaryExpression",
+                    "start": 446,
+                    "end": 463,
+                    "left": {
+                      "type": "BinaryExpression",
+                      "start": 446,
+                      "end": 455,
+                      "left": {
+                        "type": "BinaryExpression",
+                        "start": 446,
+                        "end": 451,
+                        "left": {
+                          "type": "Identifier",
+                          "start": 446,
+                          "end": 447,
+                          "decorators": [],
+                          "name": "x",
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
+                        "operator": "+",
+                        "right": {
+                          "type": "Identifier",
+                          "start": 450,
+                          "end": 451,
+                          "decorators": [],
+                          "name": "y",
+                          "optional": false,
+                          "typeAnnotation": null
+                        }
+                      },
+                      "operator": "+",
+                      "right": {
+                        "type": "Identifier",
+                        "start": 454,
+                        "end": 455,
+                        "decorators": [],
+                        "name": "z",
+                        "optional": false,
+                        "typeAnnotation": null
+                      }
+                    },
+                    "operator": "+",
+                    "right": {
+                      "type": "Identifier",
+                      "start": 458,
+                      "end": 463,
+                      "decorators": [],
+                      "name": "alpha",
+                      "optional": false,
+                      "typeAnnotation": null
+                    }
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Identifier",
+                    "start": 466,
+                    "end": 470,
+                    "decorators": [],
+                    "name": "beta",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                },
+                "operator": "+",
+                "right": {
+                  "type": "Identifier",
+                  "start": 473,
+                  "end": 478,
+                  "decorators": [],
+                  "name": "gamma",
+                  "optional": false,
+                  "typeAnnotation": null
+                }
+              }
+            }
+          ]
+        },
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",

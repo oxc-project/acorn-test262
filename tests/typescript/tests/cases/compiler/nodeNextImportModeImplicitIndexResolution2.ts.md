@@ -9,11 +9,11 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 10,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -31,11 +31,11 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 10,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -53,11 +53,11 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 10,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -75,11 +75,11 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 10,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -97,14 +97,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 28,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 19,
-        "end": 27,
-        "raw": "\"dedent\"",
-        "value": "dedent"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -121,21 +113,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 19,
+        "end": 27,
+        "value": "dedent",
+        "raw": "\"dedent\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 29,
       "end": 59,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 49,
-        "end": 58,
-        "raw": "\"dedent2\"",
-        "value": "dedent2"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -152,21 +144,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 49,
+        "end": 58,
+        "value": "dedent2",
+        "raw": "\"dedent2\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 60,
       "end": 90,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 80,
-        "end": 89,
-        "raw": "\"dedent3\"",
-        "value": "dedent3"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -183,21 +175,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 80,
+        "end": 89,
+        "value": "dedent3",
+        "raw": "\"dedent3\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 91,
       "end": 121,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 111,
-        "end": 120,
-        "raw": "\"dedent4\"",
-        "value": "dedent4"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -214,8 +206,16 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 111,
+        "end": 120,
+        "value": "dedent4",
+        "raw": "\"dedent4\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",
@@ -233,14 +233,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 28,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 19,
-        "end": 27,
-        "raw": "\"dedent\"",
-        "value": "dedent"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -257,21 +249,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 19,
+        "end": 27,
+        "value": "dedent",
+        "raw": "\"dedent\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 29,
       "end": 59,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 49,
-        "end": 58,
-        "raw": "\"dedent2\"",
-        "value": "dedent2"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -288,21 +280,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 49,
+        "end": 58,
+        "value": "dedent2",
+        "raw": "\"dedent2\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 60,
       "end": 90,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 80,
-        "end": 89,
-        "raw": "\"dedent3\"",
-        "value": "dedent3"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -319,21 +311,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 80,
+        "end": 89,
+        "value": "dedent3",
+        "raw": "\"dedent3\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 91,
       "end": 121,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 111,
-        "end": 120,
-        "raw": "\"dedent4\"",
-        "value": "dedent4"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -350,8 +342,16 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 111,
+        "end": 120,
+        "value": "dedent4",
+        "raw": "\"dedent4\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

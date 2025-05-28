@@ -9,24 +9,23 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 17,
       "end": 87,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 23,
           "end": 86,
-          "definite": false,
           "id": {
             "type": "ObjectPattern",
             "start": 23,
             "end": 32,
             "decorators": [],
-            "optional": false,
             "properties": [
               {
                 "type": "Property",
                 "start": 25,
                 "end": 30,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 25,
@@ -36,10 +35,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": true,
                 "value": {
                   "type": "Identifier",
                   "start": 25,
@@ -48,21 +43,29 @@ __ESTREE_TEST__:PASS:
                   "name": "value",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "method": false,
+                "shorthand": true,
+                "computed": false,
+                "optional": false
               }
             ],
+            "optional": false,
             "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
             "start": 35,
             "end": 86,
-            "arguments": [],
             "callee": {
               "type": "ArrowFunctionExpression",
               "start": 36,
               "end": 83,
+              "expression": true,
               "async": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
               "body": {
                 "type": "ObjectExpression",
                 "start": 43,
@@ -72,7 +75,7 @@ __ESTREE_TEST__:PASS:
                     "type": "Property",
                     "start": 47,
                     "end": 56,
-                    "computed": false,
+                    "kind": "init",
                     "key": {
                       "type": "Identifier",
                       "start": 47,
@@ -82,17 +85,17 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "kind": "init",
-                    "method": false,
-                    "optional": false,
-                    "shorthand": false,
                     "value": {
                       "type": "Literal",
                       "start": 54,
                       "end": 56,
-                      "raw": "\"\"",
-                      "value": ""
-                    }
+                      "value": "",
+                      "raw": "\"\""
+                    },
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "optional": false
                   },
                   {
                     "type": "SpreadElement",
@@ -102,11 +105,12 @@ __ESTREE_TEST__:PASS:
                       "type": "ConditionalExpression",
                       "start": 64,
                       "end": 78,
-                      "alternate": {
-                        "type": "ObjectExpression",
-                        "start": 76,
-                        "end": 78,
-                        "properties": []
+                      "test": {
+                        "type": "Literal",
+                        "start": 64,
+                        "end": 68,
+                        "value": true,
+                        "raw": "true"
                       },
                       "consequent": {
                         "type": "ObjectExpression",
@@ -114,54 +118,49 @@ __ESTREE_TEST__:PASS:
                         "end": 73,
                         "properties": []
                       },
-                      "test": {
-                        "type": "Literal",
-                        "start": 64,
-                        "end": 68,
-                        "raw": "true",
-                        "value": true
+                      "alternate": {
+                        "type": "ObjectExpression",
+                        "start": 76,
+                        "end": 78,
+                        "properties": []
                       }
                     }
                   }
                 ]
               },
-              "expression": true,
-              "generator": false,
               "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
+              "generator": false
             },
-            "optional": false,
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "arguments": [],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 127,
       "end": 195,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 133,
           "end": 194,
-          "definite": false,
           "id": {
             "type": "ObjectPattern",
             "start": 133,
             "end": 143,
             "decorators": [],
-            "optional": false,
             "properties": [
               {
                 "type": "Property",
                 "start": 135,
                 "end": 141,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 135,
@@ -171,10 +170,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": true,
                 "value": {
                   "type": "Identifier",
                   "start": 135,
@@ -183,9 +178,14 @@ __ESTREE_TEST__:PASS:
                   "name": "value2",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "method": false,
+                "shorthand": true,
+                "computed": false,
+                "optional": false
               }
             ],
+            "optional": false,
             "typeAnnotation": null
           },
           "init": {
@@ -197,7 +197,7 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 150,
                 "end": 160,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 150,
@@ -207,17 +207,17 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Literal",
                   "start": 158,
                   "end": 160,
-                  "raw": "\"\"",
-                  "value": ""
-                }
+                  "value": "",
+                  "raw": "\"\""
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "optional": false
               },
               {
                 "type": "SpreadElement",
@@ -227,21 +227,25 @@ __ESTREE_TEST__:PASS:
                   "type": "CallExpression",
                   "start": 167,
                   "end": 191,
-                  "arguments": [],
                   "callee": {
                     "type": "ArrowFunctionExpression",
                     "start": 168,
                     "end": 188,
+                    "expression": true,
                     "async": false,
+                    "typeParameters": null,
+                    "params": [],
+                    "returnType": null,
                     "body": {
                       "type": "ConditionalExpression",
                       "start": 174,
                       "end": 188,
-                      "alternate": {
-                        "type": "ObjectExpression",
-                        "start": 186,
-                        "end": 188,
-                        "properties": []
+                      "test": {
+                        "type": "Literal",
+                        "start": 174,
+                        "end": 178,
+                        "value": true,
+                        "raw": "true"
                       },
                       "consequent": {
                         "type": "ObjectExpression",
@@ -249,31 +253,27 @@ __ESTREE_TEST__:PASS:
                         "end": 183,
                         "properties": []
                       },
-                      "test": {
-                        "type": "Literal",
-                        "start": 174,
-                        "end": 178,
-                        "raw": "true",
-                        "value": true
+                      "alternate": {
+                        "type": "ObjectExpression",
+                        "start": 186,
+                        "end": 188,
+                        "properties": []
                       }
                     },
-                    "expression": true,
-                    "generator": false,
                     "id": null,
-                    "params": [],
-                    "returnType": null,
-                    "typeParameters": null
+                    "generator": false
                   },
-                  "optional": false,
-                  "typeArguments": null
+                  "typeArguments": null,
+                  "arguments": [],
+                  "optional": false
                 }
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "script",

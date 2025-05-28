@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSEnumDeclaration",
       "start": 0,
       "end": 25,
+      "id": {
+        "type": "Identifier",
+        "start": 5,
+        "end": 6,
+        "decorators": [],
+        "name": "E",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSEnumBody",
         "start": 7,
@@ -18,7 +27,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 10,
             "end": 15,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 10,
@@ -32,15 +40,15 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 14,
               "end": 15,
-              "raw": "1",
-              "value": 1
-            }
+              "value": 1,
+              "raw": "1"
+            },
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 18,
             "end": 19,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 18,
@@ -50,13 +58,13 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 22,
             "end": 23,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 22,
@@ -66,37 +74,26 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           }
         ]
       },
       "const": false,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 5,
-        "end": 6,
-        "decorators": [],
-        "name": "E",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 244,
       "end": 250,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 244,
         "end": 249,
-        "computed": false,
         "object": {
           "type": "MemberExpression",
           "start": 244,
           "end": 247,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 244,
@@ -106,7 +103,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 246,
@@ -115,9 +111,10 @@ __ESTREE_TEST__:PASS:
             "name": "A",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 248,
@@ -126,13 +123,25 @@ __ESTREE_TEST__:PASS:
           "name": "A",
           "optional": false,
           "typeAnnotation": null
-        }
-      }
+        },
+        "optional": false,
+        "computed": false
+      },
+      "directive": null
     },
     {
       "type": "TSEnumDeclaration",
       "start": 269,
       "end": 288,
+      "id": {
+        "type": "Identifier",
+        "start": 274,
+        "end": 276,
+        "decorators": [],
+        "name": "E2",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSEnumBody",
         "start": 277,
@@ -142,7 +151,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 280,
             "end": 281,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 280,
@@ -152,13 +160,13 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 284,
             "end": 285,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 284,
@@ -168,26 +176,27 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           }
         ]
       },
       "const": false,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 274,
-        "end": 276,
-        "decorators": [],
-        "name": "E2",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      "declare": false
     },
     {
       "type": "TSEnumDeclaration",
       "start": 290,
       "end": 353,
+      "id": {
+        "type": "Identifier",
+        "start": 295,
+        "end": 297,
+        "decorators": [],
+        "name": "E2",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSEnumBody",
         "start": 298,
@@ -197,7 +206,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 345,
             "end": 346,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 345,
@@ -207,13 +215,13 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 349,
             "end": 350,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 349,
@@ -223,21 +231,13 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           }
         ]
       },
       "const": false,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 295,
-        "end": 297,
-        "decorators": [],
-        "name": "E2",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      "declare": false
     }
   ],
   "sourceType": "script",

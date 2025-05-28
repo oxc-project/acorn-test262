@@ -9,6 +9,9 @@ __ESTREE_TEST__:PASS:
       "type": "ForStatement",
       "start": 0,
       "end": 27,
+      "init": null,
+      "test": null,
+      "update": null,
       "body": {
         "type": "BlockStatement",
         "start": 10,
@@ -21,19 +24,28 @@ __ESTREE_TEST__:PASS:
             "label": null
           }
         ]
-      },
-      "init": null,
-      "test": null,
-      "update": null
+      }
     },
     {
       "type": "LabeledStatement",
       "start": 29,
       "end": 65,
+      "label": {
+        "type": "Identifier",
+        "start": 29,
+        "end": 32,
+        "decorators": [],
+        "name": "ONE",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "ForStatement",
         "start": 34,
         "end": 65,
+        "init": null,
+        "test": null,
+        "update": null,
         "body": {
           "type": "BlockStatement",
           "start": 44,
@@ -54,33 +66,42 @@ __ESTREE_TEST__:PASS:
               }
             }
           ]
-        },
-        "init": null,
-        "test": null,
-        "update": null
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 29,
-        "end": 32,
-        "decorators": [],
-        "name": "ONE",
-        "optional": false,
-        "typeAnnotation": null
+        }
       }
     },
     {
       "type": "LabeledStatement",
       "start": 67,
       "end": 112,
+      "label": {
+        "type": "Identifier",
+        "start": 67,
+        "end": 70,
+        "decorators": [],
+        "name": "TWO",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "LabeledStatement",
         "start": 72,
         "end": 112,
+        "label": {
+          "type": "Identifier",
+          "start": 72,
+          "end": 77,
+          "decorators": [],
+          "name": "THREE",
+          "optional": false,
+          "typeAnnotation": null
+        },
         "body": {
           "type": "ForStatement",
           "start": 79,
           "end": 112,
+          "init": null,
+          "test": null,
+          "update": null,
           "body": {
             "type": "BlockStatement",
             "start": 89,
@@ -101,39 +122,30 @@ __ESTREE_TEST__:PASS:
                 }
               }
             ]
-          },
-          "init": null,
-          "test": null,
-          "update": null
-        },
-        "label": {
-          "type": "Identifier",
-          "start": 72,
-          "end": 77,
-          "decorators": [],
-          "name": "THREE",
-          "optional": false,
-          "typeAnnotation": null
+          }
         }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 67,
-        "end": 70,
-        "decorators": [],
-        "name": "TWO",
-        "optional": false,
-        "typeAnnotation": null
       }
     },
     {
       "type": "LabeledStatement",
       "start": 114,
       "end": 188,
+      "label": {
+        "type": "Identifier",
+        "start": 114,
+        "end": 118,
+        "decorators": [],
+        "name": "FOUR",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "ForStatement",
         "start": 120,
         "end": 188,
+        "init": null,
+        "test": null,
+        "update": null,
         "body": {
           "type": "BlockStatement",
           "start": 130,
@@ -143,10 +155,22 @@ __ESTREE_TEST__:PASS:
               "type": "LabeledStatement",
               "start": 136,
               "end": 186,
+              "label": {
+                "type": "Identifier",
+                "start": 136,
+                "end": 140,
+                "decorators": [],
+                "name": "FIVE",
+                "optional": false,
+                "typeAnnotation": null
+              },
               "body": {
                 "type": "ForStatement",
                 "start": 146,
                 "end": 186,
+                "init": null,
+                "test": null,
+                "update": null,
                 "body": {
                   "type": "BlockStatement",
                   "start": 156,
@@ -167,41 +191,20 @@ __ESTREE_TEST__:PASS:
                       }
                     }
                   ]
-                },
-                "init": null,
-                "test": null,
-                "update": null
-              },
-              "label": {
-                "type": "Identifier",
-                "start": 136,
-                "end": 140,
-                "decorators": [],
-                "name": "FIVE",
-                "optional": false,
-                "typeAnnotation": null
+                }
               }
             }
           ]
-        },
-        "init": null,
-        "test": null,
-        "update": null
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 114,
-        "end": 118,
-        "decorators": [],
-        "name": "FOUR",
-        "optional": false,
-        "typeAnnotation": null
+        }
       }
     },
     {
       "type": "ForStatement",
       "start": 190,
       "end": 240,
+      "init": null,
+      "test": null,
+      "update": null,
       "body": {
         "type": "BlockStatement",
         "start": 200,
@@ -211,10 +214,22 @@ __ESTREE_TEST__:PASS:
             "type": "LabeledStatement",
             "start": 206,
             "end": 238,
+            "label": {
+              "type": "Identifier",
+              "start": 206,
+              "end": 209,
+              "decorators": [],
+              "name": "SIX",
+              "optional": false,
+              "typeAnnotation": null
+            },
             "body": {
               "type": "ForStatement",
               "start": 215,
               "end": 238,
+              "init": null,
+              "test": null,
+              "update": null,
               "body": {
                 "type": "ContinueStatement",
                 "start": 225,
@@ -228,43 +243,46 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 }
-              },
-              "init": null,
-              "test": null,
-              "update": null
-            },
-            "label": {
-              "type": "Identifier",
-              "start": 206,
-              "end": 209,
-              "decorators": [],
-              "name": "SIX",
-              "optional": false,
-              "typeAnnotation": null
+              }
             }
           }
         ]
-      },
-      "init": null,
-      "test": null,
-      "update": null
+      }
     },
     {
       "type": "LabeledStatement",
       "start": 242,
       "end": 294,
+      "label": {
+        "type": "Identifier",
+        "start": 242,
+        "end": 247,
+        "decorators": [],
+        "name": "SEVEN",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "ForStatement",
         "start": 249,
         "end": 294,
+        "init": null,
+        "test": null,
+        "update": null,
         "body": {
           "type": "ForStatement",
           "start": 259,
           "end": 294,
+          "init": null,
+          "test": null,
+          "update": null,
           "body": {
             "type": "ForStatement",
             "start": 269,
             "end": 294,
+            "init": null,
+            "test": null,
+            "update": null,
             "body": {
               "type": "ContinueStatement",
               "start": 279,
@@ -278,37 +296,31 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               }
-            },
-            "init": null,
-            "test": null,
-            "update": null
-          },
-          "init": null,
-          "test": null,
-          "update": null
-        },
-        "init": null,
-        "test": null,
-        "update": null
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 242,
-        "end": 247,
-        "decorators": [],
-        "name": "SEVEN",
-        "optional": false,
-        "typeAnnotation": null
+            }
+          }
+        }
       }
     },
     {
       "type": "LabeledStatement",
       "start": 296,
       "end": 365,
+      "label": {
+        "type": "Identifier",
+        "start": 296,
+        "end": 301,
+        "decorators": [],
+        "name": "EIGHT",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "ForStatement",
         "start": 303,
         "end": 365,
+        "init": null,
+        "test": null,
+        "update": null,
         "body": {
           "type": "BlockStatement",
           "start": 313,
@@ -318,12 +330,12 @@ __ESTREE_TEST__:PASS:
               "type": "VariableDeclaration",
               "start": 319,
               "end": 343,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 323,
                   "end": 343,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 323,
@@ -337,25 +349,25 @@ __ESTREE_TEST__:PASS:
                     "type": "FunctionExpression",
                     "start": 328,
                     "end": 343,
+                    "id": null,
+                    "generator": false,
                     "async": false,
+                    "declare": false,
+                    "typeParameters": null,
+                    "params": [],
+                    "returnType": null,
                     "body": {
                       "type": "BlockStatement",
                       "start": 340,
                       "end": 343,
                       "body": []
                     },
-                    "declare": false,
-                    "expression": false,
-                    "generator": false,
-                    "id": null,
-                    "params": [],
-                    "returnType": null,
-                    "typeParameters": null
-                  }
+                    "expression": false
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "var"
+              "declare": false
             },
             {
               "type": "ContinueStatement",
@@ -372,19 +384,7 @@ __ESTREE_TEST__:PASS:
               }
             }
           ]
-        },
-        "init": null,
-        "test": null,
-        "update": null
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 296,
-        "end": 301,
-        "decorators": [],
-        "name": "EIGHT",
-        "optional": false,
-        "typeAnnotation": null
+        }
       }
     }
   ],

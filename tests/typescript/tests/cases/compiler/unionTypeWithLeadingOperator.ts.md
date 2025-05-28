@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSTypeAliasDeclaration",
       "start": 0,
       "end": 18,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 5,
@@ -19,6 +18,7 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSUnionType",
         "start": 9,
@@ -31,13 +31,12 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 19,
       "end": 80,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 24,
@@ -47,6 +46,7 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSUnionType",
         "start": 30,
@@ -61,8 +61,9 @@ __ESTREE_TEST__:PASS:
                 "type": "TSPropertySignature",
                 "start": 34,
                 "end": 51,
-                "accessibility": null,
                 "computed": false,
+                "optional": false,
+                "readonly": false,
                 "key": {
                   "type": "Identifier",
                   "start": 34,
@@ -72,9 +73,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
-                "readonly": false,
-                "static": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
                   "start": 38,
@@ -87,11 +85,13 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 40,
                       "end": 51,
-                      "raw": "\"INCREMENT\"",
-                      "value": "INCREMENT"
+                      "value": "INCREMENT",
+                      "raw": "\"INCREMENT\""
                     }
                   }
-                }
+                },
+                "accessibility": null,
+                "static": false
               }
             ]
           },
@@ -104,8 +104,9 @@ __ESTREE_TEST__:PASS:
                 "type": "TSPropertySignature",
                 "start": 60,
                 "end": 77,
-                "accessibility": null,
                 "computed": false,
+                "optional": false,
+                "readonly": false,
                 "key": {
                   "type": "Identifier",
                   "start": 60,
@@ -115,9 +116,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
-                "readonly": false,
-                "static": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
                   "start": 64,
@@ -130,23 +128,24 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 66,
                       "end": 77,
-                      "raw": "\"DECREMENT\"",
-                      "value": "DECREMENT"
+                      "value": "DECREMENT",
+                      "raw": "\"DECREMENT\""
                     }
                   }
-                }
+                },
+                "accessibility": null,
+                "static": false
               }
             ]
           }
         ]
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 82,
       "end": 118,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 87,
@@ -156,6 +155,7 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTupleType",
         "start": 91,
@@ -174,8 +174,8 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 94,
                   "end": 95,
-                  "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               },
               {
@@ -186,8 +186,8 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 98,
                   "end": 99,
-                  "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
               }
             ]
@@ -205,8 +205,8 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 103,
                   "end": 108,
-                  "raw": "\"foo\"",
-                  "value": "foo"
+                  "value": "foo",
+                  "raw": "\"foo\""
                 }
               },
               {
@@ -217,26 +217,24 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 111,
                   "end": 116,
-                  "raw": "\"bar\"",
-                  "value": "bar"
+                  "value": "bar",
+                  "raw": "\"bar\""
                 }
               }
             ]
           }
         ]
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 120,
       "end": 219,
-      "attributes": [],
       "declaration": {
         "type": "TSTypeAliasDeclaration",
         "start": 127,
         "end": 219,
-        "declare": false,
         "id": {
           "type": "Identifier",
           "start": 132,
@@ -246,6 +244,7 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "typeParameters": null,
         "typeAnnotation": {
           "type": "TSUnionType",
           "start": 154,
@@ -259,8 +258,8 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 169,
                 "end": 170,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             },
             {
@@ -271,17 +270,18 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 203,
                 "end": 204,
-                "raw": "2",
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             }
           ]
         },
-        "typeParameters": null
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     }
   ],
   "sourceType": "module",

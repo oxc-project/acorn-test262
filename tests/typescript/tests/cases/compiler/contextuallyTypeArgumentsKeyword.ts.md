@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 20,
       "end": 100,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 26,
           "end": 100,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 26,
@@ -33,7 +33,7 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 36,
                 "end": 98,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 36,
@@ -43,15 +43,17 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": true,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "FunctionExpression",
                   "start": 39,
                   "end": 98,
+                  "id": null,
+                  "generator": false,
                   "async": false,
+                  "declare": false,
+                  "typeParameters": null,
+                  "params": [],
+                  "returnType": null,
                   "body": {
                     "type": "BlockStatement",
                     "start": 42,
@@ -61,55 +63,10 @@ __ESTREE_TEST__:PASS:
                         "type": "ExpressionStatement",
                         "start": 52,
                         "end": 92,
-                        "directive": null,
                         "expression": {
                           "type": "CallExpression",
                           "start": 52,
                           "end": 91,
-                          "arguments": [
-                            {
-                              "type": "FunctionExpression",
-                              "start": 63,
-                              "end": 87,
-                              "async": false,
-                              "body": {
-                                "type": "BlockStatement",
-                                "start": 74,
-                                "end": 87,
-                                "body": [
-                                  {
-                                    "type": "ExpressionStatement",
-                                    "start": 76,
-                                    "end": 85,
-                                    "directive": null,
-                                    "expression": {
-                                      "type": "Identifier",
-                                      "start": 76,
-                                      "end": 85,
-                                      "decorators": [],
-                                      "name": "arguments",
-                                      "optional": false,
-                                      "typeAnnotation": null
-                                    }
-                                  }
-                                ]
-                              },
-                              "declare": false,
-                              "expression": false,
-                              "generator": false,
-                              "id": null,
-                              "params": [],
-                              "returnType": null,
-                              "typeParameters": null
-                            },
-                            {
-                              "type": "Literal",
-                              "start": 89,
-                              "end": 90,
-                              "raw": "0",
-                              "value": 0
-                            }
-                          ],
                           "callee": {
                             "type": "Identifier",
                             "start": 52,
@@ -119,27 +76,70 @@ __ESTREE_TEST__:PASS:
                             "optional": false,
                             "typeAnnotation": null
                           },
-                          "optional": false,
-                          "typeArguments": null
-                        }
+                          "typeArguments": null,
+                          "arguments": [
+                            {
+                              "type": "FunctionExpression",
+                              "start": 63,
+                              "end": 87,
+                              "id": null,
+                              "generator": false,
+                              "async": false,
+                              "declare": false,
+                              "typeParameters": null,
+                              "params": [],
+                              "returnType": null,
+                              "body": {
+                                "type": "BlockStatement",
+                                "start": 74,
+                                "end": 87,
+                                "body": [
+                                  {
+                                    "type": "ExpressionStatement",
+                                    "start": 76,
+                                    "end": 85,
+                                    "expression": {
+                                      "type": "Identifier",
+                                      "start": 76,
+                                      "end": 85,
+                                      "decorators": [],
+                                      "name": "arguments",
+                                      "optional": false,
+                                      "typeAnnotation": null
+                                    },
+                                    "directive": null
+                                  }
+                                ]
+                              },
+                              "expression": false
+                            },
+                            {
+                              "type": "Literal",
+                              "start": 89,
+                              "end": 90,
+                              "value": 0,
+                              "raw": "0"
+                            }
+                          ],
+                          "optional": false
+                        },
+                        "directive": null
                       }
                     ]
                   },
-                  "declare": false,
-                  "expression": false,
-                  "generator": false,
-                  "id": null,
-                  "params": [],
-                  "returnType": null,
-                  "typeParameters": null
-                }
+                  "expression": false
+                },
+                "method": true,
+                "shorthand": false,
+                "computed": false,
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "script",

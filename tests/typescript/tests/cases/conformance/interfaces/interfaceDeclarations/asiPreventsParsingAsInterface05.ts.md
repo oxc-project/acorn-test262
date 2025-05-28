@@ -9,25 +9,25 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 12,
-      "directive": "use strict",
       "expression": {
         "type": "Literal",
         "start": 0,
         "end": 12,
-        "raw": "\"use strict\"",
-        "value": "use strict"
-      }
+        "value": "use strict",
+        "raw": "\"use strict\""
+      },
+      "directive": "use strict"
     },
     {
       "type": "VariableDeclaration",
       "start": 14,
       "end": 36,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 18,
           "end": 35,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 18,
@@ -46,17 +46,16 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 365,
       "end": 374,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 365,
@@ -65,13 +64,13 @@ __ESTREE_TEST__:PASS:
         "name": "interface",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 422,
       "end": 423,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 422,
@@ -80,7 +79,8 @@ __ESTREE_TEST__:PASS:
         "name": "I",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "BlockStatement",

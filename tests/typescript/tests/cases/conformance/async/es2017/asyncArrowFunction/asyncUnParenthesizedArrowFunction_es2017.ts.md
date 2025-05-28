@@ -9,11 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 0,
       "end": 58,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 17,
@@ -23,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -51,6 +50,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 44,
           "end": 57,
+          "typeName": {
+            "type": "Identifier",
+            "start": 44,
+            "end": 51,
+            "decorators": [],
+            "name": "Promise",
+            "optional": false,
+            "typeAnnotation": null
+          },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
             "start": 51,
@@ -62,30 +70,22 @@ __ESTREE_TEST__:PASS:
                 "end": 56
               }
             ]
-          },
-          "typeName": {
-            "type": "Identifier",
-            "start": 44,
-            "end": 51,
-            "decorators": [],
-            "name": "Promise",
-            "optional": false,
-            "typeAnnotation": null
           }
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 59,
       "end": 106,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 65,
           "end": 106,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 65,
@@ -99,42 +99,9 @@ __ESTREE_TEST__:PASS:
             "type": "ArrowFunctionExpression",
             "start": 69,
             "end": 106,
-            "async": true,
-            "body": {
-              "type": "AwaitExpression",
-              "start": 80,
-              "end": 106,
-              "argument": {
-                "type": "CallExpression",
-                "start": 86,
-                "end": 106,
-                "arguments": [
-                  {
-                    "type": "Identifier",
-                    "start": 104,
-                    "end": 105,
-                    "decorators": [],
-                    "name": "i",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                ],
-                "callee": {
-                  "type": "Identifier",
-                  "start": 86,
-                  "end": 103,
-                  "decorators": [],
-                  "name": "someOtherFunction",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": true,
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -147,23 +114,56 @@ __ESTREE_TEST__:PASS:
               }
             ],
             "returnType": null,
-            "typeParameters": null
-          }
+            "body": {
+              "type": "AwaitExpression",
+              "start": 80,
+              "end": 106,
+              "argument": {
+                "type": "CallExpression",
+                "start": 86,
+                "end": 106,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 86,
+                  "end": 103,
+                  "decorators": [],
+                  "name": "someOtherFunction",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 104,
+                    "end": 105,
+                    "decorators": [],
+                    "name": "i",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                ],
+                "optional": false
+              }
+            },
+            "id": null,
+            "generator": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 107,
       "end": 158,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 113,
           "end": 157,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 113,
@@ -177,42 +177,9 @@ __ESTREE_TEST__:PASS:
             "type": "ArrowFunctionExpression",
             "start": 118,
             "end": 157,
-            "async": true,
-            "body": {
-              "type": "AwaitExpression",
-              "start": 131,
-              "end": 157,
-              "argument": {
-                "type": "CallExpression",
-                "start": 137,
-                "end": 157,
-                "arguments": [
-                  {
-                    "type": "Identifier",
-                    "start": 155,
-                    "end": 156,
-                    "decorators": [],
-                    "name": "i",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                ],
-                "callee": {
-                  "type": "Identifier",
-                  "start": 137,
-                  "end": 154,
-                  "decorators": [],
-                  "name": "someOtherFunction",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "typeArguments": null
-              }
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": true,
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -225,12 +192,45 @@ __ESTREE_TEST__:PASS:
               }
             ],
             "returnType": null,
-            "typeParameters": null
-          }
+            "body": {
+              "type": "AwaitExpression",
+              "start": 131,
+              "end": 157,
+              "argument": {
+                "type": "CallExpression",
+                "start": 137,
+                "end": 157,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 137,
+                  "end": 154,
+                  "decorators": [],
+                  "name": "someOtherFunction",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "start": 155,
+                    "end": 156,
+                    "decorators": [],
+                    "name": "i",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                ],
+                "optional": false
+              }
+            },
+            "id": null,
+            "generator": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "script",

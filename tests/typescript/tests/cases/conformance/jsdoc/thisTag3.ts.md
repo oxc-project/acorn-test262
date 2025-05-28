@@ -9,7 +9,20 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 47,
       "end": 148,
-      "abstract": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 53,
+        "end": 54,
+        "decorators": [],
+        "name": "C",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
       "body": {
         "type": "ClassBody",
         "start": 55,
@@ -19,11 +32,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 119,
             "end": 146,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
               "start": 119,
@@ -33,71 +42,14 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": null,
             "value": {
               "type": "ArrowFunctionExpression",
               "start": 123,
               "end": 145,
-              "async": false,
-              "body": {
-                "type": "CallExpression",
-                "start": 130,
-                "end": 145,
-                "arguments": [
-                  {
-                    "type": "BinaryExpression",
-                    "start": 138,
-                    "end": 144,
-                    "operator": "+",
-                    "left": {
-                      "type": "Literal",
-                      "start": 138,
-                      "end": 140,
-                      "raw": "\"\"",
-                      "value": ""
-                    },
-                    "right": {
-                      "type": "Identifier",
-                      "start": 143,
-                      "end": 144,
-                      "decorators": [],
-                      "name": "a",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  }
-                ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 130,
-                  "end": 137,
-                  "computed": false,
-                  "object": {
-                    "type": "ThisExpression",
-                    "start": 130,
-                    "end": 134
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 135,
-                    "end": 137,
-                    "decorators": [],
-                    "name": "fn",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              },
               "expression": true,
-              "generator": false,
-              "id": null,
+              "async": false,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -110,26 +62,74 @@ __ESTREE_TEST__:PASS:
                 }
               ],
               "returnType": null,
-              "typeParameters": null
-            }
+              "body": {
+                "type": "CallExpression",
+                "start": 130,
+                "end": 145,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 130,
+                  "end": 137,
+                  "object": {
+                    "type": "ThisExpression",
+                    "start": 130,
+                    "end": 134
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 135,
+                    "end": 137,
+                    "decorators": [],
+                    "name": "fn",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": false,
+                  "computed": false
+                },
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "BinaryExpression",
+                    "start": 138,
+                    "end": 144,
+                    "left": {
+                      "type": "Literal",
+                      "start": 138,
+                      "end": 140,
+                      "value": "",
+                      "raw": "\"\""
+                    },
+                    "operator": "+",
+                    "right": {
+                      "type": "Identifier",
+                      "start": 143,
+                      "end": 144,
+                      "decorators": [],
+                      "name": "a",
+                      "optional": false,
+                      "typeAnnotation": null
+                    }
+                  }
+                ],
+                "optional": false
+              },
+              "id": null,
+              "generator": false
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
-      "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 53,
-        "end": 54,
-        "decorators": [],
-        "name": "C",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

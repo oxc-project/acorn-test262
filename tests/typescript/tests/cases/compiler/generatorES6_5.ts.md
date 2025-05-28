@@ -9,7 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 40,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 13,
+        "decorators": [],
+        "name": "foo",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": true,
       "async": false,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 16,
@@ -19,21 +33,21 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 22,
             "end": 38,
-            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 22,
               "end": 37,
+              "delegate": false,
               "argument": {
                 "type": "ConditionalExpression",
                 "start": 28,
                 "end": 37,
-                "alternate": {
+                "test": {
                   "type": "Identifier",
-                  "start": 36,
-                  "end": 37,
+                  "start": 28,
+                  "end": 29,
                   "decorators": [],
-                  "name": "c",
+                  "name": "a",
                   "optional": false,
                   "typeAnnotation": null
                 },
@@ -46,36 +60,22 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "test": {
+                "alternate": {
                   "type": "Identifier",
-                  "start": 28,
-                  "end": 29,
+                  "start": 36,
+                  "end": 37,
                   "decorators": [],
-                  "name": "a",
+                  "name": "c",
                   "optional": false,
                   "typeAnnotation": null
                 }
-              },
-              "delegate": false
-            }
+              }
+            },
+            "directive": null
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": true,
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 13,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 21,
       "end": 82,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 33,
           "end": 81,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 33,
@@ -40,8 +40,9 @@ __ESTREE_TEST__:PASS:
                         "type": "TSPropertySignature",
                         "start": 37,
                         "end": 51,
-                        "accessibility": null,
                         "computed": false,
+                        "optional": false,
+                        "readonly": false,
                         "key": {
                           "type": "Identifier",
                           "start": 37,
@@ -51,9 +52,6 @@ __ESTREE_TEST__:PASS:
                           "optional": false,
                           "typeAnnotation": null
                         },
-                        "optional": false,
-                        "readonly": false,
-                        "static": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
                           "start": 40,
@@ -63,7 +61,9 @@ __ESTREE_TEST__:PASS:
                             "start": 42,
                             "end": 51
                           }
-                        }
+                        },
+                        "accessibility": null,
+                        "static": false
                       }
                     ]
                   },
@@ -76,11 +76,13 @@ __ESTREE_TEST__:PASS:
                         "type": "TSConstructSignatureDeclaration",
                         "start": 56,
                         "end": 80,
+                        "typeParameters": null,
                         "params": [
                           {
                             "type": "RestElement",
                             "start": 60,
                             "end": 74,
+                            "decorators": [],
                             "argument": {
                               "type": "Identifier",
                               "start": 63,
@@ -90,7 +92,6 @@ __ESTREE_TEST__:PASS:
                               "optional": false,
                               "typeAnnotation": null
                             },
-                            "decorators": [],
                             "optional": false,
                             "typeAnnotation": {
                               "type": "TSTypeAnnotation",
@@ -119,8 +120,7 @@ __ESTREE_TEST__:PASS:
                             "start": 77,
                             "end": 80
                           }
-                        },
-                        "typeParameters": null
+                        }
                       }
                     ]
                   }
@@ -128,22 +128,20 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "let"
+      "declare": true
     },
     {
       "type": "ExpressionStatement",
       "start": 83,
       "end": 91,
-      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 83,
         "end": 90,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 87,
@@ -153,8 +151,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": []
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

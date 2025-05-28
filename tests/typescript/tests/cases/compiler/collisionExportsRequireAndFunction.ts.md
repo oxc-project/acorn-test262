@@ -9,12 +9,25 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 43,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 7,
         "end": 43,
+        "id": {
+          "type": "Identifier",
+          "start": 16,
+          "end": 23,
+          "decorators": [],
+          "name": "exports",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "generator": false,
         "async": false,
+        "declare": false,
+        "typeParameters": null,
+        "params": [],
+        "returnType": null,
         "body": {
           "type": "BlockStatement",
           "start": 26,
@@ -28,42 +41,42 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 39,
                 "end": 40,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             }
           ]
         },
-        "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 16,
-          "end": 23,
-          "decorators": [],
-          "name": "exports",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 44,
       "end": 95,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 51,
         "end": 95,
+        "id": {
+          "type": "Identifier",
+          "start": 60,
+          "end": 67,
+          "decorators": [],
+          "name": "require",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "generator": false,
         "async": false,
+        "declare": false,
+        "typeParameters": null,
+        "params": [],
+        "returnType": null,
         "body": {
           "type": "BlockStatement",
           "start": 70,
@@ -77,36 +90,32 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 83,
                 "end": 92,
-                "raw": "\"require\"",
-                "value": "require"
+                "value": "require",
+                "raw": "\"require\""
               }
             }
           ]
         },
-        "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 60,
-          "end": 67,
-          "decorators": [],
-          "name": "require",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     },
     {
       "type": "TSModuleDeclaration",
       "start": 96,
       "end": 215,
+      "id": {
+        "type": "Identifier",
+        "start": 103,
+        "end": 105,
+        "decorators": [],
+        "name": "m1",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 106,
@@ -116,7 +125,21 @@ __ESTREE_TEST__:PASS:
             "type": "FunctionDeclaration",
             "start": 112,
             "end": 156,
+            "id": {
+              "type": "Identifier",
+              "start": 121,
+              "end": 128,
+              "decorators": [],
+              "name": "exports",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "generator": false,
             "async": false,
+            "declare": false,
+            "typeParameters": null,
+            "params": [],
+            "returnType": null,
             "body": {
               "type": "BlockStatement",
               "start": 131,
@@ -130,33 +153,33 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 148,
                     "end": 149,
-                    "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
                 }
               ]
             },
-            "declare": false,
-            "expression": false,
-            "generator": false,
-            "id": {
-              "type": "Identifier",
-              "start": 121,
-              "end": 128,
-              "decorators": [],
-              "name": "exports",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
+            "expression": false
           },
           {
             "type": "FunctionDeclaration",
             "start": 161,
             "end": 213,
+            "id": {
+              "type": "Identifier",
+              "start": 170,
+              "end": 177,
+              "decorators": [],
+              "name": "require",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "generator": false,
             "async": false,
+            "declare": false,
+            "typeParameters": null,
+            "params": [],
+            "returnType": null,
             "body": {
               "type": "BlockStatement",
               "start": 180,
@@ -170,47 +193,33 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 197,
                     "end": 206,
-                    "raw": "\"require\"",
-                    "value": "require"
+                    "value": "require",
+                    "raw": "\"require\""
                   }
                 }
               ]
             },
-            "declare": false,
-            "expression": false,
-            "generator": false,
-            "id": {
-              "type": "Identifier",
-              "start": 170,
-              "end": 177,
-              "decorators": [],
-              "name": "require",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
+            "expression": false
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 103,
-        "end": 105,
-        "decorators": [],
-        "name": "m1",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 216,
       "end": 349,
+      "id": {
+        "type": "Identifier",
+        "start": 223,
+        "end": 225,
+        "decorators": [],
+        "name": "m2",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 226,
@@ -220,12 +229,25 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 232,
             "end": 283,
-            "attributes": [],
             "declaration": {
               "type": "FunctionDeclaration",
               "start": 239,
               "end": 283,
+              "id": {
+                "type": "Identifier",
+                "start": 248,
+                "end": 255,
+                "decorators": [],
+                "name": "exports",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "generator": false,
               "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
               "body": {
                 "type": "BlockStatement",
                 "start": 258,
@@ -239,42 +261,42 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 275,
                       "end": 276,
-                      "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   }
                 ]
               },
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": {
-                "type": "Identifier",
-                "start": 248,
-                "end": 255,
-                "decorators": [],
-                "name": "exports",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
+              "expression": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
             "start": 288,
             "end": 347,
-            "attributes": [],
             "declaration": {
               "type": "FunctionDeclaration",
               "start": 295,
               "end": 347,
+              "id": {
+                "type": "Identifier",
+                "start": 304,
+                "end": 311,
+                "decorators": [],
+                "name": "require",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "generator": false,
               "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
               "body": {
                 "type": "BlockStatement",
                 "start": 314,
@@ -288,46 +310,24 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 331,
                       "end": 340,
-                      "raw": "\"require\"",
-                      "value": "require"
+                      "value": "require",
+                      "raw": "\"require\""
                     }
                   }
                 ]
               },
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": {
-                "type": "Identifier",
-                "start": 304,
-                "end": 311,
-                "decorators": [],
-                "name": "require",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
+              "expression": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 223,
-        "end": 225,
-        "decorators": [],
-        "name": "m2",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "module",

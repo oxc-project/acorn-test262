@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 38,
+      "id": {
+        "type": "Identifier",
+        "start": 7,
+        "end": 10,
+        "decorators": [],
+        "name": "Baz",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 11,
@@ -18,17 +27,16 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 13,
             "end": 36,
-            "attributes": [],
             "declaration": {
               "type": "VariableDeclaration",
               "start": 20,
               "end": 36,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 24,
                   "end": 35,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 24,
@@ -42,38 +50,29 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 28,
                     "end": 35,
-                    "raw": "\"hello\"",
-                    "value": "hello"
-                  }
+                    "value": "hello",
+                    "raw": "\"hello\""
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "var"
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 7,
-        "end": 10,
-        "decorators": [],
-        "name": "Baz",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     },
     {
       "type": "ExpressionStatement",
       "start": 40,
       "end": 58,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 40,
@@ -83,7 +82,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 40,
           "end": 45,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 40,
@@ -93,7 +91,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 44,
@@ -102,16 +99,19 @@ __ESTREE_TEST__:PASS:
             "name": "x",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
           "start": 48,
           "end": 57,
-          "raw": "\"goodbye\"",
-          "value": "goodbye"
+          "value": "goodbye",
+          "raw": "\"goodbye\""
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

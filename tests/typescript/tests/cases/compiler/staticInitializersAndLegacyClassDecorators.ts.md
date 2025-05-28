@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 56,
       "end": 77,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 68,
           "end": 76,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 68,
@@ -33,65 +33,16 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "declare": true
     },
     {
       "type": "ClassDeclaration",
       "start": 79,
       "end": 128,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 93,
-        "end": 128,
-        "body": [
-          {
-            "type": "PropertyDefinition",
-            "start": 99,
-            "end": 126,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
-            "key": {
-              "type": "Identifier",
-              "start": 106,
-              "end": 114,
-              "decorators": [],
-              "name": "instance",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": true,
-            "typeAnnotation": null,
-            "value": {
-              "type": "NewExpression",
-              "start": 117,
-              "end": 125,
-              "arguments": [],
-              "callee": {
-                "type": "Identifier",
-                "start": 121,
-                "end": 123,
-                "decorators": [],
-                "name": "C1",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "typeArguments": null
-            }
-          }
-        ]
-      },
-      "declare": false,
       "decorators": [
         {
           "type": "Decorator",
@@ -117,53 +68,64 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 93,
+        "end": 128,
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "start": 99,
+            "end": 126,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 106,
+              "end": 114,
+              "decorators": [],
+              "name": "instance",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeAnnotation": null,
+            "value": {
+              "type": "NewExpression",
+              "start": 117,
+              "end": 125,
+              "callee": {
+                "type": "Identifier",
+                "start": 121,
+                "end": 123,
+                "decorators": [],
+                "name": "C1",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeArguments": null,
+              "arguments": []
+            },
+            "computed": false,
+            "static": true,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
+          }
+        ]
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 130,
       "end": 184,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 144,
-        "end": 184,
-        "body": [
-          {
-            "type": "StaticBlock",
-            "start": 150,
-            "end": 182,
-            "body": [
-              {
-                "type": "ExpressionStatement",
-                "start": 167,
-                "end": 176,
-                "directive": null,
-                "expression": {
-                  "type": "NewExpression",
-                  "start": 167,
-                  "end": 175,
-                  "arguments": [],
-                  "callee": {
-                    "type": "Identifier",
-                    "start": 171,
-                    "end": 173,
-                    "decorators": [],
-                    "name": "C2",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "typeArguments": null
-                }
-              }
-            ]
-          }
-        ]
-      },
-      "declare": false,
       "decorators": [
         {
           "type": "Decorator",
@@ -189,10 +151,48 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 144,
+        "end": 184,
+        "body": [
+          {
+            "type": "StaticBlock",
+            "start": 150,
+            "end": 182,
+            "body": [
+              {
+                "type": "ExpressionStatement",
+                "start": 167,
+                "end": 176,
+                "expression": {
+                  "type": "NewExpression",
+                  "start": 167,
+                  "end": 175,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 171,
+                    "end": 173,
+                    "decorators": [],
+                    "name": "C2",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeArguments": null,
+                  "arguments": []
+                },
+                "directive": null
+              }
+            ]
+          }
+        ]
+      },
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

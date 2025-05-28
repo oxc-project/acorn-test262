@@ -9,6 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "WhileStatement",
       "start": 56,
       "end": 167,
+      "test": {
+        "type": "Literal",
+        "start": 63,
+        "end": 67,
+        "value": true,
+        "raw": "true"
+      },
       "body": {
         "type": "BlockStatement",
         "start": 69,
@@ -18,12 +25,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 75,
             "end": 92,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 79,
                 "end": 91,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 79,
@@ -37,24 +44,24 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 87,
                   "end": 91,
-                  "raw": "null",
-                  "value": null
-                }
+                  "value": null,
+                  "raw": "null"
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "declare": false
           },
           {
             "type": "VariableDeclaration",
             "start": 97,
             "end": 117,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 101,
                 "end": 116,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 101,
@@ -68,7 +75,11 @@ __ESTREE_TEST__:PASS:
                   "type": "ArrowFunctionExpression",
                   "start": 105,
                   "end": 116,
+                  "expression": true,
                   "async": false,
+                  "typeParameters": null,
+                  "params": [],
+                  "returnType": null,
                   "body": {
                     "type": "Identifier",
                     "start": 111,
@@ -78,26 +89,15 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "expression": true,
-                  "generator": false,
                   "id": null,
-                  "params": [],
-                  "returnType": null,
-                  "typeParameters": null
-                }
+                  "generator": false
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           }
         ]
-      },
-      "test": {
-        "type": "Literal",
-        "start": 63,
-        "end": 67,
-        "raw": "true",
-        "value": true
       }
     }
   ],

@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSEnumDeclaration",
       "start": 0,
       "end": 23,
+      "id": {
+        "type": "Identifier",
+        "start": 5,
+        "end": 7,
+        "decorators": [],
+        "name": "T1",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSEnumBody",
         "start": 8,
@@ -18,7 +27,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 14,
             "end": 21,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 14,
@@ -32,39 +40,40 @@ __ESTREE_TEST__:PASS:
               "type": "TemplateLiteral",
               "start": 18,
               "end": 21,
-              "expressions": [],
               "quasis": [
                 {
                   "type": "TemplateElement",
                   "start": 18,
                   "end": 21,
-                  "tail": true,
                   "value": {
                     "cooked": "1",
                     "raw": "1"
-                  }
+                  },
+                  "tail": true
                 }
-              ]
-            }
+              ],
+              "expressions": []
+            },
+            "computed": false
           }
         ]
       },
       "const": false,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 5,
-        "end": 7,
-        "decorators": [],
-        "name": "T1",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      "declare": false
     },
     {
       "type": "TSEnumDeclaration",
       "start": 25,
       "end": 72,
+      "id": {
+        "type": "Identifier",
+        "start": 30,
+        "end": 32,
+        "decorators": [],
+        "name": "T2",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSEnumBody",
         "start": 33,
@@ -74,7 +83,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 39,
             "end": 46,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 39,
@@ -88,26 +96,26 @@ __ESTREE_TEST__:PASS:
               "type": "TemplateLiteral",
               "start": 43,
               "end": 46,
-              "expressions": [],
               "quasis": [
                 {
                   "type": "TemplateElement",
                   "start": 43,
                   "end": 46,
-                  "tail": true,
                   "value": {
                     "cooked": "1",
                     "raw": "1"
-                  }
+                  },
+                  "tail": true
                 }
-              ]
-            }
+              ],
+              "expressions": []
+            },
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 52,
             "end": 59,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 52,
@@ -121,15 +129,15 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 56,
               "end": 59,
-              "raw": "\"2\"",
-              "value": "2"
-            }
+              "value": "2",
+              "raw": "\"2\""
+            },
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 65,
             "end": 70,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 65,
@@ -143,28 +151,29 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 69,
               "end": 70,
-              "raw": "3",
-              "value": 3
-            }
+              "value": 3,
+              "raw": "3"
+            },
+            "computed": false
           }
         ]
       },
       "const": false,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 30,
-        "end": 32,
-        "decorators": [],
-        "name": "T2",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      "declare": false
     },
     {
       "type": "TSEnumDeclaration",
       "start": 74,
       "end": 103,
+      "id": {
+        "type": "Identifier",
+        "start": 79,
+        "end": 81,
+        "decorators": [],
+        "name": "T3",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSEnumBody",
         "start": 82,
@@ -174,7 +183,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 88,
             "end": 101,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 88,
@@ -188,63 +196,64 @@ __ESTREE_TEST__:PASS:
               "type": "BinaryExpression",
               "start": 92,
               "end": 101,
-              "operator": "+",
               "left": {
                 "type": "TemplateLiteral",
                 "start": 92,
                 "end": 95,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
                     "start": 92,
                     "end": 95,
-                    "tail": true,
                     "value": {
                       "cooked": "1",
                       "raw": "1"
-                    }
+                    },
+                    "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               },
+              "operator": "+",
               "right": {
                 "type": "TemplateLiteral",
                 "start": 98,
                 "end": 101,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
                     "start": 98,
                     "end": 101,
-                    "tail": true,
                     "value": {
                       "cooked": "1",
                       "raw": "1"
-                    }
+                    },
+                    "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               }
-            }
+            },
+            "computed": false
           }
         ]
       },
       "const": false,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 79,
-        "end": 81,
-        "decorators": [],
-        "name": "T3",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      "declare": false
     },
     {
       "type": "TSEnumDeclaration",
       "start": 105,
       "end": 210,
+      "id": {
+        "type": "Identifier",
+        "start": 110,
+        "end": 112,
+        "decorators": [],
+        "name": "T4",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSEnumBody",
         "start": 113,
@@ -254,7 +263,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 119,
             "end": 126,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 119,
@@ -268,26 +276,26 @@ __ESTREE_TEST__:PASS:
               "type": "TemplateLiteral",
               "start": 123,
               "end": 126,
-              "expressions": [],
               "quasis": [
                 {
                   "type": "TemplateElement",
                   "start": 123,
                   "end": 126,
-                  "tail": true,
                   "value": {
                     "cooked": "1",
                     "raw": "1"
-                  }
+                  },
+                  "tail": true
                 }
-              ]
-            }
+              ],
+              "expressions": []
+            },
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 132,
             "end": 145,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 132,
@@ -301,50 +309,50 @@ __ESTREE_TEST__:PASS:
               "type": "BinaryExpression",
               "start": 136,
               "end": 145,
-              "operator": "+",
               "left": {
                 "type": "TemplateLiteral",
                 "start": 136,
                 "end": 139,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
                     "start": 136,
                     "end": 139,
-                    "tail": true,
                     "value": {
                       "cooked": "1",
                       "raw": "1"
-                    }
+                    },
+                    "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               },
+              "operator": "+",
               "right": {
                 "type": "TemplateLiteral",
                 "start": 142,
                 "end": 145,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
                     "start": 142,
                     "end": 145,
-                    "tail": true,
                     "value": {
                       "cooked": "1",
                       "raw": "1"
-                    }
+                    },
+                    "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               }
-            }
+            },
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 151,
             "end": 164,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 151,
@@ -358,39 +366,39 @@ __ESTREE_TEST__:PASS:
               "type": "BinaryExpression",
               "start": 155,
               "end": 164,
-              "operator": "+",
               "left": {
                 "type": "TemplateLiteral",
                 "start": 155,
                 "end": 158,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
                     "start": 155,
                     "end": 158,
-                    "tail": true,
                     "value": {
                       "cooked": "1",
                       "raw": "1"
-                    }
+                    },
+                    "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               },
+              "operator": "+",
               "right": {
                 "type": "Literal",
                 "start": 161,
                 "end": 164,
-                "raw": "\"2\"",
-                "value": "2"
+                "value": "2",
+                "raw": "\"2\""
               }
-            }
+            },
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 170,
             "end": 183,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 170,
@@ -404,39 +412,39 @@ __ESTREE_TEST__:PASS:
               "type": "BinaryExpression",
               "start": 174,
               "end": 183,
-              "operator": "+",
               "left": {
                 "type": "Literal",
                 "start": 174,
                 "end": 177,
-                "raw": "\"2\"",
-                "value": "2"
+                "value": "2",
+                "raw": "\"2\""
               },
+              "operator": "+",
               "right": {
                 "type": "TemplateLiteral",
                 "start": 180,
                 "end": 183,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
                     "start": 180,
                     "end": 183,
-                    "tail": true,
                     "value": {
                       "cooked": "1",
                       "raw": "1"
-                    }
+                    },
+                    "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               }
-            }
+            },
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 189,
             "end": 208,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 189,
@@ -450,76 +458,77 @@ __ESTREE_TEST__:PASS:
               "type": "BinaryExpression",
               "start": 193,
               "end": 208,
-              "operator": "+",
               "left": {
                 "type": "BinaryExpression",
                 "start": 193,
                 "end": 202,
-                "operator": "+",
                 "left": {
                   "type": "Literal",
                   "start": 193,
                   "end": 196,
-                  "raw": "\"2\"",
-                  "value": "2"
+                  "value": "2",
+                  "raw": "\"2\""
                 },
+                "operator": "+",
                 "right": {
                   "type": "TemplateLiteral",
                   "start": 199,
                   "end": 202,
-                  "expressions": [],
                   "quasis": [
                     {
                       "type": "TemplateElement",
                       "start": 199,
                       "end": 202,
-                      "tail": true,
                       "value": {
                         "cooked": "1",
                         "raw": "1"
-                      }
+                      },
+                      "tail": true
                     }
-                  ]
+                  ],
+                  "expressions": []
                 }
               },
+              "operator": "+",
               "right": {
                 "type": "TemplateLiteral",
                 "start": 205,
                 "end": 208,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
                     "start": 205,
                     "end": 208,
-                    "tail": true,
                     "value": {
                       "cooked": "1",
                       "raw": "1"
-                    }
+                    },
+                    "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               }
-            }
+            },
+            "computed": false
           }
         ]
       },
       "const": false,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 110,
-        "end": 112,
-        "decorators": [],
-        "name": "T4",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      "declare": false
     },
     {
       "type": "TSEnumDeclaration",
       "start": 212,
       "end": 290,
+      "id": {
+        "type": "Identifier",
+        "start": 217,
+        "end": 219,
+        "decorators": [],
+        "name": "T5",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSEnumBody",
         "start": 220,
@@ -529,7 +538,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 226,
             "end": 233,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 226,
@@ -543,26 +551,26 @@ __ESTREE_TEST__:PASS:
               "type": "TemplateLiteral",
               "start": 230,
               "end": 233,
-              "expressions": [],
               "quasis": [
                 {
                   "type": "TemplateElement",
                   "start": 230,
                   "end": 233,
-                  "tail": true,
                   "value": {
                     "cooked": "1",
                     "raw": "1"
-                  }
+                  },
+                  "tail": true
                 }
-              ]
-            }
+              ],
+              "expressions": []
+            },
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 239,
             "end": 252,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 239,
@@ -576,50 +584,50 @@ __ESTREE_TEST__:PASS:
               "type": "BinaryExpression",
               "start": 243,
               "end": 252,
-              "operator": "+",
               "left": {
                 "type": "TemplateLiteral",
                 "start": 243,
                 "end": 246,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
                     "start": 243,
                     "end": 246,
-                    "tail": true,
                     "value": {
                       "cooked": "1",
                       "raw": "1"
-                    }
+                    },
+                    "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               },
+              "operator": "+",
               "right": {
                 "type": "TemplateLiteral",
                 "start": 249,
                 "end": 252,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
                     "start": 249,
                     "end": 252,
-                    "tail": true,
                     "value": {
                       "cooked": "2",
                       "raw": "2"
-                    }
+                    },
+                    "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               }
-            }
+            },
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 258,
             "end": 277,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 258,
@@ -633,74 +641,74 @@ __ESTREE_TEST__:PASS:
               "type": "BinaryExpression",
               "start": 262,
               "end": 277,
-              "operator": "+",
               "left": {
                 "type": "BinaryExpression",
                 "start": 262,
                 "end": 271,
-                "operator": "+",
                 "left": {
                   "type": "TemplateLiteral",
                   "start": 262,
                   "end": 265,
-                  "expressions": [],
                   "quasis": [
                     {
                       "type": "TemplateElement",
                       "start": 262,
                       "end": 265,
-                      "tail": true,
                       "value": {
                         "cooked": "1",
                         "raw": "1"
-                      }
+                      },
+                      "tail": true
                     }
-                  ]
+                  ],
+                  "expressions": []
                 },
+                "operator": "+",
                 "right": {
                   "type": "TemplateLiteral",
                   "start": 268,
                   "end": 271,
-                  "expressions": [],
                   "quasis": [
                     {
                       "type": "TemplateElement",
                       "start": 268,
                       "end": 271,
-                      "tail": true,
                       "value": {
                         "cooked": "2",
                         "raw": "2"
-                      }
+                      },
+                      "tail": true
                     }
-                  ]
+                  ],
+                  "expressions": []
                 }
               },
+              "operator": "+",
               "right": {
                 "type": "TemplateLiteral",
                 "start": 274,
                 "end": 277,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
                     "start": 274,
                     "end": 277,
-                    "tail": true,
                     "value": {
                       "cooked": "3",
                       "raw": "3"
-                    }
+                    },
+                    "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               }
-            }
+            },
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 283,
             "end": 288,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 283,
@@ -714,28 +722,29 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 287,
               "end": 288,
-              "raw": "1",
-              "value": 1
-            }
+              "value": 1,
+              "raw": "1"
+            },
+            "computed": false
           }
         ]
       },
       "const": false,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 217,
-        "end": 219,
-        "decorators": [],
-        "name": "T5",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      "declare": false
     },
     {
       "type": "TSEnumDeclaration",
       "start": 292,
       "end": 334,
+      "id": {
+        "type": "Identifier",
+        "start": 297,
+        "end": 299,
+        "decorators": [],
+        "name": "T6",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSEnumBody",
         "start": 300,
@@ -745,7 +754,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 306,
             "end": 311,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 306,
@@ -759,15 +767,15 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 310,
               "end": 311,
-              "raw": "1",
-              "value": 1
-            }
+              "value": 1,
+              "raw": "1"
+            },
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 317,
             "end": 332,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 317,
@@ -781,26 +789,24 @@ __ESTREE_TEST__:PASS:
               "type": "MemberExpression",
               "start": 321,
               "end": 332,
-              "computed": false,
               "object": {
                 "type": "TemplateLiteral",
                 "start": 321,
                 "end": 325,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
                     "start": 321,
                     "end": 325,
-                    "tail": true,
                     "value": {
                       "cooked": "12",
                       "raw": "12"
-                    }
+                    },
+                    "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 326,
@@ -809,27 +815,30 @@ __ESTREE_TEST__:PASS:
                 "name": "length",
                 "optional": false,
                 "typeAnnotation": null
-              }
-            }
+              },
+              "optional": false,
+              "computed": false
+            },
+            "computed": false
           }
         ]
       },
       "const": false,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 297,
-        "end": 299,
-        "decorators": [],
-        "name": "T6",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      "declare": false
     },
     {
       "type": "TSEnumDeclaration",
       "start": 336,
       "end": 405,
+      "id": {
+        "type": "Identifier",
+        "start": 349,
+        "end": 351,
+        "decorators": [],
+        "name": "T7",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSEnumBody",
         "start": 352,
@@ -839,7 +848,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 358,
             "end": 365,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 358,
@@ -853,26 +861,26 @@ __ESTREE_TEST__:PASS:
               "type": "TemplateLiteral",
               "start": 362,
               "end": 365,
-              "expressions": [],
               "quasis": [
                 {
                   "type": "TemplateElement",
                   "start": 362,
                   "end": 365,
-                  "tail": true,
                   "value": {
                     "cooked": "1",
                     "raw": "1"
-                  }
+                  },
+                  "tail": true
                 }
-              ]
-            }
+              ],
+              "expressions": []
+            },
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 371,
             "end": 384,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 371,
@@ -886,50 +894,50 @@ __ESTREE_TEST__:PASS:
               "type": "BinaryExpression",
               "start": 375,
               "end": 384,
-              "operator": "+",
               "left": {
                 "type": "TemplateLiteral",
                 "start": 375,
                 "end": 378,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
                     "start": 375,
                     "end": 378,
-                    "tail": true,
                     "value": {
                       "cooked": "1",
                       "raw": "1"
-                    }
+                    },
+                    "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               },
+              "operator": "+",
               "right": {
                 "type": "TemplateLiteral",
                 "start": 381,
                 "end": 384,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
                     "start": 381,
                     "end": 384,
-                    "tail": true,
                     "value": {
                       "cooked": "1",
                       "raw": "1"
-                    }
+                    },
+                    "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               }
-            }
+            },
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 390,
             "end": 403,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 390,
@@ -943,47 +951,39 @@ __ESTREE_TEST__:PASS:
               "type": "BinaryExpression",
               "start": 394,
               "end": 403,
-              "operator": "+",
               "left": {
                 "type": "Literal",
                 "start": 394,
                 "end": 397,
-                "raw": "\"2\"",
-                "value": "2"
+                "value": "2",
+                "raw": "\"2\""
               },
+              "operator": "+",
               "right": {
                 "type": "TemplateLiteral",
                 "start": 400,
                 "end": 403,
-                "expressions": [],
                 "quasis": [
                   {
                     "type": "TemplateElement",
                     "start": 400,
                     "end": 403,
-                    "tail": true,
                     "value": {
                       "cooked": "1",
                       "raw": "1"
-                    }
+                    },
+                    "tail": true
                   }
-                ]
+                ],
+                "expressions": []
               }
-            }
+            },
+            "computed": false
           }
         ]
       },
       "const": false,
-      "declare": true,
-      "id": {
-        "type": "Identifier",
-        "start": 349,
-        "end": 351,
-        "decorators": [],
-        "name": "T7",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      "declare": true
     }
   ],
   "sourceType": "script",

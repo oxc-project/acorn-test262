@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 13,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 6,
           "end": 12,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
@@ -29,17 +29,16 @@ __ESTREE_TEST__:PASS:
             "start": 10,
             "end": 12,
             "properties": []
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 14,
       "end": 30,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 14,
@@ -49,12 +48,10 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 14,
           "end": 24,
-          "computed": false,
           "object": {
             "type": "MemberExpression",
             "start": 14,
             "end": 20,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 14,
@@ -64,15 +61,15 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "PrivateIdentifier",
               "start": 16,
               "end": 20,
               "name": "bar"
-            }
+            },
+            "optional": false,
+            "computed": false
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 21,
@@ -81,16 +78,19 @@ __ESTREE_TEST__:PASS:
             "name": "baz",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
           "start": 27,
           "end": 29,
-          "raw": "20",
-          "value": 20
+          "value": 20,
+          "raw": "20"
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

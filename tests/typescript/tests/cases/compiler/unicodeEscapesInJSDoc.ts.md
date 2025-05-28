@@ -9,81 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 61,
       "end": 109,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 81,
-        "end": 109,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 87,
-            "end": 107,
-            "directive": null,
-            "expression": {
-              "type": "CallExpression",
-              "start": 87,
-              "end": 106,
-              "arguments": [
-                {
-                  "type": "BinaryExpression",
-                  "start": 99,
-                  "end": 105,
-                  "operator": "+",
-                  "left": {
-                    "type": "Identifier",
-                    "start": 99,
-                    "end": 100,
-                    "decorators": [],
-                    "name": "a",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "right": {
-                    "type": "Identifier",
-                    "start": 103,
-                    "end": 105,
-                    "decorators": [],
-                    "name": "aa",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                }
-              ],
-              "callee": {
-                "type": "MemberExpression",
-                "start": 87,
-                "end": 98,
-                "computed": false,
-                "object": {
-                  "type": "Identifier",
-                  "start": 87,
-                  "end": 94,
-                  "decorators": [],
-                  "name": "console",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Identifier",
-                  "start": 95,
-                  "end": 98,
-                  "decorators": [],
-                  "name": "log",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              },
-              "optional": false,
-              "typeArguments": null
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 70,
@@ -93,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -114,46 +43,64 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
-    },
-    {
-      "type": "FunctionDeclaration",
-      "start": 176,
-      "end": 224,
-      "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 196,
-        "end": 224,
+        "start": 81,
+        "end": 109,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 202,
-            "end": 222,
-            "directive": null,
+            "start": 87,
+            "end": 107,
             "expression": {
               "type": "CallExpression",
-              "start": 202,
-              "end": 221,
+              "start": 87,
+              "end": 106,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 87,
+                "end": 98,
+                "object": {
+                  "type": "Identifier",
+                  "start": 87,
+                  "end": 94,
+                  "decorators": [],
+                  "name": "console",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 95,
+                  "end": 98,
+                  "decorators": [],
+                  "name": "log",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "optional": false,
+                "computed": false
+              },
+              "typeArguments": null,
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 214,
-                  "end": 220,
-                  "operator": "+",
+                  "start": 99,
+                  "end": 105,
                   "left": {
                     "type": "Identifier",
-                    "start": 214,
-                    "end": 215,
+                    "start": 99,
+                    "end": 100,
                     "decorators": [],
                     "name": "a",
                     "optional": false,
                     "typeAnnotation": null
                   },
+                  "operator": "+",
                   "right": {
                     "type": "Identifier",
-                    "start": 218,
-                    "end": 220,
+                    "start": 103,
+                    "end": 105,
                     "decorators": [],
                     "name": "aa",
                     "optional": false,
@@ -161,40 +108,18 @@ __ESTREE_TEST__:PASS:
                   }
                 }
               ],
-              "callee": {
-                "type": "MemberExpression",
-                "start": 202,
-                "end": 213,
-                "computed": false,
-                "object": {
-                  "type": "Identifier",
-                  "start": 202,
-                  "end": 209,
-                  "decorators": [],
-                  "name": "console",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Identifier",
-                  "start": 210,
-                  "end": 213,
-                  "decorators": [],
-                  "name": "log",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              },
-              "optional": false,
-              "typeArguments": null
-            }
+              "optional": false
+            },
+            "directive": null
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
+      "expression": false
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 176,
+      "end": 224,
       "id": {
         "type": "Identifier",
         "start": 185,
@@ -204,6 +129,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -225,7 +154,78 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 196,
+        "end": 224,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 202,
+            "end": 222,
+            "expression": {
+              "type": "CallExpression",
+              "start": 202,
+              "end": 221,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 202,
+                "end": 213,
+                "object": {
+                  "type": "Identifier",
+                  "start": 202,
+                  "end": 209,
+                  "decorators": [],
+                  "name": "console",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 210,
+                  "end": 213,
+                  "decorators": [],
+                  "name": "log",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "optional": false,
+                "computed": false
+              },
+              "typeArguments": null,
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 214,
+                  "end": 220,
+                  "left": {
+                    "type": "Identifier",
+                    "start": 214,
+                    "end": 215,
+                    "decorators": [],
+                    "name": "a",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "operator": "+",
+                  "right": {
+                    "type": "Identifier",
+                    "start": 218,
+                    "end": 220,
+                    "decorators": [],
+                    "name": "aa",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                }
+              ],
+              "optional": false
+            },
+            "directive": null
+          }
+        ]
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

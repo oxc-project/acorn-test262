@@ -9,14 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 31,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 23,
-        "end": 30,
-        "raw": "'react'",
-        "value": "react"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -33,13 +25,30 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 23,
+        "end": 30,
+        "value": "react",
+        "raw": "'react'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "TSModuleDeclaration",
       "start": 32,
       "end": 128,
+      "id": {
+        "type": "Identifier",
+        "start": 40,
+        "end": 46,
+        "decorators": [],
+        "name": "global",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 47,
@@ -49,6 +58,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSModuleDeclaration",
             "start": 51,
             "end": 126,
+            "id": {
+              "type": "Identifier",
+              "start": 61,
+              "end": 77,
+              "decorators": [],
+              "name": "FullCalendarVDom",
+              "optional": false,
+              "typeAnnotation": null
+            },
             "body": {
               "type": "TSModuleBlock",
               "start": 78,
@@ -58,7 +76,6 @@ __ESTREE_TEST__:PASS:
                   "type": "ExportNamedDeclaration",
                   "start": 84,
                   "end": 122,
-                  "attributes": [],
                   "declaration": {
                     "type": "TSImportEqualsDeclaration",
                     "start": 91,
@@ -72,7 +89,6 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "importKind": "value",
                     "moduleReference": {
                       "type": "TSQualifiedName",
                       "start": 106,
@@ -95,41 +111,25 @@ __ESTREE_TEST__:PASS:
                         "optional": false,
                         "typeAnnotation": null
                       }
-                    }
+                    },
+                    "importKind": "value"
                   },
-                  "exportKind": "value",
+                  "specifiers": [],
                   "source": null,
-                  "specifiers": []
+                  "exportKind": "value",
+                  "attributes": []
                 }
               ]
             },
+            "kind": "namespace",
             "declare": false,
-            "global": false,
-            "id": {
-              "type": "Identifier",
-              "start": 61,
-              "end": 77,
-              "decorators": [],
-              "name": "FullCalendarVDom",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "kind": "namespace"
+            "global": false
           }
         ]
       },
+      "kind": "global",
       "declare": true,
-      "global": true,
-      "id": {
-        "type": "Identifier",
-        "start": 40,
-        "end": 46,
-        "decorators": [],
-        "name": "global",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "global"
+      "global": true
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -139,14 +139,6 @@ __ESTREE_TEST__:PASS:
         "type": "ClassDeclaration",
         "start": 145,
         "end": 167,
-        "abstract": false,
-        "body": {
-          "type": "ClassBody",
-          "start": 164,
-          "end": 167,
-          "body": []
-        },
-        "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
@@ -157,10 +149,18 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "implements": [],
+        "typeParameters": null,
         "superClass": null,
         "superTypeArguments": null,
-        "typeParameters": null
+        "implements": [],
+        "body": {
+          "type": "ClassBody",
+          "start": 164,
+          "end": 167,
+          "body": []
+        },
+        "abstract": false,
+        "declare": false
       },
       "exportKind": "value"
     }
@@ -180,14 +180,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 33,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 24,
-        "end": 32,
-        "raw": "'preact'",
-        "value": "preact"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -204,13 +196,30 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 24,
+        "end": 32,
+        "value": "preact",
+        "raw": "'preact'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "TSModuleDeclaration",
       "start": 34,
       "end": 123,
+      "id": {
+        "type": "Identifier",
+        "start": 42,
+        "end": 48,
+        "decorators": [],
+        "name": "global",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 49,
@@ -220,6 +229,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSModuleDeclaration",
             "start": 53,
             "end": 121,
+            "id": {
+              "type": "Identifier",
+              "start": 63,
+              "end": 79,
+              "decorators": [],
+              "name": "FullCalendarVDom",
+              "optional": false,
+              "typeAnnotation": null
+            },
             "body": {
               "type": "TSModuleBlock",
               "start": 80,
@@ -229,7 +247,6 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeAliasDeclaration",
                   "start": 86,
                   "end": 117,
-                  "declare": false,
                   "id": {
                     "type": "Identifier",
                     "start": 91,
@@ -239,22 +256,11 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
+                  "typeParameters": null,
                   "typeAnnotation": {
                     "type": "TSTypeReference",
                     "start": 99,
                     "end": 116,
-                    "typeArguments": {
-                      "type": "TSTypeParameterInstantiation",
-                      "start": 111,
-                      "end": 116,
-                      "params": [
-                        {
-                          "type": "TSAnyKeyword",
-                          "start": 112,
-                          "end": 115
-                        }
-                      ]
-                    },
                     "typeName": {
                       "type": "TSQualifiedName",
                       "start": 99,
@@ -277,50 +283,42 @@ __ESTREE_TEST__:PASS:
                         "optional": false,
                         "typeAnnotation": null
                       }
+                    },
+                    "typeArguments": {
+                      "type": "TSTypeParameterInstantiation",
+                      "start": 111,
+                      "end": 116,
+                      "params": [
+                        {
+                          "type": "TSAnyKeyword",
+                          "start": 112,
+                          "end": 115
+                        }
+                      ]
                     }
                   },
-                  "typeParameters": null
+                  "declare": false
                 }
               ]
             },
+            "kind": "namespace",
             "declare": false,
-            "global": false,
-            "id": {
-              "type": "Identifier",
-              "start": 63,
-              "end": 79,
-              "decorators": [],
-              "name": "FullCalendarVDom",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "kind": "namespace"
+            "global": false
           }
         ]
       },
+      "kind": "global",
       "declare": true,
-      "global": true,
-      "id": {
-        "type": "Identifier",
-        "start": 42,
-        "end": 48,
-        "decorators": [],
-        "name": "global",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "global"
+      "global": true
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 125,
       "end": 154,
-      "attributes": [],
       "declaration": {
         "type": "TSTypeAliasDeclaration",
         "start": 132,
         "end": 154,
-        "declare": false,
         "id": {
           "type": "Identifier",
           "start": 137,
@@ -330,16 +328,18 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "typeParameters": null,
         "typeAnnotation": {
           "type": "TSAnyKeyword",
           "start": 150,
           "end": 153
         },
-        "typeParameters": null
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -385,6 +385,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 43,
       "end": 159,
+      "id": {
+        "type": "Identifier",
+        "start": 61,
+        "end": 66,
+        "decorators": [],
+        "name": "React",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 67,
@@ -394,7 +403,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeAliasDeclaration",
             "start": 73,
             "end": 94,
-            "declare": false,
             "id": {
               "type": "Identifier",
               "start": 78,
@@ -404,22 +412,18 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
+            "typeParameters": null,
             "typeAnnotation": {
               "type": "TSAnyKeyword",
               "start": 90,
               "end": 93
             },
-            "typeParameters": null
+            "declare": false
           },
           {
             "type": "TSDeclareFunction",
             "start": 99,
             "end": 157,
-            "async": false,
-            "body": null,
-            "declare": false,
-            "expression": false,
-            "generator": false,
             "id": {
               "type": "Identifier",
               "start": 108,
@@ -428,6 +432,35 @@ __ESTREE_TEST__:PASS:
               "name": "useMemo",
               "optional": false,
               "typeAnnotation": null
+            },
+            "generator": false,
+            "async": false,
+            "declare": false,
+            "typeParameters": {
+              "type": "TSTypeParameterDeclaration",
+              "start": 115,
+              "end": 118,
+              "params": [
+                {
+                  "type": "TSTypeParameter",
+                  "start": 116,
+                  "end": 117,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 116,
+                    "end": 117,
+                    "decorators": [],
+                    "name": "T",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "constraint": null,
+                  "default": null,
+                  "in": false,
+                  "out": false,
+                  "const": false
+                }
+              ]
             },
             "params": [
               {
@@ -445,6 +478,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSFunctionType",
                     "start": 128,
                     "end": 135,
+                    "typeParameters": null,
                     "params": [],
                     "returnType": {
                       "type": "TSTypeAnnotation",
@@ -454,7 +488,6 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 134,
                         "end": 135,
-                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 134,
@@ -463,10 +496,10 @@ __ESTREE_TEST__:PASS:
                           "name": "T",
                           "optional": false,
                           "typeAnnotation": null
-                        }
+                        },
+                        "typeArguments": null
                       }
-                    },
-                    "typeParameters": null
+                    }
                   }
                 }
               },
@@ -497,7 +530,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 155,
                 "end": 156,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 155,
@@ -506,50 +538,18 @@ __ESTREE_TEST__:PASS:
                   "name": "T",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             },
-            "typeParameters": {
-              "type": "TSTypeParameterDeclaration",
-              "start": 115,
-              "end": 118,
-              "params": [
-                {
-                  "type": "TSTypeParameter",
-                  "start": 116,
-                  "end": 117,
-                  "const": false,
-                  "constraint": null,
-                  "default": null,
-                  "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 116,
-                    "end": 117,
-                    "decorators": [],
-                    "name": "T",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
-                }
-              ]
-            }
+            "body": null,
+            "expression": false
           }
         ]
       },
+      "kind": "namespace",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 61,
-        "end": 66,
-        "decorators": [],
-        "name": "React",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "namespace"
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -581,19 +581,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 28,
       "end": 61,
-      "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
         "start": 35,
         "end": 61,
-        "body": {
-          "type": "TSInterfaceBody",
-          "start": 59,
-          "end": 61,
-          "body": []
-        },
-        "declare": false,
-        "extends": [],
         "id": {
           "type": "Identifier",
           "start": 45,
@@ -612,15 +603,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeParameter",
               "start": 51,
               "end": 57,
-              "const": false,
-              "constraint": null,
-              "default": {
-                "type": "TSTypeLiteral",
-                "start": 55,
-                "end": 57,
-                "members": []
-              },
-              "in": false,
               "name": {
                 "type": "Identifier",
                 "start": 51,
@@ -630,14 +612,32 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "out": false
+              "constraint": null,
+              "default": {
+                "type": "TSTypeLiteral",
+                "start": 55,
+                "end": 57,
+                "members": []
+              },
+              "in": false,
+              "out": false,
+              "const": false
             }
           ]
-        }
+        },
+        "extends": [],
+        "body": {
+          "type": "TSInterfaceBody",
+          "start": 59,
+          "end": 61,
+          "body": []
+        },
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "type",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -655,14 +655,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 47,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 25,
-        "end": 46,
-        "raw": "\"@fullcalendar/react\"",
-        "value": "@fullcalendar/react"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -679,21 +671,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 25,
+        "end": 46,
+        "value": "@fullcalendar/react",
+        "raw": "\"@fullcalendar/react\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 48,
       "end": 96,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 75,
-        "end": 95,
-        "raw": "\"@fullcalendar/core\"",
-        "value": "@fullcalendar/core"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -708,7 +700,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 57,
@@ -717,11 +708,20 @@ __ESTREE_TEST__:PASS:
             "name": "EventInput",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 75,
+        "end": 95,
+        "value": "@fullcalendar/core",
+        "raw": "\"@fullcalendar/core\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

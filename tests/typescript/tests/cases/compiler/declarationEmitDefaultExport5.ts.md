@@ -13,20 +13,20 @@ __ESTREE_TEST__:PASS:
         "type": "BinaryExpression",
         "start": 15,
         "end": 20,
-        "operator": "+",
         "left": {
           "type": "Literal",
           "start": 15,
           "end": 16,
-          "raw": "1",
-          "value": 1
+          "value": 1,
+          "raw": "1"
         },
+        "operator": "+",
         "right": {
           "type": "Literal",
           "start": 19,
           "end": 20,
-          "raw": "2",
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
       },
       "exportKind": "value"

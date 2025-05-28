@@ -9,7 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 44,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 21,
+        "value": "test",
+        "raw": "\"test\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 22,
@@ -19,12 +25,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 28,
             "end": 42,
+            "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 32,
                 "end": 41,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 32,
@@ -43,23 +49,17 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "declare": false
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 21,
-        "raw": "\"test\"",
-        "value": "test"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -77,11 +77,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 53,
       "end": 91,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 70,
@@ -91,6 +86,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -121,20 +120,13 @@ __ESTREE_TEST__:PASS:
           "end": 90
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "ImportDeclaration",
       "start": 92,
       "end": 115,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 108,
-        "end": 114,
-        "raw": "\"test\"",
-        "value": "test"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -149,7 +141,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 100,
@@ -158,21 +149,39 @@ __ESTREE_TEST__:PASS:
             "name": "x",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 108,
+        "end": 114,
+        "value": "test",
+        "raw": "\"test\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 116,
       "end": 123,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 116,
         "end": 122,
+        "callee": {
+          "type": "Identifier",
+          "start": 116,
+          "end": 119,
+          "decorators": [],
+          "name": "use",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null,
         "arguments": [
           {
             "type": "Identifier",
@@ -184,18 +193,9 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         ],
-        "callee": {
-          "type": "Identifier",
-          "start": 116,
-          "end": 119,
-          "decorators": [],
-          "name": "use",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "optional": false,
-        "typeArguments": null
-      }
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

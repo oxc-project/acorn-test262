@@ -9,16 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 67,
       "end": 95,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 92,
-        "end": 95,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 76,
@@ -28,9 +18,19 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 92,
+        "end": 95,
+        "body": []
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

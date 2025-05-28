@@ -9,60 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 56,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 12,
-        "end": 56,
-        "body": [
-          {
-            "type": "TSPropertySignature",
-            "start": 18,
-            "end": 54,
-            "accessibility": null,
-            "computed": true,
-            "key": {
-              "type": "MemberExpression",
-              "start": 19,
-              "end": 44,
-              "computed": false,
-              "object": {
-                "type": "Identifier",
-                "start": 19,
-                "end": 25,
-                "decorators": [],
-                "name": "Symbol",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "property": {
-                "type": "Identifier",
-                "start": 26,
-                "end": 44,
-                "decorators": [],
-                "name": "isConcatSpreadable",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            },
-            "optional": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 45,
-              "end": 53,
-              "typeAnnotation": {
-                "type": "TSStringKeyword",
-                "start": 47,
-                "end": 53
-              }
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "extends": [],
       "id": {
         "type": "Identifier",
         "start": 10,
@@ -72,66 +18,66 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "typeParameters": null
-    },
-    {
-      "type": "TSInterfaceDeclaration",
-      "start": 57,
-      "end": 113,
+      "typeParameters": null,
+      "extends": [],
       "body": {
         "type": "TSInterfaceBody",
-        "start": 69,
-        "end": 113,
+        "start": 12,
+        "end": 56,
         "body": [
           {
             "type": "TSPropertySignature",
-            "start": 75,
-            "end": 111,
-            "accessibility": null,
+            "start": 18,
+            "end": 54,
             "computed": true,
+            "optional": false,
+            "readonly": false,
             "key": {
               "type": "MemberExpression",
-              "start": 76,
-              "end": 101,
-              "computed": false,
+              "start": 19,
+              "end": 44,
               "object": {
                 "type": "Identifier",
-                "start": 76,
-                "end": 82,
+                "start": 19,
+                "end": 25,
                 "decorators": [],
                 "name": "Symbol",
                 "optional": false,
                 "typeAnnotation": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
-                "start": 83,
-                "end": 101,
+                "start": 26,
+                "end": 44,
                 "decorators": [],
                 "name": "isConcatSpreadable",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": false
             },
-            "optional": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 102,
-              "end": 110,
+              "start": 45,
+              "end": 53,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
-                "start": 104,
-                "end": 110
+                "start": 47,
+                "end": 53
               }
-            }
+            },
+            "accessibility": null,
+            "static": false
           }
         ]
       },
-      "declare": false,
-      "extends": [],
+      "declare": false
+    },
+    {
+      "type": "TSInterfaceDeclaration",
+      "start": 57,
+      "end": 113,
       "id": {
         "type": "Identifier",
         "start": 67,
@@ -141,7 +87,61 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "typeParameters": null
+      "typeParameters": null,
+      "extends": [],
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 69,
+        "end": 113,
+        "body": [
+          {
+            "type": "TSPropertySignature",
+            "start": 75,
+            "end": 111,
+            "computed": true,
+            "optional": false,
+            "readonly": false,
+            "key": {
+              "type": "MemberExpression",
+              "start": 76,
+              "end": 101,
+              "object": {
+                "type": "Identifier",
+                "start": 76,
+                "end": 82,
+                "decorators": [],
+                "name": "Symbol",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 83,
+                "end": 101,
+                "decorators": [],
+                "name": "isConcatSpreadable",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "optional": false,
+              "computed": false
+            },
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 102,
+              "end": 110,
+              "typeAnnotation": {
+                "type": "TSStringKeyword",
+                "start": 104,
+                "end": 110
+              }
+            },
+            "accessibility": null,
+            "static": false
+          }
+        ]
+      },
+      "declare": false
     }
   ],
   "sourceType": "script",

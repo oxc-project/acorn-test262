@@ -9,12 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "WithStatement",
       "start": 0,
       "end": 14,
-      "body": {
-        "type": "BlockStatement",
-        "start": 11,
-        "end": 14,
-        "body": []
-      },
       "object": {
         "type": "Identifier",
         "start": 6,
@@ -23,6 +17,12 @@ __ESTREE_TEST__:PASS:
         "name": "foo",
         "optional": false,
         "typeAnnotation": null
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 11,
+        "end": 14,
+        "body": []
       }
     }
   ],

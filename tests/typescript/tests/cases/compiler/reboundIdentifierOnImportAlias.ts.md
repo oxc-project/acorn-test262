@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 42,
+      "id": {
+        "type": "Identifier",
+        "start": 7,
+        "end": 10,
+        "decorators": [],
+        "name": "Foo",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 11,
@@ -18,17 +27,16 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 17,
             "end": 40,
-            "attributes": [],
             "declaration": {
               "type": "VariableDeclaration",
               "start": 24,
               "end": 40,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 28,
                   "end": 39,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 28,
@@ -42,37 +50,38 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 32,
                     "end": 39,
-                    "raw": "\"hello\"",
-                    "value": "hello"
-                  }
+                    "value": "hello",
+                    "raw": "\"hello\""
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "var"
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 7,
-        "end": 10,
-        "decorators": [],
-        "name": "Foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 43,
       "end": 94,
+      "id": {
+        "type": "Identifier",
+        "start": 50,
+        "end": 53,
+        "decorators": [],
+        "name": "Bar",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 54,
@@ -82,12 +91,12 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclaration",
             "start": 60,
             "end": 72,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 64,
                 "end": 71,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 64,
@@ -101,13 +110,13 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 70,
                   "end": 71,
-                  "raw": "1",
-                  "value": 1
-                }
+                  "value": 1,
+                  "raw": "1"
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "declare": false
           },
           {
             "type": "TSImportEqualsDeclaration",
@@ -122,7 +131,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "importKind": "value",
             "moduleReference": {
               "type": "Identifier",
               "start": 88,
@@ -131,22 +139,14 @@ __ESTREE_TEST__:PASS:
               "name": "Foo",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "importKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 50,
-        "end": 53,
-        "decorators": [],
-        "name": "Bar",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "script",

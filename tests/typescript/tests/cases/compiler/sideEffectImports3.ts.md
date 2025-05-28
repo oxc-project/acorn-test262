@@ -9,17 +9,17 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 24,
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 7,
         "end": 23,
-        "raw": "\"./not-a-module\"",
-        "value": "./not-a-module"
+        "value": "./not-a-module",
+        "raw": "\"./not-a-module\""
       },
-      "specifiers": [],
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",
@@ -37,25 +37,14 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 29,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
         "end": 28,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 12,
-            "end": 27,
-            "raw": "\"Hello, world!\"",
-            "value": "Hello, world!"
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 0,
           "end": 11,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 0,
@@ -65,7 +54,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 8,
@@ -74,11 +62,23 @@ __ESTREE_TEST__:PASS:
             "name": "log",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 12,
+            "end": 27,
+            "value": "Hello, world!",
+            "raw": "\"Hello, world!\""
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

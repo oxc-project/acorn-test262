@@ -9,7 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 155,
+      "id": {
+        "type": "Identifier",
+        "start": 15,
+        "end": 16,
+        "decorators": [],
+        "name": "f",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "generator": false,
       "async": true,
+      "declare": false,
+      "typeParameters": null,
+      "params": [],
+      "returnType": null,
       "body": {
         "type": "BlockStatement",
         "start": 19,
@@ -19,11 +33,15 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 25,
             "end": 42,
-            "directive": null,
             "expression": {
               "type": "TSTypeAssertion",
               "start": 25,
               "end": 41,
+              "typeAnnotation": {
+                "type": "TSNumberKeyword",
+                "start": 26,
+                "end": 32
+              },
               "expression": {
                 "type": "AwaitExpression",
                 "start": 34,
@@ -32,26 +50,22 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 40,
                   "end": 41,
-                  "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
-              },
-              "typeAnnotation": {
-                "type": "TSNumberKeyword",
-                "start": 26,
-                "end": 32
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 47,
             "end": 62,
-            "directive": null,
             "expression": {
               "type": "UnaryExpression",
               "start": 47,
               "end": 61,
+              "operator": "typeof",
               "argument": {
                 "type": "AwaitExpression",
                 "start": 54,
@@ -60,23 +74,23 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 60,
                   "end": 61,
-                  "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               },
-              "operator": "typeof",
               "prefix": true
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 67,
             "end": 80,
-            "directive": null,
             "expression": {
               "type": "UnaryExpression",
               "start": 67,
               "end": 79,
+              "operator": "void",
               "argument": {
                 "type": "AwaitExpression",
                 "start": 72,
@@ -85,19 +99,18 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 78,
                   "end": 79,
-                  "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               },
-              "operator": "void",
               "prefix": true
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 85,
             "end": 134,
-            "directive": null,
             "expression": {
               "type": "AwaitExpression",
               "start": 85,
@@ -106,22 +119,35 @@ __ESTREE_TEST__:PASS:
                 "type": "UnaryExpression",
                 "start": 91,
                 "end": 133,
+                "operator": "void",
                 "argument": {
                   "type": "TSTypeAssertion",
                   "start": 96,
                   "end": 133,
+                  "typeAnnotation": {
+                    "type": "TSStringKeyword",
+                    "start": 97,
+                    "end": 103
+                  },
                   "expression": {
                     "type": "UnaryExpression",
                     "start": 105,
                     "end": 133,
+                    "operator": "typeof",
                     "argument": {
                       "type": "TSTypeAssertion",
                       "start": 112,
                       "end": 133,
+                      "typeAnnotation": {
+                        "type": "TSNumberKeyword",
+                        "start": 113,
+                        "end": 119
+                      },
                       "expression": {
                         "type": "UnaryExpression",
                         "start": 121,
                         "end": 133,
+                        "operator": "void",
                         "argument": {
                           "type": "AwaitExpression",
                           "start": 126,
@@ -130,38 +156,25 @@ __ESTREE_TEST__:PASS:
                             "type": "Literal",
                             "start": 132,
                             "end": 133,
-                            "raw": "0",
-                            "value": 0
+                            "value": 0,
+                            "raw": "0"
                           }
                         },
-                        "operator": "void",
                         "prefix": true
-                      },
-                      "typeAnnotation": {
-                        "type": "TSNumberKeyword",
-                        "start": 113,
-                        "end": 119
                       }
                     },
-                    "operator": "typeof",
                     "prefix": true
-                  },
-                  "typeAnnotation": {
-                    "type": "TSStringKeyword",
-                    "start": 97,
-                    "end": 103
                   }
                 },
-                "operator": "void",
                 "prefix": true
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 139,
             "end": 153,
-            "directive": null,
             "expression": {
               "type": "AwaitExpression",
               "start": 139,
@@ -174,29 +187,16 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 151,
                   "end": 152,
-                  "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "raw": "0"
                 }
               }
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 15,
-        "end": 16,
-        "decorators": [],
-        "name": "f",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "expression": false
     }
   ],
   "sourceType": "script",

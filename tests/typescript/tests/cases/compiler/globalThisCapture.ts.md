@@ -9,23 +9,24 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 61,
       "end": 79,
-      "directive": null,
       "expression": {
         "type": "ArrowFunctionExpression",
         "start": 62,
         "end": 77,
+        "expression": true,
         "async": false,
+        "typeParameters": null,
+        "params": [],
+        "returnType": null,
         "body": {
           "type": "MemberExpression",
           "start": 66,
           "end": 77,
-          "computed": false,
           "object": {
             "type": "ThisExpression",
             "start": 66,
             "end": 70
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 71,
@@ -34,26 +35,25 @@ __ESTREE_TEST__:PASS:
             "name": "window",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "expression": true,
-        "generator": false,
         "id": null,
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
-      }
+        "generator": false
+      },
+      "directive": null
     },
     {
       "type": "VariableDeclaration",
       "start": 81,
       "end": 96,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 85,
           "end": 95,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 85,
@@ -68,22 +68,20 @@ __ESTREE_TEST__:PASS:
             "start": 93,
             "end": 95,
             "elements": []
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 143,
       "end": 152,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 143,
         "end": 151,
-        "computed": true,
         "object": {
           "type": "Identifier",
           "start": 143,
@@ -93,15 +91,17 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
         "property": {
           "type": "Literal",
           "start": 149,
           "end": 150,
-          "raw": "0",
-          "value": 0
-        }
-      }
+          "value": 0,
+          "raw": "0"
+        },
+        "optional": false,
+        "computed": true
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

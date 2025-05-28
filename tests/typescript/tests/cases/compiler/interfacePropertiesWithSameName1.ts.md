@@ -9,6 +9,17 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 74,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 15,
+        "decorators": [],
+        "name": "Mover",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "extends": [],
       "body": {
         "type": "TSInterfaceBody",
         "start": 16,
@@ -18,8 +29,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 22,
             "end": 35,
-            "accessibility": null,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 22,
@@ -29,10 +38,11 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
+            "computed": false,
             "optional": false,
+            "kind": "method",
+            "typeParameters": null,
             "params": [],
-            "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 28,
@@ -43,15 +53,14 @@ __ESTREE_TEST__:PASS:
                 "end": 34
               }
             },
-            "static": false,
-            "typeParameters": null
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           },
           {
             "type": "TSMethodSignature",
             "start": 40,
             "end": 72,
-            "accessibility": null,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 40,
@@ -61,10 +70,11 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
+            "computed": false,
             "optional": false,
+            "kind": "method",
+            "typeParameters": null,
             "params": [],
-            "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 51,
@@ -78,8 +88,9 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 55,
                     "end": 69,
-                    "accessibility": null,
                     "computed": false,
+                    "optional": false,
+                    "readonly": false,
                     "key": {
                       "type": "Identifier",
                       "start": 55,
@@ -89,9 +100,6 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "optional": false,
-                    "readonly": false,
-                    "static": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "start": 60,
@@ -101,33 +109,36 @@ __ESTREE_TEST__:PASS:
                         "start": 62,
                         "end": 68
                       }
-                    }
+                    },
+                    "accessibility": null,
+                    "static": false
                   }
                 ]
               }
             },
-            "static": false,
-            "typeParameters": null
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 15,
-        "decorators": [],
-        "name": "Mover",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 75,
       "end": 155,
+      "id": {
+        "type": "Identifier",
+        "start": 85,
+        "end": 91,
+        "decorators": [],
+        "name": "Shaker",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "extends": [],
       "body": {
         "type": "TSInterfaceBody",
         "start": 92,
@@ -137,8 +148,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 98,
             "end": 112,
-            "accessibility": null,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 98,
@@ -148,10 +157,11 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
+            "computed": false,
             "optional": false,
+            "kind": "method",
+            "typeParameters": null,
             "params": [],
-            "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 105,
@@ -162,15 +172,14 @@ __ESTREE_TEST__:PASS:
                 "end": 111
               }
             },
-            "static": false,
-            "typeParameters": null
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           },
           {
             "type": "TSMethodSignature",
             "start": 117,
             "end": 153,
-            "accessibility": null,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 117,
@@ -180,10 +189,11 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
+            "computed": false,
             "optional": false,
+            "kind": "method",
+            "typeParameters": null,
             "params": [],
-            "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 128,
@@ -197,8 +207,9 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 132,
                     "end": 150,
-                    "accessibility": null,
                     "computed": false,
+                    "optional": false,
+                    "readonly": false,
                     "key": {
                       "type": "Identifier",
                       "start": 132,
@@ -208,9 +219,6 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "optional": false,
-                    "readonly": false,
-                    "static": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "start": 141,
@@ -220,133 +228,35 @@ __ESTREE_TEST__:PASS:
                         "start": 143,
                         "end": 149
                       }
-                    }
+                    },
+                    "accessibility": null,
+                    "static": false
                   }
                 ]
               }
             },
-            "static": false,
-            "typeParameters": null
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 85,
-        "end": 91,
-        "decorators": [],
-        "name": "Shaker",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 157,
       "end": 260,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 201,
-        "end": 260,
-        "body": [
-          {
-            "type": "TSMethodSignature",
-            "start": 207,
-            "end": 258,
-            "accessibility": null,
-            "computed": false,
-            "key": {
-              "type": "Identifier",
-              "start": 207,
-              "end": 216,
-              "decorators": [],
-              "name": "getStatus",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "kind": "method",
-            "optional": false,
-            "params": [],
-            "readonly": false,
-            "returnType": {
-              "type": "TSTypeAnnotation",
-              "start": 218,
-              "end": 257,
-              "typeAnnotation": {
-                "type": "TSTypeLiteral",
-                "start": 220,
-                "end": 257,
-                "members": [
-                  {
-                    "type": "TSPropertySignature",
-                    "start": 222,
-                    "end": 236,
-                    "accessibility": null,
-                    "computed": false,
-                    "key": {
-                      "type": "Identifier",
-                      "start": 222,
-                      "end": 227,
-                      "decorators": [],
-                      "name": "speed",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "optional": false,
-                    "readonly": false,
-                    "static": false,
-                    "typeAnnotation": {
-                      "type": "TSTypeAnnotation",
-                      "start": 227,
-                      "end": 235,
-                      "typeAnnotation": {
-                        "type": "TSNumberKeyword",
-                        "start": 229,
-                        "end": 235
-                      }
-                    }
-                  },
-                  {
-                    "type": "TSPropertySignature",
-                    "start": 237,
-                    "end": 255,
-                    "accessibility": null,
-                    "computed": false,
-                    "key": {
-                      "type": "Identifier",
-                      "start": 237,
-                      "end": 246,
-                      "decorators": [],
-                      "name": "frequency",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "optional": false,
-                    "readonly": false,
-                    "static": false,
-                    "typeAnnotation": {
-                      "type": "TSTypeAnnotation",
-                      "start": 246,
-                      "end": 254,
-                      "typeAnnotation": {
-                        "type": "TSNumberKeyword",
-                        "start": 248,
-                        "end": 254
-                      }
-                    }
-                  }
-                ]
-              }
-            },
-            "static": false,
-            "typeParameters": null
-          }
-        ]
+      "id": {
+        "type": "Identifier",
+        "start": 167,
+        "end": 178,
+        "decorators": [],
+        "name": "MoverShaker",
+        "optional": false,
+        "typeAnnotation": null
       },
-      "declare": false,
+      "typeParameters": null,
       "extends": [
         {
           "type": "TSInterfaceHeritage",
@@ -379,16 +289,106 @@ __ESTREE_TEST__:PASS:
           "typeArguments": null
         }
       ],
-      "id": {
-        "type": "Identifier",
-        "start": 167,
-        "end": 178,
-        "decorators": [],
-        "name": "MoverShaker",
-        "optional": false,
-        "typeAnnotation": null
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 201,
+        "end": 260,
+        "body": [
+          {
+            "type": "TSMethodSignature",
+            "start": 207,
+            "end": 258,
+            "key": {
+              "type": "Identifier",
+              "start": 207,
+              "end": 216,
+              "decorators": [],
+              "name": "getStatus",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "computed": false,
+            "optional": false,
+            "kind": "method",
+            "typeParameters": null,
+            "params": [],
+            "returnType": {
+              "type": "TSTypeAnnotation",
+              "start": 218,
+              "end": 257,
+              "typeAnnotation": {
+                "type": "TSTypeLiteral",
+                "start": 220,
+                "end": 257,
+                "members": [
+                  {
+                    "type": "TSPropertySignature",
+                    "start": 222,
+                    "end": 236,
+                    "computed": false,
+                    "optional": false,
+                    "readonly": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 222,
+                      "end": 227,
+                      "decorators": [],
+                      "name": "speed",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeAnnotation": {
+                      "type": "TSTypeAnnotation",
+                      "start": 227,
+                      "end": 235,
+                      "typeAnnotation": {
+                        "type": "TSNumberKeyword",
+                        "start": 229,
+                        "end": 235
+                      }
+                    },
+                    "accessibility": null,
+                    "static": false
+                  },
+                  {
+                    "type": "TSPropertySignature",
+                    "start": 237,
+                    "end": 255,
+                    "computed": false,
+                    "optional": false,
+                    "readonly": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 237,
+                      "end": 246,
+                      "decorators": [],
+                      "name": "frequency",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeAnnotation": {
+                      "type": "TSTypeAnnotation",
+                      "start": 246,
+                      "end": 254,
+                      "typeAnnotation": {
+                        "type": "TSNumberKeyword",
+                        "start": 248,
+                        "end": 254
+                      }
+                    },
+                    "accessibility": null,
+                    "static": false
+                  }
+                ]
+              }
+            },
+            "accessibility": null,
+            "readonly": false,
+            "static": false
+          }
+        ]
       },
-      "typeParameters": null
+      "declare": false
     }
   ],
   "sourceType": "script",

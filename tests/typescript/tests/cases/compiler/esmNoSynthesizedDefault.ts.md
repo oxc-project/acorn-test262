@@ -9,16 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 35,
-      "attributes": [],
       "declaration": {
         "type": "TSDeclareFunction",
         "start": 7,
         "end": 35,
-        "async": false,
-        "body": null,
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 16,
@@ -28,6 +22,10 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
+        "generator": false,
+        "async": false,
+        "declare": false,
+        "typeParameters": null,
         "params": [],
         "returnType": {
           "type": "TSTypeAnnotation",
@@ -39,11 +37,13 @@ __ESTREE_TEST__:PASS:
             "end": 34
           }
         },
-        "typeParameters": null
+        "body": null,
+        "expression": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "exportKind": "value",
+      "attributes": []
     }
   ],
   "sourceType": "module",
@@ -61,14 +61,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 55,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 32,
-        "end": 54,
-        "raw": "'mdast-util-to-string'",
-        "value": "mdast-util-to-string"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -97,7 +89,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 16,
@@ -106,17 +97,25 @@ __ESTREE_TEST__:PASS:
             "name": "toString",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "importKind": "value"
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 32,
+        "end": 54,
+        "value": "mdast-util-to-string",
+        "raw": "'mdast-util-to-string'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 56,
       "end": 62,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 56,
@@ -125,23 +124,21 @@ __ESTREE_TEST__:PASS:
         "name": "mdast",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 63,
       "end": 80,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 63,
         "end": 79,
-        "arguments": [],
         "callee": {
           "type": "MemberExpression",
           "start": 63,
           "end": 77,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 63,
@@ -151,7 +148,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 69,
@@ -160,22 +156,26 @@ __ESTREE_TEST__:PASS:
             "name": "toString",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "VariableDeclaration",
       "start": 82,
       "end": 134,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 88,
           "end": 133,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 88,
@@ -193,37 +193,34 @@ __ESTREE_TEST__:PASS:
               "type": "ImportExpression",
               "start": 103,
               "end": 133,
-              "options": null,
               "source": {
                 "type": "Literal",
                 "start": 110,
                 "end": 132,
-                "raw": "'mdast-util-to-string'",
-                "value": "mdast-util-to-string"
+                "value": "mdast-util-to-string",
+                "raw": "'mdast-util-to-string'"
               },
+              "options": null,
               "phase": null
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 135,
       "end": 153,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 135,
         "end": 152,
-        "arguments": [],
         "callee": {
           "type": "MemberExpression",
           "start": 135,
           "end": 150,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 135,
@@ -233,7 +230,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 142,
@@ -242,22 +238,24 @@ __ESTREE_TEST__:PASS:
             "name": "toString",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 154,
       "end": 169,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 154,
         "end": 168,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 154,
@@ -267,7 +265,6 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 161,
@@ -276,8 +273,11 @@ __ESTREE_TEST__:PASS:
           "name": "default",
           "optional": false,
           "typeAnnotation": null
-        }
-      }
+        },
+        "optional": false,
+        "computed": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

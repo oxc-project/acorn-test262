@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSTypeAliasDeclaration",
       "start": 0,
       "end": 11,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 5,
@@ -19,11 +18,11 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTypeReference",
         "start": 9,
         "end": 10,
-        "typeArguments": null,
         "typeName": {
           "type": "Identifier",
           "start": 9,
@@ -32,9 +31,10 @@ __ESTREE_TEST__:PASS:
           "name": "b",
           "optional": false,
           "typeAnnotation": null
-        }
+        },
+        "typeArguments": null
       },
-      "typeParameters": null
+      "declare": false
     }
   ],
   "sourceType": "script",

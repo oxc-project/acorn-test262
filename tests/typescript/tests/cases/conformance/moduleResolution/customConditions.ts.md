@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 25,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 14,
           "end": 24,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
@@ -34,17 +34,17 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 17,
                   "end": 24,
-                  "raw": "\"index\"",
-                  "value": "index"
+                  "value": "index",
+                  "raw": "\"index\""
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     },
     {
       "type": "TSExportAssignment",
@@ -76,12 +76,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 27,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 14,
           "end": 26,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
@@ -101,17 +101,17 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 17,
                   "end": 26,
-                  "raw": "\"browser\"",
-                  "value": "browser"
+                  "value": "browser",
+                  "raw": "\"browser\""
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -144,12 +144,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 27,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 14,
           "end": 26,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
@@ -169,17 +169,17 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 17,
                   "end": 26,
-                  "raw": "\"webpack\"",
-                  "value": "webpack"
+                  "value": "webpack",
+                  "raw": "\"webpack\""
                 }
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "declare": true
     },
     {
       "type": "TSExportAssignment",
@@ -211,14 +211,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 23,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 14,
-        "end": 22,
-        "raw": "\"lodash\"",
-        "value": "lodash"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -235,8 +227,16 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 14,
+        "end": 22,
+        "value": "lodash",
+        "raw": "\"lodash\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

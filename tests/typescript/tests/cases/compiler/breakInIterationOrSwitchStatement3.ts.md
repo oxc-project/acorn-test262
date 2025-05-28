@@ -9,6 +9,9 @@ __ESTREE_TEST__:PASS:
       "type": "ForStatement",
       "start": 0,
       "end": 21,
+      "init": null,
+      "test": null,
+      "update": null,
       "body": {
         "type": "BlockStatement",
         "start": 9,
@@ -21,10 +24,7 @@ __ESTREE_TEST__:PASS:
             "label": null
           }
         ]
-      },
-      "init": null,
-      "test": null,
-      "update": null
+      }
     }
   ],
   "sourceType": "script",

@@ -13,49 +13,6 @@ __ESTREE_TEST__:PASS:
         "type": "ClassDeclaration",
         "start": 15,
         "end": 46,
-        "abstract": true,
-        "body": {
-          "type": "ClassBody",
-          "start": 32,
-          "end": 46,
-          "body": [
-            {
-              "type": "PropertyDefinition",
-              "start": 34,
-              "end": 44,
-              "accessibility": null,
-              "computed": false,
-              "declare": false,
-              "decorators": [],
-              "definite": false,
-              "key": {
-                "type": "Identifier",
-                "start": 34,
-                "end": 35,
-                "decorators": [],
-                "name": "a",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "override": false,
-              "readonly": false,
-              "static": false,
-              "typeAnnotation": {
-                "type": "TSTypeAnnotation",
-                "start": 35,
-                "end": 43,
-                "typeAnnotation": {
-                  "type": "TSNumberKeyword",
-                  "start": 37,
-                  "end": 43
-                }
-              },
-              "value": null
-            }
-          ]
-        },
-        "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
@@ -66,10 +23,53 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "implements": [],
+        "typeParameters": null,
         "superClass": null,
         "superTypeArguments": null,
-        "typeParameters": null
+        "implements": [],
+        "body": {
+          "type": "ClassBody",
+          "start": 32,
+          "end": 46,
+          "body": [
+            {
+              "type": "PropertyDefinition",
+              "start": 34,
+              "end": 44,
+              "decorators": [],
+              "key": {
+                "type": "Identifier",
+                "start": 34,
+                "end": 35,
+                "decorators": [],
+                "name": "a",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeAnnotation": {
+                "type": "TSTypeAnnotation",
+                "start": 35,
+                "end": 43,
+                "typeAnnotation": {
+                  "type": "TSNumberKeyword",
+                  "start": 37,
+                  "end": 43
+                }
+              },
+              "value": null,
+              "computed": false,
+              "static": false,
+              "declare": false,
+              "override": false,
+              "optional": false,
+              "definite": false,
+              "readonly": false,
+              "accessibility": null
+            }
+          ]
+        },
+        "abstract": true,
+        "declare": false
       },
       "exportKind": "value"
     },
@@ -77,14 +77,6 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 48,
       "end": 68,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 66,
-        "end": 68,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -95,7 +87,7 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": {
         "type": "Identifier",
         "start": 64,
@@ -106,33 +98,36 @@ __ESTREE_TEST__:PASS:
         "typeAnnotation": null
       },
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 66,
+        "end": 68,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 69,
       "end": 95,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 69,
         "end": 94,
-        "arguments": [],
         "callee": {
           "type": "MemberExpression",
           "start": 69,
           "end": 92,
-          "computed": false,
           "object": {
             "type": "MemberExpression",
             "start": 69,
             "end": 78,
-            "computed": false,
             "object": {
               "type": "NewExpression",
               "start": 69,
               "end": 76,
-              "arguments": [],
               "callee": {
                 "type": "Identifier",
                 "start": 73,
@@ -142,9 +137,9 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "typeArguments": null
+              "typeArguments": null,
+              "arguments": []
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 77,
@@ -153,9 +148,10 @@ __ESTREE_TEST__:PASS:
               "name": "a",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "optional": false,
+            "computed": false
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 79,
@@ -164,11 +160,15 @@ __ESTREE_TEST__:PASS:
             "name": "toExponential",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",
@@ -186,14 +186,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 20,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 14,
-        "end": 19,
-        "raw": "'./a'",
-        "value": "./a"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -210,21 +202,21 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 14,
+        "end": 19,
+        "value": "./a",
+        "raw": "'./a'"
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ClassDeclaration",
       "start": 22,
       "end": 42,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 40,
-        "end": 42,
-        "body": []
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -235,7 +227,7 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": {
         "type": "Identifier",
         "start": 38,
@@ -246,33 +238,36 @@ __ESTREE_TEST__:PASS:
         "typeAnnotation": null
       },
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 40,
+        "end": 42,
+        "body": []
+      },
+      "abstract": false,
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 43,
       "end": 69,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 43,
         "end": 68,
-        "arguments": [],
         "callee": {
           "type": "MemberExpression",
           "start": 43,
           "end": 66,
-          "computed": false,
           "object": {
             "type": "MemberExpression",
             "start": 43,
             "end": 52,
-            "computed": false,
             "object": {
               "type": "NewExpression",
               "start": 43,
               "end": 50,
-              "arguments": [],
               "callee": {
                 "type": "Identifier",
                 "start": 47,
@@ -282,9 +277,9 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
-              "typeArguments": null
+              "typeArguments": null,
+              "arguments": []
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 51,
@@ -293,9 +288,10 @@ __ESTREE_TEST__:PASS:
               "name": "a",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "optional": false,
+            "computed": false
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 53,
@@ -304,11 +300,15 @@ __ESTREE_TEST__:PASS:
             "name": "toExponential",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

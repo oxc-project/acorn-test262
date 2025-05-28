@@ -9,11 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ForInStatement",
       "start": 0,
       "end": 32,
-      "body": {
-        "type": "EmptyStatement",
-        "start": 31,
-        "end": 32
-      },
       "left": {
         "type": "Identifier",
         "start": 4,
@@ -37,12 +32,10 @@ __ESTREE_TEST__:PASS:
               "type": "MemberExpression",
               "start": 9,
               "end": 16,
-              "computed": true,
               "object": {
                 "type": "MemberExpression",
                 "start": 9,
                 "end": 13,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 9,
@@ -52,7 +45,6 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 11,
@@ -61,9 +53,10 @@ __ESTREE_TEST__:PASS:
                   "name": "jh",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 14,
@@ -72,23 +65,22 @@ __ESTREE_TEST__:PASS:
                 "name": "a",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "optional": false,
+              "computed": true
             },
             "right": {
               "type": "LogicalExpression",
               "start": 17,
               "end": 28,
-              "operator": "||",
               "left": {
                 "type": "MemberExpression",
                 "start": 17,
                 "end": 24,
-                "computed": true,
                 "object": {
                   "type": "MemberExpression",
                   "start": 17,
                   "end": 21,
-                  "computed": false,
                   "object": {
                     "type": "Identifier",
                     "start": 17,
@@ -98,7 +90,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 19,
@@ -107,9 +98,10 @@ __ESTREE_TEST__:PASS:
                     "name": "jh",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "optional": false,
+                  "computed": false
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 22,
@@ -118,8 +110,11 @@ __ESTREE_TEST__:PASS:
                   "name": "a",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": true
               },
+              "operator": "||",
               "right": {
                 "type": "ArrayExpression",
                 "start": 26,
@@ -138,6 +133,11 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         ]
+      },
+      "body": {
+        "type": "EmptyStatement",
+        "start": 31,
+        "end": 32
       }
     }
   ],

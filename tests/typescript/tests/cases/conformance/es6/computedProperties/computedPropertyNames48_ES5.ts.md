@@ -9,11 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 0,
       "end": 61,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 17,
@@ -22,6 +17,35 @@ __ESTREE_TEST__:PASS:
         "name": "extractIndexer",
         "optional": false,
         "typeAnnotation": null
+      },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": {
+        "type": "TSTypeParameterDeclaration",
+        "start": 31,
+        "end": 34,
+        "params": [
+          {
+            "type": "TSTypeParameter",
+            "start": 32,
+            "end": 33,
+            "name": {
+              "type": "Identifier",
+              "start": 32,
+              "end": 33,
+              "decorators": [],
+              "name": "T",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
+          }
+        ]
       },
       "params": [
         {
@@ -44,7 +68,6 @@ __ESTREE_TEST__:PASS:
                   "type": "TSIndexSignature",
                   "start": 40,
                   "end": 54,
-                  "accessibility": null,
                   "parameters": [
                     {
                       "type": "Identifier",
@@ -65,8 +88,6 @@ __ESTREE_TEST__:PASS:
                       }
                     }
                   ],
-                  "readonly": false,
-                  "static": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 51,
@@ -75,7 +96,6 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 53,
                       "end": 54,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 53,
@@ -84,9 +104,13 @@ __ESTREE_TEST__:PASS:
                         "name": "T",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     }
-                  }
+                  },
+                  "readonly": false,
+                  "static": false,
+                  "accessibility": null
                 }
               ]
             }
@@ -101,7 +125,6 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 59,
           "end": 60,
-          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 59,
@@ -110,40 +133,26 @@ __ESTREE_TEST__:PASS:
             "name": "T",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "typeArguments": null
         }
       },
-      "typeParameters": {
-        "type": "TSTypeParameterDeclaration",
-        "start": 31,
-        "end": 34,
-        "params": [
-          {
-            "type": "TSTypeParameter",
-            "start": 32,
-            "end": 33,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 32,
-              "end": 33,
-              "decorators": [],
-              "name": "T",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
-          }
-        ]
-      }
+      "body": null,
+      "expression": false
     },
     {
       "type": "TSEnumDeclaration",
       "start": 63,
       "end": 75,
+      "id": {
+        "type": "Identifier",
+        "start": 68,
+        "end": 69,
+        "decorators": [],
+        "name": "E",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSEnumBody",
         "start": 70,
@@ -153,7 +162,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 72,
             "end": 73,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 72,
@@ -163,32 +171,24 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           }
         ]
       },
       "const": false,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 68,
-        "end": 69,
-        "decorators": [],
-        "name": "E",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 77,
       "end": 88,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 81,
           "end": 87,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 81,
@@ -207,21 +207,30 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 90,
       "end": 122,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 90,
         "end": 121,
+        "callee": {
+          "type": "Identifier",
+          "start": 90,
+          "end": 104,
+          "decorators": [],
+          "name": "extractIndexer",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null,
         "arguments": [
           {
             "type": "ObjectExpression",
@@ -232,7 +241,7 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 111,
                 "end": 118,
-                "computed": true,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 112,
@@ -242,43 +251,43 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Literal",
                   "start": 116,
                   "end": 118,
-                  "raw": "\"\"",
-                  "value": ""
-                }
+                  "value": "",
+                  "raw": "\"\""
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": true,
+                "optional": false
               }
             ]
           }
         ],
-        "callee": {
-          "type": "Identifier",
-          "start": 90,
-          "end": 104,
-          "decorators": [],
-          "name": "extractIndexer",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "optional": false,
-        "typeArguments": null
-      }
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 148,
       "end": 182,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 148,
         "end": 181,
+        "callee": {
+          "type": "Identifier",
+          "start": 148,
+          "end": 162,
+          "decorators": [],
+          "name": "extractIndexer",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null,
         "arguments": [
           {
             "type": "ObjectExpression",
@@ -289,12 +298,11 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 169,
                 "end": 178,
-                "computed": true,
+                "kind": "init",
                 "key": {
                   "type": "MemberExpression",
                   "start": 170,
                   "end": 173,
-                  "computed": false,
                   "object": {
                     "type": "Identifier",
                     "start": 170,
@@ -304,7 +312,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 172,
@@ -313,45 +320,47 @@ __ESTREE_TEST__:PASS:
                     "name": "x",
                     "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "optional": false,
+                  "computed": false
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Literal",
                   "start": 176,
                   "end": 178,
-                  "raw": "\"\"",
-                  "value": ""
-                }
+                  "value": "",
+                  "raw": "\"\""
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": true,
+                "optional": false
               }
             ]
           }
         ],
-        "callee": {
-          "type": "Identifier",
-          "start": 148,
-          "end": 162,
-          "decorators": [],
-          "name": "extractIndexer",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "optional": false,
-        "typeArguments": null
-      }
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 208,
       "end": 246,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 208,
         "end": 245,
+        "callee": {
+          "type": "Identifier",
+          "start": 208,
+          "end": 222,
+          "decorators": [],
+          "name": "extractIndexer",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null,
         "arguments": [
           {
             "type": "ObjectExpression",
@@ -362,54 +371,45 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 229,
                 "end": 242,
-                "computed": true,
+                "kind": "init",
                 "key": {
                   "type": "LogicalExpression",
                   "start": 230,
                   "end": 237,
-                  "operator": "||",
                   "left": {
                     "type": "Literal",
                     "start": 230,
                     "end": 232,
-                    "raw": "\"\"",
-                    "value": ""
+                    "value": "",
+                    "raw": "\"\""
                   },
+                  "operator": "||",
                   "right": {
                     "type": "Literal",
                     "start": 236,
                     "end": 237,
-                    "raw": "0",
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   }
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Literal",
                   "start": 240,
                   "end": 242,
-                  "raw": "\"\"",
-                  "value": ""
-                }
+                  "value": "",
+                  "raw": "\"\""
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": true,
+                "optional": false
               }
             ]
           }
         ],
-        "callee": {
-          "type": "Identifier",
-          "start": 208,
-          "end": 222,
-          "decorators": [],
-          "name": "extractIndexer",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "optional": false,
-        "typeArguments": null
-      }
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

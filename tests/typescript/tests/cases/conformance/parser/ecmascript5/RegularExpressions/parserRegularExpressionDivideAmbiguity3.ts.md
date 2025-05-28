@@ -9,34 +9,36 @@ __ESTREE_TEST__:PASS:
       "type": "IfStatement",
       "start": 0,
       "end": 23,
-      "alternate": null,
+      "test": {
+        "type": "Literal",
+        "start": 4,
+        "end": 5,
+        "value": 1,
+        "raw": "1"
+      },
       "consequent": {
         "type": "ExpressionStatement",
         "start": 7,
         "end": 23,
-        "directive": null,
         "expression": {
           "type": "CallExpression",
           "start": 7,
           "end": 22,
-          "arguments": [],
           "callee": {
             "type": "MemberExpression",
             "start": 7,
             "end": 20,
-            "computed": false,
             "object": {
               "type": "Literal",
               "start": 7,
               "end": 16,
+              "value": null,
               "raw": "/regexp/a",
               "regex": {
                 "flags": "a",
                 "pattern": "regexp"
-              },
-              "value": null
+              }
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 17,
@@ -45,19 +47,17 @@ __ESTREE_TEST__:PASS:
               "name": "foo",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "optional": false,
+            "computed": false
           },
-          "optional": false,
-          "typeArguments": null
-        }
+          "typeArguments": null,
+          "arguments": [],
+          "optional": false
+        },
+        "directive": null
       },
-      "test": {
-        "type": "Literal",
-        "start": 4,
-        "end": 5,
-        "raw": "1",
-        "value": 1
-      }
+      "alternate": null
     }
   ],
   "sourceType": "script",

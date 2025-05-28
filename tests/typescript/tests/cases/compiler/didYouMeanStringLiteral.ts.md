@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSTypeAliasDeclaration",
       "start": 0,
       "end": 42,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 5,
@@ -19,6 +18,7 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSUnionType",
         "start": 10,
@@ -32,8 +32,8 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 10,
               "end": 18,
-              "raw": "\"string\"",
-              "value": "string"
+              "value": "string",
+              "raw": "\"string\""
             }
           },
           {
@@ -44,8 +44,8 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 21,
               "end": 29,
-              "raw": "\"number\"",
-              "value": "number"
+              "value": "number",
+              "raw": "\"number\""
             }
           },
           {
@@ -56,19 +56,18 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 32,
               "end": 41,
-              "raw": "\"boolean\"",
-              "value": "boolean"
+              "value": "boolean",
+              "raw": "\"boolean\""
             }
           }
         ]
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 43,
       "end": 81,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 48,
@@ -78,6 +77,7 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSIntersectionType",
         "start": 53,
@@ -87,7 +87,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 53,
             "end": 55,
-            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 53,
@@ -96,7 +95,8 @@ __ESTREE_TEST__:PASS:
               "name": "T1",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "typeArguments": null
           },
           {
             "type": "TSUnionType",
@@ -111,8 +111,8 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 59,
                   "end": 67,
-                  "raw": "\"number\"",
-                  "value": "number"
+                  "value": "number",
+                  "raw": "\"number\""
                 }
               },
               {
@@ -123,21 +123,20 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 70,
                   "end": 79,
-                  "raw": "\"boolean\"",
-                  "value": "boolean"
+                  "value": "boolean",
+                  "raw": "\"boolean\""
                 }
               }
             ]
           }
         ]
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 106,
       "end": 144,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 111,
@@ -147,6 +146,7 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSIntersectionType",
         "start": 116,
@@ -156,7 +156,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 116,
             "end": 118,
-            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 116,
@@ -165,7 +164,8 @@ __ESTREE_TEST__:PASS:
               "name": "T1",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "typeArguments": null
           },
           {
             "type": "TSUnionType",
@@ -180,8 +180,8 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 122,
                   "end": 130,
-                  "raw": "\"string\"",
-                  "value": "string"
+                  "value": "string",
+                  "raw": "\"string\""
                 }
               },
               {
@@ -192,26 +192,26 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 133,
                   "end": 142,
-                  "raw": "\"boolean\"",
-                  "value": "boolean"
+                  "value": "boolean",
+                  "raw": "\"boolean\""
                 }
               }
             ]
           }
         ]
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 170,
       "end": 194,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 176,
           "end": 193,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 176,
@@ -227,7 +227,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 180,
                 "end": 182,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 180,
@@ -236,7 +235,8 @@ __ESTREE_TEST__:PASS:
                   "name": "T1",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             }
           },
@@ -244,24 +244,24 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 185,
             "end": 193,
-            "raw": "\"strong\"",
-            "value": "strong"
-          }
+            "value": "strong",
+            "raw": "\"strong\""
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 195,
       "end": 219,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 201,
           "end": 218,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 201,
@@ -277,7 +277,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 205,
                 "end": 207,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 205,
@@ -286,7 +285,8 @@ __ESTREE_TEST__:PASS:
                   "name": "T2",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             }
           },
@@ -294,24 +294,24 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 210,
             "end": 218,
-            "raw": "\"strong\"",
-            "value": "strong"
-          }
+            "value": "strong",
+            "raw": "\"strong\""
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 220,
       "end": 244,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 226,
           "end": 243,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 226,
@@ -327,7 +327,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 230,
                 "end": 232,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 230,
@@ -336,7 +335,8 @@ __ESTREE_TEST__:PASS:
                   "name": "T3",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "typeArguments": null
               }
             }
           },
@@ -344,13 +344,13 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 235,
             "end": 243,
-            "raw": "\"strong\"",
-            "value": "strong"
-          }
+            "value": "strong",
+            "raw": "\"strong\""
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "script",

@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 107,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 12,
+        "decorators": [],
+        "name": "NS",
+        "optional": false,
+        "typeAnnotation": null
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 13,
@@ -18,17 +27,16 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 20,
             "end": 46,
-            "attributes": [],
             "declaration": {
               "type": "VariableDeclaration",
               "start": 27,
               "end": 46,
+              "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 33,
                   "end": 45,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 33,
@@ -42,7 +50,6 @@ __ESTREE_TEST__:PASS:
                     "type": "CallExpression",
                     "start": 37,
                     "end": 45,
-                    "arguments": [],
                     "callee": {
                       "type": "Identifier",
                       "start": 37,
@@ -52,81 +59,24 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "optional": false,
-                    "typeArguments": null
-                  }
+                    "typeArguments": null,
+                    "arguments": [],
+                    "optional": false
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "const"
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           },
           {
             "type": "ClassDeclaration",
             "start": 52,
             "end": 105,
-            "abstract": false,
-            "body": {
-              "type": "ClassBody",
-              "start": 73,
-              "end": 105,
-              "body": [
-                {
-                  "type": "PropertyDefinition",
-                  "start": 84,
-                  "end": 99,
-                  "accessibility": null,
-                  "computed": true,
-                  "declare": false,
-                  "decorators": [],
-                  "definite": false,
-                  "key": {
-                    "type": "MemberExpression",
-                    "start": 85,
-                    "end": 89,
-                    "computed": false,
-                    "object": {
-                      "type": "Identifier",
-                      "start": 85,
-                      "end": 87,
-                      "decorators": [],
-                      "name": "NS",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "optional": false,
-                    "property": {
-                      "type": "Identifier",
-                      "start": 88,
-                      "end": 89,
-                      "decorators": [],
-                      "name": "x",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  },
-                  "optional": false,
-                  "override": false,
-                  "readonly": false,
-                  "static": false,
-                  "typeAnnotation": {
-                    "type": "TSTypeAnnotation",
-                    "start": 90,
-                    "end": 98,
-                    "typeAnnotation": {
-                      "type": "TSNumberKeyword",
-                      "start": 92,
-                      "end": 98
-                    }
-                  },
-                  "value": null
-                }
-              ]
-            },
-            "declare": false,
             "decorators": [],
             "id": {
               "type": "Identifier",
@@ -137,25 +87,75 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "implements": [],
+            "typeParameters": null,
             "superClass": null,
             "superTypeArguments": null,
-            "typeParameters": null
+            "implements": [],
+            "body": {
+              "type": "ClassBody",
+              "start": 73,
+              "end": 105,
+              "body": [
+                {
+                  "type": "PropertyDefinition",
+                  "start": 84,
+                  "end": 99,
+                  "decorators": [],
+                  "key": {
+                    "type": "MemberExpression",
+                    "start": 85,
+                    "end": 89,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 85,
+                      "end": 87,
+                      "decorators": [],
+                      "name": "NS",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 88,
+                      "end": 89,
+                      "decorators": [],
+                      "name": "x",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "optional": false,
+                    "computed": false
+                  },
+                  "typeAnnotation": {
+                    "type": "TSTypeAnnotation",
+                    "start": 90,
+                    "end": 98,
+                    "typeAnnotation": {
+                      "type": "TSNumberKeyword",
+                      "start": 92,
+                      "end": 98
+                    }
+                  },
+                  "value": null,
+                  "computed": true,
+                  "static": false,
+                  "declare": false,
+                  "override": false,
+                  "optional": false,
+                  "definite": false,
+                  "readonly": false,
+                  "accessibility": null
+                }
+              ]
+            },
+            "abstract": false,
+            "declare": false
           }
         ]
       },
+      "kind": "namespace",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 12,
-        "decorators": [],
-        "name": "NS",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "namespace"
+      "global": false
     }
   ],
   "sourceType": "script",

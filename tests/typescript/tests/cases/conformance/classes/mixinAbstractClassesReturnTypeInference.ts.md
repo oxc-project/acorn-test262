@@ -9,6 +9,17 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 45,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 16,
+        "decorators": [],
+        "name": "Mixin1",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "extends": [],
       "body": {
         "type": "TSInterfaceBody",
         "start": 17,
@@ -18,8 +29,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 23,
             "end": 43,
-            "accessibility": null,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 23,
@@ -29,10 +38,11 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
+            "computed": false,
             "optional": false,
+            "kind": "method",
+            "typeParameters": null,
             "params": [],
-            "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 36,
@@ -43,29 +53,32 @@ __ESTREE_TEST__:PASS:
                 "end": 42
               }
             },
-            "static": false,
-            "typeParameters": null
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 16,
-        "decorators": [],
-        "name": "Mixin1",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 47,
       "end": 119,
-      "abstract": true,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 62,
+        "end": 74,
+        "decorators": [],
+        "name": "AbstractBase",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
       "body": {
         "type": "ClassBody",
         "start": 75,
@@ -75,8 +88,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSAbstractMethodDefinition",
             "start": 81,
             "end": 117,
-            "accessibility": null,
-            "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
@@ -87,20 +98,15 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
               "start": 108,
               "end": 117,
-              "async": false,
-              "body": null,
-              "declare": false,
-              "expression": false,
-              "generator": false,
               "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
               "params": [],
               "returnType": {
                 "type": "TSTypeAnnotation",
@@ -112,206 +118,25 @@ __ESTREE_TEST__:PASS:
                   "end": 116
                 }
               },
-              "typeParameters": null
-            }
+              "body": null,
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
-      "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 62,
-        "end": 74,
-        "decorators": [],
-        "name": "AbstractBase",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": true,
+      "declare": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 121,
       "end": 530,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 207,
-        "end": 530,
-        "body": [
-          {
-            "type": "ClassDeclaration",
-            "start": 361,
-            "end": 505,
-            "abstract": true,
-            "body": {
-              "type": "ClassBody",
-              "start": 423,
-              "end": 505,
-              "body": [
-                {
-                  "type": "MethodDefinition",
-                  "start": 433,
-                  "end": 455,
-                  "accessibility": null,
-                  "computed": false,
-                  "decorators": [],
-                  "key": {
-                    "type": "Identifier",
-                    "start": 433,
-                    "end": 444,
-                    "decorators": [],
-                    "name": "mixinMethod",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "kind": "method",
-                  "optional": false,
-                  "override": false,
-                  "static": false,
-                  "value": {
-                    "type": "FunctionExpression",
-                    "start": 444,
-                    "end": 455,
-                    "async": false,
-                    "body": {
-                      "type": "BlockStatement",
-                      "start": 453,
-                      "end": 455,
-                      "body": []
-                    },
-                    "declare": false,
-                    "expression": false,
-                    "generator": false,
-                    "id": null,
-                    "params": [],
-                    "returnType": {
-                      "type": "TSTypeAnnotation",
-                      "start": 446,
-                      "end": 452,
-                      "typeAnnotation": {
-                        "type": "TSVoidKeyword",
-                        "start": 448,
-                        "end": 452
-                      }
-                    },
-                    "typeParameters": null
-                  }
-                },
-                {
-                  "type": "MethodDefinition",
-                  "start": 464,
-                  "end": 499,
-                  "accessibility": null,
-                  "computed": false,
-                  "decorators": [],
-                  "key": {
-                    "type": "Identifier",
-                    "start": 471,
-                    "end": 488,
-                    "decorators": [],
-                    "name": "staticMixinMethod",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "kind": "method",
-                  "optional": false,
-                  "override": false,
-                  "static": true,
-                  "value": {
-                    "type": "FunctionExpression",
-                    "start": 488,
-                    "end": 499,
-                    "async": false,
-                    "body": {
-                      "type": "BlockStatement",
-                      "start": 497,
-                      "end": 499,
-                      "body": []
-                    },
-                    "declare": false,
-                    "expression": false,
-                    "generator": false,
-                    "id": null,
-                    "params": [],
-                    "returnType": {
-                      "type": "TSTypeAnnotation",
-                      "start": 490,
-                      "end": 496,
-                      "typeAnnotation": {
-                        "type": "TSVoidKeyword",
-                        "start": 492,
-                        "end": 496
-                      }
-                    },
-                    "typeParameters": null
-                  }
-                }
-              ]
-            },
-            "declare": false,
-            "decorators": [],
-            "id": {
-              "type": "Identifier",
-              "start": 376,
-              "end": 386,
-              "decorators": [],
-              "name": "MixinClass",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "implements": [
-              {
-                "type": "TSClassImplements",
-                "start": 416,
-                "end": 422,
-                "expression": {
-                  "type": "Identifier",
-                  "start": 416,
-                  "end": 422,
-                  "decorators": [],
-                  "name": "Mixin1",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "typeArguments": null
-              }
-            ],
-            "superClass": {
-              "type": "Identifier",
-              "start": 395,
-              "end": 404,
-              "decorators": [],
-              "name": "baseClass",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "superTypeArguments": null,
-            "typeParameters": null
-          },
-          {
-            "type": "ReturnStatement",
-            "start": 510,
-            "end": 528,
-            "argument": {
-              "type": "Identifier",
-              "start": 517,
-              "end": 527,
-              "decorators": [],
-              "name": "MixinClass",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 130,
@@ -321,37 +146,9 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "params": [
-        {
-          "type": "Identifier",
-          "start": 189,
-          "end": 205,
-          "decorators": [],
-          "name": "baseClass",
-          "optional": false,
-          "typeAnnotation": {
-            "type": "TSTypeAnnotation",
-            "start": 198,
-            "end": 205,
-            "typeAnnotation": {
-              "type": "TSTypeReference",
-              "start": 200,
-              "end": 205,
-              "typeArguments": null,
-              "typeName": {
-                "type": "Identifier",
-                "start": 200,
-                "end": 205,
-                "decorators": [],
-                "name": "TBase",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            }
-          }
-        }
-      ],
-      "returnType": null,
+      "generator": false,
+      "async": false,
+      "declare": false,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 136,
@@ -361,17 +158,27 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeParameter",
             "start": 137,
             "end": 187,
-            "const": false,
+            "name": {
+              "type": "Identifier",
+              "start": 137,
+              "end": 142,
+              "decorators": [],
+              "name": "TBase",
+              "optional": false,
+              "typeAnnotation": null
+            },
             "constraint": {
               "type": "TSConstructorType",
               "start": 151,
               "end": 187,
               "abstract": true,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "RestElement",
                   "start": 165,
                   "end": 179,
+                  "decorators": [],
                   "argument": {
                     "type": "Identifier",
                     "start": 168,
@@ -381,7 +188,6 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "decorators": [],
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
@@ -410,78 +216,223 @@ __ESTREE_TEST__:PASS:
                   "start": 184,
                   "end": 187
                 }
-              },
-              "typeParameters": null
+              }
             },
             "default": null,
             "in": false,
-            "name": {
+            "out": false,
+            "const": false
+          }
+        ]
+      },
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 189,
+          "end": 205,
+          "decorators": [],
+          "name": "baseClass",
+          "optional": false,
+          "typeAnnotation": {
+            "type": "TSTypeAnnotation",
+            "start": 198,
+            "end": 205,
+            "typeAnnotation": {
+              "type": "TSTypeReference",
+              "start": 200,
+              "end": 205,
+              "typeName": {
+                "type": "Identifier",
+                "start": 200,
+                "end": 205,
+                "decorators": [],
+                "name": "TBase",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeArguments": null
+            }
+          }
+        }
+      ],
+      "returnType": null,
+      "body": {
+        "type": "BlockStatement",
+        "start": 207,
+        "end": 530,
+        "body": [
+          {
+            "type": "ClassDeclaration",
+            "start": 361,
+            "end": 505,
+            "decorators": [],
+            "id": {
               "type": "Identifier",
-              "start": 137,
-              "end": 142,
+              "start": 376,
+              "end": 386,
               "decorators": [],
-              "name": "TBase",
+              "name": "MixinClass",
               "optional": false,
               "typeAnnotation": null
             },
-            "out": false
+            "typeParameters": null,
+            "superClass": {
+              "type": "Identifier",
+              "start": 395,
+              "end": 404,
+              "decorators": [],
+              "name": "baseClass",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "superTypeArguments": null,
+            "implements": [
+              {
+                "type": "TSClassImplements",
+                "start": 416,
+                "end": 422,
+                "expression": {
+                  "type": "Identifier",
+                  "start": 416,
+                  "end": 422,
+                  "decorators": [],
+                  "name": "Mixin1",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null
+              }
+            ],
+            "body": {
+              "type": "ClassBody",
+              "start": 423,
+              "end": 505,
+              "body": [
+                {
+                  "type": "MethodDefinition",
+                  "start": 433,
+                  "end": 455,
+                  "decorators": [],
+                  "key": {
+                    "type": "Identifier",
+                    "start": 433,
+                    "end": 444,
+                    "decorators": [],
+                    "name": "mixinMethod",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "value": {
+                    "type": "FunctionExpression",
+                    "start": 444,
+                    "end": 455,
+                    "id": null,
+                    "generator": false,
+                    "async": false,
+                    "declare": false,
+                    "typeParameters": null,
+                    "params": [],
+                    "returnType": {
+                      "type": "TSTypeAnnotation",
+                      "start": 446,
+                      "end": 452,
+                      "typeAnnotation": {
+                        "type": "TSVoidKeyword",
+                        "start": 448,
+                        "end": 452
+                      }
+                    },
+                    "body": {
+                      "type": "BlockStatement",
+                      "start": 453,
+                      "end": 455,
+                      "body": []
+                    },
+                    "expression": false
+                  },
+                  "kind": "method",
+                  "computed": false,
+                  "static": false,
+                  "override": false,
+                  "optional": false,
+                  "accessibility": null
+                },
+                {
+                  "type": "MethodDefinition",
+                  "start": 464,
+                  "end": 499,
+                  "decorators": [],
+                  "key": {
+                    "type": "Identifier",
+                    "start": 471,
+                    "end": 488,
+                    "decorators": [],
+                    "name": "staticMixinMethod",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "value": {
+                    "type": "FunctionExpression",
+                    "start": 488,
+                    "end": 499,
+                    "id": null,
+                    "generator": false,
+                    "async": false,
+                    "declare": false,
+                    "typeParameters": null,
+                    "params": [],
+                    "returnType": {
+                      "type": "TSTypeAnnotation",
+                      "start": 490,
+                      "end": 496,
+                      "typeAnnotation": {
+                        "type": "TSVoidKeyword",
+                        "start": 492,
+                        "end": 496
+                      }
+                    },
+                    "body": {
+                      "type": "BlockStatement",
+                      "start": 497,
+                      "end": 499,
+                      "body": []
+                    },
+                    "expression": false
+                  },
+                  "kind": "method",
+                  "computed": false,
+                  "static": true,
+                  "override": false,
+                  "optional": false,
+                  "accessibility": null
+                }
+              ]
+            },
+            "abstract": true,
+            "declare": false
+          },
+          {
+            "type": "ReturnStatement",
+            "start": 510,
+            "end": 528,
+            "argument": {
+              "type": "Identifier",
+              "start": 517,
+              "end": 527,
+              "decorators": [],
+              "name": "MixinClass",
+              "optional": false,
+              "typeAnnotation": null
+            }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ClassDeclaration",
       "start": 532,
       "end": 619,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 588,
-        "end": 619,
-        "body": [
-          {
-            "type": "MethodDefinition",
-            "start": 594,
-            "end": 617,
-            "accessibility": null,
-            "computed": false,
-            "decorators": [],
-            "key": {
-              "type": "Identifier",
-              "start": 594,
-              "end": 612,
-              "decorators": [],
-              "name": "abstractBaseMethod",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
-            "value": {
-              "type": "FunctionExpression",
-              "start": 612,
-              "end": 617,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 615,
-                "end": 617,
-                "body": []
-              },
-              "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
-          }
-        ]
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -492,11 +443,21 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": {
         "type": "CallExpression",
         "start": 567,
         "end": 587,
+        "callee": {
+          "type": "Identifier",
+          "start": 567,
+          "end": 573,
+          "decorators": [],
+          "name": "Mixin2",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null,
         "arguments": [
           {
             "type": "Identifier",
@@ -508,20 +469,59 @@ __ESTREE_TEST__:PASS:
             "typeAnnotation": null
           }
         ],
-        "callee": {
-          "type": "Identifier",
-          "start": 567,
-          "end": 573,
-          "decorators": [],
-          "name": "Mixin2",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "optional": false,
-        "typeArguments": null
+        "optional": false
       },
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 588,
+        "end": 619,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 594,
+            "end": 617,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 594,
+              "end": 612,
+              "decorators": [],
+              "name": "abstractBaseMethod",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "value": {
+              "type": "FunctionExpression",
+              "start": 612,
+              "end": 617,
+              "id": null,
+              "generator": false,
+              "async": false,
+              "declare": false,
+              "typeParameters": null,
+              "params": [],
+              "returnType": null,
+              "body": {
+                "type": "BlockStatement",
+                "start": 615,
+                "end": 617,
+                "body": []
+              },
+              "expression": false
+            },
+            "kind": "method",
+            "computed": false,
+            "static": false,
+            "override": false,
+            "optional": false,
+            "accessibility": null
+          }
+        ]
+      },
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

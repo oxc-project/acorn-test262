@@ -9,54 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 37,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 17,
-        "end": 37,
-        "body": [
-          {
-            "type": "TSPropertySignature",
-            "start": 21,
-            "end": 35,
-            "accessibility": null,
-            "computed": false,
-            "key": {
-              "type": "Identifier",
-              "start": 21,
-              "end": 26,
-              "decorators": [],
-              "name": "breed",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": true,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 27,
-              "end": 34,
-              "typeAnnotation": {
-                "type": "TSTypeReference",
-                "start": 29,
-                "end": 34,
-                "typeArguments": null,
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 29,
-                  "end": 34,
-                  "decorators": [],
-                  "name": "Breed",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "extends": [],
       "id": {
         "type": "Identifier",
         "start": 10,
@@ -66,50 +18,60 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "typeParameters": null
+      "typeParameters": null,
+      "extends": [],
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 17,
+        "end": 37,
+        "body": [
+          {
+            "type": "TSPropertySignature",
+            "start": 21,
+            "end": 35,
+            "computed": false,
+            "optional": true,
+            "readonly": false,
+            "key": {
+              "type": "Identifier",
+              "start": 21,
+              "end": 26,
+              "decorators": [],
+              "name": "breed",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 27,
+              "end": 34,
+              "typeAnnotation": {
+                "type": "TSTypeReference",
+                "start": 29,
+                "end": 34,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 29,
+                  "end": 34,
+                  "decorators": [],
+                  "name": "Breed",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null
+              }
+            },
+            "accessibility": null,
+            "static": false
+          }
+        ]
+      },
+      "declare": false
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 38,
       "end": 74,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 54,
-        "end": 74,
-        "body": [
-          {
-            "type": "TSPropertySignature",
-            "start": 58,
-            "end": 72,
-            "accessibility": null,
-            "computed": false,
-            "key": {
-              "type": "Identifier",
-              "start": 58,
-              "end": 62,
-              "decorators": [],
-              "name": "size",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": true,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 63,
-              "end": 71,
-              "typeAnnotation": {
-                "type": "TSStringKeyword",
-                "start": 65,
-                "end": 71
-              }
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "extends": [],
       "id": {
         "type": "Identifier",
         "start": 48,
@@ -119,17 +81,50 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "typeParameters": null
+      "typeParameters": null,
+      "extends": [],
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 54,
+        "end": 74,
+        "body": [
+          {
+            "type": "TSPropertySignature",
+            "start": 58,
+            "end": 72,
+            "computed": false,
+            "optional": true,
+            "readonly": false,
+            "key": {
+              "type": "Identifier",
+              "start": 58,
+              "end": 62,
+              "decorators": [],
+              "name": "size",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 63,
+              "end": 71,
+              "typeAnnotation": {
+                "type": "TSStringKeyword",
+                "start": 65,
+                "end": 71
+              }
+            },
+            "accessibility": null,
+            "static": false
+          }
+        ]
+      },
+      "declare": false
     },
     {
       "type": "TSDeclareFunction",
       "start": 76,
       "end": 142,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 93,
@@ -139,6 +134,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": true,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -167,7 +166,6 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypePredicate",
           "start": 116,
           "end": 141,
-          "asserts": false,
           "parameterName": {
             "type": "Identifier",
             "start": 116,
@@ -177,6 +175,7 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
+          "asserts": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
             "start": 125,
@@ -201,161 +200,13 @@ __ESTREE_TEST__:PASS:
           }
         }
       },
-      "typeParameters": null
+      "body": null,
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
       "start": 144,
       "end": 324,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 217,
-        "end": 324,
-        "body": [
-          {
-            "type": "IfStatement",
-            "start": 221,
-            "end": 322,
-            "alternate": {
-              "type": "BlockStatement",
-              "start": 295,
-              "end": 322,
-              "body": [
-                {
-                  "type": "ReturnStatement",
-                  "start": 301,
-                  "end": 318,
-                  "argument": {
-                    "type": "Identifier",
-                    "start": 308,
-                    "end": 317,
-                    "decorators": [],
-                    "name": "undefined",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                }
-              ]
-            },
-            "consequent": {
-              "type": "BlockStatement",
-              "start": 254,
-              "end": 289,
-              "body": [
-                {
-                  "type": "ReturnStatement",
-                  "start": 260,
-                  "end": 285,
-                  "argument": {
-                    "type": "MemberExpression",
-                    "start": 267,
-                    "end": 284,
-                    "computed": false,
-                    "object": {
-                      "type": "MemberExpression",
-                      "start": 267,
-                      "end": 279,
-                      "computed": false,
-                      "object": {
-                        "type": "Identifier",
-                        "start": 267,
-                        "end": 273,
-                        "decorators": [],
-                        "name": "animal",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "optional": false,
-                      "property": {
-                        "type": "Identifier",
-                        "start": 274,
-                        "end": 279,
-                        "decorators": [],
-                        "name": "breed",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    },
-                    "optional": false,
-                    "property": {
-                      "type": "Identifier",
-                      "start": 280,
-                      "end": 284,
-                      "decorators": [],
-                      "name": "size",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  }
-                }
-              ]
-            },
-            "test": {
-              "type": "BinaryExpression",
-              "start": 225,
-              "end": 252,
-              "operator": "!=",
-              "left": {
-                "type": "ChainExpression",
-                "start": 225,
-                "end": 244,
-                "expression": {
-                  "type": "MemberExpression",
-                  "start": 225,
-                  "end": 244,
-                  "computed": false,
-                  "object": {
-                    "type": "MemberExpression",
-                    "start": 225,
-                    "end": 238,
-                    "computed": false,
-                    "object": {
-                      "type": "Identifier",
-                      "start": 225,
-                      "end": 231,
-                      "decorators": [],
-                      "name": "animal",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "optional": true,
-                    "property": {
-                      "type": "Identifier",
-                      "start": 233,
-                      "end": 238,
-                      "decorators": [],
-                      "name": "breed",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  },
-                  "optional": true,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 240,
-                    "end": 244,
-                    "decorators": [],
-                    "name": "size",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                }
-              },
-              "right": {
-                "type": "Literal",
-                "start": 248,
-                "end": 252,
-                "raw": "null",
-                "value": null
-              }
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 153,
@@ -365,6 +216,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -381,7 +236,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 189,
               "end": 195,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 189,
@@ -390,7 +244,8 @@ __ESTREE_TEST__:PASS:
                 "name": "Animal",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "typeArguments": null
             }
           }
         }
@@ -417,35 +272,140 @@ __ESTREE_TEST__:PASS:
           ]
         }
       },
-      "typeParameters": null
-    },
-    {
-      "type": "FunctionDeclaration",
-      "start": 326,
-      "end": 503,
-      "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 396,
-        "end": 503,
+        "start": 217,
+        "end": 324,
         "body": [
           {
             "type": "IfStatement",
-            "start": 400,
-            "end": 501,
-            "alternate": {
+            "start": 221,
+            "end": 322,
+            "test": {
+              "type": "BinaryExpression",
+              "start": 225,
+              "end": 252,
+              "left": {
+                "type": "ChainExpression",
+                "start": 225,
+                "end": 244,
+                "expression": {
+                  "type": "MemberExpression",
+                  "start": 225,
+                  "end": 244,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 225,
+                    "end": 238,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 225,
+                      "end": 231,
+                      "decorators": [],
+                      "name": "animal",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 233,
+                      "end": 238,
+                      "decorators": [],
+                      "name": "breed",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "optional": true,
+                    "computed": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 240,
+                    "end": 244,
+                    "decorators": [],
+                    "name": "size",
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "optional": true,
+                  "computed": false
+                }
+              },
+              "operator": "!=",
+              "right": {
+                "type": "Literal",
+                "start": 248,
+                "end": 252,
+                "value": null,
+                "raw": "null"
+              }
+            },
+            "consequent": {
               "type": "BlockStatement",
-              "start": 474,
-              "end": 501,
+              "start": 254,
+              "end": 289,
               "body": [
                 {
                   "type": "ReturnStatement",
-                  "start": 480,
-                  "end": 497,
+                  "start": 260,
+                  "end": 285,
+                  "argument": {
+                    "type": "MemberExpression",
+                    "start": 267,
+                    "end": 284,
+                    "object": {
+                      "type": "MemberExpression",
+                      "start": 267,
+                      "end": 279,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 267,
+                        "end": 273,
+                        "decorators": [],
+                        "name": "animal",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 274,
+                        "end": 279,
+                        "decorators": [],
+                        "name": "breed",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "optional": false,
+                      "computed": false
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 280,
+                      "end": 284,
+                      "decorators": [],
+                      "name": "size",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "optional": false,
+                    "computed": false
+                  }
+                }
+              ]
+            },
+            "alternate": {
+              "type": "BlockStatement",
+              "start": 295,
+              "end": 322,
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 301,
+                  "end": 318,
                   "argument": {
                     "type": "Identifier",
-                    "start": 487,
-                    "end": 496,
+                    "start": 308,
+                    "end": 317,
                     "decorators": [],
                     "name": "undefined",
                     "optional": false,
@@ -453,137 +413,16 @@ __ESTREE_TEST__:PASS:
                   }
                 }
               ]
-            },
-            "consequent": {
-              "type": "BlockStatement",
-              "start": 433,
-              "end": 468,
-              "body": [
-                {
-                  "type": "ReturnStatement",
-                  "start": 439,
-                  "end": 464,
-                  "argument": {
-                    "type": "MemberExpression",
-                    "start": 446,
-                    "end": 463,
-                    "computed": false,
-                    "object": {
-                      "type": "MemberExpression",
-                      "start": 446,
-                      "end": 458,
-                      "computed": false,
-                      "object": {
-                        "type": "Identifier",
-                        "start": 446,
-                        "end": 452,
-                        "decorators": [],
-                        "name": "animal",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "optional": false,
-                      "property": {
-                        "type": "Identifier",
-                        "start": 453,
-                        "end": 458,
-                        "decorators": [],
-                        "name": "breed",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    },
-                    "optional": false,
-                    "property": {
-                      "type": "Identifier",
-                      "start": 459,
-                      "end": 463,
-                      "decorators": [],
-                      "name": "size",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  }
-                }
-              ]
-            },
-            "test": {
-              "type": "UnaryExpression",
-              "start": 404,
-              "end": 431,
-              "argument": {
-                "type": "CallExpression",
-                "start": 405,
-                "end": 431,
-                "arguments": [
-                  {
-                    "type": "ChainExpression",
-                    "start": 411,
-                    "end": 430,
-                    "expression": {
-                      "type": "MemberExpression",
-                      "start": 411,
-                      "end": 430,
-                      "computed": false,
-                      "object": {
-                        "type": "MemberExpression",
-                        "start": 411,
-                        "end": 424,
-                        "computed": false,
-                        "object": {
-                          "type": "Identifier",
-                          "start": 411,
-                          "end": 417,
-                          "decorators": [],
-                          "name": "animal",
-                          "optional": false,
-                          "typeAnnotation": null
-                        },
-                        "optional": true,
-                        "property": {
-                          "type": "Identifier",
-                          "start": 419,
-                          "end": 424,
-                          "decorators": [],
-                          "name": "breed",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
-                      },
-                      "optional": true,
-                      "property": {
-                        "type": "Identifier",
-                        "start": 426,
-                        "end": 430,
-                        "decorators": [],
-                        "name": "size",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    }
-                  }
-                ],
-                "callee": {
-                  "type": "Identifier",
-                  "start": 405,
-                  "end": 410,
-                  "decorators": [],
-                  "name": "isNil",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "typeArguments": null
-              },
-              "operator": "!",
-              "prefix": true
             }
           }
         ]
       },
-      "declare": false,
-      "expression": false,
-      "generator": false,
+      "expression": false
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 326,
+      "end": 503,
       "id": {
         "type": "Identifier",
         "start": 335,
@@ -593,6 +432,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -609,7 +452,6 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 368,
               "end": 374,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 368,
@@ -618,7 +460,8 @@ __ESTREE_TEST__:PASS:
                 "name": "Animal",
                 "optional": false,
                 "typeAnnotation": null
-              }
+              },
+              "typeArguments": null
             }
           }
         }
@@ -645,7 +488,164 @@ __ESTREE_TEST__:PASS:
           ]
         }
       },
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 396,
+        "end": 503,
+        "body": [
+          {
+            "type": "IfStatement",
+            "start": 400,
+            "end": 501,
+            "test": {
+              "type": "UnaryExpression",
+              "start": 404,
+              "end": 431,
+              "operator": "!",
+              "argument": {
+                "type": "CallExpression",
+                "start": 405,
+                "end": 431,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 405,
+                  "end": 410,
+                  "decorators": [],
+                  "name": "isNil",
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null,
+                "arguments": [
+                  {
+                    "type": "ChainExpression",
+                    "start": 411,
+                    "end": 430,
+                    "expression": {
+                      "type": "MemberExpression",
+                      "start": 411,
+                      "end": 430,
+                      "object": {
+                        "type": "MemberExpression",
+                        "start": 411,
+                        "end": 424,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 411,
+                          "end": 417,
+                          "decorators": [],
+                          "name": "animal",
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 419,
+                          "end": 424,
+                          "decorators": [],
+                          "name": "breed",
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
+                        "optional": true,
+                        "computed": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 426,
+                        "end": 430,
+                        "decorators": [],
+                        "name": "size",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "optional": true,
+                      "computed": false
+                    }
+                  }
+                ],
+                "optional": false
+              },
+              "prefix": true
+            },
+            "consequent": {
+              "type": "BlockStatement",
+              "start": 433,
+              "end": 468,
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 439,
+                  "end": 464,
+                  "argument": {
+                    "type": "MemberExpression",
+                    "start": 446,
+                    "end": 463,
+                    "object": {
+                      "type": "MemberExpression",
+                      "start": 446,
+                      "end": 458,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 446,
+                        "end": 452,
+                        "decorators": [],
+                        "name": "animal",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 453,
+                        "end": 458,
+                        "decorators": [],
+                        "name": "breed",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "optional": false,
+                      "computed": false
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 459,
+                      "end": 463,
+                      "decorators": [],
+                      "name": "size",
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "optional": false,
+                    "computed": false
+                  }
+                }
+              ]
+            },
+            "alternate": {
+              "type": "BlockStatement",
+              "start": 474,
+              "end": 501,
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 480,
+                  "end": 497,
+                  "argument": {
+                    "type": "Identifier",
+                    "start": 487,
+                    "end": 496,
+                    "decorators": [],
+                    "name": "undefined",
+                    "optional": false,
+                    "typeAnnotation": null
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

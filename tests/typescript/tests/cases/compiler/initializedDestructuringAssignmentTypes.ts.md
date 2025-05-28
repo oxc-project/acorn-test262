@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 38,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 6,
           "end": 37,
-          "definite": false,
           "id": {
             "type": "ArrayPattern",
             "start": 6,
@@ -36,14 +36,14 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "right": {
                   "type": "Literal",
                   "start": 13,
                   "end": 15,
-                  "raw": "''",
-                  "value": ""
+                  "value": "",
+                  "raw": "''"
                 },
+                "optional": false,
                 "typeAnnotation": null
               }
             ],
@@ -54,33 +54,21 @@ __ESTREE_TEST__:PASS:
             "type": "LogicalExpression",
             "start": 19,
             "end": 37,
-            "operator": "||",
             "left": {
               "type": "CallExpression",
               "start": 19,
               "end": 31,
-              "arguments": [
-                {
-                  "type": "Literal",
-                  "start": 28,
-                  "end": 30,
-                  "raw": "''",
-                  "value": ""
-                }
-              ],
               "callee": {
                 "type": "MemberExpression",
                 "start": 19,
                 "end": 27,
-                "computed": false,
                 "object": {
                   "type": "Literal",
                   "start": 19,
                   "end": 21,
-                  "raw": "''",
-                  "value": ""
+                  "value": "",
+                  "raw": "''"
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 22,
@@ -89,38 +77,47 @@ __ESTREE_TEST__:PASS:
                   "name": "match",
                   "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "optional": false,
+                "computed": false
               },
-              "optional": false,
-              "typeArguments": null
+              "typeArguments": null,
+              "arguments": [
+                {
+                  "type": "Literal",
+                  "start": 28,
+                  "end": 30,
+                  "value": "",
+                  "raw": "''"
+                }
+              ],
+              "optional": false
             },
+            "operator": "||",
             "right": {
               "type": "ArrayExpression",
               "start": 35,
               "end": 37,
               "elements": []
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 40,
       "end": 51,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 40,
         "end": 51,
-        "arguments": [],
         "callee": {
           "type": "MemberExpression",
           "start": 40,
           "end": 49,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 40,
@@ -130,7 +127,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 42,
@@ -139,11 +135,15 @@ __ESTREE_TEST__:PASS:
             "name": "toFixed",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

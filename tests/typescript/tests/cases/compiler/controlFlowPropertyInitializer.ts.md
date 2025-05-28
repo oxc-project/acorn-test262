@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 21,
       "end": 48,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 27,
           "end": 48,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 27,
@@ -28,60 +28,18 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 34,
             "end": 48,
-            "raw": "\"Turbo Pascal\"",
-            "value": "Turbo Pascal"
-          }
+            "value": "Turbo Pascal",
+            "raw": "\"Turbo Pascal\""
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 50,
       "end": 89,
-      "abstract": false,
-      "body": {
-        "type": "ClassBody",
-        "start": 69,
-        "end": 89,
-        "body": [
-          {
-            "type": "PropertyDefinition",
-            "start": 75,
-            "end": 87,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
-            "key": {
-              "type": "Identifier",
-              "start": 75,
-              "end": 79,
-              "decorators": [],
-              "name": "name",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": null,
-            "value": {
-              "type": "Identifier",
-              "start": 82,
-              "end": 86,
-              "decorators": [],
-              "name": "LANG",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
-        ]
-      },
-      "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
@@ -92,10 +50,52 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
-      "implements": [],
+      "typeParameters": null,
       "superClass": null,
       "superTypeArguments": null,
-      "typeParameters": null
+      "implements": [],
+      "body": {
+        "type": "ClassBody",
+        "start": 69,
+        "end": 89,
+        "body": [
+          {
+            "type": "PropertyDefinition",
+            "start": 75,
+            "end": 87,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 75,
+              "end": 79,
+              "decorators": [],
+              "name": "name",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeAnnotation": null,
+            "value": {
+              "type": "Identifier",
+              "start": 82,
+              "end": 86,
+              "decorators": [],
+              "name": "LANG",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": null
+          }
+        ]
+      },
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

@@ -9,17 +9,14 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 11,
-      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 0,
         "end": 10,
-        "operator": "<",
         "left": {
           "type": "NewExpression",
           "start": 0,
           "end": 8,
-          "arguments": [],
           "callee": {
             "type": "Identifier",
             "start": 4,
@@ -29,8 +26,10 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "typeArguments": null
+          "typeArguments": null,
+          "arguments": []
         },
+        "operator": "<",
         "right": {
           "type": "Identifier",
           "start": 9,
@@ -40,7 +39,8 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

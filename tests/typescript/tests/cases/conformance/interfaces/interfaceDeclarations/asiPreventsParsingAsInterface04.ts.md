@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 51,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 20,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -33,13 +33,13 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         },
         {
           "type": "VariableDeclarator",
           "start": 22,
           "end": 39,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 22,
@@ -58,13 +58,13 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         },
         {
           "type": "VariableDeclarator",
           "start": 41,
           "end": 50,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 41,
@@ -83,17 +83,16 @@ __ESTREE_TEST__:PASS:
               }
             }
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 53,
       "end": 60,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 53,
@@ -102,13 +101,13 @@ __ESTREE_TEST__:PASS:
         "name": "declare",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 108,
       "end": 117,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 108,
@@ -117,13 +116,13 @@ __ESTREE_TEST__:PASS:
         "name": "interface",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 165,
       "end": 166,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 165,
@@ -132,7 +131,8 @@ __ESTREE_TEST__:PASS:
         "name": "I",
         "optional": false,
         "typeAnnotation": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "BlockStatement",

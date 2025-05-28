@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 40,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 6,
           "end": 39,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
@@ -35,8 +35,9 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 13,
                     "end": 23,
-                    "accessibility": null,
                     "computed": false,
+                    "optional": false,
+                    "readonly": false,
                     "key": {
                       "type": "Identifier",
                       "start": 13,
@@ -46,9 +47,6 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "optional": false,
-                    "readonly": false,
-                    "static": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "start": 16,
@@ -63,7 +61,9 @@ __ESTREE_TEST__:PASS:
                           "end": 21
                         }
                       }
-                    }
+                    },
+                    "accessibility": null,
+                    "static": false
                   }
                 ]
               }
@@ -78,7 +78,7 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 30,
                 "end": 37,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 30,
@@ -88,45 +88,39 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "typeAnnotation": null
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "ArrayExpression",
                   "start": 35,
                   "end": 37,
                   "elements": []
-                }
+                },
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ForOfStatement",
       "start": 41,
       "end": 76,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 73,
-        "end": 76,
-        "body": []
-      },
       "left": {
         "type": "VariableDeclaration",
         "start": 46,
         "end": 53,
+        "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
             "start": 52,
             "end": 53,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 52,
@@ -136,17 +130,16 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "declare": false
       },
       "right": {
         "type": "LogicalExpression",
         "start": 57,
         "end": 71,
-        "operator": "??",
         "left": {
           "type": "ChainExpression",
           "start": 57,
@@ -155,7 +148,6 @@ __ESTREE_TEST__:PASS:
             "type": "MemberExpression",
             "start": 57,
             "end": 65,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 57,
@@ -165,7 +157,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": true,
             "property": {
               "type": "Identifier",
               "start": 62,
@@ -174,15 +165,24 @@ __ESTREE_TEST__:PASS:
               "name": "arr",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "optional": true,
+            "computed": false
           }
         },
+        "operator": "??",
         "right": {
           "type": "ArrayExpression",
           "start": 69,
           "end": 71,
           "elements": []
         }
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 73,
+        "end": 76,
+        "body": []
       }
     }
   ],

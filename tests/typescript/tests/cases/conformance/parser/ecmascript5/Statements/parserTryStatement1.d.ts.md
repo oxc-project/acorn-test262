@@ -15,17 +15,10 @@ __ESTREE_TEST__:PASS:
         "end": 7,
         "body": []
       },
-      "finalizer": null,
       "handler": {
         "type": "CatchClause",
         "start": 8,
         "end": 21,
-        "body": {
-          "type": "BlockStatement",
-          "start": 18,
-          "end": 21,
-          "body": []
-        },
         "param": {
           "type": "Identifier",
           "start": 15,
@@ -34,8 +27,15 @@ __ESTREE_TEST__:PASS:
           "name": "e",
           "optional": false,
           "typeAnnotation": null
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 18,
+          "end": 21,
+          "body": []
         }
-      }
+      },
+      "finalizer": null
     }
   ],
   "sourceType": "script",

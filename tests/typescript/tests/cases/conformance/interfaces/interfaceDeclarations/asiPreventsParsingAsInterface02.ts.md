@@ -9,53 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 205,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 41,
-        "end": 205,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 47,
-            "end": 56,
-            "directive": null,
-            "expression": {
-              "type": "Identifier",
-              "start": 47,
-              "end": 56,
-              "decorators": [],
-              "name": "interface",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 108,
-            "end": 109,
-            "directive": null,
-            "expression": {
-              "type": "Identifier",
-              "start": 108,
-              "end": 109,
-              "decorators": [],
-              "name": "I",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          },
-          {
-            "type": "BlockStatement",
-            "start": 161,
-            "end": 163,
-            "body": []
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -65,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -104,7 +61,50 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 41,
+        "end": 205,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 47,
+            "end": 56,
+            "expression": {
+              "type": "Identifier",
+              "start": 47,
+              "end": 56,
+              "decorators": [],
+              "name": "interface",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 108,
+            "end": 109,
+            "expression": {
+              "type": "Identifier",
+              "start": 108,
+              "end": 109,
+              "decorators": [],
+              "name": "I",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "directive": null
+          },
+          {
+            "type": "BlockStatement",
+            "start": 161,
+            "end": 163,
+            "body": []
+          }
+        ]
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

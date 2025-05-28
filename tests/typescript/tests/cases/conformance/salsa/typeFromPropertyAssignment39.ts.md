@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 15,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 6,
           "end": 14,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
@@ -29,17 +29,16 @@ __ESTREE_TEST__:PASS:
             "start": 12,
             "end": 14,
             "properties": []
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 16,
       "end": 32,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 16,
@@ -49,7 +48,6 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 16,
           "end": 26,
-          "computed": true,
           "object": {
             "type": "Identifier",
             "start": 16,
@@ -59,14 +57,15 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Literal",
             "start": 20,
             "end": 25,
-            "raw": "\"baz\"",
-            "value": "baz"
-          }
+            "value": "baz",
+            "raw": "\"baz\""
+          },
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "ObjectExpression",
@@ -74,13 +73,13 @@ __ESTREE_TEST__:PASS:
           "end": 31,
           "properties": []
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 33,
       "end": 56,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 33,
@@ -90,12 +89,10 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 33,
           "end": 51,
-          "computed": true,
           "object": {
             "type": "MemberExpression",
             "start": 33,
             "end": 43,
-            "computed": true,
             "object": {
               "type": "Identifier",
               "start": 33,
@@ -105,32 +102,35 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "Literal",
               "start": 37,
               "end": 42,
-              "raw": "\"baz\"",
-              "value": "baz"
-            }
+              "value": "baz",
+              "raw": "\"baz\""
+            },
+            "optional": false,
+            "computed": true
           },
-          "optional": false,
           "property": {
             "type": "Literal",
             "start": 44,
             "end": 50,
-            "raw": "\"blah\"",
-            "value": "blah"
-          }
+            "value": "blah",
+            "raw": "\"blah\""
+          },
+          "optional": false,
+          "computed": true
         },
         "right": {
           "type": "Literal",
           "start": 54,
           "end": 55,
-          "raw": "3",
-          "value": 3
+          "value": 3,
+          "raw": "3"
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

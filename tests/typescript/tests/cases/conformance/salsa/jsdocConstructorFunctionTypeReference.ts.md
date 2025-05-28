@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 0,
       "end": 60,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 4,
           "end": 59,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
@@ -28,57 +28,6 @@ __ESTREE_TEST__:PASS:
             "type": "FunctionExpression",
             "start": 16,
             "end": 59,
-            "async": false,
-            "body": {
-              "type": "BlockStatement",
-              "start": 33,
-              "end": 59,
-              "body": [
-                {
-                  "type": "ExpressionStatement",
-                  "start": 39,
-                  "end": 57,
-                  "directive": null,
-                  "expression": {
-                    "type": "AssignmentExpression",
-                    "start": 39,
-                    "end": 57,
-                    "operator": "=",
-                    "left": {
-                      "type": "MemberExpression",
-                      "start": 39,
-                      "end": 49,
-                      "computed": false,
-                      "object": {
-                        "type": "ThisExpression",
-                        "start": 39,
-                        "end": 43
-                      },
-                      "optional": false,
-                      "property": {
-                        "type": "Identifier",
-                        "start": 44,
-                        "end": 49,
-                        "decorators": [],
-                        "name": "flags",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    },
-                    "right": {
-                      "type": "Literal",
-                      "start": 52,
-                      "end": 57,
-                      "raw": "\"gim\"",
-                      "value": "gim"
-                    }
-                  }
-                }
-              ]
-            },
-            "declare": false,
-            "expression": false,
-            "generator": false,
             "id": {
               "type": "Identifier",
               "start": 25,
@@ -88,20 +37,70 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
+            "generator": false,
+            "async": false,
+            "declare": false,
+            "typeParameters": null,
             "params": [],
             "returnType": null,
-            "typeParameters": null
-          }
+            "body": {
+              "type": "BlockStatement",
+              "start": 33,
+              "end": 59,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 39,
+                  "end": 57,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 39,
+                    "end": 57,
+                    "operator": "=",
+                    "left": {
+                      "type": "MemberExpression",
+                      "start": 39,
+                      "end": 49,
+                      "object": {
+                        "type": "ThisExpression",
+                        "start": 39,
+                        "end": 43
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 44,
+                        "end": 49,
+                        "decorators": [],
+                        "name": "flags",
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "optional": false,
+                      "computed": false
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 52,
+                      "end": 57,
+                      "value": "gim",
+                      "raw": "\"gim\""
+                    }
+                  },
+                  "directive": null
+                }
+              ]
+            },
+            "expression": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 62,
       "end": 90,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 62,
@@ -111,12 +110,10 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 62,
           "end": 85,
-          "computed": false,
           "object": {
             "type": "MemberExpression",
             "start": 62,
             "end": 81,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 62,
@@ -126,7 +123,6 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "typeAnnotation": null
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 72,
@@ -135,9 +131,10 @@ __ESTREE_TEST__:PASS:
               "name": "prototype",
               "optional": false,
               "typeAnnotation": null
-            }
+            },
+            "optional": false,
+            "computed": false
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 82,
@@ -146,27 +143,30 @@ __ESTREE_TEST__:PASS:
             "name": "num",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
           "start": 88,
           "end": 90,
-          "raw": "12",
-          "value": 12
+          "value": 12,
+          "raw": "12"
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "VariableDeclaration",
       "start": 128,
       "end": 197,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 132,
           "end": 196,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 132,
@@ -180,7 +180,23 @@ __ESTREE_TEST__:PASS:
             "type": "FunctionExpression",
             "start": 154,
             "end": 196,
+            "id": null,
+            "generator": false,
             "async": false,
+            "declare": false,
+            "typeParameters": null,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 163,
+                "end": 168,
+                "decorators": [],
+                "name": "state",
+                "optional": false,
+                "typeAnnotation": null
+              }
+            ],
+            "returnType": null,
             "body": {
               "type": "BlockStatement",
               "start": 170,
@@ -194,7 +210,6 @@ __ESTREE_TEST__:PASS:
                     "type": "MemberExpression",
                     "start": 183,
                     "end": 194,
-                    "computed": false,
                     "object": {
                       "type": "Identifier",
                       "start": 183,
@@ -204,7 +219,6 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "optional": false,
                     "property": {
                       "type": "Identifier",
                       "start": 189,
@@ -213,33 +227,19 @@ __ESTREE_TEST__:PASS:
                       "name": "flags",
                       "optional": false,
                       "typeAnnotation": null
-                    }
+                    },
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
             },
-            "declare": false,
-            "expression": false,
-            "generator": false,
-            "id": null,
-            "params": [
-              {
-                "type": "Identifier",
-                "start": 163,
-                "end": 168,
-                "decorators": [],
-                "name": "state",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            ],
-            "returnType": null,
-            "typeParameters": null
-          }
+            "expression": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",

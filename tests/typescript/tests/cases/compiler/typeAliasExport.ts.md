@@ -9,7 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 93,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 18,
+        "value": "a",
+        "raw": "\"a\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 19,
@@ -34,17 +40,16 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 50,
             "end": 63,
-            "attributes": [],
             "declaration": {
               "type": "VariableDeclaration",
               "start": 57,
               "end": 63,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
                   "start": 61,
                   "end": 62,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 61,
@@ -54,26 +59,25 @@ __ESTREE_TEST__:PASS:
                     "optional": false,
                     "typeAnnotation": null
                   },
-                  "init": null
+                  "init": null,
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "var"
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "value",
+            "attributes": []
           },
           {
             "type": "ExportNamedDeclaration",
             "start": 66,
             "end": 91,
-            "attributes": [],
             "declaration": {
               "type": "TSTypeAliasDeclaration",
               "start": 73,
               "end": 91,
-              "declare": false,
               "id": {
                 "type": "Identifier",
                 "start": 78,
@@ -83,6 +87,7 @@ __ESTREE_TEST__:PASS:
                 "optional": false,
                 "typeAnnotation": null
               },
+              "typeParameters": null,
               "typeAnnotation": {
                 "type": "TSTypeQuery",
                 "start": 82,
@@ -98,23 +103,18 @@ __ESTREE_TEST__:PASS:
                 },
                 "typeArguments": null
               },
-              "typeParameters": null
+              "declare": false
             },
-            "exportKind": "type",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "type",
+            "attributes": []
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 18,
-        "raw": "\"a\"",
-        "value": "a"
-      }
+      "global": false
     }
   ],
   "sourceType": "script",

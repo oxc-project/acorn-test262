@@ -9,37 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 33,
-      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 0,
         "end": 32,
-        "arguments": [
-          {
-            "type": "NewExpression",
-            "start": 13,
-            "end": 31,
-            "arguments": [
-              {
-                "type": "Literal",
-                "start": 28,
-                "end": 30,
-                "raw": "32",
-                "value": 32
-              }
-            ],
-            "callee": {
-              "type": "Identifier",
-              "start": 17,
-              "end": 27,
-              "decorators": [],
-              "name": "Uint8Array",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeArguments": null
-          }
-        ],
         "callee": {
           "type": "Identifier",
           "start": 4,
@@ -49,8 +22,35 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "NewExpression",
+            "start": 13,
+            "end": 31,
+            "callee": {
+              "type": "Identifier",
+              "start": 17,
+              "end": 27,
+              "decorators": [],
+              "name": "Uint8Array",
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null,
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 28,
+                "end": 30,
+                "value": 32,
+                "raw": "32"
+              }
+            ]
+          }
+        ]
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

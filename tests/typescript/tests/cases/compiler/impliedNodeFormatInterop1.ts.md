@@ -9,7 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 159,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 29,
+        "value": "highlight.js",
+        "raw": "\"highlight.js\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 30,
@@ -19,11 +25,21 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 34,
             "end": 106,
-            "attributes": [],
             "declaration": {
               "type": "TSInterfaceDeclaration",
               "start": 41,
               "end": 106,
+              "id": {
+                "type": "Identifier",
+                "start": 51,
+                "end": 63,
+                "decorators": [],
+                "name": "HighlightAPI",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null,
+              "extends": [],
               "body": {
                 "type": "TSInterfaceBody",
                 "start": 64,
@@ -33,8 +49,6 @@ __ESTREE_TEST__:PASS:
                     "type": "TSMethodSignature",
                     "start": 70,
                     "end": 102,
-                    "accessibility": null,
-                    "computed": false,
                     "key": {
                       "type": "Identifier",
                       "start": 70,
@@ -44,8 +58,10 @@ __ESTREE_TEST__:PASS:
                       "optional": false,
                       "typeAnnotation": null
                     },
-                    "kind": "method",
+                    "computed": false,
                     "optional": false,
+                    "kind": "method",
+                    "typeParameters": null,
                     "params": [
                       {
                         "type": "Identifier",
@@ -66,7 +82,6 @@ __ESTREE_TEST__:PASS:
                         }
                       }
                     ],
-                    "readonly": false,
                     "returnType": {
                       "type": "TSTypeAnnotation",
                       "start": 93,
@@ -77,38 +92,29 @@ __ESTREE_TEST__:PASS:
                         "end": 101
                       }
                     },
-                    "static": false,
-                    "typeParameters": null
+                    "accessibility": null,
+                    "readonly": false,
+                    "static": false
                   }
                 ]
               },
-              "declare": false,
-              "extends": [],
-              "id": {
-                "type": "Identifier",
-                "start": 51,
-                "end": 63,
-                "decorators": [],
-                "name": "HighlightAPI",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "typeParameters": null
+              "declare": false
             },
-            "exportKind": "type",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "exportKind": "type",
+            "attributes": []
           },
           {
             "type": "VariableDeclaration",
             "start": 109,
             "end": 134,
+            "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
                 "start": 115,
                 "end": 133,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 115,
@@ -124,7 +130,6 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 121,
                       "end": 133,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 121,
@@ -133,15 +138,16 @@ __ESTREE_TEST__:PASS:
                         "name": "HighlightAPI",
                         "optional": false,
                         "typeAnnotation": null
-                      }
+                      },
+                      "typeArguments": null
                     }
                   }
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "const"
+            "declare": false
           },
           {
             "type": "ExportDefaultDeclaration",
@@ -160,15 +166,9 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 29,
-        "raw": "\"highlight.js\"",
-        "value": "highlight.js"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -186,14 +186,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 32,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 17,
-        "end": 31,
-        "raw": "\"highlight.js\"",
-        "value": "highlight.js"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -210,8 +202,16 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 17,
+        "end": 31,
+        "value": "highlight.js",
+        "raw": "\"highlight.js\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -244,14 +244,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 41,
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 17,
-        "end": 40,
-        "raw": "\"highlight.js/lib/core\"",
-        "value": "highlight.js/lib/core"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -268,32 +260,29 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "source": {
+        "type": "Literal",
+        "start": 17,
+        "end": 40,
+        "value": "highlight.js/lib/core",
+        "raw": "\"highlight.js/lib/core\""
+      },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 42,
       "end": 65,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 42,
         "end": 64,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 57,
-            "end": 63,
-            "raw": "\"code\"",
-            "value": "code"
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 42,
           "end": 56,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 42,
@@ -303,7 +292,6 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 47,
@@ -312,11 +300,23 @@ __ESTREE_TEST__:PASS:
             "name": "highlight",
             "optional": false,
             "typeAnnotation": null
-          }
+          },
+          "optional": false,
+          "computed": false
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 57,
+            "end": 63,
+            "value": "code",
+            "raw": "\"code\""
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

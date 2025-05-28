@@ -9,11 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "LabeledStatement",
       "start": 0,
       "end": 8,
-      "body": {
-        "type": "EmptyStatement",
-        "start": 7,
-        "end": 8
-      },
       "label": {
         "type": "Identifier",
         "start": 0,
@@ -22,6 +17,11 @@ __ESTREE_TEST__:PASS:
         "name": "Input",
         "optional": false,
         "typeAnnotation": null
+      },
+      "body": {
+        "type": "EmptyStatement",
+        "start": 7,
+        "end": 8
       }
     }
   ],

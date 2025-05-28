@@ -17,14 +17,6 @@ __ESTREE_TEST__:PASS:
           "type": "ClassExpression",
           "start": 16,
           "end": 28,
-          "abstract": false,
-          "body": {
-            "type": "ClassBody",
-            "start": 26,
-            "end": 28,
-            "body": []
-          },
-          "declare": false,
           "decorators": [],
           "id": {
             "type": "Identifier",
@@ -35,10 +27,18 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "typeAnnotation": null
           },
-          "implements": [],
+          "typeParameters": null,
           "superClass": null,
           "superTypeArguments": null,
-          "typeParameters": null
+          "implements": [],
+          "body": {
+            "type": "ClassBody",
+            "start": 26,
+            "end": 28,
+            "body": []
+          },
+          "abstract": false,
+          "declare": false
         },
         "typeAnnotation": {
           "type": "TSAnyKeyword",

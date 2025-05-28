@@ -9,7 +9,20 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 2084,
-      "abstract": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 6,
+        "end": 7,
+        "decorators": [],
+        "name": "C",
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null,
+      "superClass": null,
+      "superTypeArguments": null,
+      "implements": [],
       "body": {
         "type": "ClassBody",
         "start": 8,
@@ -19,7 +32,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 14,
             "end": 34,
-            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -40,8 +52,6 @@ __ESTREE_TEST__:PASS:
                 }
               }
             ],
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 25,
@@ -51,28 +61,23 @@ __ESTREE_TEST__:PASS:
                 "start": 27,
                 "end": 33
               }
-            }
+            },
+            "readonly": false,
+            "static": false,
+            "accessibility": null
           },
           {
             "type": "PropertyDefinition",
             "start": 167,
             "end": 197,
-            "accessibility": "public",
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Literal",
               "start": 174,
               "end": 177,
-              "raw": "\"1\"",
-              "value": "1"
+              "value": "1",
+              "raw": "\"1\""
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 177,
@@ -87,30 +92,30 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 188,
               "end": 196,
-              "raw": "\"number\"",
-              "value": "number"
-            }
+              "value": "number",
+              "raw": "\"number\""
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": "public"
           },
           {
             "type": "PropertyDefinition",
             "start": 211,
             "end": 251,
-            "accessibility": "public",
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Literal",
               "start": 218,
               "end": 222,
-              "raw": "\"-1\"",
-              "value": "-1"
+              "value": "-1",
+              "raw": "\"-1\""
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 222,
@@ -125,30 +130,30 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 233,
               "end": 250,
-              "raw": "\"negative number\"",
-              "value": "negative number"
-            }
+              "value": "negative number",
+              "raw": "\"negative number\""
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": "public"
           },
           {
             "type": "PropertyDefinition",
             "start": 265,
             "end": 307,
-            "accessibility": "public",
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Literal",
               "start": 272,
               "end": 278,
-              "raw": "\"-2.5\"",
-              "value": "-2.5"
+              "value": "-2.5",
+              "raw": "\"-2.5\""
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 278,
@@ -163,30 +168,30 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 289,
               "end": 306,
-              "raw": "\"negative number\"",
-              "value": "negative number"
-            }
+              "value": "negative number",
+              "raw": "\"negative number\""
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": "public"
           },
           {
             "type": "PropertyDefinition",
             "start": 321,
             "end": 368,
-            "accessibility": "public",
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Literal",
               "start": 328,
               "end": 338,
-              "raw": "\"3.141592\"",
-              "value": "3.141592"
+              "value": "3.141592",
+              "raw": "\"3.141592\""
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 338,
@@ -201,30 +206,30 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 349,
               "end": 367,
-              "raw": "\"pi-sitive number\"",
-              "value": "pi-sitive number"
-            }
+              "value": "pi-sitive number",
+              "raw": "\"pi-sitive number\""
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": "public"
           },
           {
             "type": "PropertyDefinition",
             "start": 382,
             "end": 431,
-            "accessibility": "public",
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Literal",
               "start": 389,
               "end": 398,
-              "raw": "\"1.2e-20\"",
-              "value": "1.2e-20"
+              "value": "1.2e-20",
+              "raw": "\"1.2e-20\""
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 398,
@@ -239,30 +244,30 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 409,
               "end": 430,
-              "raw": "\"really small number\"",
-              "value": "really small number"
-            }
+              "value": "really small number",
+              "raw": "\"really small number\""
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": "public"
           },
           {
             "type": "PropertyDefinition",
             "start": 445,
             "end": 485,
-            "accessibility": "public",
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Literal",
               "start": 452,
               "end": 462,
-              "raw": "\"Infinity\"",
-              "value": "Infinity"
+              "value": "Infinity",
+              "raw": "\"Infinity\""
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 462,
@@ -277,30 +282,30 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 473,
               "end": 484,
-              "raw": "\"A gillion\"",
-              "value": "A gillion"
-            }
+              "value": "A gillion",
+              "raw": "\"A gillion\""
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": "public"
           },
           {
             "type": "PropertyDefinition",
             "start": 499,
             "end": 549,
-            "accessibility": "public",
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Literal",
               "start": 506,
               "end": 517,
-              "raw": "\"-Infinity\"",
-              "value": "-Infinity"
+              "value": "-Infinity",
+              "raw": "\"-Infinity\""
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 517,
@@ -315,30 +320,30 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 528,
               "end": 548,
-              "raw": "\"Negative-a-gillion\"",
-              "value": "Negative-a-gillion"
-            }
+              "value": "Negative-a-gillion",
+              "raw": "\"Negative-a-gillion\""
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": "public"
           },
           {
             "type": "PropertyDefinition",
             "start": 563,
             "end": 601,
-            "accessibility": "public",
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Literal",
               "start": 570,
               "end": 575,
-              "raw": "\"NaN\"",
-              "value": "NaN"
+              "value": "NaN",
+              "raw": "\"NaN\""
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 575,
@@ -353,30 +358,30 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 586,
               "end": 600,
-              "raw": "\"not a number\"",
-              "value": "not a number"
-            }
+              "value": "not a number",
+              "raw": "\"not a number\""
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": "public"
           },
           {
             "type": "PropertyDefinition",
             "start": 731,
             "end": 769,
-            "accessibility": "public",
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Literal",
               "start": 738,
               "end": 742,
-              "raw": "\" 1\"",
-              "value": " 1"
+              "value": " 1",
+              "raw": "\" 1\""
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 742,
@@ -391,30 +396,30 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 753,
               "end": 768,
-              "raw": "\"leading space\"",
-              "value": "leading space"
-            }
+              "value": "leading space",
+              "raw": "\"leading space\""
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": "public"
           },
           {
             "type": "PropertyDefinition",
             "start": 786,
             "end": 828,
-            "accessibility": "public",
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Literal",
               "start": 793,
               "end": 800,
-              "raw": "\"1    \"",
-              "value": "1    "
+              "value": "1    ",
+              "raw": "\"1    \""
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 800,
@@ -429,30 +434,30 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 811,
               "end": 827,
-              "raw": "\"trailing space\"",
-              "value": "trailing space"
-            }
+              "value": "trailing space",
+              "raw": "\"trailing space\""
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": "public"
           },
           {
             "type": "PropertyDefinition",
             "start": 845,
             "end": 878,
-            "accessibility": "public",
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Literal",
               "start": 852,
               "end": 854,
-              "raw": "\"\"",
-              "value": ""
+              "value": "",
+              "raw": "\"\""
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 854,
@@ -467,30 +472,30 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 865,
               "end": 877,
-              "raw": "\"no nothing\"",
-              "value": "no nothing"
-            }
+              "value": "no nothing",
+              "raw": "\"no nothing\""
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": "public"
           },
           {
             "type": "PropertyDefinition",
             "start": 895,
             "end": 932,
-            "accessibility": "public",
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Literal",
               "start": 902,
               "end": 908,
-              "raw": "\"    \"",
-              "value": "    "
+              "value": "    ",
+              "raw": "\"    \""
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 908,
@@ -505,30 +510,30 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 919,
               "end": 931,
-              "raw": "\"just space\"",
-              "value": "just space"
-            }
+              "value": "just space",
+              "raw": "\"just space\""
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": "public"
           },
           {
             "type": "PropertyDefinition",
             "start": 949,
             "end": 1003,
-            "accessibility": "public",
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Literal",
               "start": 956,
               "end": 963,
-              "raw": "\"1 0 1\"",
-              "value": "1 0 1"
+              "value": "1 0 1",
+              "raw": "\"1 0 1\""
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 963,
@@ -543,30 +548,30 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 974,
               "end": 1002,
-              "raw": "\"several numbers and spaces\"",
-              "value": "several numbers and spaces"
-            }
+              "value": "several numbers and spaces",
+              "raw": "\"several numbers and spaces\""
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": "public"
           },
           {
             "type": "PropertyDefinition",
             "start": 1020,
             "end": 1064,
-            "accessibility": "public",
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Literal",
               "start": 1027,
               "end": 1036,
-              "raw": "\"hunter2\"",
-              "value": "hunter2"
+              "value": "hunter2",
+              "raw": "\"hunter2\""
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 1036,
@@ -581,30 +586,30 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 1047,
               "end": 1063,
-              "raw": "\"not a password\"",
-              "value": "not a password"
-            }
+              "value": "not a password",
+              "raw": "\"not a password\""
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": "public"
           },
           {
             "type": "PropertyDefinition",
             "start": 1081,
             "end": 1122,
-            "accessibility": "public",
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Literal",
               "start": 1088,
               "end": 1099,
-              "raw": "\"+Infinity\"",
-              "value": "+Infinity"
+              "value": "+Infinity",
+              "raw": "\"+Infinity\""
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 1099,
@@ -619,30 +624,30 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 1110,
               "end": 1121,
-              "raw": "\"A gillion\"",
-              "value": "A gillion"
-            }
+              "value": "A gillion",
+              "raw": "\"A gillion\""
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": "public"
           },
           {
             "type": "PropertyDefinition",
             "start": 1139,
             "end": 1187,
-            "accessibility": "public",
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Literal",
               "start": 1146,
               "end": 1152,
-              "raw": "\"+NaN\"",
-              "value": "+NaN"
+              "value": "+NaN",
+              "raw": "\"+NaN\""
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 1152,
@@ -657,30 +662,30 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 1163,
               "end": 1186,
-              "raw": "\"not a positive number\"",
-              "value": "not a positive number"
-            }
+              "value": "not a positive number",
+              "raw": "\"not a positive number\""
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": "public"
           },
           {
             "type": "PropertyDefinition",
             "start": 1204,
             "end": 1252,
-            "accessibility": "public",
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Literal",
               "start": 1211,
               "end": 1217,
-              "raw": "\"-NaN\"",
-              "value": "-NaN"
+              "value": "-NaN",
+              "raw": "\"-NaN\""
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 1217,
@@ -695,30 +700,30 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 1228,
               "end": 1251,
-              "raw": "\"not a negative number\"",
-              "value": "not a negative number"
-            }
+              "value": "not a negative number",
+              "raw": "\"not a negative number\""
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": "public"
           },
           {
             "type": "PropertyDefinition",
             "start": 1472,
             "end": 1531,
-            "accessibility": "public",
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Literal",
               "start": 1479,
               "end": 1483,
-              "raw": "\"+1\"",
-              "value": "+1"
+              "value": "+1",
+              "raw": "\"+1\""
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 1483,
@@ -733,30 +738,30 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 1494,
               "end": 1530,
-              "raw": "\"positive number (for the paranoid)\"",
-              "value": "positive number (for the paranoid)"
-            }
+              "value": "positive number (for the paranoid)",
+              "raw": "\"positive number (for the paranoid)\""
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": "public"
           },
           {
             "type": "PropertyDefinition",
             "start": 1548,
             "end": 1582,
-            "accessibility": "public",
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Literal",
               "start": 1555,
               "end": 1560,
-              "raw": "\"1e0\"",
-              "value": "1e0"
+              "value": "1e0",
+              "raw": "\"1e0\""
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 1560,
@@ -771,30 +776,30 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 1571,
               "end": 1581,
-              "raw": "\"just one\"",
-              "value": "just one"
-            }
+              "value": "just one",
+              "raw": "\"just one\""
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": "public"
           },
           {
             "type": "PropertyDefinition",
             "start": 1599,
             "end": 1633,
-            "accessibility": "public",
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Literal",
               "start": 1606,
               "end": 1610,
-              "raw": "\"-0\"",
-              "value": "-0"
+              "value": "-0",
+              "raw": "\"-0\""
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 1610,
@@ -809,30 +814,30 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 1621,
               "end": 1632,
-              "raw": "\"just zero\"",
-              "value": "just zero"
-            }
+              "value": "just zero",
+              "raw": "\"just zero\""
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": "public"
           },
           {
             "type": "PropertyDefinition",
             "start": 1650,
             "end": 1686,
-            "accessibility": "public",
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Literal",
               "start": 1657,
               "end": 1663,
-              "raw": "\"-0e0\"",
-              "value": "-0e0"
+              "value": "-0e0",
+              "raw": "\"-0e0\""
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 1663,
@@ -847,30 +852,30 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 1674,
               "end": 1685,
-              "raw": "\"just zero\"",
-              "value": "just zero"
-            }
+              "value": "just zero",
+              "raw": "\"just zero\""
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": "public"
           },
           {
             "type": "PropertyDefinition",
             "start": 1703,
             "end": 1740,
-            "accessibility": "public",
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Literal",
               "start": 1710,
               "end": 1718,
-              "raw": "\"0xF00D\"",
-              "value": "0xF00D"
+              "value": "0xF00D",
+              "raw": "\"0xF00D\""
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 1718,
@@ -885,30 +890,30 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 1729,
               "end": 1739,
-              "raw": "\"hex food\"",
-              "value": "hex food"
-            }
+              "value": "hex food",
+              "raw": "\"hex food\""
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": "public"
           },
           {
             "type": "PropertyDefinition",
             "start": 1757,
             "end": 1794,
-            "accessibility": "public",
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Literal",
               "start": 1764,
               "end": 1772,
-              "raw": "\"0xBEEF\"",
-              "value": "0xBEEF"
+              "value": "0xBEEF",
+              "raw": "\"0xBEEF\""
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 1772,
@@ -923,30 +928,30 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 1783,
               "end": 1793,
-              "raw": "\"hex beef\"",
-              "value": "hex beef"
-            }
+              "value": "hex beef",
+              "raw": "\"hex beef\""
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": "public"
           },
           {
             "type": "PropertyDefinition",
             "start": 1811,
             "end": 1844,
-            "accessibility": "public",
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Literal",
               "start": 1818,
               "end": 1824,
-              "raw": "\"0123\"",
-              "value": "0123"
+              "value": "0123",
+              "raw": "\"0123\""
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 1824,
@@ -961,30 +966,30 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 1835,
               "end": 1843,
-              "raw": "\"oct 83\"",
-              "value": "oct 83"
-            }
+              "value": "oct 83",
+              "raw": "\"oct 83\""
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": "public"
           },
           {
             "type": "PropertyDefinition",
             "start": 1861,
             "end": 1904,
-            "accessibility": "public",
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Literal",
               "start": 1868,
               "end": 1875,
-              "raw": "\"0o123\"",
-              "value": "0o123"
+              "value": "0o123",
+              "raw": "\"0o123\""
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 1875,
@@ -999,30 +1004,30 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 1886,
               "end": 1903,
-              "raw": "\"explicit oct 83\"",
-              "value": "explicit oct 83"
-            }
+              "value": "explicit oct 83",
+              "raw": "\"explicit oct 83\""
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": "public"
           },
           {
             "type": "PropertyDefinition",
             "start": 1921,
             "end": 1973,
-            "accessibility": "public",
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Literal",
               "start": 1928,
               "end": 1944,
-              "raw": "\"0b101101001010\"",
-              "value": "0b101101001010"
+              "value": "0b101101001010",
+              "raw": "\"0b101101001010\""
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 1944,
@@ -1037,30 +1042,30 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 1955,
               "end": 1972,
-              "raw": "\"explicit binary\"",
-              "value": "explicit binary"
-            }
+              "value": "explicit binary",
+              "raw": "\"explicit binary\""
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": "public"
           },
           {
             "type": "PropertyDefinition",
             "start": 1990,
             "end": 2070,
-            "accessibility": "public",
-            "computed": false,
-            "declare": false,
             "decorators": [],
-            "definite": false,
             "key": {
               "type": "Literal",
               "start": 1997,
               "end": 2022,
-              "raw": "\"0.000000000000000000012\"",
-              "value": "0.000000000000000000012"
+              "value": "0.000000000000000000012",
+              "raw": "\"0.000000000000000000012\""
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 2022,
@@ -1075,27 +1080,22 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 2033,
               "end": 2069,
-              "raw": "\"should've been in exponential form\"",
-              "value": "should've been in exponential form"
-            }
+              "value": "should've been in exponential form",
+              "raw": "\"should've been in exponential form\""
+            },
+            "computed": false,
+            "static": false,
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "accessibility": "public"
           }
         ]
       },
-      "declare": false,
-      "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 6,
-        "end": 7,
-        "decorators": [],
-        "name": "C",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false
     }
   ],
   "sourceType": "script",

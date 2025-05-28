@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 104,
       "end": 129,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 110,
           "end": 128,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 110,
@@ -28,36 +28,36 @@ __ESTREE_TEST__:PASS:
             "type": "ArrowFunctionExpression",
             "start": 117,
             "end": 128,
+            "expression": true,
             "async": false,
+            "typeParameters": null,
+            "params": [],
+            "returnType": null,
             "body": {
               "type": "Literal",
               "start": 123,
               "end": 128,
-              "raw": "\"asd\"",
-              "value": "asd"
+              "value": "asd",
+              "raw": "\"asd\""
             },
-            "expression": true,
-            "generator": false,
             "id": null,
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
+            "generator": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 131,
       "end": 170,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 137,
           "end": 169,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 137,
@@ -71,6 +71,11 @@ __ESTREE_TEST__:PASS:
             "type": "JSXFragment",
             "start": 158,
             "end": 169,
+            "openingFragment": {
+              "type": "JSXOpeningFragment",
+              "start": 158,
+              "end": 160
+            },
             "children": [
               {
                 "type": "JSXExpressionContainer",
@@ -91,28 +96,23 @@ __ESTREE_TEST__:PASS:
               "type": "JSXClosingFragment",
               "start": 166,
               "end": 169
-            },
-            "openingFragment": {
-              "type": "JSXOpeningFragment",
-              "start": 158,
-              "end": 160
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
       "start": 171,
       "end": 240,
+      "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 177,
           "end": 239,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 177,
@@ -126,6 +126,31 @@ __ESTREE_TEST__:PASS:
             "type": "JSXElement",
             "start": 200,
             "end": 239,
+            "openingElement": {
+              "type": "JSXOpeningElement",
+              "start": 200,
+              "end": 216,
+              "name": {
+                "type": "JSXMemberExpression",
+                "start": 201,
+                "end": 215,
+                "object": {
+                  "type": "JSXIdentifier",
+                  "start": 201,
+                  "end": 206,
+                  "name": "React"
+                },
+                "property": {
+                  "type": "JSXIdentifier",
+                  "start": 207,
+                  "end": 215,
+                  "name": "Fragment"
+                }
+              },
+              "typeArguments": null,
+              "attributes": [],
+              "selfClosing": false
+            },
             "children": [
               {
                 "type": "JSXExpressionContainer",
@@ -163,37 +188,12 @@ __ESTREE_TEST__:PASS:
                   "name": "Fragment"
                 }
               }
-            },
-            "openingElement": {
-              "type": "JSXOpeningElement",
-              "start": 200,
-              "end": 216,
-              "attributes": [],
-              "name": {
-                "type": "JSXMemberExpression",
-                "start": 201,
-                "end": 215,
-                "object": {
-                  "type": "JSXIdentifier",
-                  "start": 201,
-                  "end": 206,
-                  "name": "React"
-                },
-                "property": {
-                  "type": "JSXIdentifier",
-                  "start": 207,
-                  "end": 215,
-                  "name": "Fragment"
-                }
-              },
-              "selfClosing": false,
-              "typeArguments": null
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "declare": false
     }
   ],
   "sourceType": "script",

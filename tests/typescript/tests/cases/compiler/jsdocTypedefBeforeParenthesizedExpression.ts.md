@@ -9,81 +9,71 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 63,
       "end": 71,
-      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 64,
         "end": 69,
-        "operator": "*",
         "left": {
           "type": "Literal",
           "start": 64,
           "end": 65,
-          "raw": "2",
-          "value": 2
+          "value": 2,
+          "raw": "2"
         },
+        "operator": "*",
         "right": {
           "type": "Literal",
           "start": 68,
           "end": 69,
-          "raw": "2",
-          "value": 2
+          "value": 2,
+          "raw": "2"
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 117,
       "end": 129,
-      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 117,
         "end": 128,
-        "operator": "+",
         "left": {
           "type": "BinaryExpression",
           "start": 118,
           "end": 123,
-          "operator": "*",
           "left": {
             "type": "Literal",
             "start": 118,
             "end": 119,
-            "raw": "2",
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
+          "operator": "*",
           "right": {
             "type": "Literal",
             "start": 122,
             "end": 123,
-            "raw": "2",
-            "value": 2
+            "value": 2,
+            "raw": "2"
           }
         },
+        "operator": "+",
         "right": {
           "type": "Literal",
           "start": 127,
           "end": 128,
-          "raw": "1",
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "FunctionDeclaration",
       "start": 214,
       "end": 266,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 264,
-        "end": 266,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 223,
@@ -93,6 +83,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -114,7 +108,13 @@ __ESTREE_TEST__:PASS:
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 264,
+        "end": 266,
+        "body": []
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

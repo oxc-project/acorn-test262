@@ -9,16 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 31,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 28,
-        "end": 31,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
@@ -28,6 +18,10 @@ __ESTREE_TEST__:PASS:
         "optional": false,
         "typeAnnotation": null
       },
+      "generator": false,
+      "async": false,
+      "declare": false,
+      "typeParameters": null,
       "params": [
         {
           "type": "Identifier",
@@ -44,6 +38,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSFunctionType",
               "start": 14,
               "end": 26,
+              "typeParameters": null,
               "params": [],
               "returnType": {
                 "type": "TSTypeAnnotation",
@@ -54,44 +49,28 @@ __ESTREE_TEST__:PASS:
                   "start": 20,
                   "end": 26
                 }
-              },
-              "typeParameters": null
+              }
             }
           }
         }
       ],
       "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 28,
+        "end": 31,
+        "body": []
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
       "start": 45,
       "end": 58,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 45,
         "end": 57,
-        "arguments": [
-          {
-            "type": "ArrowFunctionExpression",
-            "start": 47,
-            "end": 56,
-            "async": false,
-            "body": {
-              "type": "BlockStatement",
-              "start": 53,
-              "end": 56,
-              "body": []
-            },
-            "expression": false,
-            "generator": false,
-            "id": null,
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
-        ],
         "callee": {
           "type": "Identifier",
           "start": 45,
@@ -101,39 +80,39 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 47,
+            "end": 56,
+            "expression": false,
+            "async": false,
+            "typeParameters": null,
+            "params": [],
+            "returnType": null,
+            "body": {
+              "type": "BlockStatement",
+              "start": 53,
+              "end": 56,
+              "body": []
+            },
+            "id": null,
+            "generator": false
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 79,
       "end": 93,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 79,
         "end": 92,
-        "arguments": [
-          {
-            "type": "ArrowFunctionExpression",
-            "start": 81,
-            "end": 91,
-            "async": false,
-            "body": {
-              "type": "BlockStatement",
-              "start": 87,
-              "end": 91,
-              "body": []
-            },
-            "expression": false,
-            "generator": false,
-            "id": null,
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
-        ],
         "callee": {
           "type": "Identifier",
           "start": 79,
@@ -143,39 +122,39 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 81,
+            "end": 91,
+            "expression": false,
+            "async": false,
+            "typeParameters": null,
+            "params": [],
+            "returnType": null,
+            "body": {
+              "type": "BlockStatement",
+              "start": 87,
+              "end": 91,
+              "body": []
+            },
+            "id": null,
+            "generator": false
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 116,
       "end": 130,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 116,
         "end": 129,
-        "arguments": [
-          {
-            "type": "ArrowFunctionExpression",
-            "start": 118,
-            "end": 128,
-            "async": false,
-            "body": {
-              "type": "BlockStatement",
-              "start": 124,
-              "end": 128,
-              "body": []
-            },
-            "expression": false,
-            "generator": false,
-            "id": null,
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
-        ],
         "callee": {
           "type": "Identifier",
           "start": 116,
@@ -185,39 +164,39 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 118,
+            "end": 128,
+            "expression": false,
+            "async": false,
+            "typeParameters": null,
+            "params": [],
+            "returnType": null,
+            "body": {
+              "type": "BlockStatement",
+              "start": 124,
+              "end": 128,
+              "body": []
+            },
+            "id": null,
+            "generator": false
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 168,
       "end": 185,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 168,
         "end": 184,
-        "arguments": [
-          {
-            "type": "ArrowFunctionExpression",
-            "start": 170,
-            "end": 183,
-            "async": false,
-            "body": {
-              "type": "BlockStatement",
-              "start": 180,
-              "end": 183,
-              "body": []
-            },
-            "expression": false,
-            "generator": false,
-            "id": null,
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
-        ],
         "callee": {
           "type": "Identifier",
           "start": 168,
@@ -227,34 +206,57 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 170,
+            "end": 183,
+            "expression": false,
+            "async": false,
+            "typeParameters": null,
+            "params": [],
+            "returnType": null,
+            "body": {
+              "type": "BlockStatement",
+              "start": 180,
+              "end": 183,
+              "body": []
+            },
+            "id": null,
+            "generator": false
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 213,
       "end": 248,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 213,
         "end": 247,
+        "callee": {
+          "type": "Identifier",
+          "start": 213,
+          "end": 214,
+          "decorators": [],
+          "name": "f",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null,
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 215,
             "end": 246,
-            "async": false,
-            "body": {
-              "type": "BlockStatement",
-              "start": 243,
-              "end": 246,
-              "body": []
-            },
             "expression": false,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -294,51 +296,28 @@ __ESTREE_TEST__:PASS:
               }
             ],
             "returnType": null,
-            "typeParameters": null
+            "body": {
+              "type": "BlockStatement",
+              "start": 243,
+              "end": 246,
+              "body": []
+            },
+            "id": null,
+            "generator": false
           }
         ],
-        "callee": {
-          "type": "Identifier",
-          "start": 213,
-          "end": 214,
-          "decorators": [],
-          "name": "f",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "optional": false,
-        "typeArguments": null
-      }
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 280,
       "end": 302,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 280,
         "end": 301,
-        "arguments": [
-          {
-            "type": "ArrowFunctionExpression",
-            "start": 291,
-            "end": 300,
-            "async": false,
-            "body": {
-              "type": "BlockStatement",
-              "start": 297,
-              "end": 300,
-              "body": []
-            },
-            "expression": false,
-            "generator": false,
-            "id": null,
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
-        ],
         "callee": {
           "type": "Identifier",
           "start": 280,
@@ -348,39 +327,39 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 291,
+            "end": 300,
+            "expression": false,
+            "async": false,
+            "typeParameters": null,
+            "params": [],
+            "returnType": null,
+            "body": {
+              "type": "BlockStatement",
+              "start": 297,
+              "end": 300,
+              "body": []
+            },
+            "id": null,
+            "generator": false
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 333,
       "end": 355,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 333,
         "end": 354,
-        "arguments": [
-          {
-            "type": "ArrowFunctionExpression",
-            "start": 344,
-            "end": 353,
-            "async": false,
-            "body": {
-              "type": "BlockStatement",
-              "start": 350,
-              "end": 353,
-              "body": []
-            },
-            "expression": false,
-            "generator": false,
-            "id": null,
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
-        ],
         "callee": {
           "type": "Identifier",
           "start": 333,
@@ -390,39 +369,39 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 344,
+            "end": 353,
+            "expression": false,
+            "async": false,
+            "typeParameters": null,
+            "params": [],
+            "returnType": null,
+            "body": {
+              "type": "BlockStatement",
+              "start": 350,
+              "end": 353,
+              "body": []
+            },
+            "id": null,
+            "generator": false
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 388,
       "end": 416,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 388,
         "end": 415,
-        "arguments": [
-          {
-            "type": "ArrowFunctionExpression",
-            "start": 399,
-            "end": 414,
-            "async": false,
-            "body": {
-              "type": "BlockStatement",
-              "start": 405,
-              "end": 414,
-              "body": []
-            },
-            "expression": false,
-            "generator": false,
-            "id": null,
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
-        ],
         "callee": {
           "type": "Identifier",
           "start": 388,
@@ -432,39 +411,39 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 399,
+            "end": 414,
+            "expression": false,
+            "async": false,
+            "typeParameters": null,
+            "params": [],
+            "returnType": null,
+            "body": {
+              "type": "BlockStatement",
+              "start": 405,
+              "end": 414,
+              "body": []
+            },
+            "id": null,
+            "generator": false
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 449,
       "end": 562,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 449,
         "end": 561,
-        "arguments": [
-          {
-            "type": "ArrowFunctionExpression",
-            "start": 487,
-            "end": 542,
-            "async": false,
-            "body": {
-              "type": "BlockStatement",
-              "start": 514,
-              "end": 542,
-              "body": []
-            },
-            "expression": false,
-            "generator": false,
-            "id": null,
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
-        ],
         "callee": {
           "type": "Identifier",
           "start": 449,
@@ -474,48 +453,57 @@ __ESTREE_TEST__:PASS:
           "optional": false,
           "typeAnnotation": null
         },
-        "optional": false,
-        "typeArguments": null
-      }
+        "typeArguments": null,
+        "arguments": [
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 487,
+            "end": 542,
+            "expression": false,
+            "async": false,
+            "typeParameters": null,
+            "params": [],
+            "returnType": null,
+            "body": {
+              "type": "BlockStatement",
+              "start": 514,
+              "end": 542,
+              "body": []
+            },
+            "id": null,
+            "generator": false
+          }
+        ],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 588,
       "end": 606,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 588,
         "end": 605,
+        "callee": {
+          "type": "Identifier",
+          "start": 588,
+          "end": 589,
+          "decorators": [],
+          "name": "f",
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null,
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 590,
             "end": 604,
-            "async": false,
-            "body": {
-              "type": "BinaryExpression",
-              "start": 595,
-              "end": 604,
-              "operator": "+",
-              "left": {
-                "type": "Literal",
-                "start": 595,
-                "end": 596,
-                "raw": "1",
-                "value": 1
-              },
-              "right": {
-                "type": "Literal",
-                "start": 603,
-                "end": 604,
-                "raw": "2",
-                "value": 2
-              }
-            },
             "expression": true,
-            "generator": false,
-            "id": null,
+            "async": false,
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
@@ -528,21 +516,33 @@ __ESTREE_TEST__:PASS:
               }
             ],
             "returnType": null,
-            "typeParameters": null
+            "body": {
+              "type": "BinaryExpression",
+              "start": 595,
+              "end": 604,
+              "left": {
+                "type": "Literal",
+                "start": 595,
+                "end": 596,
+                "value": 1,
+                "raw": "1"
+              },
+              "operator": "+",
+              "right": {
+                "type": "Literal",
+                "start": 603,
+                "end": 604,
+                "value": 2,
+                "raw": "2"
+              }
+            },
+            "id": null,
+            "generator": false
           }
         ],
-        "callee": {
-          "type": "Identifier",
-          "start": 588,
-          "end": 589,
-          "decorators": [],
-          "name": "f",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "optional": false,
-        "typeArguments": null
-      }
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

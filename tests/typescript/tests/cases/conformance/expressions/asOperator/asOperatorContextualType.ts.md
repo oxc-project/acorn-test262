@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "VariableDeclaration",
       "start": 16,
       "end": 58,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
           "start": 20,
           "end": 57,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 20,
@@ -32,19 +32,9 @@ __ESTREE_TEST__:PASS:
               "type": "ArrowFunctionExpression",
               "start": 25,
               "end": 31,
-              "async": false,
-              "body": {
-                "type": "Identifier",
-                "start": 30,
-                "end": 31,
-                "decorators": [],
-                "name": "v",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "expression": true,
-              "generator": false,
-              "id": null,
+              "async": false,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -57,12 +47,23 @@ __ESTREE_TEST__:PASS:
                 }
               ],
               "returnType": null,
-              "typeParameters": null
+              "body": {
+                "type": "Identifier",
+                "start": 30,
+                "end": 31,
+                "decorators": [],
+                "name": "v",
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "id": null,
+              "generator": false
             },
             "typeAnnotation": {
               "type": "TSFunctionType",
               "start": 36,
               "end": 57,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
@@ -92,14 +93,13 @@ __ESTREE_TEST__:PASS:
                   "start": 51,
                   "end": 57
                 }
-              },
-              "typeParameters": null
+              }
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "declare": false
     }
   ],
   "sourceType": "script",
