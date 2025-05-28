@@ -13,7 +13,6 @@
         "end": 402,
         "name": "FACTORY"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -46,8 +45,8 @@
                   "end": 416,
                   "name": "id"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "Literal",
@@ -82,8 +81,8 @@
                   "end": 439,
                   "name": "id"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "CallExpression",
@@ -127,7 +126,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "TryStatement",
@@ -142,6 +142,7 @@
             "type": "VariableDeclaration",
             "start": 609,
             "end": 633,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -166,8 +167,7 @@
                   "arguments": []
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ThrowStatement",

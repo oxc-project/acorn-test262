@@ -23,7 +23,6 @@
           "start": 306,
           "end": 357,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [
@@ -88,7 +87,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -96,6 +96,7 @@
       "type": "VariableDeclaration",
       "start": 360,
       "end": 368,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -115,8 +116,7 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -146,6 +146,7 @@
       "type": "VariableDeclaration",
       "start": 374,
       "end": 384,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -165,8 +166,7 @@
             "raw": "\"AB\""
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",

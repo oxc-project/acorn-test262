@@ -31,6 +31,7 @@
       "type": "VariableDeclaration",
       "start": 385,
       "end": 412,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -49,8 +50,7 @@
             "name": "THE_ANSWER"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -62,7 +62,6 @@
         "end": 429,
         "name": "__func"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -90,7 +89,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",
@@ -110,7 +110,6 @@
           "start": 566,
           "end": 581,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "CallExpression",
             "start": 573,
@@ -123,7 +122,8 @@
             },
             "arguments": [],
             "optional": false
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -171,7 +171,6 @@
                     "start": 692,
                     "end": 707,
                     "operator": "typeof",
-                    "prefix": true,
                     "argument": {
                       "type": "CallExpression",
                       "start": 699,
@@ -184,7 +183,8 @@
                       },
                       "arguments": [],
                       "optional": false
-                    }
+                    },
+                    "prefix": true
                   }
                 }
               ]

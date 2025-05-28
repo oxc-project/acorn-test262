@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 694,
       "end": 711,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "\"one\""
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 712,
       "end": 729,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -52,13 +53,13 @@
             "raw": "\"two\""
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 731,
       "end": 896,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -75,7 +76,6 @@
             "start": 744,
             "end": 895,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -121,8 +121,8 @@
                         "end": 777,
                         "name": "first"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "right": {
                       "type": "Identifier",
@@ -157,8 +157,8 @@
                         "end": 798,
                         "name": "prop"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "right": {
                       "type": "Identifier",
@@ -189,7 +189,6 @@
                     "end": 871,
                     "name": "__gunc"
                   },
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [
@@ -224,7 +223,8 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
                 {
                   "type": "EmptyStatement",
@@ -232,16 +232,17 @@
                   "end": 891
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 898,
       "end": 942,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -279,8 +280,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -306,8 +306,8 @@
             "end": 1053,
             "name": "first"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -365,8 +365,8 @@
                       "end": 1178,
                       "name": "first"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
@@ -400,8 +400,8 @@
             "end": 1374,
             "name": "prop"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -459,8 +459,8 @@
                       "end": 1488,
                       "name": "prop"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]

@@ -16,6 +16,7 @@
             "type": "VariableDeclaration",
             "start": 497,
             "end": 521,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -41,8 +42,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ThrowStatement",
@@ -186,6 +186,7 @@
       "type": "VariableDeclaration",
       "start": 892,
       "end": 938,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -207,7 +208,6 @@
               "end": 920,
               "name": "__func"
             },
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -229,16 +229,17 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 1029,
       "end": 1053,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -264,8 +265,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -361,7 +361,6 @@
             "end": 1271,
             "name": "__func"
           },
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -383,7 +382,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -391,6 +391,7 @@
       "type": "VariableDeclaration",
       "start": 1380,
       "end": 1404,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -416,8 +417,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",

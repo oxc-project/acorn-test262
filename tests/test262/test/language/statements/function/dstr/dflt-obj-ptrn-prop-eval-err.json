@@ -13,7 +13,6 @@
         "end": 1559,
         "name": "thrower"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -40,7 +39,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -52,7 +52,6 @@
         "end": 1605,
         "name": "f"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -69,9 +68,7 @@
                 "type": "Property",
                 "start": 1608,
                 "end": 1622,
-                "method": false,
-                "shorthand": false,
-                "computed": true,
+                "kind": "init",
                 "key": {
                   "type": "CallExpression",
                   "start": 1609,
@@ -91,7 +88,9 @@
                   "end": 1622,
                   "name": "x"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": true
               }
             ]
           },
@@ -108,7 +107,8 @@
         "start": 1631,
         "end": 1633,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -134,8 +134,8 @@
             "end": 1648,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -149,7 +149,6 @@
             "start": 1663,
             "end": 1684,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -177,7 +176,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

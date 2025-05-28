@@ -29,7 +29,6 @@
                   "start": 457,
                   "end": 476,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -51,7 +50,8 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 }
               },
               "arguments": [],
@@ -187,7 +187,6 @@
                   "start": 788,
                   "end": 807,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -209,7 +208,8 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 }
               },
               "arguments": [],

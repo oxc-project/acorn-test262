@@ -13,7 +13,6 @@
         "end": 314,
         "name": "foo"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -43,6 +42,7 @@
               "type": "VariableDeclaration",
               "start": 347,
               "end": 360,
+              "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -56,8 +56,7 @@
                   },
                   "init": null
                 }
-              ],
-              "kind": "var"
+              ]
             },
             "right": {
               "type": "ThisExpression",
@@ -93,8 +92,8 @@
                         "end": 399,
                         "name": "notSameValue"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -125,7 +124,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -151,8 +151,8 @@
             "end": 452,
             "name": "call"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

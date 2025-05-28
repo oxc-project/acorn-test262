@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1793,
       "end": 1811,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -39,7 +39,6 @@
         "end": 1822,
         "name": "f"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -52,9 +51,7 @@
               "type": "Property",
               "start": 1825,
               "end": 1841,
-              "method": false,
-              "shorthand": true,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 1825,
@@ -75,9 +72,7 @@
                   "type": "ArrowFunctionExpression",
                   "start": 1833,
                   "end": 1841,
-                  "id": null,
                   "expression": false,
-                  "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
@@ -85,10 +80,14 @@
                     "start": 1839,
                     "end": 1841,
                     "body": []
-                  }
+                  },
+                  "id": null,
+                  "generator": false
                 }
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": true,
+              "computed": false
             }
           ]
         }
@@ -122,8 +121,8 @@
                   "end": 1865,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -142,8 +141,8 @@
                     "end": 1876,
                     "name": "name"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 {
                   "type": "Literal",
@@ -193,7 +192,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",
@@ -249,8 +249,8 @@
             "end": 1943,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

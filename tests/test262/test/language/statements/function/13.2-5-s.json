@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 309,
       "end": 349,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -39,8 +40,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -66,8 +66,8 @@
             "end": 364,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -81,7 +81,6 @@
             "start": 376,
             "end": 417,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -94,6 +93,7 @@
                   "type": "VariableDeclaration",
                   "start": 393,
                   "end": 415,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -121,15 +121,15 @@
                           "end": 414,
                           "name": "caller"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

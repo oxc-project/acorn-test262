@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 228,
       "end": 266,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -110,8 +111,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -137,8 +137,8 @@
             "end": 300,
             "name": "sort"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -146,7 +146,6 @@
             "start": 303,
             "end": 393,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -204,14 +203,14 @@
                           "start": 338,
                           "end": 340,
                           "operator": "-",
-                          "prefix": true,
                           "argument": {
                             "type": "Literal",
                             "start": 339,
                             "end": 340,
                             "value": 1,
                             "raw": "1"
-                          }
+                          },
+                          "prefix": true
                         }
                       }
                     ]
@@ -305,7 +304,8 @@
                   "alternate": null
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false
@@ -339,8 +339,8 @@
               "end": 505,
               "name": "toString"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [],
           "optional": false
@@ -451,8 +451,8 @@
               "end": 546,
               "name": "toString"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [],
           "optional": false
@@ -510,8 +510,8 @@
                         "end": 684,
                         "name": "toString"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false

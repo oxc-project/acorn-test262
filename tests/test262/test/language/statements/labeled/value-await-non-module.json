@@ -7,6 +7,12 @@
       "type": "LabeledStatement",
       "start": 409,
       "end": 418,
+      "label": {
+        "type": "Identifier",
+        "start": 409,
+        "end": 414,
+        "name": "await"
+      },
       "body": {
         "type": "ExpressionStatement",
         "start": 416,
@@ -18,12 +24,6 @@
           "value": 1,
           "raw": "1"
         }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 409,
-        "end": 414,
-        "name": "await"
       }
     }
   ],

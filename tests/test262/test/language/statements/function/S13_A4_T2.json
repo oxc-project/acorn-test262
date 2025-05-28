@@ -13,7 +13,6 @@
         "end": 449,
         "name": "__func"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -48,7 +47,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",
@@ -68,13 +68,13 @@
           "start": 566,
           "end": 579,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 573,
             "end": 579,
             "name": "__func"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -122,13 +122,13 @@
                     "start": 684,
                     "end": 697,
                     "operator": "typeof",
-                    "prefix": true,
                     "argument": {
                       "type": "Identifier",
                       "start": 691,
                       "end": 697,
                       "name": "__func"
-                    }
+                    },
+                    "prefix": true
                   }
                 }
               ]

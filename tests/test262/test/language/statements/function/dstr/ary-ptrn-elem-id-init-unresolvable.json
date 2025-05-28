@@ -13,7 +13,6 @@
         "end": 1862,
         "name": "f"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -47,7 +46,8 @@
         "start": 1894,
         "end": 1896,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -73,8 +73,8 @@
             "end": 1911,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -88,7 +88,6 @@
             "start": 1928,
             "end": 1951,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -123,7 +122,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

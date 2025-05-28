@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 235,
       "end": 254,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "\"C3PO\""
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -39,7 +39,6 @@
         "end": 271,
         "name": "__FUNC"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -58,7 +57,6 @@
               "end": 294,
               "name": "__GUNC"
             },
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -88,12 +86,13 @@
                       "value": 0,
                       "raw": "0"
                     },
-                    "computed": true,
-                    "optional": false
+                    "optional": false,
+                    "computed": true
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "EmptyStatement",
@@ -110,7 +109,6 @@
               "end": 353,
               "name": "__HUNC"
             },
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -131,7 +129,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           {
             "type": "EmptyStatement",
@@ -150,7 +149,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",

@@ -13,7 +13,6 @@
         "end": 280,
         "name": "__func__INC"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -54,7 +53,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",
@@ -71,7 +71,6 @@
         "end": 325,
         "name": "__func__MULT"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -137,7 +136,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",

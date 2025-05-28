@@ -27,8 +27,8 @@
             "end": 1073,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 1085,
             "end": 1143,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -55,6 +54,7 @@
                   "type": "VariableDeclaration",
                   "start": 1100,
                   "end": 1141,
+                  "kind": "let",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -69,9 +69,7 @@
                             "type": "Property",
                             "start": 1106,
                             "end": 1132,
-                            "method": false,
-                            "shorthand": false,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 1106,
@@ -91,9 +89,7 @@
                                     "type": "Property",
                                     "start": 1111,
                                     "end": 1112,
-                                    "method": false,
-                                    "shorthand": true,
-                                    "computed": false,
+                                    "kind": "init",
                                     "key": {
                                       "type": "Identifier",
                                       "start": 1111,
@@ -106,15 +102,15 @@
                                       "end": 1112,
                                       "name": "x"
                                     },
-                                    "kind": "init"
+                                    "method": false,
+                                    "shorthand": true,
+                                    "computed": false
                                   },
                                   {
                                     "type": "Property",
                                     "start": 1114,
                                     "end": 1115,
-                                    "method": false,
-                                    "shorthand": true,
-                                    "computed": false,
+                                    "kind": "init",
                                     "key": {
                                       "type": "Identifier",
                                       "start": 1114,
@@ -127,15 +123,15 @@
                                       "end": 1115,
                                       "name": "y"
                                     },
-                                    "kind": "init"
+                                    "method": false,
+                                    "shorthand": true,
+                                    "computed": false
                                   },
                                   {
                                     "type": "Property",
                                     "start": 1117,
                                     "end": 1118,
-                                    "method": false,
-                                    "shorthand": true,
-                                    "computed": false,
+                                    "kind": "init",
                                     "key": {
                                       "type": "Identifier",
                                       "start": 1117,
@@ -148,7 +144,9 @@
                                       "end": 1118,
                                       "name": "z"
                                     },
-                                    "kind": "init"
+                                    "method": false,
+                                    "shorthand": true,
+                                    "computed": false
                                   }
                                 ]
                               },
@@ -159,7 +157,9 @@
                                 "name": "undefined"
                               }
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false
                           }
                         ]
                       },
@@ -170,11 +170,11 @@
                         "properties": []
                       }
                     }
-                  ],
-                  "kind": "let"
+                  ]
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

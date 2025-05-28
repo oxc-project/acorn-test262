@@ -27,8 +27,8 @@
             "end": 1333,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -42,7 +42,6 @@
             "start": 1345,
             "end": 1379,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -55,6 +54,7 @@
                   "type": "VariableDeclaration",
                   "start": 1360,
                   "end": 1377,
+                  "kind": "let",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -74,9 +74,7 @@
                                 "type": "Property",
                                 "start": 1367,
                                 "end": 1368,
-                                "method": false,
-                                "shorthand": true,
-                                "computed": false,
+                                "kind": "init",
                                 "key": {
                                   "type": "Identifier",
                                   "start": 1367,
@@ -89,7 +87,9 @@
                                   "end": 1368,
                                   "name": "x"
                                 },
-                                "kind": "init"
+                                "method": false,
+                                "shorthand": true,
+                                "computed": false
                               }
                             ]
                           }
@@ -102,11 +102,11 @@
                         "elements": []
                       }
                     }
-                  ],
-                  "kind": "let"
+                  ]
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

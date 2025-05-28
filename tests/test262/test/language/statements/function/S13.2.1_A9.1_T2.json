@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 451,
       "end": 457,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,13 +21,13 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 459,
       "end": 499,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -43,7 +44,6 @@
             "start": 472,
             "end": 499,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -77,11 +77,11 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -179,13 +179,13 @@
         "start": 885,
         "end": 887,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "Identifier",
           "start": 886,
           "end": 887,
           "name": "x"
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",

@@ -13,7 +13,6 @@
         "end": 300,
         "name": "arguments"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -22,7 +21,8 @@
         "start": 303,
         "end": 305,
         "body": []
-      }
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

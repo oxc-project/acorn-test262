@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 495,
       "end": 503,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,13 +21,13 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 505,
       "end": 533,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -51,8 +52,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -78,8 +78,8 @@
             "end": 636,
             "name": "prop"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -138,8 +138,8 @@
                       "end": 725,
                       "name": "prop"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
@@ -173,8 +173,8 @@
             "end": 916,
             "name": "prop"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -233,8 +233,8 @@
                       "end": 1011,
                       "name": "prop"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
@@ -272,8 +272,8 @@
               "end": 1202,
               "name": "slot"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "property": {
             "type": "Identifier",
@@ -281,8 +281,8 @@
             "end": 1207,
             "name": "prop"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -345,8 +345,8 @@
                         "end": 1307,
                         "name": "slot"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "property": {
                       "type": "Identifier",
@@ -354,8 +354,8 @@
                       "end": 1312,
                       "name": "prop"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
@@ -375,7 +375,6 @@
         "end": 1418,
         "name": "__FACTORY"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -408,8 +407,8 @@
                   "end": 1435,
                   "name": "prop"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "Literal",
@@ -468,8 +467,8 @@
                   "end": 1467,
                   "name": "prop"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "Literal",
@@ -505,8 +504,8 @@
                   "end": 1487,
                   "name": "slot"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "ThisExpression",
@@ -527,7 +526,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 273,
       "end": 281,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -38,7 +38,6 @@
         "start": 374,
         "end": 378,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 375,
@@ -50,7 +49,8 @@
             "value": 1,
             "raw": "1"
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "ThrowStatement",
@@ -155,7 +155,6 @@
         "start": 707,
         "end": 714,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 708,
@@ -167,7 +166,8 @@
             "value": true,
             "raw": "true"
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "ThrowStatement",
@@ -272,7 +272,6 @@
         "start": 1046,
         "end": 1052,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 1047,
@@ -284,7 +283,8 @@
             "value": "1",
             "raw": "\"1\""
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "ThrowStatement",
@@ -389,7 +389,6 @@
         "start": 1383,
         "end": 1389,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 1384,
@@ -401,7 +400,8 @@
             "value": "A",
             "raw": "\"A\""
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "ThrowStatement",

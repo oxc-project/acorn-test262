@@ -13,7 +13,6 @@
         "end": 397,
         "name": "__func"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -54,8 +53,8 @@
                   "end": 419,
                   "name": "foo"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "Literal",
@@ -67,12 +66,14 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 439,
       "end": 452,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -91,8 +92,7 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -143,8 +143,8 @@
             "end": 573,
             "name": "foo"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -203,8 +203,8 @@
                       "end": 687,
                       "name": "foo"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]

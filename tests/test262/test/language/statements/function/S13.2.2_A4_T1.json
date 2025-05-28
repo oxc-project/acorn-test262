@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 559,
       "end": 577,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "\"cube\""
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -39,7 +39,6 @@
         "end": 597,
         "name": "__FACTORY"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -48,7 +47,8 @@
         "start": 599,
         "end": 602,
         "body": []
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",
@@ -80,8 +80,8 @@
             "end": 623,
             "name": "prototype"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "ObjectExpression",
@@ -92,9 +92,7 @@
               "type": "Property",
               "start": 626,
               "end": 638,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 626,
@@ -107,15 +105,15 @@
                 "end": 638,
                 "name": "__CUBE"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             },
             {
               "type": "Property",
               "start": 640,
               "end": 681,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 640,
@@ -127,7 +125,6 @@
                 "start": 651,
                 "end": 681,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -155,14 +152,17 @@
                           "end": 679,
                           "name": "shape"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             }
           ]
         }
@@ -172,6 +172,7 @@
       "type": "VariableDeclaration",
       "start": 686,
       "end": 717,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -196,8 +197,7 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -223,8 +223,8 @@
             "end": 831,
             "name": "printShape"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "===",
         "right": {
@@ -282,8 +282,8 @@
                       "end": 965,
                       "name": "printShape"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
@@ -321,8 +321,8 @@
               "end": 1165,
               "name": "printShape"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [],
           "optional": false
@@ -387,8 +387,8 @@
                         "end": 1299,
                         "name": "printShape"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false

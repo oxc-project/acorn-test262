@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 324,
       "end": 335,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -33,7 +33,6 @@
         "end": 347,
         "name": "g"
       },
-      "expression": false,
       "generator": true,
       "async": false,
       "params": [],
@@ -60,7 +59,6 @@
                   "end": 369,
                   "name": "yield"
                 },
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -69,12 +67,14 @@
                   "start": 372,
                   "end": 374,
                   "body": []
-                }
+                },
+                "expression": false
               }
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -118,8 +118,8 @@
               "end": 396,
               "name": "next"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [],
           "optional": false
@@ -150,8 +150,8 @@
             "end": 417,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -170,8 +170,8 @@
               "end": 430,
               "name": "value"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Identifier",
@@ -207,8 +207,8 @@
             "end": 460,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -227,8 +227,8 @@
               "end": 472,
               "name": "done"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

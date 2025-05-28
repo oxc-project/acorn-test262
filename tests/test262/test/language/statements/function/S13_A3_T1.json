@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 467,
       "end": 602,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -28,7 +29,6 @@
               "end": 500,
               "name": "__exp__func"
             },
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -144,16 +144,17 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 604,
       "end": 631,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -187,8 +188,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",

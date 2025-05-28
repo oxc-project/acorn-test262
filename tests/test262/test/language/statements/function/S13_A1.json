@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 317,
       "end": 364,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -28,7 +29,6 @@
               "end": 350,
               "name": "__exp__func"
             },
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -50,11 +50,11 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -69,13 +69,13 @@
           "start": 463,
           "end": 476,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 470,
             "end": 476,
             "name": "__func"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -123,13 +123,13 @@
                     "start": 581,
                     "end": 594,
                     "operator": "typeof",
-                    "prefix": true,
                     "argument": {
                       "type": "Identifier",
                       "start": 588,
                       "end": 594,
                       "name": "__func"
-                    }
+                    },
+                    "prefix": true
                   }
                 }
               ]
@@ -152,13 +152,13 @@
           "start": 777,
           "end": 795,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 784,
             "end": 795,
             "name": "__exp__func"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -206,13 +206,13 @@
                     "start": 914,
                     "end": 932,
                     "operator": "typeof",
-                    "prefix": true,
                     "argument": {
                       "type": "Identifier",
                       "start": 921,
                       "end": 932,
                       "name": "__exp__func"
-                    }
+                    },
+                    "prefix": true
                   }
                 }
               ]

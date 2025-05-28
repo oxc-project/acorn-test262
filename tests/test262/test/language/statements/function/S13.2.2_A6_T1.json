@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 641,
       "end": 673,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -56,8 +57,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -127,7 +127,6 @@
           "start": 721,
           "end": 790,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [
@@ -167,8 +166,8 @@
                       "end": 745,
                       "name": "foo"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "right": {
                     "type": "Identifier",
@@ -214,8 +213,8 @@
                       "end": 774,
                       "name": "bar"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "right": {
                     "type": "MemberExpression",
@@ -234,13 +233,14 @@
                       "value": 1,
                       "raw": "1"
                     },
-                    "computed": true,
-                    "optional": false
+                    "optional": false,
+                    "computed": true
                   }
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -310,8 +310,8 @@
             "end": 930,
             "name": "foo"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -369,8 +369,8 @@
                       "end": 1023,
                       "name": "foo"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
@@ -404,8 +404,8 @@
             "end": 1213,
             "name": "bar"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -463,8 +463,8 @@
                       "end": 1314,
                       "name": "bar"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]

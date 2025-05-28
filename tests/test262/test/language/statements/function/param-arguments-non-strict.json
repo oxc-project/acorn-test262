@@ -13,7 +13,6 @@
         "end": 298,
         "name": "foo"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -29,7 +28,8 @@
         "start": 309,
         "end": 311,
         "body": []
-      }
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

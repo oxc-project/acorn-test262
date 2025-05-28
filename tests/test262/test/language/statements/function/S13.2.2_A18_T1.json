@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 360,
       "end": 376,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -38,13 +39,13 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 378,
       "end": 401,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -65,9 +66,7 @@
                 "type": "Property",
                 "start": 389,
                 "end": 399,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 389,
@@ -81,13 +80,14 @@
                   "value": "a",
                   "raw": "\"a\""
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -117,7 +117,6 @@
               "start": 411,
               "end": 508,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -204,7 +203,8 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
           },
           "arguments": [
@@ -312,8 +312,8 @@
             "end": 890,
             "name": "callee"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -372,8 +372,8 @@
                       "end": 990,
                       "name": "callee"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
@@ -407,8 +407,8 @@
             "end": 1184,
             "name": "callee"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -467,8 +467,8 @@
                       "end": 1284,
                       "name": "callee"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
@@ -487,7 +487,6 @@
         "start": 1465,
         "end": 1474,
         "operator": "!",
-        "prefix": true,
         "argument": {
           "type": "ParenthesizedExpression",
           "start": 1466,
@@ -507,10 +506,11 @@
               "end": 1473,
               "name": "b"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",
@@ -559,8 +559,8 @@
                       "end": 1550,
                       "name": "b"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]

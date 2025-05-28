@@ -20,7 +20,6 @@
             "start": 326,
             "end": 1188,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -42,13 +41,13 @@
                       "start": 529,
                       "end": 542,
                       "operator": "typeof",
-                      "prefix": true,
                       "argument": {
                         "type": "Identifier",
                         "start": 536,
                         "end": 542,
                         "name": "__decl"
-                      }
+                      },
+                      "prefix": true
                     },
                     "operator": "!==",
                     "right": {
@@ -96,13 +95,13 @@
                                 "start": 651,
                                 "end": 664,
                                 "operator": "typeof",
-                                "prefix": true,
                                 "argument": {
                                   "type": "Identifier",
                                   "start": 658,
                                   "end": 664,
                                   "name": "__decl"
-                                }
+                                },
+                                "prefix": true
                               }
                             }
                           ]
@@ -116,6 +115,7 @@
                   "type": "VariableDeclaration",
                   "start": 772,
                   "end": 787,
+                  "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -135,8 +135,7 @@
                         "raw": "1"
                       }
                     }
-                  ],
-                  "kind": "var"
+                  ]
                 },
                 {
                   "type": "IfStatement",
@@ -217,7 +216,6 @@
                     "end": 1173,
                     "name": "__decl"
                   },
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -239,10 +237,12 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 }
               ]
-            }
+            },
+            "expression": false
           }
         },
         "arguments": [],

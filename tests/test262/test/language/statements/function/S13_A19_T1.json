@@ -16,13 +16,13 @@
           "start": 492,
           "end": 505,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 499,
             "end": 505,
             "name": "__decl"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -70,13 +70,13 @@
                     "start": 610,
                     "end": 623,
                     "operator": "typeof",
-                    "prefix": true,
                     "argument": {
                       "type": "Identifier",
                       "start": 617,
                       "end": 623,
                       "name": "__decl"
-                    }
+                    },
+                    "prefix": true
                   }
                 }
               ]
@@ -90,6 +90,7 @@
       "type": "VariableDeclaration",
       "start": 711,
       "end": 726,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -109,8 +110,7 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -191,7 +191,6 @@
         "end": 1072,
         "name": "__decl"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -213,7 +212,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     }
   ],
   "sourceType": "script",

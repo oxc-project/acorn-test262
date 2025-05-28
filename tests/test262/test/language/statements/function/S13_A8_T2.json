@@ -13,7 +13,6 @@
         "end": 384,
         "name": "__func"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -42,12 +41,13 @@
                 "end": 414,
                 "name": "length"
               },
-              "computed": false,
-              "optional": false
+              "optional": false,
+              "computed": false
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "IfStatement",

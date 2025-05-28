@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1263,
       "end": 1320,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -31,7 +32,6 @@
                 "start": 1275,
                 "end": 1316,
                 "id": null,
-                "expression": false,
                 "generator": true,
                 "async": false,
                 "params": [],
@@ -58,15 +58,15 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               }
             },
             "arguments": [],
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -92,8 +92,8 @@
             "end": 1335,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -107,7 +107,6 @@
             "start": 1350,
             "end": 1387,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -120,6 +119,7 @@
                   "type": "VariableDeclaration",
                   "start": 1365,
                   "end": 1385,
+                  "kind": "let",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -151,11 +151,11 @@
                         "name": "iter"
                       }
                     }
-                  ],
-                  "kind": "let"
+                  ]
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 506,
       "end": 516,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -83,8 +83,8 @@
             "end": 557,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

@@ -42,13 +42,13 @@
           "start": 434,
           "end": 448,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 441,
             "end": 448,
             "name": "__funcA"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {

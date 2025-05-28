@@ -37,7 +37,6 @@
         "end": 449,
         "name": "__func"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -55,19 +54,20 @@
               "start": 464,
               "end": 480,
               "operator": "typeof",
-              "prefix": true,
               "argument": {
                 "type": "Identifier",
                 "start": 471,
                 "end": 480,
                 "name": "arguments"
-              }
+              },
+              "prefix": true
             }
           },
           {
             "type": "VariableDeclaration",
             "start": 486,
             "end": 513,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -86,11 +86,11 @@
                   "name": "THE_ANSWER"
                 }
               }
-            ],
-            "kind": "var"
+            ]
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",

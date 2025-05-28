@@ -27,8 +27,8 @@
             "end": 298,
             "name": "getOwnPropertyDescriptor"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -36,7 +36,6 @@
             "start": 299,
             "end": 311,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -45,7 +44,8 @@
               "start": 309,
               "end": 311,
               "body": []
-            }
+            },
+            "expression": false
           },
           {
             "type": "Literal",

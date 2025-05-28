@@ -13,7 +13,6 @@
         "end": 427,
         "name": "__func"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -129,7 +128,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",
@@ -140,6 +140,7 @@
       "type": "VariableDeclaration",
       "start": 526,
       "end": 553,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -173,8 +174,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",

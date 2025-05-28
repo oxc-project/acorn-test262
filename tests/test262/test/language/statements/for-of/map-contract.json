@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 277,
       "end": 297,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -31,13 +32,13 @@
             "arguments": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 298,
       "end": 321,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -57,8 +58,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -84,8 +84,8 @@
             "end": 330,
             "name": "set"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -130,8 +130,8 @@
             "end": 347,
             "name": "set"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -161,6 +161,7 @@
         "type": "VariableDeclaration",
         "start": 363,
         "end": 368,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -174,8 +175,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -212,8 +212,8 @@
                   "end": 397,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -233,8 +233,8 @@
                     "value": 0,
                     "raw": "0"
                   },
-                  "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "computed": true
                 },
                 {
                   "type": "Literal",
@@ -271,8 +271,8 @@
                   "end": 426,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -292,8 +292,8 @@
                     "value": 1,
                     "raw": "1"
                   },
-                  "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "computed": true
                 },
                 {
                   "type": "Literal",
@@ -330,8 +330,8 @@
                   "end": 451,
                   "name": "delete"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -396,8 +396,8 @@
             "end": 498,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

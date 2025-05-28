@@ -21,7 +21,6 @@
             "end": 438,
             "name": "__func"
           },
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -43,7 +42,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         },
         "arguments": [],
         "optional": false

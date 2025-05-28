@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 323,
       "end": 333,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 335,
       "end": 353,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -53,9 +54,7 @@
                 "type": "Property",
                 "start": 348,
                 "end": 351,
-                "method": false,
-                "shorthand": false,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 348,
@@ -69,13 +68,14 @@
                   "value": 2,
                   "raw": "2"
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": false,
+                "computed": false
               }
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "WithStatement",
@@ -120,7 +120,6 @@
                     "start": 384,
                     "end": 405,
                     "id": null,
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -141,7 +140,8 @@
                           }
                         }
                       ]
-                    }
+                    },
+                    "expression": false
                   }
                 },
                 "arguments": [],

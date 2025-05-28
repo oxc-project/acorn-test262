@@ -13,7 +13,6 @@
         "end": 293,
         "name": "__func"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -38,7 +37,6 @@
               "start": 304,
               "end": 323,
               "operator": "delete",
-              "prefix": true,
               "argument": {
                 "type": "MemberExpression",
                 "start": 311,
@@ -56,9 +54,10 @@
                   "value": 0,
                   "raw": "0"
                 },
-                "computed": true,
-                "optional": false
-              }
+                "optional": false,
+                "computed": true
+              },
+              "prefix": true
             }
           },
           {
@@ -86,8 +85,8 @@
                   "value": 0,
                   "raw": "0"
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               },
               "operator": "!==",
               "right": {
@@ -143,7 +142,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "IfStatement",

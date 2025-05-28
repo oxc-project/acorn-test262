@@ -27,8 +27,8 @@
             "end": 316,
             "name": "p1"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "Literal",
@@ -63,9 +63,7 @@
               "type": "Property",
               "start": 334,
               "end": 338,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 334,
@@ -79,15 +77,15 @@
                 "value": 1,
                 "raw": "1"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             },
             {
               "type": "Property",
               "start": 339,
               "end": 375,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 339,
@@ -99,7 +97,6 @@
                 "start": 348,
                 "end": 375,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -121,9 +118,12 @@
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             }
           ]
         }
@@ -149,7 +149,6 @@
           "start": 388,
           "end": 417,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -171,7 +170,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -201,7 +201,6 @@
                   "start": 428,
                   "end": 566,
                   "id": null,
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -269,7 +268,6 @@
                                   "start": 503,
                                   "end": 528,
                                   "id": null,
-                                  "expression": false,
                                   "generator": false,
                                   "async": false,
                                   "params": [],
@@ -291,7 +289,8 @@
                                         }
                                       }
                                     ]
-                                  }
+                                  },
+                                  "expression": false
                                 }
                               }
                             },
@@ -310,7 +309,8 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 }
               },
               "arguments": [],
@@ -538,8 +538,8 @@
             "end": 1260,
             "name": "p1"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -598,8 +598,8 @@
                       "end": 1349,
                       "name": "p1"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
@@ -637,8 +637,8 @@
               "end": 1544,
               "name": "getRight"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [],
           "optional": false
@@ -704,8 +704,8 @@
                         "end": 1660,
                         "name": "getRight"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false
@@ -791,6 +791,7 @@
       "type": "VariableDeclaration",
       "start": 2028,
       "end": 2039,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -804,8 +805,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     }
   ],
   "sourceType": "script",

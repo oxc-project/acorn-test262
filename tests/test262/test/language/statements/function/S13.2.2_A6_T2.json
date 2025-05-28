@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 640,
       "end": 661,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "\"fooValue\""
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 662,
       "end": 683,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -52,8 +53,7 @@
             "raw": "\"barValue\""
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -65,7 +65,6 @@
         "end": 700,
         "name": "__func"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -105,8 +104,8 @@
                   "end": 717,
                   "name": "foo"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "Identifier",
@@ -152,8 +151,8 @@
                   "end": 749,
                   "name": "bar"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "MemberExpression",
@@ -172,13 +171,14 @@
                   "value": 1,
                   "raw": "1"
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               }
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",
@@ -189,6 +189,7 @@
       "type": "VariableDeclaration",
       "start": 768,
       "end": 805,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -226,8 +227,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -253,8 +253,8 @@
             "end": 909,
             "name": "foo"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -312,8 +312,8 @@
                       "end": 1002,
                       "name": "foo"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
@@ -347,8 +347,8 @@
             "end": 1192,
             "name": "bar"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -406,8 +406,8 @@
                       "end": 1293,
                       "name": "bar"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]

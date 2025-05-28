@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 282,
       "end": 305,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,13 +27,13 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 306,
       "end": 346,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -93,13 +94,13 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 348,
       "end": 362,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -119,13 +120,13 @@
             "raw": "3"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 363,
       "end": 378,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -145,13 +146,13 @@
             "raw": "2"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 379,
       "end": 393,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -171,13 +172,13 @@
             "raw": "4"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 394,
       "end": 409,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -197,8 +198,7 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForOfStatement",
@@ -209,6 +209,7 @@
         "type": "VariableDeclaration",
         "start": 416,
         "end": 421,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -222,8 +223,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -260,8 +260,8 @@
                   "end": 452,
                   "name": "sameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -424,8 +424,8 @@
             "end": 579,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

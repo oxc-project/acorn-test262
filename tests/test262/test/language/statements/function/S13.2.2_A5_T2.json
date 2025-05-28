@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 556,
       "end": 649,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -140,8 +141,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -307,7 +307,6 @@
           "start": 739,
           "end": 872,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [
@@ -353,8 +352,8 @@
                       "end": 773,
                       "name": "volume"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "right": {
                     "type": "Identifier",
@@ -411,8 +410,8 @@
                       "end": 806,
                       "name": "id"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "right": {
                     "type": "Identifier",
@@ -469,8 +468,8 @@
                       "end": 836,
                       "name": "top"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   },
                   "right": {
                     "type": "MemberExpression",
@@ -489,8 +488,8 @@
                       "value": 2,
                       "raw": "2"
                     },
-                    "computed": true,
-                    "optional": false
+                    "optional": false,
+                    "computed": true
                   }
                 }
               },
@@ -526,13 +525,14 @@
                       "value": 3,
                       "raw": "3"
                     },
-                    "computed": true,
-                    "optional": false
+                    "optional": false,
+                    "computed": true
                   }
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -614,8 +614,8 @@
             "end": 1040,
             "name": "color"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -673,8 +673,8 @@
                       "end": 1159,
                       "name": "color"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
@@ -708,8 +708,8 @@
             "end": 1355,
             "name": "volume"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -767,8 +767,8 @@
                       "end": 1475,
                       "name": "volume"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
@@ -802,8 +802,8 @@
             "end": 1671,
             "name": "bottom"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -861,8 +861,8 @@
                       "end": 1793,
                       "name": "bottom"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
@@ -896,8 +896,8 @@
             "end": 1985,
             "name": "id"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -955,8 +955,8 @@
                       "end": 2085,
                       "name": "id"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
@@ -990,8 +990,8 @@
             "end": 2279,
             "name": "left"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -1049,8 +1049,8 @@
                       "end": 2395,
                       "name": "left"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
@@ -1084,8 +1084,8 @@
             "end": 2588,
             "name": "top"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -1143,8 +1143,8 @@
                       "end": 2693,
                       "name": "top"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]

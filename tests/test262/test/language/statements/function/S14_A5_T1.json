@@ -96,7 +96,6 @@
         "end": 672,
         "name": "__func"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -118,7 +117,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",
@@ -135,7 +135,6 @@
         "end": 737,
         "name": "__func"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -157,7 +156,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",
@@ -174,7 +174,6 @@
         "end": 813,
         "name": "__func"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -196,7 +195,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",

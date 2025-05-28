@@ -37,7 +37,6 @@
         "end": 387,
         "name": "__func"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -58,7 +57,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",
@@ -74,13 +74,13 @@
         "start": 506,
         "end": 519,
         "operator": "delete",
-        "prefix": true,
         "argument": {
           "type": "Identifier",
           "start": 513,
           "end": 519,
           "name": "__func"
-        }
+        },
+        "prefix": true
       },
       "consequent": {
         "type": "BlockStatement",

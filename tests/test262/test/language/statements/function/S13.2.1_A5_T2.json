@@ -13,7 +13,6 @@
         "end": 481,
         "name": "derivative"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -44,7 +43,6 @@
               "start": 502,
               "end": 559,
               "id": null,
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [
@@ -141,11 +139,13 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "IfStatement",
@@ -175,8 +175,8 @@
               "end": 665,
               "name": "abs"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [
             {
@@ -214,8 +214,8 @@
                         "end": 685,
                         "name": "sin"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     {
                       "type": "Literal",
@@ -270,8 +270,8 @@
                         "end": 719,
                         "name": "sin"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     {
                       "type": "Literal",
@@ -312,8 +312,8 @@
                         "end": 738,
                         "name": "PI"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     }
                   }
                 ],

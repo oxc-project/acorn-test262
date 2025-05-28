@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 561,
       "end": 593,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -44,8 +45,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -91,7 +91,6 @@
           "start": 623,
           "end": 635,
           "id": null,
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -100,7 +99,8 @@
             "start": 633,
             "end": 635,
             "body": []
-          }
+          },
+          "expression": false
         }
       }
     },
@@ -129,8 +129,8 @@
             "end": 657,
             "name": "prototype"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "right": {
           "type": "ObjectExpression",
@@ -141,9 +141,7 @@
               "type": "Property",
               "start": 660,
               "end": 672,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 660,
@@ -156,15 +154,15 @@
                 "end": 672,
                 "name": "__CUBE"
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             },
             {
               "type": "Property",
               "start": 674,
               "end": 715,
-              "method": false,
-              "shorthand": false,
-              "computed": false,
+              "kind": "init",
               "key": {
                 "type": "Identifier",
                 "start": 674,
@@ -176,7 +174,6 @@
                 "start": 685,
                 "end": 715,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -204,14 +201,17 @@
                           "end": 713,
                           "name": "shape"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               },
-              "kind": "init"
+              "method": false,
+              "shorthand": false,
+              "computed": false
             }
           ]
         }
@@ -270,8 +270,8 @@
             "end": 861,
             "name": "printShape"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "===",
         "right": {
@@ -329,8 +329,8 @@
                       "end": 995,
                       "name": "printShape"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]
@@ -368,8 +368,8 @@
               "end": 1195,
               "name": "printShape"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           "arguments": [],
           "optional": false
@@ -434,8 +434,8 @@
                         "end": 1329,
                         "name": "printShape"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [],
                     "optional": false

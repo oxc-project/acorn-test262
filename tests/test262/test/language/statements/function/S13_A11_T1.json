@@ -13,7 +13,6 @@
         "end": 352,
         "name": "__func"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -31,17 +30,18 @@
               "start": 363,
               "end": 379,
               "operator": "delete",
-              "prefix": true,
               "argument": {
                 "type": "Identifier",
                 "start": 370,
                 "end": 379,
                 "name": "arguments"
-              }
+              },
+              "prefix": true
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "IfStatement",

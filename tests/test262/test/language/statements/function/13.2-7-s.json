@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 305,
       "end": 345,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -39,8 +40,7 @@
             ]
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ForInStatement",
@@ -50,6 +50,7 @@
         "type": "VariableDeclaration",
         "start": 352,
         "end": 365,
+        "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
@@ -63,8 +64,7 @@
             },
             "init": null
           }
-        ],
-        "kind": "var"
+        ]
       },
       "right": {
         "type": "Identifier",
@@ -101,8 +101,8 @@
                   "end": 399,
                   "name": "notSameValue"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {

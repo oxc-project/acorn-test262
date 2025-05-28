@@ -16,6 +16,7 @@
             "type": "VariableDeclaration",
             "start": 435,
             "end": 459,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -41,8 +42,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           }
         ]
       },
@@ -170,7 +170,6 @@
         "end": 806,
         "name": "__func"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -192,7 +191,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",
@@ -308,7 +308,6 @@
         "end": 1152,
         "name": "__func"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -330,7 +329,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",

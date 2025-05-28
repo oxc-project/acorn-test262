@@ -13,7 +13,6 @@
         "end": 1089,
         "name": "thrower"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -40,7 +39,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -66,8 +66,8 @@
             "end": 1138,
             "name": "throws"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -81,7 +81,6 @@
             "start": 1153,
             "end": 1197,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -94,6 +93,7 @@
                   "type": "VariableDeclaration",
                   "start": 1168,
                   "end": 1195,
+                  "kind": "let",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -108,9 +108,7 @@
                             "type": "Property",
                             "start": 1174,
                             "end": 1187,
-                            "method": false,
-                            "shorthand": true,
-                            "computed": false,
+                            "kind": "init",
                             "key": {
                               "type": "Identifier",
                               "start": 1174,
@@ -141,7 +139,9 @@
                                 "optional": false
                               }
                             },
-                            "kind": "init"
+                            "method": false,
+                            "shorthand": true,
+                            "computed": false
                           }
                         ]
                       },
@@ -152,11 +152,11 @@
                         "properties": []
                       }
                     }
-                  ],
-                  "kind": "let"
+                  ]
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

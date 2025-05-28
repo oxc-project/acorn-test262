@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 484,
       "end": 603,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -23,7 +24,6 @@
             "start": 497,
             "end": 602,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -139,16 +139,17 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 605,
       "end": 632,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -182,8 +183,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",

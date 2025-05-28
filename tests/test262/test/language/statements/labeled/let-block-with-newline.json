@@ -23,6 +23,12 @@
             "type": "LabeledStatement",
             "start": 536,
             "end": 542,
+            "label": {
+              "type": "Identifier",
+              "start": 536,
+              "end": 537,
+              "name": "L"
+            },
             "body": {
               "type": "ExpressionStatement",
               "start": 539,
@@ -33,12 +39,6 @@
                 "end": 542,
                 "name": "let"
               }
-            },
-            "label": {
-              "type": "Identifier",
-              "start": 536,
-              "end": 537,
-              "name": "L"
             }
           },
           {

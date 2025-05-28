@@ -13,7 +13,6 @@
         "end": 405,
         "name": "FACTORY"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -46,8 +45,8 @@
                   "end": 419,
                   "name": "id"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "Literal",
@@ -82,8 +81,8 @@
                   "end": 442,
                   "name": "id"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "right": {
                 "type": "CallExpression",
@@ -110,7 +109,6 @@
               "end": 473,
               "name": "func"
             },
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -132,10 +130,12 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "TryStatement",
@@ -150,6 +150,7 @@
             "type": "VariableDeclaration",
             "start": 612,
             "end": 636,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -174,8 +175,7 @@
                   "arguments": []
                 }
               }
-            ],
-            "kind": "var"
+            ]
           }
         ]
       },
@@ -260,8 +260,8 @@
             "end": 952,
             "name": "id"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -320,8 +320,8 @@
                       "end": 1051,
                       "name": "id"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]

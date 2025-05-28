@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 363,
       "end": 381,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -51,7 +51,6 @@
               "end": 393,
               "name": "f"
             },
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -188,7 +187,8 @@
                   "alternate": null
                 }
               ]
-            }
+            },
+            "expression": false
           },
           "arguments": [
             {
@@ -226,8 +226,8 @@
             "end": 521,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

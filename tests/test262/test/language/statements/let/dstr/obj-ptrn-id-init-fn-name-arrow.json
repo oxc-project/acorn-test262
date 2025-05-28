@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1240,
       "end": 1270,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -21,9 +22,7 @@
                 "type": "Property",
                 "start": 1246,
                 "end": 1262,
-                "method": false,
-                "shorthand": true,
-                "computed": false,
+                "kind": "init",
                 "key": {
                   "type": "Identifier",
                   "start": 1246,
@@ -44,9 +43,7 @@
                     "type": "ArrowFunctionExpression",
                     "start": 1254,
                     "end": 1262,
-                    "id": null,
                     "expression": false,
-                    "generator": false,
                     "async": false,
                     "params": [],
                     "body": {
@@ -54,10 +51,14 @@
                       "start": 1260,
                       "end": 1262,
                       "body": []
-                    }
+                    },
+                    "id": null,
+                    "generator": false
                   }
                 },
-                "kind": "init"
+                "method": false,
+                "shorthand": true,
+                "computed": false
               }
             ]
           },
@@ -68,8 +69,7 @@
             "properties": []
           }
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -95,8 +95,8 @@
             "end": 1288,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -115,8 +115,8 @@
               "end": 1299,
               "name": "name"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           },
           {
             "type": "Literal",

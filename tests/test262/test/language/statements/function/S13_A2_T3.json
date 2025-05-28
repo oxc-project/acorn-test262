@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 309,
       "end": 390,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -36,7 +37,6 @@
                   "end": 333,
                   "name": "__func"
                 },
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -74,8 +74,8 @@
                               "value": 0,
                               "raw": "0"
                             },
-                            "computed": true,
-                            "optional": false
+                            "optional": false,
+                            "computed": true
                           },
                           "operator": "+",
                           "right": {
@@ -104,13 +104,14 @@
                             "value": 1,
                             "raw": "1"
                           },
-                          "computed": true,
-                          "optional": false
+                          "optional": false,
+                          "computed": true
                         }
                       }
                     }
                   ]
-                }
+                },
+                "expression": false
               }
             },
             "arguments": [
@@ -132,8 +133,7 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -217,13 +217,13 @@
           "start": 748,
           "end": 761,
           "operator": "typeof",
-          "prefix": true,
           "argument": {
             "type": "Identifier",
             "start": 755,
             "end": 761,
             "name": "__func"
-          }
+          },
+          "prefix": true
         },
         "operator": "!==",
         "right": {
@@ -271,13 +271,13 @@
                     "start": 870,
                     "end": 883,
                     "operator": "typeof",
-                    "prefix": true,
                     "argument": {
                       "type": "Identifier",
                       "start": 877,
                       "end": 883,
                       "name": "__func"
-                    }
+                    },
+                    "prefix": true
                   }
                 }
               ]

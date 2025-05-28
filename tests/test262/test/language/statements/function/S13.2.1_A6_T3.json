@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 277,
       "end": 294,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -44,8 +45,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "FunctionDeclaration",
@@ -57,7 +57,6 @@
         "end": 311,
         "name": "__func"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [
@@ -122,7 +121,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "EmptyStatement",
@@ -133,6 +133,7 @@
       "type": "VariableDeclaration",
       "start": 357,
       "end": 365,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -152,8 +153,7 @@
             "raw": "1"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -183,6 +183,7 @@
       "type": "VariableDeclaration",
       "start": 371,
       "end": 381,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -202,8 +203,7 @@
             "raw": "\"AB\""
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",

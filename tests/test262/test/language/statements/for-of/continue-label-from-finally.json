@@ -13,7 +13,6 @@
         "end": 354,
         "name": "values"
       },
-      "expression": false,
       "generator": true,
       "async": false,
       "params": [],
@@ -59,12 +58,14 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 383,
       "end": 407,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -90,13 +91,13 @@
             "optional": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 408,
       "end": 424,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -116,13 +117,13 @@
             "raw": "true"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "VariableDeclaration",
       "start": 425,
       "end": 435,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -142,13 +143,18 @@
             "raw": "0"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "LabeledStatement",
       "start": 437,
       "end": 886,
+      "label": {
+        "type": "Identifier",
+        "start": 437,
+        "end": 442,
+        "name": "outer"
+      },
       "body": {
         "type": "WhileStatement",
         "start": 444,
@@ -197,6 +203,7 @@
                 "type": "VariableDeclaration",
                 "start": 483,
                 "end": 488,
+                "kind": "var",
                 "declarations": [
                   {
                     "type": "VariableDeclarator",
@@ -210,8 +217,7 @@
                     },
                     "init": null
                   }
-                ],
-                "kind": "var"
+                ]
               },
               "right": {
                 "type": "Identifier",
@@ -386,12 +392,6 @@
             }
           ]
         }
-      },
-      "label": {
-        "type": "Identifier",
-        "start": 437,
-        "end": 442,
-        "name": "outer"
       }
     },
     {
@@ -418,8 +418,8 @@
             "end": 904,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

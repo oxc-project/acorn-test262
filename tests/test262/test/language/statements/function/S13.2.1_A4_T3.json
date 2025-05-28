@@ -13,7 +13,6 @@
         "end": 408,
         "name": "__func"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -52,8 +51,8 @@
                     "value": 0,
                     "raw": "0"
                   },
-                  "computed": true,
-                  "optional": false
+                  "optional": false,
+                  "computed": true
                 },
                 "property": {
                   "type": "Literal",
@@ -62,8 +61,8 @@
                   "value": "PI",
                   "raw": "\"PI\""
                 },
-                "computed": true,
-                "optional": false
+                "optional": false,
+                "computed": true
               },
               "right": {
                 "type": "Literal",
@@ -75,12 +74,14 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "VariableDeclaration",
       "start": 444,
       "end": 457,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -99,8 +100,7 @@
             "properties": []
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -151,8 +151,8 @@
             "end": 576,
             "name": "PI"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "operator": "!==",
         "right": {
@@ -211,8 +211,8 @@
                       "end": 667,
                       "name": "PI"
                     },
-                    "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "computed": false
                   }
                 }
               ]

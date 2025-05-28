@@ -13,7 +13,6 @@
         "end": 461,
         "name": "__func"
       },
-      "expression": false,
       "generator": false,
       "async": false,
       "params": [],
@@ -26,6 +25,7 @@
             "type": "VariableDeclaration",
             "start": 469,
             "end": 482,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -45,8 +45,7 @@
                   "raw": "null"
                 }
               }
-            ],
-            "kind": "var"
+            ]
           },
           {
             "type": "ReturnStatement",
@@ -60,7 +59,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "TryStatement",
@@ -75,6 +75,7 @@
             "type": "VariableDeclaration",
             "start": 598,
             "end": 613,
+            "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
@@ -100,8 +101,7 @@
                   "optional": false
                 }
               }
-            ],
-            "kind": "var"
+            ]
           }
         ]
       },
