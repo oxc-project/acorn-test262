@@ -24,7 +24,6 @@
           "end": 1579,
           "name": "f"
         },
-        "expression": false,
         "generator": false,
         "async": false,
         "params": [],
@@ -46,7 +45,8 @@
               }
             }
           ]
-        }
+        },
+        "expression": false
       },
       "alternate": {
         "type": "FunctionDeclaration",
@@ -58,7 +58,6 @@
           "end": 1633,
           "name": "_f"
         },
-        "expression": false,
         "generator": false,
         "async": false,
         "params": [],
@@ -67,7 +66,8 @@
           "start": 1636,
           "end": 1638,
           "body": []
-        }
+        },
+        "expression": false
       }
     },
     {
@@ -94,8 +94,8 @@
             "end": 1656,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -103,13 +103,13 @@
             "start": 1657,
             "end": 1665,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 1664,
               "end": 1665,
               "name": "f"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -146,8 +146,8 @@
             "end": 1696,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -178,6 +178,7 @@
       "type": "VariableDeclaration",
       "start": 1728,
       "end": 1740,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -197,8 +198,7 @@
             "raw": "123"
           }
         }
-      ],
-      "kind": "var"
+      ]
     }
   ],
   "sourceType": "script",

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 543,
       "end": 552,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -40,7 +40,6 @@
             "start": 555,
             "end": 718,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [],
@@ -88,6 +87,13 @@
                       "type": "SwitchCase",
                       "start": 600,
                       "end": 658,
+                      "test": {
+                        "type": "Literal",
+                        "start": 605,
+                        "end": 606,
+                        "value": 1,
+                        "raw": "1"
+                      },
                       "consequent": [
                         {
                           "type": "FunctionDeclaration",
@@ -99,7 +105,6 @@
                             "end": 624,
                             "name": "f"
                           },
-                          "expression": false,
                           "generator": false,
                           "async": false,
                           "params": [],
@@ -121,16 +126,10 @@
                                 }
                               }
                             ]
-                          }
+                          },
+                          "expression": false
                         }
-                      ],
-                      "test": {
-                        "type": "Literal",
-                        "start": 605,
-                        "end": 606,
-                        "value": 1,
-                        "raw": "1"
-                      }
+                      ]
                     }
                   ]
                 },
@@ -144,7 +143,6 @@
                     "end": 676,
                     "name": "f"
                   },
-                  "expression": false,
                   "generator": false,
                   "async": false,
                   "params": [],
@@ -166,10 +164,12 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 }
               ]
-            }
+            },
+            "expression": false
           },
           "arguments": [],
           "optional": false
@@ -200,8 +200,8 @@
             "end": 740,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

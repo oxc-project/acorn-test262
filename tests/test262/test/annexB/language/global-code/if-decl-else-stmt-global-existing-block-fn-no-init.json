@@ -27,8 +27,8 @@
             "end": 1179,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -62,7 +62,6 @@
             "end": 1210,
             "name": "f"
           },
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -71,7 +70,8 @@
             "start": 1213,
             "end": 1215,
             "body": []
-          }
+          },
+          "expression": false
         }
       ]
     },
@@ -96,7 +96,6 @@
           "end": 1239,
           "name": "f"
         },
-        "expression": false,
         "generator": false,
         "async": false,
         "params": [],
@@ -105,7 +104,8 @@
           "start": 1242,
           "end": 1246,
           "body": []
-        }
+        },
+        "expression": false
       },
       "alternate": {
         "type": "EmptyStatement",

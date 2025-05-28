@@ -23,7 +23,6 @@
             "start": 326,
             "end": 596,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": true,
             "params": [],
@@ -42,7 +41,6 @@
                     "end": 377,
                     "name": "generateInput"
                   },
-                  "expression": false,
                   "generator": true,
                   "async": true,
                   "params": [],
@@ -77,12 +75,14 @@
                         }
                       }
                     ]
-                  }
+                  },
+                  "expression": false
                 },
                 {
                   "type": "VariableDeclaration",
                   "start": 453,
                   "end": 483,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -108,13 +108,13 @@
                         "optional": false
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "VariableDeclaration",
                   "start": 486,
                   "end": 531,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -146,8 +146,8 @@
                             "end": 523,
                             "name": "fromAsync"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         },
                         "arguments": [
                           {
@@ -160,8 +160,7 @@
                         "optional": false
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -191,8 +190,8 @@
                           "end": 558,
                           "name": "throwsAsync"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -205,9 +204,7 @@
                           "type": "ArrowFunctionExpression",
                           "start": 573,
                           "end": 592,
-                          "id": null,
                           "expression": true,
-                          "generator": false,
                           "async": false,
                           "params": [],
                           "body": {
@@ -215,7 +212,9 @@
                             "start": 579,
                             "end": 592,
                             "name": "outputPromise"
-                          }
+                          },
+                          "id": null,
+                          "generator": false
                         }
                       ],
                       "optional": false
@@ -223,7 +222,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           }
         ],
         "optional": false

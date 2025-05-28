@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1304,
       "end": 1309,
+      "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -20,8 +21,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "let"
+      ]
     },
     {
       "type": "SwitchStatement",
@@ -38,6 +38,13 @@
           "type": "SwitchCase",
           "start": 1323,
           "end": 1348,
+          "test": {
+            "type": "Literal",
+            "start": 1328,
+            "end": 1329,
+            "value": 1,
+            "raw": "1"
+          },
           "consequent": [
             {
               "type": "FunctionDeclaration",
@@ -49,7 +56,6 @@
                 "end": 1343,
                 "name": "a"
               },
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -58,21 +64,22 @@
                 "start": 1346,
                 "end": 1348,
                 "body": []
-              }
+              },
+              "expression": false
             }
-          ],
-          "test": {
-            "type": "Literal",
-            "start": 1328,
-            "end": 1329,
-            "value": 1,
-            "raw": "1"
-          }
+          ]
         },
         {
           "type": "SwitchCase",
           "start": 1349,
           "end": 1374,
+          "test": {
+            "type": "Literal",
+            "start": 1354,
+            "end": 1355,
+            "value": 2,
+            "raw": "2"
+          },
           "consequent": [
             {
               "type": "FunctionDeclaration",
@@ -84,7 +91,6 @@
                 "end": 1369,
                 "name": "a"
               },
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -93,16 +99,10 @@
                 "start": 1372,
                 "end": 1374,
                 "body": []
-              }
+              },
+              "expression": false
             }
-          ],
-          "test": {
-            "type": "Literal",
-            "start": 1354,
-            "end": 1355,
-            "value": 2,
-            "raw": "2"
-          }
+          ]
         }
       ]
     }

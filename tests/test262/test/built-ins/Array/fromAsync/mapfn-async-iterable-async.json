@@ -13,7 +13,6 @@
         "end": 673,
         "name": "asyncGen"
       },
-      "expression": false,
       "generator": true,
       "async": true,
       "params": [],
@@ -30,6 +29,7 @@
               "type": "VariableDeclaration",
               "start": 685,
               "end": 694,
+              "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
@@ -49,8 +49,7 @@
                     "raw": "0"
                   }
                 }
-              ],
-              "kind": "let"
+              ]
             },
             "test": {
               "type": "BinaryExpression",
@@ -118,8 +117,8 @@
                           "end": 735,
                           "name": "resolve"
                         },
-                        "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "computed": false
                       },
                       "arguments": [
                         {
@@ -150,7 +149,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "FunctionDeclaration",
@@ -162,7 +162,6 @@
         "end": 774,
         "name": "asyncMap"
       },
-      "expression": false,
       "generator": false,
       "async": true,
       "params": [
@@ -208,8 +207,8 @@
                   "end": 810,
                   "name": "resolve"
                 },
-                "computed": false,
-                "optional": false
+                "optional": false,
+                "computed": false
               },
               "arguments": [
                 {
@@ -235,7 +234,8 @@
             }
           }
         ]
-      }
+      },
+      "expression": false
     },
     {
       "type": "ExpressionStatement",
@@ -256,9 +256,7 @@
             "type": "ArrowFunctionExpression",
             "start": 835,
             "end": 1035,
-            "id": null,
             "expression": false,
-            "generator": false,
             "async": true,
             "params": [],
             "body": {
@@ -270,6 +268,7 @@
                   "type": "VariableDeclaration",
                   "start": 851,
                   "end": 936,
+                  "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
@@ -305,8 +304,8 @@
                               "end": 887,
                               "name": "fromAsync"
                             },
-                            "computed": false,
-                            "optional": false
+                            "optional": false,
+                            "computed": false
                           },
                           "arguments": [
                             {
@@ -318,9 +317,7 @@
                                   "type": "Property",
                                   "start": 890,
                                   "end": 922,
-                                  "method": false,
-                                  "shorthand": false,
-                                  "computed": true,
+                                  "kind": "init",
                                   "key": {
                                     "type": "MemberExpression",
                                     "start": 891,
@@ -337,8 +334,8 @@
                                       "end": 911,
                                       "name": "asyncIterator"
                                     },
-                                    "computed": false,
-                                    "optional": false
+                                    "optional": false,
+                                    "computed": false
                                   },
                                   "value": {
                                     "type": "Identifier",
@@ -346,7 +343,9 @@
                                     "end": 922,
                                     "name": "asyncGen"
                                   },
-                                  "kind": "init"
+                                  "method": false,
+                                  "shorthand": false,
+                                  "computed": true
                                 }
                               ]
                             },
@@ -361,8 +360,7 @@
                         }
                       }
                     }
-                  ],
-                  "kind": "const"
+                  ]
                 },
                 {
                   "type": "ExpressionStatement",
@@ -388,8 +386,8 @@
                         "end": 958,
                         "name": "compareArray"
                       },
-                      "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "computed": false
                     },
                     "arguments": [
                       {
@@ -445,7 +443,9 @@
                   }
                 }
               ]
-            }
+            },
+            "id": null,
+            "generator": false
           }
         ],
         "optional": false

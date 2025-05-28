@@ -132,8 +132,8 @@
                     "end": 517,
                     "name": "sameValue"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -217,8 +217,8 @@
                     "end": 688,
                     "name": "POSITIVE_INFINITY"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 }
               ]
             }
@@ -281,8 +281,8 @@
                             "end": 824,
                             "name": "POSITIVE_INFINITY"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         }
                       ]
                     }
@@ -332,8 +332,8 @@
                     "end": 861,
                     "name": "sameValue"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {
@@ -417,8 +417,8 @@
                     "end": 1032,
                     "name": "NEGATIVE_INFINITY"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 }
               ]
             }
@@ -481,8 +481,8 @@
                             "end": 1168,
                             "name": "NEGATIVE_INFINITY"
                           },
-                          "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "computed": false
                         }
                       ]
                     }
@@ -532,8 +532,8 @@
                     "end": 1205,
                     "name": "sameValue"
                   },
-                  "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "computed": false
                 },
                 "arguments": [
                   {

@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 1208,
       "end": 1224,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -32,8 +33,7 @@
           },
           "init": null
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -52,7 +52,6 @@
             "start": 1227,
             "end": 1322,
             "id": null,
-            "expression": false,
             "generator": false,
             "async": false,
             "params": [
@@ -112,7 +111,6 @@
                       "end": 1278,
                       "name": "_f"
                     },
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -121,7 +119,8 @@
                       "start": 1281,
                       "end": 1283,
                       "body": []
-                    }
+                    },
+                    "expression": false
                   },
                   "alternate": {
                     "type": "FunctionDeclaration",
@@ -133,7 +132,6 @@
                       "end": 1299,
                       "name": "f"
                     },
-                    "expression": false,
                     "generator": false,
                     "async": false,
                     "params": [],
@@ -142,7 +140,8 @@
                       "start": 1302,
                       "end": 1306,
                       "body": []
-                    }
+                    },
+                    "expression": false
                   }
                 },
                 {
@@ -169,7 +168,8 @@
                   }
                 }
               ]
-            }
+            },
+            "expression": false
           },
           "arguments": [
             {
@@ -208,8 +208,8 @@
             "end": 1347,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -260,8 +260,8 @@
             "end": 1421,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {

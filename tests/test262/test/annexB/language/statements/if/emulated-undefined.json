@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 774,
       "end": 793,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -26,8 +27,7 @@
             "raw": "false"
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "IfStatement",
@@ -49,8 +49,8 @@
           "end": 812,
           "name": "IsHTMLDDA"
         },
-        "computed": false,
-        "optional": false
+        "optional": false,
+        "computed": false
       },
       "consequent": {
         "type": "BlockStatement",

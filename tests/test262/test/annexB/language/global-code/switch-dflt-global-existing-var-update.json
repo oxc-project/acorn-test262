@@ -19,6 +19,7 @@
           "type": "SwitchCase",
           "start": 1104,
           "end": 1164,
+          "test": null,
           "consequent": [
             {
               "type": "FunctionDeclaration",
@@ -30,7 +31,6 @@
                 "end": 1127,
                 "name": "f"
               },
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -52,10 +52,10 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
-          ],
-          "test": null
+          ]
         }
       ]
     },
@@ -83,8 +83,8 @@
             "end": 1184,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -92,13 +92,13 @@
             "start": 1185,
             "end": 1193,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 1192,
               "end": 1193,
               "name": "f"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -135,8 +135,8 @@
             "end": 1224,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -167,6 +167,7 @@
       "type": "VariableDeclaration",
       "start": 1256,
       "end": 1268,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -186,8 +187,7 @@
             "raw": "123"
           }
         }
-      ],
-      "kind": "var"
+      ]
     }
   ],
   "sourceType": "script",

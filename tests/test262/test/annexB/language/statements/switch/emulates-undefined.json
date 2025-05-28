@@ -7,6 +7,7 @@
       "type": "VariableDeclaration",
       "start": 585,
       "end": 616,
+      "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
@@ -34,12 +35,11 @@
               "end": 615,
               "name": "IsHTMLDDA"
             },
-            "computed": false,
-            "optional": false
+            "optional": false,
+            "computed": false
           }
         }
-      ],
-      "kind": "var"
+      ]
     },
     {
       "type": "ExpressionStatement",
@@ -65,8 +65,8 @@
             "end": 634,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -82,7 +82,6 @@
                 "start": 639,
                 "end": 777,
                 "id": null,
-                "expression": false,
                 "generator": false,
                 "async": false,
                 "params": [],
@@ -106,6 +105,12 @@
                           "type": "SwitchCase",
                           "start": 683,
                           "end": 708,
+                          "test": {
+                            "type": "Identifier",
+                            "start": 688,
+                            "end": 697,
+                            "name": "undefined"
+                          },
                           "consequent": [
                             {
                               "type": "ReturnStatement",
@@ -119,18 +124,19 @@
                                 "raw": "1"
                               }
                             }
-                          ],
-                          "test": {
-                            "type": "Identifier",
-                            "start": 688,
-                            "end": 697,
-                            "name": "undefined"
-                          }
+                          ]
                         },
                         {
                           "type": "SwitchCase",
                           "start": 715,
                           "end": 735,
+                          "test": {
+                            "type": "Literal",
+                            "start": 720,
+                            "end": 724,
+                            "value": null,
+                            "raw": "null"
+                          },
                           "consequent": [
                             {
                               "type": "ReturnStatement",
@@ -144,19 +150,18 @@
                                 "raw": "2"
                               }
                             }
-                          ],
-                          "test": {
-                            "type": "Literal",
-                            "start": 720,
-                            "end": 724,
-                            "value": null,
-                            "raw": "null"
-                          }
+                          ]
                         },
                         {
                           "type": "SwitchCase",
                           "start": 742,
                           "end": 767,
+                          "test": {
+                            "type": "Identifier",
+                            "start": 747,
+                            "end": 756,
+                            "name": "IsHTMLDDA"
+                          },
                           "consequent": [
                             {
                               "type": "ReturnStatement",
@@ -170,18 +175,13 @@
                                 "raw": "3"
                               }
                             }
-                          ],
-                          "test": {
-                            "type": "Identifier",
-                            "start": 747,
-                            "end": 756,
-                            "name": "IsHTMLDDA"
-                          }
+                          ]
                         }
                       ]
                     }
                   ]
-                }
+                },
+                "expression": false
               }
             },
             "arguments": [],

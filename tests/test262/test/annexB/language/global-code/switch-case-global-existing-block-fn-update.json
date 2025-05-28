@@ -18,7 +18,6 @@
             "end": 1084,
             "name": "f"
           },
-          "expression": false,
           "generator": false,
           "async": false,
           "params": [],
@@ -40,7 +39,8 @@
                 }
               }
             ]
-          }
+          },
+          "expression": false
         }
       ]
     },
@@ -60,6 +60,13 @@
           "type": "SwitchCase",
           "start": 1143,
           "end": 1200,
+          "test": {
+            "type": "Literal",
+            "start": 1148,
+            "end": 1149,
+            "value": 1,
+            "raw": "1"
+          },
           "consequent": [
             {
               "type": "FunctionDeclaration",
@@ -71,7 +78,6 @@
                 "end": 1165,
                 "name": "f"
               },
-              "expression": false,
               "generator": false,
               "async": false,
               "params": [],
@@ -93,16 +99,10 @@
                     }
                   }
                 ]
-              }
+              },
+              "expression": false
             }
-          ],
-          "test": {
-            "type": "Literal",
-            "start": 1148,
-            "end": 1149,
-            "value": 1,
-            "raw": "1"
-          }
+          ]
         }
       ]
     },
@@ -130,8 +130,8 @@
             "end": 1220,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
@@ -139,13 +139,13 @@
             "start": 1221,
             "end": 1229,
             "operator": "typeof",
-            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 1228,
               "end": 1229,
               "name": "f"
-            }
+            },
+            "prefix": true
           },
           {
             "type": "Literal",
@@ -182,8 +182,8 @@
             "end": 1260,
             "name": "sameValue"
           },
-          "computed": false,
-          "optional": false
+          "optional": false,
+          "computed": false
         },
         "arguments": [
           {
