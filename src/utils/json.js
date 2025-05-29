@@ -21,7 +21,7 @@ export function transformerAcorn(_key, value) {
 
   if (typeof value !== 'object' || value === null || !Object.hasOwn(value, 'type')) return value;
 
-  const {type} = value;
+  const { type } = value;
   if (type === 'ImportDeclaration' || type === 'ImportExpression') {
     if (!Object.hasOwn(value, 'phase')) value.phase = null;
   } else if (type === 'Literal' && Object.hasOwn(value, 'regex')) {
@@ -55,7 +55,7 @@ export function transformerTs(_key, value) {
 
   if (typeof value !== 'object' || value === null || !Object.hasOwn(value, 'type')) return value;
 
-  const {type} = value;
+  const { type } = value;
   if (type === 'ImportDeclaration' || type === 'ImportExpression') {
     if (!Object.hasOwn(value, 'phase')) value.phase = null;
   } else if (type === 'Literal' && Object.hasOwn(value, 'regex')) {
