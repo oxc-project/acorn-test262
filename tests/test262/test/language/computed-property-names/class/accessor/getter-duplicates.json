@@ -7,6 +7,7 @@
       "type": "ClassDeclaration",
       "start": 345,
       "end": 392,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 351,
@@ -23,6 +24,7 @@
             "type": "MethodDefinition",
             "start": 357,
             "end": 390,
+            "decorators": [],
             "key": {
               "type": "Literal",
               "start": 362,
@@ -141,6 +143,7 @@
       "type": "ClassDeclaration",
       "start": 465,
       "end": 615,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 471,
@@ -157,6 +160,7 @@
             "type": "MethodDefinition",
             "start": 478,
             "end": 577,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 482,
@@ -213,6 +217,7 @@
             "type": "MethodDefinition",
             "start": 580,
             "end": 613,
+            "decorators": [],
             "key": {
               "type": "Literal",
               "start": 585,
@@ -331,6 +336,7 @@
       "type": "ClassDeclaration",
       "start": 690,
       "end": 947,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 696,
@@ -347,6 +353,7 @@
             "type": "MethodDefinition",
             "start": 703,
             "end": 802,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 707,
@@ -403,6 +410,7 @@
             "type": "MethodDefinition",
             "start": 805,
             "end": 909,
+            "decorators": [],
             "key": {
               "type": "Literal",
               "start": 810,
@@ -460,6 +468,7 @@
             "type": "MethodDefinition",
             "start": 912,
             "end": 945,
+            "decorators": [],
             "key": {
               "type": "Literal",
               "start": 917,
@@ -578,6 +587,7 @@
       "type": "ClassDeclaration",
       "start": 1022,
       "end": 1172,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 1028,
@@ -594,6 +604,7 @@
             "type": "MethodDefinition",
             "start": 1035,
             "end": 1138,
+            "decorators": [],
             "key": {
               "type": "Literal",
               "start": 1040,
@@ -651,6 +662,7 @@
             "type": "MethodDefinition",
             "start": 1141,
             "end": 1170,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 1145,

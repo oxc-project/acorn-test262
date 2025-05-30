@@ -23,6 +23,7 @@
             "type": "ClassExpression",
             "start": 558,
             "end": 680,
+            "decorators": [],
             "id": null,
             "superClass": null,
             "body": {
@@ -34,6 +35,7 @@
                   "type": "PropertyDefinition",
                   "start": 568,
                   "end": 583,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 568,
@@ -54,6 +56,7 @@
                   "type": "MethodDefinition",
                   "start": 586,
                   "end": 603,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 586,
@@ -97,6 +100,7 @@
                   "type": "PropertyDefinition",
                   "start": 606,
                   "end": 610,
+                  "decorators": [],
                   "key": {
                     "type": "Literal",
                     "start": 606,
@@ -112,6 +116,7 @@
                   "type": "PropertyDefinition",
                   "start": 611,
                   "end": 615,
+                  "decorators": [],
                   "key": {
                     "type": "Literal",
                     "start": 611,
@@ -127,6 +132,7 @@
                   "type": "PropertyDefinition",
                   "start": 616,
                   "end": 625,
+                  "decorators": [],
                   "key": {
                     "type": "Literal",
                     "start": 616,
@@ -148,6 +154,7 @@
                   "type": "PropertyDefinition",
                   "start": 628,
                   "end": 636,
+                  "decorators": [],
                   "key": {
                     "type": "Literal",
                     "start": 628,
@@ -169,6 +176,7 @@
                   "type": "MethodDefinition",
                   "start": 639,
                   "end": 657,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 639,
@@ -212,6 +220,7 @@
                   "type": "PropertyDefinition",
                   "start": 660,
                   "end": 675,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 660,

@@ -93,6 +93,7 @@
                   "type": "ClassDeclaration",
                   "start": 1984,
                   "end": 2040,
+                  "decorators": [],
                   "id": {
                     "type": "Identifier",
                     "start": 1990,
@@ -109,6 +110,7 @@
                         "type": "PropertyDefinition",
                         "start": 1998,
                         "end": 2022,
+                        "decorators": [],
                         "key": {
                           "type": "Identifier",
                           "start": 2005,
@@ -135,6 +137,7 @@
                         "type": "PropertyDefinition",
                         "start": 2027,
                         "end": 2036,
+                        "decorators": [],
                         "key": {
                           "type": "Identifier",
                           "start": 2034,

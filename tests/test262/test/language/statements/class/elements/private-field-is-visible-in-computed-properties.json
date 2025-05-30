@@ -78,6 +78,7 @@
                   "type": "ClassDeclaration",
                   "start": 1607,
                   "end": 1663,
+                  "decorators": [],
                   "id": {
                     "type": "Identifier",
                     "start": 1613,
@@ -94,6 +95,7 @@
                         "type": "PropertyDefinition",
                         "start": 1621,
                         "end": 1643,
+                        "decorators": [],
                         "key": {
                           "type": "MemberExpression",
                           "start": 1622,
@@ -127,6 +129,7 @@
                         "type": "PropertyDefinition",
                         "start": 1648,
                         "end": 1659,
+                        "decorators": [],
                         "key": {
                           "type": "PrivateIdentifier",
                           "start": 1648,

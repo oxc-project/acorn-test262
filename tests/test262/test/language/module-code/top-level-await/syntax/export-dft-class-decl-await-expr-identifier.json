@@ -80,6 +80,7 @@
         "type": "ClassDeclaration",
         "start": 2156,
         "end": 2186,
+        "decorators": [],
         "id": null,
         "superClass": {
           "type": "CallExpression",

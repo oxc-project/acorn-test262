@@ -23,6 +23,7 @@
             "type": "ClassExpression",
             "start": 1484,
             "end": 2186,
+            "decorators": [],
             "id": null,
             "superClass": null,
             "body": {
@@ -34,6 +35,7 @@
                   "type": "MethodDefinition",
                   "start": 1494,
                   "end": 1534,
+                  "decorators": [],
                   "key": {
                     "type": "PrivateIdentifier",
                     "start": 1501,
@@ -83,6 +85,7 @@
                   "type": "MethodDefinition",
                   "start": 1537,
                   "end": 1577,
+                  "decorators": [],
                   "key": {
                     "type": "PrivateIdentifier",
                     "start": 1544,
@@ -132,6 +135,7 @@
                   "type": "MethodDefinition",
                   "start": 1580,
                   "end": 1625,
+                  "decorators": [],
                   "key": {
                     "type": "PrivateIdentifier",
                     "start": 1587,
@@ -181,6 +185,7 @@
                   "type": "MethodDefinition",
                   "start": 1628,
                   "end": 1673,
+                  "decorators": [],
                   "key": {
                     "type": "PrivateIdentifier",
                     "start": 1635,
@@ -230,6 +235,7 @@
                   "type": "MethodDefinition",
                   "start": 1676,
                   "end": 1727,
+                  "decorators": [],
                   "key": {
                     "type": "PrivateIdentifier",
                     "start": 1683,
@@ -279,6 +285,7 @@
                   "type": "MethodDefinition",
                   "start": 1730,
                   "end": 1780,
+                  "decorators": [],
                   "key": {
                     "type": "PrivateIdentifier",
                     "start": 1737,
@@ -328,6 +335,7 @@
                   "type": "PropertyDefinition",
                   "start": 1783,
                   "end": 1797,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 1783,
@@ -348,6 +356,7 @@
                   "type": "PropertyDefinition",
                   "start": 1800,
                   "end": 1815,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 1800,
@@ -368,6 +377,7 @@
                   "type": "MethodDefinition",
                   "start": 1818,
                   "end": 1866,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 1825,
@@ -443,6 +453,7 @@
                   "type": "MethodDefinition",
                   "start": 1869,
                   "end": 1917,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 1876,
@@ -518,6 +529,7 @@
                   "type": "MethodDefinition",
                   "start": 1920,
                   "end": 1978,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 1927,
@@ -593,6 +605,7 @@
                   "type": "MethodDefinition",
                   "start": 1981,
                   "end": 2039,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 1988,
@@ -668,6 +681,7 @@
                   "type": "MethodDefinition",
                   "start": 2042,
                   "end": 2112,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 2049,
@@ -743,6 +757,7 @@
                   "type": "MethodDefinition",
                   "start": 2115,
                   "end": 2183,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 2122,

@@ -23,6 +23,7 @@
             "type": "ClassExpression",
             "start": 984,
             "end": 1081,
+            "decorators": [],
             "id": null,
             "superClass": null,
             "body": {
@@ -34,6 +35,7 @@
                   "type": "PropertyDefinition",
                   "start": 994,
                   "end": 1031,
+                  "decorators": [],
                   "key": {
                     "type": "BinaryExpression",
                     "start": 995,
@@ -90,6 +92,7 @@
                   "type": "PropertyDefinition",
                   "start": 1035,
                   "end": 1079,
+                  "decorators": [],
                   "key": {
                     "type": "BinaryExpression",
                     "start": 1043,

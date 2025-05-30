@@ -121,6 +121,7 @@
             "type": "ClassDeclaration",
             "start": 1870,
             "end": 1893,
+            "decorators": [],
             "id": {
               "type": "Identifier",
               "start": 1876,
@@ -137,6 +138,7 @@
                   "type": "PropertyDefinition",
                   "start": 1884,
                   "end": 1889,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 1885,

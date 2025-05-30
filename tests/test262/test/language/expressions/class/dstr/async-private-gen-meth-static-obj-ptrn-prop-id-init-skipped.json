@@ -121,6 +121,7 @@
             "type": "ClassExpression",
             "start": 2054,
             "end": 2668,
+            "decorators": [],
             "id": null,
             "superClass": null,
             "body": {
@@ -132,6 +133,7 @@
                   "type": "MethodDefinition",
                   "start": 2064,
                   "end": 2612,
+                  "decorators": [],
                   "key": {
                     "type": "PrivateIdentifier",
                     "start": 2079,
@@ -852,6 +854,7 @@
                   "type": "MethodDefinition",
                   "start": 2616,
                   "end": 2666,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 2627,

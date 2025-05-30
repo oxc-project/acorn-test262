@@ -1987,6 +1987,7 @@
       "type": "ClassDeclaration",
       "start": 3832,
       "end": 4057,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 3838,
@@ -2003,6 +2004,7 @@
             "type": "MethodDefinition",
             "start": 3842,
             "end": 4056,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 3856,

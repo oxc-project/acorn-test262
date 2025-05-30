@@ -101,6 +101,7 @@
                   "type": "ClassExpression",
                   "start": 1863,
                   "end": 1907,
+                  "decorators": [],
                   "id": null,
                   "superClass": null,
                   "body": {
@@ -112,6 +113,7 @@
                         "type": "PropertyDefinition",
                         "start": 1875,
                         "end": 1903,
+                        "decorators": [],
                         "key": {
                           "type": "Identifier",
                           "start": 1876,

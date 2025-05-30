@@ -28,6 +28,9 @@ So in both cases, the `BigInt` / `RegExp` can be reconstructed from this extra d
 
 `Infinity` is serialized as `1e+400` - which `JSON.parse` converts back to `Infinity`.
 
+A `decorators` field is added to `ClassDeclaration`, `ClassExpression`, `MethodDefinition`,
+and `PropertyDefinition` (stage 3 proposal).
+
 A `phase` field is added to `ImportDeclaration` and `ImportExpression` (stage 3 proposal).
 
 A non-standard `hashbang` field is added to `Program`.

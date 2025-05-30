@@ -54,6 +54,7 @@
         "type": "ClassDeclaration",
         "start": 1990,
         "end": 2062,
+        "decorators": [],
         "id": {
           "type": "Identifier",
           "start": 1996,

@@ -23,6 +23,7 @@
             "type": "ClassExpression",
             "start": 962,
             "end": 1049,
+            "decorators": [],
             "id": null,
             "superClass": null,
             "body": {
@@ -34,6 +35,7 @@
                   "type": "PropertyDefinition",
                   "start": 972,
                   "end": 1004,
+                  "decorators": [],
                   "key": {
                     "type": "Literal",
                     "start": 973,
@@ -77,6 +79,7 @@
                   "type": "PropertyDefinition",
                   "start": 1008,
                   "end": 1047,
+                  "decorators": [],
                   "key": {
                     "type": "Literal",
                     "start": 1016,

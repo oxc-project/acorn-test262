@@ -54,6 +54,7 @@
         "type": "ClassDeclaration",
         "start": 2120,
         "end": 2150,
+        "decorators": [],
         "id": {
           "type": "Identifier",
           "start": 2126,

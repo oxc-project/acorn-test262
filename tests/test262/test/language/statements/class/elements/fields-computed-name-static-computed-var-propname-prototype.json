@@ -80,6 +80,7 @@
                   "type": "ClassDeclaration",
                   "start": 803,
                   "end": 837,
+                  "decorators": [],
                   "id": {
                     "type": "Identifier",
                     "start": 809,
@@ -96,6 +97,7 @@
                         "type": "PropertyDefinition",
                         "start": 817,
                         "end": 833,
+                        "decorators": [],
                         "key": {
                           "type": "Identifier",
                           "start": 825,
@@ -174,6 +176,7 @@
                   "type": "ClassDeclaration",
                   "start": 883,
                   "end": 912,
+                  "decorators": [],
                   "id": {
                     "type": "Identifier",
                     "start": 889,
@@ -190,6 +193,7 @@
                         "type": "PropertyDefinition",
                         "start": 897,
                         "end": 908,
+                        "decorators": [],
                         "key": {
                           "type": "Identifier",
                           "start": 905,

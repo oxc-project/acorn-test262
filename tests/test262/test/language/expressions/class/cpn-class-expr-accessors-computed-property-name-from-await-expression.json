@@ -32,6 +32,7 @@
                   "type": "ClassExpression",
                   "start": 939,
                   "end": 1119,
+                  "decorators": [],
                   "id": null,
                   "superClass": null,
                   "body": {
@@ -43,6 +44,7 @@
                         "type": "MethodDefinition",
                         "start": 949,
                         "end": 984,
+                        "decorators": [],
                         "key": {
                           "type": "AwaitExpression",
                           "start": 954,
@@ -92,6 +94,7 @@
                         "type": "MethodDefinition",
                         "start": 988,
                         "end": 1024,
+                        "decorators": [],
                         "key": {
                           "type": "AwaitExpression",
                           "start": 993,
@@ -148,6 +151,7 @@
                         "type": "MethodDefinition",
                         "start": 1028,
                         "end": 1070,
+                        "decorators": [],
                         "key": {
                           "type": "AwaitExpression",
                           "start": 1040,
@@ -197,6 +201,7 @@
                         "type": "MethodDefinition",
                         "start": 1074,
                         "end": 1117,
+                        "decorators": [],
                         "key": {
                           "type": "AwaitExpression",
                           "start": 1086,

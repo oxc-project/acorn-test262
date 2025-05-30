@@ -2003,6 +2003,7 @@
             "type": "ClassExpression",
             "start": 3839,
             "end": 4062,
+            "decorators": [],
             "id": null,
             "superClass": null,
             "body": {
@@ -2014,6 +2015,7 @@
                   "type": "MethodDefinition",
                   "start": 3847,
                   "end": 4061,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 3861,

@@ -32,6 +32,7 @@
                   "type": "ClassExpression",
                   "start": 929,
                   "end": 1013,
+                  "decorators": [],
                   "id": null,
                   "superClass": null,
                   "body": {
@@ -43,6 +44,7 @@
                         "type": "MethodDefinition",
                         "start": 939,
                         "end": 970,
+                        "decorators": [],
                         "key": {
                           "type": "AwaitExpression",
                           "start": 940,
@@ -92,6 +94,7 @@
                         "type": "MethodDefinition",
                         "start": 973,
                         "end": 1011,
+                        "decorators": [],
                         "key": {
                           "type": "AwaitExpression",
                           "start": 981,

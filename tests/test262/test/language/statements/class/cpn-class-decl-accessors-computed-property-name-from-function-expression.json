@@ -7,6 +7,7 @@
       "type": "ClassDeclaration",
       "start": 897,
       "end": 1107,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 903,
@@ -23,6 +24,7 @@
             "type": "MethodDefinition",
             "start": 909,
             "end": 951,
+            "decorators": [],
             "key": {
               "type": "FunctionExpression",
               "start": 914,
@@ -76,6 +78,7 @@
             "type": "MethodDefinition",
             "start": 955,
             "end": 998,
+            "decorators": [],
             "key": {
               "type": "FunctionExpression",
               "start": 960,
@@ -136,6 +139,7 @@
             "type": "MethodDefinition",
             "start": 1002,
             "end": 1051,
+            "decorators": [],
             "key": {
               "type": "FunctionExpression",
               "start": 1014,
@@ -189,6 +193,7 @@
             "type": "MethodDefinition",
             "start": 1055,
             "end": 1105,
+            "decorators": [],
             "key": {
               "type": "FunctionExpression",
               "start": 1067,

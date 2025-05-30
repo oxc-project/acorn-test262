@@ -23,6 +23,7 @@
             "type": "ClassExpression",
             "start": 1468,
             "end": 2141,
+            "decorators": [],
             "id": null,
             "superClass": null,
             "body": {
@@ -34,6 +35,7 @@
                   "type": "MethodDefinition",
                   "start": 1478,
                   "end": 1504,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 1486,
@@ -77,6 +79,7 @@
                   "type": "PropertyDefinition",
                   "start": 1505,
                   "end": 1515,
+                  "decorators": [],
                   "key": {
                     "type": "PrivateIdentifier",
                     "start": 1512,
@@ -91,6 +94,7 @@
                   "type": "PropertyDefinition",
                   "start": 1516,
                   "end": 1526,
+                  "decorators": [],
                   "key": {
                     "type": "PrivateIdentifier",
                     "start": 1523,
@@ -105,6 +109,7 @@
                   "type": "PropertyDefinition",
                   "start": 1527,
                   "end": 1542,
+                  "decorators": [],
                   "key": {
                     "type": "PrivateIdentifier",
                     "start": 1534,
@@ -119,6 +124,7 @@
                   "type": "PropertyDefinition",
                   "start": 1543,
                   "end": 1553,
+                  "decorators": [],
                   "key": {
                     "type": "PrivateIdentifier",
                     "start": 1550,
@@ -133,6 +139,7 @@
                   "type": "PropertyDefinition",
                   "start": 1554,
                   "end": 1570,
+                  "decorators": [],
                   "key": {
                     "type": "PrivateIdentifier",
                     "start": 1561,
@@ -147,6 +154,7 @@
                   "type": "PropertyDefinition",
                   "start": 1571,
                   "end": 1586,
+                  "decorators": [],
                   "key": {
                     "type": "PrivateIdentifier",
                     "start": 1578,
@@ -161,6 +169,7 @@
                   "type": "MethodDefinition",
                   "start": 1589,
                   "end": 1651,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 1596,
@@ -257,6 +266,7 @@
                   "type": "MethodDefinition",
                   "start": 1654,
                   "end": 1716,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 1661,
@@ -353,6 +363,7 @@
                   "type": "MethodDefinition",
                   "start": 1719,
                   "end": 1791,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 1726,
@@ -449,6 +460,7 @@
                   "type": "MethodDefinition",
                   "start": 1794,
                   "end": 1896,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 1801,
@@ -545,6 +557,7 @@
                   "type": "MethodDefinition",
                   "start": 1899,
                   "end": 2019,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 1906,
@@ -641,6 +654,7 @@
                   "type": "MethodDefinition",
                   "start": 2022,
                   "end": 2139,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 2029,

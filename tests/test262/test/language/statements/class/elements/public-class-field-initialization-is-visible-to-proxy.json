@@ -127,6 +127,7 @@
       "type": "ClassDeclaration",
       "start": 779,
       "end": 828,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 785,
@@ -148,6 +149,7 @@
             "type": "PropertyDefinition",
             "start": 812,
             "end": 826,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 812,

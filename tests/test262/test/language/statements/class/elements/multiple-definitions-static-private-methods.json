@@ -7,6 +7,7 @@
       "type": "ClassDeclaration",
       "start": 635,
       "end": 906,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 641,
@@ -23,6 +24,7 @@
             "type": "PropertyDefinition",
             "start": 647,
             "end": 662,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 647,
@@ -43,6 +45,7 @@
             "type": "MethodDefinition",
             "start": 665,
             "end": 682,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 665,
@@ -86,6 +89,7 @@
             "type": "MethodDefinition",
             "start": 688,
             "end": 706,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 688,
@@ -129,6 +133,7 @@
             "type": "PropertyDefinition",
             "start": 709,
             "end": 724,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 709,
@@ -149,6 +154,7 @@
             "type": "MethodDefinition",
             "start": 727,
             "end": 771,
+            "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
               "start": 734,
@@ -211,6 +217,7 @@
             "type": "MethodDefinition",
             "start": 774,
             "end": 818,
+            "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
               "start": 781,
@@ -273,6 +280,7 @@
             "type": "MethodDefinition",
             "start": 821,
             "end": 861,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 828,
@@ -342,6 +350,7 @@
             "type": "MethodDefinition",
             "start": 864,
             "end": 904,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 871,

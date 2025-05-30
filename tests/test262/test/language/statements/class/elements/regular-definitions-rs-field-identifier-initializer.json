@@ -7,6 +7,7 @@
       "type": "ClassDeclaration",
       "start": 1325,
       "end": 1413,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 1331,
@@ -23,6 +24,7 @@
             "type": "PropertyDefinition",
             "start": 1337,
             "end": 1343,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 1337,
@@ -43,6 +45,7 @@
             "type": "PropertyDefinition",
             "start": 1344,
             "end": 1350,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 1344,
@@ -63,6 +66,7 @@
             "type": "PropertyDefinition",
             "start": 1351,
             "end": 1362,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 1351,
@@ -83,6 +87,7 @@
             "type": "PropertyDefinition",
             "start": 1363,
             "end": 1374,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 1363,
@@ -103,6 +108,7 @@
             "type": "PropertyDefinition",
             "start": 1375,
             "end": 1392,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 1375,
@@ -123,6 +129,7 @@
             "type": "PropertyDefinition",
             "start": 1393,
             "end": 1408,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 1393,

@@ -57,6 +57,7 @@
             "type": "ClassExpression",
             "start": 932,
             "end": 1008,
+            "decorators": [],
             "id": null,
             "superClass": null,
             "body": {
@@ -68,6 +69,7 @@
                   "type": "MethodDefinition",
                   "start": 942,
                   "end": 969,
+                  "decorators": [],
                   "key": {
                     "type": "CallExpression",
                     "start": 943,
@@ -118,6 +120,7 @@
                   "type": "MethodDefinition",
                   "start": 972,
                   "end": 1006,
+                  "decorators": [],
                   "key": {
                     "type": "CallExpression",
                     "start": 980,

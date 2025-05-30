@@ -49,6 +49,7 @@
             "type": "ClassExpression",
             "start": 929,
             "end": 1101,
+            "decorators": [],
             "id": null,
             "superClass": null,
             "body": {
@@ -60,6 +61,7 @@
                   "type": "MethodDefinition",
                   "start": 939,
                   "end": 972,
+                  "decorators": [],
                   "key": {
                     "type": "AssignmentExpression",
                     "start": 944,
@@ -116,6 +118,7 @@
                   "type": "MethodDefinition",
                   "start": 976,
                   "end": 1010,
+                  "decorators": [],
                   "key": {
                     "type": "AssignmentExpression",
                     "start": 981,
@@ -179,6 +182,7 @@
                   "type": "MethodDefinition",
                   "start": 1014,
                   "end": 1054,
+                  "decorators": [],
                   "key": {
                     "type": "AssignmentExpression",
                     "start": 1026,
@@ -235,6 +239,7 @@
                   "type": "MethodDefinition",
                   "start": 1058,
                   "end": 1099,
+                  "decorators": [],
                   "key": {
                     "type": "AssignmentExpression",
                     "start": 1070,

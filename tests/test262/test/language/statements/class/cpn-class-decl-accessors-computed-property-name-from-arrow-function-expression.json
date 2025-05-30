@@ -7,6 +7,7 @@
       "type": "ClassDeclaration",
       "start": 898,
       "end": 1088,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 904,
@@ -23,6 +24,7 @@
             "type": "MethodDefinition",
             "start": 910,
             "end": 947,
+            "decorators": [],
             "key": {
               "type": "ArrowFunctionExpression",
               "start": 915,
@@ -76,6 +78,7 @@
             "type": "MethodDefinition",
             "start": 951,
             "end": 989,
+            "decorators": [],
             "key": {
               "type": "ArrowFunctionExpression",
               "start": 956,
@@ -136,6 +139,7 @@
             "type": "MethodDefinition",
             "start": 993,
             "end": 1037,
+            "decorators": [],
             "key": {
               "type": "ArrowFunctionExpression",
               "start": 1005,
@@ -189,6 +193,7 @@
             "type": "MethodDefinition",
             "start": 1041,
             "end": 1086,
+            "decorators": [],
             "key": {
               "type": "ArrowFunctionExpression",
               "start": 1053,

@@ -7,6 +7,7 @@
       "type": "ClassDeclaration",
       "start": 1882,
       "end": 1962,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 1888,
@@ -23,6 +24,7 @@
             "type": "MethodDefinition",
             "start": 1894,
             "end": 1920,
+            "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
               "start": 1898,
@@ -96,6 +98,7 @@
             "type": "PropertyDefinition",
             "start": 1924,
             "end": 1960,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 1924,

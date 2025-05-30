@@ -28,6 +28,7 @@
       "type": "ClassDeclaration",
       "start": 893,
       "end": 971,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 899,
@@ -44,6 +45,7 @@
             "type": "MethodDefinition",
             "start": 905,
             "end": 932,
+            "decorators": [],
             "key": {
               "type": "CallExpression",
               "start": 906,
@@ -94,6 +96,7 @@
             "type": "MethodDefinition",
             "start": 935,
             "end": 969,
+            "decorators": [],
             "key": {
               "type": "CallExpression",
               "start": 943,

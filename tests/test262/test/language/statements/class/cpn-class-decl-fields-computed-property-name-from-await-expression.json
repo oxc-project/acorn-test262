@@ -32,6 +32,7 @@
                   "type": "ClassExpression",
                   "start": 986,
                   "end": 1037,
+                  "decorators": [],
                   "id": null,
                   "superClass": null,
                   "body": {
@@ -43,6 +44,7 @@
                         "type": "PropertyDefinition",
                         "start": 996,
                         "end": 1010,
+                        "decorators": [],
                         "key": {
                           "type": "AwaitExpression",
                           "start": 997,
@@ -69,6 +71,7 @@
                         "type": "PropertyDefinition",
                         "start": 1014,
                         "end": 1035,
+                        "decorators": [],
                         "key": {
                           "type": "AwaitExpression",
                           "start": 1022,

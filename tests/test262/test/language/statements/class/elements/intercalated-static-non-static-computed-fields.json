@@ -33,6 +33,7 @@
       "type": "ClassDeclaration",
       "start": 1765,
       "end": 1828,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 1771,
@@ -49,6 +50,7 @@
             "type": "PropertyDefinition",
             "start": 1777,
             "end": 1789,
+            "decorators": [],
             "key": {
               "type": "UpdateExpression",
               "start": 1778,
@@ -82,6 +84,7 @@
             "type": "PropertyDefinition",
             "start": 1792,
             "end": 1811,
+            "decorators": [],
             "key": {
               "type": "UpdateExpression",
               "start": 1800,
@@ -115,6 +118,7 @@
             "type": "PropertyDefinition",
             "start": 1814,
             "end": 1826,
+            "decorators": [],
             "key": {
               "type": "UpdateExpression",
               "start": 1815,

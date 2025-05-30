@@ -536,6 +536,7 @@
                         "type": "ClassExpression",
                         "start": 814,
                         "end": 839,
+                        "decorators": [],
                         "id": null,
                         "superClass": {
                           "type": "Identifier",

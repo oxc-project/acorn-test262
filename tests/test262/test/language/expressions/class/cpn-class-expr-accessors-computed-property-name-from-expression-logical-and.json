@@ -49,6 +49,7 @@
             "type": "ClassExpression",
             "start": 909,
             "end": 1085,
+            "decorators": [],
             "id": null,
             "superClass": null,
             "body": {
@@ -60,6 +61,7 @@
                   "type": "MethodDefinition",
                   "start": 919,
                   "end": 953,
+                  "decorators": [],
                   "key": {
                     "type": "LogicalExpression",
                     "start": 924,
@@ -116,6 +118,7 @@
                   "type": "MethodDefinition",
                   "start": 957,
                   "end": 992,
+                  "decorators": [],
                   "key": {
                     "type": "LogicalExpression",
                     "start": 962,
@@ -179,6 +182,7 @@
                   "type": "MethodDefinition",
                   "start": 996,
                   "end": 1037,
+                  "decorators": [],
                   "key": {
                     "type": "LogicalExpression",
                     "start": 1008,
@@ -235,6 +239,7 @@
                   "type": "MethodDefinition",
                   "start": 1041,
                   "end": 1083,
+                  "decorators": [],
                   "key": {
                     "type": "LogicalExpression",
                     "start": 1053,

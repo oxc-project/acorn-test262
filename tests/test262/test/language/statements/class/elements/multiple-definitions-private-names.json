@@ -7,6 +7,7 @@
       "type": "ClassDeclaration",
       "start": 602,
       "end": 799,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 608,
@@ -23,6 +24,7 @@
             "type": "PropertyDefinition",
             "start": 614,
             "end": 629,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 614,
@@ -43,6 +45,7 @@
             "type": "MethodDefinition",
             "start": 632,
             "end": 649,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 632,
@@ -86,6 +89,7 @@
             "type": "PropertyDefinition",
             "start": 652,
             "end": 655,
+            "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
               "start": 652,
@@ -100,6 +104,7 @@
             "type": "PropertyDefinition",
             "start": 656,
             "end": 658,
+            "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
               "start": 656,
@@ -114,6 +119,7 @@
             "type": "MethodDefinition",
             "start": 661,
             "end": 679,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 661,
@@ -157,6 +163,7 @@
             "type": "PropertyDefinition",
             "start": 682,
             "end": 697,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 682,
@@ -177,6 +184,7 @@
             "type": "MethodDefinition",
             "start": 700,
             "end": 747,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 700,
@@ -267,6 +275,7 @@
             "type": "MethodDefinition",
             "start": 750,
             "end": 797,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 750,

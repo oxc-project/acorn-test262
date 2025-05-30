@@ -49,6 +49,7 @@
             "type": "ClassExpression",
             "start": 1068,
             "end": 1076,
+            "decorators": [],
             "id": null,
             "superClass": null,
             "body": {
@@ -81,6 +82,7 @@
             "type": "ClassExpression",
             "start": 1085,
             "end": 1151,
+            "decorators": [],
             "id": null,
             "superClass": {
               "type": "Identifier",
@@ -97,6 +99,7 @@
                   "type": "PropertyDefinition",
                   "start": 1105,
                   "end": 1149,
+                  "decorators": [],
                   "key": {
                     "type": "PrivateIdentifier",
                     "start": 1105,

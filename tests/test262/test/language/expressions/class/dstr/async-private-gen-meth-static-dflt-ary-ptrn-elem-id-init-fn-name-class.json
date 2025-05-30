@@ -49,6 +49,7 @@
             "type": "ClassExpression",
             "start": 2345,
             "end": 2677,
+            "decorators": [],
             "id": null,
             "superClass": null,
             "body": {
@@ -60,6 +61,7 @@
                   "type": "MethodDefinition",
                   "start": 2355,
                   "end": 2621,
+                  "decorators": [],
                   "key": {
                     "type": "PrivateIdentifier",
                     "start": 2370,
@@ -97,6 +99,7 @@
                                 "type": "ClassExpression",
                                 "start": 2385,
                                 "end": 2393,
+                                "decorators": [],
                                 "id": null,
                                 "superClass": null,
                                 "body": {
@@ -121,6 +124,7 @@
                                 "type": "ClassExpression",
                                 "start": 2402,
                                 "end": 2412,
+                                "decorators": [],
                                 "id": {
                                   "type": "Identifier",
                                   "start": 2408,
@@ -150,6 +154,7 @@
                                 "type": "ClassExpression",
                                 "start": 2422,
                                 "end": 2448,
+                                "decorators": [],
                                 "id": null,
                                 "superClass": null,
                                 "body": {
@@ -161,6 +166,7 @@
                                       "type": "MethodDefinition",
                                       "start": 2430,
                                       "end": 2446,
+                                      "decorators": [],
                                       "key": {
                                         "type": "Identifier",
                                         "start": 2437,
@@ -428,6 +434,7 @@
                   "type": "MethodDefinition",
                   "start": 2625,
                   "end": 2675,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 2636,

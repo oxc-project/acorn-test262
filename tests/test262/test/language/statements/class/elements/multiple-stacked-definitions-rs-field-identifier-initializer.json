@@ -7,6 +7,7 @@
       "type": "ClassDeclaration",
       "start": 1387,
       "end": 1510,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 1393,
@@ -23,6 +24,7 @@
             "type": "PropertyDefinition",
             "start": 1399,
             "end": 1405,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 1399,
@@ -43,6 +45,7 @@
             "type": "PropertyDefinition",
             "start": 1406,
             "end": 1412,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 1406,
@@ -63,6 +66,7 @@
             "type": "PropertyDefinition",
             "start": 1413,
             "end": 1424,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 1413,
@@ -83,6 +87,7 @@
             "type": "PropertyDefinition",
             "start": 1425,
             "end": 1436,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 1425,
@@ -103,6 +108,7 @@
             "type": "PropertyDefinition",
             "start": 1437,
             "end": 1454,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 1437,
@@ -123,6 +129,7 @@
             "type": "PropertyDefinition",
             "start": 1455,
             "end": 1470,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 1455,
@@ -143,6 +150,7 @@
             "type": "PropertyDefinition",
             "start": 1473,
             "end": 1487,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 1473,
@@ -163,6 +171,7 @@
             "type": "PropertyDefinition",
             "start": 1490,
             "end": 1505,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 1490,

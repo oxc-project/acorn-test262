@@ -57,6 +57,7 @@
             "type": "ClassExpression",
             "start": 989,
             "end": 1032,
+            "decorators": [],
             "id": null,
             "superClass": null,
             "body": {
@@ -68,6 +69,7 @@
                   "type": "PropertyDefinition",
                   "start": 999,
                   "end": 1009,
+                  "decorators": [],
                   "key": {
                     "type": "CallExpression",
                     "start": 1000,
@@ -95,6 +97,7 @@
                   "type": "PropertyDefinition",
                   "start": 1013,
                   "end": 1030,
+                  "decorators": [],
                   "key": {
                     "type": "CallExpression",
                     "start": 1021,

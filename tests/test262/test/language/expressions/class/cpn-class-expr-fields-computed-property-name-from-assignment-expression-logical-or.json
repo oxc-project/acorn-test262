@@ -49,6 +49,7 @@
             "type": "ClassExpression",
             "start": 1016,
             "end": 1067,
+            "decorators": [],
             "id": null,
             "superClass": null,
             "body": {
@@ -60,6 +61,7 @@
                   "type": "PropertyDefinition",
                   "start": 1026,
                   "end": 1040,
+                  "decorators": [],
                   "key": {
                     "type": "AssignmentExpression",
                     "start": 1027,
@@ -93,6 +95,7 @@
                   "type": "PropertyDefinition",
                   "start": 1044,
                   "end": 1065,
+                  "decorators": [],
                   "key": {
                     "type": "AssignmentExpression",
                     "start": 1052,

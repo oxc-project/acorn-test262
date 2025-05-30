@@ -82,6 +82,7 @@
       "type": "ClassDeclaration",
       "start": 873,
       "end": 911,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 879,

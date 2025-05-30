@@ -33,6 +33,7 @@
       "type": "ClassDeclaration",
       "start": 954,
       "end": 1040,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 960,
@@ -49,6 +50,7 @@
             "type": "MethodDefinition",
             "start": 966,
             "end": 997,
+            "decorators": [],
             "key": {
               "type": "AssignmentExpression",
               "start": 967,
@@ -105,6 +107,7 @@
             "type": "MethodDefinition",
             "start": 1000,
             "end": 1038,
+            "decorators": [],
             "key": {
               "type": "AssignmentExpression",
               "start": 1008,

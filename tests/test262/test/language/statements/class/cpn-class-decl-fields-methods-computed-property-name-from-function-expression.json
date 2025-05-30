@@ -23,6 +23,7 @@
             "type": "ClassExpression",
             "start": 958,
             "end": 1071,
+            "decorators": [],
             "id": null,
             "superClass": null,
             "body": {
@@ -34,6 +35,7 @@
                   "type": "PropertyDefinition",
                   "start": 968,
                   "end": 1013,
+                  "decorators": [],
                   "key": {
                     "type": "FunctionExpression",
                     "start": 969,
@@ -86,6 +88,7 @@
                   "type": "PropertyDefinition",
                   "start": 1017,
                   "end": 1069,
+                  "decorators": [],
                   "key": {
                     "type": "FunctionExpression",
                     "start": 1025,

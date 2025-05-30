@@ -49,6 +49,7 @@
             "type": "ClassExpression",
             "start": 899,
             "end": 981,
+            "decorators": [],
             "id": null,
             "superClass": null,
             "body": {
@@ -60,6 +61,7 @@
                   "type": "MethodDefinition",
                   "start": 909,
                   "end": 939,
+                  "decorators": [],
                   "key": {
                     "type": "LogicalExpression",
                     "start": 910,
@@ -116,6 +118,7 @@
                   "type": "MethodDefinition",
                   "start": 942,
                   "end": 979,
+                  "decorators": [],
                   "key": {
                     "type": "LogicalExpression",
                     "start": 950,

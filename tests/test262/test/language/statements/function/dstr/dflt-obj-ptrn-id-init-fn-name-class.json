@@ -76,6 +76,7 @@
                     "type": "ClassExpression",
                     "start": 1880,
                     "end": 1888,
+                    "decorators": [],
                     "id": null,
                     "superClass": null,
                     "body": {
@@ -115,6 +116,7 @@
                     "type": "ClassExpression",
                     "start": 1897,
                     "end": 1907,
+                    "decorators": [],
                     "id": {
                       "type": "Identifier",
                       "start": 1903,
@@ -159,6 +161,7 @@
                     "type": "ClassExpression",
                     "start": 1917,
                     "end": 1943,
+                    "decorators": [],
                     "id": null,
                     "superClass": null,
                     "body": {
@@ -170,6 +173,7 @@
                           "type": "MethodDefinition",
                           "start": 1925,
                           "end": 1941,
+                          "decorators": [],
                           "key": {
                             "type": "Identifier",
                             "start": 1932,

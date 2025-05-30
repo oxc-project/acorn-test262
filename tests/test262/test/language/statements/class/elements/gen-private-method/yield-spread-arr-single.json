@@ -80,6 +80,7 @@
       "type": "ClassDeclaration",
       "start": 794,
       "end": 911,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 800,
@@ -96,6 +97,7 @@
             "type": "MethodDefinition",
             "start": 808,
             "end": 873,
+            "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
               "start": 809,
@@ -181,6 +183,7 @@
             "type": "MethodDefinition",
             "start": 878,
             "end": 909,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 882,

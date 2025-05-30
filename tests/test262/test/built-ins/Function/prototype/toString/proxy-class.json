@@ -33,6 +33,7 @@
                 "type": "ClassExpression",
                 "start": 688,
                 "end": 696,
+                "decorators": [],
                 "id": null,
                 "superClass": null,
                 "body": {
@@ -88,6 +89,7 @@
                   "type": "ClassExpression",
                   "start": 735,
                   "end": 743,
+                  "decorators": [],
                   "id": null,
                   "superClass": null,
                   "body": {

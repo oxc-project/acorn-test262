@@ -7,6 +7,7 @@
       "type": "ClassDeclaration",
       "start": 716,
       "end": 1021,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 722,
@@ -23,6 +24,7 @@
             "type": "PropertyDefinition",
             "start": 728,
             "end": 741,
+            "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
               "start": 735,
@@ -37,6 +39,7 @@
             "type": "PropertyDefinition",
             "start": 742,
             "end": 754,
+            "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
               "start": 749,
@@ -51,6 +54,7 @@
             "type": "PropertyDefinition",
             "start": 757,
             "end": 771,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 757,
@@ -71,6 +75,7 @@
             "type": "PropertyDefinition",
             "start": 774,
             "end": 789,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 774,
@@ -91,6 +96,7 @@
             "type": "MethodDefinition",
             "start": 792,
             "end": 861,
+            "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
               "start": 799,
@@ -187,6 +193,7 @@
             "type": "MethodDefinition",
             "start": 864,
             "end": 933,
+            "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
               "start": 871,
@@ -283,6 +290,7 @@
             "type": "MethodDefinition",
             "start": 936,
             "end": 976,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 943,
@@ -352,6 +360,7 @@
             "type": "MethodDefinition",
             "start": 979,
             "end": 1019,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 986,

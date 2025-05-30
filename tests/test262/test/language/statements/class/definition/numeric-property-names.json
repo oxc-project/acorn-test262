@@ -1319,6 +1319,7 @@
       "type": "ClassDeclaration",
       "start": 1916,
       "end": 2065,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 1922,
@@ -1335,6 +1336,7 @@
             "type": "MethodDefinition",
             "start": 1928,
             "end": 1945,
+            "decorators": [],
             "key": {
               "type": "Literal",
               "start": 1928,
@@ -1379,6 +1381,7 @@
             "type": "MethodDefinition",
             "start": 1948,
             "end": 1969,
+            "decorators": [],
             "key": {
               "type": "Literal",
               "start": 1952,
@@ -1423,6 +1426,7 @@
             "type": "MethodDefinition",
             "start": 1972,
             "end": 1983,
+            "decorators": [],
             "key": {
               "type": "Literal",
               "start": 1976,
@@ -1461,6 +1465,7 @@
             "type": "MethodDefinition",
             "start": 1987,
             "end": 2011,
+            "decorators": [],
             "key": {
               "type": "Literal",
               "start": 1994,
@@ -1505,6 +1510,7 @@
             "type": "MethodDefinition",
             "start": 2014,
             "end": 2042,
+            "decorators": [],
             "key": {
               "type": "Literal",
               "start": 2025,
@@ -1549,6 +1555,7 @@
             "type": "MethodDefinition",
             "start": 2045,
             "end": 2063,
+            "decorators": [],
             "key": {
               "type": "Literal",
               "start": 2056,
@@ -1821,6 +1828,7 @@
       "type": "ClassDeclaration",
       "start": 2291,
       "end": 2446,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 2297,
@@ -1842,6 +1850,7 @@
             "type": "MethodDefinition",
             "start": 2313,
             "end": 2339,
+            "decorators": [],
             "key": {
               "type": "Literal",
               "start": 2313,
@@ -1905,6 +1914,7 @@
             "type": "MethodDefinition",
             "start": 2342,
             "end": 2370,
+            "decorators": [],
             "key": {
               "type": "Literal",
               "start": 2346,
@@ -1961,6 +1971,7 @@
             "type": "MethodDefinition",
             "start": 2373,
             "end": 2406,
+            "decorators": [],
             "key": {
               "type": "Literal",
               "start": 2380,
@@ -2024,6 +2035,7 @@
             "type": "MethodDefinition",
             "start": 2409,
             "end": 2444,
+            "decorators": [],
             "key": {
               "type": "Literal",
               "start": 2420,

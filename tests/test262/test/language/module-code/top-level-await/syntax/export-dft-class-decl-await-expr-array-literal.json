@@ -54,6 +54,7 @@
         "type": "ClassDeclaration",
         "start": 2139,
         "end": 2168,
+        "decorators": [],
         "id": null,
         "superClass": {
           "type": "CallExpression",

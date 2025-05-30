@@ -16,6 +16,7 @@
             "type": "ClassDeclaration",
             "start": 933,
             "end": 1115,
+            "decorators": [],
             "id": {
               "type": "Identifier",
               "start": 939,
@@ -32,6 +33,7 @@
                   "type": "MethodDefinition",
                   "start": 945,
                   "end": 980,
+                  "decorators": [],
                   "key": {
                     "type": "AwaitExpression",
                     "start": 950,
@@ -81,6 +83,7 @@
                   "type": "MethodDefinition",
                   "start": 984,
                   "end": 1020,
+                  "decorators": [],
                   "key": {
                     "type": "AwaitExpression",
                     "start": 989,
@@ -137,6 +140,7 @@
                   "type": "MethodDefinition",
                   "start": 1024,
                   "end": 1066,
+                  "decorators": [],
                   "key": {
                     "type": "AwaitExpression",
                     "start": 1036,
@@ -186,6 +190,7 @@
                   "type": "MethodDefinition",
                   "start": 1070,
                   "end": 1113,
+                  "decorators": [],
                   "key": {
                     "type": "AwaitExpression",
                     "start": 1082,

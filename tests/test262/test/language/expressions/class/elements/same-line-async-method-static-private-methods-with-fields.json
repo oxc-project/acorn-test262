@@ -23,6 +23,7 @@
             "type": "ClassExpression",
             "start": 757,
             "end": 1051,
+            "decorators": [],
             "id": null,
             "superClass": null,
             "body": {
@@ -34,6 +35,7 @@
                   "type": "MethodDefinition",
                   "start": 767,
                   "end": 791,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 773,
@@ -77,6 +79,7 @@
                   "type": "PropertyDefinition",
                   "start": 792,
                   "end": 805,
+                  "decorators": [],
                   "key": {
                     "type": "PrivateIdentifier",
                     "start": 799,
@@ -91,6 +94,7 @@
                   "type": "PropertyDefinition",
                   "start": 806,
                   "end": 819,
+                  "decorators": [],
                   "key": {
                     "type": "PrivateIdentifier",
                     "start": 813,
@@ -105,6 +109,7 @@
                   "type": "MethodDefinition",
                   "start": 822,
                   "end": 891,
+                  "decorators": [],
                   "key": {
                     "type": "PrivateIdentifier",
                     "start": 829,
@@ -201,6 +206,7 @@
                   "type": "MethodDefinition",
                   "start": 894,
                   "end": 963,
+                  "decorators": [],
                   "key": {
                     "type": "PrivateIdentifier",
                     "start": 901,
@@ -297,6 +303,7 @@
                   "type": "MethodDefinition",
                   "start": 966,
                   "end": 1006,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 973,
@@ -366,6 +373,7 @@
                   "type": "MethodDefinition",
                   "start": 1009,
                   "end": 1049,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 1016,

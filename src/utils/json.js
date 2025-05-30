@@ -15,6 +15,7 @@ const fieldOrders = JSON.parse(fieldOrdersJson);
 //   which will be replaced in JSON with `1e+400`.
 // * Sort RegExp `Literal`s' `regex.flags` property in alphabetical order, the way V8 does.
 // * Add `phase` field to `ImportDeclaration` and `ImportExpression`.
+// * Add `decorators` field to classes, class methods, and class properties.
 export function transformerAcorn(_key, value) {
   if (typeof value === 'bigint') return null;
   if (value === Infinity) return INFINITY_PLACEHOLDER;
@@ -27,6 +28,11 @@ export function transformerAcorn(_key, value) {
   } else if (type === 'Literal' && Object.hasOwn(value, 'regex')) {
     value.regex.flags = [...value.regex.flags].sort().join('');
     value.value = null;
+  } else if (
+    type === 'ClassDeclaration' || type === 'ClassExpression' ||
+    type === 'MethodDefinition' || type === 'PropertyDefinition'
+  ) {
+    if (!Object.hasOwn(value, 'decorators')) value.decorators = [];
   }
 
   // Re-order fields
@@ -50,6 +56,7 @@ export function transformerAcorn(_key, value) {
 // Makes the same changes as `acornTransformer`, but also:
 // * Converts location fields.
 // * Replaces `undefined` with `null`.
+// * Does not add `decorators` fields, as they already exist.
 export function transformerTs(_key, value) {
   if (typeof value === 'bigint') return null;
   if (value === Infinity) return INFINITY_PLACEHOLDER;

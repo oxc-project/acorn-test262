@@ -796,6 +796,7 @@
             "type": "ClassExpression",
             "start": 1413,
             "end": 1421,
+            "decorators": [],
             "id": null,
             "superClass": null,
             "body": {
