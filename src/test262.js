@@ -133,6 +133,11 @@ function fixMeriyahNode(node, code) {
   } else if (type === 'PropertyDefinition') {
     // Static property's span should include `static` keyword e.g. `class C { static x = 1; }`
     if (node.static) node.start = code.slice(0, node.start).lastIndexOf('static');
+    // Property's span should encompass decorators.
+    // What is correct has been a matter of some debate on Babel and TS-ESLint. This matches TS-ESLint.
+    if (node.decorators && node.decorators.length > 0) {
+      node.start = node.decorators[0].start;
+    }
   } else if (type === 'MethodDefinition') {
     // Method key's span should not include `get`, `set`, `async`, or `*` tokens when key is `PrivateIdentifier`.
     // e.g.:
@@ -143,6 +148,11 @@ function fixMeriyahNode(node, code) {
     // * `class C { async * #m() {} }`
     if (node.key.type === 'PrivateIdentifier') {
       node.key.start += code.slice(node.key.start).indexOf('#');
+    }
+    // Method's span should encompass decorators.
+    // What is correct has been a matter of some debate on Babel and TS-ESLint. This matches TS-ESLint.
+    if (node.decorators && node.decorators.length > 0) {
+      node.start = node.decorators[0].start;
     }
   } else if (type === 'AccessorProperty') {
     // Accessor key's span should not include `accessor` keyword when key is `PrivateIdentifier`
@@ -172,7 +182,7 @@ function fixMeriyahNode(node, code) {
       node.expression.start = node.expression.object.start;
     }
   } else if (type === 'ClassDeclaration' || type === 'ClassExpression') {
-    // `start` of class should encompass decorators.
+    // Class's span should encompass decorators.
     // What is correct has been a matter of some debate on Babel and TS-ESLint. This matches TS-ESLint.
     if (node.decorators && node.decorators.length > 0) {
       node.start = node.decorators[0].start;

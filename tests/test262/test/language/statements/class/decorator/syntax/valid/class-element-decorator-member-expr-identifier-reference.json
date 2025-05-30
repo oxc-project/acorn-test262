@@ -169,7 +169,7 @@
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 1394,
+            "start": 1326,
             "end": 1405,
             "decorators": [
               {
@@ -278,7 +278,7 @@
           },
           {
             "type": "MethodDefinition",
-            "start": 1476,
+            "start": 1408,
             "end": 1494,
             "decorators": [
               {
@@ -387,7 +387,7 @@
           },
           {
             "type": "PropertyDefinition",
-            "start": 1565,
+            "start": 1497,
             "end": 1571,
             "decorators": [
               {
@@ -480,7 +480,7 @@
           },
           {
             "type": "PropertyDefinition",
-            "start": 1642,
+            "start": 1574,
             "end": 1655,
             "decorators": [
               {

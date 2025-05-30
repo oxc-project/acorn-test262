@@ -240,7 +240,7 @@
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 1810,
+            "start": 1728,
             "end": 1821,
             "decorators": [
               {
@@ -398,7 +398,7 @@
           },
           {
             "type": "MethodDefinition",
-            "start": 1906,
+            "start": 1824,
             "end": 1924,
             "decorators": [
               {
@@ -556,7 +556,7 @@
           },
           {
             "type": "PropertyDefinition",
-            "start": 2009,
+            "start": 1927,
             "end": 2015,
             "decorators": [
               {
@@ -698,7 +698,7 @@
           },
           {
             "type": "PropertyDefinition",
-            "start": 2100,
+            "start": 2018,
             "end": 2113,
             "decorators": [
               {
