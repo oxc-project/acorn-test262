@@ -168,7 +168,7 @@
           },
           "init": {
             "type": "ClassExpression",
-            "start": 1160,
+            "start": 1104,
             "end": 1168,
             "decorators": [
               {

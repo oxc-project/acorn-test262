@@ -275,7 +275,7 @@
             "body": [
               {
                 "type": "ClassDeclaration",
-                "start": 1545,
+                "start": 1430,
                 "end": 1555,
                 "decorators": [
                   {

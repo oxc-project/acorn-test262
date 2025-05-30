@@ -166,5 +166,11 @@ function fixMeriyahNode(node, code) {
     if (node.expression.type === 'CallExpression') {
       node.expression.start = node.expression.callee.start;
     }
+  } else if (type === 'ClassDeclaration' || type === 'ClassExpression') {
+    // `start` of class should encompass decorators.
+    // What is correct has been a matter of some debate on Babel and TS-ESLint. This matches TS-ESLint.
+    if (node.decorators && node.decorators.length > 0) {
+      node.start = node.decorators[0].start;
+    }
   }
 }

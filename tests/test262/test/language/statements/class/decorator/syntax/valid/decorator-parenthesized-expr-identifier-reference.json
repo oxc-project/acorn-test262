@@ -152,7 +152,7 @@
     },
     {
       "type": "ClassDeclaration",
-      "start": 1733,
+      "start": 1663,
       "end": 1743,
       "decorators": [
         {

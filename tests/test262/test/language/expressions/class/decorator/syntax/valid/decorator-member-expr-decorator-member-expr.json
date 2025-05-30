@@ -295,7 +295,7 @@
           },
           "init": {
             "type": "ClassExpression",
-            "start": 1299,
+            "start": 1212,
             "end": 1307,
             "decorators": [
               {

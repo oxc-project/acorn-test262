@@ -42,7 +42,7 @@
           },
           "init": {
             "type": "ClassExpression",
-            "start": 972,
+            "start": 965,
             "end": 980,
             "decorators": [
               {
