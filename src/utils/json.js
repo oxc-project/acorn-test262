@@ -45,7 +45,8 @@ export function transformerAcorn(_key, value) {
     if (Object.hasOwn(value, key)) reordered[key] = value[key];
   }
   for (const key of Object.keys(value)) {
-    if (['type', 'start', 'end'].includes(key) || keys.includes(key)) continue;
+    // `range` field does not appear in Acorn ASTs, but it does in Meriyah ASTs
+    if (['type', 'start', 'end', 'range'].includes(key) || keys.includes(key)) continue;
     reordered[key] = value[key];
   }
   return reordered;

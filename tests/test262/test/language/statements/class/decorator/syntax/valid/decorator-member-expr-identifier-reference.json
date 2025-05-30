@@ -1,0 +1,253 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1243,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 1026,
+      "end": 1041,
+      "id": {
+        "type": "Identifier",
+        "start": 1035,
+        "end": 1036,
+        "name": "$"
+      },
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 1039,
+        "end": 1041,
+        "body": []
+      },
+      "expression": false
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 1042,
+      "end": 1057,
+      "id": {
+        "type": "Identifier",
+        "start": 1051,
+        "end": 1052,
+        "name": "_"
+      },
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 1055,
+        "end": 1057,
+        "body": []
+      },
+      "expression": false
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 1058,
+      "end": 1078,
+      "id": {
+        "type": "Identifier",
+        "start": 1067,
+        "end": 1073,
+        "name": "o"
+      },
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 1076,
+        "end": 1078,
+        "body": []
+      },
+      "expression": false
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 1079,
+      "end": 1099,
+      "id": {
+        "type": "Identifier",
+        "start": 1088,
+        "end": 1094,
+        "name": "℘"
+      },
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 1097,
+        "end": 1099,
+        "body": []
+      },
+      "expression": false
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 1100,
+      "end": 1126,
+      "id": {
+        "type": "Identifier",
+        "start": 1109,
+        "end": 1121,
+        "name": "ZW_‌_NJ"
+      },
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 1124,
+        "end": 1126,
+        "body": []
+      },
+      "expression": false
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 1127,
+      "end": 1152,
+      "id": {
+        "type": "Identifier",
+        "start": 1136,
+        "end": 1147,
+        "name": "ZW_‍_J"
+      },
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 1150,
+        "end": 1152,
+        "body": []
+      },
+      "expression": false
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 1153,
+      "end": 1172,
+      "id": {
+        "type": "Identifier",
+        "start": 1162,
+        "end": 1167,
+        "name": "await"
+      },
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 1170,
+        "end": 1172,
+        "body": []
+      },
+      "expression": false
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 1232,
+      "end": 1242,
+      "decorators": [
+        {
+          "type": "Decorator",
+          "start": 1176,
+          "end": 1178,
+          "expression": {
+            "type": "Identifier",
+            "start": 1177,
+            "end": 1178,
+            "name": "$"
+          }
+        },
+        {
+          "type": "Decorator",
+          "start": 1179,
+          "end": 1181,
+          "expression": {
+            "type": "Identifier",
+            "start": 1180,
+            "end": 1181,
+            "name": "_"
+          }
+        },
+        {
+          "type": "Decorator",
+          "start": 1182,
+          "end": 1189,
+          "expression": {
+            "type": "Identifier",
+            "start": 1183,
+            "end": 1189,
+            "name": "o"
+          }
+        },
+        {
+          "type": "Decorator",
+          "start": 1190,
+          "end": 1197,
+          "expression": {
+            "type": "Identifier",
+            "start": 1191,
+            "end": 1197,
+            "name": "℘"
+          }
+        },
+        {
+          "type": "Decorator",
+          "start": 1198,
+          "end": 1211,
+          "expression": {
+            "type": "Identifier",
+            "start": 1199,
+            "end": 1211,
+            "name": "ZW_‌_NJ"
+          }
+        },
+        {
+          "type": "Decorator",
+          "start": 1212,
+          "end": 1224,
+          "expression": {
+            "type": "Identifier",
+            "start": 1213,
+            "end": 1224,
+            "name": "ZW_‍_J"
+          }
+        },
+        {
+          "type": "Decorator",
+          "start": 1225,
+          "end": 1231,
+          "expression": {
+            "type": "Identifier",
+            "start": 1226,
+            "end": 1231,
+            "name": "await"
+          }
+        }
+      ],
+      "id": {
+        "type": "Identifier",
+        "start": 1238,
+        "end": 1239,
+        "name": "C"
+      },
+      "superClass": null,
+      "body": {
+        "type": "ClassBody",
+        "start": 1240,
+        "end": 1242,
+        "body": []
+      }
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null
+}

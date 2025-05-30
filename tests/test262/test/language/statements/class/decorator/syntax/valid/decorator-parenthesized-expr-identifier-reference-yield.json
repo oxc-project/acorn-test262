@@ -1,0 +1,66 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1644,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 1601,
+      "end": 1620,
+      "id": {
+        "type": "Identifier",
+        "start": 1610,
+        "end": 1615,
+        "name": "yield"
+      },
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 1618,
+        "end": 1620,
+        "body": []
+      },
+      "expression": false
+    },
+    {
+      "type": "ClassDeclaration",
+      "start": 1633,
+      "end": 1643,
+      "decorators": [
+        {
+          "type": "Decorator",
+          "start": 1624,
+          "end": 1632,
+          "expression": {
+            "type": "ParenthesizedExpression",
+            "start": 1625,
+            "end": 1632,
+            "expression": {
+              "type": "Identifier",
+              "start": 1626,
+              "end": 1631,
+              "name": "yield"
+            }
+          }
+        }
+      ],
+      "id": {
+        "type": "Identifier",
+        "start": 1639,
+        "end": 1640,
+        "name": "C"
+      },
+      "superClass": null,
+      "body": {
+        "type": "ClassBody",
+        "start": 1641,
+        "end": 1643,
+        "body": []
+      }
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null
+}

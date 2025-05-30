@@ -1,0 +1,509 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1309,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 1069,
+      "end": 1200,
+      "kind": "let",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1073,
+          "end": 1200,
+          "id": {
+            "type": "Identifier",
+            "start": 1073,
+            "end": 1075,
+            "name": "ns"
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "start": 1078,
+            "end": 1200,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 1082,
+                "end": 1088,
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "start": 1082,
+                  "end": 1083,
+                  "name": "$"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 1083,
+                  "end": 1088,
+                  "id": null,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 1086,
+                    "end": 1088,
+                    "body": []
+                  },
+                  "expression": false
+                },
+                "method": true,
+                "shorthand": false,
+                "computed": false
+              },
+              {
+                "type": "Property",
+                "start": 1092,
+                "end": 1098,
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "start": 1092,
+                  "end": 1093,
+                  "name": "_"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 1093,
+                  "end": 1098,
+                  "id": null,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 1096,
+                    "end": 1098,
+                    "body": []
+                  },
+                  "expression": false
+                },
+                "method": true,
+                "shorthand": false,
+                "computed": false
+              },
+              {
+                "type": "Property",
+                "start": 1102,
+                "end": 1113,
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "start": 1102,
+                  "end": 1108,
+                  "name": "o"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 1108,
+                  "end": 1113,
+                  "id": null,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 1111,
+                    "end": 1113,
+                    "body": []
+                  },
+                  "expression": false
+                },
+                "method": true,
+                "shorthand": false,
+                "computed": false
+              },
+              {
+                "type": "Property",
+                "start": 1117,
+                "end": 1128,
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "start": 1117,
+                  "end": 1123,
+                  "name": "℘"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 1123,
+                  "end": 1128,
+                  "id": null,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 1126,
+                    "end": 1128,
+                    "body": []
+                  },
+                  "expression": false
+                },
+                "method": true,
+                "shorthand": false,
+                "computed": false
+              },
+              {
+                "type": "Property",
+                "start": 1132,
+                "end": 1149,
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "start": 1132,
+                  "end": 1144,
+                  "name": "ZW_‌_NJ"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 1144,
+                  "end": 1149,
+                  "id": null,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 1147,
+                    "end": 1149,
+                    "body": []
+                  },
+                  "expression": false
+                },
+                "method": true,
+                "shorthand": false,
+                "computed": false
+              },
+              {
+                "type": "Property",
+                "start": 1153,
+                "end": 1169,
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "start": 1153,
+                  "end": 1164,
+                  "name": "ZW_‍_J"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 1164,
+                  "end": 1169,
+                  "id": null,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 1167,
+                    "end": 1169,
+                    "body": []
+                  },
+                  "expression": false
+                },
+                "method": true,
+                "shorthand": false,
+                "computed": false
+              },
+              {
+                "type": "Property",
+                "start": 1173,
+                "end": 1183,
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "start": 1173,
+                  "end": 1178,
+                  "name": "yield"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 1178,
+                  "end": 1183,
+                  "id": null,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 1181,
+                    "end": 1183,
+                    "body": []
+                  },
+                  "expression": false
+                },
+                "method": true,
+                "shorthand": false,
+                "computed": false
+              },
+              {
+                "type": "Property",
+                "start": 1187,
+                "end": 1197,
+                "kind": "init",
+                "key": {
+                  "type": "Identifier",
+                  "start": 1187,
+                  "end": 1192,
+                  "name": "await"
+                },
+                "value": {
+                  "type": "FunctionExpression",
+                  "start": 1192,
+                  "end": 1197,
+                  "id": null,
+                  "generator": false,
+                  "async": false,
+                  "params": [],
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 1195,
+                    "end": 1197,
+                    "body": []
+                  },
+                  "expression": false
+                },
+                "method": true,
+                "shorthand": false,
+                "computed": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 1204,
+      "end": 1308,
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 1208,
+          "end": 1307,
+          "id": {
+            "type": "Identifier",
+            "start": 1208,
+            "end": 1209,
+            "name": "C"
+          },
+          "init": {
+            "type": "ClassExpression",
+            "start": 1299,
+            "end": 1307,
+            "decorators": [
+              {
+                "type": "Decorator",
+                "start": 1212,
+                "end": 1217,
+                "expression": {
+                  "type": "MemberExpression",
+                  "start": 1212,
+                  "end": 1217,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1213,
+                    "end": 1215,
+                    "name": "ns"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1216,
+                    "end": 1217,
+                    "name": "$"
+                  },
+                  "optional": false,
+                  "computed": false
+                }
+              },
+              {
+                "type": "Decorator",
+                "start": 1218,
+                "end": 1223,
+                "expression": {
+                  "type": "MemberExpression",
+                  "start": 1218,
+                  "end": 1223,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1219,
+                    "end": 1221,
+                    "name": "ns"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1222,
+                    "end": 1223,
+                    "name": "_"
+                  },
+                  "optional": false,
+                  "computed": false
+                }
+              },
+              {
+                "type": "Decorator",
+                "start": 1224,
+                "end": 1234,
+                "expression": {
+                  "type": "MemberExpression",
+                  "start": 1224,
+                  "end": 1234,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1225,
+                    "end": 1227,
+                    "name": "ns"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1228,
+                    "end": 1234,
+                    "name": "o"
+                  },
+                  "optional": false,
+                  "computed": false
+                }
+              },
+              {
+                "type": "Decorator",
+                "start": 1235,
+                "end": 1245,
+                "expression": {
+                  "type": "MemberExpression",
+                  "start": 1235,
+                  "end": 1245,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1236,
+                    "end": 1238,
+                    "name": "ns"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1239,
+                    "end": 1245,
+                    "name": "℘"
+                  },
+                  "optional": false,
+                  "computed": false
+                }
+              },
+              {
+                "type": "Decorator",
+                "start": 1246,
+                "end": 1262,
+                "expression": {
+                  "type": "MemberExpression",
+                  "start": 1246,
+                  "end": 1262,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1247,
+                    "end": 1249,
+                    "name": "ns"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1250,
+                    "end": 1262,
+                    "name": "ZW_‌_NJ"
+                  },
+                  "optional": false,
+                  "computed": false
+                }
+              },
+              {
+                "type": "Decorator",
+                "start": 1263,
+                "end": 1278,
+                "expression": {
+                  "type": "MemberExpression",
+                  "start": 1263,
+                  "end": 1278,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1264,
+                    "end": 1266,
+                    "name": "ns"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1267,
+                    "end": 1278,
+                    "name": "ZW_‍_J"
+                  },
+                  "optional": false,
+                  "computed": false
+                }
+              },
+              {
+                "type": "Decorator",
+                "start": 1279,
+                "end": 1288,
+                "expression": {
+                  "type": "MemberExpression",
+                  "start": 1279,
+                  "end": 1288,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1280,
+                    "end": 1282,
+                    "name": "ns"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1283,
+                    "end": 1288,
+                    "name": "yield"
+                  },
+                  "optional": false,
+                  "computed": false
+                }
+              },
+              {
+                "type": "Decorator",
+                "start": 1289,
+                "end": 1298,
+                "expression": {
+                  "type": "MemberExpression",
+                  "start": 1289,
+                  "end": 1298,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 1290,
+                    "end": 1292,
+                    "name": "ns"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 1293,
+                    "end": 1298,
+                    "name": "await"
+                  },
+                  "optional": false,
+                  "computed": false
+                }
+              }
+            ],
+            "id": null,
+            "superClass": null,
+            "body": {
+              "type": "ClassBody",
+              "start": 1305,
+              "end": 1307,
+              "body": []
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null
+}
