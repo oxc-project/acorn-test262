@@ -50,13 +50,14 @@ await run({
       });
       ast.hashbang = null;
 
+      path = path.slice('fixtures/'.length);
       return [
         {
-          path: path.slice('fixtures/'.length),
+          path,
           content: code,
         },
         {
-          path: `${path.slice('fixtures/'.length, -4)}.json`, // Replace `.jsx` with `.json`
+          path: `${path.slice(0, -4)}.json`, // Replace `.jsx` with `.json`
           ast,
         },
       ];
