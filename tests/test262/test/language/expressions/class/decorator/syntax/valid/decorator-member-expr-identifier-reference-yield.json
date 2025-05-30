@@ -1,0 +1,75 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 982,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 934,
+      "end": 953,
+      "id": {
+        "type": "Identifier",
+        "start": 943,
+        "end": 948,
+        "name": "yield"
+      },
+      "generator": false,
+      "async": false,
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "start": 951,
+        "end": 953,
+        "body": []
+      },
+      "expression": false
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 957,
+      "end": 981,
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 961,
+          "end": 980,
+          "id": {
+            "type": "Identifier",
+            "start": 961,
+            "end": 962,
+            "name": "C"
+          },
+          "init": {
+            "type": "ClassExpression",
+            "start": 965,
+            "end": 980,
+            "decorators": [
+              {
+                "type": "Decorator",
+                "start": 965,
+                "end": 971,
+                "expression": {
+                  "type": "Identifier",
+                  "start": 966,
+                  "end": 971,
+                  "name": "yield"
+                }
+              }
+            ],
+            "id": null,
+            "superClass": null,
+            "body": {
+              "type": "ClassBody",
+              "start": 978,
+              "end": 980,
+              "body": []
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null
+}
