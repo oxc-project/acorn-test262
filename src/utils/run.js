@@ -35,12 +35,16 @@ export async function run({ submodule, subDirectory, filter, transform, process 
   await fs.mkdir(outputsDirPath, { recursive: true });
 
   // Run all fixtures
+  let parseFailCount = 0;
   for (const [index, fixturePath] of fixturePaths.entries()) {
     stdout.write(`\r${index + 1} / ${fixturePaths.length}`);
 
     const code = await fs.readFile(pathJoin(fixturesRootPath, fixturePath), 'utf8');
     const outputs = await process(fixturePath, code);
-    if (!outputs) continue;
+    if (!outputs) {
+      parseFailCount++;
+      continue;
+    }
 
     for (const output of outputs) {
       const outputPath = pathJoin(outputsDirPath, output.path);
@@ -52,5 +56,5 @@ export async function run({ submodule, subDirectory, filter, transform, process 
       await fs.writeFile(outputPath, content);
     }
   }
-  console.log();
+  console.log(`\nFailed to parse: ${parseFailCount}`);
 }
