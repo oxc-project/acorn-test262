@@ -33,6 +33,7 @@
       "type": "ClassDeclaration",
       "start": 2701,
       "end": 2884,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 2707,
@@ -49,6 +50,7 @@
             "type": "MethodDefinition",
             "start": 2713,
             "end": 2828,
+            "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
               "start": 2722,
@@ -235,6 +237,7 @@
             "type": "MethodDefinition",
             "start": 2832,
             "end": 2882,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 2843,

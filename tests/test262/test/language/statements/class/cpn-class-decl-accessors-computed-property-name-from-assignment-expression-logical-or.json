@@ -33,6 +33,7 @@
       "type": "ClassDeclaration",
       "start": 964,
       "end": 1146,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 970,
@@ -49,6 +50,7 @@
             "type": "MethodDefinition",
             "start": 976,
             "end": 1011,
+            "decorators": [],
             "key": {
               "type": "AssignmentExpression",
               "start": 981,
@@ -105,6 +107,7 @@
             "type": "MethodDefinition",
             "start": 1015,
             "end": 1051,
+            "decorators": [],
             "key": {
               "type": "AssignmentExpression",
               "start": 1020,
@@ -168,6 +171,7 @@
             "type": "MethodDefinition",
             "start": 1055,
             "end": 1097,
+            "decorators": [],
             "key": {
               "type": "AssignmentExpression",
               "start": 1067,
@@ -224,6 +228,7 @@
             "type": "MethodDefinition",
             "start": 1101,
             "end": 1144,
+            "decorators": [],
             "key": {
               "type": "AssignmentExpression",
               "start": 1113,

@@ -46,6 +46,7 @@
       "type": "ClassDeclaration",
       "start": 1852,
       "end": 1917,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 1858,
@@ -62,6 +63,7 @@
             "type": "MethodDefinition",
             "start": 1864,
             "end": 1915,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 1878,

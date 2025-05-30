@@ -23,6 +23,7 @@
             "type": "ClassExpression",
             "start": 1383,
             "end": 1480,
+            "decorators": [],
             "id": null,
             "superClass": null,
             "body": {
@@ -34,6 +35,7 @@
                   "type": "PropertyDefinition",
                   "start": 1393,
                   "end": 1395,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 1393,
@@ -48,6 +50,7 @@
                   "type": "PropertyDefinition",
                   "start": 1396,
                   "end": 1398,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 1396,
@@ -62,6 +65,7 @@
                   "type": "PropertyDefinition",
                   "start": 1399,
                   "end": 1406,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 1399,
@@ -76,6 +80,7 @@
                   "type": "PropertyDefinition",
                   "start": 1407,
                   "end": 1414,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 1407,
@@ -90,6 +95,7 @@
                   "type": "PropertyDefinition",
                   "start": 1415,
                   "end": 1428,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 1415,
@@ -104,6 +110,7 @@
                   "type": "PropertyDefinition",
                   "start": 1429,
                   "end": 1440,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 1429,
@@ -118,6 +125,7 @@
                   "type": "PropertyDefinition",
                   "start": 1443,
                   "end": 1457,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 1443,
@@ -138,6 +146,7 @@
                   "type": "PropertyDefinition",
                   "start": 1460,
                   "end": 1475,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 1460,

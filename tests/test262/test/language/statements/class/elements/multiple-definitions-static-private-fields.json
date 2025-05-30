@@ -7,6 +7,7 @@
       "type": "ClassDeclaration",
       "start": 632,
       "end": 857,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 638,
@@ -23,6 +24,7 @@
             "type": "PropertyDefinition",
             "start": 644,
             "end": 659,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 644,
@@ -43,6 +45,7 @@
             "type": "MethodDefinition",
             "start": 662,
             "end": 679,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 662,
@@ -86,6 +89,7 @@
             "type": "PropertyDefinition",
             "start": 682,
             "end": 692,
+            "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
               "start": 689,
@@ -100,6 +104,7 @@
             "type": "PropertyDefinition",
             "start": 693,
             "end": 702,
+            "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
               "start": 700,
@@ -114,6 +119,7 @@
             "type": "MethodDefinition",
             "start": 705,
             "end": 723,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 705,
@@ -157,6 +163,7 @@
             "type": "PropertyDefinition",
             "start": 726,
             "end": 741,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 726,
@@ -177,6 +184,7 @@
             "type": "MethodDefinition",
             "start": 744,
             "end": 798,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 751,
@@ -267,6 +275,7 @@
             "type": "MethodDefinition",
             "start": 801,
             "end": 855,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 808,

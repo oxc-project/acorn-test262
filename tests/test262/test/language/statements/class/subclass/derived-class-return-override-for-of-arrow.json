@@ -250,6 +250,7 @@
       "type": "ClassDeclaration",
       "start": 617,
       "end": 742,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 623,
@@ -260,6 +261,7 @@
         "type": "ClassExpression",
         "start": 633,
         "end": 641,
+        "decorators": [],
         "id": null,
         "superClass": null,
         "body": {
@@ -278,6 +280,7 @@
             "type": "MethodDefinition",
             "start": 646,
             "end": 740,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 646,

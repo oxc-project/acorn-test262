@@ -91,6 +91,7 @@
         "type": "ClassDeclaration",
         "start": 1221,
         "end": 1229,
+        "decorators": [],
         "id": null,
         "superClass": null,
         "body": {

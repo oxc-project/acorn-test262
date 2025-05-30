@@ -33,6 +33,7 @@
       "type": "ClassDeclaration",
       "start": 2616,
       "end": 2944,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 2622,
@@ -49,6 +50,7 @@
             "type": "MethodDefinition",
             "start": 2628,
             "end": 2888,
+            "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
               "start": 2635,
@@ -97,6 +99,7 @@
                             "type": "ClassExpression",
                             "start": 2651,
                             "end": 2659,
+                            "decorators": [],
                             "id": null,
                             "superClass": null,
                             "body": {
@@ -136,6 +139,7 @@
                             "type": "ClassExpression",
                             "start": 2668,
                             "end": 2678,
+                            "decorators": [],
                             "id": {
                               "type": "Identifier",
                               "start": 2674,
@@ -180,6 +184,7 @@
                             "type": "ClassExpression",
                             "start": 2688,
                             "end": 2714,
+                            "decorators": [],
                             "id": null,
                             "superClass": null,
                             "body": {
@@ -191,6 +196,7 @@
                                   "type": "MethodDefinition",
                                   "start": 2696,
                                   "end": 2712,
+                                  "decorators": [],
                                   "key": {
                                     "type": "Identifier",
                                     "start": 2703,
@@ -462,6 +468,7 @@
             "type": "MethodDefinition",
             "start": 2892,
             "end": 2942,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 2903,

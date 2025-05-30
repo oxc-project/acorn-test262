@@ -33,6 +33,7 @@
       "type": "ClassDeclaration",
       "start": 1981,
       "end": 2007,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 1987,
@@ -49,6 +50,7 @@
             "type": "PropertyDefinition",
             "start": 1994,
             "end": 2005,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 2002,
@@ -192,6 +194,7 @@
       "type": "ClassDeclaration",
       "start": 2130,
       "end": 2161,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 2136,
@@ -208,6 +211,7 @@
             "type": "PropertyDefinition",
             "start": 2143,
             "end": 2159,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 2151,

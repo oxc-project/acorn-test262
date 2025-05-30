@@ -7,6 +7,7 @@
       "type": "ClassDeclaration",
       "start": 894,
       "end": 990,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 900,
@@ -23,6 +24,7 @@
             "type": "MethodDefinition",
             "start": 906,
             "end": 942,
+            "decorators": [],
             "key": {
               "type": "ConditionalExpression",
               "start": 907,
@@ -86,6 +88,7 @@
             "type": "MethodDefinition",
             "start": 945,
             "end": 988,
+            "decorators": [],
             "key": {
               "type": "ConditionalExpression",
               "start": 953,

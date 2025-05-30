@@ -25,6 +25,7 @@
             "type": "ClassDeclaration",
             "start": 908,
             "end": 1090,
+            "decorators": [],
             "id": {
               "type": "Identifier",
               "start": 914,
@@ -41,6 +42,7 @@
                   "type": "MethodDefinition",
                   "start": 920,
                   "end": 955,
+                  "decorators": [],
                   "key": {
                     "type": "YieldExpression",
                     "start": 925,
@@ -91,6 +93,7 @@
                   "type": "MethodDefinition",
                   "start": 959,
                   "end": 995,
+                  "decorators": [],
                   "key": {
                     "type": "YieldExpression",
                     "start": 964,
@@ -148,6 +151,7 @@
                   "type": "MethodDefinition",
                   "start": 999,
                   "end": 1041,
+                  "decorators": [],
                   "key": {
                     "type": "YieldExpression",
                     "start": 1011,
@@ -198,6 +202,7 @@
                   "type": "MethodDefinition",
                   "start": 1045,
                   "end": 1088,
+                  "decorators": [],
                   "key": {
                     "type": "YieldExpression",
                     "start": 1057,

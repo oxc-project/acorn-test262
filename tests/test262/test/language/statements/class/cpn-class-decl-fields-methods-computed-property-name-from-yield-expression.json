@@ -41,6 +41,7 @@
                   "type": "ClassExpression",
                   "start": 969,
                   "end": 1068,
+                  "decorators": [],
                   "id": null,
                   "superClass": null,
                   "body": {
@@ -52,6 +53,7 @@
                         "type": "PropertyDefinition",
                         "start": 979,
                         "end": 1017,
+                        "decorators": [],
                         "key": {
                           "type": "YieldExpression",
                           "start": 980,
@@ -101,6 +103,7 @@
                         "type": "PropertyDefinition",
                         "start": 1021,
                         "end": 1066,
+                        "decorators": [],
                         "key": {
                           "type": "YieldExpression",
                           "start": 1029,

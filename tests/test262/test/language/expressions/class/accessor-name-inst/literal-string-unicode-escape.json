@@ -43,6 +43,7 @@
             "type": "ClassExpression",
             "start": 973,
             "end": 1101,
+            "decorators": [],
             "id": null,
             "superClass": null,
             "body": {
@@ -54,6 +55,7 @@
                   "type": "MethodDefinition",
                   "start": 983,
                   "end": 1038,
+                  "decorators": [],
                   "key": {
                     "type": "Literal",
                     "start": 987,
@@ -98,6 +100,7 @@
                   "type": "MethodDefinition",
                   "start": 1041,
                   "end": 1099,
+                  "decorators": [],
                   "key": {
                     "type": "Literal",
                     "start": 1045,

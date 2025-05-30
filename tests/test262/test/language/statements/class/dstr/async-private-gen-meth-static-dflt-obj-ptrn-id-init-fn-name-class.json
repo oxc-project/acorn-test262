@@ -33,6 +33,7 @@
       "type": "ClassDeclaration",
       "start": 2204,
       "end": 2540,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 2210,
@@ -49,6 +50,7 @@
             "type": "MethodDefinition",
             "start": 2216,
             "end": 2484,
+            "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
               "start": 2231,
@@ -97,6 +99,7 @@
                             "type": "ClassExpression",
                             "start": 2247,
                             "end": 2255,
+                            "decorators": [],
                             "id": null,
                             "superClass": null,
                             "body": {
@@ -136,6 +139,7 @@
                             "type": "ClassExpression",
                             "start": 2264,
                             "end": 2274,
+                            "decorators": [],
                             "id": {
                               "type": "Identifier",
                               "start": 2270,
@@ -180,6 +184,7 @@
                             "type": "ClassExpression",
                             "start": 2284,
                             "end": 2310,
+                            "decorators": [],
                             "id": null,
                             "superClass": null,
                             "body": {
@@ -191,6 +196,7 @@
                                   "type": "MethodDefinition",
                                   "start": 2292,
                                   "end": 2308,
+                                  "decorators": [],
                                   "key": {
                                     "type": "Identifier",
                                     "start": 2299,
@@ -462,6 +468,7 @@
             "type": "MethodDefinition",
             "start": 2488,
             "end": 2538,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 2499,

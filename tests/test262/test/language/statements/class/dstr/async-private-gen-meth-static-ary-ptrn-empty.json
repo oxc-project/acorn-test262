@@ -126,6 +126,7 @@
       "type": "ClassDeclaration",
       "start": 1902,
       "end": 2070,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 1908,
@@ -142,6 +143,7 @@
             "type": "MethodDefinition",
             "start": 1914,
             "end": 2014,
+            "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
               "start": 1929,
@@ -261,6 +263,7 @@
             "type": "MethodDefinition",
             "start": 2018,
             "end": 2068,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 2029,

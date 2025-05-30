@@ -41,6 +41,7 @@
                   "type": "ClassExpression",
                   "start": 914,
                   "end": 1094,
+                  "decorators": [],
                   "id": null,
                   "superClass": null,
                   "body": {
@@ -52,6 +53,7 @@
                         "type": "MethodDefinition",
                         "start": 924,
                         "end": 959,
+                        "decorators": [],
                         "key": {
                           "type": "YieldExpression",
                           "start": 929,
@@ -102,6 +104,7 @@
                         "type": "MethodDefinition",
                         "start": 963,
                         "end": 999,
+                        "decorators": [],
                         "key": {
                           "type": "YieldExpression",
                           "start": 968,
@@ -159,6 +162,7 @@
                         "type": "MethodDefinition",
                         "start": 1003,
                         "end": 1045,
+                        "decorators": [],
                         "key": {
                           "type": "YieldExpression",
                           "start": 1015,
@@ -209,6 +213,7 @@
                         "type": "MethodDefinition",
                         "start": 1049,
                         "end": 1092,
+                        "decorators": [],
                         "key": {
                           "type": "YieldExpression",
                           "start": 1061,

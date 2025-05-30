@@ -58,6 +58,7 @@
             "type": "ClassExpression",
             "start": 579,
             "end": 690,
+            "decorators": [],
             "id": null,
             "superClass": null,
             "body": {
@@ -69,6 +70,7 @@
                   "type": "PropertyDefinition",
                   "start": 589,
                   "end": 604,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 589,
@@ -89,6 +91,7 @@
                   "type": "MethodDefinition",
                   "start": 607,
                   "end": 624,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 607,
@@ -132,6 +135,7 @@
                   "type": "PropertyDefinition",
                   "start": 627,
                   "end": 629,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 627,
@@ -146,6 +150,7 @@
                   "type": "PropertyDefinition",
                   "start": 630,
                   "end": 637,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 630,
@@ -166,6 +171,7 @@
                   "type": "PropertyDefinition",
                   "start": 640,
                   "end": 646,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 640,
@@ -185,6 +191,7 @@
                   "type": "MethodDefinition",
                   "start": 649,
                   "end": 667,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 649,
@@ -228,6 +235,7 @@
                   "type": "PropertyDefinition",
                   "start": 670,
                   "end": 685,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 670,

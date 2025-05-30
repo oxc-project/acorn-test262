@@ -33,6 +33,7 @@
       "type": "ClassDeclaration",
       "start": 2814,
       "end": 3144,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 2820,
@@ -49,6 +50,7 @@
             "type": "MethodDefinition",
             "start": 2826,
             "end": 3088,
+            "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
               "start": 2835,
@@ -97,6 +99,7 @@
                             "type": "ClassExpression",
                             "start": 2851,
                             "end": 2859,
+                            "decorators": [],
                             "id": null,
                             "superClass": null,
                             "body": {
@@ -136,6 +139,7 @@
                             "type": "ClassExpression",
                             "start": 2868,
                             "end": 2878,
+                            "decorators": [],
                             "id": {
                               "type": "Identifier",
                               "start": 2874,
@@ -180,6 +184,7 @@
                             "type": "ClassExpression",
                             "start": 2888,
                             "end": 2914,
+                            "decorators": [],
                             "id": null,
                             "superClass": null,
                             "body": {
@@ -191,6 +196,7 @@
                                   "type": "MethodDefinition",
                                   "start": 2896,
                                   "end": 2912,
+                                  "decorators": [],
                                   "key": {
                                     "type": "Identifier",
                                     "start": 2903,
@@ -462,6 +468,7 @@
             "type": "MethodDefinition",
             "start": 3092,
             "end": 3142,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 3103,

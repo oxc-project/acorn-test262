@@ -23,6 +23,7 @@
             "type": "ClassExpression",
             "start": 966,
             "end": 1077,
+            "decorators": [],
             "id": null,
             "superClass": null,
             "body": {
@@ -34,6 +35,7 @@
                   "type": "PropertyDefinition",
                   "start": 976,
                   "end": 1020,
+                  "decorators": [],
                   "key": {
                     "type": "ConditionalExpression",
                     "start": 977,
@@ -96,6 +98,7 @@
                   "type": "PropertyDefinition",
                   "start": 1024,
                   "end": 1075,
+                  "decorators": [],
                   "key": {
                     "type": "ConditionalExpression",
                     "start": 1032,

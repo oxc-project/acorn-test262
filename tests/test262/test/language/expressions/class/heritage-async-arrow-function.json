@@ -69,6 +69,7 @@
                         "type": "ClassExpression",
                         "start": 953,
                         "end": 986,
+                        "decorators": [],
                         "id": null,
                         "superClass": {
                           "type": "ParenthesizedExpression",

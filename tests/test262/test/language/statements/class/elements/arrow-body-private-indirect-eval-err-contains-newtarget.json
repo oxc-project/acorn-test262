@@ -7,6 +7,7 @@
       "type": "ClassDeclaration",
       "start": 1039,
       "end": 1089,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 1045,
@@ -23,6 +24,7 @@
             "type": "PropertyDefinition",
             "start": 1051,
             "end": 1087,
+            "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
               "start": 1051,

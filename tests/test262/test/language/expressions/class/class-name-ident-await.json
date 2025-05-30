@@ -23,6 +23,7 @@
             "type": "ClassExpression",
             "start": 396,
             "end": 410,
+            "decorators": [],
             "id": {
               "type": "Identifier",
               "start": 402,

@@ -7,6 +7,7 @@
       "type": "ClassDeclaration",
       "start": 1958,
       "end": 1996,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 1964,
@@ -23,6 +24,7 @@
             "type": "PropertyDefinition",
             "start": 1971,
             "end": 1994,
+            "decorators": [],
             "key": {
               "type": "Literal",
               "start": 1979,
@@ -167,6 +169,7 @@
       "type": "ClassDeclaration",
       "start": 2119,
       "end": 2162,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 2125,
@@ -183,6 +186,7 @@
             "type": "PropertyDefinition",
             "start": 2132,
             "end": 2160,
+            "decorators": [],
             "key": {
               "type": "Literal",
               "start": 2140,

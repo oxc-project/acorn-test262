@@ -16,6 +16,7 @@
             "type": "ClassDeclaration",
             "start": 923,
             "end": 1009,
+            "decorators": [],
             "id": {
               "type": "Identifier",
               "start": 929,
@@ -32,6 +33,7 @@
                   "type": "MethodDefinition",
                   "start": 935,
                   "end": 966,
+                  "decorators": [],
                   "key": {
                     "type": "AwaitExpression",
                     "start": 936,
@@ -81,6 +83,7 @@
                   "type": "MethodDefinition",
                   "start": 969,
                   "end": 1007,
+                  "decorators": [],
                   "key": {
                     "type": "AwaitExpression",
                     "start": 977,

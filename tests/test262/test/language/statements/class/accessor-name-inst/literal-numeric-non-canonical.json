@@ -27,6 +27,7 @@
       "type": "ClassDeclaration",
       "start": 964,
       "end": 1064,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 970,
@@ -43,6 +44,7 @@
             "type": "MethodDefinition",
             "start": 976,
             "end": 1016,
+            "decorators": [],
             "key": {
               "type": "Literal",
               "start": 980,
@@ -87,6 +89,7 @@
             "type": "MethodDefinition",
             "start": 1019,
             "end": 1062,
+            "decorators": [],
             "key": {
               "type": "Literal",
               "start": 1023,

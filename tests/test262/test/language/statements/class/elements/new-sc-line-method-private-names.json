@@ -7,6 +7,7 @@
       "type": "ClassDeclaration",
       "start": 642,
       "end": 784,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 648,
@@ -23,6 +24,7 @@
             "type": "PropertyDefinition",
             "start": 654,
             "end": 657,
+            "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
               "start": 654,
@@ -37,6 +39,7 @@
             "type": "PropertyDefinition",
             "start": 658,
             "end": 661,
+            "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
               "start": 658,
@@ -51,6 +54,7 @@
             "type": "MethodDefinition",
             "start": 664,
             "end": 682,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 664,
@@ -94,6 +98,7 @@
             "type": "MethodDefinition",
             "start": 685,
             "end": 732,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 685,
@@ -184,6 +189,7 @@
             "type": "MethodDefinition",
             "start": 735,
             "end": 782,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 735,

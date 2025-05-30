@@ -80,6 +80,7 @@
       "type": "ClassDeclaration",
       "start": 2004,
       "end": 2276,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 2010,
@@ -96,6 +97,7 @@
             "type": "MethodDefinition",
             "start": 2016,
             "end": 2274,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 2023,

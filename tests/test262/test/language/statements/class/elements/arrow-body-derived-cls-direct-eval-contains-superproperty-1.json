@@ -33,6 +33,7 @@
       "type": "ClassDeclaration",
       "start": 1030,
       "end": 1040,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 1036,
@@ -51,6 +52,7 @@
       "type": "ClassDeclaration",
       "start": 1041,
       "end": 1109,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 1047,
@@ -72,6 +74,7 @@
             "type": "PropertyDefinition",
             "start": 1063,
             "end": 1107,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 1063,

@@ -184,6 +184,7 @@
                   "type": "ClassDeclaration",
                   "start": 844,
                   "end": 865,
+                  "decorators": [],
                   "id": {
                     "type": "Identifier",
                     "start": 850,
@@ -431,6 +432,7 @@
                   "type": "ClassDeclaration",
                   "start": 1096,
                   "end": 1120,
+                  "decorators": [],
                   "id": {
                     "type": "Identifier",
                     "start": 1102,
@@ -621,6 +623,7 @@
                   "type": "ClassDeclaration",
                   "start": 1310,
                   "end": 1334,
+                  "decorators": [],
                   "id": {
                     "type": "Identifier",
                     "start": 1316,

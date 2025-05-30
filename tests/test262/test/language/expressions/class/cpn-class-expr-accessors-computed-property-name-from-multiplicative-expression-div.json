@@ -23,6 +23,7 @@
             "type": "ClassExpression",
             "start": 928,
             "end": 1100,
+            "decorators": [],
             "id": null,
             "superClass": null,
             "body": {
@@ -34,6 +35,7 @@
                   "type": "MethodDefinition",
                   "start": 938,
                   "end": 971,
+                  "decorators": [],
                   "key": {
                     "type": "BinaryExpression",
                     "start": 943,
@@ -91,6 +93,7 @@
                   "type": "MethodDefinition",
                   "start": 975,
                   "end": 1009,
+                  "decorators": [],
                   "key": {
                     "type": "BinaryExpression",
                     "start": 980,
@@ -155,6 +158,7 @@
                   "type": "MethodDefinition",
                   "start": 1013,
                   "end": 1053,
+                  "decorators": [],
                   "key": {
                     "type": "BinaryExpression",
                     "start": 1025,
@@ -212,6 +216,7 @@
                   "type": "MethodDefinition",
                   "start": 1057,
                   "end": 1098,
+                  "decorators": [],
                   "key": {
                     "type": "BinaryExpression",
                     "start": 1069,

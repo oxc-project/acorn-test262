@@ -25,6 +25,7 @@
             "type": "ClassDeclaration",
             "start": 898,
             "end": 984,
+            "decorators": [],
             "id": {
               "type": "Identifier",
               "start": 904,
@@ -41,6 +42,7 @@
                   "type": "MethodDefinition",
                   "start": 910,
                   "end": 941,
+                  "decorators": [],
                   "key": {
                     "type": "YieldExpression",
                     "start": 911,
@@ -91,6 +93,7 @@
                   "type": "MethodDefinition",
                   "start": 944,
                   "end": 982,
+                  "decorators": [],
                   "key": {
                     "type": "YieldExpression",
                     "start": 952,

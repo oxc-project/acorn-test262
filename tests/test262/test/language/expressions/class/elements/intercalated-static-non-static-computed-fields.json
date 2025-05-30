@@ -49,6 +49,7 @@
             "type": "ClassExpression",
             "start": 1772,
             "end": 1833,
+            "decorators": [],
             "id": null,
             "superClass": null,
             "body": {
@@ -60,6 +61,7 @@
                   "type": "PropertyDefinition",
                   "start": 1782,
                   "end": 1794,
+                  "decorators": [],
                   "key": {
                     "type": "UpdateExpression",
                     "start": 1783,
@@ -93,6 +95,7 @@
                   "type": "PropertyDefinition",
                   "start": 1797,
                   "end": 1816,
+                  "decorators": [],
                   "key": {
                     "type": "UpdateExpression",
                     "start": 1805,
@@ -126,6 +129,7 @@
                   "type": "PropertyDefinition",
                   "start": 1819,
                   "end": 1831,
+                  "decorators": [],
                   "key": {
                     "type": "UpdateExpression",
                     "start": 1820,

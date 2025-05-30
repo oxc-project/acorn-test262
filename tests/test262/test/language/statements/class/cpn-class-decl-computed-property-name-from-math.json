@@ -7,6 +7,7 @@
       "type": "ClassDeclaration",
       "start": 873,
       "end": 1003,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 879,
@@ -23,6 +24,7 @@
             "type": "MethodDefinition",
             "start": 885,
             "end": 938,
+            "decorators": [],
             "key": {
               "type": "BinaryExpression",
               "start": 886,
@@ -132,6 +134,7 @@
             "type": "MethodDefinition",
             "start": 941,
             "end": 1001,
+            "decorators": [],
             "key": {
               "type": "BinaryExpression",
               "start": 949,

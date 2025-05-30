@@ -23,6 +23,7 @@
             "type": "ClassExpression",
             "start": 969,
             "end": 1082,
+            "decorators": [],
             "id": null,
             "superClass": null,
             "body": {
@@ -34,6 +35,7 @@
                   "type": "PropertyDefinition",
                   "start": 979,
                   "end": 1024,
+                  "decorators": [],
                   "key": {
                     "type": "ArrowFunctionExpression",
                     "start": 980,
@@ -86,6 +88,7 @@
                   "type": "PropertyDefinition",
                   "start": 1028,
                   "end": 1080,
+                  "decorators": [],
                   "key": {
                     "type": "ArrowFunctionExpression",
                     "start": 1036,

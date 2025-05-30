@@ -84,6 +84,7 @@
                 "type": "ClassExpression",
                 "start": 856,
                 "end": 968,
+                "decorators": [],
                 "id": null,
                 "superClass": null,
                 "body": {
@@ -95,6 +96,7 @@
                       "type": "MethodDefinition",
                       "start": 868,
                       "end": 912,
+                      "decorators": [],
                       "key": {
                         "type": "YieldExpression",
                         "start": 880,
@@ -139,6 +141,7 @@
                       "type": "MethodDefinition",
                       "start": 917,
                       "end": 964,
+                      "decorators": [],
                       "key": {
                         "type": "YieldExpression",
                         "start": 929,

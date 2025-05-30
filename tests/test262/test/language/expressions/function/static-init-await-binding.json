@@ -7,6 +7,7 @@
       "type": "ClassDeclaration",
       "start": 498,
       "end": 556,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 504,

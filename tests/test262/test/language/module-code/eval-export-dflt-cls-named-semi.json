@@ -37,6 +37,7 @@
         "type": "ClassDeclaration",
         "start": 353,
         "end": 363,
+        "decorators": [],
         "id": {
           "type": "Identifier",
           "start": 359,

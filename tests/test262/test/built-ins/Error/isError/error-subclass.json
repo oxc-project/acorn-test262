@@ -7,6 +7,7 @@
       "type": "ClassDeclaration",
       "start": 261,
       "end": 291,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 267,
@@ -30,6 +31,7 @@
       "type": "ClassDeclaration",
       "start": 292,
       "end": 330,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 298,
@@ -53,6 +55,7 @@
       "type": "ClassDeclaration",
       "start": 331,
       "end": 371,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 337,
@@ -76,6 +79,7 @@
       "type": "ClassDeclaration",
       "start": 372,
       "end": 420,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 378,
@@ -99,6 +103,7 @@
       "type": "ClassDeclaration",
       "start": 421,
       "end": 463,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 427,
@@ -122,6 +127,7 @@
       "type": "ClassDeclaration",
       "start": 464,
       "end": 502,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 470,
@@ -145,6 +151,7 @@
       "type": "ClassDeclaration",
       "start": 503,
       "end": 539,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 509,
@@ -749,6 +756,7 @@
             "type": "ClassDeclaration",
             "start": 998,
             "end": 1046,
+            "decorators": [],
             "id": {
               "type": "Identifier",
               "start": 1004,
@@ -896,6 +904,7 @@
             "type": "ClassDeclaration",
             "start": 1166,
             "end": 1216,
+            "decorators": [],
             "id": {
               "type": "Identifier",
               "start": 1172,

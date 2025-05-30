@@ -27,6 +27,7 @@
               "type": "ClassExpression",
               "start": 1042,
               "end": 1071,
+              "decorators": [],
               "id": null,
               "superClass": null,
               "body": {
@@ -38,6 +39,7 @@
                     "type": "MethodDefinition",
                     "start": 1050,
                     "end": 1069,
+                    "decorators": [],
                     "key": {
                       "type": "Identifier",
                       "start": 1057,
@@ -249,6 +251,7 @@
               "type": "ClassExpression",
               "start": 1195,
               "end": 1227,
+              "decorators": [],
               "id": null,
               "superClass": null,
               "body": {
@@ -260,6 +263,7 @@
                     "type": "MethodDefinition",
                     "start": 1203,
                     "end": 1225,
+                    "decorators": [],
                     "key": {
                       "type": "Identifier",
                       "start": 1210,
@@ -477,6 +481,7 @@
               "type": "ClassExpression",
               "start": 1351,
               "end": 1383,
+              "decorators": [],
               "id": null,
               "superClass": null,
               "body": {
@@ -488,6 +493,7 @@
                     "type": "MethodDefinition",
                     "start": 1359,
                     "end": 1381,
+                    "decorators": [],
                     "key": {
                       "type": "Identifier",
                       "start": 1366,
@@ -705,6 +711,7 @@
               "type": "ClassExpression",
               "start": 1507,
               "end": 1542,
+              "decorators": [],
               "id": null,
               "superClass": null,
               "body": {
@@ -716,6 +723,7 @@
                     "type": "MethodDefinition",
                     "start": 1515,
                     "end": 1540,
+                    "decorators": [],
                     "key": {
                       "type": "Identifier",
                       "start": 1522,

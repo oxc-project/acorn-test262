@@ -125,6 +125,7 @@
             "type": "ClassExpression",
             "start": 1979,
             "end": 2027,
+            "decorators": [],
             "id": null,
             "superClass": null,
             "body": {
@@ -136,6 +137,7 @@
                   "type": "MethodDefinition",
                   "start": 1989,
                   "end": 2025,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 1996,

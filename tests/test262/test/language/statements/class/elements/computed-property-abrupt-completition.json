@@ -119,6 +119,7 @@
                   "type": "ClassDeclaration",
                   "start": 1152,
                   "end": 1219,
+                  "decorators": [],
                   "id": {
                     "type": "Identifier",
                     "start": 1158,
@@ -135,6 +136,7 @@
                         "type": "PropertyDefinition",
                         "start": 1166,
                         "end": 1187,
+                        "decorators": [],
                         "key": {
                           "type": "CallExpression",
                           "start": 1167,
@@ -156,6 +158,7 @@
                         "type": "PropertyDefinition",
                         "start": 1192,
                         "end": 1215,
+                        "decorators": [],
                         "key": {
                           "type": "AssignmentExpression",
                           "start": 1193,
@@ -293,6 +296,7 @@
                   "type": "ClassDeclaration",
                   "start": 1359,
                   "end": 1433,
+                  "decorators": [],
                   "id": {
                     "type": "Identifier",
                     "start": 1365,
@@ -309,6 +313,7 @@
                         "type": "PropertyDefinition",
                         "start": 1373,
                         "end": 1401,
+                        "decorators": [],
                         "key": {
                           "type": "CallExpression",
                           "start": 1381,
@@ -330,6 +335,7 @@
                         "type": "PropertyDefinition",
                         "start": 1406,
                         "end": 1429,
+                        "decorators": [],
                         "key": {
                           "type": "AssignmentExpression",
                           "start": 1407,

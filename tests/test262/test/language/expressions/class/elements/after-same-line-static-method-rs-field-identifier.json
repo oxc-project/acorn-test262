@@ -23,6 +23,7 @@
             "type": "ClassExpression",
             "start": 1393,
             "end": 1482,
+            "decorators": [],
             "id": null,
             "superClass": null,
             "body": {
@@ -34,6 +35,7 @@
                   "type": "MethodDefinition",
                   "start": 1403,
                   "end": 1428,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 1410,
@@ -77,6 +79,7 @@
                   "type": "PropertyDefinition",
                   "start": 1429,
                   "end": 1431,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 1429,
@@ -91,6 +94,7 @@
                   "type": "PropertyDefinition",
                   "start": 1432,
                   "end": 1434,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 1432,
@@ -105,6 +109,7 @@
                   "type": "PropertyDefinition",
                   "start": 1435,
                   "end": 1442,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 1435,
@@ -119,6 +124,7 @@
                   "type": "PropertyDefinition",
                   "start": 1443,
                   "end": 1450,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 1443,
@@ -133,6 +139,7 @@
                   "type": "PropertyDefinition",
                   "start": 1451,
                   "end": 1464,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 1451,
@@ -147,6 +154,7 @@
                   "type": "PropertyDefinition",
                   "start": 1465,
                   "end": 1477,
+                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 1465,

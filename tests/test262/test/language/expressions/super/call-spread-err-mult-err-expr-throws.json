@@ -7,6 +7,7 @@
       "type": "ClassDeclaration",
       "start": 986,
       "end": 1033,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 992,
@@ -23,6 +24,7 @@
             "type": "MethodDefinition",
             "start": 1015,
             "end": 1031,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 1015,
@@ -56,6 +58,7 @@
       "type": "ClassDeclaration",
       "start": 1035,
       "end": 1173,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 1041,
@@ -77,6 +80,7 @@
             "type": "MethodDefinition",
             "start": 1090,
             "end": 1171,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 1090,

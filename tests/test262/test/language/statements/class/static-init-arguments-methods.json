@@ -175,6 +175,7 @@
       "type": "ClassDeclaration",
       "start": 645,
       "end": 1143,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 651,
@@ -215,6 +216,7 @@
                       "type": "ClassExpression",
                       "start": 685,
                       "end": 1134,
+                      "decorators": [],
                       "id": null,
                       "superClass": null,
                       "body": {
@@ -226,6 +228,7 @@
                             "type": "MethodDefinition",
                             "start": 699,
                             "end": 780,
+                            "decorators": [],
                             "key": {
                               "type": "Identifier",
                               "start": 699,
@@ -332,6 +335,7 @@
                             "type": "MethodDefinition",
                             "start": 787,
                             "end": 839,
+                            "decorators": [],
                             "key": {
                               "type": "Identifier",
                               "start": 791,
@@ -386,6 +390,7 @@
                             "type": "MethodDefinition",
                             "start": 846,
                             "end": 933,
+                            "decorators": [],
                             "key": {
                               "type": "Identifier",
                               "start": 850,
@@ -492,6 +497,7 @@
                             "type": "MethodDefinition",
                             "start": 940,
                             "end": 1025,
+                            "decorators": [],
                             "key": {
                               "type": "Identifier",
                               "start": 941,
@@ -598,6 +604,7 @@
                             "type": "MethodDefinition",
                             "start": 1032,
                             "end": 1128,
+                            "decorators": [],
                             "key": {
                               "type": "Identifier",
                               "start": 1038,

@@ -109,6 +109,7 @@
       "type": "ClassDeclaration",
       "start": 2514,
       "end": 2557,
+      "decorators": [],
       "id": {
         "type": "Identifier",
         "start": 2520,
@@ -125,6 +126,7 @@
             "type": "MethodDefinition",
             "start": 2526,
             "end": 2555,
+            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 2534,
