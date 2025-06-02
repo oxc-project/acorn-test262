@@ -36,8 +36,8 @@ __ESTREE_TEST__:PASS:
               "value": null,
               "raw": "/(\\\\?|&)adurl=/",
               "regex": {
-                "flags": "",
-                "pattern": "(\\\\?|&)adurl="
+                "pattern": "(\\\\?|&)adurl=",
+                "flags": ""
               }
             },
             "prefix": true

@@ -60,8 +60,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/.[/]/",
                 "regex": {
-                  "flags": "",
-                  "pattern": ".[/]"
+                  "pattern": ".[/]",
+                  "flags": ""
                 }
               },
               {
@@ -134,8 +134,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/.[//]/g",
                 "regex": {
-                  "flags": "g",
-                  "pattern": ".[//]"
+                  "pattern": ".[//]",
+                  "flags": "g"
                 }
               },
               {
@@ -208,8 +208,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/.[/no sleep /till/]/",
                 "regex": {
-                  "flags": "",
-                  "pattern": ".[/no sleep /till/]"
+                  "pattern": ".[/no sleep /till/]",
+                  "flags": ""
                 }
               },
               {

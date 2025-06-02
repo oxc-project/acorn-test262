@@ -62,8 +62,8 @@ __ESTREE_TEST__:PASS:
             "value": null,
             "raw": "/yo/",
             "regex": {
-              "flags": "",
-              "pattern": "yo"
+              "pattern": "yo",
+              "flags": ""
             }
           },
           "definite": false
@@ -508,8 +508,8 @@ __ESTREE_TEST__:PASS:
             "value": null,
             "raw": "/./g",
             "regex": {
-              "flags": "g",
-              "pattern": "."
+              "pattern": ".",
+              "flags": "g"
             }
           },
           "definite": false

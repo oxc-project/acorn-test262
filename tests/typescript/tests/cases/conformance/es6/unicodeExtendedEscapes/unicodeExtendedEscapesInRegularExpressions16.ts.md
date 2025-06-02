@@ -31,8 +31,8 @@ __ESTREE_TEST__:PASS:
             "value": null,
             "raw": "/\\u{ABCD}\\u{EF12}\\u{3456}\\u{7890}/gu",
             "regex": {
-              "flags": "gu",
-              "pattern": "\\u{ABCD}\\u{EF12}\\u{3456}\\u{7890}"
+              "pattern": "\\u{ABCD}\\u{EF12}\\u{3456}\\u{7890}",
+              "flags": "gu"
             }
           },
           "definite": false

@@ -31,8 +31,8 @@ __ESTREE_TEST__:PASS:
             "value": null,
             "raw": "/\\u{48}\\u{65}\\u{6c}\\u{6c}\\u{6f}\\u{20}\\u{77}\\u{6f}\\u{72}\\u{6c}\\u{64}/gu",
             "regex": {
-              "flags": "gu",
-              "pattern": "\\u{48}\\u{65}\\u{6c}\\u{6c}\\u{6f}\\u{20}\\u{77}\\u{6f}\\u{72}\\u{6c}\\u{64}"
+              "pattern": "\\u{48}\\u{65}\\u{6c}\\u{6c}\\u{6f}\\u{20}\\u{77}\\u{6f}\\u{72}\\u{6c}\\u{64}",
+              "flags": "gu"
             }
           },
           "definite": false

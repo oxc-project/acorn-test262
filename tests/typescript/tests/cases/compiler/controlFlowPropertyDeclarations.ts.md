@@ -1071,8 +1071,8 @@ __ESTREE_TEST__:PASS:
                   "value": null,
                   "raw": "/-(.)/g",
                   "regex": {
-                    "flags": "g",
-                    "pattern": "-(.)"
+                    "pattern": "-(.)",
+                    "flags": "g"
                   }
                 },
                 {
@@ -1218,8 +1218,8 @@ __ESTREE_TEST__:PASS:
                     "value": null,
                     "raw": "/[^\\s]/",
                     "regex": {
-                      "flags": "",
-                      "pattern": "[^\\s]"
+                      "pattern": "[^\\s]",
+                      "flags": ""
                     }
                   },
                   "property": {
@@ -1308,8 +1308,8 @@ __ESTREE_TEST__:PASS:
                   "value": null,
                   "raw": "/^\\d+px$/",
                   "regex": {
-                    "flags": "",
-                    "pattern": "^\\d+px$"
+                    "pattern": "^\\d+px$",
+                    "flags": ""
                   }
                 },
                 "property": {
@@ -1825,8 +1825,8 @@ __ESTREE_TEST__:PASS:
                                         "value": null,
                                         "raw": "/\\r/g",
                                         "regex": {
-                                          "flags": "g",
-                                          "pattern": "\\r"
+                                          "pattern": "\\r",
+                                          "flags": "g"
                                         }
                                       },
                                       {
@@ -1860,8 +1860,8 @@ __ESTREE_TEST__:PASS:
                                     "value": null,
                                     "raw": "/( {2,}|\\n|\\t|\\{|\\})/g",
                                     "regex": {
-                                      "flags": "g",
-                                      "pattern": "( {2,}|\\n|\\t|\\{|\\})"
+                                      "pattern": "( {2,}|\\n|\\t|\\{|\\})",
+                                      "flags": "g"
                                     }
                                   },
                                   {

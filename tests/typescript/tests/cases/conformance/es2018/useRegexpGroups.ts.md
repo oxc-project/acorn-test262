@@ -31,8 +31,8 @@ __ESTREE_TEST__:PASS:
             "value": null,
             "raw": "/(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})/u",
             "regex": {
-              "flags": "u",
-              "pattern": "(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})"
+              "pattern": "(?<year>\\d{4})-(?<month>\\d{2})-(?<day>\\d{2})",
+              "flags": "u"
             }
           },
           "definite": false
@@ -555,8 +555,8 @@ __ESTREE_TEST__:PASS:
                       "value": null,
                       "raw": "/(?<bar>foo)/",
                       "regex": {
-                        "flags": "",
-                        "pattern": "(?<bar>foo)"
+                        "pattern": "(?<bar>foo)",
+                        "flags": ""
                       }
                     }
                   ],

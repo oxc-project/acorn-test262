@@ -60,8 +60,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/\\u{10000}[\\u{10000}]/",
                 "regex": {
-                  "flags": "",
-                  "pattern": "\\u{10000}[\\u{10000}]"
+                  "pattern": "\\u{10000}[\\u{10000}]",
+                  "flags": ""
                 }
               },
               {
@@ -71,8 +71,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/\\u{10000}[\\u{10000}]/u",
                 "regex": {
-                  "flags": "u",
-                  "pattern": "\\u{10000}[\\u{10000}]"
+                  "pattern": "\\u{10000}[\\u{10000}]",
+                  "flags": "u"
                 }
               },
               {
@@ -82,8 +82,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/\\u{10000}[\\u{10000}]/v",
                 "regex": {
-                  "flags": "v",
-                  "pattern": "\\u{10000}[\\u{10000}]"
+                  "pattern": "\\u{10000}[\\u{10000}]",
+                  "flags": "v"
                 }
               }
             ]

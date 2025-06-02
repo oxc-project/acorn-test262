@@ -57,8 +57,8 @@ __ESTREE_TEST__:PASS:
                   "value": null,
                   "raw": "/ /",
                   "regex": {
-                    "flags": "",
-                    "pattern": " "
+                    "pattern": " ",
+                    "flags": ""
                   }
                 }
               ],
@@ -225,8 +225,8 @@ __ESTREE_TEST__:PASS:
                       "value": null,
                       "raw": "/ /",
                       "regex": {
-                        "flags": "",
-                        "pattern": " "
+                        "pattern": " ",
+                        "flags": ""
                       }
                     }
                   ],
@@ -478,8 +478,8 @@ __ESTREE_TEST__:PASS:
                       "value": null,
                       "raw": "/ /",
                       "regex": {
-                        "flags": "",
-                        "pattern": " "
+                        "pattern": " ",
+                        "flags": ""
                       }
                     }
                   ],

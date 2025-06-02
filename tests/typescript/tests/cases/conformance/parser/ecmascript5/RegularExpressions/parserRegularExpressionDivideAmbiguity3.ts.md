@@ -35,8 +35,8 @@ __ESTREE_TEST__:PASS:
               "value": null,
               "raw": "/regexp/a",
               "regex": {
-                "flags": "a",
-                "pattern": "regexp"
+                "pattern": "regexp",
+                "flags": "a"
               }
             },
             "property": {

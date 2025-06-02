@@ -372,8 +372,8 @@ __ESTREE_TEST__:PASS:
             "value": null,
             "raw": "/q/",
             "regex": {
-              "flags": "",
-              "pattern": "q"
+              "pattern": "q",
+              "flags": ""
             }
           },
           "definite": false
@@ -407,8 +407,8 @@ __ESTREE_TEST__:PASS:
             "value": null,
             "raw": "/\\d+/g",
             "regex": {
-              "flags": "g",
-              "pattern": "\\d+"
+              "pattern": "\\d+",
+              "flags": "g"
             }
           },
           "definite": false
@@ -442,8 +442,8 @@ __ESTREE_TEST__:PASS:
             "value": null,
             "raw": "/[3-5]+/i",
             "regex": {
-              "flags": "i",
-              "pattern": "[3-5]+"
+              "pattern": "[3-5]+",
+              "flags": "i"
             }
           },
           "definite": false

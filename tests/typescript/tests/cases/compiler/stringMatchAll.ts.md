@@ -60,8 +60,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/\\w/g",
                 "regex": {
-                  "flags": "g",
-                  "pattern": "\\w"
+                  "pattern": "\\w",
+                  "flags": "g"
                 }
               }
             ],

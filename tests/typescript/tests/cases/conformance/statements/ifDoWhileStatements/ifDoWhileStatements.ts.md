@@ -1382,8 +1382,8 @@ __ESTREE_TEST__:PASS:
         "value": null,
         "raw": "/[a-z]/",
         "regex": {
-          "flags": "",
-          "pattern": "[a-z]"
+          "pattern": "[a-z]",
+          "flags": ""
         }
       },
       "consequent": {
@@ -1405,8 +1405,8 @@ __ESTREE_TEST__:PASS:
         "value": null,
         "raw": "/[a-z]/",
         "regex": {
-          "flags": "",
-          "pattern": "[a-z]"
+          "pattern": "[a-z]",
+          "flags": ""
         }
       },
       "body": {
@@ -1433,8 +1433,8 @@ __ESTREE_TEST__:PASS:
         "value": null,
         "raw": "/[a-z]/",
         "regex": {
-          "flags": "",
-          "pattern": "[a-z]"
+          "pattern": "[a-z]",
+          "flags": ""
         }
       }
     },
@@ -2748,8 +2748,8 @@ __ESTREE_TEST__:PASS:
             "value": null,
             "raw": "/[a-z]/",
             "regex": {
-              "flags": "",
-              "pattern": "[a-z]"
+              "pattern": "[a-z]",
+              "flags": ""
             }
           },
           "definite": false

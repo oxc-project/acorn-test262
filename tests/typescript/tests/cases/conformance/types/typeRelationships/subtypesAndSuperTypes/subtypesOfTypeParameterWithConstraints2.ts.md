@@ -3060,8 +3060,8 @@ __ESTREE_TEST__:PASS:
                     "value": null,
                     "raw": "/1/",
                     "regex": {
-                      "flags": "",
-                      "pattern": "1"
+                      "pattern": "1",
+                      "flags": ""
                     }
                   },
                   "alternate": {
@@ -3125,8 +3125,8 @@ __ESTREE_TEST__:PASS:
                     "value": null,
                     "raw": "/1/",
                     "regex": {
-                      "flags": "",
-                      "pattern": "1"
+                      "pattern": "1",
+                      "flags": ""
                     }
                   }
                 },

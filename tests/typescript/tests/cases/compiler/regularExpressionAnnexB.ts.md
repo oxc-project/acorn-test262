@@ -60,8 +60,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/\\q\\u\\i\\c\\k\\_\\f\\o\\x\\-\\j\\u\\m\\p\\s/",
                 "regex": {
-                  "flags": "",
-                  "pattern": "\\q\\u\\i\\c\\k\\_\\f\\o\\x\\-\\j\\u\\m\\p\\s"
+                  "pattern": "\\q\\u\\i\\c\\k\\_\\f\\o\\x\\-\\j\\u\\m\\p\\s",
+                  "flags": ""
                 }
               },
               {
@@ -71,8 +71,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/[\\q\\u\\i\\c\\k\\_\\f\\o\\x\\-\\j\\u\\m\\p\\s]/",
                 "regex": {
-                  "flags": "",
-                  "pattern": "[\\q\\u\\i\\c\\k\\_\\f\\o\\x\\-\\j\\u\\m\\p\\s]"
+                  "pattern": "[\\q\\u\\i\\c\\k\\_\\f\\o\\x\\-\\j\\u\\m\\p\\s]",
+                  "flags": ""
                 }
               },
               {
@@ -82,8 +82,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/\\P[\\P\\w-_]/",
                 "regex": {
-                  "flags": "",
-                  "pattern": "\\P[\\P\\w-_]"
+                  "pattern": "\\P[\\P\\w-_]",
+                  "flags": ""
                 }
               },
               {
@@ -93,8 +93,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/\\q\\u\\i\\c\\k\\_\\f\\o\\x\\-\\j\\u\\m\\p\\s/u",
                 "regex": {
-                  "flags": "u",
-                  "pattern": "\\q\\u\\i\\c\\k\\_\\f\\o\\x\\-\\j\\u\\m\\p\\s"
+                  "pattern": "\\q\\u\\i\\c\\k\\_\\f\\o\\x\\-\\j\\u\\m\\p\\s",
+                  "flags": "u"
                 }
               },
               {
@@ -104,8 +104,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/[\\q\\u\\i\\c\\k\\_\\f\\o\\x\\-\\j\\u\\m\\p\\s]/u",
                 "regex": {
-                  "flags": "u",
-                  "pattern": "[\\q\\u\\i\\c\\k\\_\\f\\o\\x\\-\\j\\u\\m\\p\\s]"
+                  "pattern": "[\\q\\u\\i\\c\\k\\_\\f\\o\\x\\-\\j\\u\\m\\p\\s]",
+                  "flags": "u"
                 }
               },
               {
@@ -115,8 +115,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/\\P[\\P\\w-_]/u",
                 "regex": {
-                  "flags": "u",
-                  "pattern": "\\P[\\P\\w-_]"
+                  "pattern": "\\P[\\P\\w-_]",
+                  "flags": "u"
                 }
               }
             ]
@@ -181,8 +181,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/{??/",
                 "regex": {
-                  "flags": "",
-                  "pattern": "{??"
+                  "pattern": "{??",
+                  "flags": ""
                 }
               },
               {
@@ -192,8 +192,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/{,??/",
                 "regex": {
-                  "flags": "",
-                  "pattern": "{,??"
+                  "pattern": "{,??",
+                  "flags": ""
                 }
               },
               {
@@ -203,8 +203,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/{,1??/",
                 "regex": {
-                  "flags": "",
-                  "pattern": "{,1??"
+                  "pattern": "{,1??",
+                  "flags": ""
                 }
               },
               {
@@ -214,8 +214,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/{1??/",
                 "regex": {
-                  "flags": "",
-                  "pattern": "{1??"
+                  "pattern": "{1??",
+                  "flags": ""
                 }
               },
               {
@@ -225,8 +225,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/{1,??/",
                 "regex": {
-                  "flags": "",
-                  "pattern": "{1,??"
+                  "pattern": "{1,??",
+                  "flags": ""
                 }
               },
               {
@@ -236,8 +236,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/{1,2??/",
                 "regex": {
-                  "flags": "",
-                  "pattern": "{1,2??"
+                  "pattern": "{1,2??",
+                  "flags": ""
                 }
               },
               {
@@ -247,8 +247,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/{2,1??/",
                 "regex": {
-                  "flags": "",
-                  "pattern": "{2,1??"
+                  "pattern": "{2,1??",
+                  "flags": ""
                 }
               },
               {
@@ -258,8 +258,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/{}??/",
                 "regex": {
-                  "flags": "",
-                  "pattern": "{}??"
+                  "pattern": "{}??",
+                  "flags": ""
                 }
               },
               {
@@ -269,8 +269,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/{,}??/",
                 "regex": {
-                  "flags": "",
-                  "pattern": "{,}??"
+                  "pattern": "{,}??",
+                  "flags": ""
                 }
               },
               {
@@ -280,8 +280,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/{,1}??/",
                 "regex": {
-                  "flags": "",
-                  "pattern": "{,1}??"
+                  "pattern": "{,1}??",
+                  "flags": ""
                 }
               },
               {
@@ -291,8 +291,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/{1}??/",
                 "regex": {
-                  "flags": "",
-                  "pattern": "{1}??"
+                  "pattern": "{1}??",
+                  "flags": ""
                 }
               },
               {
@@ -302,8 +302,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/{1,}??/",
                 "regex": {
-                  "flags": "",
-                  "pattern": "{1,}??"
+                  "pattern": "{1,}??",
+                  "flags": ""
                 }
               },
               {
@@ -313,8 +313,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/{1,2}??/",
                 "regex": {
-                  "flags": "",
-                  "pattern": "{1,2}??"
+                  "pattern": "{1,2}??",
+                  "flags": ""
                 }
               },
               {
@@ -324,8 +324,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/{2,1}??/",
                 "regex": {
-                  "flags": "",
-                  "pattern": "{2,1}??"
+                  "pattern": "{2,1}??",
+                  "flags": ""
                 }
               },
               {
@@ -335,8 +335,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/{??/u",
                 "regex": {
-                  "flags": "u",
-                  "pattern": "{??"
+                  "pattern": "{??",
+                  "flags": "u"
                 }
               },
               {
@@ -346,8 +346,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/{,??/u",
                 "regex": {
-                  "flags": "u",
-                  "pattern": "{,??"
+                  "pattern": "{,??",
+                  "flags": "u"
                 }
               },
               {
@@ -357,8 +357,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/{,1??/u",
                 "regex": {
-                  "flags": "u",
-                  "pattern": "{,1??"
+                  "pattern": "{,1??",
+                  "flags": "u"
                 }
               },
               {
@@ -368,8 +368,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/{1??/u",
                 "regex": {
-                  "flags": "u",
-                  "pattern": "{1??"
+                  "pattern": "{1??",
+                  "flags": "u"
                 }
               },
               {
@@ -379,8 +379,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/{1,??/u",
                 "regex": {
-                  "flags": "u",
-                  "pattern": "{1,??"
+                  "pattern": "{1,??",
+                  "flags": "u"
                 }
               },
               {
@@ -390,8 +390,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/{1,2??/u",
                 "regex": {
-                  "flags": "u",
-                  "pattern": "{1,2??"
+                  "pattern": "{1,2??",
+                  "flags": "u"
                 }
               },
               {
@@ -401,8 +401,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/{2,1??/u",
                 "regex": {
-                  "flags": "u",
-                  "pattern": "{2,1??"
+                  "pattern": "{2,1??",
+                  "flags": "u"
                 }
               },
               {
@@ -412,8 +412,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/{}??/u",
                 "regex": {
-                  "flags": "u",
-                  "pattern": "{}??"
+                  "pattern": "{}??",
+                  "flags": "u"
                 }
               },
               {
@@ -423,8 +423,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/{,}??/u",
                 "regex": {
-                  "flags": "u",
-                  "pattern": "{,}??"
+                  "pattern": "{,}??",
+                  "flags": "u"
                 }
               },
               {
@@ -434,8 +434,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/{,1}??/u",
                 "regex": {
-                  "flags": "u",
-                  "pattern": "{,1}??"
+                  "pattern": "{,1}??",
+                  "flags": "u"
                 }
               },
               {
@@ -445,8 +445,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/{1}??/u",
                 "regex": {
-                  "flags": "u",
-                  "pattern": "{1}??"
+                  "pattern": "{1}??",
+                  "flags": "u"
                 }
               },
               {
@@ -456,8 +456,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/{1,}??/u",
                 "regex": {
-                  "flags": "u",
-                  "pattern": "{1,}??"
+                  "pattern": "{1,}??",
+                  "flags": "u"
                 }
               },
               {
@@ -467,8 +467,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/{1,2}??/u",
                 "regex": {
-                  "flags": "u",
-                  "pattern": "{1,2}??"
+                  "pattern": "{1,2}??",
+                  "flags": "u"
                 }
               },
               {
@@ -478,8 +478,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/{2,1}??/u",
                 "regex": {
-                  "flags": "u",
-                  "pattern": "{2,1}??"
+                  "pattern": "{2,1}??",
+                  "flags": "u"
                 }
               }
             ]

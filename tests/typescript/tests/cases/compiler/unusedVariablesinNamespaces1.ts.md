@@ -49,8 +49,8 @@ __ESTREE_TEST__:PASS:
                   "value": null,
                   "raw": "/^[A-Za-z]+$/",
                   "regex": {
-                    "flags": "",
-                    "pattern": "^[A-Za-z]+$"
+                    "pattern": "^[A-Za-z]+$",
+                    "flags": ""
                   }
                 },
                 "definite": false

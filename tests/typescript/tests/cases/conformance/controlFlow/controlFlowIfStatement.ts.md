@@ -130,8 +130,8 @@ __ESTREE_TEST__:PASS:
           "value": null,
           "raw": "/a/",
           "regex": {
-            "flags": "",
-            "pattern": "a"
+            "pattern": "a",
+            "flags": ""
           }
         }
       },

@@ -928,8 +928,8 @@ __ESTREE_TEST__:PASS:
             "value": null,
             "raw": "/./g",
             "regex": {
-              "flags": "g",
-              "pattern": "."
+              "pattern": ".",
+              "flags": "g"
             }
           },
           "definite": false

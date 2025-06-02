@@ -537,8 +537,8 @@ __ESTREE_TEST__:PASS:
               "value": null,
               "raw": "/323/",
               "regex": {
-                "flags": "",
-                "pattern": "323"
+                "pattern": "323",
+                "flags": ""
               }
             },
             {

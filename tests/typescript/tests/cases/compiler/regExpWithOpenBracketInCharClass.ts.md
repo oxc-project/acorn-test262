@@ -60,8 +60,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/[[]/",
                 "regex": {
-                  "flags": "",
-                  "pattern": "[[]"
+                  "pattern": "[[]",
+                  "flags": ""
                 }
               },
               {
@@ -71,8 +71,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/[[]/u",
                 "regex": {
-                  "flags": "u",
-                  "pattern": "[[]"
+                  "pattern": "[[]",
+                  "flags": "u"
                 }
               },
               {
@@ -82,8 +82,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/[[]/v",
                 "regex": {
-                  "flags": "v",
-                  "pattern": "[[]"
+                  "pattern": "[[]",
+                  "flags": "v"
                 }
               }
             ]
