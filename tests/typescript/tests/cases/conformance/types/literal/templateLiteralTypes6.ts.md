@@ -397,8 +397,8 @@ __ESTREE_TEST__:PASS:
                   "start": 255,
                   "end": 258,
                   "value": {
-                    "cooked": "",
-                    "raw": ""
+                    "raw": "",
+                    "cooked": ""
                   },
                   "tail": false
                 },
@@ -407,8 +407,8 @@ __ESTREE_TEST__:PASS:
                   "start": 263,
                   "end": 267,
                   "value": {
-                    "cooked": ":",
-                    "raw": ":"
+                    "raw": ":",
+                    "cooked": ":"
                   },
                   "tail": false
                 },
@@ -417,8 +417,8 @@ __ESTREE_TEST__:PASS:
                   "start": 272,
                   "end": 274,
                   "value": {
-                    "cooked": "",
-                    "raw": ""
+                    "raw": "",
+                    "cooked": ""
                   },
                   "tail": true
                 }
@@ -716,8 +716,8 @@ __ESTREE_TEST__:PASS:
                       "start": 407,
                       "end": 410,
                       "value": {
-                        "cooked": "",
-                        "raw": ""
+                        "raw": "",
+                        "cooked": ""
                       },
                       "tail": false
                     },
@@ -726,8 +726,8 @@ __ESTREE_TEST__:PASS:
                       "start": 415,
                       "end": 419,
                       "value": {
-                        "cooked": ":",
-                        "raw": ":"
+                        "raw": ":",
+                        "cooked": ":"
                       },
                       "tail": false
                     },
@@ -736,8 +736,8 @@ __ESTREE_TEST__:PASS:
                       "start": 424,
                       "end": 426,
                       "value": {
-                        "cooked": "",
-                        "raw": ""
+                        "raw": "",
+                        "cooked": ""
                       },
                       "tail": true
                     }

@@ -134,8 +134,8 @@ __ESTREE_TEST__:PASS:
                             "start": 83,
                             "end": 89,
                             "value": {
-                              "cooked": "boss",
-                              "raw": "boss"
+                              "raw": "boss",
+                              "cooked": "boss"
                             },
                             "tail": true
                           }
@@ -157,8 +157,8 @@ __ESTREE_TEST__:PASS:
                             "start": 92,
                             "end": 102,
                             "value": {
-                              "cooked": "employee",
-                              "raw": "employee"
+                              "raw": "employee",
+                              "cooked": "employee"
                             },
                             "tail": true
                           }
@@ -179,8 +179,8 @@ __ESTREE_TEST__:PASS:
                     "start": 105,
                     "end": 115,
                     "value": {
-                      "cooked": "employee",
-                      "raw": "employee"
+                      "raw": "employee",
+                      "cooked": "employee"
                     },
                     "tail": true
                   }

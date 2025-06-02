@@ -280,8 +280,8 @@ __ESTREE_TEST__:PASS:
                             "start": 155,
                             "end": 158,
                             "value": {
-                              "cooked": "",
-                              "raw": ""
+                              "raw": "",
+                              "cooked": ""
                             },
                             "tail": false
                           },
@@ -290,8 +290,8 @@ __ESTREE_TEST__:PASS:
                             "start": 159,
                             "end": 161,
                             "value": {
-                              "cooked": "",
-                              "raw": ""
+                              "raw": "",
+                              "cooked": ""
                             },
                             "tail": true
                           }
@@ -474,8 +474,8 @@ __ESTREE_TEST__:PASS:
                     "start": 210,
                     "end": 213,
                     "value": {
-                      "cooked": "",
-                      "raw": ""
+                      "raw": "",
+                      "cooked": ""
                     },
                     "tail": false
                   },
@@ -484,8 +484,8 @@ __ESTREE_TEST__:PASS:
                     "start": 214,
                     "end": 216,
                     "value": {
-                      "cooked": "",
-                      "raw": ""
+                      "raw": "",
+                      "cooked": ""
                     },
                     "tail": true
                   }
@@ -726,8 +726,8 @@ __ESTREE_TEST__:PASS:
                     "start": 293,
                     "end": 296,
                     "value": {
-                      "cooked": "",
-                      "raw": ""
+                      "raw": "",
+                      "cooked": ""
                     },
                     "tail": false
                   },
@@ -736,8 +736,8 @@ __ESTREE_TEST__:PASS:
                     "start": 297,
                     "end": 299,
                     "value": {
-                      "cooked": "",
-                      "raw": ""
+                      "raw": "",
+                      "cooked": ""
                     },
                     "tail": true
                   }
@@ -954,8 +954,8 @@ __ESTREE_TEST__:PASS:
                     "start": 371,
                     "end": 374,
                     "value": {
-                      "cooked": "",
-                      "raw": ""
+                      "raw": "",
+                      "cooked": ""
                     },
                     "tail": false
                   },
@@ -964,8 +964,8 @@ __ESTREE_TEST__:PASS:
                     "start": 375,
                     "end": 377,
                     "value": {
-                      "cooked": "",
-                      "raw": ""
+                      "raw": "",
+                      "cooked": ""
                     },
                     "tail": true
                   }

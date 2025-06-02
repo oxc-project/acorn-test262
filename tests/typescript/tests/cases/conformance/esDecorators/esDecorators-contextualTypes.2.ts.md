@@ -1099,8 +1099,8 @@ __ESTREE_TEST__:PASS:
                                       "start": 784,
                                       "end": 788,
                                       "value": {
-                                        "cooked": "<",
-                                        "raw": "<"
+                                        "raw": "<",
+                                        "cooked": "<"
                                       },
                                       "tail": false
                                     },
@@ -1109,8 +1109,8 @@ __ESTREE_TEST__:PASS:
                                       "start": 794,
                                       "end": 823,
                                       "value": {
-                                        "cooked": ">: I'm logging stuff from ",
-                                        "raw": ">: I'm logging stuff from "
+                                        "raw": ">: I'm logging stuff from ",
+                                        "cooked": ">: I'm logging stuff from "
                                       },
                                       "tail": false
                                     },
@@ -1119,8 +1119,8 @@ __ESTREE_TEST__:PASS:
                                       "start": 846,
                                       "end": 849,
                                       "value": {
-                                        "cooked": "!",
-                                        "raw": "!"
+                                        "raw": "!",
+                                        "cooked": "!"
                                       },
                                       "tail": true
                                     }

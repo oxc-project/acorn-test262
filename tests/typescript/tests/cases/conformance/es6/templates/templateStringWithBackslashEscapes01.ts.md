@@ -34,8 +34,8 @@ __ESTREE_TEST__:PASS:
                 "start": 8,
                 "end": 21,
                 "value": {
-                  "cooked": "helloworld",
-                  "raw": "hello\\world"
+                  "raw": "hello\\world",
+                  "cooked": "helloworld"
                 },
                 "tail": true
               }
@@ -76,8 +76,8 @@ __ESTREE_TEST__:PASS:
                 "start": 31,
                 "end": 45,
                 "value": {
-                  "cooked": "hello\\world",
-                  "raw": "hello\\\\world"
+                  "raw": "hello\\\\world",
+                  "cooked": "hello\\world"
                 },
                 "tail": true
               }
@@ -118,8 +118,8 @@ __ESTREE_TEST__:PASS:
                 "start": 55,
                 "end": 70,
                 "value": {
-                  "cooked": "hello\\world",
-                  "raw": "hello\\\\\\world"
+                  "raw": "hello\\\\\\world",
+                  "cooked": "hello\\world"
                 },
                 "tail": true
               }
@@ -160,8 +160,8 @@ __ESTREE_TEST__:PASS:
                 "start": 80,
                 "end": 96,
                 "value": {
-                  "cooked": "hello\\\\world",
-                  "raw": "hello\\\\\\\\world"
+                  "raw": "hello\\\\\\\\world",
+                  "cooked": "hello\\\\world"
                 },
                 "tail": true
               }

@@ -233,8 +233,8 @@ __ESTREE_TEST__:PASS:
                               "start": 129,
                               "end": 145,
                               "value": {
-                                "cooked": "x was set to ",
-                                "raw": "x was set to "
+                                "raw": "x was set to ",
+                                "cooked": "x was set to "
                               },
                               "tail": false
                             },
@@ -243,8 +243,8 @@ __ESTREE_TEST__:PASS:
                               "start": 150,
                               "end": 152,
                               "value": {
-                                "cooked": "",
-                                "raw": ""
+                                "raw": "",
+                                "cooked": ""
                               },
                               "tail": true
                             }

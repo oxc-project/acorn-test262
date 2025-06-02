@@ -821,8 +821,8 @@ __ESTREE_TEST__:PASS:
                   "start": 582,
                   "end": 584,
                   "value": {
-                    "cooked": "",
-                    "raw": ""
+                    "raw": "",
+                    "cooked": ""
                   },
                   "tail": true
                 }
@@ -878,8 +878,8 @@ __ESTREE_TEST__:PASS:
                   "start": 621,
                   "end": 624,
                   "value": {
-                    "cooked": "",
-                    "raw": ""
+                    "raw": "",
+                    "cooked": ""
                   },
                   "tail": false
                 },
@@ -888,8 +888,8 @@ __ESTREE_TEST__:PASS:
                   "start": 625,
                   "end": 627,
                   "value": {
-                    "cooked": "",
-                    "raw": ""
+                    "raw": "",
+                    "cooked": ""
                   },
                   "tail": true
                 }
@@ -953,8 +953,8 @@ __ESTREE_TEST__:PASS:
                   "start": 660,
                   "end": 663,
                   "value": {
-                    "cooked": "",
-                    "raw": ""
+                    "raw": "",
+                    "cooked": ""
                   },
                   "tail": false
                 },
@@ -963,8 +963,8 @@ __ESTREE_TEST__:PASS:
                   "start": 664,
                   "end": 667,
                   "value": {
-                    "cooked": "",
-                    "raw": ""
+                    "raw": "",
+                    "cooked": ""
                   },
                   "tail": false
                 },
@@ -973,8 +973,8 @@ __ESTREE_TEST__:PASS:
                   "start": 668,
                   "end": 670,
                   "value": {
-                    "cooked": "",
-                    "raw": ""
+                    "raw": "",
+                    "cooked": ""
                   },
                   "tail": true
                 }
@@ -1045,8 +1045,8 @@ __ESTREE_TEST__:PASS:
                   "start": 700,
                   "end": 703,
                   "value": {
-                    "cooked": "",
-                    "raw": ""
+                    "raw": "",
+                    "cooked": ""
                   },
                   "tail": false
                 },
@@ -1055,8 +1055,8 @@ __ESTREE_TEST__:PASS:
                   "start": 704,
                   "end": 707,
                   "value": {
-                    "cooked": "",
-                    "raw": ""
+                    "raw": "",
+                    "cooked": ""
                   },
                   "tail": false
                 },
@@ -1065,8 +1065,8 @@ __ESTREE_TEST__:PASS:
                   "start": 711,
                   "end": 713,
                   "value": {
-                    "cooked": "",
-                    "raw": ""
+                    "raw": "",
+                    "cooked": ""
                   },
                   "tail": true
                 }
@@ -1137,8 +1137,8 @@ __ESTREE_TEST__:PASS:
                   "start": 753,
                   "end": 756,
                   "value": {
-                    "cooked": "",
-                    "raw": ""
+                    "raw": "",
+                    "cooked": ""
                   },
                   "tail": false
                 },
@@ -1147,8 +1147,8 @@ __ESTREE_TEST__:PASS:
                   "start": 757,
                   "end": 760,
                   "value": {
-                    "cooked": "",
-                    "raw": ""
+                    "raw": "",
+                    "cooked": ""
                   },
                   "tail": false
                 },
@@ -1157,8 +1157,8 @@ __ESTREE_TEST__:PASS:
                   "start": 763,
                   "end": 765,
                   "value": {
-                    "cooked": "",
-                    "raw": ""
+                    "raw": "",
+                    "cooked": ""
                   },
                   "tail": true
                 }
@@ -1229,8 +1229,8 @@ __ESTREE_TEST__:PASS:
                   "start": 788,
                   "end": 791,
                   "value": {
-                    "cooked": "",
-                    "raw": ""
+                    "raw": "",
+                    "cooked": ""
                   },
                   "tail": false
                 },
@@ -1239,8 +1239,8 @@ __ESTREE_TEST__:PASS:
                   "start": 792,
                   "end": 795,
                   "value": {
-                    "cooked": "",
-                    "raw": ""
+                    "raw": "",
+                    "cooked": ""
                   },
                   "tail": false
                 },
@@ -1249,8 +1249,8 @@ __ESTREE_TEST__:PASS:
                   "start": 796,
                   "end": 799,
                   "value": {
-                    "cooked": "",
-                    "raw": ""
+                    "raw": "",
+                    "cooked": ""
                   },
                   "tail": false
                 },
@@ -1259,8 +1259,8 @@ __ESTREE_TEST__:PASS:
                   "start": 800,
                   "end": 802,
                   "value": {
-                    "cooked": "",
-                    "raw": ""
+                    "raw": "",
+                    "cooked": ""
                   },
                   "tail": true
                 }

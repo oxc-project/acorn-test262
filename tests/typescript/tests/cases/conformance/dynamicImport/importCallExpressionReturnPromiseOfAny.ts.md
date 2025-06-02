@@ -266,8 +266,8 @@ __ESTREE_TEST__:PASS:
               "start": 245,
               "end": 248,
               "value": {
-                "cooked": "",
-                "raw": ""
+                "raw": "",
+                "cooked": ""
               },
               "tail": false
             },
@@ -276,8 +276,8 @@ __ESTREE_TEST__:PASS:
               "start": 257,
               "end": 262,
               "value": {
-                "cooked": "\\",
-                "raw": "\\\\"
+                "raw": "\\\\",
+                "cooked": "\\"
               },
               "tail": false
             },
@@ -286,8 +286,8 @@ __ESTREE_TEST__:PASS:
               "start": 272,
               "end": 274,
               "value": {
-                "cooked": "",
-                "raw": ""
+                "raw": "",
+                "cooked": ""
               },
               "tail": true
             }
@@ -1056,8 +1056,8 @@ __ESTREE_TEST__:PASS:
                             "start": 835,
                             "end": 838,
                             "value": {
-                              "cooked": "",
-                              "raw": ""
+                              "raw": "",
+                              "cooked": ""
                             },
                             "tail": false
                           },
@@ -1066,8 +1066,8 @@ __ESTREE_TEST__:PASS:
                             "start": 847,
                             "end": 861,
                             "value": {
-                              "cooked": "\\moduleFile",
-                              "raw": "\\\\moduleFile"
+                              "raw": "\\\\moduleFile",
+                              "cooked": "\\moduleFile"
                             },
                             "tail": true
                           }

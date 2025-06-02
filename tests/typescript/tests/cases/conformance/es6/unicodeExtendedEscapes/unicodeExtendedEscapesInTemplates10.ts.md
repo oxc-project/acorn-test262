@@ -34,8 +34,8 @@ __ESTREE_TEST__:PASS:
                 "start": 230,
                 "end": 240,
                 "value": {
-                  "cooked": "\ud800",
-                  "raw": "\\u{D800}"
+                  "raw": "\\u{D800}",
+                  "cooked": "\ud800"
                 },
                 "tail": true
               }

@@ -171,8 +171,8 @@ __ESTREE_TEST__:PASS:
                     "start": 106,
                     "end": 109,
                     "value": {
-                      "cooked": "",
-                      "raw": ""
+                      "raw": "",
+                      "cooked": ""
                     },
                     "tail": false
                   },
@@ -181,8 +181,8 @@ __ESTREE_TEST__:PASS:
                     "start": 115,
                     "end": 127,
                     "value": {
-                      "cooked": " is wrong!",
-                      "raw": " is wrong!"
+                      "raw": " is wrong!",
+                      "cooked": " is wrong!"
                     },
                     "tail": true
                   }

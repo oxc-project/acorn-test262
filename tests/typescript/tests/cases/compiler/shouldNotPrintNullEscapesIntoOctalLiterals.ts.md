@@ -32,8 +32,8 @@ __ESTREE_TEST__:PASS:
             "start": 14,
             "end": 21,
             "value": {
-              "cooked": "\u00001",
-              "raw": "\\x001"
+              "raw": "\\x001",
+              "cooked": "\u00001"
             },
             "tail": true
           }
@@ -56,8 +56,8 @@ __ESTREE_TEST__:PASS:
             "start": 23,
             "end": 32,
             "value": {
-              "cooked": "\u00001",
-              "raw": "\\u00001"
+              "raw": "\\u00001",
+              "cooked": "\u00001"
             },
             "tail": true
           }
@@ -80,8 +80,8 @@ __ESTREE_TEST__:PASS:
             "start": 34,
             "end": 49,
             "value": {
-              "cooked": "\u00001",
-              "raw": "\\u{00000000}1"
+              "raw": "\\u{00000000}1",
+              "cooked": "\u00001"
             },
             "tail": true
           }
@@ -104,8 +104,8 @@ __ESTREE_TEST__:PASS:
             "start": 51,
             "end": 64,
             "value": {
-              "cooked": "\u00001",
-              "raw": "\\u{000000}1"
+              "raw": "\\u{000000}1",
+              "cooked": "\u00001"
             },
             "tail": true
           }
@@ -128,8 +128,8 @@ __ESTREE_TEST__:PASS:
             "start": 66,
             "end": 74,
             "value": {
-              "cooked": "\u00001",
-              "raw": "\\u{0}1"
+              "raw": "\\u{0}1",
+              "cooked": "\u00001"
             },
             "tail": true
           }

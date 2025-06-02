@@ -77,8 +77,8 @@ __ESTREE_TEST__:PASS:
               "start": 23,
               "end": 37,
               "value": {
-                "cooked": "Hello world!",
-                "raw": "Hello world!"
+                "raw": "Hello world!",
+                "cooked": "Hello world!"
               },
               "tail": true
             }

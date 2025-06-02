@@ -23,8 +23,8 @@ __ESTREE_TEST__:PASS:
               "start": 4,
               "end": 10,
               "value": {
-                "cooked": "abc",
-                "raw": "abc"
+                "raw": "abc",
+                "cooked": "abc"
               },
               "tail": false
             },
@@ -33,8 +33,8 @@ __ESTREE_TEST__:PASS:
               "start": 11,
               "end": 16,
               "value": {
-                "cooked": "abc",
-                "raw": "abc"
+                "raw": "abc",
+                "cooked": "abc"
               },
               "tail": true
             }
@@ -61,8 +61,8 @@ __ESTREE_TEST__:PASS:
                 "start": 17,
                 "end": 26,
                 "value": {
-                  "cooked": "hello ",
-                  "raw": "hello "
+                  "raw": "hello ",
+                  "cooked": "hello "
                 },
                 "tail": false
               },
@@ -71,8 +71,8 @@ __ESTREE_TEST__:PASS:
                 "start": 27,
                 "end": 35,
                 "value": {
-                  "cooked": " world",
-                  "raw": " world"
+                  "raw": " world",
+                  "cooked": " world"
                 },
                 "tail": true
               }
@@ -97,8 +97,8 @@ __ESTREE_TEST__:PASS:
                 "start": 37,
                 "end": 42,
                 "value": {
-                  "cooked": "   ",
-                  "raw": "   "
+                  "raw": "   ",
+                  "cooked": "   "
                 },
                 "tail": true
               }
@@ -115,8 +115,8 @@ __ESTREE_TEST__:PASS:
                 "start": 44,
                 "end": 48,
                 "value": {
-                  "cooked": "1",
-                  "raw": "1"
+                  "raw": "1",
+                  "cooked": "1"
                 },
                 "tail": false
               },
@@ -125,8 +125,8 @@ __ESTREE_TEST__:PASS:
                 "start": 49,
                 "end": 52,
                 "value": {
-                  "cooked": "3",
-                  "raw": "3"
+                  "raw": "3",
+                  "cooked": "3"
                 },
                 "tail": true
               }

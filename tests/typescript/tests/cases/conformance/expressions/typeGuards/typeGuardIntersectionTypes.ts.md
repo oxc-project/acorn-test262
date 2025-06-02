@@ -1877,8 +1877,8 @@ __ESTREE_TEST__:PASS:
                                         "start": 1436,
                                         "end": 1461,
                                         "value": {
-                                          "cooked": "pegasus - 4 legs, wings",
-                                          "raw": "pegasus - 4 legs, wings"
+                                          "raw": "pegasus - 4 legs, wings",
+                                          "cooked": "pegasus - 4 legs, wings"
                                         },
                                         "tail": true
                                       }
@@ -1968,8 +1968,8 @@ __ESTREE_TEST__:PASS:
                                           "start": 1539,
                                           "end": 1561,
                                           "value": {
-                                            "cooked": "bird - 2 legs, wings",
-                                            "raw": "bird - 2 legs, wings"
+                                            "raw": "bird - 2 legs, wings",
+                                            "cooked": "bird - 2 legs, wings"
                                           },
                                           "tail": true
                                         }
@@ -2017,8 +2017,8 @@ __ESTREE_TEST__:PASS:
                                           "start": 1617,
                                           "end": 1630,
                                           "value": {
-                                            "cooked": "unknown - ",
-                                            "raw": "unknown - "
+                                            "raw": "unknown - ",
+                                            "cooked": "unknown - "
                                           },
                                           "tail": false
                                         },
@@ -2027,8 +2027,8 @@ __ESTREE_TEST__:PASS:
                                           "start": 1640,
                                           "end": 1654,
                                           "value": {
-                                            "cooked": " legs, wings",
-                                            "raw": " legs, wings"
+                                            "raw": " legs, wings",
+                                            "cooked": " legs, wings"
                                           },
                                           "tail": true
                                         }
@@ -2106,8 +2106,8 @@ __ESTREE_TEST__:PASS:
                                   "start": 1756,
                                   "end": 1772,
                                   "value": {
-                                    "cooked": "manbearpig - ",
-                                    "raw": "manbearpig - "
+                                    "raw": "manbearpig - ",
+                                    "cooked": "manbearpig - "
                                   },
                                   "tail": false
                                 },
@@ -2116,8 +2116,8 @@ __ESTREE_TEST__:PASS:
                                   "start": 1782,
                                   "end": 1799,
                                   "value": {
-                                    "cooked": " legs, no wings",
-                                    "raw": " legs, no wings"
+                                    "raw": " legs, no wings",
+                                    "cooked": " legs, no wings"
                                   },
                                   "tail": true
                                 }
@@ -2230,8 +2230,8 @@ __ESTREE_TEST__:PASS:
                                   "start": 1912,
                                   "end": 1943,
                                   "value": {
-                                    "cooked": "quetzalcoatl - no legs, wings",
-                                    "raw": "quetzalcoatl - no legs, wings"
+                                    "raw": "quetzalcoatl - no legs, wings",
+                                    "cooked": "quetzalcoatl - no legs, wings"
                                   },
                                   "tail": true
                                 }
@@ -2279,8 +2279,8 @@ __ESTREE_TEST__:PASS:
                                   "start": 1986,
                                   "end": 2013,
                                   "value": {
-                                    "cooked": "snake - no legs, no wings",
-                                    "raw": "snake - no legs, no wings"
+                                    "raw": "snake - no legs, no wings",
+                                    "cooked": "snake - no legs, no wings"
                                   },
                                   "tail": true
                                 }

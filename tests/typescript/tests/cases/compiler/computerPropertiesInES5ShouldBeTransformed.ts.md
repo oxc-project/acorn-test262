@@ -53,8 +53,8 @@ __ESTREE_TEST__:PASS:
                           "start": 14,
                           "end": 19,
                           "value": {
-                            "cooked": "key",
-                            "raw": "key"
+                            "raw": "key",
+                            "cooked": "key"
                           },
                           "tail": true
                         }

@@ -118,8 +118,8 @@ __ESTREE_TEST__:PASS:
                   "start": 70,
                   "end": 73,
                   "value": {
-                    "cooked": "",
-                    "raw": ""
+                    "raw": "",
+                    "cooked": ""
                   },
                   "tail": false
                 },
@@ -128,8 +128,8 @@ __ESTREE_TEST__:PASS:
                   "start": 76,
                   "end": 78,
                   "value": {
-                    "cooked": "",
-                    "raw": ""
+                    "raw": "",
+                    "cooked": ""
                   },
                   "tail": true
                 }
@@ -260,8 +260,8 @@ __ESTREE_TEST__:PASS:
                     "start": 129,
                     "end": 132,
                     "value": {
-                      "cooked": "",
-                      "raw": ""
+                      "raw": "",
+                      "cooked": ""
                     },
                     "tail": false
                   },
@@ -270,8 +270,8 @@ __ESTREE_TEST__:PASS:
                     "start": 135,
                     "end": 137,
                     "value": {
-                      "cooked": "",
-                      "raw": ""
+                      "raw": "",
+                      "cooked": ""
                     },
                     "tail": true
                   }
@@ -323,8 +323,8 @@ __ESTREE_TEST__:PASS:
                     "start": 186,
                     "end": 189,
                     "value": {
-                      "cooked": "",
-                      "raw": ""
+                      "raw": "",
+                      "cooked": ""
                     },
                     "tail": false
                   },
@@ -333,8 +333,8 @@ __ESTREE_TEST__:PASS:
                     "start": 192,
                     "end": 194,
                     "value": {
-                      "cooked": "",
-                      "raw": ""
+                      "raw": "",
+                      "cooked": ""
                     },
                     "tail": true
                   }

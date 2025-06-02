@@ -62,8 +62,8 @@ __ESTREE_TEST__:PASS:
                   "start": 35,
                   "end": 48,
                   "value": {
-                    "cooked": "./locales/",
-                    "raw": "./locales/"
+                    "raw": "./locales/",
+                    "cooked": "./locales/"
                   },
                   "tail": false
                 },
@@ -72,8 +72,8 @@ __ESTREE_TEST__:PASS:
                   "start": 58,
                   "end": 63,
                   "value": {
-                    "cooked": ".js",
-                    "raw": ".js"
+                    "raw": ".js",
+                    "cooked": ".js"
                   },
                   "tail": true
                 }

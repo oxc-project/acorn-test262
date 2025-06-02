@@ -321,8 +321,8 @@ __ESTREE_TEST__:PASS:
                     "start": 42,
                     "end": 52,
                     "value": {
-                      "cooked": "Hello, ",
-                      "raw": "Hello, "
+                      "raw": "Hello, ",
+                      "cooked": "Hello, "
                     },
                     "tail": false
                   },
@@ -331,8 +331,8 @@ __ESTREE_TEST__:PASS:
                     "start": 56,
                     "end": 59,
                     "value": {
-                      "cooked": "!",
-                      "raw": "!"
+                      "raw": "!",
+                      "cooked": "!"
                     },
                     "tail": true
                   }

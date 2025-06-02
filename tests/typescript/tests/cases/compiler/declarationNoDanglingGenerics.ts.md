@@ -211,8 +211,8 @@ __ESTREE_TEST__:PASS:
                             "start": 145,
                             "end": 165,
                             "value": {
-                              "cooked": "Class with kind \"",
-                              "raw": "Class with kind \""
+                              "raw": "Class with kind \"",
+                              "cooked": "Class with kind \""
                             },
                             "tail": false
                           },
@@ -221,8 +221,8 @@ __ESTREE_TEST__:PASS:
                             "start": 169,
                             "end": 195,
                             "value": {
-                              "cooked": "\" is already registered.",
-                              "raw": "\" is already registered."
+                              "raw": "\" is already registered.",
+                              "cooked": "\" is already registered."
                             },
                             "tail": true
                           }

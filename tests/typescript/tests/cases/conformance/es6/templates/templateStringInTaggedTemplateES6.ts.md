@@ -23,8 +23,8 @@ __ESTREE_TEST__:PASS:
               "start": 0,
               "end": 12,
               "value": {
-                "cooked": "I AM THE ",
-                "raw": "I AM THE "
+                "raw": "I AM THE ",
+                "cooked": "I AM THE "
               },
               "tail": false
             },
@@ -33,8 +33,8 @@ __ESTREE_TEST__:PASS:
               "start": 27,
               "end": 37,
               "value": {
-                "cooked": " PORTION",
-                "raw": " PORTION"
+                "raw": " PORTION",
+                "cooked": " PORTION"
               },
               "tail": true
             }
@@ -50,8 +50,8 @@ __ESTREE_TEST__:PASS:
                   "start": 13,
                   "end": 16,
                   "value": {
-                    "cooked": "",
-                    "raw": ""
+                    "raw": "",
+                    "cooked": ""
                   },
                   "tail": false
                 },
@@ -60,8 +60,8 @@ __ESTREE_TEST__:PASS:
                   "start": 23,
                   "end": 26,
                   "value": {
-                    "cooked": " ",
-                    "raw": " "
+                    "raw": " ",
+                    "cooked": " "
                   },
                   "tail": true
                 }
@@ -77,8 +77,8 @@ __ESTREE_TEST__:PASS:
                       "start": 17,
                       "end": 22,
                       "value": {
-                        "cooked": "TAG",
-                        "raw": "TAG"
+                        "raw": "TAG",
+                        "cooked": "TAG"
                       },
                       "tail": true
                     }
@@ -100,8 +100,8 @@ __ESTREE_TEST__:PASS:
               "start": 41,
               "end": 46,
               "value": {
-                "cooked": "I ",
-                "raw": "I "
+                "raw": "I ",
+                "cooked": "I "
               },
               "tail": false
             },
@@ -110,8 +110,8 @@ __ESTREE_TEST__:PASS:
               "start": 52,
               "end": 75,
               "value": {
-                "cooked": " THE TEMPLATE PORTION",
-                "raw": " THE TEMPLATE PORTION"
+                "raw": " THE TEMPLATE PORTION",
+                "cooked": " THE TEMPLATE PORTION"
               },
               "tail": true
             }

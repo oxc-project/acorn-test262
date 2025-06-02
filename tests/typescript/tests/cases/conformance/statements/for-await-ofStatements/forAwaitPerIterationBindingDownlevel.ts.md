@@ -389,8 +389,8 @@ __ESTREE_TEST__:PASS:
                                 "start": 248,
                                 "end": 260,
                                 "value": {
-                                  "cooked": "I'm loop ",
-                                  "raw": "I'm loop "
+                                  "raw": "I'm loop ",
+                                  "cooked": "I'm loop "
                                 },
                                 "tail": false
                               },
@@ -399,8 +399,8 @@ __ESTREE_TEST__:PASS:
                                 "start": 265,
                                 "end": 267,
                                 "value": {
-                                  "cooked": "",
-                                  "raw": ""
+                                  "raw": "",
+                                  "cooked": ""
                                 },
                                 "tail": true
                               }
@@ -575,8 +575,8 @@ __ESTREE_TEST__:PASS:
                                                 "start": 412,
                                                 "end": 424,
                                                 "value": {
-                                                  "cooked": "I'm loop ",
-                                                  "raw": "I'm loop "
+                                                  "raw": "I'm loop ",
+                                                  "cooked": "I'm loop "
                                                 },
                                                 "tail": false
                                               },
@@ -585,8 +585,8 @@ __ESTREE_TEST__:PASS:
                                                 "start": 429,
                                                 "end": 453,
                                                 "value": {
-                                                  "cooked": " and I know I'm loop ",
-                                                  "raw": " and I know I'm loop "
+                                                  "raw": " and I know I'm loop ",
+                                                  "cooked": " and I know I'm loop "
                                                 },
                                                 "tail": false
                                               },
@@ -595,8 +595,8 @@ __ESTREE_TEST__:PASS:
                                                 "start": 458,
                                                 "end": 460,
                                                 "value": {
-                                                  "cooked": "",
-                                                  "raw": ""
+                                                  "raw": "",
+                                                  "cooked": ""
                                                 },
                                                 "tail": true
                                               }
@@ -663,8 +663,8 @@ __ESTREE_TEST__:PASS:
                                                 "start": 504,
                                                 "end": 516,
                                                 "value": {
-                                                  "cooked": "I'm loop ",
-                                                  "raw": "I'm loop "
+                                                  "raw": "I'm loop ",
+                                                  "cooked": "I'm loop "
                                                 },
                                                 "tail": false
                                               },
@@ -673,8 +673,8 @@ __ESTREE_TEST__:PASS:
                                                 "start": 521,
                                                 "end": 547,
                                                 "value": {
-                                                  "cooked": ", but I think I'm loop ",
-                                                  "raw": ", but I think I'm loop "
+                                                  "raw": ", but I think I'm loop ",
+                                                  "cooked": ", but I think I'm loop "
                                                 },
                                                 "tail": false
                                               },
@@ -683,8 +683,8 @@ __ESTREE_TEST__:PASS:
                                                 "start": 552,
                                                 "end": 554,
                                                 "value": {
-                                                  "cooked": "",
-                                                  "raw": ""
+                                                  "raw": "",
+                                                  "cooked": ""
                                                 },
                                                 "tail": true
                                               }

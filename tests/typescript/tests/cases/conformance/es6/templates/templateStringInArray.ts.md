@@ -53,8 +53,8 @@ __ESTREE_TEST__:PASS:
                     "start": 15,
                     "end": 21,
                     "value": {
-                      "cooked": "abc",
-                      "raw": "abc"
+                      "raw": "abc",
+                      "cooked": "abc"
                     },
                     "tail": false
                   },
@@ -63,8 +63,8 @@ __ESTREE_TEST__:PASS:
                     "start": 26,
                     "end": 31,
                     "value": {
-                      "cooked": "def",
-                      "raw": "def"
+                      "raw": "def",
+                      "cooked": "def"
                     },
                     "tail": true
                   }

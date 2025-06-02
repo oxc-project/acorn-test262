@@ -34,8 +34,8 @@ __ESTREE_TEST__:PASS:
                 "start": 8,
                 "end": 41,
                 "value": {
-                  "cooked": "Hello",
-                  "raw": "\\u{48}\\u{65}\\u{6c}\\u{6c}\\u{6f}"
+                  "raw": "\\u{48}\\u{65}\\u{6c}\\u{6c}\\u{6f}",
+                  "cooked": "Hello"
                 },
                 "tail": false
               },
@@ -44,8 +44,8 @@ __ESTREE_TEST__:PASS:
                 "start": 74,
                 "end": 106,
                 "value": {
-                  "cooked": "world",
-                  "raw": "\\u{77}\\u{6f}\\u{72}\\u{6c}\\u{64}"
+                  "raw": "\\u{77}\\u{6f}\\u{72}\\u{6c}\\u{64}",
+                  "cooked": "world"
                 },
                 "tail": true
               }
@@ -61,8 +61,8 @@ __ESTREE_TEST__:PASS:
                     "start": 41,
                     "end": 74,
                     "value": {
-                      "cooked": "    ",
-                      "raw": "\\u{20}\\u{020}\\u{0020}\\u{000020}"
+                      "raw": "\\u{20}\\u{020}\\u{0020}\\u{000020}",
+                      "cooked": "    "
                     },
                     "tail": true
                   }

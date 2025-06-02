@@ -684,8 +684,8 @@ __ESTREE_TEST__:PASS:
                   "start": 352,
                   "end": 361,
                   "value": {
-                    "cooked": "name: ",
-                    "raw": "name: "
+                    "raw": "name: ",
+                    "cooked": "name: "
                   },
                   "tail": false
                 },
@@ -694,8 +694,8 @@ __ESTREE_TEST__:PASS:
                   "start": 365,
                   "end": 376,
                   "value": {
-                    "cooked": " props: ",
-                    "raw": " props: "
+                    "raw": " props: ",
+                    "cooked": " props: "
                   },
                   "tail": false
                 },
@@ -704,8 +704,8 @@ __ESTREE_TEST__:PASS:
                   "start": 397,
                   "end": 399,
                   "value": {
-                    "cooked": "",
-                    "raw": ""
+                    "raw": "",
+                    "cooked": ""
                   },
                   "tail": true
                 }
