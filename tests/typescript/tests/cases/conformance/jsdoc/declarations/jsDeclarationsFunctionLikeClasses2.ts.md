@@ -312,8 +312,8 @@ __ESTREE_TEST__:PASS:
                                       "start": 301,
                                       "end": 358,
                                       "value": {
-                                        "cooked": "Dot product only applicable for vectors of equal length",
-                                        "raw": "Dot product only applicable for vectors of equal length"
+                                        "raw": "Dot product only applicable for vectors of equal length",
+                                        "cooked": "Dot product only applicable for vectors of equal length"
                                       },
                                       "tail": true
                                     }

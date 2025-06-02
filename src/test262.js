@@ -108,7 +108,9 @@ function fixMeriyahNode(node, code) {
         node.value.raw = node.value.raw.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
       }
       // `cooked` and `raw` in opposite order from Acorn (cosmetic difference only)
-      node.value = { raw: undefined, ...node.value };
+      if (Object.hasOwn(node.value, 'raw')) {
+        node.value = { raw: undefined, ...node.value };
+      }
     }
   } else if (type === 'ExportNamedDeclaration') {
     // `ExportNamedDeclaration` should always have an `attributes` property

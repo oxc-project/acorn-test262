@@ -70,6 +70,11 @@ export function transformerTs(_key, value) {
   } else if (type === 'Literal' && Object.hasOwn(value, 'regex')) {
     value.regex.flags = [...value.regex.flags].sort().join('');
     value.value = null;
+  } else if (type === 'TemplateElement') {
+    if (value.value && typeof value.value === 'object' && Object.hasOwn(value.value, 'raw')) {
+      // Reverse order of `raw` and `cooked` fields to match Acorn
+      value.value = { raw: undefined, ...value.value };
+    }
   }
 
   // Replace `undefined` with `null`

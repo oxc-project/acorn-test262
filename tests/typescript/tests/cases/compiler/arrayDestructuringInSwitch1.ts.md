@@ -602,8 +602,8 @@ __ESTREE_TEST__:PASS:
                                           "start": 516,
                                           "end": 519,
                                           "value": {
-                                            "cooked": "",
-                                            "raw": ""
+                                            "raw": "",
+                                            "cooked": ""
                                           },
                                           "tail": false
                                         },
@@ -612,8 +612,8 @@ __ESTREE_TEST__:PASS:
                                           "start": 527,
                                           "end": 557,
                                           "value": {
-                                            "cooked": " is not a supported operator",
-                                            "raw": " is not a supported operator"
+                                            "raw": " is not a supported operator",
+                                            "cooked": " is not a supported operator"
                                           },
                                           "tail": true
                                         }

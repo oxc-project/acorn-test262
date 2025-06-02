@@ -304,8 +304,8 @@ __ESTREE_TEST__:PASS:
               "start": 185,
               "end": 189,
               "value": {
-                "cooked": "f",
-                "raw": "f"
+                "raw": "f",
+                "cooked": "f"
               },
               "tail": false
             },
@@ -314,8 +314,8 @@ __ESTREE_TEST__:PASS:
               "start": 195,
               "end": 197,
               "value": {
-                "cooked": "",
-                "raw": ""
+                "raw": "",
+                "cooked": ""
               },
               "tail": true
             }
@@ -925,8 +925,8 @@ __ESTREE_TEST__:PASS:
                       "start": 460,
                       "end": 464,
                       "value": {
-                        "cooked": "f",
-                        "raw": "f"
+                        "raw": "f",
+                        "cooked": "f"
                       },
                       "tail": false
                     },
@@ -935,8 +935,8 @@ __ESTREE_TEST__:PASS:
                       "start": 474,
                       "end": 476,
                       "value": {
-                        "cooked": "",
-                        "raw": ""
+                        "raw": "",
+                        "cooked": ""
                       },
                       "tail": true
                     }
@@ -981,8 +981,8 @@ __ESTREE_TEST__:PASS:
                       "start": 479,
                       "end": 482,
                       "value": {
-                        "cooked": "",
-                        "raw": ""
+                        "raw": "",
+                        "cooked": ""
                       },
                       "tail": false
                     },
@@ -991,8 +991,8 @@ __ESTREE_TEST__:PASS:
                       "start": 492,
                       "end": 495,
                       "value": {
-                        "cooked": "f",
-                        "raw": "f"
+                        "raw": "f",
+                        "cooked": "f"
                       },
                       "tail": true
                     }

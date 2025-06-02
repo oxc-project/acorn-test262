@@ -287,8 +287,8 @@ __ESTREE_TEST__:PASS:
                   "start": 158,
                   "end": 164,
                   "value": {
-                    "cooked": "use",
-                    "raw": "use"
+                    "raw": "use",
+                    "cooked": "use"
                   },
                   "tail": false
                 },
@@ -297,8 +297,8 @@ __ESTREE_TEST__:PASS:
                   "start": 186,
                   "end": 193,
                   "value": {
-                    "cooked": "Query",
-                    "raw": "Query"
+                    "raw": "Query",
+                    "cooked": "Query"
                   },
                   "tail": true
                 }
@@ -625,8 +625,8 @@ __ESTREE_TEST__:PASS:
                                       "start": 106,
                                       "end": 113,
                                       "value": {
-                                        "cooked": "/user",
-                                        "raw": "/user"
+                                        "raw": "/user",
+                                        "cooked": "/user"
                                       },
                                       "tail": true
                                     }

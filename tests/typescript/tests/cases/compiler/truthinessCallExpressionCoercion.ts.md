@@ -1411,8 +1411,8 @@ __ESTREE_TEST__:PASS:
                             "start": 1288,
                             "end": 1303,
                             "value": {
-                              "cooked": "[Directory] ",
-                              "raw": "[Directory] "
+                              "raw": "[Directory] ",
+                              "cooked": "[Directory] "
                             },
                             "tail": false
                           },
@@ -1421,8 +1421,8 @@ __ESTREE_TEST__:PASS:
                             "start": 1314,
                             "end": 1316,
                             "value": {
-                              "cooked": "",
-                              "raw": ""
+                              "raw": "",
+                              "cooked": ""
                             },
                             "tail": true
                           }

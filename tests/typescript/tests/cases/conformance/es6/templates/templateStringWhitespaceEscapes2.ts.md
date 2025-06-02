@@ -19,8 +19,8 @@ __ESTREE_TEST__:PASS:
             "start": 42,
             "end": 80,
             "value": {
-              "cooked": "\t\u000b\f  ﻿",
-              "raw": "\\u0009\\u000B\\u000C\\u0020\\u00A0\\uFEFF"
+              "raw": "\\u0009\\u000B\\u000C\\u0020\\u00A0\\uFEFF",
+              "cooked": "\t\u000b\f  ﻿"
             },
             "tail": true
           }

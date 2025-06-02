@@ -93,8 +93,8 @@ __ESTREE_TEST__:PASS:
               "start": 34,
               "end": 41,
               "value": {
-                "cooked": "\r",
-                "raw": "\\x0D"
+                "raw": "\\x0D",
+                "cooked": "\r"
               },
               "tail": false
             },
@@ -103,8 +103,8 @@ __ESTREE_TEST__:PASS:
               "start": 61,
               "end": 67,
               "value": {
-                "cooked": "\n",
-                "raw": "\\x0A"
+                "raw": "\\x0A",
+                "cooked": "\n"
               },
               "tail": true
             }

@@ -29,8 +29,8 @@ __ESTREE_TEST__:PASS:
             "start": 66,
             "end": 69,
             "value": {
-              "cooked": "",
-              "raw": ""
+              "raw": "",
+              "cooked": ""
             },
             "tail": false
           },
@@ -39,8 +39,8 @@ __ESTREE_TEST__:PASS:
             "start": 75,
             "end": 77,
             "value": {
-              "cooked": "",
-              "raw": ""
+              "raw": "",
+              "cooked": ""
             },
             "tail": true
           }

@@ -1935,8 +1935,8 @@ __ESTREE_TEST__:PASS:
                               "start": 2238,
                               "end": 2241,
                               "value": {
-                                "cooked": "",
-                                "raw": ""
+                                "raw": "",
+                                "cooked": ""
                               },
                               "tail": false
                             },
@@ -1945,8 +1945,8 @@ __ESTREE_TEST__:PASS:
                               "start": 2260,
                               "end": 2265,
                               "value": {
-                                "cooked": " (",
-                                "raw": " ("
+                                "raw": " (",
+                                "cooked": " ("
                               },
                               "tail": false
                             },
@@ -1955,8 +1955,8 @@ __ESTREE_TEST__:PASS:
                               "start": 2273,
                               "end": 2277,
                               "value": {
-                                "cooked": ",",
-                                "raw": ","
+                                "raw": ",",
+                                "cooked": ","
                               },
                               "tail": false
                             },
@@ -1965,8 +1965,8 @@ __ESTREE_TEST__:PASS:
                               "start": 2290,
                               "end": 2296,
                               "value": {
-                                "cooked": "): ",
-                                "raw": "): "
+                                "raw": "): ",
+                                "cooked": "): "
                               },
                               "tail": false
                             },
@@ -1975,8 +1975,8 @@ __ESTREE_TEST__:PASS:
                               "start": 2303,
                               "end": 2305,
                               "value": {
-                                "cooked": "",
-                                "raw": ""
+                                "raw": "",
+                                "cooked": ""
                               },
                               "tail": true
                             }

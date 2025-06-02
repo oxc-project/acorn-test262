@@ -546,8 +546,8 @@ __ESTREE_TEST__:PASS:
                   "start": 221,
                   "end": 232,
                   "value": {
-                    "cooked": "hello bye",
-                    "raw": "hello bye"
+                    "raw": "hello bye",
+                    "cooked": "hello bye"
                   },
                   "tail": true
                 }
@@ -595,8 +595,8 @@ __ESTREE_TEST__:PASS:
                   "start": 252,
                   "end": 261,
                   "value": {
-                    "cooked": "hello ",
-                    "raw": "hello "
+                    "raw": "hello ",
+                    "cooked": "hello "
                   },
                   "tail": false
                 },
@@ -605,8 +605,8 @@ __ESTREE_TEST__:PASS:
                   "start": 262,
                   "end": 268,
                   "value": {
-                    "cooked": " bye",
-                    "raw": " bye"
+                    "raw": " bye",
+                    "cooked": " bye"
                   },
                   "tail": true
                 }

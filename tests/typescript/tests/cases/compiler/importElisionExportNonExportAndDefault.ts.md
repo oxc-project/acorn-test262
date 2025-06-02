@@ -289,8 +289,8 @@ __ESTREE_TEST__:PASS:
                         "start": 102,
                         "end": 118,
                         "value": {
-                          "cooked": "Got message \"",
-                          "raw": "Got message \""
+                          "raw": "Got message \"",
+                          "cooked": "Got message \""
                         },
                         "tail": false
                       },
@@ -299,8 +299,8 @@ __ESTREE_TEST__:PASS:
                         "start": 121,
                         "end": 124,
                         "value": {
-                          "cooked": "\"",
-                          "raw": "\""
+                          "raw": "\"",
+                          "cooked": "\""
                         },
                         "tail": true
                       }

@@ -132,8 +132,8 @@ __ESTREE_TEST__:PASS:
                                 "start": 229,
                                 "end": 258,
                                 "value": {
-                                  "cooked": "\n        color: red;\n      ",
-                                  "raw": "\n        color: red;\n      "
+                                  "raw": "\n        color: red;\n      ",
+                                  "cooked": "\n        color: red;\n      "
                                 },
                                 "tail": true
                               }

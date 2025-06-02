@@ -34,8 +34,8 @@ __ESTREE_TEST__:PASS:
                 "start": 8,
                 "end": 76,
                 "value": {
-                  "cooked": "Hello world",
-                  "raw": "\\u{48}\\u{65}\\u{6c}\\u{6c}\\u{6f}\\u{20}\\u{77}\\u{6f}\\u{72}\\u{6c}\\u{64}"
+                  "raw": "\\u{48}\\u{65}\\u{6c}\\u{6c}\\u{6f}\\u{20}\\u{77}\\u{6f}\\u{72}\\u{6c}\\u{64}",
+                  "cooked": "Hello world"
                 },
                 "tail": true
               }

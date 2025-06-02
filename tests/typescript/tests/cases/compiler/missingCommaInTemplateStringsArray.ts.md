@@ -43,8 +43,8 @@ __ESTREE_TEST__:PASS:
                       "start": 18,
                       "end": 37,
                       "value": {
-                        "cooked": "template string 1",
-                        "raw": "template string 1"
+                        "raw": "template string 1",
+                        "cooked": "template string 1"
                       },
                       "tail": true
                     }
@@ -62,8 +62,8 @@ __ESTREE_TEST__:PASS:
                       "start": 42,
                       "end": 61,
                       "value": {
-                        "cooked": "template string 2",
-                        "raw": "template string 2"
+                        "raw": "template string 2",
+                        "cooked": "template string 2"
                       },
                       "tail": true
                     }

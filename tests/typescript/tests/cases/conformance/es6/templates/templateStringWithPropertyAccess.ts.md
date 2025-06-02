@@ -27,8 +27,8 @@ __ESTREE_TEST__:PASS:
                 "start": 0,
                 "end": 6,
                 "value": {
-                  "cooked": "abc",
-                  "raw": "abc"
+                  "raw": "abc",
+                  "cooked": "abc"
                 },
                 "tail": false
               },
@@ -37,8 +37,8 @@ __ESTREE_TEST__:PASS:
                 "start": 7,
                 "end": 12,
                 "value": {
-                  "cooked": "abc",
-                  "raw": "abc"
+                  "raw": "abc",
+                  "cooked": "abc"
                 },
                 "tail": true
               }
@@ -77,8 +77,8 @@ __ESTREE_TEST__:PASS:
                 "start": 21,
                 "end": 26,
                 "value": {
-                  "cooked": "abc",
-                  "raw": "abc"
+                  "raw": "abc",
+                  "cooked": "abc"
                 },
                 "tail": true
               }

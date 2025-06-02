@@ -101,8 +101,8 @@ __ESTREE_TEST__:PASS:
                               "start": 73,
                               "end": 94,
                               "value": {
-                                "cooked": "error with status ",
-                                "raw": "error with status "
+                                "raw": "error with status ",
+                                "cooked": "error with status "
                               },
                               "tail": false
                             },
@@ -111,8 +111,8 @@ __ESTREE_TEST__:PASS:
                               "start": 100,
                               "end": 102,
                               "value": {
-                                "cooked": "",
-                                "raw": ""
+                                "raw": "",
+                                "cooked": ""
                               },
                               "tail": true
                             }

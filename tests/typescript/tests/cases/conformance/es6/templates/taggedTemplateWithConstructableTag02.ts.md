@@ -168,8 +168,8 @@ __ESTREE_TEST__:PASS:
               "start": 86,
               "end": 100,
               "value": {
-                "cooked": "Hello world!",
-                "raw": "Hello world!"
+                "raw": "Hello world!",
+                "cooked": "Hello world!"
               },
               "tail": true
             }

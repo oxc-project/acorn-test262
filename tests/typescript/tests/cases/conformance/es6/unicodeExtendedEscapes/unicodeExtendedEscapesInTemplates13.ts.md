@@ -34,8 +34,8 @@ __ESTREE_TEST__:PASS:
                 "start": 8,
                 "end": 19,
                 "value": {
-                  "cooked": "󝷝",
-                  "raw": "\\u{DDDDD}"
+                  "raw": "\\u{DDDDD}",
+                  "cooked": "󝷝"
                 },
                 "tail": true
               }

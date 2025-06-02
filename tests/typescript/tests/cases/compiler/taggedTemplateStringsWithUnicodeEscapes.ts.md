@@ -93,8 +93,8 @@ __ESTREE_TEST__:PASS:
               "start": 34,
               "end": 48,
               "value": {
-                "cooked": "'💩'",
-                "raw": "'\\u{1f4a9}'"
+                "raw": "'\\u{1f4a9}'",
+                "cooked": "'💩'"
               },
               "tail": false
             },
@@ -103,8 +103,8 @@ __ESTREE_TEST__:PASS:
               "start": 76,
               "end": 92,
               "value": {
-                "cooked": "'💩'",
-                "raw": "'\\uD83D\\uDCA9'"
+                "raw": "'\\uD83D\\uDCA9'",
+                "cooked": "'💩'"
               },
               "tail": true
             }

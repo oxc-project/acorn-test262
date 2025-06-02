@@ -892,8 +892,8 @@ __ESTREE_TEST__:PASS:
                                     "start": 969,
                                     "end": 972,
                                     "value": {
-                                      "cooked": "",
-                                      "raw": ""
+                                      "raw": "",
+                                      "cooked": ""
                                     },
                                     "tail": false
                                   },
@@ -902,8 +902,8 @@ __ESTREE_TEST__:PASS:
                                     "start": 996,
                                     "end": 1001,
                                     "value": {
-                                      "cooked": " (",
-                                      "raw": " ("
+                                      "raw": " (",
+                                      "cooked": " ("
                                     },
                                     "tail": false
                                   },
@@ -912,8 +912,8 @@ __ESTREE_TEST__:PASS:
                                     "start": 1009,
                                     "end": 1013,
                                     "value": {
-                                      "cooked": ",",
-                                      "raw": ","
+                                      "raw": ",",
+                                      "cooked": ","
                                     },
                                     "tail": false
                                   },
@@ -922,8 +922,8 @@ __ESTREE_TEST__:PASS:
                                     "start": 1026,
                                     "end": 1032,
                                     "value": {
-                                      "cooked": "): ",
-                                      "raw": "): "
+                                      "raw": "): ",
+                                      "cooked": "): "
                                     },
                                     "tail": false
                                   },
@@ -932,8 +932,8 @@ __ESTREE_TEST__:PASS:
                                     "start": 1039,
                                     "end": 1041,
                                     "value": {
-                                      "cooked": "",
-                                      "raw": ""
+                                      "raw": "",
+                                      "cooked": ""
                                     },
                                     "tail": true
                                   }
@@ -1163,8 +1163,8 @@ __ESTREE_TEST__:PASS:
                         "start": 1120,
                         "end": 1150,
                         "value": {
-                          "cooked": "Process exiting with code '",
-                          "raw": "Process exiting with code '"
+                          "raw": "Process exiting with code '",
+                          "cooked": "Process exiting with code '"
                         },
                         "tail": false
                       },
@@ -1173,8 +1173,8 @@ __ESTREE_TEST__:PASS:
                         "start": 1158,
                         "end": 1162,
                         "value": {
-                          "cooked": "'.",
-                          "raw": "'."
+                          "raw": "'.",
+                          "cooked": "'."
                         },
                         "tail": true
                       }

@@ -347,8 +347,8 @@ __ESTREE_TEST__:PASS:
                         "start": 407,
                         "end": 438,
                         "value": {
-                          "cooked": "That's the end of the game, ",
-                          "raw": "That's the end of the game, "
+                          "raw": "That's the end of the game, ",
+                          "cooked": "That's the end of the game, "
                         },
                         "tail": false
                       },
@@ -357,8 +357,8 @@ __ESTREE_TEST__:PASS:
                         "start": 442,
                         "end": 444,
                         "value": {
-                          "cooked": "",
-                          "raw": ""
+                          "raw": "",
+                          "cooked": ""
                         },
                         "tail": true
                       }
@@ -546,8 +546,8 @@ __ESTREE_TEST__:PASS:
                         "start": 596,
                         "end": 627,
                         "value": {
-                          "cooked": "That's the end of the game, ",
-                          "raw": "That's the end of the game, "
+                          "raw": "That's the end of the game, ",
+                          "cooked": "That's the end of the game, "
                         },
                         "tail": false
                       },
@@ -556,8 +556,8 @@ __ESTREE_TEST__:PASS:
                         "start": 631,
                         "end": 633,
                         "value": {
-                          "cooked": "",
-                          "raw": ""
+                          "raw": "",
+                          "cooked": ""
                         },
                         "tail": true
                       }
@@ -745,8 +745,8 @@ __ESTREE_TEST__:PASS:
                         "start": 779,
                         "end": 810,
                         "value": {
-                          "cooked": "That's the end of the game, ",
-                          "raw": "That's the end of the game, "
+                          "raw": "That's the end of the game, ",
+                          "cooked": "That's the end of the game, "
                         },
                         "tail": false
                       },
@@ -755,8 +755,8 @@ __ESTREE_TEST__:PASS:
                         "start": 814,
                         "end": 816,
                         "value": {
-                          "cooked": "",
-                          "raw": ""
+                          "raw": "",
+                          "cooked": ""
                         },
                         "tail": true
                       }
@@ -944,8 +944,8 @@ __ESTREE_TEST__:PASS:
                         "start": 969,
                         "end": 1000,
                         "value": {
-                          "cooked": "That's the end of the game, ",
-                          "raw": "That's the end of the game, "
+                          "raw": "That's the end of the game, ",
+                          "cooked": "That's the end of the game, "
                         },
                         "tail": false
                       },
@@ -954,8 +954,8 @@ __ESTREE_TEST__:PASS:
                         "start": 1004,
                         "end": 1006,
                         "value": {
-                          "cooked": "",
-                          "raw": ""
+                          "raw": "",
+                          "cooked": ""
                         },
                         "tail": true
                       }
