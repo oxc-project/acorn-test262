@@ -69243,8 +69243,8 @@ __ESTREE_TEST__:PASS:
             "value": null,
             "raw": "/moe/",
             "regex": {
-              "flags": "",
-              "pattern": "moe"
+              "pattern": "moe",
+              "flags": ""
             }
           }
         ],
@@ -71111,8 +71111,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/\\{\\{(.+?)\\}\\}/g",
                 "regex": {
-                  "flags": "g",
-                  "pattern": "\\{\\{(.+?)\\}\\}"
+                  "pattern": "\\{\\{(.+?)\\}\\}",
+                  "flags": "g"
                 }
               },
               "method": false,

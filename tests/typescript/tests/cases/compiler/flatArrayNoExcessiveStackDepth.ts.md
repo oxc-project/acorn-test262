@@ -387,8 +387,8 @@ __ESTREE_TEST__:PASS:
                               "value": null,
                               "raw": "/anything/",
                               "regex": {
-                                "flags": "",
-                                "pattern": "anything"
+                                "pattern": "anything",
+                                "flags": ""
                               }
                             }
                           ],

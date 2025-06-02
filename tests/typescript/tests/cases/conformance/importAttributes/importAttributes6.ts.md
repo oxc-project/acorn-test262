@@ -171,8 +171,8 @@ __ESTREE_TEST__:PASS:
             "value": null,
             "raw": "/a/g",
             "regex": {
-              "flags": "g",
-              "pattern": "a"
+              "pattern": "a",
+              "flags": "g"
             }
           }
         }

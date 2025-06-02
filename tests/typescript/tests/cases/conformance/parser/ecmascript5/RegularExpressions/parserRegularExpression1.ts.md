@@ -16,8 +16,8 @@ __ESTREE_TEST__:PASS:
         "value": null,
         "raw": "/(#?-?\\d*\\.\\d\\w*%?)|(@?#?[\\w-?]+%?)/g",
         "regex": {
-          "flags": "g",
-          "pattern": "(#?-?\\d*\\.\\d\\w*%?)|(@?#?[\\w-?]+%?)"
+          "pattern": "(#?-?\\d*\\.\\d\\w*%?)|(@?#?[\\w-?]+%?)",
+          "flags": "g"
         }
       },
       "directive": null

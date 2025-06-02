@@ -767,8 +767,8 @@ __ESTREE_TEST__:PASS:
                   "value": null,
                   "raw": "/(?<year>[0-9]{4})-(?<month>[0-9]{2})-(?<day>[0-9]{2})/g",
                   "regex": {
-                    "flags": "g",
-                    "pattern": "(?<year>[0-9]{4})-(?<month>[0-9]{2})-(?<day>[0-9]{2})"
+                    "pattern": "(?<year>[0-9]{4})-(?<month>[0-9]{2})-(?<day>[0-9]{2})",
+                    "flags": "g"
                   }
                 }
               ],
@@ -829,8 +829,8 @@ __ESTREE_TEST__:PASS:
                   "value": null,
                   "raw": "/(?<year>[0-9]{4})-(?<month>[0-9]{2})-(?<day>[0-9]{2})/g",
                   "regex": {
-                    "flags": "g",
-                    "pattern": "(?<year>[0-9]{4})-(?<month>[0-9]{2})-(?<day>[0-9]{2})"
+                    "pattern": "(?<year>[0-9]{4})-(?<month>[0-9]{2})-(?<day>[0-9]{2})",
+                    "flags": "g"
                   }
                 },
                 "property": {
@@ -904,8 +904,8 @@ __ESTREE_TEST__:PASS:
               "value": null,
               "raw": "/foo/g",
               "regex": {
-                "flags": "g",
-                "pattern": "foo"
+                "pattern": "foo",
+                "flags": "g"
               }
             },
             "property": {
@@ -1992,8 +1992,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/matchAll/g",
                 "regex": {
-                  "flags": "g",
-                  "pattern": "matchAll"
+                  "pattern": "matchAll",
+                  "flags": "g"
                 }
               },
               "property": {

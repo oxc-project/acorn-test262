@@ -191,8 +191,8 @@ __ESTREE_TEST__:PASS:
                             "value": null,
                             "raw": "/\\{(\\d+)\\}/g",
                             "regex": {
-                              "flags": "g",
-                              "pattern": "\\{(\\d+)\\}"
+                              "pattern": "\\{(\\d+)\\}",
+                              "flags": "g"
                             }
                           },
                           {

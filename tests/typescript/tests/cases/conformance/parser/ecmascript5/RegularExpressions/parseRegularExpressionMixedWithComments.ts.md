@@ -31,8 +31,8 @@ __ESTREE_TEST__:PASS:
             "value": null,
             "raw": "/ asdf /",
             "regex": {
-              "flags": "",
-              "pattern": " asdf "
+              "pattern": " asdf ",
+              "flags": ""
             }
           },
           "definite": false
@@ -66,8 +66,8 @@ __ESTREE_TEST__:PASS:
             "value": null,
             "raw": "/ asdf /",
             "regex": {
-              "flags": "",
-              "pattern": " asdf "
+              "pattern": " asdf ",
+              "flags": ""
             }
           },
           "definite": false
@@ -136,8 +136,8 @@ __ESTREE_TEST__:PASS:
               "value": null,
               "raw": "/ /",
               "regex": {
-                "flags": "",
-                "pattern": " "
+                "pattern": " ",
+                "flags": ""
               }
             },
             "operator": "**",
@@ -148,8 +148,8 @@ __ESTREE_TEST__:PASS:
               "value": null,
               "raw": "/asdf /",
               "regex": {
-                "flags": "",
-                "pattern": "asdf "
+                "pattern": "asdf ",
+                "flags": ""
               }
             }
           },
@@ -188,8 +188,8 @@ __ESTREE_TEST__:PASS:
               "value": null,
               "raw": "/ asdf/",
               "regex": {
-                "flags": "",
-                "pattern": " asdf"
+                "pattern": " asdf",
+                "flags": ""
               }
             },
             "operator": "**",
@@ -200,8 +200,8 @@ __ESTREE_TEST__:PASS:
               "value": null,
               "raw": "/ /",
               "regex": {
-                "flags": "",
-                "pattern": " "
+                "pattern": " ",
+                "flags": ""
               }
             }
           },

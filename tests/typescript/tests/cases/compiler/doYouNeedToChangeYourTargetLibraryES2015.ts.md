@@ -5556,8 +5556,8 @@ __ESTREE_TEST__:PASS:
               "value": null,
               "raw": "/abc/g",
               "regex": {
-                "flags": "g",
-                "pattern": "abc"
+                "pattern": "abc",
+                "flags": "g"
               }
             },
             "property": {
@@ -5607,8 +5607,8 @@ __ESTREE_TEST__:PASS:
               "value": null,
               "raw": "/abc/g",
               "regex": {
-                "flags": "g",
-                "pattern": "abc"
+                "pattern": "abc",
+                "flags": "g"
               }
             },
             "property": {
@@ -5658,8 +5658,8 @@ __ESTREE_TEST__:PASS:
               "value": null,
               "raw": "/abc/g",
               "regex": {
-                "flags": "g",
-                "pattern": "abc"
+                "pattern": "abc",
+                "flags": "g"
               }
             },
             "property": {

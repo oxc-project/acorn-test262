@@ -31,8 +31,8 @@ __ESTREE_TEST__:PASS:
             "value": null,
             "raw": "/\\u{0}/gu",
             "regex": {
-              "flags": "gu",
-              "pattern": "\\u{0}"
+              "pattern": "\\u{0}",
+              "flags": "gu"
             }
           },
           "definite": false

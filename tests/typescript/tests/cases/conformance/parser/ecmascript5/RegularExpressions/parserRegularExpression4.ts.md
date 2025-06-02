@@ -156,8 +156,8 @@ __ESTREE_TEST__:PASS:
                   "value": null,
                   "raw": "/(\\\\?|&)adurl=/",
                   "regex": {
-                    "flags": "",
-                    "pattern": "(\\\\?|&)adurl="
+                    "pattern": "(\\\\?|&)adurl=",
+                    "flags": ""
                   }
                 },
                 "property": {
@@ -224,8 +224,8 @@ __ESTREE_TEST__:PASS:
                   "value": null,
                   "raw": "/(\\\\?|&)q=/",
                   "regex": {
-                    "flags": "",
-                    "pattern": "(\\\\?|&)q="
+                    "pattern": "(\\\\?|&)q=",
+                    "flags": ""
                   }
                 },
                 "property": {
@@ -302,8 +302,8 @@ __ESTREE_TEST__:PASS:
                     "value": null,
                     "raw": "/ (\\\\ ? | & ) rct = j /",
                     "regex": {
-                      "flags": "",
-                      "pattern": " (\\\\ ? | & ) rct = j "
+                      "pattern": " (\\\\ ? | & ) rct = j ",
+                      "flags": ""
                     }
                   },
                   "property": {
@@ -391,8 +391,8 @@ __ESTREE_TEST__:PASS:
                     "value": null,
                     "raw": "/(\\\\?|&)q=/",
                     "regex": {
-                      "flags": "",
-                      "pattern": "(\\\\?|&)q="
+                      "pattern": "(\\\\?|&)q=",
+                      "flags": ""
                     }
                   },
                   "property": {

@@ -297,8 +297,8 @@ __ESTREE_TEST__:PASS:
           "value": null,
           "raw": "/regexp/g",
           "regex": {
-            "flags": "g",
-            "pattern": "regexp"
+            "pattern": "regexp",
+            "flags": "g"
           }
         }
       },

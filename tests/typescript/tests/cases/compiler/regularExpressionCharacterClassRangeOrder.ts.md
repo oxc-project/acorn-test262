@@ -60,8 +60,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/[𝘈-𝘡][𝘡-𝘈]/",
                 "regex": {
-                  "flags": "",
-                  "pattern": "[𝘈-𝘡][𝘡-𝘈]"
+                  "pattern": "[𝘈-𝘡][𝘡-𝘈]",
+                  "flags": ""
                 }
               },
               {
@@ -71,8 +71,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/[𝘈-𝘡][𝘡-𝘈]/u",
                 "regex": {
-                  "flags": "u",
-                  "pattern": "[𝘈-𝘡][𝘡-𝘈]"
+                  "pattern": "[𝘈-𝘡][𝘡-𝘈]",
+                  "flags": "u"
                 }
               },
               {
@@ -82,8 +82,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/[𝘈-𝘡][𝘡-𝘈]/v",
                 "regex": {
-                  "flags": "v",
-                  "pattern": "[𝘈-𝘡][𝘡-𝘈]"
+                  "pattern": "[𝘈-𝘡][𝘡-𝘈]",
+                  "flags": "v"
                 }
               },
               {
@@ -93,8 +93,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/[\\u{1D608}-\\u{1D621}][\\u{1D621}-\\u{1D608}]/",
                 "regex": {
-                  "flags": "",
-                  "pattern": "[\\u{1D608}-\\u{1D621}][\\u{1D621}-\\u{1D608}]"
+                  "pattern": "[\\u{1D608}-\\u{1D621}][\\u{1D621}-\\u{1D608}]",
+                  "flags": ""
                 }
               },
               {
@@ -104,8 +104,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/[\\u{1D608}-\\u{1D621}][\\u{1D621}-\\u{1D608}]/u",
                 "regex": {
-                  "flags": "u",
-                  "pattern": "[\\u{1D608}-\\u{1D621}][\\u{1D621}-\\u{1D608}]"
+                  "pattern": "[\\u{1D608}-\\u{1D621}][\\u{1D621}-\\u{1D608}]",
+                  "flags": "u"
                 }
               },
               {
@@ -115,8 +115,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/[\\u{1D608}-\\u{1D621}][\\u{1D621}-\\u{1D608}]/v",
                 "regex": {
-                  "flags": "v",
-                  "pattern": "[\\u{1D608}-\\u{1D621}][\\u{1D621}-\\u{1D608}]"
+                  "pattern": "[\\u{1D608}-\\u{1D621}][\\u{1D621}-\\u{1D608}]",
+                  "flags": "v"
                 }
               },
               {
@@ -126,8 +126,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/[\\uD835\\uDE08-\\uD835\\uDE21][\\uD835\\uDE21-\\uD835\\uDE08]/",
                 "regex": {
-                  "flags": "",
-                  "pattern": "[\\uD835\\uDE08-\\uD835\\uDE21][\\uD835\\uDE21-\\uD835\\uDE08]"
+                  "pattern": "[\\uD835\\uDE08-\\uD835\\uDE21][\\uD835\\uDE21-\\uD835\\uDE08]",
+                  "flags": ""
                 }
               },
               {
@@ -137,8 +137,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/[\\uD835\\uDE08-\\uD835\\uDE21][\\uD835\\uDE21-\\uD835\\uDE08]/u",
                 "regex": {
-                  "flags": "u",
-                  "pattern": "[\\uD835\\uDE08-\\uD835\\uDE21][\\uD835\\uDE21-\\uD835\\uDE08]"
+                  "pattern": "[\\uD835\\uDE08-\\uD835\\uDE21][\\uD835\\uDE21-\\uD835\\uDE08]",
+                  "flags": "u"
                 }
               },
               {
@@ -148,8 +148,8 @@ __ESTREE_TEST__:PASS:
                 "value": null,
                 "raw": "/[\\uD835\\uDE08-\\uD835\\uDE21][\\uD835\\uDE21-\\uD835\\uDE08]/v",
                 "regex": {
-                  "flags": "v",
-                  "pattern": "[\\uD835\\uDE08-\\uD835\\uDE21][\\uD835\\uDE21-\\uD835\\uDE08]"
+                  "pattern": "[\\uD835\\uDE08-\\uD835\\uDE21][\\uD835\\uDE21-\\uD835\\uDE08]",
+                  "flags": "v"
                 }
               }
             ]
