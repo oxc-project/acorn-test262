@@ -25,9 +25,14 @@ export function transformerAcorn(_key, value) {
   const { type } = value;
   if (type === 'ImportDeclaration' || type === 'ImportExpression') {
     if (!Object.hasOwn(value, 'phase')) value.phase = null;
-  } else if (type === 'Literal' && Object.hasOwn(value, 'regex')) {
-    value.regex.flags = [...value.regex.flags].sort().join('');
-    value.value = null;
+  } else if (type === 'Literal') {
+    if (
+      Object.hasOwn(value, 'regex') && value.regex && typeof value.regex === 'object' &&
+      typeof value.regex.flags === 'string'
+    ) {
+      value.regex.flags = [...value.regex.flags].sort().join('');
+      if (Object.hasOwn(value, 'value')) value.value = null;
+    }
   } else if (
     type === 'ClassDeclaration' || type === 'ClassExpression' ||
     type === 'MethodDefinition' || type === 'PropertyDefinition'
@@ -57,6 +62,7 @@ export function transformerAcorn(_key, value) {
 // Makes the same changes as `acornTransformer`, but also:
 // * Converts location fields.
 // * Replaces `undefined` with `null`.
+// * Alters field order of regex `Literal`s and `TemplateElement`s.
 // * Does not add `decorators` fields, as they already exist.
 export function transformerTs(_key, value) {
   if (typeof value === 'bigint') return null;
@@ -67,9 +73,16 @@ export function transformerTs(_key, value) {
   const { type } = value;
   if (type === 'ImportDeclaration' || type === 'ImportExpression') {
     if (!Object.hasOwn(value, 'phase')) value.phase = null;
-  } else if (type === 'Literal' && Object.hasOwn(value, 'regex')) {
-    value.regex.flags = [...value.regex.flags].sort().join('');
-    value.value = null;
+  } else if (type === 'Literal') {
+    if (
+      Object.hasOwn(value, 'regex') && value.regex && typeof value.regex === 'object' &&
+      typeof value.regex.flags === 'string'
+    ) {
+      value.regex.flags = [...value.regex.flags].sort().join('');
+      if (Object.hasOwn(value, 'value')) value.value = null;
+      // Reverse order of `pattern` and `flags` fields to match Acorn
+      value.regex = { pattern: undefined, ...value.regex };
+    }
   } else if (type === 'TemplateElement') {
     if (value.value && typeof value.value === 'object' && Object.hasOwn(value.value, 'raw')) {
       // Reverse order of `raw` and `cooked` fields to match Acorn
