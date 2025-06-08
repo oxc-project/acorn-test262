@@ -91,14 +91,12 @@ function fixMeriyahValue(value, code) {
 function fixMeriyahNode(node, code) {
   const { type } = node;
   if (type === 'Literal') {
-    // `bigint` property of a `Literal` which is a `BigInt` should not contain `_`s
+    // `bigint` property of a `Literal` which is a `BigInt` should be decimal digits only
+    // - no `_`s, and not e.g. `0xFF`.
     // https://github.com/estree/estree/blob/master/es2020.md#bigintliteral
     // https://github.com/meriyah/meriyah/issues/411
-    // Acorn gets this property wrong too, but in a different way - spec says
-    // "It must contain only decimal digits" so `0xFFn` should have `bigint: '255'` not `bigint: '0xFF'`.
-    // TS-ESLint gets this right.
     if (Object.hasOwn(node, 'bigint') && typeof node.bigint === 'string') {
-      node.bigint = node.bigint.replace(/_/g, '');
+      node.bigint = String(BigInt(node.bigint.replace(/_/g, '')));
     }
   } else if (type === 'TemplateElement') {
     if (Object.hasOwn(node, 'value') && node.value && typeof node.value === 'object') {
