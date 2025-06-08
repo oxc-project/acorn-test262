@@ -75,7 +75,7 @@
                           "end": 921,
                           "value": null,
                           "raw": "0b101n",
-                          "bigint": "0b101"
+                          "bigint": "5"
                         }
                       ],
                       "optional": false
@@ -178,7 +178,7 @@
                           "end": 1031,
                           "value": null,
                           "raw": "0b101n",
-                          "bigint": "0b101"
+                          "bigint": "5"
                         }
                       ],
                       "optional": false
@@ -373,7 +373,7 @@
                                       "end": 1253,
                                       "value": null,
                                       "raw": "0b101n",
-                                      "bigint": "0b101"
+                                      "bigint": "5"
                                     }
                                   }
                                 ]
@@ -553,7 +553,7 @@
                                       "end": 1515,
                                       "value": null,
                                       "raw": "0b101n",
-                                      "bigint": "0b101"
+                                      "bigint": "5"
                                     }
                                   }
                                 ]
@@ -712,7 +712,7 @@
                                       "end": 1733,
                                       "value": null,
                                       "raw": "0b101n",
-                                      "bigint": "0b101"
+                                      "bigint": "5"
                                     }
                                   }
                                 ]
@@ -813,7 +813,7 @@
                       "end": 1874,
                       "value": null,
                       "raw": "0b101n",
-                      "bigint": "0b101"
+                      "bigint": "5"
                     },
                     "operator": ">>>",
                     "right": {
@@ -1001,7 +1001,7 @@
                       "end": 2145,
                       "value": null,
                       "raw": "0b101n",
-                      "bigint": "0b101"
+                      "bigint": "5"
                     },
                     "operator": ">>>",
                     "right": {
@@ -1155,7 +1155,7 @@
                       "end": 2358,
                       "value": null,
                       "raw": "0b101n",
-                      "bigint": "0b101"
+                      "bigint": "5"
                     },
                     "operator": ">>>",
                     "right": {
@@ -1325,7 +1325,7 @@
                                       "end": 2580,
                                       "value": null,
                                       "raw": "0b101n",
-                                      "bigint": "0b101"
+                                      "bigint": "5"
                                     }
                                   }
                                 ]

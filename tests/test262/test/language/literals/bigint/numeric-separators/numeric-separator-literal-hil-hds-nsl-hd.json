@@ -37,7 +37,7 @@
             "end": 820,
             "value": null,
             "raw": "0x01_0n",
-            "bigint": "0x010"
+            "bigint": "16"
           },
           {
             "type": "Literal",
@@ -45,7 +45,7 @@
             "end": 828,
             "value": null,
             "raw": "0x010n",
-            "bigint": "0x010"
+            "bigint": "16"
           }
         ],
         "optional": false
@@ -85,7 +85,7 @@
             "end": 855,
             "value": null,
             "raw": "0X01_0n",
-            "bigint": "0X010"
+            "bigint": "16"
           },
           {
             "type": "Literal",
@@ -93,7 +93,7 @@
             "end": 863,
             "value": null,
             "raw": "0X010n",
-            "bigint": "0X010"
+            "bigint": "16"
           }
         ],
         "optional": false

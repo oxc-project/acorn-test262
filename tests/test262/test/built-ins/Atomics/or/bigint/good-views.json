@@ -280,7 +280,7 @@
                       "end": 625,
                       "value": null,
                       "raw": "0x33333333n",
-                      "bigint": "0x33333333"
+                      "bigint": "858993459"
                     }
                   }
                 },
@@ -319,7 +319,7 @@
                       "end": 653,
                       "value": null,
                       "raw": "0x33333333n",
-                      "bigint": "0x33333333"
+                      "bigint": "858993459"
                     }
                   }
                 },
@@ -394,7 +394,7 @@
                             "end": 711,
                             "value": null,
                             "raw": "0x55555555n",
-                            "bigint": "0x55555555"
+                            "bigint": "1431655765"
                           }
                         ],
                         "optional": false
@@ -465,7 +465,7 @@
                       "end": 849,
                       "value": null,
                       "raw": "0x77777777n",
-                      "bigint": "0x77777777"
+                      "bigint": "2004318071"
                     }
                   }
                 },
@@ -619,7 +619,7 @@
                             "end": 1036,
                             "value": null,
                             "raw": "0xF0F0F0F0n",
-                            "bigint": "0xF0F0F0F0"
+                            "bigint": "4042322160"
                           }
                         ],
                         "optional": false
@@ -690,7 +690,7 @@
                       "end": 1174,
                       "value": null,
                       "raw": "0xF7F7F7F7n",
-                      "bigint": "0xF7F7F7F7"
+                      "bigint": "4160223223"
                     }
                   }
                 },

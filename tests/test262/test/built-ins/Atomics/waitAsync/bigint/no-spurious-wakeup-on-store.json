@@ -547,7 +547,7 @@
                             "end": 1832,
                             "value": null,
                             "raw": "0b1010n",
-                            "bigint": "0b1010"
+                            "bigint": "10"
                           }
                         ],
                         "optional": false
