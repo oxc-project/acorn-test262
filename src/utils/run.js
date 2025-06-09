@@ -31,8 +31,8 @@ export async function run({ submodule, subDirectory, filter, transform, process 
   }
 
   // Empty outputs directory
-  await fs.rm(outputsDirPath, { recursive: true, force: true });
-  await fs.mkdir(outputsDirPath, { recursive: true });
+  // await fs.rm(outputsDirPath, { recursive: true, force: true });
+  // await fs.mkdir(outputsDirPath, { recursive: true });
 
   // Run all fixtures
   let parseFailCount = 0;
@@ -45,6 +45,8 @@ export async function run({ submodule, subDirectory, filter, transform, process 
       parseFailCount++;
       continue;
     }
+
+    continue;
 
     for (const output of outputs) {
       const outputPath = pathJoin(outputsDirPath, output.path);
