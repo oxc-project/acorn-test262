@@ -36,6 +36,8 @@ export async function run({ submodule, subDirectory, filter, transform, process 
       continue;
     }
 
+    continue;
+
     // Write outputs
     for (const output of outputs) {
       const outputPath = pathJoin(outputsDirPath, output.path);
@@ -59,6 +61,8 @@ export async function run({ submodule, subDirectory, filter, transform, process 
       oldOutputPaths.delete(output.path);
     }
   }
+
+  oldOutputPaths.clear();
 
   // Delete old outputs
   for (let path of oldOutputPaths) {
