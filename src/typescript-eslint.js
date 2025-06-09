@@ -70,9 +70,9 @@ await run({
         }
 
         const json = stringifyWith(program, transformerTs);
-        output += `__ESTREE_TEST__:PASS:` + '\n```json\n' + json + '\n```\n';
+        output += '__ESTREE_TEST__:PASS:\n```json\n' + json + '\n```\n';
       } catch (e) {
-        // output += `__ESTREE_TEST__:FAIL:` + '\n```json\n' + e.message + '\n```\n';
+        // output += '__ESTREE_TEST__:FAIL:\n```json\n' + e.message + '\n```\n';
         return;
       }
     }
