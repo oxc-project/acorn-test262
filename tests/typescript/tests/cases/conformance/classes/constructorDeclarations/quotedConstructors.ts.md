@@ -34,13 +34,11 @@ __ESTREE_TEST__:PASS:
             "end": 64,
             "decorators": [],
             "key": {
-              "type": "Identifier",
+              "type": "Literal",
               "start": 14,
               "end": 27,
-              "decorators": [],
-              "name": "constructor",
-              "optional": false,
-              "typeAnnotation": null
+              "value": "constructor",
+              "raw": "\"constructor\""
             },
             "value": {
               "type": "FunctionExpression",
@@ -148,13 +146,11 @@ __ESTREE_TEST__:PASS:
             "end": 132,
             "decorators": [],
             "key": {
-              "type": "Identifier",
+              "type": "Literal",
               "start": 82,
               "end": 95,
-              "decorators": [],
-              "name": "constructor",
-              "optional": false,
-              "typeAnnotation": null
+              "value": "constructor",
+              "raw": "'constructor'"
             },
             "value": {
               "type": "FunctionExpression",
@@ -374,13 +370,11 @@ __ESTREE_TEST__:PASS:
                 "end": 272,
                 "decorators": [],
                 "key": {
-                  "type": "Identifier",
+                  "type": "Literal",
                   "start": 222,
                   "end": 235,
-                  "decorators": [],
-                  "name": "constructor",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "value": "constructor",
+                  "raw": "\"constructor\""
                 },
                 "value": {
                   "type": "FunctionExpression",
@@ -560,13 +554,11 @@ __ESTREE_TEST__:PASS:
             "end": 377,
             "decorators": [],
             "key": {
-              "type": "Identifier",
+              "type": "Literal",
               "start": 324,
               "end": 340,
-              "decorators": [],
-              "name": "constructor",
-              "optional": false,
-              "typeAnnotation": null
+              "value": "constructor",
+              "raw": "\"\\x63onstructor\""
             },
             "value": {
               "type": "FunctionExpression",
