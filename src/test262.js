@@ -54,7 +54,7 @@ await run({
           next: true, // Enable parsing decorators and import attributes
         });
       } catch (meriyahErr) {
-        // console.log(acornErr.message);
+        // console.log(meriyahErr.message);
         return;
       }
 
